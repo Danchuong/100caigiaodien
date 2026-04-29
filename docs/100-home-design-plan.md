@@ -2,32 +2,39 @@
 
 ## Mục tiêu
 
-Khách yêu cầu 100 giao diện khác nhau cho trang home. Cách làm nên gọn, có hệ thống, dễ kiểm soát và hạn chế trùng lặp.
+Khách yêu cầu 100 giao diện khác nhau cho trang home. Yêu cầu thật không chỉ là đủ số lượng, mà là khi nhìn qua nhiều mẫu, khách không thấy cảm giác "cùng một template đổi màu".
 
-Không nên thiết kế từng mẫu theo cảm tính. Nên dùng ma trận:
-
-```text
-100 giao diện = 10 layout x 10 style
-```
-
-Mỗi giao diện phải khác nhau tối thiểu ở 2 điểm:
-
-- Bố cục tổng thể.
-- Phong cách màu sắc, typography, spacing, card style.
-
-## Quy ước đặt tên
-
-Tiếp tục theo dạng clone theme:
+Vì vậy không dùng công thức cứng:
 
 ```text
-des-1
-des-2
-des-3
-...
-des-100
+10 layout x 10 style
 ```
 
-Mỗi theme clone chỉ tập trung thiết kế lại home. Các file bàn giao tối thiểu:
+Công thức này chỉ dùng như seed nội bộ để không bị bí ý tưởng. Kế hoạch chính chuyển sang cách quản lý bằng `design genome`: mỗi mẫu là một concept có cá tính riêng, được mô tả bằng nhiều trục thiết kế và phải qua scoring chống trùng.
+
+## Tài liệu nghiên cứu liên quan
+
+Folder nghiên cứu chính:
+
+```text
+docs/100-home-design-research/
+```
+
+Đọc theo thứ tự:
+
+1. `03-anti-duplicate-taxonomy.md`: framework chống trùng và design genome.
+2. `05-quality-review-and-rules.md`: luật reject/accept từng mẫu.
+3. `04-first-20-concepts.md`: 20 concept đầu để triển khai ngay.
+4. `01-real-site-inspiration.md`: pattern từ website thật.
+5. `02-visual-language-systems.md`: các hướng visual language.
+
+File này là kế hoạch vận hành tổng thể. Các file research là nguồn chi tiết.
+
+## Phạm vi
+
+Chỉ thiết kế lại trang home.
+
+Các file thường bàn giao cho mỗi mẫu:
 
 ```text
 home.php
@@ -35,191 +42,210 @@ css/_home.scss
 style.css
 ```
 
-Không chỉnh header/footer nếu không có lỗi trực tiếp làm home hiển thị sai.
+Không thiết kế lại header/footer nếu không có lỗi trực tiếp làm home hiển thị sai.
 
-## 10 nhóm layout
+## Bất biến bắt buộc
 
-### Layout 01: Cinematic hero
-
-Hero lớn, ảnh nền mạnh, text lớn, bên dưới là review nổi bật rồi game/blog.
-
-Phù hợp cho các mẫu có cảm giác gaming, trailer, tin nóng.
-
-### Layout 02: Magazine grid
-
-Trang home giống trang báo game: nhiều block tin, review lớn, blog dạng editorial.
-
-Phù hợp cho style báo chí, review, cập nhật game.
-
-### Layout 03: App store catalog
-
-Game/post là trung tâm, trình bày như kho ứng dụng. Review và blog là các section phụ.
-
-Phù hợp cho website game HTML5 hoặc app/game directory.
-
-### Layout 04: Bento grid
-
-Các block kích thước khác nhau, tạo cảm giác hiện đại. Review/blog/game xen kẽ trong grid.
-
-Phù hợp cho mẫu trẻ, hiện đại, khác rõ bản gốc.
-
-### Layout 05: Sidebar editorial
-
-Một cột nội dung chính lớn, một sidebar chứa game/review nhỏ.
-
-Phù hợp cho mẫu đọc tin, desktop đẹp, vẫn responsive mobile.
-
-### Layout 06: Featured carousel style
-
-Hero hoặc section đầu có cảm giác slider/carousel, dù có thể không cần JS thật.
-
-Phù hợp cho mẫu giống gaming portal.
-
-### Layout 07: Dashboard gaming
-
-Bố cục giống dashboard: panel, stats, list dọc, card tối màu.
-
-Phù hợp cho style esports, power user, game ranking.
-
-### Layout 08: Minimal news feed
-
-Ít hiệu ứng, nhiều khoảng trắng, tập trung đọc nội dung.
-
-Phù hợp cho style sạch, nhẹ, dễ dùng mobile.
-
-### Layout 09: Poster wall
-
-Ảnh lớn, card như poster game/movie, tiêu đề đặt đè hoặc bên dưới.
-
-Phù hợp cho mẫu nhiều hình ảnh, tạo khác biệt mạnh.
-
-### Layout 10: Masonry/stacked feed
-
-Các card xếp dạng masonry hoặc stacked sections. Không cần JS masonry thật nếu CSS grid đủ ổn.
-
-Phù hợp cho mẫu blog/game collection.
-
-## 10 nhóm style
-
-### Style 01: Dark neon gaming
-
-Nền tối, xanh neon/lime/cyan, card tối, text mạnh.
-
-### Style 02: Clean light app
-
-Nền sáng, card trắng, border nhẹ, màu accent rõ.
-
-### Style 03: Retro arcade
-
-Màu đậm, cảm giác arcade, heading lớn, border rõ.
-
-### Style 04: Editorial magazine
-
-Typography giống tạp chí, section rõ, ảnh lớn, spacing rộng.
-
-### Style 05: Cyberpunk
-
-Tối, vàng/cyan/magenta, contrast mạnh, block sắc cạnh.
-
-### Style 06: Console store
-
-Cảm giác giống cửa hàng console/game: card gọn, grid đều, icon/rating rõ.
-
-### Style 07: Minimal black-white-accent
-
-Đen trắng là chính, chỉ một màu accent. Rất khác các mẫu màu mè.
-
-### Style 08: Soft modern
-
-Màu nhẹ, nền dịu, card mềm, phù hợp mobile.
-
-### Style 09: Esport bold
-
-Heading lớn, layout mạnh, màu đỏ/cam/vàng hoặc xanh điện.
-
-### Style 10: Mobile-first compact
-
-Thiết kế ưu tiên mobile trước: section ngắn, card gọn, text không dài.
-
-## Cách ghép thành 100 mẫu
-
-Mỗi layout ghép với đủ 10 style:
-
-```text
-des-1  = Layout 01 + Style 01
-des-2  = Layout 01 + Style 02
-des-3  = Layout 01 + Style 03
-...
-des-10 = Layout 01 + Style 10
-
-des-11 = Layout 02 + Style 01
-des-12 = Layout 02 + Style 02
-...
-des-20 = Layout 02 + Style 10
-
-...
-
-des-91  = Layout 10 + Style 01
-des-100 = Layout 10 + Style 10
-```
-
-## Bảng triển khai
-
-| Theme | Layout | Style | Ghi chú |
-| --- | --- | --- | --- |
-| des-1 | Layout 01 | Style 01 | Đã bắt đầu: cinematic hero + dark gaming |
-| des-2 | Layout 01 | Style 02 | Cinematic hero + clean light app |
-| des-3 | Layout 01 | Style 03 | Cinematic hero + retro arcade |
-| des-4 | Layout 01 | Style 04 | Cinematic hero + editorial magazine |
-| des-5 | Layout 01 | Style 05 | Cinematic hero + cyberpunk |
-| des-6 | Layout 01 | Style 06 | Cinematic hero + console store |
-| des-7 | Layout 01 | Style 07 | Cinematic hero + minimal black-white-accent |
-| des-8 | Layout 01 | Style 08 | Cinematic hero + soft modern |
-| des-9 | Layout 01 | Style 09 | Cinematic hero + esport bold |
-| des-10 | Layout 01 | Style 10 | Cinematic hero + mobile-first compact |
-| des-11 đến des-20 | Layout 02 | Style 01 đến 10 | Magazine grid |
-| des-21 đến des-30 | Layout 03 | Style 01 đến 10 | App store catalog |
-| des-31 đến des-40 | Layout 04 | Style 01 đến 10 | Bento grid |
-| des-41 đến des-50 | Layout 05 | Style 01 đến 10 | Sidebar editorial |
-| des-51 đến des-60 | Layout 06 | Style 01 đến 10 | Featured carousel style |
-| des-61 đến des-70 | Layout 07 | Style 01 đến 10 | Dashboard gaming |
-| des-71 đến des-80 | Layout 08 | Style 01 đến 10 | Minimal news feed |
-| des-81 đến des-90 | Layout 09 | Style 01 đến 10 | Poster wall |
-| des-91 đến des-100 | Layout 10 | Style 01 đến 10 | Masonry/stacked feed |
-
-## Checklist để tránh trùng lặp
-
-Trước khi làm một mẫu mới, cần xác định:
-
-- Mẫu này thuộc layout số mấy.
-- Mẫu này thuộc style số mấy.
-- Hero khác mẫu trước thế nào.
-- Review 5 bài hiển thị khác mẫu trước thế nào.
-- Game 5 bài hiển thị khác mẫu trước thế nào.
-- Blog 3 bài hiển thị khác mẫu trước thế nào.
-- Mobile 320px có vỡ layout không.
-
-Nếu chỉ đổi màu mà bố cục giống hoàn toàn thì chưa đủ khác biệt.
-
-Nếu chỉ đổi layout nhưng màu/card/heading giống hoàn toàn thì cũng chưa đủ khác biệt.
-
-## Quy trình làm mỗi giao diện
-
-1. Clone theme gốc hoặc theme nền sang folder mới, ví dụ `des-2`.
-2. Chỉ sửa `home.php` và `css/_home.scss`.
-3. Build SCSS ra `style.css`.
-4. Active theme ở local để xem.
-5. Kiểm tra desktop và mobile từ `320px`.
-6. Commit riêng cho từng giao diện.
-7. Copy 3 file bàn giao ra folder riêng để zip gửi khách nếu cần.
-
-## Nội dung bắt buộc không được mất
-
-Mỗi home vẫn phải có đủ:
+Mọi giao diện home, dù khác nhau đến đâu, vẫn phải giữ:
 
 - 3 bài `blog`, random.
 - 5 bài `review`, random.
 - 5 bài `post/game`, random.
+- Responsive tốt từ `320px`.
+- Class rõ ràng, ưu tiên scope home như `.home-wrapper`, `.home-hero`, `.home-review-card`.
+- Header/footer hiện có vẫn hoạt động bình thường.
 
-Không được bỏ section chỉ vì layout mới.
+Không được bỏ section chỉ để mẫu nhìn khác.
+
+## Quy ước folder theme
+
+Mỗi mẫu vẫn là một theme clone riêng:
+
+```text
+wp-content/themes/des-1/
+wp-content/themes/des-2/
+wp-content/themes/des-3/
+...
+wp-content/themes/des-100/
+```
+
+Lý do giữ cách này:
+
+- Dễ active từng mẫu trong WordPress local.
+- Dễ zip riêng từng mẫu cho khách.
+- Dễ commit riêng từng giao diện.
+- Không làm rối theme gốc `h5game`.
+
+## Cách đặt tên concept
+
+Mỗi mẫu cần có ID kỹ thuật và tên concept:
+
+```text
+des-1  = H001 - Cinematic Neon Launchpad
+des-2  = H002 - Bright Trailer Shelf
+des-3  = H003 - Retro Arcade Marquee
+...
+des-100 = H100 - [Codename]
+```
+
+Quy tắc:
+
+- `des-*` là tên folder theme.
+- `H###` là số concept trong registry.
+- Codename phải gợi được cá tính, không dùng tên chung như `Modern Home`, `Dark Layout`, `Design 12`.
+- Mỗi concept phải có mô tả riêng: hero, section order, card treatment, mobile behavior.
+
+Danh sách 20 concept đầu nằm trong:
+
+```text
+docs/100-home-design-research/04-first-20-concepts.md
+```
+
+## Design genome
+
+Mỗi concept được mô tả bằng 8 trục:
+
+```text
+ID | Codename | IA | Hero | Rhythm | Metaphor | Density | HomeNav | Card | Responsive
+```
+
+Các trục chính:
+
+- `Information Architecture`: home vận hành như front page, hub, ranking board, dashboard, map, feed...
+- `Hero Treatment`: lead story, cover, terminal, rank board, anti-hero, random pick...
+- `Content Rhythm`: pulse, ladder, zigzag, stack, mosaic, stream, levels...
+- `Visual Metaphor`: arcade, newsroom, inventory, terminal, magazine, lab, stadium...
+- `Density`: airy, balanced, dense, focused, controlled chaos.
+- `Navigation Within Home`: anchor, tabs, filter, rail, map node, mode dial...
+- `Card Mechanics`: score card, ticket, inventory slot, poster, compare strip...
+- `Responsive Behavior`: priority rewrite, horizontal shelf, mobile tabs, dense list...
+
+Một mẫu mới không được duyệt chỉ vì đổi màu. Nó phải khác đủ nhiều trục so với các mẫu đã có.
+
+## Scoring chống trùng
+
+Khi tạo concept mới, so với các concept đã có và chấm điểm khác biệt.
+
+Ngưỡng duyệt:
+
+- Khác tối thiểu `>= 54/100` với mọi concept cũ.
+- Khác tối thiểu `>= 64/100` với 20 concept gần nhất.
+- Khác ít nhất 4 trong 8 trục genome.
+- Trong 4 trục trọng yếu `IA`, `Hero`, `Rhythm`, `Metaphor`, phải khác ít nhất 2 trục.
+- Không trùng bộ ba `IA + Hero + Rhythm`.
+- Không trùng bộ ba `Metaphor + Card + Responsive`.
+
+Nếu một mẫu chỉ đổi palette, font, radius, shadow hoặc thứ tự section thì reject.
+
+Chi tiết scoring nằm trong:
+
+```text
+docs/100-home-design-research/03-anti-duplicate-taxonomy.md
+```
+
+## Workflow làm 1 giao diện
+
+1. Chọn concept tiếp theo trong registry.
+2. Kiểm tra concept có khác đủ so với các mẫu đã làm chưa.
+3. Clone theme nền sang folder mới, ví dụ `des-2`.
+4. Chỉ sửa `home.php` và `css/_home.scss` nếu không có lý do khác.
+5. Build SCSS ra `style.css`.
+6. Active theme ở local.
+7. Kiểm tra desktop và mobile `320px`.
+8. Kiểm tra đủ 3 blog, 5 review, 5 post/game.
+9. Commit riêng cho mẫu đó.
+10. Copy file bàn giao ra folder zip nếu cần gửi khách.
+
+## Workflow theo batch
+
+Không nên làm 100 mẫu một mạch. Nên chia batch:
+
+```text
+Batch 01: des-1 đến des-10
+Batch 02: des-11 đến des-20
+...
+Batch 10: des-91 đến des-100
+```
+
+Với mỗi batch 10 mẫu:
+
+- Trước khi code: chốt 10 concept bằng `design genome`.
+- Trong khi code: mỗi mẫu commit riêng.
+- Sau khi code: review lại 10 mẫu bằng checklist trong `05-quality-review-and-rules.md`.
+- Nếu có 2 mẫu nhìn gần nhau, sửa ngay trong batch đó, không để dồn cuối.
+
+Sau mỗi 20 mẫu nên audit lớn:
+
+- Có mẫu nào giống nhau quá không.
+- Mobile có bị collapse giống nhau hết không.
+- Review/game/blog có bị dùng cùng card quá nhiều không.
+- Có style nào bị lạm dụng không.
+
+## Registry cần duy trì
+
+Nên tạo hoặc cập nhật registry khi bắt đầu làm nhiều mẫu hơn:
+
+```text
+docs/100-home-design-registry.md
+```
+
+Mỗi dòng nên có:
+
+```text
+Theme | Concept ID | Codename | Genome | Status | Notes
+```
+
+Ví dụ:
+
+```text
+des-1 | H001 | Cinematic Neon Launchpad | FRONT/LEAD/PULSE/PORTAL/BALANCED/NONE/POSTER/PRIORITY | Done | Đã triển khai
+des-2 | H002 | Bright Trailer Shelf | HUB/SPLIT/STACK/STORE/BALANCED/ANCHOR/STANDARD/CAROUSEL | Planned | Làm tiếp
+```
+
+## Hướng triển khai gần nhất
+
+`des-1` đã làm theo hướng:
+
+```text
+H001 - Cinematic Neon Launchpad
+```
+
+Các mẫu tiếp theo nên lấy từ:
+
+```text
+docs/100-home-design-research/04-first-20-concepts.md
+```
+
+Không nên tiếp tục bằng cách "copy des-1 rồi đổi màu". Với `des-2`, cần đổi rõ:
+
+- Section order.
+- Card mechanics.
+- Visual metaphor.
+- Mobile behavior.
+
+## Checklist nghiệm thu ngắn
+
+Trước khi coi một mẫu là xong:
+
+- Home load HTTP `200`.
+- Không có PHP fatal/warning mới.
+- Có đủ 3 blog, 5 review, 5 post/game.
+- Mobile `320px` không horizontal overflow.
+- Text không tràn card/button.
+- Ảnh không làm layout vỡ nếu thiếu thumbnail.
+- Không sửa header/footer ngoài scope.
+- Giao diện khác rõ ít nhất 4 trục genome so với mẫu gần nhất.
+- Commit riêng, message rõ.
+
+## Bàn giao cho khách
+
+Nếu khách chỉ cần file thay vào theme hiện tại, mỗi mẫu bàn giao tối thiểu:
+
+```text
+home.php
+css/_home.scss
+style.css
+```
+
+Nếu có chỉnh thêm file nào ngoài 3 file trên, phải ghi rõ trong note bàn giao.
 
