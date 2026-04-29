@@ -75,12 +75,12 @@ Không chỉ đổi màu. Một style mới cần khác rõ ở ít nhất vài 
 
 Nếu nhìn nhanh vẫn giống mẫu trước, chưa đạt.
 
-## Mẫu đã làm
+## Trạng thái hiện tại
 
-Hiện tại:
+Hiện tại `des-1` đã được reset về clone sạch của `h5game`, nên chưa tính là style hoàn thành.
 
 ```text
-Style 1 = des-1 = Hero Poster Cinema = Done
+Style 1 = des-1 = Hero Poster Cinema = Todo
 ```
 
 Các style tiếp theo xem trực tiếp trong:

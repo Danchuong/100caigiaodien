@@ -15,7 +15,7 @@ Không dùng thêm mã `H001`, `S001` hay registry khác.
 
 | # | Theme | Style | Trạng thái | Ghi chú |
 | ---: | --- | --- | --- | --- |
-| 1 | des-1 | Hero Poster Cinema | Done | Đã làm. Hero cinematic tối, review đầu như poster lớn. |
+| 1 | des-1 | Hero Poster Cinema | Todo | Đã reset về clone `h5game`, sẽ thiết kế lại từ đầu. |
 | 2 | des-2 | Mobile App Store Cards | Todo | App-store sáng, game-first, card compact. |
 | 3 | des-3 | Arcade Cabinet Neon | Todo | Marquee, arcade border, cabinet card. |
 | 4 | des-4 | Premium Magazine Cover | Todo | Tạp chí game, ảnh lớn, typography editorial. |
