@@ -1,0 +1,362 @@
+/* des-4 dense portal header start */
+.site-head {
+    background: #17191f;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    box-shadow: 0 18px 40px rgba(24, 30, 42, 0.16);
+    margin-bottom: 0;
+}
+
+.head-topline {
+    background: #242832;
+    color: rgba(255, 255, 255, 0.68);
+    font-size: 0.78rem;
+    font-weight: 600;
+    letter-spacing: 0;
+    text-transform: uppercase;
+}
+
+.head-topline-inner {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    min-height: 2.25rem;
+}
+
+.head-topline-links {
+    display: flex;
+    gap: 1rem;
+
+    a {
+        color: #ffd166;
+
+        &:hover {
+            color: #ffffff;
+        }
+    }
+}
+
+.site-head .head-wrapper {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: minmax(9rem, 0.8fr) minmax(18rem, 1.25fr) minmax(18rem, 1.4fr);
+    height: auto;
+    min-height: 5rem;
+    padding: 0.9rem 0;
+}
+
+.site-head .head-left,
+.site-head .head-center,
+.site-head .head-right {
+    align-items: center;
+    display: flex;
+}
+
+.site-head .head-left {
+    min-width: 0;
+}
+
+.site-head .head-center {
+    justify-content: center;
+    min-width: 0;
+}
+
+.site-head .head-right {
+    gap: 1rem;
+    justify-content: flex-end;
+    min-width: 0;
+}
+
+.site-head .head-logo a {
+    color: #ffffff;
+    display: inline-flex;
+    font-size: clamp(1.35rem, 2vw, 1.9rem);
+    font-weight: 800;
+    line-height: 1;
+    max-width: 100%;
+    overflow-wrap: anywhere;
+    text-transform: uppercase;
+}
+
+.site-head .head-search {
+    display: block;
+    max-width: 31rem;
+    width: 100%;
+}
+
+.site-head .head-search-wrapper {
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    border-radius: 0;
+    box-shadow: none;
+    min-width: 0;
+    width: 100%;
+
+    form {
+        align-items: center;
+        display: flex;
+        gap: 0.35rem;
+        margin: 0;
+    }
+
+    input {
+        color: #ffffff !important;
+        min-height: 2.8rem;
+        min-width: 0;
+        padding: 0.6rem 0.8rem;
+
+        &::placeholder {
+            color: rgba(255, 255, 255, 0.58);
+        }
+    }
+}
+
+.head-search-submit,
+.head-search-btn,
+.head-btn {
+    align-items: center;
+    background: #ffd166;
+    border: 0;
+    border-radius: 0;
+    color: #17191f;
+    display: inline-flex;
+    flex: 0 0 auto;
+    height: 2.75rem;
+    justify-content: center;
+    min-width: 2.75rem;
+    padding: 0;
+}
+
+.head-search-btn,
+.head-btn {
+    display: none;
+}
+
+.site-head .icon-search {
+    display: block;
+    height: 1rem;
+    position: relative;
+    right: auto;
+    top: auto;
+    transform: none;
+    width: 1rem;
+}
+
+.site-head .icon-search span,
+.site-head .icon-search > div {
+    border: solid 0.12rem currentColor;
+    border-radius: 100%;
+    color: currentColor;
+    display: block;
+    height: 85%;
+    position: relative;
+    transform: rotate(-45deg);
+    width: 85%;
+}
+
+.site-head .icon-search span::before,
+.site-head .icon-search > div::before {
+    background-color: currentColor;
+    content: "";
+    height: 60%;
+    left: 50%;
+    margin-top: 0.1rem;
+    position: absolute;
+    top: 100%;
+    transform: translateX(-50%);
+    width: 0.12rem;
+}
+
+.site-head .icon-menu {
+    border-bottom: 2px #17191f solid;
+    border-top: 2px #17191f solid;
+    display: flex;
+    height: 1.2rem;
+    width: 1.45rem;
+}
+
+.site-head .icon-menu span,
+.site-head .icon-menu div {
+    background: #17191f;
+    display: block;
+    height: 2px;
+    margin: auto 0;
+    width: 100%;
+}
+
+.site-head #primary-menu {
+    min-width: 0;
+}
+
+.site-head #primary-menu ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem 0.8rem;
+    justify-content: flex-end;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    a {
+        color: rgba(255, 255, 255, 0.78);
+        display: inline-flex;
+        font-size: 0.86rem;
+        font-weight: 700;
+        padding: 0.3rem 0;
+        text-transform: uppercase;
+
+        &:hover {
+            color: #ffd166;
+        }
+    }
+}
+
+.head-portal-rail {
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    display: flex;
+    gap: 0;
+    overflow-x: auto;
+    padding: 0.55rem 0;
+    scrollbar-width: none;
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
+
+    a {
+        border-right: 1px solid rgba(255, 255, 255, 0.1);
+        color: rgba(255, 255, 255, 0.74);
+        flex: 0 0 auto;
+        font-size: 0.82rem;
+        font-weight: 700;
+        padding: 0.15rem 1rem;
+        text-transform: uppercase;
+
+        &:first-child {
+            padding-left: 0;
+        }
+
+        &:hover {
+            color: #7bdff2;
+        }
+    }
+}
+
+@media (max-width: 1040px) {
+    .site-head .head-wrapper {
+        grid-template-columns: 1fr minmax(16rem, 1fr) auto;
+    }
+
+    .site-head #primary-menu ul {
+        gap: 0.3rem 0.55rem;
+    }
+}
+
+@media (max-width: 842px) {
+    .head-topline {
+        display: none;
+    }
+
+    .site-head .head-wrapper {
+        grid-template-columns: 1fr auto auto;
+        min-height: 4.25rem;
+        position: relative;
+    }
+
+    .site-head .head-center {
+        display: contents;
+    }
+
+    .site-head .head-right {
+        gap: 0.5rem;
+        position: static;
+    }
+
+    .head-search-btn,
+    .head-btn {
+        display: inline-flex;
+    }
+
+    .site-head .head-search {
+        display: none;
+        left: auto;
+        padding: 0;
+        position: static;
+        right: auto;
+        top: auto;
+    }
+
+    .site-head .head-search.active {
+        display: block;
+        grid-column: 1 / -1;
+        order: 10;
+        padding-top: 0.25rem;
+    }
+
+    .site-head .head-search-wrapper {
+        max-width: none;
+        opacity: 1;
+        pointer-events: auto;
+        width: 100%;
+    }
+
+    .site-head .head-menu ul#main-menu,
+    .site-head #primary-menu ul {
+        background: #242832;
+        box-shadow: 0 18px 40px rgba(0, 0, 0, 0.2);
+        display: grid;
+        gap: 0;
+        left: 1rem;
+        margin-top: 0;
+        min-width: 0;
+        opacity: 0;
+        padding: 0.5rem;
+        pointer-events: none;
+        position: absolute;
+        right: 1rem;
+        top: calc(100% - 0.25rem);
+        width: auto;
+        z-index: 30;
+
+        li a {
+            color: #ffffff;
+            display: flex;
+            font-size: 0.95rem;
+            min-height: 2.75rem;
+            padding: 0.7rem 0.75rem;
+        }
+    }
+
+    .site-head .head-menu.active ul#main-menu {
+        opacity: 1;
+        pointer-events: auto;
+    }
+}
+
+@media (max-width: 520px) {
+    .site-head .head-logo a {
+        font-size: 1.18rem;
+    }
+
+    .head-search-submit,
+    .head-search-btn,
+    .head-btn {
+        height: 2.6rem;
+        min-width: 2.6rem;
+    }
+
+    .head-portal-rail a {
+        font-size: 0.78rem;
+        padding: 0.15rem 0.75rem;
+    }
+}
+
+@media (max-width: 340px) {
+    .site-head .head-wrapper {
+        gap: 0.45rem;
+    }
+
+    .site-head .head-logo a {
+        font-size: 1rem;
+    }
+}
+/* des-4 dense portal header end */

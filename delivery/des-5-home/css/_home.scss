@@ -1,0 +1,458 @@
+.home {
+    background-color: #f4efe7;
+
+    .site-body {
+        background:
+            linear-gradient(90deg, rgba(#14110f, 0.045) 1px, transparent 1px),
+            linear-gradient(#f4efe7, #fffaf0 42%, #f4efe7);
+        background-size: 72px 72px, 100% 100%;
+    }
+}
+
+.home-issue {
+    color: #171412;
+    padding-bottom: 1rem;
+}
+
+.issue-cover {
+    margin-bottom: 0;
+    padding: 4rem 0 4.5rem;
+    border-bottom: 1px solid rgba(#171412, 0.18);
+}
+
+.issue-cover-grid {
+    display: grid;
+    grid-template-columns: minmax(9rem, 0.48fr) minmax(16rem, 25rem) minmax(20rem, 1fr);
+    gap: 2rem;
+    align-items: end;
+}
+
+.issue-cover-index {
+    display: flex;
+    flex-direction: column;
+    gap: 0.65rem;
+    padding-bottom: 1rem;
+    border-top: 2px solid #171412;
+
+    a {
+        min-height: 44px;
+        display: flex;
+        align-items: center;
+        color: #171412;
+        border-bottom: 1px solid rgba(#171412, 0.18);
+        font-weight: 600;
+
+        &:hover {
+            color: #a23d2b;
+        }
+    }
+}
+
+.issue-small-title,
+.issue-kicker,
+.issue-cover-meta,
+.issue-section-head,
+.notebook-item p,
+.review-index-card span {
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 0;
+    text-transform: uppercase;
+}
+
+.issue-small-title {
+    padding-top: 0.8rem;
+    color: #a23d2b;
+}
+
+.issue-cover-art {
+    display: block;
+    padding: 0.65rem;
+    background-color: #171412;
+    transform: rotate(-1.25deg);
+
+    img {
+        display: block;
+        width: 100%;
+        aspect-ratio: 3 / 4;
+        object-fit: cover;
+        background-color: #ddd4c8;
+    }
+
+    &:hover {
+        transform: rotate(0deg) translateY(-0.25rem);
+    }
+}
+
+.issue-cover-copy {
+    padding: 0 0 1rem;
+}
+
+.issue-kicker {
+    color: #a23d2b;
+    margin-bottom: 1rem;
+}
+
+.issue-cover-title {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 5rem;
+    line-height: 0.94;
+    letter-spacing: 0;
+    margin-bottom: 1rem;
+
+    a {
+        color: #171412;
+
+        &:hover {
+            color: #a23d2b;
+        }
+    }
+}
+
+.issue-cover-meta {
+    color: rgba(#171412, 0.62);
+    margin-bottom: 1.25rem;
+}
+
+.issue-link {
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #171412;
+    color: #171412;
+    padding: 0.65rem 1.25rem;
+    font-weight: 700;
+
+    &:hover {
+        background-color: #171412;
+        color: #fffaf0;
+    }
+}
+
+.issue-section {
+    margin-bottom: 0;
+    padding: 3.25rem 0;
+    border-bottom: 1px solid rgba(#171412, 0.14);
+}
+
+.issue-section-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1.35rem;
+
+    p {
+        margin: 0;
+        color: #a23d2b;
+    }
+
+    a {
+        min-height: 44px;
+        display: inline-flex;
+        align-items: center;
+        color: #171412;
+        font-weight: 700;
+        border-bottom: 1px solid currentColor;
+
+        &:hover {
+            color: #a23d2b;
+        }
+    }
+}
+
+.editor-pick-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    border-top: 2px solid #171412;
+    border-left: 1px solid rgba(#171412, 0.18);
+}
+
+.editor-pick-card {
+    min-height: 18rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1.4rem;
+    color: #171412;
+    background-color: rgba(#fffaf0, 0.72);
+    border-right: 1px solid rgba(#171412, 0.18);
+    border-bottom: 1px solid rgba(#171412, 0.18);
+
+    span {
+        font-weight: 700;
+        color: #a23d2b;
+    }
+
+    h2 {
+        font-family: Georgia, "Times New Roman", serif;
+        font-size: 2.35rem;
+        line-height: 1;
+        letter-spacing: 0;
+        margin: 2rem 0;
+    }
+
+    p {
+        margin: 0;
+        color: rgba(#171412, 0.62);
+        font-weight: 600;
+    }
+
+    &:hover {
+        background-color: #171412;
+        color: #fffaf0;
+
+        p {
+            color: rgba(#fffaf0, 0.72);
+        }
+    }
+}
+
+.notebook-list {
+    border-top: 2px solid #171412;
+}
+
+.notebook-item {
+    display: grid;
+    grid-template-columns: 5rem 1fr;
+    gap: 1rem;
+    padding: 1.15rem 0;
+    color: #171412;
+    border-bottom: 1px solid rgba(#171412, 0.16);
+
+    > span {
+        font-family: Georgia, "Times New Roman", serif;
+        font-size: 2rem;
+        line-height: 1;
+        color: rgba(#171412, 0.42);
+    }
+
+    p {
+        margin-bottom: 0.35rem;
+        color: #a23d2b;
+    }
+
+    h3 {
+        font-family: Georgia, "Times New Roman", serif;
+        font-size: 2rem;
+        line-height: 1.08;
+        letter-spacing: 0;
+        margin: 0;
+    }
+
+    &:hover {
+        color: #a23d2b;
+    }
+}
+
+.review-index-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 1rem;
+}
+
+.review-index-card {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    color: #171412;
+    background-color: #fffaf0;
+    border: 1px solid rgba(#171412, 0.16);
+
+    img {
+        width: 100%;
+        aspect-ratio: 4 / 3;
+        object-fit: cover;
+        filter: saturate(0.75);
+    }
+
+    div {
+        padding: 1rem;
+    }
+
+    span {
+        display: block;
+        color: #a23d2b;
+        margin-bottom: 0.5rem;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+        line-height: 1.2;
+        margin: 0;
+        @include line-truncate(3, 1.45rem);
+    }
+
+    &:hover {
+        border-color: #171412;
+        transform: translateY(-0.15rem);
+    }
+}
+
+.game-shelf-grid {
+    display: grid;
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    gap: 0.75rem;
+}
+
+.game-shelf-card {
+    color: #171412;
+
+    img {
+        width: 100%;
+        aspect-ratio: 1 / 1;
+        object-fit: cover;
+        border: 1px solid rgba(#171412, 0.16);
+        filter: grayscale(0.1);
+    }
+
+    h3 {
+        font-size: 1rem;
+        line-height: 1.2;
+        margin-top: 0.65rem;
+        @include line-truncate(2, 1.25rem);
+    }
+
+    &:hover {
+        color: #a23d2b;
+    }
+}
+
+@media (max-width: 1100px) {
+    .issue-cover-grid {
+        grid-template-columns: minmax(8rem, 0.4fr) minmax(14rem, 21rem) minmax(18rem, 1fr);
+    }
+
+    .issue-cover-title {
+        font-size: 4rem;
+    }
+
+    .game-shelf-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 842px) {
+    .issue-cover {
+        padding: 2rem 0 2.5rem;
+    }
+
+    .issue-cover-grid {
+        grid-template-columns: 1fr;
+        gap: 1.25rem;
+    }
+
+    .issue-cover-art {
+        order: 1;
+        width: min(100%, 21rem);
+        margin: 0 auto;
+    }
+
+    .issue-cover-copy {
+        order: 2;
+        padding-bottom: 0;
+    }
+
+    .issue-cover-index {
+        order: 3;
+        padding-bottom: 0;
+    }
+
+    .issue-cover-title {
+        font-size: 3.15rem;
+    }
+
+    .editor-pick-grid,
+    .review-index-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .editor-pick-card {
+        min-height: 12rem;
+
+        h2 {
+            font-size: 2rem;
+        }
+    }
+
+    .notebook-item {
+        grid-template-columns: 3.2rem 1fr;
+
+        h3 {
+            font-size: 1.55rem;
+        }
+    }
+}
+
+@media (max-width: 540px) {
+    .home .site-body {
+        background-size: 48px 48px, 100% 100%;
+    }
+
+    .issue-cover {
+        padding-top: 1.25rem;
+    }
+
+    .issue-cover-title {
+        font-size: 2.45rem;
+        line-height: 1;
+    }
+
+    .issue-cover-art {
+        padding: 0.45rem;
+        transform: none;
+    }
+
+    .issue-section {
+        padding: 2.25rem 0;
+    }
+
+    .issue-section-head {
+        align-items: flex-end;
+    }
+
+    .editor-pick-card {
+        padding: 1rem;
+
+        h2 {
+            font-size: 1.55rem;
+        }
+    }
+
+    .notebook-item {
+        grid-template-columns: 2.4rem 1fr;
+
+        > span {
+            font-size: 1.35rem;
+        }
+
+        h3 {
+            font-size: 1.3rem;
+        }
+    }
+
+    .review-index-card {
+        display: grid;
+        grid-template-columns: 5.75rem 1fr;
+
+        img {
+            height: 100%;
+            aspect-ratio: 1 / 1;
+        }
+    }
+
+    .game-shelf-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 340px) {
+    .issue-cover-title {
+        font-size: 2.15rem;
+    }
+
+    .game-shelf-grid {
+        grid-template-columns: 1fr;
+    }
+}

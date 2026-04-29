@@ -64,20 +64,20 @@ Chỉ tham khảo cách tổ chức bố cục, không copy code, asset, screens
 | # | Theme | Layout form | Status | Fingerprint |
 | ---: | --- | --- | --- | --- |
 | 1 | des-1 | Search First Directory | Done | Header search-first; no poster hero; flow search/platform/game rows/review scores/blog notes; directory footer; mobile search + chips + compact lists. |
-| 2 | des-2 | Lead Left With Trending Rail | Todo | Masthead header; hero lead left + rail right; flow news first; mixed large/small cards; latest footer; mobile lead then compact rail. |
-| 3 | des-3 | Center Lead Newspaper | Todo | Center-logo header; hero centered headline; flow category bands; 3-column newspaper cards; compact legal footer; mobile text-first feed. |
-| 4 | des-4 | Mosaic News Wall | Todo | Dense portal header; hero 1 large + 4 small mosaic; flow blogs/reviews/games; image mosaic cards; mega sitemap footer; mobile story stack. |
-| 5 | des-5 | Editorial Issue Cover | Todo | Editorial minimal header; hero cover-like vertical feature; flow editor picks then sections; large typography cards; minimal footer; mobile cover then index. |
-| 6 | des-6 | Carousel Above News Desk | Todo | Compact news header; hero carousel; flow latest/blog/review/game; grid + headline list; latest posts footer; mobile swipe rail then list. |
-| 7 | des-7 | Split Hero Editor Picks | Todo | Split-nav header; hero split feature + picks; flow picks first; horizontal article cards; newsletter footer; mobile picks before feature. |
-| 8 | des-8 | Newspaper Three Column | Todo | Magazine masthead; no image-heavy hero; flow 3 news columns; headline-first cards; category footer; mobile chronological columns collapse. |
-| 9 | des-9 | Section Band Magazine | Todo | Top-bar header; hero full-width band; flow wide section bands; alternating card ratios; partner footer; mobile band separators. |
+| 2 | des-2 | Lead Left With Trending Rail | Done | Masthead header; hero lead left + rail right; flow news first; mixed large/small cards; latest footer; mobile lead then compact rail. |
+| 3 | des-3 | Center Lead Newspaper | Done | Center-logo header; hero centered headline; flow category bands; 3-column newspaper cards; compact legal footer; mobile text-first feed. |
+| 4 | des-4 | Mosaic News Wall | Done | Dense portal header; hero 1 large + 4 small mosaic; flow blogs/reviews/games; image mosaic cards; mega sitemap footer; mobile story stack. |
+| 5 | des-5 | Editorial Issue Cover | Done | Editorial minimal header; hero cover-like vertical feature; flow editor picks then sections; large typography cards; minimal footer; mobile cover then index. |
+| 6 | des-6 | Carousel Above News Desk | Done | Compact news header; hero carousel; flow latest/blog/review/game; grid + headline list; latest posts footer; mobile swipe rail then list. |
+| 7 | des-7 | Split Hero Editor Picks | Done | Split-nav header; hero split feature + picks; flow picks first; horizontal article cards; newsletter footer; mobile picks before feature. |
+| 8 | des-8 | Newspaper Three Column | Done | Magazine masthead; no image-heavy hero; flow 3 news columns; headline-first cards; category footer; mobile chronological columns collapse. |
+| 9 | des-9 | Section Band Magazine | Done | Top-bar header; hero full-width band; flow wide section bands; alternating card ratios; partner footer; mobile band separators. |
 
 ### 2. Review hub
 
 | # | Theme | Layout form | Status | Fingerprint |
 | ---: | --- | --- | --- | --- |
-| 10 | des-10 | Review Score Hero | Todo | Review hub header; hero review with large score; flow reviews first; score cards; review leaderboard footer; mobile score card first. |
+| 10 | des-10 | Review Score Hero | Done | Review hub header; hero review with large score; flow reviews first; score cards; review leaderboard footer; mobile score card first. |
 | 11 | des-11 | Top Rated Table | Todo | Platform tabs header; hero top rated table; flow ranking/reviews/news/games; table rows + small cards; compact footer; mobile table cards. |
 | 12 | des-12 | Platform Review Lanes | Todo | Platform tabs header; hero platform selector; flow lanes by platform; lane cards with score badges; category footer; mobile chip rail. |
 | 13 | des-13 | Critic User Split | Todo | Center split header; hero critic/user comparison; flow reviews then games; split verdict cards; review footer; mobile dual-score cards. |

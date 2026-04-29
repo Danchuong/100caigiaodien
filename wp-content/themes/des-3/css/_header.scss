@@ -1,0 +1,289 @@
+.site-header-newspaper {
+    background: #fffaf0;
+    border-bottom: 1px solid rgba(#171412, 0.24);
+    box-shadow: none;
+    margin-bottom: 0;
+    position: relative;
+    z-index: 20;
+}
+
+.site-header-newspaper .head-wrapper {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr auto 1fr;
+    height: auto;
+    min-height: 5.5rem;
+    position: relative;
+}
+
+.site-header-newspaper .head-left,
+.site-header-newspaper .head-center,
+.site-header-newspaper .head-right {
+    align-items: center;
+    display: flex;
+}
+
+.site-header-newspaper .head-center {
+    justify-content: center;
+}
+
+.site-header-newspaper .head-right {
+    justify-content: flex-end;
+}
+
+.site-header-newspaper .head-logo a {
+    color: #171412;
+    display: block;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: clamp(1.8rem, 4vw, 3rem);
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.site-header-newspaper #primary-menu ul {
+    gap: 1.1rem;
+}
+
+.site-header-newspaper #primary-menu a {
+    color: #4f463c;
+    font-size: 0.82rem;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.site-header-newspaper #primary-menu a:hover {
+    color: #9b231d;
+}
+
+.site-header-newspaper .head-search {
+    display: block;
+    max-width: 230px;
+}
+
+.site-header-newspaper .head-search-wrapper {
+    background: #f7f3eb;
+    border: 1px solid rgba(#171412, 0.26);
+    border-radius: 999px;
+    min-width: 0;
+    width: 100%;
+}
+
+.site-header-newspaper .head-search-wrapper form {
+    align-items: center;
+    display: flex;
+}
+
+.site-header-newspaper .head-search-wrapper input {
+    color: #171412 !important;
+    font-size: 0.86rem;
+    min-width: 0;
+    padding: 0.55rem 0.1rem 0.55rem 0.9rem;
+}
+
+.site-header-newspaper .head-search-submit {
+    align-items: center;
+    background: transparent;
+    border: 0;
+    color: #171412;
+    display: inline-flex;
+    flex: 0 0 2.4rem;
+    height: 2.4rem;
+    justify-content: center;
+    padding: 0;
+    position: relative;
+}
+
+.site-header-newspaper .head-search-btn,
+.site-header-newspaper .head-btn {
+    align-items: center;
+    border: 1px solid rgba(#171412, 0.28);
+    border-radius: 50%;
+    color: #171412;
+    height: 2.75rem;
+    justify-content: center;
+    padding: 0;
+    position: relative;
+    width: 2.75rem;
+}
+
+.site-header-newspaper .head-search-btn {
+    display: none;
+}
+
+.site-header-newspaper .head-btn {
+    display: none;
+}
+
+.site-header-newspaper .icon-search {
+    display: inline-flex;
+    height: 1.05rem;
+    position: relative;
+    right: auto;
+    top: auto;
+    transform: none;
+    width: 1.05rem;
+}
+
+.site-header-newspaper .icon-search span {
+    border: 0.12rem solid currentColor;
+    border-radius: 50%;
+    display: block;
+    height: 0.78rem;
+    position: relative;
+    width: 0.78rem;
+}
+
+.site-header-newspaper .icon-search span::after {
+    background: currentColor;
+    content: "";
+    height: 0.48rem;
+    left: 0.62rem;
+    position: absolute;
+    top: 0.58rem;
+    transform: rotate(-45deg);
+    width: 0.12rem;
+}
+
+.site-header-newspaper .icon-menu {
+    border: 0;
+    display: inline-flex;
+    height: 1.1rem;
+    position: relative;
+    width: 1.35rem;
+}
+
+.site-header-newspaper .icon-menu::before,
+.site-header-newspaper .icon-menu::after,
+.site-header-newspaper .icon-menu span {
+    background: currentColor;
+    content: "";
+    height: 2px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+}
+
+.site-header-newspaper .icon-menu::before {
+    top: 0;
+}
+
+.site-header-newspaper .icon-menu span {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.site-header-newspaper .icon-menu::after {
+    bottom: 0;
+}
+
+@media (max-width: 991.98px) {
+    .site-header-newspaper .head-wrapper {
+        gap: 0.75rem;
+        grid-template-columns: 1fr auto;
+        min-height: 4.4rem;
+    }
+
+    .site-header-newspaper .head-left {
+        grid-column: 1 / -1;
+        order: 3;
+    }
+
+    .site-header-newspaper .head-center {
+        justify-content: flex-start;
+        order: 1;
+    }
+
+    .site-header-newspaper .head-right {
+        gap: 0.45rem;
+        order: 2;
+    }
+
+    .site-header-newspaper .head-logo a {
+        font-size: clamp(1.45rem, 7vw, 2rem);
+        text-align: left;
+    }
+
+    .site-header-newspaper .head-btn,
+    .site-header-newspaper .head-search-btn {
+        display: inline-flex;
+    }
+
+    .site-header-newspaper .head-search {
+        display: none;
+        left: 0;
+        max-width: none;
+        padding: 0 0 0.8rem;
+        position: absolute;
+        right: 0;
+        top: 100%;
+        z-index: 30;
+    }
+
+    .site-header-newspaper .head-search.active {
+        display: block;
+    }
+
+    .site-header-newspaper .head-search-wrapper {
+        background: #fffaf0;
+        border-radius: 0;
+        box-shadow: 0 16px 26px rgba(#171412, 0.14);
+        margin: 0;
+        max-width: none;
+        opacity: 1;
+        pointer-events: auto;
+        width: 100%;
+    }
+
+    .site-header-newspaper .head-search-wrapper input {
+        font-size: 16px;
+        min-height: 44px;
+    }
+
+    .site-header-newspaper .head-menu {
+        background: #171412;
+        border: 1px solid rgba(#fffaf0, 0.18);
+        box-shadow: 0 18px 30px rgba(#171412, 0.22);
+        display: none;
+        left: 0;
+        padding: 0.75rem;
+        position: absolute;
+        right: 0;
+        top: 100%;
+        z-index: 31;
+    }
+
+    .site-header-newspaper .head-menu.active {
+        display: block;
+    }
+
+    .site-header-newspaper #primary-menu ul {
+        background: transparent;
+        display: grid;
+        gap: 0;
+        margin: 0;
+        opacity: 1;
+        padding: 0;
+        pointer-events: auto;
+        position: static;
+        transform: none;
+    }
+
+    .site-header-newspaper #primary-menu a {
+        color: #fffaf0;
+        display: block;
+        min-height: 44px;
+        padding: 0.75rem 0.4rem;
+    }
+}
+
+@media (max-width: 360px) {
+    .site-header-newspaper .head-wrapper {
+        gap: 0.5rem;
+    }
+
+    .site-header-newspaper .head-logo a {
+        font-size: 1.3rem;
+    }
+}

@@ -1,0 +1,125 @@
+.latest-footer {
+    margin-top: 4rem;
+    border-top: 0;
+    background: #111827;
+    color: rgba(255, 255, 255, 0.78);
+    padding: 3.5rem 0 2rem;
+}
+
+.foot-wrapper {
+    display: grid;
+    grid-template-columns: minmax(14rem, 0.8fr) minmax(0, 1.7fr);
+    gap: 3rem;
+}
+
+.foot-brand {
+    min-width: 0;
+}
+
+.foot-logo {
+    color: #fff;
+    font-size: 1.7rem;
+    font-weight: 900;
+    text-transform: uppercase;
+
+    &:hover {
+        color: #f7c948;
+    }
+}
+
+.foot-description {
+    max-width: 22rem;
+    margin: 1rem 0 0;
+    color: rgba(255, 255, 255, 0.66);
+}
+
+.foot-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 1.25rem;
+
+    a {
+        display: inline-flex;
+        min-height: 2.4rem;
+        align-items: center;
+        border: 1px solid rgba(255, 255, 255, 0.16);
+        border-radius: 999px;
+        color: #fff;
+        font-size: 0.86rem;
+        font-weight: 800;
+        padding: 0 0.85rem;
+
+        &:hover {
+            border-color: #f7c948;
+            color: #f7c948;
+        }
+    }
+}
+
+.foot-latest-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1.5rem;
+}
+
+.foot-column {
+    min-width: 0;
+}
+
+.foot-title {
+    margin-bottom: 0.8rem;
+    color: #fff;
+    font-size: 0.78rem;
+    font-weight: 900;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+.foot-link-list {
+    display: grid;
+    gap: 0.65rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    a {
+        display: block;
+        color: rgba(255, 255, 255, 0.7);
+        font-weight: 600;
+        line-height: 1.35;
+
+        &:hover {
+            color: #f7c948;
+        }
+    }
+}
+
+.foot-bottom {
+    margin-top: 2rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.52);
+    font-size: 0.88rem;
+    padding-top: 1.25rem;
+}
+
+@media (max-width: 767.98px) {
+    .latest-footer {
+        margin-top: 2.5rem;
+        padding: 2rem 0 1.5rem;
+    }
+
+    .foot-wrapper,
+    .foot-latest-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .foot-description {
+        max-width: none;
+    }
+
+    .foot-link-list {
+        gap: 0.5rem;
+    }
+}

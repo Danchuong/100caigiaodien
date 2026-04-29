@@ -1,0 +1,249 @@
+<?php
+/**
+ * h5game functions and definitions
+ *
+ * @link https://developer.wordpress.org/themes/basics/theme-functions/
+ *
+ * @package h5game
+ */
+
+if ( ! defined( '_S_VERSION' ) ) {
+	// Replace the version number of the theme on each release.
+	define( '_S_VERSION', '1.4.9' );
+}
+
+/**
+ * Sets up theme defaults and registers support for various WordPress features.
+ *
+ * Note that this function is hooked into the after_setup_theme hook, which
+ * runs before the init hook. The init hook is too late for some features, such
+ * as indicating support for post thumbnails.
+ */
+function h5game_setup() {
+	/*
+		* Make theme available for translation.
+		* Translations can be filed in the /languages/ directory.
+		* If you're building a theme based on h5game, use a find and replace
+		* to change 'h5game' to the name of your theme in all the template files.
+		*/
+	load_theme_textdomain( 'h5game', get_template_directory() . '/languages' );
+
+	// Add default posts and comments RSS feed links to head.
+	add_theme_support( 'automatic-feed-links' );
+
+	/*
+		* Let WordPress manage the document title.
+		* By adding theme support, we declare that this theme does not use a
+		* hard-coded <title> tag in the document head, and expect WordPress to
+		* provide it for us.
+		*/
+	add_theme_support( 'title-tag' );
+
+	/*
+		* Enable support for Post Thumbnails on posts and pages.
+		*
+		* @link https://developer.wordpress.org/themes/functionality/featured-images-post-thumbnails/
+		*/
+	add_theme_support( 'post-thumbnails' );
+
+	// This theme uses wp_nav_menu() in one location.
+	register_nav_menus(
+		array(
+			'main-menu' => esc_html__( 'Primary', 'h5game' ),
+			'footer-menu' => esc_html__( 'Footer', 'h5game' ),
+		)
+	);
+
+	/*
+		* Switch default core markup for search form, comment form, and comments
+		* to output valid HTML5.
+		*/
+	add_theme_support(
+		'html5',
+		array(
+			'search-form',
+			'comment-form',
+			'comment-list',
+			'gallery',
+			'caption',
+			'style',
+			'script',
+		)
+	);
+
+	// Set up the WordPress core custom background feature.
+	add_theme_support(
+		'custom-background',
+		apply_filters(
+			'h5game_custom_background_args',
+			array(
+				'default-color' => 'ffffff',
+				'default-image' => '',
+			)
+		)
+	);
+
+	// Add theme support for selective refresh for widgets.
+	add_theme_support( 'customize-selective-refresh-widgets' );
+
+	/**
+	 * Add support for core custom logo.
+	 *
+	 * @link https://codex.wordpress.org/Theme_Logo
+	 */
+	add_theme_support(
+		'custom-logo',
+		array(
+			'height'      => 250,
+			'width'       => 250,
+			'flex-width'  => true,
+			'flex-height' => true,
+		)
+	);
+}
+add_action( 'after_setup_theme', 'h5game_setup' );
+
+function cleanup_wp_head() {
+    wp_dequeue_style('wp-block-library');
+    wp_dequeue_style('wp-block-library-theme');
+    wp_dequeue_style('classic-theme-styles');
+    wp_dequeue_style('global-styles');
+}
+add_action('wp_enqueue_scripts', 'cleanup_wp_head', 100);
+
+remove_action('wp_enqueue_scripts', 'wp_enqueue_global_styles');
+remove_action('wp_footer', 'wp_enqueue_global_styles', 1);
+remove_action('wp_body_open', 'wp_global_styles_render_svg_filters');
+
+function remove_default_image_sizes( $sizes) {
+    unset( $sizes['large']);
+    unset( $sizes['thumbnail']);
+    unset( $sizes['medium']);
+    unset( $sizes['medium_large']);
+    unset( $sizes['1536x1536']);
+    unset( $sizes['2048x2048']);
+    return $sizes;
+}
+add_filter('intermediate_image_sizes_advanced', 'remove_default_image_sizes');
+/**
+ * Set the content width in pixels, based on the theme's design and stylesheet.
+ *
+ * Priority 0 to make it available to lower priority callbacks.
+ *
+ * @global int $content_width
+ */
+function h5game_content_width() {
+	$GLOBALS['content_width'] = apply_filters( 'h5game_content_width', 640 );
+}
+add_action( 'after_setup_theme', 'h5game_content_width', 0 );
+
+/**
+ * Register widget area.
+ *
+ * @link https://developer.wordpress.org/themes/functionality/sidebars/#registering-a-sidebar
+ */
+function h5game_widgets_init() {
+	register_sidebar(
+		array(
+			'name'          => esc_html__( 'Sidebar', 'h5game' ),
+			'id'            => 'sidebar-1',
+			'description'   => esc_html__( 'Add widgets here.', 'h5game' ),
+			'before_widget' => '<section id="%1$s" class="widget %2$s">',
+			'after_widget'  => '</section>',
+			'before_title'  => '<h2 class="widget-title">',
+			'after_title'   => '</h2>',
+		),
+	);
+}
+add_action( 'widgets_init', 'h5game_widgets_init' );
+
+/**
+ * Enqueue scripts and styles.
+ */
+function h5game_scripts() {
+	wp_enqueue_style( 'h5game-style', get_stylesheet_uri(), array(), _S_VERSION );
+	wp_style_add_data( 'h5game-style', 'rtl', 'replace' );
+
+	wp_enqueue_script( 'h5game-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );
+
+	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
+		wp_enqueue_script( 'comment-reply' );
+	}
+}
+add_action( 'wp_enqueue_scripts', 'h5game_scripts' );
+
+/**
+ * Implement the Custom Header feature.
+ */
+require get_template_directory() . '/inc/custom-header.php';
+
+/**
+ * Custom template tags for this theme.
+ */
+require get_template_directory() . '/inc/template-tags.php';
+
+/**
+ * Functions which enhance the theme by hooking into WordPress.
+ */
+require get_template_directory() . '/inc/template-functions.php';
+
+/**
+ * Customizer additions.
+ */
+require get_template_directory() . '/inc/customizer.php';
+
+/**
+ * Load Jetpack compatibility file.
+ */
+if ( defined( 'JETPACK__VERSION' ) ) {
+	require get_template_directory() . '/inc/jetpack.php';
+}
+
+function custom_footer_menus_init() {
+    register_nav_menus( array(
+        'footer_contact' => 'Footer Contact Us',
+        'footer_blog'    => 'Footer Blog'
+    ) );
+}
+add_action( 'after_setup_theme', 'custom_footer_menus_init' );
+add_action( 'wp_ajax_load_posts_scroll',        'load_posts_scroll_ajax' );
+add_action( 'wp_ajax_nopriv_load_posts_scroll', 'load_posts_scroll_ajax' );
+
+function load_posts_scroll_ajax() {
+    $per_page = 28;
+    $page     = isset( $_POST['page'] ) ? intval( $_POST['page'] ) : 1;
+    $offset   = ( $page - 1 ) * $per_page;
+    $pinned_ids = [];
+    if ( ! empty( $_POST['pinned_ids'] ) ) {
+        $decoded    = json_decode( stripslashes( $_POST['pinned_ids'] ), true );
+        $pinned_ids = is_array( $decoded ) ? array_map( 'intval', $decoded ) : [];
+    }
+    $args = [
+        'post_type'      => 'post',
+        'post_status'    => 'publish',
+        'posts_per_page' => $per_page,
+        'offset'         => $offset,
+        'no_found_rows'  => true,
+    ];
+    if ( ! empty( $pinned_ids ) ) {
+        $args['post__not_in'] = $pinned_ids;
+    }
+    $query      = new WP_Query( $args );
+    $posts_data = [];
+    if ( $query->have_posts() ) {
+        while ( $query->have_posts() ) {
+            $query->the_post();
+            $thumbnail = get_the_post_thumbnail_url( get_the_ID(), 'full' );
+            if ( ! $thumbnail ) {
+                $thumbnail = 'https://via.placeholder.com/512x384?text=No+Image';
+            }
+            $posts_data[] = [
+                'title' => get_the_title(),
+                'link'  => get_permalink(),
+                'image' => $thumbnail,
+            ];
+        }
+    }
+    wp_reset_postdata();
+    empty( $posts_data ) ? wp_send_json_error() : wp_send_json_success( $posts_data );
+}

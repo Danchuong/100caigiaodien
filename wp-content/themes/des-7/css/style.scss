@@ -1,0 +1,635 @@
+/*!
+Theme Name: des-7
+*/
+
+$font-family-base: "Poppins", sans-serif;
+
+@import "bootstrap/functions";
+@import "variables";
+@import "bootstrap/variables";
+@import "bootstrap/maps";
+@import "bootstrap/mixins";
+
+@import "bootstrap/utilities";
+
+// base
+@import "bootstrap/root";
+@import "bootstrap/reboot";
+@import "bootstrap/type";
+
+// layout
+@import "bootstrap/containers";
+@import "bootstrap/grid";
+
+// component
+@import "bootstrap/buttons";
+@import "bootstrap/breadcrumb";
+
+@import "bootstrap/utilities/api";
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+// mixins
+@mixin line-truncate($line, $line-height: 1.4rem) {
+    display: -webkit-box;
+    -webkit-line-clamp: $line;
+    -webkit-box-orient: vertical;
+    line-height: $line-height;
+    max-height: $line * $line-height;
+    overflow: hidden;
+}
+
+@import "home";
+@import "reviews";
+@import "review-single";
+@import "review-detail";
+@import "game-single";
+@import "game-play";
+@import "games";
+@import "blogs";
+@import "blog-single";
+
+* {
+    // border: 1px solid red;
+}
+
+html,
+body {
+    font-size: 15px;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+    #wrapper {
+        min-height: 100%;
+        flex-grow: 1;
+    }
+
+    #wrapper,
+    main,
+    #main-area {
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+a,
+button {
+    transition: all 0.15s ease-in-out;
+}
+
+.container {
+    max-width: 1240px;
+}
+
+header {
+    background-color: #fff;
+    margin-bottom: 1.5rem;
+    box-shadow: $box-shadow-sm;
+}
+
+.head-wrapper {
+    display: flex;
+    height: 4.5rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.head-left,
+.head-right {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.head-right {
+}
+
+.head-logo a {
+    font-weight: $font-weight-semibold;
+    font-size: 1.8rem;
+    color: $primary;
+}
+
+#primary-menu ul {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    a {
+        font-weight: $font-weight-semibold;
+        color: $text-muted;
+
+        &:hover {
+            color: $primary;
+        }
+    }
+}
+
+.head-search-wrapper {
+    position: relative;
+    background-color: rgba($body-color, 0.02);
+    border-radius: 2rem;
+    border: 1px solid rgba($body-color, 0.2);
+    min-width: 15rem;
+
+    input {
+        padding: 0.5rem 1rem;
+        background-color: transparent;
+        border: 0;
+        color: $body-color !important;
+
+        &::placeholder {
+            color: $body-color;
+            opacity: 0.5;
+        }
+    }
+}
+
+.page-wrapper {
+    display: flex;
+    gap: 2rem;
+}
+
+//icon search
+
+.icon-search {
+    position: absolute;
+    right: 0.5rem;
+    top: 50%;
+    width: 1.2rem;
+    height: 1.2rem;
+    /*border: 1px dashed rgba(255,255,255,.5);*/
+    transform: translate(-50%, -50%);
+}
+
+/* Basic icon class */
+.icon-search > div {
+    width: 85%;
+    height: 85%;
+    color: $body-color;
+}
+
+/* Search icon */
+.icon-search > div {
+    border: solid 0.1rem currentColor;
+    border-radius: 100%;
+    transform: rotate(-45deg);
+}
+.icon-search > div:before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-top: 0.1rem;
+    transform: translateX(-50%);
+    height: 60%;
+    width: 0.1rem;
+    background-color: currentColor;
+}
+
+// end icon search
+
+.head-btn {
+    display: none;
+}
+
+// icon menu
+.icon-menu {
+    display: flex;
+    align-items: center;
+    width: 1.8rem;
+    background: transparent;
+    border-top: 2px $body-color solid;
+    border-bottom: 2px $body-color solid;
+    height: 1.4rem;
+    transition: all 0.1s ease-in-out;
+}
+
+.icon-menu div {
+    background: $body-color;
+    height: 2px;
+    margin: 2px 0;
+    width: 100%;
+}
+
+.icon-menu:hover {
+    opacity: 0.6;
+}
+
+//end icon menu
+
+.head-search-btn {
+    position: relative;
+    display: none;
+}
+
+//section
+
+section {
+    margin-bottom: 3rem;
+}
+
+.section-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+
+    .section-title {
+        font-size: 2rem;
+        margin-bottom: 0;
+
+        b {
+            color: $primary;
+            font-weight: 700;
+        }
+    }
+
+    .btn-viewmore {
+        border-radius: 2rem;
+        border: 1px solid $body-color;
+        padding: 0.5rem 1.5rem;
+        font-weight: $font-weight-medium;
+
+        &:hover {
+            background-color: $primary;
+            color: $white;
+            border-color: $primary;
+        }
+    }
+}
+
+.poster {
+    flex-shrink: 0;
+
+    > div {
+        position: relative;
+        padding-top: 100%;
+        border-radius: $border-radius;
+        overflow: hidden;
+
+        > img {
+            position: absolute;
+            width: 100%;
+            min-height: 100%;
+            left: 0;
+            top: 0;
+        }
+    }
+}
+
+// footer
+footer {
+    border-top: 1px solid rgba($body-color, 0.1);
+    padding: 4rem 0 5rem;
+    background: linear-gradient(to top, rgba($white, 0.1), rgba($white, 0.8));
+    margin-top: 5rem;
+}
+.footer-wrap {
+    display: flex;
+}
+
+.footer-info {
+    padding-right: 1rem;
+    flex-grow: 1;
+
+    .logo {
+        font-weight: 600;
+        font-size: 1.5rem;
+    }
+
+    .desc {
+        margin-top: 0.5rem;
+        max-width: 400px;
+    }
+}
+
+.footer-menu {
+    max-width: 200px;
+    width: 100%;
+
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+
+        li a {
+            padding: 0.1rem 0;
+            display: inline-block;
+            @include text-truncate();
+            width: 100%;
+        }
+    }
+}
+
+.footer-menu-title {
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.page-head {
+    // margin-bottom: 1rem;
+}
+
+.page-title,
+.page-desc {
+    text-align: center;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+    gap: 0.5rem;
+}
+
+.page-link {
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2rem;
+    font-weight: 400;
+    box-shadow: $box-shadow-sm;
+}
+
+.main-content {
+    flex-grow: 1;
+    padding: 1rem;
+    background-color: $white;
+    border-radius: $border-radius;
+    box-shadow: $box-shadow-sm;
+}
+
+.sidebar {
+    width: 30%;
+    // background-color: $white;
+    border-radius: $border-radius;
+    // padding: 1rem;
+    min-width: 350px;
+}
+//sidebar item
+
+.sidebar-item {
+    background-color: $white;
+    padding: 0.6rem;
+    border-radius: $border-radius;
+    display: flex;
+    gap: 0.5rem;
+    box-shadow: $box-shadow-sm;
+    overflow: hidden;
+
+    &:hover {
+        box-shadow: $box-shadow;
+    }
+
+    & + .sidebar-item {
+        margin-top: 1rem;
+    }
+}
+
+.sidebar-item-bg {
+    min-width: 5rem;
+    height: 5rem;
+    background-size: cover;
+    border-radius: $border-radius-sm;
+}
+
+.sidebar-item-detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    // align-items: center;
+}
+
+.sidebar-item-title {
+    font-weight: 500;
+    @include text-truncate();
+    // width: calc(100% - 5.5rem);
+}
+
+.sidebar-item-desc {
+    font-size: 0.9rem;
+    @include text-truncate();
+    width: calc(100% - 5.5rem);
+    color: $text-muted;
+    margin: 0.3rem 0;
+}
+
+.banner-ads {
+    text-align: center;
+    // background-color: #fff;
+}
+
+.text-ads {
+    margin-top: 0.3rem;
+    text-align: center;
+    margin-bottom: 0.5rem;
+    color: gray;
+}
+.post-content img {
+    width: 100%;
+}
+
+@media screen and (min-width: 2255px) {
+}
+
+@media (max-width: 2000.9px) {
+}
+
+@media (max-width: 1836.9px) {
+}
+
+@media (max-width: 1565.9px) {
+}
+
+@media (max-width: 1517.9px) {
+}
+
+@media (max-width: 1397.9px) {
+}
+
+//1200px
+@include media-breakpoint-down(xl) {
+}
+
+@media (max-width: 1259.9px) {
+}
+
+@media (max-width: 1159.9px) {
+}
+
+@media (max-width: 959.9px) {
+    .footer-wrap {
+        flex-wrap: wrap;
+    }
+
+    .footer-info {
+        width: 100%;
+        margin-bottom: 2rem;
+
+        .desc {
+            max-width: 100%;
+        }
+    }
+}
+
+@media (min-width: 959.9px) {
+}
+
+//992px // mobile
+@include media-breakpoint-down(lg) {
+}
+
+@media (max-width: 915px) {
+    .sidebar {
+        display: none;
+    }
+}
+
+@media (max-width: 842px) {
+    .head-btn {
+        display: block;
+    }
+
+    .head-menu.active {
+        ul#main-menu {
+            pointer-events: auto;
+            opacity: 1;
+            margin-top: 0.5rem;
+        }
+    }
+
+    .head-right {
+        position: relative;
+    }
+
+    #primary-menu ul {
+        transition: all 0.1s ease-in-out;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        margin-top: 1.5rem;
+        flex-direction: column;
+        padding: 1rem 1.5rem;
+        gap: 0.5rem;
+        border-radius: $border-radius;
+        width: 100%;
+        min-width: 13rem;
+        background-color: $white;
+        backdrop-filter: blur(10px);
+        pointer-events: none;
+        opacity: 0;
+        box-shadow: $box-shadow;
+
+        a {
+            font-size: 1.1rem;
+            color: $body-color;
+        }
+    }
+}
+
+// 768px
+@include media-breakpoint-down(md) {
+}
+
+@media (min-width: 668px) {
+}
+
+@media (max-width: 830px) {
+}
+
+@media (min-width: 370px) and (max-width: 700px) {
+}
+
+@media (min-width: 760px) and (max-width: 1400px) {
+}
+
+// đây là màn hình đt khi quay ngang
+// nếu chia item ở dưới XS mà thấy to thì chia thêm ở đây.
+@media (max-width: 639.9px) {
+    .footer-menu {
+        max-width: calc(100% / 3);
+        width: 100%;
+    }
+}
+
+@media (max-width: 600.9px) {
+}
+
+@media (min-width: 600.9px) {
+}
+
+// 539.9px ->
+@include media-breakpoint-down(sm) {
+}
+
+@media (max-width: 470px) {
+    .head-right {
+        gap: 0rem;
+    }
+
+    .head-search-btn {
+        display: block;
+
+        &:hover {
+            opacity: 0.6;
+        }
+    }
+
+    .head-search {
+        position: fixed;
+        top: 6rem;
+        left: 0;
+        right: 0;
+        padding: 1rem;
+
+        &.active .head-search-wrapper {
+            pointer-events: auto;
+            opacity: 1;
+        }
+    }
+
+    .head-search-wrapper {
+        width: 100%;
+        max-width: 18rem;
+        margin: 0 auto;
+        transition: all 0.1s ease-in-out;
+        backdrop-filter: blur(10px);
+        pointer-events: none;
+        opacity: 0;
+    }
+
+    .footer-menu:last-child {
+        padding-left: 0;
+    }
+}
+
+// bổ sung cho màn bé hơn iphone5, (ví dụ iphone4s)
+@media (max-width: 370px) {
+    .section-head {
+        .btn-viewmore {
+            display: none;
+        }
+    }
+}
+
+@media (max-width: 340px) {
+}
+
+@import "header";
+@import "footer";

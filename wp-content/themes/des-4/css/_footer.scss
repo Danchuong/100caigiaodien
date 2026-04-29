@@ -1,0 +1,136 @@
+/* des-4 mega sitemap footer start */
+.site-foot {
+    background: #17191f;
+    border-top: 0;
+    color: rgba(255, 255, 255, 0.72);
+    margin-top: 0;
+    padding: 2.5rem 0 2rem;
+}
+
+.foot-wrapper {
+    display: grid;
+    gap: 1.5rem;
+}
+
+.foot-brand {
+    align-items: start;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    display: grid;
+    gap: 0.6rem;
+    grid-template-columns: minmax(0, 0.75fr) minmax(0, 1fr);
+    padding-bottom: 1.35rem;
+
+    p {
+        color: rgba(255, 255, 255, 0.62);
+        margin: 0;
+        max-width: 42rem;
+    }
+}
+
+.foot-logo {
+    color: #ffffff;
+    font-size: clamp(1.6rem, 4vw, 3.1rem);
+    font-weight: 900;
+    line-height: 0.95;
+    overflow-wrap: anywhere;
+    text-transform: uppercase;
+
+    &:hover {
+        color: #ffd166;
+    }
+}
+
+.foot-mega {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.foot-column {
+    background: rgba(255, 255, 255, 0.045);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    min-width: 0;
+    padding: 1rem;
+
+    ul {
+        display: grid;
+        gap: 0.45rem;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    li {
+        min-width: 0;
+    }
+
+    a {
+        color: rgba(255, 255, 255, 0.72);
+        display: block;
+        font-weight: 600;
+        line-height: 1.35;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+
+        &:hover {
+            color: #7bdff2;
+        }
+    }
+}
+
+.foot-title {
+    color: #ffd166;
+    font-size: 0.78rem;
+    font-weight: 900;
+    margin-bottom: 0.75rem;
+    text-transform: uppercase;
+}
+
+.foot-bottom {
+    align-items: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+    padding-top: 1rem;
+
+    a {
+        color: #ffffff;
+        font-weight: 800;
+
+        &:hover {
+            color: #ffd166;
+        }
+    }
+}
+
+@media (max-width: 980px) {
+    .foot-brand {
+        grid-template-columns: 1fr;
+    }
+
+    .foot-mega {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 560px) {
+    .site-foot {
+        padding: 2rem 0 1.5rem;
+    }
+
+    .foot-mega {
+        grid-template-columns: 1fr;
+    }
+
+    .foot-column {
+        padding: 0.9rem;
+    }
+
+    .foot-bottom {
+        align-items: start;
+        flex-direction: column;
+    }
+}
+/* des-4 mega sitemap footer end */

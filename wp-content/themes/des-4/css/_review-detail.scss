@@ -1,0 +1,147 @@
+.screenshots-wrapper {
+    margin: 0 -0.4rem;
+}
+
+.screenshot-item {
+    width: calc(100% / 4) !important;
+    padding: 0.4rem;
+}
+
+.screenshot-bg {
+    aspect-ratio: 16/9;
+    border-radius: $border-radius;
+    background-size: cover;
+    background-position: center;
+}
+
+.screenshots {
+}
+
+.rating-lines {
+}
+
+.rating-line-item {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 0.3rem 0;
+}
+
+.rating-title {
+    min-width: 12rem;
+}
+
+.pro-line {
+    overflow: hidden;
+    height: 0.8rem;
+    border-radius: 2rem;
+    background-color: rgba($body-bg, 1);
+    flex-grow: 1;
+    position: relative;
+}
+
+.pro-line div {
+    height: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100%;
+    background-color: $primary;
+    border-radius: 2rem;
+}
+
+.scores {
+    width: 2rem;
+    text-align: right;
+}
+
+.pros-cons {
+    display: flex;
+    gap: 2rem;
+
+    .pros li::before {
+        content: "✓";
+        color: green;
+    }
+
+    .cons li::before {
+        content: "✗";
+        color: red;
+    }
+
+    ul {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+
+        li {
+            padding: 0.5rem 0;
+            position: relative;
+
+            &:before {
+                font-size: 1.3rem;
+            }
+
+            b {
+                font-weight: 500;
+            }
+        }
+    }
+}
+
+.btn-platform {
+    border: 1px solid $border-color;
+    border-radius: $border-radius;
+    height: 2.7rem;
+    display: inline-flex;
+    align-items: center;
+    white-space: nowrap;
+
+    svg {
+        fill: $body-color;
+        width: 1.5rem;
+        height: 1.5rem;
+        margin-right: 0.2rem;
+
+        use {
+            fill: $body-color;
+        }
+    }
+
+    &:hover {
+        border: 1px solid $border-color;
+        background-color: rgba($black, 0.04);
+    }
+}
+
+.platform-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+@media (max-width: 600.9px) {
+    .pros-cons {
+        flex-wrap: wrap;
+    }
+
+    .rating-line-item {
+        flex-wrap: wrap;
+        margin-top: 0.5rem;
+    }
+    .rating-title {
+        flex: 1;
+        order: 1;
+    }
+
+    .scores {
+        margin-left: auto;
+        order: 2;
+    }
+
+    .pro-line {
+        flex: 0 0 100%;
+        order: 3;
+        margin-top: 0.3rem;
+    }
+}

@@ -1,0 +1,87 @@
+footer.issue-foot {
+    margin-top: 0;
+    padding: 2rem 0;
+    color: #fffaf0;
+    background-color: #171412;
+    border-top: 0;
+}
+
+.issue-foot {
+    .foot-wrapper {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) auto;
+        gap: 1.5rem;
+        align-items: end;
+    }
+
+    .foot-logo {
+        font-family: Georgia, "Times New Roman", serif;
+        font-size: 2rem;
+        line-height: 1;
+        color: #fffaf0;
+    }
+
+    .foot-brand p {
+        max-width: 34rem;
+        margin: 0.85rem 0 0;
+        color: rgba(#fffaf0, 0.66);
+    }
+
+    .foot-links {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        gap: 0.5rem 1rem;
+
+        a {
+            min-height: 44px;
+            display: inline-flex;
+            align-items: center;
+            color: rgba(#fffaf0, 0.76);
+            font-weight: 700;
+
+            &:hover {
+                color: #fffaf0;
+            }
+        }
+    }
+
+    .foot-bottom {
+        margin-top: 1.5rem;
+        padding-top: 1rem;
+        border-top: 1px solid rgba(#fffaf0, 0.16);
+        color: rgba(#fffaf0, 0.56);
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 720px) {
+    .issue-foot {
+        .foot-wrapper {
+            grid-template-columns: 1fr;
+            align-items: start;
+        }
+
+        .foot-links {
+            justify-content: flex-start;
+        }
+    }
+}
+
+@media (max-width: 420px) {
+    footer.issue-foot {
+        padding: 1.5rem 0;
+    }
+
+    .issue-foot {
+        .foot-logo {
+            font-size: 1.55rem;
+        }
+
+        .foot-links {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 0.1rem;
+        }
+    }
+}

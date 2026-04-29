@@ -1,0 +1,111 @@
+footer.news-footer {
+    margin-top: 3.5rem;
+    padding: 3rem 0 2.5rem;
+    border-top: 1px solid rgba($body-color, 0.08);
+    background-color: #f3f0e7;
+    color: #151515;
+}
+
+.foot-wrapper {
+    display: grid;
+    grid-template-columns: minmax(14rem, 0.8fr) minmax(0, 1.25fr) minmax(10rem, 0.5fr);
+    gap: 1.5rem;
+    align-items: start;
+}
+
+.foot-brand {
+    .logo {
+        display: inline-flex;
+        color: #151515;
+        font-size: 1.35rem;
+        font-weight: 900;
+    }
+
+    p {
+        max-width: 23rem;
+        margin: 0.6rem 0 0;
+        color: rgba($body-color, 0.66);
+    }
+}
+
+.foot-title {
+    margin-bottom: 0.7rem;
+    color: #b6252f;
+    font-size: 0.8rem;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.foot-latest-list {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.45rem 0.85rem;
+
+    a {
+        display: block;
+        color: #151515;
+        font-weight: 800;
+        line-height: 1.35;
+        @include line-truncate(2, 1.35rem);
+
+        &:hover {
+            color: #b6252f;
+        }
+    }
+}
+
+.foot-links {
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    li + li {
+        margin-top: 0.45rem;
+    }
+
+    a {
+        color: #151515;
+        font-weight: 800;
+
+        &:hover {
+            color: #b6252f;
+        }
+    }
+}
+
+.foot-bottom {
+    margin-top: 1.75rem;
+    padding-top: 1rem;
+    border-top: 1px solid rgba($body-color, 0.12);
+    color: rgba($body-color, 0.6);
+    font-size: 0.9rem;
+}
+
+@media (max-width: 991.9px) {
+    .foot-wrapper {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 767.9px) {
+    footer.news-footer {
+        margin-top: 2.25rem;
+        padding: 2rem 0;
+    }
+
+    .foot-wrapper {
+        gap: 1.25rem;
+    }
+
+    .foot-latest,
+    .foot-links {
+        padding-top: 1rem;
+        border-top: 1px solid rgba($body-color, 0.12);
+    }
+
+    .foot-latest-list {
+        grid-template-columns: 1fr;
+    }
+}
