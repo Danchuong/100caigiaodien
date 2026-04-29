@@ -94,6 +94,154 @@ Giao diện cần:
 
 Header/footer là phần dùng chung, nên khi chỉnh cần kiểm tra thêm các trang khác ngoài home để tránh lỗi layout toàn site.
 
+## Nguyên tắc từ feedback khách hàng
+
+Các giao diện sau cần đi theo hướng **content-first** và **functional-first**:
+
+- Mọi text hiển thị trên giao diện phải có ý nghĩa thật, không dùng label trang trí chung chung.
+- Những block giống menu, category, shortcut hoặc tab phải click được. Nếu không có link/hành động rõ ràng thì bỏ.
+- Hero/banner nên dùng nội dung thật như bài viết nổi bật, review nổi bật hoặc game nổi bật; không chỉ dùng lại đoạn description cũ.
+- Có thể thay ảnh, thay text, thay cấu trúc banner miễn vẫn lấy từ nội dung thật và có link rõ ràng.
+- Không nhồi quá nhiều text lên ảnh. Với card ảnh, ưu tiên chỉ hiện category và title; bỏ excerpt/description nếu làm che ảnh hoặc khó đọc.
+- Header không bắt buộc phải absolute. Nếu absolute/overlay làm layout rối hoặc gây lỗi mobile thì chuyển về header thường hoặc sticky.
+- Mobile là tiêu chí nghiệm thu thật, đặc biệt phần header, menu và search từ `320px`.
+- Mỗi style phải khác bản gốc rõ ràng về ý tưởng và cách trình bày, không chỉ đổi màu hoặc đổi spacing nhẹ.
+- Thiết kế có thể đơn giản hơn nếu giúp giao diện rõ ràng, dễ dùng và không lỗi.
+
+## Tạo hoặc thay ảnh bằng GPT Image API theo config Codex
+
+Có thể dùng cùng config API mà Codex trên máy này đang dùng để tạo ảnh mới hoặc thay ảnh/banner cho từng giao diện.
+
+Config Codex hiện tại trên máy này:
+
+```text
+model_provider = cliproxyapi
+base_url       = http://171.244.185.173:8317/v1
+wire_api       = responses
+```
+
+Model ảnh dùng khi call API:
+
+```text
+gpt-image-2
+```
+
+Không hardcode API key trong source hoặc trong docs. API key lấy từ `~/.codex/config.toml` tại provider `cliproxyapi`.
+
+### Khi nào dùng
+
+- Tạo ảnh banner/hero mới theo style của từng giao diện.
+- Tạo thumbnail minh hoạ cho bài nổi bật, review nổi bật hoặc game nổi bật.
+- Dùng ảnh cũ làm reference để tạo ảnh mới đồng bộ style.
+- Không dùng ảnh sinh ra chỉ để trang trí vô nghĩa; ảnh phải phục vụ nội dung thật.
+
+### Setup biến môi trường từ config Codex
+
+Chạy lệnh này trong terminal để lấy `base_url` và `api_key` từ config Codex, không in key ra màn hình:
+
+```bash
+eval "$(
+node <<'NODE'
+const fs = require('fs');
+const config = fs.readFileSync(`${process.env.HOME}/.codex/config.toml`, 'utf8');
+const provider = (config.match(/^model_provider\s*=\s*"([^"]+)"/m) || [])[1];
+const section = provider && config.match(new RegExp(`\\[model_providers\\.${provider}\\]([\\s\\S]*?)(?=\\n\\[|$)`));
+const body = section ? section[1] : '';
+const baseUrl = (body.match(/base_url\s*=\s*"([^"]+)"/) || [])[1];
+const apiKey = (body.match(/api_key\s*=\s*"([^"]+)"/) || [])[1];
+if (!baseUrl || !apiKey) process.exit(1);
+console.log(`export CODEX_IMAGE_BASE_URL=${JSON.stringify(baseUrl)}`);
+console.log(`export CODEX_IMAGE_API_KEY=${JSON.stringify(apiKey)}`);
+NODE
+)"
+```
+
+### Generate ảnh mới từ prompt
+
+Endpoint theo config Codex:
+
+```text
+POST $CODEX_IMAGE_BASE_URL/images/generations
+```
+
+Ví dụ tạo ảnh banner hero:
+
+```bash
+curl -X POST "$CODEX_IMAGE_BASE_URL/images/generations" \
+  -H "Authorization: Bearer $CODEX_IMAGE_API_KEY" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "model": "gpt-image-2",
+    "prompt": "Create a modern cinematic gaming news hero image for a featured article. Dark premium editorial style, strong focal subject, no readable text, no logos, no UI mockups.",
+    "size": "1536x1024",
+    "quality": "medium",
+    "output_format": "webp"
+  }' \
+  | jq -r '.data[0].b64_json' \
+  | base64 --decode > hero-featured.webp
+```
+
+### Edit hoặc tạo ảnh mới từ ảnh tham chiếu
+
+Endpoint theo config Codex:
+
+```text
+POST $CODEX_IMAGE_BASE_URL/images/edits
+```
+
+Ví dụ dùng một ảnh cũ làm reference để tạo ảnh mới cùng chủ đề:
+
+```bash
+curl -X POST "$CODEX_IMAGE_BASE_URL/images/edits" \
+  -H "Authorization: Bearer $CODEX_IMAGE_API_KEY" \
+  -F "model=gpt-image-2" \
+  -F "image[]=@old-banner.png" \
+  -F "prompt=Redesign this into a fresh gaming editorial hero image. Keep the same general topic, but create a new composition, cinematic lighting, clean background, no readable text, no logos." \
+  -F "size=1536x1024" \
+  -F "quality=medium" \
+  -F "output_format=webp" \
+  | jq -r '.data[0].b64_json' \
+  | base64 --decode > new-banner.webp
+```
+
+Nếu proxy `cliproxyapi` không hỗ trợ endpoint ảnh, mới chuyển sang OpenAI official endpoint bằng key riêng. Không tự đổi endpoint khi chưa kiểm tra.
+
+Trạng thái kiểm tra trên máy hiện tại:
+
+```text
+GET  $CODEX_IMAGE_BASE_URL/models             -> 200
+POST $CODEX_IMAGE_BASE_URL/images/generations -> 200
+```
+
+Lưu ý: proxy có thể trả file PNG dù request đặt `output_format` là `webp`, nên sau khi decode cần kiểm tra lại file bằng lệnh `file`.
+
+### Quy tắc prompt ảnh cho project này
+
+- Không yêu cầu model render chữ trên ảnh nếu không cần thiết; text nên để HTML/CSS xử lý.
+- Không yêu cầu copy logo, key art, nhân vật có bản quyền hoặc giao diện game chính thức nếu không có quyền sử dụng.
+- Prompt nên mô tả style, mood, bố cục và mục đích nội dung.
+- Ảnh hero nên ưu tiên tỷ lệ ngang như `1536x1024`.
+- Ảnh card có thể dùng `1024x1024` hoặc `1536x1024` tuỳ bố cục.
+- Sau khi tạo ảnh, lưu vào theme hoặc media folder rõ ràng và cập nhật đường dẫn trong template/CSS.
+
+### Prompt mẫu cho ảnh background
+
+Ảnh đã tạo thử:
+
+```text
+wp-content/themes/des-1/images/des-1-generated-hero.png
+```
+
+Ảnh này phù hợp để làm background vì có vùng tối rộng, dễ đặt nội dung bằng HTML/CSS; phần hình ảnh chính nằm lệch một bên nên không che nội dung. Ảnh không có chữ/logo nên dễ dùng lại cho nhiều bố cục.
+
+Prompt đã dùng:
+
+```text
+Create a fresh hero image for a gaming news website featured story. Cinematic dark premium editorial composition, energetic console game atmosphere, one strong focal scene, clean negative space on the left for HTML headline overlay, no readable text, no logos, no UI mockups, no copyrighted characters.
+```
+
+Khi dùng ảnh background, phần nội dung đặt lên ảnh vẫn phải là nội dung thật, có title và link rõ ràng. Không dùng ảnh chỉ như trang trí.
+
 ## Nội dung bắt buộc trên trang home
 
 Trang home phải trình bày đủ 3 nhóm nội dung sau. Thứ tự và bố cục có thể thay đổi giữa các giao diện, miễn hấp dẫn, khác biệt và đầy đủ.
