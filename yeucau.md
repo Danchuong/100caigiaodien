@@ -1,12 +1,16 @@
-# Yêu cầu thiết kế 10 giao diện trang home, header và footer
+# Yêu cầu thiết kế 100 giao diện trang home, header và footer
 
 ## Mục tiêu
 
-Tạo 10 giao diện mới cho **trang home**, đồng thời thiết kế lại **header** và **footer** để giao diện đồng bộ trên toàn website.
+Tạo 100 giao diện mới cho **trang home**, đồng thời thiết kế lại **header** và **footer** để giao diện đồng bộ trên toàn website.
 
-Có thể thay đổi bố cục và màu sắc tuỳ ý, nhưng trang home vẫn phải giữ đầy đủ các nhóm nội dung cũ. Header và footer cần đồng bộ với style của từng giao diện. Không yêu cầu đẹp xuất sắc; chỉ cần khác biệt, không lỗi, responsive tốt, đẹp khoảng 6 điểm là dùng được.
+Yêu cầu mới từ khách hàng: các giao diện không chỉ khác nhau một chút, mà phải **khác nhau rõ ràng về form/layout tổng thể**. Khách có thể dùng tool để quét độ giống nhau, nên không được tạo nhiều bản cùng một khung rồi chỉ đổi màu, ảnh, font, spacing hoặc bo góc.
+
+Trang home vẫn phải giữ đầy đủ các nhóm nội dung cũ. Header và footer cần đồng bộ với style của từng giao diện. Mỗi giao diện cần đủ chỉn chu để dùng thật: không lỗi layout, responsive tốt, nội dung có ý nghĩa, link hoạt động đúng.
 
 Demo trang chủ tham khảo: https://gamenewfiz.info/
+
+Khách yêu cầu tham khảo thêm nhiều mẫu trên ThemeForest, đặc biệt các theme phù hợp với website game, gaming news, blog, review, magazine, portal hoặc editorial. Chỉ tham khảo **form, bố cục và cách tổ chức nội dung**; không copy nguyên code, asset, hình ảnh, logo, thương hiệu hoặc thiết kế độc quyền của theme khác.
 
 ## Source và restore
 
@@ -93,6 +97,32 @@ Giao diện cần:
 ```
 
 Header/footer là phần dùng chung, nên khi chỉnh cần kiểm tra thêm các trang khác ngoài home để tránh lỗi layout toàn site.
+
+## Yêu cầu khác nhau hoàn toàn giữa 100 giao diện
+
+Mỗi giao diện phải có một **layout signature** riêng, nhìn vào phải nhận ra đây là một form khác, không phải biến thể nhỏ của giao diện trước.
+
+Các yếu tố cần thay đổi có chủ đích giữa các giao diện:
+
+- Cấu trúc header: vị trí logo, menu, search, CTA, kiểu mobile menu, sticky/normal/split/header bar.
+- Cấu trúc hero/banner: full-bleed, split layout, featured post, carousel, magazine lead, ranking lead, video-first, no-hero, multi-column lead.
+- Thứ tự section: blog/review/game có thể đảo thứ tự hoặc nhóm lại theo logic mới.
+- Cách trình bày card: list, grid, masonry, editorial row, compact table, ranking list, horizontal scroll, large/small mixed cards.
+- Tỷ lệ ảnh và text: có giao diện thiên ảnh lớn, có giao diện thiên text/news, có giao diện compact như portal.
+- Sidebar hoặc không sidebar; nếu có sidebar thì nội dung phải hợp lý và có link thật.
+- Footer: có thể là compact footer, multi-column footer, directory footer, newsletter-style footer, sitemap footer, hoặc footer tối giản tuỳ form.
+- Nhịp spacing và density: có layout thoáng editorial, có layout dày kiểu news portal, có layout gọn kiểu review hub.
+
+Không tính là khác nhau đủ nếu chỉ:
+
+- Đổi màu.
+- Đổi font.
+- Đổi ảnh nền.
+- Đổi shadow/border radius.
+- Đổi khoảng cách nhẹ.
+- Giữ nguyên header/hero/card/footer rồi chỉ sửa text.
+
+Mục tiêu là tạo 100 form có thể đứng riêng trong pool thiết kế, dễ đánh dấu `des-1`, `des-2`, ... `des-100`, và đủ khác biệt để khách quét độ giống nhau vẫn thấy mỗi bản là một bố cục riêng.
 
 ## Nguyên tắc từ feedback khách hàng
 
