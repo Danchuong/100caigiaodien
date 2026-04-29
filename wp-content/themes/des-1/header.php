@@ -2,13 +2,12 @@
 /**
  * The header for our theme
  *
- * This is the template that displays all of the <head> section and everything up until <div id="content">
- *
- * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
- *
  * @package h5game
  */
 
+$review_archive_url = home_url( '/reviews/' );
+$games_archive_url  = home_url( '/html5-games/' );
+$blog_archive_url   = home_url( '/blogs/' );
 ?>
 <!doctype html>
 <html <?php language_attributes(); ?>>
@@ -18,7 +17,6 @@
 	<link rel="profile" href="https://gmpg.org/xfn/11">
 
 	<?php wp_head(); ?>
-   
 </head>
 <body <?php body_class(); ?>>
         <header class="site-header">
@@ -43,17 +41,6 @@
                         </nav>
                     </div>
                     <div class="head-right">
-                        <div class="head-search input-group">
-                            <div class="head-search-wrapper">
-                                <form action="<?php echo esc_url( home_url( '/reviews' ) ); ?>">
-                                    <?php $key = isset( $_GET['key'] ) ? sanitize_text_field( $_GET['key'] ) : ''; ?>
-                                    <input type="text" class="form-control" placeholder="Search games" aria-label="Search" value="<?php echo esc_attr( $key ); ?>" name="key" />
-                                    <div class="icon-search">
-                                        <div></div>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
                         <button class="btn head-search-btn" type="button" aria-label="Open search">
                             <div class="icon-search"><div></div></div>
                         </button>
@@ -61,6 +48,24 @@
                             <div class="icon-menu"><div></div></div>
                         </button>
                     </div>
+                </div>
+
+                <div class="head-directory-bar">
+                    <div class="head-search input-group">
+                        <div class="head-search-wrapper">
+                            <form action="<?php echo esc_url( $review_archive_url ); ?>">
+                                <?php $key = isset( $_GET['key'] ) ? sanitize_text_field( $_GET['key'] ) : ''; ?>
+                                <input type="text" class="form-control" placeholder="Search games or reviews" aria-label="Search" value="<?php echo esc_attr( $key ); ?>" name="key" />
+                                <button type="submit" class="head-search-submit">Search</button>
+                            </form>
+                        </div>
+                    </div>
+                    <nav class="head-filter-list" aria-label="Directory shortcuts">
+                        <a class="head-filter-item" href="<?php echo esc_url( $games_archive_url ); ?>">Games</a>
+                        <a class="head-filter-item" href="<?php echo esc_url( $review_archive_url ); ?>">Reviews</a>
+                        <a class="head-filter-item" href="<?php echo esc_url( $blog_archive_url ); ?>">Blogs</a>
+                        <a class="head-filter-item" href="<?php echo esc_url( add_query_arg( 'key', 'mobile', $review_archive_url ) ); ?>">Mobile</a>
+                    </nav>
                 </div>
             </div>
         </header>

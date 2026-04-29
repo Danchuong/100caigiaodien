@@ -63,7 +63,7 @@ Chỉ tham khảo cách tổ chức bố cục, không copy code, asset, screens
 
 | # | Theme | Layout form | Status | Fingerprint |
 | ---: | --- | --- | --- | --- |
-| 1 | des-1 | Cinematic Featured Lead | Done | Header static 1 row; hero featured article title-only; flow featured/blog/review/game; 3-column cards; sitemap footer; mobile magazine stack. |
+| 1 | des-1 | Search First Directory | Done | Header search-first; no poster hero; flow search/platform/game rows/review scores/blog notes; directory footer; mobile search + chips + compact lists. |
 | 2 | des-2 | Lead Left With Trending Rail | Todo | Masthead header; hero lead left + rail right; flow news first; mixed large/small cards; latest footer; mobile lead then compact rail. |
 | 3 | des-3 | Center Lead Newspaper | Todo | Center-logo header; hero centered headline; flow category bands; 3-column newspaper cards; compact legal footer; mobile text-first feed. |
 | 4 | des-4 | Mosaic News Wall | Todo | Dense portal header; hero 1 large + 4 small mosaic; flow blogs/reviews/games; image mosaic cards; mega sitemap footer; mobile story stack. |

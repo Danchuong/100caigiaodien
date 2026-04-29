@@ -1,55 +1,52 @@
-/* des-1 footer start */
+/* des-1 directory footer start */
 footer.site-footer {
-    position: relative;
-    margin-top: 5rem;
-    padding: 4rem 0 2.5rem;
-    overflow: hidden;
-    border-top: 1px solid rgba($white, 0.1);
-    background:
-        radial-gradient(circle at 18% 0%, rgba($primary, 0.22), transparent 34rem),
-        linear-gradient(180deg, #111827 0%, #070a14 100%);
-    color: rgba($white, 0.78);
+    margin-top: 3.5rem;
+    padding: 3rem 0;
+    border-top: 1px solid rgba($body-color, 0.1);
+    background-color: #101827;
+    color: rgba($white, 0.72);
 }
 
-.footer-wrapper,
-.footer-wrap {
+.foot-wrapper {
     display: grid;
-    grid-template-columns: minmax(16rem, 1.6fr) repeat(3, minmax(8.5rem, 1fr));
+    grid-template-columns: minmax(15rem, 0.9fr) minmax(0, 1.8fr);
     gap: 2rem;
     align-items: start;
 }
 
-.footer-info {
-    padding-right: 1rem;
-
+.foot-brand {
     .logo {
         display: inline-flex;
         color: $white;
-        font-size: 1.65rem;
-        font-weight: 800;
+        font-size: 1.45rem;
+        font-weight: 900;
     }
 
-    .text-muted {
-        color: rgba($white, 0.48) !important;
-    }
-
-    .desc {
-        max-width: 30rem;
-        margin-top: 0.65rem;
-        color: rgba($white, 0.68);
+    p {
+        max-width: 24rem;
+        margin: 0.65rem 0;
+        color: rgba($white, 0.7);
     }
 }
 
-.footer-tagline {
-    margin: 0.5rem 0;
-    color: rgba($white, 0.82);
-    font-weight: $font-weight-semibold;
+.foot-muted {
+    color: rgba($white, 0.48);
+    font-size: 0.9rem;
 }
 
-.footer-menu {
-    max-width: none;
-    width: 100%;
+.foot-columns {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1.25rem;
+}
 
+.foot-title {
+    margin-bottom: 0.75rem;
+    color: $white;
+    font-weight: 900;
+}
+
+.foot-column {
     ul {
         list-style: none;
         margin: 0;
@@ -57,74 +54,44 @@ footer.site-footer {
     }
 
     li + li {
-        margin-top: 0.35rem;
+        margin-top: 0.45rem;
     }
 
     a {
         display: inline-flex;
         max-width: 100%;
-        color: rgba($white, 0.68);
-        line-height: 1.45;
+        color: rgba($white, 0.66);
+        line-height: 1.4;
         @include text-truncate();
 
         &:hover {
             color: $white;
-            transform: translateX(2px);
         }
     }
 }
 
-.footer-menu-title {
-    margin-bottom: 0.8rem;
-    color: $white;
-    font-weight: 800;
-}
-
-@media (max-width: 959.9px) {
-    .footer-wrapper,
-    .footer-wrap {
-        grid-template-columns: repeat(3, minmax(0, 1fr));
-    }
-
-    .footer-info {
-        grid-column: 1 / -1;
-        width: 100%;
-        margin-bottom: 0;
-    }
-}
-
-@media (max-width: 639.9px) {
+@media (max-width: 767.9px) {
     footer.site-footer {
-        margin-top: 3rem;
-        padding: 2.75rem 0 1.5rem;
+        margin-top: 2.25rem;
+        padding: 2rem 0;
     }
 
-    .footer-wrapper,
-    .footer-wrap {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-        gap: 1.5rem 1rem;
-    }
-
-    .footer-info {
-        grid-column: 1 / -1;
-        padding-right: 0;
-    }
-
-    .footer-menu {
-        max-width: none;
-    }
-
-    .footer-menu:last-child {
-        grid-column: 1 / -1;
-        padding-left: 0;
-    }
-
-}
-
-@media (max-width: 360px) {
-    .footer-wrapper,
-    .footer-wrap {
+    .foot-wrapper,
+    .foot-columns {
         grid-template-columns: 1fr;
     }
+
+    .foot-wrapper {
+        gap: 1.5rem;
+    }
+
+    .foot-columns {
+        gap: 1rem;
+    }
+
+    .foot-column {
+        padding-top: 1rem;
+        border-top: 1px solid rgba($white, 0.12);
+    }
 }
-/* des-1 footer end */
+/* des-1 directory footer end */
