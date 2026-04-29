@@ -26,17 +26,21 @@ Không dùng thêm mã `H001`, `S001`, registry riêng hay style pool phụ.
 
 ## Phạm vi mỗi giao diện
 
-Chỉ thiết kế lại trang home.
+Thiết kế lại trang home, header và footer để mỗi style đồng bộ trên toàn website.
 
-Mỗi mẫu thường chỉ cần sửa và bàn giao:
+Mỗi mẫu thường cần sửa và bàn giao:
 
 ```text
 home.php
+header.php
+footer.php
 css/_home.scss
+css/_header.scss
+css/_footer.scss
 style.css
 ```
 
-Không thiết kế lại header/footer nếu không có lỗi trực tiếp làm home hiển thị sai.
+Không thay đổi plugin, database, nội dung bài viết hoặc logic WordPress nếu không cần thiết cho giao diện.
 
 ## Nội dung bắt buộc
 
@@ -46,7 +50,7 @@ Mỗi home vẫn phải có đủ:
 - 5 bài `review`, random.
 - 5 bài `post/game`, random.
 - Responsive tốt từ `320px`.
-- Class rõ ràng, ưu tiên scope home như `.home-wrapper`, `.home-hero`, `.home-review-card`.
+- Class rõ ràng, ưu tiên tên dễ hiểu như `.head-wrapper`, `.head-center`, `.footer-wrapper`, `.home-wrapper`, `.home-hero`, `.home-review-card`.
 
 ## Quy trình làm một style
 
