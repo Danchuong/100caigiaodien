@@ -11,6 +11,7 @@ Folder này gom kết quả nghiên cứu từ 5 agent để xử lý bài toán
 3. `04-first-20-concepts.md` để lấy 20 concept đầu triển khai ngay.
 4. `01-real-site-inspiration.md` khi cần thêm pattern layout từ site thật.
 5. `02-visual-language-systems.md` khi cần đổi visual direction sâu hơn.
+6. `06-100-style-pool.md` khi cần chọn nhanh 100 style direction.
 
 ## Các file nghiên cứu
 
@@ -21,6 +22,7 @@ Folder này gom kết quả nghiên cứu từ 5 agent để xử lý bài toán
 | `03-anti-duplicate-taxonomy.md` | Framework design genome, scoring chống trùng, naming system cho 100 concept. |
 | `04-first-20-concepts.md` | Concept cụ thể cho `des-1` đến `des-20`, đủ section order và treatment. |
 | `05-quality-review-and-rules.md` | Luật kiểm duyệt visual/kỹ thuật, batch review và tiêu chí khác biệt đủ. |
+| `06-100-style-pool.md` | Danh sách 100 style direction để chọn visual language cho từng mẫu. |
 
 ## Kết luận chính
 
@@ -52,4 +54,3 @@ Một giao diện mới chỉ nên được accept khi:
 - Khác rõ concept gần nhất, không chỉ đổi màu.
 - Có tên concept và mô tả cá tính riêng.
 - Qua checklist trong `05-quality-review-and-rules.md`.
-
