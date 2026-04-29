@@ -8,10 +8,11 @@ Folder này gom kết quả nghiên cứu từ 5 agent để xử lý bài toán
 
 1. `03-anti-duplicate-taxonomy.md` để hiểu framework chống trùng.
 2. `05-quality-review-and-rules.md` để biết luật reject/accept từng mẫu.
-3. `04-first-20-concepts.md` để lấy 20 concept đầu triển khai ngay.
-4. `01-real-site-inspiration.md` khi cần thêm pattern layout từ site thật.
-5. `02-visual-language-systems.md` khi cần đổi visual direction sâu hơn.
-6. `06-100-style-pool.md` khi cần chọn nhanh 100 style direction.
+3. `../100-home-design-registry.md` để xem mỗi `des-*` dùng style chính nào trong pool.
+4. `04-first-20-concepts.md` để lấy 20 concept đầu triển khai ngay.
+5. `01-real-site-inspiration.md` khi cần thêm pattern layout từ site thật.
+6. `02-visual-language-systems.md` khi cần đổi visual direction sâu hơn.
+7. `06-100-style-pool.md` khi cần chọn nhanh 100 style direction.
 
 ## Các file nghiên cứu
 

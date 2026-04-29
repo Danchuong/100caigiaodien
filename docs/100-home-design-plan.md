@@ -81,19 +81,21 @@ Lý do giữ cách này:
 Mỗi mẫu cần có ID kỹ thuật và tên concept:
 
 ```text
-des-1  = H001 - Cinematic Neon Launchpad
-des-2  = H002 - Bright Trailer Shelf
-des-3  = H003 - Retro Arcade Marquee
+des-1  = H001 - Cinematic Neon Launchpad - S096 Hero Poster Cinema
+des-2  = H002 - Bright Trailer Shelf - S037 Mobile App Store Cards
+des-3  = H003 - Retro Arcade Marquee - S001 Arcade Cabinet Neon
 ...
-des-100 = H100 - [Codename]
+des-100 = H100 - [Codename] - S### [Primary Style]
 ```
 
 Quy tắc:
 
 - `des-*` là tên folder theme.
 - `H###` là số concept trong registry.
+- `S###` là style chính lấy từ `docs/100-home-design-research/06-100-style-pool.md`.
 - Codename phải gợi được cá tính, không dùng tên chung như `Modern Home`, `Dark Layout`, `Design 12`.
 - Mỗi concept phải có mô tả riêng: hero, section order, card treatment, mobile behavior.
+- Mỗi mẫu chỉ có 1 style chính để khách dễ kiểm soát. Accent phụ không được tính là style chính.
 
 Danh sách 20 concept đầu nằm trong:
 
@@ -183,7 +185,7 @@ Sau mỗi 20 mẫu nên audit lớn:
 
 ## Registry cần duy trì
 
-Nên tạo hoặc cập nhật registry khi bắt đầu làm nhiều mẫu hơn:
+Registry chính:
 
 ```text
 docs/100-home-design-registry.md
@@ -192,14 +194,14 @@ docs/100-home-design-registry.md
 Mỗi dòng nên có:
 
 ```text
-Theme | Concept ID | Codename | Genome | Status | Notes
+Theme | Concept ID | Codename | Primary Style | Status | Notes
 ```
 
 Ví dụ:
 
 ```text
-des-1 | H001 | Cinematic Neon Launchpad | FRONT/LEAD/PULSE/PORTAL/BALANCED/NONE/POSTER/PRIORITY | Done | Đã triển khai
-des-2 | H002 | Bright Trailer Shelf | HUB/SPLIT/STACK/STORE/BALANCED/ANCHOR/STANDARD/CAROUSEL | Planned | Làm tiếp
+des-1 | H001 | Cinematic Neon Launchpad | S096 - Hero Poster Cinema | Done | Đã triển khai
+des-2 | H002 | Bright Trailer Shelf | S037 - Mobile App Store Cards | Planned | Làm tiếp
 ```
 
 ## Hướng triển khai gần nhất
@@ -209,6 +211,14 @@ des-2 | H002 | Bright Trailer Shelf | HUB/SPLIT/STACK/STORE/BALANCED/ANCHOR/STAN
 ```text
 H001 - Cinematic Neon Launchpad
 ```
+
+Style chính của `des-1` trong pool:
+
+```text
+S096 - Hero Poster Cinema
+```
+
+Lime/cam neon trong `des-1` chỉ là accent để tạo năng lượng gaming, không tính là style chính.
 
 Các mẫu tiếp theo nên lấy từ:
 
@@ -248,4 +258,3 @@ style.css
 ```
 
 Nếu có chỉnh thêm file nào ngoài 3 file trên, phải ghi rõ trong note bàn giao.
-
