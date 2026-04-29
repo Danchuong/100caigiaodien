@@ -77,10 +77,10 @@ Nếu nhìn nhanh vẫn giống mẫu trước, chưa đạt.
 
 ## Trạng thái hiện tại
 
-Hiện tại `des-1` đã được reset về clone sạch của `h5game`, nên chưa tính là style hoàn thành.
+Hiện tại `des-1` đã hoàn thành style đầu tiên theo hướng Hero Poster Cinema.
 
 ```text
-Style 1 = des-1 = Hero Poster Cinema = Todo
+Style 1 = des-1 = Hero Poster Cinema = Done
 ```
 
 Các style tiếp theo xem trực tiếp trong:
