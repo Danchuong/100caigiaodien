@@ -588,11 +588,11 @@ footer {
     }
 
     .head-search {
-        position: fixed;
-        top: 6rem;
-        left: 0;
+        position: absolute;
+        top: calc(100% + 0.65rem);
         right: 0;
-        padding: 1rem;
+        width: min(22rem, calc(100vw - 2rem));
+        padding: 0;
 
         &.active .head-search-wrapper {
             pointer-events: auto;
@@ -602,8 +602,9 @@ footer {
 
     .head-search-wrapper {
         width: 100%;
+        min-width: 0;
         max-width: 18rem;
-        margin: 0 auto;
+        margin: 0;
         transition: all 0.1s ease-in-out;
         backdrop-filter: blur(10px);
         pointer-events: none;

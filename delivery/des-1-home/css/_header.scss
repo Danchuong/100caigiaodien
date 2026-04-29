@@ -1,5 +1,5 @@
 /* des-1 header start */
-body:not(.home) header.site-header {
+header.site-header {
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -8,6 +8,10 @@ body:not(.home) header.site-header {
         linear-gradient(90deg, rgba(7, 10, 20, 0.96), rgba(16, 22, 43, 0.94)),
         $body-color;
     box-shadow: 0 14px 40px rgba($black, 0.16);
+    margin-bottom: 0;
+}
+
+body:not(.home) header.site-header {
     margin-bottom: 1.75rem;
 }
 
@@ -178,18 +182,19 @@ ul.menu li.menu-item.current-menu-item > a {
     }
 
     .head-search {
-        position: fixed;
-        top: 5.25rem;
-        left: 0;
+        position: absolute;
+        top: calc(100% + 0.65rem);
         right: 0;
         z-index: 1002;
-        padding: 0 1rem;
+        width: min(22rem, calc(100vw - 2rem));
+        padding: 0;
         pointer-events: none;
     }
 
     .head-search-wrapper {
-        width: min(100%, 22rem);
-        margin: 0 auto;
+        width: 100%;
+        min-width: 0;
+        margin: 0;
         opacity: 0;
         transform: translateY(-0.45rem);
         transition: all 0.15s ease-in-out;
