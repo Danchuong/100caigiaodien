@@ -173,7 +173,12 @@ Khi mở search/menu trên mobile:
 - Input không tràn viewport từ `320px`.
 - Target chạm của button tối thiểu khoảng `44px`.
 
-Ưu tiên mobile search nằm trong flow. Nếu dùng popup absolute, popup phải neo theo header/container ổn định, không neo theo `.head-right` hoặc cụm icon nhỏ.
+Phải chọn rõ behavior của từng panel:
+
+- Nếu gọi là panel in-flow, nó được nằm dưới header và có thể đẩy nội dung xuống.
+- Nếu gọi là popup/dropdown/floating stack, nó phải là overlay/floating bằng `position: absolute` hoặc cơ chế tương đương, không được đẩy nội dung home xuống.
+- Popup menu nên canh theo cạnh phải header/container, có width giới hạn, shadow/border rõ, và không tràn viewport từ `320px`.
+- Mobile search ưu tiên nằm trong flow nếu cần nhập liệu thoải mái. Nếu search cũng là popup, nó phải theo cùng luật overlay và không neo theo `.head-right` hoặc cụm icon nhỏ.
 
 ## 7. Footer
 
@@ -200,6 +205,7 @@ Không được:
 - Có social link nếu không có URL thật.
 - Có newsletter nếu không có chức năng đăng ký thật.
 - Có margin âm làm footer kéo ngược lên nội dung.
+- Có `margin-top` hard-code để tự tạo khoảng cách với section trước. Khoảng cách trước footer nên thuộc section cuối hoặc page wrapper, để khi đổi background phần giữa không tạo dải màu lạc lõng.
 - Có khoảng trắng dư xấu trước hoặc sau footer.
 - Để footer trùng màu nền đến mức mất phân tách với nội dung.
 
@@ -637,4 +643,6 @@ Các điểm này đã được rút ra từ feedback thực tế và phải áp
 - Không để card lặp label `Review / Review`.
 - Header phải cân giữa theo chiều dọc.
 - Mobile menu và search phải nhìn gọn, không bung layout.
+- Nếu menu mobile là popup/stack, nó phải float/overlay, không đẩy nội dung xuống.
+- Footer không tự set `margin-top` để tạo khoảng cách; spacing trước footer thuộc về section cuối hoặc wrapper nội dung.
 - Với các style mới, chỉnh cô lập đúng phạm vi. Nếu sửa header/footer thì kiểm tra mọi trang; nếu sửa home thì không làm ảnh hưởng trang khác.
