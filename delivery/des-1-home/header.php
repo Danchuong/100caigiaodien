@@ -13,9 +13,7 @@ if ( isset( $_GET['key'] ) && is_scalar( $_GET['key'] ) ) {
 }
 
 $des1_nav_title_filter = static function ( $items ) {
-	$seen_nav_titles = array();
-
-	foreach ( $items as $item_index => $item ) {
+	foreach ( $items as $item ) {
 		if ( 'HTML5 Games' === $item->title ) {
 			$item->title = 'Games';
 		}
@@ -23,21 +21,9 @@ $des1_nav_title_filter = static function ( $items ) {
 		if ( in_array( $item->title, array( 'Reviews Games', 'Review Games' ), true ) ) {
 			$item->title = 'Reviews';
 		}
-
-		if ( ! in_array( $item->title, array( 'Games', 'Reviews', 'Blogs', 'About Us' ), true ) ) {
-			unset( $items[ $item_index ] );
-			continue;
-		}
-
-		if ( isset( $seen_nav_titles[ $item->title ] ) ) {
-			unset( $items[ $item_index ] );
-			continue;
-		}
-
-		$seen_nav_titles[ $item->title ] = true;
 	}
 
-	return array_values( $items );
+	return $items;
 };
 ?>
 <!doctype html>
@@ -88,7 +74,7 @@ $des1_nav_title_filter = static function ( $items ) {
                 <div class="head-search" id="site-header-search">
                     <div class="head-search-wrapper">
                         <form action="<?php echo esc_url( $review_archive_url ); ?>" method="get" role="search">
-                            <input type="text" class="head-search-input" placeholder="<?php esc_attr_e( 'Search reviews', 'h5game' ); ?>" aria-label="<?php esc_attr_e( 'Search reviews', 'h5game' ); ?>" value="<?php echo esc_attr( $search_key ); ?>" name="key" />
+                            <input type="text" class="form-control" placeholder="<?php esc_attr_e( 'Search reviews', 'h5game' ); ?>" aria-label="<?php esc_attr_e( 'Search reviews', 'h5game' ); ?>" value="<?php echo esc_attr( $search_key ); ?>" name="key" />
                             <button type="submit" class="head-search-submit"><?php esc_html_e( 'Search', 'h5game' ); ?></button>
                         </form>
                     </div>

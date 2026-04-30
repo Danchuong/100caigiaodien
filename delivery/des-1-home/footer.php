@@ -8,7 +8,6 @@
 $review_archive_url = home_url( '/reviews/' );
 $games_archive_url  = home_url( '/html5-games/' );
 $blog_archive_url   = home_url( '/blogs/' );
-$about_url          = home_url( '/about-us/' );
 
 $site_title = function_exists( 'get_field' ) ? get_field( 'title', 'option' ) : '';
 $copyright  = function_exists( 'get_field' ) ? get_field( 'copyright', 'option' ) : '';
@@ -49,7 +48,7 @@ $footer_games = get_posts(
                 <div class="foot-wrapper">
                     <div class="foot-brand">
                         <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="logo"><?php echo esc_html( $site_title ); ?></a>
-                        <p>Reviews, playable games, and blog updates for finding what to play next.</p>
+                        <p>Reviews, game picks, and blog notes collected into one reading desk.</p>
                         <div class="foot-muted"><?php echo wp_kses_post( $copyright ); ?></div>
                     </div>
 
@@ -60,7 +59,6 @@ $footer_games = get_posts(
                                 <li><a href="<?php echo esc_url( $games_archive_url ); ?>">Games</a></li>
                                 <li><a href="<?php echo esc_url( $review_archive_url ); ?>">Reviews</a></li>
                                 <li><a href="<?php echo esc_url( $blog_archive_url ); ?>">Blogs</a></li>
-                                <li><a href="<?php echo esc_url( $about_url ); ?>">About Us</a></li>
                             </ul>
                         </nav>
 
@@ -96,7 +94,7 @@ $footer_games = get_posts(
 
                         <?php if ( ! empty( $footer_games ) ) : ?>
                             <div class="foot-column">
-                                <div class="foot-title">Latest games</div>
+                                <div class="foot-title">Game shelf</div>
                                 <ul>
                                     <?php foreach ( $footer_games as $footer_game ) : ?>
                                         <li>
