@@ -6,9 +6,7 @@
  */
 
 $review_archive_url = home_url( '/reviews/' );
-$games_archive_url  = home_url( '/html5-games/' );
-$blog_archive_url   = home_url( '/blogs/' );
-$is_home_header     = is_front_page() || is_home();
+$search_key         = isset( $_GET['key'] ) ? sanitize_text_field( wp_unslash( $_GET['key'] ) ) : '';
 
 $des1_nav_title_filter = static function ( $items ) {
 	foreach ( $items as $item ) {
@@ -58,20 +56,17 @@ $des1_nav_title_filter = static function ( $items ) {
                         </nav>
                     </div>
                     <div class="head-right">
-                        <?php if ( $is_home_header ) : ?>
-                            <div class="head-search">
-                                <div class="head-search-wrapper">
-                                    <form action="<?php echo esc_url( $review_archive_url ); ?>">
-                                        <?php $key = isset( $_GET['key'] ) ? sanitize_text_field( $_GET['key'] ) : ''; ?>
-                                        <input type="text" class="form-control" placeholder="Search games or reviews" aria-label="Search" value="<?php echo esc_attr( $key ); ?>" name="key" />
-                                        <button type="submit" class="head-search-submit">Search</button>
-                                    </form>
-                                </div>
+                        <div class="head-search">
+                            <div class="head-search-wrapper">
+                                <form action="<?php echo esc_url( $review_archive_url ); ?>" method="get" role="search">
+                                    <input type="text" class="form-control" placeholder="Search reviews" aria-label="Search reviews" value="<?php echo esc_attr( $search_key ); ?>" name="key" />
+                                    <button type="submit" class="head-search-submit">Search</button>
+                                </form>
                             </div>
-                            <button class="btn head-search-btn" type="button" aria-label="Open search">
-                                <div class="icon-search"><div></div></div>
-                            </button>
-                        <?php endif; ?>
+                        </div>
+                        <button class="btn head-search-btn" type="button" aria-label="Open search">
+                            <div class="icon-search"><div></div></div>
+                        </button>
                         <button class="btn head-btn" type="button" aria-label="Open menu">
                             <div class="icon-menu"><div></div></div>
                         </button>

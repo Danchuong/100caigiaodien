@@ -4,37 +4,28 @@ header.site-header {
     top: 0;
     z-index: 1000;
     margin-bottom: 0;
-    border-bottom: 1px solid rgba($body-color, 0.08);
-    background-color: rgba($white, 0.96);
-    box-shadow: 0 0.7rem 1.8rem rgba($body-color, 0.07);
-    backdrop-filter: blur(18px);
-}
-
-body.home header.site-header {
-    border-bottom-color: rgba($body-color, 0.06);
+    border-bottom: 1px solid rgba($body-color, 0.06);
     background-color: rgba(#eef4f8, 0.96);
     box-shadow: 0 0.45rem 1.4rem rgba($body-color, 0.05);
-}
-
-body:not(.home) header.site-header {
-    margin-bottom: 1.5rem;
+    backdrop-filter: blur(18px);
 }
 
 header.site-header .container {
     position: relative;
 }
 
+main.site-body {
+    flex: 1 0 auto;
+    min-width: 0;
+}
+
 .head-wrapper {
     display: grid;
-    grid-template-columns: minmax(8rem, 1fr) minmax(0, auto) minmax(5rem, 1fr);
+    grid-template-columns: minmax(8rem, 0.75fr) minmax(0, auto) minmax(17rem, 1fr);
     min-height: 4.25rem;
     height: auto;
     align-items: center;
     gap: 1rem;
-}
-
-body.home .head-wrapper {
-    grid-template-columns: minmax(8rem, 0.75fr) minmax(0, auto) minmax(17rem, 1fr);
 }
 
 .head-left,
@@ -55,18 +46,15 @@ body.home .head-wrapper {
 }
 
 .head-logo a {
-    color: $body-color;
-    font-size: 1.45rem;
-    font-weight: 900;
-    letter-spacing: 0;
-}
-
-body.home .head-logo a {
     display: block;
     max-width: 100%;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+    color: $body-color;
+    font-size: 1.45rem;
+    font-weight: 900;
+    letter-spacing: 0;
 }
 
 #primary-menu ul {
@@ -157,7 +145,7 @@ ul.menu li.menu-item.current-menu-item > a {
     }
 }
 
-body.home .head-search-wrapper input {
+.head-search-wrapper input {
     width: 100%;
     min-width: 0;
 }
@@ -174,28 +162,21 @@ body.home .head-search-wrapper input {
 
 @media (max-width: 991.9px) {
     .head-wrapper {
-        grid-template-columns: auto 1fr auto;
-    }
-
-    body.home .head-wrapper {
-        grid-template-columns: minmax(0, 1fr) auto;
+        grid-template-columns: minmax(0, 1fr) auto auto;
     }
 
     .head-center {
-        justify-content: flex-end;
-        min-width: 0;
-    }
-
-    body.home .head-center {
         width: 0;
         height: 0;
+        justify-content: flex-end;
+        min-width: 0;
     }
 
     .head-btn {
         display: inline-flex;
     }
 
-    body.home .head-search {
+    .head-search {
         width: min(18rem, 42vw);
         min-width: 12rem;
     }
@@ -232,11 +213,11 @@ body.home .head-search-wrapper input {
 }
 
 @media (max-width: 767.9px) {
-    body.home .head-wrapper {
+    .head-wrapper {
         grid-template-columns: minmax(0, 1fr) auto auto;
     }
 
-    body.home .head-left {
+    .head-left {
         overflow: hidden;
     }
 
@@ -244,7 +225,7 @@ body.home .head-search-wrapper input {
         display: inline-flex;
     }
 
-    body.home .head-search {
+    .head-search {
         display: none;
         position: absolute;
         top: calc(100% + 0.6rem);
@@ -264,7 +245,7 @@ body.home .head-search-wrapper input {
         transition: all 0.15s ease-in-out;
     }
 
-    body.home .head-search.active {
+    .head-search.active {
         display: block;
         pointer-events: auto;
         opacity: 1;
@@ -288,40 +269,40 @@ body.home .head-search-wrapper input {
         height: 2.45rem;
     }
 
-    body.home .head-wrapper {
+    .head-wrapper {
         gap: 0.45rem;
     }
 
-    body.home .head-logo a {
+    .head-logo a {
         font-size: 1.08rem;
     }
 }
 
 @media (max-width: 360px) {
-    body.home .head-wrapper {
+    .head-wrapper {
         min-height: 3.65rem;
         gap: 0.35rem;
     }
 
-    body.home .head-right {
+    .head-right {
         gap: 0.35rem;
     }
 
-    body.home .head-logo a {
+    .head-logo a {
         font-size: 1rem;
     }
 
-    body.home .head-btn,
-    body.home .head-search-btn {
+    .head-btn,
+    .head-search-btn {
         width: 2.2rem;
         height: 2.2rem;
     }
 
-    body.home .head-search-wrapper form {
+    .head-search-wrapper form {
         grid-template-columns: 1fr;
     }
 
-    body.home .head-search-submit {
+    .head-search-submit {
         border-top: 1px solid rgba($body-color, 0.1);
         border-left: 0;
     }
