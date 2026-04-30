@@ -297,8 +297,11 @@ rg -n "footer-wrap|footer-menu|footer-wrapper|footer-brand|footer-section|footer
 
 ### Mobile search và input
 
-- Mobile search không nên dùng `position: absolute` nếu có input, vì dễ đè nội dung, tràn viewport hoặc lỗi khi focus.
-- Search mobile nên nằm trong flow dưới header: hidden bằng `display: none`, active bằng `display: block`.
+- Mobile search nên nằm trong flow dưới header nếu layout cho phép: hidden bằng `display: none`, active bằng `display: block`.
+- Nếu mobile search mở dạng popup dùng `position: absolute`, popup phải neo theo container/header ổn định, không neo theo `.head-right` hoặc cụm icon button nhỏ.
+- Không đặt `.head-right { position: relative; }` nếu popup search đang cần canh theo toàn header/container; rule này dễ làm popup lệch sang phải khi màn hình hẹp.
+- Popup search mobile phải có `left`/`right` theo gutter header để không tràn viewport từ `320px`.
+- Wrapper bên trong popup không được bị CSS legacy làm hỏng bằng `opacity: 0`, `pointer-events: none`, `max-width` hẹp, `margin` lệch hoặc `backdrop-filter`/transition không phù hợp.
 - Tránh ẩn/mở input bằng `max-height` vì input focus có thể bị cắt hoặc nhìn lỗi.
 - Không dùng Bootstrap `.form-control` cho input search custom nếu component đã có style riêng.
 - Input search custom nên dùng class riêng, ví dụ `.head-search-input`, và reset rõ:
