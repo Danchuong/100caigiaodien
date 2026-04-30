@@ -6,16 +6,7 @@
  */
 
 $review_archive_url = home_url( '/reviews/' );
-$blog_archive_url   = home_url( '/blogs/' );
 $search_key         = isset( $_GET['key'] ) ? sanitize_text_field( wp_unslash( $_GET['key'] ) ) : '';
-$latest_blog_posts  = get_posts(
-	array(
-		'post_type'           => 'blog',
-		'posts_per_page'      => 2,
-		'post_status'         => 'publish',
-		'ignore_sticky_posts' => true,
-	)
-);
 
 $des2_nav_title_filter = static function ( $items ) {
 	foreach ( $items as $item ) {
@@ -42,24 +33,6 @@ $des2_nav_title_filter = static function ( $items ) {
 </head>
 <body <?php body_class(); ?>>
 	<header class="site-masthead">
-		<div class="head-kicker">
-			<div class="container">
-				<div class="head-kicker-wrapper">
-					<span class="head-kicker-label"><?php esc_html_e( 'Latest Blogs', 'h5game' ); ?></span>
-					<div class="head-kicker-feed">
-						<?php if ( ! empty( $latest_blog_posts ) ) : ?>
-							<?php foreach ( $latest_blog_posts as $latest_blog_post ) : ?>
-								<a class="head-kicker-link" href="<?php echo esc_url( get_permalink( $latest_blog_post ) ); ?>">
-									<?php echo esc_html( get_the_title( $latest_blog_post ) ); ?>
-								</a>
-							<?php endforeach; ?>
-						<?php else : ?>
-							<a class="head-kicker-link" href="<?php echo esc_url( $blog_archive_url ); ?>"><?php esc_html_e( 'Open blog archive', 'h5game' ); ?></a>
-						<?php endif; ?>
-					</div>
-				</div>
-			</div>
-		</div>
 		<div class="container">
 			<div class="head-wrapper">
 				<div class="head-left">

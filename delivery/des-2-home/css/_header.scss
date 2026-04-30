@@ -2,60 +2,14 @@
     position: relative;
     z-index: 20;
     margin-bottom: 0;
-    background: #121722;
-    box-shadow: none;
-    color: #fff;
-}
-
-.head-kicker {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.12);
-    background: #0c1018;
-}
-
-.head-kicker-wrapper {
-    display: flex;
-    min-height: 2.4rem;
-    align-items: center;
-    justify-content: space-between;
-    gap: 1rem;
-}
-
-.head-kicker-label {
-    flex: 0 0 auto;
-    color: #f7c948;
-    font-size: 0.76rem;
-    font-weight: 900;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-}
-
-.head-kicker-feed {
-    display: flex;
-    min-width: 0;
-    align-items: center;
-    justify-content: flex-end;
-    gap: 1rem;
-}
-
-.head-kicker-link {
-    display: block;
-    max-width: 24rem;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    color: rgba(255, 255, 255, 0.72);
-    font-size: 0.78rem;
-    font-weight: 700;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-
-    &:hover {
-        color: #f7c948;
-    }
+    border-bottom: 1px solid rgba(17, 24, 39, 0.1);
+    background: #fbf7ed;
+    box-shadow: 0 0.9rem 2rem rgba(17, 24, 39, 0.05);
+    color: #171b24;
 }
 
 .site-masthead .head-wrapper {
-    min-height: 5.6rem;
+    min-height: 5rem;
     height: auto;
     gap: 1.25rem;
 }
@@ -85,15 +39,15 @@
 .site-masthead .head-logo a {
     display: inline-flex;
     align-items: center;
-    min-height: 3.4rem;
-    color: #fff;
-    font-size: clamp(1.35rem, 2vw, 2.1rem);
+    min-height: 3rem;
+    color: #171b24;
+    font-size: 1.55rem;
     font-weight: 900;
     letter-spacing: 0;
     text-transform: uppercase;
 
     &:hover {
-        color: #f7c948;
+        color: #b42318;
     }
 }
 
@@ -102,37 +56,44 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    gap: 0.5rem;
+    gap: 0.25rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 
     a {
         display: inline-flex;
-        min-height: 2.6rem;
+        min-height: 2.55rem;
         align-items: center;
         border-radius: 999px;
-        color: rgba(255, 255, 255, 0.76);
-        font-size: 0.88rem;
+        color: rgba(23, 27, 36, 0.72);
+        font-size: 0.86rem;
         font-weight: 800;
-        padding: 0 0.8rem;
+        padding: 0 0.78rem;
 
         &:hover {
-            background: rgba(255, 255, 255, 0.08);
-            color: #fff;
+            background: rgba(180, 35, 24, 0.09);
+            color: #b42318;
         }
     }
 }
 
 .site-masthead ul.menu li.menu-item.current-menu-item > a {
-    background: rgba(247, 201, 72, 0.14);
-    color: #f7c948 !important;
+    background: #171b24;
+    color: #fff !important;
+}
+
+.site-masthead .head-search {
+    width: min(18rem, 24vw);
 }
 
 .site-masthead .head-search-wrapper {
     width: 100%;
-    min-width: 14rem;
-    border: 1px solid rgba(255, 255, 255, 0.16);
-    border-radius: 999px;
-    background: rgba(255, 255, 255, 0.08);
+    min-width: 0;
     overflow: hidden;
+    border: 1px solid rgba(23, 27, 36, 0.14);
+    border-radius: 999px;
+    background: #fff;
 }
 
 .site-masthead .head-search-wrapper form {
@@ -144,39 +105,40 @@
 .site-masthead .head-search-wrapper input {
     width: 100%;
     min-width: 0;
-    min-height: 2.75rem;
-    height: 2.75rem;
+    min-height: 2.7rem;
+    height: 2.7rem;
     border: 0;
     outline: 0;
     background: transparent;
     box-shadow: none;
-    color: #fff !important;
-    font-size: 0.92rem;
-    padding: 0 0.25rem 0 1rem;
+    color: #171b24 !important;
+    font-size: 0.9rem;
+    padding: 0 0.2rem 0 1rem;
 
     &::placeholder {
-        color: rgba(255, 255, 255, 0.58);
+        color: rgba(23, 27, 36, 0.52);
     }
 }
 
 .head-search-submit,
 .head-actions .btn {
     display: inline-flex;
-    width: 2.75rem;
-    height: 2.75rem;
-    min-width: 2.75rem;
+    width: 2.7rem;
+    height: 2.7rem;
+    min-width: 2.7rem;
     align-items: center;
     justify-content: center;
     border: 0;
     border-radius: 999px;
     background: transparent;
-    color: #fff;
+    color: #171b24;
     padding: 0;
 }
 
 .head-search-submit:hover,
 .head-actions .btn:hover {
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(180, 35, 24, 0.1);
+    color: #b42318;
 }
 
 .site-masthead .icon-search {
@@ -216,7 +178,7 @@
     align-items: center;
     border-top: 2px solid currentColor;
     border-bottom: 2px solid currentColor;
-    color: #fff;
+    color: currentColor;
 }
 
 .site-masthead .icon-menu span {
@@ -225,64 +187,21 @@
     background: currentColor;
 }
 
-.site-masthead .head-search-btn,
-.site-masthead .head-btn {
+.site-masthead .head-actions {
     display: none;
 }
 
 @media (max-width: 991.98px) {
     .site-masthead .head-wrapper {
-        min-height: 4.7rem;
-    }
-
-    .site-masthead .head-center {
-        order: 3;
-        flex-basis: 100%;
-        justify-content: stretch;
-    }
-
-    .site-masthead .head-wrapper {
+        min-height: 4.25rem;
         flex-wrap: wrap;
-    }
-
-    .site-masthead .head-menu {
-        width: 100%;
-    }
-
-    .site-masthead #primary-menu ul {
-        justify-content: flex-start;
-        overflow-x: auto;
-        padding-bottom: 0.5rem;
-        scrollbar-width: none;
-        white-space: nowrap;
-    }
-}
-
-@media (max-width: 767.98px) {
-    .head-kicker-wrapper {
-        justify-content: flex-start;
-        gap: 0.75rem;
-        overflow-x: auto;
-        scrollbar-width: none;
-    }
-
-    .head-kicker-feed {
-        flex: 0 0 auto;
-        justify-content: flex-start;
-    }
-
-    .head-kicker-link {
-        max-width: 16rem;
-    }
-
-    .site-masthead .head-wrapper {
-        min-height: 4.1rem;
-        flex-wrap: wrap;
+        gap: 0.65rem 0.75rem;
+        padding: 0.55rem 0;
     }
 
     .site-masthead .head-logo a {
-        min-height: 2.9rem;
-        font-size: 1.25rem;
+        min-height: 2.7rem;
+        font-size: 1.18rem;
     }
 
     .site-masthead .head-right {
@@ -291,25 +210,31 @@
 
     .site-masthead .head-actions {
         order: 2;
+        display: inline-flex;
+        gap: 0.4rem;
         margin-left: auto;
+    }
+
+    .site-masthead .head-actions .btn {
+        border: 1px solid rgba(23, 27, 36, 0.14);
+        background: #fff;
     }
 
     .site-masthead .head-center {
         position: static;
-        order: 3;
-        flex: 1 0 100%;
+        order: 4;
+        flex: 0 0 100%;
+        justify-content: flex-end;
     }
 
     .site-masthead .head-menu {
-        position: static;
-        flex-basis: 100%;
         display: none;
-        width: 100%;
-        margin-top: 0.6rem;
-        border: 1px solid rgba(255, 255, 255, 0.12);
-        border-radius: 0.85rem;
-        background: #151b27;
-        padding: 0.6rem;
+        width: min(18rem, 100%);
+        margin-left: auto;
+        border: 1px solid rgba(23, 27, 36, 0.1);
+        border-radius: 0.9rem;
+        background: #fff;
+        padding: 0.55rem;
     }
 
     .site-masthead .head-menu.active {
@@ -322,8 +247,8 @@
         width: 100%;
         min-width: 0;
         overflow: visible;
-        gap: 0.2rem;
-        margin-top: 0;
+        gap: 0.15rem;
+        margin: 0;
         padding: 0;
         background: transparent;
         box-shadow: none;
@@ -335,16 +260,16 @@
         a {
             width: 100%;
             justify-content: flex-start;
-            min-height: 2.85rem;
+            min-height: 2.8rem;
         }
     }
 
     .site-masthead .head-search {
         position: static;
-        flex-basis: 100%;
+        order: 3;
+        flex: 0 0 100%;
         display: none;
         width: 100%;
-        margin-top: 0.6rem;
     }
 
     .site-masthead .head-search.active {
@@ -352,26 +277,31 @@
     }
 
     .site-masthead .head-search-wrapper {
-        min-width: 0;
         width: 100%;
-        border-radius: 0.85rem;
-        background: #fff;
+        border-radius: 0.9rem;
     }
 
     .site-masthead .head-search-wrapper input {
-        color: #151b27 !important;
+        min-height: 2.95rem;
+        height: 2.95rem;
+    }
+}
 
-        &::placeholder {
-            color: rgba(21, 27, 39, 0.54);
-        }
+@media (max-width: 360px) {
+    .site-masthead .head-wrapper {
+        gap: 0.5rem;
     }
 
-    .site-masthead .head-search-submit {
-        color: #151b27;
+    .site-masthead .head-logo a {
+        max-width: 11.5rem;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
     }
 
-    .site-masthead .head-search-btn,
-    .site-masthead .head-btn {
-        display: inline-flex;
+    .head-actions .btn {
+        width: 2.55rem;
+        height: 2.55rem;
+        min-width: 2.55rem;
     }
 }

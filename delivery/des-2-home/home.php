@@ -15,6 +15,8 @@ if ( ! function_exists( 'des2_get_posts' ) ) {
 				'posts_per_page'      => $posts_per_page,
 				'post_status'         => 'publish',
 				'post__not_in'        => $exclude_ids,
+				'orderby'             => 'rand',
+				'order'               => 'DESC',
 				'ignore_sticky_posts' => true,
 			)
 		);
@@ -58,8 +60,11 @@ $review_posts  = des2_get_posts( 'review', 5 );
 $game_posts    = des2_get_posts( 'post', 5 );
 $lead_post     = ! empty( $blog_posts ) ? $blog_posts[0] : null;
 $trending_news = array_slice( $blog_posts, 1, 4 );
-$desk_news     = array_slice( $blog_posts, 5, 6 );
-$platforms     = array( 'PC', 'Console', 'Mobile', 'Switch', 'Browser' );
+$desk_news     = array_slice( $blog_posts, 5, 4 );
+
+if ( empty( $desk_news ) ) {
+	$desk_news = array_slice( $blog_posts, 1, 4 );
+}
 ?>
 
 <div class="lead-left-home">
@@ -67,7 +72,7 @@ $platforms     = array( 'PC', 'Console', 'Mobile', 'Switch', 'Browser' );
 		<div class="container">
 			<div class="lead-news-wrapper">
 				<div class="lead-left">
-					<div class="lead-section-kicker">Blog Front Page</div>
+					<div class="lead-section-kicker">Featured Brief</div>
 					<?php if ( $lead_post ) : ?>
 						<a class="lead-story-card" href="<?php echo esc_url( get_permalink( $lead_post ) ); ?>">
 							<div class="lead-story-media">
@@ -76,7 +81,6 @@ $platforms     = array( 'PC', 'Console', 'Mobile', 'Switch', 'Browser' );
 							<div class="lead-story-content">
 								<span class="story-label"><?php echo esc_html( des2_post_label( $lead_post->ID, 'Blog' ) ); ?></span>
 								<h1><?php echo esc_html( get_the_title( $lead_post ) ); ?></h1>
-								<p><?php echo esc_html( wp_trim_words( get_the_excerpt( $lead_post ), 24 ) ); ?></p>
 							</div>
 						</a>
 					<?php endif; ?>
@@ -84,7 +88,7 @@ $platforms     = array( 'PC', 'Console', 'Mobile', 'Switch', 'Browser' );
 				<aside class="trending-rail" aria-label="<?php esc_attr_e( 'Trending stories', 'h5game' ); ?>">
 					<div class="rail-head">
 						<span>Trending</span>
-						<a href="<?php echo esc_url( home_url( '/blogs' ) ); ?>">All blogs</a>
+						<a href="<?php echo esc_url( home_url( '/blogs/' ) ); ?>">All blogs</a>
 					</div>
 					<div class="rail-list">
 						<?php foreach ( $trending_news as $index => $rail_post ) : ?>
@@ -103,23 +107,20 @@ $platforms     = array( 'PC', 'Console', 'Mobile', 'Switch', 'Browser' );
 		<div class="container">
 			<div class="section-head news-desk-head">
 				<div>
-					<span class="section-eyebrow">Blogs first</span>
-					<h2 class="section-title">Latest Briefing</h2>
+					<span class="section-eyebrow">Blogs</span>
+					<h2 class="section-title">Briefing Board</h2>
 				</div>
-				<a class="btn-viewmore" href="<?php echo esc_url( home_url( '/blogs' ) ); ?>">View all</a>
+				<a class="btn-viewmore" href="<?php echo esc_url( home_url( '/blogs/' ) ); ?>">View all</a>
 			</div>
 			<div class="news-mixed-grid">
 				<?php foreach ( $desk_news as $index => $news_post ) : ?>
-					<a class="<?php echo 0 === $index ? 'news-large-card' : 'news-small-card'; ?>" href="<?php echo esc_url( get_permalink( $news_post ) ); ?>">
+					<a class="news-small-card" href="<?php echo esc_url( get_permalink( $news_post ) ); ?>">
 						<div class="news-card-media">
 							<?php echo des2_post_image( $news_post->ID, 'news-card-media' ); ?>
 						</div>
 						<div class="news-card-content">
 							<span><?php echo esc_html( des2_post_label( $news_post->ID, 'Blog' ) ); ?></span>
 							<h3><?php echo esc_html( get_the_title( $news_post ) ); ?></h3>
-							<?php if ( 0 === $index ) : ?>
-								<p><?php echo esc_html( wp_trim_words( get_the_excerpt( $news_post ), 18 ) ); ?></p>
-							<?php endif; ?>
 						</div>
 					</a>
 				<?php endforeach; ?>
@@ -127,21 +128,21 @@ $platforms     = array( 'PC', 'Console', 'Mobile', 'Switch', 'Browser' );
 		</div>
 	</section>
 
-	<section class="review-score-section">
+	<section class="review-pick-section">
 		<div class="container">
 			<div class="section-head">
 				<div>
-					<span class="section-eyebrow">Critic desk</span>
-					<h2 class="section-title">Review Scores</h2>
+					<span class="section-eyebrow">Reviews</span>
+					<h2 class="section-title">Review Picks</h2>
 				</div>
-				<a class="btn-viewmore" href="<?php echo esc_url( home_url( '/reviews' ) ); ?>">View all</a>
+				<a class="btn-viewmore" href="<?php echo esc_url( home_url( '/reviews/' ) ); ?>">View all</a>
 			</div>
-			<div class="review-score-grid">
+			<div class="review-pick-grid">
 				<?php foreach ( $review_posts as $index => $review_post ) : ?>
-					<a class="review-score-card" href="<?php echo esc_url( get_permalink( $review_post ) ); ?>">
-						<div class="score-badge">Review</div>
-						<div>
-							<span>Review</span>
+					<a class="review-pick-card" href="<?php echo esc_url( get_permalink( $review_post ) ); ?>">
+						<span><?php echo esc_html( des2_post_label( $review_post->ID, 'Review' ) ); ?></span>
+						<div class="review-pick-number"><?php echo esc_html( str_pad( (string) ( $index + 1 ), 2, '0', STR_PAD_LEFT ) ); ?></div>
+						<div class="review-pick-content">
 							<h3><?php echo esc_html( get_the_title( $review_post ) ); ?></h3>
 						</div>
 					</a>
@@ -157,7 +158,7 @@ $platforms     = array( 'PC', 'Console', 'Mobile', 'Switch', 'Browser' );
 					<span class="section-eyebrow">Play queue</span>
 					<h2 class="section-title">Games To Watch</h2>
 				</div>
-				<a class="btn-viewmore" href="<?php echo esc_url( home_url( '/html5-games' ) ); ?>">View all</a>
+				<a class="btn-viewmore" href="<?php echo esc_url( home_url( '/html5-games/' ) ); ?>">View all</a>
 			</div>
 			<div class="game-strip-list">
 				<?php foreach ( $game_posts as $index => $game_post ) : ?>
@@ -166,7 +167,7 @@ $platforms     = array( 'PC', 'Console', 'Mobile', 'Switch', 'Browser' );
 							<?php echo des2_post_image( $game_post->ID, 'game-strip-media' ); ?>
 						</div>
 						<div class="game-strip-content">
-							<span><?php echo esc_html( $platforms[ $index ] ?? 'Game' ); ?></span>
+							<span><?php echo esc_html( des2_post_label( $game_post->ID, 'Game' ) ); ?></span>
 							<h3><?php echo esc_html( get_the_title( $game_post ) ); ?></h3>
 						</div>
 					</a>

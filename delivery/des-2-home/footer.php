@@ -35,6 +35,9 @@ $footer_games = get_posts(
 $footer_title       = get_field( 'title', 'option' );
 $footer_description = get_field( 'description', 'option' );
 $footer_copyright   = get_field( 'copyright', 'option' );
+$footer_title       = $footer_title ? $footer_title : get_bloginfo( 'name' );
+$footer_description = $footer_description ? $footer_description : __( 'Fresh blogs, practical reviews, and playable game picks.', 'h5game' );
+$footer_copyright   = $footer_copyright ? $footer_copyright : sprintf( '%s %s', date_i18n( 'Y' ), get_bloginfo( 'name' ) );
 ?>
 	</main>
 	<footer class="site-footer latest-footer">
@@ -44,9 +47,9 @@ $footer_copyright   = get_field( 'copyright', 'option' );
 					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="foot-logo"><?php echo esc_html( $footer_title ); ?></a>
 					<p class="foot-description"><?php echo wp_kses_post( $footer_description ); ?></p>
 					<div class="foot-actions">
-						<a href="<?php echo esc_url( home_url( '/blogs' ) ); ?>">Blogs</a>
-						<a href="<?php echo esc_url( home_url( '/reviews' ) ); ?>">Reviews</a>
-						<a href="<?php echo esc_url( home_url( '/html5-games' ) ); ?>">Games</a>
+						<a href="<?php echo esc_url( home_url( '/blogs/' ) ); ?>">Blogs</a>
+						<a href="<?php echo esc_url( home_url( '/reviews/' ) ); ?>">Reviews</a>
+						<a href="<?php echo esc_url( home_url( '/html5-games/' ) ); ?>">Games</a>
 					</div>
 				</div>
 				<div class="foot-latest-grid">
