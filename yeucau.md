@@ -253,6 +253,51 @@ Tránh:
 - Nội dung giả kiểu Lorem/TODO/FIXME.
 - Bảng số liệu esports, deal, price, poll hoặc newsletter giả nếu không có backend hoặc dữ liệu thật.
 
+## Luật chống layout thô và quá tải nội dung
+
+Mỗi giao diện phải kiểm soát mật độ nội dung, không nhồi quá nhiều chữ vào first viewport.
+
+- Header không được chứa title bài viết dài nếu làm header rối, cao bất thường hoặc lệch trọng tâm.
+- Không dùng top strip/global strip cho nội dung dài trên mọi trang, trừ khi đó là ticker thật và đã kiểm tra mobile.
+- First viewport không được bị một hero quá lớn chiếm hết màn hình desktop/mobile.
+- Hero/title chính không được lặp lại cùng một bài theo kiểu title xuất hiện 2 lần sát nhau.
+- Excerpt trong hero phải ngắn; nếu title đã dài thì bỏ excerpt.
+- Trending rail, sidebar hoặc list cạnh hero phải gọn, không biến first viewport thành khối chữ dày đặc.
+- Mobile ưu tiên gọn và rõ hơn giữ đầy đủ nội dung desktop.
+
+### Luật đặt label và section title
+
+Label phải đúng nghĩa với dữ liệu thật, không dùng chữ trang trí gây hiểu sai.
+
+- Không đặt section là `Review Scores` nếu không có điểm review thật.
+- Nếu không có score thật, dùng `Review Picks`, `Critic Picks`, `Latest Reviews` hoặc `Review Desk`.
+- Không để card lặp label kiểu `Review / Review / Title`.
+- Mỗi card chỉ nên có tối đa 1 label ngắn trước title.
+- Không dùng label chung chung hoặc phô như `Game Newsroom`, `News first`, `Front Page` nếu không làm rõ nội dung.
+- Nếu dùng `News`, phải nhất quán với concept editorial/news; nếu dữ liệu thực tế là post type `blog`, ưu tiên dùng `Blogs`.
+
+### Luật header desktop và mobile
+
+Header phải gọn, cân theo chiều dọc và không bị nhiều tầng vô nghĩa.
+
+- Header desktop phải align center theo chiều dọc giữa logo, nav, search và action buttons.
+- Không thêm tầng header phụ nếu tầng đó chỉ lặp menu hoặc chứa text dài.
+- Mobile header nên có cấu trúc chắc chắn: `logo | search button | menu button`.
+- Khi mở search/menu trên mobile, panel phải full-width hoặc nằm trong flow dưới header, không lệch theo icon.
+- Search panel và menu panel không được cùng lúc làm vỡ chiều cao header hoặc chồng lên nhau kỳ.
+
+### Kiểm tra bằng mắt trước khi ship
+
+Trước khi copy delivery, phải tự kiểm tra bằng mắt ở desktop và mobile:
+
+- Header có cân theo chiều dọc không.
+- Hero có quá to hoặc nhồi quá nhiều chữ không.
+- Section title có đúng dữ liệu thật không.
+- Card có bị lặp label không.
+- Search/menu mobile mở ra có sạch không.
+- First viewport có bị quá tải chữ không.
+- Footer/header có giống cùng một theme không.
+
 ## Chuẩn responsive và mobile từ 320px
 
 Mobile `320px` là tiêu chí nghiệm thu thật, không phải phần phụ.
