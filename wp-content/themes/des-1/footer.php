@@ -8,104 +8,65 @@
 $review_archive_url = home_url( '/reviews/' );
 $games_archive_url  = home_url( '/html5-games/' );
 $blog_archive_url   = home_url( '/blogs/' );
-
-$site_title = function_exists( 'get_field' ) ? get_field( 'title', 'option' ) : '';
-$copyright  = function_exists( 'get_field' ) ? get_field( 'copyright', 'option' ) : '';
-
-$site_title = $site_title ? $site_title : get_bloginfo( 'name' );
-$copyright  = $copyright ? $copyright : '&copy; ' . gmdate( 'Y' ) . ' ' . get_bloginfo( 'name' );
-
-$footer_reviews = get_posts(
-	array(
-		'post_type'           => 'review',
-		'posts_per_page'      => 4,
-		'post_status'         => 'publish',
-		'ignore_sticky_posts' => true,
-	)
-);
-
-$footer_blogs = get_posts(
-	array(
-		'post_type'           => 'blog',
-		'posts_per_page'      => 3,
-		'post_status'         => 'publish',
-		'ignore_sticky_posts' => true,
-	)
-);
-
-$footer_games = get_posts(
-	array(
-		'post_type'           => 'post',
-		'posts_per_page'      => 3,
-		'post_status'         => 'publish',
-		'ignore_sticky_posts' => true,
-	)
-);
 ?>
 </main>
         <footer class="site-footer">
             <div class="container">
                 <div class="foot-wrapper">
                     <div class="foot-brand">
-                        <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="logo"><?php echo esc_html( $site_title ); ?></a>
-                        <p>Reviews, game picks, and blog notes collected into one reading desk.</p>
-                        <div class="foot-muted"><?php echo wp_kses_post( $copyright ); ?></div>
+                        <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="logo"><?php echo esc_html( get_field( 'title', 'option' ) ); ?></a>
+                        <p>Directory-style access to games, reviews and blog updates.</p>
+                        <div class="foot-muted"><?php echo esc_html( get_field( 'copyright', 'option' ) ); ?></div>
                     </div>
 
                     <div class="foot-columns">
-                        <nav class="foot-column" aria-label="<?php esc_attr_e( 'Footer primary navigation', 'h5game' ); ?>">
+                        <div class="foot-column">
                             <div class="foot-title">Explore</div>
                             <ul>
                                 <li><a href="<?php echo esc_url( $games_archive_url ); ?>">Games</a></li>
                                 <li><a href="<?php echo esc_url( $review_archive_url ); ?>">Reviews</a></li>
                                 <li><a href="<?php echo esc_url( $blog_archive_url ); ?>">Blogs</a></li>
                             </ul>
-                        </nav>
+                        </div>
 
-                        <?php if ( ! empty( $footer_reviews ) ) : ?>
-                            <div class="foot-column">
-                                <div class="foot-title">Latest reviews</div>
-                                <ul>
-                                    <?php foreach ( $footer_reviews as $footer_review ) : ?>
+                        <div class="foot-column">
+                            <div class="foot-title">Platforms</div>
+                            <ul>
+                                <li><a href="<?php echo esc_url( add_query_arg( 'key', 'pc', $review_archive_url ) ); ?>">PC</a></li>
+                                <li><a href="<?php echo esc_url( add_query_arg( 'key', 'console', $review_archive_url ) ); ?>">Console</a></li>
+                                <li><a href="<?php echo esc_url( add_query_arg( 'key', 'mobile', $review_archive_url ) ); ?>">Mobile</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="foot-column">
+                            <div class="foot-title">Latest reviews</div>
+                            <ul>
+                                <?php
+                                $review_query = new WP_Query(
+                                    array(
+                                        'post_type'           => 'review',
+                                        'posts_per_page'      => 4,
+                                        'post_status'         => 'publish',
+                                        'ignore_sticky_posts' => true,
+                                    )
+                                );
+
+                                if ( $review_query->have_posts() ) :
+                                    while ( $review_query->have_posts() ) :
+                                        $review_query->the_post();
+                                        ?>
                                         <li>
-                                            <a href="<?php echo esc_url( get_permalink( $footer_review->ID ) ); ?>">
-                                                <?php echo esc_html( get_the_title( $footer_review->ID ) ); ?>
+                                            <a href="<?php echo esc_url( get_permalink() ); ?>">
+                                                <?php echo esc_html( get_the_title() ); ?>
                                             </a>
                                         </li>
-                                    <?php endforeach; ?>
-                                </ul>
-                            </div>
-                        <?php endif; ?>
-
-                        <?php if ( ! empty( $footer_blogs ) ) : ?>
-                            <div class="foot-column">
-                                <div class="foot-title">Latest blogs</div>
-                                <ul>
-                                    <?php foreach ( $footer_blogs as $footer_blog ) : ?>
-                                        <li>
-                                            <a href="<?php echo esc_url( get_permalink( $footer_blog->ID ) ); ?>">
-                                                <?php echo esc_html( get_the_title( $footer_blog->ID ) ); ?>
-                                            </a>
-                                        </li>
-                                    <?php endforeach; ?>
-                                </ul>
-                            </div>
-                        <?php endif; ?>
-
-                        <?php if ( ! empty( $footer_games ) ) : ?>
-                            <div class="foot-column">
-                                <div class="foot-title">Game shelf</div>
-                                <ul>
-                                    <?php foreach ( $footer_games as $footer_game ) : ?>
-                                        <li>
-                                            <a href="<?php echo esc_url( get_permalink( $footer_game->ID ) ); ?>">
-                                                <?php echo esc_html( get_the_title( $footer_game->ID ) ); ?>
-                                            </a>
-                                        </li>
-                                    <?php endforeach; ?>
-                                </ul>
-                            </div>
-                        <?php endif; ?>
+                                        <?php
+                                    endwhile;
+                                    wp_reset_postdata();
+                                endif;
+                                ?>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -116,28 +77,20 @@ $footer_games = get_posts(
             const menuBtn = document.querySelector(".head-btn");
             const menu = document.querySelector(".head-menu");
             const searchBtn = document.querySelector(".head-search-btn");
-            const search = document.querySelector(".head-search");
+            const search = document.querySelector(".head-directory-bar");
 
             if (menuBtn && menu && menuBtn.contains(e.target)) {
-                const isActive = !menu.classList.contains("active");
-                menu.classList.toggle("active", isActive);
-                menuBtn.setAttribute("aria-expanded", isActive ? "true" : "false");
+                menu.classList.toggle("active");
                 if (search) search.classList.remove("active");
-                if (searchBtn) searchBtn.setAttribute("aria-expanded", "false");
             } else if (menu && !menu.contains(e.target)) {
                 menu.classList.remove("active");
-                if (menuBtn) menuBtn.setAttribute("aria-expanded", "false");
             }
 
             if (searchBtn && search && searchBtn.contains(e.target)) {
-                const isActive = !search.classList.contains("active");
-                search.classList.toggle("active", isActive);
-                searchBtn.setAttribute("aria-expanded", isActive ? "true" : "false");
+                search.classList.toggle("active");
                 if (menu) menu.classList.remove("active");
-                if (menuBtn) menuBtn.setAttribute("aria-expanded", "false");
             } else if (search && !search.contains(e.target)) {
                 search.classList.remove("active");
-                if (searchBtn) searchBtn.setAttribute("aria-expanded", "false");
             }
         });
     </script>

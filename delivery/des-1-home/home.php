@@ -4,7 +4,8 @@
  */
 get_header();
 
-$fallback_img       = get_stylesheet_directory_uri() . '/images/des-1-generated-hero.png';
+$fallback_img = get_stylesheet_directory_uri() . '/images/no_img.jpg';
+
 $blog_archive_url   = home_url( '/blogs/' );
 $review_archive_url = home_url( '/reviews/' );
 $games_archive_url  = home_url( '/html5-games/' );
@@ -13,215 +14,249 @@ $latest_blog_url   = function_exists( 'get_field' ) ? get_field( 'latest_blog' )
 $latest_review_url = function_exists( 'get_field' ) ? get_field( 'latest_review' ) : '';
 $popular_games_url = function_exists( 'get_field' ) ? get_field( 'popular_games' ) : '';
 
-$latest_blog_url   = is_string( $latest_blog_url ) && $latest_blog_url ? $latest_blog_url : $blog_archive_url;
-$latest_review_url = is_string( $latest_review_url ) && $latest_review_url ? $latest_review_url : $review_archive_url;
-$popular_games_url = is_string( $popular_games_url ) && $popular_games_url ? $popular_games_url : $games_archive_url;
+$latest_blog_url   = $latest_blog_url ? $latest_blog_url : $blog_archive_url;
+$latest_review_url = $latest_review_url ? $latest_review_url : $review_archive_url;
+$popular_games_url = $popular_games_url ? $popular_games_url : $games_archive_url;
 
-$des1_image_url = static function ( $post_id, $size = 'large' ) use ( $fallback_img ) {
-	$image_url = get_the_post_thumbnail_url( $post_id, $size );
-	return $image_url ? $image_url : $fallback_img;
-};
-
-$des1_type_label = static function ( $post_id ) {
-	$post_type = get_post_type( $post_id );
-
-	if ( 'post' === $post_type ) {
-		return 'Game';
-	}
-
-	if ( 'review' === $post_type ) {
-		return 'Review';
-	}
-
-	if ( 'blog' === $post_type ) {
-		return 'Blog';
-	}
-
-	$post_type_object = get_post_type_object( $post_type );
-	return $post_type_object ? $post_type_object->labels->singular_name : 'Story';
-};
-
-$des1_excerpt = static function ( $post_id, $words = 20 ) {
-	return wp_trim_words( get_the_excerpt( $post_id ), $words, '...' );
-};
-
-$des1_review_badge = static function ( $post_id ) {
-	if ( function_exists( 'get_field' ) ) {
-		$rating = get_field( 'rating', $post_id );
-
-		if ( $rating ) {
-			return $rating;
-		}
-	}
-
-	return 'Review';
-};
-
-$lead_posts = get_posts(
-	array(
-		'post_type'           => array( 'review', 'post', 'blog' ),
-		'posts_per_page'      => 1,
-		'orderby'             => 'date',
-		'order'               => 'DESC',
-		'post_status'         => 'publish',
-		'ignore_sticky_posts' => true,
-	)
+$quick_links = array(
+    array(
+        'label' => 'Blogs',
+        'url'   => $latest_blog_url,
+    ),
+    array(
+        'label' => 'Reviews',
+        'url'   => $latest_review_url,
+    ),
+    array(
+        'label' => 'Games',
+        'url'   => $popular_games_url,
+    ),
 );
 
-$lead_post = ! empty( $lead_posts ) ? $lead_posts[0] : null;
-$lead_id   = $lead_post ? $lead_post->ID : 0;
-$exclude   = $lead_id ? array( $lead_id ) : array();
-
-$review_posts = get_posts(
-	array(
-		'post_type'           => 'review',
-		'posts_per_page'      => 5,
-		'post__not_in'        => $exclude,
-		'orderby'             => 'date',
-		'order'               => 'DESC',
-		'post_status'         => 'publish',
-		'ignore_sticky_posts' => true,
-	)
+$featured_query = new WP_Query(
+    array(
+        'post_type'      => array( 'review', 'post', 'blog' ),
+        'posts_per_page' => 1,
+        'orderby'        => 'rand',
+        'post_status'    => 'publish',
+    )
 );
 
-$game_posts = get_posts(
-	array(
-		'post_type'           => 'post',
-		'posts_per_page'      => 5,
-		'post__not_in'        => $exclude,
-		'orderby'             => 'date',
-		'order'               => 'DESC',
-		'post_status'         => 'publish',
-		'ignore_sticky_posts' => true,
-	)
+$featured_post    = ! empty( $featured_query->posts ) ? $featured_query->posts[0] : null;
+$featured_post_id = $featured_post ? $featured_post->ID : 0;
+$featured_img     = $featured_post && has_post_thumbnail( $featured_post_id ) ? wp_get_attachment_url( get_post_thumbnail_id( $featured_post_id ) ) : $fallback_img;
+
+$review_query = new WP_Query(
+    array(
+        'post_type'      => 'review',
+        'posts_per_page' => 5,
+        'orderby'        => 'rand',
+        'order'          => 'DESC',
+        'post_status'    => 'publish',
+    )
 );
 
-$blog_posts = get_posts(
-	array(
-		'post_type'           => 'blog',
-		'posts_per_page'      => 3,
-		'post__not_in'        => $exclude,
-		'orderby'             => 'date',
-		'order'               => 'DESC',
-		'post_status'         => 'publish',
-		'ignore_sticky_posts' => true,
-	)
+$game_ids = array();
+
+$game_query = new WP_Query(
+    array(
+        'post_type'      => 'post',
+        'posts_per_page' => 5,
+        'orderby'        => 'rand',
+        'order'          => 'DESC',
+        'post_status'    => 'publish',
+    )
+);
+
+$blog_query = new WP_Query(
+    array(
+        'post_type'      => 'blog',
+        'posts_per_page' => 3,
+        'post__not_in'   => $featured_post ? array( $featured_post_id ) : array(),
+        'orderby'        => 'rand',
+        'order'          => 'DESC',
+        'post_status'    => 'publish',
+    )
 );
 ?>
-<div class="home-review-desk">
-	<section class="desk-lead-section">
-		<div class="container">
-			<div class="desk-lead-grid">
-				<?php if ( $lead_post ) : ?>
-					<article class="desk-lead-card">
-						<a class="desk-lead-media" href="<?php echo esc_url( get_permalink( $lead_id ) ); ?>">
-							<img src="<?php echo esc_url( $des1_image_url( $lead_id, 'full' ) ); ?>" alt="<?php echo esc_attr( get_the_title( $lead_id ) ); ?>" loading="eager" decoding="async">
-						</a>
-						<div class="desk-lead-content">
-							<span class="desk-kicker"><?php echo esc_html( $des1_type_label( $lead_id ) ); ?> desk</span>
-							<h1><?php echo esc_html( get_the_title( $lead_id ) ); ?></h1>
-							<p><?php echo esc_html( $des1_excerpt( $lead_id, 22 ) ); ?></p>
-							<a class="desk-primary-link" href="<?php echo esc_url( get_permalink( $lead_id ) ); ?>">Open story</a>
-						</div>
-					</article>
-				<?php endif; ?>
+<div class="home-directory">
+    <section class="directory-hero">
+        <div class="container">
+            <div class="directory-wrapper">
+                <div class="directory-left">
+                    <span class="directory-kicker">Game directory</span>
+                    <h1 class="directory-title">Find games, reviews and guides faster.</h1>
+                    <form class="directory-search" action="<?php echo esc_url( $review_archive_url ); ?>">
+                        <?php $key = isset( $_GET['key'] ) ? sanitize_text_field( $_GET['key'] ) : ''; ?>
+                        <input type="text" name="key" value="<?php echo esc_attr( $key ); ?>" placeholder="Search games or reviews" aria-label="Search games or reviews" />
+                        <button type="submit">Search</button>
+                    </form>
+                    <div class="directory-quick-links" aria-label="Quick links">
+                        <?php foreach ( $quick_links as $quick_link ) : ?>
+                            <a href="<?php echo esc_url( $quick_link['url'] ); ?>"><?php echo esc_html( $quick_link['label'] ); ?></a>
+                        <?php endforeach; ?>
+                    </div>
+                </div>
 
-				<?php if ( ! empty( $review_posts ) ) : ?>
-					<aside class="review-ledger" aria-label="Review ledger">
-						<div class="desk-section-head">
-							<div>
-								<span>Review ledger</span>
-								<h2>Fresh verdicts</h2>
-							</div>
-							<a href="<?php echo esc_url( $latest_review_url ); ?>">All reviews</a>
-						</div>
-						<ol class="ledger-list">
-							<?php foreach ( array_slice( $review_posts, 0, 4 ) as $index => $review_post ) : ?>
-								<li>
-									<a class="ledger-item" href="<?php echo esc_url( get_permalink( $review_post->ID ) ); ?>">
-										<span class="ledger-rank"><?php echo esc_html( str_pad( (string) ( $index + 1 ), 2, '0', STR_PAD_LEFT ) ); ?></span>
-										<span class="ledger-title"><?php echo esc_html( get_the_title( $review_post->ID ) ); ?></span>
-										<span class="ledger-badge"><?php echo esc_html( $des1_review_badge( $review_post->ID ) ); ?></span>
-									</a>
-								</li>
-							<?php endforeach; ?>
-						</ol>
-					</aside>
-				<?php endif; ?>
-			</div>
-		</div>
-	</section>
+                <aside class="directory-right top-rated-panel">
+                    <div class="top-rated-head">
+                        <span>Top rated</span>
+                        <a href="<?php echo esc_url( $latest_review_url ); ?>">All reviews</a>
+                    </div>
+                    <?php if ( $review_query->have_posts() ) : ?>
+                        <div class="top-rated-list">
+                            <?php
+                            $top_index = 0;
+                            while ( $review_query->have_posts() && $top_index < 3 ) :
+                                $review_query->the_post();
+                                $top_index++;
+                                $game_ids[] = get_the_ID();
+                                ?>
+                                <a class="top-rated-item" href="<?php echo esc_url( get_permalink() ); ?>">
+                                    <span class="top-rated-rank"><?php echo esc_html( str_pad( (string) $top_index, 2, '0', STR_PAD_LEFT ) ); ?></span>
+                                    <span class="top-rated-title"><?php echo esc_html( get_the_title() ); ?></span>
+                                    <span class="score-badge">4.5</span>
+                                </a>
+                            <?php endwhile; ?>
+                        </div>
+                    <?php endif; ?>
+                    <?php wp_reset_postdata(); ?>
+                </aside>
+            </div>
+        </div>
+    </section>
 
-	<div class="container">
-		<?php if ( ! empty( $review_posts ) ) : ?>
-			<section class="home-section review-stack-section">
-				<div class="home-section-head">
-					<div>
-						<span class="home-section-label">Reviews</span>
-						<h2 class="home-section-title">What to read before you play</h2>
-					</div>
-					<a class="home-view-more" href="<?php echo esc_url( $latest_review_url ); ?>">View all</a>
-				</div>
-				<div class="review-stack">
-					<?php foreach ( $review_posts as $review_post ) : ?>
-						<a class="review-stack-card" href="<?php echo esc_url( get_permalink( $review_post->ID ) ); ?>">
-							<span class="review-stack-image">
-								<img src="<?php echo esc_url( $des1_image_url( $review_post->ID, 'medium_large' ) ); ?>" alt="<?php echo esc_attr( get_the_title( $review_post->ID ) ); ?>" loading="lazy" decoding="async">
-							</span>
-							<span class="review-stack-content">
-								<span class="ledger-badge"><?php echo esc_html( $des1_review_badge( $review_post->ID ) ); ?></span>
-								<strong><?php echo esc_html( get_the_title( $review_post->ID ) ); ?></strong>
-							</span>
-						</a>
-					<?php endforeach; ?>
-				</div>
-			</section>
-		<?php endif; ?>
+    <div class="container">
+        <?php if ( $featured_post ) : ?>
+            <section class="home-section featured-compact-section">
+                <a class="featured-compact-card" href="<?php echo esc_url( get_permalink( $featured_post_id ) ); ?>">
+                    <span class="featured-compact-image" style="background-image: url(<?php echo esc_url( $featured_img ); ?>)"></span>
+                    <span class="featured-compact-content">
+                        <span class="home-section-label">Featured pick</span>
+                        <strong><?php echo esc_html( get_the_title( $featured_post_id ) ); ?></strong>
+                    </span>
+                </a>
+            </section>
+        <?php endif; ?>
 
-		<?php if ( ! empty( $game_posts ) ) : ?>
-			<section class="home-section game-shelf-section">
-				<div class="home-section-head">
-					<div>
-						<span class="home-section-label">Games</span>
-						<h2 class="home-section-title">Current shelf</h2>
-					</div>
-					<a class="home-view-more" href="<?php echo esc_url( $popular_games_url ); ?>">View games</a>
-				</div>
-				<div class="game-shelf">
-					<?php foreach ( $game_posts as $game_post ) : ?>
-						<a class="game-shelf-card" href="<?php echo esc_url( get_permalink( $game_post->ID ) ); ?>">
-							<span class="game-shelf-image">
-								<img src="<?php echo esc_url( $des1_image_url( $game_post->ID, 'medium_large' ) ); ?>" alt="<?php echo esc_attr( get_the_title( $game_post->ID ) ); ?>" loading="lazy" decoding="async">
-							</span>
-							<span class="game-shelf-title"><?php echo esc_html( get_the_title( $game_post->ID ) ); ?></span>
-							<span class="game-shelf-action">Open game</span>
-						</a>
-					<?php endforeach; ?>
-				</div>
-			</section>
-		<?php endif; ?>
+        <section class="home-section platform-section">
+            <div class="home-section-head">
+                <div>
+                    <span class="home-section-label">Browse</span>
+                    <h2 class="home-section-title">Start by platform</h2>
+                </div>
+                <a class="home-view-more" href="<?php echo esc_url( $popular_games_url ); ?>">View games</a>
+            </div>
+            <div class="platform-grid">
+                <a class="platform-card" href="<?php echo esc_url( add_query_arg( 'key', 'pc', $review_archive_url ) ); ?>">
+                    <span>PC</span>
+                    <strong>Desktop picks</strong>
+                </a>
+                <a class="platform-card" href="<?php echo esc_url( add_query_arg( 'key', 'console', $review_archive_url ) ); ?>">
+                    <span>Console</span>
+                    <strong>Big screen games</strong>
+                </a>
+                <a class="platform-card" href="<?php echo esc_url( add_query_arg( 'key', 'mobile', $review_archive_url ) ); ?>">
+                    <span>Mobile</span>
+                    <strong>Play anywhere</strong>
+                </a>
+                <a class="platform-card" href="<?php echo esc_url( $latest_review_url ); ?>">
+                    <span>Reviews</span>
+                    <strong>Rated by editors</strong>
+                </a>
+            </div>
+        </section>
 
-		<?php if ( ! empty( $blog_posts ) ) : ?>
-			<section class="home-section blog-notebook-section">
-				<div class="home-section-head">
-					<div>
-						<span class="home-section-label">Blogs</span>
-						<h2 class="home-section-title">Notebook</h2>
-					</div>
-					<a class="home-view-more" href="<?php echo esc_url( $latest_blog_url ); ?>">View blogs</a>
-				</div>
-				<div class="blog-notebook">
-					<?php foreach ( $blog_posts as $blog_post ) : ?>
-						<a class="blog-note" href="<?php echo esc_url( get_permalink( $blog_post->ID ) ); ?>">
-							<span class="blog-note-type"><?php echo esc_html( get_the_date( 'M j', $blog_post->ID ) ); ?></span>
-							<strong><?php echo esc_html( get_the_title( $blog_post->ID ) ); ?></strong>
-							<span><?php echo esc_html( $des1_excerpt( $blog_post->ID, 16 ) ); ?></span>
-						</a>
-					<?php endforeach; ?>
-				</div>
-			</section>
-		<?php endif; ?>
-	</div>
+        <?php if ( $game_query->have_posts() ) : ?>
+            <section class="home-section game-directory-section">
+                <div class="home-section-head">
+                    <div>
+                        <span class="home-section-label">Popular games</span>
+                        <h2 class="home-section-title">Game rows</h2>
+                    </div>
+                    <a class="home-view-more" href="<?php echo esc_url( $popular_games_url ); ?>">View all</a>
+                </div>
+                <div class="game-row-list">
+                    <?php
+                    while ( $game_query->have_posts() ) :
+                        $game_query->the_post();
+                        $item_img = has_post_thumbnail( get_the_ID() ) ? wp_get_attachment_url( get_post_thumbnail_id( get_the_ID() ) ) : $fallback_img;
+                        ?>
+                        <a class="game-row-item" href="<?php echo esc_url( get_permalink() ); ?>">
+                            <span class="game-row-image" style="background-image: url(<?php echo esc_url( $item_img ); ?>)"></span>
+                            <span class="game-row-content">
+                                <strong><?php echo esc_html( get_the_title() ); ?></strong>
+                                <span>Game profile</span>
+                            </span>
+                            <span class="game-row-action">Open</span>
+                        </a>
+                    <?php endwhile; ?>
+                </div>
+                <?php wp_reset_postdata(); ?>
+            </section>
+        <?php endif; ?>
+
+        <?php
+        $review_query->rewind_posts();
+        if ( $review_query->have_posts() ) :
+            ?>
+            <section class="home-section review-score-section">
+                <div class="home-section-head">
+                    <div>
+                        <span class="home-section-label">Reviews</span>
+                        <h2 class="home-section-title">Score cards</h2>
+                    </div>
+                    <a class="home-view-more" href="<?php echo esc_url( $latest_review_url ); ?>">View all</a>
+                </div>
+                <div class="review-score-list">
+                    <?php
+                    while ( $review_query->have_posts() ) :
+                        $review_query->the_post();
+                        $item_img = has_post_thumbnail( get_the_ID() ) ? wp_get_attachment_url( get_post_thumbnail_id( get_the_ID() ) ) : $fallback_img;
+                        ?>
+                        <a class="review-score-card" href="<?php echo esc_url( get_permalink() ); ?>">
+                            <span class="review-score-image" style="background-image: url(<?php echo esc_url( $item_img ); ?>)"></span>
+                            <span class="review-score-content">
+                                <span class="score-badge">4.5</span>
+                                <strong><?php echo esc_html( get_the_title() ); ?></strong>
+                            </span>
+                        </a>
+                    <?php endwhile; ?>
+                </div>
+                <?php wp_reset_postdata(); ?>
+            </section>
+        <?php endif; ?>
+
+        <?php if ( $blog_query->have_posts() ) : ?>
+            <section class="home-section news-guide-section">
+                <div class="home-section-head">
+                    <div>
+                        <span class="home-section-label">Blogs</span>
+                        <h2 class="home-section-title">Latest notes</h2>
+                    </div>
+                    <a class="home-view-more" href="<?php echo esc_url( $latest_blog_url ); ?>">View all</a>
+                </div>
+                <div class="news-guide-list">
+                    <?php
+                    while ( $blog_query->have_posts() ) :
+                        $blog_query->the_post();
+                        $item_img  = has_post_thumbnail( get_the_ID() ) ? wp_get_attachment_url( get_post_thumbnail_id( get_the_ID() ) ) : $fallback_img;
+                        $tags_post = get_the_tags( get_the_ID() );
+                        $tag_name  = ! empty( $tags_post ) ? $tags_post[0]->name : 'Blog';
+                        ?>
+                        <a class="news-guide-item" href="<?php echo esc_url( get_permalink() ); ?>">
+                            <span class="news-guide-image" style="background-image: url(<?php echo esc_url( $item_img ); ?>)"></span>
+                            <span class="news-guide-content">
+                                <span><?php echo esc_html( $tag_name ); ?></span>
+                                <strong><?php echo esc_html( get_the_title() ); ?></strong>
+                            </span>
+                        </a>
+                    <?php endwhile; ?>
+                </div>
+                <?php wp_reset_postdata(); ?>
+            </section>
+        <?php endif; ?>
+    </div>
 </div>
 <?php
 get_footer();
