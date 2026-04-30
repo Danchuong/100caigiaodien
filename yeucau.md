@@ -679,6 +679,66 @@ Không hardcode API key trong source hoặc trong docs. API key lấy từ `~/.c
 - Dùng ảnh cũ làm reference để tạo ảnh mới đồng bộ style.
 - Không dùng ảnh sinh ra chỉ để trang trí vô nghĩa; ảnh phải phục vụ nội dung thật.
 
+Không bắt buộc mọi layout phải dùng GPT image.
+
+Chỉ dùng GPT image khi ảnh tạo ra **concept signal** rõ, ví dụ background, cover, poster, scoreboard, arcade wall, newsroom wall hoặc texture riêng làm layout khác biệt thật. Không dùng GPT image để che lỗi layout, thay đổi bề mặt, hoặc thay thumbnail bài viết thật hàng loạt. Nếu layout giống nhau mà chỉ đổi ảnh, vẫn tính là chưa đủ khác.
+
+### Hai trường phái background
+
+Trong project này có 2 hướng background hợp lệ. Trước khi code mỗi style phải chọn rõ đang đi theo hướng nào.
+
+#### 1. Hướng content-photo giống source gốc `h5game`
+
+Source gốc của khách dùng ảnh thật làm phần thị giác chính:
+
+- Hero homepage lấy featured image của page làm `background-image`.
+- Header homepage đặt `position: absolute` và trong suốt trên ảnh hero.
+- Blog/game/review card dùng thumbnail thật làm `background-image`.
+- Card phủ overlay tối/blur để đặt category, title và excerpt lên ảnh.
+- Nền tổng thể khá đơn giản; sức nặng thị giác đến từ ảnh bài viết/game/review thật.
+
+Hướng này phù hợp cho layout dạng mosaic, poster, carousel, magazine wall hoặc visual news wall. Khi theo hướng này:
+
+- Ưu tiên dùng thumbnail thật từ WordPress.
+- Chỉ dùng GPT image nếu thiếu ảnh nền lớn hoặc cần một background/cover đồng bộ concept.
+- Không thay toàn bộ thumbnail thật bằng ảnh GPT nếu bài viết đã có ảnh thật.
+- Phải kiểm tra overlay text: title dài thì bỏ excerpt, không để chữ đè ảnh khó đọc.
+- Header absolute trên hero chỉ dùng khi toàn site vẫn ổn; nếu gây lỗi trang khác/mobile thì chuyển header về flow thường.
+
+#### 2. Hướng system-background giống `des-1`
+
+`des-1` dùng nền theo hệ thống giao diện hơn là ảnh lớn:
+
+- Nền chính là gradient/light surface, không phải poster hero lớn.
+- Above-fold tập trung vào search, directory, game rows, review picks và cấu trúc thông tin.
+- Ảnh bài viết/game/review chỉ là thumbnail trong card/list, không chiếm toàn bộ layout.
+- Header/footer đồng bộ theo màu và nhịp spacing của layout.
+
+Hướng này phù hợp cho directory, review hub, table/list, search-first, dashboard, score desk hoặc content-dense layout. Khi theo hướng này:
+
+- Không cần GPT image trước; ưu tiên sửa layout, density chữ, label, header/footer và mobile.
+- Có thể dùng CSS gradient/pattern nhẹ để tạo signature.
+- Chỉ dùng GPT image nếu background đó làm rõ concept, ví dụ scoreboard texture, arcade wall, newsroom board.
+- Không dùng ảnh lớn chỉ để làm layout trông khác nếu form vẫn giống style cũ.
+
+Các layout editorial/newspaper/text-first thường không cần GPT image trước; các layout dạng mosaic, carousel, magazine band, review hub có thể cân nhắc GPT image nếu cần visual signature mạnh.
+
+### Trường phái above-fold
+
+Background chỉ là một phần của giao diện. Trước khi code mỗi `des-N`, phải chốt **vai trò của first viewport/above-fold**: người dùng nhìn thấy gì đầu tiên và hành động chính là gì.
+
+Không được ép mọi layout thành hero ảnh lớn như source gốc, cũng không được ép mọi layout thành search directory như `des-1`. Để 100 giao diện khác thật, cần xoay vòng nhiều trường phái above-fold:
+
+1. **Image-led hero**: ảnh lớn làm trọng tâm, overlay title/CTA, giống hướng `h5game` gốc. Phù hợp poster, cinematic, visual magazine, mosaic.
+2. **Utility/directory-led hero**: search, filter, top list, game/review directory làm trọng tâm, giống hướng `des-1`. Phù hợp game catalog, review finder, score desk.
+3. **Editorial/news-led hero**: headline chính, lead story, rail tin phụ, cảm giác trang báo/news desk. Có thể ít ảnh hoặc ảnh chỉ hỗ trợ.
+4. **Review-led hero**: review nổi bật, verdict/score thật nếu có, critic picks, review archive làm trọng tâm.
+5. **Catalog/grid-led hero**: không có hero lớn; vào thẳng grid/list game, review hoặc blog được tổ chức tốt.
+6. **Ticker/live-desk hero**: latest updates, ticker, carousel hoặc live desk gọn, dùng nội dung thật.
+7. **Issue/cover-led hero**: cover story, issue index, editor picks, cảm giác tạp chí/edition.
+
+Mỗi layout mới phải khác rõ ở vai trò above-fold so với các layout gần nhất. Nếu chỉ đổi background, màu, ảnh hoặc text nhưng vai trò above-fold vẫn giống nhau, chưa tính là khác đủ.
+
 ### Setup biến môi trường từ config Codex
 
 Chạy lệnh này trong terminal để lấy `base_url` và `api_key` từ config Codex, không in key ra màn hình:
