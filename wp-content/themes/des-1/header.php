@@ -6,8 +6,25 @@
  */
 
 $review_archive_url = home_url( '/reviews/' );
-$games_archive_url  = home_url( '/html5-games/' );
-$blog_archive_url   = home_url( '/blogs/' );
+$search_key         = '';
+
+if ( isset( $_GET['key'] ) && is_scalar( $_GET['key'] ) ) {
+	$search_key = sanitize_text_field( wp_unslash( $_GET['key'] ) );
+}
+
+$des1_nav_title_filter = static function ( $items ) {
+	foreach ( $items as $item ) {
+		if ( 'HTML5 Games' === $item->title ) {
+			$item->title = 'Games';
+		}
+
+		if ( in_array( $item->title, array( 'Reviews Games', 'Review Games' ), true ) ) {
+			$item->title = 'Reviews';
+		}
+	}
+
+	return $items;
+};
 ?>
 <!doctype html>
 <html <?php language_attributes(); ?>>
@@ -28,44 +45,39 @@ $blog_archive_url   = home_url( '/blogs/' );
                         </div>
                     </div>
                     <div class="head-center">
-                        <nav id="primary-menu" class="main-navigation">
+                        <nav id="primary-menu" class="main-navigation" aria-label="<?php esc_attr_e( 'Primary navigation', 'h5game' ); ?>">
                             <?php
+                            add_filter( 'wp_nav_menu_objects', $des1_nav_title_filter );
                             wp_nav_menu(
                                 array(
                                     'theme_location'  => 'main-menu',
                                     'menu_id'         => 'main-menu',
+                                    'menu_class'      => 'head-menu-list',
                                     'container_class' => 'head-menu',
+                                    'fallback_cb'     => false,
                                 )
                             );
+                            remove_filter( 'wp_nav_menu_objects', $des1_nav_title_filter );
                             ?>
                         </nav>
                     </div>
                     <div class="head-right">
-                        <button class="btn head-search-btn" type="button" aria-label="Open search">
+                        <button class="btn head-search-btn" type="button" aria-label="<?php esc_attr_e( 'Open search', 'h5game' ); ?>" aria-controls="site-header-search" aria-expanded="false">
                             <div class="icon-search"><div></div></div>
                         </button>
-                        <button class="btn head-btn" type="button" aria-label="Open menu">
+                        <button class="btn head-btn" type="button" aria-label="<?php esc_attr_e( 'Open menu', 'h5game' ); ?>" aria-controls="main-menu" aria-expanded="false">
                             <div class="icon-menu"><div></div></div>
                         </button>
                     </div>
                 </div>
 
-                <div class="head-directory-bar">
-                    <div class="head-search input-group">
-                        <div class="head-search-wrapper">
-                            <form action="<?php echo esc_url( $review_archive_url ); ?>">
-                                <?php $key = isset( $_GET['key'] ) ? sanitize_text_field( $_GET['key'] ) : ''; ?>
-                                <input type="text" class="form-control" placeholder="Search games or reviews" aria-label="Search" value="<?php echo esc_attr( $key ); ?>" name="key" />
-                                <button type="submit" class="head-search-submit">Search</button>
-                            </form>
-                        </div>
+                <div class="head-search" id="site-header-search">
+                    <div class="head-search-wrapper">
+                        <form action="<?php echo esc_url( $review_archive_url ); ?>" method="get" role="search">
+                            <input type="text" class="form-control" placeholder="<?php esc_attr_e( 'Search reviews', 'h5game' ); ?>" aria-label="<?php esc_attr_e( 'Search reviews', 'h5game' ); ?>" value="<?php echo esc_attr( $search_key ); ?>" name="key" />
+                            <button type="submit" class="head-search-submit"><?php esc_html_e( 'Search', 'h5game' ); ?></button>
+                        </form>
                     </div>
-                    <nav class="head-filter-list" aria-label="Directory shortcuts">
-                        <a class="head-filter-item" href="<?php echo esc_url( $games_archive_url ); ?>">Games</a>
-                        <a class="head-filter-item" href="<?php echo esc_url( $review_archive_url ); ?>">Reviews</a>
-                        <a class="head-filter-item" href="<?php echo esc_url( $blog_archive_url ); ?>">Blogs</a>
-                        <a class="head-filter-item" href="<?php echo esc_url( add_query_arg( 'key', 'mobile', $review_archive_url ) ); ?>">Mobile</a>
-                    </nav>
                 </div>
             </div>
         </header>

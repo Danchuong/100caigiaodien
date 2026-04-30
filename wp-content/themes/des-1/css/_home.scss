@@ -1,460 +1,362 @@
-.home-directory {
+.home-review-desk {
     background:
-        linear-gradient(180deg, #eef4f8 0%, #ffffff 28rem),
+        linear-gradient(180deg, #f4f1ea 0%, #ffffff 27rem),
         $white;
 }
 
-.directory-hero {
-    padding: 2.5rem 0 2rem;
+.home-review-desk img {
+    display: block;
+    width: 100%;
 }
 
-.directory-wrapper {
+.desk-lead-section {
+    padding: 2.35rem 0 2.75rem;
+}
+
+.desk-lead-grid {
     display: grid;
-    grid-template-columns: minmax(0, 1.5fr) minmax(20rem, 0.85fr);
-    gap: 1.25rem;
+    grid-template-columns: minmax(0, 1.35fr) minmax(18rem, 0.75fr);
+    gap: 1.15rem;
     align-items: stretch;
 }
 
-.directory-left,
-.top-rated-panel,
-.featured-compact-card,
-.platform-card,
-.game-row-item,
-.review-score-card,
-.news-guide-item {
+.desk-lead-card,
+.review-ledger,
+.review-stack-card,
+.game-shelf-card,
+.blog-note {
     border: 1px solid rgba($body-color, 0.1);
-    border-radius: 0.75rem;
+    border-radius: 0.5rem;
     background-color: $white;
-    box-shadow: 0 0.75rem 2rem rgba($body-color, 0.07);
+    box-shadow: 0 0.9rem 2.1rem rgba($body-color, 0.07);
 }
 
-.directory-left {
-    padding: 2rem;
+.desk-lead-card {
+    display: grid;
+    grid-template-columns: minmax(14rem, 0.92fr) minmax(0, 1fr);
+    min-height: 28rem;
+    overflow: hidden;
 }
 
-.directory-kicker,
+.desk-lead-media {
+    display: block;
+    min-height: 100%;
+    background-color: #d8ded8;
+
+    img {
+        height: 100%;
+        min-height: 18rem;
+        object-fit: cover;
+    }
+}
+
+.desk-lead-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 0;
+    padding: 2.1rem;
+
+    h1 {
+        margin: 0 0 0.9rem;
+        color: $body-color;
+        font-size: 2.65rem;
+        line-height: 1.02;
+        font-weight: 900;
+        letter-spacing: 0;
+        overflow-wrap: anywhere;
+    }
+
+    p {
+        margin: 0 0 1.2rem;
+        color: rgba($body-color, 0.68);
+        font-size: 1rem;
+        line-height: 1.6;
+    }
+}
+
+.desk-kicker,
 .home-section-label {
     display: inline-flex;
-    margin-bottom: 0.55rem;
+    margin-bottom: 0.6rem;
     color: $primary;
-    font-size: 0.8rem;
-    font-weight: 800;
+    font-size: 0.78rem;
+    font-weight: 900;
     letter-spacing: 0;
     text-transform: uppercase;
 }
 
-.directory-title {
-    max-width: 46rem;
-    margin: 0 0 1.25rem;
-    color: $body-color;
-    font-size: 3rem;
-    line-height: 1;
-    font-weight: 800;
-    overflow-wrap: anywhere;
-}
-
-.directory-search {
-    display: grid;
-    grid-template-columns: minmax(0, 1fr) auto;
-    gap: 0.75rem;
-    max-width: 44rem;
-    margin-bottom: 1rem;
-
-    input,
-    button {
-        min-height: 3.35rem;
-        border-radius: 0.55rem;
-    }
-
-    input {
-        width: 100%;
-        border: 1px solid rgba($body-color, 0.16);
-        padding: 0 1rem;
-        color: $body-color;
-    }
-
-    button {
-        border: 0;
-        padding: 0 1.35rem;
-        background-color: $primary;
-        color: $white;
-        font-weight: 800;
-    }
-}
-
-.directory-quick-links,
-.head-filter-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.55rem;
-
-    a {
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        min-height: 2.45rem;
-        padding: 0.55rem 0.85rem;
-        border-radius: 0.55rem;
-        background-color: rgba($primary, 0.08);
-        color: $primary;
-        font-weight: 800;
-    }
-}
-
-.top-rated-panel {
-    padding: 1rem;
-}
-
-.top-rated-head {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 1rem;
-    margin-bottom: 0.75rem;
-
-    span {
-        color: $body-color;
-        font-weight: 900;
-    }
-
-    a {
-        color: $primary;
-        font-size: 0.85rem;
-        font-weight: 800;
-    }
-}
-
-.top-rated-list {
-    display: grid;
-    gap: 0.65rem;
-}
-
-.top-rated-item {
-    display: grid;
-    grid-template-columns: auto minmax(0, 1fr) auto;
-    gap: 0.7rem;
-    align-items: center;
-    min-height: 4rem;
-    padding: 0.75rem;
-    border-radius: 0.55rem;
-    background-color: #f6f8fb;
-    color: $body-color;
-
-    &:hover {
-        background-color: rgba($primary, 0.08);
-        color: $body-color;
-    }
-}
-
-.top-rated-rank {
-    color: rgba($body-color, 0.42);
-    font-weight: 900;
-}
-
-.top-rated-title {
-    min-width: 0;
-    font-weight: 800;
-    @include line-truncate(2, 1.25rem);
-}
-
-.score-badge {
+.desk-primary-link,
+.home-view-more,
+.game-shelf-action {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    min-width: 2.6rem;
-    min-height: 2.25rem;
-    border-radius: 0.5rem;
-    background-color: #111827;
-    color: $white;
+    width: fit-content;
+    min-height: 44px;
+    border-radius: 0.45rem;
+    color: $primary;
     font-weight: 900;
 }
 
-.home-section {
-    margin-bottom: 2.75rem;
+.desk-primary-link {
+    padding: 0 1rem;
+    background-color: rgba($primary, 0.1);
 }
 
+.review-ledger {
+    padding: 1rem;
+}
+
+.desk-section-head,
 .home-section-head {
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
     gap: 1rem;
     margin-bottom: 1rem;
+
+    span {
+        display: block;
+        margin-bottom: 0.25rem;
+        color: $primary;
+        font-size: 0.76rem;
+        font-weight: 900;
+        text-transform: uppercase;
+    }
+
+    h2 {
+        margin: 0;
+        color: $body-color;
+        font-size: 1.25rem;
+        line-height: 1.15;
+        font-weight: 900;
+    }
+
+    a {
+        flex: 0 0 auto;
+        color: $primary;
+        font-size: 0.86rem;
+        font-weight: 900;
+    }
+}
+
+.ledger-list {
+    display: grid;
+    gap: 0.65rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.ledger-item {
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr) auto;
+    gap: 0.7rem;
+    align-items: center;
+    min-height: 4rem;
+    padding: 0.75rem;
+    border-radius: 0.45rem;
+    background-color: #f6f3ed;
+    color: $body-color;
+
+    &:hover {
+        background-color: rgba($primary, 0.1);
+        color: $body-color;
+    }
+}
+
+.ledger-rank {
+    color: rgba($body-color, 0.42);
+    font-weight: 900;
+}
+
+.ledger-title {
+    min-width: 0;
+    font-weight: 900;
+    @include line-truncate(2, 1.25rem);
+}
+
+.ledger-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 4.15rem;
+    min-height: 2.35rem;
+    border-radius: 0.4rem;
+    background-color: #101827;
+    color: $white;
+    font-size: 0.82rem;
+    font-weight: 900;
+    text-align: center;
+}
+
+.home-section {
+    margin-bottom: 2.75rem;
 }
 
 .home-section-title {
     margin: 0;
     color: $body-color;
-    font-size: 1.75rem;
+    font-size: 1.8rem;
     line-height: 1.1;
     font-weight: 900;
 }
 
-.home-view-more {
-    flex-shrink: 0;
-    color: $primary;
-    font-weight: 800;
-}
-
-.featured-compact-card {
-    display: grid;
-    grid-template-columns: 11rem minmax(0, 1fr);
-    gap: 1rem;
-    align-items: center;
-    padding: 0.85rem;
-    color: $body-color;
-
-    &:hover {
-        color: $primary;
-        transform: translateY(-2px);
-    }
-}
-
-.featured-compact-image,
-.game-row-image,
-.review-score-image,
-.news-guide-image {
-    display: block;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.featured-compact-image {
-    aspect-ratio: 16/9;
-    border-radius: 0.55rem;
-}
-
-.featured-compact-content {
-    min-width: 0;
-
-    strong {
-        display: block;
-        color: $body-color;
-        font-size: 1.35rem;
-        line-height: 1.2;
-        font-weight: 900;
-        @include line-truncate(2, 1.65rem);
-    }
-}
-
-.platform-grid {
-    display: grid;
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-    gap: 0.85rem;
-}
-
-.platform-card {
-    display: grid;
-    gap: 0.25rem;
-    min-height: 7rem;
-    padding: 1rem;
-    color: $body-color;
-
-    span {
-        color: $primary;
-        font-weight: 900;
-    }
-
-    strong {
-        font-size: 1.05rem;
-        line-height: 1.2;
-    }
-
-    &:hover {
-        border-color: rgba($primary, 0.35);
-        color: $body-color;
-        transform: translateY(-2px);
-    }
-}
-
-.game-row-list {
-    display: grid;
-    gap: 0.65rem;
-}
-
-.game-row-item {
-    display: grid;
-    grid-template-columns: 5.75rem minmax(0, 1fr) auto;
-    gap: 0.85rem;
-    align-items: center;
-    min-height: 6.75rem;
-    padding: 0.75rem;
-    color: $body-color;
-
-    &:hover {
-        border-color: rgba($primary, 0.3);
-        color: $body-color;
-        transform: translateX(2px);
-    }
-}
-
-.game-row-image {
-    aspect-ratio: 1;
-    border-radius: 0.55rem;
-}
-
-.game-row-content {
-    min-width: 0;
-
-    strong {
-        display: block;
-        font-size: 1rem;
-        line-height: 1.25;
-        @include line-truncate(2, 1.25rem);
-    }
-
-    span {
-        color: $text-muted;
-        font-size: 0.88rem;
-    }
-}
-
-.game-row-action {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 2.5rem;
-    padding: 0 0.85rem;
-    border-radius: 0.45rem;
-    background-color: rgba($primary, 0.08);
-    color: $primary;
-    font-weight: 800;
-}
-
-.review-score-list {
+.review-stack,
+.game-shelf {
     display: grid;
     grid-template-columns: repeat(5, minmax(0, 1fr));
     gap: 0.85rem;
 }
 
-.review-score-card {
+.review-stack-card,
+.game-shelf-card {
     display: grid;
-    grid-template-rows: auto minmax(0, 1fr);
-    padding: 0.75rem;
+    padding: 0.72rem;
     color: $body-color;
 
     &:hover {
+        border-color: rgba($primary, 0.32);
         color: $body-color;
         transform: translateY(-2px);
     }
 }
 
-.review-score-image {
-    aspect-ratio: 4/3;
-    border-radius: 0.55rem;
+.review-stack-card {
+    grid-template-rows: auto minmax(0, 1fr);
 }
 
-.review-score-content {
+.review-stack-image img {
+    aspect-ratio: 4 / 3;
+    border-radius: 0.4rem;
+    object-fit: cover;
+}
+
+.review-stack-content {
     display: grid;
     gap: 0.55rem;
-    padding-top: 0.75rem;
+    padding-top: 0.7rem;
 
     strong {
+        color: $body-color;
         line-height: 1.25;
         @include line-truncate(3, 1.25rem);
     }
 }
 
-.news-guide-list {
+.game-shelf-card {
+    gap: 0.7rem;
+}
+
+.game-shelf-image img {
+    aspect-ratio: 1;
+    border-radius: 0.4rem;
+    object-fit: cover;
+}
+
+.game-shelf-title {
+    color: $body-color;
+    font-weight: 900;
+    line-height: 1.22;
+    @include line-truncate(2, 1.22rem);
+}
+
+.game-shelf-action {
+    min-height: 2.25rem;
+    padding: 0 0.7rem;
+    background-color: rgba($primary, 0.08);
+    font-size: 0.84rem;
+}
+
+.blog-notebook {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 0.85rem;
 }
 
-.news-guide-item {
+.blog-note {
     display: grid;
-    grid-template-columns: 6.5rem minmax(0, 1fr);
-    gap: 0.8rem;
-    align-items: center;
-    padding: 0.75rem;
+    gap: 0.65rem;
+    min-height: 11rem;
+    padding: 1rem;
     color: $body-color;
 
     &:hover {
-        color: $primary;
+        border-color: rgba($primary, 0.32);
+        color: $body-color;
         transform: translateY(-2px);
-    }
-}
-
-.news-guide-image {
-    aspect-ratio: 4/3;
-    border-radius: 0.55rem;
-}
-
-.news-guide-content {
-    min-width: 0;
-
-    span {
-        display: block;
-        margin-bottom: 0.2rem;
-        color: $text-muted;
-        font-size: 0.82rem;
-        font-weight: 800;
     }
 
     strong {
         color: $body-color;
+        font-size: 1.08rem;
         line-height: 1.25;
         @include line-truncate(3, 1.25rem);
     }
+
+    span:last-child {
+        color: rgba($body-color, 0.65);
+        line-height: 1.5;
+        @include line-truncate(3, 1.5rem);
+    }
+}
+
+.blog-note-type {
+    color: $primary;
+    font-size: 0.78rem;
+    font-weight: 900;
+    text-transform: uppercase;
 }
 
 @media (max-width: 991.9px) {
-    .directory-wrapper {
+    .desk-lead-grid,
+    .desk-lead-card {
         grid-template-columns: 1fr;
     }
 
-    .directory-title {
-        font-size: 2.35rem;
+    .desk-lead-card {
+        min-height: 0;
     }
 
-    .platform-grid,
-    .review-score-list {
+    .desk-lead-content h1 {
+        font-size: 2.15rem;
+    }
+
+    .review-stack,
+    .game-shelf {
         grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 
-    .news-guide-list {
+    .blog-notebook {
         grid-template-columns: 1fr;
     }
 }
 
 @media (max-width: 639.9px) {
-    .directory-hero {
-        padding: 1.25rem 0 1.5rem;
+    .desk-lead-section {
+        padding: 1.25rem 0 1.75rem;
     }
 
-    .directory-left,
-    .top-rated-panel {
+    .desk-lead-content,
+    .review-ledger {
         padding: 1rem;
     }
 
-    .directory-title {
-        font-size: 1.85rem;
+    .desk-lead-content h1 {
+        font-size: 1.7rem;
     }
 
-    .directory-search {
-        grid-template-columns: 1fr;
-
-        input,
-        button {
-            min-height: 3rem;
-        }
-    }
-
-    .directory-quick-links {
-        flex-wrap: nowrap;
-        overflow-x: auto;
-        padding-bottom: 0.1rem;
-
-        a {
-            flex: 0 0 auto;
-        }
+    .desk-lead-content p {
+        font-size: 0.94rem;
     }
 
     .home-section {
         margin-bottom: 2rem;
     }
 
-    .home-section-head {
+    .home-section-head,
+    .desk-section-head {
         align-items: flex-start;
         flex-direction: column;
     }
@@ -463,54 +365,44 @@
         font-size: 1.45rem;
     }
 
-    .featured-compact-card,
-    .news-guide-item {
-        grid-template-columns: 5.75rem minmax(0, 1fr);
-    }
-
-    .featured-compact-content strong {
-        font-size: 1rem;
-        @include line-truncate(3, 1.3rem);
-    }
-
-    .platform-grid,
-    .review-score-list {
+    .review-stack,
+    .game-shelf {
         grid-template-columns: 1fr;
     }
 
-    .platform-card {
-        min-height: 0;
+    .review-stack-card,
+    .game-shelf-card {
+        grid-template-columns: 5.5rem minmax(0, 1fr);
+        align-items: center;
     }
 
-    .game-row-item {
-        grid-template-columns: 4.75rem minmax(0, 1fr);
+    .review-stack-card {
+        grid-template-rows: auto;
     }
 
-    .game-row-action {
-        display: none;
+    .review-stack-content {
+        padding-top: 0;
+    }
+
+    .game-shelf-action {
+        grid-column: 2;
     }
 }
 
 @media (max-width: 360px) {
-    .directory-left,
-    .top-rated-panel,
-    .featured-compact-card,
-    .platform-card,
-    .game-row-item,
-    .review-score-card,
-    .news-guide-item {
-        border-radius: 0.6rem;
+    .desk-lead-card,
+    .review-ledger,
+    .review-stack-card,
+    .game-shelf-card,
+    .blog-note {
+        border-radius: 0.45rem;
     }
 
-    .directory-title {
-        font-size: 1.65rem;
-    }
-
-    .top-rated-item {
+    .ledger-item {
         grid-template-columns: auto minmax(0, 1fr);
     }
 
-    .top-rated-item .score-badge {
+    .ledger-badge {
         grid-column: 2;
         justify-self: flex-start;
     }
