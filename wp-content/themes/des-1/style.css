@@ -8888,8 +8888,7 @@ header.site-header .container {
   font-weight: 900;
   letter-spacing: 0;
   line-height: 1.1;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+  overflow-wrap: anywhere;
 }
 
 #primary-menu ul {
