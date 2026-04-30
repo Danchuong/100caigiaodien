@@ -57,6 +57,31 @@ Build SCSS ra CSS và đảm bảo CSS cuối cùng nằm ở:
 
 Header và footer là phần dùng chung, nên mọi chỉnh sửa phải an toàn cho các trang ngoài home như blog detail, review detail, game detail, archive và search.
 
+## Feedback hiện tại cho des-1
+
+Khách báo phần giữa/trang home hiện tại của `des-1` đã đẹp và phù hợp. Không revert hoặc redesign lại phần home đã được duyệt nếu không có feedback mới.
+
+Vấn đề còn lại của `des-1` là:
+
+- Header đang hơi lạc lõng so với phần giữa.
+- Footer đang hơi lạc lõng so với phần giữa.
+- Bản mới trên mobile đang bị đổ layout.
+- Những chỉnh sửa global làm các trang ngoài home bị bung layout.
+- Cần điều chỉnh header/footer để ăn nhập với concept, màu sắc, nhịp spacing và bố cục của phần home hiện tại, nhưng không được phá các trang khác.
+
+Hướng xử lý đúng:
+
+- Giữ nguyên cấu trúc và cảm giác chính của phần home/giữa đã được khách chấp nhận.
+- Ưu tiên cô lập chỉnh sửa trong phạm vi trang chủ bằng selector có scope như `body.home ...` hoặc class wrapper của home.
+- Không đổi markup global trong `header.php`/`footer.php` nếu chỉ cần sửa cảm giác trên home.
+- Nếu bắt buộc sửa `header.php` hoặc `footer.php`, phải giữ cấu trúc chung ổn cho toàn site hoặc dùng điều kiện WordPress như `is_front_page()`/`is_home()` cho phần chỉ dành riêng trang chủ.
+- Nếu buộc phải đụng `home.php` hoặc `_home.scss`, chỉ sửa phần liên quan trực tiếp đến khoảng cách tiếp giáp header/footer, không đổi form layout chính.
+- Header/footer trên trang chủ phải giống như cùng một theme với home, không như một block generic gắn thêm vào.
+- Các trang ngoài home như blog detail, review detail, game detail, archive và search là vùng regression bắt buộc; sửa home không được làm các trang này bung layout.
+- Sau khi sửa, cập nhật lại `delivery/des-1-home` từ source thật.
+
+Quy tắc quan trọng cho feedback này: **cô lập trong trang chủ trước, chỉ chạm global khi thật sự cần và đã kiểm tra toàn site**.
+
 ## Không thuộc phạm vi
 
 Không yêu cầu thay đổi:
@@ -289,6 +314,27 @@ rg -n "footer-wrap|footer-menu|footer-wrapper|footer-brand|footer-section|footer
 - Footer nên rewrite nguyên `_footer.scss` nếu đổi concept/footer anatomy.
 - Header search/menu nên rewrite nguyên cụm `.head-search`, `.head-search-wrapper`, `.head-search-input`, `.head-search-submit`.
 - Không để một component bị điều khiển bởi cả CSS cũ trong `style.scss` và CSS mới trong `_header.scss`/`_footer.scss`.
+
+### Cô lập thay đổi theo trang
+
+- Nếu feedback chỉ nằm ở trang home, ưu tiên sửa trong `home.php`, `_home.scss` hoặc selector scope `body.home ...`.
+- Không dùng selector global như `header.site-header`, `footer.site-footer`, `.head-wrapper`, `.foot-wrapper` để sửa riêng cảm giác home nếu selector đó sẽ tác động toàn site.
+- Nếu cần style khác cho header/footer trên home, dùng selector rõ phạm vi:
+
+```scss
+body.home header.site-header { ... }
+body.home footer.site-footer { ... }
+```
+
+- Nếu cần markup chỉ riêng home trong header/footer, dùng điều kiện WordPress và không ảnh hưởng trang khác:
+
+```php
+if ( is_front_page() || is_home() ) {
+    // home-only header/footer markup
+}
+```
+
+- Sau khi sửa trang home, vẫn phải kiểm tra các trang ngoài home vì header/footer/CSS là tài nguyên dùng chung.
 
 ### Checklist trạng thái phải bấm thật
 
