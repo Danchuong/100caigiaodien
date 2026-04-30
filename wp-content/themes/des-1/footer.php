@@ -77,7 +77,7 @@ $blog_archive_url   = home_url( '/blogs/' );
             const menuBtn = document.querySelector(".head-btn");
             const menu = document.querySelector(".head-menu");
             const searchBtn = document.querySelector(".head-search-btn");
-            const search = document.querySelector(".head-directory-bar");
+            const search = document.querySelector(".head-search");
 
             if (menuBtn && menu && menuBtn.contains(e.target)) {
                 menu.classList.toggle("active");

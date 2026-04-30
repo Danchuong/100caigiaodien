@@ -57,6 +57,8 @@ Build SCSS ra CSS và đảm bảo CSS cuối cùng nằm ở:
 
 Header và footer là phần dùng chung, nên mọi chỉnh sửa phải an toàn cho các trang ngoài home như blog detail, review detail, game detail, archive và search.
 
+Header và footer cũng phải **đồng nhất ở mọi trang**. Không được làm header/footer chỉ đẹp ở homepage nhưng khác bố cục, khác màu, khác cảm giác hoặc thiếu chức năng ở các trang còn lại.
+
 ## Feedback hiện tại cho des-1
 
 Khách báo phần giữa/trang home hiện tại của `des-1` đã đẹp và phù hợp. Không revert hoặc redesign lại phần home đã được duyệt nếu không có feedback mới.
@@ -67,20 +69,22 @@ Vấn đề còn lại của `des-1` là:
 - Footer đang hơi lạc lõng so với phần giữa.
 - Bản mới trên mobile đang bị đổ layout.
 - Những chỉnh sửa global làm các trang ngoài home bị bung layout.
-- Cần điều chỉnh header/footer để ăn nhập với concept, màu sắc, nhịp spacing và bố cục của phần home hiện tại, nhưng không được phá các trang khác.
+- Khách yêu cầu header và footer ở mọi trang phải giống nhau, không chỉ riêng homepage.
+- Cần điều chỉnh header/footer để ăn nhập với concept, màu sắc, nhịp spacing và bố cục của phần home hiện tại, nhưng phải áp dụng thành một global header/footer ổn định cho toàn site.
 
 Hướng xử lý đúng:
 
 - Giữ nguyên cấu trúc và cảm giác chính của phần home/giữa đã được khách chấp nhận.
-- Ưu tiên cô lập chỉnh sửa trong phạm vi trang chủ bằng selector có scope như `body.home ...` hoặc class wrapper của home.
-- Không đổi markup global trong `header.php`/`footer.php` nếu chỉ cần sửa cảm giác trên home.
-- Nếu bắt buộc sửa `header.php` hoặc `footer.php`, phải giữ cấu trúc chung ổn cho toàn site hoặc dùng điều kiện WordPress như `is_front_page()`/`is_home()` cho phần chỉ dành riêng trang chủ.
+- Header/footer là global component; khi sửa thì sửa thành một bản dùng chung cho homepage, blog detail, review detail, game detail, archive và search.
+- Không dùng `body.home header...`, `body.home footer...`, `is_front_page()` hoặc `is_home()` để tạo header/footer khác riêng homepage.
+- Chỉ dùng selector `body.home ...` cho khoảng cách tiếp giáp nội dung trang chủ nếu thật sự cần, không dùng để đổi cấu trúc, màu nền, navigation, search hoặc footer anatomy.
+- Nếu sửa `header.php` hoặc `footer.php`, phải giữ cấu trúc chung ổn cho toàn site và kiểm tra regression trên các trang ngoài home.
 - Nếu buộc phải đụng `home.php` hoặc `_home.scss`, chỉ sửa phần liên quan trực tiếp đến khoảng cách tiếp giáp header/footer, không đổi form layout chính.
-- Header/footer trên trang chủ phải giống như cùng một theme với home, không như một block generic gắn thêm vào.
-- Các trang ngoài home như blog detail, review detail, game detail, archive và search là vùng regression bắt buộc; sửa home không được làm các trang này bung layout.
+- Header/footer phải giống như cùng một theme với home, không như một block generic gắn thêm vào, nhưng vẫn giữ cùng hình thức trên mọi trang.
+- Các trang ngoài home như blog detail, review detail, game detail, archive và search là vùng regression bắt buộc; sửa header/footer không được làm các trang này bung layout.
 - Sau khi sửa, cập nhật lại `delivery/des-1-home` từ source thật.
 
-Quy tắc quan trọng cho feedback này: **cô lập trong trang chủ trước, chỉ chạm global khi thật sự cần và đã kiểm tra toàn site**.
+Quy tắc quan trọng cho feedback này: **header/footer phải global và đồng nhất toàn site; chỉ phần nội dung home mới được khác riêng homepage**.
 
 ## Không thuộc phạm vi
 
@@ -318,23 +322,24 @@ rg -n "footer-wrap|footer-menu|footer-wrapper|footer-brand|footer-section|footer
 ### Cô lập thay đổi theo trang
 
 - Nếu feedback chỉ nằm ở trang home, ưu tiên sửa trong `home.php`, `_home.scss` hoặc selector scope `body.home ...`.
-- Không dùng selector global như `header.site-header`, `footer.site-footer`, `.head-wrapper`, `.foot-wrapper` để sửa riêng cảm giác home nếu selector đó sẽ tác động toàn site.
-- Nếu cần style khác cho header/footer trên home, dùng selector rõ phạm vi:
+- Không dùng selector global như `header.site-header`, `footer.site-footer`, `.head-wrapper`, `.foot-wrapper` để sửa riêng content home nếu selector đó sẽ tác động toàn site.
+- Không dùng selector home-only để tạo header/footer khác homepage. Header/footer phải giống nhau trên mọi trang.
+- Nếu cần chỉnh khoảng cách tiếp giáp giữa home và header/footer, chỉ scope phần spacing nhỏ, không đổi cấu trúc/cảm giác header/footer:
 
 ```scss
-body.home header.site-header { ... }
-body.home footer.site-footer { ... }
+body.home .directory-hero { ... }
+body.home .home-directory { ... }
 ```
 
-- Nếu cần markup chỉ riêng home trong header/footer, dùng điều kiện WordPress và không ảnh hưởng trang khác:
+- Không tạo markup header/footer chỉ riêng homepage bằng điều kiện như:
 
 ```php
 if ( is_front_page() || is_home() ) {
-    // home-only header/footer markup
+    // home-only header/footer markup: tránh dùng cho header/footer
 }
 ```
 
-- Sau khi sửa trang home, vẫn phải kiểm tra các trang ngoài home vì header/footer/CSS là tài nguyên dùng chung.
+- Sau khi sửa trang home hoặc header/footer, vẫn phải kiểm tra các trang ngoài home vì header/footer/CSS là tài nguyên dùng chung.
 
 ### Checklist trạng thái phải bấm thật
 
