@@ -8974,6 +8974,7 @@ main.site-body {
 }
 
 .head-right {
+  position: static;
   justify-content: flex-end;
   gap: 0.5rem;
 }
@@ -9054,9 +9055,14 @@ ul.menu li.menu-item.current-menu-item > a {
 .head-search-wrapper {
   width: 100%;
   min-width: 0;
+  max-width: none;
+  margin: 0;
   border: 1px solid rgba(66, 84, 102, 0.14);
   border-radius: 0.55rem;
   background-color: #f5f8fb;
+  backdrop-filter: none;
+  pointer-events: auto;
+  opacity: 1;
 }
 .head-search-wrapper form {
   display: grid;
