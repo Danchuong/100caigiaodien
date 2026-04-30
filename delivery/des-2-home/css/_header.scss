@@ -127,14 +127,17 @@
 }
 
 .site-masthead .head-search-wrapper {
+    width: 100%;
     min-width: 14rem;
     border: 1px solid rgba(255, 255, 255, 0.16);
     border-radius: 999px;
     background: rgba(255, 255, 255, 0.08);
+    overflow: hidden;
 }
 
 .site-masthead .head-search-wrapper form {
-    display: flex;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
     align-items: center;
 }
 
@@ -142,6 +145,7 @@
     width: 100%;
     min-width: 0;
     min-height: 2.75rem;
+    height: 2.75rem;
     border: 0;
     outline: 0;
     background: transparent;
@@ -160,6 +164,7 @@
     display: inline-flex;
     width: 2.75rem;
     height: 2.75rem;
+    min-width: 2.75rem;
     align-items: center;
     justify-content: center;
     border: 0;
