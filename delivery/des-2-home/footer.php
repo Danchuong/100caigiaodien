@@ -44,14 +44,14 @@ $footer_copyright   = get_field( 'copyright', 'option' );
 					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="foot-logo"><?php echo esc_html( $footer_title ); ?></a>
 					<p class="foot-description"><?php echo wp_kses_post( $footer_description ); ?></p>
 					<div class="foot-actions">
-						<a href="<?php echo esc_url( home_url( '/blogs' ) ); ?>">News</a>
+						<a href="<?php echo esc_url( home_url( '/blogs' ) ); ?>">Blogs</a>
 						<a href="<?php echo esc_url( home_url( '/reviews' ) ); ?>">Reviews</a>
 						<a href="<?php echo esc_url( home_url( '/html5-games' ) ); ?>">Games</a>
 					</div>
 				</div>
 				<div class="foot-latest-grid">
 					<div class="foot-column">
-						<div class="foot-title">Latest News</div>
+						<div class="foot-title">Latest Blogs</div>
 						<ul class="foot-link-list">
 							<?php foreach ( $footer_news as $footer_post ) : ?>
 								<li><a href="<?php echo esc_url( get_permalink( $footer_post ) ); ?>"><?php echo esc_html( get_the_title( $footer_post ) ); ?></a></li>
@@ -67,7 +67,7 @@ $footer_copyright   = get_field( 'copyright', 'option' );
 						</ul>
 					</div>
 					<div class="foot-column">
-						<div class="foot-title">Popular Games</div>
+						<div class="foot-title">Latest Games</div>
 						<ul class="foot-link-list">
 							<?php foreach ( $footer_games as $footer_post ) : ?>
 								<li><a href="<?php echo esc_url( get_permalink( $footer_post ) ); ?>"><?php echo esc_html( get_the_title( $footer_post ) ); ?></a></li>

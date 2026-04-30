@@ -5,7 +5,31 @@
  * @package h5game
  */
 
-$search_key = isset( $_GET['key'] ) ? sanitize_text_field( wp_unslash( $_GET['key'] ) ) : '';
+$review_archive_url = home_url( '/reviews/' );
+$blog_archive_url   = home_url( '/blogs/' );
+$search_key         = isset( $_GET['key'] ) ? sanitize_text_field( wp_unslash( $_GET['key'] ) ) : '';
+$latest_blog_posts  = get_posts(
+	array(
+		'post_type'           => 'blog',
+		'posts_per_page'      => 2,
+		'post_status'         => 'publish',
+		'ignore_sticky_posts' => true,
+	)
+);
+
+$des2_nav_title_filter = static function ( $items ) {
+	foreach ( $items as $item ) {
+		if ( 'HTML5 Games' === $item->title ) {
+			$item->title = 'Games';
+		}
+
+		if ( in_array( $item->title, array( 'Reviews Games', 'Review Games' ), true ) ) {
+			$item->title = 'Reviews';
+		}
+	}
+
+	return $items;
+};
 ?>
 <!doctype html>
 <html <?php language_attributes(); ?>>
@@ -21,9 +45,18 @@ $search_key = isset( $_GET['key'] ) ? sanitize_text_field( wp_unslash( $_GET['ke
 		<div class="head-kicker">
 			<div class="container">
 				<div class="head-kicker-wrapper">
-					<a class="head-kicker-link" href="<?php echo esc_url( home_url( '/blogs' ) ); ?>">Latest news</a>
-					<a class="head-kicker-link" href="<?php echo esc_url( home_url( '/reviews' ) ); ?>">Reviews</a>
-					<a class="head-kicker-link" href="<?php echo esc_url( home_url( '/html5-games' ) ); ?>">Games</a>
+					<span class="head-kicker-label"><?php esc_html_e( 'Latest Blogs', 'h5game' ); ?></span>
+					<div class="head-kicker-feed">
+						<?php if ( ! empty( $latest_blog_posts ) ) : ?>
+							<?php foreach ( $latest_blog_posts as $latest_blog_post ) : ?>
+								<a class="head-kicker-link" href="<?php echo esc_url( get_permalink( $latest_blog_post ) ); ?>">
+									<?php echo esc_html( get_the_title( $latest_blog_post ) ); ?>
+								</a>
+							<?php endforeach; ?>
+						<?php else : ?>
+							<a class="head-kicker-link" href="<?php echo esc_url( $blog_archive_url ); ?>"><?php esc_html_e( 'Open blog archive', 'h5game' ); ?></a>
+						<?php endif; ?>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -37,6 +70,7 @@ $search_key = isset( $_GET['key'] ) ? sanitize_text_field( wp_unslash( $_GET['ke
 				<div class="head-center">
 					<nav id="primary-menu" class="main-navigation" aria-label="<?php esc_attr_e( 'Primary menu', 'h5game' ); ?>">
 						<?php
+						add_filter( 'wp_nav_menu_objects', $des2_nav_title_filter );
 						wp_nav_menu(
 							array(
 								'theme_location'  => 'main-menu',
@@ -44,14 +78,15 @@ $search_key = isset( $_GET['key'] ) ? sanitize_text_field( wp_unslash( $_GET['ke
 								'container_class' => 'head-menu',
 							)
 						);
+						remove_filter( 'wp_nav_menu_objects', $des2_nav_title_filter );
 						?>
 					</nav>
 				</div>
 				<div class="head-right">
-					<div class="head-search input-group">
+					<div class="head-search">
 						<div class="head-search-wrapper">
-							<form action="<?php echo esc_url( home_url( '/reviews' ) ); ?>" method="get">
-								<input type="text" class="form-control" placeholder="Search reviews" aria-label="Search reviews" value="<?php echo esc_attr( $search_key ); ?>" name="key" />
+							<form action="<?php echo esc_url( $review_archive_url ); ?>" method="get" role="search">
+								<input type="text" class="head-search-input" placeholder="Search reviews" aria-label="Search reviews" value="<?php echo esc_attr( $search_key ); ?>" name="key" />
 								<button class="head-search-submit" type="submit" aria-label="<?php esc_attr_e( 'Submit search', 'h5game' ); ?>">
 									<span class="icon-search"><span></span></span>
 								</button>

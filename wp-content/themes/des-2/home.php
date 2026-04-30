@@ -67,14 +67,14 @@ $platforms     = array( 'PC', 'Console', 'Mobile', 'Switch', 'Browser' );
 		<div class="container">
 			<div class="lead-news-wrapper">
 				<div class="lead-left">
-					<div class="lead-section-kicker">Front Page</div>
+					<div class="lead-section-kicker">Blog Front Page</div>
 					<?php if ( $lead_post ) : ?>
 						<a class="lead-story-card" href="<?php echo esc_url( get_permalink( $lead_post ) ); ?>">
 							<div class="lead-story-media">
 								<?php echo des2_post_image( $lead_post->ID, 'lead-story-media' ); ?>
 							</div>
 							<div class="lead-story-content">
-								<span class="story-label"><?php echo esc_html( des2_post_label( $lead_post->ID, 'News' ) ); ?></span>
+								<span class="story-label"><?php echo esc_html( des2_post_label( $lead_post->ID, 'Blog' ) ); ?></span>
 								<h1><?php echo esc_html( get_the_title( $lead_post ) ); ?></h1>
 								<p><?php echo esc_html( wp_trim_words( get_the_excerpt( $lead_post ), 24 ) ); ?></p>
 							</div>
@@ -84,7 +84,7 @@ $platforms     = array( 'PC', 'Console', 'Mobile', 'Switch', 'Browser' );
 				<aside class="trending-rail" aria-label="<?php esc_attr_e( 'Trending stories', 'h5game' ); ?>">
 					<div class="rail-head">
 						<span>Trending</span>
-						<a href="<?php echo esc_url( home_url( '/blogs' ) ); ?>">All news</a>
+						<a href="<?php echo esc_url( home_url( '/blogs' ) ); ?>">All blogs</a>
 					</div>
 					<div class="rail-list">
 						<?php foreach ( $trending_news as $index => $rail_post ) : ?>
@@ -103,7 +103,7 @@ $platforms     = array( 'PC', 'Console', 'Mobile', 'Switch', 'Browser' );
 		<div class="container">
 			<div class="section-head news-desk-head">
 				<div>
-					<span class="section-eyebrow">News first</span>
+					<span class="section-eyebrow">Blogs first</span>
 					<h2 class="section-title">Latest Briefing</h2>
 				</div>
 				<a class="btn-viewmore" href="<?php echo esc_url( home_url( '/blogs' ) ); ?>">View all</a>
