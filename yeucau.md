@@ -249,6 +249,81 @@ Yêu cầu mobile:
 
 Nếu phải chọn giữa giữ signature desktop và tránh lỗi 320px, ưu tiên tránh lỗi 320px.
 
+## Luật chống vỡ layout từ kinh nghiệm des-1
+
+Các lỗi vừa gặp ở `des-1` chủ yếu đến từ việc sửa chồng lên source cũ, selector không khớp PHP/CSS, và trạng thái mobile/search chưa được kiểm tra kỹ. Từ các style sau, bắt buộc áp dụng các luật sau.
+
+### 1 source of truth cho header/footer
+
+- Header/footer phải có một hệ class rõ ràng và CSS phải khớp đúng class đang render trong PHP.
+- Không để PHP dùng `.foot-*` nhưng SCSS vẫn style `.footer-*`, hoặc ngược lại.
+- Khi đổi layout header/footer, phải kiểm tra và dọn selector cũ không còn dùng.
+- Header/footer là vùng dùng chung toàn site, nên không để nhiều agent hoặc nhiều nhánh sửa chồng cùng lúc nếu chưa có người tổng hợp cuối.
+
+Các selector cũ cần soi kỹ nếu style mới không dùng:
+
+```bash
+rg -n "footer-wrap|footer-menu|footer-wrapper|footer-brand|footer-section|footer-links|head-directory|head-filter|form-control" wp-content/themes/des-N
+```
+
+### Mobile search và input
+
+- Mobile search không nên dùng `position: absolute` nếu có input, vì dễ đè nội dung, tràn viewport hoặc lỗi khi focus.
+- Search mobile nên nằm trong flow dưới header: hidden bằng `display: none`, active bằng `display: block`.
+- Tránh ẩn/mở input bằng `max-height` vì input focus có thể bị cắt hoặc nhìn lỗi.
+- Không dùng Bootstrap `.form-control` cho input search custom nếu component đã có style riêng.
+- Input search custom nên dùng class riêng, ví dụ `.head-search-input`, và reset rõ:
+
+```scss
+.head-search-input {
+    min-width: 0;
+    border: 0;
+    outline: 0;
+    box-shadow: none;
+}
+```
+
+### Không vá CSS chồng lớp
+
+- Khi một component đã sai nhiều, rewrite nguyên block component thay vì thêm vài rule vá lên trên.
+- Footer nên rewrite nguyên `_footer.scss` nếu đổi concept/footer anatomy.
+- Header search/menu nên rewrite nguyên cụm `.head-search`, `.head-search-wrapper`, `.head-search-input`, `.head-search-submit`.
+- Không để một component bị điều khiển bởi cả CSS cũ trong `style.scss` và CSS mới trong `_header.scss`/`_footer.scss`.
+
+### Checklist trạng thái phải bấm thật
+
+Trước khi commit một layout có header/footer/search, phải kiểm tra bằng browser thật:
+
+- Desktop: mở menu/search nếu có.
+- Mobile `390px`, `360px`, `320px`: mở menu, mở search, focus input, submit search.
+- Scroll xuống footer trên home và ít nhất một trang ngoài home.
+- Kiểm tra không có horizontal overflow, không có text/button/input bị cắt.
+
+### Grep lỗi layout trước commit
+
+Chạy thêm các lệnh kiểm tra rủi ro layout:
+
+```bash
+rg -n "margin-top:\s*-|width:\s*100vw|min-width:\s*[4-9][0-9]{2}px|left:\s*-[0-9]|right:\s*-[0-9]|white-space:\s*nowrap" wp-content/themes/des-N/css wp-content/themes/des-N/*.php
+rg -n "form-control|footer-wrap|footer-menu|footer-wrapper|head-search.*position:\s*absolute|href=\"#\"|javascript:void" wp-content/themes/des-N delivery/des-N-home
+```
+
+Nếu grep ra kết quả trong file đang sửa, phải đọc lại và xác nhận đó là chủ đích an toàn trước khi commit.
+
+### Quy trình chống vỡ layout
+
+Quy trình đúng cho mỗi style:
+
+1. Chốt contract class cho header/home/footer.
+2. Rewrite component chính sạch theo contract, không vá chồng.
+3. Build `style.css`.
+4. Sync sang local WordPress.
+5. Test bằng browser thật ở desktop/tablet/mobile.
+6. Bấm trạng thái menu/search/input/footer.
+7. Grep selector cũ và layout risk.
+8. Commit.
+9. Copy sang `delivery/des-N-home`.
+
 ## Chuẩn khác biệt giữa 100 giao diện
 
 Mỗi style dùng mã thống nhất:

@@ -1,97 +1,168 @@
-/* des-1 directory footer start */
+/* des-1 review desk footer start */
 footer.site-footer {
-    margin-top: 3.5rem;
-    padding: 3rem 0;
-    border-top: 1px solid rgba($body-color, 0.1);
-    background-color: #101827;
-    color: rgba($white, 0.72);
+    position: relative;
+    margin-top: 2.5rem;
+    padding: 0;
+    border-top: 0;
+    background:
+        linear-gradient(135deg, rgba(#f7b32b, 0.11) 0%, rgba(#f7b32b, 0) 34%),
+        linear-gradient(180deg, #0b1219 0%, #05090d 100%);
+    color: rgba($white, 0.74);
+}
+
+body.home footer.site-footer {
+    margin-top: 0;
+}
+
+footer.site-footer::before {
+    content: "";
+    position: absolute;
+    inset: 0 0 auto;
+    height: 4px;
+    background: linear-gradient(90deg, #f7b32b, rgba(#f7b32b, 0.18), rgba($white, 0));
 }
 
 .foot-wrapper {
     display: grid;
-    grid-template-columns: minmax(15rem, 0.9fr) minmax(0, 1.8fr);
-    gap: 2rem;
+    grid-template-columns: minmax(15rem, 0.72fr) minmax(0, 1.45fr);
+    gap: clamp(1.5rem, 4vw, 4rem);
     align-items: start;
+    padding: clamp(2.25rem, 5vw, 4rem) 0;
 }
 
 .foot-brand {
+    display: grid;
+    gap: 0.85rem;
+    min-width: 0;
+    max-width: 25rem;
+
     .logo {
         display: inline-flex;
+        width: fit-content;
+        max-width: 100%;
         color: $white;
-        font-size: 1.45rem;
+        font-size: clamp(1.35rem, 2vw, 1.8rem);
         font-weight: 900;
+        line-height: 1.12;
+        overflow-wrap: anywhere;
+
+        &:hover {
+            color: #f7b32b;
+        }
     }
 
     p {
-        max-width: 24rem;
-        margin: 0.65rem 0;
-        color: rgba($white, 0.7);
+        max-width: 22rem;
+        margin: 0;
+        color: rgba($white, 0.68);
+        line-height: 1.58;
     }
 }
 
 .foot-muted {
-    color: rgba($white, 0.48);
+    color: rgba($white, 0.46);
     font-size: 0.9rem;
+    line-height: 1.45;
 }
 
 .foot-columns {
     display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 1.25rem;
-}
-
-.foot-title {
-    margin-bottom: 0.75rem;
-    color: $white;
-    font-weight: 900;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: clamp(1rem, 2.4vw, 2rem);
+    min-width: 0;
 }
 
 .foot-column {
+    min-width: 0;
+
     ul {
-        list-style: none;
+        display: grid;
+        gap: 0.55rem;
         margin: 0;
         padding: 0;
+        list-style: none;
     }
 
-    li + li {
-        margin-top: 0.45rem;
+    li {
+        min-width: 0;
     }
 
     a {
         display: inline-flex;
         max-width: 100%;
-        color: rgba($white, 0.66);
-        line-height: 1.4;
-        @include text-truncate();
+        color: rgba($white, 0.68);
+        font-weight: 700;
+        line-height: 1.38;
+        overflow-wrap: anywhere;
 
         &:hover {
-            color: $white;
+            color: #f7b32b;
         }
     }
 }
 
-@media (max-width: 767.9px) {
-    footer.site-footer {
-        margin-top: 2.25rem;
-        padding: 2rem 0;
+.foot-title {
+    margin: 0 0 0.85rem;
+    color: $white;
+    font-size: 0.8rem;
+    font-weight: 900;
+    letter-spacing: 0;
+    line-height: 1.2;
+    text-transform: uppercase;
+}
+
+@media (max-width: 991.9px) {
+    .foot-wrapper {
+        grid-template-columns: 1fr;
     }
 
-    .foot-wrapper,
+    .foot-brand {
+        max-width: 34rem;
+    }
+
     .foot-columns {
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 639.9px) {
+    footer.site-footer {
+        margin-top: 2rem;
+    }
+
+    body.home footer.site-footer {
+        margin-top: 0;
     }
 
     .foot-wrapper {
         gap: 1.5rem;
+        padding: 2rem 0;
     }
 
     .foot-columns {
-        gap: 1rem;
+        grid-template-columns: 1fr;
+        gap: 0;
     }
 
     .foot-column {
-        padding-top: 1rem;
-        border-top: 1px solid rgba($white, 0.12);
+        padding: 1rem 0;
+        border-top: 1px solid rgba($white, 0.1);
+    }
+
+    .foot-column:first-child {
+        padding-top: 0;
+        border-top: 0;
     }
 }
-/* des-1 directory footer end */
+
+@media (max-width: 360px) {
+    .foot-brand .logo {
+        font-size: 1.22rem;
+    }
+
+    .foot-brand p,
+    .foot-column a {
+        font-size: 0.94rem;
+    }
+}
+/* des-1 review desk footer end */
