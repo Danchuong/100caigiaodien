@@ -13,7 +13,9 @@ if ( isset( $_GET['key'] ) && is_scalar( $_GET['key'] ) ) {
 }
 
 $des1_nav_title_filter = static function ( $items ) {
-	foreach ( $items as $item ) {
+	$seen_nav_titles = array();
+
+	foreach ( $items as $item_index => $item ) {
 		if ( 'HTML5 Games' === $item->title ) {
 			$item->title = 'Games';
 		}
@@ -21,9 +23,21 @@ $des1_nav_title_filter = static function ( $items ) {
 		if ( in_array( $item->title, array( 'Reviews Games', 'Review Games' ), true ) ) {
 			$item->title = 'Reviews';
 		}
+
+		if ( ! in_array( $item->title, array( 'Games', 'Reviews', 'Blogs', 'About Us' ), true ) ) {
+			unset( $items[ $item_index ] );
+			continue;
+		}
+
+		if ( isset( $seen_nav_titles[ $item->title ] ) ) {
+			unset( $items[ $item_index ] );
+			continue;
+		}
+
+		$seen_nav_titles[ $item->title ] = true;
 	}
 
-	return $items;
+	return array_values( $items );
 };
 ?>
 <!doctype html>
