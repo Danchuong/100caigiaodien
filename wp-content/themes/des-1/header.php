@@ -88,7 +88,7 @@ $des1_nav_title_filter = static function ( $items ) {
                 <div class="head-search" id="site-header-search">
                     <div class="head-search-wrapper">
                         <form action="<?php echo esc_url( $review_archive_url ); ?>" method="get" role="search">
-                            <input type="text" class="form-control" placeholder="<?php esc_attr_e( 'Search reviews', 'h5game' ); ?>" aria-label="<?php esc_attr_e( 'Search reviews', 'h5game' ); ?>" value="<?php echo esc_attr( $search_key ); ?>" name="key" />
+                            <input type="text" class="head-search-input" placeholder="<?php esc_attr_e( 'Search reviews', 'h5game' ); ?>" aria-label="<?php esc_attr_e( 'Search reviews', 'h5game' ); ?>" value="<?php echo esc_attr( $search_key ); ?>" name="key" />
                             <button type="submit" class="head-search-submit"><?php esc_html_e( 'Search', 'h5game' ); ?></button>
                         </form>
                     </div>
