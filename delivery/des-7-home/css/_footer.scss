@@ -6,6 +6,9 @@
     --des7-blue: #3860be;
     --des7-text: #ffffff;
     --des7-muted: #949494;
+    --des7-panel: #1d1d1d;
+    --des7-border: rgba(255, 255, 255, 0.26);
+    --des7-radius: 12px;
 
     margin-top: 0;
     padding: 2.8rem 0 2rem;
@@ -40,8 +43,8 @@
     gap: 1.25rem;
     align-items: end;
     padding: 1.15rem;
-    border: 1px solid rgba(255, 255, 255, 0.74);
-    border-radius: 24px;
+    border: 1px solid var(--des7-border);
+    border-radius: var(--des7-radius);
     background: var(--des7-canvas);
 }
 
@@ -66,7 +69,9 @@
     font-weight: 900;
     letter-spacing: 0;
     line-height: 0.88;
-    overflow-wrap: anywhere;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
     text-transform: uppercase;
 
     &:hover,
@@ -80,8 +85,9 @@
     display: flex;
     min-width: 0;
     border: 1px solid var(--des7-mint);
-    border-radius: 2px;
+    border-radius: 10px;
     background: var(--des7-canvas);
+    overflow: hidden;
 
     input {
         min-width: 0;
@@ -123,16 +129,16 @@
 
 .foot-columns {
     display: grid;
-    grid-template-columns: minmax(160px, 0.55fr) minmax(0, 1fr) minmax(0, 1fr);
+    grid-template-columns: minmax(150px, 0.55fr) repeat(3, minmax(0, 1fr));
     gap: 1rem;
 }
 
 .foot-column {
     min-width: 0;
     padding: 1rem;
-    border: 1px solid rgba(255, 255, 255, 0.24);
-    border-radius: 20px;
-    background: var(--des7-slate);
+    border: 1px solid var(--des7-border);
+    border-radius: var(--des7-radius);
+    background: var(--des7-panel);
 
     h3 {
         margin: 0 0 0.8rem;
@@ -172,9 +178,13 @@
 }
 
 .foot-column-nav {
-    background: var(--des7-purple);
+    border-color: rgba(60, 255, 208, 0.45);
+    background: var(--des7-canvas);
 
-    h3,
+    h3 {
+        color: var(--des7-mint);
+    }
+
     a {
         color: var(--des7-text);
     }
@@ -238,7 +248,7 @@
 
     .foot-masthead,
     .foot-column {
-        border-radius: 18px;
+        border-radius: var(--des7-radius);
     }
 
     .foot-logo {
@@ -246,12 +256,14 @@
     }
 
     .foot-search-form {
-        display: grid;
+        display: flex;
 
         button {
-            width: 100%;
+            flex: 0 0 auto;
+            padding: 0 0.75rem;
             border-left: 0;
-            border-top: 1px solid rgba(0, 0, 0, 0.2);
+            border-left: 1px solid rgba(0, 0, 0, 0.2);
+            border-top: 0;
         }
     }
 

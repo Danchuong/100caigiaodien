@@ -7,6 +7,20 @@
 
 $review_archive_url = home_url( '/reviews/' );
 $search_key         = isset( $_GET['key'] ) ? sanitize_text_field( wp_unslash( $_GET['key'] ) ) : '';
+
+$des6_nav_title_filter = static function ( $items ) {
+	foreach ( $items as $item ) {
+		if ( 'HTML5 Games' === $item->title ) {
+			$item->title = 'Games';
+		}
+
+		if ( in_array( $item->title, array( 'Reviews Games', 'Review Games' ), true ) ) {
+			$item->title = 'Reviews';
+		}
+	}
+
+	return $items;
+};
 ?>
 <!doctype html>
 <html <?php language_attributes(); ?>>
@@ -39,6 +53,7 @@ $search_key         = isset( $_GET['key'] ) ? sanitize_text_field( wp_unslash( $
 				<div class="head-right">
 					<nav id="site-navigation" class="main-navigation head-navigation" aria-label="Primary navigation">
 						<?php
+						add_filter( 'wp_nav_menu_objects', $des6_nav_title_filter );
 						wp_nav_menu(
 							array(
 								'theme_location'  => 'main-menu',
@@ -47,6 +62,7 @@ $search_key         = isset( $_GET['key'] ) ? sanitize_text_field( wp_unslash( $
 								'fallback_cb'     => false,
 							)
 						);
+						remove_filter( 'wp_nav_menu_objects', $des6_nav_title_filter );
 						?>
 					</nav>
 

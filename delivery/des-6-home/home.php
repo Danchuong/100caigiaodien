@@ -112,11 +112,6 @@ $game_query = new WP_Query(
 						<button type="submit">Search</button>
 					</form>
 
-					<div class="des6-hero-links" aria-label="Browse content archives">
-						<a href="<?php echo esc_url( $games_archive_url ); ?>">Games</a>
-						<a href="<?php echo esc_url( $review_archive_url ); ?>">Reviews</a>
-						<a href="<?php echo esc_url( $blog_archive_url ); ?>">Blogs</a>
-					</div>
 				</div>
 
 				<?php if ( $feature_query->have_posts() ) : ?>

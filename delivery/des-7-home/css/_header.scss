@@ -6,6 +6,9 @@
     --des7-blue: #3860be;
     --des7-text: #ffffff;
     --des7-muted: #949494;
+    --des7-panel: #1d1d1d;
+    --des7-border: rgba(255, 255, 255, 0.26);
+    --des7-radius: 10px;
 
     position: sticky;
     top: 0;
@@ -56,7 +59,9 @@
         font-weight: 900;
         letter-spacing: 0;
         line-height: 0.86;
-        overflow-wrap: anywhere;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
         text-transform: uppercase;
 
         &:hover {
@@ -68,7 +73,7 @@
         flex: 0 0 auto;
         padding: 0.28rem 0.58rem;
         border: 1px solid var(--des7-mint);
-        border-radius: 999px;
+        border-radius: 6px;
         color: var(--des7-mint);
         font-family: "Courier New", Courier, monospace;
         font-size: 0.68rem;
@@ -110,7 +115,9 @@
         font-weight: 700;
         letter-spacing: 1.5px;
         line-height: 1.2;
-        overflow-wrap: anywhere;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
         text-transform: uppercase;
         box-shadow: inset 0 -1px 0 transparent;
 
@@ -122,13 +129,15 @@
     }
 
     .head-search {
-        display: block;
+        display: flex;
+        align-items: stretch;
         width: min(360px, 100%);
         min-width: 0;
 
         input {
+            flex: 1 1 auto;
             min-width: 0;
-            width: 100%;
+            width: auto;
             min-height: 42px;
             padding: 0 0.85rem;
             border: 0;
@@ -144,20 +153,21 @@
             }
 
             &:focus {
-                box-shadow: inset 0 0 0 1px var(--des7-mint);
+                box-shadow: none;
             }
         }
 
         form,
         & {
-            position: relative;
+            min-width: 0;
         }
     }
 
     .head-search {
         border: 1px solid rgba(255, 255, 255, 0.7);
-        border-radius: 2px;
+        border-radius: var(--des7-radius);
         background: var(--des7-canvas);
+        overflow: hidden;
 
         &:focus-within {
             border-color: var(--des7-mint);
@@ -165,12 +175,10 @@
     }
 
     .head-search-submit {
-        position: absolute;
-        top: 0;
-        right: 0;
         display: inline-flex;
         align-items: center;
         justify-content: center;
+        flex: 0 0 42px;
         width: 42px;
         height: 42px;
         border: 0;
@@ -186,10 +194,6 @@
         }
     }
 
-    .head-search input {
-        padding-right: 3rem;
-    }
-
     .head-search-btn,
     .head-btn {
         display: none;
@@ -199,7 +203,7 @@
         height: 44px;
         padding: 0;
         border: 1px solid rgba(255, 255, 255, 0.62);
-        border-radius: 50%;
+        border-radius: var(--des7-radius);
         background: var(--des7-canvas);
         color: var(--des7-text);
 
@@ -311,14 +315,18 @@
         .head-menu {
             position: absolute;
             top: calc(100% + 8px);
-            left: 0;
             right: 0;
+            left: auto;
             z-index: 15;
             display: block;
-            padding: 0.75rem;
-            border: 1px solid var(--des7-purple);
-            border-radius: 20px;
-            background: var(--des7-canvas);
+            width: min(240px, calc(100vw - 24px));
+            min-width: 0;
+            max-width: calc(100vw - 24px);
+            padding: 0.45rem;
+            border: 1px solid var(--des7-border);
+            border-radius: var(--des7-radius);
+            background: var(--des7-panel);
+            box-shadow: 0 18px 42px rgba(0, 0, 0, 0.35);
             opacity: 0;
             pointer-events: none;
             transform: translateY(-6px);
@@ -331,31 +339,57 @@
             }
         }
 
+        .head-menu.active ul#main-menu {
+            margin-top: 0;
+        }
+
         .head-menu-list,
         .head-menu ul {
-            display: grid;
-            grid-template-columns: repeat(2, minmax(0, 1fr));
-            gap: 0.55rem;
+            display: flex;
+            flex-direction: column;
+            align-items: stretch;
+            gap: 0;
+        }
+
+        .head-menu li {
+            width: 100%;
+            max-width: 100%;
+
+            & + li {
+                border-top: 1px solid rgba(255, 255, 255, 0.12);
+            }
         }
 
         .head-menu a {
-            justify-content: center;
+            width: 100%;
+            max-width: 100%;
+            justify-content: flex-start;
             min-height: 44px;
-            padding: 0.65rem 0.45rem;
-            border: 1px solid rgba(255, 255, 255, 0.28);
-            border-radius: 18px;
-            background: var(--des7-slate);
-            text-align: center;
+            padding: 0.65rem 0.7rem;
+            border: 0;
+            border-radius: 6px;
+            background: transparent;
+            text-align: left;
+
+            &:hover,
+            &:focus {
+                background: rgba(255, 255, 255, 0.08);
+                box-shadow: none;
+            }
         }
 
         .head-search {
             position: absolute;
             top: calc(100% + 8px);
-            left: 0;
             right: 0;
+            left: auto;
             z-index: 16;
-            width: 100%;
-            border-color: var(--des7-mint);
+            width: min(340px, calc(100vw - 24px));
+            max-width: calc(100vw - 24px);
+            padding: 0.45rem;
+            border-color: var(--des7-border);
+            background: var(--des7-panel);
+            box-shadow: 0 18px 42px rgba(0, 0, 0, 0.35);
             opacity: 0;
             pointer-events: none;
             transform: translateY(-6px);
@@ -370,11 +404,15 @@
 
         .head-search input {
             min-height: 48px;
+            border-radius: 6px 0 0 6px;
+            background: var(--des7-canvas);
         }
 
         .head-search-submit {
+            flex-basis: 48px;
             width: 48px;
             height: 48px;
+            border-radius: 0 6px 6px 0;
         }
 
         .head-search-btn,
@@ -399,9 +437,10 @@
             gap: 0.35rem;
         }
 
-        .head-menu-list,
-        .head-menu ul {
-            grid-template-columns: 1fr;
+        .head-menu a {
+            min-height: 42px;
+            padding: 0.5rem 0.68rem;
+            font-size: 0.68rem;
         }
     }
 }
