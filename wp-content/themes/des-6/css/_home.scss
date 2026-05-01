@@ -124,14 +124,6 @@
     white-space: nowrap;
 }
 
-.des6-hero-links {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-    margin-top: 1rem;
-}
-
-.des6-hero-links a,
 .des6-section-link {
     display: inline-flex;
     align-items: center;
@@ -145,7 +137,6 @@
     font-weight: 800;
 }
 
-.des6-hero-links a:hover,
 .des6-section-link:hover {
     background-color: var(--des6-red);
     color: #ffffff;
