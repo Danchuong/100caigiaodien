@@ -10,7 +10,7 @@ header.site-head.des5-editorial-head {
     margin-bottom: 0;
     color: $des5-page-ink;
     background: $des5-paper;
-    border-bottom: 2px solid $des5-ink;
+    border-bottom: 1px solid $des5-ink;
     box-shadow: none;
 }
 
@@ -19,12 +19,12 @@ header.site-head.des5-editorial-head {
         color: $des5-paper;
         background: $des5-ink;
         font-family: "Courier New", Courier, monospace;
-        font-size: 0.74rem;
+        font-size: 0.64rem;
         line-height: 1.2;
         text-transform: uppercase;
 
         .container {
-            min-height: 36px;
+            min-height: 24px;
             display: flex;
             align-items: center;
             justify-content: space-between;
@@ -34,13 +34,13 @@ header.site-head.des5-editorial-head {
 
     .head-wrapper {
         position: relative;
-        min-height: 88px;
+        min-height: 60px;
         height: auto;
         display: grid;
         grid-template-columns: minmax(12rem, 0.8fr) minmax(0, 1.3fr) minmax(14rem, 0.8fr);
-        gap: 1.5rem;
+        gap: 1rem;
         align-items: center;
-        padding: 1rem 0;
+        padding: 0.48rem 0;
     }
 
     .head-left,
@@ -49,15 +49,25 @@ header.site-head.des5-editorial-head {
         min-width: 0;
     }
 
+    .head-logo {
+        max-width: min(100%, 20rem);
+        min-width: 0;
+    }
+
     .head-logo a {
-        display: inline-block;
+        display: block;
+        max-width: 100%;
         color: $des5-ink;
         font-family: Georgia, "Times New Roman", serif;
-        font-size: 3rem;
-        line-height: 0.95;
+        font-size: 2.12rem;
+        line-height: 1;
         letter-spacing: 0;
         text-transform: uppercase;
-        overflow-wrap: anywhere;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        overflow-wrap: normal;
+        word-break: normal;
 
         &:hover {
             color: $des5-link;
@@ -72,13 +82,13 @@ header.site-head.des5-editorial-head {
         width: 100%;
     }
 
-    #primary-menu .head-menu ul {
+    #primary-menu .head-menu > ul {
         position: static;
         display: flex;
         align-items: center;
         justify-content: center;
         flex-wrap: wrap;
-        gap: 0.25rem 1.1rem;
+        gap: 0.15rem 0.85rem;
         width: auto;
         min-width: 0;
         margin: 0;
@@ -93,12 +103,12 @@ header.site-head.des5-editorial-head {
         backdrop-filter: none;
 
         a {
-            min-height: 44px;
+            min-height: 32px;
             display: inline-flex;
             align-items: center;
             color: $des5-page-ink;
             font-family: Arial, Helvetica, sans-serif;
-            font-size: 0.84rem;
+            font-size: 0.74rem;
             font-weight: 700;
             line-height: 1.2;
             letter-spacing: 0;
@@ -116,11 +126,12 @@ header.site-head.des5-editorial-head {
         display: flex;
         align-items: center;
         justify-content: flex-end;
-        gap: 0.5rem;
+        gap: 0.4rem;
     }
 
     .head-search {
-        width: min(18rem, 100%);
+        width: min(13.5rem, 100%);
+        min-width: 0;
     }
 
     .head-search-wrapper {
@@ -129,27 +140,30 @@ header.site-head.des5-editorial-head {
         min-width: 0;
         margin: 0;
         background: $des5-paper;
-        border: 2px solid $des5-ink;
+        border: 1px solid $des5-ink;
         border-radius: 0;
         box-shadow: none;
 
         form {
             display: flex;
             align-items: stretch;
+            width: 100%;
+            min-width: 0;
             margin: 0;
         }
 
         input {
+            flex: 1 1 auto;
             width: 100%;
             min-width: 0;
-            min-height: 44px;
-            padding: 0.65rem 3rem 0.65rem 0.8rem;
+            min-height: 36px;
+            padding: 0.48rem 2.45rem 0.48rem 0.65rem;
             color: $des5-page-ink !important;
             background: transparent;
             border: 0;
             border-radius: 0;
             font-family: Arial, Helvetica, sans-serif;
-            font-size: 0.92rem;
+            font-size: 0.86rem;
             outline-offset: 2px;
 
             &::placeholder {
@@ -163,15 +177,15 @@ header.site-head.des5-editorial-head {
     .head-search-btn,
     .head-btn {
         appearance: none;
-        min-width: 44px;
-        min-height: 44px;
+        min-width: 38px;
+        min-height: 38px;
         display: inline-flex;
         align-items: center;
         justify-content: center;
         padding: 0;
         color: $des5-ink;
         background: $des5-paper;
-        border: 2px solid $des5-ink;
+        border: 1px solid $des5-ink;
         border-radius: 0;
         box-shadow: none;
 
@@ -255,19 +269,19 @@ header.site-head.des5-editorial-head {
     .des5-editorial-head {
         .head-wrapper {
             grid-template-columns: minmax(9rem, 0.75fr) minmax(0, 1fr) minmax(11rem, 0.7fr);
-            gap: 1rem;
+            gap: 0.8rem;
         }
 
         .head-logo a {
-            font-size: 2.4rem;
+            font-size: 1.82rem;
         }
 
-        #primary-menu .head-menu ul {
+        #primary-menu .head-menu > ul {
             gap: 0.15rem 0.75rem;
         }
 
         .head-search {
-            width: min(15rem, 100%);
+            width: min(12rem, 100%);
         }
     }
 }
@@ -275,14 +289,14 @@ header.site-head.des5-editorial-head {
 @media (max-width: 860px) {
     .des5-editorial-head {
         .head-wrapper {
-            min-height: 68px;
+            min-height: 52px;
             grid-template-columns: minmax(0, 1fr) auto;
             gap: 0.75rem;
-            padding: 0.75rem 0;
+            padding: 0.45rem 0;
         }
 
         .head-logo a {
-            font-size: 2rem;
+            font-size: 1.48rem;
         }
 
         .head-center {
@@ -311,7 +325,7 @@ header.site-head.des5-editorial-head {
             left: 50%;
             right: auto;
             z-index: 30;
-            width: min(34rem, calc(100vw - 1.5rem));
+            width: min(24rem, calc(100vw - 1.25rem));
             max-width: none;
             padding: 0;
             opacity: 0;
@@ -337,30 +351,35 @@ header.site-head.des5-editorial-head {
             pointer-events: auto;
         }
 
-        #primary-menu .head-menu ul {
+        #primary-menu .head-menu > ul {
             position: absolute;
             top: calc(100% + 0.4rem);
             right: 0;
             z-index: 29;
-            width: min(12.5rem, calc(100vw - 1rem));
+            width: fit-content;
+            min-width: 0;
+            max-width: calc(100vw - 1rem);
             flex-direction: column;
             align-items: stretch;
             gap: 0;
             margin: 0;
-            padding: 0.2rem 0.45rem;
+            padding: 0.12rem 0.22rem;
             background: $des5-paper;
-            border: 2px solid $des5-ink;
+            border: 1px solid $des5-ink;
             box-shadow: none;
             opacity: 0;
             pointer-events: none;
 
             a {
-                min-height: 34px;
+                min-height: 28px;
                 justify-content: flex-start;
-                padding: 0.25rem 0.1rem;
+                padding: 0.22rem 0.52rem 0.22rem 0.35rem;
                 border-bottom: 1px solid $des5-rule;
-                font-size: 0.74rem;
+                font-size: 0.7rem;
                 line-height: 1.15;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
             }
 
             li:last-child a {
@@ -368,7 +387,7 @@ header.site-head.des5-editorial-head {
             }
         }
 
-        #primary-menu .head-menu.active ul {
+        #primary-menu .head-menu.active > ul {
             margin: 0;
             opacity: 1;
             pointer-events: auto;
@@ -379,15 +398,15 @@ header.site-head.des5-editorial-head {
 @media (max-width: 520px) {
     .des5-editorial-head {
         .des5-head-strip {
-            font-size: 0.68rem;
+            font-size: 0.64rem;
 
             .container {
-                min-height: 32px;
+                min-height: 24px;
             }
         }
 
         .head-logo a {
-            font-size: 1.6rem;
+            font-size: 1.26rem;
         }
 
         .head-right {
@@ -399,14 +418,15 @@ header.site-head.des5-editorial-head {
             width: calc(100vw - 1rem);
         }
 
-        #primary-menu .head-menu ul {
+        #primary-menu .head-menu > ul {
             top: calc(100% + 0.3rem);
-            width: min(11.5rem, calc(100vw - 0.75rem));
-            padding: 0.15rem 0.4rem;
+            max-width: calc(100vw - 0.75rem);
+            padding: 0.1rem 0.18rem;
 
             a {
-                min-height: 32px;
-                font-size: 0.7rem;
+                min-height: 27px;
+                padding: 0.2rem 0.48rem 0.2rem 0.32rem;
+                font-size: 0.68rem;
             }
         }
     }
@@ -419,13 +439,14 @@ header.site-head.des5-editorial-head {
         }
 
         .head-logo a {
-            font-size: 1.35rem;
+            font-size: 1.2rem;
         }
 
         .head-search-submit,
         .head-search-btn,
         .head-btn {
-            min-width: 44px;
+            min-width: 36px;
+            min-height: 36px;
         }
     }
 }

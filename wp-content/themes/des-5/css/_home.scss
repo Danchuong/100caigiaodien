@@ -10,7 +10,7 @@ $des5-muted: #6f6f6f;
     color: $des5-page-ink;
     background: $des5-paper;
     overflow-x: hidden;
-    padding-bottom: 3rem;
+    padding-bottom: 2rem;
 
     a {
         color: inherit;
@@ -34,43 +34,21 @@ $des5-muted: #6f6f6f;
     h2,
     h3,
     p {
-        overflow-wrap: anywhere;
+        overflow-wrap: break-word;
     }
-}
+
+    section {
+        margin-bottom: 0;
+    }
 
 .des5-front-page {
-    padding: 1.65rem 0 2.4rem;
-}
-
-.des5-issue-rule {
-    min-height: 38px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 1rem;
-    margin-bottom: 1.15rem;
-    padding: 0.4rem 0;
-    border-top: 2px solid $des5-ink;
-    border-bottom: 1px solid $des5-rule;
-    font-family: "Courier New", Courier, monospace;
-    font-size: 0.78rem;
-    line-height: 1.2;
-    text-transform: uppercase;
-
-    a {
-        min-height: 32px;
-        display: inline-flex;
-        align-items: center;
-        font-family: Arial, Helvetica, sans-serif;
-        font-weight: 700;
-        text-transform: uppercase;
-    }
+    padding: 1.15rem 0 1.45rem;
 }
 
 .des5-front-grid {
     display: grid;
-    grid-template-columns: minmax(0, 1fr) minmax(16rem, 0.42fr);
-    gap: 1.5rem;
+    grid-template-columns: minmax(0, 1fr) minmax(15.5rem, 0.4fr);
+    gap: 1.35rem;
     align-items: start;
 }
 
@@ -86,11 +64,11 @@ $des5-muted: #6f6f6f;
 
 .des5-lead-media {
     display: block;
-    margin-bottom: 0.85rem;
+    margin: 0;
 
     img {
-        aspect-ratio: 16 / 9;
-        border-bottom: 2px solid $des5-ink;
+        aspect-ratio: 16 / 10;
+        border-bottom: 1px solid $des5-ink;
     }
 }
 
@@ -99,14 +77,14 @@ $des5-muted: #6f6f6f;
 .des5-ribbon,
 .des5-section-head p {
     font-family: "Courier New", Courier, monospace;
-    font-size: 0.76rem;
+    font-size: 0.74rem;
     line-height: 1.25;
     letter-spacing: 0;
     text-transform: uppercase;
 }
 
 .des5-kicker {
-    margin-bottom: 0.35rem;
+    margin-bottom: 0.38rem;
     color: $des5-ink;
 }
 
@@ -115,22 +93,35 @@ $des5-muted: #6f6f6f;
 }
 
 .des5-lead-story {
+    display: grid;
+    grid-template-columns: minmax(0, 0.52fr) minmax(14rem, 0.48fr);
+    column-gap: 1.25rem;
+    align-items: start;
+
+    .des5-lead-media {
+        grid-row: 1 / span 4;
+    }
+
+    > * {
+        min-width: 0;
+    }
+
     h1 {
-        margin: 0 0 0.55rem;
+        margin: 0 0 0.58rem;
         color: $des5-page-ink;
         font-family: Georgia, "Times New Roman", serif;
-        font-size: 3.15rem;
+        font-size: 2.25rem;
         font-weight: 400;
-        line-height: 1.05;
+        line-height: 1.1;
         letter-spacing: 0;
     }
 
     p {
         max-width: 34rem;
-        margin: 0 0 0.65rem;
+        margin: 0 0 0.55rem;
         font-family: Georgia, "Times New Roman", serif;
-        font-size: 0.96rem;
-        line-height: 1.45;
+        font-size: 0.95rem;
+        line-height: 1.48;
     }
 }
 
@@ -148,7 +139,7 @@ $des5-muted: #6f6f6f;
 .des5-front-stack {
     display: flex;
     flex-direction: column;
-    gap: 1.1rem;
+    gap: 1rem;
 }
 
 .des5-front-stack-block {
@@ -157,35 +148,35 @@ $des5-muted: #6f6f6f;
 
 .des5-wire-item {
     display: grid;
-    grid-template-columns: 2.6rem minmax(0, 1fr);
-    gap: 0.65rem;
-    padding: 0.82rem 0;
+    grid-template-columns: 2.2rem minmax(0, 1fr);
+    gap: 0.72rem;
+    padding: 0.72rem 0;
     border-bottom: 1px solid $des5-rule;
 
     > span {
         color: $des5-ink;
         font-family: Georgia, "Times New Roman", serif;
-        font-size: 1.95rem;
+        font-size: 1.55rem;
         line-height: 0.9;
     }
 
     h2 {
         margin: 0;
         font-family: Georgia, "Times New Roman", serif;
-        font-size: 1.22rem;
+        font-size: 1.04rem;
         font-weight: 400;
-        line-height: 1.14;
+        line-height: 1.18;
         letter-spacing: 0;
-        @include line-truncate(3, 1.4rem);
+        @include line-truncate(3, 1.23rem);
     }
 }
 
 .des5-game-rail-item {
     display: grid;
-    grid-template-columns: 4.8rem minmax(0, 1fr);
-    gap: 0.7rem;
+    grid-template-columns: 4.35rem minmax(0, 1fr);
+    gap: 0.72rem;
     align-items: start;
-    padding: 0.82rem 0;
+    padding: 0.72rem 0;
     border-bottom: 1px solid $des5-rule;
 
     img {
@@ -194,37 +185,37 @@ $des5-muted: #6f6f6f;
 
     h2 {
         margin: 0;
-        font-size: 0.98rem;
+        font-size: 0.94rem;
         font-weight: 700;
-        line-height: 1.18;
+        line-height: 1.22;
         letter-spacing: 0;
-        @include line-truncate(3, 1.16rem);
+        @include line-truncate(3, 1.15rem);
     }
 }
 
 .des5-home-section {
-    padding: 2.35rem 0;
-    border-top: 1px solid $des5-rule;
+    padding: 1.3rem 0 1.45rem;
+    border-top: 0;
 }
 
 .des5-section-head {
     display: grid;
     grid-template-columns: auto minmax(0, 1fr) auto;
-    gap: 0.85rem;
+    gap: 0.8rem;
     align-items: end;
-    margin-bottom: 1rem;
-    padding-top: 0.6rem;
-    border-top: 2px solid $des5-ink;
+    margin-bottom: 0.78rem;
+    padding-top: 0.48rem;
+    border-top: 1px solid $des5-ink;
 
     p {
-        margin: 0 0 0.2rem;
+        margin: 0 0 0.16rem;
         color: $des5-muted;
     }
 
     h2 {
         margin: 0;
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 1.2rem;
+        font-size: 1.08rem;
         font-weight: 800;
         line-height: 1.1;
         letter-spacing: 0;
@@ -246,20 +237,20 @@ $des5-muted: #6f6f6f;
 }
 
 .des5-ledger-list {
-    border-top: 1px solid $des5-strong-rule;
+    border-top: 0;
 }
 
 .des5-ledger-item {
     display: grid;
-    grid-template-columns: 3.8rem minmax(0, 1fr);
-    gap: 1rem;
-    padding: 0.95rem 0;
+    grid-template-columns: 2.45rem minmax(0, 1fr);
+    gap: 0.88rem;
+    padding: 0.78rem 0;
     border-bottom: 1px solid $des5-rule;
 
     > span {
         color: $des5-ink;
         font-family: Georgia, "Times New Roman", serif;
-        font-size: 2.2rem;
+        font-size: 1.55rem;
         line-height: 0.9;
     }
 }
@@ -268,23 +259,23 @@ $des5-muted: #6f6f6f;
     min-width: 0;
 
     h3 {
-        margin: 0 0 0.45rem;
+        margin: 0 0 0.34rem;
         font-family: Georgia, "Times New Roman", serif;
-        font-size: 1.75rem;
+        font-size: 1.34rem;
         font-weight: 400;
-        line-height: 1.1;
+        line-height: 1.13;
         letter-spacing: 0;
-        @include line-truncate(3, 1.93rem);
+        @include line-truncate(3, 1.51rem);
     }
 
     p {
-        max-width: 42rem;
-        margin: 0 0 0.6rem;
+        max-width: 38rem;
+        margin: 0 0 0.42rem;
         color: $des5-page-ink;
         font-family: Georgia, "Times New Roman", serif;
-        font-size: 0.96rem;
-        line-height: 1.45;
-        @include line-truncate(2, 1.4rem);
+        font-size: 0.9rem;
+        line-height: 1.42;
+        @include line-truncate(2, 1.28rem);
     }
 }
 
@@ -292,12 +283,12 @@ $des5-muted: #6f6f6f;
     display: grid;
     grid-template-columns: repeat(4, minmax(0, 1fr));
     gap: 1rem;
-    padding-top: 0.9rem;
-    border-top: 1px solid $des5-strong-rule;
+    padding-top: 0;
+    border-top: 0;
 }
 
 .des5-review-tile {
-    padding-bottom: 0.95rem;
+    padding-bottom: 0.78rem;
     border-bottom: 1px solid $des5-rule;
 
     &.is-featured {
@@ -308,31 +299,31 @@ $des5-muted: #6f6f6f;
     h3 {
         margin: 0;
         font-family: Georgia, "Times New Roman", serif;
-        font-size: 1.16rem;
+        font-size: 1.04rem;
         font-weight: 400;
-        line-height: 1.15;
+        line-height: 1.18;
         letter-spacing: 0;
-        @include line-truncate(3, 1.34rem);
+        @include line-truncate(3, 1.23rem);
     }
 
     p {
-        margin: 0.55rem 0 0;
+        margin: 0.42rem 0 0;
         font-family: Georgia, "Times New Roman", serif;
-        font-size: 0.96rem;
-        line-height: 1.45;
-        @include line-truncate(2, 1.4rem);
+        font-size: 0.88rem;
+        line-height: 1.4;
+        @include line-truncate(2, 1.23rem);
     }
 }
 
 .des5-review-tile.is-featured h3 {
-    font-size: 1.95rem;
-    line-height: 1.08;
-    @include line-truncate(3, 2.1rem);
+    font-size: 1.62rem;
+    line-height: 1.12;
+    @include line-truncate(3, 1.81rem);
 }
 
 .des5-review-media {
     display: block;
-    margin-bottom: 0.7rem;
+    margin-bottom: 0.58rem;
 
     img {
         aspect-ratio: 4 / 3;
@@ -346,25 +337,25 @@ $des5-muted: #6f6f6f;
 .des5-game-grid {
     display: grid;
     grid-template-columns: repeat(5, minmax(0, 1fr));
-    gap: 1rem;
-    padding-top: 0.9rem;
-    border-top: 1px solid $des5-strong-rule;
+    gap: 0.95rem;
+    padding-top: 0;
+    border-top: 0;
 }
 
 .des5-game-tile {
     display: flex;
     flex-direction: column;
-    gap: 0.65rem;
-    padding-bottom: 0.95rem;
+    gap: 0.58rem;
+    padding-bottom: 0.78rem;
     border-bottom: 1px solid $des5-rule;
 
     h3 {
         margin: 0;
-        font-size: 0.95rem;
+        font-size: 0.93rem;
         font-weight: 800;
-        line-height: 1.16;
+        line-height: 1.2;
         letter-spacing: 0;
-        @include line-truncate(3, 1.14rem);
+        @include line-truncate(3, 1.12rem);
     }
 }
 
@@ -374,11 +365,11 @@ $des5-muted: #6f6f6f;
 
 @media (max-width: 1180px) {
     .des5-front-grid {
-        grid-template-columns: minmax(0, 1fr) minmax(15rem, 0.46fr);
+        grid-template-columns: minmax(0, 1fr) minmax(14.5rem, 0.4fr);
     }
 
     .des5-lead-story h1 {
-        font-size: 2.75rem;
+        font-size: 1.95rem;
     }
 
     .des5-game-grid {
@@ -388,20 +379,25 @@ $des5-muted: #6f6f6f;
 
 @media (max-width: 860px) {
     .des5-front-page {
-        padding: 1.35rem 0 2rem;
+        padding: 1rem 0 1.25rem;
     }
 
     .des5-front-grid {
         grid-template-columns: 1fr;
     }
 
+    .des5-lead-story {
+        grid-template-columns: minmax(0, 0.48fr) minmax(12rem, 0.52fr);
+        column-gap: 1rem;
+    }
+
     .des5-lead-story h1 {
-        font-size: 2.15rem;
-        line-height: 1.06;
+        font-size: 1.72rem;
+        line-height: 1.12;
     }
 
     .des5-home-section {
-        padding: 1.95rem 0;
+        padding: 1.1rem 0 1.2rem;
     }
 
     .des5-review-grid {
@@ -423,7 +419,7 @@ $des5-muted: #6f6f6f;
     .des5-section-head {
         grid-template-columns: 1fr;
         align-items: start;
-        gap: 0.35rem;
+        gap: 0.45rem;
     }
 
     .des5-section-head a {
@@ -433,22 +429,33 @@ $des5-muted: #6f6f6f;
 }
 
 @media (max-width: 620px) {
-    .des5-home-page {
-        padding-bottom: 2rem;
+    & {
+        padding-bottom: 1.6rem;
     }
 
-    .des5-issue-rule,
     .des5-section-head {
         grid-template-columns: 1fr;
     }
 
-    .des5-issue-rule {
-        align-items: flex-start;
-        flex-direction: column;
+    .des5-front-page {
+        padding-top: 0.8rem;
+    }
+
+    .des5-lead-story {
+        grid-template-columns: 1fr;
+        row-gap: 0.75rem;
+    }
+
+    .des5-lead-story .des5-lead-media {
+        grid-row: auto;
+    }
+
+    .des5-lead-media img {
+        aspect-ratio: 16 / 9;
     }
 
     .des5-section-head {
-        gap: 0.35rem;
+        gap: 0.45rem;
     }
 
     .des5-section-head a {
@@ -457,18 +464,19 @@ $des5-muted: #6f6f6f;
 
     .des5-ledger-item {
         grid-template-columns: 2.8rem minmax(0, 1fr);
-        gap: 0.7rem;
+        gap: 0.75rem;
+        padding: 0.82rem 0;
     }
 
     .des5-ledger-item > span,
     .des5-wire-item > span {
-        font-size: 1.75rem;
+        font-size: 1.5rem;
     }
 
     .des5-ledger-copy h3,
     .des5-review-tile.is-featured h3 {
-        font-size: 1.45rem;
-        line-height: 1.12;
+        font-size: 1.34rem;
+        line-height: 1.14;
     }
 
     .des5-review-grid,
@@ -476,24 +484,66 @@ $des5-muted: #6f6f6f;
         grid-template-columns: 1fr;
     }
 
+    .des5-review-tile:not(.is-featured),
+    .des5-game-tile {
+        display: grid;
+        grid-template-columns: 4.75rem minmax(0, 1fr);
+        gap: 0.32rem 0.75rem;
+        align-items: start;
+        padding-bottom: 0.82rem;
+    }
+
+    .des5-review-tile:not(.is-featured) .des5-review-media,
+    .des5-game-media {
+        grid-column: 1;
+        grid-row: 1 / span 2;
+        margin: 0;
+    }
+
+    .des5-review-tile:not(.is-featured) .des5-review-media img,
+    .des5-game-media img {
+        aspect-ratio: 1 / 1;
+    }
+
+    .des5-review-tile:not(.is-featured) .des5-kicker,
+    .des5-review-tile:not(.is-featured) h3,
+    .des5-game-tile > div {
+        grid-column: 2;
+        min-width: 0;
+    }
+
+    .des5-review-tile:not(.is-featured) h3,
+    .des5-game-tile h3 {
+        font-size: 1rem;
+        line-height: 1.24;
+        @include line-truncate(4, 1.24rem);
+    }
+
 }
 
 @media (max-width: 380px) {
     .des5-lead-story h1 {
-        font-size: 1.85rem;
+        font-size: 1.5rem;
     }
 
     .des5-wire-item {
-        grid-template-columns: 2.35rem minmax(0, 1fr);
-        gap: 0.55rem;
+        grid-template-columns: 2.15rem minmax(0, 1fr);
+        gap: 0.58rem;
     }
 
     .des5-game-rail-item {
-        grid-template-columns: 4rem minmax(0, 1fr);
-        gap: 0.55rem;
+        grid-template-columns: 3.8rem minmax(0, 1fr);
+        gap: 0.58rem;
+    }
+
+    .des5-review-tile:not(.is-featured),
+    .des5-game-tile {
+        grid-template-columns: 4.25rem minmax(0, 1fr);
+        gap: 0.3rem 0.62rem;
     }
 
     .des5-ledger-item {
-        grid-template-columns: 2.35rem minmax(0, 1fr);
+        grid-template-columns: 2.15rem minmax(0, 1fr);
     }
+}
 }

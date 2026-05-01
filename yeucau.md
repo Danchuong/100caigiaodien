@@ -164,6 +164,8 @@ Search phải là chức năng thật:
 
 Desktop header phải align center theo chiều dọc giữa logo, nav, search và action buttons.
 
+Logo/header brand tuyệt đối không được xuống dòng ở bất kỳ width nào. Nếu thiếu chỗ, phải xử lý bằng layout responsive: giữ logo `white-space: nowrap`, giới hạn max-width, giảm font bằng breakpoint hoặc truncate có kiểm soát. Không để logo wrap thành 2 dòng vì sẽ làm header cao bất thường và phá nhịp mobile.
+
 Mobile header nên tối giản:
 
 ```text
@@ -362,9 +364,13 @@ Khi component đã sai nhiều, rewrite nguyên block component sạch theo cont
 
 Khi feedback chỉ yêu cầu gọn/cân lại layout, không tự thêm cụm nội dung hoặc component mới. Chỉ chỉnh typography, spacing, grid/card và mobile behavior trong phạm vi đang lỗi.
 
+Không hiểu feedback "dư space" thành ép mọi thứ nhỏ/chật. Phải phân biệt khoảng trắng lỗi như global margin, `min-width` cố định, padding popup quá lớn với khoảng thở cần thiết cho đọc. Nếu layout bị chật, nới lại theo cụm bằng `gap`, `line-height`, section padding và card padding có kiểm soát; nếu popup/drawer bị dư, sửa width/padding của chính panel, không giảm toàn bộ homepage.
+
 ## 8. Background và above-fold
 
 Trước khi code mỗi style phải chọn rõ hướng background/above-fold.
+
+Nếu header đã có top strip, masthead, border hoặc rule line rõ, above-fold không được thêm một utility rule phụ ngay sát dưới header nếu không có vai trò thật sự rõ. Tránh nhiều line ngang liên tiếp ở first viewport vì sẽ tạo cảm giác header bị lặp hoặc bố cục bị vụn. Các label/CTA kiểu `Front Page / Review Archive` chỉ dùng khi giúp hierarchy; nếu không thì bỏ, hoặc đưa CTA vào section liên quan như Reviews. Above-fold nên bắt đầu bằng nội dung chính, không mở đầu bằng một mini-header trùng vai trò với header.
 
 ### Hướng content-photo giống source gốc `h5game`
 

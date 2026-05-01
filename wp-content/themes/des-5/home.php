@@ -97,11 +97,6 @@ $lead_blog    = ! empty( $blog_posts ) ? $blog_posts[0] : null;
 <div class="des5-home-page">
     <section class="des5-front-page" aria-label="Front page">
         <div class="container">
-            <div class="des5-issue-rule">
-                <span>Front Page</span>
-                <a href="<?php echo $review_link; ?>">Review Archive</a>
-            </div>
-
             <div class="des5-front-grid">
                 <?php if ( $lead_blog ) : ?>
                     <article class="des5-lead-story">
