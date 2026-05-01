@@ -321,32 +321,70 @@
 
 .des3-home-page .des3-review-list {
     display: grid;
-    gap: 0.82rem;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 0.95rem;
+    grid-template-columns: repeat(6, minmax(0, 1fr));
 }
 
 .des3-home-page .des3-review-card > a {
-    align-items: center;
+    align-content: start;
+    background: transparent;
+    border: 0;
+    box-shadow: none;
     display: grid;
-    gap: 0.75rem;
+    gap: 0.58rem;
     grid-template-columns: minmax(0, 1fr);
-    padding: 0.72rem;
+    min-height: auto;
+    overflow: visible;
+    padding: 0;
+    text-align: center;
 }
 
 .des3-home-page .des3-review-card.has-thumb > a {
-    grid-template-columns: 4.6rem minmax(0, 1fr);
+    grid-template-columns: minmax(0, 1fr);
 }
 
 .des3-home-page .des3-review-media {
-    border-radius: 0.4rem;
+    aspect-ratio: 1 / 1;
+    background: #ffffff;
+    border: 1px solid rgba(7, 17, 31, 0.1);
+    border-radius: 0.65rem;
+    box-shadow: 0 14px 34px rgba(7, 17, 31, 0.08);
+    isolation: isolate;
+    position: relative;
 }
 
-.des3-home-page .des3-review-copy span {
-    color: #07111f;
+.des3-home-page .des3-review-media img {
+    height: 100%;
+    transition: transform 180ms ease;
+}
+
+.des3-home-page .des3-review-card > a:hover .des3-review-media img {
+    transform: scale(1.04);
+}
+
+.des3-home-page .des3-review-media-fallback {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.des3-home-page .des3-review-media-fallback span {
+    align-items: center;
+    background: #d43c2f;
+    border-radius: 50%;
+    color: #ffffff;
+    display: inline-flex;
+    font-family: "Poppins", Arial, sans-serif;
+    font-size: 1.15rem;
+    font-weight: 900;
+    height: 2.8rem;
+    justify-content: center;
+    width: 2.8rem;
 }
 
 .des3-home-page .des3-review-copy strong {
-    font-size: 0.98rem;
+    font-size: 0.88rem;
+    line-height: 1.2;
     -webkit-line-clamp: 2;
 }
 
@@ -377,7 +415,7 @@
     }
 
     .des3-home-page .des3-review-list {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
+        grid-template-columns: repeat(3, minmax(0, 1fr));
     }
 
     .des3-home-page .des3-game-grid {
@@ -432,7 +470,7 @@
     }
 
     .des3-home-page .des3-review-list {
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 
     .des3-home-page .des3-game-grid {
@@ -453,8 +491,8 @@
         padding: 0.62rem;
     }
 
-    .des3-home-page .des3-review-card.has-thumb > a {
-        grid-template-columns: 4.25rem minmax(0, 1fr);
+    .des3-home-page .des3-review-list {
+        gap: 0.7rem;
     }
 
     .des3-home-page .des3-game-grid {

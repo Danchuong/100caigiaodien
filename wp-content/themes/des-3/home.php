@@ -171,9 +171,12 @@ $shown_game_ids   = array();
 									<div class="des3-review-media">
 										<?php the_post_thumbnail( 'thumbnail', array( 'loading' => 'lazy' ) ); ?>
 									</div>
+								<?php else : ?>
+									<div class="des3-review-media des3-review-media-fallback" aria-hidden="true">
+										<span><?php echo esc_html( strtoupper( substr( wp_strip_all_tags( get_the_title() ), 0, 1 ) ) ); ?></span>
+									</div>
 								<?php endif; ?>
 								<div class="des3-review-copy">
-									<span>Review</span>
 									<strong><?php echo esc_html( get_the_title() ); ?></strong>
 								</div>
 							</a>
