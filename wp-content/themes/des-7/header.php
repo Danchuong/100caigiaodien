@@ -7,6 +7,20 @@
 
 $des7_review_url = home_url( '/reviews/' );
 $des7_key        = isset( $_GET['key'] ) ? sanitize_text_field( wp_unslash( $_GET['key'] ) ) : '';
+
+$des7_nav_title_filter = static function ( $items ) {
+	foreach ( $items as $item ) {
+		if ( 'HTML5 Games' === $item->title ) {
+			$item->title = 'Games';
+		}
+
+		if ( in_array( $item->title, array( 'Reviews Games', 'Review Games' ), true ) ) {
+			$item->title = 'Reviews';
+		}
+	}
+
+	return $items;
+};
 ?>
 <!doctype html>
 <html <?php language_attributes(); ?>>
@@ -35,20 +49,23 @@ $des7_key        = isset( $_GET['key'] ) ? sanitize_text_field( wp_unslash( $_GE
 
 				<nav id="site-navigation" class="head-menu" aria-label="<?php esc_attr_e( 'Primary navigation', 'h5game' ); ?>">
 					<?php
+					add_filter( 'wp_nav_menu_objects', $des7_nav_title_filter );
 					wp_nav_menu(
 						array(
 							'theme_location' => 'main-menu',
+							'menu_id'        => 'main-menu',
 							'menu_class'     => 'head-menu-list',
 							'container'      => false,
 							'fallback_cb'    => false,
 							'depth'          => 1,
 						)
 					);
+					remove_filter( 'wp_nav_menu_objects', $des7_nav_title_filter );
 					?>
 				</nav>
 
 				<div class="head-right">
-					<form id="des7-site-search" class="head-search" action="<?php echo esc_url( $des7_review_url ); ?>" method="get">
+					<form id="des7-site-search" class="head-search" action="<?php echo esc_url( $des7_review_url ); ?>" method="get" role="search">
 						<label class="screen-reader-text" for="des7-search-key"><?php esc_html_e( 'Search reviews', 'h5game' ); ?></label>
 						<input id="des7-search-key" type="search" name="key" value="<?php echo esc_attr( $des7_key ); ?>" placeholder="<?php esc_attr_e( 'Search reviews', 'h5game' ); ?>">
 						<button class="head-search-submit" type="submit" aria-label="<?php esc_attr_e( 'Submit search', 'h5game' ); ?>">
@@ -59,7 +76,7 @@ $des7_key        = isset( $_GET['key'] ) ? sanitize_text_field( wp_unslash( $_GE
 					<button class="head-search-btn" type="button" aria-controls="des7-site-search" aria-expanded="false" aria-label="<?php esc_attr_e( 'Open search', 'h5game' ); ?>">
 						<span class="icon-search" aria-hidden="true"><span></span></span>
 					</button>
-					<button class="head-btn" type="button" aria-controls="site-navigation" aria-expanded="false" aria-label="<?php esc_attr_e( 'Open menu', 'h5game' ); ?>">
+					<button class="head-btn" type="button" aria-controls="main-menu" aria-expanded="false" aria-label="<?php esc_attr_e( 'Open menu', 'h5game' ); ?>">
 						<span class="icon-menu" aria-hidden="true"><span></span></span>
 					</button>
 				</div>

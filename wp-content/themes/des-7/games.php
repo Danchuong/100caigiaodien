@@ -11,7 +11,7 @@ get_header();
                 <a href="<?php echo home_url(); ?>">Home</a>
             </li>
             <li class="breadcrumb-item">
-                <a href="<?php echo esc_url( home_url( '/html5-games/' ) ); ?>">HTML5 Games</a>
+                <a href="<?php echo esc_url( home_url( '/html5-games/' ) ); ?>">Games</a>
             </li>
             <li class="breadcrumb-item active">
                 <?php the_title(); ?>

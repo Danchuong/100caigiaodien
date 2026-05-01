@@ -20,7 +20,7 @@ $des7_desc       = function_exists( 'get_field' ) && get_field( 'description', '
 						<a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="foot-logo"><?php echo esc_html( get_bloginfo( 'name' ) ); ?></a>
 						<p><?php echo esc_html( $des7_desc ); ?></p>
 					</div>
-					<form class="foot-search-form" action="<?php echo esc_url( $des7_review_url ); ?>" method="get">
+					<form class="foot-search-form" action="<?php echo esc_url( $des7_review_url ); ?>" method="get" role="search">
 						<label class="screen-reader-text" for="des7-footer-key"><?php esc_html_e( 'Search reviews', 'h5game' ); ?></label>
 						<input id="des7-footer-key" type="search" name="key" value="<?php echo esc_attr( $des7_key ); ?>" placeholder="<?php esc_attr_e( 'Search reviews', 'h5game' ); ?>">
 						<button type="submit"><?php esc_html_e( 'Search', 'h5game' ); ?></button>
@@ -89,6 +89,37 @@ $des7_desc       = function_exists( 'get_field' ) && get_field( 'description', '
 									<li>
 										<a href="<?php echo esc_url( get_permalink() ); ?>">
 											<span><?php echo esc_html( get_the_date( 'M j' ) ); ?></span>
+											<?php echo esc_html( get_the_title() ); ?>
+										</a>
+									</li>
+									<?php
+								endwhile;
+								wp_reset_postdata();
+							endif;
+							?>
+						</ul>
+					</div>
+
+					<div class="foot-column foot-column-stream">
+						<h3><?php esc_html_e( 'Game Shelf', 'h5game' ); ?></h3>
+						<ul>
+							<?php
+							$des7_footer_games = new WP_Query(
+								array(
+									'post_type'           => 'post',
+									'posts_per_page'      => 3,
+									'post_status'         => 'publish',
+									'ignore_sticky_posts' => true,
+								)
+							);
+
+							if ( $des7_footer_games->have_posts() ) :
+								while ( $des7_footer_games->have_posts() ) :
+									$des7_footer_games->the_post();
+									?>
+									<li>
+										<a href="<?php echo esc_url( get_permalink() ); ?>">
+											<span><?php esc_html_e( 'Game', 'h5game' ); ?></span>
 											<?php echo esc_html( get_the_title() ); ?>
 										</a>
 									</li>

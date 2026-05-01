@@ -9,7 +9,7 @@
                 <a href="<?php echo home_url(); ?>">Home</a>
             </li>
             <li class="breadcrumb-item">
-                <a href="<?php echo home_url('/review'); ?>">HTML5 Games</a>
+                <a href="<?php echo esc_url( home_url( '/reviews/' ) ); ?>">Reviews</a>
             </li>
             <li class="breadcrumb-item active">
                 <?php the_title(); ?>
@@ -62,7 +62,7 @@ $thumb = get_the_post_thumbnail_url(get_the_ID(), 'large');
                 <!-- CTA -->
                 <a class="btn btn-lg primary-btn glow-on-hover adsver" href="<?php echo esc_url( home_url( '/html5-games/' ) ); ?>">
                     <div>🔒 UNLOCK BONUS</div>
-                    <div class="primary-btn-sub">Watch a rewarded ad to discover curated HTML5 games</div>
+                    <div class="primary-btn-sub">Watch a rewarded ad to discover curated games</div>
                 </a>
             </div>
 

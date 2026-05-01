@@ -10,7 +10,7 @@ get_header();
 $des7_blog_url   = home_url( '/blogs/' );
 $des7_review_url = home_url( '/reviews/' );
 $des7_game_url   = home_url( '/html5-games/' );
-$des7_site_desc  = get_bloginfo( 'description' ) ? get_bloginfo( 'description' ) : __( 'Game stories, review picks, and playable discoveries in one editorial feed.', 'h5game' );
+$des7_site_desc  = __( 'A loud editorial stream of game stories, review picks, and playable discoveries.', 'h5game' );
 
 $des7_blog_query = new WP_Query(
 	array(
@@ -104,15 +104,10 @@ $des7_cover_game   = ! empty( $des7_game_posts ) ? $des7_game_posts[0] : null;
 		<div class="des7-home-container">
 			<div class="des7-masthead">
 				<div class="des7-masthead-copy">
-					<span class="des7-kicker"><?php esc_html_e( 'Games / Reviews / Blogs', 'h5game' ); ?></span>
+					<span class="des7-kicker"><?php esc_html_e( 'StoryStream', 'h5game' ); ?></span>
 					<h1><?php echo esc_html( get_bloginfo( 'name' ) ); ?></h1>
 					<p><?php echo esc_html( $des7_site_desc ); ?></p>
 				</div>
-				<nav class="des7-issue-links" aria-label="<?php esc_attr_e( 'Browse sections', 'h5game' ); ?>">
-					<a href="<?php echo esc_url( $des7_blog_url ); ?>"><?php esc_html_e( 'Blogs', 'h5game' ); ?></a>
-					<a href="<?php echo esc_url( $des7_review_url ); ?>"><?php esc_html_e( 'Reviews', 'h5game' ); ?></a>
-					<a href="<?php echo esc_url( $des7_game_url ); ?>"><?php esc_html_e( 'Games', 'h5game' ); ?></a>
-				</nav>
 			</div>
 
 			<?php if ( $des7_cover_blog || $des7_cover_review || $des7_cover_game ) : ?>
