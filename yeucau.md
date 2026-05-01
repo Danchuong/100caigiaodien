@@ -146,7 +146,24 @@ Không được duplicate navigation:
 - Không để desktop dùng một menu, mobile hard-code một menu khác.
 - Không thêm dải phụ nhìn giống menu nhưng chỉ là text trang trí.
 
-Header có thể khác giữa các style bằng bố cục, số tầng, vị trí logo, search, sticky behavior, density hoặc mobile behavior. Sự khác biệt không được đến từ việc nhân đôi menu.
+Header có thể khác giữa các style bằng anatomy, bố cục, số tầng, vị trí logo, search, sticky behavior, density, content thật hoặc mobile behavior. Sự khác biệt không được đến từ việc nhân đôi menu.
+
+Khách muốn header của các đơn sau khác biệt thật, nhưng vẫn an toàn cho mọi page. Vì vậy:
+
+- Ưu tiên base màu trắng, đen hoặc navy để không làm vỡ cảm giác của blog detail, review detail, game detail, archive và search.
+- Có thể dùng accent ít như đỏ, vàng, cyan hoặc xanh lá nếu hợp concept, nhưng không biến header thành palette quá lạ.
+- Không tính là khác biệt nếu chỉ đổi màu, shadow, border radius hoặc font mà vẫn giữ cùng anatomy.
+- Có thể đổi nội dung header nếu là nội dung thật: latest link, category rail, search scope, archive CTA, issue label, metadata gọn.
+- Không thêm nội dung giả hoặc dải phụ trùng menu chính.
+
+Các archetype header nên xoay vòng:
+
+- White editorial masthead: logo giữa, menu dưới, search phải.
+- Black compact nav: logo trái, menu giữa, search icon popup phải.
+- Navy utility header: metadata nhỏ, nav chính dưới, mobile drawer float.
+- Search-first header: logo trái, search lớn giữa, menu/action phải.
+- Magazine header: logo lớn, category rail, sticky compact nếu cần.
+- Minimal header: logo/menu/search gọn, nhiều khoảng thở.
 
 Search phải là chức năng thật:
 
@@ -184,6 +201,8 @@ Phải chọn rõ behavior của từng panel:
 
 Footer không được là block generic chỉ đổi màu. Footer phải là phần kết tự nhiên của concept đang dùng.
 
+Khách muốn footer mỗi đơn cũng khác biệt thật nhưng vẫn an toàn global. Ưu tiên base trắng, đen hoặc navy; khác biệt chính đến từ anatomy, content thật, grid/cột, density và mobile behavior, không phải đổi màu mạnh.
+
 Mỗi footer cần có 3 lớp nội dung:
 
 1. **Identity**: logo/title link về home, mô tả ngắn có nghĩa, copyright.
@@ -198,10 +217,16 @@ Ví dụ footer theo concept:
 - Review hub: leaderboard, review archive, critic picks.
 - Portal/magazine: sitemap nhiều cột, latest posts, latest reviews.
 - Roundup/search: CTA tìm review hoặc browse archive.
+- White sitemap footer: nhiều link thật, phân nhóm rõ.
+- Black magazine footer: brand lớn, latest content, archive links.
+- Navy editorial footer: issue/category links, latest reviews, copyright gọn.
+- Compact legal footer: brand nhỏ, nav chính, legal/copyright.
+- Directory footer: Games, Reviews, Blogs, popular/latest thật.
 
 Không được:
 
 - Dùng cùng một footer cho nhiều style rồi chỉ đổi màu.
+- Dùng cùng anatomy footer cho nhiều style rồi chỉ thay text rất nhẹ.
 - Có social link nếu không có URL thật.
 - Có newsletter nếu không có chức năng đăng ký thật.
 - Có margin âm làm footer kéo ngược lên nội dung.
@@ -414,6 +439,15 @@ Một style mới phải khác rõ ít nhất 4/6 phần lớn:
 - Card/grid pattern.
 - Footer.
 - Mobile signature.
+
+Trong đó header và footer cũng cần fingerprint riêng cho từng đơn:
+
+```text
+Header = base color / logo position / menu model / search model / utility content / mobile behavior
+Footer = base color / column model / content groups / CTA or archive model / density / mobile stack
+```
+
+Khách prefer header/footer dùng trắng, đen hoặc navy để an toàn toàn site. Vì vậy không cần ép màu quá lạ để tạo khác biệt. Cần tạo khác biệt bằng cấu trúc, nội dung thật, interaction và responsive behavior.
 
 Với batch nhiều mẫu, nên kiểm tra thêm 12 chiều:
 
