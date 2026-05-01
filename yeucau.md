@@ -292,6 +292,14 @@ Khu vực đầu trang phải có vai trò rõ, ví dụ:
 
 Với ảnh có text overlay, ưu tiên chỉ hiển thị category/tag và title. Bỏ excerpt nếu title dài hoặc chữ khó đọc.
 
+Khi dùng nội dung random, phải giả định title blog/review/game có thể rất dài. Không thiết kế một module ngang ép 3 nhóm `Blogs / Reviews / Games` vào các cột hẹp nếu title là thành phần chính, vì layout sẽ dễ phô hoặc vỡ khi dữ liệu đổi. Nếu cần hiển thị đủ nhiều nội dung, ưu tiên:
+
+- Tách blog, review và game thành section riêng.
+- Blog dài nên dùng layout dọc, feature + list, hoặc news feed rộng.
+- Review/game nên dùng list/card compact, chỉ giữ title và metadata thật cần thiết.
+- Dùng `min-width: 0`, `overflow-wrap`, `line-clamp` hợp lý, nhưng không dùng giảm font như cách sửa chính cho layout sai.
+- Muốn home dài hơn thì thêm section có nhịp đọc rõ, không nhồi thêm cột ngang hẹp.
+
 ## 9. Nội dung thật, label thật
 
 Mọi thứ người dùng thấy phải có ý nghĩa hoặc có hành động thật.
@@ -353,6 +361,8 @@ Các lỗi cần tránh:
 - Header/footer bị sửa global chỉ để vá lỗi riêng homepage.
 
 Khi component đã sai nhiều, rewrite nguyên block component sạch theo contract class thay vì vá chồng nhiều rule nhỏ.
+
+CSS của home phải được cô lập theo wrapper riêng của style, ví dụ `.des3-home-page`, `.des4-home-page`. Không để CSS home style trực tiếp các class global của theme/plugin như `.pagination`, `.page-link`, `.review-card`, `.container`, `.form-control` hoặc selector chung có thể ảnh hưởng archive/detail page. Nếu feedback liên quan trang ngoài home như `/reviews/`, sửa trong file/component của trang đó, không vá bằng CSS home.
 
 ## 11. Hai trường phái background
 
