@@ -1,234 +1,1826 @@
-# 100 home layout fingerprints
+# 100 home implementation specs
 
-File này là **nguồn chính để quản lý 100 giao diện**. Mỗi dòng là một form/layout riêng cho `des-1` tới `des-100`.
+File này là nguồn chính để giao việc và nghiệm thu 100 theme `des-1` tới `des-100`.
 
-Yêu cầu mới của khách: các giao diện phải khác nhau rõ về cấu trúc, không chỉ đổi màu, ảnh, font hoặc spacing. Vì khách có thể dùng tool quét độ giống nhau, mỗi design phải có một **layout fingerprint** riêng.
+Mục tiêu không phải tạo 100 bản đổi màu. Mỗi theme phải có **home + header global + footer global** khác rõ về cấu trúc, nhưng vẫn an toàn cho các trang ngoài home. Nếu mâu thuẫn với ghi chú cũ, ưu tiên `yeucau.md`, sau đó tới file này.
 
-## Cách dùng
+## Current Truth
 
-1. Chọn một dòng `Todo`.
-2. Đổi trạng thái sang `Doing`.
-3. Clone từ `wp-content/themes/h5game` ra đúng theme, ví dụ `des-2`.
-4. Làm lại `home.php`, `header.php`, `footer.php` và SCSS liên quan theo fingerprint của dòng đó.
-5. Kiểm tra home, header, footer, mobile từ `320px`.
-6. Copy file bàn giao vào `delivery/des-n-home`.
-7. Commit riêng cho design đó.
-8. Đổi trạng thái sang `Done`.
+- `des-1`: `Accepted`.
+- `des-2`: `Accepted`.
+- `des-3` tới `des-10`: `Needs Audit`. Source/folder có tồn tại nhưng chưa được kiểm lại theo rule mới; không xem là ship-ready nếu chưa QA và chưa có zip mới.
+- `des-11` tới `des-100`: `Spec Ready`. Chưa build.
 
-Trạng thái chỉ dùng:
+Không đánh `Shipped` nếu chưa có `delivery/des-N-home.zip` đã test OK. Không đánh `Accepted` nếu khách chưa duyệt.
+
+## Status Model
 
 ```text
-Todo
-Doing
-Done
-Rejected
+Idea            = mới là ý tưởng, chưa đủ spec để giao làm.
+Spec Ready      = fingerprint đủ để giao làm.
+Building        = đang sửa source.
+Built           = code xong và đã build style.css, chưa QA đủ.
+Needs Audit     = từng làm rồi nhưng chưa kiểm theo rule mới.
+QA Failed       = có lỗi layout/data/mobile/global route.
+QA Passed       = pass local checks nhưng chưa zip/ship.
+Delivery Ready  = đã copy delivery và zip test OK.
+Shipped         = đã gửi khách.
+Accepted        = khách duyệt.
+Rework          = khách yêu cầu sửa.
+Rejected        = bỏ style này.
 ```
 
-## Layout fingerprint
+## Definition Of Done
 
-Mỗi design cần ghi nhớ 6 phần chính:
+Một `des-N` chỉ được xem là xong khi:
+
+- Header, home, footer khác rõ ít nhất 8/12 fingerprint dimensions so với style đã ship gần nhất.
+- Header/footer là global, dùng được ở home, blog detail, review detail, game detail, archive và search.
+- Header/footer ưu tiên base trắng, đen hoặc navy; khác biệt đến từ anatomy/content/behavior, không phải màu lạ.
+- Không duplicate nav; primary nav lấy từ `wp_nav_menu(theme_location => 'main-menu')`.
+- Search thật: `method="get"`, input đúng name theo flow hiện tại, submit được.
+- Menu/search mobile không vỡ ở `320px`, `360px`, `390px`.
+- Nếu mobile menu/search là popup/dropdown/floating stack thì phải overlay/floating, không đẩy content xuống.
+- Home có đủ blog/review/game-post thật, card/title có link thật.
+- Không fake score, social, newsletter, poll, deal, price, standings hoặc partner.
+- Không có `href="#"`, `javascript:void`, Lorem, TODO/FIXME.
+- Delivery folder sync đúng source và zip test OK.
+
+## Required Files
+
+Mỗi theme thường chỉ được sửa trong:
 
 ```text
-Header + Hero + Flow/Grid + Card Pattern + Footer + Mobile Signature
+wp-content/themes/des-N/home.php
+wp-content/themes/des-N/header.php
+wp-content/themes/des-N/footer.php
+wp-content/themes/des-N/css/_home.scss
+wp-content/themes/des-N/css/_header.scss
+wp-content/themes/des-N/css/_footer.scss
+wp-content/themes/des-N/style.css
+delivery/des-N-home/
 ```
 
-Một design chỉ được xem là khác đủ khi khác ít nhất 4/6 phần trên so với các design đã làm. Nếu bỏ màu, ảnh và font ra mà wireframe vẫn giống nhau thì chưa đạt.
+Không sửa theme khác, database, plugin, admin hoặc post type nếu không được yêu cầu.
 
-Không tính là khác đủ nếu chỉ:
+## Content Contract
 
-- Đổi màu.
-- Đổi font.
-- Đổi ảnh nền.
-- Đổi bo góc/shadow.
-- Giữ nguyên header, hero, grid, footer rồi sửa text.
+Mỗi home phải dùng đủ 3 nhóm nội dung thật:
 
-## Nguồn tham khảo form
+```text
+Blog:      post_type=blog,   posts_per_page khoảng 3+, random/publish, linked cards.
+Review:   post_type=review, posts_per_page khoảng 5+, random/publish, linked cards.
+Game/Post: post_type=post,  posts_per_page khoảng 5+, random/publish, linked cards.
+```
 
-Chỉ tham khảo cách tổ chức bố cục, không copy code, asset, screenshot, logo hoặc thiết kế độc quyền.
+Nếu style giả lập chức năng như score, standings, poll, deal, price, newsletter hoặc social:
 
-- https://themeforest.net/category/wordpress?term=gaming
-- https://themeforest.net/category/wordpress?term=game+news
-- https://themeforest.net/category/wordpress?term=esports
-- https://themeforest.net/item/gamxo-wordpress-gaming-news-blog-theme/37514171
-- https://themeforest.net/item/gameleon-wordpress-magazine-arcade-theme/3271091
-- https://themeforest.net/item/smartmag-responsive-retina-wordpress-magazine/6652608
-- https://themeforest.net/item/overworld-esports-and-gaming-theme/25622953
-- https://themeforest.net/item/playvibe-esports-gaming-wordpress-theme/57815887
-- https://themeforest.net/item/levelx-gaming-affiliate-wordpress-theme/46555640
-- https://themeforest.net/item/foxiz-wordpress-newspaper-and-magazine/34617430
+- Chỉ dùng nếu có field/action/link thật.
+- Nếu không có, đổi thành label an toàn: `Review Picks`, `Latest Reviews`, `Browse Games`, `Popular Reads`, `Editor's Queue`, `Archive`.
 
-## Checklist 100 layouts
+## Header Archetypes
 
-### 1. Magazine front page
+Base màu ưu tiên: `white`, `black`, `navy`. Accent chỉ dùng ít.
 
-| # | Theme | Layout form | Status | Fingerprint |
-| ---: | --- | --- | --- | --- |
-| 1 | des-1 | Search First Directory | Done | Header search-first; no poster hero; flow search/platform/game rows/review scores/blog notes; directory footer; mobile search + chips + compact lists. |
-| 2 | des-2 | Lead Left With Trending Rail | Done | Masthead header; hero lead left + rail right; flow news first; mixed large/small cards; latest footer; mobile lead then compact rail. |
-| 3 | des-3 | Center Lead Newspaper | Done | Center-logo header; hero centered headline; flow category bands; 3-column newspaper cards; compact legal footer; mobile text-first feed. |
-| 4 | des-4 | Mosaic News Wall | Done | Dense portal header; hero 1 large + 4 small mosaic; flow blogs/reviews/games; image mosaic cards; mega sitemap footer; mobile story stack. |
-| 5 | des-5 | Editorial Issue Cover | Done | Editorial minimal header; hero cover-like vertical feature; flow editor picks then sections; large typography cards; minimal footer; mobile cover then index. |
-| 6 | des-6 | Carousel Above News Desk | Done | Compact news header; hero carousel; flow latest/blog/review/game; grid + headline list; latest posts footer; mobile swipe rail then list. |
-| 7 | des-7 | Split Hero Editor Picks | Done | Split-nav header; hero split feature + picks; flow picks first; horizontal article cards; newsletter footer; mobile picks before feature. |
-| 8 | des-8 | Newspaper Three Column | Done | Magazine masthead; no image-heavy hero; flow 3 news columns; headline-first cards; category footer; mobile chronological columns collapse. |
-| 9 | des-9 | Section Band Magazine | Done | Top-bar header; hero full-width band; flow wide section bands; alternating card ratios; partner footer; mobile band separators. |
+| Code | Name | Contract |
+| --- | --- | --- |
+| H01 | White Editorial Masthead | Logo giữa, menu hàng dưới, search phải. |
+| H02 | Black Compact Nav | Logo trái, menu giữa, search icon popup phải. |
+| H03 | Navy Utility Stack | Top metadata thật, nav chính dưới, search riêng. |
+| H04 | Search First Bar | Logo trái, search lớn giữa, menu/action phải. |
+| H05 | Category Rail Header | Logo trên, category/topic rail thật dưới, search icon. |
+| H06 | Split Masthead | Logo trái, nav chia hai cụm, search cuối. |
+| H07 | Center Logo Drawer | Logo giữa, menu button trái, search phải. |
+| H08 | Topline News Header | Dòng latest thật phía trên, nav dưới, search phải. |
+| H09 | App Dock Header | Action/icon dock gọn, menu chính ngắn. |
+| H10 | Sidebar Trigger Header | Desktop nav ngắn, menu mở panel phải. |
+| H11 | Sticky Compact Header | Masthead lớn + compact sticky nếu làm sạch. |
+| H12 | Breadcrumb Header | Nav gọn + context/breadcrumb strip an toàn ngoài home. |
+| H13 | Scoreboard Header | Navy/black board strip bằng content thật, không score giả. |
+| H14 | Magazine Logo Wall | Logo lớn, menu chia hàng, search nhỏ trên cùng. |
+| H15 | Minimal Text Header | Logo text, menu text, search icon, rất ít noise. |
+| H16 | Command Header | Search/action là trọng tâm, menu như control bar. |
+| H17 | Floating Overlay Header | Overlay trên hero ảnh, fallback nền an toàn ngoài home. |
+| H18 | Two Rail Header | Primary nav + topic rail link thật, không lặp menu. |
 
-### 2. Review hub
+Không dùng cùng cặp `Header Archetype + Footer Archetype` trong vòng 12 design gần nhất nếu có thể tránh.
 
-| # | Theme | Layout form | Status | Fingerprint |
-| ---: | --- | --- | --- | --- |
-| 10 | des-10 | Review Score Hero | Done | Review hub header; hero review with large score; flow reviews first; score cards; review leaderboard footer; mobile score card first. |
-| 11 | des-11 | Top Rated Table | Todo | Platform tabs header; hero top rated table; flow ranking/reviews/news/games; table rows + small cards; compact footer; mobile table cards. |
-| 12 | des-12 | Platform Review Lanes | Todo | Platform tabs header; hero platform selector; flow lanes by platform; lane cards with score badges; category footer; mobile chip rail. |
-| 13 | des-13 | Critic User Split | Todo | Center split header; hero critic/user comparison; flow reviews then games; split verdict cards; review footer; mobile dual-score cards. |
-| 14 | des-14 | Review Timeline | Todo | Minimal header; hero timeline intro; flow chronological reviews; timeline cards; minimal editorial footer; mobile vertical timeline. |
-| 15 | des-15 | Comparison Desk | Todo | Search-first header; hero comparison block; flow reviews/games/guides; side-by-side cards; newsletter footer; mobile comparison stack. |
-| 16 | des-16 | Pros Cons Review Board | Todo | Compact header; hero verdict board; flow review grid then blog; pros/cons cards; latest footer; mobile verdict above image. |
-| 17 | des-17 | Sidebar Score Chart | Todo | Dense portal header; hero + sticky score sidebar; flow reviews first; chart cards; leaderboard footer; mobile sidebar becomes score block. |
+## Footer Archetypes
 
-### 3. Game database portal
+Footer không tự set `margin-top` để tạo khoảng cách với nội dung. Spacing trước footer thuộc section cuối hoặc page wrapper.
 
-| # | Theme | Layout form | Status | Fingerprint |
-| ---: | --- | --- | --- | --- |
-| 18 | des-18 | Search First Directory | Todo | Game database header; hero large search/filter; flow games/reviews/blog; directory cards; database footer; mobile search-first. |
-| 19 | des-19 | Genre Wall | Todo | Category chip header; hero genre wall; flow games by genre; tile cards; genre footer; mobile horizontal genre chips. |
-| 20 | des-20 | Platform Tabs Catalog | Todo | Platform tabs header; hero tabs; flow platform lanes; compact game cards; database footer; mobile tabbed catalog. |
-| 21 | des-21 | Release Calendar First | Todo | Calendar header; hero release board; flow upcoming/games/reviews; date cards; compact legal footer; mobile date timeline. |
-| 22 | des-22 | A Z Game Index | Todo | Search-first header; no hero, A-Z index first; flow alphabet/game/review; index rows; database footer; mobile sticky alphabet rail. |
-| 23 | des-23 | Upcoming Released Split | Todo | Split header; hero upcoming vs released; flow games/reviews/blog; two-lane cards; newsletter footer; mobile toggled lanes. |
-| 24 | des-24 | Game Detail Teaser Grid | Todo | Mega menu header; hero featured game teaser; flow teaser grid; stat-rich cards; game database footer; mobile detail snippets. |
-| 25 | des-25 | Library Shelf Portal | Todo | App dock header; hero shelf row; flow games first; cover shelf cards; console panel footer; mobile cover rail. |
+| Code | Name | Contract |
+| --- | --- | --- |
+| F01 | White Sitemap Footer | Brand + 3-4 cột link thật. |
+| F02 | Black Magazine Footer | Brand lớn, latest posts thật, archive links. |
+| F03 | Navy Editorial Footer | Issue/category links, latest thật, copyright gọn. |
+| F04 | Compact Legal Footer | Một hàng brand/nav/copyright cho layout minimal. |
+| F05 | Directory Footer | Browse Games/Reviews/Blogs, popular/latest thật. |
+| F06 | Latest Desk Footer | 3 cột latest blogs/reviews/games lấy data thật. |
+| F07 | Archive Index Footer | Archive/category index rõ, không newsletter giả. |
+| F08 | Review Hub Footer | Latest reviews + review archive, không score giả. |
+| F09 | Game Catalog Footer | Platform/genre links nếu thật, latest games. |
+| F10 | Newspaper Footer | Masthead nhỏ, section index, copyright. |
+| F11 | Dark Utility Footer | Nav chính + search/browse CTA thật. |
+| F12 | Minimal Brand Footer | Logo/title + một nav row + copyright. |
+| F13 | Split Brand Content Footer | Brand trái lớn, content links phải. |
+| F14 | Footer With Top Story | Một featured/latest article thật + link grid. |
+| F15 | Mobile Accordion Footer | Desktop nhiều nhóm, mobile stacked/accordion. |
+| F16 | Dense Portal Footer | Nhiều nhóm link typography nhỏ cho newswire. |
+| F17 | Visual Strip Footer | Thumb strip thật từ latest content + sitemap. |
+| F18 | Search Directory Footer | Search/browse CTA thật + link groups. |
 
-### 4. Esports and live desk
+## Anti-Similarity Rubric
 
-| # | Theme | Layout form | Status | Fingerprint |
-| ---: | --- | --- | --- | --- |
-| 26 | des-26 | Live Ticker Newsroom | Todo | Ticker header; hero breaking/live strip; flow live/news/review/game; compact ticker cards; community footer; mobile ticker scroll. |
-| 27 | des-27 | Match Schedule Hero | Todo | Esports scoreboard header; hero match schedule; flow matches/news/reviews; schedule rows; video footer; mobile schedule first. |
-| 28 | des-28 | Standings Board | Todo | Scoreboard header; hero standings table; flow standings/news/games; table + cards; community footer; mobile table cards. |
-| 29 | des-29 | Tournament Bracket Home | Todo | Esports header; hero bracket block; flow bracket/news/review; bracket cards; partner footer; mobile bracket becomes rounds. |
-| 30 | des-30 | Team Desk Portal | Todo | Community header; hero team spotlight; flow team/news/reviews; roster cards; community footer; mobile roster rail. |
-| 31 | des-31 | Odds Stat Sidebar | Todo | Dense portal header; hero news + stat sidebar; flow esports/news/review; stat widgets; compact footer; mobile stats under hero. |
-| 32 | des-32 | Video Recap Lead | Todo | Video channel header; hero recap video card; flow video/news/review; media cards; video footer; mobile video first. |
-| 33 | des-33 | Live Blog Feed | Todo | Compact header; no classic hero; flow live feed first; timestamp cards; latest footer; mobile timeline feed. |
+Chấm nhanh 100 điểm khi so với style đã ship:
 
-### 5. Video and trailer first
+```text
+Header anatomy + behavior: 15
+Above-fold role + composition: 20
+DOM section order + content emphasis: 15
+Grid/card/media system: 20
+Footer anatomy + content model: 15
+Mobile signature: 10
+CSS/layout primitive: 5
+```
 
-| # | Theme | Layout form | Status | Fingerprint |
-| ---: | --- | --- | --- | --- |
-| 34 | des-34 | Full Video Hero | Todo | Video channel header; hero full media feature; flow videos/blog/review/game; media cards; video footer; mobile thumbnail + title below. |
-| 35 | des-35 | Trailer Grid Above Fold | Todo | Compact video header; hero 2x2 trailer grid; flow trailers/news/reviews; video tiles; minimal footer; mobile trailer rail. |
-| 36 | des-36 | Playlist Sidebar | Todo | Mega menu header; hero feature + playlist sidebar; flow playlist/news/game; horizontal media cards; video footer; mobile playlist below. |
-| 37 | des-37 | Cinema Layout | Todo | Cinematic header; hero widescreen poster; flow feature/media/news; wide cards; newsletter footer; mobile poster then list. |
-| 38 | des-38 | Shorts Column | Todo | App dock header; hero vertical shorts column + news; flow media/blog/review; portrait cards; compact footer; mobile portrait feed. |
-| 39 | des-39 | Media Wall | Todo | Minimal header; no text-heavy hero; flow media wall first; masonry image/video cards; video footer; mobile masonry to stack. |
-| 40 | des-40 | Stream Channel Home | Todo | Stream header; hero channel spotlight; flow streams/news/reviews; channel cards; community footer; mobile stream rail. |
-| 41 | des-41 | Feature Video Plus Articles | Todo | Search header; hero video left + article list right; flow video/news/review; mixed media cards; latest footer; mobile article list first after video. |
+Pass khi:
 
-### 6. Community and forum style
+- `>= 70/100` so với từng style đã ship.
+- `>= 80/100` so với 5 style gần nhất.
+- Header + footer đạt ít nhất `20/30` điểm khác biệt.
+- Above-fold + section/card đạt ít nhất `40/55` điểm khác biệt.
 
-| # | Theme | Layout form | Status | Fingerprint |
-| ---: | --- | --- | --- | --- |
-| 42 | des-42 | Trending Threads Hero | Todo | Community header; hero trending threads; flow threads/news/reviews; thread cards; community footer; mobile thread list. |
-| 43 | des-43 | Forum Board Blocks | Todo | Mega menu header; no classic hero; flow forum boards then content; board blocks; sitemap footer; mobile accordion boards. |
-| 44 | des-44 | Poll First Home | Todo | Compact header; hero poll + feature; flow poll/news/reviews/games; poll cards; newsletter footer; mobile poll first. |
-| 45 | des-45 | User Picks Grid | Todo | Community header; hero user picks; flow picks/reviews/blog; user cards; community footer; mobile pick rail. |
-| 46 | des-46 | Comment Heavy Feed | Todo | Minimal header; no hero; flow discussion feed; comment-preview cards; compact footer; mobile feed first. |
-| 47 | des-47 | Community Spotlight | Todo | Center logo header; hero member/community spotlight; flow spotlight/news/games; profile cards; partner footer; mobile profile stack. |
-| 48 | des-48 | Q A Guide Home | Todo | Search-first header; hero question search; flow Q&A/guides/reviews; Q&A rows; directory footer; mobile search + accordion. |
-| 49 | des-49 | Event Community Board | Todo | Community header; hero event board; flow events/news/reviews; event cards; community footer; mobile event list. |
+Auto fail nếu có duplicate nav, fake data, layout mobile vỡ, header/footer chỉ đẹp homepage, hoặc delivery không sync source.
 
-### 7. Minimal editorial
+## QA Checklist
 
-| # | Theme | Layout form | Status | Fingerprint |
-| ---: | --- | --- | --- | --- |
-| 50 | des-50 | Single Story Cover | Todo | Editorial minimal header; hero one story cover; flow blog/review/game; sparse cards; minimal footer; mobile cover then index. |
-| 51 | des-51 | Text First Editorial | Todo | Logo-only header; hero text headline no image; flow essays/reviews/games; text cards; legal footer; mobile pure reading flow. |
-| 52 | des-52 | Vertical Editorial Index | Todo | Center logo header; no hero; flow vertical issue index; index cards; editorial footer; mobile date/title list. |
-| 53 | des-53 | Monochrome Magazine | Todo | Minimal header; hero black-white lead; flow section essays; monochrome cards; compact footer; mobile contrast list. |
-| 54 | des-54 | Large Date Article Stack | Todo | Tiny header; hero latest date; flow date-grouped posts; date cards; minimal footer; mobile date timeline. |
-| 55 | des-55 | Featured Column Plain List | Todo | Split header; hero featured column + plain list; flow lists/reviews/games; list cards; newsletter footer; mobile plain list first. |
-| 56 | des-56 | Large Typography Grid | Todo | Editorial header; no image hero; flow typography grid; text-heavy tiles; minimal footer; mobile type scale controlled. |
-| 57 | des-57 | Quiet Review Journal | Todo | Minimal review header; hero review note; flow review journal/news/games; journal cards; editorial footer; mobile note stack. |
+Build:
 
-### 8. Dense newswire
+```bash
+npx sass wp-content/themes/des-N/css/style.scss wp-content/themes/des-N/style.css --no-source-map
+test -s wp-content/themes/des-N/style.css
+git diff --check
+```
 
-| # | Theme | Layout form | Status | Fingerprint |
-| ---: | --- | --- | --- | --- |
-| 58 | des-58 | Compact Four Column Desk | Todo | Dense portal header; no large hero; flow 4-column desk; compact headline cards; latest footer; mobile compact list. |
-| 59 | des-59 | Latest First List | Todo | Compact news bar; hero latest headline strip; flow latest/blog/review/game; list cards; compact footer; mobile latest feed. |
-| 60 | des-60 | Category Lanes | Todo | Section switcher header; hero category summary; flow category lanes; lane cards; category footer; mobile chip lanes. |
-| 61 | des-61 | Ticker Small Cards | Todo | Ticker header; hero ticker + small card grid; flow news/review/game; small cards; legal footer; mobile ticker then mini list. |
-| 62 | des-62 | No Hero News Grid | Todo | Dense header; no hero; flow direct grid; tiny news cards; sitemap footer; mobile headline grid. |
-| 63 | des-63 | Chronological Feed | Todo | Breadcrumb header; hero date marker; flow chronological; timestamp rows; compact footer; mobile timeline. |
-| 64 | des-64 | Headline Only Mode | Todo | Text-first header; no images above fold; flow headlines/reviews/games; headline rows; minimal footer; mobile headline list. |
-| 65 | des-65 | Breaking Latest Split | Todo | Breaking header; hero breaking left/latest right; flow split lists; mixed list cards; latest footer; mobile breaking first. |
-| 66 | des-66 | Sidebar Heavy Portal | Todo | Dense portal header; hero + two sidebars; flow main + rails; portal cards; mega footer; mobile rails become sections. |
+PHP lint bằng local WP container:
 
-### 9. Ranking and top list
+```bash
+docker compose -f .local-ai1wm/docker-compose.yml run --rm wpcli sh -lc 'php -l wp-content/themes/des-N/header.php && php -l wp-content/themes/des-N/home.php && php -l wp-content/themes/des-N/footer.php'
+```
 
-| # | Theme | Layout form | Status | Fingerprint |
-| ---: | --- | --- | --- | --- |
-| 67 | des-67 | Top 10 Hero | Todo | Ranking header; hero top 10 board; flow ranking/review/blog; numbered cards; leaderboard footer; mobile top 5 first. |
-| 68 | des-68 | Tier List Layout | Todo | Compact header; hero tier rows; flow tiers/reviews/games; tier cards; compact footer; mobile tier accordion. |
-| 69 | des-69 | Best By Genre | Todo | Genre header; hero genre ranking; flow genre lists; ranking cards; database footer; mobile genre chips. |
-| 70 | des-70 | Monthly Chart | Todo | Chart header; hero monthly chart; flow chart/news/reviews; chart rows; latest footer; mobile chart cards. |
-| 71 | des-71 | Platform Ranking | Todo | Platform tabs header; hero platform leaderboard; flow platform ranks; score cards; review footer; mobile tabs. |
-| 72 | des-72 | Comparison Table | Todo | Search header; hero comparison table; flow comparisons/reviews/games; table rows; legal footer; mobile comparison cards. |
-| 73 | des-73 | Trending Leaderboard | Todo | Ticker header; hero trending leaderboard; flow trending/news/review; numbered cards; community footer; mobile leaderboard. |
-| 74 | des-74 | Badge Achievement Wall | Todo | App dock header; hero achievement board; flow top games/reviews; badge cards; console footer; mobile badge grid. |
+Route check:
 
-### 10. Store, deal and guide hybrid
+```bash
+BASE_URL="http://localhost:8088"
+for p in "/" "/blogs/" "/reviews/" "/html5-games/" "/?key=test"; do
+  out="/tmp/desN-${p//\//_}.html"
+  curl -fsSL "$BASE_URL$p" -o "$out"
+done
+rg -n "Fatal error|Warning:|Notice:|Deprecated|Undefined|Parse error" /tmp/desN-*.html
+```
 
-| # | Theme | Layout form | Status | Fingerprint |
-| ---: | --- | --- | --- | --- |
-| 75 | des-75 | Deal Cards Hero | Todo | Deals header; hero deal cards; flow deals/games/reviews; price-like cards; deal footer; mobile deal rail. |
-| 76 | des-76 | Guide Categories First | Todo | Guide header; hero guide category blocks; flow guides/blog/review/game; guide cards; directory footer; mobile category chips. |
-| 77 | des-77 | Buyer Guide Layout | Todo | Search-first header; hero buyer guide; flow recommendations/reviews; comparison cards; newsletter footer; mobile recommendation stack. |
-| 78 | des-78 | Price Tracker Block | Todo | Store header; hero price tracker; flow deals/news/reviews; tracker rows; compact footer; mobile tracker cards. |
-| 79 | des-79 | Recommendation Quiz Style | Todo | App header; hero question/choice block; flow suggested games/reviews; choice cards; minimal footer; mobile quiz first. |
-| 80 | des-80 | Hardware And Games Shelf | Todo | Store header; hero shelf; flow hardware/game/news; shelf cards; partner footer; mobile shelf rail. |
-| 81 | des-81 | Coupon Sidebar Portal | Todo | Deals header; hero + coupon sidebar; flow deals/blog/review; coupon cards; deal footer; mobile coupon block. |
-| 82 | des-82 | How To Grid | Todo | Guide header; no big hero; flow how-to grid first; step cards; sitemap footer; mobile step list. |
+Forbidden scan:
 
-### 11. Dark cinematic gaming
+```bash
+rg -n "Game Newsroom|Responsive from 320px|Lorem|TODO|FIXME|href=\"#\"|javascript:void|href=\"\"|Review Scores|form-control" wp-content/themes/des-N delivery/des-N-home
+rg -n "margin-top:\s*-|width:\s*100vw|min-width:\s*[4-9][0-9]{2}px|left:\s*-[0-9]|right:\s*-[0-9]" wp-content/themes/des-N/css wp-content/themes/des-N/*.php
+```
 
-| # | Theme | Layout form | Status | Fingerprint |
-| ---: | --- | --- | --- | --- |
-| 83 | des-83 | Poster Hero Rail | Todo | Floating header; hero poster + rail; flow feature/news/review/game; poster cards; cinematic footer; mobile poster then rail. |
-| 84 | des-84 | Split Screen Console | Todo | Console dashboard header; hero split-screen; flow console lanes; panel cards; console footer; mobile split becomes tabs. |
-| 85 | des-85 | Diagonal Feature Blocks | Todo | Neon header; hero diagonal feature blocks; flow angled sections; skewed cards; compact footer; mobile straightened cards. |
-| 86 | des-86 | Full Bleed Background Stack | Todo | Overlay-safe header; hero full bleed + stacked news; flow story stack; image cards; minimal footer; mobile text below image. |
-| 87 | des-87 | Large Image Strips | Todo | Cinematic header; hero horizontal image strip; flow strips/reviews/games; strip cards; video footer; mobile strip rail. |
-| 88 | des-88 | Campaign Map Sections | Todo | Map header; hero campaign map; flow map nodes; mission cards; console footer; mobile route stack. |
-| 89 | des-89 | Character Card Deck | Todo | App dock header; hero card deck; flow deck/news/reviews; deck cards; compact footer; mobile swipe deck. |
-| 90 | des-90 | Dark Review Theater | Todo | Review header; hero theater review; flow reviews/news/games; cinematic score cards; review footer; mobile score poster. |
+Manual browser:
 
-### 12. Experimental and special issue
+- Desktop first viewport.
+- `768px` tablet.
+- `390px`, `360px`, `320px`.
+- Open menu/search/focus input.
+- Scroll footer on home and one non-home page.
 
-| # | Theme | Layout form | Status | Fingerprint |
-| ---: | --- | --- | --- | --- |
-| 91 | des-91 | Horizontal Scroll Issue | Todo | Minimal header; hero horizontal issue; flow horizontal sections; wide cards; minimal footer; mobile controlled rails. |
-| 92 | des-92 | Dashboard Command Center | Todo | Console dashboard header; hero command center; flow modules; dashboard cards; console footer; mobile module stack. |
-| 93 | des-93 | Map Style Navigation | Todo | Map header; hero map navigation; flow regions/content; node cards; directory footer; mobile map list. |
-| 94 | des-94 | Swipe Card Deck | Todo | App dock header; hero swipe deck; flow deck/blog/review/game; stacked cards; mobile utility footer; mobile deck first. |
-| 95 | des-95 | OS Window Interface | Todo | Window header; hero desktop windows; flow window panels; window cards; compact footer; mobile windows to tabs. |
-| 96 | des-96 | Magazine Cover Archive | Todo | Editorial header; hero archive covers; flow covers/news/review; cover grid; editorial footer; mobile cover list. |
-| 97 | des-97 | Timeline Homepage | Todo | Breadcrumb header; hero timeline start; flow all content timeline; event cards; compact footer; mobile timeline. |
-| 98 | des-98 | Radial Category Hub | Todo | Section switcher header; hero radial category hub; flow category spokes; hub cards; category footer; mobile category list. |
-| 99 | des-99 | Asymmetric Collage | Todo | Floating header; hero asymmetric collage; flow collage sections; mixed ratio cards; newsletter footer; mobile collage to stack. |
-| 100 | des-100 | Newsletter First Homepage | Todo | Editorial header; hero newsletter/signup + featured links; flow digest/reviews/games; digest cards; newsletter footer; mobile signup then feed. |
+## Delivery Checklist
 
-## Anti-similarity check khi hoàn thành
+```bash
+mkdir -p delivery/des-N-home/css
+cp wp-content/themes/des-N/header.php delivery/des-N-home/header.php
+cp wp-content/themes/des-N/home.php delivery/des-N-home/home.php
+cp wp-content/themes/des-N/footer.php delivery/des-N-home/footer.php
+cp wp-content/themes/des-N/style.css delivery/des-N-home/style.css
+cp wp-content/themes/des-N/css/_header.scss delivery/des-N-home/css/_header.scss
+cp wp-content/themes/des-N/css/_home.scss delivery/des-N-home/css/_home.scss
+cp wp-content/themes/des-N/css/_footer.scss delivery/des-N-home/css/_footer.scss
+find delivery/des-N-home -name ".DS_Store" -delete
+cd delivery && rm -f des-N-home.zip && zip -r des-N-home.zip des-N-home -x "*.DS_Store" && unzip -t des-N-home.zip
+```
 
-Trước khi đổi `Doing` sang `Done`, ghi nhớ kiểm tra:
+Required delivery files:
 
-- Header khác rõ với các design đã làm.
-- Hero/banner khác rõ.
-- Thứ tự section khác.
-- Card/grid khác.
-- Footer khác.
-- Mobile signature khác.
-- Link thật, không có label vô nghĩa.
-- Không có text dài đè ảnh.
-- Header/footer không phá các trang ngoài home.
+```text
+delivery/des-N-home/header.php
+delivery/des-N-home/home.php
+delivery/des-N-home/footer.php
+delivery/des-N-home/style.css
+delivery/des-N-home/css/_header.scss
+delivery/des-N-home/css/_home.scss
+delivery/des-N-home/css/_footer.scss
+delivery/des-N-home.zip
+```
+
+## Design Specs
+
+### des-1 - Search First Directory
+
+Status: Accepted
+Family: Game database portal
+Compare against: h5game original, des-2
+Similarity risk: Low
+Data risk: None
+
+- Header: H04 Search First Bar; white/light base; logo left, search prominent, menu/action compact.
+- Above-fold: utility/directory-led; search and browse flow are first signal, no poster hero.
+- Flow/order: search/platform rows, game rows, review picks, blog notes.
+- Card/grid: compact directory rows, thumbnail/list mix, no large overlay text.
+- Footer: F05 Directory Footer; browse/archive continuation with real links.
+- Mobile signature: search-first stack, chips/rows compact at 320px.
+- QA focus: preserve accepted home; do not redesign unless client asks.
+
+### des-2 - Lead Left With Trending Rail
+
+Status: Accepted
+Family: Magazine front page
+Compare against: des-1, h5game original
+Similarity risk: Low
+Data risk: No fake scores
+
+- Header: H01/H02 hybrid; light masthead, compact primary nav, floating mobile stack.
+- Above-fold: editorial/news-led; lead story left, trending rail right.
+- Flow/order: blogs first, review picks, game queue.
+- Card/grid: lead split card, rail list, compact review numbers, game cards.
+- Footer: F06 Latest Desk Footer; real latest blogs/reviews/games.
+- Mobile signature: lead story stacks, menu floats instead of pushing content.
+- QA focus: footer no hard-coded `margin-top`; stack popup overlay only.
+
+### des-3 - Center Lead Newspaper
+
+Status: Needs Audit
+Family: Magazine front page
+Compare against: des-1, des-2
+Similarity risk: Medium
+Data risk: Avoid fake newsletter/social
+
+- Header: H14 Magazine Logo Wall; white base, centered large logo, menu line below, search icon right.
+- Above-fold: editorial/news-led; centered headline with one restrained lead image or text-first lead.
+- Flow/order: lead headline, category bands, blog/review/game columns.
+- Card/grid: 3-column newspaper cards, text-first hierarchy, small thumbnails only.
+- Footer: F10 Newspaper Footer; masthead, section index, copyright.
+- Mobile signature: logo/header height controlled; columns collapse into chronological feed.
+- Risk/must avoid: center logo can get too tall; no repeated headline; no generic legal footer.
+
+### des-4 - Mosaic News Wall
+
+Status: Needs Audit
+Family: Magazine front page
+Compare against: des-2, des-3
+Similarity risk: Medium
+Data risk: Overlay text must stay short
+
+- Header: H03 Navy Utility Stack; navy base, slim real latest/topic strip, primary nav below.
+- Above-fold: image-led mosaic; one large story plus four small stories.
+- Flow/order: mosaic, blogs, reviews, games.
+- Card/grid: mixed image ratios, overlay category/title only, no long excerpt on image.
+- Footer: F01 White Sitemap Footer or F16 Dense Portal Footer; link groups real.
+- Mobile signature: mosaic becomes story stack with category/title only.
+- Risk/must avoid: no duplicate topbar menu; no unreadable image overlay.
+
+### des-5 - Editorial Issue Cover
+
+Status: Needs Audit
+Family: Magazine front page
+Compare against: des-3, des-4
+Similarity risk: Medium
+Data risk: No fake issue metadata beyond simple labels
+
+- Header: H15 Minimal Text Header; white base, sparse nav, small search icon.
+- Above-fold: issue/cover-led; one vertical cover feature with issue index beside it.
+- Flow/order: editor picks, reviews, games, blogs.
+- Card/grid: large typography cards, editorial index rows, restrained thumbnails.
+- Footer: F12 Minimal Brand Footer; minimal nav/copyright.
+- Mobile signature: cover first, issue index below, cards become plain reading list.
+- Risk/must avoid: do not create fake newsletter/signup; avoid oversized first viewport.
+
+### des-6 - Carousel Above News Desk
+
+Status: Needs Audit
+Family: Magazine front page
+Compare against: des-2, des-4
+Similarity risk: High
+Data risk: Carousel must work without JS dependency if possible
+
+- Header: H08 Topline News Header; black/navy base, latest real blog link, nav below.
+- Above-fold: ticker/live-desk or carousel; rotating/scrollable hero using real posts.
+- Flow/order: carousel, latest grid, reviews, games.
+- Card/grid: carousel panels + headline list, not same lead+rail as des-2.
+- Footer: F06 Latest Desk Footer; latest real content groups.
+- Mobile signature: horizontal rail or static first card, then list.
+- Risk/must avoid: no broken carousel controls; no long text in slides.
+
+### des-7 - Split Hero Editor Picks
+
+Status: Needs Audit
+Family: Magazine front page
+Compare against: des-2, des-5
+Similarity risk: High
+Data risk: Avoid fake newsletter footer
+
+- Header: H06 Split Masthead; white/navy base, nav split around logo or split nav groups.
+- Above-fold: split feature + editor picks.
+- Flow/order: picks first, lead feature, reviews, games, blogs.
+- Card/grid: horizontal article cards and pick rows.
+- Footer: F14 Footer With Top Story; latest real article, no fake signup.
+- Mobile signature: picks before feature, then compact cards.
+- Risk/must avoid: split nav must still use one `main-menu`; no newsletter without backend.
+
+### des-8 - Newspaper Three Column
+
+Status: Needs Audit
+Family: Minimal editorial
+Compare against: des-3, des-7
+Similarity risk: Medium
+Data risk: Text density risk
+
+- Header: H01 White Editorial Masthead; logo centered, menu below.
+- Above-fold: text-first; no image-heavy hero.
+- Flow/order: three editorial columns mixing blog/review/game.
+- Card/grid: headline-first cards with small labels, newspaper rhythm.
+- Footer: F03 Navy Editorial Footer; section index and latest links.
+- Mobile signature: chronological feed; type scale reduced at 320px.
+- Risk/must avoid: first viewport cannot become wall of unreadable text.
+
+### des-9 - Section Band Magazine
+
+Status: Needs Audit
+Family: Magazine front page
+Compare against: des-4, des-8
+Similarity risk: Medium
+Data risk: Partner/footer links must be real
+
+- Header: H18 Two Rail Header; white base, primary nav + topic rail with real links.
+- Above-fold: section band; full-width editorial band with clear category.
+- Flow/order: alternating wide bands for blogs/reviews/games.
+- Card/grid: alternating image/text ratios, band separators.
+- Footer: F07 Archive Index Footer; no partner/social unless URLs exist.
+- Mobile signature: band separators remain, each band stacks cleanly.
+- Risk/must avoid: topic rail cannot duplicate primary nav.
+
+### des-10 - Review Pick Hero
+
+Status: Needs Audit
+Family: Review hub
+Compare against: des-2, des-11
+Similarity risk: Medium
+Data risk: No fake scores unless real field exists
+
+- Header: H13 Scoreboard Header; black/navy base, review/category strip without fake score.
+- Above-fold: review-led hero; featured review/pick, title and verdict label only.
+- Flow/order: reviews first, then games, then blogs.
+- Card/grid: review cards with labels, no score badge unless field exists.
+- Footer: F08 Review Hub Footer; latest reviews and review archive.
+- Mobile signature: featured review card first, review list below.
+- Risk/must avoid: rename `Review Score Hero` to `Review Pick Hero` if no score field.
+
+### des-11 - Top Rated Table
+
+Status: Spec Ready
+Family: Review hub
+Compare against: des-10, des-2
+Similarity risk: Medium
+Data risk: Needs real score field or use ranking labels only
+
+- Header: H04 Search First Bar; review search scope, menu compact.
+- Above-fold: review/ranking-led table if real score exists; otherwise “Review Picks Table”.
+- Flow/order: ranking/reviews, games, blogs.
+- Card/grid: table rows on desktop, cards on mobile.
+- Footer: F08 Review Hub Footer.
+- Mobile signature: table becomes stacked review cards.
+- Risk/must avoid: no numeric rating if field is absent.
+
+### des-12 - Platform Review Lanes
+
+Status: Spec Ready
+Family: Review hub
+Compare against: des-10, des-11
+Similarity risk: Medium
+Data risk: Platform labels must be real tags/categories or generic safe labels
+
+- Header: H05 Category Rail Header; platform/category rail with real links if available.
+- Above-fold: platform selector/lane intro.
+- Flow/order: reviews by lane, games, blogs.
+- Card/grid: horizontal lane cards, optional verdict labels.
+- Footer: F08 Review Hub Footer.
+- Mobile signature: chip rail above stacked lanes.
+- Risk/must avoid: do not invent platform taxonomy if not present.
+
+### des-13 - Critic User Split
+
+Status: Spec Ready
+Family: Review hub
+Compare against: des-10, des-12
+Similarity risk: Medium
+Data risk: Do not fake user scores
+
+- Header: H06 Split Masthead; white base, balanced nav/search.
+- Above-fold: critic/user comparison concept using labels, not fake scores.
+- Flow/order: reviews, games, blogs.
+- Card/grid: split verdict cards with two text columns.
+- Footer: F13 Split Brand Content Footer.
+- Mobile signature: dual columns stack into labeled blocks.
+- Risk/must avoid: if no user data, use “Editor view / Player notes” copy tied to real excerpt.
+
+### des-14 - Review Timeline
+
+Status: Spec Ready
+Family: Review hub
+Compare against: des-10, des-13
+Similarity risk: Low
+Data risk: None
+
+- Header: H15 Minimal Text Header; calm white base.
+- Above-fold: timeline intro, not large image hero.
+- Flow/order: chronological reviews, games, blogs.
+- Card/grid: vertical timeline cards using dates.
+- Footer: F04 Compact Legal Footer.
+- Mobile signature: one-column timeline with date markers.
+- Risk/must avoid: timeline markers must not overflow at 320px.
+
+### des-15 - Comparison Desk
+
+Status: Spec Ready
+Family: Review hub
+Compare against: des-11, des-13
+Similarity risk: Medium
+Data risk: No fake comparison fields
+
+- Header: H16 Command Header; search/action heavy.
+- Above-fold: comparison block using real review/game titles.
+- Flow/order: comparisons, reviews, games, blogs.
+- Card/grid: side-by-side cards desktop, stack mobile.
+- Footer: F18 Search Directory Footer.
+- Mobile signature: comparison stack with clear labels.
+- Risk/must avoid: no fake specs/prices; use content excerpts only.
+
+### des-16 - Pros Cons Review Board
+
+Status: Spec Ready
+Family: Review hub
+Compare against: des-10, des-15
+Similarity risk: Medium
+Data risk: No fake pros/cons unless derived from real excerpt
+
+- Header: H02 Black Compact Nav.
+- Above-fold: verdict board with review picks.
+- Flow/order: review grid, blogs, games.
+- Card/grid: board cards with title/excerpt label, not fabricated pros/cons.
+- Footer: F06 Latest Desk Footer.
+- Mobile signature: verdict blocks above image/list.
+- Risk/must avoid: do not create pros/cons bullets from nothing.
+
+### des-17 - Sidebar Score Chart
+
+Status: Spec Ready
+Family: Review hub
+Compare against: des-11, des-16
+Similarity risk: High
+Data risk: Avoid fake chart/score
+
+- Header: H03 Navy Utility Stack.
+- Above-fold: lead review plus sticky sidebar summary; no fake chart if no data.
+- Flow/order: reviews first, blog/game support.
+- Card/grid: chart-like cards can use category/title/date only.
+- Footer: F08 Review Hub Footer.
+- Mobile signature: sidebar summary becomes block under hero.
+- Risk/must avoid: no artificial leaderboard numbers.
+
+### des-18 - Game Search Directory
+
+Status: Spec Ready
+Family: Game database portal
+Compare against: des-1, des-11
+Similarity risk: High
+Data risk: None
+
+- Header: H16 Command Header; game browse/search focus, not same as des-1.
+- Above-fold: large game search/filter surface.
+- Flow/order: games, reviews, blogs.
+- Card/grid: directory cards with compact metadata labels.
+- Footer: F05 Directory Footer.
+- Mobile signature: search-first, filters as chips.
+- Risk/must avoid: must differ from des-1 in DOM order/card anatomy/footer.
+
+### des-19 - Genre Wall
+
+Status: Spec Ready
+Family: Game database portal
+Compare against: des-18, des-1
+Similarity risk: Medium
+Data risk: Genre labels must be real or generic category labels
+
+- Header: H05 Category Rail Header.
+- Above-fold: genre/category wall.
+- Flow/order: games by visual groups, reviews, blogs.
+- Card/grid: tile cards with varied size.
+- Footer: F09 Game Catalog Footer.
+- Mobile signature: horizontal genre chip rail then tiles stack.
+- Risk/must avoid: no fake genre pages if links do not exist.
+
+### des-20 - Platform Tabs Catalog
+
+Status: Spec Ready
+Family: Game database portal
+Compare against: des-12, des-18
+Similarity risk: Medium
+Data risk: Platform tabs must be safe if taxonomy absent
+
+- Header: H04 Search First Bar.
+- Above-fold: tabbed catalog intro.
+- Flow/order: platform lanes, reviews, blogs.
+- Card/grid: compact cards inside tab/lane groups.
+- Footer: F09 Game Catalog Footer.
+- Mobile signature: tabs become scroll rail.
+- Risk/must avoid: no inactive fake tab behavior.
+
+### des-21 - Release Calendar First
+
+Status: Spec Ready
+Family: Game database portal
+Compare against: des-14, des-20
+Similarity risk: Low
+Data risk: Use publish dates, not fake release dates
+
+- Header: H12 Breadcrumb Header.
+- Above-fold: date/release board based on post dates.
+- Flow/order: date groups, games, reviews, blogs.
+- Card/grid: date cards and compact rows.
+- Footer: F04 Compact Legal Footer.
+- Mobile signature: date timeline.
+- Risk/must avoid: do not invent future release dates.
+
+### des-22 - A-Z Game Index
+
+Status: Spec Ready
+Family: Game database portal
+Compare against: des-18, des-20
+Similarity risk: Low
+Data risk: None
+
+- Header: H04 Search First Bar.
+- Above-fold: A-Z/index-first, no classic hero.
+- Flow/order: alphabet/index, games, reviews, blogs.
+- Card/grid: index rows and compact game rows.
+- Footer: F18 Search Directory Footer.
+- Mobile signature: sticky/scroll alphabet rail, then list.
+- Risk/must avoid: alphabet links should be anchors or real filters, not dead links.
+
+### des-23 - Upcoming Released Split
+
+Status: Spec Ready
+Family: Game database portal
+Compare against: des-21, des-20
+Similarity risk: Medium
+Data risk: Use safe labels, not fake release state
+
+- Header: H06 Split Masthead.
+- Above-fold: two-lane “new / recommended” split using real posts.
+- Flow/order: games, reviews, blogs.
+- Card/grid: two-lane cards.
+- Footer: F13 Split Brand Content Footer.
+- Mobile signature: lanes toggle/stack.
+- Risk/must avoid: do not label upcoming/released unless real data exists.
+
+### des-24 - Game Detail Teaser Grid
+
+Status: Spec Ready
+Family: Game database portal
+Compare against: des-18, des-23
+Similarity risk: Medium
+Data risk: No fake stats
+
+- Header: H18 Two Rail Header.
+- Above-fold: featured game teaser.
+- Flow/order: teaser grid, reviews, blogs.
+- Card/grid: stat-like detail snippets from real title/excerpt/category only.
+- Footer: F05 Directory Footer.
+- Mobile signature: detail snippets stack.
+- Risk/must avoid: no fake player count/rating/downloads.
+
+### des-25 - Library Shelf Portal
+
+Status: Spec Ready
+Family: Game database portal
+Compare against: des-19, des-24
+Similarity risk: Low
+Data risk: None
+
+- Header: H09 App Dock Header.
+- Above-fold: horizontal shelf row.
+- Flow/order: games first, reviews, blogs.
+- Card/grid: cover shelf cards with consistent ratios.
+- Footer: F11 Dark Utility Footer.
+- Mobile signature: cover rail then stacked lists.
+- Risk/must avoid: shelf rail must not overflow page horizontally.
+
+### des-26 - Live Ticker Newsroom
+
+Status: Spec Ready
+Family: Esports and live desk
+Compare against: des-6, des-8
+Similarity risk: Medium
+Data risk: Ticker uses latest posts only
+
+- Header: H08 Topline News Header.
+- Above-fold: live/latest ticker strip plus small story grid.
+- Flow/order: latest, blogs, reviews, games.
+- Card/grid: compact ticker cards and timestamp-like labels from post date.
+- Footer: F16 Dense Portal Footer.
+- Mobile signature: ticker scroll then mini list.
+- Risk/must avoid: no fake live status.
+
+### des-27 - Match Schedule Hero
+
+Status: Spec Ready
+Family: Esports and live desk
+Compare against: des-21, des-26
+Similarity risk: Medium
+Data risk: No fake match data
+
+- Header: H13 Scoreboard Header.
+- Above-fold: schedule-style board mapped to latest content.
+- Flow/order: schedule board, blogs, reviews, games.
+- Card/grid: row cards, not real match scores.
+- Footer: F11 Dark Utility Footer.
+- Mobile signature: schedule rows first.
+- Risk/must avoid: do not imply real match times/scores.
+
+### des-28 - Standings Board
+
+Status: Spec Ready
+Family: Esports and live desk
+Compare against: des-11, des-27
+Similarity risk: Medium
+Data risk: No fake standings
+
+- Header: H03 Navy Utility Stack.
+- Above-fold: standings-inspired content board without fake ranks.
+- Flow/order: board, blogs, games, reviews.
+- Card/grid: table-like rows with real content.
+- Footer: F16 Dense Portal Footer.
+- Mobile signature: table becomes cards.
+- Risk/must avoid: no team standings if no source data.
+
+### des-29 - Tournament Bracket Home
+
+Status: Spec Ready
+Family: Esports and live desk
+Compare against: des-28, des-23
+Similarity risk: Low
+Data risk: No fake bracket
+
+- Header: H13 Scoreboard Header.
+- Above-fold: bracket-inspired lanes using categories/content groups.
+- Flow/order: lanes, blogs, reviews, games.
+- Card/grid: bracket cards with real post links.
+- Footer: F03 Navy Editorial Footer.
+- Mobile signature: bracket lanes become rounds/sections.
+- Risk/must avoid: do not create fake tournament outcomes.
+
+### des-30 - Team Desk Portal
+
+Status: Spec Ready
+Family: Esports and live desk
+Compare against: des-29, des-19
+Similarity risk: Low
+Data risk: No fake roster
+
+- Header: H10 Sidebar Trigger Header.
+- Above-fold: team/spotlight-inspired feature using real post.
+- Flow/order: spotlight, blogs, games, reviews.
+- Card/grid: profile-like cards using thumbnails/titles only.
+- Footer: F15 Mobile Accordion Footer.
+- Mobile signature: roster rail becomes stacked cards.
+- Risk/must avoid: no fabricated team/player profiles.
+
+### des-31 - Stat Sidebar Portal
+
+Status: Spec Ready
+Family: Dense desk
+Compare against: des-17, des-28
+Similarity risk: Medium
+Data risk: No fake odds/stat
+
+- Header: H16 Command Header.
+- Above-fold: news lead + stat-inspired sidebar using real metadata.
+- Flow/order: main feed, side rail, reviews, games.
+- Card/grid: stat widgets as link cards.
+- Footer: F13 Split Brand Content Footer.
+- Mobile signature: stats rail moves below hero.
+- Risk/must avoid: avoid odds/prices/numbers.
+
+### des-32 - Video Recap Lead
+
+Status: Spec Ready
+Family: Video and trailer first
+Compare against: des-34, des-6
+Similarity risk: Medium
+Data risk: No fake playable video
+
+- Header: H02 Black Compact Nav.
+- Above-fold: media card with thumbnail and title, not embedded fake video.
+- Flow/order: media lead, blogs, reviews, games.
+- Card/grid: media-style cards.
+- Footer: F17 Visual Strip Footer.
+- Mobile signature: thumbnail first, title below.
+- Risk/must avoid: no fake play button if no video URL.
+
+### des-33 - Live Blog Feed
+
+Status: Spec Ready
+Family: Dense newswire
+Compare against: des-26, des-14
+Similarity risk: Low
+Data risk: Use post dates only
+
+- Header: H02 Black Compact Nav.
+- Above-fold: no classic hero; latest feed first.
+- Flow/order: chronological feed, reviews, games.
+- Card/grid: timestamp feed rows.
+- Footer: F06 Latest Desk Footer.
+- Mobile signature: pure timeline feed.
+- Risk/must avoid: no fake live labels.
+
+### des-34 - Full Video Hero
+
+Status: Spec Ready
+Family: Video and trailer first
+Compare against: des-32, des-37
+Similarity risk: Medium
+Data risk: No fake video
+
+- Header: H17 Floating Overlay Header.
+- Above-fold: full media-feature hero using real thumbnail.
+- Flow/order: media feature, blogs, reviews, games.
+- Card/grid: media cards with image/title.
+- Footer: F17 Visual Strip Footer.
+- Mobile signature: thumbnail + title below, overlay text reduced.
+- Risk/must avoid: no fake video player controls.
+
+### des-35 - Trailer Grid Above Fold
+
+Status: Spec Ready
+Family: Video and trailer first
+Compare against: des-34, des-4
+Similarity risk: Medium
+Data risk: No fake trailers
+
+- Header: H09 App Dock Header.
+- Above-fold: 2x2 media grid from real posts.
+- Flow/order: grid, blogs, reviews, games.
+- Card/grid: video tile styling without fake play actions.
+- Footer: F02 Black Magazine Footer.
+- Mobile signature: trailer rail/stack.
+- Risk/must avoid: no dead play buttons.
+
+### des-36 - Playlist Sidebar
+
+Status: Spec Ready
+Family: Video and trailer first
+Compare against: des-32, des-35
+Similarity risk: Medium
+Data risk: No fake playlist state
+
+- Header: H10 Sidebar Trigger Header.
+- Above-fold: feature left + playlist/sidebar right.
+- Flow/order: playlist, blogs, games, reviews.
+- Card/grid: horizontal media cards.
+- Footer: F14 Footer With Top Story.
+- Mobile signature: playlist below feature.
+- Risk/must avoid: sidebar must not duplicate des-2 rail exactly.
+
+### des-37 - Cinema Layout
+
+Status: Spec Ready
+Family: Dark cinematic gaming
+Compare against: des-34, des-83
+Similarity risk: Medium
+Data risk: None
+
+- Header: H02 Black Compact Nav.
+- Above-fold: widescreen cinematic poster using real thumbnail/background.
+- Flow/order: feature, media-like cards, blogs, reviews, games.
+- Card/grid: wide cards and dark panels.
+- Footer: F02 Black Magazine Footer.
+- Mobile signature: poster then list.
+- Risk/must avoid: dark palette must not break non-home pages.
+
+### des-38 - Shorts Column
+
+Status: Spec Ready
+Family: Video and trailer first
+Compare against: des-35, des-39
+Similarity risk: Low
+Data risk: No fake shorts
+
+- Header: H09 App Dock Header.
+- Above-fold: portrait/vertical column + news list.
+- Flow/order: portrait cards, blogs, reviews, games.
+- Card/grid: portrait ratio cards.
+- Footer: F04 Compact Legal Footer.
+- Mobile signature: portrait feed first.
+- Risk/must avoid: avoid excessive vertical cards at 320px.
+
+### des-39 - Media Wall
+
+Status: Spec Ready
+Family: Video and trailer first
+Compare against: des-4, des-35
+Similarity risk: Medium
+Data risk: None
+
+- Header: H15 Minimal Text Header.
+- Above-fold: media wall/masonry first, no text-heavy hero.
+- Flow/order: media wall, reviews, games, blogs.
+- Card/grid: masonry-like mixed image cards.
+- Footer: F17 Visual Strip Footer.
+- Mobile signature: masonry collapses to controlled stack.
+- Risk/must avoid: no unreadable overlay text.
+
+### des-40 - Stream Channel Home
+
+Status: Spec Ready
+Family: Video and trailer first
+Compare against: des-32, des-35
+Similarity risk: Medium
+Data risk: No fake streams/live
+
+- Header: H03 Navy Utility Stack.
+- Above-fold: channel spotlight using real post.
+- Flow/order: spotlight, media cards, blogs, reviews, games.
+- Card/grid: channel cards as content links.
+- Footer: F11 Dark Utility Footer.
+- Mobile signature: channel rail then list.
+- Risk/must avoid: do not label live/stream unless true.
+
+### des-41 - Feature Video Plus Articles
+
+Status: Spec Ready
+Family: Video and trailer first
+Compare against: des-32, des-36
+Similarity risk: Medium
+Data risk: No fake video controls
+
+- Header: H04 Search First Bar.
+- Above-fold: media feature left, article list right.
+- Flow/order: video/media lead, articles, reviews, games.
+- Card/grid: mixed media/list cards.
+- Footer: F06 Latest Desk Footer.
+- Mobile signature: article list after media feature.
+- Risk/must avoid: not same as des-2 lead+rail; content role must be media-led.
+
+### des-42 - Trending Threads Hero
+
+Status: Spec Ready
+Family: Community style
+Compare against: des-26, des-33
+Similarity risk: Medium
+Data risk: No fake forum threads
+
+- Header: H07 Center Logo Drawer.
+- Above-fold: trending-thread-inspired list using real posts.
+- Flow/order: discussion list, blogs, reviews, games.
+- Card/grid: thread cards with comments-like excerpt only if real.
+- Footer: F15 Mobile Accordion Footer.
+- Mobile signature: thread list first.
+- Risk/must avoid: do not invent comments/counts.
+
+### des-43 - Forum Board Blocks
+
+Status: Spec Ready
+Family: Community style
+Compare against: des-42, des-18
+Similarity risk: Low
+Data risk: No fake boards
+
+- Header: H10 Sidebar Trigger Header.
+- Above-fold: board/category blocks using real archives/categories.
+- Flow/order: boards, blogs, reviews, games.
+- Card/grid: board blocks and content cards.
+- Footer: F01 White Sitemap Footer.
+- Mobile signature: board blocks stack/accordion.
+- Risk/must avoid: board links must be real.
+
+### des-44 - Poll First Home
+
+Status: Spec Ready
+Family: Community style
+Compare against: des-43, des-15
+Similarity risk: Medium
+Data risk: No fake poll
+
+- Header: H16 Command Header.
+- Above-fold: question/choice-style block as “What to read next” using real links.
+- Flow/order: choice block, blogs, reviews, games.
+- Card/grid: choice cards, no vote state.
+- Footer: F18 Search Directory Footer.
+- Mobile signature: choice cards first.
+- Risk/must avoid: no poll submit/counts unless backend exists.
+
+### des-45 - User Picks Grid
+
+Status: Spec Ready
+Family: Community style
+Compare against: des-42, des-19
+Similarity risk: Medium
+Data risk: No fake users
+
+- Header: H07 Center Logo Drawer.
+- Above-fold: picks grid using real editor/content picks.
+- Flow/order: picks, reviews, blogs, games.
+- Card/grid: pick cards with thumbnails/titles.
+- Footer: F15 Mobile Accordion Footer.
+- Mobile signature: pick rail/stack.
+- Risk/must avoid: do not invent user avatars/names.
+
+### des-46 - Comment Heavy Feed
+
+Status: Spec Ready
+Family: Community style
+Compare against: des-33, des-42
+Similarity risk: Low
+Data risk: No fake comments
+
+- Header: H15 Minimal Text Header.
+- Above-fold: no hero; discussion-style feed.
+- Flow/order: feed, reviews, games, blogs.
+- Card/grid: comment-preview-like cards from excerpts.
+- Footer: F04 Compact Legal Footer.
+- Mobile signature: feed-first.
+- Risk/must avoid: no comment counts unless real.
+
+### des-47 - Community Spotlight
+
+Status: Spec Ready
+Family: Community style
+Compare against: des-30, des-45
+Similarity risk: Medium
+Data risk: No fake profiles
+
+- Header: H01 White Editorial Masthead.
+- Above-fold: spotlight feature using real post.
+- Flow/order: spotlight, blogs, games, reviews.
+- Card/grid: profile-like cards without fake people data.
+- Footer: F13 Split Brand Content Footer.
+- Mobile signature: profile stack.
+- Risk/must avoid: no fabricated community member profile.
+
+### des-48 - Q&A Guide Home
+
+Status: Spec Ready
+Family: Guide hybrid
+Compare against: des-18, des-44
+Similarity risk: Medium
+Data risk: No fake Q&A backend
+
+- Header: H04 Search First Bar.
+- Above-fold: question/search surface for reviews/guides.
+- Flow/order: Q&A-style rows, blogs, reviews, games.
+- Card/grid: accordion-like rows with real post links.
+- Footer: F18 Search Directory Footer.
+- Mobile signature: search + accordion rows.
+- Risk/must avoid: no fake answer counts.
+
+### des-49 - Event Community Board
+
+Status: Spec Ready
+Family: Community style
+Compare against: des-21, des-43
+Similarity risk: Low
+Data risk: No fake event dates
+
+- Header: H12 Breadcrumb Header.
+- Above-fold: event-board-inspired date/content board using post dates.
+- Flow/order: board, blogs, reviews, games.
+- Card/grid: event cards.
+- Footer: F07 Archive Index Footer.
+- Mobile signature: event list.
+- Risk/must avoid: no invented event schedule.
+
+### des-50 - Single Story Cover
+
+Status: Spec Ready
+Family: Minimal editorial
+Compare against: des-5, des-8
+Similarity risk: Medium
+Data risk: None
+
+- Header: H15 Minimal Text Header.
+- Above-fold: one story cover.
+- Flow/order: cover, blog/review/game index.
+- Card/grid: sparse cards with strong whitespace.
+- Footer: F12 Minimal Brand Footer.
+- Mobile signature: cover then index.
+- Risk/must avoid: do not make hero so tall it hides next section.
+
+### des-51 - Text First Editorial
+
+Status: Spec Ready
+Family: Minimal editorial
+Compare against: des-8, des-50
+Similarity risk: Low
+Data risk: None
+
+- Header: H12 Breadcrumb Header or H15 Minimal Text Header.
+- Above-fold: pure text headline, no image hero.
+- Flow/order: essays/blogs, reviews, games.
+- Card/grid: text cards and list rows.
+- Footer: F04 Compact Legal Footer.
+- Mobile signature: reading flow, small type scale.
+- Risk/must avoid: avoid wall of text at 320px.
+
+### des-52 - Vertical Editorial Index
+
+Status: Spec Ready
+Family: Minimal editorial
+Compare against: des-51, des-14
+Similarity risk: Low
+Data risk: None
+
+- Header: H01 White Editorial Masthead.
+- Above-fold: vertical issue index, no hero image.
+- Flow/order: index, blogs, reviews, games.
+- Card/grid: vertical index cards.
+- Footer: F10 Newspaper Footer.
+- Mobile signature: date/title list.
+- Risk/must avoid: index links must be real.
+
+### des-53 - Monochrome Magazine
+
+Status: Spec Ready
+Family: Minimal editorial
+Compare against: des-50, des-37
+Similarity risk: Medium
+Data risk: None
+
+- Header: H02 Black Compact Nav.
+- Above-fold: black/white lead.
+- Flow/order: section essays/blogs, reviews, games.
+- Card/grid: monochrome cards with limited accent.
+- Footer: F02 Black Magazine Footer.
+- Mobile signature: contrast list.
+- Risk/must avoid: keep contrast accessible.
+
+### des-54 - Large Date Article Stack
+
+Status: Spec Ready
+Family: Minimal editorial
+Compare against: des-21, des-52
+Similarity risk: Low
+Data risk: Use publish date only
+
+- Header: H15 Minimal Text Header.
+- Above-fold: latest date marker and article stack.
+- Flow/order: date grouped posts, reviews, games.
+- Card/grid: date cards and plain rows.
+- Footer: F04 Compact Legal Footer.
+- Mobile signature: date timeline.
+- Risk/must avoid: no fake publication schedule.
+
+### des-55 - Featured Column Plain List
+
+Status: Spec Ready
+Family: Minimal editorial
+Compare against: des-2, des-51
+Similarity risk: Medium
+Data risk: No fake newsletter footer
+
+- Header: H06 Split Masthead.
+- Above-fold: featured column + plain list.
+- Flow/order: lists, reviews, games, blogs.
+- Card/grid: plain list cards, limited images.
+- Footer: F14 Footer With Top Story.
+- Mobile signature: plain list first after feature.
+- Risk/must avoid: not same lead+rail composition as des-2.
+
+### des-56 - Large Typography Grid
+
+Status: Spec Ready
+Family: Minimal editorial
+Compare against: des-51, des-58
+Similarity risk: Low
+Data risk: None
+
+- Header: H01 White Editorial Masthead.
+- Above-fold: typography grid, no image hero.
+- Flow/order: typography tiles, reviews, games.
+- Card/grid: text-heavy tiles with controlled type.
+- Footer: F12 Minimal Brand Footer.
+- Mobile signature: type scale reduced, tiles stack.
+- Risk/must avoid: text must not overflow cards.
+
+### des-57 - Quiet Review Journal
+
+Status: Spec Ready
+Family: Minimal editorial
+Compare against: des-14, des-10
+Similarity risk: Low
+Data risk: No fake score
+
+- Header: H15 Minimal Text Header.
+- Above-fold: review note/journal intro.
+- Flow/order: review journal, blogs, games.
+- Card/grid: journal cards with text snippets.
+- Footer: F03 Navy Editorial Footer.
+- Mobile signature: note stack.
+- Risk/must avoid: avoid score language unless real.
+
+### des-58 - Compact Four Column Desk
+
+Status: Spec Ready
+Family: Dense newswire
+Compare against: des-8, des-62
+Similarity risk: Medium
+Data risk: None
+
+- Header: H03 Navy Utility Stack.
+- Above-fold: no large hero; dense desk starts immediately.
+- Flow/order: 4-column desk, reviews, games.
+- Card/grid: compact headline cards.
+- Footer: F16 Dense Portal Footer.
+- Mobile signature: compact list.
+- Risk/must avoid: desktop density must not become mobile clutter.
+
+### des-59 - Latest First List
+
+Status: Spec Ready
+Family: Dense newswire
+Compare against: des-33, des-58
+Similarity risk: Medium
+Data risk: Use latest/publish dates only
+
+- Header: H08 Topline News Header.
+- Above-fold: latest headline strip.
+- Flow/order: latest list, reviews, games, blogs.
+- Card/grid: list cards and mini rows.
+- Footer: F06 Latest Desk Footer.
+- Mobile signature: latest feed first.
+- Risk/must avoid: no fake breaking/live language.
+
+### des-60 - Category Lanes
+
+Status: Spec Ready
+Family: Dense newswire
+Compare against: des-12, des-58
+Similarity risk: Medium
+Data risk: Category links must be real if clickable
+
+- Header: H18 Two Rail Header.
+- Above-fold: category summary lanes.
+- Flow/order: category lanes, reviews, games.
+- Card/grid: lane cards.
+- Footer: F07 Archive Index Footer.
+- Mobile signature: chip lanes.
+- Risk/must avoid: no dead category chips.
+
+### des-61 - Ticker Small Cards
+
+Status: Spec Ready
+Family: Dense newswire
+Compare against: des-26, des-58
+Similarity risk: Medium
+Data risk: Ticker uses real latest posts
+
+- Header: H08 Topline News Header.
+- Above-fold: ticker + small card grid.
+- Flow/order: ticker/grid, reviews, games.
+- Card/grid: small compact cards.
+- Footer: F04 Compact Legal Footer.
+- Mobile signature: ticker then mini list.
+- Risk/must avoid: ticker should not duplicate primary nav.
+
+### des-62 - No Hero News Grid
+
+Status: Spec Ready
+Family: Dense newswire
+Compare against: des-58, des-4
+Similarity risk: Low
+Data risk: None
+
+- Header: H02 Black Compact Nav.
+- Above-fold: direct grid, no hero.
+- Flow/order: news/blog grid, reviews, games.
+- Card/grid: tiny news cards.
+- Footer: F01 White Sitemap Footer.
+- Mobile signature: headline grid becomes stack.
+- Risk/must avoid: grid gutters must not squeeze at 320px.
+
+### des-63 - Chronological Feed
+
+Status: Spec Ready
+Family: Dense newswire
+Compare against: des-14, des-33
+Similarity risk: Low
+Data risk: Use post dates only
+
+- Header: H12 Breadcrumb Header.
+- Above-fold: date marker and feed.
+- Flow/order: chronological all content, reviews/games woven in.
+- Card/grid: timestamp rows.
+- Footer: F04 Compact Legal Footer.
+- Mobile signature: vertical timeline.
+- Risk/must avoid: no fake live timestamps.
+
+### des-64 - Headline Only Mode
+
+Status: Spec Ready
+Family: Dense newswire
+Compare against: des-51, des-58
+Similarity risk: Low
+Data risk: None
+
+- Header: H15 Minimal Text Header.
+- Above-fold: headline rows only.
+- Flow/order: headlines, reviews, games.
+- Card/grid: text-only rows.
+- Footer: F12 Minimal Brand Footer.
+- Mobile signature: headline list.
+- Risk/must avoid: maintain enough separation between groups.
+
+### des-65 - Breaking Latest Split
+
+Status: Spec Ready
+Family: Dense newswire
+Compare against: des-2, des-59
+Similarity risk: Medium
+Data risk: No fake breaking
+
+- Header: H03 Navy Utility Stack.
+- Above-fold: “latest split” not fake breaking; lead left/latest right.
+- Flow/order: latest split, reviews, games.
+- Card/grid: mixed list cards.
+- Footer: F06 Latest Desk Footer.
+- Mobile signature: latest first.
+- Risk/must avoid: do not use “breaking” unless safe as style label.
+
+### des-66 - Sidebar Heavy Portal
+
+Status: Spec Ready
+Family: Dense newswire
+Compare against: des-31, des-58
+Similarity risk: Medium
+Data risk: None
+
+- Header: H16 Command Header.
+- Above-fold: main column + two rails.
+- Flow/order: main + rails, reviews, games.
+- Card/grid: portal cards and compact side widgets.
+- Footer: F16 Dense Portal Footer.
+- Mobile signature: rails become sections.
+- Risk/must avoid: avoid too many columns on tablet.
+
+### des-67 - Top 10 Hero
+
+Status: Spec Ready
+Family: Ranking and top list
+Compare against: des-11, des-28
+Similarity risk: Medium
+Data risk: Ranking numbers are display order only
+
+- Header: H13 Scoreboard Header.
+- Above-fold: top-list board from real posts.
+- Flow/order: ranking, reviews, blogs, games.
+- Card/grid: numbered cards.
+- Footer: F08 Review Hub Footer.
+- Mobile signature: top 5 first, then rest.
+- Risk/must avoid: no score/rating unless field exists.
+
+### des-68 - Tier List Layout
+
+Status: Spec Ready
+Family: Ranking and top list
+Compare against: des-67, des-15
+Similarity risk: Low
+Data risk: Tier labels are editorial sections only
+
+- Header: H02 Black Compact Nav.
+- Above-fold: tier rows using content groups.
+- Flow/order: tiers, reviews, games, blogs.
+- Card/grid: tier cards.
+- Footer: F11 Dark Utility Footer.
+- Mobile signature: tier accordion/stack.
+- Risk/must avoid: no fake grade scores.
+
+### des-69 - Best By Genre
+
+Status: Spec Ready
+Family: Ranking and top list
+Compare against: des-19, des-67
+Similarity risk: Medium
+Data risk: Genre links must be real if clickable
+
+- Header: H05 Category Rail Header.
+- Above-fold: genre ranking surface.
+- Flow/order: genre lists, reviews, blogs.
+- Card/grid: ranking cards by group.
+- Footer: F09 Game Catalog Footer.
+- Mobile signature: genre chips.
+- Risk/must avoid: do not invent category pages.
+
+### des-70 - Monthly Chart
+
+Status: Spec Ready
+Family: Ranking and top list
+Compare against: des-21, des-67
+Similarity risk: Medium
+Data risk: Chart uses post order/date only
+
+- Header: H13 Scoreboard Header.
+- Above-fold: monthly chart-like list using real posts.
+- Flow/order: chart, blogs, reviews, games.
+- Card/grid: chart rows.
+- Footer: F06 Latest Desk Footer.
+- Mobile signature: chart cards.
+- Risk/must avoid: no fake chart metrics.
+
+### des-71 - Platform Ranking
+
+Status: Spec Ready
+Family: Ranking and top list
+Compare against: des-12, des-69
+Similarity risk: Medium
+Data risk: Platform data must be safe
+
+- Header: H04 Search First Bar.
+- Above-fold: platform leaderboard without fake score.
+- Flow/order: platform ranks, reviews, games, blogs.
+- Card/grid: grouped ranking cards.
+- Footer: F08 Review Hub Footer.
+- Mobile signature: platform tabs/chips.
+- Risk/must avoid: no artificial rank score.
+
+### des-72 - Comparison Table
+
+Status: Spec Ready
+Family: Ranking and top list
+Compare against: des-15, des-11
+Similarity risk: Medium
+Data risk: No fake comparison specs
+
+- Header: H16 Command Header.
+- Above-fold: comparison table using content fields available.
+- Flow/order: comparisons, reviews, games.
+- Card/grid: table rows become cards.
+- Footer: F04 Compact Legal Footer.
+- Mobile signature: comparison cards.
+- Risk/must avoid: no fake prices/platform specs.
+
+### des-73 - Trending Leaderboard
+
+Status: Spec Ready
+Family: Ranking and top list
+Compare against: des-26, des-67
+Similarity risk: Medium
+Data risk: Trending is display order only
+
+- Header: H08 Topline News Header.
+- Above-fold: trending leaderboard from latest/random posts.
+- Flow/order: leaderboard, blogs, reviews, games.
+- Card/grid: numbered cards.
+- Footer: F15 Mobile Accordion Footer.
+- Mobile signature: leaderboard first.
+- Risk/must avoid: no fake views/traffic.
+
+### des-74 - Badge Achievement Wall
+
+Status: Spec Ready
+Family: Ranking and top list
+Compare against: des-25, des-67
+Similarity risk: Low
+Data risk: Badges are visual labels only
+
+- Header: H09 App Dock Header.
+- Above-fold: achievement/badge wall using real content.
+- Flow/order: badges, top games/reviews, blogs.
+- Card/grid: badge-like cards.
+- Footer: F11 Dark Utility Footer.
+- Mobile signature: badge grid.
+- Risk/must avoid: no fake achievements as factual claims.
+
+### des-75 - Deal Cards Hero
+
+Status: Spec Ready
+Family: Store, deal and guide hybrid
+Compare against: des-77, des-81
+Similarity risk: Medium
+Data risk: No fake deals/prices
+
+- Header: H04 Search First Bar.
+- Above-fold: recommendation cards, not price/deal claims unless real.
+- Flow/order: recommendations, games, reviews, blogs.
+- Card/grid: deal-inspired cards without fake prices.
+- Footer: F18 Search Directory Footer.
+- Mobile signature: recommendation rail.
+- Risk/must avoid: no coupon/price language without data.
+
+### des-76 - Guide Categories First
+
+Status: Spec Ready
+Family: Guide hybrid
+Compare against: des-48, des-60
+Similarity risk: Medium
+Data risk: Category links must be real
+
+- Header: H18 Two Rail Header.
+- Above-fold: guide/category blocks.
+- Flow/order: categories, blogs, reviews, games.
+- Card/grid: step/category cards.
+- Footer: F07 Archive Index Footer.
+- Mobile signature: category chips.
+- Risk/must avoid: no fake guide taxonomy if absent.
+
+### des-77 - Buyer Guide Layout
+
+Status: Spec Ready
+Family: Store, deal and guide hybrid
+Compare against: des-15, des-75
+Similarity risk: Medium
+Data risk: No fake buyer specs/prices
+
+- Header: H16 Command Header.
+- Above-fold: buyer-guide/recommendation surface using real posts.
+- Flow/order: recommendations, reviews, games, blogs.
+- Card/grid: comparison/recommendation cards.
+- Footer: F18 Search Directory Footer.
+- Mobile signature: recommendation stack.
+- Risk/must avoid: no affiliate/price claims.
+
+### des-78 - Tracker Block
+
+Status: Spec Ready
+Family: Store, deal and guide hybrid
+Compare against: des-21, des-75
+Similarity risk: Low
+Data risk: No fake price tracker
+
+- Header: H03 Navy Utility Stack.
+- Above-fold: tracker-style board using latest content.
+- Flow/order: tracker board, blogs, reviews, games.
+- Card/grid: row cards.
+- Footer: F04 Compact Legal Footer.
+- Mobile signature: tracker cards.
+- Risk/must avoid: avoid price/deal wording.
+
+### des-79 - Recommendation Quiz Style
+
+Status: Spec Ready
+Family: Store, deal and guide hybrid
+Compare against: des-44, des-77
+Similarity risk: Medium
+Data risk: No fake quiz backend
+
+- Header: H09 App Dock Header.
+- Above-fold: question/choice navigation to real content.
+- Flow/order: choices, suggested games, reviews, blogs.
+- Card/grid: choice cards.
+- Footer: F12 Minimal Brand Footer.
+- Mobile signature: quiz choices first.
+- Risk/must avoid: no submit/vote state.
+
+### des-80 - Hardware And Games Shelf
+
+Status: Spec Ready
+Family: Store, deal and guide hybrid
+Compare against: des-25, des-75
+Similarity risk: Medium
+Data risk: No fake hardware/deal data
+
+- Header: H09 App Dock Header.
+- Above-fold: shelf row using games/posts.
+- Flow/order: shelf, games, blogs, reviews.
+- Card/grid: shelf cards.
+- Footer: F11 Dark Utility Footer.
+- Mobile signature: shelf rail.
+- Risk/must avoid: no product price or hardware specs.
+
+### des-81 - Coupon Sidebar Portal
+
+Status: Spec Ready
+Family: Store, deal and guide hybrid
+Compare against: des-31, des-75
+Similarity risk: Medium
+Data risk: No fake coupons
+
+- Header: H10 Sidebar Trigger Header.
+- Above-fold: coupon/sidebar-inspired content rail.
+- Flow/order: content + rail, blogs, reviews, games.
+- Card/grid: coupon-like cards without coupon claims.
+- Footer: F07 Archive Index Footer.
+- Mobile signature: rail becomes block.
+- Risk/must avoid: no coupon codes/discount language.
+
+### des-82 - How-To Grid
+
+Status: Spec Ready
+Family: Guide hybrid
+Compare against: des-76, des-48
+Similarity risk: Low
+Data risk: None
+
+- Header: H04 Search First Bar.
+- Above-fold: no big hero; how-to grid first.
+- Flow/order: step grid, blogs, reviews, games.
+- Card/grid: step cards.
+- Footer: F01 White Sitemap Footer.
+- Mobile signature: step list.
+- Risk/must avoid: no fake numbered process if content does not support it.
+
+### des-83 - Poster Hero Rail
+
+Status: Spec Ready
+Family: Dark cinematic gaming
+Compare against: des-37, des-86
+Similarity risk: Medium
+Data risk: None
+
+- Header: H17 Floating Overlay Header.
+- Above-fold: poster hero + rail.
+- Flow/order: feature, news/blogs, reviews, games.
+- Card/grid: poster cards.
+- Footer: F02 Black Magazine Footer.
+- Mobile signature: poster then rail.
+- Risk/must avoid: overlay header must fallback safely on non-home pages.
+
+### des-84 - Split Screen Console
+
+Status: Spec Ready
+Family: Dark cinematic gaming
+Compare against: des-23, des-83
+Similarity risk: Low
+Data risk: None
+
+- Header: H16 Command Header.
+- Above-fold: split-screen console panels.
+- Flow/order: console lanes, games, reviews, blogs.
+- Card/grid: panel cards.
+- Footer: F11 Dark Utility Footer.
+- Mobile signature: split becomes tabs/stack.
+- Risk/must avoid: avoid too dark non-home pages.
+
+### des-85 - Diagonal Feature Blocks
+
+Status: Spec Ready
+Family: Dark cinematic gaming
+Compare against: des-84, des-99
+Similarity risk: Low
+Data risk: None
+
+- Header: H02 Black Compact Nav.
+- Above-fold: diagonal feature blocks.
+- Flow/order: angled sections, blogs, reviews, games.
+- Card/grid: skewed/diagonal cards on desktop, straight mobile.
+- Footer: F04 Compact Legal Footer.
+- Mobile signature: straightened cards.
+- Risk/must avoid: transforms must not cause overflow.
+
+### des-86 - Full Bleed Background Stack
+
+Status: Spec Ready
+Family: Dark cinematic gaming
+Compare against: h5game, des-83
+Similarity risk: Medium
+Data risk: None
+
+- Header: H17 Floating Overlay Header.
+- Above-fold: full bleed image/background with stacked real stories.
+- Flow/order: story stack, reviews, games, blogs.
+- Card/grid: image-led cards.
+- Footer: F12 Minimal Brand Footer.
+- Mobile signature: image then text below.
+- Risk/must avoid: must not become same as h5game original; overlay text short.
+
+### des-87 - Large Image Strips
+
+Status: Spec Ready
+Family: Dark cinematic gaming
+Compare against: des-35, des-83
+Similarity risk: Low
+Data risk: None
+
+- Header: H02 Black Compact Nav.
+- Above-fold: horizontal image strip.
+- Flow/order: strips, reviews, games, blogs.
+- Card/grid: strip cards.
+- Footer: F17 Visual Strip Footer.
+- Mobile signature: strip rail.
+- Risk/must avoid: strip rail must not create page overflow.
+
+### des-88 - Campaign Map Sections
+
+Status: Spec Ready
+Family: Experimental
+Compare against: des-93, des-97
+Similarity risk: Low
+Data risk: No fake map/game data
+
+- Header: H10 Sidebar Trigger Header.
+- Above-fold: map/node-inspired navigation using real links.
+- Flow/order: map sections, blogs, reviews, games.
+- Card/grid: mission/node cards.
+- Footer: F11 Dark Utility Footer.
+- Mobile signature: route stack.
+- Risk/must avoid: no fake game map labels as factual data.
+
+### des-89 - Character Card Deck
+
+Status: Spec Ready
+Family: Experimental
+Compare against: des-94, des-25
+Similarity risk: Low
+Data risk: No copyrighted/fake characters
+
+- Header: H09 App Dock Header.
+- Above-fold: card deck using real post thumbnails.
+- Flow/order: deck, blogs, reviews, games.
+- Card/grid: deck cards.
+- Footer: F04 Compact Legal Footer.
+- Mobile signature: swipe/stack deck.
+- Risk/must avoid: no copyrighted character claims.
+
+### des-90 - Dark Review Theater
+
+Status: Spec Ready
+Family: Dark cinematic gaming
+Compare against: des-10, des-37
+Similarity risk: Medium
+Data risk: No fake score
+
+- Header: H13 Scoreboard Header.
+- Above-fold: theater-like featured review.
+- Flow/order: reviews, blogs, games.
+- Card/grid: cinematic review cards.
+- Footer: F08 Review Hub Footer.
+- Mobile signature: review poster first.
+- Risk/must avoid: no score badges unless real field exists.
+
+### des-91 - Horizontal Scroll Issue
+
+Status: Spec Ready
+Family: Experimental
+Compare against: des-52, des-87
+Similarity risk: Low
+Data risk: None
+
+- Header: H15 Minimal Text Header.
+- Above-fold: horizontal issue rail.
+- Flow/order: horizontal sections, reviews, games.
+- Card/grid: wide cards.
+- Footer: F12 Minimal Brand Footer.
+- Mobile signature: controlled rails with visible scroll affordance.
+- Risk/must avoid: horizontal scroll must not cause body overflow.
+
+### des-92 - Dashboard Command Center
+
+Status: Spec Ready
+Family: Experimental
+Compare against: des-84, des-66
+Similarity risk: Medium
+Data risk: No fake metrics
+
+- Header: H16 Command Header.
+- Above-fold: command center modules.
+- Flow/order: modules, blogs, reviews, games.
+- Card/grid: dashboard cards with real content labels.
+- Footer: F11 Dark Utility Footer.
+- Mobile signature: modules stack.
+- Risk/must avoid: no fake KPI numbers.
+
+### des-93 - Map Style Navigation
+
+Status: Spec Ready
+Family: Experimental
+Compare against: des-88, des-98
+Similarity risk: Low
+Data risk: No fake map regions
+
+- Header: H18 Two Rail Header.
+- Above-fold: map/navigation hub using categories/content groups.
+- Flow/order: regions, blogs, reviews, games.
+- Card/grid: node cards.
+- Footer: F18 Search Directory Footer.
+- Mobile signature: map becomes category list.
+- Risk/must avoid: no dead map nodes.
+
+### des-94 - Swipe Card Deck
+
+Status: Spec Ready
+Family: Experimental
+Compare against: des-89, des-91
+Similarity risk: Low
+Data risk: None
+
+- Header: H09 App Dock Header.
+- Above-fold: swipe/stacked card deck.
+- Flow/order: deck, blog/review/game sections.
+- Card/grid: stacked cards.
+- Footer: F04 Compact Legal Footer.
+- Mobile signature: deck first.
+- Risk/must avoid: usable without complex JS.
+
+### des-95 - OS Window Interface
+
+Status: Spec Ready
+Family: Experimental
+Compare against: des-92, des-84
+Similarity risk: Low
+Data risk: No fake app/system actions
+
+- Header: H10 Sidebar Trigger Header.
+- Above-fold: desktop window-style panels.
+- Flow/order: windows, blogs, reviews, games.
+- Card/grid: window panels.
+- Footer: F12 Minimal Brand Footer.
+- Mobile signature: windows become tabs/cards.
+- Risk/must avoid: no fake close/minimize controls if not functional.
+
+### des-96 - Magazine Cover Archive
+
+Status: Spec Ready
+Family: Experimental
+Compare against: des-5, des-52
+Similarity risk: Medium
+Data risk: None
+
+- Header: H01 White Editorial Masthead.
+- Above-fold: archive covers/grid.
+- Flow/order: covers, news/blogs, reviews, games.
+- Card/grid: cover grid.
+- Footer: F10 Newspaper Footer.
+- Mobile signature: cover list.
+- Risk/must avoid: not same as des-5 single cover.
+
+### des-97 - Timeline Homepage
+
+Status: Spec Ready
+Family: Experimental
+Compare against: des-14, des-63
+Similarity risk: Medium
+Data risk: Use real dates only
+
+- Header: H12 Breadcrumb Header.
+- Above-fold: timeline start marker.
+- Flow/order: all content timeline, reviews, games.
+- Card/grid: event/timeline cards.
+- Footer: F04 Compact Legal Footer.
+- Mobile signature: vertical timeline.
+- Risk/must avoid: differ from des-14 by mixing all content and layout primitives.
+
+### des-98 - Radial Category Hub
+
+Status: Spec Ready
+Family: Experimental
+Compare against: des-93, des-60
+Similarity risk: Low
+Data risk: Category links must be real if clickable
+
+- Header: H18 Two Rail Header.
+- Above-fold: radial/category hub.
+- Flow/order: hub, category spokes, reviews, games.
+- Card/grid: hub/spoke cards.
+- Footer: F07 Archive Index Footer.
+- Mobile signature: radial becomes category list.
+- Risk/must avoid: no SVG-only decoration without real links.
+
+### des-99 - Asymmetric Collage
+
+Status: Spec Ready
+Family: Experimental
+Compare against: des-4, des-85
+Similarity risk: Medium
+Data risk: None
+
+- Header: H17 Floating Overlay Header.
+- Above-fold: asymmetric collage.
+- Flow/order: collage, blogs, reviews, games.
+- Card/grid: mixed ratio cards.
+- Footer: F14 Footer With Top Story.
+- Mobile signature: collage becomes stack.
+- Risk/must avoid: no unreadable overlays; must not copy h5game hero.
+
+### des-100 - Digest First Homepage
+
+Status: Spec Ready
+Family: Experimental
+Compare against: des-5, des-55
+Similarity risk: Medium
+Data risk: No fake newsletter signup
+
+- Header: H01 White Editorial Masthead.
+- Above-fold: digest/edition intro with featured links; no fake signup.
+- Flow/order: digest, reviews, games, blogs.
+- Card/grid: digest cards.
+- Footer: F03 Navy Editorial Footer.
+- Mobile signature: digest then feed.
+- Risk/must avoid: if no subscribe backend, do not call it newsletter signup.
