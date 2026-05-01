@@ -1,40 +1,37 @@
 # Yêu cầu thiết kế 100 giao diện home, header và footer
 
-Tài liệu này là nguồn yêu cầu chính cho toàn project. Nếu có mâu thuẫn với ghi chú cũ, ưu tiên theo file này.
+File này là nguồn yêu cầu chính của project. Nếu có mâu thuẫn với ghi chú cũ, ưu tiên theo file này.
 
 ## 1. Mục tiêu nghiệm thu
 
-Thiết kế 100 giao diện mới cho website game/news/review. Mỗi giao diện là một theme hoàn chỉnh gồm:
+Thiết kế 100 giao diện mới cho website game/news/review. Mỗi `des-N` là một theme hoàn chỉnh gồm:
 
-- Trang home.
+- Home.
 - Header dùng chung toàn site.
 - Footer dùng chung toàn site.
 
-Khách hàng không muốn 100 bản chỉ khác màu, ảnh, font, spacing hoặc bo góc. Mỗi bản phải khác rõ về form/layout để nhìn bằng mắt hoặc quét bằng tool vẫn nhận ra là giao diện riêng.
+Khách không muốn 100 bản chỉ khác màu, ảnh, font, spacing hoặc bo góc. Mỗi bản phải khác rõ về form/layout để nhìn bằng mắt hoặc quét bằng tool vẫn nhận ra là giao diện riêng.
 
 Mỗi giao diện phải đạt:
 
 - Dùng được thật: link thật, search thật, menu thật, nội dung thật.
 - Header, home và footer đồng bộ cùng concept.
+- Header/footer ổn ở home, blog detail, review detail, game detail, archive và search.
 - Không lỗi layout trên desktop, tablet, mobile.
 - Responsive tốt từ `320px` trở lên.
 - Không tạo cảm giác chỉ là skin bọc quanh source cũ.
 
 Demo trang chủ tham khảo: https://gamenewfiz.info/
 
-## 2. Source và restore
+## 2. Source, restore và phạm vi
 
-Mã nguồn khách gửi:
+Source khách gửi:
 
 ```text
 https://drive.google.com/file/d/1QyejFYwzZGaeYyIU4l06eKRb5-RC6C6d/view?usp=sharing
 ```
 
-Khách yêu cầu bước restore dùng **All-in-One WP Migration** để restore file `.wpress`.
-
-Không thay flow restore bằng plugin khác nếu khách không yêu cầu.
-
-## 3. Phạm vi file cần xử lý
+Khách yêu cầu restore bằng **All-in-One WP Migration** với file `.wpress`. Không thay flow restore bằng plugin khác nếu khách không yêu cầu.
 
 Mỗi `des-N` cần xử lý tối thiểu:
 
@@ -45,7 +42,7 @@ Mỗi `des-N` cần xử lý tối thiểu:
 /wp-content/themes/des-N/style.css
 ```
 
-Nếu làm trong SCSS, các file chính là:
+Nếu dùng SCSS:
 
 ```text
 /wp-content/themes/des-N/css/_home.scss
@@ -59,7 +56,7 @@ Sau khi sửa SCSS phải build ra:
 /wp-content/themes/des-N/style.css
 ```
 
-Không yêu cầu thay đổi:
+Không thay đổi nếu không có yêu cầu rõ:
 
 - Plugin.
 - Admin WordPress.
@@ -70,25 +67,21 @@ Không yêu cầu thay đổi:
 
 Không tạo dữ liệu giả chỉ để giao diện trông đầy đủ hơn.
 
-## 4. Rule bắt buộc toàn project
+## 3. Rule bắt buộc
 
-Các rule này áp dụng cho mọi `des-N`:
+Áp dụng cho mọi `des-N`:
 
-- Header/footer là global component, phải ổn ở home, blog detail, review detail, game detail, archive và search.
-- Header/footer phải đồng nhất ở mọi trang, không chỉ đẹp riêng homepage.
+- Header/footer là global component, không được chỉ đẹp riêng homepage.
 - Không dùng `body.home header...`, `body.home footer...`, `is_front_page()` hoặc `is_home()` để tạo header/footer riêng cho homepage.
 - Chỉ dùng `body.home ...` cho spacing nhỏ của nội dung home nếu thật sự cần.
 - Home phải có đủ 3 nhóm nội dung: blog, review, game/post.
 - Không dùng `href="#"`, `javascript:void(0)`, Lorem, TODO/FIXME hoặc text placeholder trong bản giao khách.
 - Không hardcode dữ liệu giả như score, poll, deal, price, esports table nếu không có dữ liệu thật.
 - Nếu block nhìn như click được, nó phải có link/hành động thật.
+- Chỉnh cô lập đúng phạm vi. Nếu sửa header/footer thì kiểm tra nhiều trang; nếu sửa home thì không làm ảnh hưởng archive/detail page.
 - Không dùng Playwright trong project này. Kiểm tra bằng terminal, WordPress local, `curl`, WP-CLI và browser thật.
 
-## 5. Đặt tên class
-
-Class phải rõ nghĩa, dễ đọc, dễ audit.
-
-Ví dụ class nền tảng:
+Class phải rõ nghĩa, dễ audit:
 
 ```text
 .head-wrapper
@@ -115,9 +108,11 @@ Ví dụ class nền tảng:
 .home-game-list
 ```
 
-Mỗi style có thể có namespace riêng, ví dụ `.des-12-score-desk`, `.des-18-game-catalog`, nhưng không đặt tên mơ hồ chỉ để trang trí.
+Mỗi style có thể có namespace riêng, ví dụ `.des4-home-page`, `.des-12-score-desk`, `.des-18-game-catalog`, nhưng không đặt tên mơ hồ chỉ để trang trí.
 
-## 6. Header, navigation và search
+CSS của home phải cô lập theo wrapper riêng của style. Không để CSS home style trực tiếp các class global của theme/plugin như `.pagination`, `.page-link`, `.review-card`, `.container`, `.form-control` hoặc selector chung có thể ảnh hưởng archive/detail page.
+
+## 4. Header, navigation và search
 
 Header phải có mô hình điều hướng rõ:
 
@@ -127,9 +122,7 @@ Header phải có mô hình điều hướng rõ:
 4. Utility strip/topic strip chỉ dùng nếu có mục đích khác menu chính và có link thật.
 5. Mobile menu là cách hiển thị lại cùng `main-menu`, không hard-code menu khác.
 
-`main-menu` là nguồn sự thật duy nhất cho điều hướng chính.
-
-Menu chính chuẩn nên dùng:
+`main-menu` là nguồn sự thật duy nhất cho điều hướng chính. Menu chính chuẩn:
 
 ```text
 Games
@@ -138,7 +131,7 @@ Blogs
 About Us
 ```
 
-Không được duplicate navigation:
+Không duplicate navigation:
 
 - Không để `HTML5 Games` và `Games` cùng xuất hiện nếu cùng vai trò.
 - Không để `Reviews Games` hoặc `Review Games` và `Reviews` cùng xuất hiện nếu cùng vai trò.
@@ -146,17 +139,9 @@ Không được duplicate navigation:
 - Không để desktop dùng một menu, mobile hard-code một menu khác.
 - Không thêm dải phụ nhìn giống menu nhưng chỉ là text trang trí.
 
-Header có thể khác giữa các style bằng anatomy, bố cục, số tầng, vị trí logo, search, sticky behavior, density, content thật hoặc mobile behavior. Sự khác biệt không được đến từ việc nhân đôi menu.
+Header có thể khác giữa các style bằng anatomy, bố cục, số tầng, vị trí logo, search, sticky behavior, density, content thật hoặc mobile behavior. Khách prefer base màu trắng, đen hoặc navy để an toàn cho mọi page; khác biệt nên đến từ cấu trúc và interaction, không chỉ đổi màu.
 
-Khách muốn header của các đơn sau khác biệt thật, nhưng vẫn an toàn cho mọi page. Vì vậy:
-
-- Ưu tiên base màu trắng, đen hoặc navy để không làm vỡ cảm giác của blog detail, review detail, game detail, archive và search.
-- Có thể dùng accent ít như đỏ, vàng, cyan hoặc xanh lá nếu hợp concept, nhưng không biến header thành palette quá lạ.
-- Không tính là khác biệt nếu chỉ đổi màu, shadow, border radius hoặc font mà vẫn giữ cùng anatomy.
-- Có thể đổi nội dung header nếu là nội dung thật: latest link, category rail, search scope, archive CTA, issue label, metadata gọn.
-- Không thêm nội dung giả hoặc dải phụ trùng menu chính.
-
-Các archetype header nên xoay vòng:
+Archetype header nên xoay vòng:
 
 - White editorial masthead: logo giữa, menu dưới, search phải.
 - Black compact nav: logo trái, menu giữa, search icon popup phải.
@@ -173,9 +158,9 @@ Search phải là chức năng thật:
 - Placeholder phải nói đúng phạm vi tìm kiếm, ví dụ `Search reviews` nếu action submit về `/reviews/`.
 - Nút submit phải là hành động thật, không chỉ là icon trang trí.
 - Mobile search không được mở kèm link phụ trùng menu.
-- Nếu form có `<label class="screen-reader-text">`, theme phải có CSS chuẩn để ẩn `.screen-reader-text`. Không để label accessibility hiện ra như text thường và phá layout search.
-- Search form custom nên ưu tiên `display: flex` cho `input + button`: input `flex: 1 1 auto; min-width: 0`, button `flex: 0 0 auto; white-space: nowrap`.
-- Không dùng grid search nếu trong form còn label/hidden element có thể trở thành grid item ngoài ý muốn.
+- Nếu form có `<label class="screen-reader-text">`, theme phải có CSS chuẩn để ẩn `.screen-reader-text`.
+- Search form custom nên dùng flex: input `flex: 1 1 auto; min-width: 0`, button `flex: 0 0 auto; white-space: nowrap`.
+- Không dùng grid search nếu trong form còn label/hidden element có thể thành grid item ngoài ý muốn.
 
 Desktop header phải align center theo chiều dọc giữa logo, nav, search và action buttons.
 
@@ -185,33 +170,31 @@ Mobile header nên tối giản:
 logo | search button | menu button
 ```
 
-Khi mở search/menu trên mobile:
+Mobile search/menu:
 
-- Panel phải full-width hoặc nằm trong flow dưới header.
-- Không lệch theo icon.
-- Không chồng lên nhau kỳ.
-- Input không tràn viewport từ `320px`.
+- Phải mở/đóng được, nằm trong viewport và không chồng nhau kỳ.
 - Target chạm của button tối thiểu khoảng `44px`.
+- Search input không tràn viewport từ `320px`.
+- Phải test trạng thái đang mở, không chỉ nhìn header đóng.
+- Nếu search vỡ layout, kiểm tra chính form: label ẩn, input width, button width, grid/flex item và CSS global/Bootstrap đang đè.
+- Search ngang nên dùng flex ổn định; tránh để label hoặc hidden text thành một item làm form bị tách 2 hàng.
 
-Phải chọn rõ behavior của từng panel:
+Chọn rõ behavior của từng panel:
 
-- Nếu gọi là panel in-flow, nó được nằm dưới header và có thể đẩy nội dung xuống.
-- Nếu gọi là popup/dropdown/floating stack, nó phải là overlay/floating bằng `position: absolute` hoặc cơ chế tương đương, không được đẩy nội dung home xuống.
-- Popup menu nên canh theo cạnh phải header/container, có width giới hạn, shadow/border rõ, và không tràn viewport từ `320px`.
-- Nếu menu mobile là dropdown nhỏ, không dùng width lớn cố định kiểu drawer/panel. Dropdown phải co theo nội dung, có `min-width`, `max-width`, padding, font size và item height hợp lý.
-- Popup menu mobile cần được kiểm tra ở trạng thái đang mở. Header đóng nhìn ổn không có nghĩa là dropdown/search popup đã ổn.
-- Nếu khách nói popup bị "dư" hoặc "phô", kiểm tra tỉ lệ thị giác trước: width, padding, radius, shadow và chiều cao item, không chỉ kiểm tra tràn viewport.
-- Mobile search ưu tiên nằm trong flow nếu cần nhập liệu thoải mái. Nếu search cũng là popup, nó phải theo cùng luật overlay và không neo theo `.head-right` hoặc cụm icon nhỏ.
+- Panel in-flow: nằm dưới header và có thể đẩy nội dung xuống.
+- Popup/dropdown/floating stack: overlay/floating bằng `position: absolute` hoặc cơ chế tương đương, không đẩy nội dung home xuống.
+- Dropdown nhỏ: co theo nội dung, neo dưới/cạnh nút menu, có `min-width`, `max-width`, padding, font size và item height hợp lý.
+- Drawer/panel: chỉ dùng khi có lý do rõ, kiểm soát full-width và không tạo cảm giác dư.
 
-## 7. Footer
+Nếu khách nói popup bị "dư" hoặc "phô", kiểm tra tỉ lệ thị giác trước: width, padding, radius, shadow và chiều cao item, không chỉ kiểm tra tràn viewport. Không dùng width lớn cố định cho dropdown ít item.
 
-Footer không được là block generic chỉ đổi màu. Footer phải là phần kết tự nhiên của concept đang dùng.
+## 5. Footer
 
-Khách muốn footer mỗi đơn cũng khác biệt thật nhưng vẫn an toàn global. Ưu tiên base trắng, đen hoặc navy; khác biệt chính đến từ anatomy, content thật, grid/cột, density và mobile behavior, không phải đổi màu mạnh.
+Footer không được là block generic chỉ đổi màu. Footer phải là phần kết tự nhiên của concept đang dùng và vẫn an toàn global.
 
-Nền footer phải ăn với phần home và header của style. Nếu home đang theo nền sáng/warm/card mềm, footer xám đậm hoặc gradient nặng sẽ bị cảm giác lạc theme. Chọn nền footer theo concept tổng thể, không chỉ chọn màu vì muốn khác.
+Khách muốn footer mỗi đơn khác biệt thật. Ưu tiên base trắng, đen hoặc navy; khác biệt chính đến từ anatomy, content thật, grid/cột, density và mobile behavior, không phải đổi màu mạnh.
 
-Mỗi footer cần có 3 lớp nội dung:
+Footer cần có 3 lớp nội dung:
 
 1. **Identity**: logo/title link về home, mô tả ngắn có nghĩa, copyright.
 2. **Primary navigation**: link thật đến Games, Reviews, Blogs và trang chính liên quan.
@@ -238,17 +221,17 @@ Không được:
 - Có social link nếu không có URL thật.
 - Có newsletter nếu không có chức năng đăng ký thật.
 - Có margin âm làm footer kéo ngược lên nội dung.
-- Có `margin-top` hard-code để tự tạo khoảng cách với section trước. Khoảng cách trước footer nên thuộc section cuối hoặc page wrapper, để khi đổi background phần giữa không tạo dải màu lạc lõng.
+- Có `margin-top` hard-code để tự tạo khoảng cách với section trước.
 - Có khoảng trắng dư xấu trước hoặc sau footer.
 - Để footer trùng màu nền đến mức mất phân tách với nội dung.
 
-Footer phải ổn trên home và các trang ngoài home.
+Spacing trước footer nên thuộc section cuối hoặc page wrapper, để khi đổi background phần giữa không tạo dải màu lạc lõng.
 
-## 8. Home và nội dung bắt buộc
+## 6. Home, content và label
 
 Home phải trình bày đủ 3 nhóm nội dung sau. Thứ tự và bố cục có thể thay đổi theo concept.
 
-### Blog
+Blog:
 
 ```php
 'post_type'      => 'blog',
@@ -258,7 +241,7 @@ Home phải trình bày đủ 3 nhóm nội dung sau. Thứ tự và bố cục 
 'post_status'    => 'publish',
 ```
 
-### Review
+Review:
 
 ```php
 $wp_query = new WP_Query(array(
@@ -270,7 +253,7 @@ $wp_query = new WP_Query(array(
 ));
 ```
 
-### Game/post
+Game/post:
 
 ```php
 $wp_query = new WP_Query(array(
@@ -285,9 +268,7 @@ $wp_query = new WP_Query(array(
 
 Luôn cho các nhóm nội dung hiển thị random như source gốc, nhưng layout phải ổn khi nội dung thay đổi sau mỗi lần load.
 
-Hero/banner không bắt buộc giữ giống source cũ. Có thể thay hình, thay text, thay cấu trúc hoặc bỏ hero lớn nếu concept cần.
-
-Khu vực đầu trang phải có vai trò rõ, ví dụ:
+Khu vực đầu trang không bắt buộc giữ giống source cũ. Có thể thay hình, text, cấu trúc hoặc bỏ hero lớn nếu concept cần. First viewport phải có vai trò rõ, ví dụ:
 
 - Bài viết nổi bật.
 - Review nổi bật.
@@ -300,19 +281,16 @@ Khu vực đầu trang phải có vai trò rõ, ví dụ:
 
 Với ảnh có text overlay, ưu tiên chỉ hiển thị category/tag và title. Bỏ excerpt nếu title dài hoặc chữ khó đọc.
 
-Khi dùng nội dung random, phải giả định title blog/review/game có thể rất dài. Không thiết kế một module ngang ép 3 nhóm `Blogs / Reviews / Games` vào các cột hẹp nếu title là thành phần chính, vì layout sẽ dễ phô hoặc vỡ khi dữ liệu đổi. Nếu cần hiển thị đủ nhiều nội dung, ưu tiên:
+Khi dùng nội dung random, giả định title blog/review/game có thể rất dài. Không ép 3 nhóm `Blogs / Reviews / Games` vào các cột ngang hẹp nếu title là thành phần chính. Nếu cần home dài hơn, thêm section có nhịp đọc rõ thay vì nhồi cột.
+
+Ưu tiên:
 
 - Tách blog, review và game thành section riêng.
-- Blog dài nên dùng layout dọc, feature + list, hoặc news feed rộng.
-- Review/game nên dùng list/card compact, chỉ giữ title và metadata thật cần thiết.
+- Blog dài dùng layout dọc, feature + list, hoặc news feed rộng.
+- Review/game dùng list/card compact, chỉ giữ title và metadata thật cần thiết.
 - Dùng `min-width: 0`, `overflow-wrap`, `line-clamp` hợp lý, nhưng không dùng giảm font như cách sửa chính cho layout sai.
-- Muốn home dài hơn thì thêm section có nhịp đọc rõ, không nhồi thêm cột ngang hẹp.
 
-## 9. Nội dung thật, label thật
-
-Mọi thứ người dùng thấy phải có ý nghĩa hoặc có hành động thật.
-
-Bắt buộc:
+Mọi text/link phải có ý nghĩa:
 
 - Title/card bài viết, review, game phải có link.
 - Tab, chip, category, shortcut, CTA nhìn như click được thì phải click được.
@@ -341,7 +319,7 @@ Review Desk
 
 Nếu dùng `News`, phải nhất quán với concept editorial/news. Nếu dữ liệu thực tế là post type `blog`, ưu tiên dùng `Blogs`.
 
-## 10. Responsive và chống vỡ layout
+## 7. Responsive và chống vỡ layout
 
 Mobile `320px` là tiêu chí nghiệm thu thật.
 
@@ -353,36 +331,38 @@ Yêu cầu responsive:
 - Search mobile mở riêng, input không tràn, submit được.
 - Topbar, quick links hoặc utility strip phải ẩn/gộp nếu gây cảm giác nhiều menu.
 - Hero, mosaic, sidebar, table phải stack hoặc chuyển form phù hợp.
-- Card ảnh overlay trên mobile không được nhồi excerpt dài.
-- Card mobile dạng ảnh + text phải có contract riêng, không dùng lại nguyên grid/height desktop.
-- Thumbnail mobile phải có kích thước ổn định, ví dụ `flex-basis`/width cố định hoặc aspect-ratio rõ; tránh `height: 100%` vì title dài sẽ kéo ảnh lệch.
-- Nếu desktop dùng `grid-auto-rows` để tạo mosaic, mobile phải reset về `grid-auto-rows: auto` hoặc đổi sang layout khác.
-- Trong card mobile dạng row, content text phải có `min-width: 0` và width/max-width rõ theo phần còn lại sau thumbnail; không để text tự làm rộng viewport.
-- Không clamp text mobile quá sớm nếu clamp tạo cảm giác bị cắt chữ. Ưu tiên giảm font/line-height hợp lý và cho title wrap tự nhiên.
 - Footer xuống một cột hoặc nhóm full-width, link không làm rộng viewport.
 - Header/footer vẫn ổn ở blog detail, review detail, game detail, archive và search.
 - Kiểm tra thêm width trung gian như `390px`, `520px` và `768px`, không chỉ kiểm tra desktop và `320px`.
 
 Nếu phải chọn giữa giữ signature desktop và tránh lỗi 320px, ưu tiên tránh lỗi 320px.
 
-Các lỗi cần tránh:
+Card mobile ảnh + text:
 
-- Selector PHP/CSS không khớp, ví dụ PHP dùng `.foot-*` nhưng SCSS style `.footer-*`.
+- Có contract riêng, không dùng lại nguyên grid/height desktop.
+- Thumbnail có kích thước ổn định, ví dụ `flex-basis`/width cố định hoặc aspect-ratio rõ.
+- Tránh `height: 100%` vì title dài sẽ kéo ảnh lệch.
+- Nếu desktop dùng `grid-auto-rows` để tạo mosaic, mobile phải reset về `grid-auto-rows: auto` hoặc đổi layout.
+- Content text phải có `min-width: 0` và width/max-width rõ theo phần còn lại sau thumbnail.
+- Không clamp text mobile quá sớm nếu clamp tạo cảm giác bị cắt chữ. Ưu tiên giảm font/line-height hợp lý và cho title wrap tự nhiên.
+- Kiểm tra với title thật rất dài. Nếu ảnh lệch, thường do `height: 100%`, `grid-auto-rows` desktop chưa reset, hoặc content flex/grid thiếu `min-width: 0`.
+
+Lỗi layout cần tránh:
+
+- Selector PHP/CSS không khớp.
 - Component bị điều khiển bởi cả CSS cũ và CSS mới.
 - Dùng `.form-control` Bootstrap cho input search custom đã có style riêng.
 - Dùng `max-height` để ẩn/mở input khiến focus bị cắt.
 - Dùng `width: 100vw`, `min-width` lớn, `margin-top` âm hoặc `left/right` âm không kiểm soát.
 - Header/footer bị sửa global chỉ để vá lỗi riêng homepage.
-- Thiếu rule accessibility nền tảng như `.screen-reader-text`, khiến label ẩn bị hiện ra và làm vỡ form.
+- Thiếu rule accessibility nền tảng như `.screen-reader-text`.
 - Dùng `column-count`/masonry tự do cho nội dung random, vì title/thumbnail thật dễ làm cột cao thấp mất kiểm soát.
 
-Khi component đã sai nhiều, rewrite nguyên block component sạch theo contract class thay vì vá chồng nhiều rule nhỏ.
+Khi component đã sai nhiều, rewrite nguyên block component sạch theo contract class thay vì vá chồng nhiều rule nhỏ. Với layout visual board/masonry, nếu khách cần chắc layout hơn là hiệu ứng lạ, ưu tiên CSS grid có số cột và breakpoint rõ thay vì `column-count`.
 
-Với layout visual board/masonry, nếu khách cần chắc layout hơn là hiệu ứng lạ, ưu tiên CSS grid có số cột và breakpoint rõ thay vì `column-count`.
+Khi feedback chỉ yêu cầu gọn/cân lại layout, không tự thêm cụm nội dung hoặc component mới. Chỉ chỉnh typography, spacing, grid/card và mobile behavior trong phạm vi đang lỗi.
 
-CSS của home phải được cô lập theo wrapper riêng của style, ví dụ `.des3-home-page`, `.des4-home-page`. Không để CSS home style trực tiếp các class global của theme/plugin như `.pagination`, `.page-link`, `.review-card`, `.container`, `.form-control` hoặc selector chung có thể ảnh hưởng archive/detail page. Nếu feedback liên quan trang ngoài home như `/reviews/`, sửa trong file/component của trang đó, không vá bằng CSS home.
-
-## 11. Hai trường phái background
+## 8. Background và above-fold
 
 Trước khi code mỗi style phải chọn rõ hướng background/above-fold.
 
@@ -424,11 +404,7 @@ Lưu ý:
 
 Không ép mọi layout thành hero ảnh lớn như source gốc. Cũng không ép mọi layout thành search directory như `des-1`.
 
-## 12. Trường phái above-fold
-
-Background chỉ là một phần của giao diện. Trước khi code mỗi `des-N`, phải chốt vai trò first viewport: người dùng thấy gì đầu tiên và hành động chính là gì.
-
-Các trường phái hợp lệ:
+Vai trò above-fold hợp lệ:
 
 1. **Image-led hero**: ảnh lớn làm trọng tâm, overlay title/CTA.
 2. **Utility/directory-led hero**: search, filter, top list, game/review directory làm trọng tâm.
@@ -440,7 +416,7 @@ Các trường phái hợp lệ:
 
 Mỗi layout mới phải khác rõ ở vai trò above-fold so với các layout gần nhất. Nếu chỉ đổi background, màu, ảnh hoặc text nhưng vai trò above-fold vẫn giống nhau, chưa tính là khác đủ.
 
-## 13. Khác biệt giữa 100 giao diện
+## 9. Khác biệt giữa 100 giao diện
 
 Mã style thống nhất:
 
@@ -468,16 +444,14 @@ Một style mới phải khác rõ ít nhất 4/6 phần lớn:
 - Footer.
 - Mobile signature.
 
-Trong đó header và footer cũng cần fingerprint riêng cho từng đơn:
+Header/footer cũng cần fingerprint riêng:
 
 ```text
 Header = base color / logo position / menu model / search model / utility content / mobile behavior
 Footer = base color / column model / content groups / CTA or archive model / density / mobile stack
 ```
 
-Khách prefer header/footer dùng trắng, đen hoặc navy để an toàn toàn site. Vì vậy không cần ép màu quá lạ để tạo khác biệt. Cần tạo khác biệt bằng cấu trúc, nội dung thật, interaction và responsive behavior.
-
-Với batch nhiều mẫu, nên kiểm tra thêm 12 chiều:
+Với batch nhiều mẫu, kiểm tra thêm 12 chiều:
 
 ```text
 Header anatomy
@@ -496,15 +470,7 @@ CSS/layout primitives
 
 So với các style đã hoàn thành gần nhất, style mới nên khác ít nhất 7/12 chiều.
 
-Tool của khách có thể quét:
-
-- Screenshot desktop/mobile.
-- DOM/tree sau render.
-- Tên class và thứ tự section.
-- CSS grid/flex/breakpoint.
-- Text/label lặp lại.
-
-Không dùng cùng skeleton `header -> hero -> blog grid -> review grid -> game grid -> footer` cho nhiều bản rồi chỉ đổi skin.
+Tool của khách có thể quét screenshot, DOM/tree, tên class, thứ tự section, CSS grid/flex/breakpoint và text/label lặp lại. Không dùng cùng skeleton `header -> hero -> blog grid -> review grid -> game grid -> footer` cho nhiều bản rồi chỉ đổi skin.
 
 Có thể tham khảo ThemeForest để lấy form, bố cục và cách tổ chức nội dung cho gaming, game news, review, magazine, portal, esports hoặc editorial.
 
@@ -515,14 +481,9 @@ Chỉ tham khảo:
 - Mật độ.
 - Cơ chế responsive.
 
-Không copy:
+Không copy code, ảnh, logo, icon, screenshot, demo text, brand name, tên class hoặc layout quá nhận diện của theme nguồn.
 
-- Code HTML/CSS/JS.
-- Ảnh, logo, icon, screenshot, demo text, brand name.
-- Layout quá nhận diện của theme cụ thể.
-- Tên class hoặc section giống theme nguồn.
-
-## 14. GPT Image
+## 10. GPT Image
 
 Không bắt buộc mọi layout phải dùng GPT image.
 
@@ -588,7 +549,7 @@ Nếu proxy trả PNG dù request `webp`, kiểm tra bằng:
 file gaming-background.webp
 ```
 
-## 15. QA trước khi ship
+## 11. QA trước khi ship
 
 Trước khi giao mỗi style:
 
@@ -626,7 +587,7 @@ curl -L "$BASE_URL/games/" -o /tmp/des-N-games.html
 rg -n "Fatal error|Warning:|Notice:|Deprecated|Undefined|Parse error" /tmp/des-N-*.html
 ```
 
-Mở browser thật để kiểm tra:
+Mở browser thật:
 
 ```bash
 open "$BASE_URL/"
@@ -639,17 +600,18 @@ Bắt buộc kiểm tra bằng mắt:
 
 - Desktop first viewport khác rõ style cũ.
 - Header không duplicate navigation.
-- Search dùng được.
-- Search không hiện label `screen-reader-text`, input và button nằm đúng một hàng ở desktop/mobile nếu concept là search ngang.
+- Search dùng được, mở sạch ở mobile và không hiện label `screen-reader-text`.
+- Menu mobile mở sạch, không dư/phô, không đẩy nội dung nếu là popup.
 - Hero/banner không dùng text vô nghĩa.
 - Mọi chip/tab/shortcut/CTA có link thật.
 - Blog/review/game hiển thị đủ nhóm.
 - Không có text dài đè ảnh.
+- Card ảnh + text mobile không lệch thumbnail khi title dài.
 - Footer liên quan concept và không có khoảng trắng xấu.
 - Trang ngoài home vẫn có header/footer ổn.
 - Mobile ở `320px`, `360px`, `390px`, `520px`, tablet khoảng `768px` không vỡ layout.
 
-## 16. Delivery cho khách
+## 12. Delivery cho khách
 
 Mỗi style bàn giao gọn trong folder:
 
@@ -690,31 +652,11 @@ cd delivery
 zip -r des-N-home.zip des-N-home -x "*.DS_Store"
 ```
 
-## 17. Feedback khách đã chốt
-
-Các điểm này đã được rút ra từ feedback thực tế và phải áp dụng cho các style sau:
+## 13. Ghi chú khách đã chốt
 
 - `des-1`: khách đã ưng phần giữa/home. Không redesign lại phần home đã được duyệt nếu không có feedback mới.
 - Header/footer phải ăn nhập với concept của phần home, nhưng vẫn là global header/footer dùng chung toàn site.
-- Header/footer không được chỉ đẹp riêng homepage rồi làm trang khác bung layout.
-- Không duplicate menu kiểu `Reviews Games / HTML5 Games / Blogs / About Us` lặp với `Games / Reviews / Blogs / Mobile`.
-- Search nên ở trên/phía phải header khi phù hợp, nhưng mobile search phải mở sạch, không lệch, không vỡ input.
 - Banner/above-fold không cần giữ nguyên source cũ. Có thể đổi hình, đổi text, đổi layout hoặc biến thành tin nổi bật/bài nổi bật.
-- Không nhồi description dài lên ảnh nếu làm chữ đè ảnh; title là đủ trong nhiều trường hợp.
 - Không đặt section quá to khiến first viewport nặng và thô.
-- Không dùng section `Review Scores` nếu không có score thật.
-- Không để card lặp label `Review / Review`.
-- Header phải cân giữa theo chiều dọc.
-- Mobile menu và search phải nhìn gọn, không bung layout.
-- Nếu menu mobile là popup/stack, nó phải float/overlay, không đẩy nội dung xuống.
-- Popup menu mobile phải chọn rõ dạng dropdown hay drawer. Dropdown nhỏ thì co theo nội dung và neo dưới/cạnh nút menu; drawer/panel thì phải có lý do rõ và kiểm soát full-width.
-- Không dùng width lớn cố định cho dropdown ít item, vì dù không tràn vẫn tạo cảm giác dư và phô.
-- Footer không tự set `margin-top` để tạo khoảng cách; spacing trước footer thuộc về section cuối hoặc wrapper nội dung.
-- Với các style mới, chỉnh cô lập đúng phạm vi. Nếu sửa header/footer thì kiểm tra mọi trang; nếu sửa home thì không làm ảnh hưởng trang khác.
-- Nếu search vỡ layout, không chỉ kiểm tra popup. Phải kiểm tra chính form: label ẩn, input width, button width, grid/flex item và CSS global/Bootstrap đang đè không.
-- Search ngang nên dùng flex ổn định; tránh để label hoặc hidden text thành một item làm form bị tách 2 hàng.
-- Footer phải được so với toàn bộ concept của home. Footer có thể responsive đúng nhưng vẫn fail nếu nền/màu/anatomy không ăn với phần giữa.
-- Layout kiểu masonry/`column-count` chỉ dùng khi đã kiểm soát được chiều cao card; với dữ liệu random của khách, grid cố định thường an toàn hơn.
-- Card mobile ảnh + text phải kiểm tra với title thật rất dài. Nếu ảnh lệch, thường do `height: 100%`, `grid-auto-rows` desktop chưa reset, hoặc content flex/grid thiếu `min-width: 0`.
-- Khi feedback chỉ yêu cầu gọn/cân lại layout, không tự thêm cụm nội dung hoặc component mới. Chỉ chỉnh typography, spacing, grid/card và mobile behavior trong phạm vi đang lỗi.
+- Footer có thể responsive đúng nhưng vẫn fail nếu nền/màu/anatomy không ăn với phần giữa.
 - Không chỉ test `320px`; nhiều lỗi search/header/footer lộ rõ ở `390px` hoặc `520px`.
