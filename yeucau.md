@@ -351,6 +351,11 @@ Yêu cầu responsive:
 - Topbar, quick links hoặc utility strip phải ẩn/gộp nếu gây cảm giác nhiều menu.
 - Hero, mosaic, sidebar, table phải stack hoặc chuyển form phù hợp.
 - Card ảnh overlay trên mobile không được nhồi excerpt dài.
+- Card mobile dạng ảnh + text phải có contract riêng, không dùng lại nguyên grid/height desktop.
+- Thumbnail mobile phải có kích thước ổn định, ví dụ `flex-basis`/width cố định hoặc aspect-ratio rõ; tránh `height: 100%` vì title dài sẽ kéo ảnh lệch.
+- Nếu desktop dùng `grid-auto-rows` để tạo mosaic, mobile phải reset về `grid-auto-rows: auto` hoặc đổi sang layout khác.
+- Trong card mobile dạng row, content text phải có `min-width: 0` và width/max-width rõ theo phần còn lại sau thumbnail; không để text tự làm rộng viewport.
+- Không clamp text mobile quá sớm nếu clamp tạo cảm giác bị cắt chữ. Ưu tiên giảm font/line-height hợp lý và cho title wrap tự nhiên.
 - Footer xuống một cột hoặc nhóm full-width, link không làm rộng viewport.
 - Header/footer vẫn ổn ở blog detail, review detail, game detail, archive và search.
 - Kiểm tra thêm width trung gian như `390px`, `520px` và `768px`, không chỉ kiểm tra desktop và `320px`.
@@ -705,4 +710,6 @@ Các điểm này đã được rút ra từ feedback thực tế và phải áp
 - Search ngang nên dùng flex ổn định; tránh để label hoặc hidden text thành một item làm form bị tách 2 hàng.
 - Footer phải được so với toàn bộ concept của home. Footer có thể responsive đúng nhưng vẫn fail nếu nền/màu/anatomy không ăn với phần giữa.
 - Layout kiểu masonry/`column-count` chỉ dùng khi đã kiểm soát được chiều cao card; với dữ liệu random của khách, grid cố định thường an toàn hơn.
+- Card mobile ảnh + text phải kiểm tra với title thật rất dài. Nếu ảnh lệch, thường do `height: 100%`, `grid-auto-rows` desktop chưa reset, hoặc content flex/grid thiếu `min-width: 0`.
+- Khi feedback chỉ yêu cầu gọn/cân lại layout, không tự thêm cụm nội dung hoặc component mới. Chỉ chỉnh typography, spacing, grid/card và mobile behavior trong phạm vi đang lỗi.
 - Không chỉ test `320px`; nhiều lỗi search/header/footer lộ rõ ở `390px` hoặc `520px`.

@@ -18,7 +18,7 @@ $game_ids           = array();
         <div class="mosaic-lead">
             <div class="mosaic-lead-left">
                 <div class="mosaic-kicker">Blog Picks</div>
-                <h1 class="mosaic-title">Game stories, reviews, and playable picks in a premium channel.</h1>
+                <h1 class="mosaic-title">Game picks for today.</h1>
             </div>
         </div>
 

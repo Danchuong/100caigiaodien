@@ -37,6 +37,7 @@ $font-family-base: "Poppins", sans-serif;
     line-height: $line-height;
     max-height: $line * $line-height;
     overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 @import "home";
