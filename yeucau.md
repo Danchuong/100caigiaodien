@@ -198,6 +198,9 @@ Phải chọn rõ behavior của từng panel:
 - Nếu gọi là panel in-flow, nó được nằm dưới header và có thể đẩy nội dung xuống.
 - Nếu gọi là popup/dropdown/floating stack, nó phải là overlay/floating bằng `position: absolute` hoặc cơ chế tương đương, không được đẩy nội dung home xuống.
 - Popup menu nên canh theo cạnh phải header/container, có width giới hạn, shadow/border rõ, và không tràn viewport từ `320px`.
+- Nếu menu mobile là dropdown nhỏ, không dùng width lớn cố định kiểu drawer/panel. Dropdown phải co theo nội dung, có `min-width`, `max-width`, padding, font size và item height hợp lý.
+- Popup menu mobile cần được kiểm tra ở trạng thái đang mở. Header đóng nhìn ổn không có nghĩa là dropdown/search popup đã ổn.
+- Nếu khách nói popup bị "dư" hoặc "phô", kiểm tra tỉ lệ thị giác trước: width, padding, radius, shadow và chiều cao item, không chỉ kiểm tra tràn viewport.
 - Mobile search ưu tiên nằm trong flow nếu cần nhập liệu thoải mái. Nếu search cũng là popup, nó phải theo cùng luật overlay và không neo theo `.head-right` hoặc cụm icon nhỏ.
 
 ## 7. Footer
@@ -704,6 +707,8 @@ Các điểm này đã được rút ra từ feedback thực tế và phải áp
 - Header phải cân giữa theo chiều dọc.
 - Mobile menu và search phải nhìn gọn, không bung layout.
 - Nếu menu mobile là popup/stack, nó phải float/overlay, không đẩy nội dung xuống.
+- Popup menu mobile phải chọn rõ dạng dropdown hay drawer. Dropdown nhỏ thì co theo nội dung và neo dưới/cạnh nút menu; drawer/panel thì phải có lý do rõ và kiểm soát full-width.
+- Không dùng width lớn cố định cho dropdown ít item, vì dù không tràn vẫn tạo cảm giác dư và phô.
 - Footer không tự set `margin-top` để tạo khoảng cách; spacing trước footer thuộc về section cuối hoặc wrapper nội dung.
 - Với các style mới, chỉnh cô lập đúng phạm vi. Nếu sửa header/footer thì kiểm tra mọi trang; nếu sửa home thì không làm ảnh hưởng trang khác.
 - Nếu search vỡ layout, không chỉ kiểm tra popup. Phải kiểm tra chính form: label ẩn, input width, button width, grid/flex item và CSS global/Bootstrap đang đè không.
