@@ -2,8 +2,9 @@ footer.des6-discovery-footer {
     margin-top: 0;
     padding: 3.25rem 0 2.4rem;
     border-top: 1px solid rgba(#211922, 0.08);
-    background-color: #33332e;
-    color: #ffffff;
+    background:
+        linear-gradient(180deg, #ffffff 0, #fffdf8 100%);
+    color: #211922;
 }
 
 .des6-discovery-footer .des6-foot-shell {
@@ -22,7 +23,7 @@ footer.des6-discovery-footer {
     display: inline-flex;
     align-items: center;
     max-width: 100%;
-    color: #ffffff;
+    color: #211922;
     font-size: 1.4rem;
     font-weight: 800;
     line-height: 1.15;
@@ -42,13 +43,13 @@ footer.des6-discovery-footer {
 .des6-discovery-footer .foot-brand p {
     max-width: 24rem;
     margin: 0.8rem 0 0;
-    color: rgba(#ffffff, 0.68);
+    color: rgba(#211922, 0.68);
     line-height: 1.55;
 }
 
 .des6-discovery-footer .foot-title {
     margin-bottom: 0.75rem;
-    color: #e5e5e0;
+    color: #e60023;
     font-size: 0.78rem;
     font-weight: 800;
     letter-spacing: 0;
@@ -67,7 +68,7 @@ footer.des6-discovery-footer {
 
 .des6-discovery-footer .foot-links a,
 .des6-discovery-footer .foot-latest-list a {
-    color: rgba(#ffffff, 0.78);
+    color: rgba(#211922, 0.82);
     font-weight: 700;
     line-height: 1.35;
     overflow-wrap: anywhere;
@@ -75,7 +76,7 @@ footer.des6-discovery-footer {
 
 .des6-discovery-footer .foot-links a:hover,
 .des6-discovery-footer .foot-latest-list a:hover {
-    color: #ffffff;
+    color: #e60023;
 }
 
 .des6-discovery-footer .foot-latest-list {
@@ -95,18 +96,20 @@ footer.des6-discovery-footer {
 }
 
 .des6-discovery-footer .foot-search-form input {
+    display: block;
+    width: 100%;
     min-width: 0;
     min-height: 2.8rem;
-    border: 1px solid rgba(#ffffff, 0.18);
+    border: 1px solid rgba(#62625b, 0.24);
     border-radius: 1rem;
     padding: 0 0.85rem;
-    background-color: rgba(#ffffff, 0.08);
-    color: #ffffff;
+    background-color: #ffffff;
+    color: #211922;
     outline: 0;
 }
 
 .des6-discovery-footer .foot-search-form input::placeholder {
-    color: rgba(#ffffff, 0.58);
+    color: rgba(#62625b, 0.72);
 }
 
 .des6-discovery-footer .foot-search-form input:focus {
@@ -114,6 +117,9 @@ footer.des6-discovery-footer {
 }
 
 .des6-discovery-footer .foot-search-form button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     min-height: 2.8rem;
     border: 0;
     border-radius: 1rem;
@@ -121,6 +127,7 @@ footer.des6-discovery-footer {
     background-color: #e60023;
     color: #ffffff;
     font-weight: 800;
+    white-space: nowrap;
 }
 
 .des6-discovery-footer .foot-search-form button:hover,
@@ -131,8 +138,8 @@ footer.des6-discovery-footer {
 .des6-discovery-footer .foot-bottom {
     margin-top: 2rem;
     padding-top: 1rem;
-    border-top: 1px solid rgba(#ffffff, 0.12);
-    color: rgba(#ffffff, 0.58);
+    border-top: 1px solid rgba(#211922, 0.1);
+    color: rgba(#211922, 0.58);
     font-size: 0.9rem;
 }
 
@@ -160,7 +167,7 @@ footer.des6-discovery-footer {
     .des6-discovery-footer .foot-latest,
     .des6-discovery-footer .foot-search {
         padding-top: 1rem;
-        border-top: 1px solid rgba(#ffffff, 0.12);
+        border-top: 1px solid rgba(#211922, 0.1);
     }
 }
 

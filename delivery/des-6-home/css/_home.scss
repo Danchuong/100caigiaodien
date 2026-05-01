@@ -36,18 +36,17 @@
 
 .des6-hero-layout {
     display: grid;
-    grid-template-columns: minmax(17rem, 0.82fr) minmax(0, 1.18fr);
-    gap: 1.4rem;
+    grid-template-columns: minmax(18rem, 27rem) minmax(0, 1fr);
+    gap: 1.25rem;
     align-items: start;
 }
 
 .des6-hero-copy {
-    position: sticky;
-    top: 6.4rem;
+    position: static;
     min-width: 0;
     padding: 1.35rem;
     border: 1px solid rgba(#211922, 0.08);
-    border-radius: 2rem;
+    border-radius: 1.65rem;
     background-color: rgba(#ffffff, 0.74);
 }
 
@@ -64,8 +63,8 @@
 .des6-hero-copy h1 {
     margin: 0;
     color: var(--des6-plum);
-    font-size: 4.05rem;
-    line-height: 0.96;
+    font-size: 3rem;
+    line-height: 1;
     font-weight: 800;
     letter-spacing: 0;
     overflow-wrap: anywhere;
@@ -80,9 +79,8 @@
 }
 
 .des6-hero-search {
-    display: grid;
-    grid-template-columns: minmax(0, 1fr) auto;
-    align-items: center;
+    display: flex;
+    align-items: stretch;
     margin-top: 1.25rem;
     border: 1px solid rgba(#62625b, 0.28);
     border-radius: 1rem;
@@ -91,6 +89,9 @@
 }
 
 .des6-hero-search input {
+    display: block;
+    flex: 1 1 auto;
+    width: auto;
     min-width: 0;
     min-height: 3rem;
     border: 0;
@@ -109,6 +110,10 @@
 }
 
 .des6-hero-search button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 auto;
     min-height: 3rem;
     border: 0;
     border-left: 1px solid rgba(#62625b, 0.18);
@@ -116,6 +121,7 @@
     background-color: var(--des6-red);
     color: #ffffff;
     font-weight: 800;
+    white-space: nowrap;
 }
 
 .des6-hero-links {
@@ -146,20 +152,19 @@
 }
 
 .des6-pin-board {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1rem;
     min-width: 0;
-    column-count: 3;
-    column-gap: 1rem;
 }
 
 .des6-pin-card {
-    display: inline-block;
-    width: 100%;
-    margin: 0 0 1rem;
+    display: grid;
+    min-width: 0;
     border: 1px solid rgba(#211922, 0.08);
     border-radius: 1.45rem;
     background-color: #ffffff;
     overflow: hidden;
-    break-inside: avoid;
 }
 
 .des6-pin-card:hover {
@@ -180,14 +185,6 @@
 
 .des6-pin-media {
     aspect-ratio: 4/3;
-}
-
-.des6-pin-card.tall .des6-pin-media {
-    aspect-ratio: 4/5;
-}
-
-.des6-pin-card.wide .des6-pin-media {
-    aspect-ratio: 3/2;
 }
 
 .des6-pin-media.no-image,
@@ -341,7 +338,7 @@
 
 .des6-review-card.is-featured {
     grid-column: span 2;
-    grid-row: span 2;
+    grid-row: auto;
 }
 
 .des6-review-media {
@@ -370,7 +367,7 @@
 
 .des6-game-grid {
     display: grid;
-    grid-template-columns: repeat(5, minmax(0, 1fr));
+    grid-template-columns: repeat(4, minmax(0, 1fr));
     gap: 1rem;
 }
 
@@ -404,15 +401,15 @@
 
 @media (max-width: 1199.9px) {
     .des6-hero-copy h1 {
-        font-size: 3.25rem;
+        font-size: 2.55rem;
     }
 
     .des6-pin-board {
-        column-count: 2;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 
     .des6-game-grid {
-        grid-template-columns: repeat(4, minmax(0, 1fr));
+        grid-template-columns: repeat(3, minmax(0, 1fr));
     }
 }
 
@@ -431,7 +428,11 @@
 
     .des6-hero-copy h1 {
         max-width: 40rem;
-        font-size: 2.65rem;
+        font-size: 2.25rem;
+    }
+
+    .des6-pin-board {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
     }
 
     .des6-review-grid {
@@ -454,17 +455,16 @@
     }
 
     .des6-hero-copy h1 {
-        font-size: 2.15rem;
+        font-size: 1.95rem;
         line-height: 1;
     }
 
     .des6-pin-board {
-        column-count: 2;
-        column-gap: 0.75rem;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 0.75rem;
     }
 
     .des6-pin-card {
-        margin-bottom: 0.75rem;
         border-radius: 1.15rem;
     }
 
@@ -520,16 +520,17 @@
     }
 
     .des6-hero-search {
-        grid-template-columns: 1fr;
+        display: flex;
     }
 
     .des6-hero-search button {
-        border-left: 0;
-        border-top: 1px solid rgba(#62625b, 0.18);
+        border-left: 1px solid rgba(#62625b, 0.18);
+        border-top: 0;
+        padding: 0 0.75rem;
     }
 
     .des6-pin-board {
-        column-count: 1;
+        grid-template-columns: 1fr;
     }
 
     .des6-game-grid {
@@ -537,9 +538,20 @@
     }
 }
 
+@media (max-width: 520px) {
+    .des6-pin-board,
+    .des6-game-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .des6-hero-search button {
+        padding: 0 0.7rem;
+    }
+}
+
 @media (max-width: 370px) {
     .des6-hero-copy h1 {
-        font-size: 1.85rem;
+        font-size: 1.7rem;
     }
 
     .des6-blog-body,

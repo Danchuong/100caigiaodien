@@ -21,6 +21,7 @@ header.des6-discovery-header {
 }
 
 .des6-discovery-header .head-wrapper {
+    position: relative;
     display: grid;
     grid-template-columns: minmax(8rem, auto) minmax(16rem, 1fr) minmax(0, auto);
     min-height: 4.8rem;
@@ -77,9 +78,8 @@ header.des6-discovery-header {
 }
 
 .des6-discovery-header .head-search-form {
-    display: grid;
-    grid-template-columns: minmax(0, 1fr) auto;
-    align-items: center;
+    display: flex;
+    align-items: stretch;
     width: min(100%, 36rem);
     min-width: 0;
     border: 1px solid rgba($des6-olive, 0.28);
@@ -89,6 +89,9 @@ header.des6-discovery-header {
 }
 
 .des6-discovery-header .head-search-input {
+    display: block;
+    flex: 1 1 auto;
+    width: auto;
     min-width: 0;
     min-height: 2.9rem;
     border: 0;
@@ -107,6 +110,10 @@ header.des6-discovery-header {
 }
 
 .des6-discovery-header .head-search-submit {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 auto;
     min-height: 2.9rem;
     border: 0;
     border-left: 1px solid rgba($des6-olive, 0.18);
@@ -114,6 +121,7 @@ header.des6-discovery-header {
     background-color: $des6-red;
     color: $white;
     font-weight: 800;
+    white-space: nowrap;
 }
 
 .des6-discovery-header .head-search-submit:hover,
@@ -280,26 +288,29 @@ header.des6-discovery-header {
     }
 
     .des6-discovery-header .head-center {
-        grid-column: 1 / -1;
-        grid-row: 2;
-        display: grid;
-        max-height: 0;
-        padding-bottom: 0;
-        overflow: hidden;
+        position: absolute;
+        top: calc(100% + 0.55rem);
+        right: 0;
+        z-index: 1003;
+        display: block;
+        width: min(30rem, calc(100vw - 1.5rem));
+        max-height: none;
+        overflow: visible;
         opacity: 0;
         pointer-events: none;
-        transition: max-height 0.15s ease, opacity 0.15s ease, padding-bottom 0.15s ease;
+        transform: translateY(-0.3rem);
+        transition: opacity 0.15s ease, transform 0.15s ease;
     }
 
     .des6-discovery-header .head-center.active {
-        max-height: 5rem;
-        padding-bottom: 0.75rem;
         opacity: 1;
         pointer-events: auto;
+        transform: translateY(0);
     }
 
     .des6-discovery-header .head-search-form {
         width: 100%;
+        box-shadow: 0 1rem 2.5rem rgba($des6-plum, 0.14);
     }
 
     .des6-discovery-header .head-btn,
@@ -373,6 +384,14 @@ header.des6-discovery-header {
     }
 
     .des6-discovery-header .head-search-submit {
-        padding: 0 0.72rem;
+        padding: 0 0.65rem;
+    }
+}
+
+@media (max-width: 520px) {
+    .des6-discovery-header .head-center {
+        right: 0;
+        left: 0;
+        width: auto;
     }
 }

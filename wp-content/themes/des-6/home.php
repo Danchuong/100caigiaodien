@@ -15,16 +15,32 @@ $des6_post_label = function ( $post_id, $fallback ) {
 	$tags = get_the_tags( $post_id );
 
 	if ( ! empty( $tags ) && ! is_wp_error( $tags ) ) {
-		return $tags[0]->name;
+		$tag_name = $tags[0]->name;
+
+		if ( strtolower( $tag_name ) !== strtolower( $fallback ) && strtolower( $tag_name ) !== strtolower( $fallback . 's' ) ) {
+			return $tag_name;
+		}
 	}
 
 	$categories = get_the_category( $post_id );
 
 	if ( ! empty( $categories ) && ! is_wp_error( $categories ) ) {
-		return $categories[0]->name;
+		$category = $categories[0];
+
+		if ( 'uncategorized' !== $category->slug && strtolower( $category->name ) !== strtolower( $fallback ) && strtolower( $category->name ) !== strtolower( $fallback . 's' ) ) {
+			return $category->name;
+		}
 	}
 
 	return $fallback;
+};
+
+$des6_meta_label = function ( $type_label, $item_label ) {
+	if ( strtolower( $item_label ) === strtolower( $type_label ) ) {
+		return $type_label;
+	}
+
+	return $type_label . ' / ' . $item_label;
 };
 
 $des6_type_label = function ( $post_type ) {
@@ -42,8 +58,8 @@ $des6_type_label = function ( $post_type ) {
 $feature_query = new WP_Query(
 	array(
 		'post_type'           => array( 'blog', 'review', 'post' ),
-		'posts_per_page'      => 8,
-		'orderby'             => 'rand',
+		'posts_per_page'      => 6,
+		'orderby'             => 'date',
 		'order'               => 'DESC',
 		'post_status'         => 'publish',
 		'ignore_sticky_posts' => true,
@@ -106,22 +122,19 @@ $game_query = new WP_Query(
 				<?php if ( $feature_query->have_posts() ) : ?>
 					<div class="des6-pin-board" aria-label="Featured discoveries">
 						<?php
-						$pin_index = 0;
 						while ( $feature_query->have_posts() ) :
 							$feature_query->the_post();
-							$pin_index++;
 							$post_id      = get_the_ID();
 							$post_type    = get_post_type( $post_id );
 							$type_label   = $des6_type_label( $post_type );
 							$item_label   = $des6_post_label( $post_id, $type_label );
 							$thumbnail    = get_the_post_thumbnail_url( $post_id, 'large' );
 							$image_class  = $thumbnail ? ' has-image' : ' no-image';
-							$size_variant = 0 === $pin_index % 5 ? ' tall' : ( 0 === $pin_index % 3 ? ' wide' : '' );
 							?>
-							<a class="des6-pin-card<?php echo esc_attr( $size_variant ); ?>" href="<?php echo esc_url( get_permalink() ); ?>">
+							<a class="des6-pin-card" href="<?php echo esc_url( get_permalink() ); ?>">
 								<span class="des6-pin-media<?php echo esc_attr( $image_class ); ?>"<?php echo $thumbnail ? ' style="background-image: url(' . esc_url( $thumbnail ) . ')"' : ''; ?>></span>
 								<span class="des6-pin-body">
-									<span class="des6-pin-meta"><?php echo esc_html( $type_label ); ?> / <?php echo esc_html( $item_label ); ?></span>
+									<span class="des6-pin-meta"><?php echo esc_html( $des6_meta_label( $type_label, $item_label ) ); ?></span>
 									<strong><?php echo esc_html( get_the_title() ); ?></strong>
 								</span>
 							</a>
