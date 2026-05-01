@@ -1,458 +1,515 @@
-.home {
-    background-color: #f4efe7;
+$des5-ink: #000000;
+$des5-page-ink: #1a1a1a;
+$des5-paper: #ffffff;
+$des5-link: #057dbc;
+$des5-rule: #d9d9d9;
+$des5-muted: #757575;
 
-    .site-body {
-        background:
-            linear-gradient(90deg, rgba(#14110f, 0.045) 1px, transparent 1px),
-            linear-gradient(#f4efe7, #fffaf0 42%, #f4efe7);
-        background-size: 72px 72px, 100% 100%;
-    }
-}
-
-.home-issue {
-    color: #171412;
-    padding-bottom: 1rem;
-}
-
-.issue-cover {
-    margin-bottom: 0;
-    padding: 4rem 0 4.5rem;
-    border-bottom: 1px solid rgba(#171412, 0.18);
-}
-
-.issue-cover-grid {
-    display: grid;
-    grid-template-columns: minmax(9rem, 0.48fr) minmax(16rem, 25rem) minmax(20rem, 1fr);
-    gap: 2rem;
-    align-items: end;
-}
-
-.issue-cover-index {
-    display: flex;
-    flex-direction: column;
-    gap: 0.65rem;
-    padding-bottom: 1rem;
-    border-top: 2px solid #171412;
+.des5-home-page {
+    color: $des5-page-ink;
+    background: $des5-paper;
+    overflow-x: hidden;
+    padding-bottom: 3rem;
 
     a {
-        min-height: 44px;
-        display: flex;
-        align-items: center;
-        color: #171412;
-        border-bottom: 1px solid rgba(#171412, 0.18);
-        font-weight: 600;
+        color: inherit;
+        text-decoration: none;
 
         &:hover {
-            color: #a23d2b;
+            color: $des5-link;
+            text-decoration: underline;
         }
+    }
+
+    img {
+        display: block;
+        width: 100%;
+        max-width: 100%;
+        object-fit: cover;
+        border-radius: 0;
+    }
+
+    h1,
+    h2,
+    h3,
+    p {
+        overflow-wrap: anywhere;
     }
 }
 
-.issue-small-title,
-.issue-kicker,
-.issue-cover-meta,
-.issue-section-head,
-.notebook-item p,
-.review-index-card span {
+.des5-front-page {
+    padding: 2rem 0 3rem;
+}
+
+.des5-issue-rule {
+    min-height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+    padding: 0.45rem 0;
+    border-top: 4px solid $des5-ink;
+    border-bottom: 1px solid $des5-ink;
+    font-family: "Courier New", Courier, monospace;
     font-size: 0.78rem;
-    font-weight: 700;
+    line-height: 1.2;
+    text-transform: uppercase;
+
+    a {
+        min-height: 32px;
+        display: inline-flex;
+        align-items: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+}
+
+.des5-front-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1.5fr) minmax(14rem, 0.78fr) minmax(13rem, 0.62fr);
+    gap: 1.5rem;
+    align-items: start;
+}
+
+.des5-lead-story,
+.des5-wire-list,
+.des5-game-rail,
+.des5-ledger-item,
+.des5-review-tile,
+.des5-game-tile {
+    min-width: 0;
+}
+
+.des5-lead-media {
+    display: block;
+    margin-bottom: 1rem;
+
+    img {
+        aspect-ratio: 16 / 9;
+        border-bottom: 4px solid $des5-ink;
+    }
+}
+
+.des5-kicker,
+.des5-meta,
+.des5-ribbon,
+.des5-section-head p,
+.des5-wire-item p,
+.des5-game-rail-item p {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 0.76rem;
+    line-height: 1.25;
     letter-spacing: 0;
     text-transform: uppercase;
 }
 
-.issue-small-title {
-    padding-top: 0.8rem;
-    color: #a23d2b;
+.des5-kicker {
+    margin-bottom: 0.45rem;
+    color: $des5-ink;
 }
 
-.issue-cover-art {
-    display: block;
-    padding: 0.65rem;
-    background-color: #171412;
-    transform: rotate(-1.25deg);
+.des5-meta {
+    color: $des5-muted;
+}
 
-    img {
-        display: block;
-        width: 100%;
-        aspect-ratio: 3 / 4;
-        object-fit: cover;
-        background-color: #ddd4c8;
+.des5-lead-story {
+    h1 {
+        margin: 0 0 0.85rem;
+        color: $des5-page-ink;
+        font-family: Georgia, "Times New Roman", serif;
+        font-size: 4.6rem;
+        font-weight: 400;
+        line-height: 1.02;
+        letter-spacing: 0;
     }
-
-    &:hover {
-        transform: rotate(0deg) translateY(-0.25rem);
-    }
-}
-
-.issue-cover-copy {
-    padding: 0 0 1rem;
-}
-
-.issue-kicker {
-    color: #a23d2b;
-    margin-bottom: 1rem;
-}
-
-.issue-cover-title {
-    font-family: Georgia, "Times New Roman", serif;
-    font-size: 5rem;
-    line-height: 0.94;
-    letter-spacing: 0;
-    margin-bottom: 1rem;
-
-    a {
-        color: #171412;
-
-        &:hover {
-            color: #a23d2b;
-        }
-    }
-}
-
-.issue-cover-meta {
-    color: rgba(#171412, 0.62);
-    margin-bottom: 1.25rem;
-}
-
-.issue-link {
-    min-height: 44px;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid #171412;
-    color: #171412;
-    padding: 0.65rem 1.25rem;
-    font-weight: 700;
-
-    &:hover {
-        background-color: #171412;
-        color: #fffaf0;
-    }
-}
-
-.issue-section {
-    margin-bottom: 0;
-    padding: 3.25rem 0;
-    border-bottom: 1px solid rgba(#171412, 0.14);
-}
-
-.issue-section-head {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 1rem;
-    margin-bottom: 1.35rem;
 
     p {
-        margin: 0;
-        color: #a23d2b;
-    }
-
-    a {
-        min-height: 44px;
-        display: inline-flex;
-        align-items: center;
-        color: #171412;
-        font-weight: 700;
-        border-bottom: 1px solid currentColor;
-
-        &:hover {
-            color: #a23d2b;
-        }
+        max-width: 44rem;
+        margin: 0 0 0.9rem;
+        font-family: Georgia, "Times New Roman", serif;
+        font-size: 1.1rem;
+        line-height: 1.5;
     }
 }
 
-.editor-pick-grid {
-    display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    border-top: 2px solid #171412;
-    border-left: 1px solid rgba(#171412, 0.18);
-}
-
-.editor-pick-card {
-    min-height: 18rem;
+.des5-ribbon {
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 1.4rem;
-    color: #171412;
-    background-color: rgba(#fffaf0, 0.72);
-    border-right: 1px solid rgba(#171412, 0.18);
-    border-bottom: 1px solid rgba(#171412, 0.18);
+    align-items: center;
+    min-height: 34px;
+    margin-bottom: 0;
+    padding: 0 0.75rem;
+    color: $des5-paper;
+    background: $des5-ink;
+    font-weight: 700;
+}
 
-    span {
-        font-weight: 700;
-        color: #a23d2b;
+.des5-wire-list,
+.des5-game-rail {
+    border-top: 1px solid $des5-ink;
+}
+
+.des5-wire-item {
+    display: grid;
+    grid-template-columns: 3.4rem minmax(0, 1fr);
+    gap: 0.75rem;
+    padding: 1rem 0;
+    border-bottom: 1px solid $des5-ink;
+
+    > span {
+        color: $des5-ink;
+        font-family: Georgia, "Times New Roman", serif;
+        font-size: 2.4rem;
+        line-height: 0.9;
+    }
+
+    p {
+        margin: 0 0 0.35rem;
+        color: $des5-muted;
     }
 
     h2 {
+        margin: 0;
         font-family: Georgia, "Times New Roman", serif;
-        font-size: 2.35rem;
-        line-height: 1;
+        font-size: 1.45rem;
+        font-weight: 400;
+        line-height: 1.12;
         letter-spacing: 0;
-        margin: 2rem 0;
+        @include line-truncate(4, 1.63rem);
+    }
+}
+
+.des5-game-rail-item {
+    display: grid;
+    grid-template-columns: 5.5rem minmax(0, 1fr);
+    gap: 0.85rem;
+    align-items: start;
+    padding: 1rem 0;
+    border-bottom: 1px solid $des5-ink;
+
+    img {
+        aspect-ratio: 1 / 1;
     }
 
     p {
+        margin: 0 0 0.35rem;
+        color: $des5-muted;
+    }
+
+    h2 {
         margin: 0;
-        color: rgba(#171412, 0.62);
-        font-weight: 600;
-    }
-
-    &:hover {
-        background-color: #171412;
-        color: #fffaf0;
-
-        p {
-            color: rgba(#fffaf0, 0.72);
-        }
+        font-size: 1.05rem;
+        font-weight: 700;
+        line-height: 1.18;
+        letter-spacing: 0;
+        @include line-truncate(4, 1.24rem);
     }
 }
 
-.notebook-list {
-    border-top: 2px solid #171412;
+.des5-home-section {
+    padding: 3rem 0;
+    border-top: 1px solid $des5-rule;
 }
 
-.notebook-item {
+.des5-section-head {
     display: grid;
-    grid-template-columns: 5rem 1fr;
+    grid-template-columns: auto minmax(0, 1fr) auto;
     gap: 1rem;
-    padding: 1.15rem 0;
-    color: #171412;
-    border-bottom: 1px solid rgba(#171412, 0.16);
+    align-items: end;
+    margin-bottom: 1.25rem;
+    padding-top: 0.75rem;
+    border-top: 4px solid $des5-ink;
+
+    p {
+        margin: 0 0 0.2rem;
+        color: $des5-muted;
+    }
+
+    h2 {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.35rem;
+        font-weight: 800;
+        line-height: 1.1;
+        letter-spacing: 0;
+        text-transform: uppercase;
+    }
+
+    a {
+        min-height: 36px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: flex-end;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 0.86rem;
+        font-weight: 700;
+        line-height: 1.2;
+        text-transform: uppercase;
+        text-decoration: underline;
+    }
+}
+
+.des5-ledger-list {
+    border-top: 1px solid $des5-ink;
+}
+
+.des5-ledger-item {
+    display: grid;
+    grid-template-columns: 4.8rem minmax(0, 1fr);
+    gap: 1.25rem;
+    padding: 1.2rem 0;
+    border-bottom: 1px solid $des5-ink;
 
     > span {
+        color: $des5-ink;
         font-family: Georgia, "Times New Roman", serif;
-        font-size: 2rem;
-        line-height: 1;
-        color: rgba(#171412, 0.42);
+        font-size: 2.8rem;
+        line-height: 0.9;
+    }
+}
+
+.des5-ledger-copy {
+    min-width: 0;
+
+    h3 {
+        margin: 0 0 0.55rem;
+        font-family: Georgia, "Times New Roman", serif;
+        font-size: 2.15rem;
+        font-weight: 400;
+        line-height: 1.08;
+        letter-spacing: 0;
     }
 
     p {
-        margin-bottom: 0.35rem;
-        color: #a23d2b;
-    }
-
-    h3 {
+        max-width: 48rem;
+        margin: 0 0 0.75rem;
+        color: $des5-page-ink;
         font-family: Georgia, "Times New Roman", serif;
-        font-size: 2rem;
-        line-height: 1.08;
-        letter-spacing: 0;
-        margin: 0;
-    }
-
-    &:hover {
-        color: #a23d2b;
+        font-size: 1rem;
+        line-height: 1.5;
     }
 }
 
-.review-index-grid {
+.des5-review-grid {
     display: grid;
     grid-template-columns: repeat(4, minmax(0, 1fr));
-    gap: 1rem;
+    border-top: 1px solid $des5-ink;
+    border-left: 1px solid $des5-ink;
 }
 
-.review-index-card {
+.des5-review-tile {
+    padding: 1rem;
+    border-right: 1px solid $des5-ink;
+    border-bottom: 1px solid $des5-ink;
+
+    &.is-featured {
+        grid-column: span 2;
+        grid-row: span 2;
+    }
+
+    h3 {
+        margin: 0;
+        font-family: Georgia, "Times New Roman", serif;
+        font-size: 1.35rem;
+        font-weight: 400;
+        line-height: 1.14;
+        letter-spacing: 0;
+        @include line-truncate(4, 1.54rem);
+    }
+
+    p {
+        margin: 0.75rem 0 0;
+        font-family: Georgia, "Times New Roman", serif;
+        line-height: 1.5;
+    }
+}
+
+.des5-review-tile.is-featured h3 {
+    font-size: 2.35rem;
+    line-height: 1.06;
+    @include line-truncate(4, 2.5rem);
+}
+
+.des5-review-media {
+    display: block;
+    margin-bottom: 0.85rem;
+
+    img {
+        aspect-ratio: 4 / 3;
+    }
+}
+
+.des5-review-tile.is-featured .des5-review-media img {
+    aspect-ratio: 16 / 9;
+}
+
+.des5-game-grid {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    border-top: 1px solid $des5-ink;
+    border-left: 1px solid $des5-ink;
+}
+
+.des5-game-tile {
     display: flex;
     flex-direction: column;
-    min-height: 100%;
-    color: #171412;
-    background-color: #fffaf0;
-    border: 1px solid rgba(#171412, 0.16);
+    gap: 0.8rem;
+    padding: 1rem;
+    border-right: 1px solid $des5-ink;
+    border-bottom: 1px solid $des5-ink;
 
-    img {
-        width: 100%;
-        aspect-ratio: 4 / 3;
-        object-fit: cover;
-        filter: saturate(0.75);
-    }
-
-    div {
-        padding: 1rem;
-    }
-
-    span {
-        display: block;
-        color: #a23d2b;
-        margin-bottom: 0.5rem;
+    &.is-featured {
+        grid-column: span 2;
+        display: grid;
+        grid-template-columns: minmax(0, 0.95fr) minmax(0, 1fr);
+        align-items: end;
     }
 
     h3 {
-        font-size: 1.2rem;
-        line-height: 1.2;
         margin: 0;
-        @include line-truncate(3, 1.45rem);
-    }
-
-    &:hover {
-        border-color: #171412;
-        transform: translateY(-0.15rem);
-    }
-}
-
-.game-shelf-grid {
-    display: grid;
-    grid-template-columns: repeat(6, minmax(0, 1fr));
-    gap: 0.75rem;
-}
-
-.game-shelf-card {
-    color: #171412;
-
-    img {
-        width: 100%;
-        aspect-ratio: 1 / 1;
-        object-fit: cover;
-        border: 1px solid rgba(#171412, 0.16);
-        filter: grayscale(0.1);
-    }
-
-    h3 {
-        font-size: 1rem;
-        line-height: 1.2;
-        margin-top: 0.65rem;
-        @include line-truncate(2, 1.25rem);
-    }
-
-    &:hover {
-        color: #a23d2b;
+        font-size: 1.08rem;
+        font-weight: 800;
+        line-height: 1.16;
+        letter-spacing: 0;
+        @include line-truncate(4, 1.25rem);
     }
 }
 
-@media (max-width: 1100px) {
-    .issue-cover-grid {
-        grid-template-columns: minmax(8rem, 0.4fr) minmax(14rem, 21rem) minmax(18rem, 1fr);
+.des5-game-media img {
+    aspect-ratio: 1 / 1;
+}
+
+.des5-game-tile.is-featured h3 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 1.08;
+    @include line-truncate(4, 2.16rem);
+}
+
+@media (max-width: 1180px) {
+    .des5-front-grid {
+        grid-template-columns: minmax(0, 1.35fr) minmax(15rem, 0.8fr);
     }
 
-    .issue-cover-title {
-        font-size: 4rem;
+    .des5-game-rail {
+        grid-column: 1 / -1;
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 0 1.25rem;
     }
 
-    .game-shelf-grid {
+    .des5-game-rail .des5-ribbon {
+        grid-column: 1 / -1;
+    }
+
+    .des5-lead-story h1 {
+        font-size: 3.8rem;
+    }
+
+    .des5-game-grid {
         grid-template-columns: repeat(3, minmax(0, 1fr));
     }
 }
 
-@media (max-width: 842px) {
-    .issue-cover {
-        padding: 2rem 0 2.5rem;
+@media (max-width: 860px) {
+    .des5-front-page {
+        padding: 1.5rem 0 2.25rem;
     }
 
-    .issue-cover-grid {
-        grid-template-columns: 1fr;
-        gap: 1.25rem;
-    }
-
-    .issue-cover-art {
-        order: 1;
-        width: min(100%, 21rem);
-        margin: 0 auto;
-    }
-
-    .issue-cover-copy {
-        order: 2;
-        padding-bottom: 0;
-    }
-
-    .issue-cover-index {
-        order: 3;
-        padding-bottom: 0;
-    }
-
-    .issue-cover-title {
-        font-size: 3.15rem;
-    }
-
-    .editor-pick-grid,
-    .review-index-grid {
+    .des5-front-grid,
+    .des5-game-rail {
         grid-template-columns: 1fr;
     }
 
-    .editor-pick-card {
-        min-height: 12rem;
-
-        h2 {
-            font-size: 2rem;
-        }
+    .des5-lead-story h1 {
+        font-size: 2.8rem;
+        line-height: 1.06;
     }
 
-    .notebook-item {
-        grid-template-columns: 3.2rem 1fr;
-
-        h3 {
-            font-size: 1.55rem;
-        }
-    }
-}
-
-@media (max-width: 540px) {
-    .home .site-body {
-        background-size: 48px 48px, 100% 100%;
-    }
-
-    .issue-cover {
-        padding-top: 1.25rem;
-    }
-
-    .issue-cover-title {
-        font-size: 2.45rem;
-        line-height: 1;
-    }
-
-    .issue-cover-art {
-        padding: 0.45rem;
-        transform: none;
-    }
-
-    .issue-section {
+    .des5-home-section {
         padding: 2.25rem 0;
     }
 
-    .issue-section-head {
-        align-items: flex-end;
-    }
-
-    .editor-pick-card {
-        padding: 1rem;
-
-        h2 {
-            font-size: 1.55rem;
-        }
-    }
-
-    .notebook-item {
-        grid-template-columns: 2.4rem 1fr;
-
-        > span {
-            font-size: 1.35rem;
-        }
-
-        h3 {
-            font-size: 1.3rem;
-        }
-    }
-
-    .review-index-card {
-        display: grid;
-        grid-template-columns: 5.75rem 1fr;
-
-        img {
-            height: 100%;
-            aspect-ratio: 1 / 1;
-        }
-    }
-
-    .game-shelf-grid {
+    .des5-review-grid {
         grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .des5-review-tile.is-featured {
+        grid-column: 1 / -1;
+    }
+
+    .des5-game-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .des5-game-tile.is-featured {
+        grid-column: 1 / -1;
     }
 }
 
-@media (max-width: 340px) {
-    .issue-cover-title {
+@media (max-width: 620px) {
+    .des5-home-page {
+        padding-bottom: 2rem;
+    }
+
+    .des5-issue-rule,
+    .des5-section-head {
+        grid-template-columns: 1fr;
+    }
+
+    .des5-issue-rule {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .des5-section-head {
+        gap: 0.35rem;
+    }
+
+    .des5-section-head a {
+        justify-content: flex-start;
+    }
+
+    .des5-ledger-item {
+        grid-template-columns: 3.2rem minmax(0, 1fr);
+        gap: 0.8rem;
+    }
+
+    .des5-ledger-item > span,
+    .des5-wire-item > span {
+        font-size: 2rem;
+    }
+
+    .des5-ledger-copy h3,
+    .des5-review-tile.is-featured h3,
+    .des5-game-tile.is-featured h3 {
+        font-size: 1.65rem;
+        line-height: 1.12;
+    }
+
+    .des5-review-grid,
+    .des5-game-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .des5-game-tile.is-featured {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 380px) {
+    .des5-lead-story h1 {
         font-size: 2.15rem;
     }
 
-    .game-shelf-grid {
+    .des5-wire-item,
+    .des5-game-rail-item {
+        grid-template-columns: 1fr;
+    }
+
+    .des5-ledger-item {
         grid-template-columns: 1fr;
     }
 }

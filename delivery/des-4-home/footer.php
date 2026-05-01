@@ -43,7 +43,10 @@ $popular_games_link = function_exists( 'get_field' ) && get_field( 'popular_game
                                     'post_type'           => 'blog',
                                     'posts_per_page'      => 4,
                                     'post_status'         => 'publish',
+                                    'orderby'             => 'date',
+                                    'order'               => 'DESC',
                                     'ignore_sticky_posts' => true,
+                                    'no_found_rows'       => true,
                                 )
                             );
                             if ( $footer_blog_query->have_posts() ) :
@@ -68,7 +71,10 @@ $popular_games_link = function_exists( 'get_field' ) && get_field( 'popular_game
                                     'post_type'           => 'review',
                                     'posts_per_page'      => 4,
                                     'post_status'         => 'publish',
+                                    'orderby'             => 'date',
+                                    'order'               => 'DESC',
                                     'ignore_sticky_posts' => true,
+                                    'no_found_rows'       => true,
                                 )
                             );
                             if ( $footer_review_query->have_posts() ) :
@@ -85,7 +91,7 @@ $popular_games_link = function_exists( 'get_field' ) && get_field( 'popular_game
                     </div>
 
                     <div class="foot-column">
-                        <div class="foot-title">Popular Games</div>
+                        <div class="foot-title">Latest Games</div>
                         <ul>
                             <?php
                             $footer_game_query = new WP_Query(
@@ -93,7 +99,10 @@ $popular_games_link = function_exists( 'get_field' ) && get_field( 'popular_game
                                     'post_type'           => 'post',
                                     'posts_per_page'      => 4,
                                     'post_status'         => 'publish',
+                                    'orderby'             => 'date',
+                                    'order'               => 'DESC',
                                     'ignore_sticky_posts' => true,
+                                    'no_found_rows'       => true,
                                 )
                             );
                             if ( $footer_game_query->have_posts() ) :
@@ -124,22 +133,33 @@ $popular_games_link = function_exists( 'get_field' ) && get_field( 'popular_game
         const menu = document.querySelector(".head-menu");
         const searchBtn = document.querySelector(".head-search-btn");
         const search = document.querySelector(".head-search");
+        const setExpanded = function (button, isOpen) {
+            if (button) button.setAttribute("aria-expanded", isOpen ? "true" : "false");
+        };
 
         if (menuBtn && menu) {
             if (menuBtn.contains(e.target)) {
-                menu.classList.toggle("active");
+                const willOpen = !menu.classList.contains("active");
+                menu.classList.toggle("active", willOpen);
+                setExpanded(menuBtn, willOpen);
                 if (search) search.classList.remove("active");
+                setExpanded(searchBtn, false);
             } else if (!menu.contains(e.target)) {
                 menu.classList.remove("active");
+                setExpanded(menuBtn, false);
             }
         }
 
         if (searchBtn && search) {
             if (searchBtn.contains(e.target)) {
-                search.classList.toggle("active");
+                const willOpen = !search.classList.contains("active");
+                search.classList.toggle("active", willOpen);
+                setExpanded(searchBtn, willOpen);
                 if (menu) menu.classList.remove("active");
+                setExpanded(menuBtn, false);
             } else if (!search.contains(e.target)) {
                 search.classList.remove("active");
+                setExpanded(searchBtn, false);
             }
         }
     });

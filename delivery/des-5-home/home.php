@@ -8,18 +8,34 @@ get_header();
 $des5_link = function( $field_name, $fallback_path ) {
     $field_value = function_exists( 'get_field' ) ? get_field( $field_name ) : '';
 
-    return $field_value ? esc_url( $field_value ) : esc_url( home_url( $fallback_path ) );
+    if ( is_array( $field_value ) && ! empty( $field_value['url'] ) ) {
+        return esc_url( $field_value['url'] );
+    }
+
+    if ( is_string( $field_value ) && '' !== $field_value ) {
+        return esc_url( $field_value );
+    }
+
+    return esc_url( home_url( $fallback_path ) );
 };
 
-$des5_image = function( $post_id ) {
-    if ( has_post_thumbnail( $post_id ) ) {
-        return esc_url( wp_get_attachment_url( get_post_thumbnail_id( $post_id ) ) );
+$des5_image = function( $post_id, $size = 'large' ) {
+    $image = get_the_post_thumbnail_url( $post_id, $size );
+
+    if ( $image ) {
+        return esc_url( $image );
     }
 
     return esc_url( get_stylesheet_directory_uri() . '/images/android.png' );
 };
 
 $des5_label = function( $post_id, $fallback = 'Article' ) {
+    $categories = get_the_category( $post_id );
+
+    if ( ! empty( $categories ) ) {
+        return esc_html( $categories[0]->name );
+    }
+
     $tags = get_the_tags( $post_id );
 
     if ( ! empty( $tags ) ) {
@@ -29,217 +45,197 @@ $des5_label = function( $post_id, $fallback = 'Article' ) {
     return esc_html( $fallback );
 };
 
-$blog_link   = $des5_link( 'latest_blog', '/blogs' );
-$review_link = $des5_link( 'latest_review', '/reviews' );
-$game_link   = $des5_link( 'popular_games', '/html5-games' );
-$cover_ids   = array();
+$des5_excerpt = function( $post_id, $words = 24 ) {
+    $raw_excerpt = has_excerpt( $post_id ) ? get_the_excerpt( $post_id ) : get_post_field( 'post_content', $post_id );
+    $clean_text   = wp_strip_all_tags( strip_shortcodes( $raw_excerpt ) );
 
-$cover_query = new WP_Query(
+    return esc_html( wp_trim_words( $clean_text, $words ) );
+};
+
+$blog_link   = $des5_link( 'latest_blog', '/blogs/' );
+$review_link = $des5_link( 'latest_review', '/reviews/' );
+$game_link   = $des5_link( 'popular_games', '/html5-games/' );
+$game_ids    = array();
+
+$blog_query = new WP_Query(
     array(
-        'post_type'           => 'blog',
-        'posts_per_page'      => 1,
-        'orderby'             => 'date',
-        'order'               => 'DESC',
-        'post_status'         => 'publish',
-        'ignore_sticky_posts' => true,
+        'post_type'      => 'blog',
+        'posts_per_page' => 3,
+        'orderby'        => 'rand',
+        'order'          => 'DESC',
+        'post_status'    => 'publish',
     )
 );
+
+$review_query = new WP_Query(
+    array(
+        'post_type'      => 'review',
+        'posts_per_page' => 5,
+        'orderby'        => 'rand',
+        'order'          => 'DESC',
+        'post_status'    => 'publish',
+    )
+);
+
+$game_query = new WP_Query(
+    array(
+        'post_type'      => 'post',
+        'posts_per_page' => 5,
+        'post__not_in'   => $game_ids,
+        'orderby'        => 'rand',
+        'order'          => 'DESC',
+        'post_status'    => 'publish',
+    )
+);
+
+$blog_posts   = $blog_query->posts;
+$review_posts = $review_query->posts;
+$game_posts   = $game_query->posts;
+$lead_blog    = ! empty( $blog_posts ) ? $blog_posts[0] : null;
 ?>
 
-<div class="home-issue">
-    <?php if ( $cover_query->have_posts() ) : ?>
-        <?php
-        $cover_query->the_post();
-        $cover_ids[] = get_the_ID();
-        ?>
-        <section class="issue-cover" aria-label="Editorial cover">
-            <div class="container">
-                <div class="issue-cover-grid">
-                    <aside class="issue-cover-index" aria-label="Issue index">
-                        <div class="issue-small-title">Issue Index</div>
-                        <a href="<?php echo $blog_link; ?>">Latest Blogs</a>
-                        <a href="<?php echo $review_link; ?>">Reviews</a>
-                        <a href="<?php echo $game_link; ?>">Games</a>
-                    </aside>
+<div class="des5-home-page">
+    <section class="des5-front-page" aria-label="Front page">
+        <div class="container">
+            <div class="des5-issue-rule">
+                <span>Front Page</span>
+                <a href="<?php echo $review_link; ?>">Review Archive</a>
+            </div>
 
-                    <a class="issue-cover-art" href="<?php echo esc_url( get_permalink() ); ?>">
-                        <img src="<?php echo $des5_image( get_the_ID() ); ?>" alt="<?php echo esc_attr( get_the_title() ); ?>">
-                    </a>
-
-                    <div class="issue-cover-copy">
-                        <div class="issue-kicker"><?php echo $des5_label( get_the_ID(), 'Latest Blog' ); ?></div>
-                        <h1 class="issue-cover-title">
-                            <a href="<?php echo esc_url( get_permalink() ); ?>"><?php echo esc_html( get_the_title() ); ?></a>
+            <div class="des5-front-grid">
+                <?php if ( $lead_blog ) : ?>
+                    <article class="des5-lead-story">
+                        <a class="des5-lead-media" href="<?php echo esc_url( get_permalink( $lead_blog ) ); ?>">
+                            <img src="<?php echo $des5_image( $lead_blog->ID, 'large' ); ?>" alt="<?php echo esc_attr( get_the_title( $lead_blog ) ); ?>" loading="eager">
+                        </a>
+                        <div class="des5-kicker"><?php echo $des5_label( $lead_blog->ID, 'Blog' ); ?></div>
+                        <h1>
+                            <a href="<?php echo esc_url( get_permalink( $lead_blog ) ); ?>"><?php echo esc_html( get_the_title( $lead_blog ) ); ?></a>
                         </h1>
-                        <div class="issue-cover-meta"><?php echo esc_html( get_the_date( 'M j, Y' ) ); ?></div>
-                        <a class="issue-link" href="<?php echo esc_url( get_permalink() ); ?>">Read article</a>
-                    </div>
+                        <p><?php echo $des5_excerpt( $lead_blog->ID, 26 ); ?></p>
+                        <div class="des5-meta"><?php echo esc_html( get_the_date( 'M j, Y', $lead_blog ) ); ?></div>
+                    </article>
+                <?php endif; ?>
+
+                <?php if ( ! empty( $review_posts ) ) : ?>
+                    <aside class="des5-wire-list" aria-label="Review wire">
+                        <div class="des5-ribbon">Review Wire</div>
+                        <?php foreach ( array_slice( $review_posts, 0, 3 ) as $index => $review_post ) : ?>
+                            <a class="des5-wire-item" href="<?php echo esc_url( get_permalink( $review_post ) ); ?>">
+                                <span><?php echo esc_html( str_pad( (string) ( $index + 1 ), 2, '0', STR_PAD_LEFT ) ); ?></span>
+                                <div>
+                                    <p>Review</p>
+                                    <h2><?php echo esc_html( get_the_title( $review_post ) ); ?></h2>
+                                </div>
+                            </a>
+                        <?php endforeach; ?>
+                    </aside>
+                <?php endif; ?>
+
+                <?php if ( ! empty( $game_posts ) ) : ?>
+                    <aside class="des5-game-rail" aria-label="Game rail">
+                        <div class="des5-ribbon">Game Queue</div>
+                        <?php foreach ( array_slice( $game_posts, 0, 2 ) as $game_post ) : ?>
+                            <a class="des5-game-rail-item" href="<?php echo esc_url( get_permalink( $game_post ) ); ?>">
+                                <img src="<?php echo $des5_image( $game_post->ID, 'medium' ); ?>" alt="<?php echo esc_attr( get_the_title( $game_post ) ); ?>" loading="lazy">
+                                <div>
+                                    <p><?php echo $des5_label( $game_post->ID, 'Game' ); ?></p>
+                                    <h2><?php echo esc_html( get_the_title( $game_post ) ); ?></h2>
+                                </div>
+                            </a>
+                        <?php endforeach; ?>
+                    </aside>
+                <?php endif; ?>
+            </div>
+        </div>
+    </section>
+
+    <?php if ( ! empty( $blog_posts ) ) : ?>
+        <section class="des5-home-section des5-blog-ledger" aria-labelledby="des5-blogs-title">
+            <div class="container">
+                <div class="des5-section-head">
+                    <p>Blogs</p>
+                    <h2 id="des5-blogs-title">Notebook</h2>
+                    <a href="<?php echo $blog_link; ?>">All blogs</a>
+                </div>
+
+                <div class="des5-ledger-list">
+                    <?php foreach ( $blog_posts as $index => $blog_post ) : ?>
+                        <article class="des5-ledger-item">
+                            <span><?php echo esc_html( str_pad( (string) ( $index + 1 ), 2, '0', STR_PAD_LEFT ) ); ?></span>
+                            <div class="des5-ledger-copy">
+                                <div class="des5-kicker"><?php echo $des5_label( $blog_post->ID, 'Blog' ); ?></div>
+                                <h3>
+                                    <a href="<?php echo esc_url( get_permalink( $blog_post ) ); ?>"><?php echo esc_html( get_the_title( $blog_post ) ); ?></a>
+                                </h3>
+                                <p><?php echo $des5_excerpt( $blog_post->ID, 20 ); ?></p>
+                                <div class="des5-meta"><?php echo esc_html( get_the_date( 'M j, Y', $blog_post ) ); ?></div>
+                            </div>
+                        </article>
+                    <?php endforeach; ?>
                 </div>
             </div>
         </section>
-        <?php wp_reset_postdata(); ?>
     <?php endif; ?>
 
-    <section class="issue-section issue-editor-picks" aria-label="Editor picks">
-        <div class="container">
-            <div class="issue-section-head">
-                <p>Editor Picks</p>
-                <a href="<?php echo $review_link; ?>">View reviews</a>
-            </div>
-
-            <?php
-            $editor_query = new WP_Query(
-                array(
-                    'post_type'           => 'review',
-                    'posts_per_page'      => 3,
-                    'orderby'             => 'date',
-                    'order'               => 'DESC',
-                    'post_status'         => 'publish',
-                    'ignore_sticky_posts' => true,
-                )
-            );
-            ?>
-
-            <?php if ( $editor_query->have_posts() ) : ?>
-                <div class="editor-pick-grid">
-                    <?php
-                    $pick_number = 1;
-                    while ( $editor_query->have_posts() ) :
-                        $editor_query->the_post();
-                        ?>
-                        <a class="editor-pick-card" href="<?php echo esc_url( get_permalink() ); ?>">
-                            <span><?php echo esc_html( str_pad( $pick_number, 2, '0', STR_PAD_LEFT ) ); ?></span>
-                            <h2><?php echo esc_html( get_the_title() ); ?></h2>
-                            <p><?php echo esc_html( get_the_date( 'M j' ) ); ?></p>
-                        </a>
-                        <?php
-                        $pick_number++;
-                    endwhile;
-                    ?>
+    <?php if ( ! empty( $review_posts ) ) : ?>
+        <section class="des5-home-section des5-review-desk" aria-labelledby="des5-reviews-title">
+            <div class="container">
+                <div class="des5-section-head">
+                    <p>Reviews</p>
+                    <h2 id="des5-reviews-title">Critic Picks</h2>
+                    <a href="<?php echo $review_link; ?>">All reviews</a>
                 </div>
-                <?php wp_reset_postdata(); ?>
-            <?php endif; ?>
-        </div>
-    </section>
 
-    <section class="issue-section issue-notebook" aria-label="Latest blog notebook">
-        <div class="container">
-            <div class="issue-section-head">
-                <p>Notebook</p>
-                <a href="<?php echo $blog_link; ?>">All blogs</a>
+                <div class="des5-review-grid">
+                    <?php foreach ( $review_posts as $index => $review_post ) : ?>
+                        <article class="des5-review-tile<?php echo 0 === $index ? ' is-featured' : ''; ?>">
+                            <a class="des5-review-media" href="<?php echo esc_url( get_permalink( $review_post ) ); ?>">
+                                <img src="<?php echo $des5_image( $review_post->ID, 0 === $index ? 'large' : 'medium' ); ?>" alt="<?php echo esc_attr( get_the_title( $review_post ) ); ?>" loading="lazy">
+                            </a>
+                            <div class="des5-kicker">Review</div>
+                            <h3>
+                                <a href="<?php echo esc_url( get_permalink( $review_post ) ); ?>"><?php echo esc_html( get_the_title( $review_post ) ); ?></a>
+                            </h3>
+                            <?php if ( 0 === $index ) : ?>
+                                <p><?php echo $des5_excerpt( $review_post->ID, 22 ); ?></p>
+                            <?php endif; ?>
+                        </article>
+                    <?php endforeach; ?>
+                </div>
             </div>
+        </section>
+    <?php endif; ?>
 
-            <?php
-            $blog_query = new WP_Query(
-                array(
-                    'post_type'           => 'blog',
-                    'posts_per_page'      => 4,
-                    'post__not_in'        => $cover_ids,
-                    'orderby'             => 'date',
-                    'order'               => 'DESC',
-                    'post_status'         => 'publish',
-                    'ignore_sticky_posts' => true,
-                )
-            );
-            ?>
+    <?php if ( ! empty( $game_posts ) ) : ?>
+        <section class="des5-home-section des5-game-index" aria-labelledby="des5-games-title">
+            <div class="container">
+                <div class="des5-section-head">
+                    <p>Games</p>
+                    <h2 id="des5-games-title">Game Shelf</h2>
+                    <a href="<?php echo $game_link; ?>">All games</a>
+                </div>
 
-            <?php if ( $blog_query->have_posts() ) : ?>
-                <div class="notebook-list">
-                    <?php
-                    $note_number = 1;
-                    while ( $blog_query->have_posts() ) :
-                        $blog_query->the_post();
-                        ?>
-                        <a class="notebook-item" href="<?php echo esc_url( get_permalink() ); ?>">
-                            <span><?php echo esc_html( str_pad( $note_number, 2, '0', STR_PAD_LEFT ) ); ?></span>
+                <div class="des5-game-grid">
+                    <?php foreach ( $game_posts as $index => $game_post ) : ?>
+                        <article class="des5-game-tile<?php echo 0 === $index ? ' is-featured' : ''; ?>">
+                            <a class="des5-game-media" href="<?php echo esc_url( get_permalink( $game_post ) ); ?>">
+                                <img src="<?php echo $des5_image( $game_post->ID, 'medium' ); ?>" alt="<?php echo esc_attr( get_the_title( $game_post ) ); ?>" loading="lazy">
+                            </a>
                             <div>
-                                <p><?php echo $des5_label( get_the_ID(), 'Blog' ); ?></p>
-                                <h3><?php echo esc_html( get_the_title() ); ?></h3>
+                                <div class="des5-kicker"><?php echo $des5_label( $game_post->ID, 'Game' ); ?></div>
+                                <h3>
+                                    <a href="<?php echo esc_url( get_permalink( $game_post ) ); ?>"><?php echo esc_html( get_the_title( $game_post ) ); ?></a>
+                                </h3>
                             </div>
-                        </a>
-                        <?php
-                        $note_number++;
-                    endwhile;
-                    ?>
+                        </article>
+                    <?php endforeach; ?>
                 </div>
-                <?php wp_reset_postdata(); ?>
-            <?php endif; ?>
-        </div>
-    </section>
-
-    <section class="issue-section issue-review-index" aria-label="Review index">
-        <div class="container">
-            <div class="issue-section-head">
-                <p>Review Index</p>
-                <a href="<?php echo $review_link; ?>">All reviews</a>
             </div>
-
-            <?php
-            $review_query = new WP_Query(
-                array(
-                    'post_type'           => 'review',
-                    'posts_per_page'      => 4,
-                    'orderby'             => 'rand',
-                    'order'               => 'DESC',
-                    'post_status'         => 'publish',
-                    'ignore_sticky_posts' => true,
-                )
-            );
-            ?>
-
-            <?php if ( $review_query->have_posts() ) : ?>
-                <div class="review-index-grid">
-                    <?php while ( $review_query->have_posts() ) : ?>
-                        <?php $review_query->the_post(); ?>
-                        <a class="review-index-card" href="<?php echo esc_url( get_permalink() ); ?>">
-                            <img src="<?php echo $des5_image( get_the_ID() ); ?>" alt="<?php echo esc_attr( get_the_title() ); ?>">
-                            <div>
-                                <span>Review</span>
-                                <h3><?php echo esc_html( get_the_title() ); ?></h3>
-                            </div>
-                        </a>
-                    <?php endwhile; ?>
-                </div>
-                <?php wp_reset_postdata(); ?>
-            <?php endif; ?>
-        </div>
-    </section>
-
-    <section class="issue-section issue-game-shelf" aria-label="Game shelf">
-        <div class="container">
-            <div class="issue-section-head">
-                <p>Game Shelf</p>
-                <a href="<?php echo $game_link; ?>">All games</a>
-            </div>
-
-            <?php
-            $game_query = new WP_Query(
-                array(
-                    'post_type'           => 'post',
-                    'posts_per_page'      => 6,
-                    'orderby'             => 'rand',
-                    'order'               => 'DESC',
-                    'post_status'         => 'publish',
-                    'ignore_sticky_posts' => true,
-                )
-            );
-            ?>
-
-            <?php if ( $game_query->have_posts() ) : ?>
-                <div class="game-shelf-grid">
-                    <?php while ( $game_query->have_posts() ) : ?>
-                        <?php $game_query->the_post(); ?>
-                        <a class="game-shelf-card" href="<?php echo esc_url( get_permalink() ); ?>">
-                            <img src="<?php echo $des5_image( get_the_ID() ); ?>" alt="<?php echo esc_attr( get_the_title() ); ?>">
-                            <h3><?php echo esc_html( get_the_title() ); ?></h3>
-                        </a>
-                    <?php endwhile; ?>
-                </div>
-                <?php wp_reset_postdata(); ?>
-            <?php endif; ?>
-        </div>
-    </section>
+        </section>
+    <?php endif; ?>
 </div>
 
 <?php
+wp_reset_postdata();
 get_footer();

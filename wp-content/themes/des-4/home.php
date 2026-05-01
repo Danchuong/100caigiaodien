@@ -9,19 +9,16 @@ $latest_review_link = function_exists( 'get_field' ) && get_field( 'latest_revie
 $popular_games_link = function_exists( 'get_field' ) && get_field( 'popular_games' ) ? get_field( 'popular_games' ) : home_url( '/html5-games/' );
 $fallback_image     = get_stylesheet_directory_uri() . '/images/android.png';
 $mosaic_ids         = array();
+$game_ids           = array();
 ?>
 
+<div class="des4-home-page">
 <section class="mosaic-home">
     <div class="container">
         <div class="mosaic-lead">
             <div class="mosaic-lead-left">
-                <div class="mosaic-kicker">News Wall</div>
-                <h1 class="mosaic-title">Gaming stories, reviews, and playable picks in one fast scan.</h1>
-            </div>
-            <div class="mosaic-lead-links" aria-label="Home sections">
-                <a href="<?php echo esc_url( $latest_blog_link ); ?>">Blogs</a>
-                <a href="<?php echo esc_url( $latest_review_link ); ?>">Reviews</a>
-                <a href="<?php echo esc_url( $popular_games_link ); ?>">Games</a>
+                <div class="mosaic-kicker">Blog Picks</div>
+                <h1 class="mosaic-title">Game stories, reviews, and playable picks in a premium channel.</h1>
             </div>
         </div>
 
@@ -30,7 +27,7 @@ $mosaic_ids         = array();
             array(
                 'post_type'           => 'blog',
                 'posts_per_page'      => 5,
-                'orderby'             => 'date',
+                'orderby'             => 'rand',
                 'order'               => 'DESC',
                 'post_status'         => 'publish',
                 'ignore_sticky_posts' => true,
@@ -47,7 +44,7 @@ $mosaic_ids         = array();
                     $mosaic_ids[] = get_the_ID();
                     $image_url    = has_post_thumbnail() ? wp_get_attachment_url( get_post_thumbnail_id() ) : $fallback_image;
                     $tags_post    = get_the_tags();
-                    $tag_name     = ! empty( $tags_post ) ? $tags_post[0]->name : 'News';
+                    $tag_name     = ! empty( $tags_post ) ? $tags_post[0]->name : 'Blog';
                     $card_class   = 1 === $mosaic_count ? 'mosaic-card mosaic-card-large' : 'mosaic-card mosaic-card-small';
                     ?>
                     <a class="<?php echo esc_attr( $card_class ); ?>" href="<?php echo esc_url( get_permalink() ); ?>">
@@ -70,8 +67,8 @@ $mosaic_ids         = array();
     <div class="container">
         <div class="portal-section-head">
             <div>
-                <span class="portal-section-kicker">Latest Blogs</span>
-                <h2>Fresh headlines</h2>
+                <span class="portal-section-kicker">Blog Picks</span>
+                <h2>More to read</h2>
             </div>
             <a href="<?php echo esc_url( $latest_blog_link ); ?>">View all</a>
         </div>
@@ -80,9 +77,9 @@ $mosaic_ids         = array();
         $blog_query = new WP_Query(
             array(
                 'post_type'           => 'blog',
-                'posts_per_page'      => 6,
+                'posts_per_page'      => 3,
                 'post__not_in'        => $mosaic_ids,
-                'orderby'             => 'date',
+                'orderby'             => 'rand',
                 'order'               => 'DESC',
                 'post_status'         => 'publish',
                 'ignore_sticky_posts' => true,
@@ -116,8 +113,8 @@ $mosaic_ids         = array();
     <div class="container">
         <div class="portal-section-head">
             <div>
-                <span class="portal-section-kicker">Reviews</span>
-                <h2>Critic lane</h2>
+                <span class="portal-section-kicker">Review Picks</span>
+                <h2>Review Desk</h2>
             </div>
             <a href="<?php echo esc_url( $latest_review_link ); ?>">View all</a>
         </div>
@@ -127,24 +124,21 @@ $mosaic_ids         = array();
             array(
                 'post_type'           => 'review',
                 'posts_per_page'      => 5,
-                'orderby'             => 'date',
+                'orderby'             => 'rand',
                 'order'               => 'DESC',
                 'post_status'         => 'publish',
                 'ignore_sticky_posts' => true,
             )
         );
         if ( $review_query->have_posts() ) :
-            $review_number = 0;
             ?>
             <div class="review-lane">
                 <?php
                 while ( $review_query->have_posts() ) :
                     $review_query->the_post();
-                    $review_number++;
                     $image_url = has_post_thumbnail() ? wp_get_attachment_url( get_post_thumbnail_id() ) : $fallback_image;
                     ?>
                     <a class="review-lane-item" href="<?php echo esc_url( get_permalink() ); ?>">
-                        <span class="review-rank"><?php echo esc_html( str_pad( (string) $review_number, 2, '0', STR_PAD_LEFT ) ); ?></span>
                         <span class="review-lane-image" style="background-image: url(<?php echo esc_url( $image_url ); ?>)"></span>
                         <span class="review-lane-content">
                             <span class="review-label">Review</span>
@@ -165,7 +159,7 @@ $mosaic_ids         = array();
         <div class="portal-section-head">
             <div>
                 <span class="portal-section-kicker">Games</span>
-                <h2>Popular picks</h2>
+                <h2>Playable Picks</h2>
             </div>
             <a href="<?php echo esc_url( $popular_games_link ); ?>">View all</a>
         </div>
@@ -174,8 +168,9 @@ $mosaic_ids         = array();
         $game_query = new WP_Query(
             array(
                 'post_type'           => 'post',
-                'posts_per_page'      => 8,
-                'orderby'             => 'date',
+                'posts_per_page'      => 5,
+                'post__not_in'        => $game_ids,
+                'orderby'             => 'rand',
                 'order'               => 'DESC',
                 'post_status'         => 'publish',
                 'ignore_sticky_posts' => true,
@@ -201,6 +196,7 @@ $mosaic_ids         = array();
         ?>
     </div>
 </section>
+</div>
 
 <?php
 get_footer();

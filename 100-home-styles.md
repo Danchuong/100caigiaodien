@@ -8,7 +8,12 @@ Mục tiêu không phải tạo 100 bản đổi màu. Mỗi theme phải có **
 
 - `des-1`: `Accepted`.
 - `des-2`: `Accepted`.
-- `des-3` tới `des-10`: `Needs Audit`. Source/folder có tồn tại nhưng chưa được kiểm lại theo rule mới; không xem là ship-ready nếu chưa QA và chưa có zip mới.
+- `des-3`: `Accepted`. Khách đã chốt sau chỉnh Review Picks thành icon vuông.
+- `des-4`: `Delivery Ready`. Đã làm theo `docs/getdesign/playstation/DESIGN.md`, đã fix lỗi `/reviews/`; đang chờ review thủ công của user trước khi gửi tiếp.
+- `des-5`: `Delivery Ready`. Đã làm theo `docs/getdesign/wired/DESIGN.md`; cần review thủ công trước khi gửi khách.
+- `des-6`: `Delivery Ready`. Đã làm theo `docs/getdesign/pinterest/DESIGN.md`; cần review thủ công trước khi gửi khách.
+- `des-7`: `Delivery Ready`. Đã làm theo `docs/getdesign/theverge/DESIGN.md`; cần review thủ công trước khi gửi khách.
+- `des-8` tới `des-10`: `Needs Audit`. Source/folder có tồn tại từ batch cũ nhưng chưa được kiểm lại theo rule mới; không xem là ship-ready nếu chưa QA và chưa có zip mới.
 - `des-11` tới `des-100`: `Spec Ready`. Chưa build.
 
 Không đánh `Shipped` nếu chưa có `delivery/des-N-home.zip` đã test OK. Không đánh `Accepted` nếu khách chưa duyệt.
@@ -259,11 +264,12 @@ Data risk: No fake scores
 
 ### des-3 - Center Lead Newspaper
 
-Status: Needs Audit
+Status: Accepted
 Family: Magazine front page
 Compare against: des-1, des-2
 Similarity risk: Medium
 Data risk: Avoid fake newsletter/social
+Progress note: Khách đã chốt. Bản gửi cuối đã đổi Review Picks thành dạng icon vuông, không còn list chữ lặp `Review`.
 
 - Header: H14 Magazine Logo Wall; white base, centered large logo, menu line below, search icon right.
 - Above-fold: editorial/news-led; centered headline with one restrained lead image or text-first lead.
@@ -273,69 +279,77 @@ Data risk: Avoid fake newsletter/social
 - Mobile signature: logo/header height controlled; columns collapse into chronological feed.
 - Risk/must avoid: center logo can get too tall; no repeated headline; no generic legal footer.
 
-### des-4 - Mosaic News Wall
+### des-4 - PlayStation Channel Mosaic
 
-Status: Needs Audit
-Family: Magazine front page
+Status: Delivery Ready
+Family: Game channel portal
 Compare against: des-2, des-3
-Similarity risk: Medium
+Similarity risk: Low
 Data risk: Overlay text must stay short
+Getdesign source: `docs/getdesign/playstation/DESIGN.md`
+Progress note: Đã build, render local, tạo `delivery/des-4-home.zip`, và đã fix lỗi `/reviews/` do `_reviews.scss` cũ có margin âm. Đang chờ user review thủ công.
 
-- Header: H03 Navy Utility Stack; navy base, slim real latest/topic strip, primary nav below.
-- Above-fold: image-led mosaic; one large story plus four small stories.
-- Flow/order: mosaic, blogs, reviews, games.
-- Card/grid: mixed image ratios, overlay category/title only, no long excerpt on image.
-- Footer: F01 White Sitemap Footer or F16 Dense Portal Footer; link groups real.
-- Mobile signature: mosaic becomes story stack with category/title only.
+- Header: H03/H08 hybrid; dark premium channel, live/latest strip, search riêng, `main-menu` duy nhất.
+- Above-fold: image-led premium game channel; one large story plus smaller story cards.
+- Flow/order: dark mosaic, blogs, reviews, games.
+- Card/grid: product-like image tiles, rounded cards, quiet large type, blue/cyan interaction.
+- Footer: F05/F16 hybrid; cobalt/dark directory continuation with real links.
+- Mobile signature: mosaic becomes story stack, search/menu controlled at 320px.
 - Risk/must avoid: no duplicate topbar menu; no unreadable image overlay.
 
-### des-5 - Editorial Issue Cover
+### des-5 - WIRED Broadsheet Front Page
 
-Status: Needs Audit
+Status: Delivery Ready
 Family: Magazine front page
 Compare against: des-3, des-4
-Similarity risk: Medium
+Similarity risk: Low
 Data risk: No fake issue metadata beyond simple labels
+Getdesign source: `docs/getdesign/wired/DESIGN.md`
+Progress note: Đã build, render local, tạo `delivery/des-5-home.zip`; cần user review thủ công trước khi gửi khách.
 
-- Header: H15 Minimal Text Header; white base, sparse nav, small search icon.
-- Above-fold: issue/cover-led; one vertical cover feature with issue index beside it.
-- Flow/order: editor picks, reviews, games, blogs.
-- Card/grid: large typography cards, editorial index rows, restrained thumbnails.
-- Footer: F12 Minimal Brand Footer; minimal nav/copyright.
+- Header: H15/H01 hybrid; black desk strip + white editorial masthead, `main-menu` duy nhất.
+- Above-fold: broadsheet front page; lead blog, review wire, game rail.
+- Flow/order: cover/front grid, blog ledger, critic picks, game shelf.
+- Card/grid: hard-rule square media, newspaper rows, no shadows.
+- Footer: F10/F02 hybrid; dark magazine footer with real latest links.
 - Mobile signature: cover first, issue index below, cards become plain reading list.
 - Risk/must avoid: do not create fake newsletter/signup; avoid oversized first viewport.
 
-### des-6 - Carousel Above News Desk
+### des-6 - Pinterest Discovery Board
 
-Status: Needs Audit
-Family: Magazine front page
+Status: Delivery Ready
+Family: Visual discovery portal
 Compare against: des-2, des-4
-Similarity risk: High
-Data risk: Carousel must work without JS dependency if possible
+Similarity risk: Low
+Data risk: Image discovery must use real thumbnails where available
+Getdesign source: `docs/getdesign/pinterest/DESIGN.md`
+Progress note: Đã build, render local, tạo `delivery/des-6-home.zip`; cần user review thủ công trước khi gửi khách.
 
-- Header: H08 Topline News Header; black/navy base, latest real blog link, nav below.
-- Above-fold: ticker/live-desk or carousel; rotating/scrollable hero using real posts.
-- Flow/order: carousel, latest grid, reviews, games.
-- Card/grid: carousel panels + headline list, not same lead+rail as des-2.
-- Footer: F06 Latest Desk Footer; latest real content groups.
-- Mobile signature: horizontal rail or static first card, then list.
-- Risk/must avoid: no broken carousel controls; no long text in slides.
+- Header: H04 Search First Bar; warm white, search-first, `main-menu` duy nhất.
+- Above-fold: visual discovery board; search + rounded image pin board.
+- Flow/order: discovery hero, blog grid, review grid, game grid.
+- Card/grid: rounded image-first cards, masonry-like rhythm, warm red accent.
+- Footer: F18/F05 hybrid; dark warm discovery footer with search/browse links.
+- Mobile signature: search first, pins stack into image cards.
+- Risk/must avoid: no duplicate quick links; search scope must stay `reviews`.
 
-### des-7 - Split Hero Editor Picks
+### des-7 - The Verge Story Stream
 
-Status: Needs Audit
-Family: Magazine front page
+Status: Delivery Ready
+Family: Loud editorial front page
 Compare against: des-2, des-5
-Similarity risk: High
+Similarity risk: Low
 Data risk: Avoid fake newsletter footer
+Getdesign source: `docs/getdesign/theverge/DESIGN.md`
+Progress note: Đã build, render local, tạo `delivery/des-7-home.zip`; cần user review thủ công trước khi gửi khách.
 
-- Header: H06 Split Masthead; white/navy base, nav split around logo or split nav groups.
-- Above-fold: split feature + editor picks.
-- Flow/order: picks first, lead feature, reviews, games, blogs.
-- Card/grid: horizontal article cards and pick rows.
-- Footer: F14 Footer With Top Story; latest real article, no fake signup.
-- Mobile signature: picks before feature, then compact cards.
-- Risk/must avoid: split nav must still use one `main-menu`; no newsletter without backend.
+- Header: H06/H14 hybrid; near-black editorial masthead, one `wp_nav_menu()` source, search reviews only.
+- Above-fold: loud editorial cover board with saturated tiles.
+- Flow/order: cover, story timeline, review desk, game shelf.
+- Card/grid: rounded story stream, acid mint/purple accents, flat borders.
+- Footer: F07/F02 hybrid; archive/masthead continuation, no fake newsletter.
+- Mobile signature: story tiles and timeline collapse into stacked stream.
+- Risk/must avoid: no hard-coded duplicate nav; no fake subscribe/newsletter.
 
 ### des-8 - Newspaper Three Column
 

@@ -1,87 +1,160 @@
-footer.issue-foot {
+$des5-foot-ink: #1a1a1a;
+$des5-foot-black: #000000;
+$des5-foot-paper: #ffffff;
+$des5-foot-muted: rgba(255, 255, 255, 0.68);
+$des5-foot-rule: rgba(255, 255, 255, 0.22);
+$des5-foot-link: #057dbc;
+
+footer.des5-editorial-foot {
     margin-top: 0;
-    padding: 2rem 0;
-    color: #fffaf0;
-    background-color: #171412;
-    border-top: 0;
+    padding: 0;
+    color: $des5-foot-paper;
+    background: $des5-foot-ink;
+    border-top: 4px solid $des5-foot-black;
+    box-shadow: none;
 }
 
-.issue-foot {
-    .foot-wrapper {
+.des5-editorial-foot {
+    a {
+        color: inherit;
+        text-decoration: none;
+
+        &:hover {
+            color: $des5-foot-link;
+            text-decoration: underline;
+        }
+    }
+
+    .des5-foot-masthead {
         display: grid;
         grid-template-columns: minmax(0, 1fr) auto;
         gap: 1.5rem;
         align-items: end;
+        padding: 2.25rem 0 1.5rem;
+        border-bottom: 1px solid $des5-foot-rule;
     }
 
     .foot-logo {
+        display: inline-block;
+        max-width: 100%;
+        color: $des5-foot-paper;
         font-family: Georgia, "Times New Roman", serif;
-        font-size: 2rem;
-        line-height: 1;
-        color: #fffaf0;
+        font-size: 3rem;
+        line-height: 0.95;
+        letter-spacing: 0;
+        text-transform: uppercase;
+        overflow-wrap: anywhere;
     }
 
     .foot-brand p {
-        max-width: 34rem;
+        max-width: 42rem;
         margin: 0.85rem 0 0;
-        color: rgba(#fffaf0, 0.66);
+        color: $des5-foot-muted;
+        font-family: Georgia, "Times New Roman", serif;
+        font-size: 1rem;
+        line-height: 1.5;
     }
 
-    .foot-links {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: flex-end;
-        gap: 0.5rem 1rem;
+    .des5-foot-stamp {
+        min-height: 44px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0.55rem 0.8rem;
+        color: $des5-foot-paper;
+        border: 2px solid $des5-foot-paper;
+        font-family: "Courier New", Courier, monospace;
+        font-size: 0.74rem;
+        line-height: 1.2;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    .des5-foot-grid {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        border-left: 1px solid $des5-foot-rule;
+    }
+
+    .des5-foot-section {
+        min-width: 0;
+        padding: 1.25rem;
+        border-right: 1px solid $des5-foot-rule;
+        border-bottom: 1px solid $des5-foot-rule;
+
+        h2 {
+            margin: 0 0 0.85rem;
+            color: $des5-foot-paper;
+            font-family: "Courier New", Courier, monospace;
+            font-size: 0.78rem;
+            font-weight: 700;
+            line-height: 1.2;
+            letter-spacing: 0;
+            text-transform: uppercase;
+        }
 
         a {
-            min-height: 44px;
-            display: inline-flex;
+            min-height: 38px;
+            display: flex;
             align-items: center;
-            color: rgba(#fffaf0, 0.76);
+            color: $des5-foot-muted;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 0.95rem;
             font-weight: 700;
+            line-height: 1.2;
+            overflow-wrap: anywhere;
 
-            &:hover {
-                color: #fffaf0;
+            & + a {
+                border-top: 1px solid $des5-foot-rule;
             }
         }
     }
 
-    .foot-bottom {
-        margin-top: 1.5rem;
-        padding-top: 1rem;
-        border-top: 1px solid rgba(#fffaf0, 0.16);
-        color: rgba(#fffaf0, 0.56);
-        font-size: 0.9rem;
+    .des5-foot-primary a {
+        color: $des5-foot-paper;
+        text-transform: uppercase;
+    }
+
+    .des5-foot-bottom {
+        padding: 1rem 0 1.35rem;
+        color: $des5-foot-muted;
+        font-family: "Courier New", Courier, monospace;
+        font-size: 0.74rem;
+        line-height: 1.4;
+        text-transform: uppercase;
+        overflow-wrap: anywhere;
     }
 }
 
-@media (max-width: 720px) {
-    .issue-foot {
-        .foot-wrapper {
+@media (max-width: 860px) {
+    .des5-editorial-foot {
+        .des5-foot-masthead {
             grid-template-columns: 1fr;
             align-items: start;
         }
 
-        .foot-links {
-            justify-content: flex-start;
+        .des5-foot-stamp {
+            justify-self: start;
+        }
+
+        .des5-foot-grid {
+            grid-template-columns: 1fr;
         }
     }
 }
 
 @media (max-width: 420px) {
-    footer.issue-foot {
-        padding: 1.5rem 0;
-    }
-
-    .issue-foot {
-        .foot-logo {
-            font-size: 1.55rem;
+    .des5-editorial-foot {
+        .des5-foot-masthead {
+            padding-top: 1.6rem;
         }
 
-        .foot-links {
-            display: grid;
-            grid-template-columns: 1fr;
-            gap: 0.1rem;
+        .foot-logo {
+            font-size: 1.7rem;
+        }
+
+        .des5-foot-section {
+            padding: 1rem 0.75rem;
         }
     }
 }

@@ -9,7 +9,7 @@ $des5_search_key = isset( $_GET['key'] ) ? sanitize_text_field( wp_unslash( $_GE
 ?>
 <!doctype html>
 <html <?php language_attributes(); ?>>
-<head class="site-header">
+<head>
     <meta charset="<?php bloginfo( 'charset' ); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="profile" href="https://gmpg.org/xfn/11">
@@ -17,7 +17,13 @@ $des5_search_key = isset( $_GET['key'] ) ? sanitize_text_field( wp_unslash( $_GE
     <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
-        <header class="site-head editorial-head">
+        <header class="site-head des5-editorial-head">
+            <div class="des5-head-strip" aria-label="Site desk note">
+                <div class="container">
+                    <span>Game / Review / Blog Desk</span>
+                    <span><?php echo esc_html( date_i18n( 'M j, Y' ) ); ?></span>
+                </div>
+            </div>
             <div class="container">
                 <div class="head-wrapper">
                     <div class="head-left">
@@ -33,6 +39,7 @@ $des5_search_key = isset( $_GET['key'] ) ? sanitize_text_field( wp_unslash( $_GE
                                 array(
                                     'theme_location'  => 'main-menu',
                                     'menu_id'         => 'main-menu',
+                                    'container_id'     => 'des5-menu-panel',
                                     'container_class' => 'head-menu',
                                     'fallback_cb'     => false,
                                 )
@@ -42,20 +49,20 @@ $des5_search_key = isset( $_GET['key'] ) ? sanitize_text_field( wp_unslash( $_GE
                     </div>
 
                     <div class="head-right">
-                        <div class="head-search input-group">
+                        <div id="des5-search-panel" class="head-search">
                             <div class="head-search-wrapper">
-                                <form action="<?php echo esc_url( home_url( '/reviews' ) ); ?>" method="get">
-                                    <input type="text" class="form-control" placeholder="Search reviews" aria-label="Search reviews" value="<?php echo esc_attr( $des5_search_key ); ?>" name="key">
+                                <form action="<?php echo esc_url( home_url( '/reviews/' ) ); ?>" method="get" role="search">
+                                    <input type="search" placeholder="Search reviews" aria-label="Search reviews" value="<?php echo esc_attr( $des5_search_key ); ?>" name="key">
                                     <button class="head-search-submit" type="submit" aria-label="Submit search">
                                         <span class="icon-search"><span></span></span>
                                     </button>
                                 </form>
                             </div>
                         </div>
-                        <button class="btn head-search-btn" type="button" aria-label="Open search">
+                        <button class="head-search-btn" type="button" aria-label="Open search" aria-controls="des5-search-panel" aria-expanded="false">
                             <span class="icon-search"><span></span></span>
                         </button>
-                        <button class="btn head-btn" type="button" aria-label="Open menu">
+                        <button class="head-btn" type="button" aria-label="Open menu" aria-controls="des5-menu-panel" aria-expanded="false">
                             <span class="icon-menu"><span></span></span>
                         </button>
                     </div>
