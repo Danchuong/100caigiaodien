@@ -173,6 +173,9 @@ Search phải là chức năng thật:
 - Placeholder phải nói đúng phạm vi tìm kiếm, ví dụ `Search reviews` nếu action submit về `/reviews/`.
 - Nút submit phải là hành động thật, không chỉ là icon trang trí.
 - Mobile search không được mở kèm link phụ trùng menu.
+- Nếu form có `<label class="screen-reader-text">`, theme phải có CSS chuẩn để ẩn `.screen-reader-text`. Không để label accessibility hiện ra như text thường và phá layout search.
+- Search form custom nên ưu tiên `display: flex` cho `input + button`: input `flex: 1 1 auto; min-width: 0`, button `flex: 0 0 auto; white-space: nowrap`.
+- Không dùng grid search nếu trong form còn label/hidden element có thể trở thành grid item ngoài ý muốn.
 
 Desktop header phải align center theo chiều dọc giữa logo, nav, search và action buttons.
 
@@ -202,6 +205,8 @@ Phải chọn rõ behavior của từng panel:
 Footer không được là block generic chỉ đổi màu. Footer phải là phần kết tự nhiên của concept đang dùng.
 
 Khách muốn footer mỗi đơn cũng khác biệt thật nhưng vẫn an toàn global. Ưu tiên base trắng, đen hoặc navy; khác biệt chính đến từ anatomy, content thật, grid/cột, density và mobile behavior, không phải đổi màu mạnh.
+
+Nền footer phải ăn với phần home và header của style. Nếu home đang theo nền sáng/warm/card mềm, footer xám đậm hoặc gradient nặng sẽ bị cảm giác lạc theme. Chọn nền footer theo concept tổng thể, không chỉ chọn màu vì muốn khác.
 
 Mỗi footer cần có 3 lớp nội dung:
 
@@ -348,6 +353,7 @@ Yêu cầu responsive:
 - Card ảnh overlay trên mobile không được nhồi excerpt dài.
 - Footer xuống một cột hoặc nhóm full-width, link không làm rộng viewport.
 - Header/footer vẫn ổn ở blog detail, review detail, game detail, archive và search.
+- Kiểm tra thêm width trung gian như `390px`, `520px` và `768px`, không chỉ kiểm tra desktop và `320px`.
 
 Nếu phải chọn giữa giữ signature desktop và tránh lỗi 320px, ưu tiên tránh lỗi 320px.
 
@@ -359,8 +365,12 @@ Các lỗi cần tránh:
 - Dùng `max-height` để ẩn/mở input khiến focus bị cắt.
 - Dùng `width: 100vw`, `min-width` lớn, `margin-top` âm hoặc `left/right` âm không kiểm soát.
 - Header/footer bị sửa global chỉ để vá lỗi riêng homepage.
+- Thiếu rule accessibility nền tảng như `.screen-reader-text`, khiến label ẩn bị hiện ra và làm vỡ form.
+- Dùng `column-count`/masonry tự do cho nội dung random, vì title/thumbnail thật dễ làm cột cao thấp mất kiểm soát.
 
 Khi component đã sai nhiều, rewrite nguyên block component sạch theo contract class thay vì vá chồng nhiều rule nhỏ.
+
+Với layout visual board/masonry, nếu khách cần chắc layout hơn là hiệu ứng lạ, ưu tiên CSS grid có số cột và breakpoint rõ thay vì `column-count`.
 
 CSS của home phải được cô lập theo wrapper riêng của style, ví dụ `.des3-home-page`, `.des4-home-page`. Không để CSS home style trực tiếp các class global của theme/plugin như `.pagination`, `.page-link`, `.review-card`, `.container`, `.form-control` hoặc selector chung có thể ảnh hưởng archive/detail page. Nếu feedback liên quan trang ngoài home như `/reviews/`, sửa trong file/component của trang đó, không vá bằng CSS home.
 
@@ -622,13 +632,14 @@ Bắt buộc kiểm tra bằng mắt:
 - Desktop first viewport khác rõ style cũ.
 - Header không duplicate navigation.
 - Search dùng được.
+- Search không hiện label `screen-reader-text`, input và button nằm đúng một hàng ở desktop/mobile nếu concept là search ngang.
 - Hero/banner không dùng text vô nghĩa.
 - Mọi chip/tab/shortcut/CTA có link thật.
 - Blog/review/game hiển thị đủ nhóm.
 - Không có text dài đè ảnh.
 - Footer liên quan concept và không có khoảng trắng xấu.
 - Trang ngoài home vẫn có header/footer ổn.
-- Mobile ở `320px`, `360px`, `390px`, tablet khoảng `768px` không vỡ layout.
+- Mobile ở `320px`, `360px`, `390px`, `520px`, tablet khoảng `768px` không vỡ layout.
 
 ## 16. Delivery cho khách
 
@@ -690,3 +701,8 @@ Các điểm này đã được rút ra từ feedback thực tế và phải áp
 - Nếu menu mobile là popup/stack, nó phải float/overlay, không đẩy nội dung xuống.
 - Footer không tự set `margin-top` để tạo khoảng cách; spacing trước footer thuộc về section cuối hoặc wrapper nội dung.
 - Với các style mới, chỉnh cô lập đúng phạm vi. Nếu sửa header/footer thì kiểm tra mọi trang; nếu sửa home thì không làm ảnh hưởng trang khác.
+- Nếu search vỡ layout, không chỉ kiểm tra popup. Phải kiểm tra chính form: label ẩn, input width, button width, grid/flex item và CSS global/Bootstrap đang đè không.
+- Search ngang nên dùng flex ổn định; tránh để label hoặc hidden text thành một item làm form bị tách 2 hàng.
+- Footer phải được so với toàn bộ concept của home. Footer có thể responsive đúng nhưng vẫn fail nếu nền/màu/anatomy không ăn với phần giữa.
+- Layout kiểu masonry/`column-count` chỉ dùng khi đã kiểm soát được chiều cao card; với dữ liệu random của khách, grid cố định thường an toàn hơn.
+- Không chỉ test `320px`; nhiều lỗi search/header/footer lộ rõ ở `390px` hoặc `520px`.
