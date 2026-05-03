@@ -8,8 +8,6 @@
  */
 
 get_header();
-
-$search_query = get_search_query();
 ?>
 
 	<main id="primary" class="site-main">
@@ -17,19 +15,12 @@ $search_query = get_search_query();
 		<?php if ( have_posts() ) : ?>
 
 			<header class="page-header">
-				<p class="page-kicker"><?php esc_html_e( 'Search', 'h5game' ); ?></p>
-				<h1 class="page-title"><?php esc_html_e( 'Search results', 'h5game' ); ?></h1>
-				<?php if ( $search_query ) : ?>
-					<p class="page-desc">
-						<?php
-						printf(
-							/* translators: %s: search query. */
-							esc_html__( 'Showing matches for "%s".', 'h5game' ),
-							esc_html( $search_query )
-						);
-						?>
-					</p>
-				<?php endif; ?>
+				<h1 class="page-title">
+					<?php
+					/* translators: %s: search query. */
+					printf( esc_html__( 'Search Results for: %s', 'h5game' ), '<span>' . get_search_query() . '</span>' );
+					?>
+				</h1>
 			</header><!-- .page-header -->
 
 			<?php
