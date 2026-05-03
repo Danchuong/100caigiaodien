@@ -1,0 +1,479 @@
+{
+  "id": "1bee2c77-8c47-44f6-b784-ef7aa45d4f93",
+  "url": "https://www.siena.film",
+  "siteName": "Siena",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777509582476-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777509582476-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "dark",
+  "colors": [
+    {
+      "name": "Midnight Screen",
+      "hex": "#000000"
+    },
+    {
+      "name": "Graphite Canvas",
+      "hex": "#1f1f1f"
+    },
+    {
+      "name": "Ghost Ivory",
+      "hex": "#faf7ef"
+    }
+  ],
+  "fonts": [
+    "NB International",
+    "Neue Brucke"
+  ],
+  "northStar": "midnight canvas, stark light",
+  "createdAt": "2026-04-30T00:40:01.422Z",
+  "previewVideoCapturedAt": null,
+  "industry": "media",
+  "fullResult": {
+    "meta": {
+      "url": "https://www.siena.film",
+      "siteName": "Siena",
+      "extractedAt": "2026-04-30T00:40:01.257Z",
+      "durationMs": 57336,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 36,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#faf7ef",
+            "oklch": {
+              "c": 0.011048472122681651,
+              "h": 89.72126257322306,
+              "l": 0.9762512803236281
+            },
+            "contexts": [
+              "other",
+              "card",
+              "button",
+              "badge",
+              "icon"
+            ],
+            "frequency": 150,
+            "confidence": 1,
+            "prominence": 9380972.542165302,
+            "properties": [
+              "color",
+              "borderColor",
+              "fill",
+              "stroke"
+            ],
+            "usageCounts": {
+              "card/color": 2,
+              "icon/color": 2,
+              "other/fill": 4,
+              "badge/color": 1,
+              "other/color": 23,
+              "button/color": 1,
+              "other/stroke": 1,
+              "card/borderColor": 8,
+              "icon/borderColor": 8,
+              "badge/borderColor": 4,
+              "other/borderColor": 92,
+              "button/borderColor": 4
+            }
+          },
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "card",
+              "other"
+            ],
+            "frequency": 5,
+            "confidence": 1,
+            "prominence": 933817.7033855176,
+            "properties": [
+              "backgroundColor",
+              "fill"
+            ],
+            "usageCounts": {
+              "other/fill": 4,
+              "card/backgroundColor": 1
+            }
+          },
+          {
+            "hex": "#1f1f1f",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.23929237775790413
+            },
+            "contexts": [
+              "card"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 90313,
+            "properties": [
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "card/backgroundColor": 1
+            }
+          }
+        ],
+        "isDarkMode": true,
+        "colorfulness": 0.028712245641064584,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 19.62,
+            "background": "#000000",
+            "foreground": "#faf7ef"
+          },
+          {
+            "level": "AAA",
+            "ratio": 15.4,
+            "background": "#1f1f1f",
+            "foreground": "#faf7ef"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [
+          {
+            "value": 14,
+            "contexts": [
+              "card"
+            ],
+            "frequency": 1
+          }
+        ],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 1,
+            "contexts": [
+              "other",
+              "button"
+            ],
+            "frequency": 5,
+            "properties": [
+              "marginTop",
+              "rowGap",
+              "columnGap",
+              "paddingTop",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "marginTop|other",
+              "rowGap|other",
+              "columnGap|other",
+              "paddingTop|button",
+              "paddingBottom|button"
+            ]
+          },
+          {
+            "value": 6,
+            "contexts": [
+              "card",
+              "button"
+            ],
+            "frequency": 6,
+            "properties": [
+              "paddingTop",
+              "paddingRight",
+              "paddingBottom",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|card",
+              "paddingRight|card",
+              "paddingBottom|card",
+              "paddingLeft|card",
+              "paddingRight|button",
+              "paddingLeft|button"
+            ]
+          },
+          {
+            "value": 48,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingRight",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|other",
+              "paddingBottom|other"
+            ]
+          }
+        ],
+        "density": "compact",
+        "baseUnit": 6
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "NB International",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 20,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "Neue Brucke",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 9,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 10,
+          "name": "Minor Second",
+          "ratio": 1.067,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 10,
+            "family": "NB International",
+            "weight": 400,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "lineHeight": 2.6,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 10,
+            "family": "NB International",
+            "weight": 400,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 5,
+            "lineHeight": 1,
+            "letterSpacing": 0.08,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 10,
+            "family": "Neue Brucke",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "icon"
+            ],
+            "frequency": 8,
+            "lineHeight": 2.71,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 12,
+            "family": "Neue Brucke",
+            "weight": 400,
+            "contexts": [
+              "badge"
+            ],
+            "frequency": 1,
+            "lineHeight": 0.9,
+            "letterSpacing": 0.15,
+            "textTransform": "none"
+          },
+          {
+            "size": 20,
+            "family": "NB International",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "card",
+              "button"
+            ],
+            "frequency": 14,
+            "lineHeight": 1.3,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Prioritize Midnight Screen (#000000) for all main backgrounds and primary content containers for a true dark mode experience.",
+        "Use Ghost Ivory (#faf7ef) exclusively for all readable text, interactive element borders, and essential icons to maintain high contrast and visual focus.",
+        "Apply NB International at 400 weight with 0.08em letter spacing for general body text and functional UI copy.",
+        "Employ Neue Brucke at 400 weight with 0.15em letter spacing for small label text, ensuring legibility and a distinctive style in compact spaces.",
+        "Maintain a compact element layout using 1px gaps between tightly related elements and 6px padding for internal component spacing.",
+        "Keep all interactive elements, like buttons, with 0px border-radius, emphasizing sharp, angular lines.",
+        "Reserve the 14px border-radius specifically for content cards, distinguishing them from interactive controls."
+      ],
+      "donts": [
+        "Avoid using saturated or chromatic colors for backgrounds or primary textual content; color should be reserved for subtle accents or functional indicators only.",
+        "Do not introduce unnecessary shadows; the design relies on flat surfaces and high contrast for hierarchy, not elevation.",
+        "Refrain from using rounded corners on interactive elements; they should remain sharp and angular.",
+        "Do not deviate from NB International and Neue Brucke for typography; these fonts define the brand's voice.",
+        "Avoid large, airy padding or gaps between elements and sections; the design embraces a compact, dense arrangement.",
+        "Do not use gradients; the visual system is anchored in flat, high-contrast color blocks."
+      ],
+      "theme": "dark",
+      "colors": [
+        {
+          "hex": "#000000",
+          "name": "Midnight Screen",
+          "role": "Page background, primary card surfaces, foundational dark tones for content",
+          "group": "neutral"
+        },
+        {
+          "hex": "#1f1f1f",
+          "name": "Graphite Canvas",
+          "role": "Secondary card backgrounds, slightly elevated surfaces offering subtle visual depth on a dark canvas",
+          "group": "neutral"
+        },
+        {
+          "hex": "#faf7ef",
+          "name": "Ghost Ivory",
+          "role": "Neutral form states, badge text, and quiet UI feedback where color should stay understated. Do not promote it to the primary CTA color",
+          "group": "brand"
+        }
+      ],
+      "layout": "The page primarily uses a full-bleed layout, allowing hero sections and visual content to extend to the edges. Content sections tend to be centered, often featuring a single, strong headline or visual. The rhythm is established by distinct, self-contained blocks. There are no visible grid structures for content layout beyond implicit alignment. The design feels dense but deliberate, with minimal negative space, creating an immersive, focused experience. Navigation is likely a sticky top navigation or a minimalist hamburger menu to preserve screen space for content.",
+      "imagery": "This design system is image-centric, showcasing full-bleed hero visuals and contained film stills within cards. All imagery is treated naturally, focusing on the cinematic quality of the content. There are no stylistic overlays or effects. Icons, when present, are minimalistic, outlined, and monochromatic (Ghost Ivory), serving as functional cues rather than decorative elements. The density is image-heavy, with visuals occupying significant screen real estate, letting the film content speak for itself.",
+      "similar": [
+        {
+          "why": "Dark UI with cinematic, text-focused presentation and stark, high-contrast typography.",
+          "business": "A24 Films"
+        },
+        {
+          "why": "Dominant dark background, high-contrast text, and a focus on visual content display.",
+          "business": "Netflix (dark theme)"
+        },
+        {
+          "why": "Minimalist dark aesthetic focused on film art, with custom typography and subdued UI elements.",
+          "business": "MUBI"
+        },
+        {
+          "why": "Emphasis on dark mode, clear typography for film-related content, and functional but minimal UI.",
+          "business": "Letterboxd"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "cards": "14px",
+          "elements": "0px"
+        },
+        "elementGap": "1px",
+        "sectionGap": "48px",
+        "cardPadding": "6px",
+        "pageMaxWidth": null
+      },
+      "industry": "media",
+      "surfaces": [
+        {
+          "hex": "#000000",
+          "name": "Midnight Screen",
+          "level": 0,
+          "purpose": "Dominant page background and base-level surfaces."
+        },
+        {
+          "hex": "#1f1f1f",
+          "name": "Graphite Canvas",
+          "level": 1,
+          "purpose": "Slightly elevated card and content backgrounds, subtly distinguishing content blocks."
+        }
+      ],
+      "northStar": "midnight canvas, stark light",
+      "components": [
+        {
+          "name": "Ghost Button",
+          "role": "Primary action button",
+          "description": "Transparent background with a Ghost Ivory border and text. Uses NB International font at 10px, weight 400, with 0.08em letter spacing. Padding is 1px vertical, 6px horizontal. Corners are sharp at 0px radius."
+        },
+        {
+          "name": "Film Thumbnail Card",
+          "role": "Decorative content display",
+          "description": "A square card with a Graphite Canvas (#1f1f1f) background and 14px border radius. Contains internal padding of 6.4px on all sides, suitable for displaying film stills or related content."
+        },
+        {
+          "name": "Circular Dark Overlay",
+          "role": "Interactive indicator or avatar",
+          "description": "A perfectly circular element with a Midnight Screen (#000000) background and 100% border radius. Used for minimalist UI elements where shape implies interaction or status."
+        },
+        {
+          "name": "Ghost Text Badge",
+          "role": "Informational tag",
+          "description": "A badge with a transparent background and Ghost Ivory (#faf7ef) text. Uses Neue Brucke font, transparent background, no padding or border radius, making it blend seamlessly with text."
+        }
+      ],
+      "typography": [
+        {
+          "role": "Body copy and interactive elements like buttons. Its moderate letter spacing provides breathing room within a dark, compact design.",
+          "sizes": "10px, 20px",
+          "family": "NB International",
+          "weight": "400",
+          "lineHeight": "1.00, 1.30, 2.60",
+          "substitute": "Inter",
+          "letterSpacing": "0.080em"
+        },
+        {
+          "role": "Used for small, high-impact text such as icons and badges. The generous letter spacing enhances legibility at small sizes and adds to a distinct, technical feel.",
+          "sizes": "10px, 12px",
+          "family": "Neue Brucke",
+          "weight": "400",
+          "lineHeight": "0.90, 2.71",
+          "substitute": "Space Mono",
+          "letterSpacing": "0.150em"
+        }
+      ],
+      "description": "Siena's visual system evokes a raw, cinematic grit, operating in a deep dark mode with sparse, high-contrast typography. The design relies on angular forms and a stark white accent color that punctuates the darkness. Components are minimal, often borderless, and prioritize functionality over decorative embellishment. The overall experience is one of understated intensity, allowing textual content and motion to drive narrative.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "Quick Color Reference:\ntext: #faf7ef\nbackground: #000000\nborder: #faf7ef\naccent: no distinct accent color\nprimary action: no distinct CTA color\n\nExample Component Prompts:\n1. Create a hero section: full-bleed Midnight Screen background, centered, with a large film still. Overlay a headline 'CINEMATIC STORIES' in NB International, 20px, 400 weight, #faf7ef, with 0.08em letter spacing. Below it, a ghost button with 'VIEW FILMS' in NB International, 10px, 400 weight, #faf7ef text and #faf7ef border, 0px radius, 1px vertical, 6px horizontal padding.\n2. Design a feature card: Graphite Canvas background (#1f1f1f), 14px border radius, 6.4px internal padding. Inside, display a square content image with no border radius. Below the image, include a 'CLOSE' badge using Neue Brucke 10px, 400 weight, #faf7ef, transparent background, 0px radius.\n3. Implement a detail section: Midnight Screen background. A centered subheading 'ABOUT US' in NB International, 20px, 400 weight, #faf7ef, 0.08em letter spacing. Followed by body text in NB International, 10px, 400 weight, #faf7ef. Ensure all elements are contained within the same section, with minimal vertical 1px spacing between text lines."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777509582476-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777509582476-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/1bee2c77-8c47-44f6-b784-ef7aa45d4f93",
+  "ranks": {
+    "trending": 930,
+    "popular": 987,
+    "newest": 735
+  },
+  "localSlug": "siena-1bee2c77"
+}

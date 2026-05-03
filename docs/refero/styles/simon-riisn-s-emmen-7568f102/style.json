@@ -1,0 +1,653 @@
+{
+  "id": "7568f102-d6e4-4113-92a1-4fd53fe5ea47",
+  "url": "https://xn--smon-vpa.com",
+  "siteName": "Simon Riisnæs Emmen",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777513346931-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777513346931-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "light",
+  "colors": [
+    {
+      "name": "Midnight Ink",
+      "hex": "#000000"
+    },
+    {
+      "name": "Canvas White",
+      "hex": "#ffffff"
+    },
+    {
+      "name": "Sunset Blush",
+      "hex": "#fd8878"
+    },
+    {
+      "name": "Electric Yellow",
+      "hex": "#e8fe04"
+    }
+  ],
+  "fonts": [
+    "Tex Gyre Heros",
+    "Editorial New"
+  ],
+  "northStar": "Vibrant billboard minimalism.",
+  "createdAt": "2026-04-30T01:42:50.982Z",
+  "previewVideoCapturedAt": null,
+  "industry": "design",
+  "fullResult": {
+    "meta": {
+      "url": "https://xn--smon-vpa.com",
+      "siteName": "Simon Riisnæs Emmen",
+      "extractedAt": "2026-04-30T01:42:50.915Z",
+      "durationMs": 30600,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 161,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "other",
+              "link",
+              "heading",
+              "list",
+              "hero",
+              "footer"
+            ],
+            "frequency": 804,
+            "confidence": 1,
+            "prominence": 42816719.02725601,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "hero/color": 1,
+              "link/color": 22,
+              "list/color": 23,
+              "other/color": 49,
+              "footer/color": 1,
+              "heading/color": 65,
+              "hero/borderColor": 4,
+              "link/borderColor": 88,
+              "list/borderColor": 92,
+              "other/borderColor": 195,
+              "footer/borderColor": 4,
+              "heading/borderColor": 260
+            }
+          },
+          {
+            "hex": "#ffffff",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 1.0000000000000002
+            },
+            "contexts": [
+              "other",
+              "list"
+            ],
+            "frequency": 59,
+            "confidence": 1,
+            "prominence": 25854324.278494786,
+            "properties": [
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "list/backgroundColor": 19,
+              "other/backgroundColor": 40
+            }
+          },
+          {
+            "hex": "#fd8878",
+            "oklch": {
+              "c": 0.14507647289375603,
+              "h": 29.051388209842038,
+              "l": 0.752168066629497
+            },
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 501725,
+            "properties": [
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "heading/backgroundColor": 1
+            }
+          },
+          {
+            "hex": "#e8fe04",
+            "oklch": {
+              "c": 0.2161983158152142,
+              "h": 115.96795099903797,
+              "l": 0.9481122258556661
+            },
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 501725,
+            "properties": [
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "heading/backgroundColor": 1
+            }
+          }
+        ],
+        "isDarkMode": false,
+        "colorfulness": 0.0011288073385688805,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 21,
+            "background": "#ffffff",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 18.61,
+            "background": "#e8fe04",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 8.97,
+            "background": "#fd8878",
+            "foreground": "#000000"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [
+          {
+            "value": 720,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 2
+          }
+        ],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 3,
+            "contexts": [
+              "heading",
+              "link"
+            ],
+            "frequency": 4,
+            "properties": [
+              "marginTop"
+            ],
+            "propertyContextPairs": [
+              "marginTop|heading",
+              "marginTop|link"
+            ]
+          },
+          {
+            "value": 6,
+            "contexts": [
+              "other",
+              "footer"
+            ],
+            "frequency": 64,
+            "properties": [
+              "paddingRight",
+              "paddingLeft",
+              "paddingBottom",
+              "columnGap"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|other",
+              "paddingLeft|other",
+              "paddingBottom|other",
+              "columnGap|other",
+              "paddingRight|footer",
+              "paddingLeft|footer"
+            ]
+          },
+          {
+            "value": 8,
+            "contexts": [
+              "other",
+              "list",
+              "heading"
+            ],
+            "frequency": 7,
+            "properties": [
+              "paddingTop",
+              "marginLeft",
+              "marginTop",
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other",
+              "marginLeft|list",
+              "marginTop|heading",
+              "marginBottom|heading"
+            ]
+          },
+          {
+            "value": 9,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingBottom|heading"
+            ]
+          },
+          {
+            "value": 13,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 19,
+            "properties": [
+              "paddingTop"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other"
+            ]
+          },
+          {
+            "value": 32,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 4,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|heading",
+              "paddingLeft|heading"
+            ]
+          },
+          {
+            "value": 63,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 19,
+            "properties": [
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingLeft|heading"
+            ]
+          },
+          {
+            "value": 95,
+            "contexts": [
+              "hero"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingTop",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|hero",
+              "paddingBottom|hero"
+            ]
+          },
+          {
+            "value": 253,
+            "contexts": [
+              "list"
+            ],
+            "frequency": 18,
+            "properties": [
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingBottom|list"
+            ]
+          }
+        ],
+        "density": "compact",
+        "baseUnit": 6
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "Tex Gyre Heros Regular",
+            "source": "custom",
+            "weights": [
+              300,
+              400
+            ],
+            "frequency": 148,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "Editorial New Regular",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 13,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 67,
+          "name": "Minor Third",
+          "ratio": 1.2,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 29,
+            "family": "Editorial New Regular",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "link",
+              "heading",
+              "list"
+            ],
+            "frequency": 10,
+            "lineHeight": 1.44,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 29,
+            "family": "Tex Gyre Heros Regular",
+            "weight": 400,
+            "contexts": [
+              "footer",
+              "other"
+            ],
+            "frequency": 2,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 29,
+            "family": "Editorial New Regular",
+            "weight": 400,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 3,
+            "lineHeight": 1.1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 32,
+            "family": "Tex Gyre Heros Regular",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "hero",
+              "list",
+              "link"
+            ],
+            "frequency": 68,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 67,
+            "family": "Tex Gyre Heros Regular",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "heading"
+            ],
+            "frequency": 57,
+            "lineHeight": 1.2,
+            "letterSpacing": -0.015,
+            "textTransform": "none"
+          },
+          {
+            "size": 67,
+            "family": "Tex Gyre Heros Regular",
+            "weight": 300,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 19,
+            "lineHeight": 1.2,
+            "letterSpacing": -0.015,
+            "textTransform": "none"
+          },
+          {
+            "size": 173,
+            "family": "Tex Gyre Heros Regular",
+            "weight": 400,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 2,
+            "lineHeight": 0.9,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Prioritize high contrast: Always render #000000 text on Canvas White (#ffffff) or Electric Yellow (#e8fe04) / Sunset Blush (#fd8878) backgrounds.",
+        "Use Tex Gyre Heros for all headlines and prominent text, varying weight between 300 and 400 based on emphasis.",
+        "Employ Editorial New only for supportive, descriptive text or small footnotes, always at weight 400.",
+        "Apply the extreme 720px border-radius only to large, block-level background elements, creating a 'pill' shape.",
+        "Define interactive elements with a 1px solid #000000 border on hover, ensuring clear visual feedback.",
+        "Maintain generous vertical spacing with 95px between major sections and 253px for long list item separations, creating a spacious, relaxed rhythm.",
+        "Use distinct, vibrant color blocks (Sunset Blush or Electric Yellow) to highlight key words or section titles."
+      ],
+      "donts": [
+        "Avoid using multiple font families for headlines or primary content; stick to Tex Gyre Heros for impact.",
+        "Do not introduce gradients or shadows; the surface treatment is purposefully flat and stark.",
+        "Do not deviate from the core monochromatic palette with additional chromatic colors, beyond Sunset Blush and Electric Yellow.",
+        "Do not use small, subtle radii; either use the extreme 720px or keep corners sharp.",
+        "Avoid decorative imagery or complex illustrations; the visual system is text-dominant and stark.",
+        "Do not center text unless it's a primary display block; content generally aligns left.",
+        "Refrain from using lightweight fonts for small text that needs to be highly readable; save fine weights for large display, and use Editorial New 400 for body."
+      ],
+      "theme": "light",
+      "colors": [
+        {
+          "hex": "#000000",
+          "name": "Midnight Ink",
+          "role": "Dark borders and separators for elevated surfaces and inverted UI. Do not promote it to the primary CTA color",
+          "group": "neutral"
+        },
+        {
+          "hex": "#ffffff",
+          "name": "Canvas White",
+          "role": "Page backgrounds, surface background for list items",
+          "group": "neutral"
+        },
+        {
+          "hex": "#fd8878",
+          "name": "Sunset Blush",
+          "role": "Primary accent surface for headline blocks – bold background for prominent text",
+          "group": "accent"
+        },
+        {
+          "hex": "#e8fe04",
+          "name": "Electric Yellow",
+          "role": "Secondary accent surface for headline blocks – vibrant background for prominent text",
+          "group": "accent"
+        }
+      ],
+      "layout": "The page exhibits a full-bleed layout, taking the full width of the viewport without a max-width container, though internal padding defines content areas. The hero section features large, colorful 'pill-shaped' blocks with centered, oversized text. Subsequent sections present content as a vertically stacked list of items, each separated by a prominent horizontal rule and generous padding. There's a strong emphasis on consistent vertical rhythm and clear visual separation between content blocks, with text generally aligned to the left within the page's implied content area.",
+      "imagery": "This design system primarily relies on pure UI and typography; there is no discernible visual language for photography or complex illustrations. Iconography (if present) is expected to be simple, outlined, and monochromatic (#000000 on #ffffff). The content itself seems to be the primary visual element, often presented as bold text blocks within colored shapes or as simple list items.",
+      "similar": [
+        {
+          "why": "Monochromatic, content-first layout with minimal UI chrome and clear informational hierarchy.",
+          "business": "Are.na"
+        },
+        {
+          "why": "Raw HTML aesthetic, strong typography, and limited color palette, embracing a functional, unpolished feel.",
+          "business": "Brutalist Websites"
+        },
+        {
+          "why": "Bold, oversized typography, simple color fields, and a distinct, confident brand voice conveyed through visual directness.",
+          "business": "The Browser Company (Arc browser website)"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "default": "0px",
+          "displayBlocks": "720px"
+        },
+        "elementGap": "6px",
+        "sectionGap": "95px",
+        "cardPadding": "6px",
+        "pageMaxWidth": null
+      },
+      "industry": "design",
+      "surfaces": [
+        {
+          "hex": "#ffffff",
+          "name": "Canvas White",
+          "level": 0,
+          "purpose": "Base page background"
+        },
+        {
+          "hex": "#e8fe04",
+          "name": "Electric Yellow",
+          "level": 1,
+          "purpose": "Prominent content blocks / accents"
+        },
+        {
+          "hex": "#fd8878",
+          "name": "Sunset Blush",
+          "level": 1,
+          "purpose": "Prominent content blocks / accents"
+        }
+      ],
+      "northStar": "Vibrant billboard minimalism.",
+      "typeScale": [
+        {
+          "role": "body",
+          "size": 29,
+          "lineHeight": 1.44,
+          "letterSpacing": 0
+        },
+        {
+          "role": "subheading",
+          "size": 32,
+          "lineHeight": 1.2,
+          "letterSpacing": -0.48
+        },
+        {
+          "role": "heading",
+          "size": 67,
+          "lineHeight": 0.9,
+          "letterSpacing": -1
+        },
+        {
+          "role": "display",
+          "size": 173,
+          "lineHeight": 0.9,
+          "letterSpacing": -1.5
+        }
+      ],
+      "components": [
+        {
+          "name": "Header Navigation Link",
+          "role": "Interactive text link in the page header.",
+          "description": "Plain #000000 text at 29px Tex Gyre Heros, weight 400. Subtle underline appears on hover (implied by border evidence)."
+        },
+        {
+          "name": "Main Navigation/List Item",
+          "role": "Interactive element for the main content list, indicating projects or articles.",
+          "description": "Tex Gyre Heros, 29px or 32px, mostly weight 400, #000000 text. Items are underlined with a 1px #000000 solid border on hover/active states, and have 253px padding-bottom to separate content heavily."
+        },
+        {
+          "name": "Headline Display Block - Words",
+          "role": "Primary attention-grabbing headline element, visually distinct product name.",
+          "description": "Set on a Sunset Blush (#fd8878) background with an extremely rounded 720px border-radius. Features large Tex Gyre Heros text, 173px, weight 400, #000000 color, with -1.5px letter-spacing. Padding a minimum of 95px top/bottom and 32px left/right."
+        },
+        {
+          "name": "Headline Display Block - Designed",
+          "role": "Secondary attention-grabbing headline element, visually distinct product noun.",
+          "description": "Set on an Electric Yellow (#e8fe04) background with an extremely rounded 720px border-radius. Features large Tex Gyre Heros text, 173px, weight 400, #000000 color, with -1.5px letter-spacing. Padding a minimum of 95px top/bottom and 32px left/right."
+        }
+      ],
+      "typography": [
+        {
+          "role": "Dominant display font for headlines and prominent interactive elements. Its condensed structure and tight letter-spacing at large sizes contribute to the direct, billboard-like aesthetic. Weight 300 for emphasis, 400 for general text.",
+          "sizes": "29px, 32px, 67px, 173px",
+          "family": "Tex Gyre Heros",
+          "weight": "300, 400",
+          "lineHeight": "0.90, 1.20",
+          "substitute": "Helvetica Neue",
+          "letterSpacing": "-1.5px at 173px, -0.48px at 32px, -0.43px at 29px"
+        },
+        {
+          "role": "Subordinate text and details, providing a classic, serif counterpoint to the bold sans-serif headlines. Normal letter-spacing offers readability for body-like content.",
+          "sizes": "29px",
+          "family": "Editorial New",
+          "weight": "400",
+          "lineHeight": "1.10, 1.44",
+          "substitute": "Playfair Display",
+          "letterSpacing": "normal"
+        }
+      ],
+      "description": "Simon Riisnæs Emmen's design system is an unapologetic exploration of high-contrast typography and bold, simple color blocking. It uses stark black text on primary colored surfaces to create an assertive, almost confrontational visual impact. Elements are defined by strong horizontal and vertical lines, with extremely rounded shapes providing a playful counterpoint to the otherwise rigid structure. The overall impression is one of directness and creative confidence, relying on fundamental design principles rather than elaborate ornamentation.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "Quick Color Reference:\ntext: #000000\nbackground: #ffffff\nborder: #000000\naccent: no distinct accent color\nprimary action: no distinct CTA color\n\nExample Component Prompts:\n1. Create a Header Navigation Link: Use Tex Gyre Heros, weight 400, size 29px, color #000000, with a 1px solid #000000 bottom border on hover.\n2. Design a Headline Display Block with 'Words' text: #fd8878 background, 720px border-radius. Text is 'Words', Tex Gyre Heros, 173px, weight 400, #000000 color, letter-spacing -1.5px. Padding 95px vertical, 32px horizontal.\n3. Create a Main List Item: #ffffff background, Tex Gyre Heros, 29px, weight 400, #000000 text. Include a 1px solid #000000 bottom border, and 253px padding-bottom for separation. Item reads '01 Make with Notion 2025'."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777513346931-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777513346931-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/7568f102-d6e4-4113-92a1-4fd53fe5ea47",
+  "ranks": {
+    "trending": 996,
+    "popular": 1065,
+    "newest": 537
+  },
+  "localSlug": "simon-riisn-s-emmen-7568f102"
+}

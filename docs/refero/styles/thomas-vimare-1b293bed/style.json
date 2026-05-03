@@ -1,0 +1,557 @@
+{
+  "id": "1b293bed-e6fc-4880-9691-2dbf04339bd5",
+  "url": "https://thms.works",
+  "siteName": "Thomas Vimare",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777520605580-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777520605580-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "dark",
+  "colors": [
+    {
+      "name": "Deep Night",
+      "hex": "#171717"
+    },
+    {
+      "name": "Polar White",
+      "hex": "#ffffff"
+    },
+    {
+      "name": "Quiet Fog",
+      "hex": "#9a9a9a"
+    }
+  ],
+  "fonts": [
+    "HelveticaNowDisplay-Light"
+  ],
+  "northStar": "Minimalist gallery wall",
+  "createdAt": "2026-04-30T03:43:42.448Z",
+  "previewVideoCapturedAt": null,
+  "industry": "design",
+  "fullResult": {
+    "meta": {
+      "url": "https://thms.works",
+      "siteName": "Thomas Vimare",
+      "extractedAt": "2026-04-30T03:43:42.379Z",
+      "durationMs": 27765,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 122,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#ffffff",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 1.0000000000000002
+            },
+            "contexts": [
+              "other",
+              "link",
+              "list",
+              "heading",
+              "image",
+              "body"
+            ],
+            "frequency": 525,
+            "confidence": 1,
+            "prominence": 83371219.52801366,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "body/color": 1,
+              "link/color": 29,
+              "list/color": 29,
+              "image/color": 17,
+              "other/color": 10,
+              "heading/color": 19,
+              "body/borderColor": 4,
+              "link/borderColor": 116,
+              "list/borderColor": 116,
+              "image/borderColor": 68,
+              "other/borderColor": 40,
+              "heading/borderColor": 76
+            }
+          },
+          {
+            "hex": "#171717",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.20462653095774938
+            },
+            "contexts": [
+              "image"
+            ],
+            "frequency": 3,
+            "confidence": 1,
+            "prominence": 1960200,
+            "properties": [
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "image/backgroundColor": 3
+            }
+          },
+          {
+            "hex": "#9a9a9a",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.6862225908810762
+            },
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 85,
+            "confidence": 1,
+            "prominence": 237514.74533378953,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "heading/color": 17,
+              "heading/borderColor": 68
+            }
+          }
+        ],
+        "isDarkMode": true,
+        "colorfulness": 0,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 17.93,
+            "background": "#171717",
+            "foreground": "#ffffff"
+          },
+          {
+            "level": "AA",
+            "ratio": 6.37,
+            "background": "#171717",
+            "foreground": "#9a9a9a"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 5,
+            "contexts": [
+              "body",
+              "list"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingTop"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|body",
+              "paddingTop|list"
+            ]
+          },
+          {
+            "value": 10,
+            "contexts": [
+              "link"
+            ],
+            "frequency": 3,
+            "properties": [
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingBottom|link"
+            ]
+          },
+          {
+            "value": 20,
+            "contexts": [
+              "link",
+              "list"
+            ],
+            "frequency": 23,
+            "properties": [
+              "marginBottom",
+              "marginRight"
+            ],
+            "propertyContextPairs": [
+              "marginBottom|link",
+              "marginRight|link",
+              "marginRight|list"
+            ]
+          },
+          {
+            "value": 40,
+            "contexts": [
+              "list"
+            ],
+            "frequency": 4,
+            "properties": [
+              "marginRight"
+            ],
+            "propertyContextPairs": [
+              "marginRight|list"
+            ]
+          },
+          {
+            "value": 60,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 8,
+            "properties": [
+              "paddingTop",
+              "paddingRight",
+              "paddingBottom",
+              "paddingLeft",
+              "marginBottom",
+              "marginTop"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other",
+              "paddingRight|other",
+              "paddingBottom|other",
+              "paddingLeft|other",
+              "marginBottom|other",
+              "marginTop|other"
+            ]
+          },
+          {
+            "value": 120,
+            "contexts": [
+              "list"
+            ],
+            "frequency": 16,
+            "properties": [
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "marginBottom|list"
+            ]
+          }
+        ],
+        "density": "spacious",
+        "baseUnit": 4
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "HelveticaNowDisplay-Light",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 122,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 16,
+          "name": "Major Second",
+          "ratio": 1.125,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 16,
+            "family": "HelveticaNowDisplay-Light",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "list",
+              "link",
+              "image"
+            ],
+            "frequency": 65,
+            "lineHeight": 1.5,
+            "letterSpacing": -0.01,
+            "textTransform": "none"
+          },
+          {
+            "size": 20,
+            "family": "HelveticaNowDisplay-Light",
+            "weight": 400,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 17,
+            "lineHeight": 1.4,
+            "letterSpacing": -0.008,
+            "textTransform": "none"
+          },
+          {
+            "size": 20,
+            "family": "HelveticaNowDisplay-Light",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "body",
+              "list",
+              "link"
+            ],
+            "frequency": 14,
+            "lineHeight": 1.2,
+            "letterSpacing": -0.008,
+            "textTransform": "none"
+          },
+          {
+            "size": 24,
+            "family": "HelveticaNowDisplay-Light",
+            "weight": 400,
+            "contexts": [
+              "link"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.5,
+            "letterSpacing": -0.007,
+            "textTransform": "none"
+          },
+          {
+            "size": 24,
+            "family": "HelveticaNowDisplay-Light",
+            "weight": 400,
+            "contexts": [
+              "link"
+            ],
+            "frequency": 4,
+            "lineHeight": 1,
+            "letterSpacing": -0.007,
+            "textTransform": "none"
+          },
+          {
+            "size": 28,
+            "family": "HelveticaNowDisplay-Light",
+            "weight": 400,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 17,
+            "lineHeight": 1.4,
+            "letterSpacing": -0.006,
+            "textTransform": "none"
+          },
+          {
+            "size": 32,
+            "family": "HelveticaNowDisplay-Light",
+            "weight": 400,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.5,
+            "letterSpacing": -0.005,
+            "textTransform": "none"
+          },
+          {
+            "size": 56,
+            "family": "HelveticaNowDisplay-Light",
+            "weight": 400,
+            "contexts": [
+              "heading",
+              "link"
+            ],
+            "frequency": 2,
+            "lineHeight": 1.2,
+            "letterSpacing": -0.003,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Always use Deep Night (#171717) as the background for body and component surfaces to maintain the dark theme.",
+        "Render all primary text and active states in Polar White (#ffffff) for maximum contrast against Deep Night (#171717).",
+        "Apply Quiet Fog (#9a9a9a) sparingly for secondary information, subheadings, or subtle decorative borders.",
+        "Maintain generous spacing: use 120px for vertical section gaps and 20px horizontally between elements.",
+        "Utilize HelveticaNowDisplay-Light for all typography, adjusting size and letter-spacing according to the type scale for semantic roles.",
+        "Implement the 2px solid Polar White (#ffffff) border for emphasizing interactive or visually contained elements like images or navigation items."
+      ],
+      "donts": [
+        "Avoid using any colors other than Deep Night, Polar White, and Quiet Fog for UI elements; stick to the achromatic palette.",
+        "Do not introduce heavy shadows or overt elevation patterns; surfaces should remain flat.",
+        "Do not deviate from the specified HelveticaNowDisplay-Light font family; do not mix in other typefaces.",
+        "Avoid tight element spacing; maintain at least 20px between horizontal elements and 120px between major sections.",
+        "Do not use rounded corners on UI elements; maintain sharp, crisp 0px radii across the board.",
+        "Refrain from using gradients on backgrounds or interactive elements; surfaces are solid Deep Night.",
+        "Do not use bold or heavy font weights; the system relies on the light weight of HelveticaNowDisplay-Light for its aesthetic."
+      ],
+      "theme": "dark",
+      "colors": [
+        {
+          "hex": "#171717",
+          "name": "Deep Night",
+          "role": "Page backgrounds, card surfaces, all base UI elements. Provides a canvas for high-contrast typography",
+          "group": "neutral"
+        },
+        {
+          "hex": "#ffffff",
+          "name": "Polar White",
+          "role": "Hairline borders, dividers, input outlines, and card edges on light surfaces. Do not promote it to the primary CTA color",
+          "group": "neutral"
+        },
+        {
+          "hex": "#9a9a9a",
+          "name": "Quiet Fog",
+          "role": "Secondary text, descriptive sub-headings, and decorative borders. Offers a softer textual accent without competing with primary content",
+          "group": "neutral"
+        }
+      ],
+      "layout": "The page primarily employs a max-width 1600px, centered content model. The hero section is full-bleed Deep Night, featuring a prominent centered headline. Below the hero, content is arranged in a fluid grid or stack, with images and associated text forming paired blocks. Vertical rhythm is established through significant 120px section gaps. The navigation is a minimalist top bar, simple links on the left and the brand name on the right, floating over the Deep Night background.",
+      "imagery": "This site features primarily project-specific visuals, including photography and possibly product screenshots, tightly cropped within their containers. Imagery serves as content showcases rather than decorative atmosphere. Treatments appear standard, without unique masking or overlaps, but implicitly use a 2px Polar White border for definition. The overall density leans text-dominant, with imagery serving as visual anchors within content sections.",
+      "similar": [
+        {
+          "why": "High-contrast dark mode, focus on elegant typography, and subtle border accents.",
+          "business": "Apple (services)"
+        },
+        {
+          "why": "Minimalist aesthetic with a strong emphasis on typography as the primary visual element, limited color palette.",
+          "business": "Stripe (older branding)"
+        },
+        {
+          "why": "Dark theme, sharp edges, and a clean, high-contrast UI with typography driving the visual hierarchy.",
+          "business": "Linear"
+        },
+        {
+          "why": "Portfolio site with a dark, spacious layout, and a strong focus on minimalist typography and content presentation.",
+          "business": "Read.cv"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "default": "0px"
+        },
+        "elementGap": "20px",
+        "sectionGap": "120px",
+        "cardPadding": "60px",
+        "pageMaxWidth": "1600px"
+      },
+      "industry": "design",
+      "surfaces": [
+        {
+          "hex": "#171717",
+          "name": "Deep Night",
+          "level": 1,
+          "purpose": "Primary page background and all base UI surfaces"
+        }
+      ],
+      "northStar": "Minimalist gallery wall",
+      "typeScale": [
+        {
+          "role": "caption",
+          "size": 16,
+          "lineHeight": 1.5,
+          "letterSpacing": -0.003
+        },
+        {
+          "role": "body-sm",
+          "size": 20,
+          "lineHeight": 1.5,
+          "letterSpacing": -0.005
+        },
+        {
+          "role": "body",
+          "size": 24,
+          "lineHeight": 1.4,
+          "letterSpacing": -0.006
+        },
+        {
+          "role": "subheading",
+          "size": 28,
+          "lineHeight": 1.2,
+          "letterSpacing": -0.007
+        },
+        {
+          "role": "heading",
+          "size": 32,
+          "lineHeight": 1.2,
+          "letterSpacing": -0.008
+        },
+        {
+          "role": "display",
+          "size": 56,
+          "lineHeight": 1,
+          "letterSpacing": -0.01
+        }
+      ],
+      "components": [
+        {
+          "name": "Navigation Link",
+          "role": "Top navigation items.",
+          "description": "Uses HelveticaNowDisplay-Light at 16px, Polar White (#ffffff) text, and a 2px solid white underline (`border-color: #ffffff`) on active states. Padding: 5px top, 10px bottom."
+        },
+        {
+          "name": "Project Card",
+          "role": "Displays individual portfolio projects.",
+          "description": "Has a Deep Night (#171717) background. The primary headline and images are followed by a subtitle. Uses Quiet Fog (#9a9a9a) for supporting text and Polar White (#ffffff) for borders detected implicitly on images, suggesting a deliberate border treatment on contained elements."
+        },
+        {
+          "name": "Primary Heading",
+          "role": "Main page titles and key descriptive text.",
+          "description": "Rendered in HelveticaNowDisplay-Light at various display sizes (e.g., 56px) with Polar White (#ffffff) text. Features tight kerning (e.g. -0.010em at 56px) for a sophisticated appearance."
+        },
+        {
+          "name": "Secondary Description",
+          "role": "Subtitles and supporting text for projects or sections.",
+          "description": "Uses HelveticaNowDisplay-Light at body-sm or body sizes with Quiet Fog (#9a9a9a) text color. Visually de-emphasized from primary headings."
+        }
+      ],
+      "typography": [
+        {
+          "role": "All textual content, from headings to body text and navigation. Its light weight at larger sizes creates a sense of understated authority and spaciousness.",
+          "sizes": "16px, 20px, 24px, 28px, 32px, 56px",
+          "family": "HelveticaNowDisplay-Light",
+          "weight": "400",
+          "lineHeight": "1.00, 1.20, 1.40, 1.50",
+          "substitute": "system-ui, sans-serif",
+          "letterSpacing": "-0.0100em at 56px, -0.0080em at 32px, -0.0070em at 28px, -0.0060em at 24px, -0.0050em at 20px, -0.0030em at 16px"
+        }
+      ],
+      "description": "Thomas Vimare's design system is a stark, high-contrast dark theme emphasizing readability and a minimalist aesthetic. Typography reigns supreme, with delicate 'HelveticaNowDisplay-Light' forming the core of its visual identity. Surfaces are deep black, providing a silent backdrop for content defined by subtle borders and carefully chosen typefaces, allowing visual work to take center stage.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "### Quick Color Reference\ntext: #ffffff\nbackground: #171717\nborder: #ffffff\naccent: no distinct accent color\nprimary action: no distinct CTA color\n\n### 3-5 Example Component Prompts\n1. Create a primary heading: 'Brand & Product Designer.', use display size 56px, HelveticaNowDisplay-Light, Polar White (#ffffff), letter-spacing -0.01em.\n2. Design a navigation link: 'Work', use 16px HelveticaNowDisplay-Light, Polar White (#ffffff), with a 2px solid #ffffff bottom border for active state. Padding: 5px top, 10px bottom.\n3. Develop a project card description: 'The social music widget for Gen Z & Alpha', use body-sm size 20px, HelveticaNowDisplay-Light, Quiet Fog (#9a9a9a), on a Deep Night (#171717) background.\n4. Construct a secondary text element: '↓ Selected projects', using body size 24px, HelveticaNowDisplay-Light, Polar White (#ffffff)."
+        }
+      ],
+      "elevationPhilosophy": "The design intentionally avoids shadows and traditional elevation. The absence of shadows contributes to a flat, modern, and minimalist aesthetic, allowing content and typography to stand out without visual clutter. Depth is managed purely through typography, color contrast, and spacing."
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777520605580-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777520605580-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/1b293bed-e6fc-4880-9691-2dbf04339bd5",
+  "ranks": {
+    "trending": 388,
+    "popular": 582,
+    "newest": 83
+  },
+  "localSlug": "thomas-vimare-1b293bed"
+}

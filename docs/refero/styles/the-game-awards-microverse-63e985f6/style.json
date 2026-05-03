@@ -1,0 +1,568 @@
+{
+  "id": "63e985f6-1f1a-4c6e-a5ec-497ced38a7a7",
+  "url": "https://thegameawards.dreamwave.live",
+  "siteName": "The Game Awards Microverse",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777515286553-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777515286553-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "dark",
+  "colors": [
+    {
+      "name": "Void Black",
+      "hex": "#000000"
+    },
+    {
+      "name": "Ghost White",
+      "hex": "#ffffff"
+    },
+    {
+      "name": "System UI Gray",
+      "hex": "#f4f4f4"
+    },
+    {
+      "name": "Panel Dark",
+      "hex": "#313131"
+    }
+  ],
+  "fonts": [
+    "Red Hat Display"
+  ],
+  "northStar": "Midnight Command Center",
+  "createdAt": "2026-04-30T02:15:03.969Z",
+  "previewVideoCapturedAt": null,
+  "industry": "media",
+  "fullResult": {
+    "meta": {
+      "url": "https://thegameawards.dreamwave.live",
+      "siteName": "The Game Awards Microverse",
+      "extractedAt": "2026-04-30T02:15:03.801Z",
+      "durationMs": 30029,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 31,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "other",
+              "icon"
+            ],
+            "frequency": 79,
+            "confidence": 1,
+            "prominence": 8193218.810974022,
+            "properties": [
+              "color",
+              "borderColor",
+              "fill",
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "icon/fill": 2,
+              "other/fill": 3,
+              "other/color": 15,
+              "other/borderColor": 56,
+              "other/backgroundColor": 3
+            }
+          },
+          {
+            "hex": "#f4f4f4",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.967153298496294
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 3,
+            "confidence": 1,
+            "prominence": 2592000,
+            "properties": [
+              "backgroundColor",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "other/borderColor": 2,
+              "other/backgroundColor": 1
+            }
+          },
+          {
+            "hex": "#ffffff",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 1.0000000000000002
+            },
+            "contexts": [
+              "other",
+              "icon",
+              "card",
+              "image"
+            ],
+            "frequency": 60,
+            "confidence": 1,
+            "prominence": 411000.0974931081,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "card/color": 1,
+              "icon/color": 1,
+              "image/color": 1,
+              "other/color": 9,
+              "card/borderColor": 4,
+              "icon/borderColor": 4,
+              "image/borderColor": 4,
+              "other/borderColor": 36
+            }
+          },
+          {
+            "hex": "#0d152b",
+            "oklch": {
+              "c": 0.04573958749351718,
+              "h": 267.19329952485606,
+              "l": 0.20134365808807375
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "confidence": 1,
+            "prominence": 124918.81949433792,
+            "properties": [
+              "borderColor"
+            ],
+            "usageCounts": {
+              "other/borderColor": 2
+            }
+          },
+          {
+            "hex": "#313131",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.31237184718429206
+            },
+            "contexts": [
+              "card",
+              "other"
+            ],
+            "frequency": 2,
+            "confidence": 1,
+            "prominence": 109837.90129997612,
+            "properties": [
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "card/backgroundColor": 1,
+              "other/backgroundColor": 1
+            }
+          },
+          {
+            "hex": "#bdbdbd",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.7983723787523576
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 6,
+            "confidence": 1,
+            "prominence": 14550.520561024563,
+            "properties": [
+              "color",
+              "borderColor",
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "other/color": 1,
+              "other/borderColor": 4,
+              "other/backgroundColor": 1
+            }
+          }
+        ],
+        "isDarkMode": false,
+        "colorfulness": 0.0016265856149899423,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 21,
+            "background": "#000000",
+            "foreground": "#ffffff"
+          },
+          {
+            "level": "AAA",
+            "ratio": 19.09,
+            "background": "#f4f4f4",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 18.11,
+            "background": "#ffffff",
+            "foreground": "#0d152b"
+          },
+          {
+            "level": "AAA",
+            "ratio": 16.47,
+            "background": "#f4f4f4",
+            "foreground": "#0d152b"
+          },
+          {
+            "level": "AAA",
+            "ratio": 13.01,
+            "background": "#313131",
+            "foreground": "#ffffff"
+          },
+          {
+            "level": "AAA",
+            "ratio": 11.83,
+            "background": "#f4f4f4",
+            "foreground": "#313131"
+          },
+          {
+            "level": "AAA",
+            "ratio": 11.18,
+            "background": "#bdbdbd",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 9.64,
+            "background": "#bdbdbd",
+            "foreground": "#0d152b"
+          },
+          {
+            "level": "AA",
+            "ratio": 6.92,
+            "background": "#313131",
+            "foreground": "#bdbdbd"
+          },
+          {
+            "level": "fail",
+            "ratio": 1.88,
+            "background": "#bdbdbd",
+            "foreground": "#ffffff"
+          },
+          {
+            "level": "fail",
+            "ratio": 1.71,
+            "background": "#f4f4f4",
+            "foreground": "#bdbdbd"
+          },
+          {
+            "level": "fail",
+            "ratio": 1.61,
+            "background": "#313131",
+            "foreground": "#000000"
+          },
+          {
+            "level": "fail",
+            "ratio": 1.1,
+            "background": "#f4f4f4",
+            "foreground": "#ffffff"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [
+          {
+            "value": 10,
+            "contexts": [
+              "card"
+            ],
+            "frequency": 1
+          }
+        ],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 24,
+            "contexts": [
+              "card"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|card",
+              "paddingLeft|card"
+            ]
+          },
+          {
+            "value": 38,
+            "contexts": [
+              "card"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingTop",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|card",
+              "paddingBottom|card"
+            ]
+          }
+        ],
+        "density": "spacious",
+        "baseUnit": null
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "Red Hat Display",
+            "source": "google",
+            "weights": [
+              400,
+              600
+            ],
+            "frequency": 28,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 10,
+          "name": "Minor Second",
+          "ratio": 1.067,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 10,
+            "family": "Red Hat Display",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "card",
+              "image"
+            ],
+            "frequency": 22,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 14,
+            "family": "Red Hat Display",
+            "weight": 600,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 16,
+            "family": "Red Hat Display",
+            "weight": 400,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Use `Void Black` for primary backgrounds and text for maximum contrast and an immersive dark atmosphere.",
+        "Apply `Ghost White` for all interactive text and icons to ensure visibility against dark backgrounds.",
+        "Prefer `Red Hat Display` for all UI text, utilizing weights 400 and 600 for hierarchy.",
+        "Maintain a consistent border-radius of `10px` for all interactive elements and contained content like cards.",
+        "Implement card padding of `38px` vertical and `24px` horizontal, using rgba(0, 0, 0, 0.8) for the background to create translucent layers.",
+        "Utilize `System UI Gray` for subtle background elements or less prominent text to introduce visual variety without distracting from the immersive dark theme.",
+        "Ensure headings and calls to action are presented in all-caps using `Red Hat Display` weight 600 for emphasis."
+      ],
+      "donts": [
+        "Avoid using bright or highly saturated colors for large background areas; color should be reserved for functional accents or atmospheric elements.",
+        "Do not introduce complex shadows or extreme elevation; the design relies on subtle layering effects with translucent backgrounds.",
+        "Do not deviate from the `Red Hat Display` font family; font consistency is key to the system's precise feel.",
+        "Do not use generic button styles; interactive elements should echo the Ghost UI Button aesthetic with translucent backgrounds and subtle borders.",
+        "Avoid varying component radii; `10px` is the signature shape for all defined components.",
+        "Do not use letter-spacing other than 'normal' for `Red Hat Display` to maintain its intended compact readability.",
+        "Do not embed images or graphics that break the dark, immersive aesthetic with incongruent brightness or style."
+      ],
+      "theme": "dark",
+      "colors": [
+        {
+          "hex": "#000000",
+          "name": "Void Black",
+          "role": "Immersive backgrounds, primary text, prominent borders, icons",
+          "group": "neutral"
+        },
+        {
+          "hex": "#ffffff",
+          "name": "Ghost White",
+          "role": "Hairline borders, dividers, input outlines, and card edges on light surfaces. Do not promote it to the primary CTA color",
+          "group": "neutral"
+        },
+        {
+          "hex": "#f4f4f4",
+          "name": "System UI Gray",
+          "role": "Subtle UI backgrounds, secondary borders, less prominent textual elements",
+          "group": "neutral"
+        },
+        {
+          "hex": "#313131",
+          "name": "Panel Dark",
+          "role": "Background for translucent cards and panels, creating a sense of layered depth",
+          "group": "neutral"
+        }
+      ],
+      "layout": "The layout is full-bleed, with a deeply immersive background occupying the entire viewport. Informational cards and instructional overlays are positioned contextually, often floating against the dark, detailed environment. The hero pattern is a central, luminous visual element (the vortex) with primary branding embedded within. Content is arranged in compact, self-contained panels, often centered or left-aligned within a smaller logical content area. There is no visible grid for features; individual UI elements are placed functionally. Navigation is minimal, likely consisting of small, contextual icons or text links that appear as needed. The density is spacious, allowing the background environment to dominate.",
+      "imagery": "This design system primarily uses dark, immersive, 3D rendered environments as its visual backdrop rather than traditional imagery. The 'game awards' logo itself is integrated into a central swirling vortex graphic. UI elements rely on simple icons with a subtle outlined style and 'Ghost White' fills. Product screenshots are absent, with the environment itself serving as the primary visual content. Density is low; large areas of the dark environment are juxtaposed with small, functional UI elements.",
+      "similar": [
+        {
+          "why": "Shared immersive 3D virtual environment with on-screen translucent UI cards and dark theme.",
+          "business": "Decentraland"
+        },
+        {
+          "why": "Similar approach to UI elements floating over a rich, interactive 3D virtual world, using compact text and subtle glows.",
+          "business": "Fortnite (UI)"
+        },
+        {
+          "why": "Uses dark, contextual panels and minimal text for UI elements within a 3D gaming environment.",
+          "business": "Roblox (Game UI)"
+        },
+        {
+          "why": "Focus on dark, atmospheric environments with integrated, semi-transparent UI overlays.",
+          "business": "Otherworld (VR experiences)"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "cards": "10px",
+          "buttons": "10px"
+        },
+        "elementGap": "10px",
+        "sectionGap": "60px",
+        "cardPadding": "24px",
+        "pageMaxWidth": "200px"
+      },
+      "industry": "media",
+      "surfaces": [
+        {
+          "hex": "#000000",
+          "name": "Void Black",
+          "level": 0,
+          "purpose": "Primary immersive background for the virtual environment."
+        },
+        {
+          "hex": "#313131",
+          "name": "Panel Dark",
+          "level": 1,
+          "purpose": "Background for translucent cards and UI panels, creating subtle depth."
+        },
+        {
+          "hex": "#f4f4f4",
+          "name": "System UI Gray",
+          "level": 2,
+          "purpose": "Subtle interactive backgrounds and secondary UI elements."
+        }
+      ],
+      "northStar": "Midnight Command Center",
+      "typeScale": [
+        {
+          "role": "caption",
+          "size": 10,
+          "lineHeight": 1.2
+        },
+        {
+          "role": "body-sm",
+          "size": 14,
+          "lineHeight": 1.2
+        },
+        {
+          "role": "body",
+          "size": 16,
+          "lineHeight": 1.2
+        }
+      ],
+      "components": [
+        {
+          "name": "Microverse Card",
+          "role": "Contextual information display.",
+          "description": "Cards have a background of rgba(0, 0, 0, 0.8), a border radius of 10px, and padding of 38px on top/bottom and 24px on left/right. They carry no shadow, suggesting they are part of the main visual plane."
+        },
+        {
+          "name": "Ghost UI Button",
+          "role": "Interactive controls within the immersive environment.",
+          "description": "Buttons are typically all-caps text with a weight of 600, `Ghost White` text on a `Void Black` translucent background. They have a subtle `Ghost White` border and a border radius of 10px, providing a clear interactive hit area."
+        },
+        {
+          "name": "Help Overlay Panel",
+          "role": "Instructional text and control displays.",
+          "description": "Small, dark panels with `Void Black` background and `Ghost White` text for instructions. They use the 10px border radius and minimal padding to stay concise."
+        }
+      ],
+      "typography": [
+        {
+          "role": "Primary UI text, labels, interactive elements, card content. Its compact nature supports dense information within a constrained UI.",
+          "sizes": "10px, 14px, 16px",
+          "family": "Red Hat Display",
+          "weight": "400, 600",
+          "lineHeight": "1.20",
+          "substitute": "Open Sans",
+          "letterSpacing": "normal"
+        }
+      ],
+      "description": "The Game Awards Microverse immerses users in a dark, atmospheric virtual environment. Its design language is driven by luminous UI elements floating within a deep, inky canvas. Typography is compact and precise, often used in all-caps for labels and navigation. Components are subtle, translucent overlays, appearing as frosted glass panels that provide contextual information without breaking the immersive dark aesthetic. The system prioritizes functional clarity amidst a visually rich, low-light setting.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "Quick Color Reference: \ntext: #ffffff\nbackground: #000000\nborder: #ffffff\naccent: no distinct accent color\nprimary action: no distinct CTA color\n\nExample Component Prompts:\n1. Create a primary instruction panel: Use `Panel Dark` background, `10px` border radius, `38px` vertical and `24px` horizontal padding. The main text should be `Ghost White` using `Red Hat Display` weight 400, size 16px, line-height 1.2. Include a secondary all-caps label: `Ghost White`, `Red Hat Display` weight 600, size 10px.\n2. Design a `Ghost UI Button`: `Void Black` background at 80% opacity, `Ghost White` 2px border, `10px` border radius. The button text should be all-caps `Ghost White`, `Red Hat Display` weight 600, size 14px.\n3. Build a small data display card: Background `Panel Dark`, with a `Ghost White` 2px border, and `10px` radius. Content text should be `Ghost White`, `Red Hat Display` weight 400, size 14px. Inner padding should be `24px` horizontal and `38px` vertical."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777515286553-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777515286553-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/63e985f6-1f1a-4c6e-a5ec-497ced38a7a7",
+  "ranks": {
+    "trending": 584,
+    "popular": 741,
+    "newest": 407
+  },
+  "localSlug": "the-game-awards-microverse-63e985f6"
+}

@@ -1,0 +1,1003 @@
+{
+  "id": "febf1c02-2c4d-46e6-ad16-8ee2a99ae0d5",
+  "url": "https://www.clouarchitects.com",
+  "siteName": "CLOU architects",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777513300337-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777513300337-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "light",
+  "colors": [
+    {
+      "name": "Canvas White",
+      "hex": "#fffffc"
+    },
+    {
+      "name": "Ink Black",
+      "hex": "#000000"
+    },
+    {
+      "name": "Arched Red",
+      "hex": "#ff0000",
+      "gradient": "linear-gradient(225deg, #ff0000 0%, #ff0600 48%, #ff1f00 100%)"
+    }
+  ],
+  "fonts": [
+    "Circular Std"
+  ],
+  "northStar": "Architectural blueprint on stark white canvas.",
+  "createdAt": "2026-04-30T01:42:16.025Z",
+  "previewVideoCapturedAt": null,
+  "industry": "design",
+  "fullResult": {
+    "meta": {
+      "url": "https://www.clouarchitects.com",
+      "siteName": "CLOU architects",
+      "extractedAt": "2026-04-30T01:42:15.955Z",
+      "durationMs": 59727,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 644,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "other",
+              "link",
+              "body",
+              "hero",
+              "image",
+              "heading",
+              "list",
+              "button",
+              "icon",
+              "footer",
+              "nav"
+            ],
+            "frequency": 2780,
+            "confidence": 1,
+            "prominence": 285543624.9180596,
+            "properties": [
+              "color",
+              "borderColor",
+              "fill",
+              "backgroundColor",
+              "boxShadow"
+            ],
+            "usageCounts": {
+              "icon/fill": 12,
+              "nav/color": 31,
+              "body/color": 59,
+              "hero/color": 2,
+              "icon/color": 6,
+              "link/color": 24,
+              "list/color": 19,
+              "other/fill": 16,
+              "image/color": 46,
+              "other/color": 265,
+              "button/color": 5,
+              "footer/color": 1,
+              "heading/color": 87,
+              "nav/borderColor": 124,
+              "other/boxShadow": 4,
+              "body/borderColor": 236,
+              "hero/borderColor": 8,
+              "icon/borderColor": 24,
+              "link/borderColor": 96,
+              "list/borderColor": 76,
+              "image/borderColor": 184,
+              "other/borderColor": 1060,
+              "button/borderColor": 20,
+              "footer/borderColor": 4,
+              "heading/borderColor": 348,
+              "body/backgroundColor": 10,
+              "other/backgroundColor": 13
+            }
+          },
+          {
+            "hex": "#fffffc",
+            "oklch": {
+              "c": 0.003939835223673071,
+              "h": 106.470691661303,
+              "l": 0.9991717983727114
+            },
+            "contexts": [
+              "other",
+              "heading",
+              "body",
+              "button",
+              "icon"
+            ],
+            "frequency": 247,
+            "confidence": 1,
+            "prominence": 2122203.438200149,
+            "properties": [
+              "backgroundColor",
+              "color",
+              "borderColor",
+              "fill"
+            ],
+            "usageCounts": {
+              "icon/fill": 8,
+              "body/color": 10,
+              "icon/color": 4,
+              "other/fill": 4,
+              "other/color": 17,
+              "heading/color": 15,
+              "body/borderColor": 40,
+              "icon/borderColor": 16,
+              "other/borderColor": 68,
+              "heading/borderColor": 60,
+              "other/backgroundColor": 1,
+              "button/backgroundColor": 4
+            }
+          }
+        ],
+        "isDarkMode": false,
+        "colorfulness": 0.000868882133096946,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 20.96,
+            "background": "#fffffc",
+            "foreground": "#000000"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [],
+        "shadows": [
+          {
+            "value": "rgb(0, 0, 0) 0px 0px 0px 1px",
+            "contexts": [
+              "other"
+            ],
+            "frequency": 4
+          }
+        ]
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 2,
+            "contexts": [
+              "heading",
+              "body",
+              "other"
+            ],
+            "frequency": 80,
+            "properties": [
+              "paddingRight",
+              "paddingBottom",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|heading",
+              "paddingBottom|heading",
+              "paddingRight|body",
+              "paddingBottom|body",
+              "paddingLeft|body",
+              "paddingRight|other"
+            ]
+          },
+          {
+            "value": 3,
+            "contexts": [
+              "link",
+              "other",
+              "heading"
+            ],
+            "frequency": 21,
+            "properties": [
+              "paddingBottom",
+              "marginTop",
+              "paddingRight"
+            ],
+            "propertyContextPairs": [
+              "paddingBottom|link",
+              "paddingBottom|other",
+              "marginTop|heading",
+              "paddingRight|other"
+            ]
+          },
+          {
+            "value": 5,
+            "contexts": [
+              "other",
+              "heading",
+              "nav",
+              "link",
+              "button"
+            ],
+            "frequency": 32,
+            "properties": [
+              "paddingRight",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|other",
+              "paddingBottom|heading",
+              "paddingBottom|nav",
+              "paddingBottom|link",
+              "paddingBottom|button"
+            ]
+          },
+          {
+            "value": 8,
+            "contexts": [
+              "body",
+              "other"
+            ],
+            "frequency": 20,
+            "properties": [
+              "marginRight",
+              "paddingTop",
+              "marginBottom",
+              "marginTop"
+            ],
+            "propertyContextPairs": [
+              "marginRight|body",
+              "paddingTop|other",
+              "marginBottom|other",
+              "marginTop|other"
+            ]
+          },
+          {
+            "value": 10,
+            "contexts": [
+              "heading",
+              "other"
+            ],
+            "frequency": 3,
+            "properties": [
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingBottom|heading",
+              "paddingBottom|other"
+            ]
+          },
+          {
+            "value": 11,
+            "contexts": [
+              "other",
+              "heading"
+            ],
+            "frequency": 24,
+            "properties": [
+              "paddingRight",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|other",
+              "paddingRight|heading",
+              "paddingBottom|heading"
+            ]
+          },
+          {
+            "value": 13,
+            "contexts": [
+              "list"
+            ],
+            "frequency": 7,
+            "properties": [
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "marginBottom|list"
+            ]
+          },
+          {
+            "value": 17,
+            "contexts": [
+              "other",
+              "heading",
+              "icon",
+              "footer",
+              "body",
+              "nav",
+              "link",
+              "button",
+              "list"
+            ],
+            "frequency": 45,
+            "properties": [
+              "paddingRight",
+              "paddingBottom",
+              "marginLeft",
+              "marginRight",
+              "marginTop",
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|other",
+              "paddingRight|heading",
+              "paddingBottom|heading",
+              "paddingBottom|other",
+              "marginLeft|heading",
+              "marginRight|heading",
+              "marginTop|icon",
+              "marginBottom|other",
+              "paddingBottom|footer",
+              "marginBottom|body",
+              "marginBottom|nav",
+              "marginBottom|link",
+              "marginBottom|button",
+              "marginLeft|list",
+              "marginRight|link"
+            ]
+          },
+          {
+            "value": 25,
+            "contexts": [
+              "other",
+              "heading",
+              "nav",
+              "list"
+            ],
+            "frequency": 62,
+            "properties": [
+              "paddingRight",
+              "paddingLeft",
+              "marginBottom",
+              "paddingBottom",
+              "marginTop"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|other",
+              "paddingLeft|other",
+              "marginBottom|other",
+              "paddingBottom|other",
+              "marginBottom|heading",
+              "paddingLeft|heading",
+              "marginTop|nav",
+              "paddingLeft|nav",
+              "marginTop|other",
+              "paddingLeft|list"
+            ]
+          },
+          {
+            "value": 50,
+            "contexts": [
+              "heading",
+              "other"
+            ],
+            "frequency": 56,
+            "properties": [
+              "marginBottom",
+              "paddingRight",
+              "paddingLeft",
+              "marginTop"
+            ],
+            "propertyContextPairs": [
+              "marginBottom|heading",
+              "marginBottom|other",
+              "paddingRight|other",
+              "paddingLeft|other",
+              "marginTop|other"
+            ]
+          },
+          {
+            "value": 59,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "marginLeft"
+            ],
+            "propertyContextPairs": [
+              "marginLeft|other"
+            ]
+          },
+          {
+            "value": 84,
+            "contexts": [
+              "heading",
+              "other"
+            ],
+            "frequency": 12,
+            "properties": [
+              "marginBottom",
+              "paddingTop"
+            ],
+            "propertyContextPairs": [
+              "marginBottom|heading",
+              "paddingTop|other"
+            ]
+          },
+          {
+            "value": 101,
+            "contexts": [
+              "hero",
+              "other"
+            ],
+            "frequency": 18,
+            "properties": [
+              "marginBottom",
+              "marginTop"
+            ],
+            "propertyContextPairs": [
+              "marginBottom|hero",
+              "marginTop|hero",
+              "marginTop|other",
+              "marginBottom|other"
+            ]
+          },
+          {
+            "value": 134,
+            "contexts": [
+              "other",
+              "footer"
+            ],
+            "frequency": 4,
+            "properties": [
+              "paddingTop",
+              "marginBottom",
+              "marginTop"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other",
+              "marginBottom|other",
+              "marginTop|footer"
+            ]
+          },
+          {
+            "value": 168,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingBottom",
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingBottom|other",
+              "marginBottom|other"
+            ]
+          },
+          {
+            "value": 174,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "marginRight",
+              "marginLeft"
+            ],
+            "propertyContextPairs": [
+              "marginRight|other",
+              "marginLeft|other"
+            ]
+          }
+        ],
+        "density": "comfortable",
+        "baseUnit": null
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "Circular Std",
+            "source": "custom",
+            "weights": [
+              400,
+              700
+            ],
+            "frequency": 616,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 17,
+          "name": "Major Third",
+          "ratio": 1.25,
+          "confidence": 0.91
+        },
+        "steps": [
+          {
+            "size": 13,
+            "family": "Circular Std",
+            "weight": 700,
+            "contexts": [
+              "other",
+              "icon"
+            ],
+            "frequency": 6,
+            "lineHeight": 1.5,
+            "letterSpacing": -0.012,
+            "textTransform": "none"
+          },
+          {
+            "size": 13,
+            "family": "Circular Std",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "list"
+            ],
+            "frequency": 7,
+            "lineHeight": 1.5,
+            "letterSpacing": -0.012,
+            "textTransform": "none"
+          },
+          {
+            "size": 13,
+            "family": "Circular Std",
+            "weight": 700,
+            "contexts": [
+              "link",
+              "body"
+            ],
+            "frequency": 12,
+            "lineHeight": 1.1,
+            "letterSpacing": -0.012,
+            "textTransform": "none"
+          },
+          {
+            "size": 17,
+            "family": "Circular Std",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "link",
+              "hero",
+              "image",
+              "list",
+              "footer",
+              "body",
+              "nav"
+            ],
+            "frequency": 212,
+            "lineHeight": 1.5,
+            "letterSpacing": -0.01,
+            "textTransform": "none"
+          },
+          {
+            "size": 17,
+            "family": "Circular Std",
+            "weight": 400,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 3,
+            "lineHeight": 1,
+            "letterSpacing": -0.01,
+            "textTransform": "none"
+          },
+          {
+            "size": 17,
+            "family": "Circular Std",
+            "weight": 400,
+            "contexts": [
+              "link",
+              "other",
+              "body"
+            ],
+            "frequency": 8,
+            "lineHeight": 1.1,
+            "letterSpacing": -0.01,
+            "textTransform": "none"
+          },
+          {
+            "size": 17,
+            "family": "Circular Std",
+            "weight": 700,
+            "contexts": [
+              "link",
+              "body",
+              "other"
+            ],
+            "frequency": 91,
+            "lineHeight": 1.5,
+            "letterSpacing": -0.01,
+            "textTransform": "none"
+          },
+          {
+            "size": 17,
+            "family": "Circular Std",
+            "weight": 400,
+            "contexts": [
+              "button",
+              "other"
+            ],
+            "frequency": 14,
+            "lineHeight": 1.5,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 20,
+            "family": "Circular Std",
+            "weight": 400,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 7,
+            "lineHeight": 1.1,
+            "letterSpacing": -0.01,
+            "textTransform": "none"
+          },
+          {
+            "size": 25,
+            "family": "Circular Std",
+            "weight": 400,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.1,
+            "letterSpacing": -0.03,
+            "textTransform": "none"
+          },
+          {
+            "size": 32,
+            "family": "Circular Std",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "heading"
+            ],
+            "frequency": 8,
+            "lineHeight": 1.5,
+            "letterSpacing": -0.03,
+            "textTransform": "none"
+          },
+          {
+            "size": 34,
+            "family": "Circular Std",
+            "weight": 400,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.5,
+            "letterSpacing": -0.03,
+            "textTransform": "none"
+          },
+          {
+            "size": 34,
+            "family": "Circular Std",
+            "weight": 400,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.5,
+            "letterSpacing": -0.05,
+            "textTransform": "none"
+          },
+          {
+            "size": 34,
+            "family": "Circular Std",
+            "weight": 400,
+            "contexts": [
+              "heading",
+              "other"
+            ],
+            "frequency": 57,
+            "lineHeight": 1,
+            "letterSpacing": -0.03,
+            "textTransform": "none"
+          },
+          {
+            "size": 34,
+            "family": "Circular Std",
+            "weight": 400,
+            "contexts": [
+              "nav",
+              "link",
+              "heading",
+              "button"
+            ],
+            "frequency": 38,
+            "lineHeight": 1.1,
+            "letterSpacing": -0.03,
+            "textTransform": "none"
+          },
+          {
+            "size": 50,
+            "family": "Circular Std",
+            "weight": 400,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 8,
+            "lineHeight": 1,
+            "letterSpacing": -0.05,
+            "textTransform": "none"
+          },
+          {
+            "size": 50,
+            "family": "Circular Std",
+            "weight": 400,
+            "contexts": [
+              "heading",
+              "other"
+            ],
+            "frequency": 59,
+            "lineHeight": 1.1,
+            "letterSpacing": -0.05,
+            "textTransform": "none"
+          },
+          {
+            "size": 50,
+            "family": "Circular Std",
+            "weight": 400,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.5,
+            "letterSpacing": -0.05,
+            "textTransform": "none"
+          },
+          {
+            "size": 109,
+            "family": "Circular Std",
+            "weight": 400,
+            "contexts": [
+              "heading",
+              "other"
+            ],
+            "frequency": 44,
+            "lineHeight": 1.1,
+            "letterSpacing": -0.07,
+            "textTransform": "none"
+          },
+          {
+            "size": 134,
+            "family": "Circular Std",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "heading",
+              "icon"
+            ],
+            "frequency": 32,
+            "lineHeight": 1.15,
+            "letterSpacing": -0.07,
+            "textTransform": "none"
+          },
+          {
+            "size": 166,
+            "family": "Circular Std",
+            "weight": 400,
+            "contexts": [
+              "heading",
+              "other"
+            ],
+            "frequency": 5,
+            "lineHeight": 1.06,
+            "letterSpacing": -0.07,
+            "textTransform": "none"
+          },
+          {
+            "size": 201,
+            "family": "Circular Std",
+            "weight": 400,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 1,
+            "lineHeight": 0.8,
+            "letterSpacing": -0.07,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Prioritize Canvas White (#fffffc) for backgrounds and Ink Black (#000000) for text to maintain a high-contrast, minimalist aesthetic.",
+        "Use Circular Std exclusively for all typography across the site, leveraging its varied weights and sizes to establish hierarchy.",
+        "Apply negative letter-spacing for all large headlines (size 50px and above) to create a tight, commanding visual presence.",
+        "Maintain a uniform border-radius of 0px across all UI elements to reinforce a sharp, architectural aesthetic.",
+        "Incorporate the Arched Red (#ff0000) color sparingly and primarily within large photographic or graphic sections, not for functional UI elements.",
+        "Ensure all interactive elements, even if ghosted, have a clear Ink Black (#000000) border or text for discoverability.",
+        "Utilize large, bold typography as a primary design element and content divider, making text itself a graphic component."
+      ],
+      "donts": [
+        "Avoid using any drop shadows or complex elevation techniques; the design relies on flat, high-contrast surfaces and explicit borders.",
+        "Do not introduce rounded corners; all UI elements should adhere to sharp, 0px radii.",
+        "Refrain from using gradients on UI elements or backgrounds; the system is built on solid, flat colors.",
+        "Do not introduce additional accent colors beyond Arched Red; color accents are extremely minimal and specific.",
+        "Avoid complex, multi-layered components; favor simple, direct elements with clear boundaries and minimal styling.",
+        "Do not use generic system fonts; always specify Circular Std across all text to maintain brand consistency.",
+        "Unless part of a photographic element, avoid using Arched Red (#ff0000) as a background or primary interaction color."
+      ],
+      "theme": "light",
+      "colors": [
+        {
+          "hex": "#fffffc",
+          "name": "Canvas White",
+          "role": "Page backgrounds, button backgrounds, primary surface for text and imagery",
+          "group": "neutral"
+        },
+        {
+          "hex": "#000000",
+          "name": "Ink Black",
+          "role": "Primary text, borders, headers, and backgrounds for high-contrast sections",
+          "group": "neutral"
+        },
+        {
+          "hex": "#ff0000",
+          "name": "Arched Red",
+          "role": "Used as an almost sculptural accent in large photographic elements, defining architectural features and sections. Not used for UI elements",
+          "group": "accent",
+          "gradient": "linear-gradient(225deg, #ff0000 0%, #ff0600 48%, #ff1f00 100%)"
+        }
+      ],
+      "layout": "The page uses a full-bleed layout, filling the entire viewport width, but with content sections that imply a centered, almost grid-like structure within the fluid container. The hero showcases an oversized, commanding headline, often on a solid black background, directly followed by large-scale architectural photography. Sections alternate between expansive white canvases and solid black blocks, creating a distinct visual rhythm without explicit dividers. Content arrangement is often singular, with large imagery or text dominating the screen, or simple two-column text-and-image layouts where text acts as a label. Navigation is a minimal top bar, featuring ghosted text links, and a functional footer.",
+      "imagery": "Imagery primarily consists of high-quality architectural photography, often featuring interior or exterior shots of completed projects. These images are frequently full-bleed or large, contained within the stark white or black sections of the layout. The treatment is raw, with no apparent masking or rounded corners, allowing the sharp lines of the architecture to dominate. Color in photography can be vibrant, especially when showcasing red elements, serving to make architectural details pop. Illustrations are absent. Icons are minimal, utilizing simple outline styles in Ink Black or Canvas White.",
+      "similar": [
+        {
+          "why": "Shares a stark, architectural visual style with large-scale photography and minimalist typography.",
+          "business": "OMA"
+        },
+        {
+          "why": "Employs a high-contrast, geometric aesthetic with a focus on typography as a graphic element and minimal color palettes.",
+          "business": "Bauhaus"
+        },
+        {
+          "why": "Often features large, impactful imagery of architectural projects, combined with clean, modern typography and a focus on content over decorative UI.",
+          "business": "Snøhetta"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "none": "0px"
+        },
+        "elementGap": "17px",
+        "sectionGap": "25px",
+        "cardPadding": "17px",
+        "pageMaxWidth": null
+      },
+      "industry": "design",
+      "northStar": "Architectural blueprint on stark white canvas.",
+      "typeScale": [
+        {
+          "role": "caption",
+          "size": 13,
+          "lineHeight": 1.5,
+          "letterSpacing": 0
+        },
+        {
+          "role": "body",
+          "size": 17,
+          "lineHeight": 1.5,
+          "letterSpacing": 0
+        },
+        {
+          "role": "subheading",
+          "size": 20,
+          "lineHeight": 1.5,
+          "letterSpacing": 0
+        },
+        {
+          "role": "heading-sm",
+          "size": 25,
+          "lineHeight": 1.5,
+          "letterSpacing": 0
+        },
+        {
+          "role": "heading",
+          "size": 32,
+          "lineHeight": 1.15,
+          "letterSpacing": 0
+        },
+        {
+          "role": "heading-lg",
+          "size": 50,
+          "lineHeight": 1.1,
+          "letterSpacing": -0.01
+        },
+        {
+          "role": "display",
+          "size": 109,
+          "lineHeight": 1.06,
+          "letterSpacing": -0.012
+        },
+        {
+          "role": "display-xl",
+          "size": 134,
+          "lineHeight": 1,
+          "letterSpacing": -0.03
+        },
+        {
+          "role": "display-xxl",
+          "size": 166,
+          "lineHeight": 0.8,
+          "letterSpacing": -0.05
+        },
+        {
+          "role": "display-xxxl",
+          "size": 201,
+          "lineHeight": 0.8,
+          "letterSpacing": -0.07
+        }
+      ],
+      "components": [
+        {
+          "name": "Ghost Link Button",
+          "role": "Navigational or secondary action button for text-based links.",
+          "description": "Text-only button with Ink Black text on Canvas White background, 0px border-radius, with an Ink Black bottom border on hover. Padding is effectively 0px."
+        },
+        {
+          "name": "Inline Text Button",
+          "role": "Simple text-based button, often used for content within sections like 'View projects +'.",
+          "description": "Ink Black text on Canvas White background, 0px border-radius. No explicit padding or borders visible, appearing integrated with body text."
+        },
+        {
+          "name": "Hero Headline Block",
+          "role": "Dominant textual display for key messages, designed for maximum impact.",
+          "description": "Oversized Ink Black text on a Canvas White background, or reversed as Canvas White text on an Ink Black background. Uses font size 109px-201px, line-height 0.8-1.1, and negative letter-spacing for tight, impactful typography."
+        },
+        {
+          "name": "Navigation Link",
+          "role": "Header and footer navigation menu items.",
+          "description": "Ink Black text at 17-20px, medium weight, usually with no background or border, sometimes with an underline on hover/active state."
+        }
+      ],
+      "typography": [
+        {
+          "role": "Primary typeface for all headings, body text, navigation, and interactive elements. Its geometric simplicity reinforces the brand's direct and architectural aesthetic.",
+          "sizes": "13px, 17px, 20px, 25px, 32px, 34px, 50px, 109px, 134px, 166px, 201px",
+          "family": "Circular Std",
+          "weight": "400, 700",
+          "weights": [
+            400,
+            700
+          ],
+          "lineHeight": "0.80, 1.00, 1.06, 1.10, 1.15, 1.50",
+          "substitute": "System UI, Montserrat",
+          "letterSpacing": "-0.0700em at 201px, -0.0500em at 166px, -0.0300em at 134px, -0.0120em at 109px, -0.0100em at 50px"
+        }
+      ],
+      "description": "CLOU architects employs a stark, high-contrast visual language that is simultaneously bold and minimalist. It features an expansive white canvas frequently punctuated by solid black sections or oversized black typography. The absence of traditional component containers and a singular dramatic red accent color, primarily for large architectural photography, create a direct and impactful aesthetic focused on content. Typography is large, unapologetic, and used as a major graphic element, defining distinct areas and conveying information with a sense of modern, unadorned authority.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "Quick Color Reference: text: #000000, background: #fffffc, border: #000000, accent: #ff0000, primary action: no distinct CTA color\n\nExample Component Prompts:\nCreate a hero section: Canvas White background, large Ink Black headline 'We do social space.' in Circular Std weight 700 at 166px, line-height 0.8, letter-spacing -0.05em. No padding, full width.\nCreate a navigation link: 'Projects' in Ink Black text, Circular Std weight 400 at 17px, line-height 1.5, on a Canvas White background. No visible borders or padding, interactive underline on hover.\nCreate a text button within content: 'View projects +' in Ink Black text, Circular Std weight 400 at 17px, line-height 1.5, on Canvas White background. No borders, 0px radius, 0px padding. \nCreate a full-width black section: Ink Black background, with Canvas White text 'Our work' in Circular Std weight 700 at 50px, line-height 1.1, letter-spacing -0.01em. Add 50px vertical padding."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777513300337-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777513300337-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/febf1c02-2c4d-46e6-ad16-8ee2a99ae0d5",
+  "ranks": {
+    "trending": 690,
+    "popular": 794,
+    "newest": 542
+  },
+  "localSlug": "clou-architects-febf1c02"
+}

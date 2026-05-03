@@ -1,0 +1,674 @@
+{
+  "id": "bd62b51f-e1be-4e4f-b3d9-e9b91f817625",
+  "url": "https://littletroop.com",
+  "siteName": "Little Troop",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777517465797-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777517465797-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "light",
+  "colors": [
+    {
+      "name": "Inkwell",
+      "hex": "#000000"
+    },
+    {
+      "name": "Canvas White",
+      "hex": "#ffffff"
+    },
+    {
+      "name": "Ocean Mist",
+      "hex": "#8bc3bd"
+    },
+    {
+      "name": "Sunset Ember",
+      "hex": "#e78f40"
+    }
+  ],
+  "fonts": [
+    "Arial Narrow",
+    "Times Now"
+  ],
+  "northStar": "monochrome playful sculpture",
+  "createdAt": "2026-04-30T02:51:24.395Z",
+  "previewVideoCapturedAt": null,
+  "industry": "design",
+  "fullResult": {
+    "meta": {
+      "url": "https://littletroop.com",
+      "siteName": "Little Troop",
+      "extractedAt": "2026-04-30T02:51:23.883Z",
+      "durationMs": 31802,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 363,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "other",
+              "hero",
+              "card",
+              "body",
+              "list",
+              "heading",
+              "footer",
+              "link",
+              "image"
+            ],
+            "frequency": 925,
+            "confidence": 1,
+            "prominence": 227243350.92038748,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "body/color": 9,
+              "card/color": 13,
+              "hero/color": 2,
+              "link/color": 3,
+              "list/color": 18,
+              "image/color": 2,
+              "other/color": 104,
+              "footer/color": 1,
+              "heading/color": 33,
+              "body/borderColor": 36,
+              "card/borderColor": 52,
+              "hero/borderColor": 8,
+              "link/borderColor": 12,
+              "list/borderColor": 72,
+              "image/borderColor": 8,
+              "other/borderColor": 416,
+              "footer/borderColor": 4,
+              "heading/borderColor": 132
+            }
+          },
+          {
+            "hex": "#ffffff",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 1.0000000000000002
+            },
+            "contexts": [
+              "link",
+              "button",
+              "hero",
+              "other",
+              "heading",
+              "body",
+              "footer"
+            ],
+            "frequency": 64,
+            "confidence": 1,
+            "prominence": 117014389.8019016,
+            "properties": [
+              "color",
+              "borderColor",
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "body/color": 2,
+              "link/color": 4,
+              "other/color": 4,
+              "button/color": 1,
+              "heading/color": 1,
+              "body/borderColor": 8,
+              "link/borderColor": 16,
+              "other/borderColor": 16,
+              "button/borderColor": 4,
+              "heading/borderColor": 4,
+              "hero/backgroundColor": 2,
+              "other/backgroundColor": 1,
+              "footer/backgroundColor": 1
+            }
+          }
+        ],
+        "isDarkMode": false,
+        "colorfulness": 0,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 21,
+            "background": "#ffffff",
+            "foreground": "#000000"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [
+          {
+            "value": 50,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 30
+          }
+        ],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 1,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 11,
+            "properties": [
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingBottom|other"
+            ]
+          },
+          {
+            "value": 4,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "columnGap"
+            ],
+            "propertyContextPairs": [
+              "columnGap|other"
+            ]
+          },
+          {
+            "value": 8,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 30,
+            "properties": [
+              "paddingTop"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|heading"
+            ]
+          },
+          {
+            "value": 12,
+            "contexts": [
+              "image",
+              "other",
+              "list"
+            ],
+            "frequency": 4,
+            "properties": [
+              "marginTop",
+              "paddingTop",
+              "rowGap"
+            ],
+            "propertyContextPairs": [
+              "marginTop|image",
+              "paddingTop|other",
+              "rowGap|list"
+            ]
+          },
+          {
+            "value": 16,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingTop"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other"
+            ]
+          },
+          {
+            "value": 19,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingTop",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other",
+              "paddingBottom|other"
+            ]
+          },
+          {
+            "value": 20,
+            "contexts": [
+              "other",
+              "card",
+              "heading",
+              "list"
+            ],
+            "frequency": 38,
+            "properties": [
+              "paddingRight",
+              "paddingLeft",
+              "paddingTop",
+              "columnGap"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|other",
+              "paddingLeft|other",
+              "paddingRight|card",
+              "paddingLeft|card",
+              "paddingRight|heading",
+              "paddingLeft|heading",
+              "paddingTop|list",
+              "paddingRight|list",
+              "paddingLeft|list",
+              "columnGap|card",
+              "columnGap|other"
+            ]
+          },
+          {
+            "value": 40,
+            "contexts": [
+              "card"
+            ],
+            "frequency": 1,
+            "properties": [
+              "rowGap"
+            ],
+            "propertyContextPairs": [
+              "rowGap|card"
+            ]
+          },
+          {
+            "value": 89,
+            "contexts": [
+              "hero"
+            ],
+            "frequency": 1,
+            "properties": [
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingBottom|hero"
+            ]
+          },
+          {
+            "value": 100,
+            "contexts": [
+              "link"
+            ],
+            "frequency": 11,
+            "properties": [
+              "marginTop"
+            ],
+            "propertyContextPairs": [
+              "marginTop|link"
+            ]
+          },
+          {
+            "value": 173,
+            "contexts": [
+              "link"
+            ],
+            "frequency": 2,
+            "properties": [
+              "marginRight",
+              "marginLeft"
+            ],
+            "propertyContextPairs": [
+              "marginRight|link",
+              "marginLeft|link"
+            ]
+          },
+          {
+            "value": 231,
+            "contexts": [
+              "link"
+            ],
+            "frequency": 4,
+            "properties": [
+              "marginRight",
+              "marginLeft"
+            ],
+            "propertyContextPairs": [
+              "marginRight|link",
+              "marginLeft|link"
+            ]
+          },
+          {
+            "value": 250,
+            "contexts": [
+              "link"
+            ],
+            "frequency": 11,
+            "properties": [
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "marginBottom|link"
+            ]
+          },
+          {
+            "value": 289,
+            "contexts": [
+              "link"
+            ],
+            "frequency": 6,
+            "properties": [
+              "marginRight",
+              "marginLeft"
+            ],
+            "propertyContextPairs": [
+              "marginRight|link",
+              "marginLeft|link"
+            ]
+          },
+          {
+            "value": 316,
+            "contexts": [
+              "link",
+              "button"
+            ],
+            "frequency": 4,
+            "properties": [
+              "marginRight",
+              "marginLeft"
+            ],
+            "propertyContextPairs": [
+              "marginRight|link",
+              "marginRight|button",
+              "marginLeft|link"
+            ]
+          }
+        ],
+        "density": "comfortable",
+        "baseUnit": 4
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "Arial Narrow",
+            "source": "custom",
+            "weights": [
+              400,
+              700
+            ],
+            "frequency": 362,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "Times Now",
+            "source": "custom",
+            "weights": [
+              250
+            ],
+            "frequency": 1,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 16,
+          "name": "Minor Third",
+          "ratio": 1.2,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 14,
+            "family": "Arial Narrow",
+            "weight": 700,
+            "contexts": [
+              "link",
+              "button"
+            ],
+            "frequency": 4,
+            "lineHeight": 0.86,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 14,
+            "family": "Arial Narrow",
+            "weight": 700,
+            "contexts": [
+              "body",
+              "other",
+              "heading",
+              "link"
+            ],
+            "frequency": 45,
+            "lineHeight": 1.14,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 14,
+            "family": "Arial Narrow",
+            "weight": 400,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 16,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 14,
+            "family": "Arial Narrow",
+            "weight": 400,
+            "contexts": [
+              "heading",
+              "other",
+              "body"
+            ],
+            "frequency": 36,
+            "lineHeight": 1.14,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "Arial Narrow",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "link",
+              "image",
+              "hero",
+              "card",
+              "list",
+              "heading",
+              "footer"
+            ],
+            "frequency": 261,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 76,
+            "family": "Times Now",
+            "weight": 250,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 1,
+            "lineHeight": 0.79,
+            "letterSpacing": -0.066,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Use Canvas White (#ffffff) as the dominant background for all pages and primary content containers.",
+        "Employ Inkwell (#000000) for all primary text, borders, and main decorative outlines to maintain high contrast.",
+        "Apply a 50px border-radius to any background panels or interactive elements that should appear as distinct, soft-edged shapes.",
+        "Use Arial Narrow for body text and navigation, adjusting line height as needed between 0.86 and 1.14 based on context.",
+        "Reserve Times Now (weight 250, 76px, letter-spacing -0.066em) for impactful display headings, emphasizing its unique character.",
+        "Maintain generous negative space with a 100px section gap between major content blocks to ensure breathing room.",
+        "Introduce Ocean Mist (#8bc3bd) or Sunset Ember (#e78f4e) sparingly for subtle accents or hover states to highlight interaction."
+      ],
+      "donts": [
+        "Avoid introducing additional saturated colors beyond specified accents to preserve the monochrome focus.",
+        "Do not use heavy box shadows or overly complex gradients; the design relies on flat planes and subtle elevation changes.",
+        "Do not vary border-radius for non-container elements; the 50px radius is a signature shape.",
+        "Avoid dense, text-heavy blocks; break content into manageable, visually distinct units.",
+        "Do not use bold or heavy weights for Times Now; its personality comes from its light 250 weight combined with tight tracking.",
+        "Do not use generic system fonts for display text; Times Now defines a core part of the brand's typographic identity.",
+        "Avoid decorative imagery that conflicts with the clean, bold, typography-driven aesthetic; use clear product captures or abstract forms."
+      ],
+      "theme": "light",
+      "colors": [
+        {
+          "hex": "#000000",
+          "name": "Inkwell",
+          "role": "Primary text, borders, decorative elements — stark density against the white canvas",
+          "group": "neutral"
+        },
+        {
+          "hex": "#ffffff",
+          "name": "Canvas White",
+          "role": "Page backgrounds, large content surfaces, negative space",
+          "group": "neutral"
+        },
+        {
+          "hex": "#8bc3bd",
+          "name": "Ocean Mist",
+          "role": "Accents, decorative elements, subtle highlights",
+          "group": "accent"
+        },
+        {
+          "hex": "#e78f40",
+          "name": "Sunset Ember",
+          "role": "Supporting palette color for small decorative accents when the core palette needs contrast. Do not promote it to the primary CTA color",
+          "group": "accent"
+        }
+      ],
+      "layout": "The page maintains a full-bleed layout, using a max-width approach for content containment. The initial hero section often features a distorted or spherical graphic, creating an immediate, abstract visual impact. Content sections are vertically stacked with a consistent 100px gap, using a flexible grid that can accommodate single large hero elements or multiple smaller 'card' items. The Project Index utilizes a dynamic, responsive grid of ghost cards, each implicitly defined by its rounded outline or contained content, rather than explicit borders. Navigation is presented minimally in a fixed header, with a large footer section. The overall density is comfortable, with ample whitespace provided by the Canvas White background.",
+      "imagery": "This system primarily uses product screenshots and brand identity artwork, often presented within rounded, contained shapes or as part of a larger, abstract layout. Imagery is typically high-fidelity and product-focused, rather than lifestyle or stock photography. Icons, when present (e.g., filter checkboxes), are simple, outlined, and monochromatic, aligning with the minimal aesthetic. The role of imagery is to showcase design work or provide functional context, maintaining a text-dominant to image-balanced density, often with images deeply integrated into the layout rather than merely decorative.",
+      "similar": [
+        {
+          "why": "Similar approach to clean, spacious layouts with strong typography and minimal, functional use of color, primarily monochromatic with subtle accents.",
+          "business": "Stripe"
+        },
+        {
+          "why": "Emphasizes typography and graphic shapes over complex imagery, creating a distinct visual voice with a limited color palette.",
+          "business": "Kikkland Design"
+        },
+        {
+          "why": "Utilizes a strong grid, high-contrast black and white, and often incorporates unique typographic treatments for headlines.",
+          "business": "AIGA Design"
+        },
+        {
+          "why": "Focuses on case studies and project displays within a clean, editorial layout, minimal UI, and a strong emphasis on the work itself.",
+          "business": "The Brand Identity"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "shapes": "50px"
+        },
+        "elementGap": "20px",
+        "sectionGap": "100px",
+        "cardPadding": "20px",
+        "pageMaxWidth": null
+      },
+      "industry": "design",
+      "northStar": "monochrome playful sculpture",
+      "components": [
+        {
+          "name": "Navigation Link",
+          "role": "Header and footer navigation elements, work item links.",
+          "description": "Text in Arial Narrow, typically 14px or 16px, color Inkwell (#000000). Hover states might apply a border or color change as suggested by the accent colors. These minimal links maintain the clean negative space without heavy button styles."
+        },
+        {
+          "name": "Project Index Card",
+          "role": "Container for individual work project previews.",
+          "description": "A ghost card with transparent background, zero border radius, and no box shadow. Content within has padding of 20px on left/right. The distinct rounded shape and visible content defines the card, not the container properties."
+        },
+        {
+          "name": "Filter Toggle Button",
+          "role": "Used for filtering content, specifically on the Project Index.",
+          "description": "A ghost button, with a transparent background, white text (#ffffff), and a 1px border in Canvas White (#ffffff) on the top. Uses Arial Narrow font. The minimal styling ensures it integrates seamlessly into the content display."
+        },
+        {
+          "name": "Filter Checkbox",
+          "role": "Interactive element to select filter criteria.",
+          "description": "A small circular checkbox with a 1px Inkwell (#000000) border, transparent background, and 50px radius. Checked state implied by color fill from --clr-accent. This rounded shape is a key visual identifier."
+        }
+      ],
+      "typography": [
+        {
+          "role": "Body text, navigation links, secondary headings — provides a utilitarian contrast to display type, prioritizing legibility at smaller scales.",
+          "sizes": "14px, 16px",
+          "family": "Arial Narrow",
+          "weight": "400, 700",
+          "weights": [
+            400,
+            700
+          ],
+          "lineHeight": "0.86, 1.00, 1.14",
+          "substitute": "Arial Condensed",
+          "letterSpacing": "normal"
+        },
+        {
+          "role": "Dominant display headings where a light, wide, and tightly tracked textual punch is needed, creating a signature high-impact, minimalist statement.",
+          "sizes": "76px",
+          "family": "Times Now",
+          "weight": "250",
+          "weights": [
+            250
+          ],
+          "lineHeight": "0.79",
+          "substitute": "Times New Roman",
+          "letterSpacing": "-0.0660em"
+        }
+      ],
+      "description": "Little Troop sculpts a playful yet authoritative visual identity through stark monochrome contrast and oversized, almost cartoonish, typographic gestures. Surfaces are a crisp white canvas, against which dense, rounded blocks of content float. The system uses a limited color palette to emphasize form and content, with visual interest created through unexpected scale shifts and exaggerated shapes, lending a whimsical but professional feel.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "Quick Color Reference: \ntext: #000000\nbackground: #ffffff\nborder: #000000\naccent: #8bc3bd\nprimary action: no distinct CTA color\n\nExample Component Prompts:\n1. Create a header navigation link: Arial Narrow 16px, weight 400, color #000000, 1px Inkwell (#000000) bottom border on hover.\n2. Create a project index filter checkbox: Circular shape with 1px Inkwell (#000000) border, 50px radius. When active, fill with Ocean Mist (#8bc3bd).\n3. Create a primary display heading: Times Now 76px, weight 250, color #000000, letter-spacing -0.066em, line-height 0.79."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777517465797-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777517465797-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/bd62b51f-e1be-4e4f-b3d9-e9b91f817625",
+  "ranks": {
+    "trending": 1116,
+    "popular": 1116,
+    "newest": 280
+  },
+  "localSlug": "little-troop-bd62b51f"
+}

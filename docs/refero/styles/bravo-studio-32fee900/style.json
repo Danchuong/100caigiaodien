@@ -1,0 +1,330 @@
+{
+  "id": "32fee900-17a5-4753-b08d-3c73f2d2f71f",
+  "url": "https://brv.studio",
+  "siteName": "BRAVÒ STUDIO",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777518072911-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777518072911-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "dark",
+  "colors": [
+    {
+      "name": "Plum Canvas",
+      "hex": "#4D004B"
+    },
+    {
+      "name": "Ghostly Slate",
+      "hex": "#dedede"
+    },
+    {
+      "name": "Pure White",
+      "hex": "#ffffff"
+    }
+  ],
+  "fonts": [
+    "GTAmerica Condensed"
+  ],
+  "northStar": "Deep Plum Proscenium",
+  "createdAt": "2026-04-30T03:01:27.031Z",
+  "previewVideoCapturedAt": null,
+  "industry": "media",
+  "fullResult": {
+    "meta": {
+      "url": "https://brv.studio",
+      "siteName": "BRAVÒ STUDIO",
+      "extractedAt": "2026-04-30T03:01:26.964Z",
+      "durationMs": 26868,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 161,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#dedede",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.9006007265506661
+            },
+            "contexts": [
+              "other",
+              "body",
+              "heading"
+            ],
+            "frequency": 315,
+            "confidence": 1,
+            "prominence": 340787161.90518826,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "body/color": 16,
+              "other/color": 46,
+              "heading/color": 1,
+              "body/borderColor": 64,
+              "other/borderColor": 184,
+              "heading/borderColor": 4
+            }
+          },
+          {
+            "hex": "#ffffff",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 1.0000000000000002
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 480,
+            "confidence": 1,
+            "prominence": 20142087.430573158,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "other/color": 96,
+              "other/borderColor": 384
+            }
+          },
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 10,
+            "confidence": 1,
+            "prominence": 6728.594498249543,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "other/color": 2,
+              "other/borderColor": 8
+            }
+          }
+        ],
+        "isDarkMode": true,
+        "colorfulness": 0,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 21,
+            "background": "#ffffff",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 15.61,
+            "background": "#dedede",
+            "foreground": "#000000"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 13,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingRight"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|body"
+            ]
+          }
+        ],
+        "density": "comfortable",
+        "baseUnit": 6
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "GTAmerica Condensed",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 161,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": null,
+        "steps": [
+          {
+            "size": 16,
+            "family": "GTAmerica Condensed",
+            "weight": 400,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 143,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 17,
+            "family": "GTAmerica Condensed",
+            "weight": 400,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 6,
+            "lineHeight": 1.06,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 17,
+            "family": "GTAmerica Condensed",
+            "weight": 400,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 10,
+            "lineHeight": 1.06,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Use Plum Canvas (#4D004B) as the dominant background color for all page sections.",
+        "Utilize GTAmerica Condensed, weight 400, for all text content to maintain a consistent brand voice.",
+        "Set text color to Pure White (#ffffff) for primary navigation and prominent information, and Ghostly Slate (#dedede) for secondary or less prominent text, ensuring high contrast against the dark background.",
+        "Maintain a minimal border radius of 0px for all elements, emphasizing sharp, angular forms.",
+        "Implement a generous vertical spacing of 48px between main content blocks to create a composed layout."
+      ],
+      "donts": [
+        "Avoid using highly saturated accent colors that would disrupt the monochrome aesthetic.",
+        "Do not introduce rounded corners; all UI elements should maintain sharp, 0px radii.",
+        "Refrain from using shadows or other elevation cues; the design relies on flat, layered surfaces and color contrast.",
+        "Do not break the GTAmerica Condensed font family with other display fonts or excessive weight variations.",
+        "Avoid dense, paragraph-heavy text blocks; keep text concise and functional to align with the annotated feel."
+      ],
+      "theme": "dark",
+      "colors": [
+        {
+          "hex": "#4D004B",
+          "name": "Plum Canvas",
+          "role": "Page background – creates a dark, theatrical stage for content, especially media",
+          "group": "brand"
+        },
+        {
+          "hex": "#dedede",
+          "name": "Ghostly Slate",
+          "role": "Primary text for navigation and informational elements, subtle borders",
+          "group": "neutral"
+        },
+        {
+          "hex": "#ffffff",
+          "name": "Pure White",
+          "role": "High-contrast informational text, subtle borders, often used for header text against dark content sections",
+          "group": "neutral"
+        }
+      ],
+      "layout": "The page primarily uses a full-bleed structure, with content sections occupying the full viewport width. The hero pattern seems to be a centered image or media block set against the Plum Canvas background. Vertical sections maintain consistent spacing, with text elements often appearing in a fixed position at the header and footer, acting as navigational anchors for the central, dynamic content area. The overall density is spacious, ensuring strong focus on individual content pieces.",
+      "imagery": "The site heavily features photography, specifically close-cropped, high-detail shots, often with iridescent or metallic surfaces (as seen in the car headlight). These images are treated as the central content, full-bleed within their section, and appear without rounded corners or masks, presenting raw and impactful visuals. Their role is primarily showcase and atmospheric, with sparse text surrounding them, allowing the visual to dominate and tell the story.",
+      "similar": [
+        {
+          "why": "Minimalist navigation, strong art direction through a central visual motif, and a dark, moody background.",
+          "business": "A24 FILMS"
+        },
+        {
+          "why": "Focus on high-quality editorial imagery, subtle branding, and a refined, understated typography for supporting text.",
+          "business": "Acne Studios"
+        },
+        {
+          "why": "Exclusive use of high-contrast typography, large visual elements, and an overall sparse, luxury aesthetic.",
+          "business": "The Row"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "none": "0px"
+        },
+        "elementGap": "12px",
+        "sectionGap": "48px",
+        "cardPadding": "24px",
+        "pageMaxWidth": null
+      },
+      "industry": "media",
+      "northStar": "Deep Plum Proscenium",
+      "components": [
+        {
+          "name": "Header Navigation Link",
+          "role": "Top and bottom navigation items",
+          "description": "Text: Pure White (#ffffff), weight 400. Hover/active state is the only visual feedback."
+        }
+      ],
+      "typography": [
+        {
+          "role": "Used for all text, from navigation to body copy, maintaining a consistent, refined voice with its condensed form.",
+          "sizes": "16px, 17px",
+          "family": "GTAmerica Condensed",
+          "weight": "400",
+          "weights": [
+            400
+          ],
+          "lineHeight": "1.06, 1.20",
+          "substitute": "IBM Plex Sans Condensed"
+        }
+      ],
+      "description": "BRAVÒ STUDIO employs a dark, almost monochrome aesthetic, creating a sense of understated drama. The primary visual element is often a central piece of media, framed by vast swaths of a deep, rich plum background. Typography is compact and precise, appearing as subtle, highly contrasted annotations or navigation elements rather than dominant content blocks. The system prioritizes stark legibility against a dark canvas, with minimal decorative elements, allowing the core content to take precedence.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "Quick Color Reference:\ntext: #dedede\nbackground: #4D004B\nborder: #dedede\naccent: no distinct accent color\nprimary action: no distinct CTA color\n\nExample Component Prompts:\nCreate a navigation item: GTAmerica Condensed, weight 400, 16px, line height 1.06, color Pure White (#ffffff).\nCreate a page heading: GTAmerica Condensed, weight 400, 17px, line height 1.20, color Ghostly Slate (#dedede).\nCreate a standard information text block: GTAmerica Condensed, weight 400, 16px, line height 1.20, color Ghostly Slate (#dedede).\nCreate a full-width header: background Plum Canvas (#4D004B). Left text 'BRAVÒ STUDIO', right text 'INFORMATION' both GTAmerica Condensed, weight 400, 16px, line height 1.06, color Pure White (#ffffff)."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777518072911-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777518072911-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/32fee900-17a5-4753-b08d-3c73f2d2f71f",
+  "ranks": {
+    "trending": 340,
+    "popular": 550,
+    "newest": 247
+  },
+  "localSlug": "bravo-studio-32fee900"
+}

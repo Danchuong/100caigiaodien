@@ -1,0 +1,582 @@
+{
+  "id": "3cc1d30c-3b08-48af-bbf0-df195d77835f",
+  "url": "https://oudolf.com",
+  "siteName": "Piet Oudolf",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777517097643-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777517097643-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "light",
+  "colors": [
+    {
+      "name": "Canvas White",
+      "hex": "#ffffff"
+    },
+    {
+      "name": "Textured Gray",
+      "hex": "#808080"
+    },
+    {
+      "name": "Muted Gray",
+      "hex": "#b3b3b3"
+    },
+    {
+      "name": "Outline Gray",
+      "hex": "#999999"
+    },
+    {
+      "name": "Icon Black",
+      "hex": "#000000"
+    }
+  ],
+  "fonts": [
+    "UniversLTStd-Light",
+    "Maison Neue Book"
+  ],
+  "northStar": "Typographic whisper on textured canvas",
+  "createdAt": "2026-04-30T02:45:27.355Z",
+  "previewVideoCapturedAt": null,
+  "industry": "design",
+  "fullResult": {
+    "meta": {
+      "url": "https://oudolf.com",
+      "siteName": "Piet Oudolf",
+      "extractedAt": "2026-04-30T02:45:27.287Z",
+      "durationMs": 39015,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 262,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#808080",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.5998708056221468
+            },
+            "contexts": [
+              "other",
+              "link",
+              "heading",
+              "nav",
+              "hero",
+              "body"
+            ],
+            "frequency": 544,
+            "confidence": 1,
+            "prominence": 8901038.08133527,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "nav/color": 12,
+              "body/color": 34,
+              "hero/color": 1,
+              "link/color": 35,
+              "other/color": 17,
+              "heading/color": 11,
+              "nav/borderColor": 44,
+              "body/borderColor": 136,
+              "hero/borderColor": 4,
+              "link/borderColor": 138,
+              "other/borderColor": 68,
+              "heading/borderColor": 44
+            }
+          },
+          {
+            "hex": "#b3b3b3",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.766119576592072
+            },
+            "contexts": [
+              "footer",
+              "other",
+              "nav"
+            ],
+            "frequency": 96,
+            "confidence": 1,
+            "prominence": 2109860.137390381,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "nav/color": 12,
+              "other/color": 7,
+              "footer/color": 1,
+              "nav/borderColor": 44,
+              "other/borderColor": 28,
+              "footer/borderColor": 4
+            }
+          },
+          {
+            "hex": "#ffffff",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 1.0000000000000002
+            },
+            "contexts": [
+              "heading",
+              "other"
+            ],
+            "frequency": 330,
+            "confidence": 1,
+            "prominence": 1611357.3258103894,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "other/color": 33,
+              "heading/color": 33,
+              "other/borderColor": 132,
+              "heading/borderColor": 132
+            }
+          },
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 99,
+            "confidence": 1,
+            "prominence": 1278942.3165316344,
+            "properties": [
+              "fill"
+            ],
+            "usageCounts": {
+              "other/fill": 99
+            }
+          },
+          {
+            "hex": "#999999",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.6829534013134412
+            },
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 2,
+            "confidence": 1,
+            "prominence": 1681.6452132651466,
+            "properties": [
+              "borderColor"
+            ],
+            "usageCounts": {
+              "nav/borderColor": 2
+            }
+          }
+        ],
+        "isDarkMode": false,
+        "colorfulness": 0,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 21,
+            "background": "#ffffff",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 10.02,
+            "background": "#b3b3b3",
+            "foreground": "#000000"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 3,
+            "contexts": [
+              "link",
+              "nav"
+            ],
+            "frequency": 10,
+            "properties": [
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingBottom|link",
+              "paddingBottom|nav"
+            ]
+          },
+          {
+            "value": 6,
+            "contexts": [
+              "link"
+            ],
+            "frequency": 33,
+            "properties": [
+              "marginRight"
+            ],
+            "propertyContextPairs": [
+              "marginRight|link"
+            ]
+          },
+          {
+            "value": 15,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 10,
+            "properties": [
+              "marginRight",
+              "marginLeft"
+            ],
+            "propertyContextPairs": [
+              "marginRight|other",
+              "marginLeft|other"
+            ]
+          },
+          {
+            "value": 21,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 3,
+            "properties": [
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingBottom|other"
+            ]
+          },
+          {
+            "value": 22,
+            "contexts": [
+              "link"
+            ],
+            "frequency": 33,
+            "properties": [
+              "marginLeft"
+            ],
+            "propertyContextPairs": [
+              "marginLeft|link"
+            ]
+          },
+          {
+            "value": 40,
+            "contexts": [
+              "hero",
+              "other"
+            ],
+            "frequency": 5,
+            "properties": [
+              "paddingTop",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|hero",
+              "paddingBottom|hero",
+              "paddingTop|other",
+              "paddingBottom|other"
+            ]
+          },
+          {
+            "value": 60,
+            "contexts": [
+              "other",
+              "hero"
+            ],
+            "frequency": 10,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|other",
+              "paddingLeft|other",
+              "paddingRight|hero",
+              "paddingLeft|hero"
+            ]
+          }
+        ],
+        "density": "comfortable",
+        "baseUnit": null
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "UniversLTStd-Light",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 130,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "Maison Neue Book",
+            "source": "custom",
+            "weights": [
+              300
+            ],
+            "frequency": 66,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 16,
+          "name": "Minor Third",
+          "ratio": 1.2,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 12,
+            "family": "UniversLTStd-Light",
+            "weight": 400,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 33,
+            "lineHeight": 2.33,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 15,
+            "family": "UniversLTStd-Light",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "link",
+              "heading",
+              "nav",
+              "hero",
+              "footer",
+              "body"
+            ],
+            "frequency": 96,
+            "lineHeight": 1.87,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 15,
+            "family": "UniversLTStd-Light",
+            "weight": 400,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.6,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 60,
+            "family": "Maison Neue Book",
+            "weight": 300,
+            "contexts": [
+              "heading",
+              "other"
+            ],
+            "frequency": 66,
+            "lineHeight": 1.25,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Use Canvas White #ffffff as the primary background for all page sections to maintain a bright, airy feel.",
+        "Apply Textured Gray #808080 for all primary text content and interactive borders, leveraging its subtle visual texture.",
+        "Employ Maison Neue Book weight 300 at 60px for all page-level headlines, emphasizing understated authority.",
+        "Incorporate UniversLTStd-Light weight 400 at 12px for body copy and navigational elements, preserving a delicate typographic presentation.",
+        "Maintain the comfortable density by respecting a 40px vertical gap between main page sections.",
+        "Utilize a 6px right margin for horizontal spacing between inline elements like links or keywords.",
+        "For all interactive borders, use a 1px solid stroke with Outline Gray #999999 for clarity and a 0.3s ease transition on hover."
+      ],
+      "donts": [
+        "Avoid using bold or heavy font weights for headlines; the system relies on lighter weights for its distinctive tone.",
+        "Do not introduce strong, saturated colors for backgrounds or primary text; maintain the monochromatic and achromatic palette.",
+        "Refrain from using prominent shadows or elevation effects; the design emphasizes flatness and subtle depth through typography.",
+        "Do not use generic button styles; interactive elements should primarily be text-based with subtle border feedback.",
+        "Avoid tight, condensed line spacing; ensure generous line heights (e.g., 1.6-2.33) for improved readability and visual calm.",
+        "Do not deviate from the specified font families; their unique characteristics are central to the brand's identity.",
+        "Avoid prominent page dividers; section separation is primarily achieved through semantic grouping and vertical spacing, not explicit lines."
+      ],
+      "theme": "light",
+      "colors": [
+        {
+          "hex": "#ffffff",
+          "name": "Canvas White",
+          "role": "Page backgrounds, subtle borders, UI elements that recede, primary text on dark accents if any",
+          "group": "neutral"
+        },
+        {
+          "hex": "#808080",
+          "name": "Textured Gray",
+          "role": "Medium-contrast borders, control outlines, and structural separators. Do not promote it to the primary CTA color",
+          "group": "neutral"
+        },
+        {
+          "hex": "#b3b3b3",
+          "name": "Muted Gray",
+          "role": "Footer text, inactive navigation items, and secondary borders, providing a softer contrast than Textured Gray",
+          "group": "neutral"
+        },
+        {
+          "hex": "#999999",
+          "name": "Outline Gray",
+          "role": "Thin navigation item borders, offering a slightly darker, more defined boundary than Muted Gray",
+          "group": "neutral"
+        },
+        {
+          "hex": "#000000",
+          "name": "Icon Black",
+          "role": "Decorative icons and SVG fills for maximum contrast against light backgrounds",
+          "group": "neutral"
+        }
+      ],
+      "layout": "The page model is full-bleed, with all content expanding to the edges of the viewport horizontally. The hero section features the brand name, a horizontal navigation bar, and is followed by large, text-dominant sections. Content is primarily arranged in centered stacks, with a large, fluid block of text links acting as the main content area. Vertical spacing between sections appears consistent, with no hard visual dividers. The navigation is a minimalist top bar, likely sticky, with subtle interactive states.",
+      "imagery": "The site uses no explicit imagery in its UI outside of what appears to be part of the text rendering, which creates a textured, almost ephemeral effect within the typographic elements themselves. There are no standalone photographs, illustrations, or icons except potentially for very small, functional SVGs rendered in Icon Black. The visual system is entirely dominant by typography, which acts as the primary visual element and source of aesthetic interest.",
+      "similar": [
+        {
+          "why": "Similar emphasis on type as the primary visual element, often with a white canvas and minimal use of color.",
+          "business": "AIGA Design Archives"
+        },
+        {
+          "why": "Understated, fluid UI with light typography on a clean background, relying on subtle interactive cues rather than heavy components.",
+          "business": "The Browser Company (Arc)"
+        },
+        {
+          "why": "Uses large, unconventional typography as a central design feature, with a minimalist color palette and spacious layout.",
+          "business": "Future Fonts"
+        },
+        {
+          "why": "Focus on grid-based layouts and strong typographic hierarchy, with a sparse color palette that elevates information.",
+          "business": "Massimo Vignelli Archive"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "none": "0px"
+        },
+        "elementGap": "6px",
+        "sectionGap": "40px",
+        "cardPadding": "21px",
+        "pageMaxWidth": null
+      },
+      "industry": "design",
+      "northStar": "Typographic whisper on textured canvas",
+      "typeScale": [
+        {
+          "role": "body",
+          "size": 15,
+          "lineHeight": 1.87
+        },
+        {
+          "role": "display",
+          "size": 60,
+          "lineHeight": 1.25
+        }
+      ],
+      "components": [
+        {
+          "name": "Header Navigation Link",
+          "role": "Interactive text link in the page header.",
+          "description": "Uses UniversLTStd-Light, weight 400, 12px size, Textured Gray #808080. When hovered, a 1px solid Outline Gray #999999 bottom border appears after 0.3s ease."
+        },
+        {
+          "name": "Main Project Text Link",
+          "role": "Primary interactive text links for project names.",
+          "description": "Uses UniversLTStd-Light, weight 400, 60px size, Textured Gray #808080. Features a 6px right margin. Has a subtle textured visual appearance blending with background."
+        },
+        {
+          "name": "Small Country Code Label",
+          "role": "Contextual label for project locations.",
+          "description": "Uses UniversLTStd-Light, weight 400, 12px size, Textured Gray #808080. Features a 22px left margin and 6px right margin."
+        },
+        {
+          "name": "Footer Navigation Link",
+          "role": "Secondary navigation in the page footer.",
+          "description": "Uses UniversLTStd-Light, weight 400, 12px size, Muted Gray #b3b3b3."
+        }
+      ],
+      "typography": [
+        {
+          "role": "Body copy, navigation links, and smaller text elements. Its light weight contributes to the overall delicate and understated aesthetic.",
+          "sizes": "12px, 15px",
+          "family": "UniversLTStd-Light",
+          "weight": "400",
+          "weights": [
+            400
+          ],
+          "lineHeight": "1.60, 1.87, 2.33",
+          "substitute": "Helvetica Neue Light",
+          "letterSpacing": "normal"
+        },
+        {
+          "role": "Primary headings and large display text. The weight 300 for headlines is anti-convention; most sites use 600-700, this whisper-weight creates authority through restraint, echoing the natural, unobtrusive brand.",
+          "sizes": "60px",
+          "family": "Maison Neue Book",
+          "weight": "300",
+          "weights": [
+            300
+          ],
+          "lineHeight": "1.25",
+          "substitute": "Inter Light",
+          "letterSpacing": "normal"
+        }
+      ],
+      "description": "The Piet Oudolf visual system is a minimalist canvas with a typographic core, emphasizing content with subtle interactions. Its primary characteristic is the textured, almost camouflaged typography that appears to blend with its surroundings, creating an organic, almost ethereal display of information. Navigation is understated, relying on delicate borders and a sparse layout to guide the user, hinting at a natural, understated aesthetic where content is paramount and visual clutter is absent.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "Quick Color Reference: \n- text: #808080\n- background: #ffffff\n- border: #999999\n- accent: no distinct accent color\n- primary action: no distinct CTA color\n\nExample Component Prompts:\n- Create a header navigation link: UniversLTStd-Light weight 400, 12px size, Textured Gray #808080. On hover, apply a 1px solid Outline Gray #999999 bottom border with a 0.3s ease transition.\n- Create a main project text link: Maison Neue Book weight 300, 60px size, Textured Gray #808080. Add a 6px right margin. Ensure the text rendering maintains its unique textured appearance.\n- Create a small country code label: UniversLTStd-Light weight 400, 12px size, Textured Gray #808080. Apply a 22px left margin and 6px right margin."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777517097643-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777517097643-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/3cc1d30c-3b08-48af-bbf0-df195d77835f",
+  "ranks": {
+    "trending": 925,
+    "popular": 947,
+    "newest": 300
+  },
+  "localSlug": "piet-oudolf-3cc1d30c"
+}

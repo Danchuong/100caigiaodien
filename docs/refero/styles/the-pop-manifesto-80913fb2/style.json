@@ -1,0 +1,557 @@
+{
+  "id": "80913fb2-60ee-4d6c-b2c8-17600351096a",
+  "url": "https://thepopmanifesto.com",
+  "siteName": "The Pop Manifesto",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777516207642-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777516207642-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "dark",
+  "colors": [
+    {
+      "name": "Midnight Ink",
+      "hex": "#000000"
+    },
+    {
+      "name": "Neon Pink",
+      "hex": "#ff29f1"
+    },
+    {
+      "name": "Electric Blue",
+      "hex": "#287aea"
+    }
+  ],
+  "fonts": [
+    "Roobert",
+    "Roobert Bold"
+  ],
+  "northStar": "digital zine, high contrast",
+  "createdAt": "2026-04-30T02:30:25.125Z",
+  "previewVideoCapturedAt": null,
+  "industry": "media",
+  "fullResult": {
+    "meta": {
+      "url": "https://thepopmanifesto.com",
+      "siteName": "The Pop Manifesto",
+      "extractedAt": "2026-04-30T02:30:25.059Z",
+      "durationMs": 31521,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 238,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "other",
+              "link",
+              "body",
+              "image"
+            ],
+            "frequency": 1119,
+            "confidence": 1,
+            "prominence": 12398242.41274064,
+            "properties": [
+              "color",
+              "borderColor",
+              "fill"
+            ],
+            "usageCounts": {
+              "body/color": 1,
+              "link/color": 70,
+              "other/fill": 19,
+              "image/color": 66,
+              "other/color": 83,
+              "body/borderColor": 4,
+              "link/borderColor": 280,
+              "image/borderColor": 264,
+              "other/borderColor": 332
+            }
+          },
+          {
+            "hex": "#287aea",
+            "oklch": {
+              "c": 0.18645996534127643,
+              "h": 257.7391459551089,
+              "l": 0.5927094043562902
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 315000,
+            "properties": [
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "other/backgroundColor": 1
+            }
+          },
+          {
+            "hex": "#ff29f1",
+            "oklch": {
+              "c": 0.300208682468491,
+              "h": 331.4058358917285,
+              "l": 0.7036839076875541
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "confidence": 1,
+            "prominence": 2535.9400011538496,
+            "properties": [
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "other/backgroundColor": 2
+            }
+          }
+        ],
+        "isDarkMode": false,
+        "colorfulness": 0.0018954505233855046,
+        "contrastPairs": [
+          {
+            "level": "AA",
+            "ratio": 6.84,
+            "background": "#ff29f1",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AA",
+            "ratio": 5.06,
+            "background": "#287aea",
+            "foreground": "#000000"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 5,
+            "contexts": [
+              "other",
+              "link"
+            ],
+            "frequency": 5,
+            "properties": [
+              "rowGap",
+              "marginLeft",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "rowGap|other",
+              "marginLeft|link",
+              "paddingLeft|other"
+            ]
+          },
+          {
+            "value": 9,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingTop",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other",
+              "paddingLeft|other"
+            ]
+          },
+          {
+            "value": 20,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 67,
+            "properties": [
+              "paddingBottom",
+              "marginRight"
+            ],
+            "propertyContextPairs": [
+              "paddingBottom|other",
+              "marginRight|other"
+            ]
+          },
+          {
+            "value": 25,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingTop",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|body",
+              "paddingBottom|body"
+            ]
+          },
+          {
+            "value": 30,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 3,
+            "properties": [
+              "marginRight",
+              "marginBottom",
+              "marginLeft"
+            ],
+            "propertyContextPairs": [
+              "marginRight|other",
+              "marginBottom|other",
+              "marginLeft|other"
+            ]
+          },
+          {
+            "value": 40,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 8,
+            "properties": [
+              "marginRight",
+              "marginLeft",
+              "columnGap",
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "marginRight|other",
+              "marginLeft|other",
+              "columnGap|other",
+              "paddingRight|other",
+              "paddingLeft|other"
+            ]
+          },
+          {
+            "value": 291,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 66,
+            "properties": [
+              "paddingTop"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other"
+            ]
+          }
+        ],
+        "density": "spacious",
+        "baseUnit": 4
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "Roobert",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 219,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "Roobert Bold",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 1,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 22,
+          "name": "Major Second",
+          "ratio": 1.125,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 12,
+            "family": "Roobert",
+            "weight": 400,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 8,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 15,
+            "family": "Roobert Bold",
+            "weight": 400,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 15,
+            "family": "Roobert",
+            "weight": 400,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 22,
+            "family": "Roobert",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "link"
+            ],
+            "frequency": 10,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 22,
+            "family": "Roobert",
+            "weight": 400,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 33,
+            "family": "Roobert",
+            "weight": 400,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "lineHeight": 0.7,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Use Midnight Ink (#000000) for all text and interactive borders to ensure maximum contrast.",
+        "Implement Roobert 400 as the sole typeface, varying size and line height for hierarchy.",
+        "Employ highly saturated, single-color backgrounds like Neon Pink (#ff29f1) or Electric Blue (#287aea) for distinct content blocks, ensuring visual separation.",
+        "Maintain hard, 0px border-radius for all elements, including images and interactive areas.",
+        "Utilize 291px for vertical section gaps to create generous negative space and a spacious feel.",
+        "Apply 20px as the standard horizontal and vertical gap between related elements.",
+        "Assume all interactivity is communicated through text link styles or color block background changes, not subtle hover states or shadows."
+      ],
+      "donts": [
+        "Do not use subtle background gradients or textures; stick to flat, vibrant color blocks.",
+        "Avoid softer, desaturated or pastel colors, which would dilute the high-contrast aesthetic.",
+        "Do not introduce rounded corners; all shapes should be sharp 0px radius to preserve the crisp, editorial look.",
+        "Refrain from using drop shadows or complex elevation schemes; rely on color blocking for visual hierarchy.",
+        "Do not use varied typography weights; Roobert 400 is the only weight. Change text size and line height for hierarchy.",
+        "Do not use excessive white space within content blocks; reserve large spacing values for section separation only.",
+        "Do not introduce decorative icons unless they are bold, single-color, and contribute explicitly to the high-contrast identity."
+      ],
+      "theme": "dark",
+      "colors": [
+        {
+          "hex": "#000000",
+          "name": "Midnight Ink",
+          "role": "Dark borders and separators for elevated surfaces and inverted UI. Do not promote it to the primary CTA color",
+          "group": "neutral"
+        },
+        {
+          "hex": "#ff29f1",
+          "name": "Neon Pink",
+          "role": "Primary background for various sections, providing a high-energy stage for content",
+          "group": "brand"
+        },
+        {
+          "hex": "#287aea",
+          "name": "Electric Blue",
+          "role": "Alternate background color, creating distinct content blocks and providing visual interest",
+          "group": "brand"
+        }
+      ],
+      "layout": "The page uses a full-bleed layout, where content sections stretch the full viewport width. The hero section features a prominent, centered headline over a vibrant background. Content frequently uses a multi-column grid, prominently a 3-column layout for images and associated text. Sections are separated by large vertical gaps (291px) and distinct, solid color changes, creating a strong, block-like rhythm. Navigation is minimal, likely a fixed top bar or simple links within the header and footer.",
+      "imagery": "This site features a mix of photography styles: studio portraits with bold, single-color backdrops (like electric blue), candid lifestyle shots, and black-and-white portraits. Images are mostly contained within rectangular frames, with sharp edges, functioning as content rather than decorative backgrounds. They are high-density, taking up significant visual space to act as focal points.",
+      "similar": [
+        {
+          "why": "High-contrast, bold typography against stark, often single-color backgrounds, resembling an editorial layout.",
+          "business": "032c"
+        },
+        {
+          "why": "Editorial aesthetic with a focus on strong visual hierarchy and unconventional use of color blocking for content sections.",
+          "business": "Paper Magazine"
+        },
+        {
+          "why": "Full-bleed imagery, strong typographic statements, and a high-fashion, art-oriented visual approach with maximal contrast.",
+          "business": "Dazed Digital"
+        },
+        {
+          "why": "Emphasis on product photography and a clean, direct editorial style that uses typography to create impact.",
+          "business": "SSENSE"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "none": "0px"
+        },
+        "elementGap": "20px",
+        "sectionGap": "",
+        "cardPadding": "25px",
+        "pageMaxWidth": null
+      },
+      "industry": "media",
+      "surfaces": [
+        {
+          "hex": "#287aea",
+          "name": "Electric Blue Canvas",
+          "level": 0,
+          "purpose": "Base page background or primary content block background."
+        },
+        {
+          "hex": "#ff29f1",
+          "name": "Neon Pink Surface",
+          "level": 1,
+          "purpose": "Elevated content block background, providing strong visual distinction from the canvas."
+        }
+      ],
+      "northStar": "digital zine, high contrast",
+      "typeScale": [
+        {
+          "role": "caption",
+          "size": 12,
+          "lineHeight": 1.2
+        },
+        {
+          "role": "body-sm",
+          "size": 15,
+          "lineHeight": 1.2
+        },
+        {
+          "role": "body",
+          "size": 22,
+          "lineHeight": 1.2
+        },
+        {
+          "role": "body-lg",
+          "size": 33,
+          "lineHeight": 1.2
+        }
+      ],
+      "components": [
+        {
+          "name": "Section Headline",
+          "role": "Main content headings for distinct page sections.",
+          "description": "Text uses Roobert at 33px, weight 400, color Midnight Ink (#000000), line height 0.70."
+        },
+        {
+          "name": "Navigation Link",
+          "role": "Top-level navigation items.",
+          "description": "Text uses Roobert at 15px, weight 400, color Midnight Ink (#000000), line height 1.20. No distinct background or border."
+        },
+        {
+          "name": "Image Card",
+          "role": "Displays photographic content with prominent captions.",
+          "description": "An image with no border-radius, followed by Roobert text at 15px, color Midnight Ink (#000000) for caption, and 25px top/bottom padding."
+        },
+        {
+          "name": "Interactive Link Block",
+          "role": "Clickable blocks usually containing descriptive text.",
+          "description": "Background is highly saturated (e.g., Neon Pink #ff29f1 or Electric Blue #287aea), text uses Roobert at 15px or 22px, weight 400, color Midnight Ink (#000000), with 25px top/bottom padding."
+        },
+        {
+          "name": "Sub-Navigation Link",
+          "role": "Secondary navigation or category links.",
+          "description": "Text uses Roobert at 12px, weight 400, color Midnight Ink (#000000), line height 1.20, with 5px left padding and 9px top padding."
+        }
+      ],
+      "typography": [
+        {
+          "role": "Body text, navigation, and subheadings; its geometric, sharp quality contributes to the editorial feel.",
+          "sizes": "12px, 15px, 22px, 33px",
+          "family": "Roobert",
+          "weight": "400",
+          "weights": "400",
+          "lineHeight": "0.70, 1.20",
+          "substitute": "Inter",
+          "letterSpacing": "normal"
+        },
+        {
+          "role": "Small headings and emphasis; provides a more opinionated version of the primary typeface without increasing visual weight with a heavier font weight.",
+          "sizes": "15px",
+          "family": "Roobert Bold",
+          "weight": "400",
+          "weights": "400",
+          "lineHeight": "1.20",
+          "substitute": "Inter Bold",
+          "letterSpacing": "normal"
+        }
+      ],
+      "description": "The Pop Manifesto's visual language is a bold, high-contrast digital zine. It features stark black typography against vibrant, saturated backgrounds, often utilizing a single dominant color per section. The typography leans into a strong, editorial aesthetic with precise tracking and a clear hierarchy. Components are minimal, relying on color blocking and crisp text to define interactions rather than subtle shadows or rounded forms.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "Quick Color Reference:\ntext: #000000\nbackground: #ff29f1\nborder: #000000\naccent: #287aea\nprimary action: no distinct CTA color\n\nExample Component Prompts:\nCreate a hero section with a Neon Pink background, a main headline 'THE POP MANIFESTO' in Midnight Ink, Roobert 33px weight 400, line height 0.70. Below it, a sub-navigation link 'SHOP' in Midnight Ink, Roobert 15px weight 400, line height 1.20.\nCreate a content block with an Electric Blue background, featuring three image cards laid out horizontally. Each card has a full-bleed image and a caption 'Interview' in Midnight Ink, Roobert 15px, weight 400, with 25px padding above and below."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777516207642-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777516207642-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/80913fb2-60ee-4d6c-b2c8-17600351096a",
+  "ranks": {
+    "trending": 1187,
+    "popular": 1226,
+    "newest": 358
+  },
+  "localSlug": "the-pop-manifesto-80913fb2"
+}

@@ -1,0 +1,666 @@
+{
+  "id": "6be758be-344f-4301-8ff9-60706356ea00",
+  "url": "https://www.basedesign.com",
+  "siteName": "Base Design",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777513302275-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777513302275-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "light",
+  "colors": [
+    {
+      "name": "Canvas White",
+      "hex": "#ffffff"
+    },
+    {
+      "name": "Midnight Ink",
+      "hex": "#000000"
+    },
+    {
+      "name": "Ash Gray",
+      "hex": "#ababab"
+    }
+  ],
+  "fonts": [
+    "BaseGrotesk"
+  ],
+  "northStar": "Minimalist canvas, bold typography.",
+  "createdAt": "2026-04-30T01:42:17.432Z",
+  "previewVideoCapturedAt": null,
+  "industry": "agency",
+  "fullResult": {
+    "meta": {
+      "url": "https://www.basedesign.com",
+      "siteName": "Base Design",
+      "extractedAt": "2026-04-30T01:42:17.364Z",
+      "durationMs": 44976,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 225,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "other",
+              "button",
+              "link",
+              "hero",
+              "heading",
+              "image",
+              "body",
+              "nav"
+            ],
+            "frequency": 963,
+            "confidence": 1,
+            "prominence": 172208448.3046207,
+            "properties": [
+              "color",
+              "borderColor",
+              "fill"
+            ],
+            "usageCounts": {
+              "nav/color": 10,
+              "body/color": 3,
+              "hero/color": 2,
+              "link/color": 9,
+              "other/fill": 3,
+              "image/color": 5,
+              "other/color": 95,
+              "button/color": 3,
+              "heading/color": 65,
+              "nav/borderColor": 40,
+              "body/borderColor": 12,
+              "hero/borderColor": 8,
+              "link/borderColor": 36,
+              "image/borderColor": 20,
+              "other/borderColor": 380,
+              "button/borderColor": 12,
+              "heading/borderColor": 260
+            }
+          },
+          {
+            "hex": "#ffffff",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 1.0000000000000002
+            },
+            "contexts": [
+              "button",
+              "other",
+              "nav",
+              "heading"
+            ],
+            "frequency": 136,
+            "confidence": 1,
+            "prominence": 123308255.50080478,
+            "properties": [
+              "backgroundColor",
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "nav/color": 19,
+              "other/color": 2,
+              "button/color": 1,
+              "heading/color": 4,
+              "nav/borderColor": 76,
+              "other/borderColor": 8,
+              "button/borderColor": 4,
+              "heading/borderColor": 16,
+              "other/backgroundColor": 5,
+              "button/backgroundColor": 1
+            }
+          },
+          {
+            "hex": "#ababab",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.7412252722145155
+            },
+            "contexts": [
+              "body",
+              "link"
+            ],
+            "frequency": 25,
+            "confidence": 1,
+            "prominence": 17278.816403886653,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "body/color": 3,
+              "link/color": 2,
+              "body/borderColor": 12,
+              "link/borderColor": 8
+            }
+          }
+        ],
+        "isDarkMode": false,
+        "colorfulness": 0,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 21,
+            "background": "#ffffff",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 9.14,
+            "background": "#ababab",
+            "foreground": "#000000"
+          },
+          {
+            "level": "fail",
+            "ratio": 2.3,
+            "background": "#ffffff",
+            "foreground": "#ababab"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [
+          {
+            "value": 54,
+            "contexts": [
+              "button"
+            ],
+            "frequency": 2
+          }
+        ],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 7,
+            "contexts": [
+              "link"
+            ],
+            "frequency": 12,
+            "properties": [
+              "marginTop",
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "marginTop|link",
+              "marginBottom|link"
+            ]
+          },
+          {
+            "value": 8,
+            "contexts": [
+              "button"
+            ],
+            "frequency": 4,
+            "properties": [
+              "paddingTop",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|button",
+              "paddingBottom|button"
+            ]
+          },
+          {
+            "value": 20,
+            "contexts": [
+              "button"
+            ],
+            "frequency": 4,
+            "properties": [
+              "paddingTop",
+              "paddingRight",
+              "paddingBottom",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|button",
+              "paddingRight|button",
+              "paddingBottom|button",
+              "paddingLeft|button"
+            ]
+          },
+          {
+            "value": 22,
+            "contexts": [
+              "button"
+            ],
+            "frequency": 4,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|button",
+              "paddingLeft|button"
+            ]
+          },
+          {
+            "value": 25,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 6,
+            "properties": [
+              "marginRight"
+            ],
+            "propertyContextPairs": [
+              "marginRight|nav"
+            ]
+          },
+          {
+            "value": 30,
+            "contexts": [
+              "nav",
+              "other"
+            ],
+            "frequency": 15,
+            "properties": [
+              "marginRight",
+              "marginLeft",
+              "paddingRight",
+              "paddingLeft",
+              "paddingTop",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "marginRight|nav",
+              "marginLeft|nav",
+              "marginRight|other",
+              "marginLeft|other",
+              "paddingRight|other",
+              "paddingLeft|other",
+              "paddingTop|other",
+              "paddingBottom|other"
+            ]
+          },
+          {
+            "value": 35,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 4,
+            "properties": [
+              "marginLeft"
+            ],
+            "propertyContextPairs": [
+              "marginLeft|nav"
+            ]
+          },
+          {
+            "value": 40,
+            "contexts": [
+              "button"
+            ],
+            "frequency": 2,
+            "properties": [
+              "marginTop"
+            ],
+            "propertyContextPairs": [
+              "marginTop|button"
+            ]
+          },
+          {
+            "value": 65,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 4,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|heading",
+              "paddingLeft|heading"
+            ]
+          }
+        ],
+        "density": "spacious",
+        "baseUnit": 6
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "BaseGrotesk",
+            "source": "custom",
+            "weights": [
+              300,
+              400,
+              500,
+              700
+            ],
+            "frequency": 222,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 15,
+          "name": "Minor Third",
+          "ratio": 1.2,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 12,
+            "family": "BaseGrotesk",
+            "weight": 400,
+            "contexts": [
+              "body",
+              "link",
+              "nav"
+            ],
+            "frequency": 13,
+            "lineHeight": 1.33,
+            "letterSpacing": 0.01,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 16,
+            "family": "BaseGrotesk",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "link",
+              "hero",
+              "image",
+              "button",
+              "nav",
+              "body"
+            ],
+            "frequency": 112,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 18,
+            "family": "BaseGrotesk",
+            "weight": 400,
+            "contexts": [
+              "nav",
+              "button"
+            ],
+            "frequency": 20,
+            "lineHeight": 1.4,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 25,
+            "family": "BaseGrotesk",
+            "weight": 300,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 2,
+            "lineHeight": 1.2,
+            "letterSpacing": 0.01,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 30,
+            "family": "BaseGrotesk",
+            "weight": 300,
+            "contexts": [
+              "button",
+              "heading"
+            ],
+            "frequency": 3,
+            "lineHeight": 1.33,
+            "letterSpacing": 0.01,
+            "textTransform": "none"
+          },
+          {
+            "size": 32,
+            "family": "BaseGrotesk",
+            "weight": 700,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 50,
+            "family": "BaseGrotesk",
+            "weight": 500,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 2,
+            "lineHeight": 1.3,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 60,
+            "family": "BaseGrotesk",
+            "weight": 300,
+            "contexts": [
+              "other",
+              "heading"
+            ],
+            "frequency": 60,
+            "lineHeight": 1.17,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 65,
+            "family": "BaseGrotesk",
+            "weight": 300,
+            "contexts": [
+              "other",
+              "heading"
+            ],
+            "frequency": 9,
+            "lineHeight": 1.15,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Prioritize Canvas White (#ffffff) for all main backgrounds and Midnight Ink (#000000) for all text and borders.",
+        "Use BaseGrotesk across all typographic elements, leveraging its consistent letter-spacing of 0.0100em.",
+        "Apply a 54px border-radius to pill-shaped buttons to maintain a soft, distinct interaction style.",
+        "Maintain generous negative space around content blocks and sections to emphasize clarity and scale.",
+        "Ensure all interactive elements, particularly text links, are distinctly underlined on hover if not already by default.",
+        "Use Ash Gray (#ababab) sparingly for subordinate text or subtle dividing lines, never for primary content.",
+        "All navigation and primary branding elements should feature BaseGrotesk, respecting the established type scale."
+      ],
+      "donts": [
+        "Avoid using multiple typefaces; BaseGrotesk is the only sanctioned font.",
+        "Do not introduce new color hues; strictly adhere to the monochromatic palette of Canvas White, Midnight Ink, and Ash Gray.",
+        "Refrain from using sharp, square corners on interactive elements where a rounded alternative exists.",
+        "Do not overcrowd sections; maintain a spacious layout with a section gap of 40px.",
+        "Avoid decorative elements or excessive imagery that could detract from the bold, minimal aesthetic.",
+        "Do not use subtle elevation; the design system relies on stark color contrast and white space for hierarchy.",
+        "Never deviate from the specified padding for interactive elements; for example, pill buttons must have 8px vertical and 22px horizontal padding."
+      ],
+      "theme": "light",
+      "colors": [
+        {
+          "hex": "#ffffff",
+          "name": "Canvas White",
+          "role": "Page backgrounds, large brand blocks, interactive element backgrounds",
+          "group": "neutral"
+        },
+        {
+          "hex": "#000000",
+          "name": "Midnight Ink",
+          "role": "All primary text, borders, iconography, and large graphical elements",
+          "group": "neutral"
+        },
+        {
+          "hex": "#ababab",
+          "name": "Ash Gray",
+          "role": "Muted helper text, secondary information, and subtle borders",
+          "group": "neutral"
+        }
+      ],
+      "layout": "The page primarily uses a full-bleed layout, where content elements stretch across the full width of the viewport, particularly for large brand statements and hero sections. There is no explicit `pageMaxWidth` constraint. Sections are visually distinct through large blocks of content often featuring oversized typography or video embeds. Vertical rhythm is established through significant white space, with a section gap of 40px. The hero section often features oversized, bold typography that integrates with or overlays background motion imagery. Content arrangement tends towards simple, centered stacks or large single elements dominating the screen, reinforcing the minimalist and direct communication style. Navigation is a persistent top bar, minimalistic and unobtrusive against the predominantly white canvas.",
+      "imagery": "Imagery follows a clean, often raw and authentic style, featuring documentary-like video stills, unpolished photography, or bold, large-scale black and white typographic elements. No ornamental graphics or heavy illustrations are present. When photography is used, it often shows people in natural, creative work environments, implying a focus on process and real-world impact rather than aspirational perfection. Imagery is either full-bleed or contained within large, unadorned blocks, maintaining a high-contrast relationship with the surrounding whitespace or black backgrounds.",
+      "similar": [
+        {
+          "why": "Similar high-contrast, minimalist aesthetic with large typography and ample white space for a digital agency.",
+          "business": "Huge Inc."
+        },
+        {
+          "why": "Employs a stark black-and-white color palette and bold, experimental typography as core brand elements.",
+          "business": "Anagrama"
+        },
+        {
+          "why": "Focus on clarity and simplicity in branding, often using strong typographic statements and a restrained, high-contrast visual approach.",
+          "business": "Chermayeff & Geismar & Haviv"
+        },
+        {
+          "why": "Known for bold, graphic black and white design with strong typographic emphasis and a clear, direct presentation.",
+          "business": "Pentagram"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "buttons": "54px"
+        },
+        "elementGap": "7px",
+        "sectionGap": "40px",
+        "cardPadding": "20px",
+        "pageMaxWidth": null
+      },
+      "industry": "agency",
+      "surfaces": [
+        {
+          "hex": "#ffffff",
+          "name": "Canvas Background",
+          "level": 1,
+          "purpose": "Primary page background and default surface for all content."
+        }
+      ],
+      "northStar": "Minimalist canvas, bold typography.",
+      "typeScale": [
+        {
+          "role": "caption",
+          "size": 12,
+          "lineHeight": 1.4
+        },
+        {
+          "role": "body-sm",
+          "size": 16,
+          "lineHeight": 1.4
+        },
+        {
+          "role": "body",
+          "size": 18,
+          "lineHeight": 1.4
+        },
+        {
+          "role": "subheading",
+          "size": 25,
+          "lineHeight": 1.33
+        },
+        {
+          "role": "heading-sm",
+          "size": 30,
+          "lineHeight": 1.3
+        },
+        {
+          "role": "heading",
+          "size": 32,
+          "lineHeight": 1.3
+        },
+        {
+          "role": "heading-lg",
+          "size": 50,
+          "lineHeight": 1.2
+        },
+        {
+          "role": "display",
+          "size": 65,
+          "lineHeight": 1.15
+        }
+      ],
+      "components": [
+        {
+          "name": "Pill Ghost Button",
+          "role": "Secondary action button",
+          "description": "Ghost button with rounded corners for secondary actions. Text is Midnight Ink (#000000) on Canvas White (#ffffff) background, with a 2px Midnight Ink border. Padding is 8px vertical, 22px horizontal, and a very high 54px border-radius creates the pill shape."
+        },
+        {
+          "name": "Contrast Fill Button",
+          "role": "Primary action button, often for content blocks",
+          "description": "Solid Canvas White (#ffffff) background with Midnight Ink (#000000) text. No border, square corners. Generous 20px padding on all sides. Used for prominent calls to action within content areas."
+        },
+        {
+          "name": "Text Link Button",
+          "role": "Minimal interactive element, typically for navigation or inline actions",
+          "description": "Pure text link with Midnight Ink (#000000) text on a transparent background. No padding or border defined, relying on typography alone. Appears as a simple, clickable text string."
+        }
+      ],
+      "typography": [
+        {
+          "role": "The primary and sole typeface for all content, navigation, and branding. Its versatility across weights and generous letter-spacing contributes to the distinctively open and legible feel of the design. The subtle, slightly increased letter-spacing across all sizes prevents text from feeling dense and reinforces the minimalist aesthetic.",
+          "sizes": "12px, 16px, 18px, 25px, 30px, 32px, 50px, 60px, 65px",
+          "family": "BaseGrotesk",
+          "weight": "300, 400, 500, 700",
+          "lineHeight": "1.15, 1.17, 1.20, 1.30, 1.33, 1.40",
+          "substitute": "Inter",
+          "letterSpacing": "0.0100em"
+        }
+      ],
+      "description": "Base Design uses a high-contrast, minimalist aesthetic that champions clarity and boldness. The visual style is dominated by stark black-on-white typography with generous negative space, creating a sense of understated authority. Large-scale branding elements are interspersed with functional text and navigation, all rendered with a consistent, precise typographic hierarchy. The overall impression is one of directness and sophisticated simplicity.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "Quick Color Reference:\n- text: #000000\n- background: #ffffff\n- border: #000000\n- accent: no distinct accent color\n- primary action: no distinct CTA color\n\nExample Component Prompts:\n- Create a navigation link: BaseGrotesk, 16px, weight 400, #000000, 0.0100em letter-spacing. Use 25px right margin between links.\n- Create a pill ghost button: BaseGrotesk, 16px, weight 400, #000000 text, transparent background, #000000 2px border, 54px border-radius, 8px vertical padding, 22px horizontal padding.\n- Create a large primary heading: BaseGrotesk, 65px, weight 700, #000000, 0.0100em letter-spacing, centered."
+        }
+      ],
+      "elevationPhilosophy": "This design system intentionally avoids shadows. Hierarchy and depth are achieved exclusively through stark black-and-white contrast, typographic scale, and generous use of negative space, reinforcing a flat, direct, and minimalist aesthetic."
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777513302275-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777513302275-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/6be758be-344f-4301-8ff9-60706356ea00",
+  "ranks": {
+    "trending": 288,
+    "popular": 430,
+    "newest": 541
+  },
+  "localSlug": "base-design-6be758be"
+}

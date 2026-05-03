@@ -1,0 +1,873 @@
+{
+  "id": "e4593570-e43f-4eda-8618-0bb704d5ebb7",
+  "url": "https://garden-eight.com",
+  "siteName": "Garden Eight",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777514674348-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777514674348-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "dark",
+  "colors": [
+    {
+      "name": "Midnight Ink",
+      "hex": "#1e1f1f"
+    },
+    {
+      "name": "Soft Vanilla",
+      "hex": "#dbd6d0"
+    },
+    {
+      "name": "Shadowed Text",
+      "hex": "#000000"
+    }
+  ],
+  "fonts": [
+    "gunsan",
+    "lausanne"
+  ],
+  "northStar": "velvety stark minimalism",
+  "createdAt": "2026-04-30T02:04:53.667Z",
+  "previewVideoCapturedAt": null,
+  "industry": "design",
+  "fullResult": {
+    "meta": {
+      "url": "https://garden-eight.com",
+      "siteName": "Garden Eight",
+      "extractedAt": "2026-04-30T02:04:53.598Z",
+      "durationMs": 31429,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 229,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#1e1f1f",
+            "oklch": {
+              "c": 0.00150891123123373,
+              "h": 197.05545314139292,
+              "l": 0.23822154269620185
+            },
+            "contexts": [
+              "other",
+              "link",
+              "heading",
+              "nav",
+              "card",
+              "icon"
+            ],
+            "frequency": 714,
+            "confidence": 1,
+            "prominence": 49597576.62134642,
+            "properties": [
+              "color",
+              "borderColor",
+              "backgroundColor",
+              "fill"
+            ],
+            "usageCounts": {
+              "nav/color": 34,
+              "card/color": 3,
+              "icon/color": 2,
+              "link/color": 7,
+              "other/fill": 1,
+              "other/color": 94,
+              "heading/color": 1,
+              "nav/borderColor": 136,
+              "card/borderColor": 12,
+              "icon/borderColor": 8,
+              "link/borderColor": 28,
+              "other/borderColor": 376,
+              "heading/borderColor": 4,
+              "nav/backgroundColor": 5,
+              "other/backgroundColor": 3
+            }
+          },
+          {
+            "hex": "#dbd6d0",
+            "oklch": {
+              "c": 0.009858081589387972,
+              "h": 72.65166483120534,
+              "l": 0.8783678352517725
+            },
+            "contexts": [
+              "other",
+              "button",
+              "link",
+              "list"
+            ],
+            "frequency": 417,
+            "confidence": 1,
+            "prominence": 15354208.799146147,
+            "properties": [
+              "color",
+              "borderColor",
+              "backgroundColor",
+              "fill"
+            ],
+            "usageCounts": {
+              "link/color": 7,
+              "list/color": 4,
+              "other/fill": 2,
+              "other/color": 70,
+              "button/color": 1,
+              "link/borderColor": 28,
+              "list/borderColor": 16,
+              "other/borderColor": 280,
+              "button/borderColor": 4,
+              "other/backgroundColor": 5
+            }
+          },
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "other",
+              "icon"
+            ],
+            "frequency": 6,
+            "confidence": 1,
+            "prominence": 6468.14574042072,
+            "properties": [
+              "fill"
+            ],
+            "usageCounts": {
+              "icon/fill": 4,
+              "other/fill": 2
+            }
+          }
+        ],
+        "isDarkMode": true,
+        "colorfulness": 0.01233255518761004,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 14.54,
+            "background": "#dbd6d0",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 11.44,
+            "background": "#dbd6d0",
+            "foreground": "#1e1f1f"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [
+          {
+            "value": 30,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1
+          },
+          {
+            "value": 1440,
+            "contexts": [
+              "button"
+            ],
+            "frequency": 1
+          }
+        ],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 1,
+            "contexts": [
+              "button",
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingTop"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|button",
+              "paddingTop|other"
+            ]
+          },
+          {
+            "value": 2,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "marginTop"
+            ],
+            "propertyContextPairs": [
+              "marginTop|other"
+            ]
+          },
+          {
+            "value": 3,
+            "contexts": [
+              "link",
+              "other"
+            ],
+            "frequency": 5,
+            "properties": [
+              "paddingTop",
+              "paddingRight",
+              "paddingBottom",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|link",
+              "paddingRight|link",
+              "paddingBottom|link",
+              "paddingLeft|link",
+              "paddingRight|other"
+            ]
+          },
+          {
+            "value": 4,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 3,
+            "properties": [
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "marginBottom|other"
+            ]
+          },
+          {
+            "value": 10,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 10,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|nav",
+              "paddingLeft|nav"
+            ]
+          },
+          {
+            "value": 12,
+            "contexts": [
+              "button"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|button",
+              "paddingLeft|button"
+            ]
+          },
+          {
+            "value": 27,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 4,
+            "properties": [
+              "paddingRight"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|other"
+            ]
+          },
+          {
+            "value": 30,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 4,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|other",
+              "paddingLeft|other"
+            ]
+          },
+          {
+            "value": 38,
+            "contexts": [
+              "other",
+              "link"
+            ],
+            "frequency": 4,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|other",
+              "paddingLeft|other",
+              "paddingRight|link",
+              "paddingLeft|link"
+            ]
+          },
+          {
+            "value": 45,
+            "contexts": [
+              "link"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|link",
+              "paddingLeft|link"
+            ]
+          },
+          {
+            "value": 60,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingTop",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other",
+              "paddingBottom|other"
+            ]
+          },
+          {
+            "value": 180,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 10,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|other",
+              "paddingLeft|other"
+            ]
+          },
+          {
+            "value": 210,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingTop",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other",
+              "paddingBottom|other"
+            ]
+          },
+          {
+            "value": 279,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingLeft|other"
+            ]
+          }
+        ],
+        "density": "spacious",
+        "baseUnit": null
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "lausanne",
+            "source": "custom",
+            "weights": [
+              200,
+              400
+            ],
+            "frequency": 201,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "gunsan",
+            "source": "custom",
+            "weights": [
+              600
+            ],
+            "frequency": 22,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 15,
+          "name": "Perfect Fourth",
+          "ratio": 1.333,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 12,
+            "family": "lausanne",
+            "weight": 200,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 3,
+            "lineHeight": 1.6,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 12,
+            "family": "lausanne",
+            "weight": 200,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 6,
+            "lineHeight": 1.25,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 12,
+            "family": "lausanne",
+            "weight": 200,
+            "contexts": [
+              "other",
+              "link"
+            ],
+            "frequency": 10,
+            "lineHeight": 1.42,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 12,
+            "family": "lausanne",
+            "weight": 200,
+            "contexts": [
+              "list",
+              "link"
+            ],
+            "frequency": 7,
+            "lineHeight": 1.42,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 12,
+            "family": "lausanne",
+            "weight": 200,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 9,
+            "lineHeight": 1.25,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 12,
+            "family": "lausanne",
+            "weight": 400,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.42,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 12,
+            "family": "lausanne",
+            "weight": 400,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "lineHeight": 1.3,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 12,
+            "family": "lausanne",
+            "weight": 200,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 4,
+            "lineHeight": 1.3,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 14,
+            "family": "lausanne",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "link",
+              "icon"
+            ],
+            "frequency": 13,
+            "lineHeight": 1.42,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 14,
+            "family": "lausanne",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "link",
+              "nav"
+            ],
+            "frequency": 30,
+            "lineHeight": 1.42,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 14,
+            "family": "lausanne",
+            "weight": 400,
+            "contexts": [
+              "nav",
+              "other"
+            ],
+            "frequency": 20,
+            "lineHeight": 1.25,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 15,
+            "family": "lausanne",
+            "weight": 400,
+            "contexts": [
+              "heading",
+              "link",
+              "other"
+            ],
+            "frequency": 5,
+            "lineHeight": 1.42,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 15,
+            "family": "lausanne",
+            "weight": 400,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 8,
+            "lineHeight": 1.25,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 15,
+            "family": "lausanne",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "card",
+              "link"
+            ],
+            "frequency": 53,
+            "lineHeight": 1.42,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 15,
+            "family": "lausanne",
+            "weight": 200,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.6,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 15,
+            "family": "lausanne",
+            "weight": 200,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "lineHeight": 1.42,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 15,
+            "family": "lausanne",
+            "weight": 200,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 6,
+            "lineHeight": 1.25,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 15,
+            "family": "lausanne",
+            "weight": 400,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 3,
+            "lineHeight": 1.25,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 15,
+            "family": "lausanne",
+            "weight": 400,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.5,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 215,
+            "family": "lausanne",
+            "weight": 400,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 3,
+            "lineHeight": 1.42,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 215,
+            "family": "gunsan",
+            "weight": 600,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 4,
+            "lineHeight": 0.51,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 215,
+            "family": "gunsan",
+            "weight": 600,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 9,
+            "lineHeight": 0.77,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Use Midnight Ink (#1e1f1f) for all primary backgrounds and main body text to maintain the dark theme.",
+        "Apply Soft Vanilla (#dbd6d0) for all interactive elements, secondary text, and borders to create contrast.",
+        "Utilize the gunsan font at 215px with line-height 0.77 for all prominent display headlines, embodying an ornate aesthetic.",
+        "Ensure all functional text, including navigation and body copy, uses the lausanne font in weights 200 or 400 for clarity.",
+        "Employ a 1440px border-radius for all button-like elements to achieve a distinct pill-shaped appearance.",
+        "Maintain generous horizontal padding of 180px for main content areas to create a spacious feel.",
+        "Use 1px borders in Soft Vanilla (#dbd6d0) for subtle emphasis on interactive outlines."
+      ],
+      "donts": [
+        "Avoid using saturated colors other than Vivid Orange (#dc5648) as it is reserved for rare accent states.",
+        "Do not use box-shadows or elevation effects; the design relies on flat surfaces and high contrast.",
+        "Do not deviate from the defined lausanne (sans-serif) and gunsan (serif) fonts; no other typefaces are permitted.",
+        "Avoid tight spacing between elements; maintain adequate elementGap (4px minimum) and sectionGap (60px) to preserve density.",
+        "Do not use sharp corners on interactive components; ensure buttons always have a 1440px border-radius.",
+        "Do not introduce gradients into UI elements; maintain a flat color palette.",
+        "Avoid centering content horizontally beyond the main display headline; navigation and body text should align left."
+      ],
+      "theme": "dark",
+      "colors": [
+        {
+          "hex": "#1e1f1f",
+          "name": "Midnight Ink",
+          "role": "Page backgrounds, primary text, dark UI elements — provides a rich, deep base for content",
+          "group": "neutral"
+        },
+        {
+          "hex": "#dbd6d0",
+          "name": "Soft Vanilla",
+          "role": "Hairline borders, dividers, input outlines, and card edges on light surfaces. Do not promote it to the primary CTA color",
+          "group": "neutral"
+        },
+        {
+          "hex": "#000000",
+          "name": "Shadowed Text",
+          "role": "Highly contrasting primary text used when Soft Vanilla is background, ensuring maximum legibility",
+          "group": "neutral"
+        }
+      ],
+      "layout": "The page primarily uses a full-bleed layout, allowing background visuals to extend to the viewport edges. The hero section features a large, ornate display headline centered over the abstract 3D background. Content sections follow a consistent vertical rhythm with minimal visual dividers, flowing seamlessly. Navigation is a compact, right-aligned bar. Text is predominantly left-aligned, creating clear reading paths within the spacious design.",
+      "imagery": "The site uses abstract, fluid 3D renders in a monochromatic, matte-cream palette. These visuals are atmospheric and sculptural, appearing as large, background accents that flow around and behind prominent text rather than serving as direct content or product showcases. The visuals are softly lit, giving them a ceramic or plaster-like quality, and contribute to the site's artful, minimalist tone. Icons are minimal, subtle, and outline-based, appearing with the same text color as surrounding elements.",
+      "similar": [
+        {
+          "why": "Shares a sophisticated, dark-themed aesthetic with prominent, artistic typography and subtle interactive elements.",
+          "business": "Awwwards"
+        },
+        {
+          "why": "Utilizes a minimalist, high-contrast visual style with a strong focus on custom typography and animated micro-interactions.",
+          "business": "Locomotive"
+        },
+        {
+          "why": "Known for bold, sculptural design, often featuring abstract 3D elements and a refined, dark color palette.",
+          "business": "Dogstudio"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "buttons": "1440px",
+          "general": "30px"
+        },
+        "elementGap": "4px",
+        "sectionGap": "60px",
+        "cardPadding": "12px",
+        "pageMaxWidth": null
+      },
+      "industry": "design",
+      "surfaces": [
+        {
+          "hex": "#1e1f1f",
+          "name": "Midnight Canvas",
+          "level": 0,
+          "purpose": "Primary page background and default UI surface."
+        },
+        {
+          "hex": "#dbd6d0",
+          "name": "Soft Highlights",
+          "level": 1,
+          "purpose": "Used for interactive borders and subtle secondary UI elements against the dark canvas."
+        }
+      ],
+      "northStar": "velvety stark minimalism",
+      "typeScale": [
+        {
+          "role": "caption",
+          "size": 12,
+          "lineHeight": 1.6
+        },
+        {
+          "role": "body-sm",
+          "size": 14,
+          "lineHeight": 1.5
+        },
+        {
+          "role": "display",
+          "size": 215,
+          "lineHeight": 0.77
+        }
+      ],
+      "components": [
+        {
+          "name": "Ghost Navigation Button",
+          "role": "Navigation and secondary actions",
+          "description": "Text-only buttons using Soft Vanilla for text, appearing as elegant, understated navigation items. Features flexible padding and a thin 1px Soft Vanilla border on hover/active states."
+        },
+        {
+          "name": "Pill Outline Button",
+          "role": "Primary interactive element for calls to action",
+          "description": "Features a 1px Soft Vanilla border, Soft Vanilla text, and 1440px border-radius for a distinct pill shape. Padding is 1px top/bottom and 12px left/right."
+        }
+      ],
+      "typography": [
+        {
+          "role": "Display headlines and brand statements — its ornamental features provide a distinctive, old-world elegance.",
+          "sizes": "215px",
+          "family": "gunsan",
+          "weight": "600",
+          "lineHeight": "0.77",
+          "substitute": "Playfair Display",
+          "letterSpacing": "normal"
+        },
+        {
+          "role": "All functional text, including body copy, navigation, and labels — its clean, modern lines offer high legibility.",
+          "sizes": "12px, 14px, 15px, 215px",
+          "family": "lausanne",
+          "weight": "200, 400",
+          "lineHeight": "1.25, 1.30, 1.42, 1.50, 1.60",
+          "substitute": "Inter",
+          "letterSpacing": "normal"
+        }
+      ],
+      "description": "Garden Eight embraces a monochromatic, stark aesthetic, pairing a velvety dark canvas with contrasting cream accents. Typography plays a central role, leveraging a traditional, elaborate serif for display elements and a modern sans-serif for functional text. The sparse use of color and ample negative space amplifies the visual impact of each element.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "**Quick Color Reference:**\n- text: #1e1f1f\n- background: #1e1f1f\n- border: #dbd6d0\n- accent: #dc5648\n- primary action: no distinct CTA color\n\n**3-5 Example Component Prompts:**\n- Create a site header with 'Garden Eight' (lausanne font, 15px, #1e1f1f) on the left, and a navigation bar on the right with 'Cases', 'About', 'Archives' (lausanne font, 15px, #1e1f1f, 10px horizontal padding).\n- Design a hero section with a centered headline 'WHAT CAN WE MAKE NEXT' (gunsan font, 215px, #1e1f1f, line-height 0.77), over a background of abstract cream 3D shapes.\n- Build a secondary content block that uses Soft Vanilla (#dbd6d0) for its background, with black text (#000000) and a Ghost Navigation Button (Soft Vanilla text, no background, 1px Soft Vanilla border on hover, 1440px radius, 1px top/bottom, 12px left/right padding)."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777514674348-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777514674348-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/e4593570-e43f-4eda-8618-0bb704d5ebb7",
+  "ranks": {
+    "trending": 683,
+    "popular": 890,
+    "newest": 449
+  },
+  "localSlug": "garden-eight-e4593570"
+}

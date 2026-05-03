@@ -1,0 +1,474 @@
+{
+  "id": "4080f6e4-e61c-4d3c-ab93-de74a1b5dfc2",
+  "url": "https://www.ryanstephen.co",
+  "siteName": "Ryan Stephen",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777517799609-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777517799609-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "light",
+  "colors": [
+    {
+      "name": "Canvas White",
+      "hex": "#ffffff"
+    },
+    {
+      "name": "Ink Black",
+      "hex": "#000000"
+    },
+    {
+      "name": "Graphite Text",
+      "hex": "#404040"
+    },
+    {
+      "name": "Ash Gray",
+      "hex": "#8b8b94"
+    }
+  ],
+  "fonts": [
+    "sans-serif",
+    "system-ui"
+  ],
+  "northStar": "Gallery Grid on White Canvas",
+  "createdAt": "2026-04-30T02:57:02.443Z",
+  "previewVideoCapturedAt": null,
+  "industry": "design",
+  "fullResult": {
+    "meta": {
+      "url": "https://www.ryanstephen.co",
+      "siteName": "Ryan Stephen",
+      "extractedAt": "2026-04-30T02:57:02.239Z",
+      "durationMs": 32981,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 90,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 55,
+            "confidence": 1,
+            "prominence": 13902807.683405904,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "other/color": 11,
+              "other/borderColor": 44
+            }
+          },
+          {
+            "hex": "#ffffff",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 1.0000000000000002
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 2394000,
+            "properties": [
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "other/backgroundColor": 1
+            }
+          },
+          {
+            "hex": "#404040",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.3714949460297332
+            },
+            "contexts": [
+              "body"
+            ],
+            "frequency": 5,
+            "confidence": 1,
+            "prominence": 66317.21295600125,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "body/color": 1,
+              "body/borderColor": 4
+            }
+          },
+          {
+            "hex": "#8b8b94",
+            "oklch": {
+              "c": 0.013294724640333794,
+              "h": 286.0178948132922,
+              "l": 0.6396649835296034
+            },
+            "contexts": [
+              "body",
+              "link"
+            ],
+            "frequency": 30,
+            "confidence": 1,
+            "prominence": 5945.0355724642495,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "body/color": 3,
+              "link/color": 3,
+              "body/borderColor": 12,
+              "link/borderColor": 12
+            }
+          }
+        ],
+        "isDarkMode": false,
+        "colorfulness": 0.01184561150014891,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 21,
+            "background": "#ffffff",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 10.37,
+            "background": "#ffffff",
+            "foreground": "#404040"
+          },
+          {
+            "level": "fail",
+            "ratio": 3.38,
+            "background": "#ffffff",
+            "foreground": "#8b8b94"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [
+          {
+            "value": 10,
+            "contexts": [
+              "other",
+              "image"
+            ],
+            "frequency": 54
+          }
+        ],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 15,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "rowGap",
+              "columnGap"
+            ],
+            "propertyContextPairs": [
+              "rowGap|other",
+              "columnGap|other"
+            ]
+          },
+          {
+            "value": 20,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 4,
+            "properties": [
+              "rowGap",
+              "columnGap"
+            ],
+            "propertyContextPairs": [
+              "rowGap|other",
+              "columnGap|other"
+            ]
+          },
+          {
+            "value": 32,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "rowGap",
+              "columnGap"
+            ],
+            "propertyContextPairs": [
+              "rowGap|other",
+              "columnGap|other"
+            ]
+          },
+          {
+            "value": 40,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 4,
+            "properties": [
+              "paddingTop",
+              "paddingRight",
+              "paddingBottom",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other",
+              "paddingRight|other",
+              "paddingBottom|other",
+              "paddingLeft|other"
+            ]
+          },
+          {
+            "value": 100,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "rowGap",
+              "columnGap"
+            ],
+            "propertyContextPairs": [
+              "rowGap|other",
+              "columnGap|other"
+            ]
+          }
+        ],
+        "density": "spacious",
+        "baseUnit": 4
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "sans-serif",
+            "source": "system",
+            "weights": [
+              400
+            ],
+            "frequency": 83,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "system-ui",
+            "source": "system",
+            "weights": [
+              500
+            ],
+            "frequency": 7,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": null,
+        "steps": [
+          {
+            "size": 12,
+            "family": "sans-serif",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "link",
+              "image"
+            ],
+            "frequency": 83,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "system-ui",
+            "weight": 500,
+            "contexts": [
+              "body",
+              "link"
+            ],
+            "frequency": 7,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Prioritize Canvas White (#ffffff) for all large background areas to maintain a spacious, gallery-like feel.",
+        "Use Ink Black (#000000) strictly for primary headings and critical UI elements where maximum contrast is essential, like primary text.",
+        "Apply a consistent 10px border-radius to all image containers and card-like components to ensure a cohesive, softened aesthetic.",
+        "Maintain a visual hierarchy where body text uses Graphite Text (#404040) for readability and softer links use Ash Gray (#8b8b94).",
+        "Structure layouts with a generous 100px section gap for clear delineation between major content blocks, creating an airy feel.",
+        "Employ a base element gap of 20px for consistent spacing between distinct UI components.",
+        "Utilize 15px spacing for items within image grids or compact lists to keep related content visually grouped but distinct."
+      ],
+      "donts": [
+        "Do not introduce strong, saturated colors unless they are part of the image content itself; the UI must remain monochrome.",
+        "Avoid sharp corners or square edges on any interactive or content card-like element; always adhere to the 10px radius.",
+        "Do not deviate from the specified typography hierarchy; avoid using 12px for body content or 16px for captions.",
+        "Do not overcrowd sections; preserve the spacious feel by respecting the 100px section gap.",
+        "Avoid heavy borders or strong shadows; the design relies on stark white space and soft radii for definition.",
+        "Do not use generic system font weights other than 400 or 500; the UI's subtle nature depends on these choices.",
+        "Do not use bright or animated hover states for links; interactions should be understated or rely on browser defaults."
+      ],
+      "theme": "light",
+      "colors": [
+        {
+          "hex": "#ffffff",
+          "name": "Canvas White",
+          "role": "Page backgrounds, card surfaces, primary content areas",
+          "group": "neutral"
+        },
+        {
+          "hex": "#000000",
+          "name": "Ink Black",
+          "role": "Primary text, strong borders, foundational UI elements that demand high contrast",
+          "group": "neutral"
+        },
+        {
+          "hex": "#404040",
+          "name": "Graphite Text",
+          "role": "Body text, secondary headings, providing a softer alternative to Ink Black without sacrificing readability",
+          "group": "neutral"
+        },
+        {
+          "hex": "#8b8b94",
+          "name": "Ash Gray",
+          "role": "Medium-contrast borders, control outlines, and structural separators. Do not promote it to the primary CTA color",
+          "group": "neutral"
+        }
+      ],
+      "imagery": "The site's imagery consists solely of product screenshots, often depicting hands interacting with phone-based interfaces. The treatment is primarily isolated shots, with little environmental context, putting the product UI itself at the forefront. There's an absence of photography or graphic illustrations, emphasizing actual design output. The role of imagery is demonstrative and portfolio-oriented, serving as the core content rather than decorative elements. The density is image-heavy, forming a dense, uniform grid that dominates the page.",
+      "similar": [
+        {
+          "why": "Grid-based presentation of visual content, emphasizing individual work pieces in a clean, minimalist layout with high contrast text.",
+          "business": "Are.na"
+        },
+        {
+          "why": "Focus on personal portfolios with high-contrast text and a clean, spacious canvas for work examples, often image-heavy.",
+          "business": "Read.cv"
+        },
+        {
+          "why": "Portfolio site with a strong emphasis on image grids for showcasing design projects, minimal UI to let the work speak.",
+          "business": "Bēhance"
+        },
+        {
+          "why": "Often uses light backgrounds and structured grids to present files or community content, with a similar understated typography.",
+          "business": "Figma's community pages"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "images": "10px",
+          "components": "10px"
+        },
+        "elementGap": "20px",
+        "sectionGap": "100px",
+        "cardPadding": "40px",
+        "pageMaxWidth": null
+      },
+      "industry": "design",
+      "northStar": "Gallery Grid on White Canvas",
+      "typeScale": [
+        {
+          "role": "caption",
+          "size": 12,
+          "lineHeight": 1.2
+        },
+        {
+          "role": "body",
+          "size": 16,
+          "lineHeight": 1.2
+        }
+      ],
+      "components": [
+        {
+          "name": "Profile Description Block",
+          "role": "Informational text block",
+          "description": "A focused text block for personal or project descriptions. Text uses Graphite Text (#404040) at 16px/500 weight, with links using Ash Gray (#8b8b94) at the same size and weight. Contains no explicit padding but is isolated by surrounding spaces."
+        },
+        {
+          "name": "Image Gallery Grid Item",
+          "role": "Displaying visual work",
+          "description": "Individual square image containers within a grid layout. Each image has a 10px border-radius, giving it a soft, rounded appearance. Content within the grid item is an image, bordered implicitly by the grid spacing using a 15px gap (row and column)."
+        },
+        {
+          "name": "Interactive Link",
+          "role": "Navigational or actionable text",
+          "description": "Text links rendered in Ash Gray (#8b8b94) at 16px/500 weight, primarily for secondary actions or related content. There is no explicit hover or active state specified in the data, implying a subtle interaction or reliance on browser defaults."
+        }
+      ],
+      "typography": [
+        {
+          "role": "Descriptive labels, image captions, and detailed footer text, serving as the small-print element of the system.",
+          "sizes": "12px",
+          "family": "sans-serif",
+          "weight": "400",
+          "lineHeight": "1.20",
+          "substitute": "Arial, Helvetica, 'sans-serif'"
+        },
+        {
+          "role": "Primary body text, link text, and short descriptions, offering clarity and a slightly robust presence in the UI.",
+          "sizes": "16px",
+          "family": "system-ui",
+          "weight": "500",
+          "lineHeight": "1.20",
+          "substitute": "Segoe UI, Roboto, Ubuntu, Cantarell, 'Noto Sans', sans-serif"
+        }
+      ],
+      "description": "Ryan Stephen's design system evokes a clean, gallery-like presentation with a strong emphasis on content and minimal UI distraction. It utilizes a spacious, high-contrast monochrome palette to make imagery pop, ensuring the focus remains on the product designs showcased. Typography is understated and functional, blending into the background to support the visual work. Components are highly softened with generous corner radii, creating a friendly, approachable feel for an otherwise stark layout.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "Quick Color Reference: \ntext: #000000 \nbackground: #ffffff \nborder: #8b8b94 \naccent: no distinct accent color\nprimary action: no distinct CTA color\n\nExample Component Prompts:\nCreate a profile introduction: 16px system-ui weight 500, #404040 for body text; links in #8b8b94, 16px system-ui weight 500. Wrap the content in 40px padding. \nCreate an image grid item: A square container for an image, with a 10px border-radius. Internally, the image fills the container. Grid items should be separated by 15px elementGap.\nCreate a ghost link: Text 'Link Text' in #8b8b94, 16px system-ui weight 500. This link is for secondary actions."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777517799609-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777517799609-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/4080f6e4-e61c-4d3c-ab93-de74a1b5dfc2",
+  "ranks": {
+    "trending": 1219,
+    "popular": 1219,
+    "newest": 263
+  },
+  "localSlug": "ryan-stephen-4080f6e4"
+}

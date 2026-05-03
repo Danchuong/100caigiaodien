@@ -1,0 +1,620 @@
+{
+  "id": "b8899cbd-e2ca-4069-83cf-d8f8b0d71100",
+  "url": "https://bmw.com",
+  "siteName": "BMW.com",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775924844847-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775924844847-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "light",
+  "colors": [
+    {
+      "name": "Obsidian",
+      "hex": "#262626"
+    },
+    {
+      "name": "Canvas White",
+      "hex": "#ffffff"
+    },
+    {
+      "name": "Graphite Grey",
+      "hex": "#bbbbbb"
+    },
+    {
+      "name": "Frost",
+      "hex": "#f1f1f1"
+    },
+    {
+      "name": "Deep Space",
+      "hex": "#262626"
+    },
+    {
+      "name": "Electric Blue",
+      "hex": "#1c69d4"
+    }
+  ],
+  "fonts": [
+    "BMWTypeNextLatin",
+    "BMWTypeNextLatin Light"
+  ],
+  "northStar": "Precision-engineered monochrome luxury; every detail is intentional, nothing is superfluous.",
+  "createdAt": "2026-02-09T19:27:53.000Z",
+  "previewVideoCapturedAt": null,
+  "industry": "other",
+  "fullResult": {
+    "meta": {
+      "url": "https://bmw.com",
+      "siteName": "BMW.com",
+      "extractedAt": "2026-04-11T16:27:40.763Z",
+      "durationMs": 21861,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 135,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "complete",
+          "attempts": 2
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#262626",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.26861827698438745
+            },
+            "contexts": [
+              "nav",
+              "other",
+              "link",
+              "icon",
+              "body",
+              "button",
+              "badge",
+              "hero",
+              "heading",
+              "footer"
+            ],
+            "frequency": 221,
+            "confidence": 1,
+            "prominence": 11800800.182565125,
+            "properties": [
+              "color",
+              "borderColor",
+              "fill",
+              "backgroundColor"
+            ]
+          },
+          {
+            "hex": "#ffffff",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 1.0000000000000002
+            },
+            "contexts": [
+              "other",
+              "nav",
+              "footer",
+              "heading"
+            ],
+            "frequency": 253,
+            "confidence": 1,
+            "prominence": 8721119.253594184,
+            "properties": [
+              "backgroundColor",
+              "color",
+              "borderColor"
+            ]
+          },
+          {
+            "hex": "#bbbbbb",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.7920743408035346
+            },
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 175,
+            "confidence": 1,
+            "prominence": 59033.94182989557,
+            "properties": [
+              "color",
+              "borderColor"
+            ]
+          },
+          {
+            "hex": "#f1f1f1",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.9587479711678493
+            },
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 4,
+            "confidence": 1,
+            "prominence": 15647.473431445933,
+            "properties": [
+              "borderColor"
+            ]
+          }
+        ],
+        "isDarkMode": false,
+        "colorfulness": 0,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 15.13,
+            "background": "#ffffff",
+            "foreground": "#262626"
+          },
+          {
+            "level": "AAA",
+            "ratio": 13.4,
+            "background": "#f1f1f1",
+            "foreground": "#262626"
+          },
+          {
+            "level": "AAA",
+            "ratio": 7.88,
+            "background": "#262626",
+            "foreground": "#bbbbbb"
+          },
+          {
+            "level": "fail",
+            "ratio": 1.92,
+            "background": "#ffffff",
+            "foreground": "#bbbbbb"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 4,
+            "frequency": 2,
+            "properties": [
+              "rowGap",
+              "columnGap"
+            ]
+          },
+          {
+            "value": 5,
+            "frequency": 60,
+            "properties": [
+              "paddingTop",
+              "paddingBottom"
+            ]
+          },
+          {
+            "value": 8,
+            "frequency": 3,
+            "properties": [
+              "rowGap",
+              "columnGap",
+              "marginRight"
+            ]
+          },
+          {
+            "value": 10,
+            "frequency": 8,
+            "properties": [
+              "paddingBottom",
+              "marginBottom"
+            ]
+          },
+          {
+            "value": 12,
+            "frequency": 8,
+            "properties": [
+              "marginLeft",
+              "marginRight",
+              "paddingTop",
+              "paddingRight",
+              "paddingBottom",
+              "paddingLeft"
+            ]
+          },
+          {
+            "value": 16,
+            "frequency": 2,
+            "properties": [
+              "paddingTop",
+              "paddingBottom"
+            ]
+          },
+          {
+            "value": 20,
+            "frequency": 6,
+            "properties": [
+              "marginBottom",
+              "marginRight"
+            ]
+          },
+          {
+            "value": 24,
+            "frequency": 8,
+            "properties": [
+              "marginTop",
+              "marginRight",
+              "marginLeft",
+              "columnGap"
+            ]
+          },
+          {
+            "value": 40,
+            "frequency": 4,
+            "properties": [
+              "marginTop"
+            ]
+          },
+          {
+            "value": 45,
+            "frequency": 2,
+            "properties": [
+              "paddingTop",
+              "paddingBottom"
+            ]
+          },
+          {
+            "value": 56,
+            "frequency": 2,
+            "properties": [
+              "paddingTop",
+              "paddingBottom"
+            ]
+          },
+          {
+            "value": 100,
+            "frequency": 8,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ]
+          }
+        ],
+        "density": "compact",
+        "baseUnit": 4
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "BMWTypeNextLatin",
+            "source": "custom",
+            "weights": [
+              400,
+              700,
+              900
+            ],
+            "frequency": 128,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "BMWTypeNextLatin Light",
+            "source": "custom",
+            "weights": [
+              300
+            ],
+            "frequency": 1,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 16,
+          "name": "Minor Third",
+          "ratio": 1.2,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 16,
+            "family": "BMWTypeNextLatin",
+            "weight": 400,
+            "contexts": [
+              "nav",
+              "other",
+              "link",
+              "icon",
+              "button",
+              "badge",
+              "hero"
+            ],
+            "frequency": 33,
+            "lineHeight": 1.15,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "BMWTypeNextLatin",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "body"
+            ],
+            "frequency": 3,
+            "lineHeight": 1.63,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "BMWTypeNextLatin",
+            "weight": 700,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.63,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "BMWTypeNextLatin",
+            "weight": 400,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "BMWTypeNextLatin",
+            "weight": 400,
+            "contexts": [
+              "footer",
+              "other",
+              "nav",
+              "heading"
+            ],
+            "frequency": 86,
+            "lineHeight": 1.6,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 18,
+            "family": "BMWTypeNextLatin",
+            "weight": 900,
+            "contexts": [
+              "link",
+              "body",
+              "icon"
+            ],
+            "frequency": 4,
+            "lineHeight": 1.3,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 60,
+            "family": "BMWTypeNextLatin Light",
+            "weight": 300,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.3,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Prioritize BMWTypeNextLatin for all text elements to maintain brand consistency.",
+        "Use Canvas White (#ffffff) as the dominant background color for main content areas.",
+        "Apply Obsidian (#262626) for primary text and interactive elements to ensure high contrast.",
+        "Utilize BMWTypeNextLatin Light weight 300 at 60px for prominent headings to create an impactful yet refined statement.",
+        "Maintain zero border-radius on all components to preserve the precise, angular aesthetic.",
+        "Employ Electric Blue (#1c69d4) sparingly for interactive highlights and focus states, ensuring it stands out against the monochrome palette."
+      ],
+      "tags": [
+        "luxury",
+        "automotive",
+        "monochrome",
+        "minimal",
+        "precision",
+        "editorial",
+        "technical",
+        "high-contrast"
+      ],
+      "donts": [
+        "Avoid using saturated or chromatic colors outside of the designated Electric Blue accent.",
+        "Do not introduce rounded corners or soft shapes, as the aesthetic is defined by sharp precision.",
+        "Refrain from heavy shadows or overt elevation a primary means of drawing attention; rely on typography and strong contrast.",
+        "Do not deviate from the BMWTypeNextLatin font family; consistency is key to the brand's visual identity.",
+        "Avoid excessive padding around interactive textual elements like links; use 0-12px as seen in button examples."
+      ],
+      "theme": "light",
+      "colors": [
+        {
+          "hex": "#262626",
+          "name": "Obsidian",
+          "role": "Primary text, interactive elements, navigation links, button text — forms the core dark against light contrast.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#ffffff",
+          "name": "Canvas White",
+          "role": "Page backgrounds, card surfaces, prominent navigational elements — establishes the primary visual canvas.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#bbbbbb",
+          "name": "Graphite Grey",
+          "role": "Secondary navigation text, subtle borders, contextual information — provides sufficient contrast on dark surfaces while appearing subdued on light ones.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#f1f1f1",
+          "name": "Frost",
+          "role": "Subtle background accents, dividers — provides a very light contrast against Canvas White.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#262626",
+          "name": "Deep Space",
+          "role": "Footer background — anchors the page with a solid, dark foundation.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#1c69d4",
+          "name": "Electric Blue",
+          "role": "Interactive highlights, focus states — a vibrant, technical accent for user interaction.",
+          "group": "accent"
+        }
+      ],
+      "layout": "The page structure is primarily max-width contained, but hero sections often utilize full-bleed photography. The main content areas tend to be centered. The hero uses a background image with text overlay, establishing an immediate brand impression. Section rhythm is clear, using a dominant white background for content with a distinct, dark footer (#262626) that grounds the page. Content is arranged in a fluid, stacked manner, often with large images followed by textual information, leading to multi-column layouts within the footer. The density is spacious, with significant white space around content, allowing elements to breathe. Navigation consists of a sticky top bar with branding and primary links, along with a comprehensive multi-column footer.",
+      "imagery": "Imagery features high-quality product photography, often focusing on close-up detailed crops (like the wheel) or larger views of vehicles. The treatment is full-bleed or wide, contained within sections, without visible masks or rounded corners. Photography is often presented in a moody, low-key lighting style with distinct color casts (e.g., blue tints) rather than bright, high-key studio shots. The role of imagery is primarily decorative and aspirational, showcasing the product while also setting a sophisticated atmosphere. The site is image-heavy, relying on visuals to convey brand essence alongside concise textual information.",
+      "similar": [
+        {
+          "why": "High-end automotive, clean monochrome aesthetic with a focus on product visuals and sophisticated typography.",
+          "business": "Audi"
+        },
+        {
+          "why": "Luxury brand website with a similar emphasis on impactful, large-scale imagery and a refined, understated UI.",
+          "business": "Mercedes-Benz"
+        },
+        {
+          "why": "Premium automotive with a precise, almost technical design language, using a bespoke font and minimal color palette.",
+          "business": "Porsche"
+        },
+        {
+          "why": "Product-focused, clean design with significant white space, strong typography, and high-quality photography as central brand elements.",
+          "business": "Apple"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "buttons": "0px",
+          "default": "0px"
+        },
+        "elementGap": "8px",
+        "sectionGap": "40px",
+        "cardPadding": "16px",
+        "pageMaxWidth": null
+      },
+      "category": "marketing",
+      "northStar": "Precision-engineered monochrome luxury; every detail is intentional, nothing is superfluous.",
+      "typeScale": [
+        {
+          "role": "body",
+          "size": 16,
+          "lineHeight": 1.63
+        },
+        {
+          "role": "subheading",
+          "size": 18,
+          "lineHeight": 1.6
+        },
+        {
+          "role": "display",
+          "size": 60,
+          "lineHeight": 1.3
+        }
+      ],
+      "components": [
+        {
+          "html": "<div style=\"--color-obsidian:#262626;--color-canvas-white:#ffffff;--color-graphite-grey:#bbbbbb;--color-frost:#f1f1f1;--color-deep-space:#262626;--color-electric-blue:#1c69d4;--font-bmwtypenextlatin:'Open Sans',sans-serif;--font-bmwtypenextlatin-light:'Open Sans',sans-serif;--spacing-4:4px;--spacing-8:8px;--spacing-12:12px;--spacing-16:16px;--spacing-20:20px;--spacing-24:24px;--spacing-40:40px;--spacing-56:56px;--spacing-100:100px; background:var(--color-canvas-white);display:flex;flex-direction:column;align-items:center;justify-content:center;padding:var(--spacing-56) var(--spacing-40);font-family:var(--font-bmwtypenextlatin);width:600px;box-sizing:border-box;\"><h1 style=\"font-family:var(--font-bmwtypenextlatin-light);font-weight:300;font-size:60px;line-height:1.3;color:var(--color-obsidian);margin:0 0 var(--spacing-24) 0;text-align:center;letter-spacing:normal;text-transform:uppercase;\">ALL BMW MODELS</h1><a href=\"#\" style=\"display:inline-flex;align-items:center;gap:var(--spacing-8);font-family:var(--font-bmwtypenextlatin);font-size:16px;font-weight:400;color:var(--color-obsidian);text-decoration:none;border:none;background:none;padding:0 var(--spacing-12);border-radius:0;line-height:1.63;cursor:pointer;\"><svg width=\"14\" height=\"14\" viewBox=\"0 0 14 14\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" style=\"flex-shrink:0;\"><path d=\"M4.5 1.5L10.5 7L4.5 12.5\" stroke=\"#262626\" stroke-width=\"1.5\" stroke-linecap=\"square\" stroke-linejoin=\"miter\"/></svg>Find your BMW</a></div>",
+          "name": "CTA Link Button — 'Find your BMW'",
+          "role": "",
+          "description": ""
+        },
+        {
+          "html": "<div style=\"--color-obsidian:#262626;--color-canvas-white:#ffffff;--color-graphite-grey:#bbbbbb;--color-frost:#f1f1f1;--color-deep-space:#262626;--color-electric-blue:#1c69d4;--font-bmwtypenextlatin:'Open Sans',sans-serif;--spacing-16:16px;--spacing-20:20px;--spacing-24:24px;--spacing-40:40px; background:var(--color-deep-space);padding:var(--spacing-24) var(--spacing-40);font-family:var(--font-bmwtypenextlatin);width:600px;box-sizing:border-box;\"><div style=\"display:flex;flex-wrap:wrap;gap:var(--spacing-16);align-items:center;\"><a href=\"#\" style=\"font-family:var(--font-bmwtypenextlatin);font-size:16px;font-weight:700;color:var(--color-canvas-white);text-decoration:none;line-height:1.63;border-radius:0;padding:0;\">English</a><a href=\"#\" style=\"font-family:var(--font-bmwtypenextlatin);font-size:16px;font-weight:400;color:var(--color-graphite-grey);text-decoration:none;line-height:1.63;border-radius:0;padding:0;\">Deutsch</a><a href=\"#\" style=\"font-family:var(--font-bmwtypenextlatin);font-size:16px;font-weight:400;color:var(--color-graphite-grey);text-decoration:none;line-height:1.63;border-radius:0;padding:0;\">Italiano</a><a href=\"#\" style=\"font-family:var(--font-bmwtypenextlatin);font-size:16px;font-weight:400;color:var(--color-graphite-grey);text-decoration:none;line-height:1.63;border-radius:0;padding:0;\">Français</a><a href=\"#\" style=\"font-family:var(--font-bmwtypenextlatin);font-size:16px;font-weight:400;color:var(--color-graphite-grey);text-decoration:none;line-height:1.63;border-radius:0;padding:0;\">Español</a><a href=\"#\" style=\"font-family:var(--font-bmwtypenextlatin);font-size:16px;font-weight:400;color:var(--color-graphite-grey);text-decoration:none;line-height:1.63;border-radius:0;padding:0;\">日本語</a></div></div>",
+          "name": "Language Selector Bar",
+          "role": "",
+          "description": ""
+        },
+        {
+          "html": "<div style=\"--color-obsidian:#262626;--color-canvas-white:#ffffff;--color-graphite-grey:#bbbbbb;--color-frost:#f1f1f1;--color-deep-space:#262626;--color-electric-blue:#1c69d4;--font-bmwtypenextlatin:'Open Sans',sans-serif;--spacing-4:4px;--spacing-8:8px;--spacing-12:12px;--spacing-16:16px;--spacing-20:20px;--spacing-24:24px;--spacing-40:40px;--spacing-56:56px; background:var(--color-deep-space);padding:var(--spacing-40);font-family:var(--font-bmwtypenextlatin);width:600px;box-sizing:border-box;\"><div style=\"display:grid;grid-template-columns:1fr 1fr 1fr;gap:var(--spacing-40);\"><div><p style=\"font-family:var(--font-bmwtypenextlatin);font-size:16px;font-weight:700;color:var(--color-canvas-white);margin:0 0 var(--spacing-16) 0;line-height:1.63;padding-bottom:var(--spacing-8);border-bottom:1px solid #444;\">Quick Links</p><div style=\"display:flex;flex-direction:column;gap:var(--spacing-8);\"><a href=\"#\" style=\"font-family:var(--font-bmwtypenextlatin);font-size:16px;font-weight:400;color:var(--color-graphite-grey);text-decoration:none;line-height:1.63;\">Home</a><a href=\"#\" style=\"font-family:var(--font-bmwtypenextlatin);font-size:16px;font-weight:400;color:var(--color-graphite-grey);text-decoration:none;line-height:1.63;\">BMW in your country</a><a href=\"#\" style=\"font-family:var(--font-bmwtypenextlatin);font-size:16px;font-weight:400;color:var(--color-graphite-grey);text-decoration:none;line-height:1.63;\">BMW Group Careers</a><a href=\"#\" style=\"font-family:var(--font-bmwtypenextlatin);font-size:16px;font-weight:400;color:var(--color-graphite-grey);text-decoration:none;line-height:1.63;\">REACH Regulation</a><a href=\"#\" style=\"font-family:var(--font-bmwtypenextlatin);font-size:16px;font-weight:400;color:var(--color-graphite-grey);text-decoration:none;line-height:1.63;\">Compatibility Check</a><a href=\"#\" style=\"font-family:var(--font-bmwtypenextlatin);font-size:16px;font-weight:400;color:var(--color-graphite-grey);text-decoration:none;line-height:1.63;\">Parking Test Car</a></div></div><div><p style=\"font-family:var(--font-bmwtypenextlatin);font-size:16px;font-weight:700;color:var(--color-canvas-white);margin:0 0 var(--spacing-16) 0;line-height:1.63;padding-bottom:var(--spacing-8);border-bottom:1px solid #444;\">More BMW Websites</p><div style=\"display:flex;flex-direction:column;gap:var(--spacing-8);\"><a href=\"#\" style=\"font-family:var(--font-bmwtypenextlatin);font-size:16px;font-weight:400;color:var(--color-graphite-grey);text-decoration:none;line-height:1.63;\">BMW M</a><a href=\"#\" style=\"font-family:var(--font-bmwtypenextlatin);font-size:16px;font-weight:400;color:var(--color-graphite-grey);text-decoration:none;line-height:1.63;\">BMW M Motorsport</a><a href=\"#\" style=\"font-family:var(--font-bmwtypenextlatin);font-size:16px;font-weight:400;color:var(--color-graphite-grey);text-decoration:none;line-height:1.63;\">BMW Golfsport</a><a href=\"#\" style=\"font-family:var(--font-bmwtypenextlatin);font-size:16px;font-weight:400;color:var(--color-graphite-grey);text-decoration:none;line-height:1.63;\">BMW Welt</a><a href=\"#\" style=\"font-family:var(--font-bmwtypenextlatin);font-size:16px;font-weight:400;color:var(--color-graphite-grey);text-decoration:none;line-height:1.63;\">BMW Group Classic</a><a href=\"#\" style=\"font-family:var(--font-bmwtypenextlatin);font-size:16px;font-weight:400;color:var(--color-graphite-grey);text-decoration:none;line-height:1.63;\">BMW Group</a></div></div><div><p style=\"font-family:var(--font-bmwtypenextlatin);font-size:16px;font-weight:700;color:var(--color-canvas-white);margin:0 0 var(--spacing-16) 0;line-height:1.63;padding-bottom:var(--spacing-8);border-bottom:1px solid #444;\">BMW.com</p><div style=\"display:flex;flex-direction:column;gap:var(--spacing-8);\"><a href=\"#\" style=\"font-family:var(--font-bmwtypenextlatin);font-size:16px;font-weight:400;color:var(--color-graphite-grey);text-decoration:none;line-height:1.63;\">Contact</a><a href=\"#\" style=\"font-family:var(--font-bmwtypenextlatin);font-size:16px;font-weight:400;color:var(--color-graphite-grey);text-decoration:none;line-height:1.63;\">Cookies</a><a href=\"#\" style=\"font-family:var(--font-bmwtypenextlatin);font-size:16px;font-weight:400;color:var(--color-graphite-grey);text-decoration:none;line-height:1.63;\">Imprint</a><a href=\"#\" style=\"font-family:var(--font-bmwtypenextlatin);font-size:16px;font-weight:400;color:var(--color-graphite-grey);text-decoration:none;line-height:1.63;\">Legal Notice / Data protection</a><a href=\"#\" style=\"font-family:var(--font-bmwtypenextlatin);font-size:16px;font-weight:400;color:var(--color-graphite-grey);text-decoration:none;line-height:1.63;\">Accessibility</a></div></div></div><div style=\"margin-top:var(--spacing-40);border-top:1px solid #444;padding-top:var(--spacing-20);\"><p style=\"font-family:var(--font-bmwtypenextlatin);font-size:16px;font-weight:400;color:var(--color-graphite-grey);margin:0;line-height:1.63;\">© BMW AG 2026</p></div></div>",
+          "name": "Footer Link Columns",
+          "role": "",
+          "description": ""
+        },
+        {
+          "name": "Text Link Button",
+          "role": "Primary Call to Action",
+          "description": "Ghost-style button with no background, Obsidian text (#262626), zero border radius, and minimal horizontal padding (12px). Emphasizes action through text rather than a contained shape."
+        },
+        {
+          "name": "Navigation Link",
+          "role": "Primary Navigation",
+          "description": "Text in Obsidian (#262626) by default, switching to Graphite Grey (#bbbbbb) in the footer. Line height of 1.63 and zero padding, relying on surrounding layout for spacing, with zero border radius."
+        },
+        {
+          "name": "Heading Text Badge",
+          "role": "Section Labels",
+          "description": "Descriptive text in Obsidian (#262626) with no background or borders, often used to introduce sections or categories with zero padding and border radius."
+        }
+      ],
+      "typography": [
+        {
+          "role": "Body text, navigation, interactive elements, button labels, and general UI text. Its precise forms reflect the brand's engineering heritage, ensuring clarity across all contexts.",
+          "sizes": "16px, 18px",
+          "family": "BMWTypeNextLatin",
+          "weight": "400, 700, 900",
+          "lineHeight": "1.15, 1.20, 1.30, 1.60, 1.63",
+          "substitute": "Open Sans",
+          "letterSpacing": "normal"
+        },
+        {
+          "role": "Primary display headlines; the light weight at large sizes conveys authority through refinement rather than aggression, creating a sophisticated brand voice. It's unexpected at this scale, establishing an elegant, high-impact presence.",
+          "sizes": "60px",
+          "family": "BMWTypeNextLatin Light",
+          "weight": "300",
+          "lineHeight": "1.30",
+          "substitute": "Open Sans Light",
+          "letterSpacing": "normal"
+        }
+      ],
+      "description": "This design system projects an image of understated luxury and precision, typical of a high-end automotive brand. The focus on a monochrome palette with sharp contrasts and subtle textural shifts creates a refined, almost clinical atmosphere. Typography is the primary visual differentiator, using a bespoke font that balances technical exactness with approachable forms, especially in larger display sizes where its clarity is paramount. There is minimal use of color, which emphasizes content and maintains a strong, consistent brand presence.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "### Quick Color Reference\n- Text: #262626 (Obsidian)\n- Background: #ffffff (Canvas White)\n- CTA/Highlight: #1c69d4 (Electric Blue)\n- Border/Secondary: #bbbbbb (Graphite Grey)\n- Footer Background: #262626 (Deep Space)\n\n### Example Component Prompts\n1. Create a page header: Canvas White (#ffffff) background. Left-aligned BMW logo. Right-aligned navigation link 'Home' in Obsidian (#262626), BMWTypeNextLatin weight 400, size 16px, line height 1.63. Include a search icon in Obsidian (#262626).\n2. Design a primary headline section: BMWTypeNextLatin Light weight 300, size 60px, line height 1.3, Obsidian (#262626) text, centered, with 40px margin-top and 40px margin-bottom. Below, add a Text Link Button 'Find your BMW' in Obsidian (#262626), BMWTypeNextLatin weight 400, size 16px, 12px horizontal padding, 0px vertical padding, no background, 0px border radius.\n3. Develop a footer section: Deep Space (#262626) background. Four columns of links with titles like 'Quick Links' as Heading Text Badge in Graphite Grey (#bbbbbb), BMWTypeNextLatin weight 700, size 16px. Individual links in Graphite Grey (#bbbbbb), BMWTypeNextLatin weight 400, size 16px, line height 1.63."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775924844847-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775924844847-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/b8899cbd-e2ca-4069-83cf-d8f8b0d71100",
+  "ranks": {
+    "trending": 78,
+    "popular": 100,
+    "newest": 1210
+  },
+  "localSlug": "bmw-com-b8899cbd"
+}

@@ -1,0 +1,494 @@
+{
+  "id": "77c32a1f-99fd-44d0-a7d2-002f005a245d",
+  "url": "https://mapprojectoffice.com",
+  "siteName": "map project office",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777517236185-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777517236185-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "light",
+  "colors": [
+    {
+      "name": "Canvas White",
+      "hex": "#ffffff"
+    },
+    {
+      "name": "Ink Black",
+      "hex": "#0a0101"
+    },
+    {
+      "name": "Muted Ash",
+      "hex": "#393939"
+    },
+    {
+      "name": "Subtle Gray",
+      "hex": "#767676"
+    }
+  ],
+  "fonts": [
+    "MapSans-Bold",
+    "MapFono-Regular"
+  ],
+  "northStar": "Type-driven monochrome canvas. A high-contrast display of minimal elements on a vast, unadorned surface, where typography commands attention.",
+  "createdAt": "2026-04-30T02:47:34.010Z",
+  "previewVideoCapturedAt": null,
+  "industry": "design",
+  "fullResult": {
+    "meta": {
+      "url": "https://mapprojectoffice.com",
+      "siteName": "map project office",
+      "extractedAt": "2026-04-30T02:47:33.791Z",
+      "durationMs": 24925,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 295,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#0a0101",
+            "oklch": {
+              "c": 0.02924152870943731,
+              "h": 24.127321179073817,
+              "l": 0.09949553267297388
+            },
+            "contexts": [
+              "image",
+              "link",
+              "list",
+              "body",
+              "other",
+              "heading",
+              "icon"
+            ],
+            "frequency": 1385,
+            "confidence": 1,
+            "prominence": 278081712.12770605,
+            "properties": [
+              "color",
+              "borderColor",
+              "backgroundColor",
+              "stroke"
+            ],
+            "usageCounts": {
+              "body/color": 5,
+              "icon/color": 1,
+              "link/color": 24,
+              "list/color": 3,
+              "image/color": 22,
+              "other/color": 182,
+              "other/stroke": 1,
+              "heading/color": 36,
+              "body/borderColor": 20,
+              "icon/borderColor": 4,
+              "link/borderColor": 96,
+              "list/borderColor": 12,
+              "image/borderColor": 88,
+              "other/borderColor": 728,
+              "heading/borderColor": 144,
+              "other/backgroundColor": 19
+            }
+          },
+          {
+            "hex": "#393939",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.34458382051778663
+            },
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 85,
+            "confidence": 1,
+            "prominence": 58318.35264892154,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "heading/color": 17,
+              "heading/borderColor": 68
+            }
+          },
+          {
+            "hex": "#767676",
+            "oklch": {
+              "c": 2.220446049250313e-16,
+              "h": 180,
+              "l": 0.5657969008462422
+            },
+            "contexts": [
+              "heading",
+              "body"
+            ],
+            "frequency": 20,
+            "confidence": 1,
+            "prominence": 4449.417549274885,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "body/color": 2,
+              "heading/color": 2,
+              "body/borderColor": 8,
+              "heading/borderColor": 8
+            }
+          }
+        ],
+        "isDarkMode": false,
+        "colorfulness": 0.07346184883470104,
+        "contrastPairs": [
+          {
+            "level": "AA",
+            "ratio": 4.54,
+            "background": "#0a0101",
+            "foreground": "#767676"
+          },
+          {
+            "level": "fail",
+            "ratio": 1.79,
+            "background": "#0a0101",
+            "foreground": "#393939"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 16,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 34,
+            "properties": [
+              "paddingTop",
+              "paddingRight",
+              "paddingBottom",
+              "paddingLeft",
+              "marginRight",
+              "marginLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other",
+              "paddingRight|other",
+              "paddingBottom|other",
+              "paddingLeft|other",
+              "marginRight|other",
+              "marginLeft|other"
+            ]
+          },
+          {
+            "value": 117,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 8,
+            "properties": [
+              "marginLeft",
+              "marginRight"
+            ],
+            "propertyContextPairs": [
+              "marginLeft|other",
+              "marginRight|other"
+            ]
+          },
+          {
+            "value": 160,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 6,
+            "properties": [
+              "paddingTop",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other",
+              "paddingBottom|other"
+            ]
+          },
+          {
+            "value": 320,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "rowGap"
+            ],
+            "propertyContextPairs": [
+              "rowGap|other"
+            ]
+          }
+        ],
+        "density": "comfortable",
+        "baseUnit": 8
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "MapSans-Bold",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 273,
+            "fontFeatureSettings": [
+              "\"ss01\""
+            ]
+          },
+          {
+            "family": "MapFono-Regular",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 21,
+            "fontFeatureSettings": [
+              "\"ss01\""
+            ]
+          }
+        ],
+        "scale": {
+          "base": 16,
+          "name": "Minor Second",
+          "ratio": 1.067,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 14,
+            "family": "MapFono-Regular",
+            "weight": 400,
+            "contexts": [
+              "heading",
+              "body"
+            ],
+            "frequency": 21,
+            "lineHeight": 1.43,
+            "letterSpacing": 0,
+            "textTransform": "lowercase"
+          },
+          {
+            "size": 16,
+            "family": "MapSans-Bold",
+            "weight": 400,
+            "contexts": [
+              "image",
+              "link",
+              "list",
+              "other",
+              "icon"
+            ],
+            "frequency": 227,
+            "lineHeight": 1.63,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "MapSans-Bold",
+            "weight": 400,
+            "contexts": [
+              "body",
+              "link"
+            ],
+            "frequency": 6,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "lowercase"
+          },
+          {
+            "size": 16,
+            "family": "MapSans-Bold",
+            "weight": 400,
+            "contexts": [
+              "body",
+              "link"
+            ],
+            "frequency": 4,
+            "lineHeight": 1.5,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 20,
+            "family": "MapSans-Bold",
+            "weight": 400,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 36,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "lowercase"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Prioritize typography as the primary visual element, using MapSans-Bold for impact and MapFono-Regular for clarity.",
+        "Maintain a stark, high-contrast aesthetic with Canvas White for backgrounds and Ink Black for primary text and outlines.",
+        "Use Muted Ash (#393939) exclusively for secondary heading text to provide a subtle reduction in visual weight.",
+        "Apply Subtle Gray (#767676) sparingly for tertiary UI elements and low-priority text, ensuring it is always legible against Canvas White backgrounds.",
+        "Employ a generous section gap of 160px to create ample visual breathing room between major content blocks.",
+        "Utilize Ink Black as the border for active or interactive ghost elements to subtly define their interactive nature.",
+        "Keep all corners sharp with a 0px radius, reinforcing a precise and unadorned aesthetic."
+      ],
+      "donts": [
+        "Avoid introducing any saturated colors for branding or interface elements; color is reserved for content, not UI.",
+        "Do not use box shadows or other elevation cues; the design relies on flat planes and stark contrast for visual hierarchy.",
+        "Refrain from using gradients anywhere in the interface; the system is built on solid, uniform color fields.",
+        "Do not use generic system fonts; always implement MapSans-Bold and MapFono-Regular for consistent brand identity.",
+        "Avoid dense information layouts; prioritize white space and minimalist compositions.",
+        "Do not use rounded corners on any UI elements; maintain sharp, defined edges.",
+        "Do not use filled buttons; interactive elements should be text-only or ghosted with subtle borders."
+      ],
+      "theme": "light",
+      "colors": [
+        {
+          "hex": "#ffffff",
+          "name": "Canvas White",
+          "role": "Page backgrounds, primary surface, and negative space – the dominant visual field that allows typography to stand out",
+          "group": "neutral"
+        },
+        {
+          "hex": "#0a0101",
+          "name": "Ink Black",
+          "role": "Primary text, element borders, outlines for interactive elements, and areas that provide strong contrast for inverse typography",
+          "group": "neutral"
+        },
+        {
+          "hex": "#393939",
+          "name": "Muted Ash",
+          "role": "Secondary text for headings, providing a slightly softer contrast than Ink Black while maintaining strong legibility",
+          "group": "neutral"
+        },
+        {
+          "hex": "#767676",
+          "name": "Subtle Gray",
+          "role": "Medium-contrast borders, control outlines, and structural separators. Do not promote it to the primary CTA color",
+          "group": "neutral"
+        }
+      ],
+      "layout": "The page primarily uses a full-bleed layout, where content stretches the full width of the viewport, particularly for large textual elements. There is no explicit max-width containment at a page level. The hero pattern features large, centered headlines, often a single word or short phrase, dominating the initial view. Section rhythm is driven by generous vertical spacing (160px section gap) and the alternating starkness of large text blocks and embedded content like video. Content arrangement tends to be centered stacks for headings and navigation, with visual elements like videos centrally placed. There is no apparent grid usage for multi-column layouts given the current data, emphasizing a linear, single-column content flow. Navigation consists of a minimal top-right text menu, with primary navigation often integrated into the main page content as large, interactive text links.",
+      "imagery": "The visual language focuses on product screenshots and occasional abstract graphics, treated with a minimalist, often isolated approach. Photography appears to be tight crops of products on solid backgrounds, devoid of lifestyle context. Illustrations are simple and functional, serving explanatory rather than decorative roles. Icons are minimalist and outlined. Imagery primarily serves to showcase products directly or to support technical explanations, rather than creating an atmosphere. The overall density of imagery is low, with text and typography dominating the visual space.",
+      "similar": [
+        {
+          "why": "High-contrast monochrome palette, large typography as primary UI elements, and a clean, unadorned layout.",
+          "business": "A/B Testing agency"
+        },
+        {
+          "why": "Minimalist aesthetic allows content (text/images) to dominate, stark white backgrounds, and emphasis on precise typography.",
+          "business": "Art gallery website"
+        },
+        {
+          "why": "Focus on bold, elegant typography, limited color palette, and spacious layouts to convey exclusivity and sophistication.",
+          "business": "High-end fashion brand"
+        },
+        {
+          "why": "Understated design where motion and stark visual contrast create atmosphere, with typography providing clear narrative prompts.",
+          "business": "Independent film studio"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "default": "0px"
+        },
+        "elementGap": "16px",
+        "sectionGap": "160px",
+        "cardPadding": "16px",
+        "pageMaxWidth": null
+      },
+      "industry": "design",
+      "northStar": "Type-driven monochrome canvas. A high-contrast display of minimal elements on a vast, unadorned surface, where typography commands attention.",
+      "components": [
+        {
+          "name": "Primary Navigation Link",
+          "role": "Top-level navigation items",
+          "description": "Text link using MapSans-Bold, Ink Black, 16px size. Hover state is implied by underline or background color change, but not explicitly defined as a separate color."
+        },
+        {
+          "name": "Ghost Bordered Link",
+          "role": "Secondary interactive elements, often found in footers or supplemental navigation.",
+          "description": "Text in Ink Black (MapSans-Bold or MapFono-Regular depending on context) with an Ink Black border on one side, such as a bottom border for active states or a subtle right border for menu items. No distinct background fill."
+        },
+        {
+          "name": "Hero Headline",
+          "role": "Dominant textual element on the home page or major sections.",
+          "description": "Large text using MapSans-Bold, Ink Black, with generous vertical spacing and centered alignment, often appearing alone on a Canvas White background."
+        },
+        {
+          "name": "Muted Text Button",
+          "role": "Interactive controls with lower prominence, like 'pause'/'unmute'.",
+          "description": "Text using Subtle Gray (MapSans-Bold or MapFono-Regular) with no background or border, changing to Ink Black on hover/active."
+        }
+      ],
+      "typography": [
+        {
+          "role": "Primary headings and interactive link text, conveying authority and directness through its bold, expansive form. The `ss01` feature suggests a custom, brand-specific character set.",
+          "sizes": "16px, 20px",
+          "family": "MapSans-Bold",
+          "weight": "400",
+          "lineHeight": "1.00, 1.20, 1.50, 1.63",
+          "substitute": "Montserrat Bold, Lato Bold",
+          "letterSpacing": "normal",
+          "fontFeatureSettings": "\"ss01\""
+        },
+        {
+          "role": "Used for specific secondary textual elements and body copy, offering a more nuanced textual voice. The `ss01` feature indicates a customized font for brand-specific glyphs.",
+          "sizes": "14px",
+          "family": "MapFono-Regular",
+          "weight": "400",
+          "lineHeight": "1.43",
+          "substitute": "Space Mono Regular, IBM Plex Mono Regular",
+          "letterSpacing": "normal",
+          "fontFeatureSettings": "\"ss01\""
+        }
+      ],
+      "description": "Map Project Office conveys a minimalist, stark presence through its high-contrast monochrome design. The visual system emphasizes large, bold typography as the dominant design element, often serving as primary navigation or key content. Surfaces are uniformly white or near-black, with subtle gray cues indicating interactive elements or secondary information. The overall aesthetic is one of restrained impact, prioritizing legibility and functional clarity within a sculptural, type-focused environment.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "Quick Color Reference:\ntext: #0a0101\nbackground: #ffffff\nborder: #0a0101\naccent: no distinct accent color\nprimary action: no distinct CTA color\n\nExample Component Prompts:\n1. Create a top-level navigation bar: background Canvas White. On the right, display three text links: 'Index', 'Studio', 'Contact'. Each link uses MapSans-Bold, 16px, Ink Black text, with 16px of padding around it. Space links with 16px elementGap.\n2. Design a hero section for the homepage: background Canvas White. Center a headline 'map project office' in MapSans-Bold, 64px (estimated, size >20px), Ink Black. Below it, center smaller text 'london-based industrial design studio' in MapFono-Regular, 14px, Muted Ash.\n3. Build a ghost interactive control: on a Canvas White background, display the text 'unmute' using MapFono-Regular, 14px, Subtle Gray. No background or border. On hover, the text color changes to Ink Black (#0a0101)."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777517236185-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777517236185-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/77c32a1f-99fd-44d0-a7d2-002f005a245d",
+  "ranks": {
+    "trending": 970,
+    "popular": 1053,
+    "newest": 292
+  },
+  "localSlug": "map-project-office-77c32a1f"
+}

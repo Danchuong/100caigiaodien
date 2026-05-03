@@ -1,0 +1,340 @@
+{
+  "id": "7e487226-14fc-4068-813d-569f663fa399",
+  "url": "https://crownandconquer.com",
+  "siteName": "Crown + Conquer",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777517432312-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777517432312-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "light",
+  "colors": [
+    {
+      "name": "Canvas",
+      "hex": "#f5f5f5"
+    },
+    {
+      "name": "Midnight Ink",
+      "hex": "#000000"
+    }
+  ],
+  "fonts": [
+    "Fokus",
+    "Chronik"
+  ],
+  "northStar": "Minimalist gallery wall",
+  "createdAt": "2026-04-30T02:50:49.095Z",
+  "previewVideoCapturedAt": null,
+  "industry": "other",
+  "fullResult": {
+    "meta": {
+      "url": "https://crownandconquer.com",
+      "siteName": "Crown + Conquer",
+      "extractedAt": "2026-04-30T02:50:49.030Z",
+      "durationMs": 23306,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 12,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "other",
+              "link",
+              "heading",
+              "footer",
+              "body",
+              "nav"
+            ],
+            "frequency": 53,
+            "confidence": 1,
+            "prominence": 7458334.202803855,
+            "properties": [
+              "color",
+              "borderColor",
+              "fill"
+            ],
+            "usageCounts": {
+              "nav/color": 2,
+              "body/color": 1,
+              "link/color": 1,
+              "other/fill": 3,
+              "other/color": 4,
+              "footer/color": 1,
+              "heading/color": 1,
+              "nav/borderColor": 8,
+              "body/borderColor": 4,
+              "link/borderColor": 4,
+              "other/borderColor": 16,
+              "footer/borderColor": 4,
+              "heading/borderColor": 4
+            }
+          }
+        ],
+        "isDarkMode": false,
+        "colorfulness": 0,
+        "contrastPairs": []
+      },
+      "shapes": {
+        "radii": [],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 16,
+            "contexts": [
+              "other",
+              "nav"
+            ],
+            "frequency": 4,
+            "properties": [
+              "marginTop",
+              "marginBottom",
+              "rowGap",
+              "columnGap"
+            ],
+            "propertyContextPairs": [
+              "marginTop|other",
+              "marginBottom|other",
+              "rowGap|nav",
+              "columnGap|nav"
+            ]
+          },
+          {
+            "value": 32,
+            "contexts": [
+              "footer"
+            ],
+            "frequency": 4,
+            "properties": [
+              "paddingTop",
+              "paddingRight",
+              "paddingBottom",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|footer",
+              "paddingRight|footer",
+              "paddingBottom|footer",
+              "paddingLeft|footer"
+            ]
+          }
+        ],
+        "density": "comfortable",
+        "baseUnit": 8
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "fokus",
+            "source": "custom",
+            "weights": [
+              400,
+              700
+            ],
+            "frequency": 9,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "chronik",
+            "source": "custom",
+            "weights": [
+              700
+            ],
+            "frequency": 1,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": null,
+        "steps": [
+          {
+            "size": 14,
+            "family": "fokus",
+            "weight": 700,
+            "contexts": [
+              "footer",
+              "body",
+              "nav"
+            ],
+            "frequency": 4,
+            "lineHeight": 1.43,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "fokus",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "link"
+            ],
+            "frequency": 5,
+            "lineHeight": 1.5,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "chronik",
+            "weight": 700,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.5,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Use Canvas (#f5f5f5) as the primary background for all page sections.",
+        "Employ Midnight Ink (#000000) for all text elements to maintain high contrast and sophistication.",
+        "Apply Fokus font with a weight of 400 for all body text, navigation, and footer details, typically in uppercase.",
+        "Utilize Chronik font exclusively for primary brand statements or key headings, maintaining its default weight of 700.",
+        "Maintain a minimum element gap of 16px between UI items horizontally and vertically.",
+        "Use 32px for section padding, especially for top and bottom margins of major content blocks.",
+        "Center all significant page sections and content blocks, adhering to the expansive full-bleed page model."
+      ],
+      "donts": [
+        "Do not introduce additional background colors; maintain the stark #f5f5f5 background throughout.",
+        "Avoid using saturated or chromatic accent colors in UI elements; color is reserved for content if present, not interface.",
+        "Do not use multiple font sizes or weights for Fokus text within the same semantic block (e.g., body text); stick to 14px/16px at weight 400.",
+        "Do not use Chronik for body text; its script style is for impactful, sparse headings only.",
+        "Avoid shadows or complex elevation; the design relies on flat, high-contrast separation.",
+        "Do not add border radii to UI elements; the system emphasizes sharp, clean edges.",
+        "Do not introduce gradients into the UI; maintain flat colors."
+      ],
+      "theme": "light",
+      "colors": [
+        {
+          "hex": "#f5f5f5",
+          "name": "Canvas",
+          "role": "Page backgrounds, underlying surfaces",
+          "group": "neutral"
+        },
+        {
+          "hex": "#000000",
+          "name": "Midnight Ink",
+          "role": "Dark borders and separators for elevated surfaces and inverted UI. Do not promote it to the primary CTA color",
+          "group": "neutral"
+        }
+      ],
+      "layout": "The page operates on a full-bleed model, with content centered horizontally without a defined `pageMaxWidth`. The hero features a large, centered brandmark image followed by a centered headline statement. Sections appear to have consistent vertical spacing (32px padding surrounding content blocks, 16px element gaps). The footer is minimal, also centered, with text details and a contact link. The overall rhythm is sparse and symmetrical, emphasizing individual elements rather than dense information blocks.",
+      "imagery": "Imagery style is not explicitly defined in the provided data or screenshot; the visual focus is on typography and stark contrast. Any imagery would need to align with a minimalist, high-contrast, potentially monochrome aesthetic, serving as decorative atmosphere rather than content explanation.",
+      "similar": [
+        {
+          "why": "High-contrast, minimalist aesthetic with focus on typography and stark presentation.",
+          "business": "Acne Studios"
+        },
+        {
+          "why": "Understated luxury through limited color palettes, generous spacing, and fine typographic details.",
+          "business": "The Row"
+        },
+        {
+          "why": "Emphasizes clean visual layouts with strong typography and ample white space, often using monochrome palettes.",
+          "business": "Squarespace"
+        },
+        {
+          "why": "Simple, bold black-on-white text, often uppercase, with minimalist UI elements.",
+          "business": "Zara"
+        }
+      ],
+      "spacing": {
+        "radius": {},
+        "elementGap": "16px",
+        "sectionGap": "32px",
+        "cardPadding": "32px",
+        "pageMaxWidth": null
+      },
+      "industry": "other",
+      "northStar": "Minimalist gallery wall",
+      "components": [
+        {
+          "name": "Navigation Link",
+          "role": "Interactive text link in the footer.",
+          "description": "Fokus font, 14px, weight 400, color #000000. Underlined on hover."
+        },
+        {
+          "name": "Footer Text Block",
+          "role": "Informational text in the page footer.",
+          "description": "Fokus font, 14px, weight 400, color #000000, uppercase. Padded by 32px on top, right, and bottom. Margins of 16px between elements."
+        },
+        {
+          "name": "Call to Action Headline",
+          "role": "Prominent statement text to draw attention to the brand's purpose.",
+          "description": "Chronik font, 16px, weight 700, color #000000, uppercase. Line height 1.5. Centered on the page."
+        },
+        {
+          "name": "Brandmark Text",
+          "role": "Main company logo text.",
+          "description": "Custom script font rendered as an image, visually large and centered."
+        }
+      ],
+      "typography": [
+        {
+          "role": "Functional text: used for all body copy, navigation links, and footer information, usually in an all-caps form. Its consistent weight and clear letterforms provide an anchor to the unique branding.",
+          "sizes": "14px, 16px",
+          "family": "Fokus",
+          "weight": "400, 700",
+          "lineHeight": "1.43, 1.50",
+          "substitute": "Montserrat, Open Sans"
+        },
+        {
+          "role": "Decorative display font for primary brand statements, giving an elegant, bespoke feel. Used sparingly for key headings.",
+          "sizes": "16px",
+          "family": "Chronik",
+          "weight": "700",
+          "lineHeight": "1.50",
+          "substitute": "Tangerine, Great Vibes"
+        }
+      ],
+      "description": "The Crown + Conquer design system exudes a minimalist, high-contrast aesthetic, built on a foundation of stark black text on a subtly off-white canvas. The visual identity is defined by a striking custom script display font for brand elements, juxtaposed with a utilitarian, all-caps sans-serif for functional text. Spacing is generous, creating an atmosphere of exclusivity and focus, with interactive elements subtly outlined rather than filled, reinforcing an understated directness.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "**Quick Color Reference**\ntext: #000000\nbackground: #f5f5f5\nborder: #000000\naccent: no distinct accent color\nprimary action: no distinct CTA color\n\n**3-5 Example Component Prompts**\nCreate a centered brand statement: Chronik font, 16px, weight 700, color #000000, uppercase, line height 1.5. Place it on a Canvas (#f5f5f5) background.\nCreate a footer navigation link: Fokus font, 14px, weight 400, color #000000, uppercase. Add 32px padding below the entire footer block.\nCreate a simple body text paragraph: Fokus font, 14px, weight 400, color #000000, on a Canvas (#f5f5f5) background. Enforce 16px vertical gap to the next element.\nCreate a page with a centered main headline 'TURNING BOLD IDEAS INTO REAL CONNECTION' using Chronik, 16px, weight 700, #000000, uppercase. Below it, add 'Worldwide Services, Founded in LA' using Fokus, 14px, weight 400, #000000, uppercase. Ensure 16px element gap between them."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777517432312-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777517432312-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/7e487226-14fc-4068-813d-569f663fa399",
+  "ranks": {
+    "trending": 1095,
+    "popular": 1117,
+    "newest": 281
+  },
+  "localSlug": "crown-conquer-7e487226"
+}

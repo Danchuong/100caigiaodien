@@ -1,0 +1,646 @@
+{
+  "id": "4235ebdc-a070-46ef-abbf-692151449bea",
+  "url": "https://www.nofilter.space",
+  "siteName": "Nofilter.space",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777517238829-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777517238829-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "light",
+  "colors": [
+    {
+      "name": "Canvas White",
+      "hex": "#ffffff"
+    },
+    {
+      "name": "Headline Black",
+      "hex": "#000000"
+    },
+    {
+      "name": "Ink Gray",
+      "hex": "#333333"
+    }
+  ],
+  "fonts": [
+    "Pragmatica"
+  ],
+  "northStar": "Architectural grid on newsprint.",
+  "createdAt": "2026-04-30T02:47:34.522Z",
+  "previewVideoCapturedAt": null,
+  "industry": "media",
+  "fullResult": {
+    "meta": {
+      "url": "https://www.nofilter.space",
+      "siteName": "Nofilter.space",
+      "extractedAt": "2026-04-30T02:47:33.548Z",
+      "durationMs": 29622,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 185,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#333333",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.3210925111636326
+            },
+            "contexts": [
+              "other",
+              "link",
+              "nav",
+              "image",
+              "heading",
+              "badge"
+            ],
+            "frequency": 858,
+            "confidence": 1,
+            "prominence": 10287884.459106099,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "nav/color": 10,
+              "link/color": 23,
+              "badge/color": 13,
+              "image/color": 5,
+              "other/color": 122,
+              "heading/color": 11,
+              "nav/borderColor": 40,
+              "link/borderColor": 92,
+              "badge/borderColor": 32,
+              "image/borderColor": 20,
+              "other/borderColor": 446,
+              "heading/borderColor": 44
+            }
+          },
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "other",
+              "badge"
+            ],
+            "frequency": 61,
+            "confidence": 1,
+            "prominence": 2328626.635029203,
+            "properties": [
+              "borderColor"
+            ],
+            "usageCounts": {
+              "badge/borderColor": 20,
+              "other/borderColor": 41
+            }
+          },
+          {
+            "hex": "#ffffff",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 1.0000000000000002
+            },
+            "contexts": [
+              "other",
+              "link"
+            ],
+            "frequency": 7,
+            "confidence": 1,
+            "prominence": 546900,
+            "properties": [
+              "backgroundColor",
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "link/color": 1,
+              "link/borderColor": 4,
+              "other/backgroundColor": 2
+            }
+          },
+          {
+            "hex": "#0a0a0a",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.1447879553888796
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 72675,
+            "properties": [
+              "borderColor"
+            ],
+            "usageCounts": {
+              "other/borderColor": 1
+            }
+          }
+        ],
+        "isDarkMode": false,
+        "colorfulness": 0,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 21,
+            "background": "#ffffff",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 19.8,
+            "background": "#ffffff",
+            "foreground": "#0a0a0a"
+          },
+          {
+            "level": "AAA",
+            "ratio": 12.63,
+            "background": "#ffffff",
+            "foreground": "#333333"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 4,
+            "contexts": [
+              "link"
+            ],
+            "frequency": 3,
+            "properties": [
+              "paddingTop"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|link"
+            ]
+          },
+          {
+            "value": 10,
+            "contexts": [
+              "other",
+              "nav",
+              "heading"
+            ],
+            "frequency": 58,
+            "properties": [
+              "paddingBottom",
+              "paddingRight",
+              "marginTop",
+              "marginBottom",
+              "paddingTop"
+            ],
+            "propertyContextPairs": [
+              "paddingBottom|other",
+              "paddingRight|nav",
+              "marginTop|heading",
+              "marginBottom|heading",
+              "paddingRight|other",
+              "marginBottom|other",
+              "paddingTop|other"
+            ]
+          },
+          {
+            "value": 16,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 5,
+            "properties": [
+              "rowGap",
+              "columnGap"
+            ],
+            "propertyContextPairs": [
+              "rowGap|other",
+              "columnGap|other"
+            ]
+          },
+          {
+            "value": 20,
+            "contexts": [
+              "nav",
+              "other",
+              "link",
+              "badge"
+            ],
+            "frequency": 27,
+            "properties": [
+              "marginRight",
+              "paddingTop",
+              "paddingRight",
+              "paddingBottom",
+              "paddingLeft",
+              "marginTop"
+            ],
+            "propertyContextPairs": [
+              "marginRight|nav",
+              "paddingTop|other",
+              "paddingRight|other",
+              "paddingBottom|other",
+              "paddingLeft|link",
+              "marginTop|other",
+              "paddingBottom|badge"
+            ]
+          },
+          {
+            "value": 22,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 2,
+            "properties": [
+              "marginLeft"
+            ],
+            "propertyContextPairs": [
+              "marginLeft|nav"
+            ]
+          },
+          {
+            "value": 25,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 1,
+            "properties": [
+              "marginLeft"
+            ],
+            "propertyContextPairs": [
+              "marginLeft|nav"
+            ]
+          },
+          {
+            "value": 26,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 1,
+            "properties": [
+              "paddingRight"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|nav"
+            ]
+          },
+          {
+            "value": 30,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 15,
+            "properties": [
+              "marginTop",
+              "rowGap",
+              "columnGap"
+            ],
+            "propertyContextPairs": [
+              "marginTop|other",
+              "rowGap|other",
+              "columnGap|other"
+            ]
+          },
+          {
+            "value": 35,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 17,
+            "properties": [
+              "paddingRight",
+              "paddingLeft",
+              "marginRight",
+              "marginLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|other",
+              "paddingLeft|other",
+              "marginRight|other",
+              "marginLeft|other"
+            ]
+          },
+          {
+            "value": 40,
+            "contexts": [
+              "other",
+              "link"
+            ],
+            "frequency": 7,
+            "properties": [
+              "columnGap",
+              "paddingRight",
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "columnGap|other",
+              "paddingRight|link",
+              "marginBottom|other"
+            ]
+          },
+          {
+            "value": 60,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 6,
+            "properties": [
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "marginBottom|other"
+            ]
+          }
+        ],
+        "density": "comfortable",
+        "baseUnit": null
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "pragmatica",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 185,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 24,
+          "name": "Minor Third",
+          "ratio": 1.2,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 12,
+            "family": "pragmatica",
+            "weight": 400,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "lineHeight": 2.5,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 15,
+            "family": "pragmatica",
+            "weight": 400,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 28,
+            "lineHeight": 1.47,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 24,
+            "family": "pragmatica",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "nav",
+              "link",
+              "image",
+              "badge"
+            ],
+            "frequency": 136,
+            "lineHeight": 1.25,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 24,
+            "family": "pragmatica",
+            "weight": 400,
+            "contexts": [
+              "link",
+              "nav"
+            ],
+            "frequency": 6,
+            "lineHeight": 1.25,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 30,
+            "family": "pragmatica",
+            "weight": 400,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 11,
+            "lineHeight": 1.17,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 35,
+            "family": "pragmatica",
+            "weight": 400,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 3,
+            "lineHeight": 1.14,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Use Pragmatica 400 for all text elements.",
+        "Maintain a high contrast ratio with black text on white backgrounds; use #000000 for headlines and #333333 for body text.",
+        "Define content areas using 1px solid borders, primarily #333333, with #000000 for primary structural divisions.",
+        "Prioritize explicit spacing values like 10px for element gaps and 60px for section gaps to create distinct content blocks.",
+        "Ensure all interactive elements, like navigation links, respond with a subtle border, such as a 1px solid #333333 bottom border for active or hovered states.",
+        "Utilize 0px border-radius explicitly for all components, enforcing a sharp, architectural edge.",
+        "Present imagery as unstyled rectangles, allowing its content to speak without UI embellishment, often bounded by implied 1px #333333 borders."
+      ],
+      "donts": [
+        "Avoid using any colors other than Canvas White (#ffffff), Headline Black (#000000), and Ink Gray (#333333).",
+        "Do not apply any border-radius greater than 0px to any elements.",
+        "Refrain from using shadows or gradients; the system relies on flat surfaces and hard lines.",
+        "Do not introduce decorative elements or iconography that deviates from the monochromatic, line-drawn aesthetic.",
+        "Do not vary font weights; stick strictly to Pragmatica 400 for all text.",
+        "Avoid soft padding or margin values that create vague boundaries; use precise, consistent measured spacing like 10px and 20px.",
+        "Do not use subtle background tints for cards or sections; rely on Canvas White as the sole background."
+      ],
+      "theme": "light",
+      "colors": [
+        {
+          "hex": "#ffffff",
+          "name": "Canvas White",
+          "role": "Page backgrounds, surface accents",
+          "group": "neutral"
+        },
+        {
+          "hex": "#000000",
+          "name": "Headline Black",
+          "role": "Prominent headlines, strong borders for structural elements",
+          "group": "neutral"
+        },
+        {
+          "hex": "#333333",
+          "name": "Ink Gray",
+          "role": "Primary text, secondary headlines, link borders, and subtle accent details",
+          "group": "neutral"
+        }
+      ],
+      "similar": [
+        {
+          "why": "Grid-based content organization, heavy reliance on white space, minimal decoration, and a focus on raw content presentation with strong borders.",
+          "business": "Are.na"
+        },
+        {
+          "why": "Strong editorial typography, high-contrast black and white aesthetic, and a sense of 'content-first' design with structured grid layouts.",
+          "business": "The NYT Magazine"
+        },
+        {
+          "why": "Brutalist typographic approach, black and white color scheme, and an emphasis on architectural precision in layout and spacing.",
+          "business": "Manual"
+        },
+        {
+          "why": "Modern editorial aesthetic, bold use of typography for hierarchy, and a structured, somewhat sparse layout emphasizing visual content.",
+          "business": "AIGA Eye on Design"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "none": "0px"
+        },
+        "elementGap": "10px",
+        "sectionGap": "60px",
+        "cardPadding": "20px",
+        "pageMaxWidth": null
+      },
+      "industry": "media",
+      "northStar": "Architectural grid on newsprint.",
+      "typeScale": [
+        {
+          "role": "caption",
+          "size": 12,
+          "lineHeight": 1.14
+        },
+        {
+          "role": "body",
+          "size": 15,
+          "lineHeight": 1.17
+        },
+        {
+          "role": "subheading",
+          "size": 24,
+          "lineHeight": 1.25
+        },
+        {
+          "role": "heading",
+          "size": 30,
+          "lineHeight": 1.47
+        },
+        {
+          "role": "display",
+          "size": 35,
+          "lineHeight": 2.5
+        }
+      ],
+      "components": [
+        {
+          "name": "Navigation Link",
+          "role": "Primary site navigation items.",
+          "description": "Pragmatica 400, 15px font-size, Ink Gray (#333333) text, with an implicit 4px top padding and 20px of padding on the right, no border-radius. Active state indicated by a 1px solid Ink Gray (#333333) bottom border."
+        },
+        {
+          "name": "Basic Content Card",
+          "role": "Container for articles and visual content.",
+          "description": "White background, with a 1px solid Ink Gray (#333333) border on its bottom edge when part of a grid, or a 1px solid Headline Black (#000000) border defining its full perimeter for standalone featured cards. No border-radius. Internal padding applied at 20px."
+        },
+        {
+          "name": "Editorial Header",
+          "role": "Headline for articles and sections.",
+          "description": "Pragmatica 400, Headline Black (#000000), typically 30px or 35px. Presented without visual embellishment, often followed by meta-information."
+        },
+        {
+          "name": "Meta Info Text",
+          "role": "Author and date information.",
+          "description": "Pragmatica 400, 12px font-size, Ink Gray (#333333) color."
+        },
+        {
+          "name": "Image Card",
+          "role": "Display of visual content.",
+          "description": "Images are presented without border or radius, directly abutting text or other cards, often filling available horizontal space. They enforce a 1px solid Ink Gray (#333333) border around the implied content area."
+        },
+        {
+          "name": "Nav Checkbox",
+          "role": "Minimalistic checkbox for navigation filters.",
+          "description": "A 1px solid Ink Gray (#333333) square with 0px radius. Checked state implies a subtle visual fill not explicitly captured in token data but visually distinct from unchecked state."
+        }
+      ],
+      "typography": [
+        {
+          "role": "The singular typeface for all content. Its consistent weight reinforces the utilitarian, direct tone, with size changes solely driving hierarchy.",
+          "sizes": "12px, 15px, 24px, 30px, 35px",
+          "family": "Pragmatica",
+          "weight": "400",
+          "weights": [
+            400
+          ],
+          "lineHeight": "1.14, 1.17, 1.25, 1.47, 2.50",
+          "substitute": "Inter",
+          "letterSpacing": "normal"
+        }
+      ],
+      "description": "Nofilter.space employs a stark, almost brutalist typographic aesthetic, resembling a digital broadsheet. Its visual system relies heavily on high-contrast black text on white backgrounds, framed by bold, architectural lines. Content is organized with clear visual boundaries rather than soft hierarchies, using strong borders and ample negative space to define sections and cards. The overall impression is one of raw information delivery, devoid of visual embellishment.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "Quick Color Reference:\ntext: #333333\nbackground: #ffffff\nborder: #333333\naccent: no distinct accent color\nprimary action: no distinct CTA color\n\nExample Component Prompts:\n1. Create a Header Navigation item: Pragmatica 400, 15px font-size, #333333 color, 4px paddingTop, 20px paddingRight, 0px borderRadius.\n2. Create an Article Headline: Pragmatica 400, 30px font-size, #000000 color, 10px paddingBottom.\n3. Create a Content Card: background #ffffff, 1px solid #333333 bottom border, 0px borderRadius, 20px cardPadding inside.\n4. Create a Meta-info Text label: Pragmatica 400, 12px font-size, #333333 color.\n5. Create a Nav Checkbox: 1px solid #333333 border, 0px borderRadius."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777517238829-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777517238829-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/4235ebdc-a070-46ef-abbf-692151449bea",
+  "ranks": {
+    "trending": 642,
+    "popular": 793,
+    "newest": 291
+  },
+  "localSlug": "nofilter-space-4235ebdc"
+}

@@ -1,0 +1,2285 @@
+{
+  "id": "c556ab50-a242-4854-9395-450c0004bac5",
+  "url": "https://replit.com",
+  "siteName": "replit",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777509998104-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777509998104-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "light",
+  "colors": [
+    {
+      "name": "Canvas",
+      "hex": "#faf6f1"
+    },
+    {
+      "name": "Ghost",
+      "hex": "#ffffff"
+    },
+    {
+      "name": "Carbon",
+      "hex": "#0e0e0f"
+    },
+    {
+      "name": "Lead",
+      "hex": "#36373b"
+    },
+    {
+      "name": "Ash",
+      "hex": "#898c94"
+    },
+    {
+      "name": "Stone",
+      "hex": "#dfddd8"
+    }
+  ],
+  "fonts": [
+    "ABC Diatype",
+    "ABC Diatype Plus Variable",
+    "IBM Plex Sans"
+  ],
+  "northStar": "Warm, creative studio. Like paper and clay in a sunlit workbench, punctuated by a streak of vibrant orange.",
+  "createdAt": "2026-04-30T00:47:09.637Z",
+  "previewVideoCapturedAt": null,
+  "industry": "ai",
+  "fullResult": {
+    "meta": {
+      "url": "https://replit.com",
+      "siteName": "replit",
+      "extractedAt": "2026-04-30T00:47:09.131Z",
+      "durationMs": 45707,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 1313,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#0e0e0f",
+            "oklch": {
+              "c": 0.0020715587884095684,
+              "h": 286.16933664295755,
+              "l": 0.1642048289248268
+            },
+            "contexts": [
+              "other",
+              "badge",
+              "body",
+              "card",
+              "input",
+              "image",
+              "heading",
+              "footer"
+            ],
+            "frequency": 1289,
+            "confidence": 1,
+            "prominence": 87053392.88563529,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "body/color": 14,
+              "card/color": 26,
+              "badge/color": 2,
+              "image/color": 12,
+              "input/color": 1,
+              "other/color": 208,
+              "footer/color": 1,
+              "heading/color": 1,
+              "body/borderColor": 56,
+              "card/borderColor": 92,
+              "badge/borderColor": 8,
+              "image/borderColor": 48,
+              "input/borderColor": 4,
+              "other/borderColor": 808,
+              "footer/borderColor": 4,
+              "heading/borderColor": 4
+            }
+          },
+          {
+            "hex": "#faf6f1",
+            "oklch": {
+              "c": 0.007907609725084058,
+              "h": 73.74464027802415,
+              "l": 0.9748423511973423
+            },
+            "contexts": [
+              "other",
+              "nav",
+              "card",
+              "button",
+              "footer"
+            ],
+            "frequency": 36,
+            "confidence": 1,
+            "prominence": 43887909.85745315,
+            "properties": [
+              "backgroundColor",
+              "fill"
+            ],
+            "usageCounts": {
+              "nav/fill": 6,
+              "other/fill": 7,
+              "card/backgroundColor": 6,
+              "other/backgroundColor": 12,
+              "button/backgroundColor": 4,
+              "footer/backgroundColor": 1
+            }
+          },
+          {
+            "hex": "#ffffff",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 1.0000000000000002
+            },
+            "contexts": [
+              "button",
+              "icon",
+              "card",
+              "other",
+              "heading",
+              "input",
+              "link"
+            ],
+            "frequency": 180,
+            "confidence": 1,
+            "prominence": 10277616.307203421,
+            "properties": [
+              "color",
+              "borderColor",
+              "fill",
+              "backgroundColor",
+              "stroke"
+            ],
+            "usageCounts": {
+              "icon/fill": 2,
+              "card/color": 5,
+              "icon/color": 2,
+              "link/color": 1,
+              "other/fill": 7,
+              "other/color": 3,
+              "button/color": 5,
+              "other/stroke": 75,
+              "heading/color": 1,
+              "card/borderColor": 20,
+              "icon/borderColor": 8,
+              "link/borderColor": 4,
+              "other/borderColor": 12,
+              "button/borderColor": 20,
+              "heading/borderColor": 4,
+              "card/backgroundColor": 10,
+              "input/backgroundColor": 1
+            }
+          },
+          {
+            "hex": "#312e2e",
+            "oklch": {
+              "c": 0.004328175822702534,
+              "h": 17.39438656797806,
+              "l": 0.3043212675039982
+            },
+            "contexts": [
+              "button",
+              "icon",
+              "body",
+              "other",
+              "input",
+              "heading",
+              "link",
+              "card"
+            ],
+            "frequency": 445,
+            "confidence": 1,
+            "prominence": 2954154.064906749,
+            "properties": [
+              "color",
+              "fill",
+              "borderColor",
+              "stroke",
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "icon/fill": 2,
+              "body/color": 7,
+              "card/color": 37,
+              "icon/color": 2,
+              "link/color": 1,
+              "other/fill": 27,
+              "input/color": 1,
+              "other/color": 26,
+              "button/color": 4,
+              "other/stroke": 15,
+              "heading/color": 6,
+              "body/borderColor": 28,
+              "card/borderColor": 148,
+              "icon/borderColor": 8,
+              "link/borderColor": 4,
+              "input/borderColor": 4,
+              "other/borderColor": 100,
+              "heading/borderColor": 24,
+              "card/backgroundColor": 1
+            }
+          },
+          {
+            "hex": "#898c94",
+            "oklch": {
+              "c": 0.012397388100679436,
+              "h": 269.4825143477475,
+              "l": 0.64015841285656
+            },
+            "contexts": [
+              "other",
+              "body",
+              "card"
+            ],
+            "frequency": 1012,
+            "confidence": 1,
+            "prominence": 2504092.1494673253,
+            "properties": [
+              "color",
+              "borderColor",
+              "fill"
+            ],
+            "usageCounts": {
+              "body/color": 5,
+              "card/color": 1,
+              "other/fill": 396,
+              "other/color": 118,
+              "body/borderColor": 20,
+              "other/borderColor": 472
+            }
+          },
+          {
+            "hex": "#ffb199",
+            "oklch": {
+              "c": 0.09784283775200675,
+              "h": 37.82489568861853,
+              "l": 0.8290148472400688
+            },
+            "contexts": [
+              "card",
+              "heading",
+              "other"
+            ],
+            "frequency": 47,
+            "confidence": 1,
+            "prominence": 1874676.437804567,
+            "properties": [
+              "backgroundColor",
+              "color",
+              "borderColor",
+              "fill"
+            ],
+            "usageCounts": {
+              "other/fill": 13,
+              "heading/color": 6,
+              "heading/borderColor": 24,
+              "card/backgroundColor": 4
+            }
+          },
+          {
+            "hex": "#dfddd8",
+            "oklch": {
+              "c": 0.007102757031509269,
+              "h": 88.64676362142733,
+              "l": 0.8977041899681166
+            },
+            "contexts": [
+              "card",
+              "button",
+              "other"
+            ],
+            "frequency": 89,
+            "confidence": 1,
+            "prominence": 1452714.426631173,
+            "properties": [
+              "borderColor",
+              "backgroundColor",
+              "fill"
+            ],
+            "usageCounts": {
+              "other/fill": 7,
+              "card/borderColor": 4,
+              "other/borderColor": 56,
+              "button/borderColor": 12,
+              "card/backgroundColor": 2,
+              "other/backgroundColor": 8
+            }
+          },
+          {
+            "hex": "#36373b",
+            "oklch": {
+              "c": 0.007100301097254422,
+              "h": 274.7686950049514,
+              "l": 0.33733378177035256
+            },
+            "contexts": [
+              "other",
+              "nav",
+              "button",
+              "heading",
+              "body"
+            ],
+            "frequency": 504,
+            "confidence": 1,
+            "prominence": 1062287.6510576687,
+            "properties": [
+              "color",
+              "borderColor",
+              "fill"
+            ],
+            "usageCounts": {
+              "nav/fill": 15,
+              "nav/color": 39,
+              "body/color": 23,
+              "other/color": 25,
+              "button/color": 4,
+              "heading/color": 10,
+              "nav/borderColor": 156,
+              "body/borderColor": 92,
+              "other/borderColor": 100,
+              "heading/borderColor": 40
+            }
+          },
+          {
+            "hex": "#ff764c",
+            "oklch": {
+              "c": 0.17699920713654094,
+              "h": 37.59907598654783,
+              "l": 0.721688247435566
+            },
+            "contexts": [
+              "card"
+            ],
+            "frequency": 2,
+            "confidence": 1,
+            "prominence": 532016.4378045668,
+            "properties": [
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "card/backgroundColor": 2
+            }
+          },
+          {
+            "hex": "#1a1919",
+            "oklch": {
+              "c": 0.001566308106383829,
+              "h": 17.278677663193534,
+              "l": 0.21454973418031253
+            },
+            "contexts": [
+              "card",
+              "icon",
+              "heading",
+              "other",
+              "button",
+              "body"
+            ],
+            "frequency": 83,
+            "confidence": 1,
+            "prominence": 428803.04503742204,
+            "properties": [
+              "color",
+              "borderColor",
+              "stroke",
+              "fill",
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "body/color": 4,
+              "card/color": 3,
+              "icon/color": 1,
+              "other/fill": 12,
+              "other/color": 2,
+              "button/color": 2,
+              "other/stroke": 2,
+              "heading/color": 1,
+              "body/borderColor": 16,
+              "card/borderColor": 12,
+              "icon/borderColor": 4,
+              "other/borderColor": 8,
+              "button/borderColor": 8,
+              "heading/borderColor": 4,
+              "button/backgroundColor": 4
+            }
+          },
+          {
+            "hex": "#ff3c00",
+            "oklch": {
+              "c": 0.23544052741475932,
+              "h": 33.880894512022415,
+              "l": 0.652749613120714
+            },
+            "contexts": [
+              "button",
+              "heading",
+              "icon",
+              "card",
+              "other",
+              "link",
+              "nav"
+            ],
+            "frequency": 98,
+            "confidence": 1,
+            "prominence": 414334.7887549756,
+            "properties": [
+              "color",
+              "borderColor",
+              "backgroundColor",
+              "fill",
+              "stroke"
+            ],
+            "usageCounts": {
+              "nav/fill": 2,
+              "icon/fill": 6,
+              "icon/color": 3,
+              "other/fill": 8,
+              "button/color": 2,
+              "other/stroke": 1,
+              "heading/color": 5,
+              "card/borderColor": 4,
+              "icon/borderColor": 12,
+              "button/borderColor": 8,
+              "heading/borderColor": 20,
+              "card/backgroundColor": 1,
+              "link/backgroundColor": 1,
+              "other/backgroundColor": 24,
+              "button/backgroundColor": 1
+            }
+          },
+          {
+            "hex": "#cbc7c3",
+            "oklch": {
+              "c": 0.007115346094920689,
+              "h": 67.72756700157784,
+              "l": 0.8317372296444832
+            },
+            "contexts": [
+              "card",
+              "other"
+            ],
+            "frequency": 6,
+            "confidence": 1,
+            "prominence": 179695.98120598518,
+            "properties": [
+              "borderColor",
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "card/borderColor": 4,
+              "other/backgroundColor": 2
+            }
+          },
+          {
+            "hex": "#52545a",
+            "oklch": {
+              "c": 0.010092221016328002,
+              "h": 271.18658373477024,
+              "l": 0.44619962761770476
+            },
+            "contexts": [
+              "body"
+            ],
+            "frequency": 70,
+            "confidence": 1,
+            "prominence": 65291.86516778121,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "body/color": 14,
+              "body/borderColor": 56
+            }
+          },
+          {
+            "hex": "#76716f",
+            "oklch": {
+              "c": 0.006944521056876819,
+              "h": 43.279235932663134,
+              "l": 0.5524765036153854
+            },
+            "contexts": [
+              "body",
+              "input",
+              "card",
+              "other",
+              "link"
+            ],
+            "frequency": 189,
+            "confidence": 1,
+            "prominence": 39560.06540913753,
+            "properties": [
+              "color",
+              "borderColor",
+              "stroke"
+            ],
+            "usageCounts": {
+              "body/color": 10,
+              "link/color": 25,
+              "other/stroke": 6,
+              "body/borderColor": 40,
+              "card/borderColor": 4,
+              "link/borderColor": 100,
+              "input/borderColor": 4
+            }
+          },
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "button",
+              "other",
+              "input"
+            ],
+            "frequency": 144,
+            "confidence": 1,
+            "prominence": 24253.732906070447,
+            "properties": [
+              "borderColor",
+              "color",
+              "stroke",
+              "fill"
+            ],
+            "usageCounts": {
+              "other/fill": 13,
+              "input/color": 1,
+              "other/color": 9,
+              "button/color": 9,
+              "other/stroke": 16,
+              "other/borderColor": 36,
+              "button/borderColor": 60
+            }
+          },
+          {
+            "hex": "#efefef",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.9521308451894797
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 5,
+            "confidence": 1,
+            "prominence": 22990.656481413964,
+            "properties": [
+              "backgroundColor",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "other/borderColor": 4,
+              "other/backgroundColor": 1
+            }
+          },
+          {
+            "hex": "#949494",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.6665481264667662
+            },
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 5,
+            "confidence": 1,
+            "prominence": 16024.182541970447,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "heading/color": 1,
+              "heading/borderColor": 4
+            }
+          },
+          {
+            "hex": "#2f3034",
+            "oklch": {
+              "c": 0.007257867339952624,
+              "h": 274.73705899861693,
+              "l": 0.30973971600306666
+            },
+            "contexts": [
+              "other",
+              "icon",
+              "button",
+              "input",
+              "body"
+            ],
+            "frequency": 112,
+            "confidence": 1,
+            "prominence": 15713.692329404592,
+            "properties": [
+              "color",
+              "fill",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "icon/fill": 20,
+              "body/color": 1,
+              "icon/color": 10,
+              "other/fill": 16,
+              "input/color": 1,
+              "other/color": 11,
+              "button/color": 1,
+              "body/borderColor": 4,
+              "icon/borderColor": 40,
+              "input/borderColor": 4,
+              "other/borderColor": 4
+            }
+          },
+          {
+            "hex": "#61646b",
+            "oklch": {
+              "c": 0.01168224981801515,
+              "h": 267.27113138533184,
+              "l": 0.5029908522261954
+            },
+            "contexts": [
+              "body"
+            ],
+            "frequency": 15,
+            "confidence": 1,
+            "prominence": 11340,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "body/color": 3,
+              "body/borderColor": 12
+            }
+          },
+          {
+            "hex": "#2492ff",
+            "oklch": {
+              "c": 0.18697579903766842,
+              "h": 253.0694850545597,
+              "l": 0.6572808660292929
+            },
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 10,
+            "confidence": 1,
+            "prominence": 8233.447252356767,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "nav/color": 2,
+              "nav/borderColor": 8
+            }
+          },
+          {
+            "hex": "#696c74",
+            "oklch": {
+              "c": 0.01300498400033433,
+              "h": 269.4363018352317,
+              "l": 0.5313910618648701
+            },
+            "contexts": [
+              "body"
+            ],
+            "frequency": 5,
+            "confidence": 1,
+            "prominence": 5586.103964058419,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "body/color": 1,
+              "body/borderColor": 4
+            }
+          },
+          {
+            "hex": "#ec4e02",
+            "oklch": {
+              "c": 0.20495366116841296,
+              "h": 38.673004360415945,
+              "l": 0.6374674622734281
+            },
+            "contexts": [
+              "icon",
+              "body",
+              "other"
+            ],
+            "frequency": 8,
+            "confidence": 1,
+            "prominence": 4177.961151900968,
+            "properties": [
+              "fill",
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "icon/fill": 2,
+              "body/color": 1,
+              "other/fill": 1,
+              "body/borderColor": 4
+            }
+          }
+        ],
+        "isDarkMode": false,
+        "colorfulness": 0.03502078332493276,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 21,
+            "background": "#ffffff",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 19.52,
+            "background": "#faf6f1",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 19.29,
+            "background": "#ffffff",
+            "foreground": "#0e0e0f"
+          },
+          {
+            "level": "AAA",
+            "ratio": 18.26,
+            "background": "#efefef",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 17.93,
+            "background": "#faf6f1",
+            "foreground": "#0e0e0f"
+          },
+          {
+            "level": "AAA",
+            "ratio": 17.54,
+            "background": "#1a1919",
+            "foreground": "#ffffff"
+          },
+          {
+            "level": "AAA",
+            "ratio": 16.78,
+            "background": "#efefef",
+            "foreground": "#0e0e0f"
+          },
+          {
+            "level": "AAA",
+            "ratio": 16.3,
+            "background": "#faf6f1",
+            "foreground": "#1a1919"
+          },
+          {
+            "level": "AAA",
+            "ratio": 15.47,
+            "background": "#dfddd8",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 15.26,
+            "background": "#efefef",
+            "foreground": "#1a1919"
+          },
+          {
+            "level": "AAA",
+            "ratio": 14.22,
+            "background": "#dfddd8",
+            "foreground": "#0e0e0f"
+          },
+          {
+            "level": "AAA",
+            "ratio": 13.45,
+            "background": "#312e2e",
+            "foreground": "#ffffff"
+          },
+          {
+            "level": "AAA",
+            "ratio": 13.18,
+            "background": "#ffffff",
+            "foreground": "#2f3034"
+          },
+          {
+            "level": "AAA",
+            "ratio": 12.93,
+            "background": "#dfddd8",
+            "foreground": "#1a1919"
+          },
+          {
+            "level": "AAA",
+            "ratio": 12.5,
+            "background": "#faf6f1",
+            "foreground": "#312e2e"
+          },
+          {
+            "level": "AAA",
+            "ratio": 12.5,
+            "background": "#cbc7c3",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 12.25,
+            "background": "#faf6f1",
+            "foreground": "#2f3034"
+          },
+          {
+            "level": "AAA",
+            "ratio": 12,
+            "background": "#ffb199",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 11.89,
+            "background": "#ffffff",
+            "foreground": "#36373b"
+          },
+          {
+            "level": "AAA",
+            "ratio": 11.7,
+            "background": "#efefef",
+            "foreground": "#312e2e"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [
+          {
+            "value": 6,
+            "contexts": [
+              "other",
+              "button",
+              "nav",
+              "input",
+              "card"
+            ],
+            "frequency": 19
+          },
+          {
+            "value": 16,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 9
+          },
+          {
+            "value": 56,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 6
+          },
+          {
+            "value": 60,
+            "contexts": [
+              "card"
+            ],
+            "frequency": 6
+          },
+          {
+            "value": 20,
+            "contexts": [
+              "card"
+            ],
+            "frequency": 5
+          },
+          {
+            "value": 40,
+            "contexts": [
+              "card"
+            ],
+            "frequency": 5
+          },
+          {
+            "value": 90,
+            "contexts": [
+              "button",
+              "link"
+            ],
+            "frequency": 5
+          },
+          {
+            "value": 100,
+            "contexts": [
+              "button"
+            ],
+            "frequency": 3
+          },
+          {
+            "value": 24,
+            "contexts": [
+              "card"
+            ],
+            "frequency": 2
+          },
+          {
+            "value": 70,
+            "contexts": [
+              "card"
+            ],
+            "frequency": 2
+          },
+          {
+            "value": 1028,
+            "contexts": [
+              "card"
+            ],
+            "frequency": 2
+          },
+          {
+            "value": 46,
+            "contexts": [
+              "card"
+            ],
+            "frequency": 1
+          },
+          {
+            "value": 999,
+            "contexts": [
+              "button"
+            ],
+            "frequency": 1
+          }
+        ],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 2,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 16,
+            "properties": [
+              "rowGap",
+              "columnGap"
+            ],
+            "propertyContextPairs": [
+              "rowGap|other",
+              "columnGap|other"
+            ]
+          },
+          {
+            "value": 4,
+            "contexts": [
+              "input",
+              "other",
+              "card",
+              "body"
+            ],
+            "frequency": 43,
+            "properties": [
+              "paddingTop",
+              "paddingBottom",
+              "rowGap",
+              "columnGap",
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|input",
+              "paddingBottom|input",
+              "rowGap|other",
+              "columnGap|other",
+              "paddingTop|other",
+              "rowGap|card",
+              "columnGap|card",
+              "paddingRight|other",
+              "paddingBottom|other",
+              "paddingLeft|other",
+              "paddingTop|body"
+            ]
+          },
+          {
+            "value": 7,
+            "contexts": [
+              "link"
+            ],
+            "frequency": 2,
+            "properties": [
+              "rowGap",
+              "columnGap"
+            ],
+            "propertyContextPairs": [
+              "rowGap|link",
+              "columnGap|link"
+            ]
+          },
+          {
+            "value": 8,
+            "contexts": [
+              "nav",
+              "button",
+              "input",
+              "other",
+              "card"
+            ],
+            "frequency": 148,
+            "properties": [
+              "rowGap",
+              "columnGap",
+              "paddingRight",
+              "paddingLeft",
+              "paddingTop",
+              "paddingBottom",
+              "marginBottom",
+              "marginTop"
+            ],
+            "propertyContextPairs": [
+              "rowGap|nav",
+              "columnGap|nav",
+              "paddingRight|button",
+              "paddingLeft|button",
+              "rowGap|button",
+              "columnGap|button",
+              "paddingRight|nav",
+              "paddingLeft|nav",
+              "paddingRight|input",
+              "paddingLeft|input",
+              "paddingRight|other",
+              "paddingLeft|other",
+              "rowGap|other",
+              "columnGap|other",
+              "paddingTop|button",
+              "paddingBottom|button",
+              "paddingBottom|other",
+              "marginBottom|card",
+              "paddingTop|card",
+              "paddingBottom|card",
+              "paddingRight|card",
+              "paddingLeft|card",
+              "paddingTop|other",
+              "marginTop|other",
+              "rowGap|card",
+              "columnGap|card"
+            ]
+          },
+          {
+            "value": 10,
+            "contexts": [
+              "button",
+              "card",
+              "other"
+            ],
+            "frequency": 22,
+            "properties": [
+              "paddingTop",
+              "paddingBottom",
+              "paddingRight",
+              "paddingLeft",
+              "rowGap",
+              "columnGap"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|button",
+              "paddingBottom|button",
+              "paddingRight|card",
+              "paddingLeft|card",
+              "rowGap|button",
+              "columnGap|button",
+              "rowGap|other",
+              "columnGap|other"
+            ]
+          },
+          {
+            "value": 12,
+            "contexts": [
+              "nav",
+              "other",
+              "button",
+              "card"
+            ],
+            "frequency": 129,
+            "properties": [
+              "rowGap",
+              "columnGap",
+              "paddingTop",
+              "paddingRight",
+              "paddingLeft",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "rowGap|nav",
+              "columnGap|nav",
+              "paddingTop|other",
+              "paddingRight|other",
+              "paddingLeft|other",
+              "rowGap|other",
+              "columnGap|other",
+              "paddingTop|button",
+              "paddingBottom|button",
+              "rowGap|card",
+              "columnGap|card",
+              "paddingRight|card",
+              "paddingLeft|card",
+              "paddingBottom|other"
+            ]
+          },
+          {
+            "value": 16,
+            "contexts": [
+              "nav",
+              "other",
+              "card"
+            ],
+            "frequency": 69,
+            "properties": [
+              "paddingBottom",
+              "rowGap",
+              "columnGap",
+              "paddingTop",
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingBottom|nav",
+              "rowGap|other",
+              "columnGap|other",
+              "paddingTop|other",
+              "paddingRight|other",
+              "paddingBottom|other",
+              "paddingLeft|other",
+              "rowGap|card",
+              "columnGap|card"
+            ]
+          },
+          {
+            "value": 20,
+            "contexts": [
+              "button",
+              "other",
+              "card"
+            ],
+            "frequency": 5,
+            "properties": [
+              "paddingRight",
+              "paddingLeft",
+              "paddingBottom",
+              "marginTop"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|button",
+              "paddingLeft|button",
+              "paddingBottom|other",
+              "marginTop|card"
+            ]
+          },
+          {
+            "value": 23,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 4,
+            "properties": [
+              "marginRight",
+              "marginLeft"
+            ],
+            "propertyContextPairs": [
+              "marginRight|other",
+              "marginLeft|other"
+            ]
+          },
+          {
+            "value": 24,
+            "contexts": [
+              "nav",
+              "button",
+              "card",
+              "other"
+            ],
+            "frequency": 47,
+            "properties": [
+              "paddingTop",
+              "rowGap",
+              "columnGap",
+              "paddingRight",
+              "paddingLeft",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|nav",
+              "rowGap|nav",
+              "columnGap|nav",
+              "paddingRight|button",
+              "paddingLeft|button",
+              "paddingTop|card",
+              "paddingRight|card",
+              "paddingBottom|card",
+              "paddingLeft|card",
+              "rowGap|card",
+              "columnGap|card",
+              "paddingTop|other",
+              "paddingBottom|other",
+              "rowGap|other",
+              "columnGap|other"
+            ]
+          },
+          {
+            "value": 26,
+            "contexts": [
+              "card"
+            ],
+            "frequency": 2,
+            "properties": [
+              "marginTop"
+            ],
+            "propertyContextPairs": [
+              "marginTop|card"
+            ]
+          },
+          {
+            "value": 32,
+            "contexts": [
+              "other",
+              "button",
+              "card"
+            ],
+            "frequency": 49,
+            "properties": [
+              "rowGap",
+              "columnGap",
+              "paddingTop",
+              "paddingBottom",
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "rowGap|other",
+              "columnGap|other",
+              "paddingTop|other",
+              "paddingBottom|other",
+              "paddingRight|other",
+              "paddingLeft|other",
+              "paddingTop|button",
+              "paddingRight|button",
+              "paddingBottom|button",
+              "paddingLeft|button",
+              "paddingTop|card",
+              "paddingBottom|card",
+              "paddingRight|card",
+              "paddingLeft|card"
+            ]
+          },
+          {
+            "value": 40,
+            "contexts": [
+              "card",
+              "button",
+              "other"
+            ],
+            "frequency": 30,
+            "properties": [
+              "paddingTop",
+              "paddingRight",
+              "paddingBottom",
+              "paddingLeft",
+              "rowGap",
+              "columnGap"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|card",
+              "paddingRight|card",
+              "paddingBottom|card",
+              "paddingLeft|card",
+              "paddingRight|button",
+              "paddingLeft|button",
+              "rowGap|other",
+              "columnGap|other"
+            ]
+          },
+          {
+            "value": 48,
+            "contexts": [
+              "other",
+              "card"
+            ],
+            "frequency": 40,
+            "properties": [
+              "paddingTop",
+              "marginTop",
+              "paddingBottom",
+              "paddingRight",
+              "rowGap",
+              "columnGap",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other",
+              "marginTop|other",
+              "paddingBottom|other",
+              "paddingRight|other",
+              "rowGap|card",
+              "columnGap|card",
+              "paddingTop|card",
+              "paddingRight|card",
+              "paddingBottom|card",
+              "paddingLeft|card",
+              "rowGap|other",
+              "columnGap|other"
+            ]
+          },
+          {
+            "value": 60,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|other",
+              "paddingLeft|other"
+            ]
+          },
+          {
+            "value": 64,
+            "contexts": [
+              "other",
+              "card"
+            ],
+            "frequency": 7,
+            "properties": [
+              "paddingBottom",
+              "paddingTop",
+              "paddingRight",
+              "paddingLeft",
+              "rowGap",
+              "columnGap"
+            ],
+            "propertyContextPairs": [
+              "paddingBottom|other",
+              "paddingTop|other",
+              "paddingRight|card",
+              "paddingLeft|card",
+              "rowGap|other",
+              "columnGap|other"
+            ]
+          },
+          {
+            "value": 80,
+            "contexts": [
+              "other",
+              "card"
+            ],
+            "frequency": 14,
+            "properties": [
+              "rowGap",
+              "columnGap",
+              "paddingLeft",
+              "paddingTop"
+            ],
+            "propertyContextPairs": [
+              "rowGap|other",
+              "columnGap|other",
+              "paddingLeft|card",
+              "paddingTop|card"
+            ]
+          },
+          {
+            "value": 103,
+            "contexts": [
+              "card"
+            ],
+            "frequency": 1,
+            "properties": [
+              "marginTop"
+            ],
+            "propertyContextPairs": [
+              "marginTop|card"
+            ]
+          },
+          {
+            "value": 120,
+            "contexts": [
+              "card",
+              "other"
+            ],
+            "frequency": 3,
+            "properties": [
+              "paddingTop",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|card",
+              "paddingTop|other",
+              "paddingBottom|other"
+            ]
+          },
+          {
+            "value": 123,
+            "contexts": [
+              "card"
+            ],
+            "frequency": 1,
+            "properties": [
+              "marginTop"
+            ],
+            "propertyContextPairs": [
+              "marginTop|card"
+            ]
+          },
+          {
+            "value": 273,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 6,
+            "properties": [
+              "paddingRight"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|other"
+            ]
+          }
+        ],
+        "density": "comfortable",
+        "baseUnit": 4
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "ABC Diatype",
+            "source": "custom",
+            "weights": [
+              400,
+              500
+            ],
+            "frequency": 489,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "ABC Diatype Plus Variable",
+            "source": "custom",
+            "weights": [
+              400,
+              500,
+              600,
+              700
+            ],
+            "frequency": 224,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "IBM Plex Sans",
+            "source": "google",
+            "weights": [
+              400
+            ],
+            "frequency": 6,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 16,
+          "name": "Minor Third",
+          "ratio": 1.2,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 8,
+            "family": "ABC Diatype Plus Variable",
+            "weight": 400,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 2,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 10,
+            "family": "ABC Diatype Plus Variable",
+            "weight": 400,
+            "contexts": [
+              "card",
+              "icon"
+            ],
+            "frequency": 6,
+            "lineHeight": 1.2,
+            "letterSpacing": -0.03,
+            "textTransform": "none"
+          },
+          {
+            "size": 11,
+            "family": "ABC Diatype Plus Variable",
+            "weight": 400,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 2,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 12,
+            "family": "ABC Diatype",
+            "weight": 400,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 10,
+            "lineHeight": 1.5,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 12,
+            "family": "ABC Diatype Plus Variable",
+            "weight": 400,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 4,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 13,
+            "family": "ABC Diatype",
+            "weight": 400,
+            "contexts": [
+              "button",
+              "nav",
+              "icon",
+              "body",
+              "input"
+            ],
+            "frequency": 23,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 14,
+            "family": "IBM Plex Sans",
+            "weight": 400,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 3,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 14,
+            "family": "ABC Diatype",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "nav",
+              "badge",
+              "body",
+              "card",
+              "button",
+              "icon",
+              "image",
+              "footer"
+            ],
+            "frequency": 430,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 14,
+            "family": "ABC Diatype",
+            "weight": 400,
+            "contexts": [
+              "nav",
+              "body"
+            ],
+            "frequency": 16,
+            "lineHeight": 1.6,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 14,
+            "family": "ABC Diatype Plus Variable",
+            "weight": 500,
+            "contexts": [
+              "button",
+              "card",
+              "icon",
+              "link"
+            ],
+            "frequency": 8,
+            "lineHeight": 1.2,
+            "letterSpacing": -0.02,
+            "textTransform": "none"
+          },
+          {
+            "size": 14,
+            "family": "IBM Plex Sans",
+            "weight": 400,
+            "contexts": [
+              "input"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.57,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 14,
+            "family": "IBM Plex Sans",
+            "weight": 400,
+            "contexts": [
+              "button",
+              "icon"
+            ],
+            "frequency": 2,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 14,
+            "family": "ABC Diatype Plus Variable",
+            "weight": 400,
+            "contexts": [
+              "card",
+              "other"
+            ],
+            "frequency": 59,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 14,
+            "family": "ABC Diatype Plus Variable",
+            "weight": 400,
+            "contexts": [
+              "card"
+            ],
+            "frequency": 4,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "capitalize"
+          },
+          {
+            "size": 14,
+            "family": "ABC Diatype Plus Variable",
+            "weight": 400,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 12,
+            "lineHeight": 1.6,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 15,
+            "family": "ABC Diatype Plus Variable",
+            "weight": 400,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 1,
+            "lineHeight": 0.83,
+            "letterSpacing": -0.01,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "ABC Diatype Plus Variable",
+            "weight": 400,
+            "contexts": [
+              "card"
+            ],
+            "frequency": 4,
+            "lineHeight": 1.2,
+            "letterSpacing": -0.03,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "ABC Diatype Plus Variable",
+            "weight": 400,
+            "contexts": [
+              "card"
+            ],
+            "frequency": 4,
+            "lineHeight": 1.1,
+            "letterSpacing": -0.02,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "ABC Diatype Plus Variable",
+            "weight": 400,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 22,
+            "lineHeight": 1.4,
+            "letterSpacing": -0.03,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "ABC Diatype",
+            "weight": 500,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 5,
+            "lineHeight": 1.38,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "ABC Diatype Plus Variable",
+            "weight": 600,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "lineHeight": 1.4,
+            "letterSpacing": -0.03,
+            "textTransform": "none"
+          },
+          {
+            "size": 17,
+            "family": "ABC Diatype Plus Variable",
+            "weight": 400,
+            "contexts": [
+              "button",
+              "other",
+              "body",
+              "icon"
+            ],
+            "frequency": 10,
+            "lineHeight": 1.05,
+            "letterSpacing": -0.04,
+            "textTransform": "capitalize"
+          },
+          {
+            "size": 18,
+            "family": "ABC Diatype Plus Variable",
+            "weight": 600,
+            "contexts": [
+              "card"
+            ],
+            "frequency": 4,
+            "lineHeight": 1,
+            "letterSpacing": -0.04,
+            "textTransform": "capitalize"
+          },
+          {
+            "size": 18,
+            "family": "ABC Diatype Plus Variable",
+            "weight": 400,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 4,
+            "lineHeight": 1,
+            "letterSpacing": -0.03,
+            "textTransform": "none"
+          },
+          {
+            "size": 18,
+            "family": "ABC Diatype Plus Variable",
+            "weight": 400,
+            "contexts": [
+              "button"
+            ],
+            "frequency": 4,
+            "lineHeight": 1.2,
+            "letterSpacing": -0.02,
+            "textTransform": "none"
+          },
+          {
+            "size": 20,
+            "family": "ABC Diatype Plus Variable",
+            "weight": 500,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 6,
+            "lineHeight": 1.4,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 20,
+            "family": "ABC Diatype Plus Variable",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "link"
+            ],
+            "frequency": 33,
+            "lineHeight": 1,
+            "letterSpacing": -0.02,
+            "textTransform": "none"
+          },
+          {
+            "size": 24,
+            "family": "ABC Diatype Plus Variable",
+            "weight": 400,
+            "contexts": [
+              "link"
+            ],
+            "frequency": 1,
+            "lineHeight": 0.8,
+            "letterSpacing": -0.03,
+            "textTransform": "none"
+          },
+          {
+            "size": 26,
+            "family": "ABC Diatype Plus Variable",
+            "weight": 400,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 6,
+            "lineHeight": 1.2,
+            "letterSpacing": -0.03,
+            "textTransform": "none"
+          },
+          {
+            "size": 28,
+            "family": "ABC Diatype Plus Variable",
+            "weight": 400,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 5,
+            "lineHeight": 0.83,
+            "letterSpacing": -0.04,
+            "textTransform": "none"
+          },
+          {
+            "size": 32,
+            "family": "ABC Diatype Plus Variable",
+            "weight": 400,
+            "contexts": [
+              "card"
+            ],
+            "frequency": 4,
+            "lineHeight": 1,
+            "letterSpacing": -0.04,
+            "textTransform": "capitalize"
+          },
+          {
+            "size": 32,
+            "family": "ABC Diatype Plus Variable",
+            "weight": 400,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 1,
+            "lineHeight": 1,
+            "letterSpacing": -0.04,
+            "textTransform": "none"
+          },
+          {
+            "size": 32,
+            "family": "ABC Diatype",
+            "weight": 500,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 3,
+            "lineHeight": 1.25,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 42,
+            "family": "ABC Diatype Plus Variable",
+            "weight": 400,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 2,
+            "lineHeight": 1,
+            "letterSpacing": -0.04,
+            "textTransform": "none"
+          },
+          {
+            "size": 48,
+            "family": "ABC Diatype Plus Variable",
+            "weight": 400,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 1,
+            "lineHeight": 1,
+            "letterSpacing": -0.06,
+            "textTransform": "none"
+          },
+          {
+            "size": 48,
+            "family": "ABC Diatype Plus Variable",
+            "weight": 700,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 6,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 60,
+            "family": "ABC Diatype Plus Variable",
+            "weight": 400,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 4,
+            "lineHeight": 0.89,
+            "letterSpacing": -0.05,
+            "textTransform": "none"
+          },
+          {
+            "size": 64,
+            "family": "ABC Diatype Plus Variable",
+            "weight": 400,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 1,
+            "lineHeight": 1,
+            "letterSpacing": -0.06,
+            "textTransform": "none"
+          },
+          {
+            "size": 69,
+            "family": "ABC Diatype Plus Variable",
+            "weight": 400,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 2,
+            "lineHeight": 1,
+            "letterSpacing": -0.06,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Prioritize 'Canvas' (#faf6f1) as the primary page background to maintain the warm, receptive visual tone.",
+        "Use 'Signal Orange' (#ff3c00) exclusively for primary calls-to-action to maximize impact and user focus.",
+        "Apply generous border-radii: 'pill' (90px) for prominent buttons, '2xl' (60px) for key cards, and 'sm' (6px) for inputs and less prominent interactive elements.",
+        "Employ ABC Diatype Plus Variable with tight letter-spacing (e.g., -1.92px at 48px) for all headings to create a modern, precise feel.",
+        "Utilize 'Carbon' (#0e0e0f) for main body text and 'Ash' (#898c94) for secondary or descriptive text consistently for clear hierarchy.",
+        "Maintain a comfortable density with an 'elementGap' of 8px and 'cardPadding' of 24px between internal block elements."
+      ],
+      "donts": [
+        "Avoid using multiple bright accent colors; 'Signal Orange' (#ff3c00) and 'Accent Blue' (#2492ff) should be used judiciously and functionally.",
+        "Do not introduce sharp corners or minimal border-radii; rounded shapes are a core identifier of this system.",
+        "Refrain from heavy shadows or complex gradients; the system prefers clean surfaces and minimal elevation.",
+        "Do not use dark backgrounds for major content sections, as the system is anchored in a light mode aesthetic.",
+        "Avoid generic system fonts when custom fonts are specified; the unique tracking and weights of ABC Diatype are crucial to the brand's typographic identity.",
+        "Do not rely on subtle color differences for interactive states; ensure sufficient contrast and use 'Signal Orange' for clear feedback."
+      ],
+      "theme": "light",
+      "colors": [
+        {
+          "hex": "#faf6f1",
+          "name": "Canvas",
+          "role": "Primary background for pages and larger sections, giving a warm, paper-like foundation to the UI",
+          "group": "neutral"
+        },
+        {
+          "hex": "#ffffff",
+          "name": "Ghost",
+          "role": "Background for elevated cards, active elements, and distinct content blocks, providing a crisp contrast against the Canvas",
+          "group": "neutral"
+        },
+        {
+          "hex": "#0e0e0f",
+          "name": "Carbon",
+          "role": "Primary body text, main headings, and significant borders. Provides strong contrast and visual weight to core content",
+          "group": "neutral"
+        },
+        {
+          "hex": "#36373b",
+          "name": "Lead",
+          "role": "Secondary text, subheadings, and contextual UI elements. Slightly softer than Carbon for less emphasis",
+          "group": "neutral"
+        },
+        {
+          "hex": "#898c94",
+          "name": "Ash",
+          "role": "Muted text, helper labels, placeholder text, and subtle borders. Used for information of lower hierarchy",
+          "group": "neutral"
+        },
+        {
+          "hex": "#dfddd8",
+          "name": "Stone",
+          "role": "Subtle borders, dividers, and ghost button outlines, providing gentle separation without harsh lines",
+          "group": "neutral"
+        },
+        {
+          "hex": "#cbc7c3",
+          "name": "Off-White Accent",
+          "role": "Decorative backgrounds and subtle content dividers. Slightly darker than Canvas to provide minimal depth",
+          "group": "neutral"
+        },
+        {
+          "hex": "#52545a",
+          "name": "Slate",
+          "role": "Caption text and tertiary information, a slightly darker gray for smaller text sizes",
+          "group": "neutral"
+        },
+        {
+          "hex": "#000000",
+          "name": "Black",
+          "role": "Strictly for contrast-critical borders and some iconic elements",
+          "group": "neutral"
+        },
+        {
+          "hex": "#ff3c00",
+          "name": "Signal Orange",
+          "role": "Primary call-to-action buttons, active navigation indicators, and key interactive elements – a potent focal point",
+          "group": "brand"
+        },
+        {
+          "hex": "#ec4e02",
+          "name": "Deep Orange",
+          "role": "Accent for small icons, decorative fills, and specific text highlights that require a deeper orange hue",
+          "group": "brand"
+        },
+        {
+          "hex": "#ffb199",
+          "name": "Soft Peach",
+          "role": "Large decorative card backgrounds and graphic elements, adding a warm, inviting tone",
+          "group": "brand"
+        },
+        {
+          "hex": "#ff764c",
+          "name": "Vivid Coral",
+          "role": "Large decorative card backgrounds, used for higher visual impact than Soft Peach",
+          "group": "brand"
+        },
+        {
+          "hex": "#2492ff",
+          "name": "Accent Blue",
+          "role": "Blue outline accent for tags, dividers, and focused UI edges. Do not promote it to the primary CTA color",
+          "group": "accent"
+        }
+      ],
+      "layout": "The page primarily uses a contained layout with a flexible-width content area that appears centered. The hero section often features a prominent, centered headline with a large input field, setting an immediate interaction focus. Sections alternate between full-bleed background-colored blocks (often the 'Canvas' or brand orange/pink decorative shapes) and contained white content sections. Content arrangement frequently uses a centered stack for forms and calls-to-action, transitioning to alternating image-right/text-left or feature grid patterns in subsequent sections. Spacing between major sections is generous, contributing to a comfortable, uncrowded feel. A sticky top navigation bar provides consistent access to primary links and actions.",
+      "imagery": "Imagery typically features a mix of conceptual illustrations and stylized product screenshots. Illustrations are characterized by strong, simplified shapes, often in brand colors like 'Soft Peach' or 'Vivid Coral', used as large, organic background elements or contained within similarly rounded cards. Product screenshots are clean, showcasing UI in context, often with a slight perspective. Icons are outlined, simple, and mono-color, usually in 'Carbon' or 'Ash'. Imagery plays a decorative and explanatory role, often full-bleed within sections or acting as large, background shapes that define content areas, creating a fluid, almost sculptural feel.",
+      "similar": [
+        {
+          "why": "Utilizes a bright, almost white canvas with distinct, generously rounded UI elements and functional accent colors to denote interactivity.",
+          "business": "Figma"
+        },
+        {
+          "why": "Combines soft, off-white backgrounds with highly rounded componentry and a focus on clean typography, creating an approachable yet powerful feel.",
+          "business": "Webflow"
+        },
+        {
+          "why": "Features a light, neutral base with minimal, functional accent colors and a strong emphasis on legible typography, conveying productivity and clarity.",
+          "business": "Notion"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "lg": "20px",
+          "md": "16px",
+          "sm": "6px",
+          "xl": "40px",
+          "2xl": "60px",
+          "none": "0px",
+          "pill": "90px"
+        },
+        "elementGap": "8px",
+        "sectionGap": "48px",
+        "cardPadding": "24px",
+        "pageMaxWidth": null
+      },
+      "industry": "ai",
+      "surfaces": [
+        {
+          "hex": "#faf6f1",
+          "name": "Page Canvas",
+          "level": 0,
+          "purpose": "The foundational background for the entire page, providing a warm, slightly textured base."
+        },
+        {
+          "hex": "#ffffff",
+          "name": "Floating Card",
+          "level": 1,
+          "purpose": "Used for distinct content cards and interactive components, appearing crisp and elevated above the canvas."
+        },
+        {
+          "hex": "#faf6f1",
+          "name": "Muted Content Card",
+          "level": 2,
+          "purpose": "A surface that subtly blends with the page canvas but has distinct borders or is part of a different section."
+        }
+      ],
+      "northStar": "Warm, creative studio. Like paper and clay in a sunlit workbench, punctuated by a streak of vibrant orange.",
+      "typeScale": [
+        {
+          "role": "body",
+          "size": 14,
+          "lineHeight": 1.5,
+          "letterSpacing": -0.14
+        },
+        {
+          "role": "body-lg",
+          "size": 16,
+          "lineHeight": 1.4,
+          "letterSpacing": -0.32
+        },
+        {
+          "role": "subheading",
+          "size": 24,
+          "lineHeight": 1.2,
+          "letterSpacing": -0.72
+        },
+        {
+          "role": "heading",
+          "size": 32,
+          "lineHeight": 1.1,
+          "letterSpacing": -0.96
+        },
+        {
+          "role": "heading-lg",
+          "size": 48,
+          "lineHeight": 1.05,
+          "letterSpacing": -1.92
+        },
+        {
+          "role": "display",
+          "size": 69,
+          "lineHeight": 0.8,
+          "letterSpacing": -4.14
+        }
+      ],
+      "components": [
+        {
+          "name": "Primary Action Button",
+          "role": "Call to action",
+          "description": "Filled button with 'Signal Orange' (#ff3c00) background, 'Ghost' (#ffffff) text, and a generous 'pill' (90px) border-radius. Padding is 10px vertical, 40px horizontal."
+        },
+        {
+          "name": "Ghost Border Button",
+          "role": "Secondary action",
+          "description": "Transparent background with 'Carbon' (#0e0e0f) text and a 'Ghost' (#ffffff) border. Border-radius is 'sm' (6px) with an 8px horizontal padding, primarily used for internal navigation."
+        },
+        {
+          "name": "Muted Border Button",
+          "role": "Tertiary action or filter tag",
+          "description": "Background 'Ghost' (#ffffff) with 'Lead' (#36373b) text and 'Stone' (#dfddd8) border. 'Sm' (6px) border-radius, 8px horizontal padding, for less prominent interactions or categorization."
+        },
+        {
+          "name": "Feature Card",
+          "role": "Product feature display",
+          "description": "Background 'Ghost' (#ffffff) with '2xl' (60px) border-radius. Contains internal padding of 48px, used for presenting key functionalities."
+        },
+        {
+          "name": "Decorative Section Card",
+          "role": "Visual content container",
+          "description": "Background can be 'Soft Peach' (#ffb199) or 'Vivid Coral' (#ff764c) with a large 'xl' or '2xl' (40px or 70px) border-radius, often with no internal padding for full-bleed graphics."
+        },
+        {
+          "name": "Text Input",
+          "role": "User entry field",
+          "description": "Transparent background with 'Carbon' (#0e0e0f) or 'Lead' (#36373b) text. The border color matches the text color, and border-radius is 'sm' (6px). Input has 4px vertical, 8px horizontal padding."
+        }
+      ],
+      "typography": [
+        {
+          "role": "Body text and general UI elements. Its clean, geometric form ensures readability in diverse contexts.",
+          "sizes": "12px, 13px, 14px, 16px, 32px",
+          "family": "ABC Diatype",
+          "weight": "400, 500",
+          "lineHeight": "1.20, 1.25, 1.38, 1.50, 1.60",
+          "substitute": "Inter",
+          "letterSpacing": "normal"
+        },
+        {
+          "role": "Headings, display text, and emphasized UI elements. Variable font provides precise control over weight and a distinct, slightly condensed feel, especially with tight letter-spacing.",
+          "sizes": "8px, 10px, 11px, 12px, 14px, 15px, 16px, 17px, 18px, 20px, 24px, 26px, 28px, 32px, 42px, 48px, 60px, 64px, 69px",
+          "family": "ABC Diatype Plus Variable",
+          "weight": "400, 500, 600, 700",
+          "lineHeight": "0.80, 0.83, 0.89, 1.00, 1.05, 1.10, 1.20, 1.40, 1.60",
+          "substitute": "Inter Variable",
+          "letterSpacing": "-0.01em at 12px, -0.02em at 16px, -0.03em at 24px, -0.04em at 48px, etc."
+        },
+        {
+          "role": "Specific utility text or code snippets, chosen for its clear, monospace-like qualities and distinct character shapes at small sizes.",
+          "sizes": "14px",
+          "family": "IBM Plex Sans",
+          "weight": "400",
+          "lineHeight": "1.00, 1.20, 1.57",
+          "substitute": "IBM Plex Sans",
+          "letterSpacing": "normal"
+        }
+      ],
+      "description": "Replit's design system evokes a playful yet powerful creative studio, featuring a bright, almost tactile off-white canvas overlaid with soft, rounded forms. Vivid orange accents punctuate the UI, highlighting active states and key actions, suggesting energy and innovation. Typography balances modern geometric sans-serifs with classic readability, often employing tight tracking for headlines to convey a sense of precision and forward momentum. Components are distinctly shaped with generous radii, ranging from slight curves to full pills, giving the interface a friendly, approachable feel despite its technical focus.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "Quick Color Reference:\ntext: #0e0e0f\nbackground: #faf6f1\nborder: #dfddd8\naccent: #ff3c00\nprimary action: #ff3c00 (filled action)\n\nExample Component Prompts:\n1. Create a hero section with 'Canvas' (#faf6f1) background. The main heading should be 'What will you build?' using ABC Diatype Plus Variable at 69px, Carbon (#0e0e0f), with letter-spacing -4.14px. Below it, a subheading 'Turn ideas into apps in minutes' in ABC Diatype at 16px, Lead (#36373b), normal letter-spacing. Include a large 'Text Input' field with 'sm' (6px) radius.\n2. Create a Primary Action Button: #ff3c00 background, #000000 text, 9999px radius, compact pill padding. Use this filled treatment for the main CTA.\n3. Implement a 'Feature Card' as a 'Floating Card' (#ffffff) with '2xl' (60px) border-radius and 48px padding. The heading inside should be ABC Diatype Plus Variable at 42px, Carbon (#0e0e0f), letter-spacing -1.26px. Below it, a paragraph in ABC Diatype at 14px, Carbon (#0e0e0f), normal letter-spacing. "
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777509998104-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777509998104-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/c556ab50-a242-4854-9395-450c0004bac5",
+  "ranks": {
+    "trending": 493,
+    "popular": 704,
+    "newest": 698
+  },
+  "localSlug": "replit-c556ab50"
+}

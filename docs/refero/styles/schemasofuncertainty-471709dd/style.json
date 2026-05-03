@@ -1,0 +1,350 @@
+{
+  "id": "471709dd-81f0-4ac2-916e-ba874fa67273",
+  "url": "https://schemasofuncertainty.com",
+  "siteName": "Schemasofuncertainty",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777517570031-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777517570031-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "light",
+  "colors": [
+    {
+      "name": "Canvas White",
+      "hex": "#ffffff"
+    },
+    {
+      "name": "Ink Black",
+      "hex": "#000000"
+    },
+    {
+      "name": "Charcoal Accent",
+      "hex": "#2c3829"
+    }
+  ],
+  "fonts": [
+    "Century Schoolbook",
+    "Next Mono"
+  ],
+  "northStar": "Deconstructed text, academic sparseness",
+  "createdAt": "2026-04-30T02:53:18.041Z",
+  "previewVideoCapturedAt": null,
+  "industry": "media",
+  "fullResult": {
+    "meta": {
+      "url": "https://schemasofuncertainty.com",
+      "siteName": "Schemasofuncertainty",
+      "extractedAt": "2026-04-30T02:53:17.873Z",
+      "durationMs": 38960,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 174,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#2c3829",
+            "oklch": {
+              "c": 0.03052486279008065,
+              "h": 139.4354461430402,
+              "l": 0.32479370610405206
+            },
+            "contexts": [
+              "other",
+              "link",
+              "body",
+              "icon"
+            ],
+            "frequency": 870,
+            "confidence": 1,
+            "prominence": 69825954.69649012,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "body/color": 2,
+              "icon/color": 1,
+              "link/color": 3,
+              "other/color": 168,
+              "body/borderColor": 8,
+              "icon/borderColor": 4,
+              "link/borderColor": 12,
+              "other/borderColor": 672
+            }
+          }
+        ],
+        "isDarkMode": false,
+        "colorfulness": 0.08249962916238014,
+        "contrastPairs": []
+      },
+      "shapes": {
+        "radii": [],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 10,
+            "contexts": [
+              "link",
+              "other",
+              "body"
+            ],
+            "frequency": 90,
+            "properties": [
+              "paddingTop",
+              "paddingRight",
+              "paddingBottom",
+              "paddingLeft",
+              "marginRight",
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|link",
+              "paddingRight|link",
+              "paddingBottom|link",
+              "paddingLeft|link",
+              "paddingTop|other",
+              "marginRight|link",
+              "marginRight|body",
+              "marginRight|other",
+              "paddingLeft|other",
+              "marginBottom|other"
+            ]
+          },
+          {
+            "value": 138,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 26,
+            "properties": [
+              "paddingTop"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other"
+            ]
+          }
+        ],
+        "density": "compact",
+        "baseUnit": null
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "Century Schoolbook",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 146,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "Next Mono",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 28,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": null,
+        "steps": [
+          {
+            "size": 10,
+            "family": "Next Mono",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "icon"
+            ],
+            "frequency": 27,
+            "lineHeight": 1.3,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 10,
+            "family": "Next Mono",
+            "weight": 400,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.3,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "Century Schoolbook",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "link",
+              "body"
+            ],
+            "frequency": 146,
+            "lineHeight": 1.3,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Prioritize text as the primary visual element, keeping layouts dense and content-focused.",
+        "Use Century Schoolbook 16px / 1.3 lineHeight for all body text, ensuring a consistent academic tone.",
+        "Apply Next Mono 10px / 1.3 lineHeight for all navigation, metadata, and smaller functional text.",
+        "Restrict color usage to Ink Black for text, Canvas White for backgrounds, and Charcoal Accent (#2c3829) for subtle interactive highlights or structural borders.",
+        "Use 10px for internal element spacing and padding within components, maintaining compactness.",
+        "Utilize Charcoal Accent (#2c3829) for all interactive borders (e.g., active navigation items) to provide visual feedback.",
+        "Employ a 138px vertical margin as the primary separator between major sections or content blocks."
+      ],
+      "donts": [
+        "Avoid using any colors beyond Ink Black, Canvas White, and Charcoal Accent; the system is deliberately monochrome.",
+        "Do not introduce significant changes in font size or weight for emphasis; rely on spacing and position for hierarchy.",
+        "Do not use box shadows or rounded corners; the aesthetic is flat, sharp, and text-driven.",
+        "Avoid large imagery or elaborate graphics; the system emphasizes raw textual information over decorative visuals.",
+        "Do not feature large empty spaces or overly generous padding; maintain a compact, information-dense display.",
+        "Refrain from using animated transitions or complex UI effects; interaction should feel direct and immediate.",
+        "Do not deviate from the specified font families; their distinct characteristics are central to the brand identity."
+      ],
+      "theme": "light",
+      "colors": [
+        {
+          "hex": "#ffffff",
+          "name": "Canvas White",
+          "role": "Page backgrounds, unadorned surfaces",
+          "group": "neutral"
+        },
+        {
+          "hex": "#000000",
+          "name": "Ink Black",
+          "role": "Primary text, headings, body copy, and most UI elements",
+          "group": "neutral"
+        },
+        {
+          "hex": "#2c3829",
+          "name": "Charcoal Accent",
+          "role": "Subtle borders, interactive text elements in navigation, and decorative icons. This color defines the system's only chromatic touch, appearing as a dark, near-black feature",
+          "group": "accent"
+        }
+      ],
+      "layout": "The page prominently features a full-width, centered layout with a maximal text column. The hero area consists of a simple brand name and navigation against the white canvas. Content is arranged in alternating multi-column sections, primarily 4-column for article listings, maintaining a consistent vertical rhythm. Each article entry is an isolated block of text, implicitly outlined without explicit borders, and separated by significant vertical spacing (138px section gap). The navigation is a minimalist top bar. The overall density is high in terms of information per block, but the generous vertical spacing between blocks creates a structured, readable flow.",
+      "imagery": "The site's visual language is characterized by an absence of conventional imagery. There are no photographs, illustrations, or product screenshots. The aesthetic is purely textual and typographic, relying on the arrangement of text blocks, headlines, and minimal UI elements to convey information. Icons are simple, outlined (implied stroke weight of 1px from subtle lines), and strictly monochrome. The density of text means visual space is entirely dominated by content, rather than atmospheric or explanatory graphics.",
+      "similar": [
+        {
+          "why": "Similar text-dominant visual identity with minimal color, heavy reliance on typography as primary UI, and structured content display.",
+          "business": "Are.na"
+        },
+        {
+          "why": "Shares the monochrome palette and emphasis on clean, almost brutalist typography, particularly for titles and meta-information.",
+          "business": "The Browser Company (Arc)"
+        },
+        {
+          "why": "Adopts a classic, academic text-heavy layout with traditional serif fonts and a high information density.",
+          "business": "New York Review of Books"
+        },
+        {
+          "why": "Features a similar academic journal aesthetic, prioritizing body text and minimalist structure over visual flair.",
+          "business": "Marginalia Review of Books"
+        }
+      ],
+      "spacing": {
+        "radius": {},
+        "elementGap": "10px",
+        "sectionGap": "138px",
+        "cardPadding": "10px",
+        "pageMaxWidth": null
+      },
+      "industry": "media",
+      "northStar": "Deconstructed text, academic sparseness",
+      "components": [
+        {
+          "name": "Navigation Link",
+          "role": "Primary navigation item",
+          "description": "Uses Next Mono at 10px, weight 400. Text color is Ink Black, with a top border of Charcoal Accent (10px padding-top, 10px padding-bottom) for active or hovered states. No background."
+        },
+        {
+          "name": "Article Card",
+          "role": "Container for article summaries or entries.",
+          "description": "Each article block is essentially text-based, defined by an implied rectangular area, with a top border of Charcoal Accent to visually separate entries, and uses Century Schoolbook for author and title, and Next Mono for metadata like 'NEW'."
+        },
+        {
+          "name": "Body Text Block",
+          "role": "Main content display.",
+          "description": "Rendered in Century Schoolbook 16px weight 400, Ink Black on Canvas White. Primarily left-aligned, establishing dense informational columns."
+        },
+        {
+          "name": "Small Text Label",
+          "role": "Category tags, indicators.",
+          "description": "'NEW' labels use Next Mono 10px weight 400, Ink Black text on Canvas White background, implicitly contained."
+        }
+      ],
+      "typography": [
+        {
+          "role": "Primary body text, article content, and general UI labels. Its classic serif form provides an academic, textual gravity.",
+          "sizes": "16px",
+          "family": "Century Schoolbook",
+          "weight": "400",
+          "weights": [
+            400
+          ],
+          "lineHeight": "1.30",
+          "substitute": "Georgia, serif"
+        },
+        {
+          "role": "Metadata, navigation items, and small informational text. Its monospaced nature contributes to the deconstructed, technical aesthetic, keeping dense information legible at a small size.",
+          "sizes": "10px",
+          "family": "Next Mono",
+          "weight": "400",
+          "weights": [
+            400
+          ],
+          "lineHeight": "1.30",
+          "substitute": "Space Mono, monospace"
+        }
+      ],
+      "description": "The 'Schemas of Uncertainty' visual system evokes a stark academic journal or a deconstructed text, prioritizing content density and an austere, monochrome aesthetic. Typography is the primary visual element, laid out to maximize information with minimal spatial adornment. The system relies on a consistent lack of color, using almost exclusively black text on a white background, punctuated by a single, dark gray accent that serves as subtle interactive and structural cues.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "Quick Color Reference:\ntext: #000000\nbackground: #ffffff\nborder: #2c3829\naccent: #2c3829\nprimary action: no distinct CTA color\n\n3-5 Example Component Prompts:\nCreate a navigation block: Next Mono 10px weight 400, #000000. Active item has a 1px top border of #2c3829, 10px padding-top, 10px padding-bottom. Inactive items have no border or background.\nCreate an article listing entry: Uses Century Schoolbook 16px weight 400 for title and author, #000000 color. A 'NEW' tag is positioned above the title, Next Mono 10px weight 400, #000000. Separate entries with a 138px vertical gap and a subtle 1px border of #2c3829 only above the entry.\nDesign a text-heavy section: Century Schoolbook 16px weight 400, #000000 on #ffffff background. Arrange content in a 4-column grid. Ensure 10px spacing between internal elements and columns."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777517570031-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777517570031-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/471709dd-81f0-4ac2-916e-ba874fa67273",
+  "ranks": {
+    "trending": 1159,
+    "popular": 1189,
+    "newest": 276
+  },
+  "localSlug": "schemasofuncertainty-471709dd"
+}

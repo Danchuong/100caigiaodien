@@ -1,0 +1,615 @@
+{
+  "id": "7e03ab3b-1344-43d7-a7c4-2f31395758ae",
+  "url": "https://favorit.studio",
+  "siteName": "Favorit Studio",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777515135707-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777515135707-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "light",
+  "colors": [
+    {
+      "name": "Canvas White",
+      "hex": "#ffffff"
+    },
+    {
+      "name": "Midnight Ink",
+      "hex": "#000000"
+    },
+    {
+      "name": "Swiper Accent",
+      "hex": "#007aff"
+    }
+  ],
+  "fonts": [
+    "TWKLausanne",
+    "Favorit Times"
+  ],
+  "northStar": "High-contrast editorial canvas – bold, no-nonsense.",
+  "createdAt": "2026-04-30T02:12:36.053Z",
+  "previewVideoCapturedAt": null,
+  "industry": "design",
+  "fullResult": {
+    "meta": {
+      "url": "https://favorit.studio",
+      "siteName": "Favorit Studio",
+      "extractedAt": "2026-04-30T02:12:35.984Z",
+      "durationMs": 39636,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 392,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "other",
+              "hero",
+              "heading",
+              "button",
+              "body",
+              "image",
+              "list",
+              "link"
+            ],
+            "frequency": 1572,
+            "confidence": 1,
+            "prominence": 344514920.23026806,
+            "properties": [
+              "color",
+              "borderColor",
+              "backgroundColor",
+              "fill"
+            ],
+            "usageCounts": {
+              "body/color": 18,
+              "hero/color": 2,
+              "link/color": 2,
+              "list/color": 11,
+              "other/fill": 2,
+              "image/color": 86,
+              "other/color": 162,
+              "button/color": 13,
+              "heading/color": 18,
+              "body/borderColor": 72,
+              "hero/borderColor": 8,
+              "link/borderColor": 8,
+              "list/borderColor": 44,
+              "image/borderColor": 344,
+              "other/borderColor": 648,
+              "button/borderColor": 52,
+              "heading/borderColor": 72,
+              "other/backgroundColor": 10
+            }
+          },
+          {
+            "hex": "#ffffff",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 1.0000000000000002
+            },
+            "contexts": [
+              "other",
+              "button",
+              "body",
+              "nav",
+              "heading",
+              "link",
+              "image",
+              "list"
+            ],
+            "frequency": 400,
+            "confidence": 1,
+            "prominence": 169668634.11060476,
+            "properties": [
+              "color",
+              "borderColor",
+              "backgroundColor",
+              "fill"
+            ],
+            "usageCounts": {
+              "nav/color": 11,
+              "body/color": 8,
+              "link/color": 6,
+              "list/color": 4,
+              "other/fill": 1,
+              "image/color": 2,
+              "other/color": 37,
+              "button/color": 3,
+              "heading/color": 7,
+              "nav/borderColor": 44,
+              "body/borderColor": 32,
+              "link/borderColor": 24,
+              "list/borderColor": 16,
+              "image/borderColor": 8,
+              "other/borderColor": 148,
+              "button/borderColor": 12,
+              "heading/borderColor": 28,
+              "other/backgroundColor": 9
+            }
+          }
+        ],
+        "isDarkMode": false,
+        "colorfulness": 0,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 21,
+            "background": "#ffffff",
+            "foreground": "#000000"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 9,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 3,
+            "properties": [
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingBottom|other"
+            ]
+          },
+          {
+            "value": 14,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 4,
+            "properties": [
+              "paddingTop"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other"
+            ]
+          },
+          {
+            "value": 16,
+            "contexts": [
+              "button",
+              "other",
+              "body"
+            ],
+            "frequency": 13,
+            "properties": [
+              "paddingTop",
+              "paddingRight",
+              "paddingBottom",
+              "paddingLeft",
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|button",
+              "paddingRight|button",
+              "paddingBottom|button",
+              "paddingLeft|button",
+              "paddingRight|other",
+              "marginBottom|body"
+            ]
+          },
+          {
+            "value": 21,
+            "contexts": [
+              "other",
+              "nav",
+              "list"
+            ],
+            "frequency": 72,
+            "properties": [
+              "paddingRight",
+              "paddingLeft",
+              "paddingTop",
+              "paddingBottom",
+              "marginTop",
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|other",
+              "paddingLeft|other",
+              "paddingRight|nav",
+              "paddingLeft|nav",
+              "paddingTop|other",
+              "paddingBottom|other",
+              "marginTop|list",
+              "marginBottom|other"
+            ]
+          },
+          {
+            "value": 46,
+            "contexts": [
+              "other",
+              "list"
+            ],
+            "frequency": 14,
+            "properties": [
+              "paddingTop",
+              "paddingBottom",
+              "marginTop"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other",
+              "paddingBottom|other",
+              "marginTop|list"
+            ]
+          },
+          {
+            "value": 47,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 6,
+            "properties": [
+              "paddingTop",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|nav",
+              "paddingBottom|nav"
+            ]
+          },
+          {
+            "value": 54,
+            "contexts": [
+              "list"
+            ],
+            "frequency": 3,
+            "properties": [
+              "marginRight"
+            ],
+            "propertyContextPairs": [
+              "marginRight|list"
+            ]
+          }
+        ],
+        "density": "comfortable",
+        "baseUnit": 4
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "TWKLausanne",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 382,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "Favorit Times",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 8,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 23,
+          "name": "Major Third",
+          "ratio": 1.25,
+          "confidence": 0.88
+        },
+        "steps": [
+          {
+            "size": 14,
+            "family": "TWKLausanne",
+            "weight": 400,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 5,
+            "lineHeight": 1.2,
+            "letterSpacing": -0.017,
+            "textTransform": "none"
+          },
+          {
+            "size": 23,
+            "family": "TWKLausanne",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "button",
+              "body",
+              "hero",
+              "image",
+              "list",
+              "heading",
+              "link"
+            ],
+            "frequency": 328,
+            "lineHeight": 1.2,
+            "letterSpacing": -0.01,
+            "textTransform": "none"
+          },
+          {
+            "size": 44,
+            "family": "Favorit Times",
+            "weight": 400,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.2,
+            "letterSpacing": -0.025,
+            "textTransform": "none"
+          },
+          {
+            "size": 55,
+            "family": "Favorit Times",
+            "weight": 400,
+            "contexts": [
+              "heading",
+              "other"
+            ],
+            "frequency": 5,
+            "lineHeight": 1.2,
+            "letterSpacing": -0.025,
+            "textTransform": "none"
+          },
+          {
+            "size": 135,
+            "family": "TWKLausanne",
+            "weight": 400,
+            "contexts": [
+              "list",
+              "other",
+              "heading"
+            ],
+            "frequency": 19,
+            "lineHeight": 1,
+            "letterSpacing": -0.025,
+            "textTransform": "none"
+          },
+          {
+            "size": 159,
+            "family": "TWKLausanne",
+            "weight": 400,
+            "contexts": [
+              "heading",
+              "link",
+              "list"
+            ],
+            "frequency": 24,
+            "lineHeight": 1,
+            "letterSpacing": -0.025,
+            "textTransform": "none"
+          },
+          {
+            "size": 179,
+            "family": "Favorit Times",
+            "weight": 400,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "lineHeight": 1,
+            "letterSpacing": -0.025,
+            "textTransform": "none"
+          },
+          {
+            "size": 189,
+            "family": "TWKLausanne",
+            "weight": 400,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 6,
+            "lineHeight": 1,
+            "letterSpacing": -0.025,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Prioritize high contrast between text and background using only Midnight Ink (#000000) and Canvas White (#ffffff).",
+        "Use TWKLausanne for all body text, navigation elements, and secondary headlines at weight 400.",
+        "Employ Favorit Times at weight 400 exclusively for large, impactful display headlines.",
+        "Apply a 0px border-radius consistently across all interactive elements and containers.",
+        "Utilize specific letter-spacing values from TWKLausanne (-0.0250em, -0.0170em, -0.0100em) and Favorit Times (-0.0250em) to maintain typographic precision.",
+        "Maintain comfortable density for sections by using a section gap of 46px and element gaps of 21px.",
+        "Accentuate interactive elements and active states through border changes or the 'Swiper Accent' color (#007aff) within designated components."
+      ],
+      "donts": [
+        "Do not introduce soft shadows or complex elevation schemes; rely on hard visual breaks and direct contrast.",
+        "Avoid using multiple colors for text or backgrounds; the palette is strictly monochrome with a single accent.",
+        "Do not use rounded corners on any elements; all corners should be sharp 0px radius.",
+        "Do not use generic padding values; adhere to the established spacing tokens like 16px for card-like elements and 21px for element gaps.",
+        "Do not use gradients or complex background patterns; backgrounds should be flat Canvas White (#ffffff) or Midnight Ink (#000000).",
+        "Avoid decorative icons or illustrations that are not strictly black and white; visual content should align with the stark aesthetic."
+      ],
+      "theme": "light",
+      "colors": [
+        {
+          "hex": "#ffffff",
+          "name": "Canvas White",
+          "role": "Hairline borders, dividers, input outlines, and card edges on light surfaces. Do not promote it to the primary CTA color",
+          "group": "neutral"
+        },
+        {
+          "hex": "#000000",
+          "name": "Midnight Ink",
+          "role": "Dark borders and separators for elevated surfaces and inverted UI. Do not promote it to the primary CTA color",
+          "group": "neutral"
+        },
+        {
+          "hex": "#007aff",
+          "name": "Swiper Accent",
+          "role": "Supporting palette color for small decorative accents when the core palette needs contrast. Do not promote it to the primary CTA color",
+          "group": "accent"
+        }
+      ],
+      "layout": "The page primarily uses a max-width contained layout, though specific hero sections may appear full-bleed. The hero pattern features large, imposing typography (Favorit Times) often layered directly over or immediately adjacent to minimalist photography. Section rhythm is driven by strong vertical separation and high-contrast typography, creating distinct content blocks without explicit dividers. Content arrangement leans towards large, singular visual statements combined with textual hierarchy, using implicit grid structures for text blocks and navigation where elements are well-spaced and distinct. Navigation is minimal, typically a sticky header with a simple menu icon that expands to a full-screen overlay.",
+      "imagery": "Photography is central, featuring a stark, minimalist aesthetic. It typically focuses on a single subject, often a person, shot against a plain, light background with neutral or achromatic color palettes. The treatment is full-bleed or large contained blocks, with sharp edges and no overlap. Imagery serves purely decorative and atmospheric purposes, creating a mood rather than conveying specific information. There are no illustrations or complex graphical elements; the focus is on clean photography and typography.",
+      "similar": [
+        {
+          "why": "Shares the stark, minimalist aesthetic with high-contrast typography and large, editorial-style imagery.",
+          "business": "Agency TK"
+        },
+        {
+          "why": "Similar use of black and white photography, prominent serif type for headlines, and minimal, ghost-like interactive elements.",
+          "business": "Marius Roosendaal"
+        },
+        {
+          "why": "Employs an elevated, minimalist feel largely in black and white, relying on strong typography and understated UI.",
+          "business": "Basic Theory"
+        },
+        {
+          "why": "Features a strong emphasis on large, impactful imagery and black text on a white canvas, creating an artistic, editorial mood.",
+          "business": "Studio VØ"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "all": "0px"
+        },
+        "elementGap": "21px",
+        "sectionGap": "46px",
+        "cardPadding": "16px",
+        "pageMaxWidth": null
+      },
+      "industry": "design",
+      "northStar": "High-contrast editorial canvas – bold, no-nonsense.",
+      "typeScale": [
+        {
+          "role": "caption",
+          "size": 14,
+          "lineHeight": 1.2,
+          "letterSpacing": -0.14
+        },
+        {
+          "role": "body",
+          "size": 23,
+          "lineHeight": 1.2,
+          "letterSpacing": -0.39
+        },
+        {
+          "role": "heading-sm",
+          "size": 44,
+          "lineHeight": 1.2,
+          "letterSpacing": -1.1
+        },
+        {
+          "role": "heading",
+          "size": 55,
+          "lineHeight": 1.2,
+          "letterSpacing": -1.375
+        },
+        {
+          "role": "heading-lg",
+          "size": 135,
+          "lineHeight": 1,
+          "letterSpacing": -3.375
+        },
+        {
+          "role": "display",
+          "size": 179,
+          "lineHeight": 1,
+          "letterSpacing": -4.475
+        }
+      ],
+      "components": [
+        {
+          "name": "Ghost Button (Light BG)",
+          "role": "Primary Call to Action, Navigation Item",
+          "description": "Text-only button with a transparent background, primary text color #000000, and no border radius. Used for interactive elements on light backgrounds, maintaining a minimal aesthetic. No padding specified by extracted data."
+        },
+        {
+          "name": "Ghost Button (Dark BG)",
+          "role": "Primary Call to Action, Navigation Item",
+          "description": "Text-only button with a transparent background, primary text color #ffffff and no border radius. Used for interactive elements within dark sections, maintaining a minimal aesthetic. Padding of 16px on all sides."
+        },
+        {
+          "name": "Main Navigation Item",
+          "role": "Top-level navigation links",
+          "description": "Typography set in TWKLausanne regular, often with implied padding around text. No explicit background or border, relying on stark contrast for definition. Appears with padding of 21px right/left and 47px top/bottom in some contexts."
+        },
+        {
+          "name": "Headline Display",
+          "role": "Hero Section Headlines, Major Section Titles",
+          "description": "Employs Favorit Times, weight 400, at very large sizes (179px, 55px, 44px) with tight letter-spacing (-0.0250em) to create a bold, impactful statement. Typically rendered in Midnight Ink (#000000) on Canvas White (#ffffff)."
+        },
+        {
+          "name": "Body Text Block",
+          "role": "Paragraphs, Detailed descriptions",
+          "description": "Rendered in TWKLausanne, weight 400, in Midnight Ink (#000000) on a Canvas White (#ffffff) background. Offers high readability for substantial content, with comfortable line height and standard letter spacing."
+        }
+      ],
+      "typography": [
+        {
+          "role": "The primary workhorse sans-serif for navigation, body text, and expressive large-scale headlines. Its consistent weight across varied sizes establishes a contemporary yet approachable tone.",
+          "sizes": "14px, 23px, 135px, 159px, 189px",
+          "family": "TWKLausanne",
+          "weight": "400",
+          "lineHeight": "1.00, 1.20",
+          "substitute": "system-ui, sans-serif",
+          "letterSpacing": "-0.0250em, -0.0170em, -0.0100em"
+        },
+        {
+          "role": "Used for distinctive, large-format headlines and brand elements, this serif font provides a classic, editorial counterpoint to the sans-serif, infusing gravitas and visual weight without adding additional colors or ornaments.",
+          "sizes": "44px, 55px, 179px",
+          "family": "Favorit Times",
+          "weight": "400",
+          "lineHeight": "1.00, 1.20",
+          "substitute": "serif",
+          "letterSpacing": "-0.0250em"
+        }
+      ],
+      "description": "Favorit Studio employs a stark and confident editorial aesthetic, blending classic serif headlines with a modern sans-serif for body text and navigation. The design emphasizes high contrast monochrome surfaces with minimal visual embellishment, allowing crisp typography and bold photography to dominate. Interactive elements are subtle, relying on text and slight border changes rather than color fills, creating an atmosphere of understated luxury and directness.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "### Quick Color Reference\n- text: #000000\n- background: #ffffff\n- border: #000000\n- accent: #007aff\n- primary action: no distinct CTA color\n\n### 3-5 Example Component Prompts\n1. Create a page header: A 'Menu' button (text: 'Menu', TWKLausanne, 23px, #000000, 0px radius, 0px padding) on a #ffffff background, positioned subtly in the top right. Main logo text 'Favorit' (Favorit Times, 179px, #000000) aligned left.\n2. Create a hero section: Full-width photographic image. Overlaid large text 'Favorit' (Favorit Times, 179px, #000000, letter-spacing -0.0250em) on the left, and 'Studio' (Favorit Times, 179px, #000000, letter-spacing -0.0250em) on a separate line below 'Favorit'. A ghost 'Scroll' button (TWKLausanne, 23px, #000000, 0px radius, 0px padding) vertically oriented on the right.\n3. Create a dark-themed ghost navigation button: A button with transparent background, #ffffff text (TWKLausanne, 23px), 0px radius, and 16px padding on all sides, suitable for a full-screen menu overlay."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777515135707-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777515135707-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/7e03ab3b-1344-43d7-a7c4-2f31395758ae",
+  "ranks": {
+    "trending": 1302,
+    "popular": 1301,
+    "newest": 419
+  },
+  "localSlug": "favorit-studio-7e03ab3b"
+}

@@ -1,0 +1,375 @@
+{
+  "id": "aa3fecc4-3017-4b7a-8969-c36ba4dcd91d",
+  "url": "https://meganperkins.com",
+  "siteName": "Megan Perkins",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777516835807-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777516835807-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "dark",
+  "colors": [
+    {
+      "name": "Canvas Dark",
+      "hex": "#000000"
+    },
+    {
+      "name": "Text Muted",
+      "hex": "#959591"
+    },
+    {
+      "name": "Heading Accent",
+      "hex": "#ffffff"
+    },
+    {
+      "name": "Hero Gradient",
+      "hex": "#9a00ff",
+      "gradient": "linear-gradient(287deg, #9a00ff -11%, #fa00ff 37%, #00d68f 100%)"
+    }
+  ],
+  "fonts": [
+    "aktiv-grotesk"
+  ],
+  "northStar": "Midnight gradient canvas",
+  "createdAt": "2026-04-30T02:40:49.077Z",
+  "previewVideoCapturedAt": null,
+  "industry": "design",
+  "fullResult": {
+    "meta": {
+      "url": "https://meganperkins.com",
+      "siteName": "Megan Perkins",
+      "extractedAt": "2026-04-30T02:40:49.013Z",
+      "durationMs": 21853,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 29,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#959591",
+            "oklch": {
+              "c": 0.005799852347295303,
+              "h": 106.55542802175694,
+              "l": 0.6686269415128094
+            },
+            "contexts": [
+              "other",
+              "body",
+              "nav",
+              "link"
+            ],
+            "frequency": 130,
+            "confidence": 1,
+            "prominence": 108244379.99366136,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "nav/color": 6,
+              "body/color": 12,
+              "link/color": 2,
+              "other/color": 6,
+              "nav/borderColor": 24,
+              "body/borderColor": 48,
+              "link/borderColor": 8,
+              "other/borderColor": 24
+            }
+          },
+          {
+            "hex": "#ffffff",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 1.0000000000000002
+            },
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 5,
+            "confidence": 1,
+            "prominence": 1793129.0326127494,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "heading/color": 1,
+              "heading/borderColor": 4
+            }
+          },
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "button"
+            ],
+            "frequency": 10,
+            "confidence": 1,
+            "prominence": 5950.222384056151,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "button/color": 2,
+              "button/borderColor": 8
+            }
+          }
+        ],
+        "isDarkMode": true,
+        "colorfulness": 0.014053696274900083,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 21,
+            "background": "#ffffff",
+            "foreground": "#000000"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 5,
+            "contexts": [
+              "body",
+              "nav"
+            ],
+            "frequency": 36,
+            "properties": [
+              "paddingTop",
+              "paddingRight",
+              "paddingBottom",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|body",
+              "paddingRight|body",
+              "paddingBottom|body",
+              "paddingLeft|body",
+              "paddingTop|nav",
+              "paddingRight|nav",
+              "paddingBottom|nav",
+              "paddingLeft|nav"
+            ]
+          },
+          {
+            "value": 22,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 3,
+            "properties": [
+              "marginTop"
+            ],
+            "propertyContextPairs": [
+              "marginTop|body"
+            ]
+          },
+          {
+            "value": 32,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 8,
+            "properties": [
+              "paddingTop",
+              "paddingRight",
+              "paddingBottom",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other",
+              "paddingRight|other",
+              "paddingBottom|other",
+              "paddingLeft|other"
+            ]
+          }
+        ],
+        "density": "compact",
+        "baseUnit": 6
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "aktiv-grotesk",
+            "source": "custom",
+            "weights": [
+              400,
+              700
+            ],
+            "frequency": 29,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": null,
+        "steps": [
+          {
+            "size": 1,
+            "family": "aktiv-grotesk",
+            "weight": 700,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 1,
+            "lineHeight": 28,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 22,
+            "family": "aktiv-grotesk",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "body",
+              "nav",
+              "link"
+            ],
+            "frequency": 26,
+            "lineHeight": 1.27,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Always use 'Canvas Dark' (#000000) for primary page backgrounds to maintain the deep, dark aesthetic.",
+        "Apply 'Text Muted' (#959591) for all body text and navigation elements to ensure soft contrast.",
+        "Utilize 'Heading Accent' (#ffffff) for prominent headlines atop dark surfaces.",
+        "Employ the 'Hero Gradient' for the main hero section to establish the brand's primary visual identity.",
+        "Ensure all interactive elements and text use the 'aktiv-grotesk' font family at the specified weights (400, 700) and sizes (22px, 1.27 line-height).",
+        "Prioritize minimal or ghost component styles; avoid filled buttons or heavy borders.",
+        "Maintain a compact spacing rhythm, with 'elementGap' at 5px for close internal element relationships and 'sectionGap' at 22px for clear content block separation."
+      ],
+      "donts": [
+        "Do not introduce additional saturated colors beyond the defined brand gradient; color should be used sparingly.",
+        "Avoid applying heavy drop shadows or elevation, as the design system explicitly uses flat surfaces and minimal depth.",
+        "Do not use highly decorative fonts or excessive letter-spacing; the typography is designed for clarity and directness.",
+        "Do not use rounded corners; all elements should adhere to the 0px border-radius.",
+        "Avoid large, image-heavy sections; the design is text-dominant with gradients serving as the primary visual interest.",
+        "Do not deviate from the defined compact spacing values; resist adding more padding or margin unless absolutely necessary for readability.",
+        "Do not use system default link colors; ensure all links use 'Text Muted' (#959591)."
+      ],
+      "theme": "dark",
+      "colors": [
+        {
+          "hex": "#000000",
+          "name": "Canvas Dark",
+          "role": "Page backgrounds, button text for ghost buttons, implicit ghost button borders",
+          "group": "neutral"
+        },
+        {
+          "hex": "#959591",
+          "name": "Text Muted",
+          "role": "Medium-contrast borders, control outlines, and structural separators. Do not promote it to the primary CTA color",
+          "group": "neutral"
+        },
+        {
+          "hex": "#ffffff",
+          "name": "Heading Accent",
+          "role": "Dominant headlines, indicating high importance against dark backgrounds",
+          "group": "neutral"
+        },
+        {
+          "hex": "#9a00ff",
+          "name": "Hero Gradient",
+          "role": "The primary visual identifier, used for the full-bleed hero section background. It transitions from a deep purple to a vibrant magenta, then to a rich green, creating a dynamic atmospheric backdrop",
+          "group": "brand",
+          "gradient": "linear-gradient(287deg, #9a00ff -11%, #fa00ff 37%, #00d68f 100%)"
+        }
+      ],
+      "layout": "The page operates on a full-bleed model, with the hero section filling the entire viewport with a dynamic gradient. Content is generally left-aligned within a contained area when text is primary, contrasting with the full-bleed hero. Section rhythm is marked by distinct background changes from the gradient to a solid deep black. Subsequent content appears to be stacked vertically, with consistent vertical spacing between text blocks. Navigation elements are minimal and positioned to the bottom and top left, with subtle interactive ghost components. The layout is text-dominant, with ample breathing room around content blocks despite a compact element spacing.",
+      "imagery": "The site primarily features a vivid, atmospheric gradient as its main visual element, serving a decorative and branding role. There are no photographs, illustrations, product screenshots, or 3D renders. Icons are minimal, consisting only of simple, outlined arrow shapes to guide navigation. The visual density is very low, emphasizing text against the gradient, where imagery's role is purely abstract atmosphere.",
+      "similar": [
+        {
+          "why": "High-contrast text-heavy design approach with a focus on editorial content and strong typographic hierarchy.",
+          "business": "AIGA"
+        },
+        {
+          "why": "Minimalist websites that use strong, abstract background visuals (gradients, patterns) to create brand identity without relying on heavy photography.",
+          "business": "Huge Inc."
+        },
+        {
+          "why": "Often use striking, unique custom hero sections (like gradients or experimental typography) to immediately convey artistic or design capability.",
+          "business": "Personal portfolio sites"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "none": "0px"
+        },
+        "elementGap": "5px",
+        "sectionGap": "22px",
+        "cardPadding": "22px",
+        "pageMaxWidth": null
+      },
+      "industry": "design",
+      "northStar": "Midnight gradient canvas",
+      "components": [
+        {
+          "name": "Ghost Arrow Button",
+          "role": "Navigation button for scrolling content.",
+          "description": "A ghost button with #000000 text and an implicit #959591 border that appears on interaction. No background fill, 0px border-radius, 0px padding. Uses the 'aktiv-grotesk' font at 22px, weight 400."
+        }
+      ],
+      "typography": [
+        {
+          "role": "All textual content across the site, including body, headings, navigation, and links. Its clean, sans-serif nature supports the site's serious and direct communication style.",
+          "sizes": "22px",
+          "family": "aktiv-grotesk",
+          "weight": "400, 700",
+          "lineHeight": "1.27",
+          "substitute": "Inter"
+        }
+      ],
+      "description": "Megan Perkins presents a dark, high-contrast, and text-dominant aesthetic. The design relies on a minimal palette of near-black for backgrounds, a single dark gray for most text and borders, and a large, high-impact gradient hero. Typography is compact and precise, maintaining a serious, editorial tone. Components are stripped back, often border-only or ghost elements, with color reserved for the background gradient and the occasional subtle interaction cue.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "Quick Color Reference:\ntext: #959591\nbackground: #000000\nborder: #959591\naccent: no distinct accent color\nprimary action: no distinct CTA color\n\nExample Component Prompts:\n1. Create a page hero section using the 'Hero Gradient' background. Overlay 'Heading Accent' (#ffffff) text for a prominent headline, using 'aktiv-grotesk' at the largest available size and weight 700.\n2. Create a body text block on a 'Canvas Dark' (#000000) background, using 'Text Muted' (#959591) and the 'aktiv-grotesk' font at 22px, weight 400, line-height 1.27. Ensure an 'elementGap' of 5px for any nested elements.\n3. Design a simple navigation link using 'Text Muted' (#959591) on 'Canvas Dark' (#000000). Use 'aktiv-grotesk' at 22px, weight 400. This link should function as a 'Ghost Arrow Button' with 0px padding and a 0px border-radius."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777516835807-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777516835807-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/aa3fecc4-3017-4b7a-8969-c36ba4dcd91d",
+  "ranks": {
+    "trending": 504,
+    "popular": 702,
+    "newest": 320
+  },
+  "localSlug": "megan-perkins-aa3fecc4"
+}

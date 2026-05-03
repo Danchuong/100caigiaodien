@@ -1,0 +1,880 @@
+{
+  "id": "5af6b791-6cad-4497-9e94-ace28e4fbd51",
+  "url": "https://helloivy.co",
+  "siteName": "Helloivy",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775932463602-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775932463602-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "light",
+  "colors": [
+    {
+      "name": "Greige Canvas",
+      "hex": "#faf6f0"
+    },
+    {
+      "name": "Midnight Ink",
+      "hex": "#000000"
+    },
+    {
+      "name": "Soft Graphite",
+      "hex": "#5e697f"
+    },
+    {
+      "name": "Pure White",
+      "hex": "#ffffff"
+    }
+  ],
+  "fonts": [
+    "Unbounded",
+    "Inter",
+    "system-ui (sans-serif fallback)"
+  ],
+  "northStar": "Architectural blueprint on creamy paper. Black lines precisely segment content on a soft background.",
+  "createdAt": "2026-03-26T18:48:42.000Z",
+  "previewVideoCapturedAt": null,
+  "industry": "productivity",
+  "fullResult": {
+    "meta": {
+      "url": "https://helloivy.co",
+      "siteName": "Helloivy",
+      "extractedAt": "2026-04-11T18:34:44.007Z",
+      "durationMs": 26567,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 553,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "complete",
+          "attempts": 2
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "other",
+              "button",
+              "body",
+              "link",
+              "heading",
+              "icon",
+              "image"
+            ],
+            "frequency": 1852,
+            "confidence": 1,
+            "prominence": 118983787.55606999,
+            "properties": [
+              "color",
+              "borderColor",
+              "fill",
+              "backgroundColor",
+              "stroke"
+            ]
+          },
+          {
+            "hex": "#faf6f0",
+            "oklch": {
+              "c": 0.009041041111401388,
+              "h": 78.28203992083048,
+              "l": 0.9745715111701607
+            },
+            "contexts": [
+              "other",
+              "link"
+            ],
+            "frequency": 12,
+            "confidence": 1,
+            "prominence": 40558828.64959332,
+            "properties": [
+              "backgroundColor"
+            ]
+          },
+          {
+            "hex": "#5e697f",
+            "oklch": {
+              "c": 0.037392465662397595,
+              "h": 264.173545473276,
+              "l": 0.5197531503672911
+            },
+            "contexts": [
+              "body"
+            ],
+            "frequency": 120,
+            "confidence": 1,
+            "prominence": 21074.857420738415,
+            "properties": [
+              "color",
+              "borderColor"
+            ]
+          },
+          {
+            "hex": "#ffffff",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 1.0000000000000002
+            },
+            "contexts": [
+              "body",
+              "other"
+            ],
+            "frequency": 11,
+            "confidence": 1,
+            "prominence": 6929.732513893995,
+            "properties": [
+              "color",
+              "borderColor",
+              "fill"
+            ]
+          },
+          {
+            "hex": "#555555",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.4495331968941366
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 1148,
+            "properties": [
+              "fill"
+            ]
+          }
+        ],
+        "isDarkMode": false,
+        "colorfulness": 0.0062226999577865575,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 21,
+            "background": "#000000",
+            "foreground": "#ffffff"
+          },
+          {
+            "level": "AAA",
+            "ratio": 19.51,
+            "background": "#faf6f0",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 7.46,
+            "background": "#ffffff",
+            "foreground": "#555555"
+          },
+          {
+            "level": "AA",
+            "ratio": 6.92,
+            "background": "#faf6f0",
+            "foreground": "#555555"
+          },
+          {
+            "level": "AA",
+            "ratio": 5.13,
+            "background": "#faf6f0",
+            "foreground": "#5e697f"
+          },
+          {
+            "level": "fail",
+            "ratio": 3.8,
+            "background": "#000000",
+            "foreground": "#5e697f"
+          },
+          {
+            "level": "fail",
+            "ratio": 1.08,
+            "background": "#faf6f0",
+            "foreground": "#ffffff"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [
+          {
+            "value": 8,
+            "contexts": [
+              "button"
+            ],
+            "frequency": 3
+          },
+          {
+            "value": 100,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2
+          },
+          {
+            "value": 9999,
+            "contexts": [
+              "button"
+            ],
+            "frequency": 2
+          }
+        ],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 4,
+            "frequency": 22,
+            "properties": [
+              "rowGap",
+              "columnGap"
+            ]
+          },
+          {
+            "value": 6,
+            "frequency": 6,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ]
+          },
+          {
+            "value": 8,
+            "frequency": 16,
+            "properties": [
+              "rowGap",
+              "columnGap"
+            ]
+          },
+          {
+            "value": 10,
+            "frequency": 92,
+            "properties": [
+              "rowGap",
+              "columnGap"
+            ]
+          },
+          {
+            "value": 12,
+            "frequency": 8,
+            "properties": [
+              "rowGap",
+              "columnGap"
+            ]
+          },
+          {
+            "value": 14,
+            "frequency": 2,
+            "properties": [
+              "rowGap",
+              "columnGap"
+            ]
+          },
+          {
+            "value": 15,
+            "frequency": 10,
+            "properties": [
+              "paddingTop",
+              "paddingBottom"
+            ]
+          },
+          {
+            "value": 16,
+            "frequency": 50,
+            "properties": [
+              "rowGap",
+              "columnGap",
+              "paddingBottom",
+              "paddingRight",
+              "paddingLeft"
+            ]
+          },
+          {
+            "value": 20,
+            "frequency": 6,
+            "properties": [
+              "rowGap",
+              "columnGap",
+              "marginTop"
+            ]
+          },
+          {
+            "value": 24,
+            "frequency": 90,
+            "properties": [
+              "paddingTop",
+              "paddingRight",
+              "paddingBottom",
+              "paddingLeft",
+              "rowGap",
+              "columnGap"
+            ]
+          },
+          {
+            "value": 30,
+            "frequency": 4,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ]
+          },
+          {
+            "value": 32,
+            "frequency": 8,
+            "properties": [
+              "rowGap",
+              "columnGap"
+            ]
+          },
+          {
+            "value": 40,
+            "frequency": 28,
+            "properties": [
+              "rowGap",
+              "columnGap",
+              "paddingTop",
+              "paddingRight",
+              "paddingBottom",
+              "paddingLeft"
+            ]
+          }
+        ],
+        "density": "comfortable",
+        "baseUnit": null
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "sans-serif",
+            "source": "system",
+            "weights": [
+              400
+            ],
+            "frequency": 347,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "Inter",
+            "source": "google",
+            "weights": [
+              400,
+              500,
+              600,
+              700
+            ],
+            "frequency": 114,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "Unbounded",
+            "source": "custom",
+            "weights": [
+              400,
+              500
+            ],
+            "frequency": 8,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "Inter-Bold",
+            "source": "custom",
+            "weights": [
+              700
+            ],
+            "frequency": 6,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "Inter-Medium",
+            "source": "custom",
+            "weights": [
+              500
+            ],
+            "frequency": 4,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 20,
+          "name": "Minor Third",
+          "ratio": 1.2,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 12,
+            "family": "sans-serif",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "link",
+              "button",
+              "icon",
+              "image"
+            ],
+            "frequency": 347,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 12,
+            "family": "Inter",
+            "weight": 400,
+            "contexts": [
+              "body",
+              "link"
+            ],
+            "frequency": 2,
+            "lineHeight": 1.6,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 14,
+            "family": "Inter",
+            "weight": 400,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 13,
+            "lineHeight": 1.5,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 14,
+            "family": "Inter-Medium",
+            "weight": 500,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 4,
+            "lineHeight": 1.5,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 14,
+            "family": "Inter",
+            "weight": 400,
+            "contexts": [
+              "body",
+              "link"
+            ],
+            "frequency": 48,
+            "lineHeight": 1.57,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "Inter",
+            "weight": 600,
+            "contexts": [
+              "body",
+              "link"
+            ],
+            "frequency": 8,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "Inter",
+            "weight": 400,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 3,
+            "lineHeight": 1.6,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 18,
+            "family": "Inter",
+            "weight": 400,
+            "contexts": [
+              "body",
+              "link"
+            ],
+            "frequency": 23,
+            "lineHeight": 1.6,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 18,
+            "family": "Inter-Bold",
+            "weight": 700,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 6,
+            "lineHeight": 1.6,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 18,
+            "family": "Inter",
+            "weight": 700,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.6,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 18,
+            "family": "Inter",
+            "weight": 500,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 8,
+            "lineHeight": 1.6,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 20,
+            "family": "Unbounded",
+            "weight": 400,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.4,
+            "letterSpacing": 0.02,
+            "textTransform": "none"
+          },
+          {
+            "size": 24,
+            "family": "Inter",
+            "weight": 500,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 3,
+            "lineHeight": 1.4,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 27,
+            "family": "Inter",
+            "weight": 400,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.5,
+            "letterSpacing": -0.02,
+            "textTransform": "none"
+          },
+          {
+            "size": 32,
+            "family": "Inter",
+            "weight": 400,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 4,
+            "lineHeight": 1.4,
+            "letterSpacing": -0.02,
+            "textTransform": "none"
+          },
+          {
+            "size": 34,
+            "family": "Unbounded",
+            "weight": 500,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 2,
+            "lineHeight": 1.2,
+            "letterSpacing": 0.01,
+            "textTransform": "none"
+          },
+          {
+            "size": 62,
+            "family": "Unbounded",
+            "weight": 500,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 4,
+            "lineHeight": 1.1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 82,
+            "family": "Unbounded",
+            "weight": 500,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Always define layout sections with subtle 1px Midnight Ink (#000000) borders against Greige Canvas (#faf6f0) to create a structured, architectural feel.",
+        "Use Unbounded (weight 400-500) for all display headlines, setting letter-spacing to 0.02em for large titles (82px) and 0.01em for smaller section titles (20-34px).",
+        "Apply Inter (weight 400-700) with a consistent -0.02em letter-spacing for all body text, subheadings, and UI labels.",
+        "Utilize Greige Canvas (#faf6f0) as the primary background color for all page sections and content blocks.",
+        "Implement 9999px border-radius for primary action buttons (Solid Pill Buttons) and 8px border-radius for secondary interactive elements (Outline Buttons).",
+        "Maintain high contrast by using Midnight Ink (#000000) for all primary text and interactive elements on Greige Canvas (#faf6f0) backgrounds.",
+        "Isolate Pure White (#ffffff) for subtle highlights, such as icon fills or inverse text on dark button backgrounds."
+      ],
+      "tags": [
+        "minimalist",
+        "grid-based",
+        "high-contrast",
+        "monochromatic",
+        "geometric",
+        "structured",
+        "utility-focused",
+        "clean",
+        "architectural"
+      ],
+      "donts": [
+        "Avoid using highly saturated, chromatic colors; the palette is strictly monochromatic with a single warm neutral base.",
+        "Do not deviate from the established 1px Midnight Ink (#000000) border style for section dividers and containers.",
+        "Refrain from using drop shadows or complex elevation; depth is created through borders and color contrast.",
+        "Do not introduce rounded corners on non-interactive content blocks or imagery; maintain sharp, defined edges for structure.",
+        "Avoid decorative whitespace or intricate patterns; layout should be clean, grid-based, and functional.",
+        "Do not use generic system fonts for body or heading text where Inter or Unbounded are specified; adhere to the defined typography for brand consistency."
+      ],
+      "theme": "light",
+      "colors": [
+        {
+          "hex": "#faf6f0",
+          "name": "Greige Canvas",
+          "role": "Page backgrounds, large content sections — provides a warm, inviting canvas for the high-contrast black elements.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#000000",
+          "name": "Midnight Ink",
+          "role": "Primary text, borders, icons, button backgrounds — the dominant accent, creating strong contrast and defining structure.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#5e697f",
+          "name": "Soft Graphite",
+          "role": "Secondary body text, subtle section headings — provides a softer alternative to Midnight Ink for less prominent textual elements, maintaining readability against Greige Canvas.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#ffffff",
+          "name": "Pure White",
+          "role": "Icon fills, occasional inverse text on dark backgrounds — used sparingly to create highlights and visual breaks.",
+          "group": "neutral"
+        }
+      ],
+      "layout": "The layout is max-width contained at approximately 1200px, centered on a Greige Canvas background. The hero section features a centered, enormous headline over the background. Section rhythm is created through a strong, visible grid system using fine 1px Midnight Ink borders that divide the page into distinct, almost cell-like blocks. Content often occupies full-width blocks or alternates between two-column text+visual arrangements. A clear client logo grid demonstrates social proof. Navigation is a simple top bar, with a persistent fixed 'Try it for free' button at the bottom right. The overall density is comfortable, with ample whitespace creating breathing room within the strict grid.",
+      "imagery": "The site uses minimal imagery, primarily focusing on clean UI mockups and desaturated client logos. Product screenshots are contained within distinct bordered sections, appearing like functional 'windows' into the application. Photography is absent. Client logos are grayscale and often subtly outlined, adhering to the monochromatic scheme. The visual language emphasizes product function over lifestyle or abstract art, acting mainly as explanatory content or social proof, contained and never full-bleed.",
+      "similar": [
+        {
+          "why": "Monochromatic, high-contrast UI with strong typography and a focus on essential elements, minimal decorative styles.",
+          "business": "Linear"
+        },
+        {
+          "why": "Clean, functional typography, emphasis on structure through subtle lines, and a light background with dark text focus.",
+          "business": "Figma"
+        },
+        {
+          "why": "Subtle, warm neutral backgrounds combined with clear, dark typography and a structured, grid-based approach to content organization.",
+          "business": "Basecamp"
+        },
+        {
+          "why": "Distinctive custom typography for headlines and a strong preference for a limited, high-contrast color palette with structured layouts.",
+          "business": "Hey.com"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "buttons": "8px",
+          "generic": "8px",
+          "pillButtons": "9999px"
+        },
+        "elementGap": "10px",
+        "sectionGap": "64px",
+        "cardPadding": "24px",
+        "pageMaxWidth": "1200px"
+      },
+      "category": "dev-tools",
+      "northStar": "Architectural blueprint on creamy paper. Black lines precisely segment content on a soft background.",
+      "typeScale": [
+        {
+          "role": "caption",
+          "size": 12,
+          "lineHeight": 1.2
+        },
+        {
+          "role": "body-sm",
+          "size": 14,
+          "lineHeight": 1.5,
+          "letterSpacing": -0.28
+        },
+        {
+          "role": "body",
+          "size": 16,
+          "lineHeight": 1.5,
+          "letterSpacing": -0.32
+        },
+        {
+          "role": "body-lg",
+          "size": 18,
+          "lineHeight": 1.6,
+          "letterSpacing": -0.36
+        },
+        {
+          "role": "heading-sm",
+          "size": 20,
+          "lineHeight": 1.2,
+          "letterSpacing": 0.2
+        },
+        {
+          "role": "heading",
+          "size": 24,
+          "lineHeight": 1.4,
+          "letterSpacing": -0.48
+        },
+        {
+          "role": "heading-lg",
+          "size": 34,
+          "lineHeight": 1.2,
+          "letterSpacing": 0.34
+        },
+        {
+          "role": "display",
+          "size": 82,
+          "lineHeight": 1.1,
+          "letterSpacing": 1.64
+        }
+      ],
+      "components": [
+        {
+          "html": "<style>\n  :root {\n    --color-greige-canvas: #faf6f0;\n    --color-midnight-ink: #000000;\n    --color-soft-graphite: #5e697f;\n    --color-pure-white: #ffffff;\n    --font-unbounded: 'Unbounded', 'Montserrat', 'Poppins', sans-serif;\n    --font-inter: 'Inter', sans-serif;\n  }\n  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Unbounded:wght@400;500&display=swap');\n</style>\n<div style=\"background: var(--color-greige-canvas); padding: 48px 40px; font-family: var(--font-inter); border: 1px solid var(--color-midnight-ink); display: flex; flex-direction: column; align-items: flex-start; gap: 32px; max-width: 600px; box-sizing: border-box;\">\n  <div style=\"display: flex; flex-direction: column; gap: 12px;\">\n    <h2 style=\"font-family: var(--font-unbounded); font-size: 34px; font-weight: 500; line-height: 1.2; letter-spacing: 0.01em; color: var(--color-midnight-ink); margin: 0;\">Start building today.</h2>\n    <p style=\"font-family: var(--font-inter); font-size: 18px; font-weight: 400; line-height: 1.6; letter-spacing: -0.02em; color: var(--color-soft-graphite); margin: 0;\">Join thousands of creative teams already using Hello Ivy to manage their projects effortlessly.</p>\n  </div>\n  <div style=\"display: flex; flex-wrap: wrap; gap: 12px; align-items: center;\">\n    <a href=\"#\" style=\"display: inline-flex; align-items: center; gap: 8px; background: var(--color-midnight-ink); color: var(--color-pure-white); font-family: var(--font-inter); font-size: 16px; font-weight: 600; letter-spacing: -0.02em; text-decoration: none; padding: 14px 28px; border-radius: 9999px; border: none; cursor: pointer;\">Get Started Free</a>\n    <a href=\"#\" style=\"display: inline-flex; align-items: center; gap: 8px; background: transparent; color: var(--color-midnight-ink); font-family: var(--font-inter); font-size: 16px; font-weight: 600; letter-spacing: -0.02em; text-decoration: none; padding: 14px 28px; border-radius: 8px; border: 1.5px solid var(--color-midnight-ink); cursor: pointer;\">View Pricing</a>\n    <a href=\"#\" style=\"display: inline-flex; align-items: center; gap: 6px; background: transparent; color: var(--color-soft-graphite); font-family: var(--font-inter); font-size: 15px; font-weight: 400; letter-spacing: -0.02em; text-decoration: none; padding: 14px 4px; border-radius: 0; border: none; cursor: pointer;\">Log in <svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M3 8h10M9 4l4 4-4 4\" stroke=\"#5e697f\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></a>\n  </div>\n  <p style=\"font-family: var(--font-inter); font-size: 13px; font-weight: 400; color: var(--color-soft-graphite); letter-spacing: -0.02em; margin: 0;\">No credit card required · Free 14-day trial · Cancel anytime</p>\n</div>",
+          "name": "CTA Button Group",
+          "role": "",
+          "description": ""
+        },
+        {
+          "html": "<style>\n  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Unbounded:wght@400;500&display=swap');\n  :root {\n    --color-greige-canvas: #faf6f0;\n    --color-midnight-ink: #000000;\n    --color-soft-graphite: #5e697f;\n    --color-pure-white: #ffffff;\n    --font-unbounded: 'Unbounded', 'Montserrat', sans-serif;\n    --font-inter: 'Inter', sans-serif;\n  }\n</style>\n<div style=\"background: var(--color-greige-canvas); max-width: 600px; box-sizing: border-box; font-family: var(--font-inter); border: 1px solid var(--color-midnight-ink);\">\n  <div style=\"padding: 14px 24px; border-bottom: 1px solid var(--color-midnight-ink);\">\n    <span style=\"font-family: var(--font-inter); font-size: 12px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--color-soft-graphite);\">Features</span>\n  </div>\n  <div style=\"display: grid; grid-template-columns: 1fr 1fr; border-bottom: 1px solid var(--color-midnight-ink);\">\n    <div style=\"padding: 32px 24px; border-right: 1px solid var(--color-midnight-ink); display: flex; flex-direction: column; gap: 16px;\">\n      <div style=\"width: 40px; height: 40px; border-radius: 8px; border: 1.5px solid var(--color-midnight-ink); display: flex; align-items: center; justify-content: center; background: var(--color-greige-canvas);\">\n        <svg width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"3\" y=\"3\" width=\"14\" height=\"3\" rx=\"1\" fill=\"#000\"/><rect x=\"3\" y=\"9\" width=\"9\" height=\"3\" rx=\"1\" fill=\"#000\"/><rect x=\"3\" y=\"15\" width=\"11\" height=\"3\" rx=\"1\" fill=\"#000\"/></svg>\n      </div>\n      <h3 style=\"font-family: var(--font-inter); font-size: 16px; font-weight: 700; line-height: 1.4; letter-spacing: -0.02em; color: var(--color-midnight-ink); margin: 0;\">The Feed</h3>\n      <p style=\"font-family: var(--font-inter); font-size: 14px; font-weight: 400; line-height: 1.6; letter-spacing: -0.02em; color: var(--color-soft-graphite); margin: 0;\">Share updates, latest designs, and milestones. Keep everyone on your team in the loop without endless email threads.</p>\n    </div>\n    <div style=\"padding: 32px 24px; display: flex; flex-direction: column; gap: 16px;\">\n      <div style=\"width: 40px; height: 40px; border-radius: 8px; border: 1.5px solid var(--color-midnight-ink); display: flex; align-items: center; justify-content: center; background: var(--color-greige-canvas);\">\n        <svg width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"10\" cy=\"10\" r=\"7\" stroke=\"#000\" stroke-width=\"1.8\"/><path d=\"M10 6v4l3 2\" stroke=\"#000\" stroke-width=\"1.8\" stroke-linecap=\"round\"/></svg>\n      </div>\n      <h3 style=\"font-family: var(--font-inter); font-size: 16px; font-weight: 700; line-height: 1.4; letter-spacing: -0.02em; color: var(--color-midnight-ink); margin: 0;\">Task Tracking</h3>\n      <p style=\"font-family: var(--font-inter); font-size: 14px; font-weight: 400; line-height: 1.6; letter-spacing: -0.02em; color: var(--color-soft-graphite); margin: 0;\">Assign tasks, set deadlines, and track progress in one place. Everything your design team needs to stay on schedule.</p>\n    </div>\n  </div>\n  <div style=\"display: grid; grid-template-columns: 1fr 1fr;\">\n    <div style=\"padding: 32px 24px; border-right: 1px solid var(--color-midnight-ink); display: flex; flex-direction: column; gap: 16px;\">\n      <div style=\"width: 40px; height: 40px; border-radius: 8px; border: 1.5px solid var(--color-midnight-ink); display: flex; align-items: center; justify-content: center; background: var(--color-greige-canvas);\">\n        <svg width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M4 10a6 6 0 1 1 12 0 6 6 0 0 1-12 0Z\" stroke=\"#000\" stroke-width=\"1.8\"/><path d=\"M10 7v3l2 2\" stroke=\"#000\" stroke-width=\"1.8\" stroke-linecap=\"round\"/></svg>\n      </div>\n      <h3 style=\"font-family: var(--font-inter); font-size: 16px; font-weight: 700; line-height: 1.4; letter-spacing: -0.02em; color: var(--color-midnight-ink); margin: 0;\">Timelines</h3>\n      <p style=\"font-family: var(--font-inter); font-size: 14px; font-weight: 400; line-height: 1.6; letter-spacing: -0.02em; color: var(--color-soft-graphite); margin: 0;\">Visualize your project schedule with elegant timeline views designed for creative workflows.</p>\n    </div>\n    <div style=\"padding: 32px 24px; display: flex; flex-direction: column; gap: 16px;\">\n      <div style=\"width: 40px; height: 40px; border-radius: 8px; border: 1.5px solid var(--color-midnight-ink); display: flex; align-items: center; justify-content: center; background: var(--color-greige-canvas);\">\n        <svg width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M3 5h14M3 10h10M3 15h6\" stroke=\"#000\" stroke-width=\"1.8\" stroke-linecap=\"round\"/></svg>\n      </div>\n      <h3 style=\"font-family: var(--font-inter); font-size: 16px; font-weight: 700; line-height: 1.4; letter-spacing: -0.02em; color: var(--color-midnight-ink); margin: 0;\">Briefs & Docs</h3>\n      <p style=\"font-family: var(--font-inter); font-size: 14px; font-weight: 400; line-height: 1.6; letter-spacing: -0.02em; color: var(--color-soft-graphite); margin: 0;\">Store project briefs, creative direction, and documentation alongside the work it relates to.</p>\n    </div>\n  </div>\n</div>",
+          "name": "Feature Highlight Card",
+          "role": "",
+          "description": ""
+        },
+        {
+          "html": "<style>\n  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Unbounded:wght@400;500&display=swap');\n  :root {\n    --color-greige-canvas: #faf6f0;\n    --color-midnight-ink: #000000;\n    --color-soft-graphite: #5e697f;\n    --color-pure-white: #ffffff;\n    --font-unbounded: 'Unbounded', 'Montserrat', sans-serif;\n    --font-inter: 'Inter', sans-serif;\n  }\n</style>\n<div style=\"background: var(--color-greige-canvas); max-width: 600px; box-sizing: border-box; font-family: var(--font-inter); border: 1px solid var(--color-midnight-ink);\">\n  <div style=\"padding: 16px 24px; border-bottom: 1px solid var(--color-midnight-ink);\">\n    <span style=\"font-family: var(--font-inter); font-size: 11px; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: var(--color-soft-graphite);\">Used by the most productive design teams and agencies</span>\n  </div>\n  <div style=\"display: grid; grid-template-columns: 1fr 1fr 1fr; border-bottom: 1px solid var(--color-midnight-ink);\">\n    <div style=\"padding: 28px 20px; display: flex; align-items: center; justify-content: center; border-right: 1px solid var(--color-midnight-ink);\">\n      <span style=\"font-family: var(--font-inter); font-size: 16px; font-weight: 700; letter-spacing: 0.04em; color: var(--color-soft-graphite); display: flex; align-items: center; gap: 6px;\">\n        <span style=\"width: 12px; height: 12px; border-radius: 50%; background: var(--color-soft-graphite); display: inline-block;\"></span>DARKRED\n      </span>\n    </div>\n    <div style=\"padding: 28px 20px; display: flex; align-items: center; justify-content: center; border-right: 1px solid var(--color-midnight-ink);\">\n      <span style=\"font-family: var(--font-unbounded); font-size: 20px; font-weight: 500; letter-spacing: 0.01em; color: var(--color-soft-graphite);\">2K</span>\n    </div>\n    <div style=\"padding: 28px 20px; display: flex; align-items: center; justify-content: center;\">\n      <span style=\"font-family: var(--font-inter); font-size: 13px; font-weight: 400; letter-spacing: 0.18em; text-transform: uppercase; color: var(--color-soft-graphite);\">LAIKA HUNT</span>\n    </div>\n  </div>\n  <div style=\"display: grid; grid-template-columns: 1fr 1fr 1fr; border-bottom: 1px solid var(--color-midnight-ink);\">\n    <div style=\"padding: 28px 20px; display: flex; align-items: center; justify-content: center; border-right: 1px solid var(--color-midnight-ink);\">\n      <span style=\"font-family: var(--font-inter); font-size: 15px; font-weight: 400; letter-spacing: 0.2em; color: var(--color-soft-graphite);\">anomely</span>\n    </div>\n    <div style=\"padding: 28px 20px; display: flex; align-items: center; justify-content: center; border-right: 1px solid var(--color-midnight-ink);\">\n      <span style=\"font-family: Georgia, serif; font-style: italic; font-size: 18px; font-weight: 400; letter-spacing: 0.04em; color: var(--color-soft-graphite);\">duzi—studio</span>\n    </div>\n    <div style=\"padding: 28px 20px; display: flex; align-items: center; justify-content: center;\">\n      <span style=\"font-family: var(--font-inter); font-size: 14px; font-weight: 500; letter-spacing: -0.01em; color: var(--color-soft-graphite); display: flex; align-items: center; gap: 7px;\">\n        <span style=\"width: 10px; height: 10px; border-radius: 50%; background: var(--color-soft-graphite); display: inline-block;\"></span>Frozen Lemons\n      </span>\n    </div>\n  </div>\n  <div style=\"padding: 20px 24px; display: flex; align-items: center; justify-content: space-between;\">\n    <p style=\"font-family: var(--font-inter); font-size: 14px; font-weight: 400; line-height: 1.5; letter-spacing: -0.02em; color: var(--color-soft-graphite); margin: 0;\">Trusted by <strong style=\"color: var(--color-midnight-ink); font-weight: 700;\">500+</strong> creative teams worldwide</p>\n    <a href=\"#\" style=\"font-family: var(--font-inter); font-size: 14px; font-weight: 600; letter-spacing: -0.02em; color: var(--color-midnight-ink); text-decoration: none; display: flex; align-items: center; gap: 4px;\">See all <svg width=\"14\" height=\"14\" viewBox=\"0 0 14 14\" fill=\"none\"><path d=\"M2 7h10M8 3l4 4-4 4\" stroke=\"#000\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></a>\n  </div>\n</div>",
+          "name": "Social Proof / Client Logo Grid",
+          "role": "",
+          "description": ""
+        },
+        {
+          "name": "Primary Navigation Link",
+          "role": "Main navigation items",
+          "description": "Text uses Inter, 400 weight, 16px, Midnight Ink (#000000). No background or explicit padding, but positioned within clear horizontal spacing."
+        },
+        {
+          "name": "Hero Headline",
+          "role": "Main page title",
+          "description": "Unbounded font, 82px size, 1.10 line-height, 0.02em letter-spacing, Midnight Ink (#000000)."
+        },
+        {
+          "name": "Hero Body Text",
+          "role": "Introductory paragraph",
+          "description": "Inter font, 18px size, 1.60 line-height, -0.02em letter-spacing, Soft Graphite (#5e697f)."
+        },
+        {
+          "name": "Feature Section Heading",
+          "role": "Section titles for feature blocks",
+          "description": "Unbounded font, 20px size, 1.20 line-height, 0.01em letter-spacing, Midnight Ink (#000000). Often appears uppercase and centrally aligned."
+        },
+        {
+          "name": "Footer 'Try it for Free' Button",
+          "role": "Persistent contact/CTA in footer",
+          "description": "Solid Pill Button variant but with Pure White text color for consistency. Midnight Ink (#000000) background, 9999px border-radius. Positioned in a subtle fixed element."
+        }
+      ],
+      "typography": [
+        {
+          "role": "Display headlines and section titles — its geometric, strong character provides a modern, impactful presence, especially when rendered in high weights and large sizes. The increased letter-spacing at larger sizes adds an airy, deliberate feel.",
+          "sizes": "20px, 34px, 62px, 82px",
+          "family": "Unbounded",
+          "weight": "400, 500",
+          "lineHeight": "1.10, 1.20, 1.40",
+          "substitute": "Montserrat, Poppins",
+          "letterSpacing": "0.01em, 0.02em"
+        },
+        {
+          "role": "Primary body text, subheadings, and UI labels — its legibility and modern geometric construction make it ideal for dense information. The consistent slight negative letter-spacing (-0.02em) across all sizes enhances text density without sacrificing readability.",
+          "sizes": "12px, 14px, 16px, 18px, 24px, 27px, 32px",
+          "family": "Inter",
+          "weight": "400, 500, 600, 700",
+          "lineHeight": "1.20, 1.40, 1.50, 1.57, 1.60",
+          "substitute": "Inter",
+          "letterSpacing": "-0.02em"
+        },
+        {
+          "role": "Small utility text, inline links, and discreet UI elements where Inter might be too strong — provides a lighter touch for less critical information or when a subtle system font is preferred.",
+          "sizes": "12px",
+          "family": "system-ui (sans-serif fallback)",
+          "weight": "400",
+          "lineHeight": "1.20",
+          "substitute": "inherit"
+        }
+      ],
+      "description": "Hello Ivy presents as an architectural blueprint rendered on thick, creamy paper, conveying both structure and a subtle warmth. Heavy, bold titles anchor content, while a high-contrast monochromatic palette creates stark visual hierarchy. The signature feature is the strong grid system defined by fine black lines, segmenting content into clear, distinct blocks, as if each piece of information is a precisely cut and placed element within a larger, deliberate composition. Sparse use of color and a focus on sharp edges for everything but interactive elements contributes to a feeling of focused utility and quiet authority.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "### Quick Color Reference\n- Text (Primary): #000000\n- Background (Primary): #faf6f0\n- CTA Button (Solid): #000000\n- Border: #000000\n- Text (Secondary): #5e697f\n\n### 3-5 Example Component Prompts\n1. **Create a hero section:** Set background to Greige Canvas (#faf6f0). Add a centered headline using Unbounded, 82px, weight 400, #000000, line-height 1.1, letter-spacing 1.64px. Below it, add a body paragraph using Inter, 18px, weight 400, #5e697f, line-height 1.6, letter-spacing -0.36px. Include a Solid Pill Button centered below the text: Midnight Ink (#000000) background, Pure White (#ffffff) text, 9999px radius, 15px 30px padding.\n2. **Generate an Outline Button:** Text 'Log In' using Inter, 16px, weight 400, #000000, line-height 1.2. Set background transparent, border 1px solid #000000, border-radius 8px, padding 15px 6px.\n3. **Design a Client Logo Grid item:** Create a square container with a 1px solid Midnight Ink (#000000) border. Within, place a desaturated, grayscale logo (e.g., opacity 0.6) centered. Background should be Greige Canvas (#faf6f0).\n4. **Produce a Feature Sub-section:** Start with a 1px solid Midnight Ink (#000000) horizontal rule. Below, place a heading 'Improve visibility, stay in the loop.' using Unbounded, 20px, weight 400, #000000, line-height 1.2, letter-spacing 0.2px. Follow with a body paragraph 'Hello Ivy helps creative teams...' using Inter, 16px, weight 400, #5e697f, line-height 1.5, letter-spacing -0.32px."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775932463602-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775932463602-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/5af6b791-6cad-4497-9e94-ace28e4fbd51",
+  "ranks": {
+    "trending": 978,
+    "popular": 578,
+    "newest": 995
+  },
+  "localSlug": "helloivy-5af6b791"
+}

@@ -1,0 +1,703 @@
+{
+  "id": "e57d9536-22a7-49db-8bd4-4306d8927ec3",
+  "url": "https://www.superhibasicincome.com",
+  "siteName": "SuperHi Basic Income",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777515388251-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777515388251-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "light",
+  "colors": [
+    {
+      "name": "Canvas White",
+      "hex": "#ffffff"
+    },
+    {
+      "name": "SuperHi Blue",
+      "hex": "#2727e6"
+    },
+    {
+      "name": "Hover Sky",
+      "hex": "#9de6fa"
+    }
+  ],
+  "fonts": [
+    "Basis",
+    "DDC"
+  ],
+  "northStar": "Bifurcated digital canvas",
+  "createdAt": "2026-04-30T02:16:51.852Z",
+  "previewVideoCapturedAt": null,
+  "industry": "other",
+  "fullResult": {
+    "meta": {
+      "url": "https://www.superhibasicincome.com",
+      "siteName": "SuperHi Basic Income",
+      "extractedAt": "2026-04-30T02:16:51.578Z",
+      "durationMs": 37528,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 332,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#2727e6",
+            "oklch": {
+              "c": 0.267287738158167,
+              "h": 268.81443855433497,
+              "l": 0.4512477090052162
+            },
+            "contexts": [
+              "other",
+              "hero",
+              "heading",
+              "body",
+              "link",
+              "list",
+              "icon",
+              "button"
+            ],
+            "frequency": 1544,
+            "confidence": 1,
+            "prominence": 106929562.87276632,
+            "properties": [
+              "color",
+              "borderColor",
+              "backgroundColor",
+              "stroke"
+            ],
+            "usageCounts": {
+              "body/color": 89,
+              "icon/color": 3,
+              "link/color": 42,
+              "list/color": 37,
+              "icon/stroke": 6,
+              "other/color": 101,
+              "button/color": 2,
+              "other/stroke": 6,
+              "heading/color": 32,
+              "body/borderColor": 356,
+              "icon/borderColor": 12,
+              "link/borderColor": 168,
+              "list/borderColor": 148,
+              "other/borderColor": 404,
+              "button/borderColor": 8,
+              "heading/borderColor": 128,
+              "hero/backgroundColor": 1,
+              "other/backgroundColor": 1
+            }
+          },
+          {
+            "hex": "#ffffff",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 1.0000000000000002
+            },
+            "contexts": [
+              "hero",
+              "other",
+              "heading",
+              "link",
+              "body",
+              "icon"
+            ],
+            "frequency": 80,
+            "confidence": 1,
+            "prominence": 42662911.12066157,
+            "properties": [
+              "color",
+              "borderColor",
+              "backgroundColor",
+              "fill"
+            ],
+            "usageCounts": {
+              "icon/fill": 2,
+              "body/color": 3,
+              "hero/color": 1,
+              "icon/color": 1,
+              "link/color": 1,
+              "other/fill": 1,
+              "other/color": 6,
+              "heading/color": 3,
+              "body/borderColor": 12,
+              "hero/borderColor": 4,
+              "icon/borderColor": 4,
+              "link/borderColor": 4,
+              "other/borderColor": 24,
+              "heading/borderColor": 12,
+              "other/backgroundColor": 2
+            }
+          }
+        ],
+        "isDarkMode": false,
+        "colorfulness": 0.6868131202839332,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 8.34,
+            "background": "#ffffff",
+            "foreground": "#2727e6"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [
+          {
+            "value": 50,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 7
+          },
+          {
+            "value": 16,
+            "contexts": [
+              "button"
+            ],
+            "frequency": 1
+          }
+        ],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 4,
+            "contexts": [
+              "body",
+              "button"
+            ],
+            "frequency": 16,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|body",
+              "paddingLeft|body",
+              "paddingRight|button",
+              "paddingLeft|button"
+            ]
+          },
+          {
+            "value": 8,
+            "contexts": [
+              "heading",
+              "list",
+              "body",
+              "other",
+              "icon"
+            ],
+            "frequency": 103,
+            "properties": [
+              "paddingRight",
+              "paddingLeft",
+              "marginTop",
+              "marginBottom",
+              "marginRight"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|heading",
+              "paddingLeft|heading",
+              "marginTop|list",
+              "marginBottom|list",
+              "marginTop|body",
+              "marginBottom|other",
+              "marginBottom|heading",
+              "marginRight|icon"
+            ]
+          },
+          {
+            "value": 16,
+            "contexts": [
+              "other",
+              "body"
+            ],
+            "frequency": 71,
+            "properties": [
+              "rowGap",
+              "columnGap",
+              "marginBottom",
+              "marginTop",
+              "paddingTop",
+              "paddingRight",
+              "paddingBottom",
+              "paddingLeft",
+              "marginRight"
+            ],
+            "propertyContextPairs": [
+              "rowGap|other",
+              "columnGap|other",
+              "marginBottom|other",
+              "marginBottom|body",
+              "marginTop|other",
+              "paddingTop|other",
+              "paddingRight|other",
+              "paddingBottom|other",
+              "paddingLeft|other",
+              "marginRight|other"
+            ]
+          },
+          {
+            "value": 24,
+            "contexts": [
+              "other",
+              "body"
+            ],
+            "frequency": 60,
+            "properties": [
+              "rowGap",
+              "columnGap",
+              "marginBottom",
+              "paddingTop",
+              "paddingRight",
+              "paddingBottom",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "rowGap|other",
+              "columnGap|other",
+              "marginBottom|other",
+              "marginBottom|body",
+              "paddingTop|other",
+              "paddingRight|other",
+              "paddingBottom|other",
+              "paddingLeft|other"
+            ]
+          },
+          {
+            "value": 32,
+            "contexts": [
+              "other",
+              "list",
+              "link",
+              "button"
+            ],
+            "frequency": 133,
+            "properties": [
+              "paddingTop",
+              "paddingRight",
+              "paddingBottom",
+              "paddingLeft",
+              "marginBottom",
+              "marginLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other",
+              "paddingRight|other",
+              "paddingBottom|other",
+              "paddingLeft|other",
+              "marginBottom|other",
+              "marginBottom|list",
+              "paddingLeft|list",
+              "paddingTop|link",
+              "paddingRight|link",
+              "paddingBottom|link",
+              "paddingLeft|link",
+              "paddingTop|button",
+              "paddingRight|button",
+              "paddingBottom|button",
+              "paddingLeft|button",
+              "marginLeft|other"
+            ]
+          }
+        ],
+        "density": "comfortable",
+        "baseUnit": 8
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "Basis",
+            "source": "custom",
+            "weights": [
+              400,
+              500,
+              700
+            ],
+            "frequency": 303,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "DDC",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 18,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 16,
+          "name": "Major Second",
+          "ratio": 1.125,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 13,
+            "family": "Basis",
+            "weight": 400,
+            "contexts": [
+              "button"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.46,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 14,
+            "family": "Basis",
+            "weight": 700,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 7,
+            "lineHeight": 1.14,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 16,
+            "family": "Basis",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "hero",
+              "body",
+              "icon",
+              "link"
+            ],
+            "frequency": 155,
+            "lineHeight": 1.5,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "Basis",
+            "weight": 700,
+            "contexts": [
+              "link",
+              "other"
+            ],
+            "frequency": 48,
+            "lineHeight": 1.5,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 21,
+            "family": "Basis",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "body",
+              "link"
+            ],
+            "frequency": 19,
+            "lineHeight": 1.14,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 21,
+            "family": "Basis",
+            "weight": 500,
+            "contexts": [
+              "list"
+            ],
+            "frequency": 37,
+            "lineHeight": 1.33,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 21,
+            "family": "Basis",
+            "weight": 700,
+            "contexts": [
+              "link"
+            ],
+            "frequency": 6,
+            "lineHeight": 1.33,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 21,
+            "family": "DDC",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "heading",
+              "icon",
+              "body"
+            ],
+            "frequency": 4,
+            "lineHeight": 1.14,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 24,
+            "family": "DDC",
+            "weight": 400,
+            "contexts": [
+              "heading",
+              "link",
+              "body",
+              "other",
+              "button"
+            ],
+            "frequency": 14,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 24,
+            "family": "Basis",
+            "weight": 500,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.67,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 24,
+            "family": "Basis",
+            "weight": 500,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 6,
+            "lineHeight": 1.33,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 32,
+            "family": "Basis",
+            "weight": 500,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 22,
+            "lineHeight": 1.25,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 48,
+            "family": "Basis",
+            "weight": 500,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.17,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Always apply vertical sections that divide the page into a 30%/70% column split, with the left column being full-bleed SuperHi Blue (#2727e6) and the right column Canvas White (#ffffff).",
+        "Use Basis font for nearly all textual content, reserving DDC for highly decorative or branded headings.",
+        "Ensure all interactive elements, including links and button borders, use SuperHi Blue (#2727e6) as their primary accent color.",
+        "Implement `ease` timing functions for all transitions to maintain a unified, expressive motion personality.",
+        "Apply 32px padding consistently for card-like elements or content sections.",
+        "Leverage a 16px radius for all button components where a contained shape is needed, and 50px for pill-shaped elements.",
+        "Prioritize single pixel borders in SuperHi Blue (#2727e6) to define interactive zones rather than heavy backgrounds."
+      ],
+      "donts": [
+        "Do not introduce new chromatic colors outside of SuperHi Blue and its hover state; maintain the high-contrast blue/white aesthetic.",
+        "Avoid using drop shadows or complex elevation states; rely on border treatments and color contrast for visual hierarchy.",
+        "Do not use generic system fonts unless absolutely necessary; always prefer Basis and DDC.",
+        "Refrain from using heavily filled buttons; ghost buttons with SuperHi Blue borders are the preferred interactive style.",
+        "Do not deviate from the comfortable density with 8px element gaps and 32px section/card padding.",
+        "Avoid decorative imagery; focus on typography and simple geometrical forms to convey information and brand identity."
+      ],
+      "theme": "light",
+      "colors": [
+        {
+          "hex": "#ffffff",
+          "name": "Canvas White",
+          "role": "Page backgrounds, card surfaces, primary text for inverted sections",
+          "group": "neutral"
+        },
+        {
+          "hex": "#2727e6",
+          "name": "SuperHi Blue",
+          "role": "Violet accent for outlined action borders, linked labels, and lightweight interactive emphasis",
+          "group": "brand"
+        },
+        {
+          "hex": "#9de6fa",
+          "name": "Hover Sky",
+          "role": "Supporting palette color for small decorative accents when the core palette needs contrast. Do not promote it to the primary CTA color",
+          "group": "accent"
+        }
+      ],
+      "layout": "The page adheres to a two-zone, full-height vertical division: a full-bleed SuperHi Blue (#2727e6) left column (approx. 30% width) containing branding and key status, and a full-bleed Canvas White (#ffffff) right column (approx. 70% width) for all primary content. The hero section features a centered headline over the right content area. Content flow within the right column is primarily vertical stacking of text blocks, often with left-aligned headings and body text. Interactive elements like questions and checkboxes use simple list structures. There is no explicit grid for cards, but elements like benefit lists are presented as linear stacks. Navigation is minimal, integrated into the header and within content links.",
+      "imagery": "The site's visual language is abstract and functional, dominated by a dynamic, dotted, wireframe-like globe rendering on the left panel, which serves as a decorative brand element rather than contextual content. No photography or complex illustrations are used. Icons are minimal, represented by simple geometric shapes like play triangles and list circles, rendered in SuperHi Blue. The overall density is text-dominant, with imagery taking a atmospheric, abstract role.",
+      "similar": [
+        {
+          "why": "Stark white backgrounds, tight typography, a single prominent accent color, and a focus on clean, precise UI elements.",
+          "business": "Stripe"
+        },
+        {
+          "why": "Minimalist UI, compact typography, high-contrast monochrome base with a single, functional accent color, and ghost-style interactive elements.",
+          "business": "linear.app"
+        },
+        {
+          "why": "Clean, predominantly white canvas, functional use of a single vibrant blue for actions and highlights, and precise, well-defined typographic hierarchy.",
+          "business": "Figma"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "tags": "50px",
+          "buttons": "16px"
+        },
+        "elementGap": "8px",
+        "sectionGap": "32px",
+        "cardPadding": "32px",
+        "pageMaxWidth": null
+      },
+      "industry": "other",
+      "northStar": "Bifurcated digital canvas",
+      "typeScale": [
+        {
+          "role": "caption",
+          "size": 13,
+          "lineHeight": 1.67
+        },
+        {
+          "role": "body",
+          "size": 16,
+          "lineHeight": 1.46
+        },
+        {
+          "role": "subheading",
+          "size": 21,
+          "lineHeight": 1.33
+        },
+        {
+          "role": "heading",
+          "size": 24,
+          "lineHeight": 1.25
+        },
+        {
+          "role": "heading-lg",
+          "size": 32,
+          "lineHeight": 1.17
+        },
+        {
+          "role": "display",
+          "size": 48,
+          "lineHeight": 1.14
+        }
+      ],
+      "components": [
+        {
+          "name": "Text Link",
+          "role": "Inline navigation, references, and emphasized text.",
+          "description": "Uses SuperHi Blue (#2727e6) for normal state, transitioning to Hover Sky (#9de6fa) on hover, with `text-decoration: underline;`."
+        },
+        {
+          "name": "Interactive Orb Button",
+          "role": "Primary call to action in a decorative, circular form.",
+          "description": "A ghost button with a 50% border radius (for a perfect circle), 32px equal padding, and a 1px SuperHi Blue (#2727e6) border. Text color is also SuperHi Blue (#2727e6). Background is transparent."
+        },
+        {
+          "name": "Pill Button",
+          "role": "Secondary action or tag, often with text content.",
+          "description": "A ghost button with a 16px border radius, 0px vertical padding and 4px horizontal padding, and a 1px SuperHi Blue (#2727e6) border. Text color is SuperHi Blue (#2727e6). Background is transparent."
+        },
+        {
+          "name": "FAQ Accordion Item",
+          "role": "Expandable content block for questions and answers.",
+          "description": "The active state implies a border or indicator in SuperHi Blue (#2727e6). Content uses Basis at 16px/1.46lh."
+        },
+        {
+          "name": "Checkbox/Radio Button",
+          "role": "Interactive selections with a custom visual style.",
+          "description": "Empty state shows a 1px border in SuperHi Blue (#2727e6). Checked state fills implicitly with SuperHi Blue (#2727e6). Text uses Canvas White (#ffffff) when inverted on SuperHi Blue."
+        }
+      ],
+      "typography": [
+        {
+          "role": "Primary typeface for all body text, headings, and interactive elements. Its neutral yet confident character ensures readability across varied sizes and forms the backbone of the typographic hierarchy.",
+          "sizes": "13px, 14px, 16px, 21px, 24px, 32px, 48px",
+          "family": "Basis",
+          "weight": "400, 500, 700",
+          "weights": [
+            400,
+            500,
+            700
+          ],
+          "lineHeight": "1.14, 1.17, 1.25, 1.33, 1.46, 1.50, 1.67",
+          "substitute": "system-ui"
+        },
+        {
+          "role": "Used sparingly for decorative headings and specific brand elements where a more distinctive, display-oriented serif is desired.",
+          "sizes": "21px, 24px",
+          "family": "DDC",
+          "weight": "400",
+          "weights": [
+            400
+          ],
+          "lineHeight": "1.00, 1.14",
+          "substitute": "Georgia, serif"
+        }
+      ],
+      "description": "SuperHi Basic Income uses a stark, high-contrast digital poster aesthetic. A dominant, vivid blue acts as both a brand identifier and functional element across an otherwise white canvas, creating a distinctive two-zone layout. Typography is compact and precise, maintaining a clear hierarchy without resorting to heavy weights. Component accents are minimal, often relying on border treatments or small details to signify interactivity, reinforcing a lightweight, almost ephemeral sense of interaction.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "Quick Color Reference:\ntext: #2727e6\nbackground: #ffffff\nborder: #2727e6\naccent: #2727e6\nprimary action: #2727e6 (outlined action border)\n\nExample Component Prompts:\n1. Create a primary headline for a new section: 'Unlock Your Potential' using Basis weight 400 at 48px, color SuperHi Blue (#2727e6), with a line height of 1.14.\n2. Design an interactive link for navigation: 'Learn More' using Basis weight 400 at 16px, color SuperHi Blue (#2727e6), with `text-decoration: underline`. On hover, change color to Hover Sky (#9de6fa).\n3. Generate a circular call-to-action button: with a SuperHi Blue (#2727e6) 1px border and SuperHi Blue (#2727e6) text 'Apply Now', 50% border-radius, and 32px padding on all sides.\n4. Create a pill-shaped tag button: 'Application Status' with a SuperHi Blue (#2727e6) 1px border and SuperHi Blue (#2727e6) text, 16px border-radius, 0px vertical padding, and 4px horizontal padding."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777515388251-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777515388251-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/e57d9536-22a7-49db-8bd4-4306d8927ec3",
+  "ranks": {
+    "trending": 1207,
+    "popular": 1230,
+    "newest": 401
+  },
+  "localSlug": "superhi-basic-income-e57d9536"
+}

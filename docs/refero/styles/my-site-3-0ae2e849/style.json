@@ -1,0 +1,572 @@
+{
+  "id": "0ae2e849-7a1f-432a-89c6-b49d4a988300",
+  "url": "https://www.al-murphy.com",
+  "siteName": "My Site 3",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777516786005-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777516786005-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "light",
+  "colors": [
+    {
+      "name": "Canvas White",
+      "hex": "#ebebeb"
+    },
+    {
+      "name": "Line Art Black",
+      "hex": "#000000"
+    },
+    {
+      "name": "Near Black",
+      "hex": "#000308"
+    },
+    {
+      "name": "Paper White",
+      "hex": "#ffffff"
+    }
+  ],
+  "fonts": [
+    "Arial",
+    "helvetica-w01-roman"
+  ],
+  "northStar": "Sketchbook of absurdities",
+  "createdAt": "2026-04-30T02:40:01.837Z",
+  "previewVideoCapturedAt": null,
+  "industry": "media",
+  "fullResult": {
+    "meta": {
+      "url": "https://www.al-murphy.com",
+      "siteName": "My Site 3",
+      "extractedAt": "2026-04-30T02:40:01.773Z",
+      "durationMs": 22369,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 242,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "other",
+              "image",
+              "hero",
+              "button",
+              "icon",
+              "footer"
+            ],
+            "frequency": 381,
+            "confidence": 1,
+            "prominence": 15543819.241303341,
+            "properties": [
+              "color",
+              "borderColor",
+              "fill"
+            ],
+            "usageCounts": {
+              "icon/fill": 2,
+              "hero/color": 1,
+              "icon/color": 1,
+              "other/fill": 5,
+              "image/color": 4,
+              "other/color": 70,
+              "button/color": 1,
+              "footer/color": 1,
+              "hero/borderColor": 4,
+              "icon/borderColor": 4,
+              "image/borderColor": 16,
+              "other/borderColor": 264,
+              "button/borderColor": 4,
+              "footer/borderColor": 4
+            }
+          },
+          {
+            "hex": "#ebebeb",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.9400704026805692
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 1661105,
+            "properties": [
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "other/backgroundColor": 1
+            }
+          },
+          {
+            "hex": "#000308",
+            "oklch": {
+              "c": 0.023183869867075126,
+              "h": 244.29434826057553,
+              "l": 0.09345532133281018
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "confidence": 1,
+            "prominence": 137191.18413742183,
+            "properties": [
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "other/backgroundColor": 2
+            }
+          },
+          {
+            "hex": "#ffffff",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 1.0000000000000002
+            },
+            "contexts": [
+              "other",
+              "heading"
+            ],
+            "frequency": 10,
+            "confidence": 1,
+            "prominence": 27820.749077081146,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "other/color": 1,
+              "heading/color": 1,
+              "other/borderColor": 4,
+              "heading/borderColor": 4
+            }
+          }
+        ],
+        "isDarkMode": false,
+        "colorfulness": 0.0003180665367962015,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 21,
+            "background": "#ffffff",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 20.66,
+            "background": "#000308",
+            "foreground": "#ffffff"
+          },
+          {
+            "level": "AAA",
+            "ratio": 17.62,
+            "background": "#ebebeb",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 17.33,
+            "background": "#ebebeb",
+            "foreground": "#000308"
+          },
+          {
+            "level": "fail",
+            "ratio": 1.19,
+            "background": "#ebebeb",
+            "foreground": "#ffffff"
+          },
+          {
+            "level": "fail",
+            "ratio": 1.02,
+            "background": "#000308",
+            "foreground": "#000000"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 12,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "marginBottom|other"
+            ]
+          },
+          {
+            "value": 15,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "marginTop",
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "marginTop|other",
+              "marginBottom|other"
+            ]
+          },
+          {
+            "value": 17,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 3,
+            "properties": [
+              "marginBottom",
+              "marginTop"
+            ],
+            "propertyContextPairs": [
+              "marginBottom|other",
+              "marginTop|other"
+            ]
+          },
+          {
+            "value": 18,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "marginTop",
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "marginTop|other",
+              "marginBottom|other"
+            ]
+          },
+          {
+            "value": 21,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "marginTop",
+              "marginLeft"
+            ],
+            "propertyContextPairs": [
+              "marginTop|other",
+              "marginLeft|other"
+            ]
+          },
+          {
+            "value": 23,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "marginTop"
+            ],
+            "propertyContextPairs": [
+              "marginTop|other"
+            ]
+          },
+          {
+            "value": 29,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 3,
+            "properties": [
+              "marginTop",
+              "marginLeft"
+            ],
+            "propertyContextPairs": [
+              "marginTop|other",
+              "marginLeft|other"
+            ]
+          },
+          {
+            "value": 30,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "marginLeft"
+            ],
+            "propertyContextPairs": [
+              "marginLeft|other"
+            ]
+          },
+          {
+            "value": 32,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "marginTop"
+            ],
+            "propertyContextPairs": [
+              "marginTop|other"
+            ]
+          },
+          {
+            "value": 61,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "marginTop",
+              "marginLeft"
+            ],
+            "propertyContextPairs": [
+              "marginTop|other",
+              "marginLeft|other"
+            ]
+          },
+          {
+            "value": 75,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "marginBottom|other"
+            ]
+          }
+        ],
+        "density": "comfortable",
+        "baseUnit": 4
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "Arial",
+            "source": "system",
+            "weights": [
+              400
+            ],
+            "frequency": 234,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "helvetica-w01-roman",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 2,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 10,
+          "name": "Minor Second",
+          "ratio": 1.067,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 10,
+            "family": "Arial",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "link",
+              "image",
+              "hero",
+              "footer"
+            ],
+            "frequency": 230,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 13,
+            "family": "Arial",
+            "weight": 400,
+            "contexts": [
+              "button",
+              "other",
+              "icon"
+            ],
+            "frequency": 4,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 14,
+            "family": "helvetica-w01-roman",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "heading"
+            ],
+            "frequency": 2,
+            "lineHeight": 1.1,
+            "letterSpacing": 0,
+            "textTransform": "capitalize"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Prioritize use of Canvas White (#ebebeb) for page backgrounds to maintain the sketchbook aesthetic.",
+        "Use Line Art Black (#000000) for all text color, borders, and UI outlines to unify the hand-drawn style.",
+        "Maintain the whimsical, illustrative tone with helvetica-w01-roman for decorative headings at 14px 400 weight.",
+        "Employ Arial 400 weight at 10px or 13px for all body text, links, and navigation, ensuring legibility without distracting from illustrations.",
+        "Ensure generous use of Element Gap (17px) and Section Gap (61px) to create breathing room between illustrations and content sections.",
+        "Utilize Button Primary Fill (#143b0a) with Button Primary Text (#8bff82) for any primary call-to-action buttons.",
+        "Feature 'Ghost Button' for navigation and secondary actions, defined by a 1px Line Art Black (#000000) border and 0px radius."
+      ],
+      "donts": [
+        "Avoid using strong, saturated colors for backgrounds or large areas; restrict color to illustrations and defined interactive states.",
+        "Do not introduce sharp, geometric shapes or hard edges; maintain the organic, hand-drawn feel with 0px radii.",
+        "Do not use elaborate hover states or complex animations on UI elements; keep interactions simple and swift.",
+        "Avoid heavy shadows, gradients, or elevated components that would contradict the flat, illustrated visual language.",
+        "Do not break away from the dominant monochrome and hand-drawn line style for any new pictorial elements or icons.",
+        "Do not use strong typographic hierarchy with varying weights or extended type scales beyond the defined Arial and helvetica-w01-roman roles.",
+        "Avoid dense information blocks; instead, distribute content with generous spacing and illustration breaks."
+      ],
+      "theme": "light",
+      "colors": [
+        {
+          "hex": "#ebebeb",
+          "name": "Canvas White",
+          "role": "Page background, primary surface for content areas",
+          "group": "neutral"
+        },
+        {
+          "hex": "#000000",
+          "name": "Line Art Black",
+          "role": "Illustrations, text, borders, and general UI outlines",
+          "group": "neutral"
+        },
+        {
+          "hex": "#000308",
+          "name": "Near Black",
+          "role": "Subtle background shading for interface sections",
+          "group": "neutral"
+        },
+        {
+          "hex": "#ffffff",
+          "name": "Paper White",
+          "role": "Text and other elements contrasting against Near Black backgrounds or borders",
+          "group": "neutral"
+        }
+      ],
+      "layout": "The page operates on a full-bleed grid pattern, resembling notebook paper with a light gray Canvas White background (#ebebeb) and faint grid lines. Content, primarily illustrations, is scattered freely without a strict max-width container, embracing an artistic collage-like arrangement. The hero section is characterized by a central, dominant illustration surrounded by smaller, equally dispersed graphics. Sections are implicitly defined by the arrangement of these visual elements and consistent vertical spacing rather than explicit dividers or alternating bands. Navigation is minimal, a simple top bar with Ghost Buttons for links. Overall density is high with imagery but sections maintain breathability through generous element gaps.",
+      "imagery": "The site is dominated by a diverse collection of highly stylized, often absurd, hand-drawn illustrations. These are flat, outlined with black, and filled with a limited, vibrant color palette. The illustrations are contained, appearing like stickers scattered across the page, without overlap or complex masking. They serve primarily as decorative atmosphere and elements of brand identity, rather than explanatory content. The site is visually dense with these illustrations, creating a rich, whimsical, and somewhat chaotic visual experience.",
+      "similar": [
+        {
+          "why": "Features hand-drawn, cartoonish illustrations as the primary content and visual style, with minimal UI.",
+          "business": "The Oatmeal"
+        },
+        {
+          "why": "Relies heavily on comic-strip style illustrations and simple, utilitarian typography on a light background.",
+          "business": "Saturday Morning Breakfast Cereal (SMBC)"
+        },
+        {
+          "why": "Utilizes a distinct, often absurd, hand-drawn visual style with black outlines and flat colors, similar to sticker-like elements.",
+          "business": "Cyanide & Happiness"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "none": "0px"
+        },
+        "elementGap": "17px",
+        "sectionGap": "61px",
+        "cardPadding": "17px",
+        "pageMaxWidth": null
+      },
+      "industry": "media",
+      "northStar": "Sketchbook of absurdities",
+      "components": [
+        {
+          "name": "Ghost Button",
+          "role": "Interactive element",
+          "description": "A ghost button with no background or padding, using Line Art Black as border and text color. Radius is 0px. Used for navigation and minimal interactive elements."
+        }
+      ],
+      "typography": [
+        {
+          "role": "Navigation links, general body text, and small descriptive labels, ensuring readability within the whimsical context.",
+          "sizes": "10px, 13px",
+          "family": "Arial",
+          "weight": "400",
+          "lineHeight": "1.20",
+          "substitute": "Arial",
+          "letterSpacing": "normal"
+        },
+        {
+          "role": "Decorative headlines and expressive textual elements, contributing to the hand-drawn, illustrative character of the site.",
+          "sizes": "14px",
+          "family": "helvetica-w01-roman",
+          "weight": "400",
+          "lineHeight": "1.10",
+          "substitute": "Helvetica Neue",
+          "letterSpacing": "normal"
+        }
+      ],
+      "description": "The design system for Al Murphy embraces a whimsical, hand-drawn aesthetic, appearing as illustrations on a digital sketchbook. It features a high contrast monochrome palette of black and white, with thin, hand-sketched lines defining all elements. Typography is minimal, relying on system fonts for navigation and a custom, expressive font for decorative elements, maintaining a light and unpolished feel. The layout provides ample negative space allowing the 'sticker-like' illustrations to breathe and maintain their organic, playful rhythm.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "Quick Color Reference: \ntext: #000000\nbackground: #ebebeb\nborder: #000000\naccent: no distinct accent color\nprimary action: no distinct CTA color\n\nExample Component Prompts:\n1. Create a navigation link: 'Books' using Arial font, 13px, weight 400, color #000000, 0px border-radius, no background.\nNo distinct primary action color was observed; use the extracted neutral button treatments instead of inventing a filled CTA color.\n3. Create a hero section headline using helvetica-w01-roman, 14px, weight 400, color #000000, positioned as a decorative element."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777516786005-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777516786005-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/0ae2e849-7a1f-432a-89c6-b49d4a988300",
+  "ranks": {
+    "trending": 322,
+    "popular": 551,
+    "newest": 325
+  },
+  "localSlug": "my-site-3-0ae2e849"
+}

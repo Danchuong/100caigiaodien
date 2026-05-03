@@ -1,0 +1,837 @@
+{
+  "id": "ca4708f7-7175-4da2-a47f-ce8f5e601f99",
+  "url": "https://honk.me",
+  "siteName": "Honk",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777514887821-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777514887821-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "light",
+  "colors": [
+    {
+      "name": "Sky Canvas",
+      "hex": "#008fff"
+    },
+    {
+      "name": "Sunshine Accent",
+      "hex": "#ffe400"
+    },
+    {
+      "name": "Paper White",
+      "hex": "#ffffff"
+    },
+    {
+      "name": "Charcoal Text",
+      "hex": "#111111"
+    },
+    {
+      "name": "Deep Space",
+      "hex": "#000000"
+    }
+  ],
+  "fonts": [
+    "Honk Header",
+    "Honk Sans"
+  ],
+  "northStar": "joyful, high-contrast messaging",
+  "createdAt": "2026-04-30T02:08:25.009Z",
+  "previewVideoCapturedAt": null,
+  "industry": "media",
+  "fullResult": {
+    "meta": {
+      "url": "https://honk.me",
+      "siteName": "Honk",
+      "extractedAt": "2026-04-30T02:08:24.943Z",
+      "durationMs": 22894,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 93,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#ffffff",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 1.0000000000000002
+            },
+            "contexts": [
+              "other",
+              "button",
+              "heading",
+              "body",
+              "icon",
+              "footer",
+              "link"
+            ],
+            "frequency": 257,
+            "confidence": 1,
+            "prominence": 10274398.955080323,
+            "properties": [
+              "color",
+              "borderColor",
+              "fill",
+              "stroke"
+            ],
+            "usageCounts": {
+              "body/color": 4,
+              "icon/color": 4,
+              "link/color": 1,
+              "other/fill": 1,
+              "other/color": 34,
+              "button/color": 1,
+              "footer/color": 1,
+              "other/stroke": 1,
+              "heading/color": 6,
+              "body/borderColor": 16,
+              "icon/borderColor": 16,
+              "link/borderColor": 4,
+              "other/borderColor": 136,
+              "button/borderColor": 4,
+              "footer/borderColor": 4,
+              "heading/borderColor": 24
+            }
+          },
+          {
+            "hex": "#111111",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.17763777307657064
+            },
+            "contexts": [
+              "other",
+              "body"
+            ],
+            "frequency": 16,
+            "confidence": 1,
+            "prominence": 5242171.09390356,
+            "properties": [
+              "color",
+              "borderColor",
+              "fill"
+            ],
+            "usageCounts": {
+              "body/color": 1,
+              "other/fill": 1,
+              "other/color": 2,
+              "body/borderColor": 4,
+              "other/borderColor": 8
+            }
+          },
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 23,
+            "confidence": 1,
+            "prominence": 1338029.606585455,
+            "properties": [
+              "fill"
+            ],
+            "usageCounts": {
+              "other/fill": 23
+            }
+          },
+          {
+            "hex": "#008fff",
+            "oklch": {
+              "c": 0.21964978646404917,
+              "h": 247.34762227155676,
+              "l": 0.6394719795948713
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 1282500,
+            "properties": [
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "other/backgroundColor": 1
+            }
+          },
+          {
+            "hex": "#363636",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.3328899840110902
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 190238,
+            "properties": [
+              "fill"
+            ],
+            "usageCounts": {
+              "other/fill": 1
+            }
+          },
+          {
+            "hex": "#ffe400",
+            "oklch": {
+              "c": 0.20079107147938102,
+              "h": 99.46654353824202,
+              "l": 0.9161660303424811
+            },
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 10,
+            "confidence": 1,
+            "prominence": 122481.17645785351,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "heading/color": 2,
+              "heading/borderColor": 8
+            }
+          },
+          {
+            "hex": "#b5e5ff",
+            "oklch": {
+              "c": 0.06110397286325288,
+              "h": 231.9756772792513,
+              "l": 0.8969136286719522
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "confidence": 1,
+            "prominence": 44231.5485076253,
+            "properties": [
+              "fill"
+            ],
+            "usageCounts": {
+              "other/fill": 2
+            }
+          },
+          {
+            "hex": "#ffe53d",
+            "oklch": {
+              "c": 0.1747615899399592,
+              "h": 99.97509152135152,
+              "l": 0.9164638984483711
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "confidence": 1,
+            "prominence": 40689.15731851352,
+            "properties": [
+              "fill"
+            ],
+            "usageCounts": {
+              "other/fill": 2
+            }
+          },
+          {
+            "hex": "#00a0ff",
+            "oklch": {
+              "c": 0.19879259609035957,
+              "h": 243.23624341475193,
+              "l": 0.6789627656650362
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 22339,
+            "properties": [
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "other/backgroundColor": 1
+            }
+          },
+          {
+            "hex": "#f3f4f6",
+            "oklch": {
+              "c": 0.002874044372517275,
+              "h": 264.542001211944,
+              "l": 0.9669556421102775
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 3,
+            "confidence": 1,
+            "prominence": 1456,
+            "properties": [
+              "fill"
+            ],
+            "usageCounts": {
+              "other/fill": 3
+            }
+          },
+          {
+            "hex": "#018dff",
+            "oklch": {
+              "c": 0.19620969657772638,
+              "h": 252.71526523787838,
+              "l": 0.6428560019125311
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 4,
+            "confidence": 1,
+            "prominence": 747.6608465537306,
+            "properties": [
+              "fill"
+            ],
+            "usageCounts": {
+              "other/fill": 4
+            }
+          }
+        ],
+        "isDarkMode": false,
+        "colorfulness": 0.031178590729586998,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 21,
+            "background": "#ffffff",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 19.08,
+            "background": "#f3f4f6",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 18.88,
+            "background": "#ffffff",
+            "foreground": "#111111"
+          },
+          {
+            "level": "AAA",
+            "ratio": 17.16,
+            "background": "#f3f4f6",
+            "foreground": "#111111"
+          },
+          {
+            "level": "AAA",
+            "ratio": 16.53,
+            "background": "#ffe53d",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 16.35,
+            "background": "#ffe400",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 15.62,
+            "background": "#b5e5ff",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 14.86,
+            "background": "#ffe53d",
+            "foreground": "#111111"
+          },
+          {
+            "level": "AAA",
+            "ratio": 14.7,
+            "background": "#ffe400",
+            "foreground": "#111111"
+          },
+          {
+            "level": "AAA",
+            "ratio": 14.04,
+            "background": "#b5e5ff",
+            "foreground": "#111111"
+          },
+          {
+            "level": "AAA",
+            "ratio": 12.08,
+            "background": "#ffffff",
+            "foreground": "#363636"
+          },
+          {
+            "level": "AAA",
+            "ratio": 10.98,
+            "background": "#f3f4f6",
+            "foreground": "#363636"
+          },
+          {
+            "level": "AAA",
+            "ratio": 9.51,
+            "background": "#ffe53d",
+            "foreground": "#363636"
+          },
+          {
+            "level": "AAA",
+            "ratio": 9.41,
+            "background": "#ffe400",
+            "foreground": "#363636"
+          },
+          {
+            "level": "AAA",
+            "ratio": 8.99,
+            "background": "#b5e5ff",
+            "foreground": "#363636"
+          },
+          {
+            "level": "AA",
+            "ratio": 6.72,
+            "background": "#00a0ff",
+            "foreground": "#111111"
+          },
+          {
+            "level": "AA",
+            "ratio": 5.73,
+            "background": "#008fff",
+            "foreground": "#111111"
+          },
+          {
+            "level": "fail",
+            "ratio": 3.3,
+            "background": "#008fff",
+            "foreground": "#ffffff"
+          },
+          {
+            "level": "fail",
+            "ratio": 2.81,
+            "background": "#00a0ff",
+            "foreground": "#ffffff"
+          },
+          {
+            "level": "fail",
+            "ratio": 2.57,
+            "background": "#008fff",
+            "foreground": "#ffe400"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [
+          {
+            "value": 6,
+            "contexts": [
+              "link"
+            ],
+            "frequency": 1
+          },
+          {
+            "value": 16,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1
+          }
+        ],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 14,
+            "contexts": [
+              "heading",
+              "body"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingBottom|heading",
+              "paddingBottom|body"
+            ]
+          },
+          {
+            "value": 16,
+            "contexts": [
+              "other",
+              "link"
+            ],
+            "frequency": 3,
+            "properties": [
+              "paddingBottom",
+              "marginTop",
+              "paddingTop"
+            ],
+            "propertyContextPairs": [
+              "paddingBottom|other",
+              "marginTop|link",
+              "paddingTop|other"
+            ]
+          },
+          {
+            "value": 24,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|other",
+              "paddingLeft|other"
+            ]
+          }
+        ],
+        "density": "comfortable",
+        "baseUnit": 8
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "Honk Sans",
+            "source": "custom",
+            "weights": [
+              400,
+              500,
+              600
+            ],
+            "frequency": 50,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "Honk Header",
+            "source": "custom",
+            "weights": [
+              700
+            ],
+            "frequency": 7,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 16,
+          "name": "Major Second",
+          "ratio": 1.125,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 13,
+            "family": "Honk Sans",
+            "weight": 500,
+            "contexts": [
+              "other",
+              "body",
+              "icon"
+            ],
+            "frequency": 5,
+            "lineHeight": 0.7,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 13,
+            "family": "Honk Sans",
+            "weight": 400,
+            "contexts": [
+              "link"
+            ],
+            "frequency": 1,
+            "lineHeight": 1,
+            "letterSpacing": -0.006,
+            "textTransform": "none"
+          },
+          {
+            "size": 14,
+            "family": "Honk Sans",
+            "weight": 400,
+            "contexts": [
+              "footer",
+              "other"
+            ],
+            "frequency": 2,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "Honk Sans",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "button",
+              "link",
+              "body",
+              "icon"
+            ],
+            "frequency": 38,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 17,
+            "family": "Honk Sans",
+            "weight": 400,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.38,
+            "letterSpacing": -0.024,
+            "textTransform": "none"
+          },
+          {
+            "size": 19,
+            "family": "Honk Sans",
+            "weight": 500,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 2,
+            "lineHeight": 1.55,
+            "letterSpacing": -0.018,
+            "textTransform": "none"
+          },
+          {
+            "size": 19,
+            "family": "Honk Sans",
+            "weight": 600,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.47,
+            "letterSpacing": -0.026,
+            "textTransform": "none"
+          },
+          {
+            "size": 52,
+            "family": "Honk Header",
+            "weight": 700,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 7,
+            "lineHeight": 1.23,
+            "letterSpacing": -0.012,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Use Sky Canvas (#008fff) as the foundational background for most sections to maintain a high-energy, immersive feel.",
+        "Apply Sunshine Accent (#ffe400) selectively for major headers and highlight elements to create emphasis against the blue background.",
+        "Ensure all primary text on Sky Canvas uses Paper White (#ffffff) for maximum contrast and legibility.",
+        "Utilize Honk Header font (weight 700) at 52px for all top-level page headings, with a letter-spacing of -0.62px to give a strong, bold identity.",
+        "Implement Honk Sans for all body text, using 14px/400 weight for general paragraphs and 16px/500 weight with -0.42px letter-spacing for subheadings or more prominent paragraphs.",
+        "Maintain minimal border radii where observed: 6px for individual links/buttons and 16px for larger 'other' container elements to introduce soft friendly edges.",
+        "Use 16px as a comfortable base for element spacing where default grid gaps are not explicitly defined, providing adequate breathing room."
+      ],
+      "donts": [
+        "Avoid using multiple chromatic colors beyond Sky Canvas and Sunshine Accent; the system relies on this high-contrast two-tone approach.",
+        "Do not introduce complex shadows or gradients; concentrate on flat, clean design with color providing definition.",
+        "Refrain from using thin light typography for headlines; the system prioritizes bold and impactful messaging.",
+        "Do not place body text directly on Sky Canvas backgrounds in a small size without adequate contrast; if using Charcoal Text (#111111), ensure it's on a Paper White (#ffffff) surface.",
+        "Avoid excessive use of borders; elements should primarily be defined by color blocks or subtle shifts in surface."
+      ],
+      "theme": "light",
+      "title": "Honk - Playful Messaging Canvas",
+      "colors": [
+        {
+          "hex": "#008fff",
+          "name": "Sky Canvas",
+          "role": "Dominant page background, creating a vibrant, immersive field for content",
+          "group": "brand"
+        },
+        {
+          "hex": "#ffe400",
+          "name": "Sunshine Accent",
+          "role": "Yellow outline accent for tags, dividers, and focused UI edges. Do not promote it to the primary CTA color",
+          "group": "accent"
+        },
+        {
+          "hex": "#ffffff",
+          "name": "Paper White",
+          "role": "Hairline borders, dividers, input outlines, and card edges on light surfaces. Do not promote it to the primary CTA color",
+          "group": "neutral"
+        },
+        {
+          "hex": "#111111",
+          "name": "Charcoal Text",
+          "role": "Main body text, providing high contrast against lighter surfaces",
+          "group": "neutral"
+        },
+        {
+          "hex": "#000000",
+          "name": "Deep Space",
+          "role": "Used for specific icon fills and strong visual emphasis against white; never as a full background",
+          "group": "neutral"
+        }
+      ],
+      "layout": "The page primarily uses a full-bleed layout with no discernible maximum width, allowing the vibrant Sky Canvas to fill the entire viewport. The hero section features a large, off-centered headline and subheading on the left, balanced by a significant product visual (smartphone mockup) on the right. Content is arranged with ample negative space around key elements. Navigation appears to be minimal, indicated by a logo in the top left and a footer with a single link. The overall density feels comfortable due to the generous spacing.",
+      "imagery": "The visual language is characterized by abstract graphic elements and product screenshots. The main image features a stylized smartphone with a brightly colored, in-app messaging interface (Tic-Tac-Toe game). This imagery is contained within clearly defined shapes and uses a vibrant green for the app screen, contrasting with the overall blue background. Conversational bubble shapes with playful icons (heart, flower, hand) are used as decorative elements, often in pastel or bright complementary colors (yellow, light blue). Photography is absent; the focus is on a digitally native, illustrative, and UI-centric aesthetic.",
+      "similar": [
+        {
+          "why": "Similar use of expressive, high-contrast color pairings and playful, stylized iconography in a messaging context.",
+          "business": "Discord"
+        },
+        {
+          "why": "Bright, primary color palette and a focus on real-time, ephemeral communication, often with visual playfulness.",
+          "business": "Snapchat"
+        },
+        {
+          "why": "Employs an expressive, colorful interface with character-driven elements and a modern messaging aesthetic.",
+          "business": "KakaoTalk"
+        },
+        {
+          "why": "Utilizes a highly branded, vibrant color palette to differentiate its UI and convey a friendly, productive atmosphere.",
+          "business": "Slack"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "links": "6px",
+          "other": "16px"
+        },
+        "elementGap": "16px",
+        "sectionGap": "48-64px",
+        "cardPadding": "24px",
+        "pageMaxWidth": null
+      },
+      "industry": "media",
+      "surfaces": [
+        {
+          "hex": "#008fff",
+          "name": "Sky Canvas Background",
+          "level": 0,
+          "purpose": "Primary page background layer, providing the brand's signature vibrant blue."
+        },
+        {
+          "hex": "#ffffff",
+          "name": "Paper White Elements",
+          "level": 1,
+          "purpose": "Used for content blocks, text bubbles, and interactive surfaces that sit atop the Sky Canvas to contain and present information clearly."
+        }
+      ],
+      "northStar": "joyful, high-contrast messaging",
+      "typeScale": [
+        {
+          "role": "caption",
+          "size": 13,
+          "lineHeight": 1.38
+        },
+        {
+          "role": "body-sm",
+          "size": 14,
+          "lineHeight": 1.38
+        },
+        {
+          "role": "body",
+          "size": 16,
+          "lineHeight": 1.38
+        },
+        {
+          "role": "body-lg",
+          "size": 17,
+          "lineHeight": 1.38
+        },
+        {
+          "role": "heading-sm",
+          "size": 19,
+          "lineHeight": 1.38
+        }
+      ],
+      "components": [
+        {
+          "name": "Ghost Link Button",
+          "role": "Minimal interactive element for secondary actions, often paired with an icon.",
+          "description": "Text: Paper White (#ffffff) Honk Sans, variable size/weight; Background: transparent (rgba(0,0,0,0)); Border: Paper White (rgb(255, 255, 255)) 0px; Padding: 0px. Used for 'Read Announcement' link."
+        }
+      ],
+      "typography": [
+        {
+          "role": "Prominent display headings, imparting a bold and direct message.",
+          "sizes": "52px",
+          "family": "Honk Header",
+          "weight": "700",
+          "weights": [
+            700
+          ],
+          "lineHeight": "1.23",
+          "substitute": "Montserrat",
+          "letterSpacing": "-0.62"
+        },
+        {
+          "role": "All general UI text, from body copy to labels, links, and footer information. A versatile, clean sans-serif.",
+          "sizes": "13px, 14px, 16px, 17px, 19px",
+          "family": "Honk Sans",
+          "weight": "400, 500, 600",
+          "weights": [
+            400,
+            500,
+            600
+          ],
+          "lineHeight": "0.70, 1.00, 1.20, 1.38, 1.47, 1.55",
+          "substitute": "Inter",
+          "letterSpacing": "-0.21px at 16px, normal at 14px"
+        }
+      ],
+      "description": "Honk uses a vibrant, high-contrast visual system where bold primary colors make the interface pop. The design relies on a striking blue canvas accented by bright yellow highlights and white text, creating an energetic and direct communication style. Typography is bold and casual, contributing to an approachable, fun atmosphere. Most elements are flat with minimal shadows, emphasizing clarity and quick interaction.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "Quick Color Reference:\ntext: #111111\nbackground: #008fff\nborder: #ffffff\naccent: #ffe400\nprimary action: no distinct CTA color\n\nExample Component Prompts:\n1. Create a hero headline block: Honk Header weight 700, 52px, letter-spacing -0.62px, text color Sunshine Accent (#ffe400); immediately followed by body text using Honk Sans, 19px, weight 400, text color Paper White (#ffffff).\n2. Create a footer link: Honk Sans, 14px, weight 400, text color Paper White (#ffffff), no underline, on a Sky Canvas (#008fff) background. It should use a 6px border radius if it were to become a filled button."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777514887821-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777514887821-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/ca4708f7-7175-4da2-a47f-ce8f5e601f99",
+  "ranks": {
+    "trending": 700,
+    "popular": 807,
+    "newest": 434
+  },
+  "localSlug": "honk-ca4708f7"
+}

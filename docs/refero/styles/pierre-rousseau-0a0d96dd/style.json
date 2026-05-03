@@ -1,0 +1,495 @@
+{
+  "id": "0a0d96dd-25bf-4747-836c-33663360da54",
+  "url": "https://pierrerousseau.info",
+  "siteName": "Pierre Rousseau",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777514023511-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777514023511-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "light",
+  "colors": [
+    {
+      "name": "Canvas Ice",
+      "hex": "#dddddd"
+    },
+    {
+      "name": "Midnight Ink",
+      "hex": "#000000"
+    },
+    {
+      "name": "Electric Blue",
+      "hex": "#0000ff"
+    }
+  ],
+  "fonts": [
+    "LL Mono Book Web",
+    "Apato"
+  ],
+  "northStar": "monochrome digital canvas, with precise typographic elements",
+  "createdAt": "2026-04-30T01:53:58.233Z",
+  "previewVideoCapturedAt": null,
+  "industry": "design",
+  "fullResult": {
+    "meta": {
+      "url": "https://pierrerousseau.info",
+      "siteName": "Pierre Rousseau",
+      "extractedAt": "2026-04-30T01:53:58.161Z",
+      "durationMs": 29702,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 1264,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "other",
+              "link",
+              "heading",
+              "body",
+              "image",
+              "list"
+            ],
+            "frequency": 4409,
+            "confidence": 1,
+            "prominence": 468468925.14696383,
+            "properties": [
+              "color",
+              "borderColor",
+              "fill"
+            ],
+            "usageCounts": {
+              "body/color": 302,
+              "link/color": 71,
+              "list/color": 33,
+              "other/fill": 4,
+              "image/color": 15,
+              "other/color": 456,
+              "heading/color": 4,
+              "body/borderColor": 1208,
+              "link/borderColor": 284,
+              "list/borderColor": 132,
+              "image/borderColor": 60,
+              "other/borderColor": 1824,
+              "heading/borderColor": 16
+            }
+          },
+          {
+            "hex": "#dddddd",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.8975468705785317
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 10,
+            "confidence": 1,
+            "prominence": 1492232.7475624355,
+            "properties": [
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "other/backgroundColor": 10
+            }
+          },
+          {
+            "hex": "#0000ff",
+            "oklch": {
+              "c": 0.31321438863448475,
+              "h": 264.05202261636987,
+              "l": 0.45201371817442365
+            },
+            "contexts": [
+              "link"
+            ],
+            "frequency": 1900,
+            "confidence": 1,
+            "prominence": 303215.71438704577,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "link/color": 380,
+              "link/borderColor": 1520
+            }
+          }
+        ],
+        "isDarkMode": false,
+        "colorfulness": 0.2545336622735897,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 15.46,
+            "background": "#dddddd",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AA",
+            "ratio": 6.33,
+            "background": "#dddddd",
+            "foreground": "#0000ff"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 5,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 71,
+            "properties": [
+              "paddingRight"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|other"
+            ]
+          },
+          {
+            "value": 6,
+            "contexts": [
+              "link",
+              "other"
+            ],
+            "frequency": 72,
+            "properties": [
+              "marginTop",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "marginTop|link",
+              "paddingLeft|other"
+            ]
+          },
+          {
+            "value": 12,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 4,
+            "properties": [
+              "paddingTop",
+              "paddingRight",
+              "paddingBottom",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other",
+              "paddingRight|other",
+              "paddingBottom|other",
+              "paddingLeft|other"
+            ]
+          },
+          {
+            "value": 13,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 243,
+            "properties": [
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "marginBottom|body"
+            ]
+          },
+          {
+            "value": 18,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 94,
+            "properties": [
+              "marginBottom",
+              "marginTop"
+            ],
+            "propertyContextPairs": [
+              "marginBottom|other",
+              "marginTop|other"
+            ]
+          },
+          {
+            "value": 27,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 71,
+            "properties": [
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingBottom|other"
+            ]
+          }
+        ],
+        "density": "comfortable",
+        "baseUnit": 6
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "LL Mono Book Web",
+            "source": "custom",
+            "weights": [
+              400,
+              700
+            ],
+            "frequency": 1184,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "Apato",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 77,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": null,
+        "steps": [
+          {
+            "size": 13,
+            "family": "LL Mono Book Web",
+            "weight": 400,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 78,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 13,
+            "family": "LL Mono Book Web",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "body",
+              "link",
+              "image",
+              "list"
+            ],
+            "frequency": 1100,
+            "lineHeight": 1.3,
+            "letterSpacing": 0.03,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 13,
+            "family": "LL Mono Book Web",
+            "weight": 700,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 6,
+            "lineHeight": 1.3,
+            "letterSpacing": 0.03,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 124,
+            "family": "Apato",
+            "weight": 400,
+            "contexts": [
+              "link",
+              "other",
+              "heading"
+            ],
+            "frequency": 77,
+            "lineHeight": 0.8,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Prioritize a minimalist aesthetic; use Canvas Ice (#dddddd) for primary backgrounds and Midnight Ink (#000000) for all primary text and structural borders.",
+        "Introduce Electric Blue (#0000ff) sparingly, exclusively for interactive elements like links and hover states, to ensure high visual impact.",
+        "Employ 'Apato' at 124px weight 400 for all large, statement headlines and main navigation entries, ensuring a lineHeight of 0.8 for a dense, architectural look.",
+        "Use 'LL Mono Book Web' at 13px weight 400 for all body text and secondary information, distinguishing it with a 0.03em letter-spacing and 1.3 lineHeight.",
+        "Maintain sharp, 0px border radii across all elements; rounded corners are not part of this visual vocabulary.",
+        "Utilize a base spacing unit of 6px; apply 13px for general element gaps and 18px for vertical section spacing.",
+        "Ensure all interactive elements, particularly links, are clearly distinguishable with Electric Blue (#0000ff), often presented as an outlined border rather than a filled background."
+      ],
+      "donts": [
+        "Avoid superfluous gradients, shadows, or complex textures; stick to solid colors and stark contrasts.",
+        "Do not use generic system fonts; 'LL Mono Book Web' and 'Apato' define the typographic identity.",
+        "Refrain from introducing additional saturated colors; Electric Blue (#0000ff) is the sole accent color.",
+        "Do not use rounded corners; all interface elements should maintain sharp, 0px radii.",
+        "Avoid verbose text or dense paragraphs; content should be presented concisely, often in list format or short statements.",
+        "Do not break the strict monochromatic palette with imagery; stick to abstract graphics and text-based visuals.",
+        "Do not deviate from the specified Apato line height of 0.8 for headlines; this low value is critical to the visual identity."
+      ],
+      "theme": "light",
+      "colors": [
+        {
+          "hex": "#dddddd",
+          "name": "Canvas Ice",
+          "role": "Page backgrounds, large inactive UI surfaces",
+          "group": "neutral"
+        },
+        {
+          "hex": "#000000",
+          "name": "Midnight Ink",
+          "role": "Primary text, borders for structural elements, emphasis",
+          "group": "neutral"
+        },
+        {
+          "hex": "#0000ff",
+          "name": "Electric Blue",
+          "role": "Interactive elements, outlined link borders, active text states — a vibrant focal point against an achromatic base",
+          "group": "accent"
+        }
+      ],
+      "layout": "The page employs a full-bleed layout, taking up the entire viewport without a fixed max-width. The hero section features extremely large, highly stylized 'Apato' typography (124px) for the brand name, arranged in a custom grid-like fashion that dominates the left half of the screen. This typographic hero establishes the site's unique visual identity immediately. Content sections that follow maintain a strong left alignment. Vertical rhythm is governed by 18px section gaps and 13px element gaps, creating a comfortable yet precise density. Navigation elements are integrated directly into the page content, often as large, interactive typographic blocks, rather than a conventional top bar or sidebar. The layout is unconventional, prioritizing visual impact and artistic expression over standard information hierarchy, leading to a text-dominant, almost graphic design as content approach.",
+      "imagery": "The site's visual language is purely typographic and conceptual. There are no photographs, illustrations, or product screenshots. Imagery is created through the stylized interplay of geometric font forms, acting as decorative elements. Iconography is also conceptual, represented by asterisk-like symbols that are part of the 'Apato' font or character set, integrated into the larger typographic elements.",
+      "similar": [
+        {
+          "why": "Stark, monochrome aesthetic with highly stylized typography and minimal use of accent color to denote interaction or brand focus.",
+          "business": "B&O (Bang & Olufsen)"
+        },
+        {
+          "why": "Experimental, large-scale typography as primary visual elements, often with a grid-like or modular layout and strong black/white contrast.",
+          "business": "Certain typeFoundries' sites (e.g., Vulf)"
+        },
+        {
+          "why": "Conceptual, minimal visual style, often monochromatic, with strong emphasis on unique typography and interactive subtlety.",
+          "business": "Electronic music artist portfolios"
+        },
+        {
+          "why": "Strict adherence to a limited palette and geometric precision, often with a single repetitive visual motif or conceptual element.",
+          "business": "Daniel Buren Estate"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "default": "0px"
+        },
+        "elementGap": "13px",
+        "sectionGap": "",
+        "cardPadding": "12px",
+        "pageMaxWidth": null
+      },
+      "industry": "design",
+      "surfaces": [
+        {
+          "hex": "#dddddd",
+          "name": "Canvas Ice",
+          "level": 0,
+          "purpose": "The primary background for the entire page, providing a crisp, neutral base for all content."
+        }
+      ],
+      "northStar": "monochrome digital canvas, with precise typographic elements",
+      "typeScale": [
+        {
+          "role": "display",
+          "size": 124,
+          "lineHeight": 0.8
+        }
+      ],
+      "components": [
+        {
+          "name": "Main Navigation Link",
+          "role": "Primary navigational elements and section titles",
+          "description": "Uses 'Apato' at 124px weight 400 for a large, impactful statement. Default text is Midnight Ink (#000000). Active or hovered states are indicated by an Electric Blue (#0000ff) outline or background, with a tight lineHeight of 0.8 to stack text closely."
+        },
+        {
+          "name": "Body Text Block",
+          "role": "Informational paragraphs and descriptions",
+          "description": "Set in 'LL Mono Book Web' at 13px weight 400 with a lineHeight of 1.3. Text color is Midnight Ink (#000000). Features a subtle letterSpacing of 0.03em for a precise, legible feel."
+        },
+        {
+          "name": "Info Link",
+          "role": "External links and contact information",
+          "description": "Rendered in 'LL Mono Book Web' at 13px weight 400, with an Electric Blue (#0000ff) color for both text and an implied border upon interaction (like underline or highlight). Has a lineHeight of 1.0."
+        },
+        {
+          "name": "Content Wrapper",
+          "role": "Container for content sections",
+          "description": "A div or section element with a subtle Canvas Ice (#dddddd) background. Features internal padding of 6px on top and left, 5px on right, and 27px on bottom, creating asymmetric visual tension. All borders are sharp at 0px radius."
+        }
+      ],
+      "typography": [
+        {
+          "role": "Body text, navigation links, metadata, and general content where legibility and a consistent monospace aesthetic are key",
+          "sizes": "13px",
+          "family": "LL Mono Book Web",
+          "weight": "400, 700",
+          "weights": [
+            400,
+            700
+          ],
+          "lineHeight": "1.00, 1.30",
+          "substitute": "Space Mono",
+          "letterSpacing": "0.03em"
+        },
+        {
+          "role": "Large, decorative headlines and key navigational elements, creating a distinctive, highly stylized visual identity with its low line height for tight stacking",
+          "sizes": "124px",
+          "family": "Apato",
+          "weight": "400",
+          "weights": [
+            400
+          ],
+          "lineHeight": "0.80",
+          "substitute": "Oxanium"
+        }
+      ],
+      "description": "Pierre Rousseau manifests a stark, conceptual interface, operating like a digital gallery for sonic art. Its sparse monochrome canvas is punctuated by precise geometric typography and a singular, vivid blue accent for interactive elements, which acts as a focused highlight against the otherwise understated aesthetic. The overall impression is one of minimalist precision, emphasizing content through its deliberate presentation rather than decorative flourishing.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "Quick Color Reference:\ntext: #000000\nbackground: #dddddd\nborder: #000000\naccent: #0000ff\nprimary action: #0000ff (outlined action border)\n\nExample Component Prompts:\n1. Create a large navigational heading: 'Apato' at 124px, weight 400, color #000000, lineHeight 0.8. On hover, change text color to #0000ff and add a 1px border of #0000ff around the text block.\n2. Design a standard body text paragraph: 'LL Mono Book Web' at 13px, weight 400, color #000000, lineHeight 1.3, letterSpacing 0.03em. Apply a 13px bottom margin.\n3. Implement an informational link: 'LL Mono Book Web' at 13px, weight 400, color #0000ff, lineHeight 1.0, letterSpacing 0.03em. Use a 6px left padding."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777514023511-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777514023511-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/0a0d96dd-25bf-4747-836c-33663360da54",
+  "ranks": {
+    "trending": 1136,
+    "popular": 1169,
+    "newest": 495
+  },
+  "localSlug": "pierre-rousseau-0a0d96dd"
+}

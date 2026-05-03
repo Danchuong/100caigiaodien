@@ -1,0 +1,1307 @@
+{
+  "id": "461da0f0-fde6-46bc-8137-7eca006260a8",
+  "url": "https://together.ai",
+  "siteName": "Together AI",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775923621441-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775923621441-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "both",
+  "colors": [
+    {
+      "name": "Midnight Ink",
+      "hex": "#010120"
+    },
+    {
+      "name": "Canvas White",
+      "hex": "#FFFFFF"
+    },
+    {
+      "name": "Void Black",
+      "hex": "#000000"
+    },
+    {
+      "name": "Smoke Gray",
+      "hex": "#4D4D4D"
+    },
+    {
+      "name": "Frost Gray",
+      "hex": "#D6D6D6"
+    },
+    {
+      "name": "Sky Blue Block",
+      "hex": "#C1DFF9"
+    }
+  ],
+  "fonts": [
+    "The Future",
+    "PP Neue Montreal Mono"
+  ],
+  "northStar": "Shifting geometric planes under a deep indigo sky. Bold textual headlines punctuate against a canvas of near-black and clinical white, punctuated by soft, almost pastel blocks of color.",
+  "createdAt": "2026-01-22T16:55:49.000Z",
+  "previewVideoCapturedAt": null,
+  "industry": "ai",
+  "fullResult": {
+    "meta": {
+      "url": "https://together.ai",
+      "siteName": "Together AI",
+      "extractedAt": "2026-04-11T16:07:23.111Z",
+      "durationMs": 33160,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 2319,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "complete",
+          "attempts": 2
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "other",
+              "link",
+              "nav",
+              "hero",
+              "heading",
+              "body",
+              "button",
+              "image",
+              "list",
+              "card",
+              "badge",
+              "icon",
+              "footer"
+            ],
+            "frequency": 5254,
+            "confidence": 1,
+            "prominence": 111297604.27231722,
+            "properties": [
+              "color",
+              "borderColor",
+              "backgroundColor",
+              "fill",
+              "stroke"
+            ]
+          },
+          {
+            "hex": "#ffffff",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 1.0000000000000002
+            },
+            "contexts": [
+              "other",
+              "link",
+              "body",
+              "nav",
+              "button",
+              "list",
+              "heading",
+              "icon",
+              "card",
+              "badge",
+              "image"
+            ],
+            "frequency": 5148,
+            "confidence": 1,
+            "prominence": 15285941.147125943,
+            "properties": [
+              "color",
+              "borderColor",
+              "backgroundColor",
+              "stroke",
+              "fill"
+            ]
+          },
+          {
+            "hex": "#010120",
+            "oklch": {
+              "c": 0.07133290720351954,
+              "h": 268.1102790087306,
+              "l": 0.11734032544973476
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 3,
+            "confidence": 1,
+            "prominence": 2479456,
+            "properties": [
+              "backgroundColor"
+            ]
+          },
+          {
+            "hex": "#d6d6d6",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.8767110099126372
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 3,
+            "confidence": 1,
+            "prominence": 223572,
+            "properties": [
+              "borderColor"
+            ]
+          },
+          {
+            "hex": "#4d4d4d",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.41838944017064794
+            },
+            "contexts": [
+              "other",
+              "body"
+            ],
+            "frequency": 15,
+            "confidence": 1,
+            "prominence": 168748,
+            "properties": [
+              "color",
+              "borderColor"
+            ]
+          },
+          {
+            "hex": "#fde3f6",
+            "oklch": {
+              "c": 0.037649208176504426,
+              "h": 335.31605405713935,
+              "l": 0.9423858979122841
+            },
+            "contexts": [
+              "card"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 121054,
+            "properties": [
+              "backgroundColor"
+            ]
+          },
+          {
+            "hex": "#ffdccd",
+            "oklch": {
+              "c": 0.04404358662839775,
+              "h": 44.56137452225041,
+              "l": 0.9197203664360205
+            },
+            "contexts": [
+              "card"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 121054,
+            "properties": [
+              "backgroundColor"
+            ]
+          },
+          {
+            "hex": "#c1dff9",
+            "oklch": {
+              "c": 0.04801254828063705,
+              "h": 244.5065156957686,
+              "l": 0.890100743459674
+            },
+            "contexts": [
+              "card"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 121052,
+            "properties": [
+              "backgroundColor"
+            ]
+          },
+          {
+            "hex": "#c8f6f9",
+            "oklch": {
+              "c": 0.047185188901517836,
+              "h": 201.29067797284708,
+              "l": 0.9420713968467836
+            },
+            "contexts": [
+              "list",
+              "other"
+            ],
+            "frequency": 2,
+            "confidence": 1,
+            "prominence": 49336.712722448145,
+            "properties": [
+              "backgroundColor"
+            ]
+          },
+          {
+            "hex": "#bdbbff",
+            "oklch": {
+              "c": 0.09514598985582134,
+              "h": 285.4373179248532,
+              "l": 0.817869170098921
+            },
+            "contexts": [
+              "nav",
+              "other"
+            ],
+            "frequency": 75,
+            "confidence": 1,
+            "prominence": 2999.005206452921,
+            "properties": [
+              "backgroundColor"
+            ]
+          },
+          {
+            "hex": "#fc4c02",
+            "oklch": {
+              "c": 0.22141524709513485,
+              "h": 36.87852089183277,
+              "l": 0.6617583312809515
+            },
+            "contexts": [
+              "nav",
+              "other"
+            ],
+            "frequency": 4,
+            "confidence": 1,
+            "prominence": 1362.9717916988816,
+            "properties": [
+              "fill"
+            ]
+          },
+          {
+            "hex": "#ef2cc1",
+            "oklch": {
+              "c": 0.26136667912968037,
+              "h": 340.24624669453556,
+              "l": 0.6563783414594049
+            },
+            "contexts": [
+              "nav",
+              "other"
+            ],
+            "frequency": 2,
+            "confidence": 1,
+            "prominence": 730.6677128324529,
+            "properties": [
+              "fill"
+            ]
+          },
+          {
+            "hex": "#caaef5",
+            "oklch": {
+              "c": 0.10269104878639912,
+              "h": 302.21223224061,
+              "l": 0.7998846763653813
+            },
+            "contexts": [
+              "nav",
+              "other"
+            ],
+            "frequency": 2,
+            "confidence": 1,
+            "prominence": 730.6677128324529,
+            "properties": [
+              "fill"
+            ]
+          },
+          {
+            "hex": "#70e9f0",
+            "oklch": {
+              "c": 0.10885622453137495,
+              "h": 200.4494366669215,
+              "l": 0.8672823535953155
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "confidence": 1,
+            "prominence": 0,
+            "properties": [
+              "backgroundColor"
+            ]
+          },
+          {
+            "hex": "#9bcdf5",
+            "oklch": {
+              "c": 0.07694752427546049,
+              "h": 242.95850637361082,
+              "l": 0.8273621261436783
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 0,
+            "properties": [
+              "backgroundColor"
+            ]
+          }
+        ],
+        "isDarkMode": false,
+        "colorfulness": 0.0024375376201709546,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 21,
+            "background": "#ffffff",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 20.46,
+            "background": "#010120",
+            "foreground": "#ffffff"
+          },
+          {
+            "level": "AAA",
+            "ratio": 18.01,
+            "background": "#c8f6f9",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 17.54,
+            "background": "#c8f6f9",
+            "foreground": "#010120"
+          },
+          {
+            "level": "AAA",
+            "ratio": 17.49,
+            "background": "#fde3f6",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 17.04,
+            "background": "#fde3f6",
+            "foreground": "#010120"
+          },
+          {
+            "level": "AAA",
+            "ratio": 16.37,
+            "background": "#ffdccd",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 15.95,
+            "background": "#ffdccd",
+            "foreground": "#010120"
+          },
+          {
+            "level": "AAA",
+            "ratio": 15.19,
+            "background": "#c1dff9",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 14.8,
+            "background": "#c1dff9",
+            "foreground": "#010120"
+          },
+          {
+            "level": "AAA",
+            "ratio": 14.6,
+            "background": "#70e9f0",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 14.45,
+            "background": "#d6d6d6",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 14.23,
+            "background": "#70e9f0",
+            "foreground": "#010120"
+          },
+          {
+            "level": "AAA",
+            "ratio": 14.08,
+            "background": "#d6d6d6",
+            "foreground": "#010120"
+          },
+          {
+            "level": "AAA",
+            "ratio": 12.44,
+            "background": "#9bcdf5",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 12.12,
+            "background": "#9bcdf5",
+            "foreground": "#010120"
+          },
+          {
+            "level": "AAA",
+            "ratio": 11.72,
+            "background": "#bdbbff",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 11.41,
+            "background": "#bdbbff",
+            "foreground": "#010120"
+          },
+          {
+            "level": "AAA",
+            "ratio": 10.88,
+            "background": "#caaef5",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 10.6,
+            "background": "#caaef5",
+            "foreground": "#010120"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [
+          {
+            "value": 4,
+            "contexts": [
+              "nav",
+              "button",
+              "badge",
+              "link",
+              "list",
+              "other",
+              "card"
+            ],
+            "frequency": 251
+          },
+          {
+            "value": 8,
+            "contexts": [
+              "nav",
+              "other"
+            ],
+            "frequency": 7
+          },
+          {
+            "value": 16,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1
+          }
+        ],
+        "shadows": [
+          {
+            "value": "rgba(1, 1, 32, 0.1) -10px 0px 75px 0px",
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 2
+          }
+        ]
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 1,
+            "frequency": 6,
+            "properties": [
+              "marginTop"
+            ]
+          },
+          {
+            "value": 2,
+            "frequency": 175,
+            "properties": [
+              "paddingTop",
+              "paddingRight",
+              "paddingBottom"
+            ]
+          },
+          {
+            "value": 4,
+            "frequency": 111,
+            "properties": [
+              "paddingRight",
+              "paddingBottom",
+              "rowGap",
+              "columnGap",
+              "paddingTop",
+              "marginTop"
+            ]
+          },
+          {
+            "value": 6,
+            "frequency": 168,
+            "properties": [
+              "rowGap",
+              "columnGap"
+            ]
+          },
+          {
+            "value": 8,
+            "frequency": 385,
+            "properties": [
+              "rowGap",
+              "columnGap",
+              "paddingLeft",
+              "paddingTop",
+              "paddingBottom",
+              "paddingRight",
+              "marginTop",
+              "marginBottom"
+            ]
+          },
+          {
+            "value": 10,
+            "frequency": 10,
+            "properties": [
+              "rowGap",
+              "columnGap",
+              "paddingTop",
+              "paddingRight",
+              "paddingBottom",
+              "paddingLeft"
+            ]
+          },
+          {
+            "value": 12,
+            "frequency": 23,
+            "properties": [
+              "paddingRight",
+              "rowGap",
+              "columnGap",
+              "marginBottom",
+              "marginTop"
+            ]
+          },
+          {
+            "value": 16,
+            "frequency": 446,
+            "properties": [
+              "paddingTop",
+              "paddingRight",
+              "paddingLeft",
+              "paddingBottom",
+              "rowGap",
+              "columnGap",
+              "marginBottom",
+              "marginRight",
+              "marginTop"
+            ]
+          },
+          {
+            "value": 20,
+            "frequency": 167,
+            "properties": [
+              "paddingRight",
+              "paddingLeft",
+              "marginBottom",
+              "paddingTop",
+              "paddingBottom",
+              "marginLeft",
+              "rowGap",
+              "columnGap"
+            ]
+          },
+          {
+            "value": 24,
+            "frequency": 52,
+            "properties": [
+              "rowGap",
+              "columnGap",
+              "marginBottom",
+              "paddingTop",
+              "paddingRight",
+              "paddingBottom",
+              "paddingLeft"
+            ]
+          },
+          {
+            "value": 32,
+            "frequency": 29,
+            "properties": [
+              "rowGap",
+              "columnGap",
+              "paddingBottom",
+              "marginBottom",
+              "paddingRight",
+              "paddingLeft",
+              "paddingTop"
+            ]
+          },
+          {
+            "value": 40,
+            "frequency": 155,
+            "properties": [
+              "paddingLeft",
+              "rowGap",
+              "columnGap",
+              "paddingRight"
+            ]
+          },
+          {
+            "value": 45,
+            "frequency": 2,
+            "properties": [
+              "rowGap",
+              "columnGap"
+            ]
+          },
+          {
+            "value": 48,
+            "frequency": 27,
+            "properties": [
+              "paddingRight",
+              "paddingLeft",
+              "rowGap",
+              "columnGap",
+              "marginTop"
+            ]
+          },
+          {
+            "value": 54,
+            "frequency": 114,
+            "properties": [
+              "marginRight"
+            ]
+          },
+          {
+            "value": 64,
+            "frequency": 10,
+            "properties": [
+              "rowGap",
+              "columnGap"
+            ]
+          },
+          {
+            "value": 80,
+            "frequency": 4,
+            "properties": [
+              "paddingBottom",
+              "rowGap",
+              "columnGap",
+              "marginBottom"
+            ]
+          },
+          {
+            "value": 88,
+            "frequency": 146,
+            "properties": [
+              "rowGap",
+              "columnGap"
+            ]
+          },
+          {
+            "value": 100,
+            "frequency": 7,
+            "properties": [
+              "paddingTop",
+              "paddingBottom"
+            ]
+          },
+          {
+            "value": 120,
+            "frequency": 5,
+            "properties": [
+              "marginTop",
+              "paddingTop",
+              "paddingBottom"
+            ]
+          },
+          {
+            "value": 127,
+            "frequency": 2,
+            "properties": [
+              "marginRight",
+              "marginLeft"
+            ]
+          }
+        ],
+        "density": "comfortable",
+        "baseUnit": 4
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "The Future",
+            "source": "custom",
+            "weights": [
+              400,
+              500
+            ],
+            "frequency": 1713,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "PP Neue Montreal Mono",
+            "source": "custom",
+            "weights": [
+              400,
+              500
+            ],
+            "frequency": 392,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 16,
+          "name": "Minor Third",
+          "ratio": 1.2,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 10,
+            "family": "PP Neue Montreal Mono",
+            "weight": 400,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.4,
+            "letterSpacing": 0.005,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 11,
+            "family": "PP Neue Montreal Mono",
+            "weight": 500,
+            "contexts": [
+              "nav",
+              "other"
+            ],
+            "frequency": 84,
+            "lineHeight": 1,
+            "letterSpacing": 0.007,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 11,
+            "family": "PP Neue Montreal Mono",
+            "weight": 500,
+            "contexts": [
+              "other",
+              "body"
+            ],
+            "frequency": 143,
+            "lineHeight": 1.4,
+            "letterSpacing": 0.005,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 13,
+            "family": "PP Neue Montreal Mono",
+            "weight": 500,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 76,
+            "lineHeight": 1.4,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 14,
+            "family": "The Future",
+            "weight": 400,
+            "contexts": [
+              "body",
+              "nav"
+            ],
+            "frequency": 21,
+            "lineHeight": 1.4,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "The Future",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "link",
+              "nav",
+              "hero",
+              "image",
+              "list",
+              "card",
+              "badge",
+              "icon",
+              "button",
+              "footer"
+            ],
+            "frequency": 1561,
+            "lineHeight": 1.25,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "PP Neue Montreal Mono",
+            "weight": 500,
+            "contexts": [
+              "nav",
+              "button",
+              "link",
+              "icon"
+            ],
+            "frequency": 88,
+            "lineHeight": 1,
+            "letterSpacing": 0.005,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 16,
+            "family": "The Future",
+            "weight": 400,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 25,
+            "lineHeight": 1.3,
+            "letterSpacing": -0.01,
+            "textTransform": "none"
+          },
+          {
+            "size": 18,
+            "family": "The Future",
+            "weight": 400,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 2,
+            "lineHeight": 1.3,
+            "letterSpacing": -0.01,
+            "textTransform": "none"
+          },
+          {
+            "size": 18,
+            "family": "The Future",
+            "weight": 500,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 78,
+            "lineHeight": 1.3,
+            "letterSpacing": -0.01,
+            "textTransform": "none"
+          },
+          {
+            "size": 22,
+            "family": "The Future",
+            "weight": 500,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 8,
+            "lineHeight": 1.15,
+            "letterSpacing": -0.01,
+            "textTransform": "none"
+          },
+          {
+            "size": 28,
+            "family": "The Future",
+            "weight": 500,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 5,
+            "lineHeight": 1.15,
+            "letterSpacing": -0.015,
+            "textTransform": "none"
+          },
+          {
+            "size": 40,
+            "family": "The Future",
+            "weight": 500,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 8,
+            "lineHeight": 1.2,
+            "letterSpacing": -0.02,
+            "textTransform": "none"
+          },
+          {
+            "size": 64,
+            "family": "The Future",
+            "weight": 500,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 2,
+            "lineHeight": 1.1,
+            "letterSpacing": -0.03,
+            "textTransform": "none"
+          },
+          {
+            "size": 64,
+            "family": "The Future",
+            "weight": 400,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 3,
+            "lineHeight": 1,
+            "letterSpacing": -0.03,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Use 'The Future' font for all primary textual content to maintain a consistent high-tech, yet approachable, brand voice.",
+        "Apply a 4px `borderRadius` to all buttons and badges for subtle modern rounding.",
+        "Prioritize `Midnight Ink` (#010120) and `Canvas White` (#FFFFFF) for primary background and text combinations, achieving high contrast.",
+        "Utilize `Regal Violet` (#BDBBFF) as the primary accent color for active navigation states and subtle interactive highlights.",
+        "Frame informational cards with `20px 40px` padding when on dark backgrounds, using `rgba(255, 255, 255, 0.08)` as background.",
+        "Employ `PP Neue Montreal Mono` for all technical annotations, code blocks, or data-specific text to differentiate programmatic content.",
+        "Ensure large headlines (64px) apply `-0.0300em` letter-spacing for visual tightness."
+      ],
+      "tags": [
+        "AI",
+        "SaaS",
+        "high-tech",
+        "dark-mode",
+        "clean",
+        "monochromatic",
+        "subtle-accents",
+        "geometric",
+        "analytical",
+        "developer-tools"
+      ],
+      "donts": [
+        "Do not introduce new border radii beyond 4px, 8px, or 16px; prefer the consistent 4px default for interactive elements.",
+        "Avoid using highly saturated, vivid colors for large background blocks; reserve them only for small, pointed iconography or specific branding elements.",
+        "Do not use generic system fonts; 'The Future' and 'PP Neue Montreal Mono' are integral to the brand's unique character.",
+        "Do not deviate from the established padding scale; consistent spacing reinforces information hierarchy.",
+        "Avoid applying shadows directly to most content cards; depth is achieved primarily through background shifts and subtle layering of semi-transparent surfaces.",
+        "Do not place body copy in colors other than `Void Black` or `Canvas White` on their respective contrasting backgrounds, or `Smoke Gray` for secondary text.",
+        "Avoid overly playful or organic shapes; the aesthetic is sharp, precise, and tech-focused."
+      ],
+      "theme": "mixed",
+      "title": "Together AI - Algorithmic Horizon",
+      "colors": [
+        {
+          "hex": "#010120",
+          "name": "Midnight Ink",
+          "role": "Page background (dark sections), primary button background, navigation background — establishes the core dark ambiance, suggesting depth and technical sophistication.",
+          "group": "brand"
+        },
+        {
+          "hex": "#FFFFFF",
+          "name": "Canvas White",
+          "role": "Page background (light sections), text on dark, interactive element text, primary surface for content — provides expansive contrast and visual breathing room.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#000000",
+          "name": "Void Black",
+          "role": "Primary text color on light backgrounds, button text, icon default — provides maximum contrast against Canvas White and light pastels.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#4D4D4D",
+          "name": "Smoke Gray",
+          "role": "Secondary body text, subtle borders — softens informational text without losing legibility against light backgrounds.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#D6D6D6",
+          "name": "Frost Gray",
+          "role": "Subtle borders, dividers, disabled states — offers a minimal visual separation.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#C1DFF9",
+          "name": "Sky Blue Block",
+          "role": "Informational card background, content blocks — provides a light, approachable surface for data points.",
+          "group": "accent"
+        },
+        {
+          "hex": "#FDE3F6",
+          "name": "Cosmic Pink Block",
+          "role": "Informational card background, content blocks — adds a contrasting, soft chromatic element.",
+          "group": "accent"
+        },
+        {
+          "hex": "#FFDCCD",
+          "name": "Dawn Orange Block",
+          "role": "Informational card background, content blocks — warms up data presentation without being visually aggressive.",
+          "group": "accent"
+        },
+        {
+          "hex": "#C8F6F9",
+          "name": "Cyan Whisper",
+          "role": "Callout backgrounds, subtle accent fills — a very light, almost ethereal touch of color.",
+          "group": "accent"
+        },
+        {
+          "hex": "#BDBBFF",
+          "name": "Regal Violet",
+          "role": "Accent elements, interactive indicators, underlines — a sophisticated, slightly desaturated violet for emphasis.",
+          "group": "accent"
+        },
+        {
+          "hex": "#FC4C02",
+          "name": "Electric Orange",
+          "role": "Small interactive iconography, decorative fills — a vibrant, high-chroma accent appearing sparingly.",
+          "group": "brand"
+        },
+        {
+          "hex": "#EF2CC1",
+          "name": "Magenta Flash",
+          "role": "Small interactive iconography, decorative fills — a sharp, vivid pink for specific energetic accents.",
+          "group": "brand"
+        },
+        {
+          "hex": "#70E9F0",
+          "name": "Cyan Glow",
+          "role": "Backgrounds for specific programmatic blocks — a cool, technical cyan.",
+          "group": "accent"
+        }
+      ],
+      "layout": "The site employs a mixed layout model, primarily adopting a full-bleed dark hero section with a centered, split text and abstract visual. Subsequent sections alternate between full-width dark backgrounds and standard content-width, centered light sections. Vertical spacing between sections is generous, leading to a spacious, comfortable density. Content arrangement often utilizes a centered stack for headlines and subtext, followed by feature blocks in a 3-column grid, or alternating text-left/visual-right patterns. The navigation is a sticky top bar, often subtly transparent/frosted over the dark hero, then opaque on light backgrounds.",
+      "imagery": "The visual language is split between abstract 3D renders and subtle iconography, with an absence of traditional photography. Large, abstract 3D graphics in the hero section feature overlapping, translucent geometric forms with soft gradients and blurred edges, suggesting complexity and interconnectedness. These are rendered to appear ethereal yet structured, against a dark backdrop. Elsewhere, icons are simple, often monochromatic, and directly support the accompanying text, serving an explanatory role. The overall density of imagery is moderate, strategically placed to illustrate concepts or provide visual breaks without dominating the content.",
+      "similar": [
+        {
+          "why": "Shares a deep dark mode aesthetic with crisp typography and subtle interactive elements, favoring dark backgrounds over light.",
+          "business": "Linear"
+        },
+        {
+          "why": "Similar approach to high-contrast text on dark backgrounds, using minimal color accents to highlight key information or interactive states.",
+          "business": "Anthropic"
+        },
+        {
+          "why": "Employs technical, precise typography, a clean layout, and restrained use of color within a primarily dark UI.",
+          "business": "Vercel"
+        },
+        {
+          "why": "Combines prominent technical headlines with structured content blocks and a developer-centric interface, often with dark modes.",
+          "business": "Supabase"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "large": "16px",
+          "medium": "8px",
+          "default": "4px"
+        },
+        "elementGap": "",
+        "sectionGap": "",
+        "cardPadding": "",
+        "pageMaxWidth": null
+      },
+      "category": "ai",
+      "surfaces": [
+        {
+          "hex": "#010120",
+          "name": "Deep Space BG",
+          "level": 0,
+          "purpose": "Primary dark page background, foundational layer for deep sections."
+        },
+        {
+          "hex": "#ffffff14",
+          "name": "Subtle Dark Card",
+          "level": 1,
+          "purpose": "Lightly elevated cards or content blocks on dark backgrounds, providing minimal visual separation."
+        },
+        {
+          "hex": "#ffffff14",
+          "name": "Frosted Nav",
+          "level": 2,
+          "purpose": "Navigation bar background, featuring a backdrop blur to create a 'frosted glass' effect over content below."
+        }
+      ],
+      "elevation": [
+        {
+          "style": "rgba(1, 1, 32, 0.1) -10px 0px 75px 0px",
+          "element": "Navigation Bar"
+        }
+      ],
+      "northStar": "Shifting geometric planes under a deep indigo sky. Bold textual headlines punctuate against a canvas of near-black and clinical white, punctuated by soft, almost pastel blocks of color.",
+      "typeScale": [
+        {
+          "role": "caption",
+          "size": 10,
+          "lineHeight": 1.4,
+          "letterSpacing": 0.007
+        },
+        {
+          "role": "body-sm",
+          "size": 14,
+          "lineHeight": 1.4
+        },
+        {
+          "role": "body",
+          "size": 16,
+          "lineHeight": 1.4
+        },
+        {
+          "role": "subheading",
+          "size": 22,
+          "lineHeight": 1.3,
+          "letterSpacing": -0.44
+        },
+        {
+          "role": "heading",
+          "size": 28,
+          "lineHeight": 1.25,
+          "letterSpacing": -0.42
+        },
+        {
+          "role": "heading-lg",
+          "size": 40,
+          "lineHeight": 1.15,
+          "letterSpacing": -0.8
+        },
+        {
+          "role": "display",
+          "size": 64,
+          "lineHeight": 1.1,
+          "letterSpacing": -1.92
+        }
+      ],
+      "components": [
+        {
+          "html": "<style>:root{--color-midnight-ink:#010120;--color-canvas-white:#ffffff;--color-void-black:#000000;--color-smoke-gray:#4D4D4D;--color-frost-gray:#D6D6D6;--color-sky-blue-block:#C1DFF9;--color-cosmic-pink-block:#FDE3F6;--color-dawn-orange-block:#FFDCCD;--color-regal-violet:#BDBBFF;--font-the-future:'Montserrat',Inter,sans-serif;--font-mono:'IBM Plex Mono','Space Mono',monospace;}*{box-sizing:border-box;margin:0;padding:0;}</style><div style=\"width:600px;background:#f0f4f8;padding:24px;font-family:var(--font-the-future);\"><div style=\"display:flex;gap:0;\"><div style=\"flex:1;background:var(--color-sky-blue-block);padding:24px 28px 28px 28px;border-radius:0;\"><div style=\"display:inline-flex;align-items:center;gap:6px;background:rgba(0,0,0,0.08);border-radius:4px;padding:3px 10px;margin-bottom:16px;\"><svg width=\"10\" height=\"10\" viewBox=\"0 0 10 10\" fill=\"none\"><path d=\"M5 1L5 9M5 1L2 4M5 1L8 4\" stroke=\"#000\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg><span style=\"font-family:var(--font-mono);font-size:10px;font-weight:500;color:var(--color-void-black);letter-spacing:0.07em;text-transform:uppercase;\">FASTER INFERENCE</span></div><div style=\"font-family:var(--font-the-future);font-size:72px;font-weight:500;color:var(--color-void-black);line-height:1.0;letter-spacing:-0.03em;margin-bottom:60px;\">2x</div><div style=\"width:40px;height:3px;background:var(--color-regal-violet);margin-bottom:20px;\"></div><p style=\"font-family:var(--font-the-future);font-size:14px;color:var(--color-smoke-gray);line-height:1.4;\">powered by cutting-edge research.</p></div><div style=\"flex:1;background:var(--color-cosmic-pink-block);padding:24px 28px 28px 28px;border-radius:0;\"><div style=\"display:inline-flex;align-items:center;gap:6px;background:rgba(0,0,0,0.08);border-radius:4px;padding:3px 10px;margin-bottom:16px;\"><svg width=\"10\" height=\"10\" viewBox=\"0 0 10 10\" fill=\"none\"><path d=\"M5 9L5 1M5 9L2 6M5 9L8 6\" stroke=\"#000\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg><span style=\"font-family:var(--font-mono);font-size:10px;font-weight:500;color:var(--color-void-black);letter-spacing:0.07em;text-transform:uppercase;\">LOWER COST</span></div><div style=\"font-family:var(--font-the-future);font-size:72px;font-weight:500;color:var(--color-void-black);line-height:1.0;letter-spacing:-0.03em;margin-bottom:60px;\">60%</div><div style=\"width:40px;height:3px;background:var(--color-regal-violet);margin-bottom:20px;\"></div><p style=\"font-family:var(--font-the-future);font-size:14px;color:var(--color-smoke-gray);line-height:1.4;\">with workload-specific optimization.</p></div><div style=\"flex:1;background:var(--color-dawn-orange-block);padding:24px 28px 28px 28px;border-radius:0;\"><div style=\"display:inline-flex;align-items:center;gap:6px;background:rgba(0,0,0,0.08);border-radius:4px;padding:3px 10px;margin-bottom:16px;\"><svg width=\"10\" height=\"10\" viewBox=\"0 0 10 10\" fill=\"none\"><path d=\"M5 1L5 9M5 1L2 4M5 1L8 4\" stroke=\"#000\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg><span style=\"font-family:var(--font-mono);font-size:10px;font-weight:500;color:var(--color-void-black);letter-spacing:0.07em;text-transform:uppercase;\">FASTER PRE-TRAINING</span></div><div style=\"font-family:var(--font-the-future);font-size:72px;font-weight:500;color:var(--color-void-black);line-height:1.0;letter-spacing:-0.03em;margin-bottom:60px;\">90%</div><div style=\"width:40px;height:3px;background:var(--color-regal-violet);margin-bottom:20px;\"></div><p style=\"font-family:var(--font-the-future);font-size:14px;color:var(--color-smoke-gray);line-height:1.4;\">with Together Kernel Collection.</p></div></div></div>",
+          "name": "Stat Metric Cards",
+          "role": "",
+          "description": ""
+        },
+        {
+          "html": "<style>:root{--color-midnight-ink:#010120;--color-canvas-white:#ffffff;--color-void-black:#000000;--color-smoke-gray:#4D4D4D;--color-regal-violet:#BDBBFF;--font-the-future:'Montserrat',Inter,sans-serif;--font-mono:'IBM Plex Mono','Space Mono',monospace;}*{box-sizing:border-box;margin:0;padding:0;}</style><div style=\"width:600px;background:var(--color-midnight-ink);padding:32px 24px 40px;font-family:var(--font-the-future);\"><div style=\"margin-bottom:28px;\"><h2 style=\"font-family:var(--font-the-future);font-size:28px;font-weight:500;color:var(--color-canvas-white);line-height:1.2;letter-spacing:-0.015em;margin-bottom:8px;\">Grounded in cutting-edge research</h2><p style=\"font-family:var(--font-the-future);font-size:14px;color:rgba(255,255,255,0.5);line-height:1.4;\">Foundational systems research for production AI.</p></div><div style=\"display:grid;grid-template-columns:1fr 1fr;gap:12px;\"><div style=\"background:rgba(255,255,255,0.06);border-radius:4px;padding:0;overflow:hidden;display:flex;flex-direction:column;\"><div style=\"height:120px;background:linear-gradient(135deg,#1a1a3e 0%,#0d0d2b 100%);\"></div><div style=\"padding:16px 20px 20px;\"><div style=\"display:inline-flex;margin-bottom:12px;\"><span style=\"font-family:var(--font-mono);font-size:10px;font-weight:500;color:var(--color-canvas-white);background:rgba(255,255,255,0.12);border-radius:4px;padding:2px 8px;letter-spacing:0.07em;\">AGENTS</span></div><div style=\"width:36px;height:2px;background:var(--color-regal-violet);margin-bottom:12px;\"></div><h3 style=\"font-family:var(--font-the-future);font-size:14px;font-weight:500;color:var(--color-canvas-white);line-height:1.4;margin-bottom:20px;\">AI for Systems: Using LLMs to Optimize Database Query Execution</h3><p style=\"font-family:var(--font-mono);font-size:10px;color:rgba(255,255,255,0.4);letter-spacing:0.05em;text-transform:uppercase;\">MEHMET HAMZA EROL <em>ET AL.</em></p></div></div><div style=\"background:rgba(255,255,255,0.06);border-radius:4px;padding:0;overflow:hidden;display:flex;flex-direction:column;\"><div style=\"height:120px;background:linear-gradient(135deg,#1a1a3e 0%,#0d0d2b 100%);\"></div><div style=\"padding:16px 20px 20px;\"><div style=\"display:inline-flex;margin-bottom:12px;\"><span style=\"font-family:var(--font-mono);font-size:10px;font-weight:500;color:var(--color-canvas-white);background:rgba(255,255,255,0.12);border-radius:4px;padding:2px 8px;letter-spacing:0.07em;\">KERNELS</span></div><div style=\"width:36px;height:2px;background:var(--color-regal-violet);margin-bottom:12px;\"></div><h3 style=\"font-family:var(--font-the-future);font-size:14px;font-weight:500;color:var(--color-canvas-white);line-height:1.4;margin-bottom:20px;\">Inside the Together AI kernels team</h3><p style=\"font-family:var(--font-mono);font-size:10px;color:rgba(255,255,255,0.4);letter-spacing:0.05em;text-transform:uppercase;\">WILL VAN EATON</p></div></div><div style=\"background:rgba(255,255,255,0.06);border-radius:4px;padding:0;overflow:hidden;display:flex;flex-direction:column;\"><div style=\"height:120px;background:linear-gradient(135deg,#1a1a3e 0%,#0d0d2b 100%);\"></div><div style=\"padding:16px 20px 20px;\"><div style=\"display:inline-flex;margin-bottom:12px;\"><span style=\"font-family:var(--font-mono);font-size:10px;font-weight:500;color:var(--color-canvas-white);background:rgba(255,255,255,0.12);border-radius:4px;padding:2px 8px;letter-spacing:0.07em;\">INFERENCE</span></div><div style=\"width:36px;height:2px;background:var(--color-regal-violet);margin-bottom:12px;\"></div><h3 style=\"font-family:var(--font-the-future);font-size:14px;font-weight:500;color:var(--color-canvas-white);line-height:1.4;margin-bottom:20px;\">Aurora</h3><p style=\"font-family:var(--font-mono);font-size:10px;color:rgba(255,255,255,0.4);letter-spacing:0.05em;text-transform:uppercase;\">JUNXIONG WANG, FENGXIANG BIE <em>ET AL.</em></p></div></div><div style=\"background:rgba(255,255,255,0.06);border-radius:4px;padding:0;overflow:hidden;display:flex;flex-direction:column;\"><div style=\"height:120px;background:linear-gradient(135deg,#1a1a3e 0%,#0d0d2b 100%);\"></div><div style=\"padding:16px 20px 20px;\"><div style=\"display:inline-flex;margin-bottom:12px;\"><span style=\"font-family:var(--font-mono);font-size:10px;font-weight:500;color:var(--color-canvas-white);background:rgba(255,255,255,0.12);border-radius:4px;padding:2px 8px;letter-spacing:0.07em;\">AGENTS</span></div><div style=\"width:36px;height:2px;background:var(--color-regal-violet);margin-bottom:12px;\"></div><h3 style=\"font-family:var(--font-the-future);font-size:14px;font-weight:500;color:var(--color-canvas-white);line-height:1.4;margin-bottom:20px;\">Plan, divide, and conquer: How weak models excel at long context tasks</h3><p style=\"font-family:var(--font-mono);font-size:10px;color:rgba(255,255,255,0.4);letter-spacing:0.05em;text-transform:uppercase;\">ZHEN XU, SHANG ZHU, JUE WANG <em>ET AL.</em></p></div></div></div></div>",
+          "name": "Research Cards (Dark)",
+          "role": "",
+          "description": ""
+        },
+        {
+          "html": "<style>:root{--color-midnight-ink:#010120;--color-canvas-white:#ffffff;--color-void-black:#000000;--color-smoke-gray:#4D4D4D;--color-regal-violet:#BDBBFF;--font-the-future:'Montserrat',Inter,sans-serif;--font-mono:'IBM Plex Mono','Space Mono',monospace;}*{box-sizing:border-box;margin:0;padding:0;}</style><div style=\"width:600px;font-family:var(--font-the-future);background:var(--color-canvas-white);\"><div style=\"background:var(--color-void-black);padding:12px 24px;display:flex;align-items:center;justify-content:center;gap:8px;\"><span style=\"font-family:var(--font-the-future);font-size:14px;color:var(--color-canvas-white);font-weight:400;line-height:1.4;\">Introducing Together AI's new look</span><svg width=\"14\" height=\"14\" viewBox=\"0 0 14 14\" fill=\"none\"><path d=\"M2 7H12M12 7L8 3M12 7L8 11\" stroke=\"white\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></div><div style=\"padding:48px 40px;background:var(--color-canvas-white);display:flex;flex-direction:column;align-items:flex-start;gap:32px;\"><div><h1 style=\"font-family:var(--font-the-future);font-size:40px;font-weight:500;color:var(--color-void-black);line-height:1.1;letter-spacing:-0.02em;margin-bottom:4px;\">Build what's next</h1><h1 style=\"font-family:var(--font-the-future);font-size:40px;font-weight:400;color:rgba(0,0,0,0.25);line-height:1.1;letter-spacing:-0.02em;margin-bottom:20px;\">on the AI Native Cloud</h1><p style=\"font-family:var(--font-the-future);font-size:16px;color:var(--color-smoke-gray);line-height:1.4;\">Full-stack AI platform, powered by cutting-edge research.</p></div><div style=\"display:flex;gap:12px;align-items:center;\"><a href=\"#\" style=\"display:inline-flex;align-items:center;background:var(--color-void-black);color:var(--color-canvas-white);font-family:var(--font-the-future);font-size:13px;font-weight:500;letter-spacing:0.06em;text-transform:uppercase;padding:14px 24px;border-radius:4px;text-decoration:none;\">START BUILDING</a><a href=\"#\" style=\"display:inline-flex;align-items:center;background:rgba(0,0,0,0.08);color:var(--color-void-black);font-family:var(--font-the-future);font-size:13px;font-weight:500;letter-spacing:0.06em;text-transform:uppercase;padding:14px 24px;border-radius:4px;text-decoration:none;\">CONTACT SALES</a></div><div style=\"width:100%;padding-top:24px;border-top:1px solid rgba(0,0,0,0.08);\"><p style=\"font-family:var(--font-mono);font-size:10px;color:rgba(0,0,0,0.35);letter-spacing:0.07em;text-transform:uppercase;margin-bottom:16px;\">TRUSTED BY</p><div style=\"display:flex;gap:28px;align-items:center;flex-wrap:wrap;\"><span style=\"font-family:var(--font-the-future);font-size:13px;color:rgba(0,0,0,0.3);font-weight:500;\">evertune</span><span style=\"font-family:var(--font-the-future);font-size:13px;color:rgba(0,0,0,0.3);font-weight:500;\">coheze</span><span style=\"font-family:var(--font-the-future);font-size:13px;color:rgba(0,0,0,0.3);font-weight:500;\">DeepMind</span><span style=\"font-family:var(--font-the-future);font-size:13px;color:rgba(0,0,0,0.3);font-weight:500;\">LG AI Research</span><span style=\"font-family:var(--font-the-future);font-size:13px;color:rgba(0,0,0,0.3);font-weight:500;\">ElevenLabs</span><span style=\"font-family:var(--font-the-future);font-size:13px;color:rgba(0,0,0,0.3);font-weight:500;\">Arcee</span></div></div></div></div>",
+          "name": "Button Group & Announcement Banner",
+          "role": "",
+          "description": ""
+        },
+        {
+          "name": "Primary Dark Button",
+          "role": "Call to Action",
+          "description": "backgroundColor: #000000, color: #FFFFFF, borderRadius: 4px, padding: 16px. Used for main actions against light backgrounds."
+        },
+        {
+          "name": "Secondary Ghost Button",
+          "role": "Secondary Action",
+          "description": "backgroundColor: rgba(255, 255, 255, 0.12), color: #FFFFFF, borderRadius: 4px, padding: 16px. Provides a subtle action against dark backgrounds without competing with primary CTAs."
+        },
+        {
+          "name": "Light Ghost Button",
+          "role": "Secondary Action on Light Background",
+          "description": "backgroundColor: rgba(0, 0, 0, 0.08), color: #000000, borderRadius: 4px, padding: 16px. A subdued action on light backgrounds."
+        },
+        {
+          "name": "Badge (Dark Background)",
+          "role": "Categorization, Status",
+          "description": "backgroundColor: rgba(255, 255, 255, 0.12), color: #FFFFFF, borderRadius: 4px, padding: 2px 8px. Applied to elements on dark surfaces."
+        },
+        {
+          "name": "Badge (Light Background)",
+          "role": "Categorization, Status",
+          "description": "backgroundColor: rgba(0, 0, 0, 0.04), color: #000000, borderRadius: 4px, padding: 2px 8px. Applied to elements on light surfaces."
+        },
+        {
+          "name": "Light Information Card",
+          "role": "Content Display, Feature Highlight",
+          "description": "backgroundColor: rgba(255, 255, 255, 0.08), borderRadius: 4px, padding: 20px 40px. Used for content blocks on dark backgrounds."
+        },
+        {
+          "name": "Colored Information Card (Blue)",
+          "role": "Statistical Highlight",
+          "description": "backgroundColor: #C1DFF9, borderRadius: 0px, padding: 20px. Used for specific data points or feature blocks, like the 2x faster card."
+        },
+        {
+          "name": "Colored Information Card (Pink)",
+          "role": "Statistical Highlight",
+          "description": "backgroundColor: #FDE3F6, borderRadius: 0px, padding: 20px. Used for specific data points or feature blocks."
+        },
+        {
+          "name": "Colored Information Card (Orange)",
+          "role": "Statistical Highlight",
+          "description": "backgroundColor: #FFDCCD, borderRadius: 0px, padding: 20px. Used for specific data points or feature blocks."
+        },
+        {
+          "name": "Navigation Bar",
+          "role": "Global Navigation",
+          "description": "backgroundColor: rgba(255, 255, 255, 0.08) within a primary background of #010120, backdrop-filter: blur(10px), boxShadow: rgba(1, 1, 32, 0.1) -10px 0px 75px 0px. Features a subtle frosted glass effect on a dark background."
+        }
+      ],
+      "typography": [
+        {
+          "role": "Primary typeface for all headings, body text, navigation, and general UI. The custom, almost futuristic aesthetic in varying weights maintains a consistent modern and intelligent tone without being overtly decorative. The tight letter-spacing at larger sizes gives headlines a crisp, intentional feel, preventing them from feeling loose despite the generous line heights.",
+          "sizes": "14px, 16px, 18px, 22px, 28px, 40px, 64px",
+          "family": "The Future",
+          "weight": "400, 500",
+          "lineHeight": "1.00, 1.10, 1.15, 1.20, 1.25, 1.30, 1.40",
+          "substitute": "Montserrat, Inter",
+          "letterSpacing": "-0.0300em at 64px, -0.0200em at 40px, -0.0150em at 28px, -0.0100em at 22px"
+        },
+        {
+          "role": "Used for code snippets, secondary labels, and small annotations. Its monospace nature provides a technical, data-driven counterpoint to 'The Future', reinforcing the AI platform's underlying complexity and precision.",
+          "sizes": "10px, 11px, 13px, 16px",
+          "family": "PP Neue Montreal Mono",
+          "weight": "400, 500",
+          "lineHeight": "1.00, 1.40",
+          "substitute": "IBM Plex Mono, Space Mono",
+          "letterSpacing": "0.0070em at 16px, 0.0050em at 13px"
+        }
+      ],
+      "description": "This system evokes a sense of advanced analytical capability, balancing deep, technical backgrounds with moments of soft-hued clarity. The predominant use of near-black and white creates a high-contrast, data-centric atmosphere. Subtle, pastel-like card colorations provide distinct 'data blocks' against the stark background. Hard-edged rectilinear forms dominate, with soft corner radii only appearing on interactive elements, grounding the digital sophistication with approachable interaction points. Large, whispering headlines in a custom AI-inspired typeface set a tone of quiet authority.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "### Quick Color Reference\n- Text (dark bg): #FFFFFF\n- Text (light bg): #000000\n- Background (dark): #010120\n- Background (light): #FFFFFF\n- CTA Button BG (dark): #000000\n- CTA Button BG (ghost): rgba(255, 255, 255, 0.12)\n- Accent: #BDBBFF\n\n### Example Component Prompts\n1. Create a Hero Headline: 'Build what's next on the AI Native Cloud'. Use 'The Future' font, weight 500, size 64px, line-height 1.1, letter-spacing -1.92px, color #FFFFFF. Place it on a #010120 background.\n2. Design a Primary Dark Action Button: 'Start building'. Use 'The Future' font, weight 400, size 16px, line-height 1.4, color #FFFFFF. Background #000000, borderRadius 4px, padding 16px.\n3. Construct a Light Information Card: '2x Faster Inference'. Use 'The Future' font for body, weight 400, size 16px, line-height 1.4, color #000000. Background #C1DFF9, no border, borderRadius 0px, padding 20px.\n4. Produce a Badge for Dark Background: 'Developers'. Use 'The Future' font, weight 400, size 14px, line-height 1.4, color #FFFFFF. Background rgba(255, 255, 255, 0.12), borderRadius 4px, padding 2px 8px.\n5. Generate a Footer Link: 'About Us'. Use 'The Future' font, weight 400, size 14px, line-height 1.4, color #FFFFFF. No explicit background, standard hover will be a mild opacity shift, such as on rgba(255,255,255,0.08)."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775923621441-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775923621441-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/461da0f0-fde6-46bc-8137-7eca006260a8",
+  "ranks": {
+    "trending": 119,
+    "popular": 151,
+    "newest": 1286
+  },
+  "localSlug": "together-ai-461da0f0"
+}

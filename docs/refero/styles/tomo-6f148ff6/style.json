@@ -1,0 +1,702 @@
+{
+  "id": "6f148ff6-ae72-496a-a21d-84d7779825ff",
+  "url": "https://tomoseattle.com",
+  "siteName": "TOMO",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777519008873-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777519008873-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "light",
+  "colors": [
+    {
+      "name": "Ink Black",
+      "hex": "#000000"
+    },
+    {
+      "name": "Canvas White",
+      "hex": "#ffffff"
+    },
+    {
+      "name": "Found Paper",
+      "hex": "#eee2d4"
+    },
+    {
+      "name": "Button Gray",
+      "hex": "#efefef"
+    },
+    {
+      "name": "Warning Red",
+      "hex": "#ff6347"
+    }
+  ],
+  "fonts": [
+    "Recife",
+    "Times"
+  ],
+  "northStar": "Deconstructed Collage Zine",
+  "createdAt": "2026-04-30T03:17:09.527Z",
+  "previewVideoCapturedAt": null,
+  "industry": "media",
+  "fullResult": {
+    "meta": {
+      "url": "https://tomoseattle.com",
+      "siteName": "TOMO",
+      "extractedAt": "2026-04-30T03:17:09.460Z",
+      "durationMs": 41171,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 120,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "other",
+              "image",
+              "button",
+              "heading",
+              "body",
+              "card"
+            ],
+            "frequency": 475,
+            "confidence": 1,
+            "prominence": 38349464.202618636,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "body/color": 1,
+              "card/color": 42,
+              "image/color": 22,
+              "other/color": 25,
+              "button/color": 1,
+              "heading/color": 4,
+              "body/borderColor": 4,
+              "card/borderColor": 168,
+              "image/borderColor": 88,
+              "other/borderColor": 100,
+              "button/borderColor": 4,
+              "heading/borderColor": 16
+            }
+          },
+          {
+            "hex": "#eee2d4",
+            "oklch": {
+              "c": 0.02289987937971384,
+              "h": 71.77533650161253,
+              "l": 0.9185407269460458
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 4311439,
+            "properties": [
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "other/backgroundColor": 1
+            }
+          },
+          {
+            "hex": "#ffffff",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 1.0000000000000002
+            },
+            "contexts": [
+              "other",
+              "heading",
+              "link",
+              "card",
+              "image"
+            ],
+            "frequency": 126,
+            "confidence": 1,
+            "prominence": 3939074.2821135162,
+            "properties": [
+              "backgroundColor",
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "card/color": 7,
+              "link/color": 7,
+              "image/color": 7,
+              "other/color": 2,
+              "heading/color": 2,
+              "card/borderColor": 28,
+              "link/borderColor": 28,
+              "image/borderColor": 28,
+              "other/borderColor": 8,
+              "heading/borderColor": 8,
+              "other/backgroundColor": 1
+            }
+          },
+          {
+            "hex": "#ff6347",
+            "oklch": {
+              "c": 0.19552461516765401,
+              "h": 32.32143392823356,
+              "l": 0.6962193472220298
+            },
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 2,
+            "confidence": 1,
+            "prominence": 351102.4781222512,
+            "properties": [
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "heading/backgroundColor": 2
+            }
+          },
+          {
+            "hex": "#efefef",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.9521308451894797
+            },
+            "contexts": [
+              "button"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 1953,
+            "properties": [
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "button/backgroundColor": 1
+            }
+          }
+        ],
+        "isDarkMode": false,
+        "colorfulness": 0.0018492254175341608,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 21,
+            "background": "#ffffff",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 18.26,
+            "background": "#efefef",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 16.46,
+            "background": "#eee2d4",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 7.13,
+            "background": "#ff6347",
+            "foreground": "#000000"
+          },
+          {
+            "level": "fail",
+            "ratio": 2.95,
+            "background": "#ff6347",
+            "foreground": "#ffffff"
+          },
+          {
+            "level": "fail",
+            "ratio": 1.28,
+            "background": "#eee2d4",
+            "foreground": "#ffffff"
+          },
+          {
+            "level": "fail",
+            "ratio": 1.15,
+            "background": "#efefef",
+            "foreground": "#ffffff"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 1,
+            "contexts": [
+              "button"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingTop",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|button",
+              "paddingBottom|button"
+            ]
+          },
+          {
+            "value": 3,
+            "contexts": [
+              "link"
+            ],
+            "frequency": 7,
+            "properties": [
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingBottom|link"
+            ]
+          },
+          {
+            "value": 6,
+            "contexts": [
+              "button",
+              "other"
+            ],
+            "frequency": 4,
+            "properties": [
+              "paddingRight",
+              "paddingLeft",
+              "paddingTop",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|button",
+              "paddingLeft|button",
+              "paddingTop|other",
+              "paddingBottom|other"
+            ]
+          },
+          {
+            "value": 13,
+            "contexts": [
+              "image"
+            ],
+            "frequency": 29,
+            "properties": [
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "marginBottom|image"
+            ]
+          },
+          {
+            "value": 65,
+            "contexts": [
+              "card"
+            ],
+            "frequency": 1,
+            "properties": [
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingBottom|card"
+            ]
+          },
+          {
+            "value": 70,
+            "contexts": [
+              "card"
+            ],
+            "frequency": 1,
+            "properties": [
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingBottom|card"
+            ]
+          },
+          {
+            "value": 75,
+            "contexts": [
+              "card"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingBottom|card"
+            ]
+          },
+          {
+            "value": 76,
+            "contexts": [
+              "card"
+            ],
+            "frequency": 1,
+            "properties": [
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingBottom|card"
+            ]
+          },
+          {
+            "value": 80,
+            "contexts": [
+              "card"
+            ],
+            "frequency": 1,
+            "properties": [
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingBottom|card"
+            ]
+          },
+          {
+            "value": 85,
+            "contexts": [
+              "card"
+            ],
+            "frequency": 1,
+            "properties": [
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingBottom|card"
+            ]
+          },
+          {
+            "value": 111,
+            "contexts": [
+              "card"
+            ],
+            "frequency": 1,
+            "properties": [
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingBottom|card"
+            ]
+          },
+          {
+            "value": 115,
+            "contexts": [
+              "card"
+            ],
+            "frequency": 1,
+            "properties": [
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingBottom|card"
+            ]
+          },
+          {
+            "value": 131,
+            "contexts": [
+              "card"
+            ],
+            "frequency": 1,
+            "properties": [
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingBottom|card"
+            ]
+          },
+          {
+            "value": 161,
+            "contexts": [
+              "card"
+            ],
+            "frequency": 1,
+            "properties": [
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingBottom|card"
+            ]
+          },
+          {
+            "value": 303,
+            "contexts": [
+              "card"
+            ],
+            "frequency": 1,
+            "properties": [
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingBottom|card"
+            ]
+          }
+        ],
+        "density": "comfortable",
+        "baseUnit": 6
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "Recife",
+            "source": "custom",
+            "weights": [
+              300,
+              400
+            ],
+            "frequency": 107,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "Times",
+            "source": "system",
+            "weights": [
+              400
+            ],
+            "frequency": 12,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 26,
+          "name": "Minor Third",
+          "ratio": 1.2,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 13,
+            "family": "Times",
+            "weight": 400,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 12,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 26,
+            "family": "Recife",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "image",
+              "body",
+              "link",
+              "card"
+            ],
+            "frequency": 99,
+            "lineHeight": 1.3,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 32,
+            "family": "Recife",
+            "weight": 300,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 6,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 32,
+            "family": "Recife",
+            "weight": 400,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Use Found Paper (#eee2d4) as the primary page background color to establish the warm, aged base.",
+        "Employ Ink Black (#000000) for all primary text and critical UI borders for maximum contrast and graphic impact.",
+        "Set all `border-radius` values to 0px to maintain the sharp, cut-out aesthetic; avoid rounded corners entirely.",
+        "Utilize Recife font for headlines and prominent text, varying between 300 and 400 weights for subtle hierarchy at 26px or 32px size and 1.0-1.3 line height.",
+        "Apply a 1px solid Ink Black (#000000) border to interactive elements and text blocks when a distinct visual separation or highlight is needed.",
+        "Treat content sections less as structured blocks and more as overlapping or adjacent cutout elements, allowing for varied bottom padding values.",
+        "Keep utilitarian buttons visually understated with Button Gray (#efefef) background and Ink Black (#000000) text and border."
+      ],
+      "donts": [
+        "Do not use any shadows for elevation; rely on overlaps, borders, and position for visual hierarchy.",
+        "Avoid gradients anywhere in the UI; the system is built on solid color blocks and photographic textures.",
+        "Do not introduce additional background or accent colors that deviate from the established neutral and single semantic red palette.",
+        "Refrain from using consistent grid structures or even spacing across major content sections; embrace a deliberately 'unaligned' feel.",
+        "Do not use letter-spacing other than 'normal' except where explicitly specified by type data.",
+        "Avoid any visually 'smooth' or 'modern' components (e.g., pill buttons, soft shadows, subtle color ramps); prioritize a raw, artisanal feel.",
+        "Do not use system fonts for prominent display text; adhere strictly to Recife for its distinct character."
+      ],
+      "theme": "light",
+      "colors": [
+        {
+          "hex": "#000000",
+          "name": "Ink Black",
+          "role": "Primary text, borders for textual elements, outlines for cutout components, strong graphic accents. Provides stark contrast against all backgrounds",
+          "group": "neutral"
+        },
+        {
+          "hex": "#ffffff",
+          "name": "Canvas White",
+          "role": "Hairline borders, dividers, input outlines, and card edges on light surfaces. Do not promote it to the primary CTA color",
+          "group": "neutral"
+        },
+        {
+          "hex": "#eee2d4",
+          "name": "Found Paper",
+          "role": "Dominant page background, providing a subtle, warm, aged paper texture that serves as the visual base for the collage",
+          "group": "neutral"
+        },
+        {
+          "hex": "#efefef",
+          "name": "Button Gray",
+          "role": "Background for utilitarian buttons, creating a subtle lift from the main background without introducing strong color",
+          "group": "neutral"
+        },
+        {
+          "hex": "#ff6347",
+          "name": "Warning Red",
+          "role": "Orange wash for highlight backgrounds, decorative bands, and soft emphasis behind content. Use as a supporting accent, not as a status color",
+          "group": "accent"
+        }
+      ],
+      "layout": "The page embraces a full-bleed, unconstrained layout, eschewing a fixed `pageMaxWidth` to allow visuals to extend to the edges. The hero section prominently features a very large, loosely centered typographic mark over the main background, with navigation items appearing as separate, displaced 'cut-out' text strips. Subsequent sections continue the collage pattern, with imagery and text blocks overlapping and appearing in an organic, non-grid-aligned fashion. There are no clear horizontal section dividers; vertical rhythm is established through varied bottom padding on content blocks, creating a dynamic, unpredictable flow. Navigation is presented as a series of distinct, rectangular text labels that float over content rather than a fixed bar.",
+      "imagery": "The site utilizes a dense, maximalist collage approach, combining a wide array of high-quality, cut-out product photography (shrimp, strawberries, melons, rice cookers, crabs), street photography, and miscellaneous found objects (clamshells, bottle). Images are often irregularly shaped 'cut-outs' with raw edges, rather than contained frames. They aggressively overlap and layer to create a rich, chaotic texture. There is no consistent photographic style; product shots are crisp and isolated, while environmental shots are more contextual. The imagery serves as both decorative atmosphere and direct content, dominating visual space and creating an immersive, busy composition.",
+      "similar": [
+        {
+          "why": "Similar high-contrast, minimalist typography combined with raw, food-focused photography against a neutral background.",
+          "business": "Momofuku"
+        },
+        {
+          "why": "Usage of large, bold serif typography for headlines and a focus on high-quality, often slightly informal photography with a distinct content presentation.",
+          "business": "The Infatuation"
+        },
+        {
+          "why": "Employs a collage-like aesthetic with overlapping images and text, often with a muted, earthy color palette and custom typography.",
+          "business": "Superior Merchandise Company"
+        },
+        {
+          "why": "Features a raw, almost 'cut-and-paste' layout with a focus on imagery and stark, high-contrast text, minimal use of 'clean' UI elements.",
+          "business": "Rough Trade NYC"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "none": "0px"
+        },
+        "elementGap": "13px",
+        "sectionGap": "75px",
+        "cardPadding": "0px",
+        "pageMaxWidth": null
+      },
+      "industry": "media",
+      "surfaces": [],
+      "northStar": "Deconstructed Collage Zine",
+      "components": [
+        {
+          "name": "Standard Button",
+          "role": "Default interactive button style.",
+          "description": "Background: Button Gray (#efefef), Text: Ink Black (#000000), Border: 1px solid Ink Black (#000000), Padding: 1px top/bottom, 6px left/right. Square corners (0px radius)."
+        },
+        {
+          "name": "Transparent Card",
+          "role": "Container for content, often layered directly on the background.",
+          "description": "Background: transparent (rgba(0,0,0,0)). No border, no shadow, 0px border-radius. Padding: 0px. Often used for imagery that forms part of the collage."
+        },
+        {
+          "name": "Subtle Transparent Card",
+          "role": "Used for slightly more pronounced content blocks that still maintain a lightweight feel.",
+          "description": "Background: almost transparent (rgba(0,0,0,0.004)). No border, no shadow, 0px border-radius. Padding: 0px. Used for content blocks that need a minimal visual separation without appearing as distinct cards."
+        },
+        {
+          "name": "Navigation Link Strip",
+          "role": "Interactive text links for navigation or content categories.",
+          "description": "Text: Ink Black (#000000) using Recife (300-400), background transparent. Underlined with a 1px solid Ink Black border on hover/active. Each item typically includes 3px bottom padding."
+        }
+      ],
+      "typography": [
+        {
+          "role": "Primary display and heading font. Its weight variations (300, 400) allow for a subtle range in emphasis, contributing to the distinct, somewhat artisanal feel of the brand. Used for prominent text blocks.",
+          "sizes": "26px, 32px",
+          "family": "Recife",
+          "weight": "300, 400",
+          "weights": [
+            300,
+            400
+          ],
+          "lineHeight": "1.00, 1.30",
+          "substitute": "Playfair Display",
+          "letterSpacing": "normal"
+        },
+        {
+          "role": "Secondary text for informational details and captions, grounding the design in a familiar, readable serif style.",
+          "sizes": "13px",
+          "family": "Times",
+          "weight": "400",
+          "weights": [
+            400
+          ],
+          "lineHeight": "1.20",
+          "substitute": "Times New Roman",
+          "letterSpacing": "normal"
+        }
+      ],
+      "description": "TOMO's design system is a collage-like, intentionally raw aesthetic, reminiscent of a zine or found-art compilation. It layers unconstrained imagery with stark, high-contrast typography and a simple, limited color palette focused on black, white, and a distinctive background tint. Visual elements often break traditional layout norms, appearing as cut-outs or overlapping pieces, eschewing typical component styling like consistent borders or backgrounds for a more deconstructed feel. The system prioritizes texture and visual surprise over smooth predictability, with text blocks often treated as separate, unaligned artifacts.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "Quick Color Reference:\ntext: #000000\nbackground: #eee2d4\nborder: #000000\naccent: no distinct accent color\nprimary action: no distinct CTA color\n\nExample Component Prompts:\n1. Create a primary headline: Text 'TOMO' in Recife, weight 400, size 32px, line height 1.0, color Ink Black (#000000).\n2. Create a navigation link: Text 'Info' in Recife, weight 300, size 26px, line height 1.3, color Ink Black (#000000). Apply 3px bottom padding. On hover, add a 1px solid Ink Black (#000000) border bottom.\n3. Create a utilitarian button: Background Button Gray (#efefef), text 'Close button' in Times, weight 400, size 13px, line height 1.2, color Ink Black (#000000). Border 1px solid Ink Black (#000000). Padding 1px top/bottom, 6px left/right. Radius 0px."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777519008873-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777519008873-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/6f148ff6-ae72-496a-a21d-84d7779825ff",
+  "ranks": {
+    "trending": 1305,
+    "popular": 1294,
+    "newest": 191
+  },
+  "localSlug": "tomo-6f148ff6"
+}

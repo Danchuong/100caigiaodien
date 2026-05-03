@@ -1,0 +1,194 @@
+# Ballpark — Refero Style
+
+- Refero URL: https://styles.refero.design/style/9342e89b-c2fe-4acf-9993-53b44e0c13b5
+- Site URL: https://ballparkhq.com
+- ID: 9342e89b-c2fe-4acf-9993-53b44e0c13b5
+- Theme: light
+- Industry: other
+- Created: 2026-03-07T17:45:15.000Z
+- Ranks: newest: 1078, popular: 181, trending: 213
+
+> High-contrast research tool; like a scientific dashboard with a single, urgent indicator light.
+
+## Description
+
+Ballpark's design conveys a sense of confident authority through its stark visual contrasts and structured layout. The interplay of deep, near-black text and crisp white backgrounds, punctuated by a single vibrant "Rocket Red" accent, creates a focused, high-contrast experience, much like an advanced research instrument. The generous use of space, especially around core content and within card structures, emphasizes clarity and reduces cognitive load, allowing complex information to be easily digestible. Distinctive rounded forms—from the extra-large button radii to the subtle card curves—soften the otherwise sharp edges, balancing precision with approachability.
+
+## Colors
+
+| Name | Hex | Group | Role |
+| --- | --- | --- | --- |
+| Pitch Black | #000000 | neutral | Primary text, critical headings, icons, borders on dark elements. Establishes a bold and clear informational hierarchy. |
+| Ghost White | #ffffff | neutral | Page backgrounds, card surfaces, secondary button backgrounds. Provides clean canvas for content and negative space. |
+| Ash Gray | #f9fafb | neutral | Subtle section backgrounds, light borders, subtle hover states. Offers a barely-there differentiation from Ghost White. |
+| Graphite | #111827 | neutral | Heading text, primary UI element text where Pitch Black might be too intense. Provides significant contrast without being absolute black. |
+| Slate Blue | #4b5563 | neutral | Body copy, secondary text, iconography. Softens text impact for longer reads while maintaining readability. |
+| Medium Gray | #374151 | neutral | Slightly darker body copy and secondary text for deeper contrast on lighter backgrounds. |
+| Light Gray | #6b7280 | neutral | Tertiary text, subtle borders, inactive states. Used for less prominent information. |
+| Border Gray | #e5e7eb | neutral | Default boundary for containers and cards, hint for input fields, offering subtle structure without being visually heavy. |
+| Rocket Red | #fc4a2b | brand | Primary Call-to-Action buttons, active indicators, highlights. Its vivid saturation against the largely achromatic palette ensures immediate attention. |
+| Passion Red | #e11d48 | brand | Secondary brand accent for more intense calls to action or error states, providing a deeper red alternative to Rocket Red. |
+| Sunset Orange | #f97316 | accent | Subtle stroke accents and decorative elements. A warmer, slightly more muted accent. |
+| Coral Glow | #ffac9 | accent | Highlight backgrounds, soft decorative elements. A light and airy accent derived from the brand red, used for subtle visual uplift. |
+| Pale Peach | #ffe5e0 | accent | Very light accent background, almost neutral, for soft visual differentiation. |
+| Success Green | #15803d | semantic | Subtle semantic indicator for success messages or positive states. |
+| Warning Yellow | #f59e0b | semantic | Subtle semantic indicator for warnings or informational alerts. |
+| Pill Button Gradient | #f87171 | accent | Background for secondary action pills, offering a soft visual texture. |
+
+## Typography
+
+| Family | Substitute | Weights | Sizes | Line Height | Role |
+| --- | --- | --- | --- | --- | --- |
+| Inter Display | system-ui, sans-serif | 700, 800 | 42px, 60px, 96px | 1.00 | Display headlines and hero text. The tight line height and negative letter-spacing give it a commanding, engineered feel. The specific font features 'cv06', 'cv13', 'zero' are critical for its distinctive look. |
+| Inter | system-ui, sans-serif | 400, 500, 600, 700 | 10px, 12px, 13px, 14px, 16px, 18px, 20px, 24px | 1.20, 1.33, 1.38, 1.40, 1.43, 1.46, 1.50, 1.60, 1.65 | All body copy, subheadings, navigation, and button text. Its versatility across weights and sizes, combined with careful letter-spacing adjustments, maintains readability and a precise tone. Features 'cv01', 'cv02', 'cv04', 'cv09' ensure consistent character design. |
+| sans-serif | system-ui, sans-serif | 400 | 12px | 1.20 | Fallback and utilitarian text where a system font provides sufficient clarity, often for labels or minor UI elements. |
+| IBM Plex Mono | monospace | 600 | 11px | 1.50 | Monospaced text for code snippets or specific data representations. The expanded letter spacing gives it a technical, distinct feel. |
+| Source Serif 4 | serif | 400 | 20px | 1.60 | Used for specific body text, possibly quotes or editorial content, offering a more traditional and softer reading experience with subtle tracking. |
+
+## Type Scale
+
+| Role | Size | Line Height | Letter Spacing |
+| --- | --- | --- | --- |
+| caption | 10 | 1.4 | 0.5 |
+| body | 14 | 1.6 | -0.14 |
+| subheading | 18 | 1.5 | -0.36 |
+| heading | 24 | 1.4 | -0.48 |
+| heading-lg | 42 | 1 | -1.47 |
+| display | 96 | 1 | -3.36 |
+
+## Spacing & Shape
+
+```json
+{
+  "radius": {
+    "pill": "9999px",
+    "cards": "10px",
+    "images": "6px",
+    "inputs": "6px",
+    "buttons": "6px",
+    "interactive": "100px"
+  },
+  "elementGap": "8px",
+  "sectionGap": "64-96px",
+  "cardPadding": "14-24px",
+  "pageMaxWidth": null
+}
+```
+
+## Components
+
+### Announcement Banner
+
+
+
+### Pill Selector / Research Type Tabs
+
+
+
+### Testimonial Card
+
+
+
+### Navigation Link
+
+**Role:** Primary navigation in header
+
+Text: Inter, 16px, weight 500, Graphite (#111827). Hover state: Pitch Black (#000000). Active state: underline 2px Rocket Red (#fc4a2b). Generous padding: 8px vertical, 8-16px horizontal to ensure distinct hit areas.
+
+### Secondary Ghost Button
+
+**Role:** Tertiary actions, secondary calls to attention
+
+Text: Pitch Black (#000000), 16px, weight 400. Background: transparent. Border: transparent. Active state: faint border or background color change. Used for subtle interactions like 'Sign In'.
+
+### Feature Card
+
+**Role:** Showcasing features or testimonials
+
+Background: Ghost White (#ffffff). Border radius: 10px. Box shadow: rgba(0, 0, 0, 0.1) 0px 6px 9px 0px, subtle inner shadow rgba(75, 85, 99, 0.2) 0px 0px 0px 1px. Contains content with 16px padding on all sides. The prominent shadow lifts the card significantly.
+
+### Header Brand Link
+
+**Role:** Brand logo in header
+
+Text: Pitch Black (#000000), 24px, Inter Display, weight 700. Features: 'cv06', 'cv13'. Minimal padding. Sets a bold brand identity at the top of every page.
+
+### Tertiary Callout Button
+
+**Role:** Informational or less prominent calls to action
+
+Text: Pitch Black (#000000), 16px, weight 400. Background: Light Gray (#e6e8eb). Radius: 6px. Padding: 8px vertical, 14px horizontal. Serves as a neutral, accessible button for less critical actions.
+
+## Do's
+
+- Prioritize high contrast between text and background using Pitch Black (#000000) or Graphite (#111827) on Ghost White (#ffffff) or Ash Gray (#f9fafb).
+- Use Rocket Red (#fc4a2b) exclusively for primary call-to-action buttons and essential active states to maintain its impact.
+- Apply a 9999px radius for all pill-shaped elements (buttons, tags, filters) and use 6px for standard buttons and inputs.
+- Employ the Inter Display font with specific font features ('cv06', 'cv13') for all display-level headlines (42px and above) to achieve its distinct character.
+- Maintain generous padding around content blocks and within components, targeting 14-24px for card padding and 8px as a base element gap.
+- Utilize the shadow `rgba(0, 0, 0, 0.1) 0px 6px 9px 0px, rgba(75, 85, 99, 0.2) 0px 0px 0px 1px` for all elevated cards and containers to create a consistent lifted appearance.
+- Ensure letter-spacing is applied as specified in the typography for Inter and Inter Display, especially the negative values for larger headlines, to optimize visual density.
+
+## Don'ts
+
+- Do not introduce new primary accent colors; restrict vibrant accents to Rocket Red (#fc4a2b) and its derivatives.
+- Avoid using multiple shadows on a single element; stick to the defined shadow styles for cards to prevent visual clutter.
+- Do not deviate from the specified font features for Inter and Inter Display, as they are integral to the brand's typographic identity.
+- Refrain from using radii smaller than 6px or larger than 10px (except for 9999px pills) to maintain shape consistency.
+- Do not use generic system sans-serif for body or heading text; always use 'Inter' for its consistent, readable structure.
+- Avoid excessive use of bold text in body copy; reserve weights 600-700 for headings, subheadings, and key UI labels only.
+
+## Layout
+
+The page maintains a centered, max-width layout, effectively creating a content-focused experience within clear boundaries. The hero section is characterized by a centered, bold headline over a white background, occasionally featuring subtle background elements or abstract graphics. Sections generally alternate between centered text stacks and two-column layouts pairing text with images or product illustrations, creating a balanced rhythm. A prominent feature is the use of card grids (often 3-column) for displaying multiple features or testimonials, ensuring content is visually digestible. Navigation is a sticky top bar with a clear brand logo and primary actions. Generous vertical spacing between sections creates breathing room and allows each section to convey a distinct message without visual overlap.
+
+## Imagery
+
+This design primarily uses product screenshots and abstract, organic vector graphics that appear to be illustrations. Photography, when present in testimonials, is framed within rounded containers (16px radius) and sometimes features a subtle, brand-colored overlay (like the red Vodafone graphic). Product screenshots are often contained within structured cards, emphasizing functionality over aesthetic appeal. Illustrations are generally flat, geometric, and either filled with muted, abstract colors or outlines in brand colors like Rocket Red. Iconography is primarily outline-based with a medium stroke weight. The overall role of imagery is explanatory and supportive rather than purely decorative, providing visual context to features and testimonials. Image density is moderate, balanced with significant textual content and whitespace.
+
+## Elevation
+
+| Element | Style |
+| --- | --- |
+| Feature Card | rgba(0, 0, 0, 0.1) 0px 6px 9px 0px, rgba(75, 85, 99, 0.2) 0px 0px 0px 1px |
+| Hovered Button | rgba(0, 0, 0, 0.06) 0px 2px 2px 0px, rgba(75, 85, 99, 0.2) 0px 0px 0px 1px |
+| Callout / Modal | rgba(50, 50, 92, 0.05) 0px 50px 100px -20px, rgba(0, 0, 0, 0.15) 0px 30px 60px -30px |
+| Accent Ring | rgb(252, 74, 43) 0px 0px 0px 2px |
+
+## Similar Brands
+
+| Business | Why |
+| --- | --- |
+| Figma | Clean, high-contrast UI with a single vibrant accent color and strong typography, prioritizing clarity in a complex tool. |
+| Stripe | Understated design with strategic use of negative space, crisp typography, and an emphasis on structure for technical products. |
+| Linear | Focus on high-contrast text and interactive elements, minimalist aesthetic, and custom typography to maintain readability and precision. |
+| Notion | Utilizes generous white space, a functional grey palette, and clear text hierarchy to present information dense content accessibly. |
+
+## Custom Sections
+
+### Agent Prompt Guide
+
+### Quick Color Reference
+- **Text:** Pitch Black (#000000)
+- **Background:** Ghost White (#ffffff)
+- **CTA:** Rocket Red (#fc4a2b)
+- **Body Text:** Slate Blue (#4b5563)
+- **Border:** Border Gray (#e5e7eb)
+
+### 3-5 Example Component Prompts
+1. **Create a Hero Section:** Set background to Ghost White (#ffffff). Headline text: "Your Research, Simplified" using Inter Display, 96px, weight 800, Pitch Black (#000000), letter-spacing -3.36px. Subheading: "A new way to get insights." using Inter, 24px, weight 400, Slate Blue (#4b5563), letter-spacing -0.48px. Add a Primary CTA Button (see below).
+2. **Generate a Primary CTA Button:** Text: "Get Started Now" using Inter, 16px, weight 700, Pitch Black (#000000). Background: Rocket Red (#fc4a2b). Border radius: 6px. Padding: 8px vertical, 14px horizontal. Box shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px.
+3. **Design a Feature Card:** Background: Ghost White (#ffffff). Border radius: 10px. Box shadow: rgba(0, 0, 0, 0.1) 0px 6px 9px 0px, rgba(75, 85, 99, 0.2) 0px 0px 0px 1px. Inside, add a heading: "Instant Insights" using Inter, 20px, weight 600, Graphite (#111827), letter-spacing -0.2px. Below, add body text: "Leverage AI to get data in minutes." using Inter, 14px, weight 400, Slate Blue (#4b5563), letter-spacing -0.14px. Inner padding should be 16px.
+4. **Create a Pill Tag:** Text: "Surveys" using Inter, 14px, weight 400, Graphite (#111827). Background: Ash Gray (#f9fafb). Border radius: 9999px. Padding: 7px horizontal, 0px vertical.
+5. **Compose a Navigation Link:** Text: "Solutions" using Inter, 16px, weight 500, Graphite (#111827). On hover, change text to Pitch Black (#000000). Active state adds a 2px underline in Rocket Red (#fc4a2b). Padding: 8px vertical, 12px horizontal.
+
+## Assets
+
+| Type | URL |
+| --- | --- |
+| screenshot | https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775933391174-screenshot.jpg |
+| thumbnail | https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775933391174-thumb.jpg |
+| preview video | https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/9342e89b-c2fe-4acf-9993-53b44e0c13b5-1777561116093-preview.mp4 |
+| preview video poster | https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/9342e89b-c2fe-4acf-9993-53b44e0c13b5-1777561116093-preview-poster.jpg |
+| detail video | https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/9342e89b-c2fe-4acf-9993-53b44e0c13b5-1777561116093-preview-detail.mp4 |
+| detail video poster | https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/9342e89b-c2fe-4acf-9993-53b44e0c13b5-1777561116093-preview-detail-poster.jpg |

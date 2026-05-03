@@ -1,0 +1,349 @@
+{
+  "id": "9796b04a-2bb6-4571-9f68-f3360e5746c2",
+  "url": "https://www.films53-12.com",
+  "siteName": "Films 53/12",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777514655501-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777514655501-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "dark",
+  "colors": [
+    {
+      "name": "Pitch Black",
+      "hex": "#000000"
+    },
+    {
+      "name": "Ghost White",
+      "hex": "#ece5ea"
+    }
+  ],
+  "fonts": [
+    "Founders Grotesk"
+  ],
+  "northStar": "Black canvas, stark white type",
+  "createdAt": "2026-04-30T02:04:28.425Z",
+  "previewVideoCapturedAt": null,
+  "industry": "media",
+  "fullResult": {
+    "meta": {
+      "url": "https://www.films53-12.com",
+      "siteName": "Films 53/12",
+      "extractedAt": "2026-04-30T02:04:28.359Z",
+      "durationMs": 17492,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 43,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#ece5ea",
+            "oklch": {
+              "c": 0.010044803966799923,
+              "h": 335.48368503414855,
+              "l": 0.928808583672269
+            },
+            "contexts": [
+              "other",
+              "link"
+            ],
+            "frequency": 72,
+            "confidence": 1,
+            "prominence": 2120330.592468909,
+            "properties": [
+              "color",
+              "borderColor",
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "link/color": 4,
+              "other/color": 10,
+              "link/borderColor": 16,
+              "other/borderColor": 40,
+              "other/backgroundColor": 2
+            }
+          },
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 20,
+            "confidence": 1,
+            "prominence": 1504592.7254902872,
+            "properties": [
+              "fill"
+            ],
+            "usageCounts": {
+              "other/fill": 20
+            }
+          },
+          {
+            "hex": "#ffffff",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 1.0000000000000002
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 10,
+            "confidence": 1,
+            "prominence": 133485.62843673874,
+            "properties": [
+              "fill"
+            ],
+            "usageCounts": {
+              "other/fill": 10
+            }
+          }
+        ],
+        "isDarkMode": true,
+        "colorfulness": 0.019163377997074574,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 21,
+            "background": "#ffffff",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 16.96,
+            "background": "#ece5ea",
+            "foreground": "#000000"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 3,
+            "contexts": [
+              "link"
+            ],
+            "frequency": 4,
+            "properties": [
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingBottom|link"
+            ]
+          },
+          {
+            "value": 10,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 8,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|other",
+              "paddingLeft|other"
+            ]
+          },
+          {
+            "value": 108,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "marginRight",
+              "marginLeft"
+            ],
+            "propertyContextPairs": [
+              "marginRight|other",
+              "marginLeft|other"
+            ]
+          }
+        ],
+        "density": "compact",
+        "baseUnit": null
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "Founders grotesk",
+            "source": "custom",
+            "weights": [
+              300
+            ],
+            "frequency": 14,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": null,
+        "steps": [
+          {
+            "size": 14,
+            "family": "Founders grotesk",
+            "weight": 300,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 10,
+            "lineHeight": 1.43,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 18,
+            "family": "Founders grotesk",
+            "weight": 300,
+            "contexts": [
+              "link"
+            ],
+            "frequency": 4,
+            "lineHeight": 1.11,
+            "letterSpacing": 0.056,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Use Pitch Black (#000000) for all page and section backgrounds.",
+        "Apply Ghost White (#ece5ea) for all text elements to maintain high contrast.",
+        "Utilize Founders Grotesk weight 300 for all typography, ensuring a consistent light, airy feel.",
+        "Maintain a letter-spacing of 0.0560em across all text to enhance readability in uppercase contexts.",
+        "Employ 108px as the primary vertical spacing between major sections.",
+        "Keep borders to a minimum; use subtle Ghost White (#ece5ea) outlines for interactive elements only."
+      ],
+      "donts": [
+        "Never use saturated colors; the palette is strictly monochromatic.",
+        "Avoid heavy font weights; the system is defined by its light, airy typography.",
+        "Do not use any shadows or elevation; the design system is entirely flat.",
+        "Refrain from introducing decorative gradients; stick to solid color blocks.",
+        "Do not add extra padding or backgrounds to text links, unless specifically for an interactive border.",
+        "Exclude circular or highly rounded border radii; the implied shape language is sharp and rectilinear.",
+        "Do not break the high-contrast pairing of Ghost White text on a Pitch Black background."
+      ],
+      "theme": "dark",
+      "colors": [
+        {
+          "hex": "#000000",
+          "name": "Pitch Black",
+          "role": "Page background, primary canvas",
+          "group": "neutral"
+        },
+        {
+          "hex": "#ece5ea",
+          "name": "Ghost White",
+          "role": "Hairline borders, dividers, input outlines, and card edges on light surfaces. Do not promote it to the primary CTA color",
+          "group": "neutral"
+        }
+      ],
+      "layout": "The page uses a full-bleed black background. The hero features a large, horizontally centered headline. Navigation and secondary information are sparsely placed with large horizontal and vertical gaps. Content is arranged in a minimalist, open fashion, prioritizing ample negative space between each textual element and section. There is no grid system or complex content arrangements; elements appear to be intentionally isolated.",
+      "imagery": "No imagery or graphical elements beyond stark typography and a solid black background. The visual language is pure text and negative space; imagery serves no active role in the design system itself, only as content.",
+      "similar": [
+        {
+          "why": "High-contrast, minimalist, text-focused design with dark backgrounds and white typography.",
+          "business": "A24 Films"
+        },
+        {
+          "why": "Predominantly monochrome palette, with emphasis on typography and stark layout against ample negative space.",
+          "business": "Studio Fnt"
+        },
+        {
+          "why": "Extreme minimalism, often using only black and white with subtle interactive elements and clean typography.",
+          "business": "Some.Place"
+        }
+      ],
+      "spacing": {
+        "radius": {},
+        "elementGap": "",
+        "sectionGap": "108px",
+        "cardPadding": "",
+        "pageMaxWidth": null
+      },
+      "industry": "media",
+      "northStar": "Black canvas, stark white type",
+      "typeScale": [
+        {
+          "role": "body",
+          "size": 14,
+          "lineHeight": 1.43,
+          "letterSpacing": 0.56
+        },
+        {
+          "role": "heading",
+          "size": 18,
+          "lineHeight": 1.11,
+          "letterSpacing": 0.56
+        }
+      ],
+      "components": [
+        {
+          "name": "Navigation Link",
+          "role": "Interactive text link",
+          "description": "Ghost White (#ece5ea) text, Founders Grotesk weight 300, 14px size, 1.43 line height, letter-spacing 0.0560em. Hover state shows a subtle border as its interaction cue. No background or distinct padding."
+        }
+      ],
+      "typography": [
+        {
+          "role": "All text: headlines, body copy, and navigation links. The consistent light weight (300) contributes to the minimalist, high-contrast aesthetic and avoids any visual 'shouting'.",
+          "sizes": "14px, 18px",
+          "family": "Founders Grotesk",
+          "weight": "300",
+          "weights": [
+            300
+          ],
+          "lineHeight": "1.11, 1.43",
+          "substitute": "Inter",
+          "letterSpacing": "0.0560em"
+        }
+      ],
+      "description": "Films 53/12 embraces a stark, monochromatic aesthetic, creating a feeling of artistic minimalism. The design relies heavily on high contrast typography and ample dark negative space, lending an air of seriousness and focused intent. Interactions are subtle, communicated through text highlights rather than bold colorful components. The overall impression is one of restraint and intellectual depth, allowing the content to take precedence within a tightly controlled visual framework.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "Quick Color Reference:\ntext: #ece5ea\nbackground: #000000\nborder: #ece5ea\naccent: no distinct accent color\nprimary action: no distinct CTA color\n\nExample Component Prompts:\n1. Create a page header: Pitch Black (#000000) background. Main title in Founders Grotesk weight 300, 56px (derived as the largest visual element), Ghost White (#ece5ea), letter-spacing 0.0560em, centered on the page. Below it, a navigation link 'VIMEO' using Founders Grotesk weight 300, 14px, Ghost White (#ece5ea), 0.0560em letter-spacing.\n2. Create a footer section: Pitch Black (#000000) background. A single link 'INFO@FILMS53-12.COM' in Founders Grotesk weight 300, 14px, Ghost White (#ece5ea), 0.0560em letter-spacing, centered at the bottom of the page.\n3. Create a secondary navigation block: Three text links 'VIMEO', 'BOUTIQUE', 'EN' laid out horizontally with 108px margin between them, each using Founders Grotesk weight 300, 14px, Ghost White (#ece5ea), 0.0560em letter-spacing. On hover, apply a 1px border of Ghost White (#ece5ea)."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777514655501-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777514655501-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/9796b04a-2bb6-4571-9f68-f3360e5746c2",
+  "ranks": {
+    "trending": 377,
+    "popular": 595,
+    "newest": 450
+  },
+  "localSlug": "films-53-12-9796b04a"
+}

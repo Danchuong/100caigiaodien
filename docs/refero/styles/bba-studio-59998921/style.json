@@ -1,0 +1,404 @@
+{
+  "id": "59998921-8f1e-4f47-849d-e2eea939b0ed",
+  "url": "https://www.bbastudio.eu",
+  "siteName": "BBA Studio",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777513976098-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777513976098-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "light",
+  "colors": [
+    {
+      "name": "Canvas White",
+      "hex": "#ffffff"
+    },
+    {
+      "name": "Lead Text",
+      "hex": "#000000"
+    },
+    {
+      "name": "Ghost Border",
+      "hex": "#e5e7eb"
+    }
+  ],
+  "fonts": [
+    "ABCROM"
+  ],
+  "northStar": "Architectural Gray Canvas",
+  "createdAt": "2026-04-30T01:53:13.130Z",
+  "previewVideoCapturedAt": null,
+  "industry": "other",
+  "fullResult": {
+    "meta": {
+      "url": "https://www.bbastudio.eu",
+      "siteName": "BBA Studio",
+      "extractedAt": "2026-04-30T01:53:13.065Z",
+      "durationMs": 23071,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 108,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#e5e7eb",
+            "oklch": {
+              "c": 0.005813542372075684,
+              "h": 264.5313231484507,
+              "l": 0.9275823098127417
+            },
+            "contexts": [
+              "other",
+              "nav",
+              "link",
+              "image",
+              "heading",
+              "list"
+            ],
+            "frequency": 388,
+            "confidence": 1,
+            "prominence": 12062602.469845407,
+            "properties": [
+              "borderColor"
+            ],
+            "usageCounts": {
+              "nav/borderColor": 64,
+              "link/borderColor": 36,
+              "list/borderColor": 96,
+              "image/borderColor": 32,
+              "other/borderColor": 128,
+              "heading/borderColor": 32
+            }
+          },
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "other",
+              "image",
+              "button"
+            ],
+            "frequency": 37,
+            "confidence": 1,
+            "prominence": 7357788.547165904,
+            "properties": [
+              "color"
+            ],
+            "usageCounts": {
+              "image/color": 8,
+              "other/color": 21,
+              "button/color": 8
+            }
+          },
+          {
+            "hex": "#ffffff",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 1.0000000000000002
+            },
+            "contexts": [
+              "other",
+              "nav",
+              "link",
+              "heading",
+              "list",
+              "button"
+            ],
+            "frequency": 104,
+            "confidence": 1,
+            "prominence": 676795.9481807451,
+            "properties": [
+              "color",
+              "backgroundColor",
+              "borderColor",
+              "fill"
+            ],
+            "usageCounts": {
+              "nav/color": 16,
+              "link/color": 9,
+              "list/color": 24,
+              "other/fill": 3,
+              "other/color": 11,
+              "heading/color": 8,
+              "button/borderColor": 32,
+              "button/backgroundColor": 1
+            }
+          }
+        ],
+        "isDarkMode": false,
+        "colorfulness": 0.011524316356028026,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 21,
+            "background": "#ffffff",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 16.96,
+            "background": "#e5e7eb",
+            "foreground": "#000000"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [
+          {
+            "value": 9999,
+            "contexts": [
+              "button"
+            ],
+            "frequency": 8
+          }
+        ],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 8,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "rowGap",
+              "columnGap"
+            ],
+            "propertyContextPairs": [
+              "rowGap|other",
+              "columnGap|other"
+            ]
+          },
+          {
+            "value": 20,
+            "contexts": [
+              "other",
+              "nav"
+            ],
+            "frequency": 26,
+            "properties": [
+              "marginRight",
+              "marginLeft",
+              "rowGap",
+              "columnGap",
+              "paddingRight",
+              "paddingLeft",
+              "paddingTop",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "marginRight|other",
+              "marginLeft|other",
+              "rowGap|other",
+              "columnGap|other",
+              "rowGap|nav",
+              "columnGap|nav",
+              "paddingRight|other",
+              "paddingLeft|other",
+              "paddingTop|other",
+              "paddingBottom|other"
+            ]
+          },
+          {
+            "value": 24,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingTop",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|nav",
+              "paddingBottom|nav"
+            ]
+          },
+          {
+            "value": 112,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 8,
+            "properties": [
+              "rowGap"
+            ],
+            "propertyContextPairs": [
+              "rowGap|other"
+            ]
+          }
+        ],
+        "density": "comfortable",
+        "baseUnit": 4
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "ABCROM",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 105,
+            "fontFeatureSettings": [
+              "\"calt\", \"kern\""
+            ]
+          }
+        ],
+        "scale": null,
+        "steps": [
+          {
+            "size": 14,
+            "family": "ABCROM",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "nav",
+              "link",
+              "image",
+              "heading",
+              "list",
+              "button"
+            ],
+            "frequency": 105,
+            "lineHeight": 1.4,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Prioritize Canvas White (#ffffff) for all primary backgrounds to maintain the light, expansive canvas.",
+        "Use Lead Text (#000000) for all textual content to ensure high contrast against light backgrounds.",
+        "Implement Ghost Border (#e5e7eb) for all subtle dividers, card outlines, and interactive element states.",
+        "Apply a 9999px border-radius to all buttons for a highly rounded, distinct shape.",
+        "Maintain a clear elementGap of 20px between interactive elements and content blocks.",
+        "Utilize ABCROM 14px, 400 weight for all typography, embracing a uniform and disciplined textual hierarchy.",
+        "Emphasize large sectionGap of 112px to create significant visual breathing room between major content blocks."
+      ],
+      "donts": [
+        "Avoid introducing new chromatic colors; the palette is strictly neutral-focused.",
+        "Do not use heavy shadows or gradients; rely on discreet borders and spacing for visual separation.",
+        "Do not deviate from the ABCROM typeface or its singular observed weight and size.",
+        "Avoid tight spacing; maintain the open and airy feel established by the 20px element gap and 112px section gap.",
+        "Do not use square or minimally rounded corners for interactive elements; the 9999px radius is a signature visual cue."
+      ],
+      "theme": "light",
+      "colors": [
+        {
+          "hex": "#ffffff",
+          "name": "Canvas White",
+          "role": "Page backgrounds, card surfaces, primary text color for ghost buttons",
+          "group": "neutral"
+        },
+        {
+          "hex": "#000000",
+          "name": "Lead Text",
+          "role": "Primary text color for headings and body text on light backgrounds",
+          "group": "neutral"
+        },
+        {
+          "hex": "#e5e7eb",
+          "name": "Ghost Border",
+          "role": "Subtle borders for cards, list items, navigation links, and ghost buttons",
+          "group": "neutral"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "buttons": "9999px"
+        },
+        "elementGap": "20px",
+        "sectionGap": "112px",
+        "cardPadding": "20px",
+        "pageMaxWidth": null
+      },
+      "industry": "other",
+      "surfaces": [],
+      "northStar": "Architectural Gray Canvas",
+      "typeScale": [
+        {
+          "role": "body",
+          "size": 14,
+          "lineHeight": 1.4,
+          "letterSpacing": 0
+        }
+      ],
+      "components": [
+        {
+          "name": "Ghost Navigation Link",
+          "role": "Navigation, interactive elements",
+          "description": "A ghost link with Lead Text (#000000) on a Canvas White (#ffffff) background. Activated state is indicated by a subtle Ghost Border (#e5e7eb) under the text. Uses ABCROM 14px, weight 400."
+        },
+        {
+          "name": "Circular Ghost Button",
+          "role": "Primary interactive element, typically for calls to action or navigation.",
+          "description": "A button with Canvas White (#ffffff) text on a transparent background, featuring a subtle Ghost Border (#e5e7eb) of 1px. The radius is extreme (9999px) for a pill-like or circular shape. Uses ABCROM 14px, weight 400. Padding is implicitly minimal, focusing on the text and border."
+        },
+        {
+          "name": "List Item with Border",
+          "role": "Structured content lists or navigation menus.",
+          "description": "List items that use ABCROM 14px, weight 400 Lead Text (#000000) and are often bordered by Ghost Border (#e5e7eb) on one or more sides to create distinct divisions."
+        }
+      ],
+      "typography": [
+        {
+          "role": "Primary typeface for all text elements. Its singular weight and size observed across various contexts (navigation, headings, body text, buttons) suggests an intentional uniformity, prioritizing clarity and directness over typographic hierarchy.",
+          "sizes": "14px",
+          "family": "ABCROM",
+          "weight": "400",
+          "lineHeight": "1.40",
+          "substitute": "Montserrat",
+          "letterSpacing": "normal",
+          "fontFeatureSettings": "\"calt\", \"kern\""
+        }
+      ],
+      "description": "BBA Studio presents a stark, almost monochromatic design system built on a foundation of neutral tones. The visual language relies heavily on spaciousness and precise typography rather than vibrant color. Interactions are subtle, often indicated by a faint border change or a ghost button. The overall impression is one of restraint and architectural clarity, with content taking center stage on a light, unadorned canvas.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "primary action: no distinct CTA color"
+        }
+      ],
+      "elevationPhilosophy": "The design intentionally avoids shadows for elevation. Instead, visual depth and separation are achieved through subtle Ghost Borders (#e5e7eb) and generous spacing, allowing elements to exist distinctly on the flat Canvas White (#ffffff)."
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777513976098-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777513976098-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/59998921-8f1e-4f47-849d-e2eea939b0ed",
+  "ranks": {
+    "trending": 938,
+    "popular": 1033,
+    "newest": 498
+  },
+  "localSlug": "bba-studio-59998921"
+}

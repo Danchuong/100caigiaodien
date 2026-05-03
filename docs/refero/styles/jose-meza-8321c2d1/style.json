@@ -1,0 +1,325 @@
+{
+  "id": "8321c2d1-686f-4752-9156-ea613a879b9e",
+  "url": "https://josemeza.info",
+  "siteName": "José Meza",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777517631551-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777517631551-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "dark",
+  "colors": [
+    {
+      "name": "Midnight Void",
+      "hex": "#000000"
+    },
+    {
+      "name": "Ghost White",
+      "hex": "#ffffff"
+    },
+    {
+      "name": "Slate Echo",
+      "hex": "#585858"
+    }
+  ],
+  "fonts": [
+    "Untitled Sans"
+  ],
+  "northStar": "Minimalist Dark Canvas",
+  "createdAt": "2026-04-30T02:54:08.282Z",
+  "previewVideoCapturedAt": null,
+  "industry": "design",
+  "fullResult": {
+    "meta": {
+      "url": "https://josemeza.info",
+      "siteName": "José Meza",
+      "extractedAt": "2026-04-30T02:54:08.113Z",
+      "durationMs": 24167,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 30,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#ffffff",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 1.0000000000000002
+            },
+            "contexts": [
+              "other",
+              "heading",
+              "link",
+              "image"
+            ],
+            "frequency": 135,
+            "confidence": 1,
+            "prominence": 5562836.184691931,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "link/color": 13,
+              "image/color": 1,
+              "other/color": 10,
+              "heading/color": 3,
+              "link/borderColor": 52,
+              "image/borderColor": 4,
+              "other/borderColor": 40,
+              "heading/borderColor": 12
+            }
+          },
+          {
+            "hex": "#585858",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.4618390658402444
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 15,
+            "confidence": 1,
+            "prominence": 270944,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "other/color": 3,
+              "other/borderColor": 12
+            }
+          }
+        ],
+        "isDarkMode": true,
+        "colorfulness": 0,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 7.11,
+            "background": "#ffffff",
+            "foreground": "#585858"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 60,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 3,
+            "properties": [
+              "paddingBottom",
+              "marginRight",
+              "marginLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingBottom|other",
+              "marginRight|other",
+              "marginLeft|other"
+            ]
+          }
+        ],
+        "density": "spacious",
+        "baseUnit": 6
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "untitled-sans",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 30,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": null,
+        "steps": [
+          {
+            "size": 43,
+            "family": "untitled-sans",
+            "weight": 400,
+            "contexts": [
+              "link"
+            ],
+            "frequency": 13,
+            "lineHeight": 1.2,
+            "letterSpacing": -0.023,
+            "textTransform": "none"
+          },
+          {
+            "size": 97,
+            "family": "untitled-sans",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "heading",
+              "image"
+            ],
+            "frequency": 17,
+            "lineHeight": 1.1,
+            "letterSpacing": -0.021,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Prioritize Ghost White (#ffffff) for all primary text and active states against the Midnight Void (#000000) background.",
+        "Use Slate Echo (#585858) exclusively for secondary text, inactive states, and subtle visual dividers.",
+        "Maintain a spacious layout with a consistent 60px vertical and horizontal spacing unit between major content blocks and elements.",
+        "Apply Untitled Sans, weight 400, for all typography, adjusting size and letter-spacing according to the type scale.",
+        "Ensure the page content is contained within a 1320px maximum width, centered on the screen.",
+        "Leverage the high contrast between Midnight Void and Ghost White to establish clear visual hierarchy without needing additional colors."
+      ],
+      "donts": [
+        "Avoid introducing any colors other than Midnight Void, Ghost White, and Slate Echo unless for specific functional or branding elements (not detected here).",
+        "Do not use multiple font families or weights, as the system relies on a singular typeface for consistency.",
+        "Refrain from using shadows or complex gradients; the aesthetic is flat and relies on color contrast and spacing.",
+        "Introduce complex component structures or decorative elements that detract from the minimalist, text-focused presentation.",
+        "Vary the letter-spacing or line-height from the defined typographic scale values for Untitled Sans."
+      ],
+      "theme": "dark",
+      "colors": [
+        {
+          "hex": "#000000",
+          "name": "Midnight Void",
+          "role": "Primary page background, component backdrops — a deep, true black creates high contrast with text",
+          "group": "neutral"
+        },
+        {
+          "hex": "#ffffff",
+          "name": "Ghost White",
+          "role": "Primary text, active navigation, headings, and outlines for ghost buttons, providing maximum readability against the dark background",
+          "group": "neutral"
+        },
+        {
+          "hex": "#585858",
+          "name": "Slate Echo",
+          "role": "Muted text for secondary information, inactive navigation items, and subtle borders. Provides visual separation without harshness",
+          "group": "neutral"
+        }
+      ],
+      "layout": "The page adheres to a maximalist typographic hero pattern, where the primary content (name and role) is displayed prominently as large, centered text, followed by navigation links. The layout is generally contained within a 1320px maximum width, centered. Vertical rhythm is established by consistent 60px gaps, creating generous breathing room between sections and elements. The navigation is a simple vertical list of text links, suggesting a minimal structure rather than complex menus. The main interaction happens through the text itself, highlighting a content-first, direct approach.",
+      "imagery": "This design system primarily uses a 'no imagery, pure UI' approach. The visual emphasis is entirely on typography and spaciousness. If imagery were to be introduced, it would need to align with a stark, high-contrast, minimalist aesthetic, likely involving full-bleed or tightly cropped visuals that maintain an elegant, understated presence without clashing with the dominant dark canvas and crisp white text. Icons, if present (none detected), should be monochromatic, probably outlined, with medium stroke weight, to blend seamlessly with the typographic style rather than introducing new visual complexity.",
+      "similar": [
+        {
+          "why": "Shares the use of a simple, high-contrast dark background with prominent white text for headings and navigation, prioritizing typography.",
+          "business": "Basic Apple website UI (pre-product imagery)"
+        },
+        {
+          "why": "Employs an extremely minimalist approach with large, focal type and minimal visual clutter, letting the work speak for itself.",
+          "business": "Certain graphic design portfolio sites"
+        },
+        {
+          "why": "Features a stark, high-contrast interface with a focus on textual content and navigation, often using simple black and white schemes.",
+          "business": "Are.na"
+        },
+        {
+          "why": "Emphasizes typographic hierarchy, negative space, and large, impactful text elements over heavy graphical components.",
+          "business": "Editorial design layouts"
+        }
+      ],
+      "spacing": {
+        "radius": {},
+        "elementGap": "60px",
+        "sectionGap": "60px",
+        "cardPadding": "60px",
+        "pageMaxWidth": "1320px"
+      },
+      "industry": "design",
+      "northStar": "Minimalist Dark Canvas",
+      "typeScale": [
+        {
+          "role": "body",
+          "size": 43,
+          "lineHeight": 1.2,
+          "letterSpacing": -0.903
+        },
+        {
+          "role": "display",
+          "size": 97,
+          "lineHeight": 1.1,
+          "letterSpacing": -2.231
+        }
+      ],
+      "components": [
+        {
+          "name": "Primary Navigation Link",
+          "role": "Interactive text link for site navigation.",
+          "description": "Text is Ghost White (#ffffff) using Untitled Sans, weight 400, at 43px with line-height 1.2 and letter-spacing -0.021em. On hover/active, this text remains Ghost White, and its interactive state is implied by context or system-level visual changes."
+        },
+        {
+          "name": "Secondary Navigation Link",
+          "role": "Inactive or secondary interactive text link.",
+          "description": "Text is Slate Echo (#585858) using Untitled Sans, weight 400, at 43px with line-height 1.2 and letter-spacing -0.021em."
+        },
+        {
+          "name": "Display Headline",
+          "role": "Large, prominent branding or section title.",
+          "description": "Text is Ghost White (#ffffff) using Untitled Sans, weight 400, at 97px with line-height 1.1 and letter-spacing -0.023em. Used for primary page titles or hero sections."
+        }
+      ],
+      "typography": [
+        {
+          "role": "The singular typeface for all textual elements, ranging from large, impactful headlines to functional navigation links. Its clean, sans-serif form reinforces the minimalist aesthetic.",
+          "sizes": "43px, 97px",
+          "family": "Untitled Sans",
+          "weight": "400",
+          "lineHeight": "1.10, 1.20",
+          "substitute": "Inter",
+          "letterSpacing": "-0.021em at 43px, -0.023em at 97px"
+        }
+      ],
+      "description": "José Meza presents a stark, high-contrast visual system where typography is the primary aesthetic element. The design uses an almost pure black canvas, allowing crisp white and muted gray text to define hierarchy and interaction. Spacing is generous, creating an atmosphere of spaciousness and deliberate calm. The overall impression is one of directness and essential information rather than rich ornamentation or complex layouts.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "Quick Color Reference: \n- text: #ffffff\n- background: #000000\n- border: no distinct border color\n- accent: no distinct accent color\n- primary action: no distinct CTA color\n\nExample Component Prompts:\n- Create a page header with 'José Meza, Design + Art Direction' as the main text: Background is Midnight Void (#000000). The text 'José Meza,' is Ghost White (#ffffff), Untitled Sans, weight 400, 97px, line-height 1.1, letter-spacing -0.023em. The text 'Design + Art Direction' is Ghost White (#ffffff), Untitled Sans, weight 400, 97px, line-height 1.1, letter-spacing -0.023em, separated by a 60px vertical gap from the next element.\n- Create a navigation link group for 'About' and 'Selected Work': Background is Midnight Void (#000000). The 'About' link is Ghost White (#ffffff), Untitled Sans, weight 400, 43px, line-height 1.2, letter-spacing -0.021em. The 'Selected Work' link is Slate Echo (#585858), Untitled Sans, weight 400, 43px, line-height 1.2, letter-spacing -0.021em. Each link is separated by a 60px vertical gap.\n- Create a footer element with 'Sound': Text is Ghost White (#ffffff), Untitled Sans, weight 400, 43px, line-height 1.2, letter-spacing -0.021em, positioned at the bottom right of the page with appropriate 60px internal padding."
+        }
+      ],
+      "elevationPhilosophy": "This design system deliberately avoids shadows and complex elevation. The aesthetic is flat and relies on color contrast between text and background, along with generous spacing, to create visual hierarchy and depth. Any component interaction should be indicated by text color changes or subtle background shifts, not drop shadows or layered elements."
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777517631551-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777517631551-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/8321c2d1-686f-4752-9156-ea613a879b9e",
+  "ranks": {
+    "trending": 122,
+    "popular": 185,
+    "newest": 272
+  },
+  "localSlug": "jose-meza-8321c2d1"
+}

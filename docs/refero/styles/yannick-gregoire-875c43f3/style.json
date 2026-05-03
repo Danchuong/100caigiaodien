@@ -1,0 +1,668 @@
+{
+  "id": "875c43f3-04c7-4e9a-a994-dc0696b43374",
+  "url": "https://yannickgregoire.nl",
+  "siteName": "Yannick Gregoire",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777514317695-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777514317695-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "light",
+  "colors": [
+    {
+      "name": "Canvas White",
+      "hex": "#ffffff"
+    },
+    {
+      "name": "Ink Black",
+      "hex": "#000000"
+    },
+    {
+      "name": "Terminal Green",
+      "hex": "#00ffa8"
+    }
+  ],
+  "fonts": [
+    "LT Terminal Mono"
+  ],
+  "northStar": "monospaced command console",
+  "createdAt": "2026-04-30T01:59:01.116Z",
+  "previewVideoCapturedAt": null,
+  "industry": "design",
+  "fullResult": {
+    "meta": {
+      "url": "https://yannickgregoire.nl",
+      "siteName": "Yannick Gregoire",
+      "extractedAt": "2026-04-30T01:59:01.049Z",
+      "durationMs": 44514,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 364,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "hero",
+              "other",
+              "body",
+              "card",
+              "button"
+            ],
+            "frequency": 225,
+            "confidence": 1,
+            "prominence": 68911675.08270839,
+            "properties": [
+              "color",
+              "borderColor",
+              "backgroundColor",
+              "fill"
+            ],
+            "usageCounts": {
+              "body/color": 12,
+              "card/color": 16,
+              "hero/color": 1,
+              "other/fill": 3,
+              "other/color": 11,
+              "button/color": 4,
+              "body/borderColor": 48,
+              "card/borderColor": 64,
+              "hero/borderColor": 4,
+              "other/borderColor": 44,
+              "button/borderColor": 16,
+              "body/backgroundColor": 1,
+              "other/backgroundColor": 1
+            }
+          },
+          {
+            "hex": "#ffffff",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 1.0000000000000002
+            },
+            "contexts": [
+              "hero",
+              "heading",
+              "body",
+              "link",
+              "other",
+              "button"
+            ],
+            "frequency": 1595,
+            "confidence": 1,
+            "prominence": 13789757.43734416,
+            "properties": [
+              "backgroundColor",
+              "color",
+              "borderColor",
+              "fill"
+            ],
+            "usageCounts": {
+              "body/color": 171,
+              "link/color": 16,
+              "other/fill": 2,
+              "other/color": 105,
+              "button/color": 6,
+              "heading/color": 18,
+              "body/borderColor": 684,
+              "link/borderColor": 64,
+              "other/borderColor": 420,
+              "button/borderColor": 24,
+              "heading/borderColor": 72,
+              "body/backgroundColor": 12,
+              "hero/backgroundColor": 1
+            }
+          },
+          {
+            "hex": "#00ffa8",
+            "oklch": {
+              "c": 0.20083163789586175,
+              "h": 159.59912212459793,
+              "l": 0.8820218710330741
+            },
+            "contexts": [
+              "body"
+            ],
+            "frequency": 12,
+            "confidence": 1,
+            "prominence": 765.991021655206,
+            "properties": [
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "body/backgroundColor": 12
+            }
+          }
+        ],
+        "isDarkMode": false,
+        "colorfulness": 0.0035553812916770044,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 21,
+            "background": "#ffffff",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 15.87,
+            "background": "#00ffa8",
+            "foreground": "#000000"
+          },
+          {
+            "level": "fail",
+            "ratio": 1.32,
+            "background": "#00ffa8",
+            "foreground": "#ffffff"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 2,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 12,
+            "properties": [
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingBottom|other"
+            ]
+          },
+          {
+            "value": 4,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 12,
+            "properties": [
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "marginBottom|body"
+            ]
+          },
+          {
+            "value": 6,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 16,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|body",
+              "paddingLeft|body"
+            ]
+          },
+          {
+            "value": 9,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 32,
+            "properties": [
+              "marginRight",
+              "marginLeft"
+            ],
+            "propertyContextPairs": [
+              "marginRight|other",
+              "marginLeft|other"
+            ]
+          },
+          {
+            "value": 28,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 16,
+            "properties": [
+              "marginTop"
+            ],
+            "propertyContextPairs": [
+              "marginTop|other"
+            ]
+          },
+          {
+            "value": 29,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 12,
+            "properties": [
+              "paddingRight"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|other"
+            ]
+          },
+          {
+            "value": 37,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 3,
+            "properties": [
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "marginBottom|heading"
+            ]
+          },
+          {
+            "value": 45,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 4,
+            "properties": [
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "marginBottom|heading"
+            ]
+          },
+          {
+            "value": 49,
+            "contexts": [
+              "card"
+            ],
+            "frequency": 12,
+            "properties": [
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingBottom|card"
+            ]
+          },
+          {
+            "value": 72,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|other",
+              "paddingLeft|other"
+            ]
+          },
+          {
+            "value": 186,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 5,
+            "properties": [
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "marginBottom|other"
+            ]
+          }
+        ],
+        "density": "compact",
+        "baseUnit": 4
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "LT Terminal Mono",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 360,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 25,
+          "name": "Major Third",
+          "ratio": 1.25,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 8,
+            "family": "LT Terminal Mono",
+            "weight": 400,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "lineHeight": 3.75,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 8,
+            "family": "LT Terminal Mono",
+            "weight": 400,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 13,
+            "family": "LT Terminal Mono",
+            "weight": 400,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 15,
+            "family": "LT Terminal Mono",
+            "weight": 400,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 48,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 19,
+            "family": "LT Terminal Mono",
+            "weight": 400,
+            "contexts": [
+              "body",
+              "link"
+            ],
+            "frequency": 8,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 25,
+            "family": "LT Terminal Mono",
+            "weight": 400,
+            "contexts": [
+              "hero",
+              "other",
+              "card",
+              "link",
+              "body",
+              "button"
+            ],
+            "frequency": 214,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 25,
+            "family": "LT Terminal Mono",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "body",
+              "button"
+            ],
+            "frequency": 38,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 37,
+            "family": "LT Terminal Mono",
+            "weight": 400,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 12,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 74,
+            "family": "LT Terminal Mono",
+            "weight": 400,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 4,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 148,
+            "family": "LT Terminal Mono",
+            "weight": 400,
+            "contexts": [
+              "heading",
+              "other"
+            ],
+            "frequency": 33,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Use LT Terminal Mono exclusively for all typography at weight 400 (`LT Terminal Mono`, `400`).",
+        "Maintain a strict achromatic base palette of Canvas White (`#ffffff`) and Ink Black (`#000000`) for backgrounds and text, introducing Terminal Green (`#00ffa8`) sparingly as an accent.",
+        "Apply 0px border-radius consistently to all UI elements, including buttons, cards, and interactive components.",
+        "Utilize ghost button styles for most interactive elements, where text color matches background and a 1px border inversely matches the background.",
+        "Employ the 4px base unit for all incremental spacing, with major vertical section breaks at 45px and smaller element gaps at 9px.",
+        "Design with a grid-like precision, leveraging hard edges and high contrast for visual clarity.",
+        "Implement motion with `ease` timing for quick, responsive transitions, defaulting to 0.5s duration."
+      ],
+      "donts": [
+        "Avoid using any colors outside of Canvas White (`#ffffff`), Ink Black (`#000000`), and Terminal Green (`#00ffa8`).",
+        "Do not introduce rounded corners or soft shadows, as this would contradict the sharp, digital aesthetic.",
+        "Refrain from using varied font families, weights, or styles, as the system relies on the singular monospace expression.",
+        "Do not use internal padding for buttons; they should remain text-based or rely on external spacing for definition.",
+        "Avoid decorative gradients or complex visual effects; keep surfaces flat and colors solid.",
+        "Do not center-align body text; maintain left-aligned blocks for a structured, code-like flow.",
+        "Do not use complex drop shadows for elevation; rely on color contrast and minimal borders for visual separation."
+      ],
+      "theme": "light",
+      "colors": [
+        {
+          "hex": "#ffffff",
+          "name": "Canvas White",
+          "role": "Page backgrounds, primary surface, light text on dark backgrounds, ghost button text",
+          "group": "neutral"
+        },
+        {
+          "hex": "#000000",
+          "name": "Ink Black",
+          "role": "Dark borders and separators for elevated surfaces and inverted UI. Do not promote it to the primary CTA color",
+          "group": "neutral"
+        },
+        {
+          "hex": "#00ffa8",
+          "name": "Terminal Green",
+          "role": "Green wash for highlight backgrounds, decorative bands, and soft emphasis behind content. Do not promote it to the primary CTA color",
+          "group": "accent"
+        }
+      ],
+      "layout": "The page maintains a full-bleed layout, not constrained by a max-width. The hero section often presents a centered headline over a dark background. Content sections follow a consistent vertical rhythm, often alternating between Canvas White and Ink Black backgrounds. Content arrangement leans towards centered stacks or clear left-aligned blocks, favoring a sequential, almost terminal-like information flow rather than complex grid structures. Navigation is minimal, likely a fixed header or an off-canvas menu, emphasizing direct interaction without heavy visual adornment.",
+      "imagery": "The site predominantly uses stark UI elements over rich imagery. When visuals are present, they are either abstract patterns or embedded media (videos), appearing without framing or rounded corners. Icons, typically monochrome, are minimal and functional. The overall density is text-dominant, with visual elements serving as direct content or functional accents rather than decorative embellishments.",
+      "similar": [
+        {
+          "why": "Monospace typography and a strong focus on developer-centric, minimalistic design with occasional accent colors.",
+          "business": "Netlify"
+        },
+        {
+          "why": "High-contrast, dark/light mode interfaces with a emphasis on crisp typography and functional, rather than decorative, UI elements.",
+          "business": "Vercel"
+        },
+        {
+          "why": "Obsessive attention to subtle details, high-contrast text on clean backgrounds, and a focus on speed and efficiency through minimal aesthetics.",
+          "business": "Linear"
+        },
+        {
+          "why": "A grid-based, 'anti-design' approach with a default monospace font, relying on content blocks and stark visual contrasts.",
+          "business": "Are.na"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "all": "0px"
+        },
+        "elementGap": "9px",
+        "sectionGap": "45px",
+        "cardPadding": "0px",
+        "pageMaxWidth": null
+      },
+      "industry": "design",
+      "surfaces": [
+        {
+          "hex": "#ffffff",
+          "name": "Canvas White",
+          "level": 1,
+          "purpose": "Primary page background, default container fill."
+        },
+        {
+          "hex": "#000000",
+          "name": "Ink Black Layer",
+          "level": 2,
+          "purpose": "Alternative background for sections, creating high-contrast content blocks."
+        },
+        {
+          "hex": "#00ffa8",
+          "name": "Terminal Green Highlight",
+          "level": 3,
+          "purpose": "Used for specific interactive element backgrounds or subtle decorative areas, creating an 'active' state or highlight."
+        }
+      ],
+      "northStar": "monospaced command console",
+      "typeScale": [
+        {
+          "role": "body",
+          "size": 15,
+          "lineHeight": 1
+        },
+        {
+          "role": "subheading",
+          "size": 19,
+          "lineHeight": 1.2
+        },
+        {
+          "role": "heading-sm",
+          "size": 25,
+          "lineHeight": 1.2
+        },
+        {
+          "role": "heading",
+          "size": 37,
+          "lineHeight": 1.2
+        },
+        {
+          "role": "heading-lg",
+          "size": 74,
+          "lineHeight": 1
+        },
+        {
+          "role": "display",
+          "size": 148,
+          "lineHeight": 1
+        }
+      ],
+      "components": [
+        {
+          "name": "Ghost Button - Light",
+          "role": "Interactive element",
+          "description": "Text in Ink Black (`#000000`) on a Canvas White (`#ffffff`) background, with a 1px border of Ink Black. No internal padding defined, implying a text-only or very minimal hit area, typically for navigation or conceptual actions."
+        },
+        {
+          "name": "Ghost Button - Dark",
+          "role": "Interactive element",
+          "description": "Text in Canvas White (`#ffffff`) on an Ink Black (`#000000`) background, with a 1px border of Canvas White. Similar to its light counterpart, it has no internal padding, serving as a functional, low-visual-impact interactive element."
+        },
+        {
+          "name": "Minimal Card",
+          "role": "Content container",
+          "description": "A transparent container with no border or shadow, relying on its content for definition. The bottom margin 'paddingBottom: 49.4802px' acts as a visual separator, creating distinct areas in a content-heavy layout."
+        }
+      ],
+      "typography": [
+        {
+          "role": "The sole typeface, used for all text from headings to body copy, creating a consistent, code-editor aesthetic. Its monospace nature emphasizes precision and a digital-native feel.",
+          "sizes": "8px, 13px, 15px, 19px, 25px, 37px, 74px, 148px",
+          "family": "LT Terminal Mono",
+          "weight": "400",
+          "weights": [
+            400
+          ],
+          "lineHeight": "1.00, 1.20",
+          "substitute": "Space Mono",
+          "letterSpacing": "normal"
+        }
+      ],
+      "description": "Yannick Gregoire uses a stark, high-contrast aesthetic reminiscent of early digital art or command-line interfaces. Its visual identity relies on pure black text on a white canvas, punctuated by a single vibrant green highlight. Typography utilizes a monospaced font, giving a structured, code-like feel. Components are minimal, often border-only or ghosted, emphasizing content over decorative elements.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "Quick Color Reference:\ntext: #000000\nbackground: #ffffff\nborder: #000000\naccent: #00ffa8\nprimary action: no distinct CTA color\n\nExample Component Prompts:\n1. Create a header: Ink Black background (`#000000`), Canvas White text (`#ffffff`) 19px LT Terminal Mono. Navigation links are Ghost Buttons - Dark.\n2. Design a feature section: Canvas White background (`#ffffff`). Heading 74px LT Terminal Mono (`#000000`), followed by body text 15px LT Terminal Mono (`#000000`). Include a Ghost Button - Light (`#000000` text, `0px` radius, `0px` padding).\n3. Build a contact form: Ink Black background (`#000000`). Input fields with 15px LT Terminal Mono (`#ffffff` text), Canvas White border (`#ffffff`), 0px radius. Use Terminal Green (`#00ffa8`) as background for a submit button with Canvas White text (`#ffffff`)."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777514317695-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777514317695-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/875c43f3-04c7-4e9a-a994-dc0696b43374",
+  "ranks": {
+    "trending": 680,
+    "popular": 819,
+    "newest": 474
+  },
+  "localSlug": "yannick-gregoire-875c43f3"
+}

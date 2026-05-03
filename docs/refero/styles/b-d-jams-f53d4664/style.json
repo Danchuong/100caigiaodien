@@ -1,0 +1,514 @@
+{
+  "id": "f53d4664-017b-46d1-9336-ec555dc9022e",
+  "url": "https://jams.basicagency.com",
+  "siteName": "B/D® JAMS",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777512467827-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777512467827-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "light",
+  "colors": [
+    {
+      "name": "Canvas Ice",
+      "hex": "#f1f1f1"
+    },
+    {
+      "name": "Ink Black",
+      "hex": "#0e0e0e"
+    },
+    {
+      "name": "Border Fog",
+      "hex": "#e5e7eb"
+    },
+    {
+      "name": "True White",
+      "hex": "#ffffff"
+    }
+  ],
+  "fonts": [
+    "SctoGroteskA"
+  ],
+  "northStar": "Editorial White Canvas",
+  "createdAt": "2026-04-30T01:28:04.057Z",
+  "previewVideoCapturedAt": null,
+  "industry": "media",
+  "fullResult": {
+    "meta": {
+      "url": "https://jams.basicagency.com",
+      "siteName": "B/D® JAMS",
+      "extractedAt": "2026-04-30T01:28:03.991Z",
+      "durationMs": 23959,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 41,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#0e0e0e",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.16375794697446777
+            },
+            "contexts": [
+              "heading",
+              "link",
+              "other",
+              "nav",
+              "card",
+              "button",
+              "body",
+              "image"
+            ],
+            "frequency": 160,
+            "confidence": 1,
+            "prominence": 12100118.162340863,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "nav/color": 2,
+              "body/color": 1,
+              "card/color": 1,
+              "link/color": 2,
+              "image/color": 8,
+              "other/color": 17,
+              "button/color": 2,
+              "heading/color": 3,
+              "nav/borderColor": 8,
+              "body/borderColor": 4,
+              "card/borderColor": 4,
+              "link/borderColor": 8,
+              "image/borderColor": 16,
+              "other/borderColor": 64,
+              "button/borderColor": 8,
+              "heading/borderColor": 12
+            }
+          },
+          {
+            "hex": "#e5e7eb",
+            "oklch": {
+              "c": 0.005813542372075684,
+              "h": 264.5313231484507,
+              "l": 0.9275823098127417
+            },
+            "contexts": [
+              "other",
+              "image"
+            ],
+            "frequency": 20,
+            "confidence": 1,
+            "prominence": 7196372.865480722,
+            "properties": [
+              "borderColor"
+            ],
+            "usageCounts": {
+              "image/borderColor": 16,
+              "other/borderColor": 4
+            }
+          },
+          {
+            "hex": "#f1f1f1",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.9581468870268093
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 1296000,
+            "properties": [
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "other/backgroundColor": 1
+            }
+          },
+          {
+            "hex": "#ffffff",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 1.0000000000000002
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 25,
+            "confidence": 1,
+            "prominence": 577590.0325651773,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "other/color": 5,
+              "other/borderColor": 20
+            }
+          }
+        ],
+        "isDarkMode": false,
+        "colorfulness": 0.0015254637554646246,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 19.3,
+            "background": "#ffffff",
+            "foreground": "#0e0e0e"
+          },
+          {
+            "level": "AAA",
+            "ratio": 17.09,
+            "background": "#f1f1f1",
+            "foreground": "#0e0e0e"
+          },
+          {
+            "level": "AAA",
+            "ratio": 15.59,
+            "background": "#e5e7eb",
+            "foreground": "#0e0e0e"
+          },
+          {
+            "level": "fail",
+            "ratio": 1.13,
+            "background": "#f1f1f1",
+            "foreground": "#ffffff"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 20,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingTop",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other",
+              "paddingBottom|other"
+            ]
+          },
+          {
+            "value": 30,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|other",
+              "paddingLeft|other"
+            ]
+          },
+          {
+            "value": 80,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 4,
+            "properties": [
+              "paddingTop",
+              "paddingRight",
+              "paddingBottom",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other",
+              "paddingRight|other",
+              "paddingBottom|other",
+              "paddingLeft|other"
+            ]
+          }
+        ],
+        "density": "spacious",
+        "baseUnit": 4
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "SctoGroteskA",
+            "source": "custom",
+            "weights": [
+              300,
+              700
+            ],
+            "frequency": 41,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 48,
+          "name": "Major Third",
+          "ratio": 1.25,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 16,
+            "family": "SctoGroteskA",
+            "weight": 700,
+            "contexts": [
+              "link",
+              "other",
+              "body"
+            ],
+            "frequency": 3,
+            "lineHeight": 1.13,
+            "letterSpacing": -0.03,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "SctoGroteskA",
+            "weight": 300,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.13,
+            "letterSpacing": -0.03,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 16,
+            "family": "SctoGroteskA",
+            "weight": 700,
+            "contexts": [
+              "heading",
+              "nav"
+            ],
+            "frequency": 2,
+            "lineHeight": 1.13,
+            "letterSpacing": -0.03,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 16,
+            "family": "SctoGroteskA",
+            "weight": 700,
+            "contexts": [
+              "button"
+            ],
+            "frequency": 2,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 24,
+            "family": "SctoGroteskA",
+            "weight": 700,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 3,
+            "lineHeight": 1.17,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 48,
+            "family": "SctoGroteskA",
+            "weight": 300,
+            "contexts": [
+              "heading",
+              "link",
+              "other",
+              "card",
+              "image"
+            ],
+            "frequency": 27,
+            "lineHeight": 1,
+            "letterSpacing": -0.04,
+            "textTransform": "none"
+          },
+          {
+            "size": 48,
+            "family": "SctoGroteskA",
+            "weight": 300,
+            "contexts": [
+              "nav",
+              "other"
+            ],
+            "frequency": 3,
+            "lineHeight": 1,
+            "letterSpacing": -0.04,
+            "textTransform": "uppercase"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Prioritize Canvas Ice (#f1f1f1) for all background surfaces to maintain a clean, expansive feel.",
+        "Use Ink Black (#0e0e0e) for primary text and borders to ensure strong contrast and visual hierarchy.",
+        "Apply SctoGroteskA (or Inter) with letter-spacing -0.04em for headings at 48px, and -0.03em for 16px and 24px text to consistently deliver the concise, editorial aesthetic.",
+        "Maintain a zero border-radius for all interactive elements and containers to preserve the sharp, angular aesthetic.",
+        "Utilize 80px for vertical spacing between major sections, and 30px for horizontal and vertical spacing within content blocks to ensure generous whitespace.",
+        "Implement Ghost Navigation Buttons with a transparent background and Ink Black (#0e0e0e) text, only showing a border on hover/focus using Ink Black (#0e0e0e)."
+      ],
+      "donts": [
+        "Do not use highly saturated colors for main UI elements; chromatic colors are not part of the brand's core palette.",
+        "Avoid using box-shadows or elevated elements; the design emphasizes a flat, two-dimensional aesthetic.",
+        "Do not introduce decorative borders or excessive padding on cards; they should remain minimalist and transparent.",
+        "Do not use rounded corners on any UI element; all corners should be sharp and angular.",
+        "Avoid dense information blocks; instead, use ample whitespace and clear typographic hierarchy for content organization.",
+        "Do not use generic system fonts; always prioritize SctoGroteskA (or Inter) to maintain the brand's unique typographic voice."
+      ],
+      "theme": "light",
+      "colors": [
+        {
+          "hex": "#f1f1f1",
+          "name": "Canvas Ice",
+          "role": "Primary page background, expansive surfaces",
+          "group": "neutral"
+        },
+        {
+          "hex": "#0e0e0e",
+          "name": "Ink Black",
+          "role": "Primary text, strong headings, button borders, and essential UI strokes. Establishes a bold, high-contrast presence",
+          "group": "neutral"
+        },
+        {
+          "hex": "#e5e7eb",
+          "name": "Border Fog",
+          "role": "Subtle borders and dividers for nuanced separation",
+          "group": "neutral"
+        },
+        {
+          "hex": "#ffffff",
+          "name": "True White",
+          "role": "Secondary text in specific contexts, subtle border accents, and for maximum contrast elements",
+          "group": "neutral"
+        }
+      ],
+      "layout": "The page maintains a full-bleed, canvas-like aesthetic, allowing background imagery to extend edge-to-edge. Content appears to be horizontally centered within a broad but undefined maximum width. The hero pattern features minimal navigation text elements positioned prominently at the top, overlaying the background. Sections are separated by generous vertical spacing, typically 80px, maintaining significant breathing room between content blocks. The primary content arrangement is a simple, stacked typographic hierarchy creating an editorial, almost printed page feel with no complex grids or alternating visual patterns.",
+      "imagery": "The site's imagery primarily consists of full-bleed, raw photographic or abstract visuals acting as background elements, specifically a weathered-looking sky. These images are treated without specific masking or prominent borders, integrating seamlessly into the minimalist design, acting more as atmospheric textures than focal points. There are no obvious icons or complex illustrations, preserving a text-dominant and stark visual environment.",
+      "similar": [
+        {
+          "why": "Shares a stark, minimalist visual style with a heavy reliance on monochrome typography and visible borders for UI elements.",
+          "business": "Are.na"
+        },
+        {
+          "why": "Features a strong, editorial typographic voice, high contrast, and a sparse, content-focused layout with minimal decorative elements.",
+          "business": "Basic Type Foundry"
+        },
+        {
+          "why": "Employs an editorial grid, high typographic rigor, and a focus on clean, legible text without excessive visual distraction, often using large amounts of white space.",
+          "business": "The New York Times (digital archives)"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "default": "0px"
+        },
+        "elementGap": "30px",
+        "sectionGap": "80px",
+        "cardPadding": "0px",
+        "pageMaxWidth": null
+      },
+      "industry": "media",
+      "northStar": "Editorial White Canvas",
+      "typeScale": [
+        {
+          "role": "body",
+          "size": 16,
+          "lineHeight": 1.17,
+          "letterSpacing": -0.48
+        },
+        {
+          "role": "subheading",
+          "size": 24,
+          "lineHeight": 1.13,
+          "letterSpacing": -0.72
+        },
+        {
+          "role": "heading",
+          "size": 48,
+          "lineHeight": 1,
+          "letterSpacing": -1.92
+        }
+      ],
+      "components": [
+        {
+          "name": "Ghost Navigation Button",
+          "role": "Interactive element for navigation and primary actions.",
+          "description": "Background transparent (rgba(0, 0, 0, 0)), text color Ink Black (#0e0e0e), with no padding or border by default. Focus states are indicated by border."
+        },
+        {
+          "name": "Information Card (minimal)",
+          "role": "Container for content.",
+          "description": "Background transparent (rgba(0, 0, 0, 0)), no border, no shadow, and zero padding. Achieves separation primarily through generous vertical spacing."
+        }
+      ],
+      "typography": [
+        {
+          "role": "All textual content, from navigation links and body text to prominent headings. The varied weights with tight letter-spacing contribute to its editorial, almost typewritten feel, emphasizing clarity and precision over decorative flair.",
+          "sizes": "16px, 24px, 48px",
+          "family": "SctoGroteskA",
+          "weight": "300, 700",
+          "weights": [
+            300,
+            700
+          ],
+          "lineHeight": "1.00, 1.13, 1.17",
+          "substitute": "Inter",
+          "letterSpacing": "-0.04em at 48px, -0.03em at 24px and 16px"
+        }
+      ],
+      "description": "The B/D® JAMS design system presents a clean, editorial aesthetic reminiscent of a digital zine, prioritizing spaciousness and direct typography over decorative elements. Its visual language relies on a monochrome palette of stark black text and crisp backgrounds, occasionally softened by subtle gray borders. Layouts are deliberately sparse, framing content with generous whitespace, and interactions are signaled through direct text changes rather than elaborate animations or vivid highlights. Components are minimalist, focusing on function with zero radii and transparent backgrounds.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "Quick Color Reference:\ntext: #0e0e0e\nbackground: #f1f1f1\nborder: #e5e7eb\naccent: no distinct accent color\nprimary action: no distinct CTA color\n\nExample Component Prompts:\n1. Create a top navigation bar: Canvas Ice background (#f1f1f1). Left-aligned text 'B/D® JAMS' at 16px SctoGroteskA weight 700, color Ink Black (#0e0e0e), letter-spacing -0.48px. Right-aligned 'Notes' link at 16px SctoGroteskA weight 700, color Ink Black (#0e0e0e), letter-spacing -0.48px. No padding, no border, no radius.\n2. Create a heading section: Canvas Ice background (#f1f1f1). Centered text 'Press Option+1 for screen-reader mode, Option+0 to cancel' at 48px SctoGroteskA weight 700, color Ink Black (#0e0e0e), letter-spacing -1.92px. Padding 80px top and bottom.\n3. Create a Ghost Grid Button: Transparent background (rgba(0,0,0,0)), text 'Grid' at 16px SctoGroteskA weight 700, color Ink Black (#0e0e0e), letter-spacing -0.48px. No padding, border, or radius. Should respond to hover/focus by showing a 1px solid Ink Black (#0e0e0e) border."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777512467827-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777512467827-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/f53d4664-017b-46d1-9336-ec555dc9022e",
+  "ranks": {
+    "trending": 832,
+    "popular": 895,
+    "newest": 594
+  },
+  "localSlug": "b-d-jams-f53d4664"
+}

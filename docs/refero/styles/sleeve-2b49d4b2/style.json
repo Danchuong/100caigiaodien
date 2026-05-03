@@ -1,0 +1,1621 @@
+{
+  "id": "2b49d4b2-8461-4985-b7ee-cf9517e19803",
+  "url": "https://replay.software/sleeve",
+  "siteName": "Sleeve",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775926195362-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775926195362-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "light",
+  "colors": [
+    {
+      "name": "White Marble",
+      "hex": "#ffffff"
+    },
+    {
+      "name": "Cloud Gray",
+      "hex": "#f9fafb"
+    },
+    {
+      "name": "Border Fog",
+      "hex": "#e5e7eb"
+    },
+    {
+      "name": "Ash Text",
+      "hex": "#000000"
+    },
+    {
+      "name": "Slate Text",
+      "hex": "#333333"
+    },
+    {
+      "name": "Steel Accent",
+      "hex": "#374151"
+    }
+  ],
+  "fonts": [
+    "ui-sans-serif"
+  ],
+  "northStar": "Macintosh desktop app on white marble. The design system feels like a carefully crafted macOS application brought to a website, with crisp, clean elements resting on a bright, uncluttered surface.",
+  "createdAt": "2026-03-26T14:44:30.000Z",
+  "previewVideoCapturedAt": null,
+  "industry": "other",
+  "fullResult": {
+    "meta": {
+      "url": "https://replay.software/sleeve",
+      "siteName": "Sleeve",
+      "extractedAt": "2026-04-11T16:50:27.365Z",
+      "durationMs": 39876,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 915,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "complete",
+          "attempts": 2
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#e5e7eb",
+            "oklch": {
+              "c": 0.005813542372075684,
+              "h": 264.5313231484507,
+              "l": 0.9275823098127417
+            },
+            "contexts": [
+              "other",
+              "heading",
+              "link",
+              "body",
+              "button",
+              "icon",
+              "image",
+              "hero",
+              "footer"
+            ],
+            "frequency": 3273,
+            "confidence": 1,
+            "prominence": 121969483.51683724,
+            "properties": [
+              "borderColor",
+              "backgroundColor"
+            ]
+          },
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "other",
+              "heading",
+              "link",
+              "body",
+              "button",
+              "icon",
+              "image",
+              "hero",
+              "footer"
+            ],
+            "frequency": 821,
+            "confidence": 1,
+            "prominence": 101142945.28428033,
+            "properties": [
+              "color",
+              "fill",
+              "backgroundColor"
+            ]
+          },
+          {
+            "hex": "#ffffff",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 1.0000000000000002
+            },
+            "contexts": [
+              "other",
+              "icon",
+              "body",
+              "button"
+            ],
+            "frequency": 77,
+            "confidence": 1,
+            "prominence": 2971505.6091959733,
+            "properties": [
+              "color",
+              "fill",
+              "backgroundColor",
+              "borderColor"
+            ]
+          },
+          {
+            "hex": "#f9fafb",
+            "oklch": {
+              "c": 0.001706075627243846,
+              "h": 247.83938351399394,
+              "l": 0.9846253159451991
+            },
+            "contexts": [
+              "button",
+              "other",
+              "body"
+            ],
+            "frequency": 52,
+            "confidence": 1,
+            "prominence": 1733956.0800053715,
+            "properties": [
+              "backgroundColor",
+              "borderColor"
+            ]
+          },
+          {
+            "hex": "#cccccc",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.8452222558133237
+            },
+            "contexts": [
+              "body",
+              "button",
+              "other",
+              "image"
+            ],
+            "frequency": 44,
+            "confidence": 1,
+            "prominence": 1182879.254712256,
+            "properties": [
+              "boxShadow",
+              "borderColor",
+              "backgroundColor"
+            ]
+          },
+          {
+            "hex": "#999999",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.6829534013134412
+            },
+            "contexts": [
+              "body",
+              "image"
+            ],
+            "frequency": 15,
+            "confidence": 1,
+            "prominence": 861552,
+            "properties": [
+              "boxShadow"
+            ]
+          },
+          {
+            "hex": "#750d0d",
+            "oklch": {
+              "c": 0.13679219424125721,
+              "h": 27.600431726589207,
+              "l": 0.36129211939598754
+            },
+            "contexts": [
+              "other",
+              "body",
+              "image"
+            ],
+            "frequency": 8,
+            "confidence": 1,
+            "prominence": 775870.8433530204,
+            "properties": [
+              "color"
+            ]
+          },
+          {
+            "hex": "#1c5d1b",
+            "oklch": {
+              "c": 0.11829776854474489,
+              "h": 142.91383848535253,
+              "l": 0.4221297446566586
+            },
+            "contexts": [
+              "other",
+              "body",
+              "image"
+            ],
+            "frequency": 8,
+            "confidence": 1,
+            "prominence": 775870.8433530204,
+            "properties": [
+              "color"
+            ]
+          },
+          {
+            "hex": "#3876c2",
+            "oklch": {
+              "c": 0.13440962604781526,
+              "h": 254.99810882132664,
+              "l": 0.562560424966187
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 540000,
+            "properties": [
+              "backgroundColor"
+            ]
+          },
+          {
+            "hex": "#b3b3b3",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.7651658759683705
+            },
+            "contexts": [
+              "other",
+              "body"
+            ],
+            "frequency": 3,
+            "confidence": 1,
+            "prominence": 87650,
+            "properties": [
+              "backgroundColor",
+              "color"
+            ]
+          },
+          {
+            "hex": "#374151",
+            "oklch": {
+              "c": 0.03062045960968168,
+              "h": 259.7328541134383,
+              "l": 0.37292705693325034
+            },
+            "contexts": [
+              "button",
+              "body",
+              "image",
+              "icon",
+              "other"
+            ],
+            "frequency": 7,
+            "confidence": 1,
+            "prominence": 67884,
+            "properties": [
+              "color"
+            ]
+          },
+          {
+            "hex": "#53bc2a",
+            "oklch": {
+              "c": 0.20246480705873515,
+              "h": 138.79643307002945,
+              "l": 0.7058712195240597
+            },
+            "contexts": [
+              "other",
+              "link",
+              "button",
+              "body",
+              "icon"
+            ],
+            "frequency": 14,
+            "confidence": 1,
+            "prominence": 39565.08106172747,
+            "properties": [
+              "color",
+              "fill"
+            ]
+          },
+          {
+            "hex": "#333333",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.3210925111636325
+            },
+            "contexts": [
+              "button",
+              "icon",
+              "body",
+              "other"
+            ],
+            "frequency": 17,
+            "confidence": 1,
+            "prominence": 17250.979730966847,
+            "properties": [
+              "color",
+              "fill"
+            ]
+          },
+          {
+            "hex": "#808080",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.5981807305268477
+            },
+            "contexts": [
+              "other",
+              "body"
+            ],
+            "frequency": 2,
+            "confidence": 1,
+            "prominence": 15389.985882002426,
+            "properties": [
+              "backgroundColor",
+              "color"
+            ]
+          },
+          {
+            "hex": "#777777",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.5692624033839502
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 3184,
+            "properties": [
+              "color"
+            ]
+          },
+          {
+            "hex": "#3d54ca",
+            "oklch": {
+              "c": 0.1842804291618022,
+              "h": 269.9847751248274,
+              "l": 0.49952648060348276
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 4,
+            "confidence": 1,
+            "prominence": 3046.3696604922193,
+            "properties": [
+              "color",
+              "fill"
+            ]
+          },
+          {
+            "hex": "#783af5",
+            "oklch": {
+              "c": 0.2548730674194327,
+              "h": 290.30934750198753,
+              "l": 0.5443950322912247
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 2246,
+            "properties": [
+              "color"
+            ]
+          },
+          {
+            "hex": "#dd3107",
+            "oklch": {
+              "c": 0.21196390732210504,
+              "h": 33.0680589992738,
+              "l": 0.5847899740904834
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 1989,
+            "properties": [
+              "color"
+            ]
+          },
+          {
+            "hex": "#eb7e5f",
+            "oklch": {
+              "c": 0.1418766191966007,
+              "h": 36.75347613808411,
+              "l": 0.7087084867308087
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 1854,
+            "properties": [
+              "color"
+            ]
+          },
+          {
+            "hex": "#0d9eff",
+            "oklch": {
+              "c": 0.17782199217356368,
+              "h": 247.3778831732844,
+              "l": 0.6809291062768874
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 1244,
+            "properties": [
+              "color"
+            ]
+          },
+          {
+            "hex": "#6b8cb2",
+            "oklch": {
+              "c": 0.06864477737448825,
+              "h": 252.3978974310964,
+              "l": 0.629814629252221
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 1009,
+            "properties": [
+              "color"
+            ]
+          },
+          {
+            "hex": "#9ca3af",
+            "oklch": {
+              "c": 0.01917571604027532,
+              "h": 261.3246571321745,
+              "l": 0.7136601093409058
+            },
+            "contexts": [
+              "icon",
+              "other"
+            ],
+            "frequency": 3,
+            "confidence": 1,
+            "prominence": 800,
+            "properties": [
+              "color",
+              "fill",
+              "stroke"
+            ]
+          }
+        ],
+        "isDarkMode": false,
+        "colorfulness": 0.016129487193409568,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 21,
+            "background": "#ffffff",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 20.1,
+            "background": "#f9fafb",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 16.96,
+            "background": "#e5e7eb",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 13.08,
+            "background": "#cccccc",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 12.63,
+            "background": "#ffffff",
+            "foreground": "#333333"
+          },
+          {
+            "level": "AAA",
+            "ratio": 12.09,
+            "background": "#f9fafb",
+            "foreground": "#333333"
+          },
+          {
+            "level": "AAA",
+            "ratio": 11.54,
+            "background": "#ffffff",
+            "foreground": "#750d0d"
+          },
+          {
+            "level": "AAA",
+            "ratio": 11.04,
+            "background": "#f9fafb",
+            "foreground": "#750d0d"
+          },
+          {
+            "level": "AAA",
+            "ratio": 10.31,
+            "background": "#ffffff",
+            "foreground": "#374151"
+          },
+          {
+            "level": "AAA",
+            "ratio": 10.2,
+            "background": "#e5e7eb",
+            "foreground": "#333333"
+          },
+          {
+            "level": "AAA",
+            "ratio": 10.02,
+            "background": "#b3b3b3",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 9.86,
+            "background": "#f9fafb",
+            "foreground": "#374151"
+          },
+          {
+            "level": "AAA",
+            "ratio": 9.32,
+            "background": "#e5e7eb",
+            "foreground": "#750d0d"
+          },
+          {
+            "level": "AAA",
+            "ratio": 8.59,
+            "background": "#000000",
+            "foreground": "#53bc2a"
+          },
+          {
+            "level": "AAA",
+            "ratio": 8.33,
+            "background": "#e5e7eb",
+            "foreground": "#374151"
+          },
+          {
+            "level": "AAA",
+            "ratio": 8.27,
+            "background": "#000000",
+            "foreground": "#9ca3af"
+          },
+          {
+            "level": "AAA",
+            "ratio": 7.98,
+            "background": "#ffffff",
+            "foreground": "#1c5d1b"
+          },
+          {
+            "level": "AAA",
+            "ratio": 7.87,
+            "background": "#cccccc",
+            "foreground": "#333333"
+          },
+          {
+            "level": "AAA",
+            "ratio": 7.68,
+            "background": "#000000",
+            "foreground": "#eb7e5f"
+          },
+          {
+            "level": "AAA",
+            "ratio": 7.64,
+            "background": "#f9fafb",
+            "foreground": "#1c5d1b"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [
+          {
+            "value": 4,
+            "contexts": [
+              "body",
+              "image"
+            ],
+            "frequency": 3
+          },
+          {
+            "value": 8,
+            "contexts": [
+              "body",
+              "other"
+            ],
+            "frequency": 4
+          },
+          {
+            "value": 12,
+            "contexts": [
+              "button",
+              "body",
+              "other",
+              "image"
+            ],
+            "frequency": 10
+          },
+          {
+            "value": 16,
+            "contexts": [
+              "other",
+              "body"
+            ],
+            "frequency": 10
+          },
+          {
+            "value": 20,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 1
+          },
+          {
+            "value": 24,
+            "contexts": [
+              "other",
+              "body",
+              "button",
+              "image"
+            ],
+            "frequency": 112
+          },
+          {
+            "value": 9999,
+            "contexts": [
+              "button",
+              "link",
+              "body",
+              "icon"
+            ],
+            "frequency": 19
+          }
+        ],
+        "shadows": [
+          {
+            "value": "rgba(0, 0, 0, 0.05) 0px 0px 0px 1px inset",
+            "contexts": [
+              "button",
+              "body",
+              "other"
+            ],
+            "frequency": 48
+          },
+          {
+            "value": "rgba(0, 0, 0, 0.1) 0px 0px 0px 1px, rgba(0, 0, 0, 0.4) 0px 12px 24px -8px, rgba(0, 0, 0, 0.2) 0px 8px 24px 0px, rgba(0, 0, 0, 0.2) 0px 2px 4px 0px",
+            "contexts": [
+              "body",
+              "image"
+            ],
+            "frequency": 15
+          },
+          {
+            "value": "rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.1) 0px 4px 6px -4px",
+            "contexts": [
+              "other",
+              "body",
+              "image"
+            ],
+            "frequency": 6
+          },
+          {
+            "value": "rgba(0, 0, 0, 0.05) 0px 20px 25px -5px, rgba(0, 0, 0, 0.05) 0px 8px 10px -6px",
+            "contexts": [
+              "other"
+            ],
+            "frequency": 3
+          },
+          {
+            "value": "rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.1) 0px 1px 2px -1px",
+            "contexts": [
+              "button"
+            ],
+            "frequency": 2
+          },
+          {
+            "value": "rgba(0, 0, 0, 0.05) 0px 1px 3px 0px, rgba(0, 0, 0, 0.05) 0px 1px 2px -1px",
+            "contexts": [
+              "button"
+            ],
+            "frequency": 2
+          },
+          {
+            "value": "rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.1) 0px 2px 4px -2px",
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2
+          }
+        ]
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 4,
+            "frequency": 18,
+            "properties": [
+              "marginLeft",
+              "paddingTop",
+              "paddingBottom",
+              "marginTop"
+            ]
+          },
+          {
+            "value": 6,
+            "frequency": 12,
+            "properties": [
+              "columnGap",
+              "rowGap",
+              "marginLeft",
+              "marginTop",
+              "marginBottom"
+            ]
+          },
+          {
+            "value": 8,
+            "frequency": 71,
+            "properties": [
+              "columnGap",
+              "rowGap",
+              "paddingTop",
+              "paddingBottom",
+              "marginBottom",
+              "marginTop",
+              "marginLeft"
+            ]
+          },
+          {
+            "value": 10,
+            "frequency": 9,
+            "properties": [
+              "marginLeft",
+              "paddingRight",
+              "paddingLeft",
+              "marginRight"
+            ]
+          },
+          {
+            "value": 12,
+            "frequency": 37,
+            "properties": [
+              "rowGap",
+              "columnGap",
+              "paddingTop",
+              "paddingBottom",
+              "paddingRight",
+              "paddingLeft",
+              "marginTop"
+            ]
+          },
+          {
+            "value": 16,
+            "frequency": 159,
+            "properties": [
+              "columnGap",
+              "paddingRight",
+              "paddingLeft",
+              "paddingTop",
+              "rowGap",
+              "paddingBottom",
+              "marginRight",
+              "marginLeft"
+            ]
+          },
+          {
+            "value": 20,
+            "frequency": 3,
+            "properties": [
+              "paddingRight",
+              "paddingLeft",
+              "marginTop"
+            ]
+          },
+          {
+            "value": 24,
+            "frequency": 31,
+            "properties": [
+              "rowGap",
+              "columnGap",
+              "paddingTop",
+              "paddingRight",
+              "paddingLeft",
+              "marginTop",
+              "marginBottom",
+              "paddingBottom"
+            ]
+          },
+          {
+            "value": 28,
+            "frequency": 33,
+            "properties": [
+              "rowGap",
+              "columnGap"
+            ]
+          },
+          {
+            "value": 32,
+            "frequency": 32,
+            "properties": [
+              "paddingRight",
+              "paddingLeft",
+              "rowGap",
+              "columnGap",
+              "marginTop",
+              "marginBottom",
+              "paddingTop"
+            ]
+          },
+          {
+            "value": 36,
+            "frequency": 97,
+            "properties": [
+              "paddingTop",
+              "paddingBottom",
+              "paddingRight",
+              "paddingLeft"
+            ]
+          },
+          {
+            "value": 40,
+            "frequency": 26,
+            "properties": [
+              "rowGap",
+              "columnGap"
+            ]
+          },
+          {
+            "value": 44,
+            "frequency": 24,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ]
+          },
+          {
+            "value": 48,
+            "frequency": 76,
+            "properties": [
+              "paddingBottom",
+              "paddingRight",
+              "paddingLeft",
+              "marginBottom",
+              "rowGap",
+              "columnGap",
+              "paddingTop"
+            ]
+          },
+          {
+            "value": 64,
+            "frequency": 16,
+            "properties": [
+              "paddingTop",
+              "marginBottom",
+              "rowGap",
+              "columnGap",
+              "paddingRight",
+              "paddingLeft"
+            ]
+          },
+          {
+            "value": 80,
+            "frequency": 5,
+            "properties": [
+              "marginBottom",
+              "paddingTop",
+              "paddingBottom"
+            ]
+          },
+          {
+            "value": 81,
+            "frequency": 6,
+            "properties": [
+              "marginRight",
+              "marginLeft"
+            ]
+          },
+          {
+            "value": 96,
+            "frequency": 9,
+            "properties": [
+              "paddingBottom",
+              "rowGap",
+              "columnGap",
+              "marginBottom",
+              "paddingTop"
+            ]
+          },
+          {
+            "value": 128,
+            "frequency": 3,
+            "properties": [
+              "marginBottom"
+            ]
+          },
+          {
+            "value": 160,
+            "frequency": 9,
+            "properties": [
+              "paddingBottom",
+              "paddingTop"
+            ]
+          },
+          {
+            "value": 192,
+            "frequency": 2,
+            "properties": [
+              "marginBottom",
+              "marginTop"
+            ]
+          }
+        ],
+        "density": "comfortable",
+        "baseUnit": 4
+      },
+      "gradients": [
+        {
+          "type": "linear",
+          "value": "linear-gradient(to right top, rgb(14, 149, 238), rgb(39, 201, 245))",
+          "colors": [
+            "rgb(14, 149, 238)",
+            "rgb(39, 201, 245)"
+          ],
+          "frequency": 2
+        },
+        {
+          "type": "linear",
+          "value": "linear-gradient(rgb(0, 0, 0), rgb(68, 68, 68))",
+          "colors": [
+            "rgb(0, 0, 0)",
+            "rgb(68, 68, 68)"
+          ],
+          "frequency": 1
+        },
+        {
+          "type": "linear",
+          "value": "linear-gradient(to right bottom, rgba(121, 220, 233, 0.1), rgba(53, 121, 245, 0.1))",
+          "colors": [
+            "rgba(121, 220, 233, 0.1)",
+            "rgba(53, 121, 245, 0.1)"
+          ],
+          "frequency": 1
+        },
+        {
+          "type": "linear",
+          "value": "linear-gradient(to right bottom, rgba(150, 255, 238, 0.1), rgba(24, 192, 233, 0.1))",
+          "colors": [
+            "rgba(150, 255, 238, 0.1)",
+            "rgba(24, 192, 233, 0.1)"
+          ],
+          "frequency": 1
+        }
+      ],
+      "typography": {
+        "fonts": [
+          {
+            "family": "ui-sans-serif",
+            "source": "system",
+            "weights": [
+              400,
+              500,
+              600,
+              700,
+              900
+            ],
+            "frequency": 844,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 16,
+          "name": "Minor Third",
+          "ratio": 1.2,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 12,
+            "family": "ui-sans-serif",
+            "weight": 500,
+            "contexts": [
+              "other",
+              "icon",
+              "body"
+            ],
+            "frequency": 7,
+            "lineHeight": 1.33,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 12,
+            "family": "ui-sans-serif",
+            "weight": 700,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.33,
+            "letterSpacing": -0.025,
+            "textTransform": "none"
+          },
+          {
+            "size": 12,
+            "family": "ui-sans-serif",
+            "weight": 500,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 6,
+            "lineHeight": 1.5,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 13,
+            "family": "ui-sans-serif",
+            "weight": 600,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 6,
+            "lineHeight": 1.5,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 13,
+            "family": "ui-sans-serif",
+            "weight": 600,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 7,
+            "lineHeight": 1.5,
+            "letterSpacing": 0.05,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 14,
+            "family": "ui-sans-serif",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "heading",
+              "link",
+              "body",
+              "button",
+              "icon"
+            ],
+            "frequency": 28,
+            "lineHeight": 1.43,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 14,
+            "family": "ui-sans-serif",
+            "weight": 700,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 2,
+            "lineHeight": 1.5,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 14,
+            "family": "ui-sans-serif",
+            "weight": 600,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 2,
+            "lineHeight": 1.43,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 14,
+            "family": "ui-sans-serif",
+            "weight": 500,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 2,
+            "lineHeight": 1.5,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 14,
+            "family": "ui-sans-serif",
+            "weight": 600,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.5,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 15,
+            "family": "ui-sans-serif",
+            "weight": 700,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.5,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "ui-sans-serif",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "body",
+              "image",
+              "icon",
+              "button",
+              "hero",
+              "footer",
+              "link"
+            ],
+            "frequency": 422,
+            "lineHeight": 1.5,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "ui-sans-serif",
+            "weight": 600,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "lineHeight": 1.5,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "ui-sans-serif",
+            "weight": 500,
+            "contexts": [
+              "body",
+              "link"
+            ],
+            "frequency": 3,
+            "lineHeight": 1.5,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 18,
+            "family": "ui-sans-serif",
+            "weight": 600,
+            "contexts": [
+              "button",
+              "icon",
+              "body"
+            ],
+            "frequency": 8,
+            "lineHeight": 1.56,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 18,
+            "family": "ui-sans-serif",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "body",
+              "image",
+              "icon"
+            ],
+            "frequency": 126,
+            "lineHeight": 1.56,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 18,
+            "family": "ui-sans-serif",
+            "weight": 500,
+            "contexts": [
+              "button",
+              "body",
+              "icon"
+            ],
+            "frequency": 11,
+            "lineHeight": 1.56,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 20,
+            "family": "ui-sans-serif",
+            "weight": 500,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.4,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 24,
+            "family": "ui-sans-serif",
+            "weight": 400,
+            "contexts": [
+              "body",
+              "image",
+              "icon",
+              "other"
+            ],
+            "frequency": 179,
+            "lineHeight": 1.33,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 24,
+            "family": "ui-sans-serif",
+            "weight": 600,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 9,
+            "lineHeight": 1.33,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 24,
+            "family": "ui-sans-serif",
+            "weight": 500,
+            "contexts": [
+              "other",
+              "link"
+            ],
+            "frequency": 6,
+            "lineHeight": 1.33,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 48,
+            "family": "ui-sans-serif",
+            "weight": 700,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 12,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 96,
+            "family": "ui-sans-serif",
+            "weight": 600,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 1,
+            "lineHeight": 1,
+            "letterSpacing": -0.025,
+            "textTransform": "none"
+          },
+          {
+            "size": 96,
+            "family": "ui-sans-serif",
+            "weight": 900,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 1,
+            "lineHeight": 1,
+            "letterSpacing": -0.025,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Prioritize ui-sans-serif at weight 900 for all large display headings (48px, 96px) with tightened letter-spacing (-0.96px, -2.4px) for impact.",
+        "Use Border Fog (#e5e7eb) for all visible borders on cards and buttons, maintaining a soft, consistent edge.",
+        "Apply 24px border-radius to all content cards and product display elements to create a consistent 'app window' aesthetic.",
+        "Elevate primary content cards using the comprehensive shadow stack of rgba(0, 0, 0, 0.1) 0px 0px 0px 1px, rgba(0, 0, 0, 0.4) 0px 12px 24px -8px, rgba(0, 0, 0, 0.2) 0px 8px 24px 0px, rgba(0, 0, 0, 0.2) 0px 2px 4px 0px.",
+        "Utilize 9999px border-radius for all interactive pill-shaped elements and tags to signify interactivity and a distinct form language.",
+        "Maintain a clear page structure using a max-width of 1264px for content and section gaps of approximately 96px for breathing room.",
+        "Employ Deep Sea Gradient (linear-gradient(to right top, rgb(14, 149, 238), rgb(39, 201, 245))) for primary hero sections or prominent visual accents to infuse vibrancy."
+      ],
+      "tags": [
+        "macOS-inspired",
+        "clean",
+        "app-like",
+        "minimalist",
+        "product-focused",
+        "system-ui",
+        "light-theme",
+        "rounded-corners"
+      ],
+      "donts": [
+        "Avoid using harsh, high-contrast borders; all borders should be subtle, like Border Fog (#e5e7eb) or a similar desaturated gray.",
+        "Do not introduce strong, saturated colors for backgrounds of major content sections; stick to White Marble (#ffffff) or Cloud Gray (#f9fafb).",
+        "Refrain from using heavily decorative fonts; ui-sans-serif is the sole typographic voice, emphasizing clarity and system-level integration.",
+        "Avoid arbitrary rounding; use 24px for cards, 12px for primary/secondary buttons, and 9999px for pill-shaped elements exclusively.",
+        "Do not clutter layouts with too many differing shadow styles; adhere to the defined card elevation shadows.",
+        "Exclude any imagery that is not either a product screenshot, a UI icon, or an abstract graphic; avoid lifestyle photography.",
+        "Do not use letter-spacing on body text; it should primarily be applied to large headings for stylistic effect."
+      ],
+      "theme": "light",
+      "colors": [
+        {
+          "hex": "#ffffff",
+          "name": "White Marble",
+          "role": "Page backgrounds, card surfaces, primary text — a pristine canvas.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#f9fafb",
+          "name": "Cloud Gray",
+          "role": "Subtle background for UI elements like buttons, providing a slight variance from the main white.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#e5e7eb",
+          "name": "Border Fog",
+          "role": "Light borders for cards and buttons, delineating elements with a soft touch.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#000000",
+          "name": "Ash Text",
+          "role": "Primary text color for headings and body, providing strong contrast on light backgrounds.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#333333",
+          "name": "Slate Text",
+          "role": "Secondary text color, slightly softer than Ash Text for longer body copy.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#374151",
+          "name": "Steel Accent",
+          "role": "Subtle accent text and icon color, often used for secondary controls.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#0e95ee",
+          "name": "Deep Sea Gradient",
+          "role": "Vivid gradient for primary product showcase, evoking a digital, oceanic depth.",
+          "group": "brand",
+          "gradient": "linear-gradient(to right top, rgb(14, 149, 238), rgb(39, 201, 245))"
+        },
+        {
+          "hex": "#53bc2a",
+          "name": "Success Leaf",
+          "role": "Indicates positive feedback or successful actions, appearing on icons and links.",
+          "group": "semantic"
+        },
+        {
+          "hex": "#750d0d",
+          "name": "Error Ember",
+          "role": "Signifies critical errors or warnings, used for text and iconography.",
+          "group": "semantic"
+        },
+        {
+          "hex": "#783af5",
+          "name": "Accent Violet",
+          "role": "Highlight color for specific icons or interactive elements, provides a vibrant focal point.",
+          "group": "accent"
+        }
+      ],
+      "layout": "The page adheres to a centered maximum width (1264px) for most content, providing ample whitespace on larger screens. The hero section is a full-bleed block with a large, central product visual, immediately conveying the product's purpose. Sections typically alternate between either a two-column layout (image/illustration on one side, text on the other) or a centered stack of text followed by a grid of feature cards. Vertical spacing between main sections is generous (around 96px), creating a comfortable, unhurried rhythm. Navigation is a minimalist top bar with ghost buttons, consistent with a clean app-focused style.",
+      "imagery": "Imagery primarily consists of highly polished product screenshots of the 'Sleeve' application, often presented within a macOS window frame, sometimes floating in 3D space with subtle shadow effects. Abstract graphical elements and app icons with vibrant gradients and soft shadows are used decoratively to frame product shots or illustrate concepts. The style is dimensional and clean, with a focus on showcasing the software's UI in a detailed and aspirational manner. There is an absence of photography, relying entirely on product and UI visuals to communicate value.",
+      "similar": [
+        {
+          "why": "Clean, system-font driven typography, prominent product showcase on white backgrounds, and a focus on polished UI details.",
+          "business": "Apple"
+        },
+        {
+          "why": "Minimalist aesthetic with highly functional, app-like UI components and subtle elevation effects.",
+          "business": "Linear"
+        },
+        {
+          "why": "Desktop application website showcasing product screenshots and UI elements in a clean, organized, and elevated manner.",
+          "business": "Raycast"
+        },
+        {
+          "why": "Emphasis on showcasing the product UI directly, clean design, and a premium feel through attention to detail and shadow work.",
+          "business": "Superhuman"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "cards": "24px",
+          "buttons": "12px",
+          "elements": "12px",
+          "pillButtons": "9999px"
+        },
+        "elementGap": "8px",
+        "sectionGap": "96px",
+        "cardPadding": "",
+        "pageMaxWidth": "1264px"
+      },
+      "category": "dev-tools",
+      "elevation": [
+        {
+          "style": "rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.1) 0px 4px 6px -4px",
+          "element": "Feature Card"
+        },
+        {
+          "style": "rgba(0, 0, 0, 0.1) 0px 0px 0px 1px, rgba(0, 0, 0, 0.4) 0px 12px 24px -8px, rgba(0, 0, 0, 0.2) 0px 8px 24px 0px, rgba(0, 0, 0, 0.2) 0px 2px 4px 0px",
+          "element": "Product Display Card"
+        },
+        {
+          "style": "rgba(0, 0, 0, 0.05) 0px 1px 3px 0px, rgba(0, 0, 0, 0.05) 0px 1px 2px -1px",
+          "element": "Small button (e.g. Nav Buttons)"
+        }
+      ],
+      "northStar": "Macintosh desktop app on white marble. The design system feels like a carefully crafted macOS application brought to a website, with crisp, clean elements resting on a bright, uncluttered surface.",
+      "typeScale": [
+        {
+          "role": "caption",
+          "size": 12,
+          "lineHeight": 1.5,
+          "letterSpacing": 0.6
+        },
+        {
+          "role": "body",
+          "size": 16,
+          "lineHeight": 1.5
+        },
+        {
+          "role": "subheading",
+          "size": 20,
+          "lineHeight": 1.6
+        },
+        {
+          "role": "heading",
+          "size": 24,
+          "lineHeight": 1.5
+        },
+        {
+          "role": "heading-lg",
+          "size": 48,
+          "lineHeight": 1.33,
+          "letterSpacing": -0.96
+        },
+        {
+          "role": "display",
+          "size": 96,
+          "lineHeight": 1,
+          "letterSpacing": -2.4
+        }
+      ],
+      "components": [
+        {
+          "html": "<div style=\"--color-white-marble: #ffffff; --color-cloud-gray: #f9fafb; --color-border-fog: #e5e7eb; --color-ash-text: #000000; --color-slate-text: #333333; --color-steel-accent: #374151; --font-ui-sans-serif: system-ui, sans-serif; background: var(--color-white-marble); padding: 48px 32px; display: flex; flex-direction: column; align-items: center; gap: 20px; font-family: var(--font-ui-sans-serif); width: 600px; box-sizing: border-box;\">\n  <h2 style=\"font-family: var(--font-ui-sans-serif); font-size: 32px; font-weight: 800; color: var(--color-ash-text); margin: 0 0 4px 0; letter-spacing: -0.5px; text-align: center; line-height: 1.2;\">The ultimate music accessory<br>for your Mac.</h2>\n  <p style=\"font-family: var(--font-ui-sans-serif); font-size: 16px; color: var(--color-slate-text); margin: 0 0 8px 0; line-height: 1.5; text-align: center; max-width: 420px;\">Sleeve sits on the desktop, displaying and controlling the music you're currently playing in Apple Music, Spotify, and Doppler.</p>\n  <div style=\"display: flex; flex-direction: row; gap: 12px; align-items: center; flex-wrap: wrap; justify-content: center;\">\n    <a href=\"#\" style=\"display: inline-flex; align-items: center; gap: 10px; background: var(--color-ash-text); color: var(--color-white-marble); font-family: var(--font-ui-sans-serif); font-size: 15px; font-weight: 600; text-decoration: none; padding: 14px 24px; border-radius: 12px; border: 1px solid rgba(0,0,0,0.2); letter-spacing: -0.1px;\">\n      <svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"white\"><path d=\"M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z\"/></svg>\n      Mac App Store\n    </a>\n    <a href=\"#\" style=\"display: inline-flex; align-items: center; gap: 10px; background: var(--color-cloud-gray); color: var(--color-ash-text); font-family: var(--font-ui-sans-serif); font-size: 15px; font-weight: 600; text-decoration: none; padding: 14px 24px; border-radius: 12px; border: 1px solid rgba(0,0,0,0.1); letter-spacing: -0.1px;\">\n      Buy Directly\n      <span style=\"background: var(--color-ash-text); color: var(--color-white-marble); font-family: var(--font-ui-sans-serif); font-size: 13px; font-weight: 700; padding: 3px 9px; border-radius: 9999px;\">$5.99</span>\n    </a>\n  </div>\n  <div style=\"display: flex; flex-direction: column; align-items: center; gap: 2px; margin-top: 4px;\">\n    <p style=\"font-family: var(--font-ui-sans-serif); font-size: 13px; color: #9ca3af; margin: 0; line-height: 1.5;\">No subscriptions. No in-app purchases.</p>\n    <p style=\"font-family: var(--font-ui-sans-serif); font-size: 13px; color: #9ca3af; margin: 0; line-height: 1.5;\">Sleeve 3 requires macOS 26 Tahoe.</p>\n  </div>\n  <a href=\"#\" style=\"display: inline-flex; align-items: center; gap: 10px; background: var(--color-cloud-gray); border: 1px solid var(--color-border-fog); border-radius: 9999px; padding: 10px 18px; text-decoration: none; margin-top: 4px;\">\n    <div style=\"width: 28px; height: 28px; border-radius: 50%; background: linear-gradient(135deg, #3a9bd5, #56ccf2); flex-shrink: 0;\"></div>\n    <span style=\"font-family: var(--font-ui-sans-serif); font-size: 14px; color: var(--color-ash-text); line-height: 1.4;\"><strong>Sleeve 3</strong> has arrived — refreshed for macOS Tahoe</span>\n    <svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#9ca3af\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"10\"/><polyline points=\"12 8 16 12 12 16\"/><line x1=\"8\" y1=\"12\" x2=\"16\" y2=\"12\"/></svg>\n  </a>\n</div>",
+          "name": "CTA Button Group",
+          "role": "",
+          "description": ""
+        },
+        {
+          "html": "<div style=\"--color-white-marble: #ffffff; --color-cloud-gray: #f9fafb; --color-border-fog: #e5e7eb; --color-ash-text: #000000; --color-slate-text: #333333; --color-steel-accent: #374151; --font-ui-sans-serif: system-ui, sans-serif; background: var(--color-white-marble); padding: 48px 24px; font-family: var(--font-ui-sans-serif); width: 600px; box-sizing: border-box;\">\n  <div style=\"text-align: center; margin-bottom: 36px;\">\n    <p style=\"font-family: var(--font-ui-sans-serif); font-size: 12px; font-weight: 600; letter-spacing: 1.2px; color: #e8834a; text-transform: uppercase; margin: 0 0 10px 0;\">FEATURE LIST</p>\n    <h2 style=\"font-family: var(--font-ui-sans-serif); font-size: 40px; font-weight: 900; color: var(--color-ash-text); margin: 0; letter-spacing: -0.96px; line-height: 1.1;\">A catalogue of hits.</h2>\n  </div>\n  <div style=\"display: grid; grid-template-columns: 1fr 1fr; gap: 16px;\">\n    <div style=\"background: var(--color-white-marble); border: 1px solid var(--color-border-fog); border-radius: 24px; padding: 28px; box-shadow: rgba(0,0,0,0.1) 0px 10px 15px -3px, rgba(0,0,0,0.1) 0px 4px 6px -4px; display: flex; flex-direction: column; gap: 12px; grid-column: span 2;\">\n      <div style=\"display: flex; flex-direction: row; gap: 20px; align-items: flex-start;\">\n        <div style=\"flex: 1;\">\n          <h3 style=\"font-family: var(--font-ui-sans-serif); font-size: 16px; font-weight: 700; color: var(--color-ash-text); margin: 0 0 8px 0;\">Finely crafted, top to bottom.</h3>\n          <p style=\"font-family: var(--font-ui-sans-serif); font-size: 14px; color: var(--color-slate-text); margin: 0; line-height: 1.5;\">Sleeve's settings make customizing and switching things up as effortless as flicking a switch or sliding a handle.</p>\n        </div>\n        <div style=\"background: var(--color-cloud-gray); border-radius: 14px; padding: 14px 16px; border: 1px solid var(--color-border-fog); min-width: 130px; flex-shrink: 0;\">\n          <p style=\"font-family: var(--font-ui-sans-serif); font-size: 11px; color: #9ca3af; margin: 0 0 6px 0; font-weight: 500;\">Theme</p>\n          <div style=\"display: flex; flex-direction: column; gap: 4px;\">\n            <div style=\"display: flex; align-items: center; gap: 8px; padding: 4px 6px; border-radius: 7px; background: rgba(0,0,0,0.05);\"><div style=\"width: 14px; height: 14px; border-radius: 4px; background: linear-gradient(135deg, #3a9bd5, #56ccf2);\"></div><span style=\"font-size: 12px; color: var(--color-ash-text); font-family: var(--font-ui-sans-serif);\">Layout</span></div>\n            <div style=\"display: flex; align-items: center; gap: 8px; padding: 4px 6px; border-radius: 7px;\"><div style=\"width: 14px; height: 14px; border-radius: 4px; background: #a78bfa;\"></div><span style=\"font-size: 12px; color: var(--color-ash-text); font-family: var(--font-ui-sans-serif);\">Artwork</span></div>\n            <div style=\"display: flex; align-items: center; gap: 8px; padding: 4px 6px; border-radius: 7px;\"><div style=\"width: 14px; height: 14px; border-radius: 4px; background: #f87171;\"></div><span style=\"font-size: 12px; color: var(--color-ash-text); font-family: var(--font-ui-sans-serif);\">Interface</span></div>\n            <div style=\"display: flex; align-items: center; gap: 8px; padding: 4px 6px; border-radius: 7px;\"><div style=\"width: 14px; height: 14px; border-radius: 4px; background: #a78bfa;\"></div><span style=\"font-size: 12px; color: var(--color-ash-text); font-family: var(--font-ui-sans-serif);\">Track Info</span></div>\n          </div>\n        </div>\n      </div>\n      <p style=\"font-family: var(--font-ui-sans-serif); font-size: 13px; color: var(--color-steel-accent); margin: 0; line-height: 1.5;\">The Settings window blends modern macOS Tahoe Liquid Glass with our own custom components.</p>\n    </div>\n    <div style=\"background: var(--color-white-marble); border: 1px solid var(--color-border-fog); border-radius: 24px; padding: 24px; box-shadow: rgba(0,0,0,0.1) 0px 10px 15px -3px, rgba(0,0,0,0.1) 0px 4px 6px -4px; display: flex; flex-direction: row; align-items: center; gap: 16px;\">\n      <p style=\"font-family: var(--font-ui-sans-serif); font-size: 14px; color: var(--color-slate-text); margin: 0; line-height: 1.5; flex: 1;\">Sleeve ships with 8 of our own themes which you can switch between with a click.</p>\n      <div style=\"width: 52px; height: 52px; border-radius: 14px; background: linear-gradient(135deg, #3a9bd5, #1e6fa8); flex-shrink: 0; box-shadow: rgba(0,0,0,0.15) 0px 4px 12px;\"></div>\n    </div>\n    <div style=\"background: var(--color-white-marble); border: 1px solid var(--color-border-fog); border-radius: 24px; padding: 24px; box-shadow: rgba(0,0,0,0.1) 0px 10px 15px -3px, rgba(0,0,0,0.1) 0px 4px 6px -4px; display: flex; flex-direction: row; align-items: center; gap: 16px;\">\n      <p style=\"font-family: var(--font-ui-sans-serif); font-size: 14px; color: var(--color-slate-text); margin: 0; line-height: 1.5; flex: 1;\">Save your customizations as Themes — then export and share them.</p>\n      <div style=\"width: 52px; height: 52px; border-radius: 14px; background: linear-gradient(135deg, #34d399, #10b981); flex-shrink: 0; box-shadow: rgba(0,0,0,0.15) 0px 4px 12px;\"></div>\n    </div>\n  </div>\n</div>",
+          "name": "Feature Cards Grid",
+          "role": "",
+          "description": ""
+        },
+        {
+          "html": "<div style=\"--color-white-marble: #ffffff; --color-cloud-gray: #f9fafb; --color-border-fog: #e5e7eb; --color-ash-text: #000000; --color-slate-text: #333333; --color-steel-accent: #374151; --font-ui-sans-serif: system-ui, sans-serif; background: var(--color-white-marble); padding: 40px 32px; font-family: var(--font-ui-sans-serif); width: 600px; box-sizing: border-box; display: flex; flex-direction: column; align-items: center; gap: 32px;\">\n  <div style=\"display: inline-flex; flex-direction: row; align-items: center; gap: 4px; background: var(--color-cloud-gray); border: 1px solid var(--color-border-fog); border-radius: 9999px; padding: 5px;\">\n    <button style=\"display: inline-flex; align-items: center; gap: 8px; background: var(--color-white-marble); color: var(--color-ash-text); font-family: var(--font-ui-sans-serif); font-size: 14px; font-weight: 500; border: none; border-radius: 9999px; padding: 8px 18px; cursor: pointer; box-shadow: rgba(0,0,0,0.05) 0px 1px 3px 0px, rgba(0,0,0,0.05) 0px 1px 2px -1px;\">\n      <div style=\"width: 18px; height: 18px; border-radius: 5px; background: linear-gradient(135deg, #3a9bd5, #56ccf2); display: flex; align-items: center; justify-content: center; flex-shrink: 0;\">\n        <div style=\"width: 8px; height: 8px; border-radius: 2px; background: white; opacity: 0.9;\"></div>\n      </div>\n      Sleeve\n    </button>\n    <button style=\"display: inline-flex; align-items: center; gap: 8px; background: transparent; color: var(--color-steel-accent); font-family: var(--font-ui-sans-serif); font-size: 14px; font-weight: 500; border: none; border-radius: 9999px; padding: 8px 18px; cursor: pointer;\">\n      <div style=\"width: 18px; height: 18px; border-radius: 5px; background: linear-gradient(135deg, #f472b6, #ec4899); display: flex; align-items: center; justify-content: center; flex-shrink: 0;\">\n        <div style=\"width: 8px; height: 8px; border-radius: 50%; background: white; opacity: 0.9;\"></div>\n      </div>\n      Umbra\n    </button>\n    <button style=\"display: inline-flex; align-items: center; gap: 8px; background: transparent; color: var(--color-steel-accent); font-family: var(--font-ui-sans-serif); font-size: 14px; font-weight: 500; border: none; border-radius: 9999px; padding: 8px 18px; cursor: pointer;\">\n      <div style=\"width: 18px; height: 18px; border-radius: 5px; background: linear-gradient(135deg, #34d399, #065f46); display: flex; align-items: center; justify-content: center; flex-shrink: 0;\">\n        <div style=\"width: 8px; height: 8px; border-radius: 2px; background: white; opacity: 0.9; transform: rotate(45deg);\"></div>\n      </div>\n      Echo\n    </button>\n  </div>\n  <div style=\"width: 100%; background: var(--color-white-marble); border: 1px solid var(--color-border-fog); border-radius: 24px; overflow: hidden; box-shadow: rgba(0,0,0,0.1) 0px 0px 0px 1px, rgba(0,0,0,0.4) 0px 12px 24px -8px, rgba(0,0,0,0.2) 0px 8px 24px 0px, rgba(0,0,0,0.2) 0px 2px 4px 0px;\">\n    <div style=\"background: linear-gradient(to right top, rgb(14, 149, 238), rgb(39, 201, 245)); padding: 16px 20px; display: flex; align-items: center; justify-content: space-between;\">\n      <div style=\"display: flex; align-items: center; gap: 8px;\">\n        <div style=\"display: flex; gap: 6px;\">\n          <div style=\"width: 12px; height: 12px; border-radius: 50%; background: rgba(255,255,255,0.4);\"></div>\n          <div style=\"width: 12px; height: 12px; border-radius: 50%; background: rgba(255,255,255,0.4);\"></div>\n          <div style=\"width: 12px; height: 12px; border-radius: 50%; background: rgba(255,255,255,0.4);\"></div>\n        </div>\n        <span style=\"font-family: var(--font-ui-sans-serif); font-size: 13px; font-weight: 600; color: white; margin-left: 8px;\">Sleeve</span>\n      </div>\n      <span style=\"font-family: var(--font-ui-sans-serif); font-size: 12px; color: rgba(255,255,255,0.8);\">Sat 11 Apr  12:49</span>\n    </div>\n    <div style=\"background: linear-gradient(to bottom, rgb(28, 160, 230), rgb(20, 200, 200)); padding: 32px 24px; display: flex; justify-content: center; align-items: center; min-height: 160px;\">\n      <div style=\"background: rgba(255,255,255,0.12); backdrop-filter: blur(12px); border-radius: 16px; padding: 16px; display: flex; flex-direction: row; gap: 14px; align-items: center; max-width: 320px; width: 100%; border: 1px solid rgba(255,255,255,0.2);\">\n        <div style=\"width: 70px; height: 70px; border-radius: 10px; background: linear-gradient(135deg, #d4a96a, #8b6242); flex-shrink: 0;\"></div>\n        <div style=\"flex: 1;\">\n          <p style=\"font-family: var(--font-ui-sans-serif); font-size: 14px; font-weight: 600; color: white; margin: 0 0 3px 0;\">Bunny Is a Rider</p>\n          <p style=\"font-family: var(--font-ui-sans-serif); font-size: 12px; color: rgba(255,255,255,0.8); margin: 0 0 2px 0;\">Desire, I Want to Turn Into You</p>\n          <p style=\"font-family: var(--font-ui-sans-serif); font-size: 12px; color: rgba(255,255,255,0.7); margin: 0 0 10px 0;\">Caroline Polachek</p>\n          <div style=\"display: flex; gap: 14px; align-items: center;\">\n            <svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"white\" opacity=\"0.9\"><polygon points=\"19 20 9 12 19 4 19 20\"/><line x1=\"5\" y1=\"4\" x2=\"5\" y2=\"20\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/></svg>\n            <svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"white\" opacity=\"0.9\"><rect x=\"6\" y=\"4\" width=\"4\" height=\"16\"/><rect x=\"14\" y=\"4\" width=\"4\" height=\"16\"/></svg>\n            <svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"white\" opacity=\"0.9\"><polygon points=\"5 4 15 12 5 20 5 4\"/><line x1=\"19\" y1=\"4\" x2=\"19\" y2=\"20\" stroke=\"white\" stroke-width=\"2\" fill=\"none\"/></svg>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n  <div style=\"text-align: center;\">\n    <h2 style=\"font-family: var(--font-ui-sans-serif); font-size: 48px; font-weight: 900; color: var(--color-ash-text); margin: 0; letter-spacing: -0.96px; line-height: 1.1;\">Sleeve 3</h2>\n    <p style=\"font-family: var(--font-ui-sans-serif); font-size: 15px; color: var(--color-steel-accent); margin: 10px 0 0 0; line-height: 1.5;\">Beautifully redesigned for macOS 26 Tahoe.</p>\n  </div>\n</div>",
+          "name": "Product Tab Selector",
+          "role": "",
+          "description": ""
+        },
+        {
+          "name": "Ghost Navigation Button",
+          "role": "Primary navigation and selection in header.",
+          "description": "Transparent background (rgba(0, 0, 0, 0)), Ash Text (#000000) or Steel Accent (#374151) text color, no border, 9999px border-radius, 8px vertical padding, 16px horizontal padding. Text uses ui-sans-serif weight 400."
+        },
+        {
+          "name": "Bordered Pill Button",
+          "role": "Secondary navigation and filtering tags.",
+          "description": "Transparent background (rgba(0, 0, 0, 0)), Ash Text (#000000) text color, Border Fog (#e5e7eb) border, 9999px border-radius, 0px vertical padding, 16px horizontal padding. This style provides visual separation for grouped actions without heavy emphasis."
+        },
+        {
+          "name": "Primary Dark Button",
+          "role": "Call to action for purchasing or key actions.",
+          "description": "Ash Text (#000000) background, White Marble (#ffffff) text color, a subtle rgba(0, 0, 0, 0.2) border, 12px border-radius, 0px vertical padding, 24px horizontal padding. This solid dark button stands out against the light background."
+        },
+        {
+          "name": "Secondary Light Button",
+          "role": "Alternative call to action, less prominent than primary.",
+          "description": "Cloud Gray (#f9fafb) background, Ash Text (#000000) text color, a subtle rgba(0, 0, 0, 0.1) border, 12px border-radius, 0px vertical padding, 24px horizontal padding. Offers a softer interaction than the primary dark button."
+        },
+        {
+          "name": "Feature Card",
+          "role": "Container for individual features or content blocks.",
+          "description": "White Marble (#ffffff) background, Border Fog (#e5e7eb) border, 24px border-radius, 32px 36px padding. Elevated with a multi-layered shadow (rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.1) 0px 4px 6px -4px) providing a distinct floating effect."
+        },
+        {
+          "name": "Product Display Card",
+          "role": "Prominent showcase for product visuals and key information.",
+          "description": "Similar to Feature Card with a 24px border-radius but features a more substantial multi-layered shadow stack (rgba(0, 0, 0, 0.1) 0px 0px 0px 1px, rgba(0, 0, 0, 0.4) 0px 12px 24px -8px, rgba(0, 0, 0, 0.2) 0px 8px 24px 0px, rgba(0, 0, 0, 0.2) 0px 2px 4px 0px) to indicate highest elevation and importance."
+        },
+        {
+          "name": "In-Page Status Badge",
+          "role": "Informational banner within a section.",
+          "description": "Subtle grayish-white background (e.g. #f9fafb or #e5e7eb), 9999px radius for pill shape, with light Border Fog border at #e5e7eb. Contains text like 'Sleeve 3 has arrived — refreshed for macOS Tahoe'."
+        }
+      ],
+      "typography": [
+        {
+          "role": "Primary text across all elements. Weight 900 for display headlines provides visual punch, while 400-500 is used for readability in body text and interface elements. Letter spacing is subtly tightened at display sizes and normalized for body text, contributing to a refined, compact feel.",
+          "sizes": "12px, 13px, 14px, 15px, 16px, 18px, 20px, 24px, 48px, 96px",
+          "family": "ui-sans-serif",
+          "weight": "400, 500, 600, 700, 900",
+          "weights": [
+            400,
+            500,
+            600,
+            700,
+            900
+          ],
+          "lineHeight": "1.00, 1.33, 1.40, 1.43, 1.50, 1.56",
+          "substitute": "system-ui, sans-serif"
+        }
+      ],
+      "description": "Sleeve's design evokes a polished, app-native desktop experience, blending macOS aesthetics with thoughtful detail. Its most distinctive feature is the interplay between sharp, angular content blocks and the soft, organic forms of the app's UI elements, specifically the deeply rounded 'pill' buttons and window-like card backgrounds. Typography is restrained and precise, anchored by system sans-serif fonts, ensuring legibility and a familiar feel. Shadows are crucial here, providing subtle elevation to card-like containers, mimicking floating UI elements without heavy borders, creating depth while maintaining a clean, white background.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "### Quick Color Reference\n- Text: #000000\n- Background: #ffffff\n- CTA Dark Button: #000000\n- Border: #e5e7eb\n- Accent Violet: #783af5\n- Hero Gradient Start: #0e95ee\n\n### 3-5 Example Component Prompts\n1. **Create a hero section:** Full-bleed background with Deep Sea Gradient. Center align the display heading 'Sleeve 3' using ui-sans-serif, weight 900, size 96px, line-height 1.0, letter-spacing -2.4px, color #000000. Add body text below: 'The ultimate music accessory for your Mac.' using ui-sans-serif, weight 400, size 16px, line-height 1.5, color #000000. Underneath, center a primary dark button: background #000000, text #ffffff, border-radius 12px, padding 0px 24px, labeled 'Mac App Store'.\n2. **Create a Feature Card:** Background #ffffff, border #e5e7eb, border-radius 24px, padding 32px 36px. Apply a shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.1) 0px 4px 6px -4px. Inside, place a heading (ui-sans-serif, 700, 24px, #000000) and body text (ui-sans-serif, 400, 16px, #000000).\n3. **Create a Ghost Navigation Button:** Background rgba(0, 0, 0, 0), text #000000, border-radius 9999px, padding 8px 16px, using ui-sans-serif, weight 400, size 15px. Label it 'Updates'.\n4. **Create a Product Display Card:** Background #ffffff, border #e5e7eb, border-radius 24px. Apply a comprehensive shadow: rgba(0, 0, 0, 0.1) 0px 0px 0px 1px, rgba(0, 0, 0, 0.4) 0px 12px 24px -8px, rgba(0, 0, 0, 0.2) 0px 8px 24px 0px, rgba(0, 0, 0, 0.2) 0px 2px 4px 0px. This card should primarily contain an image/screenshot of the application UI.\n5. **Create an In-Page Status Badge:** Background #f9fafb, border #e5e7eb, border-radius 9999px, with minimal vertical padding and 16px horizontal padding. Text 'Sleeve 3 has arrived — refreshed for macOS Tahoe' using ui-sans-serif, weight 400, size 15px, color #000000."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775926195362-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775926195362-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/2b49d4b2-8461-4985-b7ee-cf9517e19803",
+  "ranks": {
+    "trending": 918,
+    "popular": 568,
+    "newest": 996
+  },
+  "localSlug": "sleeve-2b49d4b2"
+}

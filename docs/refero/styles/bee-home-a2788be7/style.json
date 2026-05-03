@@ -1,0 +1,727 @@
+{
+  "id": "a2788be7-a5dc-4828-86b8-3c1345a25049",
+  "url": "https://www.beehome.design",
+  "siteName": "Bee Home",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777518529382-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777518529382-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "light",
+  "colors": [
+    {
+      "name": "Inkwell Black",
+      "hex": "#2a2920"
+    },
+    {
+      "name": "Canvas Cream",
+      "hex": "#e9e9e1"
+    },
+    {
+      "name": "Linen White",
+      "hex": "#ffffff"
+    },
+    {
+      "name": "Stone Gray",
+      "hex": "#d3d3ce"
+    },
+    {
+      "name": "Text Secondary Dim",
+      "hex": "#2a29208a"
+    }
+  ],
+  "fonts": [
+    "Neue Haas Unica W1G"
+  ],
+  "northStar": "natural blueprint, organic craft",
+  "createdAt": "2026-04-30T03:09:09.747Z",
+  "previewVideoCapturedAt": null,
+  "industry": "design",
+  "fullResult": {
+    "meta": {
+      "url": "https://www.beehome.design",
+      "siteName": "Bee Home",
+      "extractedAt": "2026-04-30T03:09:09.350Z",
+      "durationMs": 32026,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 86,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#2a2920",
+            "oklch": {
+              "c": 0.015954417526960172,
+              "h": 102.12550144725222,
+              "l": 0.2789279494551819
+            },
+            "contexts": [
+              "other",
+              "heading",
+              "nav",
+              "button",
+              "hero",
+              "card",
+              "footer"
+            ],
+            "frequency": 214,
+            "confidence": 1,
+            "prominence": 23476729.902927782,
+            "properties": [
+              "color",
+              "borderColor",
+              "backgroundColor",
+              "fill"
+            ],
+            "usageCounts": {
+              "nav/color": 5,
+              "card/color": 6,
+              "hero/color": 1,
+              "other/fill": 8,
+              "other/color": 18,
+              "button/color": 9,
+              "heading/color": 2,
+              "nav/borderColor": 20,
+              "card/borderColor": 24,
+              "hero/borderColor": 4,
+              "other/borderColor": 72,
+              "button/borderColor": 36,
+              "heading/borderColor": 8,
+              "footer/backgroundColor": 1
+            }
+          },
+          {
+            "hex": "#e9e9e1",
+            "oklch": {
+              "c": 0.010666802210673341,
+              "h": 106.60481720146832,
+              "l": 0.9318090044841856
+            },
+            "contexts": [
+              "body",
+              "button",
+              "card",
+              "footer",
+              "other",
+              "heading",
+              "nav",
+              "link"
+            ],
+            "frequency": 167,
+            "confidence": 1,
+            "prominence": 8672481.992468473,
+            "properties": [
+              "color",
+              "borderColor",
+              "backgroundColor",
+              "fill"
+            ],
+            "usageCounts": {
+              "nav/color": 14,
+              "body/color": 2,
+              "link/color": 3,
+              "other/fill": 1,
+              "other/color": 3,
+              "button/color": 9,
+              "footer/color": 1,
+              "heading/color": 1,
+              "nav/borderColor": 56,
+              "body/borderColor": 8,
+              "link/borderColor": 12,
+              "other/borderColor": 12,
+              "button/borderColor": 36,
+              "footer/borderColor": 4,
+              "heading/borderColor": 4,
+              "card/backgroundColor": 1
+            }
+          },
+          {
+            "hex": "#ffffff",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 1.0000000000000002
+            },
+            "contexts": [
+              "other",
+              "card"
+            ],
+            "frequency": 19,
+            "confidence": 1,
+            "prominence": 5070377.992719482,
+            "properties": [
+              "color",
+              "borderColor",
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "other/color": 3,
+              "other/borderColor": 12,
+              "card/backgroundColor": 4
+            }
+          },
+          {
+            "hex": "#d3d3ce",
+            "oklch": {
+              "c": 0.006798642067687843,
+              "h": 106.54080981717561,
+              "l": 0.8654426034182026
+            },
+            "contexts": [
+              "card"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 1173175,
+            "properties": [
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "card/backgroundColor": 1
+            }
+          }
+        ],
+        "isDarkMode": false,
+        "colorfulness": 0.035063691865064445,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 14.62,
+            "background": "#ffffff",
+            "foreground": "#2a2920"
+          },
+          {
+            "level": "AAA",
+            "ratio": 11.98,
+            "background": "#e9e9e1",
+            "foreground": "#2a2920"
+          },
+          {
+            "level": "AAA",
+            "ratio": 9.73,
+            "background": "#d3d3ce",
+            "foreground": "#2a2920"
+          },
+          {
+            "level": "fail",
+            "ratio": 1.5,
+            "background": "#d3d3ce",
+            "foreground": "#ffffff"
+          },
+          {
+            "level": "fail",
+            "ratio": 1.23,
+            "background": "#d3d3ce",
+            "foreground": "#e9e9e1"
+          },
+          {
+            "level": "fail",
+            "ratio": 1.22,
+            "background": "#ffffff",
+            "foreground": "#e9e9e1"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [
+          {
+            "value": 38,
+            "contexts": [
+              "button",
+              "nav"
+            ],
+            "frequency": 13
+          },
+          {
+            "value": 22,
+            "corners": [
+              22,
+              22,
+              0,
+              0
+            ],
+            "contexts": [
+              "other",
+              "card"
+            ],
+            "frequency": 9,
+            "asymmetric": true
+          }
+        ],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 3,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 10,
+            "properties": [
+              "marginRight",
+              "marginLeft"
+            ],
+            "propertyContextPairs": [
+              "marginRight|nav",
+              "marginLeft|nav"
+            ]
+          },
+          {
+            "value": 5,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 8,
+            "properties": [
+              "marginLeft"
+            ],
+            "propertyContextPairs": [
+              "marginLeft|nav"
+            ]
+          },
+          {
+            "value": 6,
+            "contexts": [
+              "button",
+              "heading",
+              "nav",
+              "body"
+            ],
+            "frequency": 37,
+            "properties": [
+              "paddingTop",
+              "paddingRight",
+              "paddingBottom",
+              "paddingLeft",
+              "marginTop",
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|button",
+              "paddingTop|heading",
+              "paddingRight|heading",
+              "paddingBottom|heading",
+              "paddingLeft|heading",
+              "marginTop|nav",
+              "marginBottom|nav",
+              "paddingTop|nav",
+              "paddingTop|body",
+              "paddingRight|body",
+              "paddingBottom|body",
+              "paddingLeft|body"
+            ]
+          },
+          {
+            "value": 9,
+            "contexts": [
+              "button",
+              "nav"
+            ],
+            "frequency": 13,
+            "properties": [
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingBottom|button",
+              "paddingBottom|nav"
+            ]
+          },
+          {
+            "value": 10,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingTop",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other",
+              "paddingBottom|other"
+            ]
+          },
+          {
+            "value": 12,
+            "contexts": [
+              "other",
+              "hero",
+              "footer"
+            ],
+            "frequency": 12,
+            "properties": [
+              "paddingRight",
+              "paddingLeft",
+              "marginTop",
+              "marginLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|other",
+              "paddingLeft|other",
+              "paddingRight|hero",
+              "paddingLeft|hero",
+              "marginTop|other",
+              "marginLeft|other",
+              "marginTop|footer"
+            ]
+          },
+          {
+            "value": 14,
+            "contexts": [
+              "footer"
+            ],
+            "frequency": 4,
+            "properties": [
+              "paddingTop",
+              "paddingRight",
+              "paddingBottom",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|footer",
+              "paddingRight|footer",
+              "paddingBottom|footer",
+              "paddingLeft|footer"
+            ]
+          },
+          {
+            "value": 20,
+            "contexts": [
+              "button",
+              "heading",
+              "nav"
+            ],
+            "frequency": 27,
+            "properties": [
+              "paddingRight",
+              "paddingLeft",
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|button",
+              "paddingLeft|button",
+              "marginBottom|heading",
+              "paddingRight|nav",
+              "paddingLeft|nav"
+            ]
+          },
+          {
+            "value": 30,
+            "contexts": [
+              "button"
+            ],
+            "frequency": 12,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|button",
+              "paddingLeft|button"
+            ]
+          },
+          {
+            "value": 40,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 12,
+            "properties": [
+              "paddingTop",
+              "paddingRight",
+              "paddingBottom",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other",
+              "paddingRight|other",
+              "paddingBottom|other",
+              "paddingLeft|other"
+            ]
+          }
+        ],
+        "density": "compact",
+        "baseUnit": null
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "Neue Haas Unica W1G",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 77,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 16,
+          "name": "Minor Second",
+          "ratio": 1.067,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 14,
+            "family": "Neue Haas Unica W1G",
+            "weight": 400,
+            "contexts": [
+              "button"
+            ],
+            "frequency": 6,
+            "lineHeight": 1.3,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "Neue Haas Unica W1G",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "nav",
+              "hero",
+              "card",
+              "footer",
+              "body",
+              "link"
+            ],
+            "frequency": 51,
+            "lineHeight": 1.3,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 17,
+            "family": "Neue Haas Unica W1G",
+            "weight": 400,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.3,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 28,
+            "family": "Neue Haas Unica W1G",
+            "weight": 400,
+            "contexts": [
+              "button",
+              "heading",
+              "other",
+              "nav"
+            ],
+            "frequency": 15,
+            "lineHeight": 1.3,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 32,
+            "family": "Neue Haas Unica W1G",
+            "weight": 400,
+            "contexts": [
+              "heading",
+              "other"
+            ],
+            "frequency": 4,
+            "lineHeight": 1.3,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Use Neue Haas Unica W1G weight 400 for all text, maintaining a consistent brand voice without font variation.",
+        "Prioritize Canvas Cream (#e9e9e1) and Inkwell Black (#2a2920) for ghost button borders and primary text to highlight interactive elements.",
+        "Apply a 38px border-radius to all interactive buttons and navigation items for a distinct pill shape.",
+        "Use 22px border-radius for cards, applied only to the top corners, to create a consistent grounded element.",
+        "Employ a 2px solid border for all strokes, borders, and outlined elements to maintain the handcrafted aesthetic.",
+        "Maintain a compact spacing rhythm, with element gaps typically around 6px and card padding at 20px.",
+        "Utilize Inkwell Black for primary text and headings, providing strong legibility against cream and white backgrounds."
+      ],
+      "donts": [
+        "Avoid using box-shadows or significant elevation; maintain a flat, natural surface aesthetic.",
+        "Do not introduce additional font weights or families; Neue Haas Unica W1G 400 is the only typographic choice.",
+        "Steer clear of vivid or vibrant colors; the palette is strictly monochrome with muted, natural tones.",
+        "Do not use sharp 0px radii for cards or buttons, unless it explicitly represents an underlined text link.",
+        "Avoid large empty spaces; maintain a compact information density across layouts.",
+        "Do not add gradients or complex background fills; surfaces should be solid, single colors."
+      ],
+      "theme": "light",
+      "colors": [
+        {
+          "hex": "#2a2920",
+          "name": "Inkwell Black",
+          "role": "Primary text, headings, button borders, navigation accents — a deep, muted charcoal that provides strong contrast against lighter surfaces",
+          "group": "neutral"
+        },
+        {
+          "hex": "#e9e9e1",
+          "name": "Canvas Cream",
+          "role": "Secondary text, ghost button outlines, navigation borders, card backgrounds in content areas. Serves as a less stark alternative to pure white, contributing to the organic feel",
+          "group": "neutral"
+        },
+        {
+          "hex": "#ffffff",
+          "name": "Linen White",
+          "role": "Card backgrounds, overall page background in some sections, providing a clean working surface",
+          "group": "neutral"
+        },
+        {
+          "hex": "#d3d3ce",
+          "name": "Stone Gray",
+          "role": "Subtle card backgrounds, creating a slight visual distinction from Canvas Cream without introducing strong color",
+          "group": "neutral"
+        },
+        {
+          "hex": "#2a29208a",
+          "name": "Text Secondary Dim",
+          "role": "Muted helper text and secondary information, a translucent variant of Inkwell Black",
+          "group": "neutral"
+        }
+      ],
+      "layout": "The page primarily uses a max-width contained layout, though the hero section is full-bleed. The hero features a centered headline over a background image of the product. Subsequent sections alternate between full-width typographic elements and a grid-based content consumption. A common pattern is a 2-column layout for text and image; images are often treated as cards with specific radii. Vertical spacing is consistent but compact, creating a flowing, unified experience. Navigation is a top-bar sticky header with ghost buttons, converting to a hamburger menu on smaller screens or specific interactions. A consistent feature is the use of large, stylized typographic elements acting as visual dividers or section headlines.",
+      "imagery": "The imagery is split between stylized product photography and lifestyle photography. Product shots feature the bee home modules as wooden architectural models, precisely lit against a warm, neutral background, emphasizing craftsmanship and material. Lifestyle photography features people engaged in creative or natural activities. All images are contained within rounded (22px) card frames, or integrated seamlessly as background textures for hero sections. Icons are minimal, outlined, and monochromatic, matching the overall subdued aesthetic. Imagery serves both decorative atmosphere and explanatory content, often pairing human activity with the product ethos.",
+      "similar": [
+        {
+          "why": "Monochrome palette with earthy tones, minimalist UI, and emphasis on product design with high-quality photography.",
+          "business": "Oura Ring"
+        },
+        {
+          "why": "Tactile, organic aesthetic, soft neutral colors, and subtle UI elements over bold statements.",
+          "business": "Sense by Headspace"
+        },
+        {
+          "why": "Focus on natural materials, considered typography, and an understated, premium visual identity, with subtle ghost buttons.",
+          "business": "B&O (Bang & Olufsen)"
+        },
+        {
+          "why": "Clean, functional design with a strong typographic presence and minimal use of color for functional accents, though Bee Home is softer.",
+          "business": "Linear (before dark mode)"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "cards": "22px",
+          "buttons": "38px",
+          "navItems": "38px"
+        },
+        "elementGap": "6px",
+        "sectionGap": "40px",
+        "cardPadding": "20px",
+        "pageMaxWidth": null
+      },
+      "industry": "design",
+      "northStar": "natural blueprint, organic craft",
+      "typeScale": [
+        {
+          "role": "body-sm",
+          "size": 14,
+          "lineHeight": 1.3
+        },
+        {
+          "role": "heading",
+          "size": 28,
+          "lineHeight": 1.3
+        },
+        {
+          "role": "heading-lg",
+          "size": 32,
+          "lineHeight": 1.3
+        }
+      ],
+      "components": [
+        {
+          "name": "Pill Ghost Button (Inkwell Text)",
+          "role": "Primary Call to Action",
+          "description": "Ghost button with Inkwell Black text and a 2px stroke border of Inkwell Black. Rounded with a 38px radius, providing a tactile, pill-like shape. Padding: 6px top, 9px bottom, 20px horizontal."
+        },
+        {
+          "name": "Pill Ghost Button (Canvas Text)",
+          "role": "Secondary Call to Action, Navigation",
+          "description": "Ghost button with Canvas Cream text and a 2px stroke border of Canvas Cream. Rounded with a 38px radius for a soft, pill-like appearance. Padding: 6px top, 9px bottom, 20px horizontal."
+        },
+        {
+          "name": "Underlined Text Button",
+          "role": "Tertiary Action, Inline Navigation",
+          "description": "Ghost button with Inkwell Black text and a 2px stroke border of Inkwell Black, but with a 0px radius, essentially creating an underlined text link. Padding: 0px top/bottom, 30px horizontal."
+        },
+        {
+          "name": "Content Card (Linen White)",
+          "role": "Categorized Content Display",
+          "description": "Card with Linen White background and no shadow, featuring a top border-radius of 22px and bottom squared (0px). No internal padding specified for primary content."
+        },
+        {
+          "name": "Content Card (Canvas Cream)",
+          "role": "Categorized Content Display",
+          "description": "Card with Canvas Cream background and no shadow, featuring a top border-radius of 22px and bottom squared (0px). No internal padding specified for primary content."
+        },
+        {
+          "name": "Content Card (Stone Gray)",
+          "role": "Categorized Content Display",
+          "description": "Card with Stone Gray background and no shadow, featuring a top border-radius of 22px and bottom squared (0px). No internal padding specified for primary content."
+        }
+      ],
+      "typography": [
+        {
+          "role": "All textual elements from body copy to headings. Its singular weight and consistent line height contribute to a unified, approachable voice across the interface. The custom font choice avoids generic system fonts.",
+          "sizes": "14px, 16px, 17px, 28px, 32px",
+          "family": "Neue Haas Unica W1G",
+          "weight": "400",
+          "weights": [
+            400
+          ],
+          "lineHeight": "1.30",
+          "substitute": "Helvetica Neue"
+        }
+      ],
+      "description": "Bee Home's design system evokes a handcrafted blueprint aesthetic, combining structured layouts with an organic, tactile feel. Predominantly monochrome with subtle creams and charcoal grays, the visual system suggests natural materials and understated functionality. Typography uses a single confident, yet friendly, sans-serif, often in outlined states for interactive elements. Components prioritize soft edges and a light touch, focusing on content over heavy decoration.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "Quick Color Reference:\ntext: #2a2920\nbackground: #ffffff\nborder: #2a2920\naccent: no distinct accent color\nprimary action: no distinct CTA color\n\nExample Component Prompts:\n1. Create a primary navigation item: \"Design\" using Neue Haas Unica W1G 400, Canvas Cream (#e9e9e1) text, with a 2px Canvas Cream (#e9e9e1) border, 38px radius, and 6px top, 9px bottom, 20px horizontal padding.\n2. Create a content card: using Linen White (#ffffff) background, 22px top-left/top-right radius, 0px bottom-left/bottom-right radius, no shadow or border.\n3. Create a section heading: \"BEEHOME\" using Neue Haas Unica W1G 400, Inkwell Black (#2a2920) text, size 32px, 1.3 line height, centered on a Canvas Cream (#e9e9e1) background. Followed by a body paragraph at 16px size of the same font, Inkwell Black text, with 40px of vertical spacing above."
+        },
+        {
+          "title": "Motion Philosophy",
+          "content": "Motion is subtle and purposeful, favoring `ease` timing functions over linear, preventing abrupt changes. Durations are generally short (0.2s, 0.3s) for common interactions like color and opacity changes, making UI feel responsive. The presence of a `slideFadeIn` animation hint suggests gentle introductions of content, contributing to a fluid, unobtrusive user experience. Large transitions may use slightly longer durations (0.75s, 2s) for a more deliberate reveal without feeling slow."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777518529382-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777518529382-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/a2788be7-a5dc-4828-86b8-3c1345a25049",
+  "ranks": {
+    "trending": 1126,
+    "popular": 1158,
+    "newest": 218
+  },
+  "localSlug": "bee-home-a2788be7"
+}

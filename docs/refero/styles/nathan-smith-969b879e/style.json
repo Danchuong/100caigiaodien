@@ -1,0 +1,843 @@
+{
+  "id": "969b879e-166b-4c1f-9c33-e44fa643188c",
+  "url": "https://nathansmith.design",
+  "siteName": "Nathan Smith",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775925710526-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775925710526-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "dark",
+  "colors": [
+    {
+      "name": "Absolute Black",
+      "hex": "#000000"
+    },
+    {
+      "name": "Ghost White",
+      "hex": "#f5f4ee"
+    },
+    {
+      "name": "Off Black",
+      "hex": "#333333"
+    },
+    {
+      "name": "Emerald Screen",
+      "hex": "#017051"
+    },
+    {
+      "name": "Neon Lemon",
+      "hex": "#deeb52"
+    },
+    {
+      "name": "Fuchsia Burst",
+      "hex": "#fe7cd2"
+    }
+  ],
+  "fonts": [
+    "Mabry pro",
+    "Fk Display"
+  ],
+  "northStar": "Raw pixels on a pure black canvas. Imagine a high-contrast terminal, where information is stark and unyielding, punctuated by sudden, vibrant bursts of color.",
+  "createdAt": "2026-02-14T20:13:22.000Z",
+  "previewVideoCapturedAt": null,
+  "industry": "agency",
+  "fullResult": {
+    "meta": {
+      "url": "https://nathansmith.design",
+      "siteName": "Nathan Smith",
+      "extractedAt": "2026-04-11T16:42:10.002Z",
+      "durationMs": 26003,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 232,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "complete",
+          "attempts": 2
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#f5f4ee",
+            "oklch": {
+              "c": 0.008017490869570409,
+              "h": 98.87919964750445,
+              "l": 0.9662630602074251
+            },
+            "contexts": [
+              "other",
+              "hero",
+              "heading",
+              "link",
+              "card",
+              "footer",
+              "body"
+            ],
+            "frequency": 740,
+            "confidence": 1,
+            "prominence": 94092429.59177168,
+            "properties": [
+              "color",
+              "borderColor"
+            ]
+          },
+          {
+            "hex": "#333333",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.3210925111636326
+            },
+            "contexts": [
+              "other",
+              "nav"
+            ],
+            "frequency": 125,
+            "confidence": 1,
+            "prominence": 68864629.50287649,
+            "properties": [
+              "color",
+              "borderColor"
+            ]
+          },
+          {
+            "hex": "#ffffff",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 1.0000000000000002
+            },
+            "contexts": [
+              "nav",
+              "other"
+            ],
+            "frequency": 295,
+            "confidence": 1,
+            "prominence": 2458394.6954178796,
+            "properties": [
+              "color",
+              "borderColor"
+            ]
+          },
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "nav",
+              "card"
+            ],
+            "frequency": 12,
+            "confidence": 1,
+            "prominence": 1385104.1900179558,
+            "properties": [
+              "backgroundColor",
+              "boxShadow"
+            ]
+          },
+          {
+            "hex": "#3f2eff",
+            "oklch": {
+              "c": 0.28343035801043387,
+              "h": 272.68454853606625,
+              "l": 0.49824302859523467
+            },
+            "contexts": [
+              "card"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 374308,
+            "properties": [
+              "backgroundColor"
+            ]
+          },
+          {
+            "hex": "#ff002f",
+            "oklch": {
+              "c": 0.2551355940487091,
+              "h": 24.360686614665514,
+              "l": 0.6302865859243031
+            },
+            "contexts": [
+              "card"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 374308,
+            "properties": [
+              "backgroundColor"
+            ]
+          },
+          {
+            "hex": "#deeb52",
+            "oklch": {
+              "c": 0.17223690622139945,
+              "h": 114.00902140557147,
+              "l": 0.9027942848214121
+            },
+            "contexts": [
+              "card"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 299459,
+            "properties": [
+              "backgroundColor"
+            ]
+          },
+          {
+            "hex": "#f95720",
+            "oklch": {
+              "c": 0.20726259130860325,
+              "h": 37.25226989418533,
+              "l": 0.6694862856814281
+            },
+            "contexts": [
+              "card"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 299459,
+            "properties": [
+              "backgroundColor"
+            ]
+          },
+          {
+            "hex": "#7c7186",
+            "oklch": {
+              "c": 0.03437457767139953,
+              "h": 308.7879421219709,
+              "l": 0.5659346737076298
+            },
+            "contexts": [
+              "card"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 299459,
+            "properties": [
+              "backgroundColor"
+            ]
+          },
+          {
+            "hex": "#017051",
+            "oklch": {
+              "c": 0.10034644220033379,
+              "h": 165.7616811477977,
+              "l": 0.4834450419554008
+            },
+            "contexts": [
+              "card"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 299448,
+            "properties": [
+              "backgroundColor"
+            ]
+          },
+          {
+            "hex": "#f511c8",
+            "oklch": {
+              "c": 0.2820773855612937,
+              "h": 339.3495401820509,
+              "l": 0.6592167780596566
+            },
+            "contexts": [
+              "card"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 299448,
+            "properties": [
+              "backgroundColor"
+            ]
+          },
+          {
+            "hex": "#fe7cd2",
+            "oklch": {
+              "c": 0.1850742518810531,
+              "h": 342.0868706549472,
+              "l": 0.7617155696695331
+            },
+            "contexts": [
+              "card"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 299438,
+            "properties": [
+              "backgroundColor"
+            ]
+          }
+        ],
+        "isDarkMode": true,
+        "colorfulness": 0.017070273363227962,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 21,
+            "background": "#000000",
+            "foreground": "#ffffff"
+          },
+          {
+            "level": "AAA",
+            "ratio": 19.06,
+            "background": "#000000",
+            "foreground": "#f5f4ee"
+          },
+          {
+            "level": "AAA",
+            "ratio": 16.11,
+            "background": "#deeb52",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 12.63,
+            "background": "#ffffff",
+            "foreground": "#333333"
+          },
+          {
+            "level": "AAA",
+            "ratio": 11.47,
+            "background": "#f5f4ee",
+            "foreground": "#333333"
+          },
+          {
+            "level": "AAA",
+            "ratio": 9.69,
+            "background": "#deeb52",
+            "foreground": "#333333"
+          },
+          {
+            "level": "AAA",
+            "ratio": 9.03,
+            "background": "#fe7cd2",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AA",
+            "ratio": 6.89,
+            "background": "#3f2eff",
+            "foreground": "#ffffff"
+          },
+          {
+            "level": "AA",
+            "ratio": 6.26,
+            "background": "#3f2eff",
+            "foreground": "#f5f4ee"
+          },
+          {
+            "level": "AA",
+            "ratio": 6.11,
+            "background": "#017051",
+            "foreground": "#ffffff"
+          },
+          {
+            "level": "AA",
+            "ratio": 5.54,
+            "background": "#017051",
+            "foreground": "#f5f4ee"
+          },
+          {
+            "level": "AA",
+            "ratio": 5.43,
+            "background": "#fe7cd2",
+            "foreground": "#333333"
+          },
+          {
+            "level": "AA",
+            "ratio": 5.29,
+            "background": "#deeb52",
+            "foreground": "#3f2eff"
+          },
+          {
+            "level": "AA",
+            "ratio": 4.69,
+            "background": "#deeb52",
+            "foreground": "#017051"
+          },
+          {
+            "level": "AA",
+            "ratio": 4.6,
+            "background": "#7c7186",
+            "foreground": "#ffffff"
+          },
+          {
+            "level": "fail",
+            "ratio": 4.18,
+            "background": "#7c7186",
+            "foreground": "#f5f4ee"
+          },
+          {
+            "level": "fail",
+            "ratio": 3.97,
+            "background": "#ff002f",
+            "foreground": "#ffffff"
+          },
+          {
+            "level": "fail",
+            "ratio": 3.86,
+            "background": "#f95720",
+            "foreground": "#333333"
+          },
+          {
+            "level": "fail",
+            "ratio": 3.62,
+            "background": "#f511c8",
+            "foreground": "#ffffff"
+          },
+          {
+            "level": "fail",
+            "ratio": 3.6,
+            "background": "#ff002f",
+            "foreground": "#f5f4ee"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [
+          {
+            "value": 4,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 4
+          },
+          {
+            "value": 8,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 4
+          },
+          {
+            "value": 16,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 1
+          },
+          {
+            "value": 100,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 3
+          }
+        ],
+        "shadows": [
+          {
+            "value": "rgba(0, 0, 0, 0.75) 0px 24px 30px 3px",
+            "contexts": [
+              "card"
+            ],
+            "frequency": 8
+          }
+        ]
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 4,
+            "frequency": 16,
+            "properties": [
+              "paddingRight",
+              "paddingLeft",
+              "marginRight"
+            ]
+          },
+          {
+            "value": 8,
+            "frequency": 17,
+            "properties": [
+              "paddingTop",
+              "paddingBottom",
+              "marginRight"
+            ]
+          },
+          {
+            "value": 16,
+            "frequency": 37,
+            "properties": [
+              "paddingTop",
+              "paddingRight",
+              "paddingBottom",
+              "paddingLeft",
+              "marginLeft",
+              "columnGap",
+              "rowGap"
+            ]
+          },
+          {
+            "value": 32,
+            "frequency": 16,
+            "properties": [
+              "paddingRight",
+              "paddingLeft",
+              "paddingTop",
+              "marginTop",
+              "marginBottom",
+              "paddingBottom"
+            ]
+          },
+          {
+            "value": 96,
+            "frequency": 6,
+            "properties": [
+              "marginRight",
+              "marginLeft"
+            ]
+          },
+          {
+            "value": 128,
+            "frequency": 7,
+            "properties": [
+              "rowGap",
+              "marginLeft",
+              "marginRight"
+            ]
+          },
+          {
+            "value": 224,
+            "frequency": 2,
+            "properties": [
+              "marginRight",
+              "marginLeft"
+            ]
+          }
+        ],
+        "density": "comfortable",
+        "baseUnit": 8
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "Fk Display",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 195,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "Mabry pro",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 37,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 16,
+          "name": "Minor Third",
+          "ratio": 1.2,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 14,
+            "family": "Fk Display",
+            "weight": 400,
+            "contexts": [
+              "nav",
+              "heading",
+              "other",
+              "body"
+            ],
+            "frequency": 57,
+            "lineHeight": 1.5,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "Fk Display",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "nav",
+              "hero",
+              "link",
+              "card",
+              "footer"
+            ],
+            "frequency": 114,
+            "lineHeight": 1.5,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 24,
+            "family": "Fk Display",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "heading"
+            ],
+            "frequency": 24,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 80,
+            "family": "Mabry pro",
+            "weight": 400,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 37,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Do use Absolute Black (#000000) as the primary background for all page sections and elevated components.",
+        "Do use Ghost White (#f5f4ee) for all primary text content and interactive element states to ensure maximum contrast.",
+        "Do apply 0px border-radius to all content-bearing elements like Project Cards to maintain a sharp, utilitarian aesthetic.",
+        "Do use the Mabry pro font (weight 400, size 80px, line-height 1.0) for all main headlines to establish a bold, direct tone.",
+        "Do punctuate the monochrome design with single, vivid accent colors (#017051, #deeb52, #fe7cd2, #f95720) only for project cards and other intentional focal points.",
+        "Do use a consistent 100px border-radius for all navigation pills to distinguish interactive elements with softness against the prevailing angularity."
+      ],
+      "tags": [
+        "brutalist",
+        "dark-mode",
+        "high-contrast",
+        "typographic",
+        "monochromatic",
+        "minimalist",
+        "vivid-accents",
+        "geometric",
+        "editorial",
+        "stark"
+      ],
+      "donts": [
+        "Don't introduce any soft-edged shapes or general rounded corners outside of explicit navigation elements.",
+        "Don't use gradients; stick to solid color blocks for backgrounds and accents.",
+        "Don't introduce subtle background patterns or textures; maintain pure, flat color fields.",
+        "Don't use desaturated or muted colors for accents; only vivid, high-chromatic colors are permitted where color is used.",
+        "Don't vary font weights for Fk Display; it should remain weight 400 across all its usage.",
+        "Don't break the tight line-height (1.0) for Mabry pro headlines; its impact relies on close text packing."
+      ],
+      "theme": "dark",
+      "title": "Nathan Smith - Brutalist Console",
+      "colors": [
+        {
+          "hex": "#000000",
+          "name": "Absolute Black",
+          "role": "Primary background for the entire interface, card shadows — the foundational darkness.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#f5f4ee",
+          "name": "Ghost White",
+          "role": "Primary text color, links, and borders for subtle UI differentiation. It's an off-white, preventing the absolute harshness of pure white against black.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#333333",
+          "name": "Off Black",
+          "role": "Used for some navigation elements and less prominent text, creating a slight visual hierarchy without losing clarity against Ghost White.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#017051",
+          "name": "Emerald Screen",
+          "role": "Project card background — a deep, rich green implying growth or nature, but stylized.",
+          "group": "accent"
+        },
+        {
+          "hex": "#deeb52",
+          "name": "Neon Lemon",
+          "role": "Project card background — a vibrant, almost artificial yellow-green providing a stark, energetic contrast.",
+          "group": "accent"
+        },
+        {
+          "hex": "#fe7cd2",
+          "name": "Fuchsia Burst",
+          "role": "Project card background — a vivid, playful pink that injects high energy into the monochrome canvas.",
+          "group": "accent"
+        },
+        {
+          "hex": "#f95720",
+          "name": "Blazing Orange",
+          "role": "Project card background — a fiery, direct orange, communicating immediacy and boldness.",
+          "group": "accent"
+        }
+      ],
+      "layout": "The site uses a full-bleed layout on an Absolute Black background. The hero section features large, centered typographic elements (Mabry Pro) that demand attention. Content sections appear to stack vertically, with substantial vertical spacing (sectionGap: 128px) providing breathing room. Project showcases are presented as distinct, vivid color blocks, sometimes overlapping partially, breaking the rigid grid. The overall layout is centered-content with flexible margins that adjust to viewport size, rather than a fixed maximum width container for the main content. The navigation is a minimalist top-bar on the left, featuring pill-shaped buttons. The footer contains left-aligned and right-aligned text links, maintaining the high-contrast aesthetic.",
+      "imagery": "The visual language is dominantly UI-focused, with minimal use of external imagery. When present, imagery (like the small pencil icons in the award notification) is functional and iconographic, not lifestyle. Project showcases utilize bold, solid color blocks (Emerald Screen, Neon Lemon, Fuchsia Burst, Blazing Orange) instead of traditional images or product screenshots. These color blocks are presented full-bleed within their respective card areas, with raw, sharp edges, acting as abstract placeholders or categorical signifiers rather than detailed visual content. The site is text-dominant, relying on typography and stark color contrasts to convey information and atmosphere.",
+      "similar": [
+        {
+          "why": "Employs an unornamented, functional aesthetic, raw typography, and high-contrast color choices on a stark black background.",
+          "business": "Brutalist Websites"
+        },
+        {
+          "why": "Features a black background with bright, functional text and UI elements, reflecting a command-line interface feel.",
+          "business": "Terminal.com"
+        },
+        {
+          "why": "Often utilized pure black backgrounds, simple shapes, and bold, uncompromising typography without gradients or complex layouts.",
+          "business": "Early Internet Art Sites"
+        },
+        {
+          "why": "Exhibit a strong emphasis on typography as a primary visual element, often with a reduced color palette punctuated by strong accents.",
+          "business": "Some portfolio sites by graphic designers"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "cards": "0px",
+          "buttons": "100px",
+          "general": "8px",
+          "navItems": "4px"
+        },
+        "elementGap": "8px",
+        "sectionGap": "128px",
+        "cardPadding": "0px",
+        "pageMaxWidth": null
+      },
+      "category": "agency",
+      "elevation": [
+        {
+          "style": "rgba(0, 0, 0, 0.75) 0px 24px 30px 3px",
+          "element": "Project Preview Card"
+        }
+      ],
+      "northStar": "Raw pixels on a pure black canvas. Imagine a high-contrast terminal, where information is stark and unyielding, punctuated by sudden, vibrant bursts of color.",
+      "typeScale": [
+        {
+          "role": "caption",
+          "size": 14,
+          "lineHeight": 1.2
+        },
+        {
+          "role": "body",
+          "size": 16,
+          "lineHeight": 1.2
+        },
+        {
+          "role": "heading",
+          "size": 24,
+          "lineHeight": 1.5
+        },
+        {
+          "role": "display",
+          "size": 80,
+          "lineHeight": 1
+        }
+      ],
+      "components": [
+        {
+          "html": "<div style=\"--color-absolute-black: #000000; --color-ghost-white: #f5f4ee; --color-off-black: #333333; --font-fk-display: 'Inter', sans-serif; --spacing-8: 8px; --spacing-16: 16px;\" >\n<div style=\"background: var(--color-absolute-black); padding: 24px; display: flex; gap: 8px; align-items: center; font-family: var(--font-fk-display);\">\n  <a href=\"#\" style=\"display: inline-block; background: var(--color-ghost-white); color: var(--color-off-black); font-family: var(--font-fk-display); font-size: 16px; font-weight: 400; line-height: 1.2; padding: 8px 16px; border-radius: 100px; text-decoration: none; letter-spacing: normal;\">Projects</a>\n  <a href=\"#\" style=\"display: inline-block; background: var(--color-off-black); color: var(--color-ghost-white); font-family: var(--font-fk-display); font-size: 16px; font-weight: 400; line-height: 1.2; padding: 8px 16px; border-radius: 100px; text-decoration: none; letter-spacing: normal;\">Archive</a>\n  <a href=\"#\" style=\"display: inline-block; background: var(--color-off-black); color: var(--color-ghost-white); font-family: var(--font-fk-display); font-size: 16px; font-weight: 400; line-height: 1.2; padding: 8px 16px; border-radius: 100px; text-decoration: none; letter-spacing: normal;\">Information</a>\n</div>\n</div>",
+          "name": "Navigation Pills",
+          "role": "",
+          "description": ""
+        },
+        {
+          "html": "<div style=\"--color-absolute-black: #000000; --color-ghost-white: #f5f4ee; --color-off-black: #333333; --color-blazing-orange: #f95720; --color-neon-lemon: #deeb52; --font-fk-display: 'Inter', sans-serif; --shadow-xl: rgba(0,0,0,0.75) 0px 24px 30px 3px;\">\n<div style=\"background: var(--color-absolute-black); padding: 40px; display: flex; justify-content: center; align-items: center;\">\n  <div style=\"background: #1a1a1a; border-radius: 4px; padding: 12px 14px; display: flex; align-items: center; gap: 12px; max-width: 320px; width: 100%; box-shadow: var(--shadow-xl); border: 1px solid #2a2a2a;\">\n    <!-- Pencil icon placeholder -->\n    <div style=\"width: 52px; height: 52px; border-radius: 4px; background: #2b2b2b; flex-shrink: 0; display: flex; align-items: center; justify-content: center; overflow: hidden;\">\n      <svg width=\"40\" height=\"40\" viewBox=\"0 0 40 40\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n        <rect x=\"8\" y=\"6\" width=\"7\" height=\"22\" rx=\"1\" fill=\"#deeb52\" />\n        <polygon points=\"8,28 15,28 11.5,35\" fill=\"#888\" />\n        <rect x=\"8\" y=\"4\" width=\"7\" height=\"4\" rx=\"1\" fill=\"#c0392b\" />\n        <rect x=\"18\" y=\"8\" width=\"7\" height=\"20\" rx=\"1\" fill=\"#f5f4ee\" />\n        <polygon points=\"18,28 25,28 21.5,35\" fill=\"#888\" />\n        <rect x=\"18\" y=\"6\" width=\"7\" height=\"4\" rx=\"1\" fill=\"#e67e22\" />\n        <rect x=\"28\" y=\"5\" width=\"7\" height=\"23\" rx=\"1\" fill=\"#f95720\" />\n        <polygon points=\"28,28 35,28 31.5,35\" fill=\"#888\" />\n        <rect x=\"28\" y=\"3\" width=\"7\" height=\"4\" rx=\"1\" fill=\"#999\" />\n      </svg>\n    </div>\n    <div style=\"flex: 1; min-width: 0;\">\n      <div style=\"display: flex; justify-content: space-between; align-items: center; margin-bottom: 4px;\">\n        <span style=\"font-family: var(--font-fk-display); font-size: 14px; font-weight: 400; color: var(--color-ghost-white); line-height: 1.2;\">Award</span>\n        <span style=\"font-family: var(--font-fk-display); font-size: 14px; font-weight: 400; color: var(--color-off-black); line-height: 1.2; white-space: nowrap;\">+ 4 more</span>\n      </div>\n      <p style=\"font-family: var(--font-fk-display); font-size: 14px; font-weight: 400; color: var(--color-ghost-white); line-height: 1.3; margin: 0; opacity: 0.75;\">3x D&AD Pencil win for RTS project</p>\n    </div>\n  </div>\n</div>\n</div>",
+          "name": "Award Notification Box",
+          "role": "",
+          "description": ""
+        },
+        {
+          "html": "<div style=\"--color-absolute-black: #000000; --color-ghost-white: #f5f4ee; --color-off-black: #333333; --color-emerald-screen: #017051; --color-neon-lemon: #deeb52; --color-fuchsia-burst: #fe7cd2; --color-blazing-orange: #f95720; --font-fk-display: 'Inter', sans-serif; --shadow-xl: rgba(0,0,0,0.75) 0px 24px 30px 3px;\">\n<div style=\"background: var(--color-absolute-black); padding: 32px; font-family: var(--font-fk-display);\">\n  <div style=\"display: grid; grid-template-columns: 1fr 1fr; gap: 16px;\">\n\n    <!-- Card 1 -->\n    <div style=\"display: flex; flex-direction: column; gap: 8px;\">\n      <div style=\"background: var(--color-emerald-screen); width: 100%; aspect-ratio: 1/1; border-radius: 0px; box-shadow: var(--shadow-xl);\"></div>\n      <div style=\"display: flex; justify-content: space-between; align-items: baseline;\">\n        <span style=\"font-family: var(--font-fk-display); font-size: 14px; font-weight: 400; color: var(--color-ghost-white); line-height: 1.2;\">→ RTS Cambridge 2023</span>\n        <span style=\"font-family: var(--font-fk-display); font-size: 14px; font-weight: 400; color: var(--color-off-black); line-height: 1.2;\">Studio Kiln</span>\n      </div>\n    </div>\n\n    <!-- Card 2 -->\n    <div style=\"display: flex; flex-direction: column; gap: 8px;\">\n      <div style=\"background: var(--color-neon-lemon); width: 100%; aspect-ratio: 1/1; border-radius: 0px; box-shadow: var(--shadow-xl);\"></div>\n      <div style=\"display: flex; justify-content: space-between; align-items: baseline;\">\n        <span style=\"font-family: var(--font-fk-display); font-size: 14px; font-weight: 400; color: var(--color-ghost-white); line-height: 1.2;\">→ Verso Books</span>\n        <span style=\"font-family: var(--font-fk-display); font-size: 14px; font-weight: 400; color: var(--color-off-black); line-height: 1.2;\">Self-directed</span>\n      </div>\n    </div>\n\n    <!-- Card 3 -->\n    <div style=\"display: flex; flex-direction: column; gap: 8px;\">\n      <div style=\"background: var(--color-fuchsia-burst); width: 100%; aspect-ratio: 1/1; border-radius: 0px; box-shadow: var(--shadow-xl);\"></div>\n      <div style=\"display: flex; justify-content: space-between; align-items: baseline;\">\n        <span style=\"font-family: var(--font-fk-display); font-size: 14px; font-weight: 400; color: var(--color-ghost-white); line-height: 1.2;\">→ NTS Radio</span>\n        <span style=\"font-family: var(--font-fk-display); font-size: 14px; font-weight: 400; color: var(--color-off-black); line-height: 1.2;\">NTS</span>\n      </div>\n    </div>\n\n    <!-- Card 4 -->\n    <div style=\"display: flex; flex-direction: column; gap: 8px;\">\n      <div style=\"background: var(--color-blazing-orange); width: 100%; aspect-ratio: 1/1; border-radius: 0px; box-shadow: var(--shadow-xl);\"></div>\n      <div style=\"display: flex; justify-content: space-between; align-items: baseline;\">\n        <span style=\"font-family: var(--font-fk-display); font-size: 14px; font-weight: 400; color: var(--color-ghost-white); line-height: 1.2;\">→ Kettle's Yard</span>\n        <span style=\"font-family: var(--font-fk-display); font-size: 14px; font-weight: 400; color: var(--color-off-black); line-height: 1.2;\">Freelance</span>\n      </div>\n    </div>\n\n  </div>\n</div>\n</div>",
+          "name": "Project Cards Grid",
+          "role": "",
+          "description": ""
+        },
+        {
+          "name": "Primary Navigation Pill",
+          "role": "Interactive element allowing user navigation.",
+          "description": "Rounded pill button with a 100px border-radius. Inactive state: Absolute Black background, Ghost White text (Fk Display 16px). Active state (inferred): Ghost White background, Off Black text. Padding is 16px horizontal, 8px vertical."
+        },
+        {
+          "name": "Footer Link",
+          "role": "Small, functional links in the footer.",
+          "description": "Ghost White text (Fk Display 14px) on an Absolute Black background. Features a leading arrow (→) as a visual cue. No padding or borders."
+        },
+        {
+          "name": "Award Notification Box",
+          "role": "Small, toast-like notification for achievements.",
+          "description": "A small, rounded rectangle (4px radius) with an Absolute Black background and Ghost White text (Fk Display 14px). Features a subtle inline image of pencils to signify awards. Contains a right-aligned '4 more' link in Off Black."
+        },
+        {
+          "name": "Hero Headline",
+          "role": "Dominant text on the initial screen, establishing brand identity.",
+          "description": "Large, uppercase Mabry Pro text at 80px, weight 400, Ghost White color (#f5f4ee), with a tight line height of 1.0. Appears centered on the Absolute Black background."
+        }
+      ],
+      "typography": [
+        {
+          "role": "Display headlines and hero text. The singular large size and tight line height create a commanding vocal presence without excessive visual weight. This font’s character defines the raw, almost digital aesthetic.",
+          "sizes": "80px",
+          "family": "Mabry pro",
+          "weight": "400",
+          "weights": [
+            400
+          ],
+          "lineHeight": "1.00",
+          "substitute": "Space Mono",
+          "letterSpacing": "normal"
+        },
+        {
+          "role": "Primary body text, navigation items, links, and all smaller UI elements. Its clean, geometric form ensures clarity across various sizes, acting as a functional workhorse that complements the display font's boldness.",
+          "sizes": "14px, 16px, 24px",
+          "family": "Fk Display",
+          "weight": "400",
+          "weights": [
+            400
+          ],
+          "lineHeight": "1.20, 1.50",
+          "substitute": "Inter",
+          "letterSpacing": "normal"
+        }
+      ],
+      "description": "This design system feels like a minimalist display terminal, prioritizing stark readability over ornamentation. Pure black backgrounds serve as an absolute void, upon which unashamedly bold, high-contrast typography in 'off-white' is projected. The deliberate absence of rounded corners across primary content elements, except for navigation pills, creates a tension between sharp utility and interactive cues. Sudden, vivid blocks of color act as dynamic project showcases, appearing almost as glitches or command line outputs against the monochrome UI.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "### Quick Color Reference\n- Text: #f5f4ee (Ghost White)\n- Background: #000000 (Absolute Black)\n- Accent Green: #017051 (Emerald Screen)\n- Accent Yellow: #deeb52 (Neon Lemon)\n- Nav Text (less prominent): #333333 (Off Black)\n\n### 3-5 Example Component Prompts\n1. Create a Primary Navigation Pill for 'Projects': Absolute Black background, Ghost White text (#f5f4ee), 100px border-radius, Fk Display font 16px, weight 400. Paddings should be 16px horizontal and 8px vertical.\n2. Create a Project Preview Card using the Emerald Screen accent color: Background color #017051, 0px border-radius. Apply the shadow rgba(0, 0, 0, 0.75) 0px 24px 30px 3px. Ensure no internal padding.\n3. Create the Hero Headline 'NATHAN SMITH': Mabry pro font 80px, weight 400, line-height 1.0, color #f5f4ee. Center it on an Absolute Black background.\n4. Design a Footer Link for '→ mail@nathansmith.design': Fk Display font 14px, weight 400, color #f5f4ee, on an Absolute Black background. Include the arrow character as shown."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775925710526-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775925710526-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/969b879e-166b-4c1f-9c33-e44fa643188c",
+  "ranks": {
+    "trending": 215,
+    "popular": 228,
+    "newest": 1185
+  },
+  "localSlug": "nathan-smith-969b879e"
+}

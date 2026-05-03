@@ -1,0 +1,853 @@
+{
+  "id": "a6771960-b826-49bc-9ee7-7f7a5e29642b",
+  "url": "https://planetscale.com",
+  "siteName": "PlanetScale",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775923231085-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775923231085-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "light",
+  "colors": [
+    {
+      "name": "Midnight Graphite",
+      "hex": "#111111"
+    },
+    {
+      "name": "Ash Black",
+      "hex": "#000000"
+    },
+    {
+      "name": "Cloud White",
+      "hex": "#fafafa"
+    },
+    {
+      "name": "Steel Gray",
+      "hex": "#414141"
+    },
+    {
+      "name": "Smoke Gray",
+      "hex": "#737373"
+    },
+    {
+      "name": "Stone Gray",
+      "hex": "#c1c1c1"
+    }
+  ],
+  "fonts": [
+    "ui-monospace"
+  ],
+  "northStar": "Architectural Blueprint; precise, high-contrast lines on a grid, picked out with sparse, functional color accents.",
+  "createdAt": "2026-02-07T18:01:22.000Z",
+  "previewVideoCapturedAt": null,
+  "industry": "devtools",
+  "fullResult": {
+    "meta": {
+      "url": "https://planetscale.com",
+      "siteName": "PlanetScale",
+      "extractedAt": "2026-04-11T16:00:45.549Z",
+      "durationMs": 19384,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 333,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "complete",
+          "attempts": 2
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#414141",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.37529907288004455
+            },
+            "contexts": [
+              "other",
+              "icon",
+              "body",
+              "link",
+              "nav",
+              "button",
+              "hero",
+              "heading",
+              "image",
+              "list",
+              "footer"
+            ],
+            "frequency": 1238,
+            "confidence": 1,
+            "prominence": 69812910.67914516,
+            "properties": [
+              "borderColor",
+              "color",
+              "fill"
+            ]
+          },
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "heading",
+              "other",
+              "link"
+            ],
+            "frequency": 97,
+            "confidence": 1,
+            "prominence": 3330976.0509109395,
+            "properties": [
+              "color",
+              "fill"
+            ]
+          },
+          {
+            "hex": "#737373",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.5555267576690717
+            },
+            "contexts": [
+              "body",
+              "image",
+              "other"
+            ],
+            "frequency": 9,
+            "confidence": 1,
+            "prominence": 1192386.1580912494,
+            "properties": [
+              "color"
+            ]
+          },
+          {
+            "hex": "#fafafa",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.9851036517304731
+            },
+            "contexts": [
+              "other",
+              "button"
+            ],
+            "frequency": 3,
+            "confidence": 1,
+            "prominence": 1007142,
+            "properties": [
+              "backgroundColor",
+              "color"
+            ]
+          },
+          {
+            "hex": "#c1c1c1",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.8109314104129781
+            },
+            "contexts": [
+              "body",
+              "nav"
+            ],
+            "frequency": 39,
+            "confidence": 1,
+            "prominence": 416898.55924109643,
+            "properties": [
+              "color",
+              "borderColor"
+            ]
+          },
+          {
+            "hex": "#0b6ec5",
+            "oklch": {
+              "c": 0.15775126845278242,
+              "h": 252.4102110225451,
+              "l": 0.5358469504852273
+            },
+            "contexts": [
+              "link",
+              "other"
+            ],
+            "frequency": 43,
+            "confidence": 1,
+            "prominence": 250762.61310724833,
+            "properties": [
+              "color"
+            ]
+          },
+          {
+            "hex": "#111111",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.17763777307657064
+            },
+            "contexts": [
+              "other",
+              "link",
+              "button"
+            ],
+            "frequency": 3,
+            "confidence": 1,
+            "prominence": 114000,
+            "properties": [
+              "backgroundColor",
+              "color"
+            ]
+          },
+          {
+            "hex": "#f35815",
+            "oklch": {
+              "c": 0.20209588955284263,
+              "h": 39.35317105348066,
+              "l": 0.660593458132854
+            },
+            "contexts": [
+              "link",
+              "heading"
+            ],
+            "frequency": 5,
+            "confidence": 1,
+            "prominence": 68491.16641910776,
+            "properties": [
+              "backgroundColor",
+              "borderColor"
+            ]
+          },
+          {
+            "hex": "#f2b600",
+            "oklch": {
+              "c": 0.1659839282014766,
+              "h": 84.55209119891582,
+              "l": 0.8093784318416819
+            },
+            "contexts": [
+              "link"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 2543,
+            "properties": [
+              "backgroundColor"
+            ]
+          },
+          {
+            "hex": "#22a652",
+            "oklch": {
+              "c": 0.1640474290471708,
+              "h": 150.0565135083429,
+              "l": 0.6381611844321835
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 25,
+            "properties": [
+              "fill"
+            ]
+          }
+        ],
+        "isDarkMode": false,
+        "colorfulness": 0.015257997010841809,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 20.12,
+            "background": "#fafafa",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 18.09,
+            "background": "#111111",
+            "foreground": "#fafafa"
+          },
+          {
+            "level": "AAA",
+            "ratio": 11.67,
+            "background": "#c1c1c1",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 11.47,
+            "background": "#f2b600",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 10.49,
+            "background": "#111111",
+            "foreground": "#c1c1c1"
+          },
+          {
+            "level": "AAA",
+            "ratio": 10.31,
+            "background": "#f2b600",
+            "foreground": "#111111"
+          },
+          {
+            "level": "AAA",
+            "ratio": 9.78,
+            "background": "#fafafa",
+            "foreground": "#414141"
+          },
+          {
+            "level": "AA",
+            "ratio": 6.22,
+            "background": "#f35815",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AA",
+            "ratio": 5.67,
+            "background": "#c1c1c1",
+            "foreground": "#414141"
+          },
+          {
+            "level": "AA",
+            "ratio": 5.59,
+            "background": "#f35815",
+            "foreground": "#111111"
+          },
+          {
+            "level": "AA",
+            "ratio": 5.57,
+            "background": "#f2b600",
+            "foreground": "#414141"
+          },
+          {
+            "level": "AA",
+            "ratio": 4.97,
+            "background": "#fafafa",
+            "foreground": "#0b6ec5"
+          },
+          {
+            "level": "AA",
+            "ratio": 4.54,
+            "background": "#fafafa",
+            "foreground": "#737373"
+          },
+          {
+            "level": "fail",
+            "ratio": 3.98,
+            "background": "#111111",
+            "foreground": "#737373"
+          },
+          {
+            "level": "fail",
+            "ratio": 3.64,
+            "background": "#111111",
+            "foreground": "#0b6ec5"
+          },
+          {
+            "level": "fail",
+            "ratio": 3.24,
+            "background": "#f35815",
+            "foreground": "#fafafa"
+          },
+          {
+            "level": "fail",
+            "ratio": 3.02,
+            "background": "#f35815",
+            "foreground": "#414141"
+          },
+          {
+            "level": "fail",
+            "ratio": 2.83,
+            "background": "#f2b600",
+            "foreground": "#0b6ec5"
+          },
+          {
+            "level": "fail",
+            "ratio": 2.59,
+            "background": "#f2b600",
+            "foreground": "#737373"
+          },
+          {
+            "level": "fail",
+            "ratio": 1.88,
+            "background": "#f35815",
+            "foreground": "#c1c1c1"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [
+          {
+            "value": 9999,
+            "contexts": [
+              "link"
+            ],
+            "frequency": 1
+          }
+        ],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 4,
+            "frequency": 6,
+            "properties": [
+              "paddingRight",
+              "paddingLeft",
+              "rowGap",
+              "columnGap",
+              "marginLeft"
+            ]
+          },
+          {
+            "value": 8,
+            "frequency": 32,
+            "properties": [
+              "paddingTop",
+              "paddingBottom",
+              "rowGap",
+              "columnGap",
+              "paddingRight",
+              "paddingLeft",
+              "marginTop",
+              "marginBottom"
+            ]
+          },
+          {
+            "value": 10,
+            "frequency": 18,
+            "properties": [
+              "paddingLeft"
+            ]
+          },
+          {
+            "value": 12,
+            "frequency": 8,
+            "properties": [
+              "rowGap",
+              "columnGap",
+              "paddingLeft"
+            ]
+          },
+          {
+            "value": 16,
+            "frequency": 23,
+            "properties": [
+              "paddingLeft",
+              "marginTop",
+              "marginBottom",
+              "paddingTop",
+              "paddingBottom",
+              "paddingRight",
+              "marginLeft"
+            ]
+          },
+          {
+            "value": 24,
+            "frequency": 71,
+            "properties": [
+              "paddingRight",
+              "paddingLeft",
+              "rowGap",
+              "columnGap",
+              "marginBottom",
+              "paddingTop",
+              "paddingBottom",
+              "marginTop"
+            ]
+          },
+          {
+            "value": 40,
+            "frequency": 4,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ]
+          },
+          {
+            "value": 48,
+            "frequency": 4,
+            "properties": [
+              "marginBottom",
+              "marginTop"
+            ]
+          },
+          {
+            "value": 56,
+            "frequency": 6,
+            "properties": [
+              "marginRight",
+              "marginLeft"
+            ]
+          },
+          {
+            "value": 73,
+            "frequency": 6,
+            "properties": [
+              "marginRight",
+              "marginLeft"
+            ]
+          },
+          {
+            "value": 96,
+            "frequency": 2,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ]
+          }
+        ],
+        "density": "comfortable",
+        "baseUnit": 8
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "ui-monospace",
+            "source": "system",
+            "weights": [
+              400,
+              500,
+              600,
+              700
+            ],
+            "frequency": 269,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": null,
+        "steps": [
+          {
+            "size": 16,
+            "family": "ui-monospace",
+            "weight": 500,
+            "contexts": [
+              "other",
+              "icon"
+            ],
+            "frequency": 2,
+            "lineHeight": 1.5,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "ui-monospace",
+            "weight": 500,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.5,
+            "letterSpacing": -0.006,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "ui-monospace",
+            "weight": 600,
+            "contexts": [
+              "link"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.5,
+            "letterSpacing": -0.006,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "ui-monospace",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "body",
+              "link",
+              "icon",
+              "nav",
+              "hero",
+              "button",
+              "image",
+              "list",
+              "footer"
+            ],
+            "frequency": 234,
+            "lineHeight": 1.5,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "ui-monospace",
+            "weight": 600,
+            "contexts": [
+              "link",
+              "button",
+              "nav",
+              "other",
+              "heading"
+            ],
+            "frequency": 18,
+            "lineHeight": 1.5,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "ui-monospace",
+            "weight": 600,
+            "contexts": [
+              "link"
+            ],
+            "frequency": 1,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "ui-monospace",
+            "weight": 700,
+            "contexts": [
+              "heading",
+              "link"
+            ],
+            "frequency": 11,
+            "lineHeight": 1.5,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "ui-monospace",
+            "weight": 500,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.25,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Use ui-monospace with a letter-spacing of -0.006em for all text elements to maintain the consistent technical aesthetic.",
+        "Prioritize Cloud White (#fafafa) for background surfaces and Ash Black (#000000) for primary headlines to establish clear visual hierarchy.",
+        "Apply Electric Blue (#0b6ec5) exclusively to interactive text elements like links and hover states to guide user interaction.",
+        "Employ Flame Orange (#f35815) sparingly for urgent calls-to-action or promotional banners to maximize its impact.",
+        "Maintain a strict 0px border-radius for all primary UI elements like buttons, input fields, and cards to reinforce the sharp, precise design language.",
+        "Utilize the 8-pixel base unit for all spacing, particularly 24px for component padding and 96px for section gaps, to create a comfortable yet structured density.",
+        "Render all third-party logos in #414141 (Steel Gray) on a Cloud White (#fafafa) background to integrate them into the monochrome palette."
+      ],
+      "tags": [
+        "technical",
+        "monochrome",
+        "developer",
+        "high-contrast",
+        "precise",
+        "grid-based",
+        "minimalist",
+        "data-centric"
+      ],
+      "donts": [
+        "Do not introduce any curved forms beyond the 9999px radius for tags; all other elements must maintain sharp, 0px corners.",
+        "Avoid using drop shadows or complex gradients; rely on color contrast and solid borders for definition and depth.",
+        "Do not deviate from the ui-monospace font; introducing other font families will compromise the core identity.",
+        "Refrain from using Electric Blue (#0b6ec5) for purely decorative purposes, as it is reserved for interactive states and primary links.",
+        "Do not use background colors other than Cloud White (#fafafa) or the defined neutral grays for main content areas; maintain the light theme.",
+        "Avoid excessive use of Flame Orange (#f35815) in non-CTA contexts, as its impact is dependent on its limited application."
+      ],
+      "theme": "light",
+      "colors": [
+        {
+          "hex": "#111111",
+          "name": "Midnight Graphite",
+          "role": "Button backgrounds, dark text on light backgrounds — provides strong contrast for core informational elements.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#000000",
+          "name": "Ash Black",
+          "role": "Primary headline text, strong emphasis text – anchors the visual hierarchy with absolute contrast.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#fafafa",
+          "name": "Cloud White",
+          "role": "Page backgrounds, card surfaces, text on dark backgrounds – the dominant light backdrop for all content.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#414141",
+          "name": "Steel Gray",
+          "role": "Body text, secondary headings, borders, icons – provides readability and defines structural elements without harshness.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#737373",
+          "name": "Smoke Gray",
+          "role": "Tertiary body text, image captions – for less prominent textual information.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#c1c1c1",
+          "name": "Stone Gray",
+          "role": "Subtle borders, dividers, less prominent navigation items – a light accent for structure.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#0b6ec5",
+          "name": "Electric Blue",
+          "role": "Primary interactive elements like links and key call-to-actions – a high-visibility accent against the monochrome base.",
+          "group": "brand"
+        },
+        {
+          "hex": "#f35815",
+          "name": "Flame Orange",
+          "role": "Promotional highlights, attention-grabbing links, 'Get in touch' banner – signals urgency or special offers.",
+          "group": "accent"
+        },
+        {
+          "hex": "#f2b600",
+          "name": "Marigold Yellow",
+          "role": "Limited use for specific highlights or informational badges – a secondary accent for variety.",
+          "group": "accent"
+        },
+        {
+          "hex": "#22a652",
+          "name": "Verdant Green",
+          "role": "Used for success states or specific icon fills – a contextual accent.",
+          "group": "semantic"
+        }
+      ],
+      "layout": "The layout is primarily a max-width 1280px centered container, creating a formal and structured presentation. The hero section features a prominent, centered headline over a white background, setting a direct and informative tone. Content sections are delineated by consistent vertical spacing, often with a 4-column client logo grid. Text blocks are typically left-aligned and stack vertically. Navigation is a fixed top bar on larger screens, supporting content scanning. The overall density is comfortable, with ample white space around elements, reinforcing clarity.",
+      "imagery": "The site's imagery is primarily composed of client logos and monochromatic icons. Logos are treated uniformly in #414141 (Steel Gray) on white backgrounds, presented within a strict grid, emphasizing a technical, brand-agnostic visual. Iconography is simple, outlined, and uses the Steel Gray, maintaining the high-contrast, precise aesthetic. There is no use of photography, illustrations, or complex graphics, indicating a focus on pure function and information delivery.",
+      "spacing": {
+        "radius": {
+          "tags": "9999px",
+          "inputs": "0px",
+          "buttons": "0px"
+        },
+        "elementGap": "24px",
+        "sectionGap": "96px",
+        "cardPadding": "16px",
+        "pageMaxWidth": "1280px"
+      },
+      "category": "dev-tools",
+      "northStar": "Architectural Blueprint; precise, high-contrast lines on a grid, picked out with sparse, functional color accents.",
+      "typeScale": [
+        {
+          "role": "body",
+          "size": 16,
+          "lineHeight": 1.5,
+          "letterSpacing": -0.006
+        }
+      ],
+      "components": [
+        {
+          "html": "<div style=\"all:unset;display:block;box-sizing:border-box;font-family:'Courier New',Courier,monospace;--color-midnight-graphite:#111111;--color-ash-black:#000000;--color-cloud-white:#fafafa;--color-steel-gray:#414141;--color-smoke-gray:#737373;--color-stone-gray:#c1c1c1;--color-electric-blue:#0b6ec5;--color-flame-orange:#f35815;--color-marigold-yellow:#f2b600;--color-verdant-green:#22a652;--font-ui-monospace:'Courier New',Courier,monospace;\">\n  <div style=\"width:600px;background:var(--color-midnight-graphite);padding:12px 24px;display:flex;align-items:center;justify-content:center;gap:12px;box-sizing:border-box;\">\n    <svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" style=\"flex-shrink:0;\">\n      <rect x=\"2\" y=\"2\" width=\"5\" height=\"5\" fill=\"var(--color-flame-orange)\"/>\n      <rect x=\"9\" y=\"2\" width=\"5\" height=\"5\" fill=\"var(--color-flame-orange)\"/>\n      <rect x=\"2\" y=\"9\" width=\"5\" height=\"5\" fill=\"var(--color-flame-orange)\"/>\n      <rect x=\"9\" y=\"9\" width=\"5\" height=\"5\" fill=\"var(--color-flame-orange)\"/>\n    </svg>\n    <span style=\"font-family:var(--font-ui-monospace);font-size:14px;color:var(--color-cloud-white);letter-spacing:-0.006em;line-height:1.5;\">Introducing Database Traffic Control™: resource budgets for your Postgres query traffic.</span>\n    <a href=\"#\" style=\"display:inline-block;background:var(--color-marigold-yellow);color:var(--color-ash-black);font-family:var(--font-ui-monospace);font-size:13px;font-weight:700;letter-spacing:-0.006em;padding:4px 10px;text-decoration:none;border-radius:0;white-space:nowrap;flex-shrink:0;\">Learn more</a>\n  </div>\n</div>",
+          "name": "Announcement Banner",
+          "role": "",
+          "description": ""
+        },
+        {
+          "html": "<div style=\"all:unset;display:block;box-sizing:border-box;font-family:'Courier New',Courier,monospace;--color-midnight-graphite:#111111;--color-ash-black:#000000;--color-cloud-white:#fafafa;--color-steel-gray:#414141;--color-smoke-gray:#737373;--color-stone-gray:#c1c1c1;--color-electric-blue:#0b6ec5;--color-flame-orange:#f35815;--color-marigold-yellow:#f2b600;--color-verdant-green:#22a652;--font-ui-monospace:'Courier New',Courier,monospace;\">\n  <div style=\"width:600px;box-sizing:border-box;border:1px solid var(--color-stone-gray);\">\n    <!-- Tab Bar -->\n    <div style=\"display:flex;border-bottom:1px solid var(--color-stone-gray);\">\n      <button style=\"flex:1;padding:16px 24px;background:var(--color-steel-gray);color:var(--color-cloud-white);font-family:var(--font-ui-monospace);font-size:14px;font-weight:500;letter-spacing:-0.006em;border:none;border-radius:0;cursor:pointer;text-align:center;\">Vitess</button>\n      <button style=\"flex:1;padding:16px 24px;background:transparent;color:var(--color-steel-gray);font-family:var(--font-ui-monospace);font-size:14px;font-weight:400;letter-spacing:-0.006em;border:none;border-left:1px solid var(--color-stone-gray);border-radius:0;cursor:pointer;text-align:center;\">Postgres</button>\n      <button style=\"flex:1;padding:16px 24px;background:transparent;color:var(--color-steel-gray);font-family:var(--font-ui-monospace);font-size:14px;font-weight:400;letter-spacing:-0.006em;border:none;border-left:1px solid var(--color-stone-gray);border-radius:0;cursor:pointer;text-align:center;\">Neki</button>\n    </div>\n    <!-- Tab Content -->\n    <div style=\"padding:24px;background:var(--color-cloud-white);\">\n      <p style=\"font-family:var(--font-ui-monospace);font-size:15px;color:var(--color-steel-gray);line-height:1.6;letter-spacing:-0.006em;margin:0 0 16px 0;\">\n        <a href=\"#\" style=\"color:var(--color-electric-blue);text-decoration:none;font-family:var(--font-ui-monospace);\">Vitess</a> allows MySQL databases to <a href=\"#\" style=\"color:var(--color-electric-blue);text-decoration:none;font-family:var(--font-ui-monospace);\">scale horizontally through explicit sharding</a> — enabling a shared nothing architecture distributing data across thousands of nodes, all routed through a single database connection.\n      </p>\n      <p style=\"font-family:var(--font-ui-monospace);font-size:15px;color:var(--color-steel-gray);line-height:1.6;letter-spacing:-0.006em;margin:0;\">\n        Vitess was developed at YouTube by the founders of PlanetScale to scale their main MySQL database to petabytes of data on 70,000 nodes across 20 data centers. Now maintained and managed by PlanetScale, Vitess powers the databases of some of the web's largest properties: Slack, HubSpot, Blizzard, Etsy, GitHub, Block, Bloomberg, Yelp, and more.\n      </p>\n      <!-- VTGate diagram hint -->\n      <div style=\"margin-top:24px;border:1px dashed var(--color-stone-gray);padding:16px 24px;text-align:center;\">\n        <span style=\"font-family:var(--font-ui-monospace);font-size:13px;color:var(--color-smoke-gray);letter-spacing:-0.006em;\">VTGate</span>\n      </div>\n    </div>\n  </div>\n</div>",
+          "name": "Tabbed Content Switcher",
+          "role": "",
+          "description": ""
+        },
+        {
+          "html": "<div style=\"all:unset;display:block;box-sizing:border-box;font-family:'Courier New',Courier,monospace;--color-midnight-graphite:#111111;--color-ash-black:#000000;--color-cloud-white:#fafafa;--color-steel-gray:#414141;--color-smoke-gray:#737373;--color-stone-gray:#c1c1c1;--color-electric-blue:#0b6ec5;--color-flame-orange:#f35815;--color-marigold-yellow:#f2b600;--color-verdant-green:#22a652;--font-ui-monospace:'Courier New',Courier,monospace;\">\n  <div style=\"width:600px;box-sizing:border-box;background:var(--color-cloud-white);padding:0;\">\n    <!-- Testimonial -->\n    <div style=\"padding:32px 24px 32px 28px;border-left:3px solid var(--color-flame-orange);margin-bottom:32px;\">\n      <p style=\"font-family:var(--font-ui-monospace);font-size:15px;color:var(--color-steel-gray);line-height:1.6;letter-spacing:-0.006em;margin:0 0 16px 0;\">&#34;We chose PlanetScale to host our most demanding Vitess and Postgres workloads, doing millions of queries per second on hundreds of terabytes of data.&#34;</p>\n      <p style=\"font-family:var(--font-ui-monospace);font-size:13px;color:var(--color-smoke-gray);letter-spacing:-0.006em;margin:0;line-height:1.5;\">— Sualeh Asif — Chief Product Officer @Anysphere (Cursor)</p>\n    </div>\n    <!-- Hero headline block -->\n    <div style=\"padding:0 24px 32px 24px;\">\n      <h2 style=\"font-family:var(--font-ui-monospace);font-size:22px;font-weight:700;color:var(--color-ash-black);letter-spacing:-0.006em;line-height:1.3;margin:0 0 16px 0;\">The world's fastest and most scalable cloud databases</h2>\n      <p style=\"font-family:var(--font-ui-monospace);font-size:15px;color:var(--color-steel-gray);line-height:1.6;letter-spacing:-0.006em;margin:0 0 12px 0;\">PlanetScale brings you the <a href=\"#\" style=\"color:var(--color-electric-blue);text-decoration:none;font-family:var(--font-ui-monospace);\">fastest databases</a> available in the cloud. Both our Postgres and Vitess databases deliver exceptional speed and reliability, with Vitess adding ultra scalability through horizontal sharding.</p>\n      <p style=\"font-family:var(--font-ui-monospace);font-size:15px;color:var(--color-steel-gray);line-height:1.6;letter-spacing:-0.006em;margin:0 0 24px 0;\">Our blazing fast <a href=\"#\" style=\"color:var(--color-electric-blue);text-decoration:none;font-family:var(--font-ui-monospace);\">NVMe drives</a> unlock <strong style=\"font-family:var(--font-ui-monospace);\">unlimited IOPS</strong>, bringing data center performance to the cloud. We offer a range of <a href=\"#\" style=\"color:var(--color-electric-blue);text-decoration:none;font-family:var(--font-ui-monospace);\">deployment options</a> to cover all of your security and compliance requirements.</p>\n      <div style=\"display:flex;gap:12px;align-items:center;\">\n        <a href=\"#\" style=\"display:inline-block;background:var(--color-flame-orange);color:#fff;font-family:var(--font-ui-monospace);font-size:14px;font-weight:600;letter-spacing:-0.006em;padding:12px 20px;text-decoration:none;border-radius:0;\">Get started</a>\n        <a href=\"#\" style=\"display:inline-block;background:var(--color-midnight-graphite);color:var(--color-cloud-white);font-family:var(--font-ui-monospace);font-size:14px;font-weight:500;letter-spacing:-0.006em;padding:12px 20px;text-decoration:none;border-radius:0;\">Get in touch</a>\n        <a href=\"#\" style=\"display:inline-block;color:var(--color-steel-gray);font-family:var(--font-ui-monospace);font-size:14px;letter-spacing:-0.006em;padding:12px 4px;text-decoration:none;border-radius:0;\">Log in</a>\n      </div>\n    </div>\n  </div>\n</div>",
+          "name": "Testimonial + CTA Block",
+          "role": "",
+          "description": ""
+        },
+        {
+          "name": "Naked Link Button",
+          "role": "Navigation, inline actions, text-based CTAs.",
+          "description": "No background color, text color #414141, no border, 0px border-radius, no padding. Emphasizes function over form, integrating interaction seamlessly into text."
+        },
+        {
+          "name": "Dark Overlay Button",
+          "role": "Contextual navigation, menu items, secondary actions.",
+          "description": "Background color #111111, text color #fafafa, 0px border-radius. Features 16px vertical padding. Used for prominent active states or secondary actions that need to stand out from a dark background."
+        },
+        {
+          "name": "Top Banner Link",
+          "role": "Informational banner at the top of the page.",
+          "description": "Background color #f35815, text color white, letter-spacing -0.006em, text 'Learn more' is 'Flame Orange' with #000000 text. Indicates an important update or promotional message."
+        },
+        {
+          "name": "Orange Action Button",
+          "role": "Primary call-to-action in the header.",
+          "description": "Background color #f35815, text color white, 0px border-radius, 10px horizontal padding. A distinct, high-contrast button for direct user actions. Appears only twice, prominently."
+        },
+        {
+          "name": "Tabbed Navigation Item (Active)",
+          "role": "Indicates the currently active tab in a content switcher.",
+          "description": "Text color #000000, background color #414141. No border-radius. Underlines active state in a bold, solid manner, emphasizing the content section."
+        },
+        {
+          "name": "Tabbed Navigation Item (Inactive)",
+          "role": "Available but not currently selected tabs.",
+          "description": "Text color #414141, background color transparent. No border-radius. Represents selectable content filters that are not currently in focus."
+        },
+        {
+          "name": "Logo Grid Cell",
+          "role": "Displaying client or partner logos.",
+          "description": "Individual cells with 24px padding on all sides, bordered with #c1c1c1. Contains logos that use #414141 as a primary color for a monochrome effect. Implies a structured, professional presentation of associated brands."
+        }
+      ],
+      "typography": [
+        {
+          "role": "All text elements, from body to headlines, buttons, and navigation. The consistent use of a monospaced font creates a distinctive technical, code-like aesthetic, emphasizing precision and clarity.",
+          "sizes": "16px",
+          "family": "ui-monospace",
+          "weight": "400, 500, 600, 700",
+          "weights": [
+            400,
+            500,
+            600,
+            700
+          ],
+          "lineHeight": "1.00",
+          "substitute": "Recursive Mono, JetBrains Mono",
+          "letterSpacing": "-0.006"
+        }
+      ],
+      "description": "This design system presents as a 'technical monochrome' with sharp angles and a restrained color palette. High contrast black, white, and a range of achromatic grays define the structure, accented sparingly by electric blue and a warm orange, creating focused visual hierarchy. Monospaced typography is a core identifier, lending a precise, computational feel to all text elements. The overall impression is one of efficiency and understated authority, suitable for a developer-centric product."
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775923231085-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775923231085-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/a6771960-b826-49bc-9ee7-7f7a5e29642b",
+  "ranks": {
+    "trending": 1084,
+    "popular": 548,
+    "newest": 1220
+  },
+  "localSlug": "planetscale-a6771960"
+}

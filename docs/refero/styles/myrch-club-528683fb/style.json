@@ -1,0 +1,815 @@
+{
+  "id": "528683fb-6b17-4fc6-b37e-d831ee1b20e2",
+  "url": "https://www.myrch.club",
+  "siteName": "Myrch Club",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777519206390-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777519206390-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "light",
+  "colors": [
+    {
+      "name": "Canvas White",
+      "hex": "#ffffff"
+    },
+    {
+      "name": "Pale Gray Surface",
+      "hex": "#f9f9f9"
+    },
+    {
+      "name": "Text Black",
+      "hex": "#000000"
+    },
+    {
+      "name": "Ink Detail",
+      "hex": "#111111"
+    },
+    {
+      "name": "Muted Gray Text",
+      "hex": "#cfcfcf"
+    },
+    {
+      "name": "Dark Gray Text",
+      "hex": "#888888"
+    }
+  ],
+  "fonts": [
+    "Times",
+    "Arial Narrow"
+  ],
+  "northStar": "Archival white space",
+  "createdAt": "2026-04-30T03:20:21.933Z",
+  "previewVideoCapturedAt": null,
+  "industry": "other",
+  "fullResult": {
+    "meta": {
+      "url": "https://www.myrch.club",
+      "siteName": "Myrch Club",
+      "extractedAt": "2026-04-30T03:20:21.297Z",
+      "durationMs": 24428,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 1251,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 75,
+            "confidence": 1,
+            "prominence": 108180546.9141682,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "other/color": 15,
+              "other/borderColor": 60
+            }
+          },
+          {
+            "hex": "#ffffff",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 1.0000000000000002
+            },
+            "contexts": [
+              "other",
+              "icon",
+              "button"
+            ],
+            "frequency": 12,
+            "confidence": 1,
+            "prominence": 60772784.04599592,
+            "properties": [
+              "backgroundColor",
+              "color"
+            ],
+            "usageCounts": {
+              "button/color": 2,
+              "icon/backgroundColor": 2,
+              "other/backgroundColor": 8
+            }
+          },
+          {
+            "hex": "#b8b8b8",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.781338805582926
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "confidence": 1,
+            "prominence": 26030037.269656137,
+            "properties": [
+              "boxShadow"
+            ],
+            "usageCounts": {
+              "other/boxShadow": 2
+            }
+          },
+          {
+            "hex": "#111111",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.17763777307657064
+            },
+            "contexts": [
+              "other",
+              "icon",
+              "heading",
+              "badge",
+              "button"
+            ],
+            "frequency": 310,
+            "confidence": 1,
+            "prominence": 10620088.512692498,
+            "properties": [
+              "color",
+              "borderColor",
+              "fill",
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "icon/fill": 4,
+              "icon/color": 2,
+              "other/fill": 6,
+              "badge/color": 16,
+              "other/color": 22,
+              "button/color": 12,
+              "heading/color": 6,
+              "icon/borderColor": 8,
+              "badge/borderColor": 64,
+              "other/borderColor": 88,
+              "button/borderColor": 56,
+              "heading/borderColor": 24,
+              "button/backgroundColor": 2
+            }
+          },
+          {
+            "hex": "#ff0000",
+            "oklch": {
+              "c": 0.2576833038053608,
+              "h": 29.233880279627854,
+              "l": 0.6279553639214311
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 6,
+            "confidence": 1,
+            "prominence": 3218913.153631249,
+            "properties": [
+              "fill"
+            ],
+            "usageCounts": {
+              "other/fill": 6
+            }
+          },
+          {
+            "hex": "#f9f9f9",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.9821176395629414
+            },
+            "contexts": [
+              "card"
+            ],
+            "frequency": 64,
+            "confidence": 1,
+            "prominence": 1290220.03552759,
+            "properties": [
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "card/backgroundColor": 64
+            }
+          },
+          {
+            "hex": "#cfcfcf",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.8545136555239683
+            },
+            "contexts": [
+              "body"
+            ],
+            "frequency": 320,
+            "confidence": 1,
+            "prominence": 24554.64055752367,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "body/color": 64,
+              "body/borderColor": 256
+            }
+          },
+          {
+            "hex": "#888888",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.6267535410065036
+            },
+            "contexts": [
+              "body"
+            ],
+            "frequency": 320,
+            "confidence": 1,
+            "prominence": 14346.438006311728,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "body/color": 64,
+              "body/borderColor": 256
+            }
+          }
+        ],
+        "isDarkMode": false,
+        "colorfulness": 0.0037679424434776034,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 21,
+            "background": "#ffffff",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 19.95,
+            "background": "#f9f9f9",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 18.88,
+            "background": "#111111",
+            "foreground": "#ffffff"
+          },
+          {
+            "level": "AAA",
+            "ratio": 17.94,
+            "background": "#f9f9f9",
+            "foreground": "#111111"
+          },
+          {
+            "level": "AAA",
+            "ratio": 13.48,
+            "background": "#cfcfcf",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 12.12,
+            "background": "#111111",
+            "foreground": "#cfcfcf"
+          },
+          {
+            "level": "AAA",
+            "ratio": 10.59,
+            "background": "#b8b8b8",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 9.52,
+            "background": "#b8b8b8",
+            "foreground": "#111111"
+          },
+          {
+            "level": "AA",
+            "ratio": 5.33,
+            "background": "#111111",
+            "foreground": "#888888"
+          },
+          {
+            "level": "fail",
+            "ratio": 3.54,
+            "background": "#ffffff",
+            "foreground": "#888888"
+          },
+          {
+            "level": "fail",
+            "ratio": 3.37,
+            "background": "#f9f9f9",
+            "foreground": "#888888"
+          },
+          {
+            "level": "fail",
+            "ratio": 1.56,
+            "background": "#ffffff",
+            "foreground": "#cfcfcf"
+          },
+          {
+            "level": "fail",
+            "ratio": 1.48,
+            "background": "#f9f9f9",
+            "foreground": "#cfcfcf"
+          },
+          {
+            "level": "fail",
+            "ratio": 1.11,
+            "background": "#111111",
+            "foreground": "#000000"
+          },
+          {
+            "level": "fail",
+            "ratio": 1.05,
+            "background": "#f9f9f9",
+            "foreground": "#ffffff"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [
+          {
+            "value": 10,
+            "contexts": [
+              "button",
+              "card"
+            ],
+            "frequency": 78
+          },
+          {
+            "value": 23,
+            "corners": [
+              23,
+              23,
+              0,
+              0
+            ],
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "asymmetric": true
+          }
+        ],
+        "shadows": [
+          {
+            "value": "rgba(17, 17, 17, 0.3) 0px 0px 20px 0px",
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2
+          }
+        ]
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 6,
+            "contexts": [
+              "button"
+            ],
+            "frequency": 28,
+            "properties": [
+              "paddingTop",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|button",
+              "paddingBottom|button"
+            ]
+          },
+          {
+            "value": 10,
+            "contexts": [
+              "icon"
+            ],
+            "frequency": 2,
+            "properties": [
+              "marginLeft"
+            ],
+            "propertyContextPairs": [
+              "marginLeft|icon"
+            ]
+          },
+          {
+            "value": 12,
+            "contexts": [
+              "button"
+            ],
+            "frequency": 28,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|button",
+              "paddingLeft|button"
+            ]
+          },
+          {
+            "value": 20,
+            "contexts": [
+              "heading",
+              "other",
+              "badge"
+            ],
+            "frequency": 98,
+            "properties": [
+              "paddingBottom",
+              "marginTop",
+              "marginRight",
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingBottom|heading",
+              "paddingBottom|other",
+              "marginTop|badge",
+              "marginRight|badge",
+              "marginBottom|other"
+            ]
+          },
+          {
+            "value": 30,
+            "contexts": [
+              "other",
+              "card"
+            ],
+            "frequency": 270,
+            "properties": [
+              "paddingTop",
+              "paddingRight",
+              "paddingBottom",
+              "paddingLeft",
+              "rowGap",
+              "columnGap"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other",
+              "paddingRight|other",
+              "paddingBottom|other",
+              "paddingLeft|other",
+              "rowGap|other",
+              "columnGap|other",
+              "paddingTop|card",
+              "paddingRight|card",
+              "paddingBottom|card",
+              "paddingLeft|card"
+            ]
+          },
+          {
+            "value": 38,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 64,
+            "properties": [
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingBottom|other"
+            ]
+          },
+          {
+            "value": 40,
+            "contexts": [
+              "badge",
+              "other"
+            ],
+            "frequency": 3,
+            "properties": [
+              "marginBottom",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "marginBottom|badge",
+              "paddingBottom|other"
+            ]
+          },
+          {
+            "value": 60,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingBottom|other"
+            ]
+          }
+        ],
+        "density": "spacious",
+        "baseUnit": null
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "Times",
+            "source": "system",
+            "weights": [
+              400
+            ],
+            "frequency": 1018,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "Arial Narrow",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 221,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 16,
+          "name": "Major Second",
+          "ratio": 1.125,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 14,
+            "family": "Arial Narrow",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "body"
+            ],
+            "frequency": 192,
+            "lineHeight": 1.43,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 14,
+            "family": "Arial Narrow",
+            "weight": 400,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.33,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "Times",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "link",
+              "icon",
+              "badge",
+              "card",
+              "image"
+            ],
+            "frequency": 1018,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 20,
+            "family": "Arial Narrow",
+            "weight": 400,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 4,
+            "lineHeight": 1.4,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 42,
+            "family": "Arial Narrow",
+            "weight": 400,
+            "contexts": [
+              "heading",
+              "other",
+              "icon",
+              "button"
+            ],
+            "frequency": 24,
+            "lineHeight": 1.24,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Prioritize Canvas White (#ffffff) as the dominant background color for most page content, ensuring ample negative space.",
+        "Use Text Black (#000000) for primary textual content and Ink Detail (#111111) for interactive elements and stronger outlines.",
+        "Maintain a clear visual hierarchy with Arial Narrow as the primary display and body font, reserving Times for secondary roles.",
+        "Apply 10px border-radius consistently to all interactive components like buttons and cards for a softened but contained feel.",
+        "Utilize Archive Red (#ff0000) strictly as a decorative brand accent, primarily in large-scale graphical elements or SVGs, avoiding its use for interactive states or general UI.",
+        "Implement a spacious layout rhythm, maintaining at least 20px gap between elements and 30px padding within cards.",
+        "Employ the light shadow rgba(17, 17, 17, 0.3) 0px 0px 20px 0px sparingly, specifically for prominent, interactive elements as a subtle elevation cue."
+      ],
+      "donts": [
+        "Do not use Archive Red (#ff0000) for interactive elements like buttons, links, or alerts; it is a decorative brand element only.",
+        "Avoid introducing additional chromatic colors; the system is designed around a monochrome base with one vivid red accent.",
+        "Do not vary the border-radius from 10px for standard UI components like buttons and cards, unless for specific, deliberate exceptions like the 23px radius noted for distinct elements.",
+        "Refrain from using bold typefaces or excessively large font sizes for body text, maintaining an understated and efficient textual presentation.",
+        "Do not clutter page sections; adhere to the spacious density by using 40px section gaps and 20px element gaps.",
+        "Avoid heavy drop shadows or vibrant background gradients; the visual identity relies on flatness and subtle elevation."
+      ],
+      "theme": "light",
+      "colors": [
+        {
+          "hex": "#ffffff",
+          "name": "Canvas White",
+          "role": "Page backgrounds, elevated surfaces, button text on filled buttons",
+          "group": "neutral"
+        },
+        {
+          "hex": "#f9f9f9",
+          "name": "Pale Gray Surface",
+          "role": "Card backgrounds, secondary container surfaces",
+          "group": "neutral"
+        },
+        {
+          "hex": "#000000",
+          "name": "Text Black",
+          "role": "Primary text, strong headings, default body copy",
+          "group": "neutral"
+        },
+        {
+          "hex": "#111111",
+          "name": "Ink Detail",
+          "role": "Primary action button backgrounds, default button borders, darker text details",
+          "group": "neutral"
+        },
+        {
+          "hex": "#cfcfcf",
+          "name": "Muted Gray Text",
+          "role": "Muted body text, secondary information, decorative borders",
+          "group": "neutral"
+        },
+        {
+          "hex": "#888888",
+          "name": "Dark Gray Text",
+          "role": "Subtle body text, tertiary information",
+          "group": "neutral"
+        },
+        {
+          "hex": "#ff0000",
+          "name": "Archive Red",
+          "role": "Red decorative accent for icons, marks, and small graphic details. Do not promote it to the primary CTA color",
+          "group": "brand"
+        }
+      ],
+      "layout": "The page operates on a contained max-width model, with content centered on a dominant Canvas White (#ffffff) background. The hero section features a large, decorative Archive Red (#ff0000) graphic or wordmark, with core text overlaid, establishing the brand's graphic identity immediately. Content sections below are primarily grids of Product Cards on a Pale Gray Surface (#f9f9f9) or Canvas White (#ffffff), maintaining consistent 30px padding and 20px element gaps. The overall rhythm is spacious and orderly, prioritizing clear visual separation and uncrowded presentation of items, reminiscent of a gallery or archive display.",
+      "imagery": "The site's imagery primarily consists of high-quality product photography: items isolated on pure white backgrounds, often centered, treated with soft, even lighting to showcase detail. There's an absence of lifestyle photography or complex compositions. Icons are minimal, mostly text-based (All caps, no fill, 1px stroke for 'All' or 'Other' text). The visual emphasis is on the object itself, presented in a clean, catalog-like manner, without extraneous decorative elements or busy backdrops.",
+      "similar": [
+        {
+          "why": "Monochrome palette with a focus on content, clean white surfaces, and precise typography for an archival, collected feel.",
+          "business": "Are.na"
+        },
+        {
+          "why": "Minimalistic layout, sharp black-and-white aesthetic, and subtle use of color as a disruptive brand element.",
+          "business": "Superscript"
+        },
+        {
+          "why": "Clean layouts, strong typography, and a catalog-like presentation of design work with minimal UI chrome.",
+          "business": "The Brand Identity"
+        },
+        {
+          "why": "White gallery-like presentation of objects, spacious layouts, and a subdued color palette to highlight item details.",
+          "business": "Vessel Gallery"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "misc": "23px",
+          "cards": "10px",
+          "buttons": "10px"
+        },
+        "elementGap": "20px",
+        "sectionGap": "40px",
+        "cardPadding": "30px",
+        "pageMaxWidth": null
+      },
+      "industry": "other",
+      "northStar": "Archival white space",
+      "typeScale": [
+        {
+          "role": "caption",
+          "size": 14,
+          "lineHeight": 1.43
+        },
+        {
+          "role": "body",
+          "size": 16,
+          "lineHeight": 1.2
+        },
+        {
+          "role": "subheading",
+          "size": 20,
+          "lineHeight": 1.4
+        },
+        {
+          "role": "heading",
+          "size": 42,
+          "lineHeight": 1.33
+        }
+      ],
+      "components": [
+        {
+          "name": "Navigation Button",
+          "role": "Ghost interactive element",
+          "description": "Text in Ink Detail (#111111), background transparent, 1px Ink Detail (#111111) border on hover/active. Radius: 10px. Padding 6px vertical, 12px horizontal. Font: Arial Narrow, weight 400."
+        },
+        {
+          "name": "Active Navigation Button",
+          "role": "Filled interactive element",
+          "description": "Background Ink Detail (#111111), text Canvas White (#ffffff). Radius: 10px. Padding 6px vertical, 12px horizontal. Font: Arial Narrow, weight 400."
+        },
+        {
+          "name": "Product Card",
+          "role": "Display individual merchandise items",
+          "description": "Background Pale Gray Surface (#f9f9f9), no shadow. Radius: 10px. Padding 30px on all sides."
+        },
+        {
+          "name": "Minimal Badge",
+          "role": "Informational label",
+          "description": "Text Ink Detail (#111111), background transparent, no border. Radius: 0px. No padding."
+        }
+      ],
+      "typography": [
+        {
+          "role": "Fallback font for general text, links, and minor UI elements. Provides a classic, almost report-like baseline.",
+          "sizes": "16px",
+          "family": "Times",
+          "weight": "400",
+          "lineHeight": "1.20",
+          "substitute": "Times New Roman",
+          "letterSpacing": "normal"
+        },
+        {
+          "role": "The primary font for headings, body text, and interactive elements. Its condensed structure and consistent weight support the efficient, archival feel of the site.",
+          "sizes": "14px, 20px, 42px",
+          "family": "Arial Narrow",
+          "weight": "400",
+          "lineHeight": "1.24, 1.33, 1.40, 1.43",
+          "letterSpacing": "normal"
+        }
+      ],
+      "description": "Myrch Club employs a stark, archival aesthetic, where content is displayed on clean white or near-white surfaces, punctuated by crisp black typography. A single vibrant red is used sparingly as a striking, almost disruptive brand accent. The system favors spacious layouts, minimal ornamentation, and clear visual separation of elements, evoking a catalog or museum exhibition feel.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "Quick Color Reference:\ntext: #000000\nbackground: #ffffff\nborder: #111111\naccent: #ff0000\nprimary action: #111111 (filled action)\n\nExample Component Prompts:\n1. Create a primary filled button: background #111111, text #ffffff, 10px border-radius, font Arial Narrow weight 400, 6px vertical and 12px horizontal padding.\n2. Create a ghost button for navigation: text #111111, transparent background, 10px border-radius, font Arial Narrow weight 400, 6px vertical and 12px horizontal padding, with a 1px #111111 border on hover.\n3. Design a product card: background #f9f9f9, 10px border-radius, 30px all-around padding. Inside, use a centered image and body text #000000 with Arial Narrow font, 16px size and 1.2 line-height.\n4. Layout a section with a grid of 3 product cards: background #f9f9f9 for cards, surrounding canvas #ffffff, 20px gap between cards, and 40px section gap above and below the grid."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777519206390-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777519206390-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/528683fb-6b17-4fc6-b37e-d831ee1b20e2",
+  "ranks": {
+    "trending": 1217,
+    "popular": 1215,
+    "newest": 176
+  },
+  "localSlug": "myrch-club-528683fb"
+}

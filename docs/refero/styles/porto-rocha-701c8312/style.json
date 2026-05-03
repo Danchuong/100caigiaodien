@@ -1,0 +1,542 @@
+{
+  "id": "701c8312-5e98-49a8-b2c4-25f1cb66de15",
+  "url": "https://portorocha.com",
+  "siteName": "PORTO ROCHA",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777516119297-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777516119297-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "light",
+  "colors": [
+    {
+      "name": "Canvas White",
+      "hex": "#ffffff"
+    },
+    {
+      "name": "Midnight Ink",
+      "hex": "#000000"
+    },
+    {
+      "name": "Storm Gray",
+      "hex": "#808080"
+    },
+    {
+      "name": "Card Wash",
+      "hex": "#0000000A"
+    },
+    {
+      "name": "Accent Blue",
+      "hex": "#007aff"
+    }
+  ],
+  "fonts": [
+    "sf-pro-text",
+    "sf-pro-display"
+  ],
+  "northStar": "Editorial Grid on Canvas White",
+  "createdAt": "2026-04-30T02:28:56.957Z",
+  "previewVideoCapturedAt": null,
+  "industry": "agency",
+  "fullResult": {
+    "meta": {
+      "url": "https://portorocha.com",
+      "siteName": "PORTO ROCHA",
+      "extractedAt": "2026-04-30T02:28:56.892Z",
+      "durationMs": 29069,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 1683,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "other",
+              "button",
+              "body",
+              "link",
+              "heading",
+              "nav",
+              "card",
+              "image"
+            ],
+            "frequency": 4992,
+            "confidence": 1,
+            "prominence": 708003116.8249011,
+            "properties": [
+              "color",
+              "borderColor",
+              "fill"
+            ],
+            "usageCounts": {
+              "nav/color": 261,
+              "body/color": 2,
+              "card/color": 218,
+              "link/color": 1,
+              "other/fill": 20,
+              "image/color": 15,
+              "other/color": 20,
+              "button/color": 213,
+              "heading/color": 265,
+              "nav/borderColor": 1044,
+              "body/borderColor": 8,
+              "card/borderColor": 872,
+              "link/borderColor": 4,
+              "image/borderColor": 60,
+              "other/borderColor": 77,
+              "button/borderColor": 852,
+              "heading/borderColor": 1060
+            }
+          },
+          {
+            "hex": "#808080",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.5981807305268477
+            },
+            "contexts": [
+              "nav",
+              "card",
+              "body",
+              "other"
+            ],
+            "frequency": 3340,
+            "confidence": 1,
+            "prominence": 1294526.823067505,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "nav/color": 52,
+              "body/color": 199,
+              "card/color": 411,
+              "other/color": 6,
+              "nav/borderColor": 208,
+              "body/borderColor": 796,
+              "card/borderColor": 1644,
+              "other/borderColor": 24
+            }
+          },
+          {
+            "hex": "#007aff",
+            "oklch": {
+              "c": 0.21771224104574957,
+              "h": 257.4238698955573,
+              "l": 0.6027647392623869
+            },
+            "contexts": [
+              "card"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 361,
+            "properties": [
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "card/backgroundColor": 1
+            }
+          }
+        ],
+        "isDarkMode": false,
+        "colorfulness": 0.00007061219996229566,
+        "contrastPairs": [
+          {
+            "level": "AA",
+            "ratio": 5.23,
+            "background": "#007aff",
+            "foreground": "#000000"
+          },
+          {
+            "level": "fail",
+            "ratio": 1.02,
+            "background": "#007aff",
+            "foreground": "#808080"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [
+          {
+            "value": 8,
+            "contexts": [
+              "card",
+              "button",
+              "nav"
+            ],
+            "frequency": 483
+          },
+          {
+            "value": 38,
+            "contexts": [
+              "other",
+              "button"
+            ],
+            "frequency": 2
+          }
+        ],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 3,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 4,
+            "properties": [
+              "paddingTop",
+              "paddingRight",
+              "paddingBottom",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other",
+              "paddingRight|other",
+              "paddingBottom|other",
+              "paddingLeft|other"
+            ]
+          },
+          {
+            "value": 8,
+            "contexts": [
+              "other",
+              "button",
+              "nav",
+              "card",
+              "heading"
+            ],
+            "frequency": 633,
+            "properties": [
+              "paddingTop",
+              "paddingBottom",
+              "paddingLeft",
+              "columnGap",
+              "rowGap",
+              "paddingRight",
+              "marginTop",
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other",
+              "paddingBottom|other",
+              "paddingLeft|other",
+              "columnGap|button",
+              "rowGap|nav",
+              "paddingRight|other",
+              "marginTop|card",
+              "columnGap|card",
+              "marginBottom|button",
+              "marginTop|heading"
+            ]
+          },
+          {
+            "value": 10,
+            "contexts": [
+              "link"
+            ],
+            "frequency": 4,
+            "properties": [
+              "paddingTop",
+              "paddingRight",
+              "paddingBottom",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|link",
+              "paddingRight|link",
+              "paddingBottom|link",
+              "paddingLeft|link"
+            ]
+          },
+          {
+            "value": 12,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 7,
+            "properties": [
+              "columnGap"
+            ],
+            "propertyContextPairs": [
+              "columnGap|nav"
+            ]
+          },
+          {
+            "value": 16,
+            "contexts": [
+              "button",
+              "nav"
+            ],
+            "frequency": 878,
+            "properties": [
+              "paddingRight",
+              "paddingLeft",
+              "paddingTop",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|button",
+              "paddingLeft|button",
+              "paddingTop|nav",
+              "paddingRight|nav",
+              "paddingBottom|nav",
+              "paddingLeft|nav",
+              "paddingTop|button",
+              "paddingBottom|button"
+            ]
+          },
+          {
+            "value": 20,
+            "contexts": [
+              "card"
+            ],
+            "frequency": 212,
+            "properties": [
+              "marginTop"
+            ],
+            "propertyContextPairs": [
+              "marginTop|card"
+            ]
+          }
+        ],
+        "density": "comfortable",
+        "baseUnit": 8
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "sf-pro-text",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 1449,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "sf-pro-display",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 214,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": null,
+        "steps": [
+          {
+            "size": 14,
+            "family": "sf-pro-text",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "button",
+              "body",
+              "link",
+              "heading",
+              "nav",
+              "card",
+              "image"
+            ],
+            "frequency": 1449,
+            "lineHeight": 1.25,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 23,
+            "family": "sf-pro-display",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "body",
+              "heading"
+            ],
+            "frequency": 214,
+            "lineHeight": 1.17,
+            "letterSpacing": 0.02,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Use 'Canvas White' (#ffffff) as the default background for all page sections and primary content areas.",
+        "Apply 'Midnight Ink' (#000000) for all primary text, main headings, and significant borders to maintain sharp contrast.",
+        "Employ sf-pro-text, weight 400, with a size of 14px and lineHeight 1.25 for all body copy and standard interface labels.",
+        "Utilize sf-pro-display, weight 400, with a size of 23px, lineHeight 1.17, and letter-spacing `0.0200em` for prominent headlines.",
+        "Implement an 8px radius ('default') for all cards, buttons, and navigation elements.",
+        "Separate content blocks with a consistent 20px marginTop between cards to ensure comfortable density.",
+        "Utilize 'Storm Gray' (#808080) for secondary details, helper text, and subtle visual distinctions."
+      ],
+      "donts": [
+        "Avoid using multiple chromatic colors; 'Accent Blue' (#007aff) is reserved for very specific, isolated highlights.",
+        "Do not introduce heavy shadows or thick borders; design relies on subtle elevation and clean separation.",
+        "Do not deviate from the specified font families; custom typefaces are integral to the brand's editorial feel.",
+        "Avoid arbitrary padding values; adhere to the 8px base unit and specified component paddings (e.g., 16px horizontal for buttons).",
+        "Do not use dark backgrounds for primary content sections; the system is designed around a light theme.",
+        "Avoid making text small or condensed; the type system prioritizes readability with moderate sizes and generous line heights."
+      ],
+      "theme": "light",
+      "colors": [
+        {
+          "hex": "#ffffff",
+          "name": "Canvas White",
+          "role": "Primary page background, clear base for content",
+          "group": "neutral"
+        },
+        {
+          "hex": "#000000",
+          "name": "Midnight Ink",
+          "role": "Dark borders and separators for elevated surfaces and inverted UI. Do not promote it to the primary CTA color",
+          "group": "neutral"
+        },
+        {
+          "hex": "#808080",
+          "name": "Storm Gray",
+          "role": "Muted secondary text, subtle borders for inactive elements",
+          "group": "neutral"
+        },
+        {
+          "hex": "#0000000A",
+          "name": "Card Wash",
+          "role": "Subtle background for UI elements like unselected cards or ghost buttons. Represents rgba(0,0,0,.04) or --color-gray10",
+          "group": "neutral"
+        },
+        {
+          "hex": "#007aff",
+          "name": "Accent Blue",
+          "role": "Decorative highlights, specific card backgrounds, isolated functional elements",
+          "group": "accent"
+        }
+      ],
+      "layout": "The page model is a two-column structure with a fixed-width left navigation/sidebar and a flexible, scrolling main content area. The hero section within the main content is often full-width relative to its container, featuring prominent imagery or editorial layouts. Section rhythm is consistent, primarily using a vertical flow with a comfortable amount of space between content blocks. Content is arranged in flexible card grids and editorial-style image-and-text pairings, often with images dictating flow. The primary navigation is a static sidebar, while content navigation includes scrollable horizontal carousels and vertical lists of cards.",
+      "imagery": "The visual language is characterized by realistic, often textural or architectural photography and product-focused imagery. Photography varies between full-bleed, vibrant, editorial-style shots with strong compositions (like the 'Program 2025' image) and monochromatic, structured images of buildings or objects. Imagery is used decoratively to set atmosphere and explanatory content, often contained within cards or grid elements. There is a strong absence of illustrations; the focus is on tangible, real-world art and design. Icons are minimal, appearing as solid fills (e.g., brand logos) rather than outlined.",
+      "similar": [
+        {
+          "why": "Strong editorial design with a focus on typography and clear content hierarchy on a white background.",
+          "business": "AIGA"
+        },
+        {
+          "why": "Designer portfolio site with strong black/white/gray palette, minimalist component styling, and a clean display of work.",
+          "business": "Pentagram"
+        },
+        {
+          "why": "Type foundry website demonstrating a precise, clean aesthetic, heavy use of white space, and subtle interactions.",
+          "business": "Grilli Type"
+        },
+        {
+          "why": "Visual identity and design studio showcasing work in grids, with a calm color palette and prominent photography.",
+          "business": "Fieldwork"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "default": "8px",
+          "prominent": "38px"
+        },
+        "elementGap": "8px",
+        "sectionGap": "40px",
+        "cardPadding": "0px",
+        "pageMaxWidth": null
+      },
+      "industry": "agency",
+      "northStar": "Editorial Grid on Canvas White",
+      "components": [
+        {
+          "name": "Ghost Button",
+          "role": "Interactive element",
+          "description": "Minimalist rectangular button with transparent background, 'Midnight Ink' text, and a thin 'Midnight Ink' border. Radius is 8px. Text is sf-pro-text at 14px, weight 400. Padding: 16px horizontal, 16px vertical."
+        },
+        {
+          "name": "Pill Button",
+          "role": "Interactive element",
+          "description": "Ghost button with rounded 'prominent' radius (38px), 'Midnight Ink' text, and a thin 'Midnight Ink' border. Text is sf-pro-text at 14px, weight 400. Padding: 16px horizontal, 0px vertical."
+        },
+        {
+          "name": "Feature Card (Ghost)",
+          "role": "Content display",
+          "description": "Transparent rectangular card with 8px radius, no shadow or border. Used for displaying individual content blocks within a grid. Padding: 0px."
+        },
+        {
+          "name": "Project Preview Card",
+          "role": "Interactive content preview",
+          "description": "Card with subtle 'Card Wash' background and 8px radius. Text is 'Midnight Ink' for headings and 'Storm Gray' for body/meta. No border or shadow. Padding: 0px."
+        },
+        {
+          "name": "Navigation Item",
+          "role": "Navigation element",
+          "description": "Textual navigation link using 'sf-pro-text' at 14px, weight 400, in 'Midnight Ink'. Borders are often implied through layout rather than explicit box styling."
+        }
+      ],
+      "typography": [
+        {
+          "role": "Body text, button labels, navigation items, descriptive content. Its standard weight ensures legibility and a consistent textual foundation across the interface.",
+          "sizes": "14px",
+          "family": "sf-pro-text",
+          "weight": "400",
+          "lineHeight": "1.25",
+          "substitute": "system-ui, sans-serif",
+          "letterSpacing": "normal"
+        },
+        {
+          "role": "Headlines and prominent text elements. The slight positive letter-spacing adds a considered, editorial feel, providing gravitas without being overly bold.",
+          "sizes": "23px",
+          "family": "sf-pro-display",
+          "weight": "400",
+          "lineHeight": "1.17",
+          "substitute": "system-ui, sans-serif",
+          "letterSpacing": "0.0200em"
+        }
+      ],
+      "description": "PORTO ROCHA's visual system evokes a meticulous, editorial aesthetic, balancing dense information display with distinct graphic elements. Typography drives hierarchy, utilizing a subtle letter-spacing for large text and monochromatic backgrounds that let content and occasional vibrant imagery take center stage. Components are understated, opting for soft corners and ghosted forms, providing a sophisticated framework without visual clutter. The overall impression is one of grounded, professional clarity with precise, almost architectural spacing.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "Quick Color Reference:\ntext: #000000\nbackground: #ffffff\nborder: #000000\naccent: #007aff\nprimary action: no distinct CTA color\n\nExample Component Prompts:\n1. Create a primary headline: text 'Midnight Ink' (#000000), sf-pro-display, weight 400, 23px, lineHeight 1.17, letterSpacing 0.0200em.\n2. Create a 'Ghost Button' with the label 'Learn More': transparent background, 'Midnight Ink' (#000000) text, 'Midnight Ink' (#000000) border, 8px radius. Text is sf-pro-text, weight 400, 14px, lineHeight 1.25. Padding: 16px horizontal, 16px vertical.\n3. Create a 'Pill Button' with the label 'All Projects': transparent background, 'Midnight Ink' (#000000) text, 'Midnight Ink' (#000000) border, 38px radius. Text is sf-pro-text, weight 400, 14px, lineHeight 1.25. Padding: 16px horizontal, 0px vertical.\n4. Generate a 'Project Preview Card': 'Card Wash' (#0000000A) background, 8px radius, no border. Headline text 'Midnight Ink' (#000000) using sf-pro-display, weight 400, 23px, lineHeight 1.17, letterSpacing 0.0200em. Subtext 'Storm Gray' (#808080) using sf-pro-text, weight 400, 14px, lineHeight 1.25. No internal padding; content fills card directly. It should have a 20px marginTop if not the first card in a series."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777516119297-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777516119297-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/701c8312-5e98-49a8-b2c4-25f1cb66de15",
+  "ranks": {
+    "trending": 1071,
+    "popular": 1093,
+    "newest": 365
+  },
+  "localSlug": "porto-rocha-701c8312"
+}

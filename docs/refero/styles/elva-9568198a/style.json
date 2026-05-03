@@ -1,0 +1,692 @@
+{
+  "id": "9568198a-5a51-4cbb-9dc3-b7610757cdd6",
+  "url": "https://helloelva.com",
+  "siteName": "Elva",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775925407249-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775925407249-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "light",
+  "colors": [
+    {
+      "name": "Anchor Black",
+      "hex": "#262523"
+    },
+    {
+      "name": "Gallery White",
+      "hex": "#ececec"
+    },
+    {
+      "name": "Pure Black",
+      "hex": "#000000"
+    },
+    {
+      "name": "Fog Gray",
+      "hex": "#cfcdcd"
+    }
+  ],
+  "fonts": [
+    "Basis",
+    "Messina Sans"
+  ],
+  "northStar": "Typographic Brutalism in a Monochrome Gallery. The design feels like a curated exhibition where letterforms are the central art pieces.",
+  "createdAt": "2026-02-15T14:11:52.000Z",
+  "previewVideoCapturedAt": null,
+  "industry": "agency",
+  "fullResult": {
+    "meta": {
+      "url": "https://helloelva.com",
+      "siteName": "Elva",
+      "extractedAt": "2026-04-11T16:37:09.031Z",
+      "durationMs": 33117,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 236,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "complete",
+          "attempts": 2
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#262523",
+            "oklch": {
+              "c": 0.003950191618947839,
+              "h": 84.58333061706333,
+              "l": 0.2647945529886528
+            },
+            "contexts": [
+              "other",
+              "link",
+              "nav",
+              "hero",
+              "heading",
+              "badge",
+              "body",
+              "image",
+              "list",
+              "footer"
+            ],
+            "frequency": 1057,
+            "confidence": 1,
+            "prominence": 218213845.94366536,
+            "properties": [
+              "color",
+              "borderColor",
+              "backgroundColor"
+            ]
+          },
+          {
+            "hex": "#ececec",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.9430889073732058
+            },
+            "contexts": [
+              "other",
+              "nav"
+            ],
+            "frequency": 60,
+            "confidence": 1,
+            "prominence": 19215588.973703753,
+            "properties": [
+              "fill",
+              "color",
+              "borderColor",
+              "backgroundColor"
+            ]
+          },
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 21,
+            "confidence": 1,
+            "prominence": 65486.75331968871,
+            "properties": [
+              "fill"
+            ]
+          },
+          {
+            "hex": "#cfcdcd",
+            "oklch": {
+              "c": 0.0022122679379047334,
+              "h": 17.201076613018063,
+              "l": 0.8499066066440318
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 7200,
+            "properties": [
+              "backgroundColor"
+            ]
+          }
+        ],
+        "isDarkMode": false,
+        "colorfulness": 0.009912832046047435,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 17.78,
+            "background": "#ececec",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 13.27,
+            "background": "#cfcdcd",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 12.96,
+            "background": "#ececec",
+            "foreground": "#262523"
+          },
+          {
+            "level": "AAA",
+            "ratio": 9.67,
+            "background": "#cfcdcd",
+            "foreground": "#262523"
+          },
+          {
+            "level": "fail",
+            "ratio": 1.34,
+            "background": "#cfcdcd",
+            "foreground": "#ececec"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [
+          {
+            "value": 10,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1
+          },
+          {
+            "value": 70,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 1
+          }
+        ],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 16,
+            "frequency": 5,
+            "properties": [
+              "marginBottom",
+              "paddingTop"
+            ]
+          },
+          {
+            "value": 40,
+            "frequency": 17,
+            "properties": [
+              "paddingRight",
+              "paddingLeft",
+              "marginRight"
+            ]
+          },
+          {
+            "value": 60,
+            "frequency": 6,
+            "properties": [
+              "paddingTop",
+              "paddingBottom",
+              "paddingRight",
+              "paddingLeft"
+            ]
+          },
+          {
+            "value": 80,
+            "frequency": 20,
+            "properties": [
+              "marginRight",
+              "paddingRight",
+              "paddingLeft",
+              "marginBottom"
+            ]
+          },
+          {
+            "value": 100,
+            "frequency": 2,
+            "properties": [
+              "marginBottom"
+            ]
+          },
+          {
+            "value": 160,
+            "frequency": 7,
+            "properties": [
+              "marginBottom",
+              "marginRight",
+              "paddingTop",
+              "paddingBottom"
+            ]
+          },
+          {
+            "value": 240,
+            "frequency": 2,
+            "properties": [
+              "marginRight"
+            ]
+          }
+        ],
+        "density": "spacious",
+        "baseUnit": 8
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "Basis",
+            "source": "custom",
+            "weights": [
+              400,
+              500,
+              700
+            ],
+            "frequency": 217,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "Messina Sans",
+            "source": "custom",
+            "weights": [
+              500
+            ],
+            "frequency": 3,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 16,
+          "name": "Major Third",
+          "ratio": 1.25,
+          "confidence": 0.8
+        },
+        "steps": [
+          {
+            "size": 10,
+            "family": "Basis",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "link",
+              "nav",
+              "hero",
+              "image",
+              "list",
+              "footer",
+              "body"
+            ],
+            "frequency": 91,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 10,
+            "family": "Basis",
+            "weight": 400,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 4,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 10,
+            "family": "Basis",
+            "weight": 400,
+            "contexts": [
+              "list",
+              "other"
+            ],
+            "frequency": 16,
+            "lineHeight": 2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 12,
+            "family": "Basis",
+            "weight": 400,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 6,
+            "lineHeight": 2,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 12,
+            "family": "Basis",
+            "weight": 400,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 2,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 12,
+            "family": "Basis",
+            "weight": 400,
+            "contexts": [
+              "badge",
+              "body",
+              "link"
+            ],
+            "frequency": 21,
+            "lineHeight": 1.3,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 15,
+            "family": "Basis",
+            "weight": 700,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "Basis",
+            "weight": 400,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 2,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 32,
+            "family": "Basis",
+            "weight": 400,
+            "contexts": [
+              "link"
+            ],
+            "frequency": 7,
+            "lineHeight": 0.8,
+            "letterSpacing": -0.02,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 40,
+            "family": "Basis",
+            "weight": 500,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 1,
+            "lineHeight": 1,
+            "letterSpacing": -0.02,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 120,
+            "family": "Basis",
+            "weight": 500,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 1,
+            "lineHeight": 0.9,
+            "letterSpacing": -0.04,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 160,
+            "family": "Basis",
+            "weight": 500,
+            "contexts": [
+              "heading",
+              "other"
+            ],
+            "frequency": 59,
+            "lineHeight": 0.82,
+            "letterSpacing": -0.04,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 240,
+            "family": "Messina Sans",
+            "weight": 500,
+            "contexts": [
+              "other",
+              "heading"
+            ],
+            "frequency": 3,
+            "lineHeight": 1,
+            "letterSpacing": -0.08,
+            "textTransform": "capitalize"
+          },
+          {
+            "size": 640,
+            "family": "Basis",
+            "weight": 500,
+            "contexts": [
+              "heading",
+              "other"
+            ],
+            "frequency": 6,
+            "lineHeight": 1,
+            "letterSpacing": -0.06,
+            "textTransform": "uppercase"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Prioritize Messina Sans for all visual-hero level typography, at sizes above 240px with a line-height of 0.80 and letter-spacing of -0.0600em.",
+        "Maintain a strict monochrome palette using Anchor Black (#262523) for text and Gallery White (#ececec) for backgrounds as primary colors.",
+        "Use Basis font with negative letter spacing (e.g., -0.0600em for 120px) to enhance the condensed, impactful look of large headlines.",
+        "Leverage the 160px sectionGap to create significant breathing room between major content blocks, emphasizing spaciousness.",
+        "Integrate playful iconography or graphic elements directly into large text headlines rather than as standalone images, as seen with the heart and asterisk.",
+        "Apply Anchor Black (#262523) for all interactive text elements to ensure a consistent focal point for action."
+      ],
+      "tags": [
+        "monochrome",
+        "typographic-heavy",
+        "brutalist",
+        "oversized-text",
+        "minimalist",
+        "bold",
+        "editorial-layout",
+        "graphic"
+      ],
+      "donts": [
+        "Avoid introducing any saturated chromatic colors; the system relies purely on a grayscale palette with minor shifts.",
+        "Do not use box-shadows or complex elevation effects; depth is created through scale and typographic hierarchy.",
+        "Do not use default system font styles for any textual content; all type must conform to Basis or Messina Sans rules.",
+        "Avoid generic imagery like stock photos; if visuals are needed, they should be integrated graphically with typography.",
+        "Do not use small, secondary buttons or badges that break the overall bold, oversized aesthetic.",
+        "Do not introduce border-radius values other than 0px, except for intentional graphic elements like the 70px rounded shape in the headline."
+      ],
+      "theme": "light",
+      "colors": [
+        {
+          "hex": "#262523",
+          "name": "Anchor Black",
+          "role": "Primary text, headings, interactive elements (links, navigation items) — this near-black anchors all visual content.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#ececec",
+          "name": "Gallery White",
+          "role": "Page backgrounds, large content blocks — provides a stark, clean canvas for the dominant typography.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#000000",
+          "name": "Pure Black",
+          "role": "Used rarely for specific icon fills or subtle accents, creating a deeper contrast point.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#cfcdcd",
+          "name": "Fog Gray",
+          "role": "Subtle background shifts, potentially for secondary content areas or dividers, creating minimal visual separation.",
+          "group": "neutral"
+        }
+      ],
+      "layout": "The page model is full-bleed, but content appears visually contained by generous margins from the edge. The hero section is characterized by a full-viewport, centered, and dramatically oversized headline, serving as the primary visual and content focus. There's no immediately apparent section rhythm beyond large vertical spacing created by the `sectionGap`. Content arrangement is primarily centered or implicitly balanced around large typographic blocks. There is no visible grid for cards or features, suggesting a more free-form, editorial approach. The layout is extremely spacious with ample `sectionGap` (160px) and `elementGap` (16px), creating significant whitespace. Navigation is minimal, consisting of a top-right header with text links and contact info, likely a fixed or sticky element due to its separation from the main content. The main navigation is a simple list of text links 'WORK', 'COMPANY', 'CAPABILITIES', 'CONTACT'.",
+      "imagery": "The visual language is dominantly typographic, with imagery integrated directly into or replacing parts of large headlines. For example, the heart and asterisk symbols act as visual substitutions within key phrases. There are no traditional photographs, illustrations, or product shots. The treatment is sharp and graphic, with no rounded corners or masking on any visual elements observed. The role of these integrated graphics is purely decorative and atmospheric, enhancing the 'memorable experiences' concept without literal representation. The density is image-light, text-dominant, with visual weight coming from typography itself.",
+      "similar": [
+        {
+          "why": "Uses large, impactful typography and a refined, stark aesthetic for a high-end agency feel.",
+          "business": "Huge Inc."
+        },
+        {
+          "why": "Employs strong graphic design principles and custom typography to define its creative identity.",
+          "business": "Pentagram"
+        },
+        {
+          "why": "Features a clean, content-focused layout with a strong emphasis on typography and white space.",
+          "business": "Work & Co"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "accent": "70px",
+          "default": "0px"
+        },
+        "elementGap": "16px",
+        "sectionGap": "160px",
+        "cardPadding": "40px",
+        "pageMaxWidth": null
+      },
+      "category": "agency",
+      "northStar": "Typographic Brutalism in a Monochrome Gallery. The design feels like a curated exhibition where letterforms are the central art pieces.",
+      "typeScale": [
+        {
+          "role": "caption",
+          "size": 10,
+          "lineHeight": 1.2
+        },
+        {
+          "role": "body",
+          "size": 15,
+          "lineHeight": 1.2
+        },
+        {
+          "role": "subheading",
+          "size": 32,
+          "lineHeight": 1
+        },
+        {
+          "role": "heading-sm",
+          "size": 40,
+          "lineHeight": 0.9
+        },
+        {
+          "role": "heading",
+          "size": 120,
+          "lineHeight": 0.82,
+          "letterSpacing": -0.72
+        },
+        {
+          "role": "display",
+          "size": 240,
+          "lineHeight": 1,
+          "letterSpacing": -19.2
+        },
+        {
+          "role": "heading-lg",
+          "size": 640,
+          "lineHeight": 0.8,
+          "letterSpacing": -38.4
+        }
+      ],
+      "components": [
+        {
+          "html": "<div style=\"--color-anchor-black:#262523;--color-gallery-white:#ececec;--color-pure-black:#000000;--color-fog-gray:#cfcdcd;--font-basis:system-ui,sans-serif;--font-messina-sans:'Helvetica Neue',Helvetica,sans-serif;background:var(--color-gallery-white);padding:40px;width:600px;box-sizing:border-box;display:flex;justify-content:space-between;align-items:flex-start;\"><div style=\"display:flex;flex-direction:column;gap:8px;\"><a href=\"#\" style=\"font-family:var(--font-basis);font-size:16px;font-weight:400;color:var(--color-anchor-black);text-decoration:none;letter-spacing:0.04em;display:block;line-height:2;\">WORK</a><a href=\"#\" style=\"font-family:var(--font-basis);font-size:16px;font-weight:400;color:var(--color-anchor-black);text-decoration:none;letter-spacing:0.04em;display:block;line-height:2;\">COMPANY</a><a href=\"#\" style=\"font-family:var(--font-basis);font-size:16px;font-weight:400;color:var(--color-anchor-black);text-decoration:none;letter-spacing:0.04em;display:block;line-height:2;\">CAPABILITIES</a><a href=\"#\" style=\"font-family:var(--font-basis);font-size:16px;font-weight:400;color:var(--color-anchor-black);text-decoration:none;letter-spacing:0.04em;display:block;line-height:2;\">CONTACT</a></div><a href=\"mailto:info@helloelva.com\" style=\"font-family:var(--font-basis);font-size:16px;font-weight:400;color:var(--color-anchor-black);text-decoration:none;letter-spacing:0.04em;line-height:2;\">INFO@HELLOELVA.COM</a></div>",
+          "name": "Navigation Links",
+          "role": "",
+          "description": ""
+        },
+        {
+          "html": "<div style=\"--color-anchor-black:#262523;--color-gallery-white:#ececec;--color-pure-black:#000000;--color-fog-gray:#cfcdcd;--font-basis:system-ui,sans-serif;background:var(--color-gallery-white);padding:40px;width:600px;box-sizing:border-box;\"><div style=\"display:flex;flex-direction:column;gap:4px;\"><p style=\"font-family:var(--font-basis);font-size:15px;font-weight:400;color:var(--color-anchor-black);margin:0 0 2px 0;line-height:1.2;letter-spacing:0;\"><span style=\"margin-right:6px;font-size:16px;\">🎉</span>ELVA IS NOW PART OF THIRD AND GROVE!</p><a href=\"#\" style=\"font-family:var(--font-basis);font-size:15px;font-weight:400;color:#0000EE;text-decoration:underline;letter-spacing:0;line-height:1.2;display:inline-block;\">SEE WHATS NEXT.</a></div></div>",
+          "name": "Announcement Banner",
+          "role": "",
+          "description": ""
+        },
+        {
+          "html": "<div style=\"--color-anchor-black:#262523;--color-gallery-white:#ececec;--color-pure-black:#000000;--color-fog-gray:#cfcdcd;--font-basis:system-ui,sans-serif;--font-messina-sans:'Helvetica Neue',Helvetica,sans-serif;background:var(--color-gallery-white);padding:40px 32px;width:600px;box-sizing:border-box;overflow:hidden;\"><div style=\"display:flex;flex-direction:column;line-height:0.82;\"><span style=\"font-family:var(--font-messina-sans);font-size:120px;font-weight:500;color:var(--color-anchor-black);letter-spacing:-0.06em;line-height:0.82;display:block;\">WE</span><span style=\"font-family:var(--font-messina-sans);font-size:120px;font-weight:500;color:var(--color-anchor-black);letter-spacing:-0.06em;line-height:0.82;display:block;\">CREATE</span><span style=\"font-family:var(--font-messina-sans);font-size:120px;font-weight:500;color:var(--color-anchor-black);letter-spacing:-0.06em;line-height:0.82;display:flex;align-items:center;\">ME<svg width=\"80\" height=\"80\" viewBox=\"0 0 80 80\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" style=\"display:inline-block;vertical-align:middle;margin:0 -4px;\"><path d=\"M40 68 C40 68 8 50 8 28 C8 18 16 10 26 10 C32 10 38 14 40 18 C42 14 48 10 54 10 C64 10 72 18 72 28 C72 50 40 68 40 68Z\" fill=\"var(--color-anchor-black)\"/></svg>ORABLE</span><span style=\"font-family:var(--font-messina-sans);font-size:120px;font-weight:500;color:var(--color-anchor-black);letter-spacing:-0.06em;line-height:0.82;display:flex;align-items:center;\">E<svg width=\"72\" height=\"72\" viewBox=\"0 0 72 72\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" style=\"display:inline-block;vertical-align:middle;margin:0 -2px;\"><circle cx=\"36\" cy=\"10\" r=\"6\" fill=\"var(--color-anchor-black)\"/><circle cx=\"36\" cy=\"62\" r=\"6\" fill=\"var(--color-anchor-black)\"/><circle cx=\"10\" cy=\"36\" r=\"6\" fill=\"var(--color-anchor-black)\"/><circle cx=\"62\" cy=\"36\" r=\"6\" fill=\"var(--color-anchor-black)\"/><circle cx=\"18\" cy=\"18\" r=\"5\" fill=\"var(--color-anchor-black)\"/><circle cx=\"54\" cy=\"54\" r=\"5\" fill=\"var(--color-anchor-black)\"/><circle cx=\"54\" cy=\"18\" r=\"5\" fill=\"var(--color-anchor-black)\"/><circle cx=\"18\" cy=\"54\" r=\"5\" fill=\"var(--color-anchor-black)\"/></svg>PERIENCES</span><span style=\"font-family:var(--font-messina-sans);font-size:120px;font-weight:500;color:var(--color-anchor-black);letter-spacing:-0.06em;line-height:0.82;display:flex;align-items:center;\">F<span style=\"display:inline-flex;align-items:center;justify-content:center;width:90px;height:64px;border:8px solid var(--color-anchor-black);border-radius:70px;margin:0 4px;flex-shrink:0;\"></span>R BRANDS.</span></div></div>",
+          "name": "Hero Headline Display",
+          "role": "",
+          "description": ""
+        },
+        {
+          "name": "Header Navigation Link",
+          "role": "Interactive element",
+          "description": "Text link with Anchor Black (#262523) color, Basis font, weight 400, size 16px. No border or background, relying on context for interactive distinction."
+        },
+        {
+          "name": "Hero Headline",
+          "role": "Prominent heading",
+          "description": "Uses Messina Sans, weight 500, size 640px for the largest display, and 240px for slightly smaller. Color Anchor Black (#262523), line-height 0.8, letter-spacing -0.08em (for 240px) and -0.06em (for 640px). Integrates custom graphic elements within letterforms."
+        },
+        {
+          "name": "Body Text",
+          "role": "Standard content",
+          "description": "Basis font, weight 400, size 15px, color Anchor Black (#262523). Minimal line-height (1.2) for dense informational delivery."
+        },
+        {
+          "name": "Information Link",
+          "role": "Secondary interactive element",
+          "description": "Basis font, weight 400, size 16px, color Anchor Black (#262523). Explicitly includes the default browser blue link color for `SEE WHATS NEXT`."
+        },
+        {
+          "name": "Logo",
+          "role": "Brand identity",
+          "description": "Elva logo uses Anchor Black (#262523) and Basis font for the tagline 'A Third And Grove Company'."
+        }
+      ],
+      "typography": [
+        {
+          "role": "Primary typeface for all general content, links, navigation, and most headlines. Its robustness at various weights supports the overall bold typographic hierarchy. Negative letter spacing at larger sizes tightens the forms for maximum visual impact.",
+          "sizes": "10px, 12px, 15px, 16px, 32px, 40px, 120px, 160px, 640px",
+          "family": "Basis",
+          "weight": "400, 500, 700",
+          "lineHeight": "0.80, 0.82, 0.90, 1.00, 1.20, 1.30, 2.00",
+          "substitute": "system-ui",
+          "letterSpacing": "-0.06"
+        },
+        {
+          "role": "Exclusive typeface for the largest hero headlines and main branding elements. Its extreme scale and tight kerning, combined with custom character integrations, define the brand's distinctive, artistic, and almost sculptural typographic presence.",
+          "sizes": "240px",
+          "family": "Messina Sans",
+          "weight": "500",
+          "lineHeight": "1.00",
+          "substitute": "Helvetica Neue",
+          "letterSpacing": "-0.08, -0.06"
+        }
+      ],
+      "description": "This design system is a study in stark monochrome contrast, evoking a gallery space for typographic art. Large-scale, custom typography dominates, creating a bold, almost brutalist visual identity. The absence of color and subtle shifts in near-achromatic tones (#262523 on #ECECEC) place absolute focus on form, text, and playful graphic interventions within the letterforms themselves. Subtle hints of illustration are integrated directly into oversized headlines, turning text into hero content.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "### Quick Color Reference\n- Text: #262523 (Anchor Black)\n- Background: #ececec (Gallery White)\n- Navigation Links: #262523 (Anchor Black)\n- Secondary Background: #cfcdcd (Fog Gray)\n\n### 3-5 Example Component Prompts\n1. Create a hero section: background #ececec. Headline 'WE CREATE' using Messina Sans, weight 500, size 640px, line-height 0.8, color #262523. Below, 'MEMORABLE EXPERIENCES' with an SVG heart instead of 'O' and an SVG asterisk substituting 'X', Messina Sans, weight 500, size 640px, line-height 0.8, color #262523. Ensure a 160px margin-bottom for the section.\n2. Create a navigation bar: top-right corner. Links 'WORK', 'COMPANY', 'CAPABILITIES', 'CONTACT' using Basis font, weight 400, size 16px, color #262523. 'INFO@HELLOELVA.COM' link uses same styles. All links are spaced with a 40px padding-right.\n3. Create a body text block: A simple paragraph of 'Elva is now part of Third and Grove! SEE WHATS NEXT' with 'SEE WHATS NEXT' as a link. Paragraph text (excluding link) uses Basis font, weight 400, size 15px, line-height 1.2, color #262523. The link 'SEE WHATS NEXT' uses Basis font, weight 400, size 16px, color #262523.\n4. Design a 'HELLO' badge: Text 'HELLO' using Basis font, weight 400, size 16px, color #262523, no background or padding to maintain an ephemeral feel."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775925407249-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775925407249-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/9568198a-5a51-4cbb-9dc3-b7610757cdd6",
+  "ranks": {
+    "trending": 655,
+    "popular": 580,
+    "newest": 1183
+  },
+  "localSlug": "elva-9568198a"
+}

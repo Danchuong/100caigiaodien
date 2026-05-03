@@ -1,0 +1,783 @@
+{
+  "id": "2ab1abbc-b9f5-418f-a36a-94a4eca74ba9",
+  "url": "https://bird.com/en-us",
+  "siteName": "Bird",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777509597299-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777509597299-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "dark",
+  "colors": [
+    {
+      "name": "Pitch Black",
+      "hex": "#141414"
+    },
+    {
+      "name": "Ghost White",
+      "hex": "#f7f7f7"
+    },
+    {
+      "name": "Muted Ash",
+      "hex": "#aaaaaa"
+    },
+    {
+      "name": "Deep Grey",
+      "hex": "#0d0d0d"
+    },
+    {
+      "name": "Soft Stone",
+      "hex": "#737373"
+    },
+    {
+      "name": "Panel Background",
+      "hex": "#212121"
+    }
+  ],
+  "fonts": [
+    "Lausanne"
+  ],
+  "northStar": "Midnight command center",
+  "createdAt": "2026-04-30T00:40:15.828Z",
+  "previewVideoCapturedAt": null,
+  "industry": "ai",
+  "fullResult": {
+    "meta": {
+      "url": "https://bird.com/en-us",
+      "siteName": "Bird",
+      "extractedAt": "2026-04-30T00:40:15.596Z",
+      "durationMs": 37795,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 109,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#f7f7f7",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.976138790665567
+            },
+            "contexts": [
+              "link",
+              "nav",
+              "other",
+              "button",
+              "icon",
+              "heading"
+            ],
+            "frequency": 41,
+            "confidence": 1,
+            "prominence": 6988443.379921274,
+            "properties": [
+              "color",
+              "fill"
+            ],
+            "usageCounts": {
+              "nav/color": 12,
+              "icon/color": 1,
+              "link/color": 1,
+              "other/fill": 1,
+              "other/color": 22,
+              "button/color": 3,
+              "heading/color": 1
+            }
+          },
+          {
+            "hex": "#141414",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.1912512996316179
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 4,
+            "confidence": 1,
+            "prominence": 3009218.8109740214,
+            "properties": [
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "other/backgroundColor": 4
+            }
+          },
+          {
+            "hex": "#aaaaaa",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.7393017286083007
+            },
+            "contexts": [
+              "icon",
+              "button",
+              "other",
+              "body",
+              "link"
+            ],
+            "frequency": 49,
+            "confidence": 1,
+            "prominence": 48559.738656821726,
+            "properties": [
+              "color",
+              "stroke"
+            ],
+            "usageCounts": {
+              "body/color": 8,
+              "icon/color": 6,
+              "link/color": 4,
+              "other/color": 18,
+              "button/color": 2,
+              "other/stroke": 11
+            }
+          },
+          {
+            "hex": "#7e7e7e",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.5922560266507271
+            },
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 35712,
+            "properties": [
+              "color"
+            ],
+            "usageCounts": {
+              "heading/color": 1
+            }
+          },
+          {
+            "hex": "#0d0d0d",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.15906639920862536
+            },
+            "contexts": [
+              "button"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 3902,
+            "properties": [
+              "color"
+            ],
+            "usageCounts": {
+              "button/color": 1
+            }
+          },
+          {
+            "hex": "#e5e5e5",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.9219060167761346
+            },
+            "contexts": [
+              "icon",
+              "other"
+            ],
+            "frequency": 18,
+            "confidence": 1,
+            "prominence": 1699.171005377434,
+            "properties": [
+              "color",
+              "stroke",
+              "fill"
+            ],
+            "usageCounts": {
+              "icon/color": 5,
+              "other/fill": 2,
+              "icon/stroke": 4,
+              "other/stroke": 7
+            }
+          },
+          {
+            "hex": "#737373",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.5555267576690717
+            },
+            "contexts": [
+              "button"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 1296,
+            "properties": [
+              "color"
+            ],
+            "usageCounts": {
+              "button/color": 1
+            }
+          },
+          {
+            "hex": "#cb0f00",
+            "oklch": {
+              "c": 0.2133,
+              "h": 30.03,
+              "l": 0.5326
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 1133,
+            "properties": [
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "other/backgroundColor": 1
+            }
+          }
+        ],
+        "isDarkMode": true,
+        "colorfulness": 0.004969711090400746,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 18.14,
+            "background": "#f7f7f7",
+            "foreground": "#0d0d0d"
+          },
+          {
+            "level": "AAA",
+            "ratio": 17.2,
+            "background": "#141414",
+            "foreground": "#f7f7f7"
+          },
+          {
+            "level": "AAA",
+            "ratio": 15.43,
+            "background": "#e5e5e5",
+            "foreground": "#0d0d0d"
+          },
+          {
+            "level": "AAA",
+            "ratio": 14.62,
+            "background": "#141414",
+            "foreground": "#e5e5e5"
+          },
+          {
+            "level": "AAA",
+            "ratio": 8.37,
+            "background": "#aaaaaa",
+            "foreground": "#0d0d0d"
+          },
+          {
+            "level": "AAA",
+            "ratio": 7.93,
+            "background": "#141414",
+            "foreground": "#aaaaaa"
+          },
+          {
+            "level": "AA",
+            "ratio": 5.43,
+            "background": "#cb0f00",
+            "foreground": "#f7f7f7"
+          },
+          {
+            "level": "AA",
+            "ratio": 4.62,
+            "background": "#cb0f00",
+            "foreground": "#e5e5e5"
+          },
+          {
+            "level": "AA",
+            "ratio": 4.54,
+            "background": "#141414",
+            "foreground": "#7e7e7e"
+          },
+          {
+            "level": "fail",
+            "ratio": 3.89,
+            "background": "#141414",
+            "foreground": "#737373"
+          },
+          {
+            "level": "fail",
+            "ratio": 3.34,
+            "background": "#cb0f00",
+            "foreground": "#0d0d0d"
+          },
+          {
+            "level": "fail",
+            "ratio": 2.51,
+            "background": "#cb0f00",
+            "foreground": "#aaaaaa"
+          },
+          {
+            "level": "fail",
+            "ratio": 1.43,
+            "background": "#cb0f00",
+            "foreground": "#7e7e7e"
+          },
+          {
+            "level": "fail",
+            "ratio": 1.23,
+            "background": "#cb0f00",
+            "foreground": "#737373"
+          },
+          {
+            "level": "fail",
+            "ratio": 1.05,
+            "background": "#141414",
+            "foreground": "#0d0d0d"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [
+          {
+            "value": 10,
+            "contexts": [
+              "button",
+              "other",
+              "link"
+            ],
+            "frequency": 11
+          }
+        ],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 1,
+            "contexts": [
+              "button",
+              "link"
+            ],
+            "frequency": 4,
+            "properties": [
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "marginBottom|button",
+              "marginBottom|link"
+            ]
+          },
+          {
+            "value": 8,
+            "contexts": [
+              "other",
+              "button",
+              "link"
+            ],
+            "frequency": 64,
+            "properties": [
+              "paddingTop",
+              "paddingBottom",
+              "paddingRight",
+              "paddingLeft",
+              "rowGap",
+              "columnGap"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other",
+              "paddingBottom|other",
+              "paddingTop|button",
+              "paddingRight|button",
+              "paddingBottom|button",
+              "paddingLeft|button",
+              "rowGap|button",
+              "columnGap|button",
+              "paddingRight|other",
+              "paddingLeft|other",
+              "rowGap|other",
+              "columnGap|other",
+              "paddingRight|link",
+              "paddingLeft|link",
+              "rowGap|link",
+              "columnGap|link"
+            ]
+          },
+          {
+            "value": 12,
+            "contexts": [
+              "button"
+            ],
+            "frequency": 6,
+            "properties": [
+              "rowGap",
+              "columnGap",
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "rowGap|button",
+              "columnGap|button",
+              "paddingRight|button",
+              "paddingLeft|button"
+            ]
+          },
+          {
+            "value": 24,
+            "contexts": [
+              "other",
+              "heading"
+            ],
+            "frequency": 2,
+            "properties": [
+              "marginBottom",
+              "marginTop"
+            ],
+            "propertyContextPairs": [
+              "marginBottom|other",
+              "marginTop|heading"
+            ]
+          },
+          {
+            "value": 32,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 3,
+            "properties": [
+              "paddingRight",
+              "paddingLeft",
+              "marginTop"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|other",
+              "paddingLeft|other",
+              "marginTop|other"
+            ]
+          },
+          {
+            "value": 188,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "marginRight",
+              "marginLeft"
+            ],
+            "propertyContextPairs": [
+              "marginRight|other",
+              "marginLeft|other"
+            ]
+          }
+        ],
+        "density": "compact",
+        "baseUnit": 8
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "Lausanne",
+            "source": "custom",
+            "weights": [
+              300,
+              450,
+              600
+            ],
+            "frequency": 86,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 16,
+          "name": "Major Second",
+          "ratio": 1.125,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 13,
+            "family": "Lausanne",
+            "weight": 600,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.54,
+            "letterSpacing": 0.022,
+            "textTransform": "none"
+          },
+          {
+            "size": 14,
+            "family": "Lausanne",
+            "weight": 300,
+            "contexts": [
+              "link",
+              "nav",
+              "other",
+              "button",
+              "icon",
+              "body"
+            ],
+            "frequency": 80,
+            "lineHeight": 1.43,
+            "letterSpacing": 0.02,
+            "textTransform": "none"
+          },
+          {
+            "size": 14,
+            "family": "Lausanne",
+            "weight": 450,
+            "contexts": [
+              "button",
+              "icon"
+            ],
+            "frequency": 3,
+            "lineHeight": 1.43,
+            "letterSpacing": 0.02,
+            "textTransform": "none"
+          },
+          {
+            "size": 40,
+            "family": "Lausanne",
+            "weight": 450,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 2,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Prioritize a dark background (Pitch Black #141414) for main content areas.",
+        "Use Ghost White (#f7f7f7) for primary text and active navigational elements to maintain high contrast.",
+        "Apply Muted Ash (#aaaaaa) for secondary text, disabled states, and subtle UI elements like icons.",
+        "Ensure all buttons and interactive elements use a 10px border radius for a consistent soft-cornered aesthetic.",
+        "Maintain an 8px vertical spacing unit for consistency in padding and element gaps.",
+        "Use Lausanne font family exclusively, with its specified weights and letter-spacing for all text.",
+        "Employ the Light Button Fill (#f5f5f5) with Deep Grey (#0d0d0d) text for primary calls-to-action."
+      ],
+      "donts": [
+        "Avoid introducing additional saturated colors unless explicitly assigned a functional role (e.g., error states).",
+        "Do not vary border radii inconsistently; adhere to the 10px standard for most components.",
+        "Refrain from using strong shadows or heavy visual elevation; subtle changes in surface color or minimal borders are preferred.",
+        "Do not introduce new typefaces; Lausanne is the sole approved font.",
+        "Avoid large, impactful imagery that breaks the dark, functional aesthetic.",
+        "Do not deviate from the specified contrast ratios; legibility is paramount in the dark theme.",
+        "Do not use generic system icon styles; all icons should align with the outlined style seen in the sidebar."
+      ],
+      "theme": "dark",
+      "colors": [
+        {
+          "hex": "#141414",
+          "name": "Pitch Black",
+          "role": "Primary background for pages and main content areas",
+          "group": "neutral"
+        },
+        {
+          "hex": "#f7f7f7",
+          "name": "Ghost White",
+          "role": "Light text on dark surfaces, inverse labels, and high-contrast captions. Do not promote it to the primary CTA color",
+          "group": "neutral"
+        },
+        {
+          "hex": "#aaaaaa",
+          "name": "Muted Ash",
+          "role": "Secondary text, disabled states, inactive icons, and subtle dividers",
+          "group": "neutral"
+        },
+        {
+          "hex": "#0d0d0d",
+          "name": "Deep Grey",
+          "role": "Button text on light backgrounds",
+          "group": "neutral"
+        },
+        {
+          "hex": "#737373",
+          "name": "Soft Stone",
+          "role": "Tertiary text or less prominent button labels",
+          "group": "neutral"
+        },
+        {
+          "hex": "#212121",
+          "name": "Panel Background",
+          "role": "Secondary surface background, like skeleton loading bases",
+          "group": "neutral"
+        },
+        {
+          "hex": "#303030",
+          "name": "Skeleton Glow",
+          "role": "Background for skeleton loading animations",
+          "group": "neutral"
+        },
+        {
+          "hex": "#cb0f00",
+          "name": "Error Red",
+          "role": "Orange wash for highlight backgrounds, decorative bands, and soft emphasis behind content. Use as a supporting accent, not as a status color",
+          "group": "accent"
+        },
+        {
+          "hex": "#001040",
+          "name": "Selected Blue",
+          "role": "Supporting palette color for small decorative accents when the core palette needs contrast. Do not promote it to the primary CTA color",
+          "group": "accent"
+        },
+        {
+          "hex": "#001959",
+          "name": "Selected Hover Blue",
+          "role": "Supporting palette color for small decorative accents when the core palette needs contrast. Do not promote it to the primary CTA color",
+          "group": "accent"
+        },
+        {
+          "hex": "#f5f5f5",
+          "name": "Light Button Fill",
+          "role": "Background for filled buttons, providing contrast against dark surfaces",
+          "group": "neutral"
+        }
+      ],
+      "layout": "The page adheres to a two-column layout: a fixed-width left sidebar and a flexible main content area. The overall page is full-bleed, with the dark background extending across the viewport. The hero pattern (if present) would likely feature a centered headline over the dark canvas. Vertical rhythm is established by consistent 24px section gaps with smaller 8px element gaps, creating a compact information-dense feel rather than spacious, airy sections. Navigation is presented via a fixed, always-visible left sidebar.",
+      "imagery": "The visual language is UI-dominant, with minimal use of imagery. What photography exists is entirely abstract or iconographic, focusing on functional symbols rather than expressive visuals. Icons are outlined, subtle monochromes, consistent in stroke weight and color (Muted Ash #aaaaaa). No product screenshots, illustrations, or lifestyle photography are present. The density is text-dominant, with icons serving as small, functional orienting elements rather than decorative features.",
+      "similar": [
+        {
+          "why": "Dark UI with achromatic palette and a focus on subtle interactive states.",
+          "business": "Linear"
+        },
+        {
+          "why": "High-contrast dark theme, monospace-like font, and clear functional hierarchy through grays.",
+          "business": "GitHub (Dark Mode)"
+        },
+        {
+          "why": "Command-line interface aesthetic, dark surfaces, and prominent use of a single accent color for interaction.",
+          "business": "Raycast"
+        },
+        {
+          "why": "Emphasis on dark backgrounds, clean typography, and minimal use of color for functional elements.",
+          "business": "Vercel (Dark Mode)"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "cards": "10px",
+          "other": "10px",
+          "buttons": "10px"
+        },
+        "elementGap": "8px",
+        "sectionGap": "24px",
+        "cardPadding": "12px",
+        "pageMaxWidth": null
+      },
+      "industry": "ai",
+      "northStar": "Midnight command center",
+      "typeScale": [
+        {
+          "role": "caption",
+          "size": 13,
+          "lineHeight": 1.43
+        },
+        {
+          "role": "body-sm",
+          "size": 14,
+          "lineHeight": 1.43
+        },
+        {
+          "role": "body",
+          "size": 40,
+          "lineHeight": 1.3
+        }
+      ],
+      "components": [
+        {
+          "name": "Navigation Item (Inactive)",
+          "role": "Sidebar navigation links that are not currently active.",
+          "description": "Text in Muted Ash (#aaaaaa), background transparent, 8px horizontal padding, 1px top border."
+        },
+        {
+          "name": "Navigation Item (Active)",
+          "role": "Highlighted sidebar navigation links.",
+          "description": "Text in Ghost White (#f7f7f7), background transparent, 8px horizontal padding, 1px top border."
+        },
+        {
+          "name": "Default Button",
+          "role": "General purpose button with a subtle appearance.",
+          "description": "Text in Muted Ash (#737373), transparent background, 10px border radius, 8px vertical padding, 8px horizontal padding."
+        },
+        {
+          "name": "Prominent Button",
+          "role": "Button with higher visual emphasis for key actions.",
+          "description": "Text in Ghost White (#f7f7f7), transparent background, 8px border radius, 8px vertical padding, 8px horizontal padding."
+        },
+        {
+          "name": "Inline Text Button",
+          "role": "Button integrated directly within text, removing borders and padding.",
+          "description": "Text in Ghost White (#f7f7f7), transparent background, 0px border radius, 0px padding."
+        },
+        {
+          "name": "Filled Button (Light)",
+          "role": "Primary call-to-action button, standing out against dark backgrounds.",
+          "description": "Background in Light Button Fill (#f5f5f5), text in Deep Grey (#0d0d0d), 10px border radius, 8px vertical padding, 12px horizontal padding."
+        },
+        {
+          "name": "Error Badge",
+          "role": "Small informational badge, indicating an error or warning.",
+          "description": "Background in Error Red (#cb0f00), white text, typically with a rounded display for emphasis."
+        }
+      ],
+      "typography": [
+        {
+          "role": "Lausanne serves as the exclusive typeface, providing a modern, slightly geometric aesthetic. Its lighter weights (300, 450) are used for body and secondary text, creating an airy feel, while the 600 weight provides concise emphasis for headings. Consistent letter-spacing provides a subtle polish across all textual elements.",
+          "sizes": "13px, 14px, 40px",
+          "family": "Lausanne",
+          "weight": "300, 450, 600",
+          "weights": [
+            300,
+            450,
+            600
+          ],
+          "lineHeight": "1.20, 1.43, 1.54",
+          "substitute": "system-ui, sans-serif",
+          "letterSpacing": "0.0200em, 0.0220em"
+        }
+      ],
+      "description": "Bird's design system evokes a midnight command center atmosphere, characterized by a predominantly dark canvas and a restricted, achromatic color palette. High contrast between crisp white text and dark backgrounds ensures legibility, while muted grays provide subtle visual hierarchy. The system prioritizes functional, compact layouts with soft-cornered components and a clean, unobtrusive feel, reserving color for minimal functional accents.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "Quick Color Reference:\ntext: #f7f7f7\nbackground: #141414\nborder: #aaaaaa (subtle, often 1px)\naccent: #001040 (subtle for selected states)\nprimary action: no distinct CTA color\n\nExample Component Prompts:\nCreate a navigation sidebar item for 'Tasks': text 'Tasks' in Lausanne weight 450, color #aaaaaa, 8px horizontal padding, background transparent, 1px top border in #f7f7f709. \nCreate an active navigation sidebar item for 'New Chat': text 'New Chat' in Lausanne weight 450, color #f7f7f7, 8px horizontal padding, background transparent, 1px top border in #f7f7f709. \nNo distinct primary action color was observed; use the extracted neutral button treatments instead of inventing a filled CTA color.\nCreate a heading: text 'Page not found.' in Lausanne weight 600, color #f7f7f7, size 40px, line height 1.2, letter spacing 0.0200em, 24px bottom margin.\nCreate a detail message: text 'Even birds can't fly that far.' in Lausanne weight 450, color #aaaaaa, size 14px, line height 1.43, letter spacing 0.0220em, 24px top margin."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777509597299-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777509597299-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/2ab1abbc-b9f5-418f-a36a-94a4eca74ba9",
+  "ranks": {
+    "trending": 952,
+    "popular": 955,
+    "newest": 734
+  },
+  "localSlug": "bird-2ab1abbc"
+}

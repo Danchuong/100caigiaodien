@@ -1,0 +1,347 @@
+{
+  "id": "9c1ec0f7-f6fb-4388-9fde-760942dedbda",
+  "url": "https://resn.co.nz",
+  "siteName": "Resn",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775925510935-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775925510935-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "dark",
+  "colors": [
+    {
+      "name": "Absolute Zero",
+      "hex": "#000000"
+    },
+    {
+      "name": "Abyssal Night",
+      "hex": "#141214"
+    },
+    {
+      "name": "Polar White",
+      "hex": "#ffffff"
+    }
+  ],
+  "fonts": [
+    "sans-serif",
+    "Fort-Medium"
+  ],
+  "northStar": "monochrome cinematic starkness — like a black & white film noir, every detail is intentional and high contrast.",
+  "createdAt": "2026-02-28T10:33:18.000Z",
+  "previewVideoCapturedAt": null,
+  "industry": "agency",
+  "fullResult": {
+    "meta": {
+      "url": "https://resn.co.nz",
+      "siteName": "Resn",
+      "extractedAt": "2026-04-11T16:38:44.451Z",
+      "durationMs": 23466,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 10,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "complete",
+          "attempts": 2
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 35,
+            "confidence": 1,
+            "prominence": 6672305.2068614485,
+            "properties": [
+              "color",
+              "borderColor"
+            ]
+          },
+          {
+            "hex": "#141214",
+            "oklch": {
+              "c": 0.005116569447425935,
+              "h": 325.7813379370387,
+              "l": 0.18545213276561212
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 1290600,
+            "properties": [
+              "backgroundColor"
+            ]
+          },
+          {
+            "hex": "#ffffff",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 1.0000000000000002
+            },
+            "contexts": [
+              "link",
+              "body"
+            ],
+            "frequency": 16,
+            "confidence": 1,
+            "prominence": 9564.663048525794,
+            "properties": [
+              "color",
+              "borderColor",
+              "backgroundColor"
+            ]
+          }
+        ],
+        "isDarkMode": true,
+        "colorfulness": 0.000265933962963926,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 21,
+            "background": "#ffffff",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 18.64,
+            "background": "#141214",
+            "foreground": "#ffffff"
+          },
+          {
+            "level": "fail",
+            "ratio": 1.13,
+            "background": "#141214",
+            "foreground": "#000000"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [],
+        "density": "comfortable",
+        "baseUnit": null
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "sans-serif",
+            "source": "system",
+            "weights": [
+              400
+            ],
+            "frequency": 7,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "Fort-Medium",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 3,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": null,
+        "steps": [
+          {
+            "size": 9,
+            "family": "sans-serif",
+            "weight": 400,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 7,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 10,
+            "family": "Fort-Medium",
+            "weight": 400,
+            "contexts": [
+              "link",
+              "body"
+            ],
+            "frequency": 3,
+            "lineHeight": 2,
+            "letterSpacing": 0.1,
+            "textTransform": "uppercase"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Maintain a strict monochrome palette utilizing only #000000, #141214, and #ffffff for all visual elements.",
+        "Prioritize high contrast between foreground (#ffffff) and background (#141214 or #000000) for readability and visual punch.",
+        "Apply 'Fort-Medium' to all link and interaction text to preserve the graphic, spaced-out character.",
+        "Use a line-height of 2.0 and letter-spacing of 0.1em for Fort-Medium text to create its signature open appearance.",
+        "Ensure all interactive elements distinctly stand out through color inversion or bold use of #ffffff against dark backgrounds."
+      ],
+      "tags": [
+        "monochrome",
+        "high-contrast",
+        "minimalist",
+        "stark",
+        "graphic",
+        "dark-mode",
+        "editorial",
+        "bold",
+        "spacious"
+      ],
+      "donts": [
+        "Introduce any chromatic colors; the system is strictly achromatic.",
+        "Use subtle grays or low-contrast combinations; prioritize stark black and white for visual impact.",
+        "Apply varying border radii; all shapes are sharp and angular, or implicitly defined by their content.",
+        "Reduce the letter-spacing on 'Fort-Medium' text; its open quality is a key identifier.",
+        "Use any imagery or decorative elements that break the high-contrast, minimalist aesthetic."
+      ],
+      "theme": "dark",
+      "colors": [
+        {
+          "hex": "#000000",
+          "name": "Absolute Zero",
+          "role": "Primary text, interactive elements in light themes, background and borders for high-contrast sections.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#141214",
+          "name": "Abyssal Night",
+          "role": "Dominant background color for the overall page, providing a dark canvas that's just off-black.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#ffffff",
+          "name": "Polar White",
+          "role": "Primary text on dark backgrounds, active states, and borders against dark elements.",
+          "group": "neutral"
+        }
+      ],
+      "layout": "The layout is primarily full-bleed, using the Abyssal Night (#141214) as a consistent dark canvas across sections. Content appears to be centered and uses generous vertical spacing between blocks. There's a strong emphasis on stacking content vertically, with prominent headlines and text blocks, rather than complex multi-column grids or side-by-side arrangements. The page unfolds as a series of distinct, high-contrast textual statements, leveraging the full screen width for dramatic effect.",
+      "imagery": "The site eschews traditional imagery (photography, illustration) in favor of pure UI and text-based communication. This creates a dense, textual, and highly graphic experience. The absence of traditional visuals forces focus on typography and layout. If any imagery were to be introduced, it would likely be abstract, stark, or highly stylized to maintain the monochrome and high-contrast aesthetic – potentially stark white outlines on black, or pure black silhouettes.",
+      "similar": [
+        {
+          "why": "Shares a dedication to using dark themes, sharp typography, and high contrast for a graphically intense, almost editorial feel.",
+          "business": "Awwwards site design"
+        },
+        {
+          "why": "Exhibits a similar stark, minimalist aesthetic with heavy reliance on black, white, and a single accent font for differentiation.",
+          "business": "Certain Apple Developer pages"
+        },
+        {
+          "why": "Often use extreme monochrome palettes, large typography, and minimalist layouts to convey exclusivity and a strong brand identity.",
+          "business": "Luxury fashion brand sites (e.g., Balenciaga)"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "none": "0px"
+        },
+        "elementGap": "16px",
+        "sectionGap": "64px",
+        "cardPadding": "24px",
+        "pageMaxWidth": null
+      },
+      "category": "agency",
+      "northStar": "monochrome cinematic starkness — like a black & white film noir, every detail is intentional and high contrast.",
+      "typeScale": [
+        {
+          "role": "caption",
+          "size": 10,
+          "lineHeight": 2,
+          "letterSpacing": 0.1
+        }
+      ],
+      "components": [
+        {
+          "html": "<div style=\"--color-absolute-zero:#000000;--color-abyssal-night:#141214;--color-polar-white:#ffffff;--font-sans-serif:Arial,Helvetica,sans-serif;--font-fort-medium:Montserrat,'Open Sans',sans-serif;background:var(--color-abyssal-night);padding:48px 40px;width:600px;box-sizing:border-box;display:flex;flex-direction:column;gap:0px;\"><p style=\"font-family:var(--font-fort-medium);font-size:10px;font-weight:400;color:var(--color-polar-white);letter-spacing:0.1em;line-height:2.0;margin:0 0 32px 0;text-transform:uppercase;\">Navigation</p><nav style=\"display:flex;flex-direction:column;gap:0;\"><a href=\"#\" style=\"font-family:var(--font-fort-medium);font-size:10px;font-weight:400;color:var(--color-polar-white);letter-spacing:0.1em;line-height:2.0;text-decoration:none;text-transform:uppercase;padding:12px 0;border-top:1px solid var(--color-polar-white);display:flex;justify-content:space-between;align-items:center;\">Work<svg width=\"10\" height=\"10\" viewBox=\"0 0 10 10\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"0\" y1=\"5\" x2=\"9\" y2=\"5\" stroke=\"#ffffff\" stroke-width=\"1\"/><polyline points=\"6,2 9,5 6,8\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"1\"/></svg></a><a href=\"#\" style=\"font-family:var(--font-fort-medium);font-size:10px;font-weight:400;color:var(--color-polar-white);letter-spacing:0.1em;line-height:2.0;text-decoration:none;text-transform:uppercase;padding:12px 0;border-top:1px solid var(--color-polar-white);display:flex;justify-content:space-between;align-items:center;\">Studio<svg width=\"10\" height=\"10\" viewBox=\"0 0 10 10\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"0\" y1=\"5\" x2=\"9\" y2=\"5\" stroke=\"#ffffff\" stroke-width=\"1\"/><polyline points=\"6,2 9,5 6,8\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"1\"/></svg></a><a href=\"#\" style=\"font-family:var(--font-fort-medium);font-size:10px;font-weight:400;color:var(--color-polar-white);letter-spacing:0.1em;line-height:2.0;text-decoration:none;text-transform:uppercase;padding:12px 0;border-top:1px solid var(--color-polar-white);display:flex;justify-content:space-between;align-items:center;\">Careers<svg width=\"10\" height=\"10\" viewBox=\"0 0 10 10\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"0\" y1=\"5\" x2=\"9\" y2=\"5\" stroke=\"#ffffff\" stroke-width=\"1\"/><polyline points=\"6,2 9,5 6,8\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"1\"/></svg></a><a href=\"#\" style=\"font-family:var(--font-fort-medium);font-size:10px;font-weight:400;color:var(--color-polar-white);letter-spacing:0.1em;line-height:2.0;text-decoration:none;text-transform:uppercase;padding:12px 0;border-top:1px solid var(--color-polar-white);display:flex;justify-content:space-between;align-items:center;\">Contact<svg width=\"10\" height=\"10\" viewBox=\"0 0 10 10\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"0\" y1=\"5\" x2=\"9\" y2=\"5\" stroke=\"#ffffff\" stroke-width=\"1\"/><polyline points=\"6,2 9,5 6,8\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"1\"/></svg></a><a href=\"#\" style=\"font-family:var(--font-fort-medium);font-size:10px;font-weight:400;color:var(--color-polar-white);letter-spacing:0.1em;line-height:2.0;text-decoration:none;text-transform:uppercase;padding:12px 0;border-top:1px solid var(--color-polar-white);border-bottom:1px solid var(--color-polar-white);display:flex;justify-content:space-between;align-items:center;\">Journal<svg width=\"10\" height=\"10\" viewBox=\"0 0 10 10\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"0\" y1=\"5\" x2=\"9\" y2=\"5\" stroke=\"#ffffff\" stroke-width=\"1\"/><polyline points=\"6,2 9,5 6,8\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"1\"/></svg></a></nav></div>",
+          "name": "Primary Link Group",
+          "role": "",
+          "description": ""
+        },
+        {
+          "html": "<div style=\"--color-absolute-zero:#000000;--color-abyssal-night:#141214;--color-polar-white:#ffffff;--font-sans-serif:Arial,Helvetica,sans-serif;--font-fort-medium:Montserrat,'Open Sans',sans-serif;background:var(--color-abyssal-night);padding:40px;width:600px;box-sizing:border-box;\"><div style=\"background:var(--color-absolute-zero);width:100%;aspect-ratio:16/9;display:flex;align-items:center;justify-content:center;margin-bottom:24px;position:relative;overflow:hidden;\"><div style=\"position:absolute;top:0;left:0;right:0;bottom:0;background:var(--color-absolute-zero);\"></div><div style=\"width:60px;height:1px;background:var(--color-polar-white);position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);\"></div><div style=\"width:1px;height:60px;background:var(--color-polar-white);position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);\"></div></div><div style=\"display:flex;justify-content:space-between;align-items:flex-start;gap:16px;\"><div style=\"flex:1;\"><p style=\"font-family:var(--font-fort-medium);font-size:10px;font-weight:400;color:var(--color-polar-white);letter-spacing:0.1em;line-height:2.0;margin:0 0 4px 0;text-transform:uppercase;\">Nike — Digital Experience</p><p style=\"font-family:var(--font-sans-serif);font-size:9px;font-weight:400;color:var(--color-polar-white);letter-spacing:0.05em;line-height:1.2;margin:0;opacity:0.5;text-transform:uppercase;\">Interactive · Web · 2024</p></div><a href=\"#\" style=\"font-family:var(--font-fort-medium);font-size:10px;font-weight:400;color:var(--color-absolute-zero);background:var(--color-polar-white);letter-spacing:0.1em;line-height:1;text-decoration:none;text-transform:uppercase;padding:10px 16px;display:inline-block;white-space:nowrap;flex-shrink:0;\">View Project</a></div></div>",
+          "name": "Project Feature Card",
+          "role": "",
+          "description": ""
+        },
+        {
+          "html": "<div style=\"--color-absolute-zero:#000000;--color-abyssal-night:#141214;--color-polar-white:#ffffff;--font-sans-serif:Arial,Helvetica,sans-serif;--font-fort-medium:Montserrat,'Open Sans',sans-serif;background:var(--color-polar-white);padding:48px 40px;width:600px;box-sizing:border-box;\"><div style=\"margin-bottom:32px;\"><p style=\"font-family:var(--font-fort-medium);font-size:10px;font-weight:400;color:var(--color-absolute-zero);letter-spacing:0.1em;line-height:2.0;margin:0 0 24px 0;text-transform:uppercase;\">About Resn</p><div style=\"height:1px;background:var(--color-absolute-zero);margin-bottom:24px;\"></div><p style=\"font-family:var(--font-fort-medium);font-size:10px;font-weight:400;color:var(--color-absolute-zero);letter-spacing:0.1em;line-height:2.0;margin:0 0 24px 0;text-transform:uppercase;\">We are an independent creative studio that makes digital things people want to interact with. We craft experiences for brands that demand the extraordinary.</p><div style=\"height:1px;background:var(--color-absolute-zero);margin-bottom:24px;\"></div></div><div style=\"display:flex;gap:0;flex-wrap:wrap;\"><div style=\"flex:1;min-width:160px;border-top:1px solid var(--color-absolute-zero);padding-top:16px;margin-right:24px;\"><p style=\"font-family:var(--font-sans-serif);font-size:9px;font-weight:400;color:var(--color-absolute-zero);letter-spacing:0.05em;line-height:1.2;margin:0 0 8px 0;text-transform:uppercase;opacity:0.5;\">Founded</p><p style=\"font-family:var(--font-fort-medium);font-size:10px;font-weight:400;color:var(--color-absolute-zero);letter-spacing:0.1em;line-height:2.0;margin:0;text-transform:uppercase;\">2006</p></div><div style=\"flex:1;min-width:160px;border-top:1px solid var(--color-absolute-zero);padding-top:16px;margin-right:24px;\"><p style=\"font-family:var(--font-sans-serif);font-size:9px;font-weight:400;color:var(--color-absolute-zero);letter-spacing:0.05em;line-height:1.2;margin:0 0 8px 0;text-transform:uppercase;opacity:0.5;\">Location</p><p style=\"font-family:var(--font-fort-medium);font-size:10px;font-weight:400;color:var(--color-absolute-zero);letter-spacing:0.1em;line-height:2.0;margin:0;text-transform:uppercase;\">Wellington, NZ</p></div><div style=\"flex:1;min-width:160px;border-top:1px solid var(--color-absolute-zero);padding-top:16px;\"><p style=\"font-family:var(--font-sans-serif);font-size:9px;font-weight:400;color:var(--color-absolute-zero);letter-spacing:0.05em;line-height:1.2;margin:0 0 8px 0;text-transform:uppercase;opacity:0.5;\">Awards</p><p style=\"font-family:var(--font-fort-medium);font-size:10px;font-weight:400;color:var(--color-absolute-zero);letter-spacing:0.1em;line-height:2.0;margin:0;text-transform:uppercase;\">100+ Cannes</p></div></div></div>",
+          "name": "Studio Statement Block",
+          "role": "",
+          "description": ""
+        },
+        {
+          "name": "Primary Link",
+          "role": "Interactive text link",
+          "description": "Uses 'Fort-Medium' at 10px, weight 400, Polar White text (#ffffff) on an Abyssal Night (#141214) background or Absolute Zero (#000000) for contrast, with a high line-height of 2.0 and discernible letter-spacing of 0.1em."
+        }
+      ],
+      "typography": [
+        {
+          "role": "Default system fallback for most body text and UI elements, used when 'Fort-Medium' is not specified.",
+          "sizes": "9px",
+          "family": "sans-serif",
+          "weight": "400",
+          "lineHeight": "1.20",
+          "substitute": "Arial, Helvetica"
+        },
+        {
+          "role": "Distinctive typeface for links and small body text, providing a monospace-like, technical feel with generous letter spacing that enhances its graphic presence.",
+          "sizes": "10px",
+          "family": "Fort-Medium",
+          "weight": "400",
+          "lineHeight": "2.00",
+          "substitute": "Montserrat, Open Sans",
+          "letterSpacing": "0.1"
+        }
+      ],
+      "description": "This design system conjures the atmosphere of a clandestine darkroom or a meticulously crafted minimalist exhibition space. Its visual identity relies on extreme contrast and the absence of color, creating a stark, high-impact aesthetic. The entire experience is built around the interplay of pure black and pure white, with a subtle, near-black background providing the only hint of depth, making every interactive element pop with graphic intensity.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "### Quick Color Reference\n- Text: #ffffff\n- Background: #141214\n- Primary CTA background: #000000\n- Primary CTA text: #ffffff\n- Border: #ffffff\n\n### 3-5 Example Component Prompts\n- **Primary Navigation Link**: Create a navigation link using \"Fort-Medium\" at 10px, weight 400, #ffffff color, line-height 2.0, letter-spacing 0.1em. On hover, invert colors to #000000 background with #ffffff text.\n- **Hero Section Headline**: Create a hero section with #141214 background. Center a headline using a system sans-serif font, weight 400, #ffffff, size 72px, line-height 1.2.\n- **Call-to-Action Button**: Design an interactive button with #000000 background, #ffffff text using \"Fort-Medium\" at 10px, weight 400, line-height 2.0, letter-spacing 0.1em, with 24px horizontal padding and 12px vertical padding. No border-radius."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775925510935-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775925510935-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/9c1ec0f7-f6fb-4388-9fde-760942dedbda",
+  "ranks": {
+    "trending": 853,
+    "popular": 667,
+    "newest": 1111
+  },
+  "localSlug": "resn-9c1ec0f7"
+}

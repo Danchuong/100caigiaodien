@@ -1,0 +1,786 @@
+{
+  "id": "bb09f629-517a-4f74-93f2-26a55ffa9e13",
+  "url": "https://oatly.com",
+  "siteName": "Oatly",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775924505204-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775924505204-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "light",
+  "colors": [
+    {
+      "name": "Notebook Paper",
+      "hex": "#fffef6"
+    },
+    {
+      "name": "Ink Black",
+      "hex": "#000000"
+    },
+    {
+      "name": "Pure White",
+      "hex": "#ffffff"
+    },
+    {
+      "name": "Pale Gray",
+      "hex": "#c6c6c6"
+    },
+    {
+      "name": "Sunrise Yellow",
+      "hex": "#fdcf85"
+    },
+    {
+      "name": "Blush Pink",
+      "hex": "#f8c8d8"
+    }
+  ],
+  "fonts": [
+    "Margo Pro"
+  ],
+  "northStar": "Notebook paper zine",
+  "createdAt": "2026-02-12T16:33:06.000Z",
+  "previewVideoCapturedAt": null,
+  "industry": "other",
+  "fullResult": {
+    "meta": {
+      "url": "https://oatly.com",
+      "siteName": "Oatly",
+      "extractedAt": "2026-04-11T16:22:02.939Z",
+      "durationMs": 22590,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 154,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "complete",
+          "attempts": 2
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "other",
+              "button",
+              "hero",
+              "nav",
+              "card",
+              "list",
+              "heading",
+              "body",
+              "link",
+              "image",
+              "badge",
+              "footer"
+            ],
+            "frequency": 719,
+            "confidence": 1,
+            "prominence": 13555248.963896733,
+            "properties": [
+              "color",
+              "borderColor",
+              "backgroundColor",
+              "boxShadow"
+            ]
+          },
+          {
+            "hex": "#fffef6",
+            "oklch": {
+              "c": 0.010556787738044868,
+              "h": 100.81625694830255,
+              "l": 0.9956032884435577
+            },
+            "contexts": [
+              "hero"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 1180603,
+            "properties": [
+              "backgroundColor"
+            ]
+          },
+          {
+            "hex": "#ffffff",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 1.0000000000000002
+            },
+            "contexts": [
+              "button",
+              "other",
+              "nav",
+              "body",
+              "list",
+              "link"
+            ],
+            "frequency": 78,
+            "confidence": 1,
+            "prominence": 783805.7944475928,
+            "properties": [
+              "color",
+              "borderColor",
+              "backgroundColor"
+            ]
+          },
+          {
+            "hex": "#f8c8d8",
+            "oklch": {
+              "c": 0.05800771239048892,
+              "h": 356.4177106877636,
+              "l": 0.879089347164181
+            },
+            "contexts": [
+              "badge",
+              "other"
+            ],
+            "frequency": 3,
+            "confidence": 1,
+            "prominence": 3944,
+            "properties": [
+              "backgroundColor",
+              "fill"
+            ]
+          },
+          {
+            "hex": "#c6c6c6",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.8265622095662102
+            },
+            "contexts": [
+              "link"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 1836,
+            "properties": [
+              "backgroundColor"
+            ]
+          },
+          {
+            "hex": "#fdcf85",
+            "oklch": {
+              "c": 0.10559114422545741,
+              "h": 78.61603744078977,
+              "l": 0.8786155857553704
+            },
+            "contexts": [
+              "badge"
+            ],
+            "frequency": 2,
+            "confidence": 1,
+            "prominence": 1800.5174008192332,
+            "properties": [
+              "backgroundColor"
+            ]
+          }
+        ],
+        "isDarkMode": false,
+        "colorfulness": 0.0013303825916378463,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 21,
+            "background": "#ffffff",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 20.76,
+            "background": "#fffef6",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 14.44,
+            "background": "#fdcf85",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 14.24,
+            "background": "#f8c8d8",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 12.29,
+            "background": "#c6c6c6",
+            "foreground": "#000000"
+          },
+          {
+            "level": "fail",
+            "ratio": 1.71,
+            "background": "#c6c6c6",
+            "foreground": "#ffffff"
+          },
+          {
+            "level": "fail",
+            "ratio": 1.47,
+            "background": "#f8c8d8",
+            "foreground": "#ffffff"
+          },
+          {
+            "level": "fail",
+            "ratio": 1.45,
+            "background": "#fdcf85",
+            "foreground": "#ffffff"
+          },
+          {
+            "level": "fail",
+            "ratio": 1.01,
+            "background": "#fffef6",
+            "foreground": "#ffffff"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [
+          {
+            "value": 9999,
+            "contexts": [
+              "button"
+            ],
+            "frequency": 1
+          }
+        ],
+        "shadows": [
+          {
+            "value": "rgb(0, 0, 0) 2px 2px 0px 0px",
+            "contexts": [
+              "card"
+            ],
+            "frequency": 4
+          }
+        ]
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 1,
+            "frequency": 3,
+            "properties": [
+              "rowGap",
+              "columnGap",
+              "paddingLeft"
+            ]
+          },
+          {
+            "value": 2,
+            "frequency": 9,
+            "properties": [
+              "paddingTop",
+              "paddingBottom",
+              "marginBottom"
+            ]
+          },
+          {
+            "value": 6,
+            "frequency": 12,
+            "properties": [
+              "rowGap",
+              "columnGap",
+              "paddingTop",
+              "paddingBottom"
+            ]
+          },
+          {
+            "value": 8,
+            "frequency": 50,
+            "properties": [
+              "rowGap",
+              "columnGap",
+              "paddingTop",
+              "paddingRight",
+              "paddingBottom",
+              "paddingLeft"
+            ]
+          },
+          {
+            "value": 11,
+            "frequency": 18,
+            "properties": [
+              "paddingRight",
+              "paddingLeft",
+              "paddingTop",
+              "paddingBottom"
+            ]
+          },
+          {
+            "value": 16,
+            "frequency": 42,
+            "properties": [
+              "marginTop",
+              "marginBottom",
+              "paddingRight",
+              "paddingLeft",
+              "columnGap",
+              "paddingTop",
+              "paddingBottom"
+            ]
+          },
+          {
+            "value": 24,
+            "frequency": 14,
+            "properties": [
+              "paddingTop",
+              "paddingRight",
+              "paddingBottom",
+              "paddingLeft"
+            ]
+          },
+          {
+            "value": 25,
+            "frequency": 4,
+            "properties": [
+              "paddingTop",
+              "paddingRight",
+              "paddingBottom",
+              "paddingLeft"
+            ]
+          },
+          {
+            "value": 44,
+            "frequency": 9,
+            "properties": [
+              "paddingTop",
+              "paddingRight",
+              "paddingBottom",
+              "paddingLeft",
+              "rowGap",
+              "columnGap",
+              "marginRight",
+              "marginBottom",
+              "marginLeft"
+            ]
+          },
+          {
+            "value": 229,
+            "frequency": 2,
+            "properties": [
+              "marginRight",
+              "marginLeft"
+            ]
+          }
+        ],
+        "density": "compact",
+        "baseUnit": 4
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "Margo Pro Regular",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 139,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "Margo Pro Bold",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 2,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 16,
+          "name": "Minor Second",
+          "ratio": 1.067,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 14,
+            "family": "Margo Pro Regular",
+            "weight": 400,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "Margo Pro Regular",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "hero",
+              "nav",
+              "card",
+              "list",
+              "body",
+              "image",
+              "badge",
+              "footer"
+            ],
+            "frequency": 72,
+            "lineHeight": 1.3,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "Margo Pro Regular",
+            "weight": 400,
+            "contexts": [
+              "nav",
+              "heading",
+              "link",
+              "badge",
+              "button"
+            ],
+            "frequency": 36,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 16,
+            "family": "Margo Pro Regular",
+            "weight": 400,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 10,
+            "lineHeight": 1.3,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 18,
+            "family": "Margo Pro Regular",
+            "weight": 400,
+            "contexts": [
+              "link"
+            ],
+            "frequency": 4,
+            "lineHeight": 1.3,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 20,
+            "family": "Margo Pro Regular",
+            "weight": 400,
+            "contexts": [
+              "nav",
+              "card",
+              "other",
+              "body"
+            ],
+            "frequency": 4,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 20,
+            "family": "Margo Pro Regular",
+            "weight": 400,
+            "contexts": [
+              "button"
+            ],
+            "frequency": 5,
+            "lineHeight": 1.3,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 20,
+            "family": "Margo Pro Regular",
+            "weight": 400,
+            "contexts": [
+              "link",
+              "other",
+              "body"
+            ],
+            "frequency": 3,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 20,
+            "family": "Margo Pro Bold",
+            "weight": 400,
+            "contexts": [
+              "button",
+              "body"
+            ],
+            "frequency": 2,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 24,
+            "family": "Margo Pro Regular",
+            "weight": 400,
+            "contexts": [
+              "button"
+            ],
+            "frequency": 3,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 32,
+            "family": "Margo Pro Regular",
+            "weight": 400,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 1,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Maintain the all-caps 'Margo Pro' typography across all headings and primary text to evoke the brand's distinct voice.",
+        "Utilize the #fffef6 'Notebook Paper' color for all major page backgrounds.",
+        "Apply the 2px 2px 0px 0px #000000 shadow to interactive cards for a subtle, illustrative lift.",
+        "Keep all borders sharp with a 0px radius, only using 9999px radius for specific pill-shaped buttons.",
+        "Use Ink Black (#000000) for all text and UI outlines to maximize contrast against the light background.",
+        "Employ the 44px vertical spacing between major sections for a clean, regular rhythm."
+      ],
+      "tags": [
+        "playful",
+        "quirky",
+        "minimalist",
+        "monochrome",
+        "editorial",
+        "lo-fi",
+        "retro",
+        "craft",
+        "direct",
+        "graphic"
+      ],
+      "donts": [
+        "Avoid gradients; the design relies on solid colors and sharp contrasts.",
+        "Do not introduce rounded corners (besides the 9999px pill variant) into any UI elements; maintain 0px radius for a consistent angular feel.",
+        "Do not use any secondary brand colors for body text; reserve accent colors exclusively for badges.",
+        "Avoid subtle grayscale variations for text; use pure Ink Black (#000000) for all primary text.",
+        "Do not use letter-spacing other than 'normal' for 'Margo Pro' to preserve its intended blocky appearance.",
+        "Avoid drop shadows for general UI elements; the design primarily uses a flat aesthetic with specific 2px 2px 0px 0px offset shadows."
+      ],
+      "theme": "light",
+      "colors": [
+        {
+          "hex": "#fffef6",
+          "name": "Notebook Paper",
+          "role": "Primary page background, expansive surfaces – evokes off-white recycled paper.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#000000",
+          "name": "Ink Black",
+          "role": "All text (headings, body, links), borders, solid button backgrounds, card shadows – simulates stark black ink on paper.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#ffffff",
+          "name": "Pure White",
+          "role": "Text on dark buttons, occasional button backgrounds.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#c6c6c6",
+          "name": "Pale Gray",
+          "role": "Subtle background for UI elements like pagination dots.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#fdcf85",
+          "name": "Sunrise Yellow",
+          "role": "Accent badge background color – adds a warm, inviting highlight.",
+          "group": "accent"
+        },
+        {
+          "hex": "#f8c8d8",
+          "name": "Blush Pink",
+          "role": "Accent badge background color – provides a soft, playful highlight.",
+          "group": "accent"
+        }
+      ],
+      "layout": "The page primarily uses a max-width contained layout, though the exact `pageMaxWidth` is not explicitly defined, it maintains a consistent content column. The hero features a two-column split, with a large all-caps headline on the left and a placeholder image area on the right. Below the hero, content is structured into a grid of card-like elements, implying a flexible and responsive arrangement for showcasing articles or products. Vertical sections are demarcated by consistent 44px spacing. The overall impression is a structured yet somewhat unconventional layout, avoiding typical full-bleed hero banners for a more editorial, 'block-based' composition.",
+      "imagery": "Imagery style is mixed, featuring both product photography and graphic elements. Product photography focuses on tight crops of beverages, often in transparent or visually interesting containers, implying a focus on the product's essence rather than lifestyle. Photography is generally light-toned and contained within sharp-edged frames. Illustrations are sparse but impactful, like the hand-drawn-style stamp, conveying an authentic, almost DIY, feel. The overall role of visuals is a blend of product showcase and decorative elements to enhance the zine-like narrative, rather than heavy explanatory graphics. Image density is moderate, balanced with text blocks.",
+      "similar": [
+        {
+          "why": "Uses a similarly quirky, illustration-heavy, and slightly off-kilter design with strong typographic personalities.",
+          "business": "Mailchimp (older branding)"
+        },
+        {
+          "why": "Employs an earnest, direct tone with custom typography and a focus on product honesty rather than slickness.",
+          "business": "Chobani (some campaigns)"
+        },
+        {
+          "why": "Features a structured grid mixed with playful typographic elements and an overall editorial, content-focused feel.",
+          "business": "AIGA Design Archives"
+        },
+        {
+          "why": "Leverages primary colors, custom blocky typography, and a slightly retro, playful aesthetic to stand out.",
+          "business": "Magic Spoon Cereal"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "cards": "0px",
+          "pills": "9999px",
+          "buttons": "0px"
+        },
+        "elementGap": "8px",
+        "sectionGap": "44px",
+        "cardPadding": "0px",
+        "pageMaxWidth": null
+      },
+      "category": "marketing",
+      "elevation": [
+        {
+          "style": "2px 2px 0px 0px #000000",
+          "element": "Card"
+        }
+      ],
+      "northStar": "Notebook paper zine",
+      "typeScale": [
+        {
+          "role": "body",
+          "size": 14,
+          "lineHeight": 1.2
+        },
+        {
+          "role": "heading-sm",
+          "size": 18,
+          "lineHeight": 1.2
+        },
+        {
+          "role": "heading",
+          "size": 20,
+          "lineHeight": 1.2
+        },
+        {
+          "role": "heading-lg",
+          "size": 24,
+          "lineHeight": 1.2
+        },
+        {
+          "role": "display",
+          "size": 32,
+          "lineHeight": 1.2
+        }
+      ],
+      "components": [
+        {
+          "html": "<style>\n  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');\n  :root {\n    --color-notebook-paper: #fffef6;\n    --color-ink-black: #000000;\n    --color-pure-white: #ffffff;\n    --color-pale-gray: #c6c6c6;\n    --color-sunrise-yellow: #fdcf85;\n    --color-blush-pink: #f8c8d8;\n    --font-margo-pro: 'Bebas Neue', sans-serif;\n    --shadow-subtle: rgb(0,0,0) 2px 2px 0px 0px;\n  }\n  .cards-wrapper {\n    background: var(--color-notebook-paper);\n    padding: 32px;\n    font-family: var(--font-margo-pro);\n  }\n  .cards-grid {\n    display: grid;\n    grid-template-columns: 1fr 1fr;\n    gap: 16px;\n  }\n  .card {\n    background: transparent;\n    border: 1px solid var(--color-ink-black);\n    box-shadow: var(--shadow-subtle);\n    border-radius: 0px;\n    overflow: hidden;\n    cursor: pointer;\n  }\n  .card-image {\n    width: 100%;\n    height: 180px;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    position: relative;\n    overflow: hidden;\n  }\n  .card-image.chai-bg {\n    background: #d4b99a;\n  }\n  .card-image.report-bg {\n    background: #c8a96e;\n  }\n  .card-image.oat-bg {\n    background: #b8c4b0;\n  }\n  .card-image.barista-bg {\n    background: #e8d5b0;\n  }\n  .card-image-text {\n    font-family: var(--font-margo-pro);\n    font-size: 32px;\n    color: var(--color-pure-white);\n    text-align: center;\n    line-height: 1.0;\n    text-transform: uppercase;\n    padding: 16px;\n  }\n  .card-footer {\n    display: flex;\n    align-items: center;\n    justify-content: space-between;\n    padding: 8px 11px;\n    border-top: 1px solid var(--color-ink-black);\n    background: var(--color-notebook-paper);\n  }\n  .card-title {\n    font-family: var(--font-margo-pro);\n    font-size: 14px;\n    color: var(--color-ink-black);\n    text-transform: uppercase;\n    letter-spacing: normal;\n    line-height: 1.2;\n  }\n  .badge {\n    font-family: var(--font-margo-pro);\n    font-size: 14px;\n    font-weight: 400;\n    text-transform: uppercase;\n    padding: 1.6px 8px;\n    border-radius: 0px;\n    color: var(--color-ink-black);\n    line-height: 1.2;\n    white-space: nowrap;\n  }\n  .badge-news {\n    background: var(--color-sunrise-yellow);\n  }\n  .badge-tastebuds {\n    background: var(--color-blush-pink);\n  }\n  .badge-health {\n    background: var(--color-pale-gray);\n  }\n  .badge-sustainability {\n    background: #b8d8b0;\n  }\n</style>\n<div class='cards-wrapper'>\n  <div class='cards-grid'>\n    <div class='card'>\n      <div class='card-image chai-bg'>\n        <div style='width:80px;height:80px;border-radius:50%;background:rgba(0,0,0,0.15);display:flex;align-items:center;justify-content:center;'>\n          <div style='width:40px;height:60px;background:rgba(0,0,0,0.3);border-radius:4px 4px 8px 8px;'></div>\n        </div>\n      </div>\n      <div class='card-footer'>\n        <span class='card-title'>Ginger Nut Chai</span>\n        <span class='badge badge-tastebuds'>Tastebuds</span>\n      </div>\n    </div>\n    <div class='card'>\n      <div class='card-image report-bg'>\n        <div class='card-image-text'>The Future<br>of Taste<br>Report</div>\n      </div>\n      <div class='card-footer'>\n        <span class='card-title'>The Future of Taste</span>\n        <span class='badge badge-news'>News</span>\n      </div>\n    </div>\n    <div class='card'>\n      <div class='card-image oat-bg'>\n        <div style='width:100px;height:40px;background:rgba(0,0,0,0.2);border-radius:0px;display:flex;align-items:center;justify-content:center;'>\n          <span style='font-family:var(--font-margo-pro);font-size:18px;color:#fff;text-transform:uppercase;'>Oat Drink</span>\n        </div>\n      </div>\n      <div class='card-footer'>\n        <span class='card-title'>Oat Drink Original</span>\n        <span class='badge badge-health'>Health</span>\n      </div>\n    </div>\n    <div class='card'>\n      <div class='card-image barista-bg'>\n        <div style='text-align:center;padding:16px;'>\n          <div style='font-family:var(--font-margo-pro);font-size:24px;color:#3a2a1a;text-transform:uppercase;line-height:1.1;'>Barista<br>Edition</div>\n        </div>\n      </div>\n      <div class='card-footer'>\n        <span class='card-title'>Barista Edition</span>\n        <span class='badge badge-sustainability' style='background:#c8e6c0;'>Sustainability</span>\n      </div>\n    </div>\n  </div>\n</div>",
+          "name": "Content Cards with Badges",
+          "role": "",
+          "description": ""
+        },
+        {
+          "html": "<style>\n  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');\n  :root {\n    --color-notebook-paper: #fffef6;\n    --color-ink-black: #000000;\n    --color-pure-white: #ffffff;\n    --color-blush-pink: #f8c8d8;\n    --font-margo-pro: 'Bebas Neue', sans-serif;\n  }\n  .btn-group-wrapper {\n    background: var(--color-notebook-paper);\n    padding: 40px 32px;\n    font-family: var(--font-margo-pro);\n  }\n  .btn-group-label {\n    font-family: var(--font-margo-pro);\n    font-size: 14px;\n    color: var(--color-ink-black);\n    text-transform: uppercase;\n    margin-bottom: 24px;\n    letter-spacing: normal;\n    border-bottom: 1px solid var(--color-ink-black);\n    padding-bottom: 8px;\n  }\n  .btn-row {\n    display: flex;\n    flex-wrap: wrap;\n    gap: 16px;\n    margin-bottom: 24px;\n    align-items: center;\n  }\n  .btn-row-label {\n    font-family: var(--font-margo-pro);\n    font-size: 12px;\n    color: var(--color-ink-black);\n    text-transform: uppercase;\n    opacity: 0.5;\n    width: 100%;\n    margin-bottom: -8px;\n  }\n  .btn-outline {\n    font-family: var(--font-margo-pro);\n    font-size: 14px;\n    font-weight: 400;\n    color: var(--color-ink-black);\n    background: transparent;\n    border: 1px solid var(--color-ink-black);\n    border-radius: 0px;\n    padding: 16px;\n    text-transform: uppercase;\n    cursor: pointer;\n    letter-spacing: normal;\n    line-height: 1.0;\n    display: inline-block;\n    text-decoration: none;\n  }\n  .btn-filled {\n    font-family: var(--font-margo-pro);\n    font-size: 20px;\n    font-weight: 400;\n    color: var(--color-pure-white);\n    background: var(--color-ink-black);\n    border: 1px solid var(--color-ink-black);\n    border-radius: 0px;\n    padding: 16px 24px;\n    text-transform: uppercase;\n    cursor: pointer;\n    letter-spacing: normal;\n    line-height: 1.0;\n    display: inline-block;\n    text-decoration: none;\n  }\n  .btn-pill {\n    font-family: var(--font-margo-pro);\n    font-size: 14px;\n    font-weight: 400;\n    color: var(--color-pure-white);\n    background: var(--color-ink-black);\n    border: 1px solid var(--color-ink-black);\n    border-radius: 9999px;\n    padding: 10px 24px;\n    text-transform: uppercase;\n    cursor: pointer;\n    letter-spacing: normal;\n    line-height: 1.2;\n    display: inline-block;\n    text-decoration: none;\n  }\n  .btn-pill-outline {\n    font-family: var(--font-margo-pro);\n    font-size: 14px;\n    font-weight: 400;\n    color: var(--color-ink-black);\n    background: transparent;\n    border: 1px solid var(--color-ink-black);\n    border-radius: 9999px;\n    padding: 10px 24px;\n    text-transform: uppercase;\n    cursor: pointer;\n    letter-spacing: normal;\n    line-height: 1.2;\n    display: inline-block;\n    text-decoration: none;\n  }\n  .read-more-link {\n    font-family: var(--font-margo-pro);\n    font-size: 16px;\n    font-weight: 400;\n    color: var(--color-ink-black);\n    text-decoration: none;\n    text-transform: uppercase;\n    display: inline-flex;\n    align-items: center;\n    gap: 8px;\n    border-bottom: 2px solid var(--color-blush-pink);\n    padding-bottom: 2px;\n    letter-spacing: normal;\n  }\n</style>\n<div class='btn-group-wrapper'>\n  <div class='btn-group-label'>Button Variants</div>\n  <div class='btn-row'>\n    <span class='btn-row-label'>Outline</span>\n    <a href='#' class='btn-outline'>Read More</a>\n    <a href='#' class='btn-outline'>Learn More</a>\n    <a href='#' class='btn-outline'>Find a Store</a>\n  </div>\n  <div class='btn-row'>\n    <span class='btn-row-label'>Filled</span>\n    <a href='#' class='btn-filled'>Shop Now</a>\n    <a href='#' class='btn-filled'>View All Products</a>\n  </div>\n  <div class='btn-row'>\n    <span class='btn-row-label'>Pill</span>\n    <a href='#' class='btn-pill'>Subscribe</a>\n    <a href='#' class='btn-pill-outline'>Explore</a>\n    <a href='#' class='btn-pill'>Get Started</a>\n  </div>\n  <div class='btn-row'>\n    <span class='btn-row-label'>Text Link</span>\n    <a href='#' class='read-more-link'>Read More <svg width='16' height='10' viewBox='0 0 16 10' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M1 5H15M15 5L11 1M15 5L11 9' stroke='#000' stroke-width='1.5'/></svg></a>\n  </div>\n</div>",
+          "name": "Button Group",
+          "role": "",
+          "description": ""
+        },
+        {
+          "html": "<style>\n  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');\n  :root {\n    --color-notebook-paper: #fffef6;\n    --color-ink-black: #000000;\n    --color-pure-white: #ffffff;\n    --color-blush-pink: #f8c8d8;\n    --color-sunrise-yellow: #fdcf85;\n    --font-margo-pro: 'Bebas Neue', sans-serif;\n    --shadow-subtle: rgb(0,0,0) 2px 2px 0px 0px;\n  }\n  .mission-wrapper {\n    background: var(--color-notebook-paper);\n    background-image: repeating-linear-gradient(transparent, transparent 27px, rgba(0,0,0,0.06) 27px, rgba(0,0,0,0.06) 28px), repeating-linear-gradient(90deg, transparent, transparent 27px, rgba(0,0,0,0.04) 27px, rgba(0,0,0,0.04) 28px);\n    padding: 44px 32px;\n    font-family: var(--font-margo-pro);\n    border: 1px solid var(--color-ink-black);\n  }\n  .mission-headline {\n    font-family: var(--font-margo-pro);\n    font-size: 32px;\n    font-weight: 400;\n    color: var(--color-ink-black);\n    text-transform: uppercase;\n    line-height: 1.1;\n    letter-spacing: normal;\n    margin: 0 0 24px 0;\n    max-width: 480px;\n  }\n  .mission-body {\n    font-family: var(--font-margo-pro);\n    font-size: 16px;\n    font-weight: 400;\n    color: var(--color-ink-black);\n    text-transform: uppercase;\n    line-height: 1.3;\n    letter-spacing: normal;\n    margin: 0 0 32px 0;\n    max-width: 440px;\n    opacity: 0.75;\n  }\n  .mission-cta-row {\n    display: flex;\n    align-items: center;\n    gap: 16px;\n    flex-wrap: wrap;\n  }\n  .mission-link {\n    font-family: var(--font-margo-pro);\n    font-size: 16px;\n    font-weight: 400;\n    color: var(--color-ink-black);\n    text-decoration: none;\n    text-transform: uppercase;\n    display: inline-flex;\n    align-items: center;\n    gap: 8px;\n    position: relative;\n  }\n  .mission-link::after {\n    content: '';\n    position: absolute;\n    bottom: -4px;\n    left: 0;\n    width: 100%;\n    height: 2px;\n    background: var(--color-blush-pink);\n  }\n  .stamp {\n    display: inline-flex;\n    flex-direction: column;\n    align-items: center;\n    justify-content: center;\n    width: 72px;\n    height: 72px;\n    border: 2px solid var(--color-ink-black);\n    border-radius: 50%;\n    background: var(--color-notebook-paper);\n    position: relative;\n    margin-left: auto;\n  }\n  .stamp::before {\n    content: '';\n    position: absolute;\n    inset: 3px;\n    border: 1.5px dashed var(--color-ink-black);\n    border-radius: 50%;\n  }\n  .stamp-text {\n    font-family: var(--font-margo-pro);\n    font-size: 9px;\n    color: var(--color-ink-black);\n    text-transform: uppercase;\n    text-align: center;\n    line-height: 1.1;\n    position: relative;\n    z-index: 1;\n  }\n  .stats-row {\n    display: flex;\n    gap: 0;\n    margin-top: 32px;\n    border-top: 1px solid var(--color-ink-black);\n  }\n  .stat-item {\n    flex: 1;\n    padding: 16px 8px 8px 8px;\n    border-right: 1px solid var(--color-ink-black);\n  }\n  .stat-item:last-child {\n    border-right: none;\n  }\n  .stat-number {\n    font-family: var(--font-margo-pro);\n    font-size: 32px;\n    font-weight: 400;\n    color: var(--color-ink-black);\n    text-transform: uppercase;\n    line-height: 1.0;\n    display: block;\n  }\n  .stat-label {\n    font-family: var(--font-margo-pro);\n    font-size: 12px;\n    font-weight: 400;\n    color: var(--color-ink-black);\n    text-transform: uppercase;\n    line-height: 1.2;\n    display: block;\n    opacity: 0.6;\n    margin-top: 4px;\n  }\n  .badge-inline {\n    font-family: var(--font-margo-pro);\n    font-size: 12px;\n    background: var(--color-sunrise-yellow);\n    color: var(--color-ink-black);\n    padding: 1.6px 8px;\n    border-radius: 0px;\n    text-transform: uppercase;\n    display: inline-block;\n  }\n</style>\n<div class='mission-wrapper'>\n  <div style='display:flex;align-items:flex-start;margin-bottom:8px;'>\n    <span class='badge-inline'>Our Mission</span>\n    <div class='stamp' style='margin-left:auto;margin-top:-8px;'>\n      <span class='stamp-text'>Since<br>2001<br>Oatly</span>\n    </div>\n  </div>\n  <h2 class='mission-headline'>We exist to make it easier for people to live healthier lives without recklessly taxing the planet's resources in the process.</h2>\n  <p class='mission-body'>We are a company that believes in both making a difference and making a profit. Because a healthier future for both humans and the planet requires us to stick around.</p>\n  <div class='mission-cta-row'>\n    <a href='#' class='mission-link'>Read More <svg width='16' height='10' viewBox='0 0 16 10' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M1 5H15M15 5L11 1M15 5L11 9' stroke='#000' stroke-width='1.5'/></svg></a>\n  </div>\n  <div class='stats-row'>\n    <div class='stat-item'>\n      <span class='stat-number'>70%</span>\n      <span class='stat-label'>Less CO₂ vs. dairy</span>\n    </div>\n    <div class='stat-item'>\n      <span class='stat-number'>79%</span>\n      <span class='stat-label'>Less land use</span>\n    </div>\n    <div class='stat-item'>\n      <span class='stat-number'>60%</span>\n      <span class='stat-label'>Less energy</span>\n    </div>\n  </div>\n</div>",
+          "name": "Mission Statement Block",
+          "role": "",
+          "description": ""
+        },
+        {
+          "name": "Monochrome Outline Button",
+          "role": "Primary action button, default interactive element",
+          "description": "Background: transparent (rgba(0,0,0,0)), Text: Ink Black (#000000), Border: 1px Ink Black (#000000), Padding: 16px. Radius: 0px. Text is 'Margo Pro' at 14px weight 400."
+        },
+        {
+          "name": "Filled Black Button",
+          "role": "Strong call to action",
+          "description": "Background: Ink Black (#000000), Text: Pure White (#ffffff), Padding: 24px. Radius: 0px. Text is 'Margo Pro' at 20px weight 400."
+        },
+        {
+          "name": "Pill Button",
+          "role": "Specific, distinct call to action",
+          "description": "Background: Ink Black (#000000), Text: Pure White (#ffffff), Padding: 16px 24px. Radius: 9999px. Text is 'Margo Pro' at 14px weight 400."
+        },
+        {
+          "name": "Image Card with Shadow",
+          "role": "Content card for visual entries with slight lift",
+          "description": "Background: transparent (rgba(0,0,0,0)), Border radius: 0px, Shadow: 2px 2px 0px 0px Ink Black (#000000)."
+        },
+        {
+          "name": "News Badge",
+          "role": "Categorization tag for news content",
+          "description": "Background: Sunrise Yellow (#fdcf85), Text: Ink Black (#000000), Padding: 1.6px 8px. Radius: 0px. Text is 'Margo Pro' at 14px weight 400."
+        },
+        {
+          "name": "Tastebuds Badge",
+          "role": "Categorization tag for specific interactive content",
+          "description": "Background: Blush Pink (#f8c8d8), Text: Ink Black (#000000), Padding: 1.6px 8px. Radius: 0px. Text is 'Margo Pro' at 14px weight 400."
+        }
+      ],
+      "typography": [
+        {
+          "role": "The primary typeface for all content. Its consistent use in uppercase gives a direct, almost shouted, yet friendly tone. Weights are limited to 400 for consistency.",
+          "sizes": "14px, 16px, 18px, 20px, 24px, 32px",
+          "family": "Margo Pro",
+          "weight": "400",
+          "lineHeight": "1.00, 1.20, 1.30",
+          "substitute": "Bebas Neue",
+          "letterSpacing": "normal"
+        }
+      ],
+      "description": "This design evokes a feeling of quirky, approachable earnestness, like a carefully crafted zine or an indie newsletter. The dominant #fffef6 'Notebook Paper' background with a subtle grid pattern sets a deliberately lo-fi, tactile mood. Typography leans into a blocky, full-caps aesthetic that feels both nostalgic and direct. Occasional hand-drawn stamps and a limited, earthy accent palette reinforce a friendly, unpolished brand identity, making the corporate feel personal.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "Quick Color Reference:\n- Text: #000000 (Ink Black)\n- Background: #fffef6 (Notebook Paper)\n- CTA (Filled Button): #000000 (Ink Black)\n- CTA Text (Filled Button): #ffffff (Pure White)\n- Accent (News Badge): #fdcf85 (Sunrise Yellow)\n\nExample Component Prompts:\n1. Create a `Filled Black Button`: background #000000, text #ffffff. Text is 'Margo Pro' 20px, weight 400. Padding 24px. Radius 0px.\n2. Create a `News Badge`: background #fdcf85, text #000000. Text is 'Margo Pro' 14px, weight 400. Padding 1.6px 8px. Radius 0px.\n3. Create an `Image Card`: background transparent. No border. Shadow 2px 2px 0px 0px #000000. Radius 0px.\n4. Design a `Hero Headline`: Text 'Margo Pro' 32px, weight 400 in #000000. Max width is around 50% of the viewport width. Use all caps for the text."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775924505204-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775924505204-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/bb09f629-517a-4f74-93f2-26a55ffa9e13",
+  "ranks": {
+    "trending": 1195,
+    "popular": 581,
+    "newest": 1196
+  },
+  "localSlug": "oatly-bb09f629"
+}

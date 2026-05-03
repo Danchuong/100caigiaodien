@@ -1,0 +1,918 @@
+{
+  "id": "3baaccae-2415-46c8-b71f-a45a002944aa",
+  "url": "https://circa.so",
+  "siteName": "Circa",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777514903801-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777514903801-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "dark",
+  "colors": [
+    {
+      "name": "Ink Black",
+      "hex": "#000000"
+    },
+    {
+      "name": "Charcoal",
+      "hex": "#171717"
+    },
+    {
+      "name": "Stone Gray",
+      "hex": "#737373"
+    },
+    {
+      "name": "Frost White",
+      "hex": "#ffffff"
+    },
+    {
+      "name": "Silver Mist",
+      "hex": "#e6e6e6"
+    },
+    {
+      "name": "Deep Graphite",
+      "hex": "#111111"
+    }
+  ],
+  "fonts": [
+    "Geist",
+    "Inter",
+    "system-ui"
+  ],
+  "northStar": "Minimal dark canvas, playful 3D forms",
+  "createdAt": "2026-04-30T02:08:44.534Z",
+  "previewVideoCapturedAt": null,
+  "industry": "agency",
+  "fullResult": {
+    "meta": {
+      "url": "https://circa.so",
+      "siteName": "Circa",
+      "extractedAt": "2026-04-30T02:08:44.466Z",
+      "durationMs": 26063,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 48,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#e6e6e6",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.9249395393966913
+            },
+            "contexts": [
+              "other",
+              "icon",
+              "heading",
+              "body",
+              "button",
+              "card"
+            ],
+            "frequency": 128,
+            "confidence": 1,
+            "prominence": 9086550.523028538,
+            "properties": [
+              "borderColor"
+            ],
+            "usageCounts": {
+              "body/borderColor": 12,
+              "card/borderColor": 4,
+              "icon/borderColor": 20,
+              "other/borderColor": 64,
+              "button/borderColor": 20,
+              "heading/borderColor": 8
+            }
+          },
+          {
+            "hex": "#171717",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.20462653095774938
+            },
+            "contexts": [
+              "other",
+              "card",
+              "heading",
+              "button",
+              "icon"
+            ],
+            "frequency": 21,
+            "confidence": 1,
+            "prominence": 5779423.377753938,
+            "properties": [
+              "color",
+              "stroke",
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "card/color": 1,
+              "icon/color": 1,
+              "icon/stroke": 2,
+              "other/color": 11,
+              "button/color": 2,
+              "other/stroke": 2,
+              "heading/color": 1,
+              "button/backgroundColor": 1
+            }
+          },
+          {
+            "hex": "#ffffff",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 1.0000000000000002
+            },
+            "contexts": [
+              "other",
+              "icon",
+              "heading",
+              "body",
+              "button",
+              "card"
+            ],
+            "frequency": 17,
+            "confidence": 1,
+            "prominence": 5404222.801869237,
+            "properties": [
+              "color",
+              "backgroundColor",
+              "fill"
+            ],
+            "usageCounts": {
+              "icon/fill": 2,
+              "body/color": 2,
+              "icon/color": 2,
+              "other/fill": 1,
+              "other/color": 5,
+              "button/color": 2,
+              "heading/color": 1,
+              "card/backgroundColor": 1,
+              "button/backgroundColor": 1
+            }
+          },
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "other",
+              "button"
+            ],
+            "frequency": 2,
+            "confidence": 1,
+            "prominence": 2054111.4009346182,
+            "properties": [
+              "backgroundColor",
+              "color"
+            ],
+            "usageCounts": {
+              "button/color": 1,
+              "other/backgroundColor": 1
+            }
+          },
+          {
+            "hex": "#737373",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.5555267576690717
+            },
+            "contexts": [
+              "icon",
+              "body",
+              "button",
+              "other"
+            ],
+            "frequency": 16,
+            "confidence": 1,
+            "prominence": 101696.07549030843,
+            "properties": [
+              "color",
+              "stroke"
+            ],
+            "usageCounts": {
+              "body/color": 1,
+              "icon/color": 2,
+              "icon/stroke": 4,
+              "button/color": 1,
+              "other/stroke": 8
+            }
+          },
+          {
+            "hex": "#111111",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.17763777307657064
+            },
+            "contexts": [
+              "button"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 4384,
+            "properties": [
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "button/backgroundColor": 1
+            }
+          }
+        ],
+        "isDarkMode": false,
+        "colorfulness": 0,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 21,
+            "background": "#000000",
+            "foreground": "#ffffff"
+          },
+          {
+            "level": "AAA",
+            "ratio": 18.88,
+            "background": "#111111",
+            "foreground": "#ffffff"
+          },
+          {
+            "level": "AAA",
+            "ratio": 17.93,
+            "background": "#ffffff",
+            "foreground": "#171717"
+          },
+          {
+            "level": "AAA",
+            "ratio": 16.83,
+            "background": "#e6e6e6",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 15.13,
+            "background": "#e6e6e6",
+            "foreground": "#111111"
+          },
+          {
+            "level": "AAA",
+            "ratio": 14.36,
+            "background": "#e6e6e6",
+            "foreground": "#171717"
+          },
+          {
+            "level": "AA",
+            "ratio": 4.74,
+            "background": "#ffffff",
+            "foreground": "#737373"
+          },
+          {
+            "level": "fail",
+            "ratio": 4.43,
+            "background": "#000000",
+            "foreground": "#737373"
+          },
+          {
+            "level": "fail",
+            "ratio": 3.98,
+            "background": "#111111",
+            "foreground": "#737373"
+          },
+          {
+            "level": "fail",
+            "ratio": 3.78,
+            "background": "#171717",
+            "foreground": "#737373"
+          },
+          {
+            "level": "fail",
+            "ratio": 1.17,
+            "background": "#000000",
+            "foreground": "#171717"
+          },
+          {
+            "level": "fail",
+            "ratio": 1.11,
+            "background": "#111111",
+            "foreground": "#000000"
+          },
+          {
+            "level": "fail",
+            "ratio": 1.05,
+            "background": "#111111",
+            "foreground": "#171717"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [
+          {
+            "value": 4,
+            "contexts": [
+              "button"
+            ],
+            "frequency": 5
+          },
+          {
+            "value": 12,
+            "contexts": [
+              "card"
+            ],
+            "frequency": 1
+          },
+          {
+            "value": 9999,
+            "contexts": [
+              "button"
+            ],
+            "frequency": 1
+          }
+        ],
+        "shadows": [
+          {
+            "value": "rgba(0, 0, 0, 0.1) 0px 1px 4px 0px",
+            "contexts": [
+              "button"
+            ],
+            "frequency": 1
+          },
+          {
+            "value": "rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.1) 0px 4px 6px -4px",
+            "contexts": [
+              "card"
+            ],
+            "frequency": 1
+          },
+          {
+            "value": "rgba(0, 0, 0, 0.05) 0px 1px 2px 0px",
+            "contexts": [
+              "button"
+            ],
+            "frequency": 1
+          }
+        ]
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 6,
+            "contexts": [
+              "button"
+            ],
+            "frequency": 4,
+            "properties": [
+              "paddingTop",
+              "paddingBottom",
+              "rowGap",
+              "columnGap"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|button",
+              "paddingBottom|button",
+              "rowGap|button",
+              "columnGap|button"
+            ]
+          },
+          {
+            "value": 8,
+            "contexts": [
+              "other",
+              "icon"
+            ],
+            "frequency": 5,
+            "properties": [
+              "rowGap",
+              "columnGap",
+              "marginRight"
+            ],
+            "propertyContextPairs": [
+              "rowGap|other",
+              "columnGap|other",
+              "marginRight|icon"
+            ]
+          },
+          {
+            "value": 12,
+            "contexts": [
+              "body",
+              "button",
+              "other"
+            ],
+            "frequency": 12,
+            "properties": [
+              "marginTop",
+              "paddingRight",
+              "paddingLeft",
+              "rowGap",
+              "columnGap"
+            ],
+            "propertyContextPairs": [
+              "marginTop|body",
+              "paddingRight|button",
+              "paddingLeft|button",
+              "rowGap|other",
+              "columnGap|other"
+            ]
+          },
+          {
+            "value": 16,
+            "contexts": [
+              "other",
+              "body"
+            ],
+            "frequency": 4,
+            "properties": [
+              "rowGap",
+              "columnGap",
+              "marginTop"
+            ],
+            "propertyContextPairs": [
+              "rowGap|other",
+              "columnGap|other",
+              "marginTop|body",
+              "marginTop|other"
+            ]
+          },
+          {
+            "value": 20,
+            "contexts": [
+              "button"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|button",
+              "paddingLeft|button"
+            ]
+          },
+          {
+            "value": 24,
+            "contexts": [
+              "other",
+              "card"
+            ],
+            "frequency": 10,
+            "properties": [
+              "paddingRight",
+              "paddingLeft",
+              "paddingTop",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|other",
+              "paddingLeft|other",
+              "paddingTop|other",
+              "paddingBottom|other",
+              "paddingTop|card",
+              "paddingRight|card",
+              "paddingBottom|card",
+              "paddingLeft|card"
+            ]
+          },
+          {
+            "value": 40,
+            "contexts": [
+              "icon",
+              "other",
+              "body"
+            ],
+            "frequency": 3,
+            "properties": [
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "marginBottom|icon",
+              "marginBottom|other",
+              "marginBottom|body"
+            ]
+          }
+        ],
+        "density": "comfortable",
+        "baseUnit": 4
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "Inter",
+            "source": "google",
+            "weights": [
+              400,
+              500,
+              600
+            ],
+            "frequency": 30,
+            "fontFeatureSettings": [
+              "\"calt\", \"rlig\""
+            ]
+          },
+          {
+            "family": "system-ui",
+            "source": "system",
+            "weights": [
+              500
+            ],
+            "frequency": 2,
+            "fontFeatureSettings": [
+              "\"calt\", \"rlig\""
+            ]
+          },
+          {
+            "family": "Geist",
+            "source": "custom",
+            "weights": [
+              500
+            ],
+            "frequency": 1,
+            "fontFeatureSettings": [
+              "\"calt\", \"rlig\""
+            ]
+          }
+        ],
+        "scale": {
+          "base": 16,
+          "name": "Minor Second",
+          "ratio": 1.067,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 11,
+            "family": "Inter",
+            "weight": 400,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.5,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 12,
+            "family": "system-ui",
+            "weight": 500,
+            "contexts": [
+              "button",
+              "icon"
+            ],
+            "frequency": 2,
+            "lineHeight": 1.5,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 13,
+            "family": "Inter",
+            "weight": 500,
+            "contexts": [
+              "button"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.5,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 14,
+            "family": "Inter",
+            "weight": 500,
+            "contexts": [
+              "button",
+              "icon"
+            ],
+            "frequency": 6,
+            "lineHeight": 1.43,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 14,
+            "family": "Inter",
+            "weight": 400,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.43,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 15,
+            "family": "Inter",
+            "weight": 400,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.63,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "Inter",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "icon",
+              "card"
+            ],
+            "frequency": 19,
+            "lineHeight": 1.5,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "Inter",
+            "weight": 600,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.5,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 30,
+            "family": "Geist",
+            "weight": 500,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.15,
+            "letterSpacing": -0.02,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Prioritize Ink Black (#000000) as the dominant page background.",
+        "Use Frost White (#ffffff) for primary text and Charcoal (#171717) or Stone Gray (#737373) for muted text and secondary information.",
+        "Apply Geist font with a 500 weight for all hero-level headings, ensuring -0.6px letter-spacing.",
+        "Maintain a 4px border-radius for interactive buttons and 12px for cards.",
+        "Elevate critical UI elements like dialogs with soft shadows and a 12px border-radius.",
+        "Utilize 12px as the standard element gap for arranging content within sections.",
+        "Incorporate the Laurent Lime (#AFFF2C) only as a distinct brand accent for highlighted active states or illustrations."
+      ],
+      "donts": [
+        "Avoid using saturated colors for backgrounds or large content blocks; reserve them strictly for accents.",
+        "Do not introduce strong, hard shadows; elevation should be subtle and blended.",
+        "Refrain from heavy borders on components; use hairline #e6e6e6 borders where necessary for separation instead of framing.",
+        "Do not deviate from the specified Inter font for body text or button labels.",
+        "Avoid decorative gradients on UI components — keep surfaces flat and monochromatic.",
+        "Do not use varied letter-spacing on body text; keep it at 'normal' for readability.",
+        "Do not use dark backgrounds for cards or dialogs; these remain Frost White (#ffffff) against the Ink Black (#000000) canvas."
+      ],
+      "theme": "dark",
+      "colors": [
+        {
+          "hex": "#000000",
+          "name": "Ink Black",
+          "role": "Page background (dominant), body text",
+          "group": "neutral"
+        },
+        {
+          "hex": "#171717",
+          "name": "Charcoal",
+          "role": "Muted text, ghost button text, icon strokes, active states for ghost buttons",
+          "group": "neutral"
+        },
+        {
+          "hex": "#737373",
+          "name": "Stone Gray",
+          "role": "Muted helper text, secondary icons",
+          "group": "neutral"
+        },
+        {
+          "hex": "#ffffff",
+          "name": "Frost White",
+          "role": "Primary text, card backgrounds, ghost button backgrounds, active action button background",
+          "group": "neutral"
+        },
+        {
+          "hex": "#e6e6e6",
+          "name": "Silver Mist",
+          "role": "Hairline borders for components and form fields",
+          "group": "neutral"
+        },
+        {
+          "hex": "#111111",
+          "name": "Deep Graphite",
+          "role": "High-contrast neutral action fill for primary buttons on light surfaces.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#AFFF2C",
+          "name": "Laurent Lime",
+          "role": "Supporting palette color for small decorative accents when the core palette needs contrast. Do not promote it to the primary CTA color",
+          "group": "brand"
+        }
+      ],
+      "layout": "The page uses a full-bleed layout with content centered horizontally. The hero section features animated 3D illustrations as its focal point, with centered text overlays. Content is primarily stacked vertically, demonstrating a strong emphasis on comfortable vertical spacing. Navigation is minimal, indicated by a single 'Made with Circa' label at the bottom right. The overall impression is one of spaciousness, letting the central illustration command attention.",
+      "imagery": "Abstract, playful 3D illustrations serve as the primary visual element, depicting whimsical characters and architectural structures. These are full-bleed against the dark background, providing decorative atmosphere and brand personality. Icons are minimal, either outlined or filled, with a consistent stroke weight, often in Charcoal or Frost White to blend with the UI. The density is image-heavy in the hero area, with illustrations acting as the main point of engagement, while other visuals are purely functional icons.",
+      "similar": [
+        {
+          "why": "Uses a dark canvas, highly sculptural 3D elements, and functional, minimal typography.",
+          "business": "Figma"
+        },
+        {
+          "why": "Features a dark UI with crisp, minimalist typography and subtle component styling.",
+          "business": "Linear"
+        },
+        {
+          "why": "Characterized by a dark aesthetic, heavy use of 3D illustrations, and clean UI components.",
+          "business": "Spline"
+        },
+        {
+          "why": "Employs an achromatic palette with careful type hierarchy and sparse, lightweight UI elements.",
+          "business": "Read.cv"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "cards": "12px",
+          "buttons": "4px",
+          "pillButtons": "9999px"
+        },
+        "elementGap": "12px",
+        "sectionGap": "40px",
+        "cardPadding": "24px",
+        "pageMaxWidth": null
+      },
+      "industry": "agency",
+      "surfaces": [
+        {
+          "hex": "#000000",
+          "name": "Ink Black Canvas",
+          "level": 0,
+          "purpose": "Primary page background, creating a deep, immersive environment"
+        },
+        {
+          "hex": "#ffffff",
+          "name": "Frost White Card",
+          "level": 1,
+          "purpose": "Elevated surfaces for dialogs and content containers, providing contrast and focus"
+        },
+        {
+          "hex": "#111111",
+          "name": "Muted Button Background",
+          "level": 2,
+          "purpose": "Background for minor informational buttons, subtly distinct from the canvas"
+        }
+      ],
+      "elevation": [
+        {
+          "style": "rgba(0, 0, 0, 0.05) 0px 1px 2px 0px",
+          "element": "Pill Accent Button"
+        },
+        {
+          "style": "rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.1) 0px 4px 6px -4px",
+          "element": "Dialog Card"
+        }
+      ],
+      "northStar": "Minimal dark canvas, playful 3D forms",
+      "typeScale": [
+        {
+          "role": "caption",
+          "size": 11,
+          "lineHeight": 1.5
+        },
+        {
+          "role": "body-sm",
+          "size": 13,
+          "lineHeight": 1.5
+        },
+        {
+          "role": "body",
+          "size": 14,
+          "lineHeight": 1.5
+        },
+        {
+          "role": "body-lg",
+          "size": 15,
+          "lineHeight": 1.5
+        },
+        {
+          "role": "heading-sm",
+          "size": 16,
+          "lineHeight": 1.5
+        }
+      ],
+      "components": [
+        {
+          "name": "Ghost Button",
+          "role": "Secondary actions, navigation links",
+          "description": "Transparent background with Charcoal (#171717) text, 4px border-radius, no border. Focuses user on primary content while offering navigation."
+        },
+        {
+          "name": "Pill Accent Button",
+          "role": "Small, informational labels or brand identifiers",
+          "description": "Deep Graphite (#111111) background, Frost White (#ffffff) text, 9999px (pill) border-radius, 6px vertical padding, 12px horizontal padding. Features a subtle overlay shadow rgba(0, 0, 0, 0.05) 0px 1px 2px 0px."
+        },
+        {
+          "name": "Dialog Card",
+          "role": "Modal dialogs, cookie settings, important notifications",
+          "description": "Background Frost White (#ffffff), 12px border-radius, 24px padding on all sides. Elevated with a soft shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.1) 0px 4px 6px -4px."
+        },
+        {
+          "name": "Default Action Button",
+          "role": "Primary calls to action within a dialog",
+          "description": "Frost White (#ffffff) background, Ink Black (#000000) text, 6px border-radius, 20px horizontal padding. Features no explicit borders to blend with background surfaces."
+        },
+        {
+          "name": "Muted Action Button",
+          "role": "Secondary actions within a dialog",
+          "description": "Charcoal (#171717) background, Frost White (#ffffff) text, 6px border-radius, 20px horizontal padding. Provides a clear contrast for secondary options in dark contexts."
+        }
+      ],
+      "typography": [
+        {
+          "role": "Primary headings — weight 500 emphasizes clarity and modernism over traditional bold shouts, with subtle negative letter-spacing for a sophisticated feel.",
+          "sizes": "30px",
+          "family": "Geist",
+          "weight": "500",
+          "weights": [
+            500
+          ],
+          "lineHeight": "1.15",
+          "substitute": "Montserrat",
+          "letterSpacing": "-0.6px",
+          "fontFeatureSettings": "\"calt\", \"rlig\""
+        },
+        {
+          "role": "Body copy, button text, and most UI elements — functional and legible across all sizes, forming the workhorse text of the system.",
+          "sizes": "11px, 13px, 14px, 15px, 16px",
+          "family": "Inter",
+          "weight": "400, 500, 600",
+          "weights": [
+            400,
+            500,
+            600
+          ],
+          "lineHeight": "1.43, 1.50, 1.63",
+          "substitute": "System Font",
+          "fontFeatureSettings": "\"calt\", \"rlig\""
+        },
+        {
+          "role": "Utility text for small components and system feedback, prioritizing native rendering speed and legibility at minimal sizes.",
+          "sizes": "12px",
+          "family": "system-ui",
+          "weight": "500",
+          "weights": [
+            500
+          ],
+          "lineHeight": "1.50",
+          "fontFeatureSettings": "\"calt\", \"rlig\""
+        }
+      ],
+      "description": "Circa employs a bold, dark minimalism softened by whimsical 3D illustrations. The interface is primarily achromatic, establishing a stark backdrop for content and interaction. Typography is understated yet precise, relying on subtle weight differences and careful letter-spacing for hierarchy. Components are lightweight, favoring ghost elements and soft, contained surfaces with subtle elevation for critical information.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "Quick Color Reference:\ntext: #ffffff\nbackground: #000000\nborder: #e6e6e6\naccent: #AFFF2C\nprimary action: no distinct CTA color\n\nExample Component Prompts:\n1. Create a primary headline: 'Something new is coming' using Geist, weight 500, size 30px, line-height 1.15, letter-spacing -0.6px, color #ffffff, centered on the page over an Ink Black (#000000) background.\n2. Create a Dialog Card: a white (#ffffff) card with 12px border-radius, 24px padding, and shadow 'rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.1) 0px 4px 6px -4px'. Inside, a body text 'We use cookies...' in Inter, 14px, #737373.\n3. Create a Pill Accent Button: 'Made with Circa' label as a button with Deep Graphite (#111111) background, Frost White (#ffffff) text (Inter, 11px), 9999px border-radius, 6px vertical padding, 12px horizontal padding, and shadow 'rgba(0, 0, 0, 0.05) 0px 1px 2px 0px'.\n4. Create a Muted Action Button: 'Accept all' using Charcoal (#171717) background, Frost White (#ffffff) text (Inter, 15px), 6px border-radius, 20px horizontal padding, with a subtle border in Silver Mist (#e6e6e6).\n5. Create a Ghost Button: 'Customize' button with transparent background, Charcoal (#171717) text (Inter, 15px), 4px border-radius, and a Silver Mist (#e6e6e6) border."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777514903801-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777514903801-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/3baaccae-2415-46c8-b71f-a45a002944aa",
+  "ranks": {
+    "trending": 1241,
+    "popular": 1234,
+    "newest": 433
+  },
+  "localSlug": "circa-3baaccae"
+}

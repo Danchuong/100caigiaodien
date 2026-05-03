@@ -1,0 +1,694 @@
+{
+  "id": "13b74e34-b824-4d1d-bd2c-bb9bfbc2d6e1",
+  "url": "https://spacex.com",
+  "siteName": "SpaceX",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775924876819-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775924876819-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "dark",
+  "colors": [
+    {
+      "name": "Midnight Void",
+      "hex": "#000000"
+    },
+    {
+      "name": "Lunar Dust",
+      "hex": "#f0f0fa"
+    },
+    {
+      "name": "Obsidian Blend",
+      "hex": "#00000080"
+    },
+    {
+      "name": "Starfield Gray",
+      "hex": "#f0f0fa59"
+    },
+    {
+      "name": "Interstellar Gray",
+      "hex": "#545457"
+    },
+    {
+      "name": "Cosmic Gray",
+      "hex": "#404040"
+    }
+  ],
+  "fonts": [
+    "D-DIN",
+    "D-DIN-Bold"
+  ],
+  "northStar": "Deep Space Command. A minimalist, dark-mode interface designed for high-stakes, information-dense environments, where every pixel counts.",
+  "createdAt": "2026-03-04T19:55:18.000Z",
+  "previewVideoCapturedAt": null,
+  "industry": "other",
+  "fullResult": {
+    "meta": {
+      "url": "https://spacex.com",
+      "siteName": "SpaceX",
+      "extractedAt": "2026-04-11T16:28:14.583Z",
+      "durationMs": 25164,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 190,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "complete",
+          "attempts": 2
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#f0f0fa",
+            "oklch": {
+              "c": 0.013333079384350407,
+              "h": 286.1453291270982,
+              "l": 0.9580221674377112
+            },
+            "contexts": [
+              "other",
+              "nav",
+              "body",
+              "heading",
+              "button",
+              "icon",
+              "image",
+              "footer"
+            ],
+            "frequency": 858,
+            "confidence": 1,
+            "prominence": 66388382.29843464,
+            "properties": [
+              "color",
+              "borderColor",
+              "fill"
+            ]
+          },
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "button",
+              "body",
+              "nav"
+            ],
+            "frequency": 22,
+            "confidence": 1,
+            "prominence": 6065757.31592575,
+            "properties": [
+              "backgroundColor",
+              "color",
+              "borderColor"
+            ]
+          },
+          {
+            "hex": "#545457",
+            "oklch": {
+              "c": 0.005644268724815448,
+              "h": 286.16918850431597,
+              "l": 0.44711545155649196
+            },
+            "contexts": [
+              "button"
+            ],
+            "frequency": 20,
+            "confidence": 1,
+            "prominence": 37866.1685017757,
+            "properties": [
+              "borderColor"
+            ]
+          },
+          {
+            "hex": "#404040",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.37054239459212773
+            },
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 4,
+            "confidence": 1,
+            "prominence": 20184.52092885584,
+            "properties": [
+              "borderColor"
+            ]
+          }
+        ],
+        "isDarkMode": true,
+        "colorfulness": 0.03453918765327959,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 18.55,
+            "background": "#000000",
+            "foreground": "#f0f0fa"
+          },
+          {
+            "level": "AAA",
+            "ratio": 9.16,
+            "background": "#f0f0fa",
+            "foreground": "#404040"
+          },
+          {
+            "level": "AA",
+            "ratio": 6.67,
+            "background": "#f0f0fa",
+            "foreground": "#545457"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [
+          {
+            "value": 4,
+            "contexts": [
+              "nav",
+              "button"
+            ],
+            "frequency": 6
+          },
+          {
+            "value": 32,
+            "contexts": [
+              "button"
+            ],
+            "frequency": 1
+          }
+        ],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 3,
+            "frequency": 5,
+            "properties": [
+              "paddingRight"
+            ]
+          },
+          {
+            "value": 4,
+            "frequency": 8,
+            "properties": [
+              "columnGap"
+            ]
+          },
+          {
+            "value": 10,
+            "frequency": 7,
+            "properties": [
+              "paddingRight",
+              "paddingLeft",
+              "marginLeft"
+            ]
+          },
+          {
+            "value": 12,
+            "frequency": 7,
+            "properties": [
+              "rowGap",
+              "marginTop",
+              "marginBottom"
+            ]
+          },
+          {
+            "value": 13,
+            "frequency": 3,
+            "properties": [
+              "paddingRight"
+            ]
+          },
+          {
+            "value": 15,
+            "frequency": 5,
+            "properties": [
+              "marginTop"
+            ]
+          },
+          {
+            "value": 18,
+            "frequency": 15,
+            "properties": [
+              "columnGap",
+              "marginTop",
+              "marginBottom",
+              "paddingTop",
+              "paddingRight",
+              "paddingBottom",
+              "paddingLeft"
+            ]
+          },
+          {
+            "value": 20,
+            "frequency": 20,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ]
+          },
+          {
+            "value": 24,
+            "frequency": 2,
+            "properties": [
+              "paddingTop",
+              "paddingBottom"
+            ]
+          },
+          {
+            "value": 30,
+            "frequency": 6,
+            "properties": [
+              "columnGap",
+              "marginTop"
+            ]
+          },
+          {
+            "value": 40,
+            "frequency": 2,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ]
+          },
+          {
+            "value": 60,
+            "frequency": 2,
+            "properties": [
+              "marginRight",
+              "marginLeft"
+            ]
+          }
+        ],
+        "density": "comfortable",
+        "baseUnit": null
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "D-DIN",
+            "source": "custom",
+            "weights": [
+              400,
+              700
+            ],
+            "frequency": 177,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "D-DIN-Bold",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 5,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 16,
+          "name": "Major Second",
+          "ratio": 1.125,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 10,
+            "family": "D-DIN",
+            "weight": 400,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 1,
+            "lineHeight": 0.94,
+            "letterSpacing": 0.1,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 12,
+            "family": "D-DIN",
+            "weight": 400,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 5,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 12,
+            "family": "D-DIN",
+            "weight": 400,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 5,
+            "lineHeight": 2,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 13,
+            "family": "D-DIN",
+            "weight": 700,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 28,
+            "lineHeight": 0.94,
+            "letterSpacing": 0.09,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 13,
+            "family": "D-DIN",
+            "weight": 700,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 2,
+            "lineHeight": 0.94,
+            "letterSpacing": 0.09,
+            "textTransform": "none"
+          },
+          {
+            "size": 13,
+            "family": "D-DIN",
+            "weight": 400,
+            "contexts": [
+              "button",
+              "nav"
+            ],
+            "frequency": 3,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "D-DIN",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "nav",
+              "body",
+              "button",
+              "icon",
+              "image",
+              "footer"
+            ],
+            "frequency": 111,
+            "lineHeight": 1.5,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "D-DIN",
+            "weight": 400,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 18,
+            "lineHeight": 0.94,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "D-DIN",
+            "weight": 400,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 4,
+            "lineHeight": 1.7,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 48,
+            "family": "D-DIN-Bold",
+            "weight": 400,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 3,
+            "lineHeight": 1,
+            "letterSpacing": 0.02,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 48,
+            "family": "D-DIN-Bold",
+            "weight": 400,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 2,
+            "lineHeight": 1.25,
+            "letterSpacing": 0.02,
+            "textTransform": "uppercase"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Prioritize 'Midnight Void' (#000000) for backgrounds and 'Lunar Dust' (#f0f0fa) for primary text to maintain stark contrast.",
+        "Use D-DIN for all body text, navigation, and buttons, with D-DIN-Bold exclusively for hero headings at 48px.",
+        "Apply a 0.09em or 0.10em letter-spacing to D-DIN text to enforce a deliberate, spacious feel.",
+        "Utilize 20px horizontal padding for most interactive elements and buttons, such as the Ghost Primary Button.",
+        "Ensure all interactive buttons feature a 4px `radius` unless specifically designed as a 'Pill Accent Button' (32px radius).",
+        "Employ `Obsidian Blend` (rgba(0, 0, 0, 0.5)) for backgrounds of primary action buttons, providing a subtle interactive layer."
+      ],
+      "tags": [
+        "dark mode",
+        "minimalist",
+        "technical",
+        "futuristic",
+        "high-contrast",
+        "monochromatic",
+        "bold typography",
+        "industrial",
+        "clean",
+        "spacious"
+      ],
+      "donts": [
+        "Avoid using highly saturated colors; maintain a monochromatic palette with only a hint of transparent `Lunar Dust` for subtle accents.",
+        "Do not deviate from the D-DIN font family for any text elements; custom fonts are a core identifier.",
+        "Never use drop shadows or complex elevation schemes; depth is created through background changes and subtle borders.",
+        "Do not use generic button styles; always apply either the 'Ghost Primary Button' or 'Pill Accent Button' specifications.",
+        "Avoid tight letter-spacing for standard text; the liberal use of letter-spacing is a signature choice.",
+        "Do not introduce gradients or complex background imagery in areas where text readability is paramount."
+      ],
+      "theme": "dark",
+      "colors": [
+        {
+          "hex": "#000000",
+          "name": "Midnight Void",
+          "role": "Primary background, button backgrounds for ghost variant, navigation overlay. Provides a canvas for bright content.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#f0f0fa",
+          "name": "Lunar Dust",
+          "role": "Primary text color, iconographic elements, primary button text. Stands out distinctly against the dark background.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#00000080",
+          "name": "Obsidian Blend",
+          "role": "Primary button background, providing a subtle interactive surface that is distinct from the pure black background.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#f0f0fa59",
+          "name": "Starfield Gray",
+          "role": "Button borders for ghost buttons, subtle dividers. Creates definition without visual weight.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#545457",
+          "name": "Interstellar Gray",
+          "role": "Subtle border color for non-primary interactive elements, providing a low-contrast indication.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#404040",
+          "name": "Cosmic Gray",
+          "role": "Border color for select navigation elements, signifying separation or interactive zones.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#000000cc",
+          "name": "Dark Overlay",
+          "role": "Used for background overlays, modals, and hover states, providing a deeper, more occlusive layer above content.",
+          "group": "neutral"
+        }
+      ],
+      "layout": "The page model is primarily full-bleed, with content anchored to a `pageMaxWidth` that dynamically adjusts to the viewport, ensuring large dramatic visuals. The hero sections feature full-viewport background images/videos with centered or left-aligned 'Display Heading' text in 'Lunar Dust'. Sections are vertically stacked with significant `sectionGap` (60px), creating spacious breathing room. Content is often presented in a simple, centered stack or a two-column layout with text on one side and an image or video on the other. Navigation is a sticky top bar, minimal and unobtrusive, dissolving into text links only. The overall density is spacious, allowing visuals to take precedence.",
+      "imagery": "The site uses high-resolution, full-bleed photography. Images feature dramatic celestial bodies (Mars, Earth), rocket launches, and advanced spacecraft. The treatment is realistic and often features dark, moody backdrops blending seamlessly with the site's 'Midnight Void' background. There is no masking or excessive graphic treatment; images are presented as raw, powerful, and central to the narrative. Icons are minimalist, outlined, and monochromatic ('Lunar Dust'), appearing only on functional interactive elements, not for decoration. The imagery serves as both atmosphere and direct product showcase, dominating sections to convey the scale and ambition of space exploration.",
+      "similar": [
+        {
+          "why": "High-resolution, full-bleed space imagery combined with a technical, high-contrast textual overlay.",
+          "business": "NASA"
+        },
+        {
+          "why": "Minimalist dark theme, focus on large product photography, bold sans-serif typography for headings.",
+          "business": "Tesla"
+        },
+        {
+          "why": "Serious, technical aesthetic with a focus on product visuals and a reduced color palette for clarity.",
+          "business": "Boeing Defense"
+        },
+        {
+          "why": "Dark-mode UI, emphasis on data and technology, and a deliberate, almost stark visual style for trust.",
+          "business": "Palantir"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "buttons": "4px",
+          "navigation": "4px",
+          "pillButton": "32px"
+        },
+        "elementGap": "18px",
+        "sectionGap": "60px",
+        "cardPadding": "20px",
+        "pageMaxWidth": null
+      },
+      "category": "dev-tools",
+      "northStar": "Deep Space Command. A minimalist, dark-mode interface designed for high-stakes, information-dense environments, where every pixel counts.",
+      "typeScale": [
+        {
+          "role": "caption",
+          "size": 10,
+          "lineHeight": 1.5,
+          "letterSpacing": 0.09
+        },
+        {
+          "role": "button",
+          "size": 16,
+          "lineHeight": 1.2,
+          "letterSpacing": 0.1
+        },
+        {
+          "role": "heading-lg",
+          "size": 48,
+          "lineHeight": 1,
+          "letterSpacing": 0.02
+        }
+      ],
+      "components": [
+        {
+          "html": "<div style=\"--color-midnight-void:#000000;--color-lunar-dust:#f0f0fa;--color-obsidian-blend:rgba(0,0,0,0.5);--color-starfield-gray:rgba(240,240,250,0.35);--color-interstellar-gray:#545457;--color-cosmic-gray:#404040;--color-dark-overlay:rgba(0,0,0,0.8);--font-d-din:Arial,sans-serif;--font-d-din-bold:'Arial Black',Arial,sans-serif;background:var(--color-midnight-void);padding:48px 40px;display:flex;flex-direction:column;gap:32px;align-items:flex-start;font-family:var(--font-d-din);width:600px;box-sizing:border-box;\"><div style=\"margin-bottom:8px;\"><h2 style=\"font-family:var(--font-d-din-bold);font-size:48px;font-weight:400;line-height:1.0;letter-spacing:0.02em;color:var(--color-lunar-dust);margin:0 0 16px 0;text-transform:uppercase;\">Explore Vehicles</h2><p style=\"font-family:var(--font-d-din);font-size:16px;line-height:1.7;letter-spacing:0.09em;color:var(--color-lunar-dust);margin:0;max-width:460px;\">SpaceX designs, manufactures and launches the world's most advanced rockets and spacecraft.</p></div><div style=\"display:flex;flex-wrap:wrap;gap:16px;align-items:center;\"><a href=\"#\" style=\"display:inline-flex;align-items:center;gap:12px;background:var(--color-obsidian-blend);color:var(--color-lunar-dust);font-family:var(--font-d-din);font-size:16px;font-weight:400;letter-spacing:0.10em;text-transform:uppercase;text-decoration:none;padding:14px 20px;border-radius:4px;border-top:1px solid var(--color-starfield-gray);border-left:none;border-right:none;border-bottom:none;box-sizing:border-box;white-space:nowrap;\">EXPLORE<svg width=\"18\" height=\"14\" viewBox=\"0 0 18 14\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" style=\"flex-shrink:0;\"><path d=\"M0 7H16M10 1L16 7L10 13\" stroke=\"#f0f0fa\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></a><a href=\"#\" style=\"display:inline-flex;align-items:center;gap:12px;background:var(--color-obsidian-blend);color:var(--color-lunar-dust);font-family:var(--font-d-din);font-size:16px;font-weight:400;letter-spacing:0.10em;text-transform:uppercase;text-decoration:none;padding:14px 20px;border-radius:4px;border-top:1px solid var(--color-starfield-gray);border-left:none;border-right:none;border-bottom:none;box-sizing:border-box;white-space:nowrap;\">LEARN MORE<svg width=\"18\" height=\"14\" viewBox=\"0 0 18 14\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" style=\"flex-shrink:0;\"><path d=\"M0 7H16M10 1L16 7L10 13\" stroke=\"#f0f0fa\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></a><a href=\"#\" style=\"display:inline-flex;align-items:center;gap:12px;background:rgba(240,240,250,0.1);color:var(--color-lunar-dust);font-family:var(--font-d-din);font-size:16px;font-weight:400;letter-spacing:0.10em;text-transform:uppercase;text-decoration:none;padding:14px 18px;border-radius:32px;border:none;box-sizing:border-box;white-space:nowrap;\">BOOK NOW</a></div></div>",
+          "name": "Ghost Primary Button Group",
+          "role": "",
+          "description": ""
+        },
+        {
+          "html": "<div style=\"--color-midnight-void:#000000;--color-lunar-dust:#f0f0fa;--color-obsidian-blend:rgba(0,0,0,0.5);--color-starfield-gray:rgba(240,240,250,0.35);--color-interstellar-gray:#545457;--color-cosmic-gray:#404040;--font-d-din:Arial,sans-serif;--font-d-din-bold:'Arial Black',Arial,sans-serif;background:var(--color-midnight-void);padding:40px;font-family:var(--font-d-din);width:600px;box-sizing:border-box;\"><div style=\"border:1px solid var(--color-interstellar-gray);border-radius:4px;overflow:hidden;\"><div style=\"background:var(--color-midnight-void);padding:20px 24px;border-bottom:1px solid var(--color-interstellar-gray);display:flex;align-items:center;justify-content:space-between;\"><span style=\"font-family:var(--font-d-din);font-size:10px;letter-spacing:0.09em;color:var(--color-lunar-dust);text-transform:uppercase;opacity:0.6;\">UPCOMING LAUNCHES</span><svg width=\"12\" height=\"8\" viewBox=\"0 0 12 8\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M1 1L6 6L11 1\" stroke=\"#f0f0fa\" stroke-width=\"1.2\" stroke-linecap=\"round\"/></svg></div><div style=\"background:var(--color-midnight-void);\"><div style=\"padding:24px;border-bottom:1px solid var(--color-interstellar-gray);display:flex;align-items:flex-start;gap:20px;\"><div style=\"flex-shrink:0;width:56px;height:56px;background:rgba(240,240,250,0.06);border-radius:4px;display:flex;align-items:center;justify-content:center;\"><svg width=\"24\" height=\"28\" viewBox=\"0 0 24 28\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M12 2C12 2 6 8 6 16C6 20 8.5 24 12 26C15.5 24 18 20 18 16C18 8 12 2 12 2Z\" stroke=\"#f0f0fa\" stroke-width=\"1.2\" fill=\"none\"/><path d=\"M9 24L7 28M15 24L17 28\" stroke=\"#f0f0fa\" stroke-width=\"1.2\" stroke-linecap=\"round\"/></svg></div><div style=\"flex:1;\"><div style=\"display:flex;align-items:center;justify-content:space-between;margin-bottom:8px;\"><span style=\"font-family:var(--font-d-din);font-size:13px;font-weight:700;letter-spacing:0.10em;color:var(--color-lunar-dust);text-transform:uppercase;\">Falcon 9 · Starlink Group 10-4</span><span style=\"font-family:var(--font-d-din);font-size:10px;letter-spacing:0.09em;color:var(--color-lunar-dust);opacity:0.5;text-transform:uppercase;\">NET TBD</span></div><div style=\"display:flex;gap:8px;flex-wrap:wrap;\"><span style=\"font-family:var(--font-d-din);font-size:10px;letter-spacing:0.09em;color:var(--color-lunar-dust);opacity:0.55;text-transform:uppercase;\">SLC-40 · Cape Canaveral, FL</span></div></div></div><div style=\"padding:24px;border-bottom:1px solid var(--color-interstellar-gray);display:flex;align-items:flex-start;gap:20px;\"><div style=\"flex-shrink:0;width:56px;height:56px;background:rgba(240,240,250,0.06);border-radius:4px;display:flex;align-items:center;justify-content:center;\"><svg width=\"24\" height=\"28\" viewBox=\"0 0 24 28\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M12 2C12 2 6 8 6 16C6 20 8.5 24 12 26C15.5 24 18 20 18 16C18 8 12 2 12 2Z\" stroke=\"#f0f0fa\" stroke-width=\"1.2\" fill=\"none\"/><path d=\"M9 24L7 28M15 24L17 28\" stroke=\"#f0f0fa\" stroke-width=\"1.2\" stroke-linecap=\"round\"/></svg></div><div style=\"flex:1;\"><div style=\"display:flex;align-items:center;justify-content:space-between;margin-bottom:8px;\"><span style=\"font-family:var(--font-d-din);font-size:13px;font-weight:700;letter-spacing:0.10em;color:var(--color-lunar-dust);text-transform:uppercase;\">Falcon 9 · CRS-32</span><span style=\"font-family:var(--font-d-din);font-size:10px;letter-spacing:0.09em;color:var(--color-lunar-dust);opacity:0.5;text-transform:uppercase;\">NET MAR 2025</span></div><div style=\"display:flex;gap:8px;flex-wrap:wrap;\"><span style=\"font-family:var(--font-d-din);font-size:10px;letter-spacing:0.09em;color:var(--color-lunar-dust);opacity:0.55;text-transform:uppercase;\">LC-39A · Kennedy Space Center, FL</span></div></div></div><div style=\"padding:24px;display:flex;align-items:flex-start;gap:20px;\"><div style=\"flex-shrink:0;width:56px;height:56px;background:rgba(240,240,250,0.06);border-radius:4px;display:flex;align-items:center;justify-content:center;\"><svg width=\"28\" height=\"28\" viewBox=\"0 0 28 28\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><ellipse cx=\"14\" cy=\"14\" rx=\"12\" ry=\"12\" stroke=\"#f0f0fa\" stroke-width=\"1.2\"/><path d=\"M14 6V14L19 19\" stroke=\"#f0f0fa\" stroke-width=\"1.2\" stroke-linecap=\"round\"/></svg></div><div style=\"flex:1;\"><div style=\"display:flex;align-items:center;justify-content:space-between;margin-bottom:8px;\"><span style=\"font-family:var(--font-d-din);font-size:13px;font-weight:700;letter-spacing:0.10em;color:var(--color-lunar-dust);text-transform:uppercase;\">Starship · IFT-8</span><span style=\"font-family:var(--font-d-din);font-size:10px;letter-spacing:0.09em;color:var(--color-lunar-dust);opacity:0.5;text-transform:uppercase;\">NET 2025</span></div><div style=\"display:flex;gap:8px;flex-wrap:wrap;\"><span style=\"font-family:var(--font-d-din);font-size:10px;letter-spacing:0.09em;color:var(--color-lunar-dust);opacity:0.55;text-transform:uppercase;\">Starbase · Boca Chica, TX</span></div></div></div></div></div></div>",
+          "name": "Upcoming Launch Card",
+          "role": "",
+          "description": ""
+        },
+        {
+          "html": "<div style=\"--color-midnight-void:#000000;--color-lunar-dust:#f0f0fa;--color-obsidian-blend:rgba(0,0,0,0.5);--color-starfield-gray:rgba(240,240,250,0.35);--color-interstellar-gray:#545457;--color-cosmic-gray:#404040;--font-d-din:Arial,sans-serif;--font-d-din-bold:'Arial Black',Arial,sans-serif;background:var(--color-midnight-void);padding:48px 40px;font-family:var(--font-d-din);width:600px;box-sizing:border-box;\"><p style=\"font-family:var(--font-d-din);font-size:10px;letter-spacing:0.09em;color:var(--color-lunar-dust);opacity:0.5;text-transform:uppercase;margin:0 0 24px 0;\">By The Numbers</p><h2 style=\"font-family:var(--font-d-din-bold);font-size:48px;font-weight:400;line-height:1.0;letter-spacing:0.02em;color:var(--color-lunar-dust);margin:0 0 40px 0;text-transform:uppercase;\">Track Record</h2><div style=\"display:grid;grid-template-columns:1fr 1fr;gap:0;\"><div style=\"padding:30px 0 30px 0;border-top:1px solid var(--color-interstellar-gray);border-right:1px solid var(--color-interstellar-gray);padding-right:30px;\"><div style=\"font-family:var(--font-d-din-bold);font-size:48px;font-weight:400;letter-spacing:0.02em;color:var(--color-lunar-dust);line-height:1.0;margin-bottom:10px;\">400+</div><div style=\"font-family:var(--font-d-din);font-size:12px;letter-spacing:0.10em;color:var(--color-lunar-dust);opacity:0.6;text-transform:uppercase;\">Total Launches</div></div><div style=\"padding:30px 0 30px 30px;border-top:1px solid var(--color-interstellar-gray);\"><div style=\"font-family:var(--font-d-din-bold);font-size:48px;font-weight:400;letter-spacing:0.02em;color:var(--color-lunar-dust);line-height:1.0;margin-bottom:10px;\">270+</div><div style=\"font-family:var(--font-d-din);font-size:12px;letter-spacing:0.10em;color:var(--color-lunar-dust);opacity:0.6;text-transform:uppercase;\">Booster Landings</div></div><div style=\"padding:30px 0 0 0;border-top:1px solid var(--color-interstellar-gray);border-right:1px solid var(--color-interstellar-gray);padding-right:30px;\"><div style=\"font-family:var(--font-d-din-bold);font-size:48px;font-weight:400;letter-spacing:0.02em;color:var(--color-lunar-dust);line-height:1.0;margin-bottom:10px;\">220+</div><div style=\"font-family:var(--font-d-din);font-size:12px;letter-spacing:0.10em;color:var(--color-lunar-dust);opacity:0.6;text-transform:uppercase;\">Reflown Boosters</div></div><div style=\"padding:30px 0 0 30px;border-top:1px solid var(--color-interstellar-gray);\"><div style=\"font-family:var(--font-d-din-bold);font-size:48px;font-weight:400;letter-spacing:0.02em;color:var(--color-lunar-dust);line-height:1.0;margin-bottom:10px;\">50+</div><div style=\"font-family:var(--font-d-din);font-size:12px;letter-spacing:0.10em;color:var(--color-lunar-dust);opacity:0.6;text-transform:uppercase;\">Crewed Flights</div></div></div></div>",
+          "name": "Mission Stat Block",
+          "role": "",
+          "description": ""
+        },
+        {
+          "name": "Ghost Primary Button",
+          "role": "Primary call to action.",
+          "description": "Features 'Obsidian Blend' (rgba(0, 0, 0, 0.5)) background, 'Lunar Dust' (#f0f0fa) text, and 'Starfield Gray' (rgba(240, 240, 250, 0.35)) top border. Corner radius is 4px. Padding is 0px top/bottom, 20px left/right. Typography uses D-DIN at 16px with 0.10em letter-spacing."
+        },
+        {
+          "name": "Pill Accent Button",
+          "role": "Secondary or alternative call to action, often for reservation or ordering.",
+          "description": "Has a background of rgba(240, 240, 250, 0.1) which is a transparent 'Lunar Dust' tint, with 'Midnight Void' (#000000) text. Features a prominent 32px border radius, creating a pill shape. Padding is 18px all around. Typography uses D-DIN at 16px with 0.10em letter-spacing."
+        },
+        {
+          "name": "Navigation Link",
+          "role": "Top-level navigation items.",
+          "description": "Text is 'Lunar Dust' (#f0f0fa) using the D-DIN font, likely at 13px with 0.10em letter-spacing. Interaction states might involve 'Cosmic Gray' (#404040) borders or subtle background changes."
+        },
+        {
+          "name": "Body Text Block",
+          "role": "Informational paragraphs.",
+          "description": "Set in 'Lunar Dust' (#f0f0fa) using the D-DIN font at 16px, with a line height of 1.5 or 1.7 to ensure readability against the dark background. Letter spacing is normal to slightly increased for legibility."
+        },
+        {
+          "name": "Display Heading",
+          "role": "Main page titles and prominent section headings.",
+          "description": "Set in 'Lunar Dust' (#f0f0fa) using D-DIN-Bold at 48px, with a line height of 1.0. Letter spacing is 0.02em, giving it a slightly tighter, more impactful appearance than other text."
+        }
+      ],
+      "typography": [
+        {
+          "role": "Primary text font for body, navigation, buttons, and most informational elements. Its wide tracking at smaller sizes enforces legibility in a dark UI, creating a precise, technical feel.",
+          "sizes": "10px, 12px, 13px, 16px",
+          "family": "D-DIN",
+          "weight": "400, 700",
+          "weights": [
+            400,
+            700
+          ],
+          "lineHeight": "0.94, 1.00, 1.20, 1.50, 1.70, 2.00",
+          "substitute": "Arial, sans-serif",
+          "letterSpacing": "0.09em, 0.10em"
+        },
+        {
+          "role": "Used exclusively for prominent headings. Despite being 'bold', its weight is 400 (normal) and the reduced letter-spacing compared to the regular D-DIN, combined with the large size, creates a strong, commanding presence without shouting.",
+          "sizes": "48px",
+          "family": "D-DIN-Bold",
+          "weight": "400",
+          "weights": [
+            400
+          ],
+          "lineHeight": "1.00, 1.25",
+          "substitute": "Arial Bold, sans-serif",
+          "letterSpacing": "0.02em"
+        }
+      ],
+      "description": "This system projects an aura of ambitious precision, like a mission control screen against the vastness of space. The stark black background, illuminated by near-white text and subtle, dark-gray interactive states, creates a sense of focused technological endeavor. Typography is paramount, with hyper-legible, widely-tracked sans-serifs conveying information with clarity and a deliberate, almost uniform weight.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "### Quick Color Reference\n- Text: #f0f0fa (Lunar Dust)\n- Background: #000000 (Midnight Void)\n- Primary Button Background: rgba(0, 0, 0, 0.5) (Obsidian Blend)\n- Button Border: rgba(240, 240, 250, 0.35) (Starfield Gray)\n- Accent (Pill Btn Background): rgba(240, 240, 250, 0.1)\n\n### 3-5 Example Component Prompts\n1. Create a hero section: full-bleed background image `path/to/mars.jpg`. Centered headline `Making Life Multiplanetary` using D-DIN-Bold at 48px, #f0f0fa, line-height 1.0, letter-spacing 0.02em. Below it, body text `SpaceX was founded under the belief...` in D-DIN 16px, #f0f0fa, line-height 1.5. Below that, a button labeled `EXPLORE ->` with background rgba(0, 0, 0, 0.5), text #f0f0fa, border rgba(240, 240, 250, 0.35), 4px radius, 0px top/bottom padding, 20px left/right padding, D-DIN 16px, letter-spacing 0.1em.\n2. Design a navigation header: background #000000, height 74px. Links `VEHICLES`, `STARLINK` etc. are #f0f0fa, D-DIN 13px, letter-spacing 0.1em. Align text links to the left and a `UPCOMING LAUNCHES` dropdown to the right. Use 4px radius for any dropdown elements.\n3. Implement a 'Pill Accent Button': text `RESERVE YOUR RIDE` in #000000, background rgba(240, 240, 250, 0.1), 32px border-radius, 18px padding all around. Typography D-DIN 16px, letter-spacing 0.1em.\n4. Generate a footer: background #000000. Text links `TWITTER`, `YOUTUBE` etc. are #f0f0fa, D-DIN 12px, letter-spacing 0.1em. Links should be arranged horizontally with `columnGap` of 18px and `rowGap` of 12px."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775924876819-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775924876819-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/13b74e34-b824-4d1d-bd2c-bb9bfbc2d6e1",
+  "ranks": {
+    "trending": 309,
+    "popular": 344,
+    "newest": 1093
+  },
+  "localSlug": "spacex-13b74e34"
+}

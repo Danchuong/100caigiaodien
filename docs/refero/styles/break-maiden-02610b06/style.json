@@ -1,0 +1,567 @@
+{
+  "id": "02610b06-d16e-47bd-a1ea-18979a9ed4f5",
+  "url": "https://www.breakmaiden.co",
+  "siteName": "Break Maiden",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777520445024-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777520445024-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "dark",
+  "colors": [
+    {
+      "name": "Midnight Canvas",
+      "hex": "#000000"
+    },
+    {
+      "name": "Ghostly White",
+      "hex": "#ffffff"
+    },
+    {
+      "name": "Muted Stone",
+      "hex": "#8e8e8e"
+    }
+  ],
+  "fonts": [
+    "Martin",
+    "Helvetica Neue",
+    "America"
+  ],
+  "northStar": "High-contrast cinematic dark",
+  "createdAt": "2026-04-30T03:41:05.263Z",
+  "previewVideoCapturedAt": null,
+  "industry": "agency",
+  "fullResult": {
+    "meta": {
+      "url": "https://www.breakmaiden.co",
+      "siteName": "Break Maiden",
+      "extractedAt": "2026-04-30T03:41:05.192Z",
+      "durationMs": 28727,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 467,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#ffffff",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 1.0000000000000002
+            },
+            "contexts": [
+              "other",
+              "button",
+              "link",
+              "image",
+              "nav",
+              "card",
+              "hero",
+              "heading",
+              "body",
+              "footer"
+            ],
+            "frequency": 2162,
+            "confidence": 1,
+            "prominence": 110556122.57883988,
+            "properties": [
+              "color",
+              "borderColor",
+              "boxShadow"
+            ],
+            "usageCounts": {
+              "nav/color": 6,
+              "body/color": 2,
+              "card/color": 1,
+              "hero/color": 2,
+              "link/color": 33,
+              "image/color": 36,
+              "other/color": 350,
+              "button/color": 1,
+              "footer/color": 1,
+              "heading/color": 1,
+              "nav/borderColor": 24,
+              "other/boxShadow": 1,
+              "body/borderColor": 8,
+              "card/borderColor": 4,
+              "hero/borderColor": 8,
+              "link/borderColor": 132,
+              "image/borderColor": 144,
+              "other/borderColor": 1400,
+              "footer/borderColor": 4,
+              "heading/borderColor": 4
+            }
+          },
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "button",
+              "other"
+            ],
+            "frequency": 13,
+            "confidence": 1,
+            "prominence": 33709155.429291874,
+            "properties": [
+              "backgroundColor",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "button/borderColor": 4,
+              "other/backgroundColor": 8,
+              "button/backgroundColor": 1
+            }
+          },
+          {
+            "hex": "#8e8e8e",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.6467273699038915
+            },
+            "contexts": [
+              "nav",
+              "other"
+            ],
+            "frequency": 170,
+            "confidence": 1,
+            "prominence": 66664.24055127957,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "nav/color": 3,
+              "other/color": 31,
+              "nav/borderColor": 12,
+              "other/borderColor": 124
+            }
+          }
+        ],
+        "isDarkMode": true,
+        "colorfulness": 0,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 21,
+            "background": "#000000",
+            "foreground": "#ffffff"
+          },
+          {
+            "level": "AA",
+            "ratio": 6.41,
+            "background": "#000000",
+            "foreground": "#8e8e8e"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 1,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 5,
+            "properties": [
+              "paddingTop",
+              "paddingBottom",
+              "rowGap"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other",
+              "paddingBottom|other",
+              "rowGap|other"
+            ]
+          },
+          {
+            "value": 2,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 8,
+            "properties": [
+              "paddingTop",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|nav",
+              "paddingBottom|nav"
+            ]
+          },
+          {
+            "value": 13,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingLeft",
+              "columnGap"
+            ],
+            "propertyContextPairs": [
+              "paddingLeft|other",
+              "columnGap|other"
+            ]
+          },
+          {
+            "value": 18,
+            "contexts": [
+              "button",
+              "other"
+            ],
+            "frequency": 6,
+            "properties": [
+              "paddingTop",
+              "paddingBottom",
+              "columnGap",
+              "rowGap"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|button",
+              "paddingBottom|button",
+              "columnGap|other",
+              "rowGap|other"
+            ]
+          },
+          {
+            "value": 27,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingTop",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other",
+              "paddingBottom|other"
+            ]
+          },
+          {
+            "value": 43,
+            "contexts": [
+              "other",
+              "nav"
+            ],
+            "frequency": 6,
+            "properties": [
+              "paddingRight",
+              "paddingLeft",
+              "marginLeft",
+              "paddingTop"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|other",
+              "paddingLeft|other",
+              "marginLeft|nav",
+              "paddingTop|other"
+            ]
+          },
+          {
+            "value": 78,
+            "contexts": [
+              "button"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|button",
+              "paddingLeft|button"
+            ]
+          },
+          {
+            "value": 110,
+            "contexts": [
+              "hero"
+            ],
+            "frequency": 1,
+            "properties": [
+              "paddingTop"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|hero"
+            ]
+          }
+        ],
+        "density": "comfortable",
+        "baseUnit": null
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "Helvetica Neue",
+            "source": "system",
+            "weights": [
+              400,
+              500
+            ],
+            "frequency": 421,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "America",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 42,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "Martin",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 4,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 25,
+          "name": "Minor Second",
+          "ratio": 1.067,
+          "confidence": 0.75
+        },
+        "steps": [
+          {
+            "size": 19,
+            "family": "America",
+            "weight": 400,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 8,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 22,
+            "family": "America",
+            "weight": 400,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.5,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 22,
+            "family": "America",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "link",
+              "body"
+            ],
+            "frequency": 33,
+            "lineHeight": 1.25,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 25,
+            "family": "Helvetica Neue",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "nav",
+              "card",
+              "hero",
+              "link",
+              "image",
+              "footer"
+            ],
+            "frequency": 416,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 153,
+            "family": "Martin",
+            "weight": 400,
+            "contexts": [
+              "heading",
+              "image"
+            ],
+            "frequency": 4,
+            "lineHeight": 0.63,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Use Midnight Canvas (#000000) as the default background for all main sections and UI surfaces.",
+        "Apply Ghostly White (#ffffff) for all primary text, headlines, and active states to maintain high contrast.",
+        "Utilize the Martin font at 153px for primary page headings, leveraging its large size as a key visual element.",
+        "Ensure all interactive elements, such as buttons and cards, maintain a 0px border-radius for a sharp, angular aesthetic.",
+        "Implement a 1.5px solid Ghostly White (#ffffff) border for button outlines and subtle interactive element highlights.",
+        "Employ a section gap of 43px to create distinct visual divisions between major content blocks.",
+        "Use a comfortable element gap of 18px for spacing between most internal elements like text blocks or image captions."
+      ],
+      "donts": [
+        "Avoid using saturated accent colors for primary interactive states; rely on Ghostly White (#ffffff) borders and text for feedback.",
+        "Do not introduce rounded corners (border-radius > 0px) on any components or elements.",
+        "Refrain from using drop shadows or complex elevation effects; the design is intentionally flat and high-contrast.",
+        "Do not deviate from the specified font families; avoid system defaults unless explicitly defined.",
+        "Minimize extraneous UI elements; the design prioritizes content and typography as primary visual drivers.",
+        "Avoid mixing different background colors in adjacent sections; maintain a consistent Midnight Canvas (#000000) base.",
+        "Do not use overly complex or busy imagery; opt for clean, focused product photography or stark graphics."
+      ],
+      "theme": "dark",
+      "colors": [
+        {
+          "hex": "#000000",
+          "name": "Midnight Canvas",
+          "role": "Page backgrounds, card backgrounds, button backgrounds for ghost buttons — provides a deep, immersive dark theme",
+          "group": "neutral"
+        },
+        {
+          "hex": "#ffffff",
+          "name": "Ghostly White",
+          "role": "Hairline borders, dividers, input outlines, and card edges on light surfaces. Do not promote it to the primary CTA color",
+          "group": "neutral"
+        },
+        {
+          "hex": "#8e8e8e",
+          "name": "Muted Stone",
+          "role": "Secondary text, subtle navigation accents, muted informational text — offers a softer contrast than Ghostly White for less prominent content",
+          "group": "neutral"
+        }
+      ],
+      "similar": [
+        {
+          "why": "High-contrast dark theme with bold typography and prominent, graphic layouts for case studies.",
+          "business": "Huge Inc."
+        },
+        {
+          "why": "Minimalist dark aesthetic, large image blocks within grids, and a focus on stark typography as a visual element.",
+          "business": "Work & Co"
+        },
+        {
+          "why": "Content-forward portfolio sites with strong photographic elements and a clean, high-contrast, often dark interface.",
+          "business": "Basic/Dept"
+        },
+        {
+          "why": "Emphasis on impactful typography and strong visual identity without excessive decorative elements, using a dark canvas to highlight work.",
+          "business": "Pentagram"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "none": "0px"
+        },
+        "elementGap": "18px",
+        "sectionGap": "43px",
+        "cardPadding": "0px",
+        "pageMaxWidth": null
+      },
+      "industry": "agency",
+      "northStar": "High-contrast cinematic dark",
+      "components": [
+        {
+          "name": "Primary Ghost Button",
+          "role": "Subtle interactive element for primary actions.",
+          "description": "Background: Midnight Canvas (#000000). Text: Ghostly White (#ffffff). Border: 1.5px solid Ghostly White (#ffffff). Radius: 0px. Padding: 17.51px vertical, 77.824px horizontal."
+        },
+        {
+          "name": "Navigation Link",
+          "role": "Top-level navigation items.",
+          "description": "Text color: Muted Stone (#8e8e8e) for inactive, Ghostly White (#ffffff) for active/hover. Font: Helvetica Neue, 25px, weight 400."
+        },
+        {
+          "name": "Product Grid Card",
+          "role": "Container for showcasing product imagery.",
+          "description": "Background: Midnight Canvas (#000000). Border: None. Box Shadow: None. Radius: 0px. Padding: 0px. Contains an image and text overlay."
+        },
+        {
+          "name": "Hero Headline",
+          "role": "Dominant text element at the top of the page.",
+          "description": "Text: Ghostly White (#ffffff). Font: Martin, 153px, weight 400, letter-spacing normal. Displays without additional padding or background."
+        }
+      ],
+      "typography": [
+        {
+          "role": "Primary display headlines — its large size and standard weight command attention, creating a bold, statement-making visual.",
+          "sizes": "153px",
+          "family": "Martin",
+          "weight": "400",
+          "lineHeight": "",
+          "substitute": "Anton"
+        },
+        {
+          "role": "Navigation, secondary headings, card titles — a versatile sans-serif used for structure and clear content labeling.",
+          "sizes": "25px",
+          "family": "Helvetica Neue",
+          "weight": "400, 500",
+          "lineHeight": "1.00",
+          "substitute": "Arial"
+        },
+        {
+          "role": "Body text, links, descriptions — used for general content, providing readability with classic proportions.",
+          "sizes": "19px, 22px",
+          "family": "America",
+          "weight": "400",
+          "lineHeight": "1.00, 1.25, 1.50",
+          "substitute": "Open Sans"
+        }
+      ],
+      "description": "Break Maiden employs a high-contrast cinematic dark mode, characterized by stark black backgrounds and bold, expansive white typography. The design emphasizes content-first presentation, with large product imagery and minimal UI adornment. Typography is used as a primary design element, leveraging a custom, display-style sans-serif for striking headlines. Interaction is subtle, relying on ghost elements and border changes rather than saturated color for feedback, creating a focused and dramatic visual experience.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "Quick Color Reference:\ntext: #ffffff\nbackground: #000000\nborder: #ffffff\naccent: none observed\nprimary action: no distinct CTA color\n\nExample Component Prompts:\nCreate a hero section: Midnight Canvas background (#000000). Headline 'WE HELP NEW & EXISTING BRANDS STAY AHEAD' using Martin font, 153px, weight 400, Ghostly White text (#ffffff), with an illustrative horse and arrow integrated. Subtext 'Break Maiden is an innovative creative studio that specializes in branding, packaging, and illustration' Using America font, 22px, weight 400, Ghostly White text (#ffffff). Overall padding 110px top.\n\nCreate a ghost button: 'Skip to Content' with Midnight Canvas background (#000000), Ghostly White text (#ffffff), a 1.5px solid Ghostly White (#ffffff) border, 0px radius, and 17.51px vertical / 77.824px horizontal padding. Font: Helvetica Neue 25px, Weight 500.\n\nCreate a product grid card: Background Midnight Canvas (#000000). No border or shadow. 0px radius. Contains a large product image with a caption 'Olipop' in Helvetica Neue, 25px, weight 500, Ghostly White text (#ffffff) and a subtitle 'A New Kind of Soda' in America, 19px, weight 400, Muted Stone text (#8e8e8e). Card has 0px padding."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777520445024-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777520445024-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/02610b06-d16e-47bd-a1ea-18979a9ed4f5",
+  "ranks": {
+    "trending": 549,
+    "popular": 750,
+    "newest": 95
+  },
+  "localSlug": "break-maiden-02610b06"
+}

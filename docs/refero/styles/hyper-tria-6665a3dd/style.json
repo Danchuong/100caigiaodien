@@ -1,0 +1,994 @@
+{
+  "id": "6665a3dd-606f-4fd1-80dd-a84e3b3a6226",
+  "url": "https://hypertria.com",
+  "siteName": "Hyper Tria",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777516999150-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777516999150-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "light",
+  "colors": [
+    {
+      "name": "Midnight",
+      "hex": "#000000"
+    },
+    {
+      "name": "Canvas",
+      "hex": "#ffffff"
+    },
+    {
+      "name": "Charcoal",
+      "hex": "#666666"
+    },
+    {
+      "name": "Leaf Green",
+      "hex": "#0fa64b"
+    },
+    {
+      "name": "Vivid Blue",
+      "hex": "#007bff"
+    },
+    {
+      "name": "Accent Red",
+      "hex": "#ee3a49"
+    }
+  ],
+  "fonts": [
+    "Aeonik",
+    "-apple-system"
+  ],
+  "northStar": "monochromatic gallery, bold typography",
+  "createdAt": "2026-04-30T02:43:42.170Z",
+  "previewVideoCapturedAt": null,
+  "industry": "agency",
+  "fullResult": {
+    "meta": {
+      "url": "https://hypertria.com",
+      "siteName": "Hyper Tria",
+      "extractedAt": "2026-04-30T02:43:42.101Z",
+      "durationMs": 38575,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 107,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "other",
+              "nav",
+              "list",
+              "link",
+              "body",
+              "heading",
+              "image",
+              "footer"
+            ],
+            "frequency": 372,
+            "confidence": 1,
+            "prominence": 44620878.83851598,
+            "properties": [
+              "color",
+              "borderColor",
+              "backgroundColor",
+              "stroke"
+            ],
+            "usageCounts": {
+              "nav/color": 5,
+              "body/color": 1,
+              "link/color": 6,
+              "list/color": 3,
+              "image/color": 2,
+              "other/color": 40,
+              "footer/color": 1,
+              "other/stroke": 6,
+              "heading/color": 15,
+              "nav/borderColor": 20,
+              "body/borderColor": 4,
+              "link/borderColor": 24,
+              "list/borderColor": 12,
+              "image/borderColor": 8,
+              "other/borderColor": 160,
+              "footer/borderColor": 4,
+              "heading/borderColor": 60,
+              "footer/backgroundColor": 1
+            }
+          },
+          {
+            "hex": "#ffffff",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 1.0000000000000002
+            },
+            "contexts": [
+              "link",
+              "body",
+              "other",
+              "heading",
+              "image"
+            ],
+            "frequency": 90,
+            "confidence": 1,
+            "prominence": 1474100.0873353274,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "body/color": 2,
+              "link/color": 7,
+              "image/color": 1,
+              "other/color": 7,
+              "heading/color": 1,
+              "body/borderColor": 8,
+              "link/borderColor": 28,
+              "image/borderColor": 4,
+              "other/borderColor": 28,
+              "heading/borderColor": 4
+            }
+          },
+          {
+            "hex": "#0fa64b",
+            "oklch": {
+              "c": 0.17376509728807,
+              "h": 149.41141506520836,
+              "l": 0.6346964262885972
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 4,
+            "confidence": 1,
+            "prominence": 1025532.9474531859,
+            "properties": [
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "other/backgroundColor": 4
+            }
+          },
+          {
+            "hex": "#409b3f",
+            "oklch": {
+              "c": 0.155925454758576,
+              "h": 143.2075045935627,
+              "l": 0.6136418543930006
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 202918,
+            "properties": [
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "other/backgroundColor": 1
+            }
+          },
+          {
+            "hex": "#666666",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.5102783583015936
+            },
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 30,
+            "confidence": 1,
+            "prominence": 178351.0671739275,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "nav/color": 6,
+              "nav/borderColor": 24
+            }
+          },
+          {
+            "hex": "#007bff",
+            "oklch": {
+              "c": 0.21655855446324532,
+              "h": 257.2135525849719,
+              "l": 0.6048143981673075
+            },
+            "contexts": [
+              "link",
+              "other",
+              "image"
+            ],
+            "frequency": 20,
+            "confidence": 1,
+            "prominence": 173118.79890140207,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "link/color": 2,
+              "image/color": 1,
+              "other/color": 1,
+              "link/borderColor": 8,
+              "image/borderColor": 4,
+              "other/borderColor": 4
+            }
+          },
+          {
+            "hex": "#ee3a49",
+            "oklch": {
+              "c": 0.21464591942185207,
+              "h": 21.941302236315504,
+              "l": 0.6271854278459447
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 36,
+            "properties": [
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "other/backgroundColor": 1
+            }
+          }
+        ],
+        "isDarkMode": false,
+        "colorfulness": 0.028158211690481133,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 21,
+            "background": "#000000",
+            "foreground": "#ffffff"
+          },
+          {
+            "level": "AA",
+            "ratio": 6.58,
+            "background": "#0fa64b",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AA",
+            "ratio": 5.98,
+            "background": "#409b3f",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AA",
+            "ratio": 5.34,
+            "background": "#ee3a49",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AA",
+            "ratio": 5.28,
+            "background": "#000000",
+            "foreground": "#007bff"
+          },
+          {
+            "level": "fail",
+            "ratio": 3.93,
+            "background": "#ee3a49",
+            "foreground": "#ffffff"
+          },
+          {
+            "level": "fail",
+            "ratio": 3.66,
+            "background": "#000000",
+            "foreground": "#666666"
+          },
+          {
+            "level": "fail",
+            "ratio": 3.51,
+            "background": "#409b3f",
+            "foreground": "#ffffff"
+          },
+          {
+            "level": "fail",
+            "ratio": 3.19,
+            "background": "#0fa64b",
+            "foreground": "#ffffff"
+          },
+          {
+            "level": "fail",
+            "ratio": 1.8,
+            "background": "#0fa64b",
+            "foreground": "#666666"
+          },
+          {
+            "level": "fail",
+            "ratio": 1.63,
+            "background": "#409b3f",
+            "foreground": "#666666"
+          },
+          {
+            "level": "fail",
+            "ratio": 1.46,
+            "background": "#ee3a49",
+            "foreground": "#666666"
+          },
+          {
+            "level": "fail",
+            "ratio": 1.25,
+            "background": "#0fa64b",
+            "foreground": "#007bff"
+          },
+          {
+            "level": "fail",
+            "ratio": 1.13,
+            "background": "#409b3f",
+            "foreground": "#007bff"
+          },
+          {
+            "level": "fail",
+            "ratio": 1.01,
+            "background": "#ee3a49",
+            "foreground": "#007bff"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 8,
+            "contexts": [
+              "link"
+            ],
+            "frequency": 4,
+            "properties": [
+              "paddingRight"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|link"
+            ]
+          },
+          {
+            "value": 10,
+            "contexts": [
+              "nav",
+              "image"
+            ],
+            "frequency": 9,
+            "properties": [
+              "marginRight",
+              "marginLeft",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "marginRight|nav",
+              "marginLeft|nav",
+              "paddingBottom|image"
+            ]
+          },
+          {
+            "value": 18,
+            "contexts": [
+              "body",
+              "link"
+            ],
+            "frequency": 2,
+            "properties": [
+              "marginRight"
+            ],
+            "propertyContextPairs": [
+              "marginRight|body",
+              "marginRight|link"
+            ]
+          },
+          {
+            "value": 20,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 4,
+            "properties": [
+              "marginRight"
+            ],
+            "propertyContextPairs": [
+              "marginRight|heading"
+            ]
+          },
+          {
+            "value": 23,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 2,
+            "properties": [
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "marginBottom|heading"
+            ]
+          },
+          {
+            "value": 25,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingTop",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other",
+              "paddingBottom|other"
+            ]
+          },
+          {
+            "value": 26,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingTop",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other",
+              "paddingBottom|other"
+            ]
+          },
+          {
+            "value": 28,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 3,
+            "properties": [
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "marginBottom|heading"
+            ]
+          },
+          {
+            "value": 42,
+            "contexts": [
+              "footer"
+            ],
+            "frequency": 1,
+            "properties": [
+              "paddingTop"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|footer"
+            ]
+          },
+          {
+            "value": 44,
+            "contexts": [
+              "footer",
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingBottom|footer",
+              "paddingBottom|other"
+            ]
+          },
+          {
+            "value": 45,
+            "contexts": [
+              "other",
+              "footer"
+            ],
+            "frequency": 4,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|other",
+              "paddingLeft|other",
+              "paddingRight|footer",
+              "paddingLeft|footer"
+            ]
+          },
+          {
+            "value": 100,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 3,
+            "properties": [
+              "marginBottom",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "marginBottom|other",
+              "paddingLeft|other"
+            ]
+          },
+          {
+            "value": 110,
+            "contexts": [
+              "nav",
+              "heading"
+            ],
+            "frequency": 3,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|nav",
+              "paddingLeft|heading"
+            ]
+          },
+          {
+            "value": 115,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingLeft|heading"
+            ]
+          },
+          {
+            "value": 145,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 6,
+            "properties": [
+              "marginRight",
+              "marginLeft"
+            ],
+            "propertyContextPairs": [
+              "marginRight|other",
+              "marginLeft|other"
+            ]
+          }
+        ],
+        "density": "spacious",
+        "baseUnit": null
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "-apple-system",
+            "source": "system",
+            "weights": [
+              400
+            ],
+            "frequency": 58,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "Aeonik Regular",
+            "source": "custom",
+            "weights": [
+              300,
+              400,
+              500
+            ],
+            "frequency": 43,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 28,
+          "name": "Minor Third",
+          "ratio": 1.2,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 13,
+            "family": "Aeonik Regular",
+            "weight": 400,
+            "contexts": [
+              "body",
+              "link"
+            ],
+            "frequency": 2,
+            "lineHeight": 2.23,
+            "letterSpacing": 0.02,
+            "textTransform": "none"
+          },
+          {
+            "size": 14,
+            "family": "-apple-system",
+            "weight": 400,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 2,
+            "lineHeight": 1.7,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 14,
+            "family": "Aeonik Regular",
+            "weight": 400,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 4,
+            "lineHeight": 1.7,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 19,
+            "family": "Aeonik Regular",
+            "weight": 400,
+            "contexts": [
+              "list",
+              "link",
+              "body"
+            ],
+            "frequency": 6,
+            "lineHeight": 1.16,
+            "letterSpacing": -0.02,
+            "textTransform": "none"
+          },
+          {
+            "size": 20,
+            "family": "Aeonik Regular",
+            "weight": 400,
+            "contexts": [
+              "link"
+            ],
+            "frequency": 5,
+            "lineHeight": 1.45,
+            "letterSpacing": -0.01,
+            "textTransform": "none"
+          },
+          {
+            "size": 27,
+            "family": "Aeonik Regular",
+            "weight": 400,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 4,
+            "lineHeight": 1.48,
+            "letterSpacing": -0.02,
+            "textTransform": "none"
+          },
+          {
+            "size": 28,
+            "family": "-apple-system",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "link",
+              "nav",
+              "list",
+              "footer",
+              "image"
+            ],
+            "frequency": 44,
+            "lineHeight": 1.5,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 30,
+            "family": "-apple-system",
+            "weight": 400,
+            "contexts": [
+              "link",
+              "other"
+            ],
+            "frequency": 12,
+            "lineHeight": 1.5,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 30,
+            "family": "Aeonik Regular",
+            "weight": 500,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 3,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 35,
+            "family": "Aeonik Regular",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "heading"
+            ],
+            "frequency": 3,
+            "lineHeight": 1.11,
+            "letterSpacing": 0.01,
+            "textTransform": "none"
+          },
+          {
+            "size": 75,
+            "family": "Aeonik Regular",
+            "weight": 300,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 8,
+            "lineHeight": 0.9,
+            "letterSpacing": -0.053,
+            "textTransform": "none"
+          },
+          {
+            "size": 90,
+            "family": "Aeonik Regular",
+            "weight": 400,
+            "contexts": [
+              "heading",
+              "image",
+              "link"
+            ],
+            "frequency": 8,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Use Midnight (#000000) for primary text and Canvas (#ffffff) for backgrounds to maintain high contrast.",
+        "Apply Aeonik for all headings and substantial text blocks, leveraging its distinct letter-spacing for visual impact.",
+        "Use Vivid Blue (#007bff) exclusively for interactive elements like links and button borders, not for backgrounds.",
+        "Ensure generous vertical spacing between sections (44px-100px) and elements (8px-20px) to uphold a spacious aesthetic.",
+        "Maintain sharp, 0px border-radius for all UI elements to align with the minimalist and precise tone.",
+        "Employ the Leaf Green (#0fa64b) for large background sections to create a clear visual break and inject brand identity.",
+        "Prioritize black and white as the dominant color scheme, reserving brand and accent colors for functional highlights only."
+      ],
+      "donts": [
+        "Avoid using multiple chromatic colors for aesthetic purposes; restrict their use to functional UI elements.",
+        "Do not introduce rounded corners; all shapes should remain sharp and angular.",
+        "Refrain from using shadows or gradients, as the system relies on flat surfaces and high contrast.",
+        "Do not deviate from the specified letter-spacing for Aeonik, especially at larger sizes, as it's a key brand identifier.",
+        "Avoid dense, information-heavy blocks of text; break content into manageable, well-spaced segments.",
+        "Do not use Vivid Blue (#007bff) or Leaf Green (#0fa64b) as primary text colors unless the background strongly contrasts in black or white.",
+        "Introduce images without a defined border; images should always be visually contained."
+      ],
+      "theme": "light",
+      "colors": [
+        {
+          "hex": "#000000",
+          "name": "Midnight",
+          "role": "Page backgrounds, primary text, borders, navigation text, hero text outlining a vivid accent color",
+          "group": "neutral"
+        },
+        {
+          "hex": "#ffffff",
+          "name": "Canvas",
+          "role": "Hairline borders, dividers, input outlines, and card edges on light surfaces. Do not promote it to the primary CTA color",
+          "group": "neutral"
+        },
+        {
+          "hex": "#666666",
+          "name": "Charcoal",
+          "role": "Muted navigation text, secondary borders",
+          "group": "neutral"
+        },
+        {
+          "hex": "#0fa64b",
+          "name": "Leaf Green",
+          "role": "Section backgrounds, decorative accents, large brand blocks",
+          "group": "brand"
+        },
+        {
+          "hex": "#007bff",
+          "name": "Vivid Blue",
+          "role": "Outlined interactive elements, link text, borders for images",
+          "group": "accent"
+        },
+        {
+          "hex": "#ee3a49",
+          "name": "Accent Red",
+          "role": "Small decorative background elements",
+          "group": "accent"
+        }
+      ],
+      "layout": "The page employs a full-bleed layout for background elements, but main content is often centered and contained, although no strict `pageMaxWidth` is enforced. The hero section can be full-viewport with large, tracked typography against a dark background, sometimes featuring a prominent 3D graphic. Section rhythm is driven by alternating background colors (e.g., white, black, Leaf Green) and consistent, generous vertical spacing. Content often appears in single-column stacks or a simple two-column arrangement, where a visual (image/graphic) balances off a block of large, impactful text. Navigation is a simple top-bar with text links and a language switcher, suggesting a minimal approach.",
+      "imagery": "This site utilizes a mix of high-quality product photography and sparse, minimalist graphics. Photography often features tight crops of products (like the breakfast box) against clean, light backgrounds, highlighting texture and form without distracting context. In some cases, unique 3D renders or abstract metallic graphic elements (like the 'H' symbol) are used to create a distinctive brand identity, often with a stark, reflective quality against dark backgrounds. Iconography is minimal: often simple, thin-lined arrows or social media icons. Imagery serves to showcase work or add abstract branding, maintaining a generally uncluttered visual field.",
+      "similar": [
+        {
+          "why": "High-contrast, minimalist design with bold, custom typography and stark use of black and white.",
+          "business": "Awwwards"
+        },
+        {
+          "why": "Focus on large, impactful headlines, ample whitespace, and strategic use of a single accent color for calls to action.",
+          "business": "Figma's landing pages"
+        },
+        {
+          "why": "Modern agency site aesthetic with a clean, grid-like layout, strong typographic hierarchy, and minimalist use of imagery against clear backgrounds.",
+          "business": "B-Reel"
+        },
+        {
+          "why": "Employs an experimental, often dark, design with heavy emphasis on typography and sparse, striking visual elements or 3D graphics.",
+          "business": "Active Theory"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "default": "0px"
+        },
+        "elementGap": "",
+        "sectionGap": "",
+        "cardPadding": "",
+        "pageMaxWidth": null
+      },
+      "industry": "agency",
+      "northStar": "monochromatic gallery, bold typography",
+      "typeScale": [
+        {
+          "role": "body-lg",
+          "size": 14,
+          "lineHeight": 1.7,
+          "letterSpacing": 0.01
+        },
+        {
+          "role": "subheading",
+          "size": 19,
+          "lineHeight": 1.48
+        },
+        {
+          "role": "heading",
+          "size": 27,
+          "lineHeight": 1.16
+        },
+        {
+          "role": "heading-lg",
+          "size": 30,
+          "lineHeight": 1.11
+        },
+        {
+          "role": "display-md",
+          "size": 35,
+          "lineHeight": 1,
+          "letterSpacing": -0.01
+        },
+        {
+          "role": "display",
+          "size": 75,
+          "lineHeight": 0.9,
+          "letterSpacing": -0.02
+        },
+        {
+          "role": "display-lg",
+          "size": 90,
+          "lineHeight": 0.9,
+          "letterSpacing": -0.053
+        }
+      ],
+      "components": [
+        {
+          "name": "Outlined Navigation Link",
+          "role": "Primary navigation element",
+          "description": "Displays as 'Hyper Branding': #007bff border with 2px thickness (active/hover) or #000000 border (inactive/default), with #000000 text for current page or #666666 for others. Uses Aeonik weight 400 at 14px with normal letter spacing. Padding on right is 8px for spacing."
+        },
+        {
+          "name": "Text Link",
+          "role": "Standard interactive text link",
+          "description": "Text in Vivid Blue (#007bff) for default state, using Aeonik weight 400 at 14px with normal letter spacing. Appears frequently within body copy and lists."
+        },
+        {
+          "name": "Hero Headline",
+          "role": "Large, impactful display text",
+          "description": "Black text, using Aeonik weight 300 or 400 at 75px or 90px size, with tight letter spacing (-0.0200em at 75px, -0.0530em at 90px) to create dense, commanding blocks of text. Used for main section titles like 'AN OUT OF THE BOX CONCEPT'."
+        },
+        {
+          "name": "Section Subheading",
+          "role": "Secondary heading for content blocks",
+          "description": "Black text, using Aeonik weight 400 at 27px or 30px size, with tight letter spacing (-0.0100em) and 23px or 28px bottom margin for clear separation from body text. Example: 'Your Breakfast Box'."
+        },
+        {
+          "name": "Image Outline Container",
+          "role": "Visual frame for images",
+          "description": "A container with a 1px border in Vivid Blue (#007bff) or Midnight (#000000), encasing images to provide visual structure."
+        },
+        {
+          "name": "Sub-Navigation Text",
+          "role": "Secondary menu or language switcher",
+          "description": "Charcoal text (#666666), Aeonik weight 400 at 14px with normal letter spacing. Used for 'En / Gr' or similar secondary links."
+        },
+        {
+          "name": "Footer Copyright",
+          "role": "Legal and branding information in footer",
+          "description": "Black text (#000000), -apple-system font at 14px, normal letter spacing, ensuring legibility against the footer's background."
+        }
+      ],
+      "typography": [
+        {
+          "role": "Primary brand typeface for all headings and body text, providing a premium, contemporary feel with its distinct tracking at larger sizes.",
+          "sizes": "13px, 14px, 19px, 20px, 27px, 30px, 35px, 75px, 90px",
+          "family": "Aeonik",
+          "weight": "300, 400, 500",
+          "weights": [
+            300,
+            400,
+            500
+          ],
+          "lineHeight": "0.90, 1.00, 1.11, 1.16, 1.45, 1.48, 1.70, 2.23",
+          "substitute": "system-ui",
+          "letterSpacing": "-0.0530em at 90px, -0.0200em at 75px, -0.0100em at 35px, 0.0100em at 14px-20px, 0.0200em at 13px"
+        },
+        {
+          "role": "Fallback system font for navigation, labels, and smaller text, ensuring broad compatibility while aligning with a clean aesthetic.",
+          "sizes": "14px, 28px, 30px",
+          "family": "-apple-system",
+          "weight": "400",
+          "weights": [
+            400
+          ],
+          "lineHeight": "1.50, 1.70",
+          "letterSpacing": "normal"
+        }
+      ],
+      "description": "Hyper Tria presents as a minimalistic, content-driven agency. Its visual system prioritizes stark contrast and ample whitespace, using black and white as primary communicators. Typography is sharp and impactful, often appearing in large, tracked blocks that command attention. Color is used sparingly, primarily as an accent for subtle interactive states or to denote specific sections, creating a focused and uncluttered user experience.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "Quick Color Reference: \ntext: #000000\nbackground: #ffffff\nborder: #000000\naccent: #0fa64b\nprimary action: #007bff (outlined action border)\n\nExample Component Prompts:\nCreate a hero section with a black background: headline 'HYPER BRANDS' in Canvas (#ffffff), Aeonik weight 300, 90px size, line-height 0.9, letter-spacing -0.053em. Centered vertically and horizontally.\nGenerate a content section: Leaf Green (#0fa64b) background. Left side: image container with a 1px border in Vivid Blue (#007bff). Right side: heading 'Your Breakfast Box' in Midnight (#000000), Aeonik weight 400, 27px size, line-height 1.16, margin-bottom 23px. Below, body text in Midnight (#000000), Aeonik weight 400, 14px size, line-height 1.7, letter-spacing 0.01em.\nConstruct a navigation bar: Canvas (#ffffff) background, with 'Hyper Branding' link in Vivid Blue (#007bff) border, 2px thickness, text in Midnight (#000000), Aeonik weight 400, 14px size. 'Agency', 'Works', 'Contact' links with no border, text in Charcoal (#666666), Aeonik weight 400, 14px size."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777516999150-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777516999150-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/6665a3dd-606f-4fd1-80dd-a84e3b3a6226",
+  "ranks": {
+    "trending": 807,
+    "popular": 871,
+    "newest": 307
+  },
+  "localSlug": "hyper-tria-6665a3dd"
+}

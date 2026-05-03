@@ -1,0 +1,402 @@
+{
+  "id": "4b5bfae9-69ef-46ec-ad6d-ff9a8bfe3525",
+  "url": "https://morganlight.com",
+  "siteName": "Morgan Light",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777519537661-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777519537661-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "light",
+  "colors": [
+    {
+      "name": "Canvas White",
+      "hex": "#e5e7eb"
+    },
+    {
+      "name": "Ink Black",
+      "hex": "#000000"
+    },
+    {
+      "name": "Subtle Gray",
+      "hex": "#b5b5b5"
+    }
+  ],
+  "fonts": [
+    "Neue"
+  ],
+  "northStar": "Gallery on White Canvas",
+  "createdAt": "2026-04-30T03:25:50.371Z",
+  "previewVideoCapturedAt": null,
+  "industry": "design",
+  "fullResult": {
+    "meta": {
+      "url": "https://morganlight.com",
+      "siteName": "Morgan Light",
+      "extractedAt": "2026-04-30T03:25:50.304Z",
+      "durationMs": 33196,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 235,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#e5e7eb",
+            "oklch": {
+              "c": 0.005813542372075684,
+              "h": 264.5313231484507,
+              "l": 0.9275823098127417
+            },
+            "contexts": [
+              "other",
+              "nav",
+              "link",
+              "image",
+              "body"
+            ],
+            "frequency": 936,
+            "confidence": 1,
+            "prominence": 40291628.40081266,
+            "properties": [
+              "borderColor"
+            ],
+            "usageCounts": {
+              "nav/borderColor": 20,
+              "body/borderColor": 68,
+              "link/borderColor": 164,
+              "image/borderColor": 116,
+              "other/borderColor": 568
+            }
+          },
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "other",
+              "nav",
+              "link",
+              "body"
+            ],
+            "frequency": 194,
+            "confidence": 1,
+            "prominence": 31048892.665071465,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "nav/color": 1,
+              "body/color": 14,
+              "link/color": 41,
+              "other/color": 134,
+              "body/borderColor": 4
+            }
+          },
+          {
+            "hex": "#b5b5b5",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.7731043505289305
+            },
+            "contexts": [
+              "other",
+              "body"
+            ],
+            "frequency": 12,
+            "confidence": 1,
+            "prominence": 7778.324287532576,
+            "properties": [
+              "color"
+            ],
+            "usageCounts": {
+              "body/color": 4,
+              "other/color": 8
+            }
+          }
+        ],
+        "isDarkMode": false,
+        "colorfulness": 0.012878013111806788,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 16.96,
+            "background": "#e5e7eb",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 10.24,
+            "background": "#b5b5b5",
+            "foreground": "#000000"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 4,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 14,
+            "properties": [
+              "marginTop"
+            ],
+            "propertyContextPairs": [
+              "marginTop|other"
+            ]
+          },
+          {
+            "value": 10,
+            "contexts": [
+              "nav",
+              "other"
+            ],
+            "frequency": 8,
+            "properties": [
+              "paddingTop",
+              "paddingRight",
+              "paddingLeft",
+              "columnGap"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|nav",
+              "paddingRight|nav",
+              "paddingLeft|nav",
+              "paddingRight|other",
+              "paddingLeft|other",
+              "columnGap|other"
+            ]
+          },
+          {
+            "value": 24,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 7,
+            "properties": [
+              "marginBottom",
+              "rowGap",
+              "columnGap",
+              "marginRight"
+            ],
+            "propertyContextPairs": [
+              "marginBottom|other",
+              "rowGap|other",
+              "columnGap|other",
+              "marginRight|other"
+            ]
+          },
+          {
+            "value": 40,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingBottom",
+              "paddingRight"
+            ],
+            "propertyContextPairs": [
+              "paddingBottom|nav",
+              "paddingRight|nav"
+            ]
+          }
+        ],
+        "density": "compact",
+        "baseUnit": 4
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "Neue",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 233,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": null,
+        "steps": [
+          {
+            "size": 14,
+            "family": "Neue",
+            "weight": 400,
+            "contexts": [
+              "nav",
+              "other",
+              "link",
+              "image",
+              "body"
+            ],
+            "frequency": 230,
+            "lineHeight": 1.14,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "Neue",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "nav"
+            ],
+            "frequency": 3,
+            "lineHeight": 1.5,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Use Canvas White (#e5e7eb) as the pervasive background color for all surfaces and backgrounds.",
+        "Employ Ink Black (#000000) exclusively for primary text, headlines, and interactive elements to maintain high contrast.",
+        "Apply Subtle Gray (#b5b5b5) sparingly for secondary information like helper text or captions.",
+        "Maintain a default padding of 24px for vertical spacing between content blocks and sections.",
+        "Define interactive button and link areas with text color changes rather than background fills or heavy borders, adhering to the ghost-like aesthetic.",
+        "Place all images edge-to-edge within their grid containers, with no internal padding or radius.",
+        "Utilize Neue weight 400 for all text elements; avoid other weights unless explicitly defined."
+      ],
+      "donts": [
+        "Do not introduce saturated colors unless they are part of the image content itself.",
+        "Avoid applying any border-radius to elements; maintain sharp, crisp edges for all components.",
+        "Do not use elevation or shadows; the design relies on flat, high-contrast visual separation.",
+        "Refrain from using varied font sizes or weights for hierarchy; rely on layout and content structure instead.",
+        "Do not add decorative flourishes, icons, or complex graphical elements outside of the portfolio images.",
+        "Avoid applying background fills to interactive components like buttons or tags; keep them text-based with implied interaction zones.",
+        "Refrain from using horizontal dividers; rely on clear vertical spacing for content separation."
+      ],
+      "theme": "light",
+      "colors": [
+        {
+          "hex": "#e5e7eb",
+          "name": "Canvas White",
+          "role": "Hairline borders, dividers, input outlines, and card edges on light surfaces. Do not promote it to the primary CTA color",
+          "group": "neutral"
+        },
+        {
+          "hex": "#000000",
+          "name": "Ink Black",
+          "role": "Primary text, headings, links, and bold accents for navigation items",
+          "group": "neutral"
+        },
+        {
+          "hex": "#b5b5b5",
+          "name": "Subtle Gray",
+          "role": "Muted helper text, secondary information, and subtle category labels",
+          "group": "neutral"
+        }
+      ],
+      "layout": "The page uses a full-bleed, fluid layout with a dominant two-column grid for the portfolio items. There is no explicit maximum width, allowing content to stretch across the viewport. The hero consists of a simple centered text block over the page background. Section rhythm is driven by the consistent grid of images with minimal vertical spacing (24px row-gap, 24px column-gap), creating a dense, gallery-like feel. Navigation is a minimal, always-present top bar with compact text links. Content is arranged in an almost uniform grid, with slight variations in image size and aspect ratio.",
+      "imagery": "The site is image-heavy, primarily showcasing diverse product photography and custom branding illustrations. Images are presented as contained, full-bleed within their grid cells, featuring square or rectangular raw edges without masking or rounding. Photography styles vary greatly as they are client projects, but they are consistently high-quality, often with vibrant coloration or striking compositions. Illustrations tend to be brand-specific and diverse. Graphics serve as direct product showcases and visual evidence of design work, dominating the visual space relative to text, which is purely explanatory.",
+      "similar": [
+        {
+          "why": "High-contrast, text-minimal design portfolios with strong emphasis on visual work, often using a grayscale palette.",
+          "business": "AIGA (American Institute of Graphic Arts)"
+        },
+        {
+          "why": "Portfolio sites that prioritize large-scale imagery and minimal text, using simple grid layouts and a monochrome base.",
+          "business": "Pentagram"
+        },
+        {
+          "why": "Design studio websites with a focus on showcasing client work through high-impact visuals and restrained UI elements.",
+          "business": "Sagmeister & Walsh (archived)"
+        },
+        {
+          "why": "Minimal UIs where the 'art' is the focus, often using a stark white background and black text to frame colorful project visuals.",
+          "business": "Certain graphic design portfolios on Behance/Dribbble"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "cards": "0px",
+          "images": "0px",
+          "buttons": "0px"
+        },
+        "elementGap": "4px",
+        "sectionGap": "24px",
+        "cardPadding": "0px",
+        "pageMaxWidth": null
+      },
+      "industry": "design",
+      "northStar": "Gallery on White Canvas",
+      "components": [
+        {
+          "name": "Navigation Link",
+          "role": "Top-level navigation and filter links.",
+          "description": "Text is Ink Black (#000000), weight 400. Paddings are 10px top/right/left. Hover or active states define interactivity through text color changes or subtle underlines."
+        },
+        {
+          "name": "Image Grid Item",
+          "role": "Container for portfolio imagery.",
+          "description": "Images are presented full size within a Canvas White (#e5e7eb) background. Each item features a hairline 1px border of Canvas White (#e5e7eb), acting as a subtle spacer. Image captions are Ink Black (#000000) text below the image."
+        },
+        {
+          "name": "Filter Tag",
+          "role": "Categorization tags for filtering portfolio items.",
+          "description": "Text color is Ink Black (#000000), font Neue weight 400 at 14px. These tags have no visible background fill or border in their default state, relying on the minimal whitespace for separation."
+        }
+      ],
+      "typography": [
+        {
+          "role": "The primary typeface for all text content, from navigation to body text. Its singular, moderate weight contributes to the system's unassuming and direct presentation, acting as a label rather than a statement.",
+          "sizes": "14px, 16px",
+          "family": "Neue",
+          "weight": "400",
+          "lineHeight": "1.14, 1.50",
+          "substitute": "Helvetica Neue, Arial"
+        }
+      ],
+      "description": "Morgan Light presents a minimal, high-contrast digital portfolio. The system is built on a stark monochrome palette, emphasizing content through a dense grid of product imagery contained within fine, light gray borders. Typography is direct and compact, serving as clear information labels against the pristine white canvas. Components are lightweight, using subtle borders to define interactive areas, ensuring the vivid product visuals remain the focal point.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "Quick Color Reference: \ntext: #000000\nbackground: #e5e7eb\nborder: #e5e7eb\naccent: no distinct accent color\nprimary action: no distinct CTA color\n\nExample Component Prompts:\n1. Create a top navigation bar: Canvas White (#e5e7eb) background. \"Info\" link is Ink Black (#000000), Neue weight 400, size 16px. Overall padding 40px bottom, 10px top/right/left. \n2. Create a portfolio image grid item: Background Canvas White (#e5e7eb), 1px solid border Canvas White (#e5e7eb). Place an image (replace with actual image URL). Below the image, add a caption \"Guild\" in Ink Black (#000000), Neue weight 400, size 14px. Each grid item has a 24px row-gap and 24px column-gap from others.\n3. Create a filtered category button: Text 'All Projects' in Ink Black (#000000), Neue weight 400, size 14px. No background or border. Padding 10px top/right/left."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777519537661-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777519537661-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/4b5bfae9-69ef-46ec-ad6d-ff9a8bfe3525",
+  "ranks": {
+    "trending": 1131,
+    "popular": 1153,
+    "newest": 156
+  },
+  "localSlug": "morgan-light-4b5bfae9"
+}

@@ -1,0 +1,497 @@
+{
+  "id": "872ce8b7-993d-4dea-a361-9ccb59d136c0",
+  "url": "https://kaisermann.me",
+  "siteName": "kaisermann",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777520921180-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777520921180-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "dark",
+  "colors": [
+    {
+      "name": "Terminal Black",
+      "hex": "#000000"
+    },
+    {
+      "name": "Text Gray",
+      "hex": "#a0a0a0"
+    },
+    {
+      "name": "Active White",
+      "hex": "#ffffff"
+    },
+    {
+      "name": "Glitch Cyan",
+      "hex": "#02b7b6",
+      "gradient": "rgba(2, 183, 182, .4)"
+    },
+    {
+      "name": "Glitch Red",
+      "hex": "#b70202",
+      "gradient": "rgba(183, 2, 2, .4)"
+    }
+  ],
+  "fonts": [
+    "VCR OSD Mono"
+  ],
+  "northStar": "monochrome command-line interface",
+  "createdAt": "2026-04-30T03:48:58.068Z",
+  "previewVideoCapturedAt": null,
+  "industry": "other",
+  "fullResult": {
+    "meta": {
+      "url": "https://kaisermann.me",
+      "siteName": "kaisermann",
+      "extractedAt": "2026-04-30T03:48:58.002Z",
+      "durationMs": 21980,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 51,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#a0a0a0",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.7057570122420298
+            },
+            "contexts": [
+              "other",
+              "nav",
+              "button",
+              "body",
+              "card",
+              "heading",
+              "footer",
+              "list"
+            ],
+            "frequency": 185,
+            "confidence": 1,
+            "prominence": 82930746.92218834,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "nav/color": 6,
+              "body/color": 1,
+              "card/color": 1,
+              "list/color": 4,
+              "other/color": 20,
+              "button/color": 3,
+              "footer/color": 1,
+              "heading/color": 1,
+              "nav/borderColor": 24,
+              "body/borderColor": 4,
+              "card/borderColor": 4,
+              "list/borderColor": 16,
+              "other/borderColor": 80,
+              "button/borderColor": 12,
+              "footer/borderColor": 4,
+              "heading/borderColor": 4
+            }
+          },
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 3,
+            "confidence": 1,
+            "prominence": 2592000,
+            "properties": [
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "other/backgroundColor": 3
+            }
+          },
+          {
+            "hex": "#ffffff",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 1.0000000000000002
+            },
+            "contexts": [
+              "link",
+              "nav",
+              "heading",
+              "button"
+            ],
+            "frequency": 70,
+            "confidence": 1,
+            "prominence": 251985.88822170434,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "nav/color": 2,
+              "link/color": 10,
+              "button/color": 1,
+              "heading/color": 1,
+              "nav/borderColor": 8,
+              "link/borderColor": 40,
+              "button/borderColor": 4,
+              "heading/borderColor": 4
+            }
+          }
+        ],
+        "isDarkMode": true,
+        "colorfulness": 0,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 21,
+            "background": "#000000",
+            "foreground": "#ffffff"
+          },
+          {
+            "level": "AAA",
+            "ratio": 8.03,
+            "background": "#000000",
+            "foreground": "#a0a0a0"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 76,
+            "contexts": [
+              "footer"
+            ],
+            "frequency": 1,
+            "properties": [
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingBottom|footer"
+            ]
+          },
+          {
+            "value": 144,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "marginRight",
+              "marginLeft"
+            ],
+            "propertyContextPairs": [
+              "marginRight|other",
+              "marginLeft|other"
+            ]
+          },
+          {
+            "value": 160,
+            "contexts": [
+              "footer"
+            ],
+            "frequency": 1,
+            "properties": [
+              "marginTop"
+            ],
+            "propertyContextPairs": [
+              "marginTop|footer"
+            ]
+          }
+        ],
+        "density": "spacious",
+        "baseUnit": 8
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "VCR OSD Mono",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 51,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 26,
+          "name": "Major Second",
+          "ratio": 1.125,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 23,
+            "family": "VCR OSD Mono",
+            "weight": 400,
+            "contexts": [
+              "button"
+            ],
+            "frequency": 2,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 26,
+            "family": "VCR OSD Mono",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "link",
+              "card",
+              "footer",
+              "list"
+            ],
+            "frequency": 24,
+            "lineHeight": 1.4,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 26,
+            "family": "VCR OSD Mono",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "nav",
+              "body"
+            ],
+            "frequency": 15,
+            "lineHeight": 1.4,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 26,
+            "family": "VCR OSD Mono",
+            "weight": 400,
+            "contexts": [
+              "button"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 63,
+            "family": "VCR OSD Mono",
+            "weight": 400,
+            "contexts": [
+              "heading",
+              "link"
+            ],
+            "frequency": 8,
+            "lineHeight": 1.4,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 63,
+            "family": "VCR OSD Mono",
+            "weight": 400,
+            "contexts": [
+              "button"
+            ],
+            "frequency": 1,
+            "lineHeight": 0.9,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Always use 'VCR OSD Mono' for all text content, respecting its fixed letter-spacing and line heights to maintain the pixelated aesthetic.",
+        "Utilize Terminal Black (#000000) as the universal background for all sections and components without exception.",
+        "Apply Active White (#ffffff) exclusively for high-emphasis text, active states, and interactive element borders.",
+        "Employ Text Gray (#a0a0a0) for all primary body text, secondary information, and inactive interactive borders.",
+        "Maintain a uniform 0px border-radius for all interactive and visual elements, reinforcing the sharp, digital interface feel.",
+        "Keep padding and margins on interactive elements, like buttons and links, at 0px to ensure the compact, text-only interaction.",
+        "Introduce Glitch Cyan or Glitch Red as decorative rgba(..., .4) overlays for hover states or loading indicators to amplify the retro digital effect."
+      ],
+      "donts": [
+        "Do not introduce any chromatic colors beyond the defined Glitch Cyan or Glitch Red accent, and only as subtle overlays or visual effects.",
+        "Avoid using any form of background color or padding on interactive elements; they should appear as text-only entities with border changes for state.",
+        "Never apply border-radius values greater than 0px to any component or element.",
+        "Do not use box-shadows or any form of elevation; the design system emphasizes a flat, screen-rendered aesthetic.",
+        "Avoid custom gradients; stick to the solid color palette and occasional glitch overlays.",
+        "Do not use imagery in the main content area; the experience is text-centric and code-like.",
+        "Refrain from using common UI iconography or graphical elements that deviate from the text-based or ASCII art style."
+      ],
+      "theme": "dark",
+      "colors": [
+        {
+          "hex": "#000000",
+          "name": "Terminal Black",
+          "role": "Page backgrounds, surface background for all elements, creating a deep digital void",
+          "group": "neutral"
+        },
+        {
+          "hex": "#a0a0a0",
+          "name": "Text Gray",
+          "role": "Medium-contrast borders, control outlines, and structural separators. Do not promote it to the primary CTA color",
+          "group": "neutral"
+        },
+        {
+          "hex": "#ffffff",
+          "name": "Active White",
+          "role": "Hairline borders, dividers, input outlines, and card edges on light surfaces. Do not promote it to the primary CTA color",
+          "group": "neutral"
+        },
+        {
+          "hex": "#02b7b6",
+          "name": "Glitch Cyan",
+          "role": "Decorative glitch effect on text and UI elements, adding a digital artifact quality",
+          "group": "accent",
+          "gradient": "rgba(2, 183, 182, .4)"
+        },
+        {
+          "hex": "#b70202",
+          "name": "Glitch Red",
+          "role": "Decorative glitch effect on text and UI elements, adding a digital artifact quality",
+          "group": "accent",
+          "gradient": "rgba(183, 2, 2, .4)"
+        }
+      ],
+      "layout": "The page adheres to a full-bleed layout, taking up the entire viewport without a maximum width or centered constraint. The hero section displays a minimal, centered text arrangement with header and metadata. Content sections flow vertically with consistent, generous 160px gaps between them, giving a spacious and uncluttered feel. The primary content arrangement is a single column of text, often with text-based 'links' acting as interactive elements. Navigation elements are subtly integrated into the header, typically text-only. The overall density is spacious, with ample negative space around text blocks.",
+      "imagery": "The site is devoid of traditional imagery like photography or illustrations, relying entirely on typography and text-based elements to convey information. The only 'visuals' are occasional ASCII-art like symbols within text and the simulated glitch effects provided by the Glitch Cyan and Glitch Red colors. This creates an extremely text-dominant experience, putting all focus on the rendered characters.",
+      "similar": [
+        {
+          "why": "Adopts a very stark, command-line interface aesthetic with minimal graphical elements and a dark background.",
+          "business": "Terminal.com"
+        },
+        {
+          "why": "Utilizes a dark, achromatic base with minimal accent colors, focusing on functional text and subtle interactivity.",
+          "business": "Figma - Dark Mode"
+        },
+        {
+          "why": "Employs a largely monochrome palette for its UI, relying on sharp typography and spacing for clarity on a dark canvas.",
+          "business": "Vercel"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "none": "0px"
+        },
+        "elementGap": "0px",
+        "sectionGap": "160px",
+        "cardPadding": "0px",
+        "pageMaxWidth": null
+      },
+      "industry": "other",
+      "surfaces": [
+        {
+          "hex": "#000000",
+          "name": "Terminal Canvas",
+          "level": 1,
+          "purpose": "The default background for the entire page and all content containers, establishing a deep, dark screen."
+        }
+      ],
+      "northStar": "monochrome command-line interface",
+      "typeScale": [
+        {
+          "role": "body",
+          "size": 23,
+          "lineHeight": 1.2
+        },
+        {
+          "role": "subheading",
+          "size": 26,
+          "lineHeight": 1.4
+        },
+        {
+          "role": "display",
+          "size": 63,
+          "lineHeight": 0.9
+        }
+      ],
+      "components": [
+        {
+          "name": "Ghost Navigation Link",
+          "role": "Primary navigation and interactive text elements within articles.",
+          "description": "Text in Text Gray (#a0a0a0) with a 0px border-radius. On hover or active state, the text and a 1px bottom border switch to Active White (#ffffff). No background or padding."
+        },
+        {
+          "name": "Primary Heading",
+          "role": "Main page titles and prominent textual information.",
+          "description": "VCR OSD Mono, size 63px, line height 0.9. Color Active White (#ffffff). No background, border, or padding. Integrates directly into the page content."
+        },
+        {
+          "name": "Body Text Block",
+          "role": "Standard page content and paragraphs.",
+          "description": "VCR OSD Mono, size 23px or 26px, line height 1.2 or 1.4. Color Text Gray (#a0a0a0). Rendered as plain text or within card contexts without visual distinction."
+        },
+        {
+          "name": "System Status Line",
+          "role": "Metadata display like dates and channel numbers.",
+          "description": "Small text elements typically in the page header with Text Gray (#a0a0a0) and 0px radius. Used for functional, non-interactive visual data."
+        }
+      ],
+      "typography": [
+        {
+          "role": "All text elements, including headings, body, navigation, and buttons. Its fixed-width, pixelated style is central to the retro terminal aesthetic, creating an intentional low-fidelity digital feel.",
+          "sizes": "23px, 26px, 63px",
+          "family": "VCR OSD Mono",
+          "weight": "400",
+          "weights": [
+            400
+          ],
+          "lineHeight": "0.90, 1.20, 1.40",
+          "substitute": "monospace",
+          "letterSpacing": "normal"
+        }
+      ],
+      "description": "Kaisermann's design system evokes a retro-futuristic terminal experience: a dark, unadorned canvas with blocky, pixelated typography as the primary visual element. There's an intentional absence of traditional UI components like rounded buttons or cards, replaced by text-based links and headers that carry border accents. Color is limited to a monochrome palette, punctuated by subtle glitch effects, creating a sense of raw, digital interaction rather than polished graphical user interfaces.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "Quick Color Reference: text: #a0a0a0, background: #000000, border: #a0a0a0, accent: Glitch Cyan (rgba(2, 183, 182, .4)), primary action: no distinct CTA color\n\nExample Component Prompts:\n1. Create a navigation item: 'OPEN-SOURCE' (VCR OSD Mono 400, 23px, #a0a0a0, 0px border-radius) with bottom border #a0a0a0. On hover, text and border become #ffffff. No background or padding.\n2. Create a main headline: 'HI! I'M CHRISTIAN KAISERMANN' (VCR OSD Mono 400, 63px, #ffffff, line-height 0.9). Background is #000000.\n3. Create a descriptive body paragraph: 'CARIOCA BASED IN BERLIN, WEB ENGINEER, CSS ENTHUSIAST AND AVID OPEN-SOURCERER.' (VCR OSD Mono 400, 26px, #a0a0a0, line-height 1.2). Background is #000000.\n4. Create a system status indicator: 'APR 29, 2026' (VCR OSD Mono 400, 23px, #a0a0a0). No background, border, or padding."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777520921180-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777520921180-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/872ce8b7-993d-4dea-a361-9ccb59d136c0",
+  "ranks": {
+    "trending": 126,
+    "popular": 184,
+    "newest": 56
+  },
+  "localSlug": "kaisermann-872ce8b7"
+}

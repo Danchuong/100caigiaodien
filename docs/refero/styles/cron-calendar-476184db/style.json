@@ -1,0 +1,680 @@
+{
+  "id": "476184db-a4e6-440b-aa53-27294668361c",
+  "url": "https://cron.com",
+  "siteName": "Cron Calendar",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775922777241-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775922777241-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "dark",
+  "colors": [
+    {
+      "name": "Cron Black",
+      "hex": "#0f0d0a"
+    },
+    {
+      "name": "Deep Graphite",
+      "hex": "#161412"
+    },
+    {
+      "name": "Bright White",
+      "hex": "#ffffff"
+    },
+    {
+      "name": "Subtle Gray",
+      "hex": "#cccccc"
+    },
+    {
+      "name": "Action Orange",
+      "hex": "#ff4700"
+    },
+    {
+      "name": "Soft Ember",
+      "hex": "#451e0"
+    }
+  ],
+  "fonts": [
+    "Helvetica Neue"
+  ],
+  "northStar": "Minimal dark cockpit. Clean contrast of white text on deep gray surfaces, punctuated by a vivid orange accent.",
+  "createdAt": "2026-01-28T09:31:31.000Z",
+  "previewVideoCapturedAt": null,
+  "industry": "productivity",
+  "fullResult": {
+    "meta": {
+      "url": "https://cron.com",
+      "siteName": "Cron Calendar",
+      "extractedAt": "2026-04-11T15:53:15.852Z",
+      "durationMs": 22966,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 32,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "complete",
+          "attempts": 2
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#cccccc",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.8452222558133237
+            },
+            "contexts": [
+              "other",
+              "nav",
+              "body",
+              "image",
+              "footer",
+              "list"
+            ],
+            "frequency": 95,
+            "confidence": 1,
+            "prominence": 10369505.073948123,
+            "properties": [
+              "color",
+              "borderColor"
+            ]
+          },
+          {
+            "hex": "#ffffff",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 1.0000000000000002
+            },
+            "contexts": [
+              "link",
+              "image",
+              "nav",
+              "button",
+              "heading"
+            ],
+            "frequency": 65,
+            "confidence": 1,
+            "prominence": 761593.6590391651,
+            "properties": [
+              "color",
+              "borderColor"
+            ]
+          },
+          {
+            "hex": "#0f0d0a",
+            "oklch": {
+              "c": 0.007013618530211247,
+              "h": 78.06909603960064,
+              "l": 0.16035461819436203
+            },
+            "contexts": [
+              "footer"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 256500,
+            "properties": [
+              "backgroundColor"
+            ]
+          },
+          {
+            "hex": "#451e0e",
+            "oklch": {
+              "c": 0.06458874654465852,
+              "h": 42.06904298808127,
+              "l": 0.2875500336724881
+            },
+            "contexts": [
+              "nav",
+              "button"
+            ],
+            "frequency": 2,
+            "confidence": 1,
+            "prominence": 19198.650771235363,
+            "properties": [
+              "boxShadow"
+            ]
+          },
+          {
+            "hex": "#161412",
+            "oklch": {
+              "c": 0.005119347651028147,
+              "h": 67.5171986545375,
+              "l": 0.1928125220899917
+            },
+            "contexts": [
+              "button"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 12113,
+            "properties": [
+              "backgroundColor"
+            ]
+          },
+          {
+            "hex": "#8b2e09",
+            "oklch": {
+              "c": 0.1337378184248998,
+              "h": 38.47225865023839,
+              "l": 0.4339230173736659
+            },
+            "contexts": [
+              "button"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 12113,
+            "properties": [
+              "boxShadow"
+            ]
+          },
+          {
+            "hex": "#ff4700",
+            "oklch": {
+              "c": 0.22793433805589786,
+              "h": 35.77742648132593,
+              "l": 0.661991829715392
+            },
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 5769,
+            "properties": [
+              "backgroundColor"
+            ]
+          }
+        ],
+        "isDarkMode": true,
+        "colorfulness": 0.00818923177713048,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 19.4,
+            "background": "#0f0d0a",
+            "foreground": "#ffffff"
+          },
+          {
+            "level": "AAA",
+            "ratio": 18.37,
+            "background": "#161412",
+            "foreground": "#ffffff"
+          },
+          {
+            "level": "AAA",
+            "ratio": 14.53,
+            "background": "#ffffff",
+            "foreground": "#451e0e"
+          },
+          {
+            "level": "AAA",
+            "ratio": 12.08,
+            "background": "#0f0d0a",
+            "foreground": "#cccccc"
+          },
+          {
+            "level": "AAA",
+            "ratio": 11.44,
+            "background": "#161412",
+            "foreground": "#cccccc"
+          },
+          {
+            "level": "AAA",
+            "ratio": 9.05,
+            "background": "#cccccc",
+            "foreground": "#451e0e"
+          },
+          {
+            "level": "AAA",
+            "ratio": 8.43,
+            "background": "#ffffff",
+            "foreground": "#8b2e09"
+          },
+          {
+            "level": "AA",
+            "ratio": 5.25,
+            "background": "#cccccc",
+            "foreground": "#8b2e09"
+          },
+          {
+            "level": "fail",
+            "ratio": 3.41,
+            "background": "#ff4700",
+            "foreground": "#ffffff"
+          },
+          {
+            "level": "fail",
+            "ratio": 2.13,
+            "background": "#ff4700",
+            "foreground": "#cccccc"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [
+          {
+            "value": 4,
+            "contexts": [
+              "button"
+            ],
+            "frequency": 1
+          },
+          {
+            "value": 9999,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 1
+          }
+        ],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 12,
+            "frequency": 2,
+            "properties": [
+              "paddingTop",
+              "paddingBottom"
+            ]
+          },
+          {
+            "value": 16,
+            "frequency": 3,
+            "properties": [
+              "marginRight"
+            ]
+          },
+          {
+            "value": 20,
+            "frequency": 2,
+            "properties": [
+              "marginBottom",
+              "paddingTop"
+            ]
+          },
+          {
+            "value": 24,
+            "frequency": 5,
+            "properties": [
+              "paddingRight",
+              "paddingLeft",
+              "marginTop"
+            ]
+          },
+          {
+            "value": 40,
+            "frequency": 7,
+            "properties": [
+              "marginLeft",
+              "marginBottom",
+              "paddingBottom"
+            ]
+          },
+          {
+            "value": 80,
+            "frequency": 2,
+            "properties": [
+              "marginTop",
+              "marginBottom"
+            ]
+          },
+          {
+            "value": 140,
+            "frequency": 6,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ]
+          }
+        ],
+        "density": "spacious",
+        "baseUnit": 4
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "Helvetica Neue",
+            "source": "system",
+            "weights": [
+              400,
+              500,
+              700
+            ],
+            "frequency": 32,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 22,
+          "name": "Minor Third",
+          "ratio": 1.2,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 13,
+            "family": "Helvetica Neue",
+            "weight": 400,
+            "contexts": [
+              "footer"
+            ],
+            "frequency": 1,
+            "lineHeight": 2.88,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 13,
+            "family": "Helvetica Neue",
+            "weight": 400,
+            "contexts": [
+              "list"
+            ],
+            "frequency": 5,
+            "lineHeight": 1.5,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 13,
+            "family": "Helvetica Neue",
+            "weight": 500,
+            "contexts": [
+              "link"
+            ],
+            "frequency": 4,
+            "lineHeight": 1.5,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 15,
+            "family": "Helvetica Neue",
+            "weight": 400,
+            "contexts": [
+              "button"
+            ],
+            "frequency": 1,
+            "lineHeight": 1,
+            "letterSpacing": 0.01,
+            "textTransform": "none"
+          },
+          {
+            "size": 22,
+            "family": "Helvetica Neue",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "nav",
+              "body",
+              "image"
+            ],
+            "frequency": 13,
+            "lineHeight": 1.7,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 22,
+            "family": "Helvetica Neue",
+            "weight": 500,
+            "contexts": [
+              "link",
+              "image",
+              "nav"
+            ],
+            "frequency": 6,
+            "lineHeight": 1.7,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 22,
+            "family": "Helvetica Neue",
+            "weight": 500,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 1,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 140,
+            "family": "Helvetica Neue",
+            "weight": 700,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 1,
+            "lineHeight": 0.9,
+            "letterSpacing": -0.021,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Maintain a clear visual hierarchy by limiting prominent chromatic colors to the Action Orange (#ff4700) for primary CTAs.",
+        "Utilize Bright White (#ffffff) text for primary content and Subtle Gray (#cccccc) for secondary, ensuring high readability on dark backgrounds.",
+        "Apply Helvetica Neue universally, leveraging its differing weights (e.g., 700 for display, 400 for body) to establish content importance.",
+        "Employ `sectionGap` of 80px between main content blocks to maintain a spacious, uncluttered flow.",
+        "Use 4px border radius for all actionable buttons to provide subtle rounding without compromising precision.",
+        "Apply `padding` of 0px top, 24px right, 1px bottom, 24px left for all buttons, maintaining a consistent minimalist vertical spacing.",
+        "Use a 9999px border radius for tags and prominent notifications like 'Cron is now Notion Calendar' to create distinct pill shapes."
+      ],
+      "tags": [
+        "dark mode",
+        "minimalist",
+        "high contrast",
+        "functional",
+        "professional",
+        "typographic",
+        "developer tools",
+        "efficient",
+        "singular accent"
+      ],
+      "donts": [
+        "Do not introduce additional vivid chromatic colors beyond the established Action Orange (#ff4700) to maintain focus.",
+        "Avoid using box shadows that introduce strong light colors or blur, as the system relies on flat, high-contrast surfaces augmented by subtle amber tints.",
+        "Do not create extensive text blocks using Helvetica Neue at sizes larger than 22px; large text is reserved for display headlines.",
+        "Avoid generic button styles; every button should either be Primary Call-to-Action (Action Orange) or Secondary (Deep Graphite).",
+        "Do not vary `elementGap` from 16px unless explicitly for full-bleed section alignment or dense content blocks.",
+        "Do not use overly complex or illustrative imagery; prefer UI screenshots or abstract graphics to align with the functional aesthetic."
+      ],
+      "theme": "dark",
+      "colors": [
+        {
+          "hex": "#0f0d0a",
+          "name": "Cron Black",
+          "role": "Primary page background, footer background.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#161412",
+          "name": "Deep Graphite",
+          "role": "Button backgrounds for secondary actions.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#ffffff",
+          "name": "Bright White",
+          "role": "Primary text color for headlines, body, navigation items, and button text, ensuring high contrast against dark backgrounds.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#cccccc",
+          "name": "Subtle Gray",
+          "role": "Secondary text, link underlines, subtle borders and outlines. Provides a softer visual hierarchy than pure white.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#ff4700",
+          "name": "Action Orange",
+          "role": "Primary call-to-action buttons, prominent interactive elements requiring immediate attention. This is the sole vivid chromatic color used.",
+          "group": "accent"
+        },
+        {
+          "hex": "#451e0",
+          "name": "Soft Ember",
+          "role": "Shadow tint for action-oriented elements, contributing to a subtle glow rather than a harsh distinction.",
+          "group": "accent"
+        },
+        {
+          "hex": "#8b2e09",
+          "name": "Deep Ember",
+          "role": "More saturated shadow tint for action-oriented elements, creating depth.",
+          "group": "accent"
+        }
+      ],
+      "layout": "The overarching layout is a max-width contained model, centered on the page, providing clear boundaries for content. The hero section is full-bleed dark with a strong centered headline and smaller subtext that guides the eye towards the central product showcase. Section rhythm is primarily established by consistent vertical spacing (80px `sectionGap`) rather than alternating background colors, although subtle variations in surface color (not evident in the main screenshot but common in dark themes) may exist. Content is generally arranged in a stacked, single-column fashion for primary messaging, potentially transitioning to multi-column grids for features or details. Navigation is a simple top bar with left-aligned branding and right-aligned links and a primary CTA button, sticky to the top of the viewport.",
+      "imagery": "The visual language for imagery is predominantly product screenshots, showcasing the cron calendar interface in dark mode. These are presented without ornate treatments, simply as contained, rectangular displays of the application. The primary role of imagery is explanatory and product-showcasing, focusing on functional aspects of the UI rather than decorative or atmospheric elements. There's a notable absence of lifestyle photography or complex illustrations, reinforcing the tool's utilitarian and professional identity.",
+      "similar": [
+        {
+          "why": "Shares a high-contrast dark theme, focus on a single accent color for interaction, and clean typographic emphasis.",
+          "business": "Superhuman"
+        },
+        {
+          "why": "Features a similar dark UI, emphasis on crisp typography, and functional component design for a developer/professional audience.",
+          "business": "Linear"
+        },
+        {
+          "why": "Adopts a very similar philosophy of minimalist design, strong typographic hierarchy, and a clear, uncluttered interface across its platform.",
+          "business": "Notion"
+        },
+        {
+          "why": "Exhibits analogous dark-mode UI principles with stark white text on dark gray, minimal use of color, and a focus on clarity for tool-based interfaces.",
+          "business": "Figma (dark mode)"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "buttons": "4px",
+          "navigationPills": "9999px"
+        },
+        "elementGap": "16px",
+        "sectionGap": "80px",
+        "cardPadding": "",
+        "pageMaxWidth": null
+      },
+      "category": "dev-tools",
+      "elevation": [],
+      "northStar": "Minimal dark cockpit. Clean contrast of white text on deep gray surfaces, punctuated by a vivid orange accent.",
+      "typeScale": [
+        {
+          "role": "caption",
+          "size": 13,
+          "lineHeight": 1.7
+        },
+        {
+          "role": "body-sm",
+          "size": 15,
+          "lineHeight": 1.7,
+          "letterSpacing": 0.15
+        },
+        {
+          "role": "body",
+          "size": 22,
+          "lineHeight": 1.5
+        },
+        {
+          "role": "display",
+          "size": 140,
+          "lineHeight": 0.9,
+          "letterSpacing": -2.94
+        }
+      ],
+      "components": [
+        {
+          "html": "<div style=\"background: var(--color-cron-black, #0f0d0a); padding: 40px; display: flex; justify-content: center; align-items: center; font-family: 'Helvetica Neue', system-ui, sans-serif;\"><style>:root{--color-cron-black:#0f0d0a;--color-deep-graphite:#161412;--color-bright-white:#ffffff;--color-subtle-gray:#cccccc;--color-action-orange:#ff4700;}</style><a href=\"#\" style=\"display: inline-flex; align-items: center; gap: 10px; background: var(--color-deep-graphite, #161412); border: 1px solid rgba(204,204,204,0.2); border-radius: 9999px; padding: 10px 20px 11px 20px; text-decoration: none; cursor: pointer;\"><span style=\"font-family: 'Helvetica Neue', system-ui, sans-serif; font-size: 15px; font-weight: 400; color: var(--color-bright-white, #ffffff); letter-spacing: 0.15px; line-height: 1.7;\">Cron is now Notion Calendar</span><svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M3 8H13M13 8L9 4M13 8L9 12\" stroke=\"#ffffff\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></a></div>",
+          "name": "Announcement Pill Banner",
+          "role": "",
+          "description": ""
+        },
+        {
+          "html": "<div style=\"background: var(--color-cron-black, #0f0d0a); padding: 48px 40px; display: flex; justify-content: center; align-items: center; gap: 16px; font-family: 'Helvetica Neue', system-ui, sans-serif; flex-wrap: wrap;\"><style>:root{--color-cron-black:#0f0d0a;--color-deep-graphite:#161412;--color-bright-white:#ffffff;--color-subtle-gray:#cccccc;--color-action-orange:#ff4700;} .cron-btn-primary { background: var(--color-action-orange, #ff4700); color: var(--color-bright-white, #ffffff); border: none; border-radius: 4px; padding: 12px 24px 13px 24px; font-family: 'Helvetica Neue', system-ui, sans-serif; font-size: 15px; font-weight: 700; line-height: 1.7; letter-spacing: 0.15px; cursor: pointer; display: inline-flex; align-items: center; gap: 8px; text-decoration: none; transition: opacity 0.15s ease; } .cron-btn-primary:hover { opacity: 0.88; } .cron-btn-secondary { background: var(--color-deep-graphite, #161412); color: var(--color-bright-white, #ffffff); border: none; border-top: 1px solid var(--color-subtle-gray, #cccccc); border-radius: 4px; padding: 12px 24px 13px 24px; font-family: 'Helvetica Neue', system-ui, sans-serif; font-size: 15px; font-weight: 400; line-height: 1.7; letter-spacing: 0.15px; cursor: pointer; display: inline-flex; align-items: center; gap: 8px; text-decoration: none; transition: opacity 0.15s ease; } .cron-btn-secondary:hover { opacity: 0.8; }</style><a href=\"#\" class=\"cron-btn-primary\">Sign up for free</a><a href=\"#\" class=\"cron-btn-secondary\">Download for Mac<svg width=\"14\" height=\"14\" viewBox=\"0 0 14 14\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" style=\"margin-left:2px;\"><path d=\"M7 2v8M3 7l4 4 4-4\" stroke=\"#ffffff\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></a><a href=\"#\" class=\"cron-btn-secondary\">Read the changelog</a></div>",
+          "name": "Button Group — Primary & Secondary",
+          "role": "",
+          "description": ""
+        },
+        {
+          "html": "<div style=\"background: var(--color-cron-black, #0f0d0a); padding: 48px 40px; font-family: 'Helvetica Neue', system-ui, sans-serif;\"><style>:root{--color-cron-black:#0f0d0a;--color-deep-graphite:#161412;--color-bright-white:#ffffff;--color-subtle-gray:#cccccc;--color-action-orange:#ff4700;} .stat-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; } .stat-card { background: var(--color-deep-graphite, #161412); border-radius: 4px; border-top: 1px solid rgba(204,204,204,0.15); padding: 28px 24px 24px 24px; display: flex; flex-direction: column; gap: 8px; } .stat-value { font-family: 'Helvetica Neue', system-ui, sans-serif; font-size: 40px; font-weight: 700; color: var(--color-bright-white, #ffffff); line-height: 1.0; letter-spacing: -0.02em; } .stat-value span { color: var(--color-action-orange, #ff4700); } .stat-label { font-family: 'Helvetica Neue', system-ui, sans-serif; font-size: 13px; font-weight: 400; color: var(--color-subtle-gray, #cccccc); line-height: 1.7; } .stat-desc { font-family: 'Helvetica Neue', system-ui, sans-serif; font-size: 13px; font-weight: 400; color: rgba(204,204,204,0.5); line-height: 1.7; margin-top: 4px; }</style><div class=\"stat-grid\"><div class=\"stat-card\"><div class=\"stat-value\">48<span>+</span></div><div class=\"stat-label\">Keyboard shortcuts</div><div class=\"stat-desc\">Navigate without lifting your hands</div></div><div class=\"stat-card\"><div class=\"stat-value\"><span>∞</span></div><div class=\"stat-label\">Calendar layers</div><div class=\"stat-desc\">Stack work, personal & team schedules</div></div><div class=\"stat-card\"><div class=\"stat-value\">1<span>s</span></div><div class=\"stat-label\">Quick meeting</div><div class=\"stat-desc\">Spin up a meet link instantly</div></div></div></div>",
+          "name": "Feature Stat / Metric Cards",
+          "role": "",
+          "description": ""
+        },
+        {
+          "name": "Primary Call-to-Action Button",
+          "role": "Interactive element",
+          "description": "Background: Action Orange (#ff4700). Text: Bright White (#ffffff), Helvetica Neue weight 700. Padding: 0px top, 24px right, 1px bottom, 24px left. Border radius: 4px. No border."
+        },
+        {
+          "name": "Secondary Button",
+          "role": "Interactive element",
+          "description": "Background: Deep Graphite (#161412). Text: Bright White (#ffffff), Helvetica Neue weight 400. Padding: 0px top, 24px right, 1px bottom, 24px left. Border radius: 4px. Subtle Gray (#cccccc) top border. This button is used for secondary actions or contextual information."
+        },
+        {
+          "name": "Header Navigation Link",
+          "role": "Navigation",
+          "description": "Text: Bright White (#ffffff), Helvetica Neue weight 400, size 15px, line height 1.7. Appears as inline text, not buttonized except for 'Sign up'."
+        },
+        {
+          "name": "Footer Link",
+          "role": "Navigation",
+          "description": "Text: Bright White (#ffffff), Helvetica Neue weight 400, size 13px, line height 1.7. Used for legal and informational links."
+        }
+      ],
+      "typography": [
+        {
+          "role": "Used universally across all text elements: headlines, body copy, navigation, buttons, and footer links. The wide range of weights and sizes allows for distinct hierarchy within a single, consistent typeface, particularly the oversized weight 700 for display headings.",
+          "sizes": "13px, 15px, 22px, 140px",
+          "family": "Helvetica Neue",
+          "weight": "400, 500, 700",
+          "lineHeight": "0.90, 1.00, 1.50, 1.70, 2.88",
+          "substitute": "system-ui, sans-serif",
+          "letterSpacing": "-0.0210em, 0.0100em"
+        }
+      ],
+      "description": "This design system evokes a refined, understated dark mode, like a well-crafted instrument panel in a high-end vehicle. Its strength lies in a stark contrast between near-black surfaces and bright white typography, creating immediate clarity. A single, vibrant orange serves as the primary accent, drawing attention only to key interactive elements. The system feels direct and functional, prioritizing information hierarchy and calls to action over decorative flourishes.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "1. Quick Color Reference:\n   - Text: #ffffff\n   - Background: #0f0d0a\n   - CTA: #ff4700\n   - Secondary Text: #cccccc\n   - Secondary Background: #161412\n\n2. Example Component Prompts:\n   - Create a hero section: 'Cron Black' background. Headline 'It's about time.' in 'Bright White', Helvetica Neue weight 700, size 140px, line height 0.9, letter spacing -2.94px. Subtext 'Cron is the next-generation calendar for professionals and teams.' in 'Bright White', Helvetica Neue weight 400, size 22px, line height 1.5. Center align all text. Ensure a top padding of 80px above the headline.\n   - Generate a secondary button: 'Deep Graphite' background. Text 'Cron is now Notion Calendar →' in 'Bright White', Helvetica Neue weight 400, size 15px, letter spacing 0.15px. Padding 0px 24px 1px 24px. Border radius 4px. Top border 1px 'Subtle Gray'.\n   - Design a primary navigation bar: 'Cron Black' background. Logo left-aligned. Right-aligned links 'Blog', 'Changelog', 'Docs', 'Login' in 'Bright White', Helvetica Neue weight 400, size 15px, line height 1.7. Followed by a 'Primary Call-to-Action Button' 'Sign up'."
+        }
+      ],
+      "elevationPhilosophy": "The design strongly favors flat UI surfaces and high contrast over complex shadows. Where elevation is present (e.g., subtle button glows), it's achieved through a subdued, slightly chromatic tint in the `box-shadow` rather than distinct layers or heavy blurring, maintaining the system's clean, precise feel."
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775922777241-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775922777241-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/476184db-a4e6-440b-aa53-27294668361c",
+  "ranks": {
+    "trending": 360,
+    "popular": 349,
+    "newest": 1265
+  },
+  "localSlug": "cron-calendar-476184db"
+}

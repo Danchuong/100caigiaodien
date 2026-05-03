@@ -1,0 +1,604 @@
+{
+  "id": "dd646da4-36f5-42b1-83dd-6a1c90cf8983",
+  "url": "https://stephaniespecht.com",
+  "siteName": "Specht Studio",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777518791283-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777518791283-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "light",
+  "colors": [
+    {
+      "name": "Black Ink",
+      "hex": "#000000"
+    },
+    {
+      "name": "Midtone Gray",
+      "hex": "#666666"
+    },
+    {
+      "name": "Canvas White",
+      "hex": "#ffffff"
+    }
+  ],
+  "fonts": [
+    "Helvetica Neue"
+  ],
+  "northStar": "Gallery Grid Monochrome",
+  "createdAt": "2026-04-30T03:13:27.224Z",
+  "previewVideoCapturedAt": null,
+  "industry": "design",
+  "fullResult": {
+    "meta": {
+      "url": "https://stephaniespecht.com",
+      "siteName": "Specht Studio",
+      "extractedAt": "2026-04-30T03:13:27.157Z",
+      "durationMs": 27572,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 221,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "other",
+              "heading",
+              "link",
+              "body",
+              "nav",
+              "hero",
+              "footer",
+              "icon"
+            ],
+            "frequency": 438,
+            "confidence": 1,
+            "prominence": 36525578.93599662,
+            "properties": [
+              "color",
+              "borderColor",
+              "fill"
+            ],
+            "usageCounts": {
+              "icon/fill": 4,
+              "nav/color": 22,
+              "body/color": 1,
+              "hero/color": 1,
+              "link/color": 1,
+              "other/fill": 2,
+              "other/color": 61,
+              "footer/color": 1,
+              "heading/color": 1,
+              "nav/borderColor": 80,
+              "body/borderColor": 4,
+              "hero/borderColor": 4,
+              "link/borderColor": 4,
+              "other/borderColor": 244,
+              "footer/borderColor": 4,
+              "heading/borderColor": 4
+            }
+          },
+          {
+            "hex": "#666666",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.5102783583015936
+            },
+            "contexts": [
+              "link",
+              "other",
+              "image",
+              "icon"
+            ],
+            "frequency": 388,
+            "confidence": 1,
+            "prominence": 1723074.0589894198,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "icon/color": 2,
+              "link/color": 26,
+              "image/color": 24,
+              "other/color": 26,
+              "icon/borderColor": 8,
+              "link/borderColor": 102,
+              "image/borderColor": 96,
+              "other/borderColor": 104
+            }
+          },
+          {
+            "hex": "#b0b0b0",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.7572067572371308
+            },
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 5,
+            "confidence": 1,
+            "prominence": 7917.740139708901,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "heading/color": 1,
+              "heading/borderColor": 4
+            }
+          }
+        ],
+        "isDarkMode": false,
+        "colorfulness": 0,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 9.68,
+            "background": "#b0b0b0",
+            "foreground": "#000000"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 2,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 9,
+            "properties": [
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingBottom|nav"
+            ]
+          },
+          {
+            "value": 10,
+            "contexts": [
+              "nav",
+              "heading",
+              "link"
+            ],
+            "frequency": 44,
+            "properties": [
+              "marginBottom",
+              "paddingBottom",
+              "marginTop",
+              "marginRight",
+              "marginLeft"
+            ],
+            "propertyContextPairs": [
+              "marginBottom|nav",
+              "paddingBottom|nav",
+              "marginTop|nav",
+              "marginRight|nav",
+              "marginLeft|nav",
+              "marginBottom|heading",
+              "marginBottom|link"
+            ]
+          },
+          {
+            "value": 11,
+            "contexts": [
+              "heading",
+              "footer"
+            ],
+            "frequency": 2,
+            "properties": [
+              "marginTop",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "marginTop|heading",
+              "paddingBottom|footer"
+            ]
+          },
+          {
+            "value": 12,
+            "contexts": [
+              "link"
+            ],
+            "frequency": 2,
+            "properties": [
+              "marginLeft"
+            ],
+            "propertyContextPairs": [
+              "marginLeft|link"
+            ]
+          },
+          {
+            "value": 13,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 24,
+            "properties": [
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "marginBottom|heading"
+            ]
+          },
+          {
+            "value": 24,
+            "contexts": [
+              "heading",
+              "footer"
+            ],
+            "frequency": 97,
+            "properties": [
+              "paddingRight",
+              "paddingLeft",
+              "paddingTop"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|heading",
+              "paddingLeft|heading",
+              "paddingTop|footer"
+            ]
+          },
+          {
+            "value": 25,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 1,
+            "properties": [
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingBottom|nav"
+            ]
+          },
+          {
+            "value": 30,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 5,
+            "properties": [
+              "marginRight"
+            ],
+            "propertyContextPairs": [
+              "marginRight|nav"
+            ]
+          },
+          {
+            "value": 35,
+            "contexts": [
+              "other",
+              "nav"
+            ],
+            "frequency": 8,
+            "properties": [
+              "paddingTop",
+              "paddingBottom",
+              "marginRight",
+              "marginLeft",
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other",
+              "paddingBottom|other",
+              "marginRight|other",
+              "marginLeft|other",
+              "paddingTop|nav",
+              "marginLeft|nav",
+              "paddingRight|other",
+              "paddingLeft|other"
+            ]
+          },
+          {
+            "value": 67,
+            "contexts": [
+              "hero"
+            ],
+            "frequency": 1,
+            "properties": [
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "marginBottom|hero"
+            ]
+          },
+          {
+            "value": 122,
+            "contexts": [
+              "hero"
+            ],
+            "frequency": 1,
+            "properties": [
+              "marginTop"
+            ],
+            "propertyContextPairs": [
+              "marginTop|hero"
+            ]
+          }
+        ],
+        "density": "comfortable",
+        "baseUnit": 6
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "Helvetica Neue",
+            "source": "system",
+            "weights": [
+              400
+            ],
+            "frequency": 215,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 16,
+          "name": "Minor Second",
+          "ratio": 1.067,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 15,
+            "family": "Helvetica Neue",
+            "weight": 400,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 1,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 15,
+            "family": "Helvetica Neue",
+            "weight": 400,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 24,
+            "lineHeight": 1.4,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "Helvetica Neue",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "nav",
+              "hero",
+              "link",
+              "image",
+              "footer"
+            ],
+            "frequency": 111,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "Helvetica Neue",
+            "weight": 400,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 24,
+            "lineHeight": 1.5,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 25,
+            "family": "Helvetica Neue",
+            "weight": 400,
+            "contexts": [
+              "heading",
+              "link",
+              "body",
+              "nav"
+            ],
+            "frequency": 15,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 25,
+            "family": "Helvetica Neue",
+            "weight": 400,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 9,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 25,
+            "family": "Helvetica Neue",
+            "weight": 400,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 24,
+            "lineHeight": 1.4,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Prioritize Canvas White (#ffffff) for all background surfaces to maintain a clean, gallery-like aesthetic.",
+        "Use Black Ink (#000000) for all primary text, headings, and active navigation states.",
+        "Frame interactive blocks and images with subtle 1px solid borders using Midtone Gray (#666666) or Black Ink (#000000).",
+        "Apply normal letter-spacing for all Helvetica Neue type, avoiding condensed or expanded tracking.",
+        "Maintain a clear visual hierarchy using spacing; utilize 10px as the default element separation and 67px for section breaks.",
+        "Keep brand accent colors confined to embedded imagery or content rather than UI elements."
+      ],
+      "donts": [
+        "Do not use saturated colors for UI elements; chromaticity should primarily come from background content.",
+        "Avoid heavy shadows or gradients on any UI component; elevation is achieved through framing, not depth effects.",
+        "Do not introduce additional font families or weights beyond Helvetica Neue 400.",
+        "Refrain from large, contrasting background blocks that break the predominantly light theme, except where content specifically dictates.",
+        "Do not introduce complex UI elements or decorative flourishes; maintain a functional, content-focused approach."
+      ],
+      "theme": "light",
+      "colors": [
+        {
+          "hex": "#000000",
+          "name": "Black Ink",
+          "role": "Dark borders and separators for elevated surfaces and inverted UI. Do not promote it to the primary CTA color",
+          "group": "neutral"
+        },
+        {
+          "hex": "#666666",
+          "name": "Midtone Gray",
+          "role": "Secondary text, link borders when inactive, image borders and some iconography",
+          "group": "neutral"
+        },
+        {
+          "hex": "#ffffff",
+          "name": "Canvas White",
+          "role": "Page background, primary surfacing",
+          "group": "neutral"
+        }
+      ],
+      "similar": [
+        {
+          "why": "Grid-based content display, minimal UI, and focus on visual assets over heavy text.",
+          "business": "Are.na"
+        },
+        {
+          "why": "High-contrast monochrome typography with heavy reliance on strong imagery to convey brand identity.",
+          "business": "OFFICE Magazine"
+        },
+        {
+          "why": "Portfolio-centric site with large visual elements arranged in a grid, neutral palette allowing work to shine.",
+          "business": "Working Not Working"
+        },
+        {
+          "why": "Emphasizes curated content through a clean, graphic user interface with a similar treatment of images and text.",
+          "business": "Sight Unseen"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "default": "0px"
+        },
+        "elementGap": "10px",
+        "sectionGap": "67px",
+        "cardPadding": "24px",
+        "pageMaxWidth": null
+      },
+      "industry": "design",
+      "northStar": "Gallery Grid Monochrome",
+      "typeScale": [
+        {
+          "role": "caption",
+          "size": 15,
+          "lineHeight": 1.4
+        },
+        {
+          "role": "body-sm",
+          "size": 16,
+          "lineHeight": 1.4
+        },
+        {
+          "role": "body",
+          "size": 25,
+          "lineHeight": 1.3
+        }
+      ],
+      "components": [
+        {
+          "name": "Navigation Link",
+          "role": "Primary site navigation items.",
+          "description": "Text in Black Ink (#000000) at 15px Helvetica Neue, with a 10px bottom margin. Hover state reveals a subtle border. Padding: 0px 0px 2px 0px."
+        },
+        {
+          "name": "Image Grid Item",
+          "role": "Display individual portfolio pieces or art.",
+          "description": "A square or rectangular content block containing an image, bordered by a 1px solid #666666 line. Text labels below the image are in Midtone Gray (#666666), 16px Helvetica Neue, with a 10px bottom margin. Each item feels like a distinct piece on a gallery wall."
+        },
+        {
+          "name": "Project Title Link",
+          "role": "Headline for individual project entries on the grid.",
+          "description": "Black Ink (#000000) with a 10px bottom margin, 12px left margin, 13px bottom margin, 24px right/left top padding, 11px top margin, and 10px top margin."
+        }
+      ],
+      "typography": [
+        {
+          "role": "All text elements: headings, body copy, navigation, and links. The consistent use of a single font family and weight across all roles creates a unified, no-nonsense typographic voice.",
+          "sizes": "15px, 16px, 25px",
+          "family": "Helvetica Neue",
+          "weight": "400",
+          "weights": [
+            400
+          ],
+          "lineHeight": "1.00, 1.20, 1.40, 1.50",
+          "substitute": "Arial",
+          "letterSpacing": "normal"
+        }
+      ],
+      "description": "Specht Studio employs a stark, high-contrast visual language reminiscent of a curated gallery wall. The primary interaction is through image-heavy blocks, framed by thin borders and text in a sparse, functional sans-serif. The design emphasizes content arrangement and bold typographic treatments, with color sparsely used and predominantly achromatic for navigation and core information, allowing the rich, varied artwork to provide visual interest and chromatic depth.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "Quick Color Reference:\ntext: #000000\nbackground: #ffffff\nborder: #000000\naccent: no distinct accent color\nprimary action: no distinct CTA color\n\nExample Component Prompts:\n1. Create a primary navigation link: Helvetica Neue 400, 15px, #000000, normal letter-spacing, with a 2px bottom border on hover in Black Ink (#000000).\n2. Create an image grid item: A 1px solid border in Midtone Gray (#666666). Below the image, display text in Helvetica Neue 400, 16px, #666666, with a 10px bottom margin.\n3. Create a project title heading: Helvetica Neue 400, 25px, #000000, normal letter-spacing, with 10px bottom margin and 24px right/left/top padding, and 11px top margin."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777518791283-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777518791283-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/dd646da4-36f5-42b1-83dd-6a1c90cf8983",
+  "ranks": {
+    "trending": 1114,
+    "popular": 1112,
+    "newest": 204
+  },
+  "localSlug": "specht-studio-dd646da4"
+}

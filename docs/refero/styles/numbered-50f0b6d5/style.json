@@ -1,0 +1,751 @@
+{
+  "id": "50f0b6d5-9e96-42a1-9564-a6e99c289f98",
+  "url": "https://numbered.studio",
+  "siteName": "Numbered",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777517254050-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777517254050-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "dark",
+  "colors": [
+    {
+      "name": "Canvas Black",
+      "hex": "#111111"
+    },
+    {
+      "name": "Ghost White",
+      "hex": "#ffffff"
+    },
+    {
+      "name": "Muted Ash",
+      "hex": "#4f4f4f"
+    },
+    {
+      "name": "Desert Sand",
+      "hex": "#bc9873"
+    }
+  ],
+  "fonts": [
+    "aktiv-web"
+  ],
+  "northStar": "Shadowy Gallery Canvas",
+  "createdAt": "2026-04-30T02:47:51.832Z",
+  "previewVideoCapturedAt": null,
+  "industry": "agency",
+  "fullResult": {
+    "meta": {
+      "url": "https://numbered.studio",
+      "siteName": "Numbered",
+      "extractedAt": "2026-04-30T02:47:51.461Z",
+      "durationMs": 29041,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 154,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#ffffff",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 1.0000000000000002
+            },
+            "contexts": [
+              "other",
+              "nav",
+              "image",
+              "heading",
+              "body",
+              "button",
+              "hero",
+              "link",
+              "card",
+              "footer"
+            ],
+            "frequency": 753,
+            "confidence": 1,
+            "prominence": 151529777.3853381,
+            "properties": [
+              "color",
+              "borderColor",
+              "fill"
+            ],
+            "usageCounts": {
+              "nav/color": 29,
+              "body/color": 4,
+              "card/color": 9,
+              "hero/color": 2,
+              "link/color": 14,
+              "other/fill": 4,
+              "image/color": 1,
+              "other/color": 72,
+              "button/color": 1,
+              "footer/color": 1,
+              "heading/color": 17,
+              "nav/borderColor": 115,
+              "body/borderColor": 16,
+              "card/borderColor": 36,
+              "hero/borderColor": 8,
+              "link/borderColor": 56,
+              "image/borderColor": 4,
+              "other/borderColor": 288,
+              "button/borderColor": 4,
+              "footer/borderColor": 4,
+              "heading/borderColor": 68
+            }
+          },
+          {
+            "hex": "#bc9873",
+            "oklch": {
+              "c": 0.06654246684328378,
+              "h": 67.16814474462295,
+              "l": 0.7037094760643097
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 1624500,
+            "properties": [
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "other/backgroundColor": 1
+            }
+          },
+          {
+            "hex": "#111111",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.17763777307657064
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 1282500,
+            "properties": [
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "other/backgroundColor": 1
+            }
+          },
+          {
+            "hex": "#4f4f4f",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.4276078121301855
+            },
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 260920,
+            "properties": [
+              "borderColor"
+            ],
+            "usageCounts": {
+              "nav/borderColor": 1
+            }
+          }
+        ],
+        "isDarkMode": true,
+        "colorfulness": 0.00023788955685429637,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 18.88,
+            "background": "#111111",
+            "foreground": "#ffffff"
+          },
+          {
+            "level": "AAA",
+            "ratio": 8.19,
+            "background": "#ffffff",
+            "foreground": "#4f4f4f"
+          },
+          {
+            "level": "AAA",
+            "ratio": 7.08,
+            "background": "#bc9873",
+            "foreground": "#111111"
+          },
+          {
+            "level": "fail",
+            "ratio": 3.07,
+            "background": "#bc9873",
+            "foreground": "#4f4f4f"
+          },
+          {
+            "level": "fail",
+            "ratio": 2.67,
+            "background": "#bc9873",
+            "foreground": "#ffffff"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 1,
+            "contexts": [
+              "button"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingTop",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|button",
+              "paddingBottom|button"
+            ]
+          },
+          {
+            "value": 3,
+            "contexts": [
+              "nav",
+              "link"
+            ],
+            "frequency": 10,
+            "properties": [
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingBottom|nav",
+              "paddingBottom|link"
+            ]
+          },
+          {
+            "value": 6,
+            "contexts": [
+              "button"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|button",
+              "paddingLeft|button"
+            ]
+          },
+          {
+            "value": 20,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 1,
+            "properties": [
+              "marginTop"
+            ],
+            "propertyContextPairs": [
+              "marginTop|nav"
+            ]
+          },
+          {
+            "value": 35,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 9,
+            "properties": [
+              "marginTop"
+            ],
+            "propertyContextPairs": [
+              "marginTop|other"
+            ]
+          },
+          {
+            "value": 40,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 9,
+            "properties": [
+              "marginLeft"
+            ],
+            "propertyContextPairs": [
+              "marginLeft|other"
+            ]
+          },
+          {
+            "value": 59,
+            "contexts": [
+              "link",
+              "other"
+            ],
+            "frequency": 3,
+            "properties": [
+              "marginTop"
+            ],
+            "propertyContextPairs": [
+              "marginTop|link",
+              "marginTop|other"
+            ]
+          },
+          {
+            "value": 79,
+            "contexts": [
+              "nav",
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingTop",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|nav",
+              "paddingBottom|other"
+            ]
+          },
+          {
+            "value": 99,
+            "contexts": [
+              "hero"
+            ],
+            "frequency": 1,
+            "properties": [
+              "marginTop"
+            ],
+            "propertyContextPairs": [
+              "marginTop|hero"
+            ]
+          },
+          {
+            "value": 119,
+            "contexts": [
+              "body",
+              "hero",
+              "nav",
+              "other"
+            ],
+            "frequency": 7,
+            "properties": [
+              "marginLeft",
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "marginLeft|body",
+              "paddingRight|hero",
+              "paddingLeft|hero",
+              "marginLeft|nav",
+              "marginLeft|other",
+              "paddingRight|other",
+              "paddingLeft|other"
+            ]
+          },
+          {
+            "value": 178,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 4,
+            "properties": [
+              "marginTop",
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "marginTop|other",
+              "marginBottom|other"
+            ]
+          },
+          {
+            "value": 238,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 4,
+            "properties": [
+              "marginRight",
+              "marginLeft"
+            ],
+            "propertyContextPairs": [
+              "marginRight|heading",
+              "marginLeft|heading"
+            ]
+          },
+          {
+            "value": 297,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 1,
+            "properties": [
+              "marginRight"
+            ],
+            "propertyContextPairs": [
+              "marginRight|nav"
+            ]
+          }
+        ],
+        "density": "spacious",
+        "baseUnit": 4
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "aktiv-web",
+            "source": "custom",
+            "weights": [
+              400,
+              700
+            ],
+            "frequency": 149,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 14,
+          "name": "Minor Third",
+          "ratio": 1.2,
+          "confidence": 0.86
+        },
+        "steps": [
+          {
+            "size": 1,
+            "family": "aktiv-web",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "image",
+              "heading",
+              "body",
+              "hero",
+              "card",
+              "link",
+              "footer",
+              "nav"
+            ],
+            "frequency": 79,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 1,
+            "family": "aktiv-web",
+            "weight": 400,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 12,
+            "family": "aktiv-web",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "body",
+              "link"
+            ],
+            "frequency": 5,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 13,
+            "family": "aktiv-web",
+            "weight": 400,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 23,
+            "lineHeight": 2,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 15,
+            "family": "aktiv-web",
+            "weight": 700,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 5,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 15,
+            "family": "aktiv-web",
+            "weight": 400,
+            "contexts": [
+              "link"
+            ],
+            "frequency": 2,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 15,
+            "family": "aktiv-web",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "heading"
+            ],
+            "frequency": 27,
+            "lineHeight": 1.5,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 25,
+            "family": "aktiv-web",
+            "weight": 400,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 54,
+            "family": "aktiv-web",
+            "weight": 400,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 1,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 54,
+            "family": "aktiv-web",
+            "weight": 400,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 4,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 74,
+            "family": "aktiv-web",
+            "weight": 400,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 1,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Prioritize Canvas Black (#111111) as the default background for all sections to maintain a high-contrast dark theme.",
+        "Use Ghost White (#ffffff) for all primary text, headlines, and interactive element outlines.",
+        "Apply aktiv-web (or Inter) font at various sizes, ensuring body text remains legible on the dark background.",
+        "Maintain a spacious layout with a section gap of 99px to emphasize content separation and visual breathing room.",
+        "Utilize 0px border-radius for all elements, including buttons and cards, to enforce the sharp, modern aesthetic.",
+        "Employ minimal borders of 1px solid Ghost White (#ffffff) for interactive elements, focusing on subtle visual cues.",
+        "Leverage large-scale, striking imagery as primary visual content within sections, allowing them to bleed to the edges."
+      ],
+      "donts": [
+        "Do not introduce overt border-radius on any components; adhere to the sharp, angular aesthetic with 0px radius.",
+        "Avoid using drop shadows or heavy box-shadows, as the design relies on flat surfaces and high contrast.",
+        "Refrain from adding vibrant or numerous accent colors; the system is built on a restrained, monochromatic palette with minimal accentuation.",
+        "Do not use generic system fonts when aktiv-web (or Inter) is available, as the specific font style contributes significantly to brand identity.",
+        "Avoid tight spacing; maintain the generous sectionGap of 99px and general spaciousness.",
+        "Do not add filled button variants; interactive elements should primarily be ghosted outlines or text links.",
+        "Do not introduce unnecessary dividers or heavy visual separators between content blocks; rely on background color changes and generous spacing."
+      ],
+      "theme": "dark",
+      "colors": [
+        {
+          "hex": "#111111",
+          "name": "Canvas Black",
+          "role": "Page backgrounds, section backgrounds, hero areas — this deep black provides high contrast for all content",
+          "group": "neutral"
+        },
+        {
+          "hex": "#ffffff",
+          "name": "Ghost White",
+          "role": "Hairline borders, dividers, input outlines, and card edges on light surfaces. Do not promote it to the primary CTA color",
+          "group": "neutral"
+        },
+        {
+          "hex": "#4f4f4f",
+          "name": "Muted Ash",
+          "role": "Subtle borders, secondary navigation elements",
+          "group": "neutral"
+        },
+        {
+          "hex": "#bc9873",
+          "name": "Desert Sand",
+          "role": "Subtle surface accents, potentially for card backgrounds or specific content areas",
+          "group": "accent"
+        }
+      ],
+      "layout": "The page primarily uses a full-bleed layout, particularly for hero sections and large image blocks, filling the entire viewport horizontally. Content within sections, when not full-bleed imagery, is typically constrained by a maximum width and centered, allowing for visual breathing room on the sides. The hero pattern often involves large, striking photography with white, often serif, text overlaid, creating an editorial masthead feel. Sections generally flow vertically with consistent, generous spacing (99px section gap), providing a clean rhythm. Content arrangement frequently alternates between large visual blocks and stacked text sections, sometimes with implied two-column structures for text-heavy areas. There is no explicit grid for cards but content blocks are large and distinct. Navigation is a minimal top-right 'Contact' button, with a full-page menu invoked for comprehensive navigation.",
+      "imagery": "The site features high-quality, large-format photography and product shots, often full-bleed or occupying significant visual space. Imagery is treated realistically, focusing on natural light and candid moments for lifestyle shots, or clean, well-lit product focus for case studies. There are no overt graphic treatments like duotones or heavy filters; images maintain their natural color and detail. The role of imagery is primarily decorative atmosphere and showcasing client work, rather than explanatory diagrams or abstract graphics. Density is image-heavy, with full-screen visuals interspersed with text.",
+      "similar": [
+        {
+          "why": "Similar high-contrast dark theme, large-scale imagery, and minimalist typography.",
+          "business": "Basic. Space"
+        },
+        {
+          "why": "Uses a dark background, bold type, and a focus on visual impact through photography with minimal UI chrome.",
+          "business": "Locomotive Agency"
+        },
+        {
+          "why": "Employs a premium, editorial feel with generous spacing, high-contrast text, and a focus on case studies presented with large visuals.",
+          "business": "Work & Co"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "cards": "0px",
+          "buttons": "0px"
+        },
+        "elementGap": "20px",
+        "sectionGap": "99px",
+        "cardPadding": "0px",
+        "pageMaxWidth": null
+      },
+      "industry": "agency",
+      "surfaces": [
+        {
+          "hex": "#111111",
+          "name": "Canvas Black",
+          "level": 0,
+          "purpose": "Dominant background for the entire site, creating a deep, immersive dark theme."
+        },
+        {
+          "hex": "#bc9873",
+          "name": "Desert Sand Accent",
+          "level": 1,
+          "purpose": "A secondary, subtle accent surface for specific content blocks or cards, providing a mild contrast without disrupting the dark theme."
+        }
+      ],
+      "northStar": "Shadowy Gallery Canvas",
+      "typeScale": [
+        {
+          "role": "caption",
+          "size": 12,
+          "lineHeight": 1.5
+        },
+        {
+          "role": "body-sm",
+          "size": 13,
+          "lineHeight": 1.5
+        },
+        {
+          "role": "body",
+          "size": 15,
+          "lineHeight": 1.5
+        },
+        {
+          "role": "body-lg",
+          "size": 25,
+          "lineHeight": 1.3
+        },
+        {
+          "role": "heading-sm",
+          "size": 54,
+          "lineHeight": 1.3
+        },
+        {
+          "role": "heading",
+          "size": 74,
+          "lineHeight": 1.3
+        }
+      ],
+      "components": [
+        {
+          "name": "Ghost Border Button",
+          "role": "Call to action or navigation links.",
+          "description": "Text in Ghost White (#ffffff), bordered by 1px solid Ghost White (#ffffff). Features minimal padding of 1px vertical and 6px horizontal, with a 0px border-radius, giving it a sharp, understated outline against the dark background."
+        },
+        {
+          "name": "Content Card",
+          "role": "Displaying featured work or case studies.",
+          "description": "Transparent background (rgba(0,0,0,0)) with no border, shadow, or border-radius. Content within the card is responsible for its own styling, maintaining the minimalist dark aesthetic. Padding is 0px."
+        },
+        {
+          "name": "Navigation Link",
+          "role": "Top-level navigation items or footer links.",
+          "description": "Ghost White (#ffffff) text using aktiv-web font, weight 400. Features small bottom padding of 3px, creating a subtle visual space under the text, often appearing as an underline on hover without being explicitly declared."
+        }
+      ],
+      "typography": [
+        {
+          "role": "Primary font for all text from headings to body, and navigation. Its clean, sans-serif structure alongside the high contrast background ensures clarity while maintaining a contemporary feel.",
+          "sizes": "12px, 13px, 15px, 25px, 54px, 74px",
+          "family": "aktiv-web",
+          "weight": "400, 700",
+          "lineHeight": "1.00, 1.20, 1.50, 2.00",
+          "substitute": "Inter",
+          "letterSpacing": "normal"
+        }
+      ],
+      "description": "Numbered employs a deep, high-contrast visual system, where stark black canvases provide a dramatic backdrop for crisp white typography and subtle, refined interactions. The design uses spacious layouts and minimal ornamentation, allowing large-scale imagery and bold headlines to dominate. Interactive elements are understated, relying on elegant hover states rather than overt visual cues, contributing to a premium, editorial aesthetic.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "Quick Color Reference:\ntext: #ffffff\nbackground: #111111\nborder: #ffffff\naccent: #bc9873\nprimary action: no distinct CTA color\n\nExample Component Prompts:\nCreate a hero section: Canvas Black background. Headline \"Numbered\" in large aktiv-web (74px, 1.0 lineHeight) Ghost White text. Subtext 'Design, Content Production & Technology' inaktiv-web (15px, 1.2 lineHeight) Ghost White text at the bottom-center. No padding.\nCreate a section with a large headline: Canvas Black background. Headline 'CASES STUDIES' in aktiv-web (54px, 1.2 lineHeight) Ghost White text, left-aligned. Follow with a 'View all' link in Ghost White (#ffffff) text, aktiv-web (13px, 1.2 lineHeight).\nCreate a ghost button: Text 'CONTACT' in Ghost White (#ffffff), aktiv-web font (13px, 1.2 lineHeight), with a 1px solid Ghost White (#ffffff) border, 0px border-radius, 1px vertical and 6px horizontal padding."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777517254050-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777517254050-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/50f0b6d5-9e96-42a1-9564-a6e99c289f98",
+  "ranks": {
+    "trending": 1261,
+    "popular": 1263,
+    "newest": 290
+  },
+  "localSlug": "numbered-50f0b6d5"
+}

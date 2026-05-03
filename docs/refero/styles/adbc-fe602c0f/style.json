@@ -1,0 +1,615 @@
+{
+  "id": "fe602c0f-2862-432b-88fc-fa5f9fbc3c78",
+  "url": "https://www.adbc.studio",
+  "siteName": "ADBC",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777513449734-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777513449734-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "light",
+  "colors": [
+    {
+      "name": "Inkwell",
+      "hex": "#111111"
+    },
+    {
+      "name": "Canvas White",
+      "hex": "#ffffff"
+    },
+    {
+      "name": "Pitch Black",
+      "hex": "#000000"
+    },
+    {
+      "name": "Sage Accent",
+      "hex": "#778652"
+    },
+    {
+      "name": "Muted Gray",
+      "hex": "#cecece"
+    }
+  ],
+  "fonts": [
+    "Untitled Sans",
+    "Untitled Serif"
+  ],
+  "northStar": "alpine starkness on white canvas",
+  "createdAt": "2026-04-30T01:44:28.649Z",
+  "previewVideoCapturedAt": null,
+  "industry": "other",
+  "fullResult": {
+    "meta": {
+      "url": "https://www.adbc.studio",
+      "siteName": "ADBC",
+      "extractedAt": "2026-04-30T01:44:28.580Z",
+      "durationMs": 28644,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 72,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#111111",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.17763777307657064
+            },
+            "contexts": [
+              "other",
+              "link",
+              "nav",
+              "icon",
+              "hero",
+              "heading",
+              "card",
+              "image",
+              "body",
+              "footer",
+              "list"
+            ],
+            "frequency": 277,
+            "confidence": 1,
+            "prominence": 43703025.715427585,
+            "properties": [
+              "color",
+              "borderColor",
+              "fill"
+            ],
+            "usageCounts": {
+              "icon/fill": 2,
+              "nav/color": 10,
+              "body/color": 2,
+              "card/color": 2,
+              "hero/color": 1,
+              "icon/color": 1,
+              "link/color": 10,
+              "list/color": 3,
+              "other/fill": 5,
+              "image/color": 4,
+              "other/color": 16,
+              "footer/color": 1,
+              "heading/color": 4,
+              "nav/borderColor": 40,
+              "body/borderColor": 8,
+              "card/borderColor": 8,
+              "hero/borderColor": 4,
+              "icon/borderColor": 4,
+              "link/borderColor": 40,
+              "list/borderColor": 12,
+              "image/borderColor": 16,
+              "other/borderColor": 64,
+              "footer/borderColor": 4,
+              "heading/borderColor": 16
+            }
+          },
+          {
+            "hex": "#ffffff",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 1.0000000000000002
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 14,
+            "confidence": 1,
+            "prominence": 5010587.188867926,
+            "properties": [
+              "color",
+              "borderColor",
+              "fill"
+            ],
+            "usageCounts": {
+              "other/fill": 4,
+              "other/color": 2,
+              "other/borderColor": 8
+            }
+          },
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 8,
+            "confidence": 1,
+            "prominence": 3468709.4523782586,
+            "properties": [
+              "fill"
+            ],
+            "usageCounts": {
+              "other/fill": 8
+            }
+          }
+        ],
+        "isDarkMode": true,
+        "colorfulness": 0,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 21,
+            "background": "#ffffff",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 18.88,
+            "background": "#ffffff",
+            "foreground": "#111111"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 4,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 2,
+            "properties": [
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "marginBottom|heading"
+            ]
+          },
+          {
+            "value": 16,
+            "contexts": [
+              "link"
+            ],
+            "frequency": 2,
+            "properties": [
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "marginBottom|link"
+            ]
+          },
+          {
+            "value": 20,
+            "contexts": [
+              "other",
+              "footer"
+            ],
+            "frequency": 3,
+            "properties": [
+              "marginTop",
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "marginTop|other",
+              "marginBottom|footer",
+              "marginBottom|other"
+            ]
+          },
+          {
+            "value": 24,
+            "contexts": [
+              "other",
+              "link",
+              "footer"
+            ],
+            "frequency": 6,
+            "properties": [
+              "columnGap"
+            ],
+            "propertyContextPairs": [
+              "columnGap|other",
+              "columnGap|link",
+              "columnGap|footer"
+            ]
+          },
+          {
+            "value": 42,
+            "contexts": [
+              "other",
+              "nav",
+              "link",
+              "footer"
+            ],
+            "frequency": 18,
+            "properties": [
+              "marginRight",
+              "marginLeft",
+              "paddingTop",
+              "paddingRight",
+              "paddingBottom",
+              "paddingLeft",
+              "marginTop"
+            ],
+            "propertyContextPairs": [
+              "marginRight|other",
+              "marginLeft|other",
+              "marginRight|nav",
+              "paddingTop|other",
+              "paddingRight|other",
+              "paddingBottom|other",
+              "paddingLeft|other",
+              "marginTop|link",
+              "marginRight|footer",
+              "marginLeft|footer"
+            ]
+          },
+          {
+            "value": 56,
+            "contexts": [
+              "hero",
+              "link"
+            ],
+            "frequency": 2,
+            "properties": [
+              "marginBottom",
+              "marginTop"
+            ],
+            "propertyContextPairs": [
+              "marginBottom|hero",
+              "marginTop|link"
+            ]
+          },
+          {
+            "value": 120,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 3,
+            "properties": [
+              "marginBottom",
+              "rowGap"
+            ],
+            "propertyContextPairs": [
+              "marginBottom|other",
+              "rowGap|other"
+            ]
+          }
+        ],
+        "density": "spacious",
+        "baseUnit": 6
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "Untitled Sans",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 54,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "Untitled Serif",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 2,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 14,
+          "name": "Minor Third",
+          "ratio": 1.2,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 16,
+            "family": "Untitled Sans",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "link",
+              "nav",
+              "icon",
+              "hero",
+              "card",
+              "image",
+              "footer",
+              "list"
+            ],
+            "frequency": 48,
+            "lineHeight": 1.25,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 18,
+            "family": "Untitled Serif",
+            "weight": 400,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 2,
+            "lineHeight": 1.25,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 24,
+            "family": "Untitled Sans",
+            "weight": 400,
+            "contexts": [
+              "link"
+            ],
+            "frequency": 2,
+            "lineHeight": 1.25,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 24,
+            "family": "Untitled Sans",
+            "weight": 400,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 2,
+            "lineHeight": 1.25,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 36,
+            "family": "Untitled Sans",
+            "weight": 400,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.25,
+            "letterSpacing": -0.025,
+            "textTransform": "none"
+          },
+          {
+            "size": 72,
+            "family": "Untitled Sans",
+            "weight": 400,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.05,
+            "letterSpacing": -0.05,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Use Canvas White (#ffffff) as the primary background for all page sections to enforce a clean, spacious aesthetic.",
+        "Apply Inkwell (#111111) for all main text, ensuring maximum contrast and legibility.",
+        "Prioritize Untitled Sans at 72px with -0.0500em letterSpacing for prominent headlines to achieve a modern, condensed feel.",
+        "Maintain a clear visual hierarchy by consistently using 0px border-radius across all elements; sharp edges are part of the brand.",
+        "Employ a 1px solid Inkwell (#111111) underline for all interactive links and navigation items, removing it on hover for an active state indication.",
+        "Use 42px for section spacing and significant vertical gaps to create a spacious, breathable layout.",
+        "Integrate photography full-bleed as background elements in hero sections, layering text with high contrast for readability."
+      ],
+      "donts": [
+        "Avoid using drop shadows or complex elevation; maintain a flat, almost two-dimensional interface design.",
+        "Do not introduce additional bright or saturated colors beyond the defined accent color for UI elements; keep the palette monochromatic.",
+        "Refrain from using heavily decorative borders or frames on cards or content blocks; visual separation is achieved through spacing and typography.",
+        "Do not deviate from the specified negative letter-spacing values for large headings, as it is a core characteristic of the typographic style.",
+        "Avoid centered content blocks that take up the full viewport width; instead, use a comfortable reading width centered on the page.",
+        "Do not use generic button styles with filled backgrounds, instead opt for text links with underlines to indicate interaction.",
+        "Do not use complex gradient backgrounds or overlays; stick to solid color backgrounds for clarity."
+      ],
+      "theme": "light",
+      "colors": [
+        {
+          "hex": "#111111",
+          "name": "Inkwell",
+          "role": "Dark borders and separators for elevated surfaces and inverted UI. Do not promote it to the primary CTA color",
+          "group": "neutral"
+        },
+        {
+          "hex": "#ffffff",
+          "name": "Canvas White",
+          "role": "Page backgrounds, prominent surfaces. This bright white serves as the expansive, clean foundation for the entire layout",
+          "group": "neutral"
+        },
+        {
+          "hex": "#000000",
+          "name": "Pitch Black",
+          "role": "Decorative elements, iconography — used sparingly to punctuate specific UI elements",
+          "group": "neutral"
+        },
+        {
+          "hex": "#778652",
+          "name": "Sage Accent",
+          "role": "Decorative accents where a subtle, earthy color is desired, as indicated by CSS token hints",
+          "group": "accent"
+        },
+        {
+          "hex": "#cecece",
+          "name": "Muted Gray",
+          "role": "Subtle navigation text, as indicated by CSS token hints, providing a softer alternative to the main text color",
+          "group": "neutral"
+        }
+      ],
+      "layout": "The page primarily uses a max-width contained model within a full-bleed structure. The hero features a full-bleed background image with a large, centered headline. Content sections below alternate between full-width blocks and a centered single-column layout for extensive text. There's a subtle left-aligned feel for content within these single-column sections. Vertical rhythm is established by consistent 42px section gaps, with additional 56px gaps appearing for emphasis. A simple top navigation bar is used, featuring text links and a hamburger menu icon.",
+      "imagery": "This site predominantly uses photography. Hero sections and content blocks often feature full-bleed, high-quality, desaturated or monochrome candid photography showing landscapes, events, and people in natural settings, sometimes with a subtle vintage or muted filter. Imagery serves as a rich atmospheric backdrop or contextual visual for content, rather than purely decorative. There are no illustrations or distinct icon styles visible; interaction is conveyed primarily through text and underlined links. Imagery usage is substantial, often framing entire sections and making the site feel image-heavy.",
+      "similar": [
+        {
+          "why": "High-contrast achromatic palette, emphasis on strong sans-serif typography, and generous whitespace for content focus.",
+          "business": "AIGA Design Archives"
+        },
+        {
+          "why": "Uses a classical serif for body text and a robust sans-serif for headlines, providing a stark typographic contrast on a white background.",
+          "business": "The New York Times"
+        },
+        {
+          "why": "Lean, minimalist aesthetic with heavy reliance on black and white, oversized typography, and clean layouts over decorative UI elements.",
+          "business": "Apple (older branding)"
+        },
+        {
+          "why": "Focus on clean, bright interfaces, ample whitespace, and direct, readable typography with minimal UI chrome.",
+          "business": "Dropbox (early design)"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "none": "0px"
+        },
+        "elementGap": "24px",
+        "sectionGap": "42px",
+        "cardPadding": "0px",
+        "pageMaxWidth": null
+      },
+      "industry": "other",
+      "northStar": "alpine starkness on white canvas",
+      "typeScale": [
+        {
+          "role": "body",
+          "size": 18,
+          "lineHeight": 1.25
+        },
+        {
+          "role": "subheading",
+          "size": 24,
+          "lineHeight": 1.25
+        },
+        {
+          "role": "heading",
+          "size": 36,
+          "lineHeight": 1.25,
+          "letterSpacing": -0.45
+        },
+        {
+          "role": "display",
+          "size": 72,
+          "lineHeight": 1.05,
+          "letterSpacing": -3.6
+        }
+      ],
+      "components": [
+        {
+          "name": "Navigation Link",
+          "role": "Header and footer navigation items.",
+          "description": "Text: Untitled Sans, 16px, weight 400, color Inkwell (#111111). Underlined with a 1px border on hover, using Inkwell. Generous 42px horizontal padding to ensure distinct clickable areas."
+        },
+        {
+          "name": "Hero Headline",
+          "role": "Large, impactful text for hero sections.",
+          "description": "Text: Untitled Sans, 72px, weight 400, color Inkwell (#111111), lineHeight 1.05, letterSpacing -0.0500em. Appears centered on a photographic background."
+        },
+        {
+          "name": "Body Text Block",
+          "role": "Standard paragraphs and descriptive text.",
+          "description": "Text: Untitled Serif, 18px, weight 400, color Inkwell (#111111), lineHeight 1.25. The text flows within a comfortable content width with standard letter spacing."
+        },
+        {
+          "name": "Promotional Card",
+          "role": "Informational content blocks, featuring image and text.",
+          "description": "Background: Canvas White (#ffffff). No border or shadow (0px borderRadius, none boxShadow). Content is flush with the edges (0px padding)."
+        },
+        {
+          "name": "Section Heading",
+          "role": "Titles for content sections.",
+          "description": "Text: Untitled Sans, 36px, weight 400, color Inkwell (#111111), lineHeight 1.25, letterSpacing -0.0250em. Followed by a 4px marginBottom."
+        },
+        {
+          "name": "Call to Action Link",
+          "role": "Subtle calls to action embedded in text.",
+          "description": "Text: Untitled Sans, 16px, weight 400, color Inkwell (#111111). Underlined to indicate interactivity."
+        }
+      ],
+      "typography": [
+        {
+          "role": "Primary headings, navigation, and most UI text. The custom sans-serif with subtle negative tracking on larger sizes delivers a clean, modern, and impactful statement.",
+          "sizes": "16px, 24px, 36px, 72px",
+          "family": "Untitled Sans",
+          "weight": "400",
+          "weights": [
+            400
+          ],
+          "lineHeight": "1.05, 1.25",
+          "substitute": "Inter",
+          "letterSpacing": "-0.0500em at 72px, -0.0250em at 36px, normal at 16px"
+        },
+        {
+          "role": "Body copy. This serif font provides a readable, considered voice for long-form content, contrasting with the sans-serif headlines but maintaining a similar understated character.",
+          "sizes": "18px",
+          "family": "Untitled Serif",
+          "weight": "400",
+          "weights": [
+            400
+          ],
+          "lineHeight": "1.25",
+          "substitute": "Lora",
+          "letterSpacing": "normal"
+        }
+      ],
+      "description": "ADBC employs a high-contrast, minimalist visual language, emphasizing strong typography and monochromatic imagery over decorative elements. A stark white background acts as a clean canvas, creating sharp legibility for the almost black text. The design relies on generous whitespace and a precise typographic system to establish hierarchy and a sense of understated authority. Interaction is conveyed through subtle underlines rather than overt button styling, making the experience feel direct and content-focused.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "Quick Color Reference:\ntext: #111111\nbackground: #ffffff\nborder: #111111\naccent: #778652\nprimary action: no distinct CTA color\n\nExample Component Prompts:\nCreate a hero banner with a full-bleed background image, centered text 'ADBC' in Untitled Sans, 72px, weight 400, color Inkwell (#111111), lineHeight 1.05, letterSpacing -0.0500em.\nCreate a navigation bar with 'Ydelser', 'Festivaler', 'Om os', 'Kontakt' as links, in Untitled Sans, 16px, weight 400, color Inkwell (#111111). Ensure links have a 1px Inkwell underline on hover.\nCreate a text section with a headline 'Vi er ADBC.' in Untitled Sans, 36px, weight 400, color Inkwell (#111111), letterSpacing -0.0250em, followed by a body paragraph in Untitled Serif, 18px, weight 400, color Inkwell (#111111), lineHeight 1.25.\nCreate a 'Learn more' link: Untitled Sans, 16px, weight 400, color Inkwell (#111111), underlined, with 16px marginBottom. Its text should be 'Lær os bedre at kende'."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777513449734-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777513449734-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/fe602c0f-2862-432b-88fc-fa5f9fbc3c78",
+  "ranks": {
+    "trending": 734,
+    "popular": 833,
+    "newest": 530
+  },
+  "localSlug": "adbc-fe602c0f"
+}

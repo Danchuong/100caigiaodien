@@ -1,0 +1,635 @@
+{
+  "id": "2b46dc00-9517-4ad0-9bf3-a07d3c0bf385",
+  "url": "https://rauno.me",
+  "siteName": "Rauno Freiberg",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777516379332-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777516379332-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "light",
+  "colors": [
+    {
+      "name": "Midnight Ink",
+      "hex": "#000000"
+    },
+    {
+      "name": "Deep Graphite",
+      "hex": "#171717"
+    },
+    {
+      "name": "Canvas White",
+      "hex": "#ffffff"
+    },
+    {
+      "name": "Vivid Yellow",
+      "hex": "#ffff02"
+    },
+    {
+      "name": "Dynamic Orange",
+      "hex": "#ff5800"
+    },
+    {
+      "name": "Electric Blue",
+      "hex": "#0000ff"
+    }
+  ],
+  "fonts": [
+    "Inter"
+  ],
+  "northStar": "Vivid color-block canvas",
+  "createdAt": "2026-04-30T02:33:18.574Z",
+  "previewVideoCapturedAt": null,
+  "industry": "design",
+  "fullResult": {
+    "meta": {
+      "url": "https://rauno.me",
+      "siteName": "Rauno Freiberg",
+      "extractedAt": "2026-04-30T02:33:17.543Z",
+      "durationMs": 25234,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 112,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "other",
+              "link",
+              "heading",
+              "card",
+              "icon",
+              "body"
+            ],
+            "frequency": 286,
+            "confidence": 1,
+            "prominence": 331544080.02608216,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "body/color": 1,
+              "card/color": 1,
+              "icon/color": 1,
+              "link/color": 5,
+              "other/color": 46,
+              "heading/color": 4,
+              "body/borderColor": 4,
+              "card/borderColor": 4,
+              "icon/borderColor": 4,
+              "link/borderColor": 20,
+              "other/borderColor": 180,
+              "heading/borderColor": 16
+            }
+          },
+          {
+            "hex": "#171717",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.20462653095774938
+            },
+            "contexts": [
+              "other",
+              "card",
+              "heading",
+              "link",
+              "button"
+            ],
+            "frequency": 120,
+            "confidence": 1,
+            "prominence": 4654070.220638078,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "card/color": 1,
+              "link/color": 4,
+              "other/color": 3,
+              "button/color": 1,
+              "heading/color": 15,
+              "card/borderColor": 4,
+              "link/borderColor": 16,
+              "other/borderColor": 12,
+              "button/borderColor": 4,
+              "heading/borderColor": 60
+            }
+          },
+          {
+            "hex": "#ffffff",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 1.0000000000000002
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 9,
+            "confidence": 1,
+            "prominence": 2234541.440019313,
+            "properties": [
+              "backgroundColor",
+              "stroke"
+            ],
+            "usageCounts": {
+              "other/stroke": 2,
+              "other/backgroundColor": 7
+            }
+          },
+          {
+            "hex": "#ffff02",
+            "oklch": {
+              "c": 0.2108096053625754,
+              "h": 109.76651461684618,
+              "l": 0.9680025927869325
+            },
+            "contexts": [
+              "card",
+              "other"
+            ],
+            "frequency": 3,
+            "confidence": 1,
+            "prominence": 1345328,
+            "properties": [
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "card/backgroundColor": 1,
+              "other/backgroundColor": 2
+            }
+          },
+          {
+            "hex": "#ff5800",
+            "oklch": {
+              "c": 0.23785072416954167,
+              "h": 42.36375171621554,
+              "l": 0.7060376525766231
+            },
+            "contexts": [
+              "card"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 403599,
+            "properties": [
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "card/backgroundColor": 1
+            }
+          },
+          {
+            "hex": "#0000ff",
+            "oklch": {
+              "c": 0.31321438863448475,
+              "h": 264.05202261636987,
+              "l": 0.45201371817442365
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "confidence": 1,
+            "prominence": 131856.20035999443,
+            "properties": [
+              "fill",
+              "stroke"
+            ],
+            "usageCounts": {
+              "other/fill": 1,
+              "other/stroke": 1
+            }
+          },
+          {
+            "hex": "#6f6f6f",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.5417056664787456
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 25,
+            "confidence": 1,
+            "prominence": 12916.80834545172,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "other/color": 5,
+              "other/borderColor": 20
+            }
+          },
+          {
+            "hex": "#ff484c",
+            "oklch": {
+              "c": 0.21898583993032755,
+              "h": 24.328347086566776,
+              "l": 0.6681503141980383
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 22,
+            "confidence": 1,
+            "prominence": 8572.14990672804,
+            "properties": [
+              "stroke"
+            ],
+            "usageCounts": {
+              "other/stroke": 22
+            }
+          },
+          {
+            "hex": "#8f8f8f",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.6500412692222284
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 20,
+            "confidence": 1,
+            "prominence": 2371.8514083005307,
+            "properties": [
+              "backgroundColor",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "other/borderColor": 4,
+              "other/backgroundColor": 16
+            }
+          }
+        ],
+        "isDarkMode": false,
+        "colorfulness": 0.034971182964075344,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 21,
+            "background": "#ffffff",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 19.56,
+            "background": "#ffff02",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 17.93,
+            "background": "#ffffff",
+            "foreground": "#171717"
+          },
+          {
+            "level": "AAA",
+            "ratio": 16.7,
+            "background": "#ffff02",
+            "foreground": "#171717"
+          },
+          {
+            "level": "AAA",
+            "ratio": 8.59,
+            "background": "#ffffff",
+            "foreground": "#0000ff"
+          },
+          {
+            "level": "AAA",
+            "ratio": 8,
+            "background": "#ffff02",
+            "foreground": "#0000ff"
+          },
+          {
+            "level": "AA",
+            "ratio": 6.65,
+            "background": "#ff5800",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AA",
+            "ratio": 6.49,
+            "background": "#8f8f8f",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AA",
+            "ratio": 5.68,
+            "background": "#ff5800",
+            "foreground": "#171717"
+          },
+          {
+            "level": "AA",
+            "ratio": 5.54,
+            "background": "#8f8f8f",
+            "foreground": "#171717"
+          },
+          {
+            "level": "AA",
+            "ratio": 5.02,
+            "background": "#ffffff",
+            "foreground": "#6f6f6f"
+          },
+          {
+            "level": "AA",
+            "ratio": 4.68,
+            "background": "#ffff02",
+            "foreground": "#6f6f6f"
+          },
+          {
+            "level": "fail",
+            "ratio": 2.72,
+            "background": "#ff5800",
+            "foreground": "#0000ff"
+          },
+          {
+            "level": "fail",
+            "ratio": 1.59,
+            "background": "#ff5800",
+            "foreground": "#6f6f6f"
+          },
+          {
+            "level": "fail",
+            "ratio": 1.55,
+            "background": "#8f8f8f",
+            "foreground": "#6f6f6f"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [
+          {
+            "value": 12,
+            "contexts": [
+              "link",
+              "button"
+            ],
+            "frequency": 5
+          },
+          {
+            "value": 9999,
+            "contexts": [
+              "card"
+            ],
+            "frequency": 2
+          }
+        ],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 8,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "rowGap",
+              "columnGap"
+            ],
+            "propertyContextPairs": [
+              "rowGap|other",
+              "columnGap|other"
+            ]
+          },
+          {
+            "value": 9,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "rowGap",
+              "columnGap"
+            ],
+            "propertyContextPairs": [
+              "rowGap|other",
+              "columnGap|other"
+            ]
+          },
+          {
+            "value": 50,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 4,
+            "properties": [
+              "paddingTop",
+              "paddingRight",
+              "paddingBottom",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other",
+              "paddingRight|other",
+              "paddingBottom|other",
+              "paddingLeft|other"
+            ]
+          },
+          {
+            "value": 64,
+            "contexts": [
+              "other",
+              "heading"
+            ],
+            "frequency": 9,
+            "properties": [
+              "paddingTop",
+              "paddingRight",
+              "paddingBottom",
+              "paddingLeft",
+              "rowGap",
+              "columnGap",
+              "marginLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other",
+              "paddingRight|other",
+              "paddingBottom|other",
+              "paddingLeft|other",
+              "rowGap|other",
+              "columnGap|other",
+              "marginLeft|heading"
+            ]
+          }
+        ],
+        "density": "spacious",
+        "baseUnit": 8
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [],
+        "scale": null,
+        "steps": []
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Prioritize high-contrast color pairings using Midnight Ink (#000000) or Deep Graphite (#171717) on Canvas White (#ffffff) or accent colors.",
+        "Use Vivid Yellow (#ffff02) and Dynamic Orange (#ff5800) for large, unpadded circular or full-bleed background elements to create high visual impact.",
+        "Adopt a maximalist approach to typography: use Inter weight 700 for headlines and primary text, letting it dominate the layout.",
+        "Apply specific border radii: 12px for interactive elements like buttons and links, and 9999px for large accent 'card' elements to create perfect circles.",
+        "Maintain generous vertical spacing between sections, primarily using the 64px sectionGap and 8px elementGap for overall spaciousness.",
+        "Keep components visually lightweight, relying on bold typography and color blocking rather than complex styling like shadows or gradients.",
+        "Employ Electric Blue (#0000ff) sparingly for decorative SVG elements or very specific icon accents, not for primary interface elements."
+      ],
+      "donts": [
+        "Avoid subtle color variations; stick to the defined high-contrast palette.",
+        "Do not use shadows or complex elevation; the design system favors flat, bold surfaces.",
+        "Refrain from using small, delicate text; typography should be confident and prominent.",
+        "Do not introduce intermediate border radius values; adhere strictly to 12px for interactive elements and 9999px for circular elements.",
+        "Under no circumstances should any primary action button be filled; only ghost-like buttons with border and text colors are used.",
+        "Avoid using gradients; the aesthetic is built on solid, block colors.",
+        "Do not introduce new decorative imagery or illustrations; rely on bold shapes and impactful typography with accent colors."
+      ],
+      "theme": "light",
+      "colors": [
+        {
+          "hex": "#000000",
+          "name": "Midnight Ink",
+          "role": "Primary text, critical borders, dark accents",
+          "group": "neutral"
+        },
+        {
+          "hex": "#171717",
+          "name": "Deep Graphite",
+          "role": "Dark borders and separators for elevated surfaces and inverted UI. Do not promote it to the primary CTA color",
+          "group": "neutral"
+        },
+        {
+          "hex": "#ffffff",
+          "name": "Canvas White",
+          "role": "Page backgrounds, some component backgrounds",
+          "group": "neutral"
+        },
+        {
+          "hex": "#ffff02",
+          "name": "Vivid Yellow",
+          "role": "Primary accent background for hero elements, large graphical blocks, card backgrounds",
+          "group": "accent"
+        },
+        {
+          "hex": "#ff5800",
+          "name": "Dynamic Orange",
+          "role": "Secondary accent background for cards and prominent graphical elements",
+          "group": "accent"
+        },
+        {
+          "hex": "#0000ff",
+          "name": "Electric Blue",
+          "role": "Decorative SVG fills and strokes, highlight elements, icon accents",
+          "group": "accent"
+        }
+      ],
+      "layout": "The page operates on a full-bleed layout for its primary content areas, not constrained by a max-width. The hero section often features large, bold text centrally aligned over a prominent color block. Sections alternate between white backgrounds and vivid accent color backgrounds, creating a clear visual rhythm without explicit dividers. Content is arranged in a fluid, flexible manner, often with large display typography as a central element, surrounded by minimal supporting text and interactive elements. Navigation is minimal, likely restricted to a top-level textual list. Density is spacious, emphasizing individual elements and text blocks through size and contrast.",
+      "imagery": "Imagery is minimal and highly abstract, primarily consisting of large, vivid circular color blocks (Vivid Yellow and Dynamic Orange) that serve as decorative elements rather than displaying content. There are no photographs, realistic illustrations, or product screenshots. Icons are used sparingly and are likely line-based with Electric Blue (#0000ff) fills or strokes, functioning as small, functional or decorative accents. The visual density is image-light and text-dominant, with color blocks providing atmosphere.",
+      "similar": [
+        {
+          "why": "Uses large, impactful typography and bold, simple color blocking for visual dominance.",
+          "business": "Huge Inc."
+        },
+        {
+          "why": "Employs high-contrast graphics, vivid single-tone accents, and a focus on clean, unadorned UI elements.",
+          "business": "Active Theory"
+        },
+        {
+          "why": "Shares a direct, unembellished aesthetic, powerful typography, and high-contrast color choices without complex styling.",
+          "business": "Brutalist Websites"
+        },
+        {
+          "why": "Leverages bold typography on minimal backgrounds with bright, singular accent colors for a modern, impactful feel.",
+          "business": "Build with Us (by Vercel)"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "cards": "9999px",
+          "links": "12px",
+          "buttons": "12px"
+        },
+        "elementGap": "8px",
+        "sectionGap": "64px",
+        "cardPadding": "0px",
+        "pageMaxWidth": null
+      },
+      "industry": "design",
+      "northStar": "Vivid color-block canvas",
+      "components": [
+        {
+          "name": "Ghost Border Button",
+          "role": "Interactive element (button/link)",
+          "description": "Text in Deep Graphite (#171717) with a 1px border in Midnight Ink (#000000). Background is transparent. Border radius is 12px. Padding is 0px, suggesting the primary interaction is implied by text size and hover, not a visible button box."
+        },
+        {
+          "name": "Vivid Yellow Circle Card",
+          "role": "Feature showcase, visual accent",
+          "description": "Circular card with a solid Vivid Yellow (#ffff02) background. Border radius 9999px. Used as large, impactful graphical elements that act as visual anchors on the page without internal padding."
+        },
+        {
+          "name": "Dynamic Orange Circle Card",
+          "role": "Alternative feature showcase, visual accent",
+          "description": "Circular card with a solid Dynamic Orange (#ff5800) background. Border radius 9999px. Similar to the Vivid Yellow Circle Card, providing an alternative accent color for large graphical elements."
+        }
+      ],
+      "typography": [
+        {
+          "role": "The primary font for all text, from body copy to large headlines. Its clean, geometric forms support the graphic, high-contrast aesthetic. It’s used primarily at 700 for headings, imparting a strong, bold statement, and at 400 for body for readability.",
+          "sizes": "16px, 18px, 24px, 32px, 48px",
+          "family": "Inter",
+          "weight": "400, 700",
+          "lineHeight": "1.3",
+          "substitute": "Inter"
+        }
+      ],
+      "description": "Rauno.me employs a playful, high-contrast aesthetic, utilizing vibrant, unmodulated primary colors for a bold, graphic presence. The design leans into stark black typography on white or vivid colored backgrounds, creating a sense of directness. Components are minimalist, often represented by large, rounded shapes or text with subtle hover effects, avoiding complex gradients or shadows. The overall feel is one of confident simplicity and visual impact through color blocking and clear typographic hierarchy.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "Quick Color Reference:\n- text: #000000\n- background: #ffffff\n- border: #000000\n- accent: #ffff02\n- primary action: no distinct CTA color\n\nExample Component Prompts:\n- Create a section with a Vivid Yellow (#ffff02) background, spanning full width. Place a large headline: 'Rauno Freiberg is an Estonian Interaction Designer' using Inter weight 700, 48px, #000000 text. Above the headline, add a Ghost Border Button with text 'Email Copied' using Inter weight 400, 16px, #171717 text, and a #000000 border, 12px radius, no background.\n- Design a textual link 'Devouring Details DD' using Inter weight 400, 18px, #171717 text, with an underline. On hover, the link should transition to #000000 text with a 1px #000000 border.\n- Produce a full-bleed page section with Canvas White (#ffffff) background. In the center, place a large circular element filled with Dynamic Orange (#ff5800), with 9999px radius. Overlay this circle with display text 'Craft' using Inter weight 700, 48px, #000000 text."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777516379332-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777516379332-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/2b46dc00-9517-4ad0-9bf3-a07d3c0bf385",
+  "ranks": {
+    "trending": 904,
+    "popular": 972,
+    "newest": 349
+  },
+  "localSlug": "rauno-freiberg-2b46dc00"
+}

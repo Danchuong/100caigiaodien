@@ -1,0 +1,858 @@
+{
+  "id": "8e26bf8a-44b8-4fe1-9b4b-188dd5827c0f",
+  "url": "https://lamalama.nl",
+  "siteName": "Lama Lama",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777515967562-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777515967562-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "dark",
+  "colors": [
+    {
+      "name": "Deep Charcoal",
+      "hex": "#111314"
+    },
+    {
+      "name": "Polar Mist",
+      "hex": "#d7f3f5"
+    },
+    {
+      "name": "Void Black",
+      "hex": "#020203"
+    }
+  ],
+  "fonts": [
+    "SuisseIntl"
+  ],
+  "northStar": "Midnight theater with luminous text",
+  "createdAt": "2026-04-30T02:26:27.122Z",
+  "previewVideoCapturedAt": null,
+  "industry": "agency",
+  "fullResult": {
+    "meta": {
+      "url": "https://lamalama.nl",
+      "siteName": "Lama Lama",
+      "extractedAt": "2026-04-30T02:26:26.789Z",
+      "durationMs": 34445,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 740,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#d7f3f5",
+            "oklch": {
+              "c": 0.02937456641186707,
+              "h": 201.90696125243636,
+              "l": 0.9444900975640986
+            },
+            "contexts": [
+              "other",
+              "link",
+              "nav",
+              "hero",
+              "heading",
+              "body",
+              "image",
+              "button",
+              "footer"
+            ],
+            "frequency": 1634,
+            "confidence": 1,
+            "prominence": 154925387.4306937,
+            "properties": [
+              "color",
+              "borderColor",
+              "backgroundColor",
+              "fill"
+            ],
+            "usageCounts": {
+              "nav/color": 40,
+              "body/color": 45,
+              "hero/color": 2,
+              "link/color": 14,
+              "other/fill": 503,
+              "image/color": 3,
+              "other/color": 84,
+              "button/color": 1,
+              "footer/color": 1,
+              "heading/color": 36,
+              "nav/borderColor": 160,
+              "body/borderColor": 180,
+              "hero/borderColor": 8,
+              "link/borderColor": 56,
+              "image/borderColor": 12,
+              "other/borderColor": 336,
+              "button/borderColor": 4,
+              "footer/borderColor": 4,
+              "heading/borderColor": 144,
+              "other/backgroundColor": 1
+            }
+          },
+          {
+            "hex": "#111314",
+            "oklch": {
+              "c": 0.003787765740408758,
+              "h": 229.03022300102532,
+              "l": 0.18494630811324522
+            },
+            "contexts": [
+              "other",
+              "list",
+              "link",
+              "heading"
+            ],
+            "frequency": 51,
+            "confidence": 1,
+            "prominence": 81810060.13029201,
+            "properties": [
+              "backgroundColor",
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "link/color": 2,
+              "list/color": 3,
+              "other/color": 1,
+              "heading/color": 4,
+              "link/borderColor": 8,
+              "list/borderColor": 12,
+              "other/borderColor": 4,
+              "heading/borderColor": 16,
+              "other/backgroundColor": 1
+            }
+          },
+          {
+            "hex": "#020203",
+            "oklch": {
+              "c": 0.005553227830184068,
+              "h": 285.17291392654556,
+              "l": 0.08597295178590166
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "confidence": 1,
+            "prominence": 473456.8282904223,
+            "properties": [
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "other/backgroundColor": 2
+            }
+          }
+        ],
+        "isDarkMode": true,
+        "colorfulness": 0.07722380048608918,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 17.8,
+            "background": "#020203",
+            "foreground": "#d7f3f5"
+          },
+          {
+            "level": "AAA",
+            "ratio": 16,
+            "background": "#111314",
+            "foreground": "#d7f3f5"
+          },
+          {
+            "level": "fail",
+            "ratio": 1.11,
+            "background": "#020203",
+            "foreground": "#111314"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [
+          {
+            "value": 15,
+            "contexts": [
+              "other",
+              "link"
+            ],
+            "frequency": 6
+          },
+          {
+            "value": 8,
+            "contexts": [
+              "button"
+            ],
+            "frequency": 1
+          }
+        ],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 4,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 6,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|other",
+              "paddingLeft|other"
+            ]
+          },
+          {
+            "value": 5,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 30,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|other",
+              "paddingLeft|other"
+            ]
+          },
+          {
+            "value": 6,
+            "contexts": [
+              "footer"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|footer",
+              "paddingLeft|footer"
+            ]
+          },
+          {
+            "value": 8,
+            "contexts": [
+              "other",
+              "link"
+            ],
+            "frequency": 9,
+            "properties": [
+              "rowGap",
+              "columnGap",
+              "marginBottom",
+              "marginLeft"
+            ],
+            "propertyContextPairs": [
+              "rowGap|other",
+              "columnGap|other",
+              "marginBottom|other",
+              "marginBottom|link",
+              "marginLeft|link"
+            ]
+          },
+          {
+            "value": 10,
+            "contexts": [
+              "link",
+              "nav",
+              "hero",
+              "other",
+              "footer"
+            ],
+            "frequency": 24,
+            "properties": [
+              "paddingTop",
+              "paddingLeft",
+              "paddingRight",
+              "marginTop",
+              "paddingBottom",
+              "marginLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|link",
+              "paddingLeft|link",
+              "paddingTop|nav",
+              "paddingRight|nav",
+              "paddingRight|hero",
+              "paddingLeft|hero",
+              "marginTop|other",
+              "paddingRight|other",
+              "paddingLeft|other",
+              "paddingTop|footer",
+              "paddingBottom|footer",
+              "marginLeft|link",
+              "paddingBottom|nav",
+              "paddingLeft|nav",
+              "paddingBottom|other"
+            ]
+          },
+          {
+            "value": 20,
+            "contexts": [
+              "nav",
+              "other"
+            ],
+            "frequency": 13,
+            "properties": [
+              "columnGap",
+              "marginTop",
+              "marginBottom",
+              "marginRight"
+            ],
+            "propertyContextPairs": [
+              "columnGap|nav",
+              "marginTop|other",
+              "marginBottom|other",
+              "marginRight|nav"
+            ]
+          },
+          {
+            "value": 30,
+            "contexts": [
+              "link"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingRight",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|link",
+              "paddingBottom|link"
+            ]
+          },
+          {
+            "value": 40,
+            "contexts": [
+              "heading",
+              "other"
+            ],
+            "frequency": 42,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|heading",
+              "paddingLeft|heading",
+              "paddingRight|other",
+              "paddingLeft|other"
+            ]
+          },
+          {
+            "value": 48,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 16,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|heading",
+              "paddingLeft|heading"
+            ]
+          },
+          {
+            "value": 60,
+            "contexts": [
+              "nav",
+              "other"
+            ],
+            "frequency": 7,
+            "properties": [
+              "paddingBottom",
+              "marginLeft",
+              "paddingTop",
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingBottom|nav",
+              "marginLeft|other",
+              "paddingTop|nav",
+              "paddingRight|nav",
+              "paddingTop|other",
+              "paddingRight|other",
+              "paddingLeft|other"
+            ]
+          },
+          {
+            "value": 64,
+            "contexts": [
+              "hero",
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingTop",
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|hero",
+              "marginBottom|other"
+            ]
+          },
+          {
+            "value": 80,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingTop",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other",
+              "paddingBottom|other"
+            ]
+          },
+          {
+            "value": 119,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "marginLeft"
+            ],
+            "propertyContextPairs": [
+              "marginLeft|other"
+            ]
+          },
+          {
+            "value": 144,
+            "contexts": [
+              "other",
+              "hero"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingTop",
+              "marginTop"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other",
+              "marginTop|hero"
+            ]
+          }
+        ],
+        "density": "comfortable",
+        "baseUnit": 4
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "SuisseIntl",
+            "source": "custom",
+            "weights": [
+              300,
+              400,
+              500,
+              700
+            ],
+            "frequency": 236,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 16,
+          "name": "Major Second",
+          "ratio": 1.125,
+          "confidence": 0.88
+        },
+        "steps": [
+          {
+            "size": 10,
+            "family": "SuisseIntl",
+            "weight": 700,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 3,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 12,
+            "family": "SuisseIntl",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "body",
+              "link"
+            ],
+            "frequency": 31,
+            "lineHeight": 1.5,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 12,
+            "family": "SuisseIntl",
+            "weight": 400,
+            "contexts": [
+              "body",
+              "other"
+            ],
+            "frequency": 6,
+            "lineHeight": 1.22,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 14,
+            "family": "SuisseIntl",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "body"
+            ],
+            "frequency": 4,
+            "lineHeight": 1.5,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 14,
+            "family": "SuisseIntl",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "link",
+              "body"
+            ],
+            "frequency": 8,
+            "lineHeight": 1.25,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 16,
+            "family": "SuisseIntl",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "link",
+              "nav",
+              "hero",
+              "body",
+              "image",
+              "button",
+              "footer",
+              "list"
+            ],
+            "frequency": 95,
+            "lineHeight": 1.56,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "SuisseIntl",
+            "weight": 400,
+            "contexts": [
+              "nav",
+              "link",
+              "body"
+            ],
+            "frequency": 30,
+            "lineHeight": 1.38,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "SuisseIntl",
+            "weight": 500,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 2,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "SuisseIntl",
+            "weight": 400,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 4,
+            "lineHeight": 1.17,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "SuisseIntl",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "body"
+            ],
+            "frequency": 3,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 30,
+            "family": "SuisseIntl",
+            "weight": 300,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.06,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 40,
+            "family": "SuisseIntl",
+            "weight": 300,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "lineHeight": 1.06,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 50,
+            "family": "SuisseIntl",
+            "weight": 300,
+            "contexts": [
+              "other",
+              "heading",
+              "link"
+            ],
+            "frequency": 16,
+            "lineHeight": 1.06,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 134,
+            "family": "SuisseIntl",
+            "weight": 300,
+            "contexts": [
+              "other",
+              "heading"
+            ],
+            "frequency": 31,
+            "lineHeight": 0.86,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Prioritize Deep Charcoal (#111314) and Void Black (#020203) for backgrounds, establishing a dark, immersive canvas.",
+        "Use Polar Mist (#d7f3f5) for all primary text, ghost button borders, and interactive accents to ensure high contrast.",
+        "Apply SuisseIntl font consistently across all text elements, leveraging its varying weights for typographic hierarchy.",
+        "Maintain a spacious layout with section gaps of 60-80px to prevent visual clutter and allow content to breathe.",
+        "When creating cards or interactive elements, use a 15px border-radius for a consistent soft-edged appearance.",
+        "For all primary action buttons, employ the ghost style using Polar Mist (#d7f3f5) for text and border, with an 8px border-radius."
+      ],
+      "donts": [
+        "Avoid using bright or vivid colors for large background areas; reserve chromatic accents for subtle interactive states or small functional elements.",
+        "Do not introduce heavy drop shadows or busy decorative elements that would disrupt the understated, contained aesthetic.",
+        "Refrain from using bold typefaces for body text or subheadings; reserve heavier weights for high-impact headlines only.",
+        "Do not deviate from the defined border radii; maintain 15px for card-like elements and 8px for buttons.",
+        "Avoid tight spacing for content blocks or sections; maintain generous padding to uphold the design's comfortable density.",
+        "Do not use black for text on a deep charcoal background; ensure sufficient contrast by using Polar Mist (#d7f3f5)."
+      ],
+      "theme": "dark",
+      "colors": [
+        {
+          "hex": "#111314",
+          "name": "Deep Charcoal",
+          "role": "Page backgrounds, card surfaces, primary text for some inverted sections",
+          "group": "neutral"
+        },
+        {
+          "hex": "#d7f3f5",
+          "name": "Polar Mist",
+          "role": "Primary text, ghost button borders and text, interactive element accents, subtle decorative strokes",
+          "group": "brand"
+        },
+        {
+          "hex": "#020203",
+          "name": "Void Black",
+          "role": "Deepest canvas background, secondary card surfaces providing subtle layering",
+          "group": "neutral"
+        }
+      ],
+      "layout": "The page uses a full-bleed layout on a dark canvas, primarily centered content sections within an implied max-width. The hero section features a centered headline over a video or prominent visual, with supporting text below. Subsequent sections often use split-pane layouts, presenting visuals on one side and text on the other, or a dynamic grid for featured projects. Vertical rhythm is established by consistent large section gaps (60-80px), creating a sense of spaciousness. Navigation is a minimalist top bar, with a persistent footer at the bottom containing utility links.",
+      "imagery": "Imagery primarily features product/project videos and still photography presented within rounded containers. The treatment suggests a focus on the subject, often with a slight vignette or deep, rich tones that blend with the dark background. Photography is mostly product-focused or environmental, avoiding overt lifestyle shots. Small illustrative icons are outlined and monochrome, matching the Polar Mist (#d7f3f5) accent color. Imagery generally serves to showcase work and provide atmospheric context, while maintaining a balanced density with text.",
+      "similar": [
+        {
+          "why": "Shares a sophisticated, spacious dark mode aesthetic with prominent content showcases.",
+          "business": "Huge Inc."
+        },
+        {
+          "why": "Uses a dark background, minimal UI, and focuses on showcasing creative work with a subtle accent color.",
+          "business": "Locomotive"
+        },
+        {
+          "why": "Exhibits a similar art-directed editorial feel, with large typography and ample whitespace on dark canvases.",
+          "business": "Basic Theory"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "cards": "15px",
+          "buttons": "8px",
+          "interactiveElements": "15px"
+        },
+        "elementGap": "8-10px",
+        "sectionGap": "60-80px",
+        "cardPadding": "40px",
+        "pageMaxWidth": null
+      },
+      "industry": "agency",
+      "surfaces": [
+        {
+          "hex": "#020203",
+          "name": "Void Black",
+          "level": 0,
+          "purpose": "Base page background and secondary surface level for cards or content blocks."
+        },
+        {
+          "hex": "#111314",
+          "name": "Deep Charcoal",
+          "level": 1,
+          "purpose": "Primary content surface background, used for significant sections and card backgrounds against the base."
+        }
+      ],
+      "northStar": "Midnight theater with luminous text",
+      "typeScale": [
+        {
+          "role": "caption",
+          "size": 10,
+          "lineHeight": 1.5
+        },
+        {
+          "role": "body",
+          "size": 14,
+          "lineHeight": 1.22
+        },
+        {
+          "role": "heading-sm",
+          "size": 30,
+          "lineHeight": 1.06
+        },
+        {
+          "role": "heading",
+          "size": 40,
+          "lineHeight": 1
+        },
+        {
+          "role": "heading-lg",
+          "size": 50,
+          "lineHeight": 0.86
+        },
+        {
+          "role": "display",
+          "size": 134,
+          "lineHeight": 0.86
+        }
+      ],
+      "components": [
+        {
+          "name": "Ghost Action Button",
+          "role": "Primary interactive control for calls to action or navigation.",
+          "description": "Text in Polar Mist (#d7f3f5), no background fill, bordered with a 1.5px solid Polar Mist (#d7f3f5) stroke. Features an 8px border-radius, maintaining a subtle pill-like shape only on active button."
+        },
+        {
+          "name": "Feature Card",
+          "role": "Container for project highlights or content blocks.",
+          "description": "Void Black (#020203) background, text in Polar Mist (#d7f3f5). Features a 15px border-radius without explicit borders or shadows, relying on background contrast for separation."
+        },
+        {
+          "name": "Navigation Link",
+          "role": "Interactive text link within headers and footers.",
+          "description": "Text in Polar Mist (#d7f3f5) with no background. Underlined on hover or active state with Polar Mist (#d7f3f5)."
+        },
+        {
+          "name": "Hero Headline",
+          "role": "Prominent headline for introductory sections.",
+          "description": "Utilizes SuisseIntl at large sizes (40px, 50px, 134px) with weight 300, text in Polar Mist (#d7f3f5). Line height is compacted to create a dense, impactful block of text."
+        },
+        {
+          "name": "Play Showreel Button",
+          "role": "Specific action button for media playback.",
+          "description": "Polar Mist (#d7f3f5) text on a transparent background, with a 1.5px solid Polar Mist (#d7f3f5) border. 8px border-radius for a slightly rounded rectangular form. Inner padding is minimal to keep it compact."
+        }
+      ],
+      "typography": [
+        {
+          "role": "Primary typeface for all headings, body text, navigation, and interactive elements. Its range from light (300) to bold (700) supports a nuanced hierarchy within a compact line height for a dense, editorial feel.",
+          "sizes": "10px, 12px, 14px, 16px, 30px, 40px, 50px, 134px",
+          "family": "SuisseIntl",
+          "weight": "300, 400, 500, 700",
+          "weights": [
+            300,
+            400,
+            500,
+            700
+          ],
+          "lineHeight": "0.86, 1.00, 1.06, 1.17, 1.22, 1.25, 1.38, 1.50, 1.56",
+          "substitute": "Inter",
+          "letterSpacing": "normal"
+        }
+      ],
+      "description": "Lama Lama employs a dark mode aesthetic with a rich, immersive character, balancing deep charcoal backgrounds with luminous, near-white typography for high contrast. The visual system is defined by its understated UI elements, which often surface through subtle borders rather than solid fills, allowing content such as photography and video to dominate. Typography is compact and precise, maintaining clarity within the spacious, uncrowded layouts. Components are minimal, relying on rounded corners and ghost-like interactions to suggest functionality without visual clutter.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "### Quick Color Reference\ntext: #d7f3f5\nbackground: #111314\nborder: #d7f3f5\naccent: #d7f3f5\nprimary action: no distinct CTA color\n\n### 3-5 Example Component Prompts\n1. Create a Hero Section: Void Black (#020203) background. Centered SuisseIntl heading-lg 'Creative Digital Agency' in Polar Mist (#d7f3f5), weight 300, lineHeight 0.86. Below it, a ghost action button 'Play showreel' using Polar Mist (#d7f3f5) text and a 1.5px Polar Mist border, 8px border-radius.\n2. Design a Feature Card: Deep Charcoal (#111314) background, with a 15px border-radius. Use SuisseIntl body-sm for descriptive text and SuisseIntl subheading for titles, both in Polar Mist (#d7f3f5). Inner padding 40px.\n3. Implement a Header Navigation: Deep Charcoal (#111314) background with SuisseIntl subheading 'Work' and 'Contact' links in Polar Mist (#d7f3f5), weight 400. Horizontal elementGap 20px, vertical padding 10px."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777515967562-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777515967562-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/8e26bf8a-44b8-4fe1-9b4b-188dd5827c0f",
+  "ranks": {
+    "trending": 1214,
+    "popular": 1228,
+    "newest": 370
+  },
+  "localSlug": "lama-lama-8e26bf8a"
+}

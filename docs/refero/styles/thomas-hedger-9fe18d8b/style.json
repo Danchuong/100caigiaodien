@@ -1,0 +1,534 @@
+{
+  "id": "9fe18d8b-58b7-404d-bcc6-9e8a73b8862c",
+  "url": "https://thomashedger.co.uk",
+  "siteName": "Thomas Hedger",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777519740416-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777519740416-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "light",
+  "colors": [
+    {
+      "name": "Absolute Zero",
+      "hex": "#000000"
+    },
+    {
+      "name": "Canvas White",
+      "hex": "#ffffff"
+    },
+    {
+      "name": "Ink Grey",
+      "hex": "#29242b"
+    },
+    {
+      "name": "Border Fog",
+      "hex": "#e5e5e5"
+    }
+  ],
+  "fonts": [
+    "Diatype",
+    "Diatype Variable",
+    "Times"
+  ],
+  "northStar": "Gallery Grid Canvas",
+  "createdAt": "2026-04-30T03:29:16.353Z",
+  "previewVideoCapturedAt": null,
+  "industry": "design",
+  "fullResult": {
+    "meta": {
+      "url": "https://thomashedger.co.uk",
+      "siteName": "Thomas Hedger",
+      "extractedAt": "2026-04-30T03:29:16.286Z",
+      "durationMs": 34819,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 161,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "other",
+              "link",
+              "card",
+              "image",
+              "body"
+            ],
+            "frequency": 754,
+            "confidence": 1,
+            "prominence": 131055748.06557624,
+            "properties": [
+              "color",
+              "borderColor",
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "body/color": 1,
+              "card/color": 48,
+              "link/color": 21,
+              "image/color": 57,
+              "other/color": 24,
+              "body/borderColor": 4,
+              "card/borderColor": 192,
+              "link/borderColor": 82,
+              "image/borderColor": 228,
+              "other/borderColor": 96,
+              "other/backgroundColor": 1
+            }
+          },
+          {
+            "hex": "#ffffff",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 1.0000000000000002
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 11,
+            "confidence": 1,
+            "prominence": 281107.66456904804,
+            "properties": [
+              "color",
+              "borderColor",
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "other/color": 2,
+              "other/borderColor": 8,
+              "other/backgroundColor": 1
+            }
+          },
+          {
+            "hex": "#29242b",
+            "oklch": {
+              "c": 0.014647014384820835,
+              "h": 316.36133591482945,
+              "l": 0.2687202829062059
+            },
+            "contexts": [
+              "heading",
+              "other"
+            ],
+            "frequency": 40,
+            "confidence": 1,
+            "prominence": 90044.37654161613,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "other/color": 5,
+              "heading/color": 3,
+              "other/borderColor": 20,
+              "heading/borderColor": 12
+            }
+          },
+          {
+            "hex": "#e5e5e5",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.9231197248349694
+            },
+            "contexts": [
+              "link"
+            ],
+            "frequency": 2,
+            "confidence": 1,
+            "prominence": 13353.30906857574,
+            "properties": [
+              "borderColor"
+            ],
+            "usageCounts": {
+              "link/borderColor": 2
+            }
+          }
+        ],
+        "isDarkMode": false,
+        "colorfulness": 0.001962157391047367,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 21,
+            "background": "#ffffff",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 16.67,
+            "background": "#e5e5e5",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 15.2,
+            "background": "#ffffff",
+            "foreground": "#29242b"
+          },
+          {
+            "level": "AAA",
+            "ratio": 12.07,
+            "background": "#e5e5e5",
+            "foreground": "#29242b"
+          },
+          {
+            "level": "fail",
+            "ratio": 1.38,
+            "background": "#000000",
+            "foreground": "#29242b"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 3,
+            "contexts": [
+              "other",
+              "link",
+              "card"
+            ],
+            "frequency": 234,
+            "properties": [
+              "paddingTop",
+              "paddingRight",
+              "paddingBottom",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other",
+              "paddingRight|other",
+              "paddingBottom|other",
+              "paddingLeft|other",
+              "paddingTop|link",
+              "paddingRight|link",
+              "paddingBottom|link",
+              "paddingLeft|link",
+              "paddingTop|card",
+              "paddingRight|card",
+              "paddingBottom|card",
+              "paddingLeft|card"
+            ]
+          },
+          {
+            "value": 19,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 2,
+            "properties": [
+              "marginTop",
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "marginTop|body",
+              "marginBottom|body"
+            ]
+          },
+          {
+            "value": 296,
+            "contexts": [
+              "card"
+            ],
+            "frequency": 1,
+            "properties": [
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingBottom|card"
+            ]
+          },
+          {
+            "value": 317,
+            "contexts": [
+              "card"
+            ],
+            "frequency": 1,
+            "properties": [
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingBottom|card"
+            ]
+          }
+        ],
+        "density": "compact",
+        "baseUnit": 4
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "Diatype",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 136,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "Diatype Variable",
+            "source": "custom",
+            "weights": [
+              500,
+              700
+            ],
+            "frequency": 13,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "Times",
+            "source": "system",
+            "weights": [
+              400
+            ],
+            "frequency": 12,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 19,
+          "name": "Minor Third",
+          "ratio": 1.2,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 9,
+            "family": "Diatype",
+            "weight": 400,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 13,
+            "family": "Times",
+            "weight": 400,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 12,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 19,
+            "family": "Diatype",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "link",
+              "card",
+              "image",
+              "body"
+            ],
+            "frequency": 135,
+            "lineHeight": 1.3,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 26,
+            "family": "Diatype Variable",
+            "weight": 500,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 3,
+            "lineHeight": 1.1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 26,
+            "family": "Diatype Variable",
+            "weight": 700,
+            "contexts": [
+              "other",
+              "link"
+            ],
+            "frequency": 10,
+            "lineHeight": 1.1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Prioritize image content. Most of the page should be dedicated to displaying artwork, respecting its inherent dimensions and aspect ratios.",
+        "Maintain a clear, high-contrast visual hierarchy using 'Absolute Zero' for key text and borders against 'Canvas White' backgrounds.",
+        "Use 'Ink Grey' for prominent headings to establish a slightly softer, yet still impactful, textual presence.",
+        "Apply 'Absolute Zero' for all primary borders and dividers to emphasize the grid structure and define interactive areas.",
+        "Keep all corners sharp with a 0px border-radius on all components, maintaining a crisp, rectilinear aesthetic.",
+        "Employ 'Diatype' (or Inter) at 26px weight 700 for main navigation and headings, providing clear and concise guidance.",
+        "Utilize 3px padding from the tokens only for small, internal element spacing where needed for compact density, otherwise prefer 0px for content containers."
+      ],
+      "donts": [
+        "Avoid decorative shadows or complex elevation schemes; the design relies on flat, direct presentation.",
+        "Do not introduce new colors into the UI beyond the defined neutrals; all vibrancy should come from the artwork itself.",
+        "Refrain from using heavily styled buttons or components that draw attention away from the visual content.",
+        "Do not implement soft curves or rounded corners; the aesthetic is sharp and geometric.",
+        "Avoid unnecessary padding or excessive white space around artwork to maintain a dense, gallery-like feel.",
+        "Do not use generic system fonts for prominent text roles; stick to 'Diatype' and 'Diatype Variable' for brand consistency.",
+        "Under no circumstances should the browser default link color (#0000ee) appear; all links use 'Absolute Zero' or 'Ink Grey'."
+      ],
+      "theme": "light",
+      "colors": [
+        {
+          "hex": "#000000",
+          "name": "Absolute Zero",
+          "role": "Dark borders and separators for elevated surfaces and inverted UI. Do not promote it to the primary CTA color",
+          "group": "neutral"
+        },
+        {
+          "hex": "#ffffff",
+          "name": "Canvas White",
+          "role": "Page backgrounds, default text for reversed elements (e.g., footer copyright). The expansive white space ensures high readability and isolates artwork",
+          "group": "neutral"
+        },
+        {
+          "hex": "#29242b",
+          "name": "Ink Grey",
+          "role": "Dark borders and separators for elevated surfaces and inverted UI.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#e5e5e5",
+          "name": "Border Fog",
+          "role": "Hairline borders, dividers, input outlines, and card edges on light surfaces. Do not promote it to the primary CTA color",
+          "group": "neutral"
+        }
+      ],
+      "imagery": "The site is dominated by a diverse collection of highly stylized, often surreal, and always vibrant illustrations. These are the core content and visual identity. They feature a mix of bold outlines, flattened perspectives, and rich, often unexpected color palettes. Imagery is treated as full-bleed within its grid cell, without rounded corners or drop shadows, emphasizing a direct and unadorned presentation. The density is image-heavy, with each piece of artwork occupying a significant visual footprint. Iconography for social links (Behance, Instagram, Cart) is minimalist and outlined, using 'Absolute Zero' against the 'Canvas White' background.",
+      "similar": [
+        {
+          "why": "Similar focus on visual content presentation with a minimalist UI and ample white space framing diverse artworks.",
+          "business": "It's Nice That"
+        },
+        {
+          "why": "Showcases creative work in a grid format with a clean, high-contrast typographic overlay.",
+          "business": "The Brand Identity"
+        },
+        {
+          "why": "Professional portfolio using a clean, grid-based layout to showcase a variety of distinct visual projects.",
+          "business": "Pentagram"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "none": "0px"
+        },
+        "elementGap": "3px",
+        "sectionGap": "",
+        "cardPadding": "0px",
+        "pageMaxWidth": null
+      },
+      "industry": "design",
+      "northStar": "Gallery Grid Canvas",
+      "components": [
+        {
+          "name": "Artwork Grid Item",
+          "role": "Primary display for artwork portfolio items.",
+          "description": "Each item is a square or rectangular container with a background color that is part of the artwork itself, no padding, and a 0px border-radius, presenting content edge-to-edge. No intrinsic box-shadow. Content within has its own dimensions."
+        },
+        {
+          "name": "Navigation Link",
+          "role": "Interactive text links in the header and footer.",
+          "description": "Text rendered in 'Ink Grey' or 'Absolute Zero' (depending on context) using Diatype Variable at 26px weight 500 for main navigation. Underlined with a thin 'Absolute Zero' border on hover/focus (derived from link/borderColor context)."
+        },
+        {
+          "name": "Header Branding",
+          "role": "Site title in the main header.",
+          "description": "Text rendered in 'Ink Grey' using Diatype Variable at 26px weight 500."
+        },
+        {
+          "name": "Footer Copyright Text",
+          "role": "Small, legal text at the bottom of the page.",
+          "description": "Text in 'Canvas White' using Times at 13px weight 400."
+        }
+      ],
+      "typography": [
+        {
+          "role": "Body text, captions, and general interface text. Its clean, functional aesthetic supports content without distracting from the artwork.",
+          "sizes": "9px, 19px",
+          "family": "Diatype",
+          "weight": "400",
+          "lineHeight": "1.10, 1.30",
+          "substitute": "Inter"
+        },
+        {
+          "role": "Main navigation and section headings. The varied weights provide emphasis for key navigational and informational elements.",
+          "sizes": "26px",
+          "family": "Diatype Variable",
+          "weight": "500, 700",
+          "lineHeight": "1.10",
+          "substitute": "Inter"
+        },
+        {
+          "role": "Fine print, copyright information, and sub-textual content. Its classic seriffed form provides a subtle contrast for auxiliary information.",
+          "sizes": "13px",
+          "family": "Times",
+          "weight": "400",
+          "lineHeight": "1.20",
+          "substitute": "Times New Roman"
+        }
+      ],
+      "description": "Thomas Hedger's portfolio features a stark, high-contrast visual identity centered on vibrant illustration against a light canvas. The design system is highly content-driven, with individual artworks serving as the primary visual elements. Typography is minimal and functional, acting as a clear, understated frame for the colorful, intricate illustrations. A tightly controlled palette of neutrals defines the UI, allowing the bold and diverse color compositions within the artwork to command full attention.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "Quick Color Reference: text: #000000, background: #ffffff, border: #000000, accent: no distinct accent color, primary action: no distinct CTA color\n\nExample Component Prompts:\n1. Create a Header Navigation Link: Text 'CONTACT' in 'Ink Grey' (#29242b) using Diatype Variable at 26px weight 500. On hover, add a 1px 'Absolute Zero' (#000000) bottom border.\n2. Create an Artwork Grid Item Container: A square container with 0px padding, 0px border-radius, and no box shadow. Background color should be derived from the contained artwork (not a UI color).\n3. Create a Footer Copyright: Text '©Thomas Hedger 2026' in 'Canvas White' (#ffffff) using Times at 13px weight 400.\n4. Create a Header Brand Title: Text 'THOMAS HEDGER' in 'Ink Grey' (#29242b) using Diatype Variable at 26px weight 500."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777519740416-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777519740416-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/9fe18d8b-58b7-404d-bcc6-9e8a73b8862c",
+  "ranks": {
+    "trending": 1127,
+    "popular": 1150,
+    "newest": 140
+  },
+  "localSlug": "thomas-hedger-9fe18d8b"
+}

@@ -1,0 +1,588 @@
+{
+  "id": "4fc87190-9783-4a85-bdc1-35800a2ec690",
+  "url": "https://wearewouq.com",
+  "siteName": "WOUQ",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777514318968-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777514318968-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "light",
+  "colors": [
+    {
+      "name": "Midnight Ink",
+      "hex": "#000000"
+    },
+    {
+      "name": "Canvas White",
+      "hex": "#ffffff"
+    }
+  ],
+  "fonts": [
+    "Open Sans",
+    "ESAllianz-Light",
+    "ESAllianz-Regular"
+  ],
+  "northStar": "monochromatic gallery, etched edges",
+  "createdAt": "2026-04-30T01:59:05.558Z",
+  "previewVideoCapturedAt": null,
+  "industry": "agency",
+  "fullResult": {
+    "meta": {
+      "url": "https://wearewouq.com",
+      "siteName": "WOUQ",
+      "extractedAt": "2026-04-30T01:59:05.490Z",
+      "durationMs": 34288,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 149,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "other",
+              "link",
+              "nav",
+              "heading",
+              "hero",
+              "image",
+              "body"
+            ],
+            "frequency": 653,
+            "confidence": 1,
+            "prominence": 48861306.67374326,
+            "properties": [
+              "color",
+              "borderColor",
+              "fill"
+            ],
+            "usageCounts": {
+              "nav/color": 11,
+              "body/color": 7,
+              "hero/color": 1,
+              "link/color": 14,
+              "other/fill": 6,
+              "image/color": 7,
+              "other/color": 88,
+              "heading/color": 2,
+              "nav/borderColor": 41,
+              "body/borderColor": 28,
+              "hero/borderColor": 4,
+              "link/borderColor": 56,
+              "image/borderColor": 28,
+              "other/borderColor": 352,
+              "heading/borderColor": 8
+            }
+          },
+          {
+            "hex": "#ffffff",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 1.0000000000000002
+            },
+            "contexts": [
+              "other",
+              "heading"
+            ],
+            "frequency": 72,
+            "confidence": 1,
+            "prominence": 32335952.986817155,
+            "properties": [
+              "backgroundColor",
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "other/color": 7,
+              "heading/color": 7,
+              "other/borderColor": 28,
+              "heading/borderColor": 28,
+              "other/backgroundColor": 2
+            }
+          },
+          {
+            "hex": "#efefef",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.9521308451894797
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 1365,
+            "properties": [
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "other/backgroundColor": 1
+            }
+          }
+        ],
+        "isDarkMode": false,
+        "colorfulness": 0,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 21,
+            "background": "#ffffff",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 18.26,
+            "background": "#efefef",
+            "foreground": "#000000"
+          },
+          {
+            "level": "fail",
+            "ratio": 1.15,
+            "background": "#efefef",
+            "foreground": "#ffffff"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [
+          {
+            "value": 10,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 7
+          }
+        ],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 5,
+            "contexts": [
+              "other",
+              "heading"
+            ],
+            "frequency": 37,
+            "properties": [
+              "paddingRight",
+              "paddingLeft",
+              "paddingTop"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|other",
+              "paddingLeft|other",
+              "paddingTop|heading"
+            ]
+          },
+          {
+            "value": 10,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 7,
+            "properties": [
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingBottom|other"
+            ]
+          },
+          {
+            "value": 25,
+            "contexts": [
+              "other",
+              "nav"
+            ],
+            "frequency": 7,
+            "properties": [
+              "paddingTop",
+              "paddingBottom",
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other",
+              "paddingBottom|other",
+              "paddingRight|nav",
+              "paddingLeft|nav"
+            ]
+          },
+          {
+            "value": 30,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 38,
+            "properties": [
+              "paddingRight",
+              "paddingLeft",
+              "paddingTop",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|other",
+              "paddingLeft|other",
+              "paddingTop|other",
+              "paddingBottom|other"
+            ]
+          }
+        ],
+        "density": "spacious",
+        "baseUnit": 6
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "Open Sans",
+            "source": "google",
+            "weights": [
+              400
+            ],
+            "frequency": 102,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "ESAllianz-Light",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 35,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "ESAllianz-Regular",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 7,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 16,
+          "name": "Major Second",
+          "ratio": 1.125,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 18,
+            "family": "Open Sans",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "hero"
+            ],
+            "frequency": 53,
+            "lineHeight": 1.67,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 18,
+            "family": "Open Sans",
+            "weight": 400,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 18,
+            "family": "ESAllianz-Light",
+            "weight": 400,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 5,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 18,
+            "family": "ESAllianz-Light",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "body",
+              "link"
+            ],
+            "frequency": 12,
+            "lineHeight": 1.5,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 18,
+            "family": "ESAllianz-Regular",
+            "weight": 400,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 3,
+            "lineHeight": 1.5,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 22,
+            "family": "Open Sans",
+            "weight": 400,
+            "contexts": [
+              "link",
+              "other"
+            ],
+            "frequency": 2,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 27,
+            "family": "ESAllianz-Light",
+            "weight": 400,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 7,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 45,
+            "family": "ESAllianz-Regular",
+            "weight": 400,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.11,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 45,
+            "family": "ESAllianz-Light",
+            "weight": 400,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.11,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 45,
+            "family": "ESAllianz-Light",
+            "weight": 400,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 7,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Use Canvas White (#ffffff) as the primary background color for all main sections and components.",
+        "Employ Midnight Ink (#000000) for all primary text, headings, and interactive elements to maintain high contrast and clarity.",
+        "Apply ESAllianz-Light at 45px with a 1.11 lineHeight for all major headlines to convey an airy, sophisticated tone.",
+        "Implement a 10px border-radius consistently for all card-like elements and interactive components.",
+        "Maintain generous vertical spacing between sections (75px) to support the spacious feel of the design."
+      ],
+      "donts": [
+        "Avoid introducing additional chromatic colors; the palette is strictly monochrome.",
+        "Do not use heavy shadows or gradients; flat surfaces and subtle borders define elevation.",
+        "Never deviate from the specified Open Sans or ESAllianz font families for any UI text.",
+        "Do not overcrowd content; utilize the 1460px max-width and generous padding (25-30px) to ensure ample whitespace.",
+        "Avoid bold or ultra-heavy font weights; the design relies on lighter weights for its distinctive character."
+      ],
+      "theme": "light",
+      "colors": [
+        {
+          "hex": "#000000",
+          "name": "Midnight Ink",
+          "role": "Dark borders and separators for elevated surfaces and inverted UI. Do not promote it to the primary CTA color",
+          "group": "neutral"
+        },
+        {
+          "hex": "#ffffff",
+          "name": "Canvas White",
+          "role": "Hairline borders, dividers, input outlines, and card edges on light surfaces. Do not promote it to the primary CTA color",
+          "group": "neutral"
+        }
+      ],
+      "layout": "The page adheres to a max-width of 1460px, centrally aligned. The hero section prominently features a large headline centered over a full-width abstract image. Subsequent sections arrange content in a grid-like fashion, showcasing projects with prominent image blocks and accompanying titles. There is a consistent vertical rhythm with significant spacing (75px) between sections, creating a spacious and unhurried browsing experience. Navigation is a minimal top bar, sticky or otherwise. Project links appear in a multi-column grid, often two or three columns wide, without visual dividers between projects.",
+      "imagery": "This design utilizes a mix of abstract and product-focused photography and high-quality product renders. Imagery is typically contained within rectangular frames, sometimes with subtle rounded corners (10px). Photography leans towards high-key or product-focused shots, often with a clean, de-saturated aesthetic allowing product forms and textures to be the focal point. Icons are minimal, likely outlined, and monochromatic, used sparingly for navigation or functional cues. The density is moderate to high, with large images being central to project showcases.",
+      "similar": [
+        {
+          "why": "Monochromatic palette, large typography, and focus on high-quality visual content display.",
+          "business": "Awwwards-winning portfolio sites"
+        },
+        {
+          "why": "Similar high-contrast black-on-white aesthetic with custom typography and spacious layouts.",
+          "business": "Basic Agency"
+        },
+        {
+          "why": "Reliance on specific, often light-weight, sans-serif typefaces for brand identity and minimalist UI.",
+          "business": "Koto"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "cards": "10px",
+          "buttons": "10px",
+          "elements": "10px"
+        },
+        "elementGap": "5px",
+        "sectionGap": "75px",
+        "cardPadding": "25-30px",
+        "pageMaxWidth": "1460px"
+      },
+      "industry": "agency",
+      "surfaces": [
+        {
+          "hex": "#ffffff",
+          "name": "Canvas White",
+          "level": 0,
+          "purpose": "Primary page background and default surface for most UI elements."
+        }
+      ],
+      "northStar": "monochromatic gallery, etched edges",
+      "typeScale": [
+        {
+          "role": "body-sm",
+          "size": 18,
+          "lineHeight": 1.67
+        },
+        {
+          "role": "subheading",
+          "size": 22,
+          "lineHeight": 1
+        },
+        {
+          "role": "heading",
+          "size": 27,
+          "lineHeight": 1
+        },
+        {
+          "role": "display",
+          "size": 45,
+          "lineHeight": 1.11
+        }
+      ],
+      "components": [
+        {
+          "name": "Navigation Link",
+          "role": "Interactive navigation items in the header",
+          "description": "Text is Midnight Ink (#000000) using ESAllianz-Light at 18px. Underlines appear on hover/active states with a 1px Midnight Ink border. Padding of 25px around text content."
+        },
+        {
+          "name": "Hero Headline",
+          "role": "Primary heading for the initial screen",
+          "description": "Midnight Ink (#000000) ESAllianz-Light, 45px, lineHeight 1.11. Uses ample top padding creating space."
+        },
+        {
+          "name": "Project Card",
+          "role": "Clickable cards displaying project previews",
+          "description": "White background, Midnight Ink (#000000) text (ESAllianz-Light 45px or ESAllianz-Regular 18px). Has a 10px border-radius and appears to have border color changes or subtle interaction effects."
+        }
+      ],
+      "typography": [
+        {
+          "role": "Body text and general content, ensuring readability with its balanced forms. Despite its commonality, it is used here to create a neutral, unobtrusive tone.",
+          "sizes": "18px, 22px",
+          "family": "Open Sans",
+          "weight": "400",
+          "weights": [
+            400
+          ],
+          "lineHeight": "1.00, 1.67",
+          "substitute": "Open Sans",
+          "letterSpacing": "normal"
+        },
+        {
+          "role": "Large headings, navigational elements, and certain interactive text. Its light weight at larger sizes creates an airy, sophisticated presence, avoiding visual heaviness.",
+          "sizes": "18px, 27px, 45px",
+          "family": "ESAllianz-Light",
+          "weight": "400",
+          "weights": [
+            400
+          ],
+          "lineHeight": "1.00, 1.11, 1.50",
+          "substitute": "Inter Light",
+          "letterSpacing": "normal"
+        },
+        {
+          "role": "Standard headings and body text, providing a slightly more grounded feel than its Light counterpart while maintaining the distinct brand character.",
+          "sizes": "18px, 45px",
+          "family": "ESAllianz-Regular",
+          "weight": "400",
+          "weights": [
+            400
+          ],
+          "lineHeight": "1.11, 1.50",
+          "substitute": "Inter",
+          "letterSpacing": "normal"
+        }
+      ],
+      "description": "WOUQ employs a minimalist light theme with high contrast typography and ample whitespace. The design emphasizes content through a stark juxtaposition of black text on white backgrounds, occasionally softened by subtle light gray interactive states. Custom typography lends a distinctive character, maintaining readability while providing visual interest, particularly in navigation and large text blocks. Components are border-defined and largely achromatic, allowing content and occasional imagery to provide color and visual depth.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "Quick Color Reference:\ntext: #000000\nbackground: #ffffff\nborder: #000000\naccent: #000000\nprimary action: no distinct CTA color\n\nExample Component Prompts:\n1. Create a navigation item: ESAllianz-Light, 18px, #000000 text, 25px padding-x, 1px #000000 border on hover.\n2. Create a hero text block: ESAllianz-Light, 45px, #000000 text, lineHeight 1.11.\n3. Create a project preview card: Background #ffffff, border-radius 10px. Project title: ESAllianz-Regular, 18px, #000000. Display a smaller descriptive text using Open Sans, 18px, #000000."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777514318968-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777514318968-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/4fc87190-9783-4a85-bdc1-35800a2ec690",
+  "ranks": {
+    "trending": 1188,
+    "popular": 1236,
+    "newest": 473
+  },
+  "localSlug": "wouq-4fc87190"
+}

@@ -1,0 +1,716 @@
+{
+  "id": "1f0cc2ef-9de0-4cbb-909f-ca120ef6d0ae",
+  "url": "https://www.phantom.land",
+  "siteName": "Phantom Studios",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777509420055-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777509420055-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "dark",
+  "colors": [
+    {
+      "name": "Midnight Ink",
+      "hex": "#000000"
+    },
+    {
+      "name": "Ghost White",
+      "hex": "#ffffff"
+    },
+    {
+      "name": "Slate Border",
+      "hex": "#333333"
+    },
+    {
+      "name": "Muted Gray",
+      "hex": "#666666"
+    },
+    {
+      "name": "Neon Green",
+      "hex": "#1eff66"
+    }
+  ],
+  "fonts": [
+    "Helvetica Now",
+    "ballinger-mono"
+  ],
+  "northStar": "Black canvas, vivid pixel shimmer",
+  "createdAt": "2026-04-30T00:37:17.774Z",
+  "previewVideoCapturedAt": null,
+  "industry": "agency",
+  "fullResult": {
+    "meta": {
+      "url": "https://www.phantom.land",
+      "siteName": "Phantom Studios",
+      "extractedAt": "2026-04-30T00:37:17.587Z",
+      "durationMs": 33505,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 1291,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#ffffff",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 1.0000000000000002
+            },
+            "contexts": [
+              "other",
+              "heading",
+              "body",
+              "list",
+              "link"
+            ],
+            "frequency": 5943,
+            "confidence": 1,
+            "prominence": 114160776.45070432,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "body/color": 349,
+              "link/color": 90,
+              "list/color": 449,
+              "other/color": 288,
+              "heading/color": 105,
+              "body/borderColor": 1036,
+              "link/borderColor": 270,
+              "list/borderColor": 1796,
+              "other/borderColor": 1140,
+              "heading/borderColor": 420
+            }
+          },
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 48,
+            "confidence": 1,
+            "prominence": 51126144.16305206,
+            "properties": [
+              "color",
+              "borderColor",
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "other/color": 9,
+              "other/borderColor": 36,
+              "other/backgroundColor": 3
+            }
+          },
+          {
+            "hex": "#333333",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.3210925111636326
+            },
+            "contexts": [
+              "other",
+              "link",
+              "body"
+            ],
+            "frequency": 462,
+            "confidence": 1,
+            "prominence": 10669009.543280676,
+            "properties": [
+              "borderColor"
+            ],
+            "usageCounts": {
+              "body/borderColor": 360,
+              "link/borderColor": 90,
+              "other/borderColor": 12
+            }
+          },
+          {
+            "hex": "#666666",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.5102783583015936
+            },
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 5,
+            "confidence": 1,
+            "prominence": 123770.58949702968,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "heading/color": 1,
+              "heading/borderColor": 4
+            }
+          },
+          {
+            "hex": "#1eff66",
+            "oklch": {
+              "c": 0.25257599372518935,
+              "h": 147.2269548400795,
+              "l": 0.8732512019512045
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 4543,
+            "properties": [
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "other/backgroundColor": 1
+            }
+          }
+        ],
+        "isDarkMode": true,
+        "colorfulness": 0.00010568784964838059,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 21,
+            "background": "#000000",
+            "foreground": "#ffffff"
+          },
+          {
+            "level": "AAA",
+            "ratio": 15.55,
+            "background": "#1eff66",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 12.63,
+            "background": "#ffffff",
+            "foreground": "#333333"
+          },
+          {
+            "level": "AAA",
+            "ratio": 9.36,
+            "background": "#1eff66",
+            "foreground": "#333333"
+          },
+          {
+            "level": "fail",
+            "ratio": 4.25,
+            "background": "#1eff66",
+            "foreground": "#666666"
+          },
+          {
+            "level": "fail",
+            "ratio": 3.66,
+            "background": "#000000",
+            "foreground": "#666666"
+          },
+          {
+            "level": "fail",
+            "ratio": 1.35,
+            "background": "#1eff66",
+            "foreground": "#ffffff"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [
+          {
+            "value": 14,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 347
+          }
+        ],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 3,
+            "contexts": [
+              "link"
+            ],
+            "frequency": 180,
+            "properties": [
+              "paddingTop",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|link",
+              "paddingBottom|link"
+            ]
+          },
+          {
+            "value": 8,
+            "contexts": [
+              "heading",
+              "list"
+            ],
+            "frequency": 194,
+            "properties": [
+              "marginBottom",
+              "paddingLeft",
+              "rowGap",
+              "columnGap"
+            ],
+            "propertyContextPairs": [
+              "marginBottom|heading",
+              "paddingLeft|heading",
+              "rowGap|list",
+              "columnGap|list"
+            ]
+          },
+          {
+            "value": 16,
+            "contexts": [
+              "other",
+              "list",
+              "body"
+            ],
+            "frequency": 888,
+            "properties": [
+              "rowGap",
+              "columnGap",
+              "marginBottom",
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "rowGap|other",
+              "columnGap|other",
+              "marginBottom|list",
+              "paddingRight|body",
+              "paddingLeft|body"
+            ]
+          },
+          {
+            "value": 18,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 4,
+            "properties": [
+              "marginTop",
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "marginTop|heading",
+              "marginBottom|heading"
+            ]
+          },
+          {
+            "value": 24,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 3,
+            "properties": [
+              "paddingRight",
+              "paddingBottom",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|other",
+              "paddingBottom|other",
+              "paddingLeft|other"
+            ]
+          },
+          {
+            "value": 32,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 180,
+            "properties": [
+              "rowGap",
+              "columnGap"
+            ],
+            "propertyContextPairs": [
+              "rowGap|other",
+              "columnGap|other"
+            ]
+          },
+          {
+            "value": 40,
+            "contexts": [
+              "list"
+            ],
+            "frequency": 90,
+            "properties": [
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingLeft|list"
+            ]
+          },
+          {
+            "value": 48,
+            "contexts": [
+              "heading",
+              "list"
+            ],
+            "frequency": 24,
+            "properties": [
+              "paddingTop",
+              "marginTop"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|heading",
+              "marginTop|list"
+            ]
+          },
+          {
+            "value": 88,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 12,
+            "properties": [
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "marginBottom|other"
+            ]
+          }
+        ],
+        "density": "comfortable",
+        "baseUnit": 8
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "Helvetica Now",
+            "source": "custom",
+            "weights": [
+              400,
+              500,
+              700
+            ],
+            "frequency": 944,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "ballinger-mono",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 347,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 16,
+          "name": "Major Second",
+          "ratio": 1.125,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 11,
+            "family": "ballinger-mono",
+            "weight": 400,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 347,
+            "lineHeight": 1.1,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 16,
+            "family": "Helvetica Now",
+            "weight": 500,
+            "contexts": [
+              "other",
+              "list",
+              "link"
+            ],
+            "frequency": 835,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 18,
+            "family": "Helvetica Now",
+            "weight": 700,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 90,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "capitalize"
+          },
+          {
+            "size": 22,
+            "family": "Helvetica Now",
+            "weight": 500,
+            "contexts": [
+              "heading",
+              "body"
+            ],
+            "frequency": 2,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 22,
+            "family": "Helvetica Now",
+            "weight": 400,
+            "contexts": [
+              "heading",
+              "body"
+            ],
+            "frequency": 2,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 24,
+            "family": "Helvetica Now",
+            "weight": 500,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 24,
+            "family": "Helvetica Now",
+            "weight": 700,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 12,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 56,
+            "family": "Helvetica Now",
+            "weight": 700,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 2,
+            "lineHeight": 0.93,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Always use Midnight Ink (#000000) for primary backgrounds to maintain the dark, immersive aesthetic.",
+        "Prioritize Ghost White (#ffffff) for all main textual content and actively interactive elements against dark backgrounds for clarity.",
+        "Employ Neon Green (#1eff66) exclusively for accenting active states, selected items, and functional highlights, ensuring it remains a distinct visual cue.",
+        "Utilize Helvetica Now for all primary typography, varying weights (400, 500, 700) to establish hierarchy.",
+        "Apply 14px border-radius to container-like elements such as cards or bodies, softening the geometric starkness.",
+        "Maintain comfortable vertical rhythm with 48px section gaps and 16px element gaps as default.",
+        "Use ballinger-mono at 11px for small, precise labels or technical indicators, contrasting with the main typeface."
+      ],
+      "donts": [
+        "Avoid using any colors other than Neon Green (#1eff66) for primary accents or interactive states.",
+        "Do not introduce shadows or significant elevation; maintain a flat UI aesthetic, using borders for separation instead.",
+        "Refrain from using gradients on backgrounds or interactive elements; the visual system is purposefully flat and monochromatic.",
+        "Do not deviate from the specified typography families; no other fonts should be introduced.",
+        "Avoid excessive imagery; the design is text and UI-dominant, with a focus on clear, functional presentation.",
+        "Do not vary paragraph line heights; use 1.20 for Helvetica Now body text and 1.10 for ballinger-mono.",
+        "Do not use generic button styles; active elements should rely on Ghost White text with subtle Slate Border outlining where appropriate, or Neon Green for overt action."
+      ],
+      "theme": "dark",
+      "colors": [
+        {
+          "hex": "#000000",
+          "name": "Midnight Ink",
+          "role": "Primary page and component backgrounds, creating a deep, immersive canvas for content",
+          "group": "neutral"
+        },
+        {
+          "hex": "#ffffff",
+          "name": "Ghost White",
+          "role": "Hairline borders, dividers, input outlines, and card edges on light surfaces. Do not promote it to the primary CTA color",
+          "group": "neutral"
+        },
+        {
+          "hex": "#333333",
+          "name": "Slate Border",
+          "role": "Subtle borders for content dividers and links, offering minimal visual separation",
+          "group": "neutral"
+        },
+        {
+          "hex": "#666666",
+          "name": "Muted Gray",
+          "role": "Supporting text and heading borders where a softer presence is required",
+          "group": "neutral"
+        },
+        {
+          "hex": "#1eff66",
+          "name": "Neon Green",
+          "role": "Green wash for highlight backgrounds, decorative bands, and soft emphasis behind content. Do not promote it to the primary CTA color",
+          "group": "accent"
+        }
+      ],
+      "layout": "The page maintains a full-bleed dark background, setting a consistent immersive tone. Content is centered and structured with comfortable vertical spacing, allowing elements to breathe without feeling sparse. There are no clear indications of a fixed width container for global content. Sections are defined by typographic hierarchy and subtle borders, rather than distinct visual bands or complex grid structures. The rhythm is consistent and spacious, facilitating focused reading and interaction.",
+      "imagery": "Minimal to none; the site is primarily text-dominant with UI elements. If imagery is present, it's implied to be high-contrast, technical, or monochromatic to match the system's aesthetic, likely product shots or abstract representations within a contained frame. Icons (if present) would be minimal outlined or filled simple forms, mono-color.",
+      "similar": [
+        {
+          "why": "Dominant use of dark backgrounds and strong typography for a professional, technical aesthetic.",
+          "business": "Stripe"
+        },
+        {
+          "why": "Minimalist UI, high-contrast text on dark backgrounds, and functional use of a single accent color for interaction.",
+          "business": "Linear"
+        },
+        {
+          "why": "Dark theme interface, focus on precise typography, and a subtle interplay of borders and clean lines over heavy elevation.",
+          "business": "Vercel"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "body": "14px"
+        },
+        "elementGap": "16px",
+        "sectionGap": "48px",
+        "cardPadding": "24px",
+        "pageMaxWidth": null
+      },
+      "industry": "agency",
+      "northStar": "Black canvas, vivid pixel shimmer",
+      "typeScale": [
+        {
+          "role": "caption",
+          "size": 16,
+          "lineHeight": 1.2
+        },
+        {
+          "role": "body-sm",
+          "size": 18,
+          "lineHeight": 1.2
+        },
+        {
+          "role": "body",
+          "size": 22,
+          "lineHeight": 1.2
+        },
+        {
+          "role": "body-lg",
+          "size": 24,
+          "lineHeight": 1.2
+        },
+        {
+          "role": "heading-sm",
+          "size": 56,
+          "lineHeight": 1.2
+        }
+      ],
+      "components": [
+        {
+          "name": "Outline Text Link",
+          "role": "Interactive text link",
+          "description": "Ghost White text link with a 1px solid Slate Border (#333333) and 3px vertical padding. Text uses Helvetica Now, weight 400."
+        },
+        {
+          "name": "Monospace Data Label",
+          "role": "Small descriptive label",
+          "description": "Uses ballinger-mono at 11px, weight 400, with a line height of 1.10, ideal for technical details or metadata."
+        },
+        {
+          "name": "Primary Section Heading",
+          "role": "Main content division title",
+          "description": "Large heading using Helvetica Now at 56px, weight 400 or 500, with tight line-height of 0.93. Uses Ghost White text on Midnight Ink background, with 48px top margin and 8px bottom margin."
+        },
+        {
+          "name": "Subtle Content Divider",
+          "role": "Visual separator for content areas",
+          "description": "A 1px solid border using Slate Border (#333333) provides a thin, understated separation between sections or lists."
+        }
+      ],
+      "typography": [
+        {
+          "role": "Primary typeface for headings, body text, and UI elements. Its clean, sans-serif form maintains clarity and a contemporary feel, especially at large display sizes and tight line heights.",
+          "sizes": "16px, 18px, 22px, 24px, 56px",
+          "family": "Helvetica Now",
+          "weight": "400, 500, 700",
+          "weights": [
+            400,
+            500,
+            700
+          ],
+          "lineHeight": "0.93, 1.20",
+          "substitute": "Arial, sans-serif",
+          "letterSpacing": "normal"
+        },
+        {
+          "role": "Monospaced font used for small, precise labels and potentially code-like information, emphasizing technical accuracy and a digital aesthetic.",
+          "sizes": "11px",
+          "family": "ballinger-mono",
+          "weight": "400",
+          "weights": [
+            400
+          ],
+          "lineHeight": "1.10",
+          "substitute": "Menlo, Monaco, monospace",
+          "letterSpacing": "normal"
+        }
+      ],
+      "description": "Phantom Studios presents a stark, high-contrast dark theme optimized for technical and creative content. The visual system relies on pure black canvases and crisp white typography, punctuated sparingly by a single vibrant green for active states and highlights. This creates a focused, almost clinical atmosphere where content takes absolute precedence, with subtle geometric shapes and a mono-spaced accent font hinting at precision and digital craft. Surfaces are flat and unlayered, with UI elements defined by minimal borders rather than shadows.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "**Quick Color Reference:**\ntext: #ffffff\nbackground: #000000\nborder: #333333\naccent: #1eff66\nprimary action: no distinct CTA color\n\n**3-5 Example Component Prompts:**\n1. Create a section heading: 'Our Approach' in Helvetica Now, 56px, weight 500, Ghost White, on a Midnight Ink background. Apply 48px top margin and 8px bottom margin.\n2. Design a descriptive label: 'Project ID: xyz-789' in ballinger-mono, 11px, weight 400, Ghost White.\n3. Implement a text link: 'View Details' in Helvetica Now, 16px, weight 400, Ghost White, with a 1px solid Slate Border (#333333) and 3px vertical padding. On hover, change text to Neon Green (#1eff66)."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777509420055-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777509420055-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/1f0cc2ef-9de0-4cbb-909f-ca120ef6d0ae",
+  "ranks": {
+    "trending": 650,
+    "popular": 799,
+    "newest": 748
+  },
+  "localSlug": "phantom-studios-1f0cc2ef"
+}

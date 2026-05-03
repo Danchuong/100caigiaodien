@@ -1,0 +1,393 @@
+{
+  "id": "f4cb3281-af85-4e7a-96df-404c8a4ebb4d",
+  "url": "https://theseawebreathe.com",
+  "siteName": "The Sea We Breathe",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777517042387-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777517042387-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "light",
+  "colors": [
+    {
+      "name": "Sky Blue",
+      "hex": "#94e6fb"
+    },
+    {
+      "name": "Sea Foam",
+      "hex": "#e5faff"
+    },
+    {
+      "name": "Canvas White",
+      "hex": "#ffffff"
+    },
+    {
+      "name": "Midnight Accent",
+      "hex": "#000000"
+    }
+  ],
+  "fonts": [
+    "TT Lakes"
+  ],
+  "northStar": "Vast Blue Expanse",
+  "createdAt": "2026-04-30T02:44:15.288Z",
+  "previewVideoCapturedAt": null,
+  "industry": "other",
+  "fullResult": {
+    "meta": {
+      "url": "https://theseawebreathe.com",
+      "siteName": "The Sea We Breathe",
+      "extractedAt": "2026-04-30T02:44:15.224Z",
+      "durationMs": 26237,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 24,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#94e6fb",
+            "oklch": {
+              "c": 0.08482429270703312,
+              "h": 215.78114815042585,
+              "l": 0.8795791715382115
+            },
+            "contexts": [
+              "other",
+              "link",
+              "body",
+              "nav"
+            ],
+            "frequency": 65,
+            "confidence": 1,
+            "prominence": 7833534.778688556,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "nav/color": 3,
+              "body/color": 1,
+              "link/color": 1,
+              "other/color": 8,
+              "nav/borderColor": 12,
+              "body/borderColor": 4,
+              "link/borderColor": 4,
+              "other/borderColor": 32
+            }
+          },
+          {
+            "hex": "#ffffff",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 1.0000000000000002
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 8,
+            "confidence": 1,
+            "prominence": 13881.101581315885,
+            "properties": [
+              "fill"
+            ],
+            "usageCounts": {
+              "other/fill": 8
+            }
+          },
+          {
+            "hex": "#e5faff",
+            "oklch": {
+              "c": 0.02300753030857747,
+              "h": 213.61527040436735,
+              "l": 0.9712173588931087
+            },
+            "contexts": [
+              "button",
+              "nav"
+            ],
+            "frequency": 10,
+            "confidence": 1,
+            "prominence": 1757.391262267747,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "nav/color": 1,
+              "button/color": 1,
+              "nav/borderColor": 4,
+              "button/borderColor": 4
+            }
+          },
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 3,
+            "confidence": 1,
+            "prominence": 120,
+            "properties": [
+              "fill"
+            ],
+            "usageCounts": {
+              "nav/fill": 3
+            }
+          }
+        ],
+        "isDarkMode": false,
+        "colorfulness": 0.1805045357964465,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 21,
+            "background": "#ffffff",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 19.45,
+            "background": "#e5faff",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 14.97,
+            "background": "#94e6fb",
+            "foreground": "#000000"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 44,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingTop",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other",
+              "paddingBottom|other"
+            ]
+          },
+          {
+            "value": 57,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|other",
+              "paddingLeft|other"
+            ]
+          }
+        ],
+        "density": "spacious",
+        "baseUnit": 4
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "TT Lakes",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 15,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": null,
+        "steps": [
+          {
+            "size": 11,
+            "family": "TT Lakes",
+            "weight": 400,
+            "contexts": [
+              "button",
+              "nav"
+            ],
+            "frequency": 2,
+            "lineHeight": 1.5,
+            "letterSpacing": 0.152,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 14,
+            "family": "TT Lakes",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "link",
+              "body",
+              "nav"
+            ],
+            "frequency": 13,
+            "lineHeight": 1.5,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Prioritize full-bleed, immersive imagery as background elements where appropriate.",
+        "Use Sky Blue (#94E6FB) and Sea Foam (#E5FAFF) sparingly for inactive states, borders, or subtle text accents.",
+        "Maintain a spacious, uncluttered layout with minimal UI elements to emphasize content.",
+        "Utilize 0px border-radius for all interactive elements to maintain a sharp, deliberate edge.",
+        "Ensure all text, including interactive elements, uses TT Lakes at weight 400 for consistency.",
+        "Employ transparent backgrounds for most interactive components, relying on border-based visual cues."
+      ],
+      "donts": [
+        "Avoid using saturated background colors or heavy shadows, as they create visual density inconsistent with the brand.",
+        "Do not use solid background fills for primary buttons; instead, opt for ghost or border-only styles.",
+        "Do not introduce additional font families or weights beyond TT Lakes 400.",
+        "Avoid visually complex components or excessive decorative elements; keep UI simple and functional.",
+        "Do not use varied border radii; maintain 0px radius for all corners.",
+        "Avoid dense information blocks; break content into manageable, well-spaced sections."
+      ],
+      "theme": "light",
+      "colors": [
+        {
+          "hex": "#94e6fb",
+          "name": "Sky Blue",
+          "role": "Decorative accents, interactive element borders, default link and text color on light backgrounds. Implies fluidity without being overly saturated",
+          "group": "brand"
+        },
+        {
+          "hex": "#e5faff",
+          "name": "Sea Foam",
+          "role": "Subtle border for ghost buttons and navigation elements, active text color. Provides a lighter, almost translucent variation of the primary brand blue",
+          "group": "brand"
+        },
+        {
+          "hex": "#ffffff",
+          "name": "Canvas White",
+          "role": "Page backgrounds, fills for decorative SVG elements. Serves as the primary neutral surface",
+          "group": "neutral"
+        },
+        {
+          "hex": "#000000",
+          "name": "Midnight Accent",
+          "role": "Icon fills and occasional interface elements, providing high contrast against light surfaces",
+          "group": "neutral"
+        }
+      ],
+      "layout": "The page primarily employs a full-bleed layout, where the hero section extends to the viewport edges, featuring a prominent atmospheric image as its background. Content is placed minimally on top of this background. The overall structure appears to be max-width contained for textual content within sections, although the hero explicitly breaks this. Vertical rhythm is suggested by deliberate spacing between implied sections, though no distinct dividers are present. Navigation is minimal, consisting of a top bar with a logo and a language selector, likely sticky to maintain presence over the expansive imagery.",
+      "imagery": "The site predominantly uses full-bleed, expansive photographic imagery of open ocean and sky, creating an immersive atmospheric backdrop. The treatment is naturalistic and high-key, with no obvious stylistic filters or heavy post-processing. The imagery serves a decorative, atmospheric role, setting the mood rather than conveying specific product information. Icons are minimal, likely monochrome (white or black), and contribute to the clean, uncluttered aesthetic.",
+      "similar": [
+        {
+          "why": "Large-scale environmental imagery as hero backgrounds, minimal text overlay, and a focus on subtle UI elements.",
+          "business": "The Ocean Cleanup"
+        },
+        {
+          "why": "Visual emphasis on marine environments, clean design, and a light color palette for a nature-focused brand.",
+          "business": "4ocean"
+        },
+        {
+          "why": "Immersive aquatic photography, spacious layouts, and a quiet UI that lets the visual content speak.",
+          "business": "Monterey Bay Aquarium"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "buttons": "0px"
+        },
+        "elementGap": "0px",
+        "sectionGap": "44px",
+        "cardPadding": "0px",
+        "pageMaxWidth": null
+      },
+      "industry": "other",
+      "northStar": "Vast Blue Expanse",
+      "typeScale": [
+        {
+          "role": "caption",
+          "size": 11,
+          "lineHeight": 1.5,
+          "letterSpacing": 1.672
+        },
+        {
+          "role": "body",
+          "size": 14,
+          "lineHeight": 1.5,
+          "letterSpacing": 2.128
+        }
+      ],
+      "components": [
+        {
+          "name": "Ghost Navigation Button",
+          "role": "Interactive element to switch language or navigate secondary options.",
+          "description": "Text color Sea Foam (#E5FAFF) with a 1px border in Sea Foam (#E5FAFF). Background is transparent. Padding is 0px in all directions. Uses TT Lakes, weight 400, typically 11px or 14px."
+        }
+      ],
+      "typography": [
+        {
+          "role": "Primary typeface for all text content including body, links, buttons, and navigation. Its consistent single weight emphasizes clarity and restraint, matching the minimal UI approach.",
+          "sizes": "11px, 14px",
+          "family": "TT Lakes",
+          "weight": "400",
+          "lineHeight": "1.50",
+          "substitute": "Open Sans, sans-serif",
+          "letterSpacing": "0.152em"
+        }
+      ],
+      "description": "The Sea We Breathe uses a serene, atmospheric design language focused on the interplay of water and sky. The visual system is minimal, utilizing large-scale imagery and almost monochrome interface elements to evoke a sense of calm and vastness. Interaction elements are almost invisible, relying on subtle borders and text color changes rather than solid fills. The typography is light and spacious, complementing the open, uncluttered layout.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "Create an Outlined Primary Action: Transparent background, #94e6fb border and text, 9999px radius, compact pill padding. Use it for the main CTA instead of a filled button.\n\nExample Component Prompts:\n1. Create a header navigation: transparent background, a logo on the left (assume white fill #ffffff), and a language switcher button ('EN') on the right. The language button should have transparent background, Sea Foam (#E5FAFF) text using TT Lakes 400 at 11px, a 1px Sea Foam (#E5FAFF) border, and 0px padding/radius.\n2. Create a main page hero section: full-bleed background using expansive ocean imagery. Overlay a central headline in Sky Blue (#94E6FB), TT Lakes 400 at 56px, with minimal white (assume #ffffff) supporting text underneath using TT Lakes 400 at 14px.\n3. Create a descriptive text block within a section: Canvas White (#ffffff) background. Text content is in Sky Blue (#94E6FB) using TT Lakes 400 at 14px, arranged with comfortable line heights consistent with the system's 1.5. No borders or shadows."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777517042387-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777517042387-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/f4cb3281-af85-4e7a-96df-404c8a4ebb4d",
+  "ranks": {
+    "trending": 993,
+    "popular": 1054,
+    "newest": 304
+  },
+  "localSlug": "the-sea-we-breathe-f4cb3281"
+}

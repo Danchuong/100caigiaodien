@@ -1,0 +1,802 @@
+{
+  "id": "442dfaf8-c0c6-467b-a8d4-54e953c049f3",
+  "url": "https://wearechaiboy.com",
+  "siteName": "CHAIBOY",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777517405330-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777517405330-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "dark",
+  "colors": [
+    {
+      "name": "Midnight Ink",
+      "hex": "#000000"
+    },
+    {
+      "name": "Frost Gray",
+      "hex": "#afafaf"
+    },
+    {
+      "name": "Arctic White",
+      "hex": "#ffffff"
+    }
+  ],
+  "fonts": [
+    "NeueHaasGroteskTP55R",
+    "Neue Haas Grotesk Text"
+  ],
+  "northStar": "Monochromatic minimalist canvas.",
+  "createdAt": "2026-04-30T02:50:24.215Z",
+  "previewVideoCapturedAt": null,
+  "industry": "ecommerce",
+  "fullResult": {
+    "meta": {
+      "url": "https://wearechaiboy.com",
+      "siteName": "CHAIBOY",
+      "extractedAt": "2026-04-30T02:50:23.946Z",
+      "durationMs": 38814,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 134,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#ffffff",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 1.0000000000000002
+            },
+            "contexts": [
+              "other",
+              "body",
+              "link",
+              "image",
+              "button",
+              "input",
+              "footer"
+            ],
+            "frequency": 487,
+            "confidence": 1,
+            "prominence": 11574235.5894815,
+            "properties": [
+              "color",
+              "borderColor",
+              "backgroundColor",
+              "fill"
+            ],
+            "usageCounts": {
+              "body/color": 5,
+              "link/color": 16,
+              "other/fill": 9,
+              "image/color": 18,
+              "input/color": 1,
+              "other/color": 59,
+              "footer/color": 1,
+              "body/borderColor": 20,
+              "link/borderColor": 64,
+              "image/borderColor": 72,
+              "input/borderColor": 4,
+              "other/borderColor": 212,
+              "footer/borderColor": 4,
+              "other/backgroundColor": 1,
+              "button/backgroundColor": 1
+            }
+          },
+          {
+            "hex": "#afafaf",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.7540172565886749
+            },
+            "contexts": [
+              "link",
+              "other",
+              "input",
+              "button"
+            ],
+            "frequency": 125,
+            "confidence": 1,
+            "prominence": 550298.0675664385,
+            "properties": [
+              "color",
+              "borderColor",
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "link/color": 12,
+              "input/color": 2,
+              "other/color": 4,
+              "button/color": 1,
+              "link/borderColor": 48,
+              "input/borderColor": 8,
+              "other/borderColor": 40,
+              "button/borderColor": 4,
+              "other/backgroundColor": 6
+            }
+          },
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "other",
+              "footer"
+            ],
+            "frequency": 11,
+            "confidence": 1,
+            "prominence": 361364.22007269255,
+            "properties": [
+              "backgroundColor",
+              "fill"
+            ],
+            "usageCounts": {
+              "other/fill": 7,
+              "other/backgroundColor": 3,
+              "footer/backgroundColor": 1
+            }
+          },
+          {
+            "hex": "#131313",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.18674120159806412
+            },
+            "contexts": [
+              "image"
+            ],
+            "frequency": 8,
+            "confidence": 1,
+            "prominence": 11411.730005192323,
+            "properties": [
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "image/backgroundColor": 8
+            }
+          }
+        ],
+        "isDarkMode": true,
+        "colorfulness": 0,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 21,
+            "background": "#000000",
+            "foreground": "#ffffff"
+          },
+          {
+            "level": "AAA",
+            "ratio": 18.58,
+            "background": "#131313",
+            "foreground": "#ffffff"
+          },
+          {
+            "level": "AAA",
+            "ratio": 9.57,
+            "background": "#000000",
+            "foreground": "#afafaf"
+          },
+          {
+            "level": "AAA",
+            "ratio": 8.47,
+            "background": "#131313",
+            "foreground": "#afafaf"
+          },
+          {
+            "level": "fail",
+            "ratio": 2.19,
+            "background": "#afafaf",
+            "foreground": "#ffffff"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [
+          {
+            "value": 4,
+            "contexts": [
+              "other",
+              "button",
+              "link"
+            ],
+            "frequency": 10
+          }
+        ],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 1,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 14,
+            "properties": [
+              "paddingTop",
+              "paddingBottom",
+              "marginLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other",
+              "paddingBottom|other",
+              "marginLeft|other"
+            ]
+          },
+          {
+            "value": 2,
+            "contexts": [
+              "image"
+            ],
+            "frequency": 8,
+            "properties": [
+              "marginTop"
+            ],
+            "propertyContextPairs": [
+              "marginTop|image"
+            ]
+          },
+          {
+            "value": 4,
+            "contexts": [
+              "other",
+              "link"
+            ],
+            "frequency": 14,
+            "properties": [
+              "paddingRight",
+              "paddingLeft",
+              "marginTop",
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|other",
+              "paddingLeft|other",
+              "marginTop|link",
+              "marginBottom|link"
+            ]
+          },
+          {
+            "value": 5,
+            "contexts": [
+              "link",
+              "other",
+              "input",
+              "body"
+            ],
+            "frequency": 22,
+            "properties": [
+              "paddingBottom",
+              "marginLeft",
+              "marginBottom",
+              "paddingRight"
+            ],
+            "propertyContextPairs": [
+              "paddingBottom|link",
+              "marginLeft|other",
+              "marginBottom|other",
+              "paddingBottom|input",
+              "paddingBottom|body",
+              "paddingRight|link"
+            ]
+          },
+          {
+            "value": 6,
+            "contexts": [
+              "link",
+              "other",
+              "input"
+            ],
+            "frequency": 25,
+            "properties": [
+              "paddingRight",
+              "paddingLeft",
+              "paddingBottom",
+              "paddingTop"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|link",
+              "paddingLeft|link",
+              "paddingBottom|other",
+              "paddingTop|input",
+              "paddingBottom|input",
+              "paddingBottom|link"
+            ]
+          },
+          {
+            "value": 7,
+            "contexts": [
+              "link",
+              "button",
+              "input",
+              "body",
+              "other"
+            ],
+            "frequency": 16,
+            "properties": [
+              "paddingTop",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|link",
+              "paddingBottom|button",
+              "paddingTop|input",
+              "paddingTop|body",
+              "paddingTop|other",
+              "paddingBottom|link"
+            ]
+          },
+          {
+            "value": 8,
+            "contexts": [
+              "image",
+              "link"
+            ],
+            "frequency": 16,
+            "properties": [
+              "marginRight",
+              "marginLeft",
+              "paddingTop"
+            ],
+            "propertyContextPairs": [
+              "marginRight|image",
+              "marginLeft|link",
+              "marginRight|link",
+              "paddingTop|link"
+            ]
+          },
+          {
+            "value": 9,
+            "contexts": [
+              "link"
+            ],
+            "frequency": 15,
+            "properties": [
+              "paddingTop",
+              "paddingBottom",
+              "marginTop"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|link",
+              "paddingBottom|link",
+              "marginTop|link"
+            ]
+          },
+          {
+            "value": 10,
+            "contexts": [
+              "other",
+              "button",
+              "input",
+              "link",
+              "footer"
+            ],
+            "frequency": 22,
+            "properties": [
+              "paddingRight",
+              "paddingLeft",
+              "paddingTop",
+              "marginTop",
+              "marginRight"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|other",
+              "paddingLeft|other",
+              "paddingTop|button",
+              "marginTop|button",
+              "marginRight|input",
+              "paddingTop|link",
+              "paddingRight|footer",
+              "paddingLeft|footer",
+              "paddingRight|link",
+              "paddingLeft|link"
+            ]
+          },
+          {
+            "value": 15,
+            "contexts": [
+              "link"
+            ],
+            "frequency": 18,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|link",
+              "paddingLeft|link"
+            ]
+          },
+          {
+            "value": 16,
+            "contexts": [
+              "button",
+              "link"
+            ],
+            "frequency": 8,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|button",
+              "paddingLeft|button",
+              "paddingRight|link",
+              "paddingLeft|link"
+            ]
+          },
+          {
+            "value": 42,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 4,
+            "properties": [
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingBottom|other"
+            ]
+          },
+          {
+            "value": 51,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "marginTop"
+            ],
+            "propertyContextPairs": [
+              "marginTop|other"
+            ]
+          },
+          {
+            "value": 60,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 8,
+            "properties": [
+              "marginRight"
+            ],
+            "propertyContextPairs": [
+              "marginRight|other"
+            ]
+          },
+          {
+            "value": 78,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 4,
+            "properties": [
+              "paddingTop"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other"
+            ]
+          },
+          {
+            "value": 90,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingTop"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other"
+            ]
+          }
+        ],
+        "density": "compact",
+        "baseUnit": null
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "NeueHaasGroteskTP55R",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 119,
+            "fontFeatureSettings": [
+              "\"case\""
+            ]
+          }
+        ],
+        "scale": {
+          "base": 16,
+          "name": "Major Second",
+          "ratio": 1.125,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 11,
+            "family": "NeueHaasGroteskTP55R",
+            "weight": 400,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 6,
+            "lineHeight": 1.27,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 14,
+            "family": "NeueHaasGroteskTP55R",
+            "weight": 400,
+            "contexts": [
+              "body",
+              "link",
+              "other",
+              "input",
+              "button",
+              "image",
+              "footer"
+            ],
+            "frequency": 72,
+            "lineHeight": 1.29,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 14,
+            "family": "NeueHaasGroteskTP55R",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "image"
+            ],
+            "frequency": 17,
+            "lineHeight": 1.29,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 18,
+            "family": "NeueHaasGroteskTP55R",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "link"
+            ],
+            "frequency": 10,
+            "lineHeight": 1.11,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 54,
+            "family": "NeueHaasGroteskTP55R",
+            "weight": 400,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 8,
+            "lineHeight": 0.89,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Use Midnight Ink (#000000) as the primary background color for all main sections and footers.",
+        "Apply NeueHaasGroteskTP55R weight 400 across all typographic elements, prioritizing its unique 'case' font feature for uppercase styling.",
+        "Emphasize content through high-contrast typography, pairing Arctic White (#ffffff) text on Midnight Ink (#000000) backgrounds.",
+        "Implement Frost Gray (#afafaf) for all secondary text, inactive states, and subtle UI lines, ensuring a visual hierarchy without color.",
+        "Maintain a uniform border-radius of 4px for all interactive elements like buttons and cards, contributing to a consistent, subtle softness.",
+        "Structure information using a compact spacing philosophy, with an elementGap of 5px and sectionGap of 60px.",
+        "Utilize 1px borders in Frost Gray (#afafaf) or Arctic White (#ffffff) for inputs and ghost buttons to define interactive areas subtly."
+      ],
+      "donts": [
+        "Avoid using any saturated colors unless specifically introduced as a functional accent; the system is strictly monochromatic.",
+        "Do not deviate from the NeueHaasGroteskTP55R font family or weight 400; font consistency is a core brand identifier.",
+        "Refrain from heavy shadows or pronounced elevation; the design relies on flat surfaces and thin borders for depth.",
+        "Do not introduce strong visual gradients; the aesthetic is built on solid color blocks and clear contrasts.",
+        "Avoid large, image-dominant layouts unless the imagery itself is monochromatic and stark, maintaining visual continuity.",
+        "Do not break the 4px border-radius standard; it is a critical micro-design element across interactive components.",
+        "Do not use generic system fonts or default link styling; always apply brand-specific typography and color."
+      ],
+      "theme": "dark",
+      "colors": [
+        {
+          "hex": "#000000",
+          "name": "Midnight Ink",
+          "role": "Page backgrounds, prominent surface fills, footer background — creates a deep, infinite canvas",
+          "group": "neutral"
+        },
+        {
+          "hex": "#afafaf",
+          "name": "Frost Gray",
+          "role": "Muted text, inactive element borders, placeholder text within inputs. Provides visual separation without harsh contrast",
+          "group": "neutral"
+        },
+        {
+          "hex": "#ffffff",
+          "name": "Arctic White",
+          "role": "Primary text, active element borders, button backgrounds for ghost buttons, primary input text — stands out vibrantly against the dark background",
+          "group": "neutral"
+        }
+      ],
+      "layout": "The page uses a full-bleed, dark background that extends edge-to-edge. Content appears to be horizontally centered within a maximal width, creating clear boundaries for readability within the expansive dark canvas. The hero section is characterized by a prominent visual element (a large black and white photograph) flanked by the stark black background. Navigation is minimal and positioned at the top, a simple, horizontal list of text links. Sections maintain consistent vertical spacing, creating a calm, unhurried rhythm.",
+      "imagery": "Imagery is high-contrast, black and white photography, often featuring product or model shots with a stark, artistic feel. Images are primarily contained within content areas, without overlapping elements, and contribute to the overall minimalist and sophisticated mood. Icons are minimal, likely outlined, and monochromatic, integrated seamlessly into the high-contrast UI.",
+      "similar": [
+        {
+          "why": "Shares a monochromatic color palette, emphasis on sophisticated typography, and a minimalist, often dark aesthetic.",
+          "business": "Aēsop"
+        },
+        {
+          "why": "Exhibits similar stark, clean photography, a focus on high-quality product presentation, and a restrained UI with minimal color accents.",
+          "business": "COS"
+        },
+        {
+          "why": "Employs an elegant dark theme, premium product imagery, and a refined typographic approach with sparse, deliberate use of UI elements.",
+          "business": "Bang & Olufsen"
+        },
+        {
+          "why": "Features a strong emphasis on minimalist packaging and product presentation, using very little color in its digital interface, similar to CHAIBOY's starkness.",
+          "business": "The Ordinary"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "cards": "4px",
+          "links": "4px",
+          "buttons": "4px",
+          "overall": "4px"
+        },
+        "elementGap": "5px",
+        "sectionGap": "60px",
+        "cardPadding": "16px",
+        "pageMaxWidth": null
+      },
+      "industry": "ecommerce",
+      "surfaces": [
+        {
+          "hex": "#000000",
+          "name": "Base Canvas",
+          "level": 1,
+          "purpose": "Dominant background for pages and sections, creating a deep, dark foundation."
+        },
+        {
+          "hex": "#131313",
+          "name": "Subtle Surface",
+          "level": 2,
+          "purpose": "Slightly lighter dark surface, offering minimal differentiation for secondary content areas or hover states."
+        },
+        {
+          "hex": "#afafaf",
+          "name": "Interactive Layer",
+          "level": 3,
+          "purpose": "Used for interactive elements like input borders, ghost buttons, and subtle separators, providing a muted interactive layer."
+        },
+        {
+          "hex": "#ffffff",
+          "name": "Emphasis Layer",
+          "level": 4,
+          "purpose": "Reserved for primary text, active states, and crisp borders, providing high contrast and visual emphasis."
+        }
+      ],
+      "northStar": "Monochromatic minimalist canvas.",
+      "typeScale": [
+        {
+          "role": "caption",
+          "size": 11,
+          "lineHeight": 1.29
+        },
+        {
+          "role": "body",
+          "size": 14,
+          "lineHeight": 1.11
+        },
+        {
+          "role": "heading-lg",
+          "size": 18,
+          "lineHeight": 1.27
+        },
+        {
+          "role": "display",
+          "size": 54,
+          "lineHeight": 0.89
+        }
+      ],
+      "components": [
+        {
+          "name": "Ghost Border Button - Frost",
+          "role": "Secondary action button",
+          "description": "Text is Frost Gray (#afafaf) on a transparent background, with a 1px Frost Gray border (#afafaf), 4px border-radius, and padding of 10px top, 16px right, 7px bottom, 16px left. Used for subtle calls to action."
+        },
+        {
+          "name": "Underlined Input - Frost",
+          "role": "Standard text input field",
+          "description": "Transparent background with Frost Gray text (#afafaf) and a 1px bottom border in Frost Gray (#afafaf). No border-radius. Padding is 6px top, 0px right, 6px bottom, 0px left."
+        },
+        {
+          "name": "Underlined Input - Arctic",
+          "role": "Prominent text input field",
+          "description": "Transparent background with Arctic White text (#ffffff) and a 1px bottom border in Arctic White (#ffffff). No border-radius. Padding is 7px top, 0px right, 5px bottom, 0px left."
+        },
+        {
+          "name": "Header Navigation Link",
+          "role": "Primary navigation item",
+          "description": "Arctic White text (#ffffff) at 14px, NeueHaasGroteskTP55R weight 400. Hover state likely introduces a subtle border or color change (not specified)."
+        },
+        {
+          "name": "Footer Action Link - Muted",
+          "role": "Footer utility links",
+          "description": "Frost Gray text (#afafaf) at 11px, NeueHaasGroteskTP55R weight 400. Used for terms, privacy, and contact information."
+        }
+      ],
+      "typography": [
+        {
+          "role": "NeueHaasGroteskTP55R — detected in extracted data but not described by AI",
+          "sizes": "11px, 14px, 18px, 54px",
+          "family": "NeueHaasGroteskTP55R",
+          "weight": "400",
+          "lineHeight": "0.89, 1.11, 1.27, 1.29",
+          "fontFeatureSettings": "\"case\""
+        },
+        {
+          "role": "The singular typeface for all content, from navigation to headlines. Its precise, neutral geometry supports the minimalist aesthetic, with 'case' font features ensuring consistent uppercase styling for certain elements, maintaining a crisp, editorial feel.",
+          "sizes": "",
+          "family": "Neue Haas Grotesk Text",
+          "weight": "",
+          "lineHeight": "",
+          "substitute": "Helvetica Neue",
+          "fontFeatureSettings": "\"case\""
+        }
+      ],
+      "description": "CHAIBOY presents a stark, high-contrast dark mode aesthetic, emphasizing minimalism and bold, clean typography. The visual language centers on a monochromatic palette of black, white, and various grays, creating a sophisticated and understated environment. Thin line accents found in borders and ghost buttons provide delicate structure against dark surfaces. The overall impression is one of controlled elegance, using visual sparseness to draw attention to refined products and content.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "primary action: no distinct CTA color\n- Create a secondary action button with a transparent background: Frost Gray (#afafaf) text (NeueHaasGroteskTP55R, 14px, weight 400), 1px Frost Gray (#afafaf) border, 4px border-radius, and 10px paddingTop, 16px paddingRight, 7px paddingBottom, 16px paddingLeft. Text reads 'ORDER NOW'."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777517405330-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777517405330-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/442dfaf8-c0c6-467b-a8d4-54e953c049f3",
+  "ranks": {
+    "trending": 1263,
+    "popular": 1262,
+    "newest": 283
+  },
+  "localSlug": "chaiboy-442dfaf8"
+}

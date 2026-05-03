@@ -1,0 +1,837 @@
+{
+  "id": "94c15607-2f19-4dc4-9aec-2b40f28b754f",
+  "url": "https://minimalcollective.digital",
+  "siteName": "Minimal Collective",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777517839775-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777517839775-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "dark",
+  "colors": [
+    {
+      "name": "Void Black",
+      "hex": "#000000"
+    },
+    {
+      "name": "Graphite",
+      "hex": "#5a5a5a"
+    },
+    {
+      "name": "Parchment White",
+      "hex": "#ffffff"
+    }
+  ],
+  "fonts": [
+    "PolySans"
+  ],
+  "northStar": "Gallery grit, monochromatic precision.",
+  "createdAt": "2026-04-30T02:57:41.884Z",
+  "previewVideoCapturedAt": null,
+  "industry": "media",
+  "fullResult": {
+    "meta": {
+      "url": "https://minimalcollective.digital",
+      "siteName": "Minimal Collective",
+      "extractedAt": "2026-04-30T02:57:41.623Z",
+      "durationMs": 32843,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 681,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "other",
+              "nav",
+              "image",
+              "link",
+              "heading",
+              "hero",
+              "badge",
+              "body",
+              "input",
+              "footer"
+            ],
+            "frequency": 2512,
+            "confidence": 1,
+            "prominence": 141579395.27058697,
+            "properties": [
+              "color",
+              "borderColor",
+              "fill",
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "nav/fill": 6,
+              "body/color": 8,
+              "hero/color": 1,
+              "link/color": 42,
+              "other/fill": 8,
+              "badge/color": 24,
+              "image/color": 15,
+              "other/color": 395,
+              "footer/color": 1,
+              "heading/color": 11,
+              "body/borderColor": 32,
+              "hero/borderColor": 4,
+              "link/borderColor": 168,
+              "badge/borderColor": 96,
+              "image/borderColor": 60,
+              "input/borderColor": 9,
+              "other/borderColor": 1580,
+              "footer/borderColor": 4,
+              "heading/borderColor": 44,
+              "other/backgroundColor": 4
+            }
+          },
+          {
+            "hex": "#5a5a5a",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.4676016850511952
+            },
+            "contexts": [
+              "other",
+              "nav",
+              "input"
+            ],
+            "frequency": 109,
+            "confidence": 1,
+            "prominence": 85000817.70198058,
+            "properties": [
+              "backgroundColor",
+              "color",
+              "borderColor",
+              "fill"
+            ],
+            "usageCounts": {
+              "nav/fill": 4,
+              "nav/color": 20,
+              "input/color": 3,
+              "nav/borderColor": 80,
+              "other/backgroundColor": 2
+            }
+          },
+          {
+            "hex": "#ffffff",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 1.0000000000000002
+            },
+            "contexts": [
+              "other",
+              "badge",
+              "link",
+              "heading",
+              "input"
+            ],
+            "frequency": 718,
+            "confidence": 1,
+            "prominence": 2767239.665264099,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "link/color": 10,
+              "badge/color": 14,
+              "other/color": 114,
+              "heading/color": 5,
+              "link/borderColor": 40,
+              "badge/borderColor": 56,
+              "input/borderColor": 3,
+              "other/borderColor": 456,
+              "heading/borderColor": 20
+            }
+          }
+        ],
+        "isDarkMode": true,
+        "colorfulness": 0,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 21,
+            "background": "#000000",
+            "foreground": "#ffffff"
+          },
+          {
+            "level": "AA",
+            "ratio": 6.9,
+            "background": "#5a5a5a",
+            "foreground": "#ffffff"
+          },
+          {
+            "level": "fail",
+            "ratio": 3.04,
+            "background": "#5a5a5a",
+            "foreground": "#000000"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [
+          {
+            "value": 4.5,
+            "contexts": [
+              "link",
+              "badge",
+              "other"
+            ],
+            "frequency": 29
+          }
+        ],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 1,
+            "contexts": [
+              "other",
+              "image"
+            ],
+            "frequency": 21,
+            "properties": [
+              "marginTop",
+              "marginBottom",
+              "paddingTop",
+              "paddingRight",
+              "paddingBottom",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "marginTop|other",
+              "marginBottom|other",
+              "paddingTop|image",
+              "paddingRight|image",
+              "paddingBottom|image",
+              "paddingLeft|image"
+            ]
+          },
+          {
+            "value": 2,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 5,
+            "properties": [
+              "rowGap",
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "rowGap|other",
+              "marginBottom|other"
+            ]
+          },
+          {
+            "value": 5,
+            "contexts": [
+              "link",
+              "other",
+              "badge",
+              "input"
+            ],
+            "frequency": 141,
+            "properties": [
+              "paddingTop",
+              "paddingBottom",
+              "marginTop"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|link",
+              "paddingBottom|link",
+              "paddingTop|other",
+              "paddingTop|badge",
+              "paddingBottom|badge",
+              "paddingBottom|other",
+              "paddingBottom|input",
+              "marginTop|link"
+            ]
+          },
+          {
+            "value": 6,
+            "contexts": [
+              "link",
+              "badge"
+            ],
+            "frequency": 44,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|link",
+              "paddingLeft|link",
+              "paddingRight|badge",
+              "paddingLeft|badge"
+            ]
+          },
+          {
+            "value": 7,
+            "contexts": [
+              "link"
+            ],
+            "frequency": 4,
+            "properties": [
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingBottom|link"
+            ]
+          },
+          {
+            "value": 9,
+            "contexts": [
+              "nav",
+              "other"
+            ],
+            "frequency": 7,
+            "properties": [
+              "marginLeft",
+              "paddingRight",
+              "paddingLeft",
+              "paddingTop",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "marginLeft|nav",
+              "paddingRight|other",
+              "paddingLeft|other",
+              "paddingTop|other",
+              "paddingBottom|other"
+            ]
+          },
+          {
+            "value": 14,
+            "contexts": [
+              "nav",
+              "other"
+            ],
+            "frequency": 219,
+            "properties": [
+              "paddingRight",
+              "paddingLeft",
+              "paddingTop",
+              "paddingBottom",
+              "marginTop",
+              "marginRight",
+              "marginBottom",
+              "marginLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|nav",
+              "paddingLeft|nav",
+              "paddingTop|nav",
+              "paddingBottom|nav",
+              "paddingTop|other",
+              "paddingRight|other",
+              "paddingBottom|other",
+              "paddingLeft|other",
+              "marginTop|other",
+              "marginRight|other",
+              "marginBottom|other",
+              "marginLeft|other"
+            ]
+          },
+          {
+            "value": 18,
+            "contexts": [
+              "other",
+              "link",
+              "input"
+            ],
+            "frequency": 23,
+            "properties": [
+              "paddingTop",
+              "paddingRight",
+              "paddingLeft",
+              "marginTop"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other",
+              "paddingRight|link",
+              "paddingLeft|link",
+              "marginTop|other",
+              "paddingTop|input",
+              "paddingRight|other",
+              "paddingLeft|other"
+            ]
+          },
+          {
+            "value": 45,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingTop",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other",
+              "paddingBottom|other"
+            ]
+          },
+          {
+            "value": 54,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 3,
+            "properties": [
+              "paddingTop"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other"
+            ]
+          },
+          {
+            "value": 144,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 4,
+            "properties": [
+              "paddingTop",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other",
+              "paddingBottom|other"
+            ]
+          },
+          {
+            "value": 173,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "marginRight",
+              "marginLeft"
+            ],
+            "propertyContextPairs": [
+              "marginRight|other",
+              "marginLeft|other"
+            ]
+          },
+          {
+            "value": 216,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 8,
+            "properties": [
+              "paddingTop",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other",
+              "paddingBottom|other"
+            ]
+          }
+        ],
+        "density": "comfortable",
+        "baseUnit": null
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "PolySans",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 665,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 16,
+          "name": "Minor Third",
+          "ratio": 1.2,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 14,
+            "family": "PolySans",
+            "weight": 400,
+            "contexts": [
+              "link",
+              "other",
+              "badge"
+            ],
+            "frequency": 100,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 16,
+            "family": "PolySans",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "body",
+              "link"
+            ],
+            "frequency": 17,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 18,
+            "family": "PolySans",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "nav",
+              "image",
+              "link",
+              "badge",
+              "hero",
+              "body",
+              "footer"
+            ],
+            "frequency": 486,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 18,
+            "family": "PolySans",
+            "weight": 400,
+            "contexts": [
+              "input"
+            ],
+            "frequency": 2,
+            "lineHeight": 1.43,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 18,
+            "family": "PolySans",
+            "weight": 400,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 4,
+            "lineHeight": 1,
+            "letterSpacing": -0.056,
+            "textTransform": "none"
+          },
+          {
+            "size": 23,
+            "family": "PolySans",
+            "weight": 400,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "lineHeight": 1,
+            "letterSpacing": -0.044,
+            "textTransform": "none"
+          },
+          {
+            "size": 27,
+            "family": "PolySans",
+            "weight": 400,
+            "contexts": [
+              "link",
+              "other"
+            ],
+            "frequency": 8,
+            "lineHeight": 1,
+            "letterSpacing": -0.037,
+            "textTransform": "none"
+          },
+          {
+            "size": 32,
+            "family": "PolySans",
+            "weight": 400,
+            "contexts": [
+              "nav",
+              "other",
+              "heading"
+            ],
+            "frequency": 7,
+            "lineHeight": 1,
+            "letterSpacing": -0.032,
+            "textTransform": "none"
+          },
+          {
+            "size": 32,
+            "family": "PolySans",
+            "weight": 400,
+            "contexts": [
+              "input"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.43,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 50,
+            "family": "PolySans",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "heading"
+            ],
+            "frequency": 30,
+            "lineHeight": 0.9,
+            "letterSpacing": -0.02,
+            "textTransform": "none"
+          },
+          {
+            "size": 50,
+            "family": "PolySans",
+            "weight": 400,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 3,
+            "lineHeight": 1,
+            "letterSpacing": -0.02,
+            "textTransform": "none"
+          },
+          {
+            "size": 77,
+            "family": "PolySans",
+            "weight": 400,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 5,
+            "lineHeight": 1,
+            "letterSpacing": -0.029,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Prioritize Void Black (#000000) for all significant backgrounds and borders to maintain the dark, structured aesthetic.",
+        "Use Parchment White (#ffffff) exclusively for primary text and high-contrast interactive states against dark backgrounds.",
+        "Apply precise letter-spacing values to PolySans as defined in the typography section, ensuring appropriate visual density for each text size.",
+        "Utilize Graphite (#5a5a5a) for secondary information, input text, and subtle background differentiation on interactive elements.",
+        "Maintain a subtle, comfortable density in layouts, especially between interactive elements, using `elementGap: 14px` and `sectionGap: 144px`.",
+        "Incorporate a consistent border radius of 4.5px for all card-like elements, badges, and interactive components.",
+        "Define interactive states with border changes and text color shifts using Parchment White, rather than introducing new chromatic colors."
+      ],
+      "donts": [
+        "Avoid introducing saturated colors; the palette is strictly achromatic, with any color appearing only as part of content imagery.",
+        "Do not use heavy shadows or gradients for elevation; rely on subtle background color shifts (e.g., Void Black to Graphite) and crisp borders.",
+        "Do not use generic font sizes or letter-spacing values; adhere to the specific PolySans scale and letter-spacing definitions.",
+        "Avoid large, rounded button styles; interactive elements should favor minimal borders, subtle background changes, or smaller radii like 4.5px.",
+        "Do not break the grid alignment; maintain strict vertical and horizontal rhythm with defined spacing tokens.",
+        "Refrain from using bold or heavier font weights; PolySans 400 is the only weight available, focusing on form and spacing for emphasis.",
+        "Avoid overly complex layouts or decorative flourishes; maintain the 'gallery grit' aesthetic with clear, functional arrangements."
+      ],
+      "theme": "dark",
+      "colors": [
+        {
+          "hex": "#000000",
+          "name": "Void Black",
+          "role": "Neutral form states, badge text, and quiet UI feedback where color should stay understated. Do not promote it to the primary CTA color",
+          "group": "neutral"
+        },
+        {
+          "hex": "#5a5a5a",
+          "name": "Graphite",
+          "role": "Dark borders and separators for elevated surfaces and inverted UI. Do not promote it to the primary CTA color",
+          "group": "neutral"
+        },
+        {
+          "hex": "#ffffff",
+          "name": "Parchment White",
+          "role": "Primary text on dark backgrounds, active states, emphasized labels, and element borders for high contrast",
+          "group": "neutral"
+        }
+      ],
+      "layout": "The page primarily uses a full-bleed layout, particularly for the hero section with a centered headline against a dark background overlaid with geometric grid lines. Content sections often appear in distinct vertical bands, though seamless transitions are common. A prominent pattern is the division into two main columns, often featuring text on one side and an image or content block on the other, or a symmetric grid of project cards. Navigation is handled by a minimal fixed header bar at the top, a hamburger menu for mobile/secondary nav items, and a persistent footer at the bottom. The section rhythm is largely consistent, with ample vertical spacing like `sectionGap: 144px` creating breathing room between major content blocks.",
+      "imagery": "This site features a blend of photography and abstract graphics. Photography is often presented as raw crops or within defined boundaries, sometimes with a desaturated or muted color treatment to blend with the achromatic theme. Abstract graphics primarily consist of geometric patterns, often line-based like the large overlapping arcs in the hero section, contributing to a technical, structured feel. Icons, if present, are minimal outlined versions. Imagery serves primarily to set atmospheric mood or to showcase specific content (e.g., album art, event photos) within a structured grid, rather than for decorative excess. The density is image-heavy within content modules, but the overall page avoids full-bleed hero images, favoring a structured UI.",
+      "similar": [
+        {
+          "why": "Monochromatic, design-focused aesthetic with strong typography and minimal UI, letting content (film stills) take center stage.",
+          "business": "A24"
+        },
+        {
+          "why": "Emphasis on journalistic content within a curated layout, using a limited color palette and strong typography to convey a 'cool' and artistic brand.",
+          "business": "The Fader"
+        },
+        {
+          "why": "Dark-mode interface, structured layout for music-related content, and a focus on essential information hierarchy over flashy visuals.",
+          "business": "Resident Advisor"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "badges": "4.5px",
+          "default": "4.5px"
+        },
+        "elementGap": "14px",
+        "sectionGap": "144px",
+        "cardPadding": "18px",
+        "pageMaxWidth": null
+      },
+      "industry": "media",
+      "surfaces": [
+        {
+          "hex": "#5a5a5a",
+          "name": "Canvas",
+          "level": 0,
+          "purpose": "Base background for sections and content blocks, providing a subtle contrast to the deepest black."
+        },
+        {
+          "hex": "#000000",
+          "name": "Primary Surface",
+          "level": 1,
+          "purpose": "Dominant background for the page, cards, and interactive elements, serving as the main 'void'."
+        }
+      ],
+      "northStar": "Gallery grit, monochromatic precision.",
+      "typeScale": [
+        {
+          "role": "caption",
+          "size": 14,
+          "lineHeight": 1.43,
+          "letterSpacing": -0.02
+        },
+        {
+          "role": "body",
+          "size": 16,
+          "lineHeight": 1.43,
+          "letterSpacing": -0.029
+        },
+        {
+          "role": "subheading",
+          "size": 18,
+          "lineHeight": 1.2,
+          "letterSpacing": -0.032
+        },
+        {
+          "role": "heading-sm",
+          "size": 23,
+          "lineHeight": 1.2,
+          "letterSpacing": -0.037
+        },
+        {
+          "role": "heading",
+          "size": 27,
+          "lineHeight": 1.2,
+          "letterSpacing": -0.044
+        },
+        {
+          "role": "heading-lg",
+          "size": 32,
+          "lineHeight": 1,
+          "letterSpacing": -0.044
+        },
+        {
+          "role": "display",
+          "size": 77,
+          "lineHeight": 0.9,
+          "letterSpacing": -0.056
+        }
+      ],
+      "components": [
+        {
+          "name": "Header Navigation Link",
+          "role": "Primary navigation links",
+          "description": "Uses PolySans at 14px, Graphite text color and a bottom border of 1px Void Black. On hover/active, text color is Parchment White and border changes to Parchment White."
+        },
+        {
+          "name": "Main Heading",
+          "role": "Hero and major section titles",
+          "description": "Large text, typically PolySans up to 77px, Parchment White, with tight letter-spacing of -0.056em for dramatic impact on dark backgrounds."
+        },
+        {
+          "name": "Project Card Link",
+          "role": "Interactive content blocks for projects/articles",
+          "description": "A square or rectangular block with an image or graphic. Text consists of PolySans at various sizes, Parchment White for titles, and Graphite for metadata. Minimal padding and a border outline in Void Black or Parchment White when interactive. Corner radius is 4.5px."
+        },
+        {
+          "name": "Badge (Text Only)",
+          "role": "Categorization and metadata labels within content",
+          "description": "Transparent background with Parchment White text (PolySans), no padding or border, used for labels like 'EDITORIAL' or 'PREMIERE'."
+        },
+        {
+          "name": "Badge (Outlined)",
+          "role": "Categorization and metadata labels with visual distinction",
+          "description": "Transparent background with Parchment White text (PolySans), 4.5px padding (vertical: 4.5px, horizontal: 6.3px), and a 4.5px border radius. Used for 'EDITORIAL' or 'PREMIERE' but with a clear visual boundary."
+        },
+        {
+          "name": "Text Input (Underlined)",
+          "role": "Capturing user input",
+          "description": "Graphite text on a transparent background, with a 1px solid Void Black bottom border. Padding of 18px on top and 4.5px at the bottom. No explicit border radius on the input itself."
+        }
+      ],
+      "typography": [
+        {
+          "role": "The sole typeface for all text elements. Its geometric forms provide a modern, technical feel, and its consistent weight but varied letter-spacing across sizes is a signature trait.",
+          "sizes": "14px, 16px, 18px, 23px, 27px, 32px, 50px, 77px",
+          "family": "PolySans",
+          "weight": "400",
+          "weights": [
+            400
+          ],
+          "lineHeight": "0.90, 1.00, 1.20, 1.43",
+          "substitute": "Inter",
+          "letterSpacing": "-0.0560em, -0.0440em, -0.0370em, -0.0320em, -0.0290em, -0.0200em"
+        }
+      ],
+      "description": "Minimal Collective employs a muted, structured dark-mode aesthetic, reminiscent of an underground art gallery's concrete walls at dusk. The design prioritizes clear information hierarchy over visual flair, using a restricted achromatic palette with stark black as the dominant background and white for primary text. Typography is a focal point, with a custom geometric sans-serif font exhibiting varied, precise letter-spacing to create distinct visual rhythm. Layout is ordered and grid-constrained, with interactions subtly defined by slight shifts in background depth and crisp borders rather than vibrant color accents.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "Quick Color Reference:\ntext: #ffffff\nbackground: #000000\nborder: #000000\naccent: none observed\nprimary action: no distinct CTA color\n\nExample Component Prompts:\n1. Create a Hero Headline: 'Operating at the intersection of music, art and technology' with Parchment White (#ffffff) text, PolySans 77px, line height 0.9, letter-spacing -0.056em, centered on a Void Black (#000000) background that features a subtle geometric line grid overlay.\n2. Design a Project Card Link: Use Void Black (#000000) as background, border all sides 1px Void Black. Inside, place an image, then a title in Parchment White (#ffffff) with PolySans 23px and line height 1.2, letter-spacing -0.037em. Add a Badge (Outlined) with 'EDITORIAL' in Parchment White (#ffffff) PolySans 14px, 4.5px padding, and 4.5px border radius. Ensure card padding is 18px.\n3. Implement a Header Navigation Link: 'Editorial' using Graphite (#5a5a5a) PolySans 14px text, line height 1.43, letter-spacing -0.020em. Apply a 1px solid Void Black (#000000) bottom border. On hover, change text to Parchment White (#ffffff) and bottom border to 1px solid Parchment White."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777517839775-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777517839775-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/94c15607-2f19-4dc4-9aec-2b40f28b754f",
+  "ranks": {
+    "trending": 368,
+    "popular": 524,
+    "newest": 260
+  },
+  "localSlug": "minimal-collective-94c15607"
+}

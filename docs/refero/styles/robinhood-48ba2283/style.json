@@ -1,0 +1,799 @@
+{
+  "id": "48ba2283-13b5-423a-8742-390ea4e53c36",
+  "url": "https://robinhood.com",
+  "siteName": "Robinhood",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775924119623-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775924119623-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "dark",
+  "colors": [
+    {
+      "name": "Deep Space Black",
+      "hex": "#110e08"
+    },
+    {
+      "name": "Void Black",
+      "hex": "#000000"
+    },
+    {
+      "name": "Ghost White",
+      "hex": "#ffffff"
+    },
+    {
+      "name": "Shadow Graphite",
+      "hex": "#35322d"
+    },
+    {
+      "name": "Rocket Lime",
+      "hex": "#ccff00"
+    }
+  ],
+  "fonts": [
+    "Capsule Sans Text",
+    "Phonic",
+    "Martina Plantijn"
+  ],
+  "northStar": "Electric lime on a dark canvas. The design feels like a financial dashboard powered by neon-green data points against a dark, responsive background.",
+  "createdAt": "2026-02-13T15:12:42.000Z",
+  "previewVideoCapturedAt": null,
+  "industry": "fintech",
+  "fullResult": {
+    "meta": {
+      "url": "https://robinhood.com",
+      "siteName": "Robinhood",
+      "extractedAt": "2026-04-11T16:15:38.797Z",
+      "durationMs": 25820,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 434,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "complete",
+          "attempts": 2
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "other",
+              "image",
+              "button",
+              "body",
+              "icon",
+              "nav"
+            ],
+            "frequency": 384,
+            "confidence": 1,
+            "prominence": 64130781.296131596,
+            "properties": [
+              "color",
+              "borderColor",
+              "backgroundColor",
+              "fill"
+            ]
+          },
+          {
+            "hex": "#110e08",
+            "oklch": {
+              "c": 0.013124487738521458,
+              "h": 84.85086872012484,
+              "l": 0.1652916417647864
+            },
+            "contexts": [
+              "other",
+              "button",
+              "body",
+              "heading",
+              "link",
+              "footer",
+              "list",
+              "icon",
+              "nav"
+            ],
+            "frequency": 1327,
+            "confidence": 1,
+            "prominence": 15847519.980041763,
+            "properties": [
+              "backgroundColor",
+              "color",
+              "borderColor",
+              "fill"
+            ]
+          },
+          {
+            "hex": "#ffffff",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 1.0000000000000002
+            },
+            "contexts": [
+              "other",
+              "heading",
+              "body",
+              "button",
+              "nav"
+            ],
+            "frequency": 275,
+            "confidence": 1,
+            "prominence": 9243717.880727112,
+            "properties": [
+              "color",
+              "borderColor",
+              "backgroundColor",
+              "fill",
+              "stroke"
+            ]
+          },
+          {
+            "hex": "#ccff00",
+            "oklch": {
+              "c": 0.22858450224238647,
+              "h": 123.09017236084324,
+              "l": 0.930707588159175
+            },
+            "contexts": [
+              "button",
+              "other",
+              "footer",
+              "nav"
+            ],
+            "frequency": 32,
+            "confidence": 1,
+            "prominence": 7705140.507919979,
+            "properties": [
+              "backgroundColor",
+              "borderColor",
+              "color"
+            ]
+          },
+          {
+            "hex": "#35322d",
+            "oklch": {
+              "c": 0.009675397014670531,
+              "h": 80.66280677162369,
+              "l": 0.31849970584316334
+            },
+            "contexts": [
+              "other",
+              "nav"
+            ],
+            "frequency": 13,
+            "confidence": 1,
+            "prominence": 1863654.5460881325,
+            "properties": [
+              "borderColor"
+            ]
+          }
+        ],
+        "isDarkMode": true,
+        "colorfulness": 0.03307740756379504,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 21,
+            "background": "#ffffff",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 19.26,
+            "background": "#ffffff",
+            "foreground": "#110e08"
+          },
+          {
+            "level": "AAA",
+            "ratio": 17.87,
+            "background": "#ccff00",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 16.39,
+            "background": "#ccff00",
+            "foreground": "#110e08"
+          },
+          {
+            "level": "AAA",
+            "ratio": 12.76,
+            "background": "#ffffff",
+            "foreground": "#35322d"
+          },
+          {
+            "level": "AAA",
+            "ratio": 10.86,
+            "background": "#ccff00",
+            "foreground": "#35322d"
+          },
+          {
+            "level": "fail",
+            "ratio": 1.18,
+            "background": "#ccff00",
+            "foreground": "#ffffff"
+          },
+          {
+            "level": "fail",
+            "ratio": 1.09,
+            "background": "#110e08",
+            "foreground": "#000000"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [
+          {
+            "value": 36,
+            "contexts": [
+              "button",
+              "nav"
+            ],
+            "frequency": 7
+          }
+        ],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 2,
+            "frequency": 2,
+            "properties": [
+              "paddingTop",
+              "marginTop"
+            ]
+          },
+          {
+            "value": 5,
+            "frequency": 5,
+            "properties": [
+              "marginRight",
+              "paddingTop",
+              "paddingRight",
+              "paddingBottom",
+              "paddingLeft"
+            ]
+          },
+          {
+            "value": 8,
+            "frequency": 84,
+            "properties": [
+              "marginTop",
+              "marginBottom",
+              "columnGap"
+            ]
+          },
+          {
+            "value": 10,
+            "frequency": 6,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ]
+          },
+          {
+            "value": 12,
+            "frequency": 12,
+            "properties": [
+              "rowGap",
+              "columnGap",
+              "marginBottom",
+              "marginTop",
+              "marginLeft"
+            ]
+          },
+          {
+            "value": 16,
+            "frequency": 20,
+            "properties": [
+              "marginBottom",
+              "marginTop"
+            ]
+          },
+          {
+            "value": 24,
+            "frequency": 27,
+            "properties": [
+              "marginTop",
+              "marginBottom",
+              "paddingTop",
+              "paddingRight",
+              "paddingBottom",
+              "paddingLeft",
+              "marginRight"
+            ]
+          },
+          {
+            "value": 32,
+            "frequency": 14,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ]
+          },
+          {
+            "value": 36,
+            "frequency": 5,
+            "properties": [
+              "paddingLeft",
+              "marginLeft"
+            ]
+          },
+          {
+            "value": 52,
+            "frequency": 8,
+            "properties": [
+              "marginTop",
+              "marginRight",
+              "marginBottom",
+              "marginLeft"
+            ]
+          }
+        ],
+        "density": "compact",
+        "baseUnit": 8
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "Capsule Sans Text",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 310,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "Phonic",
+            "source": "custom",
+            "weights": [
+              400,
+              700
+            ],
+            "frequency": 80,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "Martina Plantijn",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 4,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 16,
+          "name": "Minor Third",
+          "ratio": 1.2,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 13,
+            "family": "Capsule Sans Text",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "button"
+            ],
+            "frequency": 13,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 13,
+            "family": "Capsule Sans Text",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "button"
+            ],
+            "frequency": 15,
+            "lineHeight": 1.2,
+            "letterSpacing": -0.019,
+            "textTransform": "none"
+          },
+          {
+            "size": 13,
+            "family": "Capsule Sans Text",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "button"
+            ],
+            "frequency": 11,
+            "lineHeight": 1.2,
+            "letterSpacing": -0.077,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "Capsule Sans Text",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "image",
+              "button",
+              "body",
+              "footer",
+              "list",
+              "link",
+              "icon",
+              "nav"
+            ],
+            "frequency": 266,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "Phonic",
+            "weight": 400,
+            "contexts": [
+              "body",
+              "other",
+              "link",
+              "nav"
+            ],
+            "frequency": 63,
+            "lineHeight": 1.5,
+            "letterSpacing": -0.016,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "Phonic",
+            "weight": 700,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 4,
+            "lineHeight": 1.5,
+            "letterSpacing": -0.016,
+            "textTransform": "none"
+          },
+          {
+            "size": 22,
+            "family": "Phonic",
+            "weight": 400,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.09,
+            "letterSpacing": -0.011,
+            "textTransform": "none"
+          },
+          {
+            "size": 31,
+            "family": "Phonic",
+            "weight": 400,
+            "contexts": [
+              "heading",
+              "other"
+            ],
+            "frequency": 12,
+            "lineHeight": 1.26,
+            "letterSpacing": -0.008,
+            "textTransform": "none"
+          },
+          {
+            "size": 31,
+            "family": "Capsule Sans Text",
+            "weight": 400,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.26,
+            "letterSpacing": -0.008,
+            "textTransform": "none"
+          },
+          {
+            "size": 72,
+            "family": "Capsule Sans Text",
+            "weight": 400,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.08,
+            "letterSpacing": -0.014,
+            "textTransform": "none"
+          },
+          {
+            "size": 72,
+            "family": "Martina Plantijn",
+            "weight": 400,
+            "contexts": [
+              "heading",
+              "other"
+            ],
+            "frequency": 2,
+            "lineHeight": 1.08,
+            "letterSpacing": -0.014,
+            "textTransform": "none"
+          },
+          {
+            "size": 80,
+            "family": "Capsule Sans Text",
+            "weight": 400,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 80,
+            "family": "Martina Plantijn",
+            "weight": 400,
+            "contexts": [
+              "heading",
+              "other"
+            ],
+            "frequency": 2,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Prioritize Deep Space Black (#110e08) for backgrounds and Ghost White (#ffffff) for primary text to maintain high contrast.",
+        "Use Rocket Lime (#ccff00) exclusively for primary CTA buttons and explicit accent elements, never for large blocks or generic text.",
+        "Apply 36px border-radius to all interactive components like buttons and inputs for a consistent 'pill' shape.",
+        "Utilize Martina Plantijn at 72px or 80px for all page-level headlines to establish a luxurious and authoritative tone.",
+        "Ensure consistent spacing with the 8px base unit, particularly for element-to-element gaps.",
+        "Leverage Capsule Sans Text for all body copy and most UI elements, adjusting letter-spacing as per its defined profiles for optimal visual rhythm."
+      ],
+      "tags": [
+        "dark-mode",
+        "high-contrast",
+        "electric-lime",
+        "custom-serif",
+        "financetech",
+        "pill-buttons",
+        "minimalist",
+        "bold-typography",
+        "edgy"
+      ],
+      "donts": [
+        "Do not introduce new vibrant colors outside of the Rocket Lime (#ccff00) accent.",
+        "Avoid using hard-edged rectangles for interactive elements; all buttons and input fields must be pill-shaped with 36px radius.",
+        "Do not use generic system fonts; stick strictly to Capsule Sans Text, Phonic, and Martina Plantijn.",
+        "Do not dilute the impact of Rocket Lime by using it for non-interactive or purely decorative elements.",
+        "Refrain from heavy drop shadows or excessive elevation; the aesthetic relies on flat, high-contrast layers and typography for hierarchy.",
+        "Avoid using multiple line-heights or letter-spacings for the same font/size combination — adhere to the defined typographic profiles."
+      ],
+      "theme": "dark",
+      "colors": [
+        {
+          "hex": "#110e08",
+          "name": "Deep Space Black",
+          "role": "Page backgrounds, card surfaces, primary text on Rocket Lime background, button backgrounds for secondary actions.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#000000",
+          "name": "Void Black",
+          "role": "Text color on Rocket Lime buttons, accents, footer background.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#ffffff",
+          "name": "Ghost White",
+          "role": "Primary text, informational text on Deep Space Black.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#35322d",
+          "name": "Shadow Graphite",
+          "role": "Subtle border colors, secondary text elements, minor outlines.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#ccff00",
+          "name": "Rocket Lime",
+          "role": "Call-to-action buttons, active states, key interactive elements, brand highlights — a potent, high-energy accent against dark neutrals.",
+          "group": "brand"
+        }
+      ],
+      "layout": "The page primarily employs a max-width contained layout, though the initial hero section is full-bleed with a deep black background and centered headline. Sections alternate between dark backgrounds (Deep Space Black) and lighter, usually Rocket Lime (#ccff00), for distinct content blocks, creating a strong visual rhythm without explicit dividers. Content is generally arranged in a centered stack for the hero, transitioning into two-column layouts (text beside device mockups) or stacked blocks for feature explanations. The footer is full-bleed deep black, echoing the hero. The navigation is a fixed top bar on a deep black background, centered with interactive elements.",
+      "imagery": "The visual language relies heavily on abstract graphics and product screenshots, with a notable absence of lifestyle photography. Product screenshots feature mobile interfaces in deep black, demonstrating app functionality clearly. Abstract graphics often use the brand's electric lime color to highlight key information or create dynamic backgrounds, particularly for the main hero section. Iconography is clean and minimal, appearing as monochrome outlines or fills, consistent with the overall UI. When imagery is present, it serves an explanatory or informational role rather than a decorative or aspirational one, contained within clear sections or device mockups, and never bleeding into the background.",
+      "similar": [
+        {
+          "why": "Dark UI with vibrant single accent color for financial tools.",
+          "business": "Revolut"
+        },
+        {
+          "why": "Focus on custom typography, clean interfaces, and bright accent colors within a fintech context.",
+          "business": "Monzo"
+        },
+        {
+          "why": "Sophisticated dark theme, minimalist design with strong typographic hierarchy.",
+          "business": "Linear"
+        },
+        {
+          "why": "Bold, custom typography and a strong brand color palette used aggressively for financial services.",
+          "business": "Cash App"
+        },
+        {
+          "why": "Use of varied font weights and letter-spacing for UI elements creating a precise and modern feel.",
+          "business": "Figma"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "inputs": "36px",
+          "buttons": "36px"
+        },
+        "elementGap": "8px",
+        "sectionGap": "",
+        "cardPadding": "24px",
+        "pageMaxWidth": null
+      },
+      "category": "fintech",
+      "northStar": "Electric lime on a dark canvas. The design feels like a financial dashboard powered by neon-green data points against a dark, responsive background.",
+      "typeScale": [
+        {
+          "role": "caption",
+          "size": 13,
+          "lineHeight": 1.26,
+          "letterSpacing": -0.077
+        },
+        {
+          "role": "body",
+          "size": 16,
+          "lineHeight": 1.5,
+          "letterSpacing": -0.008
+        },
+        {
+          "role": "subheading",
+          "size": 22,
+          "lineHeight": 1.09,
+          "letterSpacing": -0.011
+        },
+        {
+          "role": "heading",
+          "size": 31,
+          "lineHeight": 1.2,
+          "letterSpacing": -0.019
+        },
+        {
+          "role": "display",
+          "size": 72,
+          "lineHeight": 1.08,
+          "letterSpacing": -0.014
+        },
+        {
+          "role": "display-lg",
+          "size": 80,
+          "lineHeight": 1,
+          "letterSpacing": -0.014
+        }
+      ],
+      "components": [
+        {
+          "html": "<style>\n  :root {\n    --color-deep-space-black: #110e08;\n    --color-void-black: #000000;\n    --color-ghost-white: #ffffff;\n    --color-shadow-graphite: #35322d;\n    --color-rocket-lime: #ccff00;\n    --font-capsule-sans-text: 'Inter', sans-serif;\n    --font-martina-plantijn: 'Playfair Display', serif;\n    --font-phonic: 'Georgia', serif;\n  }\n\n  .rh-btn-group-wrapper {\n    background: var(--color-deep-space-black);\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    justify-content: center;\n    padding: 52px 24px;\n    width: 100%;\n    box-sizing: border-box;\n    font-family: var(--font-capsule-sans-text);\n    gap: 16px;\n  }\n\n  .rh-btn-group-label {\n    color: var(--color-ghost-white);\n    font-family: var(--font-capsule-sans-text);\n    font-size: 13px;\n    letter-spacing: 0.08em;\n    text-transform: uppercase;\n    opacity: 0.5;\n    margin-bottom: 8px;\n  }\n\n  .rh-btn-row {\n    display: flex;\n    flex-direction: row;\n    align-items: center;\n    gap: 12px;\n    flex-wrap: wrap;\n    justify-content: center;\n  }\n\n  .rh-btn-primary {\n    display: inline-flex;\n    align-items: center;\n    justify-content: center;\n    background: var(--color-rocket-lime);\n    color: var(--color-void-black);\n    font-family: var(--font-capsule-sans-text);\n    font-size: 16px;\n    font-weight: 400;\n    letter-spacing: -0.008px;\n    line-height: 1.2;\n    padding: 14px 32px;\n    border-radius: 36px;\n    border: none;\n    cursor: pointer;\n    text-decoration: none;\n    white-space: nowrap;\n    transition: opacity 0.15s ease;\n  }\n\n  .rh-btn-primary:hover {\n    opacity: 0.88;\n  }\n\n  .rh-btn-secondary {\n    display: inline-flex;\n    align-items: center;\n    justify-content: center;\n    background: transparent;\n    color: var(--color-ghost-white);\n    font-family: var(--font-capsule-sans-text);\n    font-size: 16px;\n    font-weight: 400;\n    letter-spacing: -0.008px;\n    line-height: 1.2;\n    padding: 13px 32px;\n    border-radius: 36px;\n    border: 1.5px solid var(--color-ghost-white);\n    cursor: pointer;\n    text-decoration: none;\n    white-space: nowrap;\n    transition: border-color 0.15s ease, color 0.15s ease;\n  }\n\n  .rh-btn-secondary:hover {\n    border-color: var(--color-rocket-lime);\n    color: var(--color-rocket-lime);\n  }\n\n  .rh-btn-ghost {\n    display: inline-flex;\n    align-items: center;\n    justify-content: center;\n    background: transparent;\n    color: var(--color-ghost-white);\n    font-family: var(--font-capsule-sans-text);\n    font-size: 16px;\n    font-weight: 400;\n    letter-spacing: -0.008px;\n    line-height: 1.2;\n    padding: 13px 32px;\n    border-radius: 36px;\n    border: 1.5px solid var(--color-shadow-graphite);\n    cursor: pointer;\n    text-decoration: none;\n    white-space: nowrap;\n    opacity: 0.7;\n  }\n\n  .rh-btn-divider {\n    width: 100%;\n    max-width: 340px;\n    height: 1px;\n    background: var(--color-shadow-graphite);\n    margin: 4px 0;\n  }\n\n  .rh-btn-desc {\n    color: var(--color-ghost-white);\n    font-family: var(--font-capsule-sans-text);\n    font-size: 13px;\n    letter-spacing: -0.077px;\n    line-height: 1.26;\n    opacity: 0.45;\n    text-align: center;\n    max-width: 320px;\n  }\n</style>\n\n<div class=\"rh-btn-group-wrapper\">\n  <div class=\"rh-btn-group-label\">Acciones disponibles</div>\n  <div class=\"rh-btn-row\">\n    <a href=\"#\" class=\"rh-btn-primary\">Regístrate</a>\n    <a href=\"#\" class=\"rh-btn-secondary\">Acceder</a>\n  </div>\n  <div class=\"rh-btn-divider\"></div>\n  <div class=\"rh-btn-row\">\n    <a href=\"#\" class=\"rh-btn-ghost\">Más información</a>\n  </div>\n  <div class=\"rh-btn-desc\">Sin comisiones de custodia · Sin mínimo de depósito</div>\n</div>",
+          "name": "CTA Button Group",
+          "role": "",
+          "description": ""
+        },
+        {
+          "html": "<style>\n  :root {\n    --color-deep-space-black: #110e08;\n    --color-void-black: #000000;\n    --color-ghost-white: #ffffff;\n    --color-shadow-graphite: #35322d;\n    --color-rocket-lime: #ccff00;\n    --font-capsule-sans-text: 'Inter', sans-serif;\n    --font-martina-plantijn: 'Playfair Display', serif;\n    --font-phonic: 'Georgia', serif;\n  }\n\n  .rh-feature-card {\n    background: var(--color-rocket-lime);\n    width: 100%;\n    box-sizing: border-box;\n    padding: 48px 36px 40px 36px;\n    display: flex;\n    flex-direction: column;\n    gap: 20px;\n    font-family: var(--font-capsule-sans-text);\n  }\n\n  .rh-feature-eyebrow {\n    font-family: var(--font-capsule-sans-text);\n    font-size: 16px;\n    font-weight: 400;\n    letter-spacing: -0.008px;\n    line-height: 1.5;\n    color: #4a4a00;\n    opacity: 0.7;\n    margin: 0;\n  }\n\n  .rh-feature-headline {\n    font-family: var(--font-martina-plantijn);\n    font-size: 48px;\n    font-weight: 400;\n    letter-spacing: -0.014px;\n    line-height: 1.08;\n    color: var(--color-void-black);\n    margin: 0;\n  }\n\n  .rh-feature-body {\n    font-family: var(--font-phonic);\n    font-size: 16px;\n    font-weight: 400;\n    letter-spacing: -0.008px;\n    line-height: 1.5;\n    color: var(--color-void-black);\n    margin: 0;\n    max-width: 440px;\n  }\n\n  .rh-feature-cta {\n    display: inline-flex;\n    align-items: center;\n    justify-content: center;\n    background: var(--color-deep-space-black);\n    color: var(--color-ghost-white);\n    font-family: var(--font-capsule-sans-text);\n    font-size: 16px;\n    font-weight: 400;\n    letter-spacing: -0.008px;\n    line-height: 1.2;\n    padding: 14px 32px;\n    border-radius: 36px;\n    border: none;\n    cursor: pointer;\n    text-decoration: none;\n    white-space: nowrap;\n    align-self: flex-start;\n    margin-top: 4px;\n  }\n\n  .rh-feature-stats {\n    display: flex;\n    flex-direction: row;\n    gap: 32px;\n    margin-top: 8px;\n    flex-wrap: wrap;\n  }\n\n  .rh-stat-item {\n    display: flex;\n    flex-direction: column;\n    gap: 2px;\n  }\n\n  .rh-stat-value {\n    font-family: var(--font-capsule-sans-text);\n    font-size: 31px;\n    font-weight: 400;\n    letter-spacing: -0.019px;\n    line-height: 1.2;\n    color: var(--color-void-black);\n  }\n\n  .rh-stat-label {\n    font-family: var(--font-capsule-sans-text);\n    font-size: 13px;\n    font-weight: 400;\n    letter-spacing: -0.077px;\n    line-height: 1.26;\n    color: var(--color-void-black);\n    opacity: 0.6;\n  }\n\n  .rh-feature-divider {\n    width: 100%;\n    height: 1px;\n    background: rgba(0,0,0,0.15);\n  }\n</style>\n\n<div class=\"rh-feature-card\">\n  <p class=\"rh-feature-eyebrow\">Invierte</p>\n  <h2 class=\"rh-feature-headline\">Empieza con<br>Tokens de Acciones</h2>\n  <p class=\"rh-feature-body\">Explora más de 2.000 Tokens de Acciones (Stock Tokens) vinculados a NVIDIA, Microsoft, Apple, Vanguard S&P 500 ETF y muchas otras acciones y ETF.</p>\n  <a href=\"#\" class=\"rh-feature-cta\">Más información</a>\n  <div class=\"rh-feature-divider\"></div>\n  <div class=\"rh-feature-stats\">\n    <div class=\"rh-stat-item\">\n      <span class=\"rh-stat-value\">2.000+</span>\n      <span class=\"rh-stat-label\">Stock Tokens disponibles</span>\n    </div>\n    <div class=\"rh-stat-item\">\n      <span class=\"rh-stat-value\">0%</span>\n      <span class=\"rh-stat-label\">Comisión de custodia</span>\n    </div>\n    <div class=\"rh-stat-item\">\n      <span class=\"rh-stat-value\">24/7</span>\n      <span class=\"rh-stat-label\">Mercado disponible</span>\n    </div>\n  </div>\n</div>",
+          "name": "Stock Token Feature Card",
+          "role": "",
+          "description": ""
+        },
+        {
+          "html": "<style>\n  :root {\n    --color-deep-space-black: #110e08;\n    --color-void-black: #000000;\n    --color-ghost-white: #ffffff;\n    --color-shadow-graphite: #35322d;\n    --color-rocket-lime: #ccff00;\n    --font-capsule-sans-text: 'Inter', sans-serif;\n    --font-martina-plantijn: 'Playfair Display', serif;\n    --font-phonic: 'Georgia', serif;\n  }\n\n  .rh-search-panel {\n    background: var(--color-deep-space-black);\n    width: 100%;\n    box-sizing: border-box;\n    padding: 36px 24px 0 24px;\n    font-family: var(--font-capsule-sans-text);\n    border-radius: 20px;\n    overflow: hidden;\n  }\n\n  .rh-search-title {\n    font-family: var(--font-capsule-sans-text);\n    font-size: 22px;\n    font-weight: 400;\n    letter-spacing: -0.011px;\n    line-height: 1.09;\n    color: var(--color-ghost-white);\n    margin: 0 0 20px 0;\n    text-align: center;\n  }\n\n  .rh-search-bar {\n    display: flex;\n    align-items: center;\n    background: #1e1b14;\n    border: 1.5px solid var(--color-shadow-graphite);\n    border-radius: 36px;\n    padding: 0 16px;\n    gap: 10px;\n    height: 46px;\n    margin-bottom: 20px;\n  }\n\n  .rh-search-icon {\n    flex-shrink: 0;\n    opacity: 0.45;\n  }\n\n  .rh-search-input {\n    background: transparent;\n    border: none;\n    outline: none;\n    color: var(--color-ghost-white);\n    font-family: var(--font-capsule-sans-text);\n    font-size: 16px;\n    font-weight: 400;\n    letter-spacing: -0.008px;\n    line-height: 1.5;\n    width: 100%;\n    opacity: 0.5;\n  }\n\n  .rh-search-input::placeholder {\n    color: var(--color-ghost-white);\n    opacity: 0.45;\n  }\n\n  .rh-tabs {\n    display: flex;\n    flex-direction: row;\n    border-bottom: 1px solid var(--color-shadow-graphite);\n    margin-bottom: 0;\n    gap: 0;\n  }\n\n  .rh-tab {\n    flex: 1;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    padding: 12px 8px;\n    font-family: var(--font-capsule-sans-text);\n    font-size: 16px;\n    font-weight: 400;\n    letter-spacing: -0.008px;\n    color: var(--color-ghost-white);\n    opacity: 0.45;\n    cursor: pointer;\n    position: relative;\n    text-align: center;\n  }\n\n  .rh-tab.active {\n    opacity: 1;\n    color: var(--color-ghost-white);\n  }\n\n  .rh-tab.active::after {\n    content: '';\n    position: absolute;\n    bottom: -1px;\n    left: 0;\n    right: 0;\n    height: 2px;\n    background: var(--color-ghost-white);\n    border-radius: 2px 2px 0 0;\n  }\n\n  .rh-asset-list {\n    padding: 20px 0 0 0;\n  }\n\n  .rh-asset-note {\n    font-family: var(--font-phonic);\n    font-size: 13px;\n    font-weight: 400;\n    letter-spacing: -0.077px;\n    line-height: 1.26;\n    color: var(--color-ghost-white);\n    opacity: 0.45;\n    margin-bottom: 20px;\n  }\n\n  .rh-asset-note a {\n    color: var(--color-ghost-white);\n    text-decoration: underline;\n    opacity: 1;\n  }\n\n  .rh-section-label {\n    display: flex;\n    align-items: center;\n    gap: 6px;\n    font-family: var(--font-capsule-sans-text);\n    font-size: 16px;\n    font-weight: 400;\n    color: var(--color-ghost-white);\n    margin-bottom: 12px;\n  }\n\n  .rh-section-info {\n    display: inline-flex;\n    align-items: center;\n    justify-content: center;\n    width: 16px;\n    height: 16px;\n    border-radius: 50%;\n    border: 1.5px solid rgba(255,255,255,0.4);\n    font-size: 11px;\n    color: rgba(255,255,255,0.5);\n    flex-shrink: 0;\n    font-style: italic;\n  }\n\n  .rh-asset-row {\n    display: flex;\n    flex-direction: row;\n    align-items: center;\n    justify-content: space-between;\n    padding: 14px 0;\n    border-top: 1px solid var(--color-shadow-graphite);\n  }\n\n  .rh-asset-row:last-child {\n    border-bottom: 1px solid var(--color-shadow-graphite);\n    margin-bottom: 24px;\n  }\n\n  .rh-asset-left {\n    display: flex;\n    flex-direction: column;\n    gap: 2px;\n  }\n\n  .rh-asset-name {\n    font-family: var(--font-capsule-sans-text);\n    font-size: 16px;\n    font-weight: 400;\n    color: var(--color-ghost-white);\n    letter-spacing: -0.008px;\n    line-height: 1.2;\n  }\n\n  .rh-asset-ticker {\n    font-family: var(--font-capsule-sans-text);\n    font-size: 13px;\n    font-weight: 400;\n    color: var(--color-ghost-white);\n    opacity: 0.45;\n    letter-spacing: -0.077px;\n    line-height: 1.26;\n  }\n\n  .rh-asset-right {\n    display: flex;\n    flex-direction: column;\n    align-items: flex-end;\n    gap: 3px;\n  }\n\n  .rh-asset-chart {\n    width: 60px;\n    height: 28px;\n    margin-bottom: 2px;\n  }\n\n  .rh-asset-price {\n    font-family: var(--font-capsule-sans-text);\n    font-size: 16px;\n    font-weight: 400;\n    color: var(--color-ghost-white);\n    letter-spacing: -0.008px;\n    line-height: 1.2;\n  }\n\n  .rh-asset-change {\n    font-family: var(--font-capsule-sans-text);\n    font-size: 13px;\n    font-weight: 400;\n    letter-spacing: -0.077px;\n    line-height: 1.26;\n    color: #4ade80;\n  }\n</style>\n\n<div class=\"rh-search-panel\">\n  <p class=\"rh-search-title\">Explorar</p>\n\n  <div class=\"rh-search-bar\">\n    <svg class=\"rh-search-icon\" width=\"18\" height=\"18\" viewBox=\"0 0 18 18\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n      <circle cx=\"8\" cy=\"8\" r=\"5.5\" stroke=\"#ffffff\" stroke-width=\"1.5\"/>\n      <line x1=\"12.5\" y1=\"12.5\" x2=\"16\" y2=\"16\" stroke=\"#ffffff\" stroke-width=\"1.5\" stroke-linecap=\"round\"/>\n    </svg>\n    <input class=\"rh-search-input\" type=\"text\" placeholder=\"Buscar por nombre o símbolo\" />\n  </div>\n\n  <div class=\"rh-tabs\">\n    <div class=\"rh-tab active\">Acciones</div>\n    <div class=\"rh-tab\">ETF</div>\n    <div class=\"rh-tab\">Cripto</div>\n  </div>\n\n  <div class=\"rh-asset-list\">\n    <div class=\"rh-asset-note\">Robinhood Stock Tokens son derivados que siguen los precios mostrados. <a href=\"#\">Más información</a></div>\n\n    <div class=\"rh-section-label\">\n      Por capitalización bursátil\n      <span class=\"rh-section-info\">i</span>\n    </div>\n\n    <div class=\"rh-asset-row\">\n      <div class=\"rh-asset-left\">\n        <span class=\"rh-asset-name\">NVIDIA</span>\n        <span class=\"rh-asset-ticker\">NVDA</span>\n      </div>\n      <div class=\"rh-asset-right\">\n        <svg class=\"rh-asset-chart\" viewBox=\"0 0 60 28\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n          <polyline points=\"2,22 10,18 18,20 26,14 34,12 42,8 50,10 58,4\" stroke=\"#4ade80\" stroke-width=\"1.5\" fill=\"none\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/>\n        </svg>\n        <span class=\"rh-asset-price\">154,31 $</span>\n        <span class=\"rh-asset-change\">▲ 4,33%</span>\n      </div>\n    </div>\n\n    <div class=\"rh-asset-row\">\n      <div class=\"rh-asset-left\">\n        <span class=\"rh-asset-name\">Microsoft</span>\n        <span class=\"rh-asset-ticker\">MSFT</span>\n      </div>\n      <div class=\"rh-asset-right\">\n        <svg class=\"rh-asset-chart\" viewBox=\"0 0 60 28\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n          <polyline points=\"2,18 10,16 18,19 26,15 34,14 42,11 50,13 58,10\" stroke=\"#4ade80\" stroke-width=\"1.5\" fill=\"none\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/>\n        </svg>\n        <span class=\"rh-asset-price\">492,27 $</span>\n        <span class=\"rh-asset-change\">▲ 0,44%</span>\n      </div>\n    </div>\n\n    <div class=\"rh-asset-row\">\n      <div class=\"rh-asset-left\">\n        <span class=\"rh-asset-name\">Apple</span>\n        <span class=\"rh-asset-ticker\">AAPL</span>\n      </div>\n      <div class=\"rh-asset-right\">\n        <svg class=\"rh-asset-chart\" viewBox=\"0 0 60 28\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n          <polyline points=\"2,14 10,16 18,13 26,15 34,11 42,14 50,10 58,12\" stroke=\"#4ade80\" stroke-width=\"1.5\" fill=\"none\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/>\n        </svg>\n        <span class=\"rh-asset-price\">207,54 $</span>\n        <span class=\"rh-asset-change\">▲ 1,18%</span>\n      </div>\n    </div>\n  </div>\n</div>",
+          "name": "Asset Search & Tab Bar",
+          "role": "",
+          "description": ""
+        },
+        {
+          "name": "Primary Call-to-Action Button",
+          "role": "Action",
+          "description": "Pill-shaped button with Rocket Lime (#ccff00) background, Void Black (#000000) text, 36px border-radius, and generous horizontal padding (32px left/right), vertical padding 0px. The leading action element."
+        },
+        {
+          "name": "Secondary Ghost Button",
+          "role": "Action",
+          "description": "Minimalist button with transparent background, Deep Space Black (#110e08) text, 36px border-radius, and 32px horizontal padding. Offers an alternative action of lesser prominence."
+        },
+        {
+          "name": "Inline Text Link",
+          "role": "Navigation/Action",
+          "description": "Ghost White (#ffffff) text using Phonic font, weight 400; no distinct background or padding, emphasizing its textual nature within content."
+        },
+        {
+          "name": "Navigation Link",
+          "role": "Navigation",
+          "description": "Ghost White (#ffffff) text using Capsule Sans Text font, weight 400. Appears in the top navigation bar and footer with no background or border, relying on placement and color for distinction."
+        },
+        {
+          "name": "Input Field (example)",
+          "role": "Data Entry",
+          "description": "Based on button radius, likely features 36px border-radius with a Deep Space Black (#110e08) background and Ghost White (#ffffff) text, or a Shadow Graphite (#35322d) border for definition."
+        }
+      ],
+      "typography": [
+        {
+          "role": "Versatile sans-serif for body text, navigation, buttons, and some larger display elements. Its varied letter-spacing creates a distinct visual rhythm, tightening at larger sizes for impact and loosening for readability in smaller text.",
+          "sizes": "13px, 16px, 31px, 72px, 80px",
+          "family": "Capsule Sans Text",
+          "weight": "400",
+          "lineHeight": "1.00, 1.08, 1.20, 1.26",
+          "substitute": "Inter",
+          "letterSpacing": "-0.077, -0.019, -0.014, -0.008"
+        },
+        {
+          "role": "Secondary serif font for body and link text, providing a classic counterpoint to the sans-serif. Its heavier weights are used for more prominent text within content blocks, offering a subtle visual hierarchy.",
+          "sizes": "16px, 22px, 31px",
+          "family": "Phonic",
+          "weight": "400, 700",
+          "lineHeight": "1.09, 1.26, 1.50",
+          "substitute": "Georgia",
+          "letterSpacing": "-0.016, -0.011, -0.008"
+        },
+        {
+          "role": "Signature serif font for primary headlines and display text. Its elegant, slightly condensed forms are central to the brand's sophisticated feel, creating a sense of established authority amidst the modern aesthetic.",
+          "sizes": "72px, 80px",
+          "family": "Martina Plantijn",
+          "weight": "400",
+          "lineHeight": "1.00, 1.08",
+          "substitute": "Playfair Display",
+          "letterSpacing": "-0.014"
+        }
+      ],
+      "description": "This system evokes a high-contrast, edgy digital experience, like a sleek command interface. Its stark visual identity is built on a limited palette of near-black, pure white, and a single, aggressive electric lime green. Typography plays a crucial role in establishing authority through custom typefaces, with a distinct serif for display headings creating a sense of luxury and importance, while a sans-serif maintains legibility for body text. Rounded pill-shaped buttons stand out against the predominantly angular design, providing clear interactive points.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "### Quick Color Reference\n- Text (primary): #ffffff (Ghost White)\n- Background (primary): #110e08 (Deep Space Black)\n- CTA Button: #ccff00 (Rocket Lime)\n- Text on CTA: #000000 (Void Black)\n- Border/Subtle elements: #35322d (Shadow Graphite)\n\n### 3-5 Example Component Prompts\n1. Create a hero section with a Deep Space Black (#110e08) background. Headline: 'Todas tus inversiones realizadas desde una misma plataforma' using Martina Plantijn, 80px, weight 400, #ffffff, letter-spacing -0.0140em, centered. Subtext: 'Todo lo que necesitas para empezar a invertir está aquí.' using Capsule Sans Text, 16px, weight 400, #ffffff, letter-spacing -0.0080em, centered. Below the subtext, create a Primary Call-to-Action Button: 'Comienza' with Rocket Lime (#ccff00) background, Void Black (#000000) text (Capsule Sans Text, 16px, 400), 36px border-radius, 32px horizontal padding.\n\n2. Design a feature card on a Rocket Lime (#ccff00) background. Headline: 'Invierte' using Capsule Sans Text, 31px, weight 400, #000000, letter-spacing -0.0190em. Body text: 'Empieza con Tokens de Acciones' using Phonic, 22px, weight 400, #000000, letter-spacing -0.0110em. Include a Secondary Ghost Button: 'Más información' with transparent background, Deep Space Black (#110e08) text (Capsule Sans Text, 16px, 400), 36px border-radius, 32px horizontal padding.\n\n3. Generate a navigation bar. Background #110e08. Left-aligned brand logo (placeholder text 'Robinhood' in #ffffff). Right-aligned links: 'Lo que ofrecemos', 'Soporte', 'Acceder' (text in #ffffff, Capsule Sans Text, 16px, 400 without special padding/borders). Add a 'Regístrate' Primary Call-to-Action Button with Rocket Lime (#ccff00) background, Void Black (#000000) text (Capsule Sans Text, 16px, 400), 36px border-radius, 32px horizontal padding.\n\n4. Create a mobile app screen mockup showing a 'Search' input field: Deep Space Black (#110e08) background, rounded with 36px border-radius, with a placeholder like 'Buscar por nombre o símbolo' in Shadow Graphite (#35322d). "
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775924119623-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775924119623-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/48ba2283-13b5-423a-8742-390ea4e53c36",
+  "ranks": {
+    "trending": 620,
+    "popular": 492,
+    "newest": 1191
+  },
+  "localSlug": "robinhood-48ba2283"
+}

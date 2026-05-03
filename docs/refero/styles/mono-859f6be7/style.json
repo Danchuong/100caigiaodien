@@ -1,0 +1,882 @@
+{
+  "id": "859f6be7-9d2d-4da6-a9b7-baa658172696",
+  "url": "https://mono.frm.fm/en",
+  "siteName": "mono",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777516910260-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777516910260-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "light",
+  "colors": [
+    {
+      "name": "Canvas White",
+      "hex": "#ffffff"
+    },
+    {
+      "name": "Ink Black",
+      "hex": "#292929"
+    },
+    {
+      "name": "Deep Black",
+      "hex": "#000000"
+    }
+  ],
+  "fonts": [
+    "NH",
+    "S-Condensed",
+    "EV",
+    "S-Works"
+  ],
+  "northStar": "Architectural grid on white",
+  "createdAt": "2026-04-30T02:42:12.427Z",
+  "previewVideoCapturedAt": null,
+  "industry": "design",
+  "fullResult": {
+    "meta": {
+      "url": "https://mono.frm.fm/en",
+      "siteName": "mono",
+      "extractedAt": "2026-04-30T02:42:12.027Z",
+      "durationMs": 35436,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 168,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#292929",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.2809402269547256
+            },
+            "contexts": [
+              "other",
+              "link",
+              "heading",
+              "button",
+              "hero",
+              "image",
+              "input",
+              "body",
+              "list",
+              "icon"
+            ],
+            "frequency": 661,
+            "confidence": 1,
+            "prominence": 12144410.879222155,
+            "properties": [
+              "color",
+              "borderColor",
+              "backgroundColor",
+              "stroke"
+            ],
+            "usageCounts": {
+              "body/color": 1,
+              "hero/color": 1,
+              "icon/color": 1,
+              "link/color": 11,
+              "list/color": 10,
+              "image/color": 6,
+              "other/color": 81,
+              "button/color": 3,
+              "other/stroke": 2,
+              "heading/color": 17,
+              "body/borderColor": 4,
+              "hero/borderColor": 4,
+              "icon/borderColor": 4,
+              "link/borderColor": 45,
+              "list/borderColor": 40,
+              "image/borderColor": 24,
+              "input/borderColor": 1,
+              "other/borderColor": 324,
+              "button/borderColor": 12,
+              "heading/borderColor": 68,
+              "link/backgroundColor": 1,
+              "other/backgroundColor": 1
+            }
+          },
+          {
+            "hex": "#ffffff",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 1.0000000000000002
+            },
+            "contexts": [
+              "other",
+              "input"
+            ],
+            "frequency": 126,
+            "confidence": 1,
+            "prominence": 1847948.004876296,
+            "properties": [
+              "backgroundColor",
+              "color",
+              "borderColor",
+              "fill"
+            ],
+            "usageCounts": {
+              "other/fill": 1,
+              "other/color": 23,
+              "other/borderColor": 92,
+              "input/backgroundColor": 1,
+              "other/backgroundColor": 9
+            }
+          },
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "other",
+              "input"
+            ],
+            "frequency": 14,
+            "confidence": 1,
+            "prominence": 1020417.3133234154,
+            "properties": [
+              "fill",
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "other/fill": 10,
+              "input/color": 1,
+              "input/borderColor": 3
+            }
+          }
+        ],
+        "isDarkMode": false,
+        "colorfulness": 0,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 21,
+            "background": "#ffffff",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 14.55,
+            "background": "#ffffff",
+            "foreground": "#292929"
+          },
+          {
+            "level": "fail",
+            "ratio": 1.44,
+            "background": "#292929",
+            "foreground": "#000000"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 3,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 4,
+            "properties": [
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingBottom|other"
+            ]
+          },
+          {
+            "value": 4,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 4,
+            "properties": [
+              "paddingTop"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other"
+            ]
+          },
+          {
+            "value": 5,
+            "contexts": [
+              "other",
+              "button"
+            ],
+            "frequency": 13,
+            "properties": [
+              "marginTop",
+              "paddingTop",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "marginTop|other",
+              "paddingTop|button",
+              "paddingBottom|button"
+            ]
+          },
+          {
+            "value": 8,
+            "contexts": [
+              "other",
+              "input",
+              "list"
+            ],
+            "frequency": 20,
+            "properties": [
+              "paddingRight",
+              "paddingLeft",
+              "paddingTop",
+              "paddingBottom",
+              "marginLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|other",
+              "paddingLeft|other",
+              "paddingTop|input",
+              "paddingBottom|input",
+              "marginLeft|list",
+              "paddingRight|list"
+            ]
+          },
+          {
+            "value": 12,
+            "contexts": [
+              "button",
+              "body",
+              "link"
+            ],
+            "frequency": 5,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|button",
+              "paddingLeft|button",
+              "paddingRight|body",
+              "paddingRight|link"
+            ]
+          },
+          {
+            "value": 20,
+            "contexts": [
+              "link",
+              "button",
+              "other"
+            ],
+            "frequency": 15,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|link",
+              "paddingLeft|link",
+              "paddingRight|button",
+              "paddingLeft|button",
+              "paddingRight|other"
+            ]
+          },
+          {
+            "value": 23,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 6,
+            "properties": [
+              "paddingBottom",
+              "paddingTop"
+            ],
+            "propertyContextPairs": [
+              "paddingBottom|other",
+              "paddingTop|other"
+            ]
+          },
+          {
+            "value": 25,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "marginBottom|other"
+            ]
+          },
+          {
+            "value": 43,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 16,
+            "properties": [
+              "paddingTop",
+              "paddingRight",
+              "paddingBottom",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|heading",
+              "paddingRight|heading",
+              "paddingBottom|heading",
+              "paddingLeft|heading"
+            ]
+          },
+          {
+            "value": 45,
+            "contexts": [
+              "heading",
+              "other"
+            ],
+            "frequency": 8,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|heading",
+              "paddingLeft|heading",
+              "paddingRight|other",
+              "paddingLeft|other"
+            ]
+          },
+          {
+            "value": 50,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 4,
+            "properties": [
+              "paddingTop",
+              "paddingRight",
+              "paddingBottom",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other",
+              "paddingRight|other",
+              "paddingBottom|other",
+              "paddingLeft|other"
+            ]
+          }
+        ],
+        "density": "comfortable",
+        "baseUnit": 4
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "NH",
+            "source": "custom",
+            "weights": [
+              100,
+              300,
+              400
+            ],
+            "frequency": 115,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "S-Condensed",
+            "source": "custom",
+            "weights": [
+              300,
+              400,
+              500
+            ],
+            "frequency": 39,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "EV",
+            "source": "custom",
+            "weights": [
+              100
+            ],
+            "frequency": 1,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "S-Works",
+            "source": "custom",
+            "weights": [
+              350
+            ],
+            "frequency": 1,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 16,
+          "name": "Major Second",
+          "ratio": 1.125,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 12,
+            "family": "S-Condensed",
+            "weight": 300,
+            "contexts": [
+              "other",
+              "body",
+              "list",
+              "link",
+              "icon"
+            ],
+            "frequency": 21,
+            "lineHeight": 1.34,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 14,
+            "family": "S-Condensed",
+            "weight": 500,
+            "contexts": [
+              "link"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.34,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 14,
+            "family": "S-Condensed",
+            "weight": 500,
+            "contexts": [
+              "button"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 14,
+            "family": "S-Condensed",
+            "weight": 500,
+            "contexts": [
+              "link"
+            ],
+            "frequency": 2,
+            "lineHeight": 1.34,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 14,
+            "family": "S-Condensed",
+            "weight": 500,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 4,
+            "lineHeight": 0.9,
+            "letterSpacing": 0.1,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 14,
+            "family": "S-Condensed",
+            "weight": 400,
+            "contexts": [
+              "input"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.18,
+            "letterSpacing": 0.2,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 14,
+            "family": "S-Condensed",
+            "weight": 300,
+            "contexts": [
+              "button"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "NH",
+            "weight": 300,
+            "contexts": [
+              "other",
+              "link",
+              "hero",
+              "image"
+            ],
+            "frequency": 81,
+            "lineHeight": 1.34,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 18,
+            "family": "NH",
+            "weight": 300,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.5,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 18,
+            "family": "NH",
+            "weight": 400,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.5,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 25,
+            "family": "NH",
+            "weight": 300,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 22,
+            "lineHeight": 1.27,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 25,
+            "family": "NH",
+            "weight": 300,
+            "contexts": [
+              "button"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 28,
+            "family": "EV",
+            "weight": 100,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 1,
+            "lineHeight": 0.9,
+            "letterSpacing": -0.05,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 32,
+            "family": "NH",
+            "weight": 100,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.25,
+            "letterSpacing": -0.02,
+            "textTransform": "none"
+          },
+          {
+            "size": 40,
+            "family": "S-Condensed",
+            "weight": 300,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 8,
+            "lineHeight": 1.34,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 40,
+            "family": "NH",
+            "weight": 300,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 6,
+            "lineHeight": 1.34,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 40,
+            "family": "S-Works",
+            "weight": 350,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.34,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 43,
+            "family": "NH",
+            "weight": 300,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "lineHeight": 1.34,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Maintain a clear, high-contrast between Ink Black (#292929) text/lines and Canvas White (#ffffff) backgrounds.",
+        "Utilize 0px border-radius for all interactive elements and containers to maintain the precise, angular aesthetic.",
+        "Apply positive letter-spacing (0.1em or 0.2em) from S-Condensed for navigation, tags, and small labels to distinguish them from body text.",
+        "Use thin (1px) Ink Black (#292929) borders as the primary visual cue for interactive elements and content divisions.",
+        "Structure layouts using visible grid lines or strong horizontal/vertical divisions rather than relying on card elevation or soft shadows.",
+        "Emphasize content hierarchy through variations in font-family, weight, and letter-spacing rather than relying on color or large size differences.",
+        "For buttons, use transparent backgrounds with Ink Black (#292929) text and borders, with 0px vertical padding and 20px horizontal padding."
+      ],
+      "donts": [
+        "Avoid using any color other than Ink Black (#292929), Deep Black (#000000), or Canvas White (#ffffff) for primary UI elements.",
+        "Do not introduce rounded corners or soft shadows; all elements should adhere to a sharp, planar aesthetic.",
+        "Do not use generic system fonts for headings or key interface elements; always select from the specified custom typography. ",
+        "Avoid large and complex hero components; opt for minimal, high-contrast textual statements or product visuals on a Canvas White (#ffffff) background.",
+        "Do not use subtle gray text for functional elements; all text, save for contextual accents, should be Ink Black for maximum impact.",
+        "Do not use excessive padding or element gaps; maintain an efficient information density with 8px as a common element gap and 20px for card padding.",
+        "Do not design buttons with solid background fills; all buttons should be ghosted or outlined."
+      ],
+      "theme": "light",
+      "colors": [
+        {
+          "hex": "#ffffff",
+          "name": "Canvas White",
+          "role": "Page backgrounds, card surfaces, form input fields — a stark, pure white for a clean, expansive feel",
+          "group": "neutral"
+        },
+        {
+          "hex": "#292929",
+          "name": "Ink Black",
+          "role": "Primary text, headings, button borders, icons, dividing lines — provides sharp definition against Canvas White. Acts as the primary border and text color for interactive elements",
+          "group": "neutral"
+        },
+        {
+          "hex": "#000000",
+          "name": "Deep Black",
+          "role": "Decorative fills (SVGs), input text, and borders — used sparingly for maximum contrast in specific UI elements",
+          "group": "neutral"
+        }
+      ],
+      "layout": "The page uses a full-bleed layout, particularly for the main canvas, but frequently employs strong vertical and horizontal dividers to create distinct, modular content blocks. The hero section often features a large, singular product image or graphic, sometimes with overlay text, defining a clear focal point. Content progresses with a mix of stacked, centered headlines and text blocks, alongside two-column layouts where text and visuals alternate. A strong underlying grid is evident, with elements often snapping to these implicit lines. Vertical rhythm is established through consistent spacing, and sections can alternate between pure white and light gray backgrounds for differentiation. Navigation is minimalist, adhering to a fixed top bar on larger screens with simple text links.",
+      "imagery": "Imagery primarily consists of product photography, abstract graphics, and occasional textual illustrations. Product photos are tight crops, often showcasing the hardware in an abstract or deconstructed manner, with a heavy emphasis on geometric patterns and technical diagrams. Illustrations are abstract, using a monochromatic palette to match the UI, with strong geometric shapes, dots, and lines (e.g., printed circuit board patterns). Icons are minimalist, outlined, and monochromatic, with a fine stroke weight. The role of imagery is primarily decorative atmosphere and product showcase, with a relatively low density compared to text-heavy sections. Images are typically contained within defined areas, often bordered by the same thin black lines as other UI elements.",
+      "similar": [
+        {
+          "why": "Shares a precise, almost brutalist, high-contrast monochrome aesthetic with custom, technical typography.",
+          "business": "Teenage Engineering"
+        },
+        {
+          "why": "Emphasizes clear functional hierarchy, minimalist forms, and a strict adherence to grid systems, leveraging whitespace dramatically.",
+          "business": "Braun (Dieter Rams era)"
+        },
+        {
+          "why": "Uses a similarly crisp, high-contrast black-on-white layout with distinct typography for a dense, information-rich presentation.",
+          "business": "Ars Technica"
+        },
+        {
+          "why": "Strong product focus on geometric design, often showcased with technical diagrams and a minimalist approach to branding and UI.",
+          "business": "OP-1"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "none": "0px"
+        },
+        "elementGap": "8px",
+        "sectionGap": "40px",
+        "cardPadding": "20px",
+        "pageMaxWidth": null
+      },
+      "industry": "design",
+      "northStar": "Architectural grid on white",
+      "typeScale": [
+        {
+          "role": "caption",
+          "size": 12,
+          "lineHeight": 1.18,
+          "letterSpacing": 1.2
+        },
+        {
+          "role": "body",
+          "size": 16,
+          "lineHeight": 1.5,
+          "letterSpacing": -0.32
+        },
+        {
+          "role": "subheading",
+          "size": 18,
+          "lineHeight": 1.25,
+          "letterSpacing": -0.36
+        },
+        {
+          "role": "heading",
+          "size": 25,
+          "lineHeight": 1.27,
+          "letterSpacing": -0.5
+        },
+        {
+          "role": "heading-lg",
+          "size": 32,
+          "lineHeight": 1.2,
+          "letterSpacing": -0.64
+        },
+        {
+          "role": "display-sm",
+          "size": 40,
+          "lineHeight": 1.34,
+          "letterSpacing": -0.8
+        },
+        {
+          "role": "display",
+          "size": 43,
+          "lineHeight": 1.34,
+          "letterSpacing": -0.86
+        }
+      ],
+      "components": [
+        {
+          "name": "Outline Button",
+          "role": "Primary and secondary actions with minimal visual weight.",
+          "description": "Text in Ink Black (#292929) on a transparent background, with a 1px solid Ink Black border and 0px radius. Padding is 0px top/bottom, 20px left/right, giving a wide, flat appearance."
+        },
+        {
+          "name": "Minimal Input Field",
+          "role": "Standard text input fields.",
+          "description": "Background is Canvas White (#ffffff), text is Deep Black (#000000), with a 1px solid Deep Black border. No border-radius. Padding is 8px top/bottom, 0px left/right, emphasizing vertical alignment."
+        },
+        {
+          "name": "Navigation Link",
+          "role": "Top-level navigation items and language selectors.",
+          "description": "Utilizes S-Condensed, with specific letter-spacing. Colors are Ink Black (#292929) for text. Often appears with a thin Ink Black border on hover or active state to denote selection."
+        },
+        {
+          "name": "Section Heading",
+          "role": "Major content section titles.",
+          "description": "Typography from NH family, often at 43px or 40px, with specific letter-spacing -0.0200em. Uses Ink Black (#292929) color. Frequently bordered by Ink Black lines to separate content areas."
+        }
+      ],
+      "typography": [
+        {
+          "role": "Primary headings and body text. Its subtle negative letter-spacing contributes to the precise, condensed feel.",
+          "sizes": "16px, 18px, 25px, 32px, 40px, 43px",
+          "family": "NH",
+          "weight": "100, 300, 400",
+          "weights": [
+            100,
+            300,
+            400
+          ],
+          "lineHeight": "1.20, 1.25, 1.27, 1.34, 1.50",
+          "substitute": "Helvetica Neue",
+          "letterSpacing": "-0.0200em"
+        },
+        {
+          "role": "Navigation links, metadata, and labels. The pronounced positive letter-spacing creates a distinctive, airy appearance for functional text.",
+          "sizes": "12px, 14px, 40px",
+          "family": "S-Condensed",
+          "weight": "300, 400, 500",
+          "weights": [
+            300,
+            400,
+            500
+          ],
+          "lineHeight": "0.90, 1.18, 1.20, 1.34",
+          "substitute": "Impact",
+          "letterSpacing": "0.1000em, 0.2000em"
+        },
+        {
+          "role": "Specialized, extremely light headlines. Its very tight tracking and light weight make it feel almost etched.",
+          "sizes": "28px",
+          "family": "EV",
+          "weight": "100",
+          "weights": [
+            100
+          ],
+          "lineHeight": "0.90",
+          "substitute": "Roboto Thin",
+          "letterSpacing": "-0.0500em"
+        },
+        {
+          "role": "Unique, expressive headlines. The moderate weight and normal letter-spacing allow it to stand out against more tracked and condensed fonts.",
+          "sizes": "40px",
+          "family": "S-Works",
+          "weight": "350",
+          "weights": [
+            350
+          ],
+          "lineHeight": "1.34",
+          "substitute": "Bebas Neue Pro",
+          "letterSpacing": "normal"
+        }
+      ],
+      "description": "MONO X7 employs a stark, almost architectural aesthetic, reminiscent of an artist's canvas or technical drawing. The visual system is dominated by high contrast black text and lines on a pristine white background, often utilizing a grid-like structure. Typography is precise and highly customized, with distinct weight and letter-spacing variations that dictate hierarchy through subtle means. Interactions are signaled not with color, but by the presence or absence of thin, sharp borders, giving components a planar rather than volumetric feel.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "Quick Color Reference: \ntext: #292929\nbackground: #ffffff\nborder: #292929\naccent: no distinct accent color\nprimary action: no distinct CTA color\n\nExample Component Prompts:\n1. Create a primary navigation item: 'PRE-ORDER' text using S-Condensed, weight 400, size 14px, letter-spacing 0.1em, color Ink Black (#292929). When active, add a 1px solid Ink Black (#292929) border around it. \n2. Design a product feature headline: 'Digital canvas that elevates a space' using NH, weight 300, size 43px, line-height 1.34, letter-spacing -0.0200em, color Ink Black (#292929). Place it centered within a Canvas White (#ffffff) section, with 43px padding-top.\n3. Implement a text input field: background Canvas White (#ffffff), text Deep Black (#000000), 1px solid Deep Black (#000000) border, 0px border-radius, 8px padding-top/bottom, 0px padding-left/right.\nNo distinct primary action color was observed; use the extracted neutral button treatments instead of inventing a filled CTA color."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777516910260-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777516910260-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/859f6be7-9d2d-4da6-a9b7-baa658172696",
+  "ranks": {
+    "trending": 62,
+    "popular": 91,
+    "newest": 313
+  },
+  "localSlug": "mono-859f6be7"
+}

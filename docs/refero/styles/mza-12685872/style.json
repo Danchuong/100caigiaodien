@@ -1,0 +1,507 @@
+{
+  "id": "12685872-a92e-49db-960c-4d3d03b1353b",
+  "url": "https://muzeum.mza.waw.pl",
+  "siteName": "MZA",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777516207704-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777516207704-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "light",
+  "colors": [
+    {
+      "name": "Canvas White",
+      "hex": "#ffffff"
+    },
+    {
+      "name": "Ink Black",
+      "hex": "#000000"
+    },
+    {
+      "name": "Ghost Button Fill",
+      "hex": "#efefef"
+    }
+  ],
+  "fonts": [
+    "Times",
+    "Arial"
+  ],
+  "northStar": "Archival document on pristine white paper.",
+  "createdAt": "2026-04-30T02:30:22.434Z",
+  "previewVideoCapturedAt": null,
+  "industry": "media",
+  "fullResult": {
+    "meta": {
+      "url": "https://muzeum.mza.waw.pl",
+      "siteName": "MZA",
+      "extractedAt": "2026-04-30T02:30:22.368Z",
+      "durationMs": 25685,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 451,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "other",
+              "icon",
+              "body",
+              "button",
+              "image",
+              "nav",
+              "list",
+              "heading"
+            ],
+            "frequency": 1640,
+            "confidence": 1,
+            "prominence": 42260772.82708666,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "nav/color": 11,
+              "body/color": 27,
+              "icon/color": 19,
+              "list/color": 54,
+              "image/color": 3,
+              "other/color": 164,
+              "button/color": 19,
+              "heading/color": 31,
+              "nav/borderColor": 44,
+              "body/borderColor": 108,
+              "icon/borderColor": 76,
+              "list/borderColor": 216,
+              "image/borderColor": 12,
+              "other/borderColor": 656,
+              "button/borderColor": 76,
+              "heading/borderColor": 124
+            }
+          },
+          {
+            "hex": "#efefef",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.9521308451894797
+            },
+            "contexts": [
+              "button"
+            ],
+            "frequency": 19,
+            "confidence": 1,
+            "prominence": 65235.182664229855,
+            "properties": [
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "button/backgroundColor": 19
+            }
+          }
+        ],
+        "isDarkMode": false,
+        "colorfulness": 0,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 18.26,
+            "background": "#efefef",
+            "foreground": "#000000"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 1,
+            "contexts": [
+              "button"
+            ],
+            "frequency": 38,
+            "properties": [
+              "paddingTop",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|button",
+              "paddingBottom|button"
+            ]
+          },
+          {
+            "value": 6,
+            "contexts": [
+              "button"
+            ],
+            "frequency": 38,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|button",
+              "paddingLeft|button"
+            ]
+          },
+          {
+            "value": 13,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 4,
+            "properties": [
+              "marginTop",
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "marginTop|body",
+              "marginBottom|body"
+            ]
+          },
+          {
+            "value": 16,
+            "contexts": [
+              "body",
+              "nav",
+              "list",
+              "other"
+            ],
+            "frequency": 48,
+            "properties": [
+              "marginTop",
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "marginTop|body",
+              "marginBottom|body",
+              "marginTop|nav",
+              "marginBottom|nav",
+              "marginTop|list",
+              "marginBottom|list",
+              "marginTop|other",
+              "marginBottom|other"
+            ]
+          },
+          {
+            "value": 19,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 2,
+            "properties": [
+              "marginTop",
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "marginTop|heading",
+              "marginBottom|heading"
+            ]
+          },
+          {
+            "value": 20,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 20,
+            "properties": [
+              "marginTop",
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "marginTop|heading",
+              "marginBottom|heading"
+            ]
+          },
+          {
+            "value": 40,
+            "contexts": [
+              "nav",
+              "list",
+              "other"
+            ],
+            "frequency": 34,
+            "properties": [
+              "paddingLeft",
+              "marginRight",
+              "marginLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingLeft|nav",
+              "paddingLeft|list",
+              "marginRight|other",
+              "marginLeft|other"
+            ]
+          }
+        ],
+        "density": "comfortable",
+        "baseUnit": 4
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "Times",
+            "source": "system",
+            "weights": [
+              400,
+              700
+            ],
+            "frequency": 397,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "Arial",
+            "source": "system",
+            "weights": [
+              400
+            ],
+            "frequency": 54,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 16,
+          "name": "Minor Second",
+          "ratio": 1.067,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 13,
+            "family": "Arial",
+            "weight": 400,
+            "contexts": [
+              "button",
+              "body",
+              "icon",
+              "image",
+              "nav"
+            ],
+            "frequency": 54,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "Times",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "icon",
+              "body",
+              "link",
+              "nav",
+              "list",
+              "image"
+            ],
+            "frequency": 366,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 19,
+            "family": "Times",
+            "weight": 700,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 24,
+            "family": "Times",
+            "weight": 700,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 30,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Prioritize Ink Black (#000000) for all text and borders, reserving lighter tones only for subtle background elements.",
+        "Maintain a stark, minimalist aesthetic with Canvas White (#ffffff) as the dominant background color for all content areas.",
+        "Use Times as the primary typeface for all headings and substantial body text to convey a traditional, historical feel.",
+        "Ensure all interactive elements, including buttons, maintain a 0px border radius for a sharp, angular appearance.",
+        "Apply 1px vertical and 6px horizontal padding to ghost buttons for a subtle interactive hit area without visual bulk.",
+        "Employ a base unit of 4px for all spacing measurements, translating to 16px for element gaps and 40px for section gaps.",
+        "Keep page layout full-bleed without a maximum content width to maximize visual space."
+      ],
+      "donts": [
+        "Avoid using any vibrant or saturated colors; chromatic tones are not part of this visual system.",
+        "Do not introduce elevated elements with shadows or complex layer effects; the design should remain flat.",
+        "Refrain from utilizing decorative graphical elements or imagery with rounded corners; all visuals should be sharp and contained.",
+        "Do not vary typography significantly in terms of letter-spacing or font-feature-settings; rely on font family, size and weight for distinction.",
+        "Avoid unnecessary visual hierarchies through color gradients or heavy fills; use text size and weight changes for emphasis.",
+        "Do not introduce complex animations or transitions; interactions should be direct and instantaneous.",
+        "Refrain from using any button fills other than Ghost Button Fill (#efefef) when an action requires a discreet background."
+      ],
+      "theme": "light",
+      "colors": [
+        {
+          "hex": "#ffffff",
+          "name": "Canvas White",
+          "role": "Page backgrounds, primary surface for content",
+          "group": "neutral"
+        },
+        {
+          "hex": "#000000",
+          "name": "Ink Black",
+          "role": "Primary text, borders, icons, heading accents",
+          "group": "neutral"
+        },
+        {
+          "hex": "#efefef",
+          "name": "Ghost Button Fill",
+          "role": "Background for subtle, low-emphasis buttons",
+          "group": "neutral"
+        }
+      ],
+      "layout": "The page exhibits a full-bleed layout, lacking a defined maximum content width, allowing text and elements to span the full browser width. The hero pattern is not explicitly present; instead, content begins directly with text and navigation. Section rhythm is dictated by consistent vertical spacing of 40px between distinct blocks, with visual separation achieved primarily through headings and text hierarchy rather than distinct background bands. Content arrangement is primarily stacked, with text-heavy blocks, lists, and occasional interactive elements vertically aligned. There is no evidence of complex grid usage for features or cards, favoring a more document-like, linear flow. The layout is spacious with significant vertical margins between text blocks. Navigation appears as simple text links and ghost buttons, primarily embedded within the content flow rather than a prominent, persistent top or side bar.",
+      "imagery": "This design system predominantly avoids complex imagery, favoring a text-dominant display. When visuals are present (e.g., icons), they are simple, contained, and monochrome, usually in Ink Black. There is no evidence of photography, illustrations, or 3D renders. Icons are typically outlined with a light stroke weight, serving a purely functional role rather than decorative. The density is image-light, with visual space primarily dedicated to text and minimal interface elements.",
+      "similar": [
+        {
+          "why": "Similar focus on text-heavy content, a strong serif typeface, and minimal color usage, evoking an archival feel.",
+          "business": "New York Times (Archive)"
+        },
+        {
+          "why": "Plain white background, prominent black text, and reliance on system fonts for conveying factual information with minimal visual chrome.",
+          "business": "Wikipedia"
+        },
+        {
+          "why": "Strict adherence to a monochrome palette, emphasis on readability of text, and no decorative imagery, presenting information in a formal, scholarly manner.",
+          "business": "Academic Journal sites"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "buttons": "0px"
+        },
+        "elementGap": "16px",
+        "sectionGap": "40px",
+        "cardPadding": "0px",
+        "pageMaxWidth": null
+      },
+      "industry": "media",
+      "northStar": "Archival document on pristine white paper.",
+      "typeScale": [
+        {
+          "role": "caption",
+          "size": 16,
+          "lineHeight": 1.2
+        },
+        {
+          "role": "body-sm",
+          "size": 19,
+          "lineHeight": 1.2
+        },
+        {
+          "role": "body",
+          "size": 24,
+          "lineHeight": 1.2
+        }
+      ],
+      "components": [
+        {
+          "name": "Ghost Action Button",
+          "role": "Interactive element for secondary actions, designed as a minimal, border-based control.",
+          "description": "Background: Ghost Button Fill (#efefef). Text: Ink Black (#000000), Arial 13px weight 400. Border: 0px. Padding: 1px top/bottom, 6px left/right. Radius: 0px."
+        },
+        {
+          "name": "Text Link",
+          "role": "Standard inline navigations and references.",
+          "description": "Content: Times 16px weight 400, Ink Black (#000000), underlined by default (browser default). Hover state implied by browser default underline/color change."
+        },
+        {
+          "name": "Section Heading Times",
+          "role": "Primary content organization at a section level, using the distinct serif font.",
+          "description": "Font: Times, sizes 19px or 24px, typical weight 400 or 700. Color: Ink Black (#000000). Margin: 19px or 20px top/bottom."
+        },
+        {
+          "name": "Body Text",
+          "role": "Main informational text blocks.",
+          "description": "Font: Times 16px weight 400. Color: Ink Black (#000000). Line height: 1.2. Margin: 13px or 16px top/bottom."
+        }
+      ],
+      "typography": [
+        {
+          "role": "Primary content font for body text, headings, and lists. Its classic serif style reinforces the historical and archival nature of the content.",
+          "sizes": "16px, 19px, 24px",
+          "family": "Times",
+          "weight": "400, 700",
+          "weights": [
+            400,
+            700
+          ],
+          "lineHeight": "1.20",
+          "substitute": "serif"
+        },
+        {
+          "role": "Used for functional text within buttons, navigation links, and smaller body annotations, providing a utilitarian contrast to the serif headings.",
+          "sizes": "13px",
+          "family": "Arial",
+          "weight": "400",
+          "weights": [
+            400
+          ],
+          "lineHeight": "1.20",
+          "substitute": "sans-serif"
+        }
+      ],
+      "description": "The MZA visual system embodies a stark, archival aesthetic, presenting information directly on a pristine white canvas. Typography is foundational, relying on system fonts with minimal styling to convey historical gravitas. Interactive elements are stripped-back, favoring ghosted borders and plain text over vibrant fills, emphasizing content over decorative flair. The absence of color and elevation directs focus solely to the textual narrative and navigation.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "Quick Color Reference:\ntext: #000000\nbackground: #ffffff\nborder: #000000\naccent: no distinct accent color\nprimary action: no distinct CTA color\n\nExample Component Prompts:\nCreate a section title: Times 24px weight 700, Ink Black (#000000), 20px margin-top, 20px margin-bottom. Content follows.\nCreate a list item: Times 16px weight 400, Ink Black (#000000), with 16px margin-bottom, prefixed by a simple black bullet icon.\nCreate a Ghost Button: background Ghost Button Fill (#efefef), text Arial 13px weight 400 Ink Black (#000000), padding 1px top/bottom, 6px left/right, no border, 0px radius."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777516207704-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777516207704-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/12685872-a92e-49db-960c-4d3d03b1353b",
+  "ranks": {
+    "trending": 1190,
+    "popular": 1227,
+    "newest": 359
+  },
+  "localSlug": "mza-12685872"
+}

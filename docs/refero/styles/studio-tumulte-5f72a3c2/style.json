@@ -1,0 +1,603 @@
+{
+  "id": "5f72a3c2-7040-4d8c-9882-4d9384822469",
+  "url": "https://studio-tumulte.com",
+  "siteName": "Studio Tumulte",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777515398401-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777515398401-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "light",
+  "colors": [
+    {
+      "name": "Ink",
+      "hex": "#000000"
+    },
+    {
+      "name": "Canvas",
+      "hex": "#fef7ef"
+    },
+    {
+      "name": "Soft Taupe",
+      "hex": "#eedfd9"
+    },
+    {
+      "name": "Art Blue",
+      "hex": "#3d50ff"
+    }
+  ],
+  "fonts": [
+    "Moche Light",
+    "Moche",
+    "Forno-r"
+  ],
+  "northStar": "Editorial canvas, artful typography",
+  "createdAt": "2026-04-30T02:17:02.195Z",
+  "previewVideoCapturedAt": null,
+  "industry": "design",
+  "fullResult": {
+    "meta": {
+      "url": "https://studio-tumulte.com",
+      "siteName": "Studio Tumulte",
+      "extractedAt": "2026-04-30T02:17:01.910Z",
+      "durationMs": 36118,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 242,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "other",
+              "button",
+              "body",
+              "nav",
+              "hero",
+              "heading",
+              "link",
+              "footer"
+            ],
+            "frequency": 1160,
+            "confidence": 1,
+            "prominence": 94970297.30965485,
+            "properties": [
+              "color",
+              "borderColor",
+              "fill",
+              "stroke"
+            ],
+            "usageCounts": {
+              "nav/color": 6,
+              "body/color": 69,
+              "hero/color": 2,
+              "link/color": 22,
+              "other/fill": 14,
+              "other/color": 115,
+              "button/color": 3,
+              "footer/color": 1,
+              "other/stroke": 1,
+              "heading/color": 11,
+              "nav/borderColor": 24,
+              "body/borderColor": 276,
+              "hero/borderColor": 8,
+              "link/borderColor": 88,
+              "other/borderColor": 460,
+              "button/borderColor": 12,
+              "footer/borderColor": 4,
+              "heading/borderColor": 44
+            }
+          }
+        ],
+        "isDarkMode": false,
+        "colorfulness": 0,
+        "contrastPairs": []
+      },
+      "shapes": {
+        "radii": [],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 18,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 40,
+            "properties": [
+              "paddingTop",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other",
+              "paddingBottom|other"
+            ]
+          },
+          {
+            "value": 20,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 4,
+            "properties": [
+              "marginLeft"
+            ],
+            "propertyContextPairs": [
+              "marginLeft|other"
+            ]
+          },
+          {
+            "value": 36,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 8,
+            "properties": [
+              "marginTop",
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "marginTop|nav",
+              "marginBottom|nav"
+            ]
+          },
+          {
+            "value": 43,
+            "contexts": [
+              "other",
+              "hero"
+            ],
+            "frequency": 6,
+            "properties": [
+              "marginRight",
+              "marginLeft"
+            ],
+            "propertyContextPairs": [
+              "marginRight|other",
+              "marginLeft|other",
+              "marginRight|hero",
+              "marginLeft|hero"
+            ]
+          },
+          {
+            "value": 71,
+            "contexts": [
+              "hero",
+              "other",
+              "link",
+              "footer"
+            ],
+            "frequency": 24,
+            "properties": [
+              "marginBottom",
+              "marginTop",
+              "paddingTop",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "marginBottom|hero",
+              "marginTop|other",
+              "marginBottom|other",
+              "marginBottom|link",
+              "paddingTop|footer",
+              "paddingBottom|footer"
+            ]
+          },
+          {
+            "value": 127,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "marginLeft"
+            ],
+            "propertyContextPairs": [
+              "marginLeft|other"
+            ]
+          },
+          {
+            "value": 134,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "marginLeft",
+              "marginTop"
+            ],
+            "propertyContextPairs": [
+              "marginLeft|other",
+              "marginTop|other"
+            ]
+          },
+          {
+            "value": 161,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "marginLeft",
+              "marginTop"
+            ],
+            "propertyContextPairs": [
+              "marginLeft|other",
+              "marginTop|other"
+            ]
+          },
+          {
+            "value": 212,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingBottom|other"
+            ]
+          },
+          {
+            "value": 312,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 3,
+            "properties": [
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingBottom|other"
+            ]
+          }
+        ],
+        "density": "spacious",
+        "baseUnit": 6
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "Moche",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 200,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "Moche Light",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 20,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "Forno-r",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 9,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 16,
+          "name": "Minor Third",
+          "ratio": 1.2,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 14,
+            "family": "Moche",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "link",
+              "body"
+            ],
+            "frequency": 65,
+            "lineHeight": 1.25,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 18,
+            "family": "Forno-r",
+            "weight": 400,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 7,
+            "lineHeight": 1.25,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 18,
+            "family": "Moche",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "hero",
+              "link",
+              "footer"
+            ],
+            "frequency": 127,
+            "lineHeight": 1.25,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 18,
+            "family": "Moche",
+            "weight": 400,
+            "contexts": [
+              "button",
+              "body"
+            ],
+            "frequency": 8,
+            "lineHeight": 1.25,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 18,
+            "family": "Moche Light",
+            "weight": 400,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.25,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 18,
+            "family": "Moche Light",
+            "weight": 400,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 2,
+            "lineHeight": 1.25,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 70,
+            "family": "Moche Light",
+            "weight": 400,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 4,
+            "lineHeight": 1.25,
+            "letterSpacing": 0,
+            "textTransform": "lowercase"
+          },
+          {
+            "size": 70,
+            "family": "Moche Light",
+            "weight": 400,
+            "contexts": [
+              "heading",
+              "button"
+            ],
+            "frequency": 8,
+            "lineHeight": 1.25,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 70,
+            "family": "Forno-r",
+            "weight": 400,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "lineHeight": 0.8,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 70,
+            "family": "Moche Light",
+            "weight": 400,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 5,
+            "lineHeight": 0.8,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 70,
+            "family": "Forno-r",
+            "weight": 400,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.25,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Prioritize 'Ink' (#000000) for all text and UI outlines, establishing strong contrast against light backgrounds.",
+        "Utilize 'Canvas' (#fef7ef) as the predominant background color for all main content areas.",
+        "Employ 'Moche Light' for all primary headings at 70px to convey a light, elegant tone, using a line-height of 0.8.",
+        "Maintain uniform 0px border-radius for all primary UI elements to preserve a crisp, angular aesthetic.",
+        "Implement the 71px 'sectionGap' consistently between major content blocks for generous vertical rhythm.",
+        "Embed the 'Art Blue' (#3d50ff) accent selectively, primarily for artistic graphic elements or distinctive visual highlights, not for general UI.",
+        "Keep interactive controls like buttons simple with transparent backgrounds and 'Ink' (#000000) text as ghost elements."
+      ],
+      "donts": [
+        "Avoid using bold or heavy font weights for headlines; the lightness of 'Moche Light' is a signature characteristic.",
+        "Do not introduce strong saturations or hues beyond 'Art Blue' and the muted neutrals; the palette is intentionally restrained.",
+        "Refrain from using shadows or strong elevation effects; the design emphasizes flat surfaces and crisp outlines.",
+        "Do not deviate from the 0px border-radius for non-circular components; sharp edges are essential to the aesthetic.",
+        "Do not fill buttons with solid colors; all primary interactive elements should remain ghosted or outlined.",
+        "Avoid dense information layouts; spaciousness between elements is crucial for the design's breathability and elegance.",
+        "Do not use generic system fonts; custom fonts 'Moche', 'Moche Light', and 'Forno-r' are integral to the brand's typographic identity."
+      ],
+      "theme": "light",
+      "colors": [
+        {
+          "hex": "#000000",
+          "name": "Ink",
+          "role": "Primary text, borders for outlines, decorative accents, button outlines. Creates a stark contrast against light backgrounds",
+          "group": "neutral"
+        },
+        {
+          "hex": "#fef7ef",
+          "name": "Canvas",
+          "role": "Dominant page background, providing a soft, warm base for content",
+          "group": "neutral"
+        },
+        {
+          "hex": "#eedfd9",
+          "name": "Soft Taupe",
+          "role": "Subtle background for alternate sections or elements, offering a slight visual break from the main canvas",
+          "group": "neutral"
+        },
+        {
+          "hex": "#3d50ff",
+          "name": "Art Blue",
+          "role": "Key accent color, used for prominent graphic elements and visual focal points, particularly within imagery or abstract shapes",
+          "group": "accent"
+        }
+      ],
+      "layout": "The page adheres to a max-width 1354px contained layout, centered on a background of 'Canvas'. The hero section features a centered, multi-line typographic headline (Moche Light) with an abstract art piece slightly rotated and layered within it, setting a unique, editorial tone. Sections maintain a consistent 'sectionGap' of 71px, creating a spacious vertical rhythm. Content arrangement is typically centered or in two-column structures with text and imagery, favoring an artful, asymmetrical balance over strict grids. Navigation is minimal, limited to a circular menu toggle in the top right. The overall impression is one of artful curation and generous breathing room.",
+      "imagery": "The site uses a mix of abstract, artistic photography, and product-focused imagery. Photography often features blurred or distorted subjects, sometimes tinted with brand accent colors like 'Art Blue' or soft gradients, creating an ethereal and artistic mood rather than descriptive realism. Imagery is frequently contained within distinct shapes, sometimes rotated slightly, breaking free from traditional grid alignment. Icons, if visible, are minimalist outlines. Image density is moderate, used to punctuate textual content and establish atmospheric breaks rather than illustrate every point.",
+      "similar": [
+        {
+          "why": "Employs custom typography as a core expressive element, often using spacious layouts and a minimal color palette.",
+          "business": "AIGA"
+        },
+        {
+          "why": "Focuses on bold, geometric layouts and distinct type choices, with a strong emphasis on clean, almost minimalist design.",
+          "business": "Pentagram"
+        },
+        {
+          "why": "Utilizes custom fonts, a graphic, editorial approach to web design, and a curated, often monochromatic color scheme with occasional vibrant accents.",
+          "business": "Actual Source"
+        },
+        {
+          "why": "Features a strong emphasis on unique typography, spacious, content-forward layouts, and a refined, often muted color palette.",
+          "business": "Kerning Cultures"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "buttons": "0px",
+          "menuIcon": "9999px"
+        },
+        "elementGap": "20px",
+        "sectionGap": "71px",
+        "cardPadding": "18px",
+        "pageMaxWidth": "1354px"
+      },
+      "industry": "design",
+      "northStar": "Editorial canvas, artful typography",
+      "components": [
+        {
+          "name": "Ghost Button",
+          "role": "Interactive elements, navigations, often appearing as plain text with hover states.",
+          "description": "Transparent background, text color 'Ink' (#000000), no border or padding initially, adapting to content naturally. Provides functionality without visual weight."
+        },
+        {
+          "name": "Menu Toggle Circle",
+          "role": "Primary navigation trigger, always visible with a distinct visual style.",
+          "description": "Circular button with 'Ink' (#000000) border, 9999px border-radius, transparent background, and 'Ink' (#000000) text. Text 'M e n u' implies an open character spacing."
+        },
+        {
+          "name": "Headline Stack",
+          "role": "Prominent textual content sections, often appearing in two lines.",
+          "description": "Each line of text is typically 'Moche Light' at 70px, weight 400, color 'Ink' (#000000), with a line-height of 0.8. They are arranged vertically with the element gap of 20px."
+        }
+      ],
+      "typography": [
+        {
+          "role": "Headlines and prominent display text. The light weight at large sizes creates an airy, elegant, and almost whisper-like presence, contrasting typical bold headline conventions.",
+          "sizes": "18px, 70px",
+          "family": "Moche Light",
+          "weight": "400",
+          "lineHeight": "0.80, 1.25",
+          "substitute": "Montserrat Thin"
+        },
+        {
+          "role": "Body text, links, and button labels. Provides clarity and an understated yet distinctive feel, complementing the lighter headline variant.",
+          "sizes": "14px, 18px",
+          "family": "Moche",
+          "weight": "400",
+          "lineHeight": "1.25",
+          "substitute": "Montserrat"
+        },
+        {
+          "role": "Decorative text and stylistic elements, often used for wordmark or specific typographic flourishes due to its unique character.",
+          "sizes": "18px, 70px",
+          "family": "Forno-r",
+          "weight": "400",
+          "lineHeight": "0.80, 1.25",
+          "substitute": "Playfair Display"
+        }
+      ],
+      "description": "Studio Tumulte employs a minimal, artistic design language centered around a muted, almost-achromatic palette, punctuated by a single, strong blue accent. The layout is spacious, with content given ample room to breathe. Typography is a core expressive element, featuring custom fonts that lend a distinctive, editorial feel, while components are kept understated and border-focused, allowing content and subtle visual flair to dominate.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "Quick Color Reference:\ntext: #000000\nbackground: #fef7ef\nborder: #000000\naccent: #3d50ff\nprimary action: no distinct CTA color\n\nExample Component Prompts:\n1. Create a hero section: 'Canvas' (#fef7ef) background. Centered headline 'création graphique' in two lines, 'Moche Light' weight 400, 70px, lineHeight 0.8, color 'Ink' (#000000). Embed a 400x400px image with a slight rotation at its center, using 'Art Blue' (#3d50ff) as a dominant color.\n2. Create a navigation toggle: Circular button with a 9999px border-radius, 'Ink' (#000000) 1px border, transparent background, and text 'M e n u' in 'Moche' weight 400, 14px, #000000.\n3. Create a content section with a subtle background: Use 'Soft Taupe' (#eedfd9) for the background. Include a block of body text (e.g., promotional text) in 'Moche' weight 400, 18px, 'Ink' (#000000), with 'cardPadding' of '18px'. Max-width should be '1354px' and centered."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777515398401-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777515398401-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/5f72a3c2-7040-4d8c-9882-4d9384822469",
+  "ranks": {
+    "trending": 447,
+    "popular": 613,
+    "newest": 400
+  },
+  "localSlug": "studio-tumulte-5f72a3c2"
+}

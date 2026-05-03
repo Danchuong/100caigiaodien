@@ -1,0 +1,753 @@
+{
+  "id": "b634cbce-b4db-44a6-b2a4-b58d9d2fe93d",
+  "url": "https://sreda.v-a-c.org",
+  "siteName": "V–A–C Sreda",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777519406923-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777519406923-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "light",
+  "colors": [
+    {
+      "name": "Canvas White",
+      "hex": "#ffffff"
+    },
+    {
+      "name": "Diagram Black",
+      "hex": "#000000"
+    },
+    {
+      "name": "Muted Gray",
+      "hex": "#999999"
+    }
+  ],
+  "fonts": [
+    "Diagramatika Display",
+    "Diagramatika Text",
+    "Arial"
+  ],
+  "northStar": "Architectural grid on white",
+  "createdAt": "2026-04-30T03:23:45.885Z",
+  "previewVideoCapturedAt": null,
+  "industry": "media",
+  "fullResult": {
+    "meta": {
+      "url": "https://sreda.v-a-c.org",
+      "siteName": "V–A–C Sreda",
+      "extractedAt": "2026-04-30T03:23:45.818Z",
+      "durationMs": 28668,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 88,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "other",
+              "link",
+              "heading",
+              "body",
+              "image",
+              "input",
+              "button"
+            ],
+            "frequency": 401,
+            "confidence": 1,
+            "prominence": 41762649.25235709,
+            "properties": [
+              "color",
+              "borderColor",
+              "backgroundColor",
+              "fill",
+              "stroke"
+            ],
+            "usageCounts": {
+              "body/color": 11,
+              "link/color": 7,
+              "other/fill": 3,
+              "image/color": 1,
+              "input/color": 1,
+              "other/color": 47,
+              "button/color": 2,
+              "other/stroke": 1,
+              "heading/color": 10,
+              "body/borderColor": 44,
+              "link/borderColor": 28,
+              "image/borderColor": 4,
+              "input/borderColor": 4,
+              "other/borderColor": 188,
+              "button/borderColor": 8,
+              "heading/borderColor": 40,
+              "heading/backgroundColor": 2
+            }
+          },
+          {
+            "hex": "#ffffff",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 1.0000000000000002
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 7,
+            "confidence": 1,
+            "prominence": 10331607,
+            "properties": [
+              "backgroundColor",
+              "fill",
+              "stroke"
+            ],
+            "usageCounts": {
+              "other/fill": 3,
+              "other/stroke": 2,
+              "other/backgroundColor": 2
+            }
+          },
+          {
+            "hex": "#999999",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.6829534013134412
+            },
+            "contexts": [
+              "body"
+            ],
+            "frequency": 5,
+            "confidence": 1,
+            "prominence": 1625.9414129536071,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "body/color": 1,
+              "body/borderColor": 4
+            }
+          }
+        ],
+        "isDarkMode": false,
+        "colorfulness": 0,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 21,
+            "background": "#ffffff",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 7.37,
+            "background": "#000000",
+            "foreground": "#999999"
+          },
+          {
+            "level": "fail",
+            "ratio": 2.85,
+            "background": "#ffffff",
+            "foreground": "#999999"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 5,
+            "contexts": [
+              "other",
+              "body"
+            ],
+            "frequency": 6,
+            "properties": [
+              "marginBottom",
+              "paddingBottom",
+              "paddingTop",
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "marginBottom|other",
+              "paddingBottom|other",
+              "paddingTop|body",
+              "paddingRight|body",
+              "paddingBottom|body",
+              "paddingLeft|body"
+            ]
+          },
+          {
+            "value": 10,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 5,
+            "properties": [
+              "marginBottom",
+              "paddingTop",
+              "paddingRight",
+              "paddingBottom",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "marginBottom|other",
+              "paddingTop|other",
+              "paddingRight|other",
+              "paddingBottom|other",
+              "paddingLeft|other"
+            ]
+          },
+          {
+            "value": 12,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingTop",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other",
+              "paddingBottom|other"
+            ]
+          },
+          {
+            "value": 13,
+            "contexts": [
+              "other",
+              "heading",
+              "body"
+            ],
+            "frequency": 5,
+            "properties": [
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "marginBottom|other",
+              "marginBottom|heading",
+              "marginBottom|body"
+            ]
+          },
+          {
+            "value": 20,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 8,
+            "properties": [
+              "paddingRight",
+              "paddingLeft",
+              "columnGap",
+              "rowGap"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|other",
+              "paddingLeft|other",
+              "columnGap|other",
+              "rowGap|other"
+            ]
+          },
+          {
+            "value": 26,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 2,
+            "properties": [
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "marginBottom|body"
+            ]
+          },
+          {
+            "value": 48,
+            "contexts": [
+              "link"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingLeft",
+              "paddingRight"
+            ],
+            "propertyContextPairs": [
+              "paddingLeft|link",
+              "paddingRight|link"
+            ]
+          },
+          {
+            "value": 50,
+            "contexts": [
+              "other",
+              "link"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingBottom|other",
+              "paddingBottom|link"
+            ]
+          }
+        ],
+        "density": "comfortable",
+        "baseUnit": 4
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "Diagramatika Text",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 65,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "Diagramatika Display",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 13,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "Arial",
+            "source": "system",
+            "weights": [
+              400
+            ],
+            "frequency": 2,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 16,
+          "name": "Minor Third",
+          "ratio": 1.2,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 13,
+            "family": "Arial",
+            "weight": 400,
+            "contexts": [
+              "button"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "Diagramatika Text",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "link"
+            ],
+            "frequency": 29,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "Diagramatika Display",
+            "weight": 400,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "Diagramatika Text",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "image"
+            ],
+            "frequency": 9,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "Diagramatika Text",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "body"
+            ],
+            "frequency": 3,
+            "lineHeight": 0.9,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 20,
+            "family": "Diagramatika Text",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "link"
+            ],
+            "frequency": 3,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 20,
+            "family": "Arial",
+            "weight": 400,
+            "contexts": [
+              "input"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 20,
+            "family": "Diagramatika Text",
+            "weight": 400,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 24,
+            "family": "Diagramatika Text",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "link",
+              "body"
+            ],
+            "frequency": 10,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 24,
+            "family": "Diagramatika Text",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "body"
+            ],
+            "frequency": 10,
+            "lineHeight": 1.1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 24,
+            "family": "Diagramatika Display",
+            "weight": 400,
+            "contexts": [
+              "button"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 48,
+            "family": "Diagramatika Display",
+            "weight": 400,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 3,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 80,
+            "family": "Diagramatika Display",
+            "weight": 400,
+            "contexts": [
+              "link",
+              "heading"
+            ],
+            "frequency": 7,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 80,
+            "family": "Diagramatika Display",
+            "weight": 400,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 1,
+            "lineHeight": 0.8,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Prioritize Diagram Black (#000000) for all text and UI outlines against Canvas White (#FFFFFF) backgrounds to maintain high contrast.",
+        "Use Diagramatika Display for all large type elements (48px and above) with a tight line-height of 0.8 to create a graphic, almost abstract feel.",
+        "Define interactive pathways and relationships using single-pixel dotted lines in Diagram Black, connecting elements visually rather than relying on traditional button styling.",
+        "Employ 0px border-radius for all UI components, including buttons and inputs, to uphold a sharp, rectilinear visual language.",
+        "Maintain a comfortable density for content blocks, using 20px padding around text or within cards, and 20px as a primary element gap.",
+        "Use Muted Gray (#999999) exclusively for secondary, contextual labels or inactive states, ensuring it never competes with primary Diagram Black text.",
+        "Structure layouts with a strong emphasis on horizontal and vertical lines as visual anchors, creating a grid-like framework that guides the eye through content."
+      ],
+      "donts": [
+        "Avoid using any colored backgrounds or accent colors; the system relies strictly on a black and white palette with only Muted Gray as a secondary neutral.",
+        "Do not introduce rounded corners or soft edges on any UI elements. All shapes must maintain sharp, 0px radii.",
+        "Refrain from using drop shadows or complex elevation effects; the design emphasizes flat surfaces and defined lines to create separation.",
+        "Do not use bold or italic text styles; the system achieves visual hierarchy through font size, weight 400, and precise spacing rather than stylistic variations.",
+        "Avoid decorative imagery that isn't black and white line art or diagrams; photography or colorful illustrations will disrupt the stark aesthetic.",
+        "Do not use generic button styles with block backgrounds; interactive elements should manifest as text links, ghost buttons, or elements defined by borders/lines.",
+        "Do not introduce unnecessary visual flair or animation; transitions should be subtle (0.3s ease for color/opacity), serving function over decoration."
+      ],
+      "theme": "light",
+      "colors": [
+        {
+          "hex": "#ffffff",
+          "name": "Canvas White",
+          "role": "Primary page and background surfaces, default text fill for inverted states",
+          "group": "neutral"
+        },
+        {
+          "hex": "#000000",
+          "name": "Diagram Black",
+          "role": "Neutral form states, badge text, and quiet UI feedback where color should stay understated. Do not promote it to the primary CTA color",
+          "group": "neutral"
+        },
+        {
+          "hex": "#999999",
+          "name": "Muted Gray",
+          "role": "Secondary text, subtle instructional prompts, and inactive or subordinate border elements",
+          "group": "neutral"
+        }
+      ],
+      "layout": "The page model is full-bleed horizontally but with implicit vertical divisions, centered around a clear information hierarchy defined by lines and text blocks. The hero section is characterized by large, single-character headlines ('V', 'A', 'C') linked by solid lines, acting as abstract graphic anchors, followed by the brand name 'Sreda' as a dominant visual. Content sections flow vertically with strong visual separators, like the long horizontal lines. The primary content arrangement involves a large text block on the right, providing descriptive information, while interactive navigation elements ('Read', 'Watch', 'Listen', linked by dotted lines) are horizontally distributed below. There's no apparent grid for cards or features; instead, a linear flow with strong visual axes. Density is comfortable, with generous blank space around primary interactive elements, but descriptive text blocks can be quite dense. Navigation integrates directly into the content flow through aligned text links and dotted pathway indicators rather than a dedicated header or sidebar.",
+      "imagery": "The visual language is characterized by an absence of traditional imagery in the UI. Instead, dotted lines, stark outlines, and the typographic treatment of headlines like 'V', 'A', 'C', and 'Sreda' function as primary graphic elements. The only visual content observed is a background element which appears to be product/artwork focused, suggesting a content area, rather than UI imagery. Icons, if present, would likely be minimal, outlined, and monochromatic to align with the system's graphic precision. The design is heavily text-dominant, relying on typography and line work to convey information and structure.",
+      "similar": [
+        {
+          "why": "Stark black-and-white palette, heavy reliance on custom typography as graphic elements, and minimal, abstracted navigation.",
+          "business": "Certain editorial/art magazines online"
+        },
+        {
+          "why": "Focus on extreme functionalism, clarity through reduction, and a disciplined approach to form and layout, devoid of ornamentation.",
+          "business": "Dieter Rams' design principles/Braun"
+        },
+        {
+          "why": "Raw, uncovered structural elements (lines, borders), high contrast, and a deliberate avoidance of 'pleasant' or decorative elements in favor of a direct, almost confrontational aesthetic.",
+          "business": "Brutalism-inspired websites"
+        },
+        {
+          "why": "Using the website itself as an art piece or diagram, where navigation and textual elements are integral parts of the visual composition rather than just controls.",
+          "business": "Some conceptual art platforms"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "default": "0px"
+        },
+        "elementGap": "20px",
+        "sectionGap": "50px",
+        "cardPadding": "20px",
+        "pageMaxWidth": null
+      },
+      "industry": "media",
+      "surfaces": [
+        {
+          "hex": "#ffffff",
+          "name": "Canvas White",
+          "level": 0,
+          "purpose": "Base page background"
+        },
+        {
+          "hex": "#000000",
+          "name": "Diagram Black",
+          "level": 1,
+          "purpose": "Cookie consent banner (transparent over background)"
+        }
+      ],
+      "northStar": "Architectural grid on white",
+      "typeScale": [
+        {
+          "role": "caption",
+          "size": 13,
+          "lineHeight": 1.2
+        },
+        {
+          "role": "body",
+          "size": 16,
+          "lineHeight": 1.2
+        },
+        {
+          "role": "subheading",
+          "size": 20,
+          "lineHeight": 1.2
+        },
+        {
+          "role": "heading",
+          "size": 24,
+          "lineHeight": 1.2
+        },
+        {
+          "role": "heading-lg",
+          "size": 48,
+          "lineHeight": 0.8
+        },
+        {
+          "role": "display",
+          "size": 80,
+          "lineHeight": 0.8
+        }
+      ],
+      "components": [
+        {
+          "name": "Navigation Link",
+          "role": "Primary navigation and content links",
+          "description": "Text in Diagramatika Text, 16px, weight 400, color Diagram Black. Features a solid Diagram Black border on hover/active states, indicating a selected navigational path. Often paired with dotted lines to visually connect actions."
+        },
+        {
+          "name": "Headline Display Text",
+          "role": "Large, prominent text for section titles and branding.",
+          "description": "Uses Diagramatika Display, 80px, weight 400, color Diagram Black. Highly condensed line-height (0.8) to maintain visual tightness. Often appears as single characters or short words, acting as graphic elements."
+        },
+        {
+          "name": "Body Text Block",
+          "role": "Descriptive text for articles and content blocks.",
+          "description": "Composed of Diagramatika Text, 16px-24px, weight 400, color Diagram Black, with a standard line-height of 1.2. The content fills available space, forming dense, readable blocks against the Canvas White background."
+        },
+        {
+          "name": "Interactive Dotted Line",
+          "role": "Visual connectors and indicators for user interaction.",
+          "description": "A dotted line stroke in Diagram Black, primarily used to guide the eye or visually link related actions/content. Functions as a non-standard interactive element often with associated text."
+        },
+        {
+          "name": "Ghost Button",
+          "role": "Subtle, outlined interactive elements.",
+          "description": "A button with a transparent background (rgba(0,0,0,0)), Diagram Black text (Arial, 13px), and a 1px Diagram Black border. Features 0px border-radius and 0px padding, integrating seamlessly into the surrounding layout rather than standing out."
+        },
+        {
+          "name": "Cookie Consent Banner",
+          "role": "Discrete notification for cookie usage.",
+          "description": "A small, fixed banner at the bottom of the viewport with a transparent dark grey background (#000000 with opacity via rgba), white text, and a minimal 'X' close icon. Uses Arial 13px, color Canvas White, 0px radius."
+        },
+        {
+          "name": "Muted Helper Text",
+          "role": "Secondary, less prominent textual information.",
+          "description": "Uses Diagramatika Text, 16px, weight 400, color Muted Gray. Often found accompanying interactive elements like navigational links to provide context."
+        }
+      ],
+      "typography": [
+        {
+          "role": "Dominant font for headings and large display text, creating a bold, geometric presence. Its narrow character forms set a distinct, modern tone.",
+          "sizes": "16px, 24px, 48px, 80px",
+          "family": "Diagramatika Display",
+          "weight": "400",
+          "weights": [
+            400
+          ],
+          "lineHeight": "0.80, 1.20",
+          "substitute": "Montserrat"
+        },
+        {
+          "role": "Used for body text, links, and general content, providing readability with a consistent contemporary feel that complements the display font. It maintains the system's geometric ethos.",
+          "sizes": "16px, 20px, 24px",
+          "family": "Diagramatika Text",
+          "weight": "400",
+          "weights": [
+            400
+          ],
+          "lineHeight": "0.90, 1.00, 1.10, 1.20",
+          "substitute": "Open Sans"
+        },
+        {
+          "role": "System fallback for small utility text, input fields, and specific button elements, ensuring baseline legibility where custom fonts might not load.",
+          "sizes": "13px, 20px",
+          "family": "Arial",
+          "weight": "400",
+          "weights": [
+            400
+          ],
+          "lineHeight": "1.20",
+          "substitute": "system-ui"
+        }
+      ],
+      "description": "The V–A–C Sreda design system presents a stark, almost architectural aesthetic using a high-contrast black and white palette. Its visual identity revolves around precise lines, dotted paths, and block typography that evokes technical drawings or abstract diagrams. Emphasis is placed on direct, functional navigation with minimal embellishment, conveying information through calculated arrangement and a sense of measured tension between elements. The system eschews softness or fluidity in favor of a rigid-yet-dynamic structure, where type and line work define the visual rhythm.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "Quick Color Reference:\ntext: #000000\nbackground: #ffffff\nborder: #000000\naccent: no distinct accent color\nprimary action: no distinct CTA color\n\nExample Component Prompts:\n1. Create a primary headline: 'Sreda' using Diagramatika Display, 80px, weight 400, color #000000, line-height 0.8. Ensure no letter spacing or rounded corners.\n2. Create a navigation text link: 'Read till 22 April' using Diagramatika Text, 16px, weight 400, color #000000, line-height 1.2. Visually connect it with a dotted line in #000000, 1px stroke.\n3. Create a descriptive text block: 'Featuring specially commissioned artworks...' using Diagramatika Text, 16px, weight 400, color #000000, with a line-height of 1.2. Set 20px padding around the block.\n4. Create a ghost button: 'We use cookies X' using Arial, 13px, weight 400, color #ffffff. Give it an rgba(0,0,0,0) background and a 1px solid #000000 border, 0px padding, 0px radius."
+        }
+      ],
+      "elevationPhilosophy": "The design intentionally avoids shadows. UI elements are defined by strong outlines and direct placement on a flat Canvas White background, creating hierarchy through size, contrast, and precise spatial relationships rather than depth effects. This contributes to the system's architectural, diagrammatic feel."
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777519406923-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777519406923-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/b634cbce-b4db-44a6-b2a4-b58d9d2fe93d",
+  "ranks": {
+    "trending": 1211,
+    "popular": 1214,
+    "newest": 166
+  },
+  "localSlug": "v-a-c-sreda-b634cbce"
+}

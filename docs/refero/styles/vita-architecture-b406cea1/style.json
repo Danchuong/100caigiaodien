@@ -1,0 +1,791 @@
+{
+  "id": "b406cea1-2f4f-4495-95f1-29868522e648",
+  "url": "https://vitaarchitecture.com",
+  "siteName": "Vita Architecture",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777520867260-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777520867260-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "light",
+  "colors": [
+    {
+      "name": "Ink",
+      "hex": "#000000"
+    },
+    {
+      "name": "Canvas",
+      "hex": "#fafafa"
+    },
+    {
+      "name": "Light Linen",
+      "hex": "#eeeeee"
+    },
+    {
+      "name": "Horizon Violet",
+      "hex": "#5e8cff"
+    }
+  ],
+  "fonts": [
+    "Arial",
+    "Hatton",
+    "CircularStd"
+  ],
+  "northStar": "blueprint on vellum",
+  "createdAt": "2026-04-30T03:48:05.090Z",
+  "previewVideoCapturedAt": null,
+  "industry": "agency",
+  "fullResult": {
+    "meta": {
+      "url": "https://vitaarchitecture.com",
+      "siteName": "Vita Architecture",
+      "extractedAt": "2026-04-30T03:48:05.021Z",
+      "durationMs": 32449,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 609,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "other",
+              "nav",
+              "button",
+              "badge",
+              "heading",
+              "link",
+              "image",
+              "body",
+              "icon",
+              "list",
+              "footer"
+            ],
+            "frequency": 2803,
+            "confidence": 1,
+            "prominence": 80488546.5767477,
+            "properties": [
+              "color",
+              "borderColor",
+              "fill",
+              "backgroundColor",
+              "stroke"
+            ],
+            "usageCounts": {
+              "nav/fill": 20,
+              "icon/fill": 6,
+              "nav/color": 62,
+              "body/color": 75,
+              "icon/color": 3,
+              "link/color": 68,
+              "list/color": 4,
+              "nav/stroke": 8,
+              "other/fill": 20,
+              "badge/color": 17,
+              "image/color": 65,
+              "other/color": 116,
+              "button/color": 4,
+              "footer/color": 1,
+              "other/stroke": 6,
+              "heading/color": 132,
+              "nav/borderColor": 248,
+              "body/borderColor": 300,
+              "icon/borderColor": 12,
+              "link/borderColor": 272,
+              "list/borderColor": 16,
+              "badge/borderColor": 68,
+              "image/borderColor": 260,
+              "other/borderColor": 464,
+              "button/borderColor": 16,
+              "footer/borderColor": 4,
+              "heading/borderColor": 528,
+              "nav/backgroundColor": 4,
+              "body/backgroundColor": 4
+            }
+          },
+          {
+            "hex": "#fafafa",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.9851036517304731
+            },
+            "contexts": [
+              "other",
+              "footer"
+            ],
+            "frequency": 10,
+            "confidence": 1,
+            "prominence": 4483423.377753938,
+            "properties": [
+              "backgroundColor",
+              "fill"
+            ],
+            "usageCounts": {
+              "other/fill": 3,
+              "other/backgroundColor": 6,
+              "footer/backgroundColor": 1
+            }
+          },
+          {
+            "hex": "#eeeeee",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.9491192605935381
+            },
+            "contexts": [
+              "other",
+              "button"
+            ],
+            "frequency": 3,
+            "confidence": 1,
+            "prominence": 2592000,
+            "properties": [
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "other/backgroundColor": 2,
+              "button/backgroundColor": 1
+            }
+          },
+          {
+            "hex": "#5e8cff",
+            "oklch": {
+              "c": 0.17763592674988152,
+              "h": 265.44802949765244,
+              "l": 0.6637251840018276
+            },
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 45,
+            "confidence": 1,
+            "prominence": 10240.683866529702,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "heading/color": 9,
+              "heading/borderColor": 36
+            }
+          }
+        ],
+        "isDarkMode": false,
+        "colorfulness": 0.007551335012086748,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 20.12,
+            "background": "#fafafa",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 18.1,
+            "background": "#eeeeee",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AA",
+            "ratio": 6.67,
+            "background": "#000000",
+            "foreground": "#5e8cff"
+          },
+          {
+            "level": "fail",
+            "ratio": 3.02,
+            "background": "#fafafa",
+            "foreground": "#5e8cff"
+          },
+          {
+            "level": "fail",
+            "ratio": 2.71,
+            "background": "#eeeeee",
+            "foreground": "#5e8cff"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 1,
+            "contexts": [
+              "button",
+              "icon"
+            ],
+            "frequency": 7,
+            "properties": [
+              "paddingTop",
+              "paddingBottom",
+              "marginTop"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|button",
+              "paddingBottom|button",
+              "marginTop|icon"
+            ]
+          },
+          {
+            "value": 6,
+            "contexts": [
+              "button"
+            ],
+            "frequency": 6,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|button",
+              "paddingLeft|button"
+            ]
+          },
+          {
+            "value": 8,
+            "contexts": [
+              "icon"
+            ],
+            "frequency": 2,
+            "properties": [
+              "marginTop"
+            ],
+            "propertyContextPairs": [
+              "marginTop|icon"
+            ]
+          },
+          {
+            "value": 15,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 12,
+            "properties": [
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "marginBottom|heading"
+            ]
+          },
+          {
+            "value": 20,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 4,
+            "properties": [
+              "marginLeft"
+            ],
+            "propertyContextPairs": [
+              "marginLeft|nav"
+            ]
+          },
+          {
+            "value": 23,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 3,
+            "properties": [
+              "paddingTop"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|body"
+            ]
+          },
+          {
+            "value": 34,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 3,
+            "properties": [
+              "paddingTop"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|heading"
+            ]
+          },
+          {
+            "value": 35,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 10,
+            "properties": [
+              "marginRight",
+              "marginLeft"
+            ],
+            "propertyContextPairs": [
+              "marginRight|nav",
+              "marginLeft|nav"
+            ]
+          },
+          {
+            "value": 50,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 5,
+            "properties": [
+              "paddingRight",
+              "paddingLeft",
+              "paddingTop"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|other",
+              "paddingLeft|other",
+              "paddingTop|other"
+            ]
+          },
+          {
+            "value": 75,
+            "contexts": [
+              "footer"
+            ],
+            "frequency": 1,
+            "properties": [
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingBottom|footer"
+            ]
+          },
+          {
+            "value": 140,
+            "contexts": [
+              "other",
+              "footer"
+            ],
+            "frequency": 3,
+            "properties": [
+              "marginRight",
+              "marginLeft",
+              "paddingTop"
+            ],
+            "propertyContextPairs": [
+              "marginRight|other",
+              "marginLeft|other",
+              "paddingTop|footer"
+            ]
+          },
+          {
+            "value": 207,
+            "contexts": [
+              "badge"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingTop",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|badge",
+              "paddingBottom|badge"
+            ]
+          }
+        ],
+        "density": "comfortable",
+        "baseUnit": 4
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "CircularStd-Book",
+            "source": "custom",
+            "weights": [
+              400,
+              700
+            ],
+            "frequency": 423,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "Hatton-Regular",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 130,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "Arial",
+            "source": "system",
+            "weights": [
+              400
+            ],
+            "frequency": 3,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 20,
+          "name": "Minor Third",
+          "ratio": 1.2,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 13,
+            "family": "Arial",
+            "weight": 400,
+            "contexts": [
+              "button",
+              "nav"
+            ],
+            "frequency": 3,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "CircularStd-Book",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "nav",
+              "badge",
+              "link",
+              "image",
+              "list",
+              "body",
+              "footer"
+            ],
+            "frequency": 318,
+            "lineHeight": 1.2,
+            "letterSpacing": -0.01,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "CircularStd-Book",
+            "weight": 400,
+            "contexts": [
+              "link"
+            ],
+            "frequency": 3,
+            "lineHeight": 1.18,
+            "letterSpacing": -0.01,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "CircularStd-Book",
+            "weight": 400,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 45,
+            "lineHeight": 1.4,
+            "letterSpacing": -0.01,
+            "textTransform": "none"
+          },
+          {
+            "size": 20,
+            "family": "CircularStd-Book",
+            "weight": 400,
+            "contexts": [
+              "heading",
+              "body",
+              "button",
+              "icon"
+            ],
+            "frequency": 50,
+            "lineHeight": 1,
+            "letterSpacing": -0.01,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 20,
+            "family": "CircularStd-Book",
+            "weight": 400,
+            "contexts": [
+              "heading",
+              "icon"
+            ],
+            "frequency": 3,
+            "lineHeight": 3.35,
+            "letterSpacing": -0.01,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 24,
+            "family": "CircularStd-Book",
+            "weight": 400,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 3,
+            "lineHeight": 2.79,
+            "letterSpacing": -0.007,
+            "textTransform": "none"
+          },
+          {
+            "size": 32,
+            "family": "CircularStd-Book",
+            "weight": 700,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.2,
+            "letterSpacing": -0.005,
+            "textTransform": "none"
+          },
+          {
+            "size": 48,
+            "family": "Hatton-Regular",
+            "weight": 400,
+            "contexts": [
+              "heading",
+              "badge"
+            ],
+            "frequency": 110,
+            "lineHeight": 1.32,
+            "letterSpacing": -0.003,
+            "textTransform": "none"
+          },
+          {
+            "size": 55,
+            "family": "Hatton-Regular",
+            "weight": 400,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 17,
+            "lineHeight": 1.32,
+            "letterSpacing": -0.003,
+            "textTransform": "none"
+          },
+          {
+            "size": 125,
+            "family": "Hatton-Regular",
+            "weight": 400,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 3,
+            "lineHeight": 1.2,
+            "letterSpacing": -0.001,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Prioritize Ink (#000000) for all functional text and borders to maintain high contrast and definition.",
+        "Use Hatton Regular for display and main headings, varying sizes according to the type scale from 48px to 125px with letter-spacing ranging -0.003em to -0.001em.",
+        "Apply CircularStd for all body text, navigation, and secondary headings, ensuring precise letter-spacing between -0.010em and -0.005em.",
+        "Maintain hard edges and sharp corners by consistently using a 0px border-radius for all interactive elements and containers.",
+        "Leverage Light Linen (#eeeeee) on Canvas (#fafafa) as a subtle background shift for sections or secondary interactive elements like buttons.",
+        "Use Horizon Violet (#5e8cff) sparingly as a decorative and highlighting accent on select heading elements only."
+      ],
+      "donts": [
+        "Do not introduce additional saturated colors beyond Horizon Violet (#5e8cff); maintain a monochrome base for all UI.",
+        "Avoid using drop shadows or complex elevation; the design relies on flat surfaces and high contrast for definition.",
+        "Do not deviate from the specified light letter-spacing for CircularStd and Hatton; precise tracking is fundamental to the typographic identity.",
+        "Do not add rounded corners to any UI elements; the geometric precision of 0px radius is a core tenet.",
+        "Refrain from using heavily decorative background patterns or aggressive visual noise; the system emphasizes clarity and minimalist composition.",
+        "Do not use Horizon Violet (#5e8cff) as a primary action background or border; its role is decorative accent on text."
+      ],
+      "theme": "light",
+      "colors": [
+        {
+          "hex": "#000000",
+          "name": "Ink",
+          "role": "Primary text, borders, decorative strokes, navigation elements — establishes crisp definition against light backgrounds",
+          "group": "neutral"
+        },
+        {
+          "hex": "#fafafa",
+          "name": "Canvas",
+          "role": "Page background, main content surfaces — provides a bright, unobtrusive foundation",
+          "group": "neutral"
+        },
+        {
+          "hex": "#eeeeee",
+          "name": "Light Linen",
+          "role": "Alternative background for sections, subtle dividers — offers visual separation without strong contrast, used for buttons",
+          "group": "neutral"
+        },
+        {
+          "hex": "#5e8cff",
+          "name": "Horizon Violet",
+          "role": "Violet outline accent for tags, dividers, and focused UI edges. Do not promote it to the primary CTA color",
+          "group": "accent"
+        }
+      ],
+      "similar": [
+        {
+          "why": "High-contrast monochrome UI with minimal use of color for functional accents.",
+          "business": "Figma"
+        },
+        {
+          "why": "Emphasis on elegant typography, clean lines, and a spacious layout over heavy graphical elements.",
+          "business": "Stripe (early versions)"
+        },
+        {
+          "why": "Focus on product details and clarity through high-quality visual elements on a stark, minimalist background.",
+          "business": "Apple (product pages)"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "default": "0px"
+        },
+        "elementGap": "15px",
+        "sectionGap": "140px",
+        "cardPadding": "23px",
+        "pageMaxWidth": null
+      },
+      "industry": "agency",
+      "surfaces": [
+        {
+          "hex": "#fafafa",
+          "name": "Canvas",
+          "level": 1,
+          "purpose": "Primary page background and main content area."
+        },
+        {
+          "hex": "#eeeeee",
+          "name": "Light Linen",
+          "level": 2,
+          "purpose": "Secondary background for subtly differentiated sections or interactive elements."
+        }
+      ],
+      "northStar": "blueprint on vellum",
+      "typeScale": [
+        {
+          "role": "body",
+          "size": 16,
+          "lineHeight": 1.4,
+          "letterSpacing": -0.16
+        },
+        {
+          "role": "subheading",
+          "size": 20,
+          "lineHeight": 1.2,
+          "letterSpacing": -0.14
+        },
+        {
+          "role": "heading-sm",
+          "size": 24,
+          "lineHeight": 1.18,
+          "letterSpacing": -0.12
+        },
+        {
+          "role": "heading",
+          "size": 32,
+          "lineHeight": 1,
+          "letterSpacing": -0.32
+        },
+        {
+          "role": "display-sm",
+          "size": 48,
+          "lineHeight": 1.2,
+          "letterSpacing": -0.14
+        },
+        {
+          "role": "display",
+          "size": 55,
+          "lineHeight": 1.32,
+          "letterSpacing": -0.16
+        }
+      ],
+      "components": [
+        {
+          "name": "Ghost Button",
+          "role": "Primary Call to Action",
+          "description": "Text-only button with Ink (#000000) color, no background, and 0px border-radius. Padding is 0px for all sides. Used for internal navigation and primary actions that require minimal visual weight."
+        },
+        {
+          "name": "Subtle Background Button",
+          "role": "Secondary Action",
+          "description": "Button with Light Linen (#eeeeee) background and Ink (#000000) text, 0px border-radius. Padding of 1px vertical and 6px horizontal. Used for less prominent actions, such as navigation for carousels."
+        },
+        {
+          "name": "Navigation Link",
+          "role": "Navigation Item",
+          "description": "Ink (#000000) text with 0px padding and 0px border-radius. Uses CircularStd font at various sizes with subtle negative letter-spacing."
+        }
+      ],
+      "typography": [
+        {
+          "role": "Arial — detected in extracted data but not described by AI",
+          "sizes": "13px",
+          "family": "Arial",
+          "weight": "400",
+          "lineHeight": "1.2"
+        },
+        {
+          "role": "Display and primary headings — a distinctive serif that conveys classic elegance and architectural gravitas through its high contrast and unique letterforms. Its subtle negative tracking adds to its sophisticated presence.",
+          "sizes": "48px, 55px, 125px",
+          "family": "Hatton",
+          "weight": "400",
+          "lineHeight": "1.20",
+          "substitute": "Playfair Display",
+          "letterSpacing": "-0.003em, -0.001em"
+        },
+        {
+          "role": "Body text, navigation, and secondary headings — a highly legible sans-serif that balances the classic feel of Hatton with modern clarity. Its precise, slightly condensed tracking contributes to a refined, professional output.",
+          "sizes": "16px, 20px, 24px, 32px",
+          "family": "CircularStd",
+          "weight": "400, 700",
+          "lineHeight": "1.00, 1.18, 1.20, 1.40, 2.79",
+          "substitute": "Plus Jakarta Sans",
+          "letterSpacing": "-0.010em, -0.007em, -0.005em"
+        }
+      ],
+      "description": "Vita Architecture presents a restrained, high-contrast aesthetic favoring stark monochrome with precise typographic forms. Headlines use a unique custom serif, creating an impression of classic elegance, while body text uses a clean sans-serif for legibility. The primary identity relies on black borders and text against various shades of white and very light gray, punctuated subtly by a single vivid violet for select decorative elements. The overall feel is one of considered simplicity and architectural clarity.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "Quick Color Reference:\ntext: #000000\nbackground: #fafafa\nborder: #000000\naccent: #5e8cff\nprimary action: no distinct CTA color\n\n3-5 Example Component Prompts:\nCreate a primary headline using Hatton font, size 55px, weight 400, color #000000, letter-spacing -0.16px, line-height 1.32. Apply an accent to specific words within the headline with Horizon Violet (#5e8cff).\nCreate a navigation item: CircularStd font, size 16px, weight 400, color #000000, letter-spacing -0.16px, no background, 0px border-radius, 0px padding. Place with a 35px margin-right.\nDesign a textual body paragraph: CircularStd font, size 16px, weight 400, color #000000, letter-spacing -0.16px, line-height 1.4. Apply a section top padding of 140px.\nCreate a subtle background button: CircularStd font, size 16px, weight 400, color #000000, letter-spacing -0.16px. Background color #eeeeee, 0px border-radius, 1px vertical padding, 6px horizontal padding."
+        }
+      ],
+      "elevationPhilosophy": "This design system intentionally avoids elevation through shadows. Hierarchy and depth are established solely through high-contrast text, borders, and subtle background color shifts."
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777520867260-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777520867260-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/b406cea1-2f4f-4495-95f1-29868522e648",
+  "ranks": {
+    "trending": 1124,
+    "popular": 1144,
+    "newest": 62
+  },
+  "localSlug": "vita-architecture-b406cea1"
+}

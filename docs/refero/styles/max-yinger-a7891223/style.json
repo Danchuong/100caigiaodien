@@ -1,0 +1,520 @@
+{
+  "id": "a7891223-a93e-4731-a1aa-4079f1ee928b",
+  "url": "https://yinger.dev",
+  "siteName": "Max Yinger",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775925610298-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775925610298-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "dark",
+  "colors": [
+    {
+      "name": "Basalt Black",
+      "hex": "#12130f"
+    },
+    {
+      "name": "Quartz White",
+      "hex": "#e4dfda"
+    },
+    {
+      "name": "Flint Gray",
+      "hex": "#3c3c38"
+    }
+  ],
+  "fonts": [
+    "Inline VF",
+    "Arbeit Contrast",
+    "Arbeit Technik"
+  ],
+  "northStar": "Terminal aesthetic, crafted in code.",
+  "createdAt": "2026-03-04T17:53:11.000Z",
+  "previewVideoCapturedAt": null,
+  "industry": "agency",
+  "fullResult": {
+    "meta": {
+      "url": "https://yinger.dev",
+      "siteName": "Max Yinger",
+      "extractedAt": "2026-04-11T16:40:22.966Z",
+      "durationMs": 22053,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 309,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "complete",
+          "attempts": 2
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#e4dfda",
+            "oklch": {
+              "c": 0.008705078561251087,
+              "h": 67.71583738006224,
+              "l": 0.9061774129734805
+            },
+            "contexts": [
+              "other",
+              "heading",
+              "body",
+              "link",
+              "list",
+              "button"
+            ],
+            "frequency": 1475,
+            "confidence": 1,
+            "prominence": 13643610.199854273,
+            "properties": [
+              "color",
+              "borderColor",
+              "backgroundColor"
+            ]
+          },
+          {
+            "hex": "#3c3c38",
+            "oklch": {
+              "c": 0.0071177313893706915,
+              "h": 104.54391771974356,
+              "l": 0.35414898156706703
+            },
+            "contexts": [
+              "button",
+              "other"
+            ],
+            "frequency": 20,
+            "confidence": 1,
+            "prominence": 18065.601559889044,
+            "properties": [
+              "borderColor"
+            ]
+          },
+          {
+            "hex": "#12130f",
+            "oklch": {
+              "c": 0.00808645663676853,
+              "h": 118.60641759645996,
+              "l": 0.18402563829389093
+            },
+            "contexts": [
+              "button",
+              "body"
+            ],
+            "frequency": 64,
+            "confidence": 1,
+            "prominence": 13399.76838398831,
+            "properties": [
+              "backgroundColor",
+              "color",
+              "borderColor"
+            ]
+          }
+        ],
+        "isDarkMode": true,
+        "colorfulness": 0.023403565574581685,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 14.09,
+            "background": "#12130f",
+            "foreground": "#e4dfda"
+          },
+          {
+            "level": "AAA",
+            "ratio": 8.37,
+            "background": "#e4dfda",
+            "foreground": "#3c3c38"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [
+          {
+            "value": 2,
+            "contexts": [
+              "other",
+              "link"
+            ],
+            "frequency": 9
+          },
+          {
+            "value": 6,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1
+          },
+          {
+            "value": 9999,
+            "contexts": [
+              "other",
+              "button",
+              "body"
+            ],
+            "frequency": 10
+          }
+        ],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 4,
+            "frequency": 20,
+            "properties": [
+              "marginRight",
+              "marginBottom",
+              "marginLeft",
+              "paddingTop",
+              "paddingBottom",
+              "paddingRight",
+              "paddingLeft",
+              "rowGap",
+              "columnGap"
+            ]
+          },
+          {
+            "value": 8,
+            "frequency": 4,
+            "properties": [
+              "paddingBottom",
+              "marginLeft",
+              "rowGap",
+              "columnGap"
+            ]
+          },
+          {
+            "value": 12,
+            "frequency": 8,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ]
+          },
+          {
+            "value": 64,
+            "frequency": 2,
+            "properties": [
+              "paddingTop",
+              "paddingBottom"
+            ]
+          }
+        ],
+        "density": "compact",
+        "baseUnit": 4
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "Arbeit Technik",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 208,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "Inline VF",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 70,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "Arbeit Contrast",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 31,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 12,
+          "name": "Minor Third",
+          "ratio": 1.2,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 12,
+            "family": "Arbeit Technik",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "body"
+            ],
+            "frequency": 178,
+            "lineHeight": 1.25,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 12,
+            "family": "Arbeit Technik",
+            "weight": 400,
+            "contexts": [
+              "body",
+              "link"
+            ],
+            "frequency": 6,
+            "lineHeight": 1.25,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 12,
+            "family": "Arbeit Technik",
+            "weight": 400,
+            "contexts": [
+              "button",
+              "body"
+            ],
+            "frequency": 24,
+            "lineHeight": 1.25,
+            "letterSpacing": -0.05,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "Arbeit Contrast",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "heading",
+              "list"
+            ],
+            "frequency": 14,
+            "lineHeight": 1.25,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 30,
+            "family": "Arbeit Contrast",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "heading",
+              "link"
+            ],
+            "frequency": 16,
+            "lineHeight": 1.13,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 80,
+            "family": "Arbeit Contrast",
+            "weight": 400,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "lineHeight": 0.7,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 80,
+            "family": "Inline VF",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "heading"
+            ],
+            "frequency": 12,
+            "lineHeight": 0.7,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 80,
+            "family": "Inline VF",
+            "weight": 400,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 58,
+            "lineHeight": 0.8,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Prioritize `Quartz White` (#e4dfda) for all primary text content against `Basalt Black` (#12130f) backgrounds to maintain high contrast.",
+        "Use `Inline VF` (or 'IBM Plex Mono') at 80px, weight 400, for primary display headings, without letter-spacing adjustments.",
+        "Apply 9999px border-radius to all interactive buttons for a consistent pill shape.",
+        "Utilize Arbeit Technik (or 'JetBrains Mono') for body text and labels, with a -0.05em letter-spacing at 12px.",
+        "Maintain a compact spacing rhythm, using multiples of 4px for element gaps and button padding.",
+        "When introducing subtle borders, use 1px `Flint Gray` (#3c3c38) for minimal visual separation."
+      ],
+      "tags": [
+        "monospace",
+        "terminal",
+        "high-contrast",
+        "minimalist",
+        "pixel-art",
+        "developer",
+        "stark",
+        "techy",
+        "coded",
+        "industrial"
+      ],
+      "donts": [
+        "Avoid using highly saturated colors; the system relies on achromatic tones and subtle accents.",
+        "Do not deviate from the established font families; custom fonts 'Inline VF', 'Arbeit Contrast', and 'Arbeit Technik' are core to the brand identity.",
+        "Do not use generic square corners for interactive elements; buttons require a 9999px radius.",
+        "Do not introduce heavy box-shadows or complex elevation; the design's depth comes from content arrangement and subtle background changes.",
+        "Do not vary line-height aggressively; stick to the specified 0.80 for display, 1.13-1.25 for headings/body.",
+        "Do not add extra padding around sections beyond the 64px `sectionGap` unless for specific content needs, to preserve density."
+      ],
+      "theme": "dark",
+      "colors": [
+        {
+          "hex": "#12130f",
+          "name": "Basalt Black",
+          "role": "Page background, component backgrounds, base for interactive elements.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#e4dfda",
+          "name": "Quartz White",
+          "role": "Primary text color for headings, body text, and links; provides high contrast against the dark background. Also used for button borders.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#3c3c38",
+          "name": "Flint Gray",
+          "role": "Subtle border color for interactive elements, creating a soft edge without drawing attention.",
+          "group": "neutral"
+        }
+      ],
+      "layout": "The page is a full-bleed dark canvas with content largely left-aligned and centrally focused. There is no explicit max-width for the main content block, giving a spacious, open feel. The hero section prominently features a large, interactive 3D graphic. Text is structured in distinct blocks with generous vertical spacing (64px `sectionGap`). Social links are stacked vertically on the right, providing a clear access point. The layout gives ample breathing room, highlighting individual content elements rather than dense information.",
+      "imagery": "The site uses stylized 3D rendered abstract blocks in a soft pink hue, which serve as decorative elements. These blocks are positioned interactively, suggesting a focus on real-time 3D and interaction. They are contained and isolated, not bleeding into the UI, acting as dynamic decorative accents rather than content-carrying visuals. The style is geometric and polished, with a soft, almost glassy texture, contrasting with the stark typography. Icons appear minimal if at all, limited to social media links which are purely text-based within pill buttons.",
+      "similar": [
+        {
+          "why": "Dark-mode UI with a focus on code-like typography and minimalist presentation.",
+          "business": "Vercel"
+        },
+        {
+          "why": "High-contrast dark theme, heavy use of structured typography, and precise spacing for a technical user base.",
+          "business": "Linear"
+        },
+        {
+          "why": "Emphasis on sleek, functional design with monospace fonts and subtle interactive elements in a dark context.",
+          "business": "Stripe (developer docs)"
+        },
+        {
+          "why": "Modern, clean aesthetic with a focus on interactive elements and subtle 3D graphics in some contexts.",
+          "business": "Framer"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "links": "2px",
+          "buttons": "9999px",
+          "default": "6px"
+        },
+        "elementGap": "4px",
+        "sectionGap": "64px",
+        "cardPadding": "12px",
+        "pageMaxWidth": null
+      },
+      "category": "dev-tools",
+      "northStar": "Terminal aesthetic, crafted in code.",
+      "components": [
+        {
+          "html": "<div style=\"--color-basalt-black:#12130f;--color-quartz-white:#e4dfda;--color-flint-gray:#3c3c38;--font-arbeit-technik:'JetBrains Mono',monospace;background:var(--color-basalt-black);padding:32px;display:flex;flex-direction:column;align-items:flex-end;gap:8px;width:600px;box-sizing:border-box;font-family:var(--font-arbeit-technik);\"><a href=\"#\" style=\"display:inline-block;text-decoration:none;color:var(--color-quartz-white);background:rgba(18,19,15,0.4);border:1px solid rgba(228,223,218,0.2);border-radius:9999px;padding:4px 12px;font-family:var(--font-arbeit-technik);font-size:12px;line-height:1.25;letter-spacing:-0.05em;white-space:nowrap;\">Github</a><a href=\"#\" style=\"display:inline-block;text-decoration:none;color:var(--color-quartz-white);background:rgba(18,19,15,0.4);border:1px solid rgba(228,223,218,0.2);border-radius:9999px;padding:4px 12px;font-family:var(--font-arbeit-technik);font-size:12px;line-height:1.25;letter-spacing:-0.05em;white-space:nowrap;\">LinkedIn</a><a href=\"#\" style=\"display:inline-block;text-decoration:none;color:var(--color-quartz-white);background:rgba(18,19,15,0.4);border:1px solid rgba(228,223,218,0.2);border-radius:9999px;padding:4px 12px;font-family:var(--font-arbeit-technik);font-size:12px;line-height:1.25;letter-spacing:-0.05em;white-space:nowrap;\">Twitter / X</a><a href=\"#\" style=\"display:inline-block;text-decoration:none;color:var(--color-quartz-white);background:rgba(18,19,15,0.4);border:1px solid rgba(228,223,218,0.2);border-radius:9999px;padding:4px 12px;font-family:var(--font-arbeit-technik);font-size:12px;line-height:1.25;letter-spacing:-0.05em;white-space:nowrap;\">Email</a></div>",
+          "name": "Social Link Pills",
+          "role": "",
+          "description": ""
+        },
+        {
+          "html": "<div style=\"--color-basalt-black:#12130f;--color-quartz-white:#e4dfda;--color-flint-gray:#3c3c38;--font-inline-vf:'IBM Plex Mono',monospace;--font-arbeit-contrast:'Space Grotesk',sans-serif;--font-arbeit-technik:'JetBrains Mono',monospace;background:var(--color-basalt-black);padding:40px 32px;width:600px;box-sizing:border-box;\"><p style=\"color:var(--color-quartz-white);font-family:var(--font-arbeit-technik);font-size:12px;line-height:1.25;letter-spacing:-0.05em;margin:0 0 8px 0;opacity:0.6;\">LOCAL TIME (UTC-6:00)</p><div style=\"display:flex;align-items:center;gap:12px;margin-bottom:4px;\"><span style=\"color:var(--color-quartz-white);font-family:var(--font-inline-vf);font-size:72px;font-weight:400;line-height:0.85;letter-spacing:normal;\">10:40</span><div style=\"display:flex;flex-direction:column;gap:4px;margin-left:4px;\"><div style=\"display:flex;align-items:center;gap:6px;\"><div style=\"width:10px;height:10px;border-radius:9999px;background:#4ecdc4;opacity:0.9;\"></div><span style=\"color:var(--color-quartz-white);font-family:var(--font-arbeit-technik);font-size:12px;line-height:1.25;letter-spacing:-0.05em;opacity:0.7;\">am</span></div><div style=\"display:flex;align-items:center;gap:6px;\"><div style=\"width:10px;height:10px;border-radius:9999px;border:1px solid rgba(228,223,218,0.3);background:transparent;\"></div><span style=\"color:var(--color-quartz-white);font-family:var(--font-arbeit-technik);font-size:12px;line-height:1.25;letter-spacing:-0.05em;opacity:0.4;\">pm</span></div></div></div><h1 style=\"color:var(--color-quartz-white);font-family:var(--font-arbeit-contrast);font-size:30px;font-weight:400;line-height:1.13;letter-spacing:normal;margin:16px 0 0 0;\">UI Engineer who dips his toes in Realtime 3D ° Interaction ° Perf</h1><div style=\"display:flex;align-items:flex-start;gap:8px;margin-top:4px;\"><span style=\"color:var(--color-quartz-white);font-family:var(--font-arbeit-technik);font-size:12px;line-height:1.25;letter-spacing:-0.05em;opacity:0.5;\">1440 x 0900<br>↳118 FPS</span></div><div style=\"margin-top:24px;border-top:1px solid var(--color-flint-gray);padding-top:16px;\"><p style=\"color:var(--color-quartz-white);font-family:var(--font-arbeit-technik);font-size:12px;line-height:1.25;letter-spacing:-0.05em;margin:0;opacity:0.6;\">FORT COLLINS, COLORADO → US OF A<br>DESIGN ENGINEER @CLERK</p></div></div>",
+          "name": "Local Time & Bio Block",
+          "role": "",
+          "description": ""
+        },
+        {
+          "html": "<div style=\"--color-basalt-black:#12130f;--color-quartz-white:#e4dfda;--color-flint-gray:#3c3c38;--font-arbeit-technik:'JetBrains Mono',monospace;--font-arbeit-contrast:'Space Grotesk',sans-serif;background:var(--color-basalt-black);padding:32px;width:600px;box-sizing:border-box;\"><div style=\"display:flex;flex-wrap:wrap;gap:8px;margin-bottom:24px;\"><div style=\"background:rgba(18,19,15,0.4);border:1px solid rgba(228,223,218,0.2);border-radius:9999px;padding:4px 12px;display:flex;align-items:center;gap:6px;\"><div style=\"width:6px;height:6px;border-radius:9999px;background:#4ecdc4;\"></div><span style=\"color:var(--color-quartz-white);font-family:var(--font-arbeit-technik);font-size:12px;line-height:1.25;letter-spacing:-0.05em;\">Available for work</span></div><div style=\"background:rgba(18,19,15,0.4);border:1px solid rgba(228,223,218,0.2);border-radius:9999px;padding:4px 12px;\"><span style=\"color:var(--color-quartz-white);font-family:var(--font-arbeit-technik);font-size:12px;line-height:1.25;letter-spacing:-0.05em;\">UTC-6:00</span></div><div style=\"background:rgba(18,19,15,0.4);border:1px solid rgba(228,223,218,0.2);border-radius:9999px;padding:4px 12px;\"><span style=\"color:var(--color-quartz-white);font-family:var(--font-arbeit-technik);font-size:12px;line-height:1.25;letter-spacing:-0.05em;\">118 FPS</span></div><div style=\"background:rgba(18,19,15,0.4);border:1px solid rgba(228,223,218,0.2);border-radius:9999px;padding:4px 12px;\"><span style=\"color:var(--color-quartz-white);font-family:var(--font-arbeit-technik);font-size:12px;line-height:1.25;letter-spacing:-0.05em;\">1440 × 900</span></div></div><div style=\"display:grid;grid-template-columns:1fr 1fr 1fr;gap:1px;border:1px solid var(--color-flint-gray);border-radius:6px;overflow:hidden;\"><div style=\"background:rgba(60,60,56,0.15);padding:12px;\"><p style=\"color:var(--color-quartz-white);font-family:var(--font-arbeit-technik);font-size:12px;line-height:1.25;letter-spacing:-0.05em;margin:0 0 4px 0;opacity:0.5;\">LOCATION</p><p style=\"color:var(--color-quartz-white);font-family:var(--font-arbeit-contrast);font-size:16px;font-weight:400;line-height:1.25;margin:0;\">Fort Collins, CO</p></div><div style=\"background:rgba(60,60,56,0.15);padding:12px;border-left:1px solid var(--color-flint-gray);\"><p style=\"color:var(--color-quartz-white);font-family:var(--font-arbeit-technik);font-size:12px;line-height:1.25;letter-spacing:-0.05em;margin:0 0 4px 0;opacity:0.5;\">ROLE</p><p style=\"color:var(--color-quartz-white);font-family:var(--font-arbeit-contrast);font-size:16px;font-weight:400;line-height:1.25;margin:0;\">Design Engineer</p></div><div style=\"background:rgba(60,60,56,0.15);padding:12px;border-left:1px solid var(--color-flint-gray);\"><p style=\"color:var(--color-quartz-white);font-family:var(--font-arbeit-technik);font-size:12px;line-height:1.25;letter-spacing:-0.05em;margin:0 0 4px 0;opacity:0.5;\">COMPANY</p><p style=\"color:var(--color-quartz-white);font-family:var(--font-arbeit-contrast);font-size:16px;font-weight:400;line-height:1.25;margin:0;\">@Clerk</p></div></div></div>",
+          "name": "Stats / Metadata Badge Row",
+          "role": "",
+          "description": ""
+        },
+        {
+          "name": "Pill Ghost Button",
+          "role": "Interactive elements, external links.",
+          "description": "Buttons feature a `Basalt Black` background (rgba(18, 19, 15, 0.4)), `Quartz White` text (#e4dfda), and a subtle `Quartz White` border (rgba(228, 223, 218, 0.2)). Padding is 4px vertical, 12px horizontal, with a 9999px border-radius for a soft, pill-shaped appearance."
+        }
+      ],
+      "typography": [
+        {
+          "role": "Display headings. Its compressed, blocky structure gives a distinct, almost pixel-art feel at large sizes, fitting the digital, coded aesthetic.",
+          "sizes": "80px",
+          "family": "Inline VF",
+          "weight": "400",
+          "lineHeight": "0.80",
+          "substitute": "IBM Plex Mono",
+          "letterSpacing": "normal"
+        },
+        {
+          "role": "Used for main content headings, lists, and prominent links. The contrast in its name suggests its impactful, yet readable nature in this system. The 80px size might be an alternate display heading.",
+          "sizes": "16px, 30px, 80px",
+          "family": "Arbeit Contrast",
+          "weight": "400",
+          "lineHeight": "1.13, 1.25",
+          "substitute": "Space Grotesk",
+          "letterSpacing": "normal"
+        },
+        {
+          "role": "Body text, smaller links, and button labels. Its monospace-like appearance aligns with the overall terminal style.",
+          "sizes": "12px",
+          "family": "Arbeit Technik",
+          "weight": "400",
+          "lineHeight": "1.25",
+          "substitute": "JetBrains Mono",
+          "letterSpacing": "-0.0500em"
+        }
+      ],
+      "description": "This design system evokes a sense of digital craftsmanship, like a custom-built terminal for a specialized task. The aesthetic leans into a high-contrast dark theme with stark white, monospace-inspired typography, creating an atmosphere of precision and focused utility. Punctuation marks and symbols are used as visual elements, giving the textual content a coded, programmatic feel. Slight rounding on interactive elements prevents harshness, while the overall minimal approach keeps the focus on core information and interactive 3D elements.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "Quick Color Reference:\n- Text: #e4dfda\n- Background: #12130f\n- Button Background: rgba(18, 19, 15, 0.4)\n- Button Border: rgba(228, 223, 218, 0.2)\n\nExample Component Prompts:\n- Create a page with a `Basalt Black` (#12130f) background. Add a headline: 'YINGER' using `Inline VF` at 80px, weight 400, `Quartz White` text (#e4dfda).\n- Generate a 'Github' button: `Basalt Black` background at 40% opacity (rgba(18, 19, 15, 0.4)), `Quartz White` text (#e4dfda), border `Quartz White` at 20% opacity (rgba(228, 223, 218, 0.2)), 9999px border-radius, 4px vertical padding, 12px horizontal padding.\n- Display a body text paragraph: 'UI Engineer who dips his toes in Realtime 3D' using `Arbeit Technik` at 12px, weight 400, `Quartz White` text (#e4dfda), letter-spacing -0.05em, line-height 1.25.\n- Create a secondary heading 'Interaction' using `Arbeit Contrast` at 30px, weight 400, `Quartz White` text (#e4dfda), line-height 1.13 and no letter-spacing."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775925610298-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775925610298-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/a7891223-a93e-4731-a1aa-4079f1ee928b",
+  "ranks": {
+    "trending": 555,
+    "popular": 572,
+    "newest": 1095
+  },
+  "localSlug": "max-yinger-a7891223"
+}

@@ -1,0 +1,528 @@
+{
+  "id": "71745af1-2e53-4925-992e-82773e55ccd6",
+  "url": "https://one-is.com",
+  "siteName": "ONE",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777516330818-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777516330818-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "dark",
+  "colors": [
+    {
+      "name": "Midnight Void",
+      "hex": "#000000"
+    },
+    {
+      "name": "Ghost Outline",
+      "hex": "#fbfbfa"
+    },
+    {
+      "name": "Muted Ash",
+      "hex": "#bec0c5"
+    },
+    {
+      "name": "Skybound Blue",
+      "hex": "#0075ff"
+    }
+  ],
+  "fonts": [
+    "MagicUiPro"
+  ],
+  "northStar": "Shadowbox cinematic frames",
+  "createdAt": "2026-04-30T02:32:28.246Z",
+  "previewVideoCapturedAt": null,
+  "industry": "media",
+  "fullResult": {
+    "meta": {
+      "url": "https://one-is.com",
+      "siteName": "ONE",
+      "extractedAt": "2026-04-30T02:32:27.905Z",
+      "durationMs": 29911,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 275,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "other",
+              "heading",
+              "button",
+              "body",
+              "card",
+              "hero",
+              "list"
+            ],
+            "frequency": 401,
+            "confidence": 1,
+            "prominence": 96693470.8832871,
+            "properties": [
+              "color",
+              "borderColor",
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "body/color": 14,
+              "card/color": 1,
+              "hero/color": 2,
+              "list/color": 7,
+              "other/color": 47,
+              "button/color": 8,
+              "heading/color": 1,
+              "body/borderColor": 56,
+              "card/borderColor": 4,
+              "hero/borderColor": 8,
+              "list/borderColor": 28,
+              "other/borderColor": 188,
+              "button/borderColor": 32,
+              "heading/borderColor": 4,
+              "card/backgroundColor": 1
+            }
+          },
+          {
+            "hex": "#bec0c5",
+            "oklch": {
+              "c": 0.007333072132694077,
+              "h": 268.53451197215156,
+              "l": 0.8077008877358965
+            },
+            "contexts": [
+              "other",
+              "body",
+              "list"
+            ],
+            "frequency": 950,
+            "confidence": 1,
+            "prominence": 12863399.263344806,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "body/color": 123,
+              "list/color": 60,
+              "other/color": 7,
+              "body/borderColor": 492,
+              "list/borderColor": 240,
+              "other/borderColor": 28
+            }
+          },
+          {
+            "hex": "#fbfbfa",
+            "oklch": {
+              "c": 0.0013180194128032717,
+              "h": 106.42370950339529,
+              "l": 0.9878092094733638
+            },
+            "contexts": [
+              "button",
+              "body",
+              "icon",
+              "other"
+            ],
+            "frequency": 18,
+            "confidence": 1,
+            "prominence": 17671.378455925314,
+            "properties": [
+              "color",
+              "borderColor",
+              "fill"
+            ],
+            "usageCounts": {
+              "icon/fill": 2,
+              "body/color": 1,
+              "icon/color": 1,
+              "other/fill": 1,
+              "button/color": 1,
+              "body/borderColor": 4,
+              "icon/borderColor": 4,
+              "button/borderColor": 4
+            }
+          }
+        ],
+        "isDarkMode": false,
+        "colorfulness": 0.0138000570064751,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 20.28,
+            "background": "#000000",
+            "foreground": "#fbfbfa"
+          },
+          {
+            "level": "AAA",
+            "ratio": 11.54,
+            "background": "#000000",
+            "foreground": "#bec0c5"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [
+          {
+            "value": 999,
+            "contexts": [
+              "button"
+            ],
+            "frequency": 9
+          },
+          {
+            "value": 12,
+            "contexts": [
+              "other",
+              "card"
+            ],
+            "frequency": 2
+          }
+        ],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 16,
+            "contexts": [
+              "other",
+              "list"
+            ],
+            "frequency": 15,
+            "properties": [
+              "paddingRight",
+              "paddingLeft",
+              "marginTop",
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|other",
+              "paddingLeft|other",
+              "marginTop|list",
+              "marginBottom|list"
+            ]
+          },
+          {
+            "value": 19,
+            "contexts": [
+              "button"
+            ],
+            "frequency": 16,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|button",
+              "paddingLeft|button"
+            ]
+          },
+          {
+            "value": 28,
+            "contexts": [
+              "button"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|button",
+              "paddingLeft|button"
+            ]
+          },
+          {
+            "value": 32,
+            "contexts": [
+              "other",
+              "hero",
+              "body",
+              "button"
+            ],
+            "frequency": 24,
+            "properties": [
+              "paddingLeft",
+              "paddingRight",
+              "paddingBottom",
+              "marginTop",
+              "paddingTop"
+            ],
+            "propertyContextPairs": [
+              "paddingLeft|other",
+              "paddingRight|other",
+              "paddingBottom|other",
+              "paddingBottom|hero",
+              "marginTop|body",
+              "paddingTop|hero",
+              "paddingTop|other",
+              "marginTop|button"
+            ]
+          },
+          {
+            "value": 96,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 10,
+            "properties": [
+              "marginTop",
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "marginTop|other",
+              "marginBottom|other"
+            ]
+          }
+        ],
+        "density": "spacious",
+        "baseUnit": 8
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "MagicUiPro",
+            "source": "custom",
+            "weights": [
+              500,
+              600
+            ],
+            "frequency": 273,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 24,
+          "name": "Minor Second",
+          "ratio": 1.067,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 18,
+            "family": "MagicUiPro",
+            "weight": 500,
+            "contexts": [
+              "button",
+              "body"
+            ],
+            "frequency": 16,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 20,
+            "family": "MagicUiPro",
+            "weight": 500,
+            "contexts": [
+              "button",
+              "body",
+              "icon"
+            ],
+            "frequency": 3,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 24,
+            "family": "MagicUiPro",
+            "weight": 500,
+            "contexts": [
+              "other",
+              "card",
+              "hero",
+              "body",
+              "list"
+            ],
+            "frequency": 253,
+            "lineHeight": 1.4,
+            "letterSpacing": -0.01,
+            "textTransform": "none"
+          },
+          {
+            "size": 24,
+            "family": "MagicUiPro",
+            "weight": 600,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 1,
+            "lineHeight": 1,
+            "letterSpacing": -0.01,
+            "textTransform": "uppercase"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Always use Midnight Void (#000000) as the dominant background color to maintain the dark, immersive feel.",
+        "Frame primary visual content with a 12px border-radius, as seen in the Video Player Card component, for a consistent soft-edged presentation.",
+        "Utilize Ghost Outline (#fbfbfa) exclusively for outlining interactive elements to preserve the minimalist aesthetic.",
+        "Apply MagicUiPro with a -0.0100em letter-spacing to all text elements to establish a precise, uniform typographic voice.",
+        "Maintain generous section spacing of 96px to create clear content separation and a spacious layout.",
+        "Employ the 999px border-radius for all interactive buttons and tags to ensure a consistent pill-shaped form.",
+        "Use Muted Ash (#bec0c5) for secondary text or subtle decorative lines to provide visual hierarchy without strong contrast."
+      ],
+      "donts": [
+        "Do not introduce strong accent colors in large blocks; color should act as functional punctuation, not primary decoration.",
+        "Avoid heavy drop shadows or complex elevation; the design relies on flat surfaces and minimal depth.",
+        "Do not deviate from the MagicUiPro font or its specified letter-spacing; it is central to the typographic identity.",
+        "Refrain from using tight component and section spacing; the system prioritizes breathability and space.",
+        "Do not use solid background buttons for primary calls to action; stick to ghost or outlined styles.",
+        "Avoid sharp, un-rounded corners on significant content blocks like cards or media containers.",
+        "Do not mix text colors for primary content; stick to Midnight Void (#000000) on light elements or Ghost Outline (#fbfbfa) on dark elements for readability."
+      ],
+      "theme": "dark",
+      "colors": [
+        {
+          "hex": "#000000",
+          "name": "Midnight Void",
+          "role": "Page background, primary text, card background, outlined button border. Acts as the dominant canvas for all content",
+          "group": "neutral"
+        },
+        {
+          "hex": "#fbfbfa",
+          "name": "Ghost Outline",
+          "role": "Soft icon strokes, subtle dividers, and low-emphasis decorative details. Do not promote it to the primary CTA color",
+          "group": "neutral"
+        },
+        {
+          "hex": "#bec0c5",
+          "name": "Muted Ash",
+          "role": "Secondary text for subtle hierarchy and decorative borders",
+          "group": "neutral"
+        },
+        {
+          "hex": "#0075ff",
+          "name": "Skybound Blue",
+          "role": "Supporting palette color for small decorative accents when the core palette needs contrast. Do not promote it to the primary CTA color",
+          "group": "accent"
+        }
+      ],
+      "layout": "The page structure is full-bleed, with video content often spanning the entire viewport width, giving a sense of immersion. There is a strong emphasis on vertical stacking of content with generous section gaps of 96px, creating a spacious and unhurried rhythm. The header is minimal, featuring only a logo and a ghost contact button. Content is primarily centered or presented in balanced, often video-dominant, blocks. The text 'ONE is...' section showcases a distinct, multi-column grid for textual content, but maintains a wide, quiet layout.",
+      "imagery": "This design system heavily features large-format video content or striking photography, typically presented in full-width or near full-width frames. Visuals are contained within soft 12px rounded rectangles, giving them a cinematic yet approachable feel. The focus is on the visual itself, often abstract or concept-driven, serving as atmospheric backdrops or direct content. Icons are minimal, outlined, and monochromatic, integrated seamlessly into the UI.",
+      "similar": [
+        {
+          "why": "Exploits a minimalist, dark background with bold typography and prominent video content to create a strong, artistic brand presence.",
+          "business": "A24 (Studio Site)"
+        },
+        {
+          "why": "Uses full-bleed video backgrounds and subtle ghost buttons to create an immersive and sophisticated digital experience.",
+          "business": "Acme (Experimental Studio)"
+        },
+        {
+          "why": "Leverages dark UI, large media blocks, and simple, high-contrast text for a cinematic portfolio display.",
+          "business": "Momoco (Animation Studio)"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "cards": "12px",
+          "buttons": "999px"
+        },
+        "elementGap": "16px",
+        "sectionGap": "96px",
+        "cardPadding": "19px",
+        "pageMaxWidth": null
+      },
+      "industry": "media",
+      "surfaces": [
+        {
+          "hex": "#000000",
+          "name": "Midnight Canvas",
+          "level": 0,
+          "purpose": "The primary background for the entire application, creating an immersive, dark environment."
+        }
+      ],
+      "northStar": "Shadowbox cinematic frames",
+      "typeScale": [
+        {
+          "role": "caption",
+          "size": 18,
+          "lineHeight": 1.2
+        },
+        {
+          "role": "body-sm",
+          "size": 20,
+          "lineHeight": 1.2
+        },
+        {
+          "role": "body",
+          "size": 24,
+          "lineHeight": 1.2
+        }
+      ],
+      "components": [
+        {
+          "name": "Ghost Contact Button (Light)",
+          "role": "Interactive element (primary)",
+          "description": "A ghost button for primary actions on light backgrounds. Features rounded corners at 999px, a border of 1px solid Midnight Void (#000000), and Ghost Outline (#fbfbfa) text. Padding is 0px top/bottom, 19.2px left/right."
+        },
+        {
+          "name": "Ghost Contact Button (Dark)",
+          "role": "Interactive element (secondary)",
+          "description": "A ghost button for secondary actions or contact calls to action on dark backgrounds. Features rounded corners at 999px, a border of 1px solid Ghost Outline (#fbfbfa), and Ghost Outline (#fbfbfa) text. Padding is 0px top/bottom, 28px left/right."
+        },
+        {
+          "name": "Video Player Card",
+          "role": "Content display",
+          "description": "A card component designed to frame video or image content. Has a Midnight Void (#000000) background, a border-radius of 12px, and no visible box shadow. Padding is 0px on all sides, allowing content to stretch to the edges."
+        }
+      ],
+      "typography": [
+        {
+          "role": "All textual content, including headings, body text, and interactive elements. Its consistent tracking across sizes contributes to a unified, precise typographic voice.",
+          "sizes": "18px, 20px, 24px",
+          "family": "MagicUiPro",
+          "weight": "500, 600",
+          "lineHeight": "1.00, 1.20, 1.40",
+          "substitute": "system-ui",
+          "letterSpacing": "-0.0100em"
+        }
+      ],
+      "description": "ONE embraces a stark, high-contrast aesthetic where rich black surfaces meet crisp monochrome typography. The visual experience is anchored by dynamic large-format video content, framed within softly rounded containers. Interaction elements are minimalist, appearing as ghost buttons with fine outlines in a near-white hue, creating a sense of understated command. The overall impression is one of sophisticated, content-driven minimalism.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "Quick Color Reference:\ntext: #000000 (primary) or #bec0c5 (secondary)\nbackground: #000000\nborder: #000000 or #fbfbfa\naccent: #0075ff\nprimary action: no distinct CTA color\n\nExample Component Prompts:\n1. Create a `Ghost Contact Button (Light)` with 'Contact Us' text, using Ghost Outline (#fbfbfa) text on a Midnight Void (#000000) background, with a 1px Midnight Void border and 999px radius. Padding 0px vertical, 19.2px horizontal.\n2. Create a `Video Player Card` component: midnight void (#000000) background, 12px border-radius, 0px padding, no shadow. Placeholder content to be a full-bleed embedded video.\n3. Create a prominent headline using MagicUiPro, weight 600, size 24px, lineHeight 1.0, letterSpacing -0.0100em, with text color Midnight Void (#000000)."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777516330818-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777516330818-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/71745af1-2e53-4925-992e-82773e55ccd6",
+  "ranks": {
+    "trending": 997,
+    "popular": 1057,
+    "newest": 351
+  },
+  "localSlug": "one-71745af1"
+}

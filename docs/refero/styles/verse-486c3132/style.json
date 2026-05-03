@@ -1,0 +1,520 @@
+{
+  "id": "486c3132-9ff7-4e27-9eef-ca2e130bd827",
+  "url": "https://www.verse.sh",
+  "siteName": "Verse",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777515306780-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777515306780-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "dark",
+  "colors": [
+    {
+      "name": "Deep Space",
+      "hex": "#171717"
+    },
+    {
+      "name": "Cloud Gray",
+      "hex": "#e5e7eb"
+    },
+    {
+      "name": "Digital Silver",
+      "hex": "#d4d4d4"
+    },
+    {
+      "name": "Muted Ash",
+      "hex": "#737373"
+    }
+  ],
+  "fonts": [
+    "Commit Mono"
+  ],
+  "northStar": "midnight command center",
+  "createdAt": "2026-04-30T02:15:24.612Z",
+  "previewVideoCapturedAt": null,
+  "industry": "design",
+  "fullResult": {
+    "meta": {
+      "url": "https://www.verse.sh",
+      "siteName": "Verse",
+      "extractedAt": "2026-04-30T02:15:22.897Z",
+      "durationMs": 30516,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 244,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#e5e7eb",
+            "oklch": {
+              "c": 0.005813542372075684,
+              "h": 264.5313231484507,
+              "l": 0.9275823098127417
+            },
+            "contexts": [
+              "other",
+              "heading",
+              "body",
+              "link",
+              "button",
+              "image"
+            ],
+            "frequency": 691,
+            "confidence": 1,
+            "prominence": 38489207.4093635,
+            "properties": [
+              "borderColor"
+            ],
+            "usageCounts": {
+              "body/borderColor": 160,
+              "link/borderColor": 92,
+              "image/borderColor": 116,
+              "other/borderColor": 315,
+              "button/borderColor": 4,
+              "heading/borderColor": 4
+            }
+          },
+          {
+            "hex": "#d4d4d4",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.8699435455856324
+            },
+            "contexts": [
+              "other",
+              "heading",
+              "body",
+              "link",
+              "button",
+              "image"
+            ],
+            "frequency": 161,
+            "confidence": 1,
+            "prominence": 29943417.19656802,
+            "properties": [
+              "color"
+            ],
+            "usageCounts": {
+              "body/color": 3,
+              "link/color": 12,
+              "image/color": 29,
+              "other/color": 115,
+              "button/color": 1,
+              "heading/color": 1
+            }
+          },
+          {
+            "hex": "#171717",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.20462653095774938
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 145,
+            "confidence": 1,
+            "prominence": 29331378.196021035,
+            "properties": [
+              "borderColor"
+            ],
+            "usageCounts": {
+              "other/borderColor": 145
+            }
+          },
+          {
+            "hex": "#737373",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.5555267576690717
+            },
+            "contexts": [
+              "body",
+              "other",
+              "link"
+            ],
+            "frequency": 83,
+            "confidence": 1,
+            "prominence": 36966.77165592957,
+            "properties": [
+              "color"
+            ],
+            "usageCounts": {
+              "body/color": 37,
+              "link/color": 11,
+              "other/color": 35
+            }
+          }
+        ],
+        "isDarkMode": true,
+        "colorfulness": 0.0100529473951559,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 14.48,
+            "background": "#e5e7eb",
+            "foreground": "#171717"
+          },
+          {
+            "level": "AAA",
+            "ratio": 12.09,
+            "background": "#d4d4d4",
+            "foreground": "#171717"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 16,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 210,
+            "properties": [
+              "paddingTop",
+              "paddingRight",
+              "paddingBottom",
+              "paddingLeft",
+              "rowGap",
+              "columnGap"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other",
+              "paddingRight|other",
+              "paddingBottom|other",
+              "paddingLeft|other",
+              "rowGap|other",
+              "columnGap|other"
+            ]
+          },
+          {
+            "value": 20,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 6,
+            "properties": [
+              "paddingTop",
+              "paddingRight",
+              "paddingBottom",
+              "paddingLeft",
+              "rowGap",
+              "columnGap"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other",
+              "paddingRight|other",
+              "paddingBottom|other",
+              "paddingLeft|other",
+              "rowGap|other",
+              "columnGap|other"
+            ]
+          },
+          {
+            "value": 24,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "rowGap",
+              "columnGap"
+            ],
+            "propertyContextPairs": [
+              "rowGap|other",
+              "columnGap|other"
+            ]
+          },
+          {
+            "value": 80,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "marginTop",
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "marginTop|other",
+              "marginBottom|other"
+            ]
+          }
+        ],
+        "density": "comfortable",
+        "baseUnit": 8
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "Commit Mono",
+            "source": "custom",
+            "weights": [
+              400,
+              600
+            ],
+            "frequency": 244,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 16,
+          "name": "Minor Second",
+          "ratio": 1.067,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 11,
+            "family": "Commit Mono",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "body",
+              "link"
+            ],
+            "frequency": 81,
+            "lineHeight": 1.5,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 14,
+            "family": "Commit Mono",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "body"
+            ],
+            "frequency": 6,
+            "lineHeight": 1.43,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 14,
+            "family": "Commit Mono",
+            "weight": 600,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.43,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 14,
+            "family": "Commit Mono",
+            "weight": 400,
+            "contexts": [
+              "body",
+              "link"
+            ],
+            "frequency": 3,
+            "lineHeight": 1.43,
+            "letterSpacing": 0,
+            "textTransform": "lowercase"
+          },
+          {
+            "size": 14,
+            "family": "Commit Mono",
+            "weight": 400,
+            "contexts": [
+              "button"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.43,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "Commit Mono",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "link",
+              "image"
+            ],
+            "frequency": 152,
+            "lineHeight": 1.5,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Use Deep Space (#171717) as the primary background for all surfaces and page canvas.",
+        "Typography should exclusively use Commit Mono to maintain the consistent code-centric aesthetic, with weight 600 for subtle emphasis and 400 for all other body text.",
+        "Render all borders, including those for interactive states and content cards, as 1px solid lines using Cloud Gray (#e5e7eb).",
+        "Maintain a stark, no-radius aesthetic with all corners sharp at 0px radius for all components and containers.",
+        "Employ Digital Silver (#d4d4d4) for all primary text content to ensure high contrast against the dark background.",
+        "Utilize Muted Ash (#737373) for secondary text and metadata to create subtle hierarchy without introducing additional colors.",
+        "Structure content with an 80px vertical section gap for clear separation between major content blocks."
+      ],
+      "donts": [
+        "Do not introduce any saturated colors for UI elements; color should be restricted to imagery or embedded content only.",
+        "Avoid using any form of box-shadow or elevation as the design relies on flat, border-defined separation.",
+        "Do not apply radius to any interactive elements, cards, or containers; all corners must be sharp 0px.",
+        "Refrain from using prominent filled buttons or primary actions; all interactive elements should be styled as text links or ghost buttons.",
+        "Do not deviate from the monochrome palette by introducing any chromatic text colors or background tints.",
+        "Avoid decorative gradients or background patterns; surfaces should remain solid Deep Space (#171717)."
+      ],
+      "theme": "dark",
+      "colors": [
+        {
+          "hex": "#171717",
+          "name": "Deep Space",
+          "role": "Page background, surface backgrounds, UI borders",
+          "group": "neutral"
+        },
+        {
+          "hex": "#e5e7eb",
+          "name": "Cloud Gray",
+          "role": "Decorative borders for content cards and subtle accents",
+          "group": "neutral"
+        },
+        {
+          "hex": "#d4d4d4",
+          "name": "Digital Silver",
+          "role": "Primary text for headings, body, and links — provides strong contrast against Deep Space",
+          "group": "neutral"
+        },
+        {
+          "hex": "#737373",
+          "name": "Muted Ash",
+          "role": "Secondary text, metadata, and subtle helper text, reducing visual hierarchy slightly",
+          "group": "neutral"
+        }
+      ],
+      "layout": "The page uses a full-bleed black background from edge to edge. The main content is vertically stacked in a centered column, appearing as discrete blocks. The hero section features a centered headline and description. Subsequent sections are grid-based, primarily a 2-column or 3-column masonry-like grid for project showcases, with content cells having a 1px Cloud Gray border. Vertical rhythm is established by an 80px gap between these main content sections. Navigation is minimal, consisting of simple text links in the header area.",
+      "imagery": "The site primarily uses product screenshots and embedded visual content to showcase work, rather than distinct branding imagery. When present, images maintain their original aspect ratios and coloring, embedded within card-like structures. There are no consistent icon styles or illustrative elements; visuals are content-driven, serving as direct examples of projects.",
+      "similar": [
+        {
+          "why": "Grid-based content layout, minimal UI, and a focus on content presentation within defined boundaries.",
+          "business": "Are.na"
+        },
+        {
+          "why": "Raw, functional aesthetic with strong typographic focus and deliberate absence of modern UI conventions like rounded corners or shadows.",
+          "business": "Brutalist Websites"
+        },
+        {
+          "why": "Strict monospace typography, high-contrast dark background, and border-defined elements evoke a terminal interface.",
+          "business": "Command Line Interfaces"
+        },
+        {
+          "why": "Monochrome palette, focus on typography for hierarchy, and crisp, minimal borders for UI elements.",
+          "business": "Linear"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "cards": "0px",
+          "buttons": "0px"
+        },
+        "elementGap": "16px",
+        "sectionGap": "80px",
+        "cardPadding": "16px",
+        "pageMaxWidth": null
+      },
+      "industry": "design",
+      "northStar": "midnight command center",
+      "typeScale": [
+        {
+          "role": "caption",
+          "size": 11,
+          "lineHeight": 1.5
+        },
+        {
+          "role": "body-sm",
+          "size": 14,
+          "lineHeight": 1.5
+        },
+        {
+          "role": "body",
+          "size": 16,
+          "lineHeight": 1.5
+        }
+      ],
+      "components": [
+        {
+          "name": "Project Card",
+          "role": "Displays individual project entries with an image, title, and link.",
+          "description": "A square or rectangular block with a 1px Cloud Gray border, containing an image or embedding. Text content uses Digital Silver. Background is Deep Space, with no padding or radius given the border is the primary visual separation. No discernible internal padding in the data so padding is 0."
+        },
+        {
+          "name": "Ghost Button",
+          "role": "Interactive text or link, appearing within content blocks.",
+          "description": "Text in Digital Silver (#d4d4d4) on a transparent background. Features a 1px Cloud Gray (#e5e7eb) border on hover or focus, defining interaction without a filled background. Border radius is 0px."
+        },
+        {
+          "name": "Metadata Text",
+          "role": "Used for descriptive text like 'Twitter:' or project technologies.",
+          "description": "Set in Commit Mono, Muted Ash (#737373) color, typically at 14px size. Used to provide secondary information without competing with primary content."
+        }
+      ],
+      "typography": [
+        {
+          "role": "The sole typeface, used across all elements from headings to body text and links. Its monospace nature reinforces the technical, code-centric aesthetic, with weight 600 providing subtle emphasis for titles without breaking the overall utilitarian feel.",
+          "sizes": "11px, 14px, 16px",
+          "family": "Commit Mono",
+          "weight": "400, 600",
+          "weights": [
+            400,
+            600
+          ],
+          "lineHeight": "1.43, 1.50",
+          "substitute": "IBM Plex Mono",
+          "letterSpacing": "normal"
+        }
+      ],
+      "description": "Verse employs a stark, high-contrast dark mode aesthetic, reminiscent of a terminal interface or a hacker's workbench. The visual system is built on a foundation of pure black with minimal use of grays, allowing code-like typography and crisp borders to define the structure. Interactive elements are subtle, relying on text color changes and thin border lines rather than prominent fills. The overall impression is one of focused utility and technical precision, avoiding decorative flourishes.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "**Quick Color Reference:**\ntext: #d4d4d4\nbackground: #171717\nborder: #e5e7eb\naccent: no distinct accent color\nprimary action: no distinct CTA color\n\n**Example Component Prompts:**\n1. Create a heading section: Centered text using Commit Mono weight 600, 16px, #d4d4d4, line-height 1.5. Subtext below it using Commit Mono weight 400, 14px, #737373, line-height 1.43, with an 80px bottom margin.\n2. Create a Project Card component: 1px #e5e7eb border. Background #171717. No padding inside the card. Content title below the image should be Commit Mono weight 400, 14px, #d4d4d4. Links within the card in Commit Mono weight 400, 11px, #d4d4d4.\n3. Create a Ghost Link: Text in Commit Mono weight 400, 14px, #d4d4d4, on a transparent background. When hovered or focused, show a 1px #e5e7eb border around the text area. No padding, no radius."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777515306780-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777515306780-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/486c3132-9ff7-4e27-9eef-ca2e130bd827",
+  "ranks": {
+    "trending": 1158,
+    "popular": 1194,
+    "newest": 406
+  },
+  "localSlug": "verse-486c3132"
+}

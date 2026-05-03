@@ -1,0 +1,760 @@
+{
+  "id": "d266fee3-7479-4725-b727-e343ccefb576",
+  "url": "https://www.edwardh.io",
+  "siteName": "Ed Hinrichsen",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777513679228-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777513679228-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "light",
+  "colors": [
+    {
+      "name": "Vanilla Dust",
+      "hex": "#f6d4b1"
+    },
+    {
+      "name": "System Gray",
+      "hex": "#525252"
+    },
+    {
+      "name": "Pixel Black",
+      "hex": "#000000"
+    },
+    {
+      "name": "Warm Sand",
+      "hex": "#cdb499"
+    }
+  ],
+  "fonts": [
+    "chill",
+    "public-pixel"
+  ],
+  "northStar": "Retro terminal interface.",
+  "createdAt": "2026-04-30T01:48:18.475Z",
+  "previewVideoCapturedAt": null,
+  "industry": "other",
+  "fullResult": {
+    "meta": {
+      "url": "https://www.edwardh.io",
+      "siteName": "Ed Hinrichsen",
+      "extractedAt": "2026-04-30T01:48:18.242Z",
+      "durationMs": 34958,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 197,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#525252",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.43860476002652315
+            },
+            "contexts": [
+              "other",
+              "heading",
+              "list",
+              "hero",
+              "body",
+              "link",
+              "image",
+              "button",
+              "footer"
+            ],
+            "frequency": 798,
+            "confidence": 1,
+            "prominence": 300357411.7509236,
+            "properties": [
+              "color",
+              "borderColor",
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "body/color": 24,
+              "hero/color": 2,
+              "link/color": 3,
+              "list/color": 72,
+              "image/color": 15,
+              "other/color": 25,
+              "footer/color": 1,
+              "heading/color": 14,
+              "body/borderColor": 96,
+              "hero/borderColor": 8,
+              "link/borderColor": 12,
+              "list/borderColor": 288,
+              "image/borderColor": 60,
+              "other/borderColor": 100,
+              "footer/borderColor": 4,
+              "heading/borderColor": 56,
+              "button/backgroundColor": 1,
+              "heading/backgroundColor": 17
+            }
+          },
+          {
+            "hex": "#f6d4b1",
+            "oklch": {
+              "c": 0.05989797350877751,
+              "h": 67.74751647318931,
+              "l": 0.889871419840848
+            },
+            "contexts": [
+              "heading",
+              "nav",
+              "list",
+              "image",
+              "button",
+              "other"
+            ],
+            "frequency": 219,
+            "confidence": 1,
+            "prominence": 8855942.145883275,
+            "properties": [
+              "color",
+              "borderColor",
+              "fill",
+              "boxShadow"
+            ],
+            "usageCounts": {
+              "nav/fill": 15,
+              "nav/color": 8,
+              "button/color": 1,
+              "heading/color": 17,
+              "list/boxShadow": 56,
+              "image/boxShadow": 15,
+              "nav/borderColor": 32,
+              "other/boxShadow": 3,
+              "button/borderColor": 4,
+              "heading/borderColor": 68
+            }
+          },
+          {
+            "hex": "#cdb499",
+            "oklch": {
+              "c": 0.046478671140206006,
+              "h": 67.87804571481074,
+              "l": 0.7834496313151189
+            },
+            "contexts": [
+              "list",
+              "image",
+              "button",
+              "other"
+            ],
+            "frequency": 75,
+            "confidence": 1,
+            "prominence": 7110747.559267604,
+            "properties": [
+              "boxShadow"
+            ],
+            "usageCounts": {
+              "list/boxShadow": 56,
+              "image/boxShadow": 15,
+              "other/boxShadow": 3,
+              "button/boxShadow": 1
+            }
+          },
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "other",
+              "nav"
+            ],
+            "frequency": 20,
+            "confidence": 1,
+            "prominence": 5633147.094713761,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "nav/color": 2,
+              "other/color": 2,
+              "nav/borderColor": 8,
+              "other/borderColor": 8
+            }
+          }
+        ],
+        "isDarkMode": false,
+        "colorfulness": 0.04035474561038724,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 14.97,
+            "background": "#f6d4b1",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 10.58,
+            "background": "#cdb499",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AA",
+            "ratio": 5.57,
+            "background": "#525252",
+            "foreground": "#f6d4b1"
+          },
+          {
+            "level": "fail",
+            "ratio": 3.94,
+            "background": "#cdb499",
+            "foreground": "#525252"
+          },
+          {
+            "level": "fail",
+            "ratio": 2.69,
+            "background": "#525252",
+            "foreground": "#000000"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [],
+        "shadows": [
+          {
+            "value": "rgb(246, 212, 177) 1px 1px 0px 0px, rgba(82, 82, 82, 0.25) 4px 4px 0px 0px",
+            "contexts": [
+              "list"
+            ],
+            "frequency": 56
+          },
+          {
+            "value": "rgb(246, 212, 177) 1px 1px 0px 0px, rgba(82, 82, 82, 0.25) 6px 6px 0px 0px",
+            "contexts": [
+              "image",
+              "other"
+            ],
+            "frequency": 18
+          },
+          {
+            "value": "rgba(82, 82, 82, 0.25) 6px 6px 0px 0px",
+            "contexts": [
+              "button"
+            ],
+            "frequency": 1
+          }
+        ]
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 4,
+            "contexts": [
+              "heading",
+              "list",
+              "button"
+            ],
+            "frequency": 145,
+            "properties": [
+              "paddingTop",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|heading",
+              "paddingTop|list",
+              "paddingBottom|list",
+              "paddingTop|button",
+              "paddingBottom|button"
+            ]
+          },
+          {
+            "value": 5,
+            "contexts": [
+              "button"
+            ],
+            "frequency": 2,
+            "properties": [
+              "rowGap",
+              "columnGap"
+            ],
+            "propertyContextPairs": [
+              "rowGap|button",
+              "columnGap|button"
+            ]
+          },
+          {
+            "value": 6,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 52,
+            "properties": [
+              "marginTop",
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "marginTop|heading",
+              "marginBottom|heading"
+            ]
+          },
+          {
+            "value": 8,
+            "contexts": [
+              "heading",
+              "list"
+            ],
+            "frequency": 143,
+            "properties": [
+              "paddingBottom",
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingBottom|heading",
+              "paddingRight|list",
+              "paddingLeft|list"
+            ]
+          },
+          {
+            "value": 11,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 3,
+            "properties": [
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "marginBottom|heading"
+            ]
+          },
+          {
+            "value": 16,
+            "contexts": [
+              "other",
+              "heading",
+              "body",
+              "list"
+            ],
+            "frequency": 224,
+            "properties": [
+              "rowGap",
+              "columnGap",
+              "paddingRight",
+              "paddingLeft",
+              "paddingTop",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "rowGap|other",
+              "columnGap|other",
+              "paddingRight|heading",
+              "paddingLeft|heading",
+              "paddingTop|body",
+              "paddingRight|body",
+              "paddingBottom|body",
+              "paddingLeft|body",
+              "paddingTop|list",
+              "paddingRight|list",
+              "paddingBottom|list",
+              "paddingLeft|list",
+              "rowGap|list",
+              "columnGap|list"
+            ]
+          },
+          {
+            "value": 20,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 4,
+            "properties": [
+              "paddingTop",
+              "paddingRight",
+              "paddingBottom",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|nav",
+              "paddingRight|nav",
+              "paddingBottom|nav",
+              "paddingLeft|nav"
+            ]
+          },
+          {
+            "value": 24,
+            "contexts": [
+              "button"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|button",
+              "paddingLeft|button"
+            ]
+          },
+          {
+            "value": 32,
+            "contexts": [
+              "list",
+              "footer"
+            ],
+            "frequency": 5,
+            "properties": [
+              "marginLeft",
+              "paddingTop",
+              "paddingBottom",
+              "rowGap",
+              "columnGap"
+            ],
+            "propertyContextPairs": [
+              "marginLeft|list",
+              "paddingTop|footer",
+              "paddingBottom|footer",
+              "rowGap|footer",
+              "columnGap|footer"
+            ]
+          },
+          {
+            "value": 64,
+            "contexts": [
+              "hero",
+              "other"
+            ],
+            "frequency": 3,
+            "properties": [
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingBottom|hero",
+              "paddingBottom|other"
+            ]
+          },
+          {
+            "value": 80,
+            "contexts": [
+              "hero"
+            ],
+            "frequency": 2,
+            "properties": [
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "marginBottom|hero"
+            ]
+          }
+        ],
+        "density": "compact",
+        "baseUnit": 4
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "chill",
+            "source": "custom",
+            "weights": [
+              400,
+              700
+            ],
+            "frequency": 151,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "public-pixel",
+            "source": "custom",
+            "weights": [
+              400,
+              700
+            ],
+            "frequency": 35,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 16,
+          "name": "Major Second",
+          "ratio": 1.125,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 12,
+            "family": "chill",
+            "weight": 400,
+            "contexts": [
+              "footer",
+              "other"
+            ],
+            "frequency": 6,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 18,
+            "family": "chill",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "list",
+              "nav",
+              "hero",
+              "image",
+              "button"
+            ],
+            "frequency": 46,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 18,
+            "family": "chill",
+            "weight": 400,
+            "contexts": [
+              "body",
+              "list",
+              "link",
+              "other"
+            ],
+            "frequency": 96,
+            "lineHeight": 1.5,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 18,
+            "family": "chill",
+            "weight": 700,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.5,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 22,
+            "family": "public-pixel",
+            "weight": 700,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 27,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 36,
+            "family": "public-pixel",
+            "weight": 700,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 4,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 36,
+            "family": "public-pixel",
+            "weight": 400,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 4,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Always use the 'public-pixel' font for headings and primary navigational texts to maintain the distinct retro-digital identity.",
+        "Implement the layered shadow effect (1px 'Vanilla Dust' offset, then 4px 'System Gray' offset) for all interactive clickable elements to simulate a three-dimensional, 'stamped' look.",
+        "Utilize 1px dashed borders of 'System Gray' extensively as visual dividers and content outlines to reinforce the terminal aesthetic.",
+        "Prioritize 'System Gray' for backgrounds and 'Vanilla Dust' for text accents and outlines, creating a high-contrast vintage display.",
+        "Maintain a compact density with element gaps typically at 16px to reflect the information-dense nature of classic terminal interfaces.",
+        "Employ 0px border-radius for all UI elements, ensuring sharp, blocky edges consistent with pixel-art visuals."
+      ],
+      "donts": [
+        "Avoid soft, diffused shadows or glows; stick to sharp, layered offset shadows for depth.",
+        "Do not introduce rounded corners; all interface elements must have a 0px border-radius.",
+        "Refrain from using gradients or subtle color transitions; elements should have solid, distinct fill and border colors.",
+        "Do not use generic sans-serif or serif fonts for primary text; 'chill' and 'public-pixel' define the brand's typographic voice.",
+        "Avoid vibrant or highly saturated colors outside of the defined 'Vanilla Dust' accent, to preserve the muted, vintage palette.",
+        "Do not use expansive white space between sections; maintain a relatively compact vertical rhythm with consistent section gaps of 32px."
+      ],
+      "theme": "light",
+      "colors": [
+        {
+          "hex": "#f6d4b1",
+          "name": "Vanilla Dust",
+          "role": "Primary accent color for text highlights, active states, and border outlines for highlighted elements and actionable items. Its muted warmth brings a vintage glow",
+          "group": "accent"
+        },
+        {
+          "hex": "#525252",
+          "name": "System Gray",
+          "role": "Neutral button treatment for secondary actions and selected controls.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#000000",
+          "name": "Pixel Black",
+          "role": "Secondary text and border color, used for high-contrast details and specific navigation elements, reinforcing the monochrome digital display feel",
+          "group": "neutral"
+        },
+        {
+          "hex": "#cdb499",
+          "name": "Warm Sand",
+          "role": "Subtle background for specific sections or element shadows, adding depth while retaining the overall desaturated warmth",
+          "group": "neutral"
+        }
+      ],
+      "layout": "The page primarily uses a contained layout, with content centered. The hero section features a prominent 3D render of a retro computer, with critical information displayed on its screen in the signature terminal style. Subsequent sections alternate between centered stacks of content and implicit two-column layouts where text is juxtaposed with imagery (often product screenshots). Vertical rhythmic spacing appears consistent, primarily driven by 32px section gaps and extensive use of dashed dividers. Navigation is a minimal top-left icon menu, supplemented by prominent 'Projects' and 'About' sections.",
+      "imagery": "The site uses a mix of highly stylized 3D renders of retro computing equipment (e.g., the CRT monitor and keyboard) and pixelated iconography. The product imagery consists of tightly cropped, high-fidelity screenshots, often contained within a 'terminal' frame. All visuals are integrated to support a consistent vintage technology aesthetic, acting as both decorative atmosphere and explanatory content. Imagery density is moderate, with visuals often anchoring sections rather than being purely illustrative.",
+      "similar": [
+        {
+          "why": "Stylized, blocky UI elements and a strong emphasis on clean, almost pixelated iconography for an app-like feel.",
+          "business": "Figma"
+        },
+        {
+          "why": "The use of monospace fonts, dark backgrounds, and subtle accent colors to create a developer-tool aesthetic.",
+          "business": "Github"
+        },
+        {
+          "why": "A direct correlation in emulating a command-line interface with distinct typography, stark color contrasts, and functional rather than decorative UI elements.",
+          "business": "Terminal.com"
+        },
+        {
+          "why": "While more modern, elements like the crisp, almost outlined 'focus' states and restrained use of color for actions share a lineage of functional, precise UI design.",
+          "business": "Stripe"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "buttons": "0px",
+          "default": "0px"
+        },
+        "elementGap": "16px",
+        "sectionGap": "32px",
+        "cardPadding": "8px",
+        "pageMaxWidth": null
+      },
+      "industry": "other",
+      "elevation": [
+        {
+          "style": "rgb(246, 212, 177) 1px 1px 0px 0px, rgba(82, 82, 82, 0.25) 4px 4px 0px 0px",
+          "element": "Project Card"
+        },
+        {
+          "style": "rgb(246, 212, 177) 1px 1px 0px 0px, rgba(82, 82, 82, 0.25) 6px 6px 0px 0px",
+          "element": "Image/Other Elements"
+        },
+        {
+          "style": "rgba(82, 82, 82, 0.25) 6px 6px 0px 0px",
+          "element": "Button"
+        }
+      ],
+      "northStar": "Retro terminal interface.",
+      "components": [
+        {
+          "name": "Outlined Terminal Button",
+          "role": "Primary Call to Action",
+          "description": "Features a 'System Gray' background with 'Vanilla Dust' text, creating an inverted terminal selection visual. The button has sharp 0px corners and a 1px 'Vanilla Dust' border, with padding of 4px vertical and 24px horizontal. It casts a layered shadow: a 1px 'Vanilla Dust' offset followed by a 4px offset 'System Gray' (25% opacity), giving a distinct pixel-art depth."
+        },
+        {
+          "name": "Project Card",
+          "role": "Content Display Card",
+          "description": "A 'System Gray' background element for listing projects or portfolio items. It uses a 1px dashed border of 'System Gray' for structure and employs a layered shadow: a 1px 1px 'Vanilla Dust' offset and a 4px 4px 'System Gray' (25% opacity) offset, creating a distinctive 'stamped' appearance."
+        },
+        {
+          "name": "Dashed Divider",
+          "role": "Visual Separator",
+          "description": "Used between content sections. The divider is a 1px dashed line in 'System Gray', reinforcing the terminal interface aesthetic."
+        },
+        {
+          "name": "Page Header Nav Item",
+          "role": "Navigation Link",
+          "description": "Navigation items are rendered in 'Pixel Black' with 'public-pixel' font. On hover or active, they feature a 1px solid 'Pixel Black' border to highlight selection, maintaining the stark, digital interaction style."
+        },
+        {
+          "name": "Tag / Skill Badge",
+          "role": "Categorization Label",
+          "description": "Small labels for skills or technologies. They have a 'System Gray' background with a 1px dashed 'System Gray' border and 'Vanilla Dust' text (font 'chill', 12px). Padding is 4px horizontal and 2px vertical, with 0px border-radius for sharp edges, casting a 1px 'Vanilla Dust' and 4px 'System Gray' shadow."
+        }
+      ],
+      "typography": [
+        {
+          "role": "Primary text font for body content, links, and general UI where a monospace, code-like aesthetic is desired. It contributes to the vintage computing atmosphere.",
+          "sizes": "12px, 18px",
+          "family": "chill",
+          "weight": "400, 700",
+          "weights": [
+            "400",
+            "700"
+          ],
+          "lineHeight": "1.20, 1.50",
+          "substitute": "IBM Plex Mono",
+          "letterSpacing": "normal"
+        },
+        {
+          "role": "Headline and navigational font, providing a distinct pixelated character that is central to the retro-digital brand identity. Its larger sizes make it legible despite the blocky aesthetic.",
+          "sizes": "22px, 36px",
+          "family": "public-pixel",
+          "weight": "400, 700",
+          "weights": [
+            "400",
+            "700"
+          ],
+          "lineHeight": "1.20",
+          "substitute": "Press Start 2P",
+          "letterSpacing": "normal"
+        }
+      ],
+      "description": "The Ed Hinrichsen site evokes a retro-computing aesthetic with a warm, desaturated orange and dark gray palette, accented by pixel-art typography and blocky shadow effects. Its visual language prioritizes a 'terminal' feel, using dashed borders as dividers and relying on a muted background color to ground content. Interactions are highlighted by direct, sharp shadows rather than soft glows, lending a tactile, almost stamped appearance to elements.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "Quick Color Reference: \ntext: #525252\nbackground: #525252\nborder: #525252\naccent: #f6d4b1\nprimary action: #f6d4b1 (outlined action border)\n\nExample Component Prompts:\nCreate an 'Outlined Terminal Button': background #525252, text #f6d4b1 (chill font, weight 400, 18px), 1px solid border #f6d4b1, padding 4px 24px, 0px border-radius, box-shadow rgb(246, 212, 177) 1px 1px 0px 0px, rgba(82, 82, 82, 0.25) 4px 4px 0px 0px.\nCreate a 'Project Card': background #525252, text #525252 (chill font, weight 400, 18px), 1px dashed border #525252, padding 8px, 0px border-radius, box-shadow rgb(246, 212, 177) 1px 1px 0px 0px, rgba(82, 82, 82, 0.25) 4px 4px 0px 0px.\nCreate a 'Tag / Skill Badge': background #525252, text #f6d4b1 (chill font, weight 400, 12px), 1px dashed border #525252, padding 2px 4px, 0px border-radius.\nCreate a 'Heading 1' element: text #f6d4b1 (public-pixel font, weight 400, 36px), background #525252, 0px border-radius, letter-spacing normal, line-height 1.2."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777513679228-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777513679228-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/d266fee3-7479-4725-b727-e343ccefb576",
+  "ranks": {
+    "trending": 85,
+    "popular": 126,
+    "newest": 516
+  },
+  "localSlug": "ed-hinrichsen-d266fee3"
+}

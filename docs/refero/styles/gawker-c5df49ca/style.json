@@ -1,0 +1,640 @@
+{
+  "id": "c5df49ca-18b5-467d-ada5-613723a1ade6",
+  "url": "https://www.gawker.com",
+  "siteName": "Gawker",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777519574817-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777519574817-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "light",
+  "colors": [
+    {
+      "name": "Canvas White",
+      "hex": "#ffffff"
+    },
+    {
+      "name": "Midnight Ink",
+      "hex": "#000000"
+    },
+    {
+      "name": "Faded Silver",
+      "hex": "#e5e7eb"
+    },
+    {
+      "name": "Electric Blue",
+      "hex": "#2563eb"
+    }
+  ],
+  "fonts": [
+    "Inter",
+    "Arial",
+    "etna-x-condensed"
+  ],
+  "northStar": "monochromatic newsprint, stark and direct",
+  "createdAt": "2026-04-30T03:26:29.800Z",
+  "previewVideoCapturedAt": null,
+  "industry": "media",
+  "fullResult": {
+    "meta": {
+      "url": "https://www.gawker.com",
+      "siteName": "Gawker",
+      "extractedAt": "2026-04-30T03:26:29.732Z",
+      "durationMs": 22569,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 31,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#e5e7eb",
+            "oklch": {
+              "c": 0.005813542372075684,
+              "h": 264.5313231484507,
+              "l": 0.9275823098127417
+            },
+            "contexts": [
+              "other",
+              "link",
+              "button",
+              "image",
+              "heading",
+              "body"
+            ],
+            "frequency": 112,
+            "confidence": 1,
+            "prominence": 8838951.935290083,
+            "properties": [
+              "borderColor"
+            ],
+            "usageCounts": {
+              "body/borderColor": 4,
+              "link/borderColor": 20,
+              "image/borderColor": 4,
+              "other/borderColor": 56,
+              "button/borderColor": 12,
+              "heading/borderColor": 16
+            }
+          },
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "other",
+              "link",
+              "heading",
+              "button",
+              "body"
+            ],
+            "frequency": 29,
+            "confidence": 1,
+            "prominence": 6359330.21190864,
+            "properties": [
+              "color"
+            ],
+            "usageCounts": {
+              "body/color": 1,
+              "link/color": 5,
+              "other/color": 16,
+              "button/color": 3,
+              "heading/color": 4
+            }
+          },
+          {
+            "hex": "#2563eb",
+            "oklch": {
+              "c": 0.21520776794183366,
+              "h": 262.8809187139399,
+              "l": 0.5461497255380916
+            },
+            "contexts": [
+              "button",
+              "other"
+            ],
+            "frequency": 13,
+            "confidence": 1,
+            "prominence": 928385.4241945262,
+            "properties": [
+              "backgroundColor",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "other/borderColor": 8,
+              "button/borderColor": 4,
+              "button/backgroundColor": 1
+            }
+          }
+        ],
+        "isDarkMode": false,
+        "colorfulness": 0.06052681166929298,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 16.96,
+            "background": "#e5e7eb",
+            "foreground": "#000000"
+          },
+          {
+            "level": "fail",
+            "ratio": 4.06,
+            "background": "#2563eb",
+            "foreground": "#000000"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [
+          {
+            "value": 6,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1
+          }
+        ],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 4,
+            "contexts": [
+              "link"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|link",
+              "paddingLeft|link"
+            ]
+          },
+          {
+            "value": 8,
+            "contexts": [
+              "button",
+              "heading",
+              "other",
+              "body"
+            ],
+            "frequency": 8,
+            "properties": [
+              "paddingTop",
+              "paddingBottom",
+              "marginTop",
+              "rowGap",
+              "columnGap"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|button",
+              "paddingBottom|button",
+              "marginTop|heading",
+              "paddingTop|other",
+              "paddingBottom|other",
+              "rowGap|other",
+              "columnGap|other",
+              "marginTop|body"
+            ]
+          },
+          {
+            "value": 16,
+            "contexts": [
+              "button",
+              "other",
+              "link"
+            ],
+            "frequency": 15,
+            "properties": [
+              "paddingRight",
+              "paddingLeft",
+              "paddingTop",
+              "paddingBottom",
+              "marginTop"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|button",
+              "paddingLeft|button",
+              "paddingTop|other",
+              "paddingBottom|other",
+              "paddingRight|other",
+              "paddingLeft|other",
+              "paddingTop|button",
+              "paddingBottom|button",
+              "paddingTop|link",
+              "paddingBottom|link",
+              "marginTop|other"
+            ]
+          },
+          {
+            "value": 32,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 12,
+            "properties": [
+              "paddingRight",
+              "paddingLeft",
+              "rowGap",
+              "columnGap",
+              "paddingTop",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|other",
+              "paddingLeft|other",
+              "rowGap|other",
+              "columnGap|other",
+              "paddingTop|other",
+              "paddingBottom|other"
+            ]
+          },
+          {
+            "value": 86,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 2,
+            "properties": [
+              "marginRight",
+              "marginLeft"
+            ],
+            "propertyContextPairs": [
+              "marginRight|heading",
+              "marginLeft|heading"
+            ]
+          },
+          {
+            "value": 208,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "marginRight",
+              "marginLeft"
+            ],
+            "propertyContextPairs": [
+              "marginRight|other",
+              "marginLeft|other"
+            ]
+          }
+        ],
+        "density": "comfortable",
+        "baseUnit": 8
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "Inter",
+            "source": "google",
+            "weights": [
+              400,
+              700
+            ],
+            "frequency": 20,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "Arial",
+            "source": "system",
+            "weights": [
+              300,
+              700
+            ],
+            "frequency": 9,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "etna-x-condensed",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 2,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 16,
+          "name": "Major Second",
+          "ratio": 1.125,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 10,
+            "family": "Arial",
+            "weight": 300,
+            "contexts": [
+              "body",
+              "link"
+            ],
+            "frequency": 3,
+            "lineHeight": 1.6,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 12,
+            "family": "Arial",
+            "weight": 300,
+            "contexts": [
+              "other",
+              "link",
+              "button"
+            ],
+            "frequency": 5,
+            "lineHeight": 1.33,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 16,
+            "family": "Inter",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "image",
+              "button"
+            ],
+            "frequency": 15,
+            "lineHeight": 1.5,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "Inter",
+            "weight": 700,
+            "contexts": [
+              "link",
+              "button"
+            ],
+            "frequency": 2,
+            "lineHeight": 1.5,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 18,
+            "family": "Inter",
+            "weight": 400,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.56,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 18,
+            "family": "Inter",
+            "weight": 700,
+            "contexts": [
+              "button",
+              "link"
+            ],
+            "frequency": 2,
+            "lineHeight": 1.56,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 32,
+            "family": "Arial",
+            "weight": 700,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.38,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 40,
+            "family": "etna-x-condensed",
+            "weight": 400,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 2,
+            "lineHeight": 0.85,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Use Midnight Ink (#000000) for all primary text and headlines to maintain high contrast and readability.",
+        "Apply Canvas White (#ffffff) as the primary background for all page sections and content cards.",
+        "Utilize Electric Blue (#2563eb) exclusively for primary interactive elements, such as filled buttons or distinct action borders.",
+        "Employ Faded Silver (#e5e7eb) for subtle separation, such as card borders or thin dividers, keeping the visual hierarchy clear without heavy lines.",
+        "Maintain a consistent 0px border-radius for all interactive components and content blocks to preserve the sharp, direct aesthetic.",
+        "Use 'etna-x-condensed' for impactful display headlines (40px, weight 400) and 'Inter' for all body text and general UI (16px, weight 400).",
+        "Employ `sectionGap` of `86px` for vertical separation between major content blocks."
+      ],
+      "donts": [
+        "Do not introduce additional saturated colors beyond Electric Blue (#2563eb) for interactive states or accents; maintain a primarily achromatic palette.",
+        "Avoid decorative shadows or complex gradients; the system relies on flat surfaces and clean lines.",
+        "Do not use rounded corners beyond the specified 6px radius for general elements inside the card, if any, or any component for which the radius is specified to be 0px.",
+        "Refrain from using more than two font families; 'Inter', 'Arial', and 'etna-x-condensed' are sufficient for all typographic needs.",
+        "Do not vary line-height inconsistently; adhere to the specified values for each text size to ensure consistent vertical rhythm.",
+        "Avoid placing text directly on top of images or complex backgrounds; content should always reside on clear white or solid surfaces.",
+        "Do not implement extensive iconography; use minimal, functional icons that are single-color if needed."
+      ],
+      "theme": "light",
+      "colors": [
+        {
+          "hex": "#ffffff",
+          "name": "Canvas White",
+          "role": "Page backgrounds, surface fills for text blocks and cards",
+          "group": "neutral"
+        },
+        {
+          "hex": "#000000",
+          "name": "Midnight Ink",
+          "role": "Primary text, headings, button text, and icon fills",
+          "group": "neutral"
+        },
+        {
+          "hex": "#e5e7eb",
+          "name": "Faded Silver",
+          "role": "Subtle dividers, card borders, and ghost button outlines",
+          "group": "neutral"
+        },
+        {
+          "hex": "#2563eb",
+          "name": "Electric Blue",
+          "role": "Primary action backgrounds, interactive borders, and accent highlights",
+          "group": "brand"
+        }
+      ],
+      "layout": "The page adheres to a centered, max-width contained layout for core content. The hero area is currently text-based with a large headline. Sections are defined by generous vertical spacing (86px `sectionGap`) and often feature a card-like structure with distinct borders. Content is primarily stacked vertically, with some grid-like arrangements for interactive elements such (seen in the two-column buttons inside the article card). The navigation is a top-bar with a simple 'Login' button. The overall density is comfortable, with ample whitespace.",
+      "imagery": "This site predominantly features UI elements and typography over imagery. When images or graphics are present, they are either product-focused screenshots or abstract representations, fitting within the stark, direct interface. Icons are likely minimal and monochromatic, serving functional rather than decorative roles. The density is text-dominant.",
+      "similar": [
+        {
+          "why": "High-contrast text-on-white, strong typographic hierarchy for news content, and minimal use of accent colors.",
+          "business": "The New York Times"
+        },
+        {
+          "why": "Emphasis on clear readability with sans-serif fonts, strong headlines, and a functional, often monochromatic, color palette.",
+          "business": "Washington Post"
+        },
+        {
+          "why": "Focus on readability with a simple, high-contrast palette, contained layouts, and classic typefaces.",
+          "business": "Medium"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "default": "6px"
+        },
+        "elementGap": "16px",
+        "sectionGap": "86px",
+        "cardPadding": "16px",
+        "pageMaxWidth": null
+      },
+      "industry": "media",
+      "northStar": "monochromatic newsprint, stark and direct",
+      "typeScale": [
+        {
+          "role": "caption",
+          "size": 10,
+          "lineHeight": 1.33
+        },
+        {
+          "role": "body",
+          "size": 16,
+          "lineHeight": 1.5
+        },
+        {
+          "role": "subheading",
+          "size": 18,
+          "lineHeight": 1.56
+        },
+        {
+          "role": "heading",
+          "size": 32,
+          "lineHeight": 1.6
+        },
+        {
+          "role": "display",
+          "size": 40,
+          "lineHeight": 0.85
+        }
+      ],
+      "components": [
+        {
+          "name": "Navigation Login Button (Filled)",
+          "role": "Primary call to action in the navigation.",
+          "description": "A filled button with Electric Blue background, Canvas White text (Inter, 400), and 0px border-radius. Padding of 8px vertical and 16px horizontal."
+        },
+        {
+          "name": "Ghost Action Button",
+          "role": "Secondary action button within content areas.",
+          "description": "Transparent background, Midnight Ink text (Inter, 400), and a thin, 0px radiused border using Faded Silver. Top-border only makes it feel like it's part of a table or list."
+        },
+        {
+          "name": "Outlined Action Button",
+          "role": "Prominent, interactive action that uses brand color for emphasis.",
+          "description": "Transparent background, Midnight Ink text (Inter, 400), and a thin, 0px radiused border in Electric Blue. Top-border only emphasizes a relationship to preceding content or a group of controls."
+        },
+        {
+          "name": "Article Card",
+          "role": "Container for article previews or featured content.",
+          "description": "Canvas White background with a 2px solid Faded Silver border and 0px border-radius. Contains a prominent headline and a body snippet, with ghost-like action buttons below separated by a top border."
+        },
+        {
+          "name": "Legal Footer Link",
+          "role": "Informational links in the footer.",
+          "description": "Midnight Ink text (Arial, 300, 10px), with 4px horizontal padding."
+        }
+      ],
+      "typography": [
+        {
+          "role": "Body text, navigation links, and button labels. Its versatility maintains consistency across various text-heavy elements.",
+          "sizes": "16px, 18px",
+          "family": "Inter",
+          "weight": "400, 700",
+          "weights": [
+            400,
+            700
+          ],
+          "lineHeight": "1.50, 1.56",
+          "substitute": "system-ui, sans-serif",
+          "letterSpacing": "normal"
+        },
+        {
+          "role": "Captions, legal text, and secondary headings. The smaller sizes provide fine print readability.",
+          "sizes": "10px, 12px, 32px",
+          "family": "Arial",
+          "weight": "300, 700",
+          "weights": [
+            300,
+            700
+          ],
+          "lineHeight": "1.33, 1.38, 1.60",
+          "substitute": "Helvetica Neue, Helvetica, sans-serif",
+          "letterSpacing": "normal"
+        },
+        {
+          "role": "Distinctive headlines for articles and key product statements, utilizing a custom condensed style for impact.",
+          "sizes": "40px",
+          "family": "etna-x-condensed",
+          "weight": "400",
+          "weights": [
+            400
+          ],
+          "lineHeight": "0.85",
+          "letterSpacing": "normal"
+        }
+      ],
+      "description": "Gawker presents a stark, high-contrast visual system built on black text on a white canvas, reminiscent of traditional newsprint. The design prioritizes readability and directness with minimal embellishment—borders are thin and rectangular, and color is used sparingly, primarily as an electrifying blue accent for interactive elements. Typography is robust and sans-serif, anchoring the content without distraction while a bold, custom headline font injects personality. The overall tone is functional and no-nonsense, with clear visual separation for content blocks.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "Quick Color Reference:\ntext: #000000\nbackground: #ffffff\nborder: #e5e7eb\naccent: #2563eb\nprimary action: #2563eb (filled action)\n\nExample Component Prompts:\n1. Create a Primary Action Button: #2563eb background, #000000 text, 9999px radius, compact pill padding. Use this filled treatment for the main CTA.\n2. Design an article headline: 'WWE LEGEND, GAWKER SLAYER...' using etna-x-condensed font 40px weight 400, line-height 0.85, color #000000. \n3. Produce an 'Ask A Gawker™' ghost button: transparent background, text #000000, Inter font 16px weight 400, 0px border-radius, top border 2px solid #e5e7eb, 16px vertical padding.\n4. Create a footer copyright text: '© 2025 GMI Pte Ltd -' using Arial font 10px weight 300, color #000000."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777519574817-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777519574817-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/c5df49ca-18b5-467d-ada5-613723a1ade6",
+  "ranks": {
+    "trending": 1066,
+    "popular": 1084,
+    "newest": 152
+  },
+  "localSlug": "gawker-c5df49ca"
+}

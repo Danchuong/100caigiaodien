@@ -1,0 +1,469 @@
+{
+  "id": "55509c15-4b34-489e-9a81-bfa5468ffd37",
+  "url": "https://www.diogoakio.com.br",
+  "siteName": "Diogo Akio",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777516943716-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777516943716-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "dark",
+  "colors": [
+    {
+      "name": "Pitch Black",
+      "hex": "#000000"
+    },
+    {
+      "name": "Slate Canvas",
+      "hex": "#151515"
+    },
+    {
+      "name": "Deep Plum",
+      "hex": "#1c2763"
+    },
+    {
+      "name": "Canvas White",
+      "hex": "#ffffff"
+    }
+  ],
+  "fonts": [
+    "Helvetica Neue LT Pro"
+  ],
+  "northStar": "Shadowbox gallery display",
+  "createdAt": "2026-04-30T02:42:44.025Z",
+  "previewVideoCapturedAt": null,
+  "industry": "design",
+  "fullResult": {
+    "meta": {
+      "url": "https://www.diogoakio.com.br",
+      "siteName": "Diogo Akio",
+      "extractedAt": "2026-04-30T02:42:43.860Z",
+      "durationMs": 26884,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 95,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#ffffff",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 1.0000000000000002
+            },
+            "contexts": [
+              "other",
+              "link",
+              "icon",
+              "heading",
+              "body",
+              "image",
+              "list"
+            ],
+            "frequency": 475,
+            "confidence": 1,
+            "prominence": 39938025.28623885,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "body/color": 6,
+              "icon/color": 2,
+              "link/color": 1,
+              "list/color": 32,
+              "image/color": 1,
+              "other/color": 52,
+              "heading/color": 1,
+              "body/borderColor": 24,
+              "icon/borderColor": 8,
+              "link/borderColor": 4,
+              "list/borderColor": 128,
+              "image/borderColor": 4,
+              "other/borderColor": 208,
+              "heading/borderColor": 4
+            }
+          },
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 1296000,
+            "properties": [
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "other/backgroundColor": 1
+            }
+          },
+          {
+            "hex": "#151515",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.19573496075691943
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 1296000,
+            "properties": [
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "other/backgroundColor": 1
+            }
+          },
+          {
+            "hex": "#1c2763",
+            "oklch": {
+              "c": 0.10645001238770876,
+              "h": 270.81133244899473,
+              "l": 0.3029464364019525
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 1296000,
+            "properties": [
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "other/backgroundColor": 1
+            }
+          }
+        ],
+        "isDarkMode": true,
+        "colorfulness": 0.0006018885694204951,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 21,
+            "background": "#000000",
+            "foreground": "#ffffff"
+          },
+          {
+            "level": "AAA",
+            "ratio": 18.26,
+            "background": "#151515",
+            "foreground": "#ffffff"
+          },
+          {
+            "level": "AAA",
+            "ratio": 13.82,
+            "background": "#1c2763",
+            "foreground": "#ffffff"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 19,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 5,
+            "properties": [
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "marginBottom|body"
+            ]
+          },
+          {
+            "value": 20,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "rowGap",
+              "columnGap"
+            ],
+            "propertyContextPairs": [
+              "rowGap|other",
+              "columnGap|other"
+            ]
+          },
+          {
+            "value": 30,
+            "contexts": [
+              "link",
+              "heading",
+              "other",
+              "list"
+            ],
+            "frequency": 23,
+            "properties": [
+              "marginTop",
+              "marginRight",
+              "marginBottom",
+              "marginLeft",
+              "rowGap",
+              "columnGap",
+              "paddingTop",
+              "paddingRight",
+              "paddingBottom",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "marginTop|link",
+              "marginRight|link",
+              "marginBottom|link",
+              "marginLeft|link",
+              "marginTop|heading",
+              "marginRight|heading",
+              "marginBottom|heading",
+              "marginLeft|heading",
+              "marginTop|other",
+              "marginRight|other",
+              "marginBottom|other",
+              "marginLeft|other",
+              "rowGap|other",
+              "columnGap|other",
+              "paddingTop|other",
+              "paddingRight|other",
+              "paddingBottom|other",
+              "paddingLeft|other",
+              "marginRight|list"
+            ]
+          }
+        ],
+        "density": "spacious",
+        "baseUnit": 6
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "HelveticaNeueLTPro-Roman",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 95,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": null,
+        "steps": [
+          {
+            "size": 16,
+            "family": "HelveticaNeueLTPro-Roman",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "body"
+            ],
+            "frequency": 2,
+            "lineHeight": 1.2,
+            "letterSpacing": 0.02,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "HelveticaNeueLTPro-Roman",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "link",
+              "icon",
+              "body",
+              "image",
+              "list"
+            ],
+            "frequency": 91,
+            "lineHeight": 1.4,
+            "letterSpacing": 0.02,
+            "textTransform": "none"
+          },
+          {
+            "size": 34,
+            "family": "HelveticaNeueLTPro-Roman",
+            "weight": 400,
+            "contexts": [
+              "heading",
+              "other"
+            ],
+            "frequency": 2,
+            "lineHeight": 0.61,
+            "letterSpacing": -0.009,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Prioritize Pitch Black, Slate Canvas, and Canvas White as the core color palette; avoid introducing additional saturated colors.",
+        "Use Helvetica Neue LT Pro Roman at 16px (line height 1.4, letter spacing 0.02em) for all body text and small UI elements.",
+        "Apply Pitch Black as the default background for all primary sections to maintain a consistent dark theme.",
+        "Utilize 30px for vertical gaps between major sections to ensure generous content separation.",
+        "Define interactive elements with Canvas White text and a 1px Canvas White border or outline against dark backgrounds.",
+        "Employ consistent 0px border-radius across all UI elements for a sharp, rectilinear aesthetic.",
+        "Maintain an element gap of 19px for consistent horizontal and vertical spacing between most UI components."
+      ],
+      "donts": [
+        "Do not introduce complex shadows or gradients; rely on color contrast and spatial arrangement for visual hierarchy.",
+        "Avoid using multiple font families or excessive font weights; Helvetica Neue LT Pro Roman 400 is the only typeface.",
+        "Do not use small, dense text blocks; leverage 16px as the minimum text size and ample line-height for readability.",
+        "Refrain from adding decorative iconography or illustrations that deviate from the stark, functional aesthetic.",
+        "Do not break the dark theme with large, light-colored sections; maintain the dominant Pitch Black canvas.",
+        "Avoid inconsistent spacing, as precise and generous spacing is critical to the system's minimalist identity.",
+        "Do not use rounded corners on any UI elements; all shapes should be rectilinear and sharp."
+      ],
+      "theme": "dark",
+      "colors": [
+        {
+          "hex": "#000000",
+          "name": "Pitch Black",
+          "role": "Page backgrounds, large container fills, the primary canvas for all content",
+          "group": "neutral"
+        },
+        {
+          "hex": "#151515",
+          "name": "Slate Canvas",
+          "role": "Subtle background for UI elements or secondary content blocks, providing a slight elevation from the Pitch Black canvas",
+          "group": "neutral"
+        },
+        {
+          "hex": "#1c2763",
+          "name": "Deep Plum",
+          "role": "Accent surface that offers a rich, cool-toned break from the dominant neutrals, used sparingly for depth",
+          "group": "neutral"
+        },
+        {
+          "hex": "#ffffff",
+          "name": "Canvas White",
+          "role": "Hairline borders, dividers, input outlines, and card edges on light surfaces. Do not promote it to the primary CTA color",
+          "group": "neutral"
+        }
+      ],
+      "layout": "The page employs a full-bleed layout for its main content, with a centered max-width constraint for text elements like the header and footer. The hero section is characterized by a prominent centered headline over a dark background. Content areas for portfolio pieces are presented as large, often full-width image blocks. The overall rhythm is established by consistent vertical spacing (30px section gaps) and horizontal consistency in text elements. Navigation is minimal, limited to text links and a ghost 'menu' indicator in the top right. The layout is spacious, giving visual elements ample room to breathe against the dark canvas.",
+      "imagery": "The site's imagery consists of high-quality product design visuals and atmospheric architectural photography. These images are large, often full-bleed within their respective containers, and act as primary visual anchors. They are rendered with realistic textures and lighting, presenting content as a focal point. There is no consistent icon style revealed, but the '+' icon in the header suggests a minimal, outlined approach for functional iconography. Imagery serves to showcase portfolio work and establish visual atmosphere rather than being purely decorative.",
+      "similar": [
+        {
+          "why": "Dark, minimalist background with white typography and a focus on high-quality visual content.",
+          "business": "B&B Studio"
+        },
+        {
+          "why": "Emphasis on stark contrast, generous negative space, and large, impactful imagery for portfolio display.",
+          "business": "Basic (Design Agency)"
+        },
+        {
+          "why": "Strict adherence to a monochrome palette, geometric layouts, and minimal UI elements.",
+          "business": "Minimalissimo"
+        },
+        {
+          "why": "Focus on large project visuals and strong, simple typography against dark foundations.",
+          "business": "ACNE Production"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "default": "0px"
+        },
+        "elementGap": "19px",
+        "sectionGap": "30px",
+        "cardPadding": "20px",
+        "pageMaxWidth": null
+      },
+      "industry": "design",
+      "northStar": "Shadowbox gallery display",
+      "typeScale": [
+        {
+          "role": "body",
+          "size": 16,
+          "lineHeight": 1.4,
+          "letterSpacing": 0.32
+        },
+        {
+          "role": "heading",
+          "size": 34,
+          "lineHeight": 1.2,
+          "letterSpacing": -0.31
+        }
+      ],
+      "components": [
+        {
+          "name": "Ghost Header CTA Button",
+          "role": "Primary call to action in the header.",
+          "description": "Ghost button with a 1px Canvas White border, no background, and Canvas White text. Uses Helvetica Neue LT Pro Roman at 16px, line height 1.4, with 0.02em letter spacing. Padding creates ample interactive area."
+        },
+        {
+          "name": "Project Card",
+          "role": "Showcases individual portfolio projects.",
+          "description": "Full-bleed image container with text overlaid. Text uses Helvetica Neue LT Pro Roman, 16px for category and 34px for title, all in Canvas White. Cards have no explicit border or shadow, relying on the image for definition against the Pitch Black background. Padding is minimal internal to the card."
+        },
+        {
+          "name": "Footer Detail List",
+          "role": "Provides secondary navigation and information at the page bottom.",
+          "description": "List items separated by 1px Canvas White borders, 128px long. Each item contains Helvetica Neue LT Pro Roman text in Canvas White at 16px, line height 1.4, with 0.02em letter spacing. Items are arranged in columns with a 20px gap."
+        }
+      ],
+      "typography": [
+        {
+          "role": "The sole typeface, used for all textual content from headings to body text. Its neutral yet precise character supports the minimalist aesthetic. A subtle negative letter-spacing for larger sizes enhances visual density for headings, while a slightly positive one for smaller text improves legibility.",
+          "sizes": "16px, 34px",
+          "family": "Helvetica Neue LT Pro",
+          "weight": "400",
+          "lineHeight": "1.20, 1.40",
+          "substitute": "Helvetica Neue",
+          "letterSpacing": "-0.009, 0.02"
+        }
+      ],
+      "description": "Diogo Akio's design system evokes a minimalist gallery experience. It operates on a dark canvas, providing a stark backdrop for high-contrast white typography and isolated portfolio pieces. The aesthetic prioritizes clarity and directness through generous spacing and a strong typographic focus, with minimal use of color or elaborate components. The system is designed to showcase content without visual distraction, relying on subtle interactions and precise spatial relationships.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "Quick Color Reference:\ntext: #ffffff\nbackground: #000000\nborder: #ffffff\naccent: no distinct accent color\nprimary action: no distinct CTA color\n\nExample Component Prompts:\n1. Create a Header section: Pitch Black background. Centered text 'Diogo Akio is an independent designer & art director crafting digital experiences' in Canvas White, Helvetica Neue LT Pro Roman, 34px, 1.2 line height, -0.009em letter spacing. Right-aligned '+' icon in Canvas White, 16px, with a 1px Canvas White border.\n2. Design a Project showcase block: Image placeholder covering 100% width. Overlay 'Edificio Rosa' in Canvas White, Helvetica Neue LT Pro Roman, 16px, 1.4 line height, 0.02em letter spacing, and 'Translucidez' in Canvas White, Helvetica Neue LT Pro Roman, 34px, 1.2 line height, -0.009em letter spacing, both anchored to the bottom left of the image.\n3. Build a Footer detail list: Pitch Black background. Four columns with 20px column gap. Each column contains a list of Canvas White text links, Helvetica Neue LT Pro Roman, 16px, 1.4 line height, 0.02em letter spacing. List items are separated by a 1px Canvas White solid line, 128px wide. Each list item has a 30px marginBottom."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777516943716-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777516943716-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/55509c15-4b34-489e-9a81-bfa5468ffd37",
+  "ranks": {
+    "trending": 1260,
+    "popular": 1264,
+    "newest": 311
+  },
+  "localSlug": "diogo-akio-55509c15"
+}

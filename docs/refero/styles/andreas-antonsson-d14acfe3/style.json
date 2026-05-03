@@ -1,0 +1,436 @@
+{
+  "id": "d14acfe3-20ea-4c18-be22-aba396b4fa80",
+  "url": "https://andreasantonsson.dev",
+  "siteName": "Andreas Antonsson",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775925748873-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775925748873-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "dark",
+  "colors": [
+    {
+      "name": "Void Black",
+      "hex": "#000000"
+    },
+    {
+      "name": "Ghost White",
+      "hex": "#ffffff"
+    }
+  ],
+  "fonts": [
+    "Inter",
+    "Dahlia"
+  ],
+  "northStar": "Shadow Gallery, Spotlit Art. The website feels like stepping into a dark art gallery with carefully curated, dramatically lit pieces.",
+  "createdAt": "2026-03-19T19:15:29.000Z",
+  "previewVideoCapturedAt": null,
+  "industry": "agency",
+  "fullResult": {
+    "meta": {
+      "url": "https://andreasantonsson.dev",
+      "siteName": "Andreas Antonsson",
+      "extractedAt": "2026-04-11T16:42:47.534Z",
+      "durationMs": 32085,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 203,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "complete",
+          "attempts": 2
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#ffffff",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 1.0000000000000002
+            },
+            "contexts": [
+              "other",
+              "nav",
+              "button",
+              "body",
+              "link",
+              "heading",
+              "hero"
+            ],
+            "frequency": 1015,
+            "confidence": 1,
+            "prominence": 90617347.47839709,
+            "properties": [
+              "color",
+              "borderColor"
+            ]
+          },
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "link",
+              "body"
+            ],
+            "frequency": 8,
+            "confidence": 1,
+            "prominence": 12581.432330724538,
+            "properties": [
+              "backgroundColor"
+            ]
+          }
+        ],
+        "isDarkMode": true,
+        "colorfulness": 0,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 21,
+            "background": "#000000",
+            "foreground": "#ffffff"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [
+          {
+            "value": 2,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 8
+          },
+          {
+            "value": 9999,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 7
+          }
+        ],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 2,
+            "frequency": 14,
+            "properties": [
+              "paddingTop",
+              "paddingBottom"
+            ]
+          },
+          {
+            "value": 4,
+            "frequency": 2,
+            "properties": [
+              "marginTop"
+            ]
+          },
+          {
+            "value": 22,
+            "frequency": 15,
+            "properties": [
+              "marginLeft",
+              "paddingRight",
+              "paddingLeft"
+            ]
+          }
+        ],
+        "density": "compact",
+        "baseUnit": null
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "Inter",
+            "source": "google",
+            "weights": [
+              400,
+              700
+            ],
+            "frequency": 111,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "Dahlia",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 92,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 144,
+          "name": "Golden Ratio",
+          "ratio": 1.618,
+          "confidence": 0.75
+        },
+        "steps": [
+          {
+            "size": 11,
+            "family": "Inter",
+            "weight": 400,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 3,
+            "lineHeight": 1.5,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 13,
+            "family": "Inter",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "nav",
+              "button",
+              "body",
+              "link",
+              "heading",
+              "hero"
+            ],
+            "frequency": 86,
+            "lineHeight": 1.5,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 13,
+            "family": "Inter",
+            "weight": 700,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.5,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 22,
+            "family": "Inter",
+            "weight": 400,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 21,
+            "lineHeight": 1.5,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 144,
+            "family": "Dahlia",
+            "weight": 400,
+            "contexts": [
+              "heading",
+              "other"
+            ],
+            "frequency": 92,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Do use Void Black (#000000) as the primary page background to contrast dramatically with content.",
+        "Do use Ghost White (#ffffff) for all text and interactive elements to ensure high contrast and focal point.",
+        "Do apply the Dahlia font at 144px weight 400 for all major project titles, emphasizing its wide, artistic character.",
+        "Do use the Inter font for all navigational and body text, with 1.5 line-height for readability at smaller sizes.",
+        "Do implement 9999px border-radius for any compact interactive tag that needs a pill-like shape.",
+        "Do use no explicit padding or border for default interactive components like navigation links, letting text content define their visual footprint."
+      ],
+      "tags": [
+        "artistic",
+        "minimalist",
+        "typographic",
+        "high-contrast",
+        "editorial",
+        "portfolio",
+        "dark-mode",
+        "cinematic"
+      ],
+      "donts": [
+        "Don't introduce any background colors other than Void Black (#000000) or Ghost White (#ffffff) to maintain visual starkness.",
+        "Don't use Inter for display headlines; reserve Dahlia for that specific, dramatic role.",
+        "Don't apply shadows or elevated effects; achieve depth through bold typography and contrasting backgrounds.",
+        "Don't use letter-spacing values other than normal for Inter font, maintaining its intended readability.",
+        "Don't add borders to primary interactive elements; their clickable state is indicated by color contrast and inherent link styling."
+      ],
+      "theme": "dark",
+      "colors": [
+        {
+          "hex": "#000000",
+          "name": "Void Black",
+          "role": "Primary background for the entire page, creating a deep, infinite canvas that makes featured content pop.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#ffffff",
+          "name": "Ghost White",
+          "role": "Primary text color for all content, navigation, and interactive elements; it provides stark contrast against the Void Black background.",
+          "group": "neutral"
+        }
+      ],
+      "layout": "The page adopts a full-bleed, centered content model that maximizes visual impact. The overall layout is dark-themed, using a fixed Void Black background. The hero section for each project is a full-viewport image presented like a skewed artwork 'card' against this infinite black. Content sections, primarily for project titles and a sub-heading, are centrally stacked directly over these images. Navigation is a simple, high-contrast array of links (`Index`, `About`) in the top right. A minimal 'Available for work' area is anchored to the bottom left. The primary rhythm is a single-column, scrolling showcase of these dramatically presented projects, one after another, creating a sequential gallery experience.",
+      "imagery": "The site uses photography as its primary visual medium, showcasing project work as full-bleed, high-resolution hero images. The images are presented at a slight, dramatic tilt, sometimes with subtle light rays filtering through, lending a cinematic and curated feel. They are contained within a defined viewport, acting as individual 'pieces' on the black canvas. No explicit masking or rounded corners are applied to the images; they retain sharp edges, focusing the attention on the content itself. The role of these visuals is primarily expressive and demonstrative, presenting the designer's work as artistic highlights, often with a moody or atmospheric treatment.",
+      "similar": [
+        {
+          "why": "Shares a sophisticated, high-contrast dark theme with premium product presentation and minimalist typography.",
+          "business": "B&O (Bang & Olufsen)"
+        },
+        {
+          "why": "Similar experimental, art-gallery-like presentation of work, heavy reliance on large display typography and striking imagery against dark backdrops.",
+          "business": "Awwwards Nominees (certain portfolios)"
+        },
+        {
+          "why": "Uses a dark, infinite canvas with highly polished, almost architectural product shots and bold, elegant typography to convey prestige.",
+          "business": "Apple (specific product pages)"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "nav-items": "2px",
+          "interactive-tags": "9999px"
+        },
+        "elementGap": "22px",
+        "sectionGap": "",
+        "cardPadding": "0px",
+        "pageMaxWidth": null
+      },
+      "category": "agency",
+      "northStar": "Shadow Gallery, Spotlit Art. The website feels like stepping into a dark art gallery with carefully curated, dramatically lit pieces.",
+      "typeScale": [
+        {
+          "role": "caption",
+          "size": 11,
+          "lineHeight": 1.5
+        },
+        {
+          "role": "body-sm",
+          "size": 13,
+          "lineHeight": 1.5
+        },
+        {
+          "role": "body",
+          "size": 22,
+          "lineHeight": 1.5
+        }
+      ],
+      "components": [
+        {
+          "html": "<style>:root{--color-void-black:#000000;--color-ghost-white:#ffffff;--font-inter:system-ui,sans-serif;--font-dahlia:serif;--spacing-4:4px;--spacing-22:22px;}*{box-sizing:border-box;margin:0;padding:0;}</style><div style=\"background:var(--color-void-black);width:600px;padding:40px 32px;font-family:var(--font-inter);\"><div style=\"position:relative;width:100%;aspect-ratio:16/10;overflow:hidden;transform:rotate(-2.5deg);transform-origin:center center;\">\n  <div style=\"width:100%;height:100%;background:linear-gradient(135deg,#3a1a0a 0%,#7a3018 30%,#c4520a 55%,#8b2500 80%,#2a0d05 100%);position:relative;\">\n    <div style=\"position:absolute;inset:0;background:radial-gradient(ellipse at 60% 30%,rgba(255,180,80,0.18) 0%,transparent 60%);pointer-events:none;\"></div>\n    <div style=\"position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:24px;\">\n      <span style=\"font-family:var(--font-inter);font-size:11px;font-weight:400;color:var(--color-ghost-white);letter-spacing:0.04em;margin-bottom:10px;opacity:0.92;\">AI-Native Entertainment Studio</span>\n      <h2 style=\"font-family:var(--font-dahlia);font-size:72px;font-weight:400;color:var(--color-ghost-white);line-height:1.0;text-align:center;text-shadow:0 2px 24px rgba(0,0,0,0.5);\">Secret Level</h2>\n      <div style=\"margin-top:28px;width:48px;height:48px;border-radius:9999px;background:rgba(0,0,0,0.55);display:flex;align-items:center;justify-content:center;border:1px solid rgba(255,255,255,0.18);\">\n        <svg width=\"18\" height=\"18\" viewBox=\"0 0 18 18\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M3 9h12M10 4l5 5-5 5\" stroke=\"#ffffff\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>\n      </div>\n    </div>\n  </div>\n</div></div>",
+          "name": "Project Card",
+          "role": "",
+          "description": ""
+        },
+        {
+          "html": "<style>:root{--color-void-black:#000000;--color-ghost-white:#ffffff;--font-inter:system-ui,sans-serif;--font-dahlia:serif;--spacing-4:4px;--spacing-22:22px;}*{box-sizing:border-box;margin:0;padding:0;}</style><div style=\"background:var(--color-void-black);width:600px;padding:60px 40px;display:flex;align-items:flex-end;justify-content:flex-start;min-height:160px;\"><div style=\"display:flex;flex-direction:column;gap:var(--spacing-4);\"><span style=\"font-family:var(--font-inter);font-size:13px;font-weight:400;color:var(--color-ghost-white);line-height:1.5;opacity:0.9;\">Available for work</span><a href=\"#\" style=\"font-family:var(--font-inter);font-size:13px;font-weight:400;color:var(--color-ghost-white);line-height:1.5;text-decoration:none;display:inline-flex;align-items:center;gap:5px;opacity:0.9;\">Apr 2026<svg width=\"13\" height=\"13\" viewBox=\"0 0 13 13\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" style=\"display:inline-block;vertical-align:middle;\"><path d=\"M2.5 10.5L10.5 2.5M10.5 2.5H5M10.5 2.5V8\" stroke=\"#ffffff\" stroke-width=\"1.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></a></div></div>",
+          "name": "Available for Work Badge",
+          "role": "",
+          "description": ""
+        },
+        {
+          "html": "<style>:root{--color-void-black:#000000;--color-ghost-white:#ffffff;--font-inter:system-ui,sans-serif;--font-dahlia:serif;--spacing-4:4px;--spacing-22:22px;}*{box-sizing:border-box;margin:0;padding:0;}</style><div style=\"background:var(--color-void-black);width:600px;padding:40px;display:flex;align-items:center;justify-content:center;\"><div style=\"display:flex;flex-direction:column;align-items:center;gap:32px;\"><div style=\"display:flex;flex-direction:row;align-items:center;gap:40px;\"><div style=\"font-family:var(--font-inter);font-size:13px;font-weight:400;color:var(--color-ghost-white);opacity:0.9;\">Index</div><div style=\"font-family:var(--font-inter);font-size:13px;font-weight:400;color:var(--color-ghost-white);opacity:0.45;\">About</div></div><div style=\"display:flex;flex-direction:column;align-items:center;gap:6px;\"><div style=\"width:14px;height:14px;border:1.5px solid rgba(255,255,255,0.85);border-radius:2px;display:flex;align-items:center;justify-content:center;\"><div style=\"width:5px;height:5px;background:var(--color-ghost-white);border-radius:1px;\"></div></div><div style=\"width:14px;height:14px;border:1.5px solid rgba(255,255,255,0.35);border-radius:2px;\"></div><div style=\"width:14px;height:14px;border:1.5px solid rgba(255,255,255,0.35);border-radius:2px;\"></div><div style=\"width:14px;height:14px;border:1.5px solid rgba(255,255,255,0.35);border-radius:2px;\"></div></div></div></div>",
+          "name": "Scroll Index Navigator",
+          "role": "",
+          "description": ""
+        },
+        {
+          "name": "Navigation Link",
+          "role": "Primary navigation elements in the header and footer.",
+          "description": "Ghost White text (#ffffff) on a Void Black (#000000) background, using Inter font at 13px weight 400. No explicit padding or border is defined beyond content spacing."
+        },
+        {
+          "name": "Headline Project Title",
+          "role": "Prominent, artistic titles for each project section.",
+          "description": "Ghost White text (#ffffff), Dahlia font at 144px weight 400, on a Void Black (#000000) background. The wide letter-spacing is a key visual characteristic."
+        },
+        {
+          "name": "Sub-heading Text",
+          "role": "Descriptive text below main headlines or secondary information.",
+          "description": "Ghost White text (#ffffff), Inter font at 22px weight 400. Letter spacing is normal. Used for 'Interaction Designer & Creative Developer'."
+        },
+        {
+          "name": "Body Text",
+          "role": "General informative text, contextual details.",
+          "description": "Ghost White text (#ffffff), Inter font at 13px weight 400, with a line height of 1.5. Used for 'Available for work: Apr 2026' and similar compact information blocks."
+        },
+        {
+          "name": "Invisible Link Button",
+          "role": "Interactive elements with no visible background or border.",
+          "description": "Ghost White text (#ffffff) on a transparent background, borderless, with 0px padding and 0px border radius. Uses Inter font, size and weight depend on context (e.g., 13px weight 400 for 'Available for work')."
+        },
+        {
+          "name": "Circular Nav Button",
+          "role": "Implicit interactive element for navigation (e.g., scroll indicator).",
+          "description": "Dot-based navigation, where the active state is implied by shape and color, likely a Ghost White (#ffffff) circle on the Void Black (#000000) background, with a radius of 9999px for a pill-like or circular appearance."
+        }
+      ],
+      "typography": [
+        {
+          "role": "Functional text: Body copy, navigation labels, button text, and supporting information; its legibility anchors the UI amidst the more dramatic headline font.",
+          "sizes": "11px, 13px, 22px",
+          "family": "Inter",
+          "weight": "400, 700",
+          "lineHeight": "1.50",
+          "substitute": "system-ui, sans-serif",
+          "letterSpacing": "normal"
+        },
+        {
+          "role": "Display headlines: Used for prominent project titles; its exaggerated serifs and large size create a memorable, artistic impact, like a marque title for a cinematic experience.",
+          "sizes": "144px",
+          "family": "Dahlia",
+          "weight": "400",
+          "lineHeight": "1.00",
+          "substitute": "serif",
+          "letterSpacing": "normal"
+        }
+      ],
+      "description": "This design system conjures the atmosphere of a clandestine gallery at twilight, where stark, graphic information exists within the dramatic interplay of light and shadow, and hero imagery is presented like precious art under a spotlight. Typography drives much of the visual drama: a bold, wide-set serif announces key content with a theatrical flourish, while precise, functional sans-serif provides navigational clarity and textual detail. The overall impression is one of curated intensity, favoring strong visual statements over intricate details or soft transitions.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "### Quick Color Reference\n- Text: #ffffff (Ghost White)\n- Background: #000000 (Void Black)\n- CTA (implied link text): #ffffff (Ghost White)\n- Border (implied for interactive tags): #ffffff (Ghost White)\n- Accent: N/A\n\n### 3-5 Example Component Prompts\n1. Create a header section: 'Andreas Antonsson' (Inter, 22px, w400, #ffffff) top-left, 'Index' and 'About' links (Inter, 13px, w400, #ffffff) top-right. Background is #000000.\n2. Design a project hero section: Full-bleed image (replace with placeholder image URL) with a dramatic tilt. Overlay 'Secret Level' (Dahlia, 144px, w400, #ffffff) centered, with 'Al-Native Entertainment Studio' (Inter, 13px, w400, #ffffff) above it. Include a Ghost White (#ffffff) right arrow icon, center-aligned below the title. This entire section should be on a #000000 background.\n3. Implement the 'Available for work' footer: 'Available for work: Apr 2026.' (Inter, 13px, w400, #ffffff) at the bottom-left on a #000000 background. The year 2026 should be part of an interactive tag with 9999px radius, filled with #ffffff, with #000000 text if it were a solid button (currently text-only).\n4. Create a page navigation dot indicator: A series of small, interactive dots as a side-menu. Each dot is 2px border-radius, background #ffffff for active, transparent for inactive. The dots are separated by 2px vertical spacing."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775925748873-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775925748873-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/d14acfe3-20ea-4c18-be22-aba396b4fa80",
+  "ranks": {
+    "trending": 1289,
+    "popular": 779,
+    "newest": 1022
+  },
+  "localSlug": "andreas-antonsson-d14acfe3"
+}

@@ -1,0 +1,584 @@
+{
+  "id": "733f32ca-efc3-40fb-bc58-327bd2b45828",
+  "url": "https://www.lundqvistdallyn.studio",
+  "siteName": "Art Direction/Design",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777520651091-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777520651091-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "light",
+  "colors": [
+    {
+      "name": "Canvas White",
+      "hex": "#ffffff"
+    },
+    {
+      "name": "Ink Black",
+      "hex": "#1d1d1d"
+    },
+    {
+      "name": "Accent Teal",
+      "hex": "#75fbee"
+    }
+  ],
+  "fonts": [
+    "Favorit",
+    "AkkuratMonoLLWeb"
+  ],
+  "northStar": "High-contrast monochrome blueprint",
+  "createdAt": "2026-04-30T03:44:27.565Z",
+  "previewVideoCapturedAt": null,
+  "industry": "design",
+  "fullResult": {
+    "meta": {
+      "url": "https://www.lundqvistdallyn.studio",
+      "siteName": "Art Direction/Design",
+      "extractedAt": "2026-04-30T03:44:27.499Z",
+      "durationMs": 25898,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 182,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#1d1d1d",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.23075046833254287
+            },
+            "contexts": [
+              "link",
+              "nav",
+              "other",
+              "icon",
+              "heading",
+              "body",
+              "image",
+              "footer",
+              "list"
+            ],
+            "frequency": 828,
+            "confidence": 1,
+            "prominence": 108114651.32289214,
+            "properties": [
+              "color",
+              "borderColor",
+              "fill"
+            ],
+            "usageCounts": {
+              "nav/fill": 3,
+              "icon/fill": 6,
+              "nav/color": 19,
+              "body/color": 6,
+              "icon/color": 5,
+              "link/color": 26,
+              "list/color": 4,
+              "other/fill": 4,
+              "image/color": 8,
+              "other/color": 77,
+              "footer/color": 1,
+              "heading/color": 17,
+              "nav/borderColor": 76,
+              "body/borderColor": 24,
+              "icon/borderColor": 20,
+              "link/borderColor": 104,
+              "list/borderColor": 16,
+              "image/borderColor": 32,
+              "other/borderColor": 308,
+              "footer/borderColor": 4,
+              "heading/borderColor": 68
+            }
+          },
+          {
+            "hex": "#ffffff",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 1.0000000000000002
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "confidence": 1,
+            "prominence": 17674433.543316845,
+            "properties": [
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "other/backgroundColor": 2
+            }
+          },
+          {
+            "hex": "#75fbee",
+            "oklch": {
+              "c": 0.11960704849006759,
+              "h": 186.75682689257997,
+              "l": 0.9095044582874282
+            },
+            "contexts": [
+              "footer",
+              "other"
+            ],
+            "frequency": 3,
+            "confidence": 1,
+            "prominence": 2764800,
+            "properties": [
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "other/backgroundColor": 2,
+              "footer/backgroundColor": 1
+            }
+          }
+        ],
+        "isDarkMode": false,
+        "colorfulness": 0.001164209939554858,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 16.86,
+            "background": "#ffffff",
+            "foreground": "#1d1d1d"
+          },
+          {
+            "level": "AAA",
+            "ratio": 13.48,
+            "background": "#75fbee",
+            "foreground": "#1d1d1d"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 5,
+            "contexts": [
+              "nav",
+              "link"
+            ],
+            "frequency": 5,
+            "properties": [
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingBottom|nav",
+              "paddingBottom|link"
+            ]
+          },
+          {
+            "value": 10,
+            "contexts": [
+              "nav",
+              "other",
+              "link",
+              "list",
+              "heading"
+            ],
+            "frequency": 73,
+            "properties": [
+              "paddingRight",
+              "paddingLeft",
+              "marginBottom",
+              "paddingTop"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|nav",
+              "paddingLeft|nav",
+              "paddingRight|other",
+              "paddingLeft|other",
+              "marginBottom|other",
+              "paddingRight|link",
+              "paddingLeft|link",
+              "paddingRight|list",
+              "paddingLeft|list",
+              "paddingTop|other",
+              "paddingRight|heading",
+              "paddingLeft|heading",
+              "marginBottom|heading"
+            ]
+          },
+          {
+            "value": 19,
+            "contexts": [
+              "other",
+              "link"
+            ],
+            "frequency": 11,
+            "properties": [
+              "marginTop",
+              "paddingTop",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "marginTop|other",
+              "paddingTop|other",
+              "paddingBottom|other",
+              "marginTop|link"
+            ]
+          },
+          {
+            "value": 20,
+            "contexts": [
+              "nav",
+              "other",
+              "footer",
+              "list"
+            ],
+            "frequency": 22,
+            "properties": [
+              "paddingTop",
+              "paddingBottom",
+              "paddingRight",
+              "paddingLeft",
+              "marginLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|nav",
+              "paddingBottom|nav",
+              "paddingRight|nav",
+              "paddingLeft|nav",
+              "paddingRight|other",
+              "paddingLeft|other",
+              "paddingTop|footer",
+              "paddingBottom|footer",
+              "marginLeft|list"
+            ]
+          },
+          {
+            "value": 30,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 3,
+            "properties": [
+              "marginLeft"
+            ],
+            "propertyContextPairs": [
+              "marginLeft|nav"
+            ]
+          },
+          {
+            "value": 75,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "marginTop"
+            ],
+            "propertyContextPairs": [
+              "marginTop|other"
+            ]
+          },
+          {
+            "value": 113,
+            "contexts": [
+              "other",
+              "link"
+            ],
+            "frequency": 8,
+            "properties": [
+              "marginTop"
+            ],
+            "propertyContextPairs": [
+              "marginTop|other",
+              "marginTop|link"
+            ]
+          }
+        ],
+        "density": "compact",
+        "baseUnit": null
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "AkkuratMonoLLWeb",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 146,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "Favorit",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 25,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 14,
+          "name": "Minor Third",
+          "ratio": 1.2,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 11,
+            "family": "AkkuratMonoLLWeb",
+            "weight": 400,
+            "contexts": [
+              "link",
+              "nav",
+              "other",
+              "body",
+              "heading",
+              "list",
+              "icon"
+            ],
+            "frequency": 50,
+            "lineHeight": 1.7,
+            "letterSpacing": 0.1,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 18,
+            "family": "AkkuratMonoLLWeb",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "icon",
+              "link",
+              "image",
+              "footer"
+            ],
+            "frequency": 96,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 21,
+            "family": "Favorit",
+            "weight": 400,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 7,
+            "lineHeight": 1.2,
+            "letterSpacing": -0.035,
+            "textTransform": "none"
+          },
+          {
+            "size": 51,
+            "family": "Favorit",
+            "weight": 400,
+            "contexts": [
+              "link",
+              "heading"
+            ],
+            "frequency": 13,
+            "lineHeight": 1.1,
+            "letterSpacing": -0.035,
+            "textTransform": "none"
+          },
+          {
+            "size": 60,
+            "family": "Favorit",
+            "weight": 400,
+            "contexts": [
+              "heading",
+              "link",
+              "other"
+            ],
+            "frequency": 5,
+            "lineHeight": 1.1,
+            "letterSpacing": -0.035,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Use Canvas White (#ffffff) as the dominant background color for all main content areas.",
+        "Employ Ink Black (#1d1d1d) exclusively for primary text, headings, and interactive element borders.",
+        "Apply AkkuratMonoLLWeb for all functional text, navigation, and small information at 11px or 18px, with 0.1em letter-spacing.",
+        "Reserve Favorit for headlines and prominent textual statements, at sizes 21px, 51px, or 60px, with -0.035em letter-spacing.",
+        "Introduce Accent Teal (#75fbee) only as a background color for distinct content blocks, like the footer or specific highlighted sections.",
+        "Maintain generous negative space, with a section gap of 113px between major content blocks.",
+        "Utilize a compact element gap of 10px, especially for horizontal spacing within navigation or grouped links."
+      ],
+      "donts": [
+        "Do not use Accent Teal (#75fbee) for text or borders; it is strictly a background color.",
+        "Avoid using any other colors beyond Canvas White, Ink Black, and Accent Teal.",
+        "Do not vary the letter-spacing of Favorit or AkkuratMonoLLWeb from their specified values.",
+        "Do not add shadows or heavy borders to elements; surfaces are largely flat.",
+        "Avoid mixing text styles; Favorit is for display, AkkuratMonoLLWeb for everything else.",
+        "Do not use subtle gradients or overlays; maintain a stark, high-contrast aesthetic.",
+        "Do not introduce rounded corners; elements should adhere to sharp, precise edges."
+      ],
+      "theme": "light",
+      "colors": [
+        {
+          "hex": "#ffffff",
+          "name": "Canvas White",
+          "role": "Page and section backgrounds, primary surface for content",
+          "group": "neutral"
+        },
+        {
+          "hex": "#1d1d1d",
+          "name": "Ink Black",
+          "role": "Dark borders and separators for elevated surfaces and inverted UI. Do not promote it to the primary CTA color",
+          "group": "neutral"
+        },
+        {
+          "hex": "#75fbee",
+          "name": "Accent Teal",
+          "role": "Teal wash for highlight backgrounds, decorative bands, and soft emphasis behind content. Do not promote it to the primary CTA color",
+          "group": "accent"
+        }
+      ],
+      "layout": "The page adheres to a full-bleed structure without a fixed max-width, allowing content to stretch across the viewport, then often containing inner elements. The hero features a centered headline over a background that alternates between Canvas White and Ink Black. Sections maintain a consistent vertical rhythm with a 113px section gap. Content is arranged in alternating structures, including text-left/image-right and centered stacks for large headlines. There's an implicit grid for case studies or portfolio pieces, where visuals are presented as large, distinct blocks. The layout is spacious yet compact in information flow, guiding the eye through deliberate, large-scale compositions. Navigation is a minimal top-bar, fixed to the top right corner, while the brand logo 'L&D' is top-left.",
+      "imagery": "Imagery primarily consists of contained, high-impact product photography or abstract graphics, often presented as large, full-width blocks within the layout. The treatment leans towards stark presentation with minimal context, emphasizing the object or subject itself. Icons are minimal, monochromatic, and typically outlined (#1d1d1d on #ffffff). The density is high-impact visual, where imagery takes up significant screen real estate, acting as both decorative atmosphere and content showcase, with a text-light approach.",
+      "similar": [
+        {
+          "why": "Monochrome base palette with precise accent colors and strong, hierarchical typography.",
+          "business": "Stripe"
+        },
+        {
+          "why": "High-contrast UI, emphasis on clean typography and functional, restrained use of color.",
+          "business": "Linear"
+        },
+        {
+          "why": "Editorial feel, strong focus on stark typography, and a deliberate use of negative space.",
+          "business": "AIGA Design Archives"
+        },
+        {
+          "why": "Clear, direct visual language with high contrast and minimal adornment, letting content lead.",
+          "business": "Hey.com"
+        }
+      ],
+      "spacing": {
+        "radius": {},
+        "elementGap": "10px",
+        "sectionGap": "113px",
+        "cardPadding": "20px",
+        "pageMaxWidth": null
+      },
+      "industry": "design",
+      "northStar": "High-contrast monochrome blueprint",
+      "typeScale": [
+        {
+          "role": "caption",
+          "size": 11,
+          "lineHeight": 1,
+          "letterSpacing": 1.1
+        },
+        {
+          "role": "body",
+          "size": 18,
+          "lineHeight": 1.7,
+          "letterSpacing": 1.8
+        },
+        {
+          "role": "subheading",
+          "size": 21,
+          "lineHeight": 1.1,
+          "letterSpacing": -0.735
+        },
+        {
+          "role": "heading",
+          "size": 51,
+          "lineHeight": 1.2,
+          "letterSpacing": -1.785
+        },
+        {
+          "role": "display",
+          "size": 60,
+          "lineHeight": 1.2,
+          "letterSpacing": -2.1
+        }
+      ],
+      "components": [
+        {
+          "name": "Primary Navigation Link",
+          "role": "Top-level navigation items",
+          "description": "Text in AkkuratMonoLLWeb, weight 400, 11px, line-height 1.00, letter-spacing 0.1em, Ink Black (#1d1d1d). Receives a 10px padding-bottom on hover, and an Ink Black (#1d1d1d) border-bottom."
+        },
+        {
+          "name": "Hero Headline",
+          "role": "Main page headline",
+          "description": "Favorit, weight 400, 60px, line-height 1.20, letter-spacing -0.035em, Ink Black (#1d1d1d). Presented with generous vertical spacing (marginTop 75px)."
+        },
+        {
+          "name": "Content Grid Item",
+          "role": "Individual elements within a layout grid for work examples or features",
+          "description": "Each item uses an image or graphic as its main visual. Headings within are Favorit, weight 400, 21px, line-height 1.10, letter-spacing -0.035em, Ink Black (#1d1d1d). Subtext in AkkuratMonoLLWeb, weight 400, 18px, line-height 1.70, letter-spacing 0.1em, Ink Black (#1d1d1d)."
+        },
+        {
+          "name": "Footer Canvas",
+          "role": "Page footer background",
+          "description": "Background color of Accent Teal (#75fbee), with Ink Black (#1d1d1d) text."
+        }
+      ],
+      "typography": [
+        {
+          "role": "Headlines, section titles, prominent display text — its wider tracking (-0.035em) gives it a composed, editorial feel.",
+          "sizes": "21px, 51px, 60px",
+          "family": "Favorit",
+          "weight": "400",
+          "lineHeight": "1.10, 1.20",
+          "substitute": "Arial",
+          "letterSpacing": "-0.0350em"
+        },
+        {
+          "role": "Navigation links, body text, meta information, and functional UI elements — the monospaced, slightly wider tracking (0.1em) provides a technical, precise voice.",
+          "sizes": "11px, 18px",
+          "family": "AkkuratMonoLLWeb",
+          "weight": "400",
+          "lineHeight": "1.00, 1.70",
+          "substitute": "Menlo",
+          "letterSpacing": "0.1000em"
+        }
+      ],
+      "description": "Lundqvist & Dallyn presents as a disciplined, high-contrast monochrome canvas, where bold typography and intentional negative space command attention. Visual information is presented with stark clarity, often reversing between black text on white and white text on black. The system uses a single, vibrant teal accent color sparingly, injecting a precise jolt of energy into an otherwise composed and minimal aesthetic. Imagery is integrated as bold, contained blocks, maintaining the overall sense of deliberate, high-impact design.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "Quick Color Reference:\ntext: #1d1d1d\nbackground: #ffffff\nborder: #1d1d1d\naccent: #75fbee\nprimary action: no distinct CTA color\n\nExample Component Prompts:\nCreate a navigation bar: background #ffffff. \"L&D\" logo (imagine an SVG icon in Ink Black #1d1d1d). Links are AkkuratMonoLLWeb weight 400, 11px, Ink Black (#1d1d1d), letter-spacing 0.1em, with 10px left/right padding and 5px bottom padding on active state, all elements separated by 10px. The words are 'Work', 'About', 'Index', 'Shop', 'Contact'.\nCreate a hero section with two columns: left column is empty. Right column features a headline \"We create elegant and engaging designs for both online and offline\" in Favorit weight 400, 60px, line-height 1.20, letter-spacing -0.035em, Ink Black (#1d1d1d). Section should have 75px top margin.\nCreate a footer section: background Accent Teal (#75fbee). Text in AkkuratMonoLLWeb weight 400, 18px, Ink Black (#1d1d1d), letter-spacing 0.1em. Content 'Oxford 4:44 AM' and 'NY 11:44 PM / PDX 8:44 PM' separated by 10px."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777520651091-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777520651091-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/733f32ca-efc3-40fb-bc58-327bd2b45828",
+  "ranks": {
+    "trending": 347,
+    "popular": 549,
+    "newest": 80
+  },
+  "localSlug": "art-direction-design-733f32ca"
+}

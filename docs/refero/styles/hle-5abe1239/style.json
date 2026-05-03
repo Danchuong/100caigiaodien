@@ -1,0 +1,873 @@
+{
+  "id": "5abe1239-79b9-4ebc-b4d1-9b2a85dc29a4",
+  "url": "https://hle.io",
+  "siteName": "HLE",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777512139092-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777512139092-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "dark",
+  "colors": [
+    {
+      "name": "Midnight Base",
+      "hex": "#101011"
+    },
+    {
+      "name": "Ghost Canvas",
+      "hex": "#ffffff"
+    },
+    {
+      "name": "Slate Highlight",
+      "hex": "#bbbbbb"
+    },
+    {
+      "name": "Elevated Panel",
+      "hex": "#313131"
+    },
+    {
+      "name": "Subtle Gray",
+      "hex": "#8a8a8a"
+    },
+    {
+      "name": "Medium Gray",
+      "hex": "#717172"
+    }
+  ],
+  "fonts": [
+    "PPSupplySansRegular",
+    "PPSupplyMonoRegular"
+  ],
+  "northStar": "grayscale retro-digital terminal",
+  "createdAt": "2026-04-30T01:22:36.358Z",
+  "previewVideoCapturedAt": null,
+  "industry": "media",
+  "fullResult": {
+    "meta": {
+      "url": "https://hle.io",
+      "siteName": "HLE",
+      "extractedAt": "2026-04-30T01:22:36.290Z",
+      "durationMs": 33071,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 101,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#ffffff",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 1.0000000000000002
+            },
+            "contexts": [
+              "other",
+              "heading",
+              "button",
+              "body"
+            ],
+            "frequency": 226,
+            "confidence": 1,
+            "prominence": 50716034.19764513,
+            "properties": [
+              "color",
+              "borderColor",
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "body/color": 6,
+              "other/color": 33,
+              "button/color": 1,
+              "heading/color": 3,
+              "body/borderColor": 24,
+              "other/borderColor": 132,
+              "button/borderColor": 4,
+              "heading/borderColor": 12,
+              "body/backgroundColor": 6,
+              "other/backgroundColor": 5
+            }
+          },
+          {
+            "hex": "#101011",
+            "oklch": {
+              "c": 0.002042886921035309,
+              "h": 286.18480412554476,
+              "l": 0.1734824261400851
+            },
+            "contexts": [
+              "other",
+              "body",
+              "nav",
+              "button",
+              "icon",
+              "footer"
+            ],
+            "frequency": 264,
+            "confidence": 1,
+            "prominence": 10432603.720087929,
+            "properties": [
+              "backgroundColor",
+              "color",
+              "borderColor",
+              "fill"
+            ],
+            "usageCounts": {
+              "nav/color": 25,
+              "body/color": 9,
+              "icon/color": 1,
+              "other/fill": 1,
+              "other/color": 14,
+              "button/color": 2,
+              "footer/color": 1,
+              "nav/borderColor": 100,
+              "body/borderColor": 36,
+              "icon/borderColor": 4,
+              "other/borderColor": 56,
+              "button/borderColor": 8,
+              "footer/borderColor": 4,
+              "body/backgroundColor": 1,
+              "other/backgroundColor": 2
+            }
+          },
+          {
+            "hex": "#bbbbbb",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.7920743408035346
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 1296000,
+            "properties": [
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "other/backgroundColor": 1
+            }
+          },
+          {
+            "hex": "#313131",
+            "oklch": {
+              "c": 0.0008805143982155557,
+              "h": 286.3483705966758,
+              "l": 0.3113650345024444
+            },
+            "contexts": [
+              "nav",
+              "body"
+            ],
+            "frequency": 8,
+            "confidence": 1,
+            "prominence": 3207.96410145962,
+            "properties": [
+              "boxShadow",
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "nav/boxShadow": 3,
+              "body/boxShadow": 2,
+              "nav/backgroundColor": 3
+            }
+          },
+          {
+            "hex": "#8a8a8a",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.6334289343813261
+            },
+            "contexts": [
+              "nav",
+              "body"
+            ],
+            "frequency": 4,
+            "confidence": 1,
+            "prominence": 2674.861165310241,
+            "properties": [
+              "boxShadow",
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "nav/boxShadow": 3,
+              "body/backgroundColor": 1
+            }
+          },
+          {
+            "hex": "#717172",
+            "oklch": {
+              "c": 0.0015282531417716131,
+              "h": 286.3491689248402,
+              "l": 0.5489517407294356
+            },
+            "contexts": [
+              "nav",
+              "body"
+            ],
+            "frequency": 5,
+            "confidence": 1,
+            "prominence": 2615.98205072981,
+            "properties": [
+              "backgroundColor",
+              "boxShadow"
+            ],
+            "usageCounts": {
+              "body/boxShadow": 1,
+              "nav/backgroundColor": 3,
+              "body/backgroundColor": 1
+            }
+          },
+          {
+            "hex": "#444445",
+            "oklch": {
+              "c": 0.0010007299455899311,
+              "h": 286.3527486524302,
+              "l": 0.3868668511085591
+            },
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 6,
+            "confidence": 1,
+            "prominence": 1617.03643510518,
+            "properties": [
+              "boxShadow"
+            ],
+            "usageCounts": {
+              "nav/boxShadow": 6
+            }
+          },
+          {
+            "hex": "#383838",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.3406970568972224
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 1440,
+            "properties": [
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "other/backgroundColor": 1
+            }
+          },
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "icon",
+              "other"
+            ],
+            "frequency": 6,
+            "confidence": 1,
+            "prominence": 1195.9331967965393,
+            "properties": [
+              "fill"
+            ],
+            "usageCounts": {
+              "icon/fill": 2,
+              "other/fill": 4
+            }
+          },
+          {
+            "hex": "#4c4c4c",
+            "oklch": {
+              "c": 0.0009831050844000611,
+              "h": 286.35672939313656,
+              "l": 0.415267120293741
+            },
+            "contexts": [
+              "body"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 1152,
+            "properties": [
+              "boxShadow"
+            ],
+            "usageCounts": {
+              "body/boxShadow": 1
+            }
+          },
+          {
+            "hex": "#29292a",
+            "oklch": {
+              "c": 0.0009033803711428115,
+              "h": 286.34136986634314,
+              "l": 0.28113226125387963
+            },
+            "contexts": [
+              "body"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 1152,
+            "properties": [
+              "boxShadow"
+            ],
+            "usageCounts": {
+              "body/boxShadow": 1
+            }
+          },
+          {
+            "hex": "#575757",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.45678199318143103
+            },
+            "contexts": [
+              "body"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 196,
+            "properties": [
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "body/backgroundColor": 1
+            }
+          },
+          {
+            "hex": "#212021",
+            "oklch": {
+              "c": 0.001165900923753051,
+              "h": 337.36091151362245,
+              "l": 0.24518920732533458
+            },
+            "contexts": [
+              "body"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 196,
+            "properties": [
+              "boxShadow"
+            ],
+            "usageCounts": {
+              "body/boxShadow": 1
+            }
+          }
+        ],
+        "isDarkMode": true,
+        "colorfulness": 0.0028986578846884915,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 21,
+            "background": "#ffffff",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 19.02,
+            "background": "#101011",
+            "foreground": "#ffffff"
+          },
+          {
+            "level": "AAA",
+            "ratio": 16.24,
+            "background": "#ffffff",
+            "foreground": "#212021"
+          },
+          {
+            "level": "AAA",
+            "ratio": 14.53,
+            "background": "#ffffff",
+            "foreground": "#29292a"
+          },
+          {
+            "level": "AAA",
+            "ratio": 13.01,
+            "background": "#313131",
+            "foreground": "#ffffff"
+          },
+          {
+            "level": "AAA",
+            "ratio": 11.73,
+            "background": "#383838",
+            "foreground": "#ffffff"
+          },
+          {
+            "level": "AAA",
+            "ratio": 10.94,
+            "background": "#bbbbbb",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 9.91,
+            "background": "#bbbbbb",
+            "foreground": "#101011"
+          },
+          {
+            "level": "AAA",
+            "ratio": 9.73,
+            "background": "#ffffff",
+            "foreground": "#444445"
+          },
+          {
+            "level": "AAA",
+            "ratio": 8.59,
+            "background": "#ffffff",
+            "foreground": "#4c4c4c"
+          },
+          {
+            "level": "AAA",
+            "ratio": 8.46,
+            "background": "#bbbbbb",
+            "foreground": "#212021"
+          },
+          {
+            "level": "AAA",
+            "ratio": 7.57,
+            "background": "#bbbbbb",
+            "foreground": "#29292a"
+          },
+          {
+            "level": "AAA",
+            "ratio": 7.23,
+            "background": "#575757",
+            "foreground": "#ffffff"
+          },
+          {
+            "level": "AA",
+            "ratio": 6.78,
+            "background": "#bbbbbb",
+            "foreground": "#313131"
+          },
+          {
+            "level": "AA",
+            "ratio": 6.11,
+            "background": "#bbbbbb",
+            "foreground": "#383838"
+          },
+          {
+            "level": "AA",
+            "ratio": 5.51,
+            "background": "#8a8a8a",
+            "foreground": "#101011"
+          },
+          {
+            "level": "AA",
+            "ratio": 5.07,
+            "background": "#bbbbbb",
+            "foreground": "#444445"
+          },
+          {
+            "level": "AA",
+            "ratio": 4.88,
+            "background": "#717172",
+            "foreground": "#ffffff"
+          },
+          {
+            "level": "fail",
+            "ratio": 4.47,
+            "background": "#bbbbbb",
+            "foreground": "#4c4c4c"
+          },
+          {
+            "level": "fail",
+            "ratio": 3.9,
+            "background": "#717172",
+            "foreground": "#101011"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [
+          {
+            "value": 12,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 2
+          }
+        ],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 4,
+            "contexts": [
+              "nav",
+              "button"
+            ],
+            "frequency": 20,
+            "properties": [
+              "paddingTop",
+              "paddingRight",
+              "paddingBottom",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|nav",
+              "paddingRight|nav",
+              "paddingBottom|nav",
+              "paddingLeft|nav",
+              "paddingTop|button",
+              "paddingRight|button",
+              "paddingBottom|button",
+              "paddingLeft|button"
+            ]
+          },
+          {
+            "value": 8,
+            "contexts": [
+              "nav",
+              "body"
+            ],
+            "frequency": 3,
+            "properties": [
+              "marginTop",
+              "marginRight"
+            ],
+            "propertyContextPairs": [
+              "marginTop|nav",
+              "marginRight|body"
+            ]
+          },
+          {
+            "value": 12,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 3,
+            "properties": [
+              "marginLeft"
+            ],
+            "propertyContextPairs": [
+              "marginLeft|nav"
+            ]
+          },
+          {
+            "value": 24,
+            "contexts": [
+              "other",
+              "footer"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingTop",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other",
+              "paddingBottom|footer"
+            ]
+          },
+          {
+            "value": 40,
+            "contexts": [
+              "other",
+              "footer"
+            ],
+            "frequency": 6,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|other",
+              "paddingLeft|other",
+              "paddingRight|footer",
+              "paddingLeft|footer"
+            ]
+          },
+          {
+            "value": 48,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 3,
+            "properties": [
+              "paddingTop",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other",
+              "paddingBottom|other"
+            ]
+          }
+        ],
+        "density": "compact",
+        "baseUnit": 4
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "PPSupplySansRegular",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 67,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "PPSupplyMonoRegular",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 28,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 10,
+          "name": "Augmented Fourth",
+          "ratio": 1.414,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 10,
+            "family": "PPSupplySansRegular",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "nav",
+              "icon",
+              "button",
+              "body",
+              "footer"
+            ],
+            "frequency": 64,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 15,
+            "family": "PPSupplyMonoRegular",
+            "weight": 400,
+            "contexts": [
+              "body",
+              "nav",
+              "button",
+              "other"
+            ],
+            "frequency": 28,
+            "lineHeight": 1.3,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 118,
+            "family": "PPSupplySansRegular",
+            "weight": 400,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 3,
+            "lineHeight": 0.99,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Prioritize PPSupplyMonoRegular (or IBM Plex Mono) for all body text, navigation, and button labels to establish the core retro-digital aesthetic, using 15px/1.3 line height.",
+        "Implement Ghost Canvas #ffffff as the primary text color on Midnight Base #101011 backgrounds, reserving Midnight Base #101011 for text on lighter backgrounds.",
+        "Use a 0px border-radius as a default for all UI elements, reinforcing the sharp, hard-edged character of the design.",
+        "All interactive elements should rely on text color changes or thin, same-color borders for interactive states, avoiding filled button backgrounds or significant elevation.",
+        "Employ a 4px padding for minimal interactive elements like navigation items and ghost buttons, maintaining compactness.",
+        "Section spacing should consistently use 48px vertical padding to create clear content blocks without feeling overly dense.",
+        "When a container needs subtle differentiation, use Elevated Panel #313131 as the background color, indicating a layered context without heavy visual weight."
+      ],
+      "donts": [
+        "Avoid using drop shadows or complex gradients; the system relies on flat colors, stark contrast, and minimal shifts between grayscale tones for visual depth.",
+        "Do not introduce bright, saturated colors unless explicitly tied to an accent or semantic role defined in the color palette (e.g., Toggle Blue, Alert Red).",
+        "Do not use overly large or decorative heading styles that deviate from the compact, utilitarian typography; stick to PPSupplySansRegular with minimal letter spacing.",
+        "Do not create complex layouts with overlapping elements or varied border radii; maintain a clean, organized, and almost grid-like structure.",
+        "Avoid decorative imagery or illustrations; imagery should be minimal and either abstract or product-focused to align with the technical, terminal-like atmosphere.",
+        "Do not use multiple font families beyond PPSupplySansRegular and PPSupplyMonoRegular, as this dilutes the distinctive typographic identity."
+      ],
+      "theme": "dark",
+      "colors": [
+        {
+          "hex": "#101011",
+          "name": "Midnight Base",
+          "role": "Primary page background, most text, inactive navigation text",
+          "group": "neutral"
+        },
+        {
+          "hex": "#ffffff",
+          "name": "Ghost Canvas",
+          "role": "Tertiary background sections, primary text for dark backgrounds, button text on dark. Also used for focus borders and outline styles",
+          "group": "neutral"
+        },
+        {
+          "hex": "#bbbbbb",
+          "name": "Slate Highlight",
+          "role": "Secondary background surfaces and occasional text accents. Creates a subtle tonal shift against the primary backgrounds",
+          "group": "neutral"
+        },
+        {
+          "hex": "#313131",
+          "name": "Elevated Panel",
+          "role": "Background for elevated panels or containers, offering a darker gray for layered content",
+          "group": "neutral"
+        },
+        {
+          "hex": "#8a8a8a",
+          "name": "Subtle Gray",
+          "role": "Faint backgrounds or very muted text",
+          "group": "neutral"
+        },
+        {
+          "hex": "#717172",
+          "name": "Medium Gray",
+          "role": "Navigation panel background",
+          "group": "neutral"
+        },
+        {
+          "hex": "#32A4C3",
+          "name": "Toggle Blue",
+          "role": "On/active state for toggle switches and potential accent elements — a cool, utilitarian highlight",
+          "group": "accent"
+        }
+      ],
+      "layout": "The page uses a full-bleed layout, with content often centered but without a fixed `pageMaxWidth` value, adapting responsively to the viewport. The hero section features a central, symbolic graphic (the retro monitor) that acts as an anchor for the primary interaction text 'Switch Day 'N' Night'. Sections are delineated by consistent vertical spacing of 48px, creating clear, distinct blocks without overt visual dividers. Content elements, such as the navigation in the top-left, tend to be anchored to screen corners. The layout is sparse and text-dominant, with a clear bottom-aligned footer containing utilitarian information. The overall rhythm is calm and deliberate, guiding the eye vertically.",
+      "imagery": "The site uses minimal imagery, primarily focusing on abstract or product-focused visuals such as the retro CRT monitor. There are no expansive photographs or complex illustrations. Iconography, like the current time display, is simple, mono-color, and uses a thick stroke weight to match the overall aesthetic. Imagery serves an explanatory or atmospheric role, not a decorative one, and is always isolated rather than overlapping, integrated seamlessly into the monochromatic UI.",
+      "similar": [
+        {
+          "why": "Monochromatic, content-focused layout with minimal ornamentation and a strong emphasis on typography, particularly for navigation and interactive elements.",
+          "business": "Are.na"
+        },
+        {
+          "why": "Heavy reliance on monospace typography, dark mode, and a utilitarian, code-editor-like aesthetic across the UI.",
+          "business": "Terminal.com"
+        },
+        {
+          "why": "High-contrast text-heavy design with a focus on simple borders, clear hierarchy through spacing, and a lack of overt visual flair.",
+          "business": "Read.cv"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "default": "0px",
+          "containers": "12px"
+        },
+        "elementGap": "8px",
+        "sectionGap": "48px",
+        "cardPadding": "",
+        "pageMaxWidth": null
+      },
+      "industry": "media",
+      "surfaces": [
+        {
+          "hex": "#101011",
+          "name": "Midnight Base",
+          "level": 0,
+          "purpose": "Dominant background for the entire page, providing a dark, immersive canvas."
+        },
+        {
+          "hex": "#313131",
+          "name": "Elevated Panel",
+          "level": 1,
+          "purpose": "Secondary background for subtly separated content blocks or containers."
+        },
+        {
+          "hex": "#717172",
+          "name": "Medium Gray",
+          "level": 2,
+          "purpose": "Background for primary navigation areas or distinct, slightly raised components within the interface."
+        }
+      ],
+      "northStar": "grayscale retro-digital terminal",
+      "components": [
+        {
+          "name": "Text Link / Ghost Button",
+          "role": "Interactive element for navigation and actions that appears as simple text. It has a subtle 4px internal padding, drawing a thin line around itself on hover or focus using the text color to maintain its ghost-like appearance.",
+          "description": "text-based interaction; text color #101011 or #ffffff; transparent background; no explicit border-radius; 4px padding."
+        },
+        {
+          "name": "Navigation Toggle Switch",
+          "role": "Binary control for activating or deactivating features, like sound. Styled as a small, pill-shaped switch with a distinct accent color for its active state.",
+          "description": "Pill-shaped toggle with a #717172 track background and a #101011 thumb when inactive; active state uses #32A4C3."
+        }
+      ],
+      "typography": [
+        {
+          "role": "Primary sans-serif font for general UI text, headings, and larger display elements. Its sparse size data suggests highly specific usage for key visual elements.",
+          "sizes": "10px, 118px",
+          "family": "PPSupplySansRegular",
+          "weight": "400",
+          "weights": [
+            400
+          ],
+          "lineHeight": "0.99, 1.20",
+          "substitute": "Inter",
+          "letterSpacing": "normal"
+        },
+        {
+          "role": "Monospaced font for body text, navigation items, buttons, and code-like snippets. This typeface defines the site's retro-digital character, reinforcing the terminal aesthetic.",
+          "sizes": "15px",
+          "family": "PPSupplyMonoRegular",
+          "weight": "400",
+          "weights": [
+            400
+          ],
+          "lineHeight": "1.30",
+          "substitute": "IBM Plex Mono",
+          "letterSpacing": "normal"
+        }
+      ],
+      "description": "HLE employs a grayscale retro-digital aesthetic, presenting an interface that feels like a vintage computer terminal. The design is characterized by its high contrast starkness and extremely compact, monochromatic typography with a distinct pixelated mono-space flair. Functional elements appear as subtle text-based interactions or simple toggle switches, maintaining an atmosphere of focused, understated utility rather than modern graphical richness. Surface treatments are minimal, relying on subtle background shifts and hard-edged borders for separation, eschewing shadows or complex gradients.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "Quick Color Reference:\ntext: #101011\nbackground: #101011\nborder: #ffffff\naccent: #32A4C3\nprimary action: no distinct CTA color\n\nExample Component Prompts:\n1. Create a primary navigation link: uses 'PPSupplyMonoRegular' at 15px, weight 400, color #101011, with 4px padding. It animates to color #ffffff on hover. When active, it displays a small dot to its left.\n2. Design the 'Sound' toggle switch: track color #717172, thumb color #101011. When active, the track color changes to #32A4C3, with the thumb remaining #101011.\n3. Create a footer copyright text block: uses 'PPSupplyMonoRegular' at 15px, weight 400, color #101011. This block should have 24px vertical padding and 40px horizontal padding."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777512139092-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777512139092-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/5abe1239-79b9-4ebc-b4d1-9b2a85dc29a4",
+  "ranks": {
+    "trending": 105,
+    "popular": 159,
+    "newest": 618
+  },
+  "localSlug": "hle-5abe1239"
+}

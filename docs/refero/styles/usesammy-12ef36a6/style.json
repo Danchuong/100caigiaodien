@@ -1,0 +1,602 @@
+{
+  "id": "12ef36a6-d7bb-4900-beba-73453cd7b110",
+  "url": "https://www.usesammy.com",
+  "siteName": "Usesammy",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777511973338-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777511973338-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "light",
+  "colors": [
+    {
+      "name": "Canvas Ice",
+      "hex": "#edeff0"
+    },
+    {
+      "name": "Text Primary",
+      "hex": "#000000"
+    },
+    {
+      "name": "Text Secondary",
+      "hex": "#555555"
+    },
+    {
+      "name": "Text Muted",
+      "hex": "#666666"
+    },
+    {
+      "name": "Border Subtle",
+      "hex": "#808080"
+    },
+    {
+      "name": "Action Blue",
+      "hex": "#0047ab"
+    }
+  ],
+  "fonts": [
+    "Lato"
+  ],
+  "northStar": "Bare-metal System Console",
+  "createdAt": "2026-04-30T01:19:50.141Z",
+  "previewVideoCapturedAt": null,
+  "industry": "other",
+  "fullResult": {
+    "meta": {
+      "url": "https://www.usesammy.com",
+      "siteName": "Usesammy",
+      "extractedAt": "2026-04-30T01:19:50.075Z",
+      "durationMs": 30435,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 20,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "other",
+              "table"
+            ],
+            "frequency": 35,
+            "confidence": 1,
+            "prominence": 1055486.718369461,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "other/color": 2,
+              "table/color": 9,
+              "other/borderColor": 8,
+              "table/borderColor": 16
+            }
+          },
+          {
+            "hex": "#808080",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.5998708056221468
+            },
+            "contexts": [
+              "table"
+            ],
+            "frequency": 18,
+            "confidence": 1,
+            "prominence": 343351.4850566181,
+            "properties": [
+              "borderColor"
+            ],
+            "usageCounts": {
+              "table/borderColor": 18
+            }
+          },
+          {
+            "hex": "#555555",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.4495331968941366
+            },
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 5,
+            "confidence": 1,
+            "prominence": 98228.57502740393,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "heading/color": 1,
+              "heading/borderColor": 4
+            }
+          },
+          {
+            "hex": "#666666",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.5102783583015936
+            },
+            "contexts": [
+              "table",
+              "other"
+            ],
+            "frequency": 15,
+            "confidence": 1,
+            "prominence": 60000,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "other/color": 1,
+              "table/color": 2,
+              "other/borderColor": 4,
+              "table/borderColor": 8
+            }
+          },
+          {
+            "hex": "#edeff0",
+            "oklch": {
+              "c": 0.002537609804341208,
+              "h": 228.78540311176954,
+              "l": 0.9508869460444462
+            },
+            "contexts": [
+              "table"
+            ],
+            "frequency": 2,
+            "confidence": 1,
+            "prominence": 57356.6229760972,
+            "properties": [
+              "borderColor"
+            ],
+            "usageCounts": {
+              "table/borderColor": 2
+            }
+          },
+          {
+            "hex": "#0047ab",
+            "oklch": {
+              "c": 0.1720152622161826,
+              "h": 259.702266389626,
+              "l": 0.4284180513677215
+            },
+            "contexts": [
+              "link",
+              "icon"
+            ],
+            "frequency": 25,
+            "confidence": 1,
+            "prominence": 34501.227531155615,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "icon/color": 1,
+              "link/color": 4,
+              "icon/borderColor": 4,
+              "link/borderColor": 16
+            }
+          }
+        ],
+        "isDarkMode": false,
+        "colorfulness": 0.11636369662197965,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 18.21,
+            "background": "#edeff0",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 7.31,
+            "background": "#edeff0",
+            "foreground": "#0047ab"
+          },
+          {
+            "level": "AA",
+            "ratio": 6.46,
+            "background": "#edeff0",
+            "foreground": "#555555"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 9,
+            "contexts": [
+              "table"
+            ],
+            "frequency": 23,
+            "properties": [
+              "paddingTop",
+              "paddingRight",
+              "paddingBottom",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|table",
+              "paddingRight|table",
+              "paddingBottom|table",
+              "paddingLeft|table"
+            ]
+          },
+          {
+            "value": 10,
+            "contexts": [
+              "table"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|table",
+              "paddingLeft|table"
+            ]
+          },
+          {
+            "value": 16,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|other",
+              "paddingLeft|other"
+            ]
+          },
+          {
+            "value": 21,
+            "contexts": [
+              "heading",
+              "link"
+            ],
+            "frequency": 2,
+            "properties": [
+              "marginTop",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "marginTop|heading",
+              "paddingLeft|link"
+            ]
+          },
+          {
+            "value": 32,
+            "contexts": [
+              "heading",
+              "other"
+            ],
+            "frequency": 3,
+            "properties": [
+              "marginBottom",
+              "marginTop"
+            ],
+            "propertyContextPairs": [
+              "marginBottom|heading",
+              "marginTop|other",
+              "marginBottom|other"
+            ]
+          },
+          {
+            "value": 35,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "marginTop",
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "marginTop|other",
+              "marginBottom|other"
+            ]
+          },
+          {
+            "value": 196,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "marginRight",
+              "marginLeft"
+            ],
+            "propertyContextPairs": [
+              "marginRight|other",
+              "marginLeft|other"
+            ]
+          }
+        ],
+        "density": "compact",
+        "baseUnit": 8
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "Lato",
+            "source": "google",
+            "weights": [
+              400,
+              700
+            ],
+            "frequency": 20,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 16,
+          "name": "Minor Second",
+          "ratio": 1.067,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 13,
+            "family": "Lato",
+            "weight": 400,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 14,
+            "family": "Lato",
+            "weight": 400,
+            "contexts": [
+              "table",
+              "link",
+              "icon"
+            ],
+            "frequency": 10,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 14,
+            "family": "Lato",
+            "weight": 700,
+            "contexts": [
+              "table",
+              "link"
+            ],
+            "frequency": 6,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "Lato",
+            "weight": 400,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 32,
+            "family": "Lato",
+            "weight": 700,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Use Canvas Ice (#edeff0) as the primary page background color.",
+        "Apply Text Primary (#000000) for general body text and strong accents, ensuring AAA contrast.",
+        "Utilize Action Blue (#0047ab) exclusively for interactive elements like links and key borders to denote functionality.",
+        "Structure information primarily using tables, demarcating cells with 1px solid Border Subtle (#808080).",
+        "Maintain a default border-radius of 0px for all UI elements, reflecting a sharp, unadorned aesthetic.",
+        "Employ Lato font across all textual content, adjusting weights between 400 and 700 to establish basic hierarchy.",
+        "Apply 9px vertical padding and 10px horizontal padding within table cells for a compact data display."
+      ],
+      "donts": [
+        "Avoid using any chromatic colors other than Action Blue (#0047ab) to maintain the minimalist, functional palette.",
+        "Do not introduce rounded corners; all elements should maintain sharp, 0px border-radii.",
+        "Refrain from using shadows or any form of elevation to keep the interface flat and direct.",
+        "Do not use gradients; all colors should be solid fills.",
+        "Avoid decorative imagery; content is delivered through data and typography.",
+        "Do not vary line-height from the default 1.2 across different font sizes, to preserve density.",
+        "Do not treat Text Primary (#000000) as an interactive color; its role is purely for static text."
+      ],
+      "theme": "light",
+      "colors": [
+        {
+          "hex": "#edeff0",
+          "name": "Canvas Ice",
+          "role": "Page background, light surface",
+          "group": "neutral"
+        },
+        {
+          "hex": "#000000",
+          "name": "Text Primary",
+          "role": "Primary text, strong borders",
+          "group": "neutral"
+        },
+        {
+          "hex": "#555555",
+          "name": "Text Secondary",
+          "role": "Headings, slightly muted text for hierarchy",
+          "group": "neutral"
+        },
+        {
+          "hex": "#666666",
+          "name": "Text Muted",
+          "role": "Secondary text in tables, less prominent information",
+          "group": "neutral"
+        },
+        {
+          "hex": "#808080",
+          "name": "Border Subtle",
+          "role": "Subtle border lines for tables and structural elements",
+          "group": "neutral"
+        },
+        {
+          "hex": "#0047ab",
+          "name": "Action Blue",
+          "role": "Links, active states, and emphasis borders — the only chromatic element, signaling interactivity",
+          "group": "brand"
+        }
+      ],
+      "layout": "The page uses a maximum content width that appears to be unconstrained, presenting content flush with the left edge. The hero section displays a centered heading. Content is predominantly organized in a single-column, list-like format, specifically a data table. Sections are loosely separated by vertical spacing, without explicit visual dividers or alternating background bands. The layout is compact and dense, with minimal whitespace between text blocks and within table structures. Navigation is implied through internal links rather than a dedicated bar.",
+      "imagery": "No imagery or graphical elements are present. The visual language is entirely functional, focusing on text and table structures with minimal UI ornamentation. Icons, when present, are monochrome and directly integrated into textual elements.",
+      "similar": [
+        {
+          "why": "Mimics the default directory listing style of web servers, with minimal styling, blue links, and sharp table borders.",
+          "business": "Apache HTTP Server Directory Listing"
+        },
+        {
+          "why": "Shares a dense, text-first, utilitarian interface with minimal use of color and a focus on content hierarchy through subtle typography and spacing.",
+          "business": "Hacker News"
+        },
+        {
+          "why": "Uses a very basic, unstyled appearance with system fonts, sharp tables, and a primary blue for links as the main visual accent.",
+          "business": "Old School Forum Boards (e.g. phpBB defaults)"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "none": "0px"
+        },
+        "elementGap": "21px",
+        "sectionGap": "32px",
+        "cardPadding": "",
+        "pageMaxWidth": null
+      },
+      "industry": "other",
+      "northStar": "Bare-metal System Console",
+      "typeScale": [
+        {
+          "role": "caption",
+          "size": 13,
+          "lineHeight": 1.2
+        },
+        {
+          "role": "body-sm",
+          "size": 14,
+          "lineHeight": 1.2
+        },
+        {
+          "role": "body",
+          "size": 16,
+          "lineHeight": 1.2
+        },
+        {
+          "role": "body-lg",
+          "size": 32,
+          "lineHeight": 1.2
+        }
+      ],
+      "components": [
+        {
+          "name": "Table Header Row",
+          "role": "Table header for content listings.",
+          "description": "Background: Canvas Ice (#edeff0). Text: Action Blue (#0047ab), Lato weight 400, 13px, lineHeight 1.2. Borders: 1px solid Action Blue (#0047ab) for bottom border, 1px solid Border Subtle (#808080) for side borders. Padding: 9px top/bottom, 10px left/right."
+        },
+        {
+          "name": "Table Data Row",
+          "role": "Individual data entries within a table.",
+          "description": "Background: transparent. First column text: Action Blue (#0047ab), Lato weight 400, 14px, lineHeight 1.2. Subsequent column text: Text Muted (#666666), Lato weight 400, 14px, lineHeight 1.2. Borders: 1px solid Border Subtle (#808080) on sides. Padding: 9px top/bottom, 10px left/right."
+        },
+        {
+          "name": "Page Heading",
+          "role": "Main title of the page.",
+          "description": "Text: Text Secondary (#555555), Lato weight 700, 32px, lineHeight 1.2. Margin-top: 21px, margin-bottom: 32px."
+        },
+        {
+          "name": "Info Text Link",
+          "role": "Informational text with embedded links.",
+          "description": "Text: Text Primary (#000000), Lato weight 400, 13px, lineHeight 1.2. Link text: Action Blue (#0047ab), Lato weight 400, 13px, lineHeight 1.2."
+        }
+      ],
+      "typography": [
+        {
+          "role": "The sole typeface for all content, ranging from large headings to small table text, maintaining a consistent, utilitarian tone.",
+          "sizes": "13px, 14px, 16px, 32px",
+          "family": "Lato",
+          "weight": "400, 700",
+          "lineHeight": "1.20",
+          "substitute": "system-ui, sans-serif",
+          "letterSpacing": "normal"
+        }
+      ],
+      "description": "The Usesammy design system presents a purely functional, no-frills interface with a strong emphasis on content legibility and direct interaction. Its aesthetic is that of a system-level utility, characterized by a minimal achromatic palette, default browser typography, and a single vivid blue accent color primarily for active links and borders. The layout is direct and unadorned, providing a clear window into its underlying data, prioritizing information display over visual embellishment.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "**Quick Color Reference**\n- text: #000000\n- background: #edeff0\n- border: #808080\n- accent: #0047ab\n- primary action: #0047ab (outlined action border)\n\n**3-5 Example Component Prompts**\n- Create a simple page heading: 'Index of /' in Text Secondary (#555555), Lato weight 700, 32px, lineHeight 1.2. Margin-top 21px, margin-bottom 32px.\n- Create a table header with text 'Name': Background Canvas Ice (#edeff0), 1px solid Action Blue (#0047ab) bottom border, 1px solid Border Subtle (#808080) side borders. Text in Action Blue (#0047ab), Lato weight 400, 13px, lineHeight 1.2. Padding 9px vertical, 10px horizontal.\n- Create a table data row for 'cgi-bin': First column text in Action Blue (#0047ab), Lato weight 400, 14px, lineHeight 1.2. Side borders 1px solid Border Subtle (#808080). Padding 9px vertical, 10px horizontal.\n- Generate a footer information line: 'Proudly Served by LiteSpeed Web Server at www.usesammy.com Port 443' in Text Primary (#000000), Lato weight 400, 13px, lineHeight 1.2. Link part 'www.usesammy.com' in Action Blue (#0047ab)."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777511973338-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777511973338-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/12ef36a6-d7bb-4900-beba-73453cd7b110",
+  "ranks": {
+    "trending": 737,
+    "popular": 848,
+    "newest": 631
+  },
+  "localSlug": "usesammy-12ef36a6"
+}

@@ -1,0 +1,459 @@
+{
+  "id": "d670d78f-4542-4a66-b886-fc32361b8562",
+  "url": "https://open-sbs.brig.ht/city",
+  "siteName": "SBS Town",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777515119267-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777515119267-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "dark",
+  "colors": [
+    {
+      "name": "Midnight Void",
+      "hex": "#111111"
+    },
+    {
+      "name": "Ghost Marble",
+      "hex": "#ffffff"
+    },
+    {
+      "name": "Cyber Glow Pink",
+      "hex": "#ff00d9"
+    },
+    {
+      "name": "Aqua Beam",
+      "hex": "#00f0ff"
+    },
+    {
+      "name": "Voltage Yellow",
+      "hex": "#fafa00"
+    },
+    {
+      "name": "Infrared Red",
+      "hex": "#f0445d"
+    }
+  ],
+  "fonts": [
+    "Circular"
+  ],
+  "northStar": "Neon Cyberpunk Metropolis",
+  "createdAt": "2026-04-30T02:12:17.395Z",
+  "previewVideoCapturedAt": null,
+  "industry": "other",
+  "fullResult": {
+    "meta": {
+      "url": "https://open-sbs.brig.ht/city",
+      "siteName": "SBS Town",
+      "extractedAt": "2026-04-30T02:12:17.329Z",
+      "durationMs": 29408,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 34,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#ffffff",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 1.0000000000000002
+            },
+            "contexts": [
+              "other",
+              "body"
+            ],
+            "frequency": 50,
+            "confidence": 1,
+            "prominence": 587630285.9473087,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "body/color": 5,
+              "other/color": 5,
+              "body/borderColor": 20,
+              "other/borderColor": 20
+            }
+          },
+          {
+            "hex": "#111111",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.17763777307657064
+            },
+            "contexts": [
+              "other",
+              "image",
+              "icon"
+            ],
+            "frequency": 115,
+            "confidence": 1,
+            "prominence": 34130258.03605229,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "icon/color": 5,
+              "image/color": 2,
+              "other/color": 16,
+              "icon/borderColor": 20,
+              "image/borderColor": 8,
+              "other/borderColor": 64
+            }
+          },
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "confidence": 1,
+            "prominence": 71323.31253245202,
+            "properties": [
+              "fill"
+            ],
+            "usageCounts": {
+              "other/fill": 2
+            }
+          },
+          {
+            "hex": "#2f2f2f",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.305191278401601
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 8100,
+            "properties": [
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "other/backgroundColor": 1
+            }
+          }
+        ],
+        "isDarkMode": true,
+        "colorfulness": 0,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 21,
+            "background": "#ffffff",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 18.88,
+            "background": "#ffffff",
+            "foreground": "#111111"
+          },
+          {
+            "level": "AAA",
+            "ratio": 13.39,
+            "background": "#2f2f2f",
+            "foreground": "#ffffff"
+          },
+          {
+            "level": "fail",
+            "ratio": 1.41,
+            "background": "#2f2f2f",
+            "foreground": "#111111"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [
+          {
+            "value": 100,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 5
+          }
+        ],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 5,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 10,
+            "properties": [
+              "paddingTop",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other",
+              "paddingBottom|other"
+            ]
+          },
+          {
+            "value": 20,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 10,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|other",
+              "paddingLeft|other"
+            ]
+          },
+          {
+            "value": 29,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingRight",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|other",
+              "paddingBottom|other"
+            ]
+          },
+          {
+            "value": 30,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|other",
+              "paddingLeft|other"
+            ]
+          },
+          {
+            "value": 43,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingTop",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other",
+              "paddingLeft|other"
+            ]
+          }
+        ],
+        "density": "comfortable",
+        "baseUnit": 4
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "circular",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 33,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": null,
+        "steps": [
+          {
+            "size": 16,
+            "family": "circular",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "body",
+              "image",
+              "icon"
+            ],
+            "frequency": 33,
+            "lineHeight": 1.15,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Prioritize 'Midnight Void' (#111111) for all core background and surface elements to establish the dark theme.",
+        "Use 'Ghost Marble' (#ffffff) for primary text and iconic elements to ensure legibility against dark backgrounds.",
+        "Apply 'Cyber Glow Pink' and 'Aqua Beam' as primary accent colors for interactive states and decorative lighting within the 3D environment.",
+        "Render all interactive buttons and labels as pill-shaped elements using a 100px border-radius.",
+        "Maintain a clear visual hierarchy by using the Circular 400 font at 16px for all interface text.",
+        "Leverage the 'Warning Amber' (#ff7c24) and 'Infrared Red' (#f0445d) for semantic tags and call-outs within the immersive city map.",
+        "Employ 5px/20px padding (vertical/horizontal) for all small interactive elements like tags and buttons."
+      ],
+      "donts": [
+        "Avoid using saturated background colors; all large surface areas should remain deep, dark neutrals to preserve the immersive cyberpunk aesthetic.",
+        "Do not introduce heavy shadows or strong elevation effects, as the visual style relies on glowing accents rather than traditional depth.",
+        "Do not deviate from the Circular font family or its 16px, 400 weight for UI text; consistency is key for legibility in this environment.",
+        "Do not use subtle border radii; all rounded elements must commit to the 100px value for a distinct pill shape.",
+        "Avoid generic, non-glowing accent colors; all accent colors must have a luminous, high-contrast quality.",
+        "Do not use large, blocky UI components; maintain a lightweight, ethereal presence for interface elements.",
+        "Avoid dense text blocks; all text should be concise, functional, and integrated as labels or annotations."
+      ],
+      "theme": "dark",
+      "colors": [
+        {
+          "hex": "#111111",
+          "name": "Midnight Void",
+          "role": "Deep background for immersive scenes, subtle borders, and secondary text elements",
+          "group": "neutral"
+        },
+        {
+          "hex": "#ffffff",
+          "name": "Ghost Marble",
+          "role": "Prominent text, icon fills, and accent borders that stand out against dark environments",
+          "group": "neutral"
+        },
+        {
+          "hex": "#ff00d9",
+          "name": "Cyber Glow Pink",
+          "role": "Supporting palette color for small decorative accents when the core palette needs contrast. Do not promote it to the primary CTA color",
+          "group": "accent"
+        },
+        {
+          "hex": "#00f0ff",
+          "name": "Aqua Beam",
+          "role": "Supporting palette color for small decorative accents when the core palette needs contrast. Do not promote it to the primary CTA color",
+          "group": "accent"
+        },
+        {
+          "hex": "#fafa00",
+          "name": "Voltage Yellow",
+          "role": "Bright secondary accent, drawing attention to specific points of interest or data within the futuristic map",
+          "group": "accent"
+        },
+        {
+          "hex": "#f0445d",
+          "name": "Infrared Red",
+          "role": "Complementary accent color, used for tags that need to create a sense of urgency or distinct classification",
+          "group": "accent"
+        }
+      ],
+      "layout": "The page employs a full-bleed layout, where the primary visual is a dynamic 3D rendered cityscape that fills the entire viewport. There is no traditional page width constraint. The hero pattern is the immersive 3D scene itself. Content is arranged as minimal, floating UI overlays and tags (like 'Kickoff' or 'Revolutionary') directly integrated into the 3D environment, strategically placed to highlight points of interest. Navigation elements, such as the 'Map' icon or 'Show me around' button, are subtly positioned in the corners, maintaining a high level of visual breathing room for the central 3D experience. There are no clear sections or grids in a traditional sense, rather an interactive map with annotated features.",
+      "imagery": "The site primarily uses 3D renders of a futuristic cityscape, imbued with a distinct cyberpunk aesthetic. The imagery is highly dimensional, depicting detailed buildings, glowing pathways, and abstract geometric icons (like the 'SBS' logo and colored cubes) that serve as key points of interest. Lighting is dark and moody, with prominent neon accents in 'Aqua Beam', 'Cyber Glow Pink', and 'Voltage Yellow' that define outlines and interactive elements. Imagery is central to the experience; the UI overlays are minimal, acting as functional annotations within the full-bleed, immersive 3D scene. Icons are simple, filled shapes that maintain the glow-in-the-dark visual language.",
+      "similar": [
+        {
+          "why": "Dominant dark theme, neon accents, futuristic 3D cityscapes, and minimal overlay UI.",
+          "business": "Cyberpunk 2077 (game UI)"
+        },
+        {
+          "why": "High contrast between dark environments and glowing, often blue and pink, linear elements and outlines.",
+          "business": "TRON: Legacy (visuals)"
+        },
+        {
+          "why": "Uses a dark, technical aesthetic with bright, distinct accent colors for key actions and branding.",
+          "business": "Brave Browser"
+        },
+        {
+          "why": "Employs a precise, compact typography style and favors dark backgrounds with focused pops of color for interaction.",
+          "business": "Linear"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "tags": "100px",
+          "buttons": "100px",
+          "overlays": "100px"
+        },
+        "elementGap": "5px",
+        "sectionGap": "43px",
+        "cardPadding": "20px",
+        "pageMaxWidth": null
+      },
+      "industry": "other",
+      "northStar": "Neon Cyberpunk Metropolis",
+      "components": [
+        {
+          "name": "Kickoff Tag Button",
+          "role": "Primary interactive element within the 3D map",
+          "description": "A pill-shaped button with a 'Warning Amber' background (#ff7c24), white text (#ffffff) set in Circular 400 at 16px, and a 100px border-radius, providing a soft, accessible touch target. Features 5px vertical and 20px horizontal padding."
+        },
+        {
+          "name": "Label Tag",
+          "role": "Informational labels within the 3D map",
+          "description": "Pill-shaped label, like 'Revolutionary' or 'Financing', with an 'Infrared Red' (#f0445d) or 'Warning Amber' (#ff7c24) background, white text (#ffffff) set in Circular 400 at 16px, and a 100px border-radius. Padding is 5px vertical and 20px horizontal."
+        },
+        {
+          "name": "Map Overlay Icon",
+          "role": "Actionable icons for navigation and information",
+          "description": "Small, outlined icons with 'Ghost Marble' (#ffffff) color against the dark immersive background. Accompanied by 16px Circular 400 'Ghost Marble' text, positioned minimally."
+        }
+      ],
+      "typography": [
+        {
+          "role": "Primary UI text for labels, annotations, and interactive elements. Its consistent weight maintains a clear, unobtrusive presence within the visual-heavy interface.",
+          "sizes": "16px",
+          "family": "Circular",
+          "weight": "400",
+          "lineHeight": "1.15",
+          "substitute": "system-ui"
+        }
+      ],
+      "description": "SBS Town immerses users in a dark, neon-lit digital cityscape. The visual style is characterized by a luminous, futuristic aesthetic where dark surfaces are punctuated by vibrant, glowing accents. Typography is compact and precise, appearing as labels or annotations within the immersive 3D environment. The interface itself is minimal, primarily leveraging the interactive 3D scene, with UI elements serving as functional overlays rather than dominant structural components.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "Quick Color Reference: \ntext: #ffffff\nbackground: #111111\nborder: #111111\naccent: #00f0ff\nprimary action: no distinct CTA color\n\nExample Component Prompts:\nCreate a 'Kickoff' tag button: background #ff7c24, text #ffffff, font Circular 400 at 16px, radius 100px, padding 5px 20px.\nCreate a 'Financing' informational tag: background #f0445d, text #ffffff, font Circular 400 at 16px, radius 100px, padding 5px 20px.\nCreate a 'Map' icon with label: icon color #ffffff, text #ffffff, font Circular 400 at 16px, no background, minimal spacing. \n"
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777515119267-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777515119267-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/d670d78f-4542-4a66-b886-fc32361b8562",
+  "ranks": {
+    "trending": 449,
+    "popular": 655,
+    "newest": 421
+  },
+  "localSlug": "sbs-town-d670d78f"
+}

@@ -1,0 +1,558 @@
+{
+  "id": "753079bd-d32e-47c0-aa7d-75a36c44e324",
+  "url": "https://benlongdendesign.co.uk",
+  "siteName": "Benlongdendesign",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777519629522-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777519629522-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "light",
+  "colors": [
+    {
+      "name": "Absolute Black",
+      "hex": "#000000"
+    },
+    {
+      "name": "Canvas White",
+      "hex": "#f6f6f6"
+    },
+    {
+      "name": "Element White",
+      "hex": "#ffffff"
+    },
+    {
+      "name": "Email Border Dark",
+      "hex": "#121212"
+    }
+  ],
+  "fonts": [
+    "swis721_btroman"
+  ],
+  "northStar": "monochromatic typographic power",
+  "createdAt": "2026-04-30T03:27:24.352Z",
+  "previewVideoCapturedAt": null,
+  "industry": "design",
+  "fullResult": {
+    "meta": {
+      "url": "https://benlongdendesign.co.uk",
+      "siteName": "Benlongdendesign",
+      "extractedAt": "2026-04-30T03:27:24.283Z",
+      "durationMs": 23363,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 213,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "other",
+              "image"
+            ],
+            "frequency": 437,
+            "confidence": 1,
+            "prominence": 91357642.49659047,
+            "properties": [
+              "color",
+              "backgroundColor",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "image/color": 6,
+              "other/color": 81,
+              "image/borderColor": 24,
+              "other/borderColor": 324,
+              "other/backgroundColor": 2
+            }
+          },
+          {
+            "hex": "#f6f6f6",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.9731459330353415
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 6,
+            "confidence": 1,
+            "prominence": 2954870.1937920433,
+            "properties": [
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "other/backgroundColor": 6
+            }
+          },
+          {
+            "hex": "#ffffff",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 1.0000000000000002
+            },
+            "contexts": [
+              "body",
+              "link",
+              "list",
+              "heading",
+              "other"
+            ],
+            "frequency": 504,
+            "confidence": 1,
+            "prominence": 1247422.2085902777,
+            "properties": [
+              "color",
+              "borderColor",
+              "backgroundColor",
+              "fill"
+            ],
+            "usageCounts": {
+              "body/color": 21,
+              "link/color": 1,
+              "list/color": 36,
+              "other/fill": 41,
+              "other/color": 15,
+              "heading/color": 12,
+              "body/borderColor": 84,
+              "link/borderColor": 3,
+              "list/borderColor": 144,
+              "other/borderColor": 60,
+              "heading/borderColor": 48,
+              "other/backgroundColor": 39
+            }
+          },
+          {
+            "hex": "#121212",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.18220370283599863
+            },
+            "contexts": [
+              "link"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 8028,
+            "properties": [
+              "borderColor"
+            ],
+            "usageCounts": {
+              "link/borderColor": 1
+            }
+          }
+        ],
+        "isDarkMode": false,
+        "colorfulness": 0,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 21,
+            "background": "#ffffff",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 19.43,
+            "background": "#f6f6f6",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 18.73,
+            "background": "#ffffff",
+            "foreground": "#121212"
+          },
+          {
+            "level": "AAA",
+            "ratio": 17.33,
+            "background": "#f6f6f6",
+            "foreground": "#121212"
+          },
+          {
+            "level": "fail",
+            "ratio": 1.08,
+            "background": "#f6f6f6",
+            "foreground": "#ffffff"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 5,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 69,
+            "properties": [
+              "marginRight",
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "marginRight|other",
+              "paddingRight|other",
+              "paddingLeft|other"
+            ]
+          },
+          {
+            "value": 10,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 6,
+            "properties": [
+              "paddingTop"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other"
+            ]
+          },
+          {
+            "value": 14,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "marginRight"
+            ],
+            "propertyContextPairs": [
+              "marginRight|other"
+            ]
+          },
+          {
+            "value": 20,
+            "contexts": [
+              "body",
+              "list"
+            ],
+            "frequency": 16,
+            "properties": [
+              "marginTop",
+              "marginBottom",
+              "marginRight"
+            ],
+            "propertyContextPairs": [
+              "marginTop|body",
+              "marginBottom|body",
+              "marginTop|list",
+              "marginRight|list",
+              "marginBottom|list"
+            ]
+          },
+          {
+            "value": 42,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 6,
+            "properties": [
+              "marginRight"
+            ],
+            "propertyContextPairs": [
+              "marginRight|other"
+            ]
+          },
+          {
+            "value": 43,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 20,
+            "properties": [
+              "marginLeft",
+              "marginTop"
+            ],
+            "propertyContextPairs": [
+              "marginLeft|other",
+              "marginTop|other"
+            ]
+          },
+          {
+            "value": 86,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 6,
+            "properties": [
+              "marginTop"
+            ],
+            "propertyContextPairs": [
+              "marginTop|other"
+            ]
+          }
+        ],
+        "density": "compact",
+        "baseUnit": 6
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "swis721_btroman",
+            "source": "custom",
+            "weights": [
+              200
+            ],
+            "frequency": 172,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 16,
+          "name": "Major Second",
+          "ratio": 1.125,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 16,
+            "family": "swis721_btroman",
+            "weight": 200,
+            "contexts": [
+              "other",
+              "image"
+            ],
+            "frequency": 86,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "swis721_btroman",
+            "weight": 200,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 2,
+            "lineHeight": 1.6,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "swis721_btroman",
+            "weight": 200,
+            "contexts": [
+              "other",
+              "body"
+            ],
+            "frequency": 31,
+            "lineHeight": 4,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 20,
+            "family": "swis721_btroman",
+            "weight": 200,
+            "contexts": [
+              "body",
+              "link",
+              "list"
+            ],
+            "frequency": 41,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 50,
+            "family": "swis721_btroman",
+            "weight": 200,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 12,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Prioritize typography as the primary visual element, using swis721_btroman across all text roles.",
+        "Maintain extreme contrast using only Absolute Black (#000000) and Element White (#ffffff) for text and backgrounds.",
+        "Utilize Element White (#ffffff) for text on Absolute Black (#000000) backgrounds to ensure maximum readability and impact.",
+        "Apply Absolute Black (#000000) as default for page backgrounds and thick content separation where a stark division is desired.",
+        "Use letter-spacing 'normal' for all text, avoiding custom tracking to preserve the intrinsic character spacing of swis721_btroman.",
+        "Separate content blocks and paragraphs with vertical margins of 20px using the base font size as a visual guide.",
+        "Introduce elements like email links with a 1px solid border in Email Border Dark (#121212) to subtly indicate interactivity."
+      ],
+      "donts": [
+        "Do not introduce any chromatic colors into the UI; strictly adhere to the black-and-white palette.",
+        "Avoid using multiple font families or varying font weights beyond the available 200 for swis721_btroman.",
+        "Do not add shadows or gradients to any UI elements; design is flat and relies on color contrast and spatial arrangement.",
+        "Do not add decorative rounded corners to any component; maintain sharp, geometric edges throughout the design.",
+        "Avoid excessive padding or large element gaps that soften the compact density; stick to 5px for elements and 20px for internal card padding.",
+        "Do not use subtle neutral shifts for surface differentiation; rely on stark black/white changes for distinct sections."
+      ],
+      "theme": "light",
+      "colors": [
+        {
+          "hex": "#000000",
+          "name": "Absolute Black",
+          "role": "Page backgrounds, primary text, section dividers, decorative borders for images and lists — sets a high-contrast, bold tone",
+          "group": "neutral"
+        },
+        {
+          "hex": "#f6f6f6",
+          "name": "Canvas White",
+          "role": "Primary page background for content sections, elevated card surfaces — provides a neutral canvas for high-contrast text",
+          "group": "neutral"
+        },
+        {
+          "hex": "#ffffff",
+          "name": "Element White",
+          "role": "Text color against black backgrounds, borders around content blocks and list items — creates maximum contrast for readability and definition",
+          "group": "neutral"
+        },
+        {
+          "hex": "#121212",
+          "name": "Email Border Dark",
+          "role": "Dark borders and separators for elevated surfaces and inverted UI. Do not promote it to the primary CTA color",
+          "group": "neutral"
+        }
+      ],
+      "layout": "The page employs a full-bleed layout alternating between Absolute Black (#000000) and Canvas White (#f6f6f6) sections, creating a strong vertical rhythm of monochromatic blocks. The hero section is full-bleed black with oversized white typographic compositions. Content is primarily arranged in single columns with occasional textual elements right-aligned beside larger headings, or project examples appearing in a waterfall-like list. There are no explicit grid systems for features or cards, rather a fluid stacking of content. Vertical spacing between logical sections is managed by the stark color changes and sectionGap of 43px. Navigation is minimal, consisting of a single 'About' link and email contact in the header/footer.",
+      "imagery": "Imagery is functional, primarily comprising tightly cropped product screenshots or promotional artwork integrated directly into the layout. These visuals are typically contained within rectangular bounds, often bordered by Absolute Black or Element White depending on context, and serve to showcase work examples rather than provide decorative atmosphere. There is a complete absence of photography or abstract graphics; the visual language is all about direct presentation and bold typography interacting with sharp-edged imagery. Icons are minimal, represented only by a white bullet point in navigation, suggesting a content-dominant approach.",
+      "spacing": {
+        "radius": {
+          "default": "0px"
+        },
+        "elementGap": "5px",
+        "sectionGap": "43px",
+        "cardPadding": "20px",
+        "pageMaxWidth": null
+      },
+      "industry": "design",
+      "surfaces": [
+        {
+          "hex": "#000000",
+          "name": "Absolute Black",
+          "level": 1,
+          "purpose": "Base page background for full-bleed sections and high-contrast content blocks."
+        },
+        {
+          "hex": "#f6f6f6",
+          "name": "Canvas White",
+          "level": 2,
+          "purpose": "Primary content background for readable sections and elevated panels, offering a lighter canvas."
+        }
+      ],
+      "northStar": "monochromatic typographic power",
+      "typeScale": [
+        {
+          "role": "body",
+          "size": 16,
+          "lineHeight": 1.6
+        },
+        {
+          "role": "subheading",
+          "size": 20,
+          "lineHeight": 1.6
+        },
+        {
+          "role": "display",
+          "size": 50,
+          "lineHeight": 1.2
+        }
+      ],
+      "components": [
+        {
+          "name": "Hero Headline",
+          "role": "Statement typography for primary page headings.",
+          "description": "Uses swis721_btroman at 50px line-height 1.2, in Element White (#ffffff) against an Absolute Black (#000000) background. Characterized by large, broken-line text blocks that create a typographic composition rather than a traditional heading."
+        },
+        {
+          "name": "Section Subtitle",
+          "role": "Secondary headings for project titles or thematic sections.",
+          "description": "Text uses swis721_btroman at 20px line-height 1.6, in Element White (#ffffff) for light themes or Absolute Black (#000000) for dark themes. Paired with a more descriptive text at 16px."
+        },
+        {
+          "name": "Body Text Block",
+          "role": "Standard text content for paragraphs and descriptive information.",
+          "description": "Uses swis721_btroman at 16px line-height 1.6, in Element White (#ffffff) or Absolute Black (#000000) depending on background. Typically left-aligned with 20px bottom margin for paragraph separation."
+        },
+        {
+          "name": "Link with Border",
+          "role": "Interactive text links, like email addresses.",
+          "description": "Text is swis721_btroman at 16px, Absolute Black (#000000). Features a subtle 1px solid border in Email Border Dark (#121212) on hover or focus, indicating interactivity without changing color."
+        },
+        {
+          "name": "About Navigation Item",
+          "role": "Top-level navigation item.",
+          "description": "Text uses swis721_btroman at 16px, Element White (#ffffff) on Absolute Black (#000000) background. Features a small bullet point to its left, indicating a minimal navigation style."
+        },
+        {
+          "name": "Project Metadata",
+          "role": "Descriptive tags associated with project entries.",
+          "description": "Text uses swis721_btroman at 16px, Element White (#ffffff) or Absolute Black (#000000), depending on context. Often presented in a two-line format, right-aligned relative to a preceding larger headline, using 20px bottom margin."
+        }
+      ],
+      "typography": [
+        {
+          "role": "The sole typeface, used for all content from headings to body text. Its very light weight (200), even at large sizes, creates an unusual sense of modern elegance and restraint, contrasting with its inherent geometric boldness. This choice avoids loudness, projecting authority through understated scale.",
+          "sizes": "16px, 20px, 50px",
+          "family": "swis721_btroman",
+          "weight": "200",
+          "lineHeight": "1.20, 1.60",
+          "substitute": "Helvetica Neue Light, Arial Light",
+          "letterSpacing": "normal"
+        }
+      ],
+      "description": "Benlongdendesign employs a stark, high-contrast visual language reminiscent of brutalist typography. The system is built on a foundation of absolute black and white, achieving visual power through scale and geometric precision rather than color. Typography is the primary visual element, commanding attention with large, condensed forms, while UI elements are minimal and primarily functional. The overall atmosphere is direct, bold, and unapologetic, using negative space to emphasize strong textual statements.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "primary action: no distinct CTA color"
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777519629522-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777519629522-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/753079bd-d32e-47c0-aa7d-75a36c44e324",
+  "ranks": {
+    "trending": 1129,
+    "popular": 1151,
+    "newest": 148
+  },
+  "localSlug": "benlongdendesign-753079bd"
+}

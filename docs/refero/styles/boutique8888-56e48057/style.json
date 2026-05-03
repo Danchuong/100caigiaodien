@@ -1,0 +1,678 @@
+{
+  "id": "56e48057-de3e-47b6-8e59-772440703f0a",
+  "url": "https://boutique8888.com",
+  "siteName": "Boutique8888",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777517548444-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777517548444-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "light",
+  "colors": [
+    {
+      "name": "Midnight",
+      "hex": "#000000"
+    },
+    {
+      "name": "Storm Gray",
+      "hex": "#5b5b5b"
+    },
+    {
+      "name": "Canvas White",
+      "hex": "#ffffff"
+    },
+    {
+      "name": "Sky Wash",
+      "hex": "#c1e9ff",
+      "gradient": "linear-gradient(-45deg, rgb(193, 233, 255), rgb(244, 245, 246), rgb(225, 252, 255), rgb(189, 231, 255))"
+    }
+  ],
+  "fonts": [
+    "Shopify Sans",
+    "Shopify Sans",
+    "Times"
+  ],
+  "northStar": "Crisp monochrome canvas.",
+  "createdAt": "2026-04-30T02:52:46.769Z",
+  "previewVideoCapturedAt": null,
+  "industry": "ecommerce",
+  "fullResult": {
+    "meta": {
+      "url": "https://boutique8888.com",
+      "siteName": "Boutique8888",
+      "extractedAt": "2026-04-30T02:52:46.669Z",
+      "durationMs": 24454,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 55,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "other",
+              "heading",
+              "button",
+              "link",
+              "footer"
+            ],
+            "frequency": 145,
+            "confidence": 1,
+            "prominence": 7568555.757343581,
+            "properties": [
+              "color",
+              "borderColor",
+              "backgroundColor",
+              "fill"
+            ],
+            "usageCounts": {
+              "link/color": 3,
+              "other/fill": 19,
+              "other/color": 20,
+              "footer/color": 1,
+              "heading/color": 1,
+              "link/borderColor": 12,
+              "other/borderColor": 80,
+              "footer/borderColor": 4,
+              "heading/borderColor": 4,
+              "button/backgroundColor": 1
+            }
+          },
+          {
+            "hex": "#5b5b5b",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.4711943129424412
+            },
+            "contexts": [
+              "body",
+              "other",
+              "link"
+            ],
+            "frequency": 32,
+            "confidence": 1,
+            "prominence": 195974.71153707593,
+            "properties": [
+              "color",
+              "borderColor",
+              "stroke"
+            ],
+            "usageCounts": {
+              "body/color": 1,
+              "link/color": 2,
+              "other/color": 3,
+              "other/stroke": 2,
+              "body/borderColor": 4,
+              "link/borderColor": 8,
+              "other/borderColor": 12
+            }
+          },
+          {
+            "hex": "#ffffff",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 1.0000000000000002
+            },
+            "contexts": [
+              "button"
+            ],
+            "frequency": 5,
+            "confidence": 1,
+            "prominence": 28778.38752052863,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "button/color": 1,
+              "button/borderColor": 4
+            }
+          }
+        ],
+        "isDarkMode": true,
+        "colorfulness": 0,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 21,
+            "background": "#000000",
+            "foreground": "#ffffff"
+          },
+          {
+            "level": "AA",
+            "ratio": 6.79,
+            "background": "#ffffff",
+            "foreground": "#5b5b5b"
+          },
+          {
+            "level": "fail",
+            "ratio": 3.09,
+            "background": "#000000",
+            "foreground": "#5b5b5b"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [
+          {
+            "value": 20,
+            "contexts": [
+              "button",
+              "link"
+            ],
+            "frequency": 2
+          },
+          {
+            "value": 25,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1
+          }
+        ],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 5,
+            "contexts": [
+              "body",
+              "other"
+            ],
+            "frequency": 4,
+            "properties": [
+              "marginLeft",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "marginLeft|body",
+              "paddingBottom|other"
+            ]
+          },
+          {
+            "value": 8,
+            "contexts": [
+              "link"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingTop",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|link",
+              "paddingBottom|link"
+            ]
+          },
+          {
+            "value": 10,
+            "contexts": [
+              "button",
+              "other"
+            ],
+            "frequency": 17,
+            "properties": [
+              "paddingTop",
+              "paddingBottom",
+              "marginTop",
+              "marginRight",
+              "marginBottom",
+              "marginLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|button",
+              "paddingBottom|button",
+              "marginTop|other",
+              "marginRight|other",
+              "marginBottom|other",
+              "marginLeft|other",
+              "paddingTop|other"
+            ]
+          },
+          {
+            "value": 15,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "rowGap",
+              "columnGap"
+            ],
+            "propertyContextPairs": [
+              "rowGap|other",
+              "columnGap|other"
+            ]
+          },
+          {
+            "value": 20,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|other",
+              "paddingLeft|other"
+            ]
+          },
+          {
+            "value": 27,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 2,
+            "properties": [
+              "marginTop",
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "marginTop|heading",
+              "marginBottom|heading"
+            ]
+          },
+          {
+            "value": 35,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingTop",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other",
+              "paddingBottom|other"
+            ]
+          },
+          {
+            "value": 60,
+            "contexts": [
+              "button",
+              "other"
+            ],
+            "frequency": 3,
+            "properties": [
+              "paddingRight",
+              "paddingLeft",
+              "paddingTop"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|button",
+              "paddingLeft|button",
+              "paddingTop|other"
+            ]
+          },
+          {
+            "value": 70,
+            "contexts": [
+              "link"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|link",
+              "paddingLeft|link"
+            ]
+          }
+        ],
+        "density": "compact",
+        "baseUnit": null
+      },
+      "gradients": [
+        {
+          "type": "linear",
+          "value": "linear-gradient(-45deg, rgb(193, 233, 255), rgb(244, 245, 246), rgb(225, 252, 255), rgb(189, 231, 255))",
+          "colors": [
+            "rgb(193, 233, 255)",
+            "rgb(244, 245, 246)",
+            "rgb(225, 252, 255)",
+            "rgb(189, 231, 255)"
+          ],
+          "frequency": 1
+        }
+      ],
+      "typography": {
+        "fonts": [
+          {
+            "family": "Times",
+            "source": "system",
+            "weights": [
+              400
+            ],
+            "frequency": 18,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "Shopify Sans Medium",
+            "source": "custom",
+            "weights": [
+              400,
+              700
+            ],
+            "frequency": 11,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "Shopify Sans Regular",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 5,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 16,
+          "name": "Major Second",
+          "ratio": 1.125,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 14,
+            "family": "Shopify Sans Medium",
+            "weight": 400,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 16,
+            "family": "Times",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "link",
+              "icon",
+              "footer"
+            ],
+            "frequency": 18,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "Shopify Sans Medium",
+            "weight": 400,
+            "contexts": [
+              "button",
+              "link",
+              "other"
+            ],
+            "frequency": 6,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "Shopify Sans Regular",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "link"
+            ],
+            "frequency": 5,
+            "lineHeight": 1.5,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 20,
+            "family": "Shopify Sans Medium",
+            "weight": 400,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 3,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 40,
+            "family": "Shopify Sans Medium",
+            "weight": 700,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Use 'Midnight' (#000000) for all primary text and button backgrounds to ensure high contrast.",
+        "Apply 'Canvas White' (#ffffff) for text on dark backgrounds and as a 2px border for outlined components.",
+        "Maintain a consistent border-radius of 20px for all buttons and interactive links, and 25px for primary content containers.",
+        "Utilize Shopify Sans (or Inter as substitute) for headlines and body text to maintain brand voice.",
+        "Structure page content within a max-width of 1296px for consistent presentation.",
+        "Employ the 'Sky Wash' gradient as a subtle background element where diffused light is desired, not as a primary content surface."
+      ],
+      "donts": [
+        "Avoid using multiple shades of gray for primary text; stick to 'Midnight' for focus and 'Storm Gray' for secondary details.",
+        "Do not deviate from the specified border-radii of 20px for interactive elements and 25px for containers.",
+        "Refrain from introducing additional accent colors; maintain the monochrome palette with subtle gradient backgrounds.",
+        "Do not alter the letter-spacing for Shopify Sans; keep it at 'normal' unless otherwise specified in token definitions.",
+        "Avoid applying solid background colors to large sections when the subtle 'Sky Wash' gradient is intended to provide a soft aesthetic.",
+        "Do not use Times for primary headlines or UI elements; reserve it for specific legal or footer content."
+      ],
+      "theme": "light",
+      "colors": [
+        {
+          "hex": "#000000",
+          "name": "Midnight",
+          "role": "Primary text, button backgrounds, interactive link color, primary iconography. Establishes strong contrast",
+          "group": "neutral"
+        },
+        {
+          "hex": "#5b5b5b",
+          "name": "Storm Gray",
+          "role": "Secondary text, subtle borders, inactive elements, supporting information. Provides visual hierarchy without harshness",
+          "group": "neutral"
+        },
+        {
+          "hex": "#ffffff",
+          "name": "Canvas White",
+          "role": "Button text on dark backgrounds, outlined button strokes, primary surface color",
+          "group": "neutral"
+        },
+        {
+          "hex": "#c1e9ff",
+          "name": "Sky Wash",
+          "role": "Subtle background gradient base forming a diffused halo effect",
+          "group": "accent",
+          "gradient": "linear-gradient(-45deg, rgb(193, 233, 255), rgb(244, 245, 246), rgb(225, 252, 255), rgb(189, 231, 255))"
+        }
+      ],
+      "layout": "The page adheres to a max-width of 1296px, centered on the screen, creating a contained and structured feel. The hero content is a prominent, centrally aligned text block with two call-to-action buttons. Below this, content is arranged in a three-column grid, with left-aligned subordinate text blocks. Vertical spacing is consistent but not excessively dense. The footer is minimal, centered at the bottom. The overall pattern is a clear hierarchy of information presented in distinct, well-separated blocks.",
+      "imagery": "The site uses minimal imagery, focusing on UI elements. The Shopify logo is crisp and monochrome. Icons are simple, outlined, and monochromatic, like the 'back' arrow. When present, imagery (like the Shopify logo at the bottom) appears self-contained, using strict brand colors and avoiding complex photographic elements. The primary visual weight is carried by typography and strong component shapes.",
+      "similar": [
+        {
+          "why": "Similar high-contrast monochrome palette with focus on typography and geometric shapes.",
+          "business": "Stripe"
+        },
+        {
+          "why": "Clean, spacious layouts with strong hierarchy and well-defined interactive components.",
+          "business": "Linear"
+        },
+        {
+          "why": "Minimalist aesthetic using subtle background gradients and strong dark text on light backgrounds.",
+          "business": "Vercel"
+        },
+        {
+          "why": "Use of soft, almost imperceptible background gradients and a clear, functional component language.",
+          "business": "Apple (services)"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "links": "20px",
+          "buttons": "20px",
+          "containers": "25px"
+        },
+        "elementGap": "10px",
+        "sectionGap": "27px",
+        "cardPadding": "20px",
+        "pageMaxWidth": "1296px"
+      },
+      "industry": "ecommerce",
+      "surfaces": [
+        {
+          "hex": "#f4f5f6",
+          "name": "Page Background",
+          "level": 0,
+          "purpose": "The base canvas of the page, diffused by a subtle blue-tinted gradient for a light, ethereal feel."
+        },
+        {
+          "hex": "#ffffff",
+          "name": "Content Card",
+          "level": 1,
+          "purpose": "Elevated white surface for primary content blocks, such as the main unavailable store message."
+        }
+      ],
+      "northStar": "Crisp monochrome canvas.",
+      "typeScale": [
+        {
+          "role": "body-sm",
+          "size": 14,
+          "lineHeight": 1.2,
+          "letterSpacing": 0
+        },
+        {
+          "role": "body",
+          "size": 16,
+          "lineHeight": 1.2,
+          "letterSpacing": 0
+        },
+        {
+          "role": "heading",
+          "size": 20,
+          "lineHeight": 1.2,
+          "letterSpacing": 0
+        },
+        {
+          "role": "display",
+          "size": 40,
+          "lineHeight": 1.2,
+          "letterSpacing": 0
+        }
+      ],
+      "components": [
+        {
+          "name": "Primary Filled Button",
+          "role": "Call to action",
+          "description": "Solid 'Midnight' background with 'Canvas White' text, 20px border-radius, and generous horizontal padding of 60px. Text uses Shopify Sans at 16px."
+        },
+        {
+          "name": "Outlined Button",
+          "role": "Secondary action",
+          "description": "Transparent background with a 2px 'Canvas White' border and 'Midnight' text. 20px border-radius and 60px horizontal padding. Text uses Shopify Sans at 16px."
+        },
+        {
+          "name": "Subtle Callout Card",
+          "role": "Informational container",
+          "description": "A container with a 25px border-radius, likely used for the main content block. Contains text and buttons."
+        },
+        {
+          "name": "Text Link",
+          "role": "Inline navigation or reference",
+          "description": "Uses 'Midnight' text and is underlined by default. Inherits Shopify Sans font styles."
+        }
+      ],
+      "typography": [
+        {
+          "role": "Primary brand typeface for headings, body text, buttons, and links. Its custom nature reinforces brand identity.",
+          "sizes": "14px, 16px, 20px, 40px",
+          "family": "Shopify Sans",
+          "weight": "400, 700",
+          "weights": "400, 700",
+          "lineHeight": "1.20",
+          "substitute": "Inter",
+          "letterSpacing": "normal"
+        },
+        {
+          "role": "Extended reading text and supporting content. Slightly increased line-height aids readability in longer blocks.",
+          "sizes": "16px",
+          "family": "Shopify Sans",
+          "weight": "",
+          "weights": "400",
+          "lineHeight": "1.50",
+          "substitute": "Inter",
+          "letterSpacing": "normal"
+        },
+        {
+          "role": "Fallback and specialized legal/footer text, providing a classic, authoritative counterpoint to the sans-serif.",
+          "sizes": "16px",
+          "family": "Times",
+          "weight": "400",
+          "weights": "400",
+          "lineHeight": "1.20",
+          "substitute": "Times New Roman",
+          "letterSpacing": "normal"
+        }
+      ],
+      "description": "Boutique8888 features a clean, high-contrast aesthetic with a distinct focus on clarity and directness. The visual system leverages a light canvas over a subtle background gradient, grounding prominent dark typography and dark-filled or light-outlined components. Interaction elements are clearly delineated through strong black and white contrast and rounded shapes, creating a focused and accessible user experience.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "Quick Color Reference:\ntext: #000000\nbackground: #f4f5f6\nborder: #ffffff\naccent: #c1e9ff\nprimary action: no distinct CTA color\n\nExample Component Prompts:\nNo distinct primary action color was observed; use the extracted neutral button treatments instead of inventing a filled CTA color.\nCreate an outlined secondary button with the text 'Sign up free': 2px #ffffff border, transparent background, #000000 text, 20px radius, 60px horizontal padding, Shopify Sans 16px.\nCreate a content card: #ffffff background, 25px border-radius, with Shopify Sans 40px 'Sorry, this is unavailable.' heading (#000000), followed by two buttons (primary and outlined) with 10px spacing vertically.\nCreate a footer link 'About Us': #000000 text, Shopify Sans 14px, with the logo beside it."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777517548444-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777517548444-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/56e48057-de3e-47b6-8e59-772440703f0a",
+  "ranks": {
+    "trending": 863,
+    "popular": 946,
+    "newest": 277
+  },
+  "localSlug": "boutique8888-56e48057"
+}

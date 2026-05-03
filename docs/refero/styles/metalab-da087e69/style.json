@@ -1,0 +1,557 @@
+{
+  "id": "da087e69-8832-418a-aa1b-42e1acabb39e",
+  "url": "https://metalab.com",
+  "siteName": "Metalab",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775925151784-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775925151784-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "light",
+  "colors": [
+    {
+      "name": "Canvas White",
+      "hex": "#ffffff"
+    },
+    {
+      "name": "Void Black",
+      "hex": "#000000"
+    },
+    {
+      "name": "Ash Surface",
+      "hex": "#252525"
+    },
+    {
+      "name": "Elevated Grey",
+      "hex": "#bababa"
+    }
+  ],
+  "fonts": [
+    "PP Eiko",
+    "Basis Grotesque Pro"
+  ],
+  "northStar": "monochrome canvas, serif headlines as art",
+  "createdAt": "2026-03-01T09:00:16.000Z",
+  "previewVideoCapturedAt": null,
+  "industry": "agency",
+  "fullResult": {
+    "meta": {
+      "url": "https://metalab.com",
+      "siteName": "Metalab",
+      "extractedAt": "2026-04-11T16:32:46.694Z",
+      "durationMs": 20231,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 379,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "complete",
+          "attempts": 2
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "other",
+              "heading",
+              "body"
+            ],
+            "frequency": 993,
+            "confidence": 1,
+            "prominence": 12904404.245864723,
+            "properties": [
+              "fill",
+              "color",
+              "borderColor",
+              "backgroundColor"
+            ]
+          },
+          {
+            "hex": "#ffffff",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 1.0000000000000002
+            },
+            "contexts": [
+              "other",
+              "list",
+              "button",
+              "body",
+              "hero",
+              "icon",
+              "link",
+              "nav"
+            ],
+            "frequency": 720,
+            "confidence": 1,
+            "prominence": 12304036.662216106,
+            "properties": [
+              "color",
+              "borderColor",
+              "backgroundColor",
+              "stroke",
+              "fill"
+            ]
+          },
+          {
+            "hex": "#252525",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.26530868167843835
+            },
+            "contexts": [
+              "button",
+              "body"
+            ],
+            "frequency": 12,
+            "confidence": 1,
+            "prominence": 13954.358177110058,
+            "properties": [
+              "backgroundColor"
+            ]
+          }
+        ],
+        "isDarkMode": true,
+        "colorfulness": 0,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 21,
+            "background": "#ffffff",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 15.33,
+            "background": "#252525",
+            "foreground": "#ffffff"
+          },
+          {
+            "level": "fail",
+            "ratio": 1.37,
+            "background": "#252525",
+            "foreground": "#000000"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [
+          {
+            "value": 50,
+            "contexts": [
+              "button",
+              "body"
+            ],
+            "frequency": 12
+          },
+          {
+            "value": 1000,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1
+          }
+        ],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 3,
+            "frequency": 20,
+            "properties": [
+              "paddingTop",
+              "paddingBottom"
+            ]
+          },
+          {
+            "value": 8,
+            "frequency": 2,
+            "properties": [
+              "rowGap",
+              "columnGap"
+            ]
+          },
+          {
+            "value": 16,
+            "frequency": 22,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ]
+          },
+          {
+            "value": 24,
+            "frequency": 14,
+            "properties": [
+              "paddingRight",
+              "paddingLeft",
+              "paddingTop",
+              "paddingBottom",
+              "rowGap",
+              "columnGap"
+            ]
+          }
+        ],
+        "density": "comfortable",
+        "baseUnit": 4
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "Basis Grotesque Pro",
+            "source": "custom",
+            "weights": [
+              350,
+              400
+            ],
+            "frequency": 321,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "PP Eiko",
+            "source": "custom",
+            "weights": [
+              240
+            ],
+            "frequency": 30,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "Arial",
+            "source": "system",
+            "weights": [
+              400
+            ],
+            "frequency": 3,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 16,
+          "name": "Minor Third",
+          "ratio": 1.2,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 12,
+            "family": "Basis Grotesque Pro",
+            "weight": 350,
+            "contexts": [
+              "body",
+              "icon"
+            ],
+            "frequency": 5,
+            "lineHeight": 1.76,
+            "letterSpacing": -0.01,
+            "textTransform": "none"
+          },
+          {
+            "size": 12,
+            "family": "Basis Grotesque Pro",
+            "weight": 350,
+            "contexts": [
+              "other",
+              "body"
+            ],
+            "frequency": 15,
+            "lineHeight": 1.2,
+            "letterSpacing": -0.01,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "Basis Grotesque Pro",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "list",
+              "hero",
+              "image",
+              "link",
+              "nav",
+              "body"
+            ],
+            "frequency": 236,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "Basis Grotesque Pro",
+            "weight": 350,
+            "contexts": [
+              "button",
+              "body",
+              "icon"
+            ],
+            "frequency": 22,
+            "lineHeight": 2,
+            "letterSpacing": -0.01,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "Basis Grotesque Pro",
+            "weight": 400,
+            "contexts": [
+              "button"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.4,
+            "letterSpacing": -0.01,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "Arial",
+            "weight": 400,
+            "contexts": [
+              "button",
+              "link",
+              "other"
+            ],
+            "frequency": 3,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "Basis Grotesque Pro",
+            "weight": 350,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 2,
+            "lineHeight": 1,
+            "letterSpacing": -0.01,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "Basis Grotesque Pro",
+            "weight": 400,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 40,
+            "lineHeight": 1,
+            "letterSpacing": -0.01,
+            "textTransform": "none"
+          },
+          {
+            "size": 88,
+            "family": "PP Eiko",
+            "weight": 240,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 30,
+            "lineHeight": 0.8,
+            "letterSpacing": -0.02,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Prioritize PP Eiko (240 weight, 88px, -1.76px letter-spacing) for all main headings to maintain dramatic visual impact.",
+        "Use Basis Grotesque Pro (350/400 weight, 12px/16px) for all functional text with -0.16px letter-spacing for consistent readability.",
+        "Apply Canvas White (#ffffff) as the dominant background color for most sections to create a bright, expansive canvas.",
+        "Use Void Black (#000000) for primary text on Canvas White backgrounds, ensuring AAA contrast.",
+        "Employ 50px border-radius for all interactive elements and contained content blocks to maintain a soft yet defined shape.",
+        "Maintain generous padding; apply 0px top/bottom, 16px left/right for client tag buttons and other container specific components.",
+        "Utilize rgba(186, 186, 186, 0.2) background for subtly interactive elements on dark backgrounds, providing visual feedback without strong color."
+      ],
+      "tags": [
+        "monochrome",
+        "typographic",
+        "minimalist",
+        "elegant",
+        "magazine-style",
+        "luxury",
+        "spacious",
+        "austere",
+        "editorial"
+      ],
+      "donts": [
+        "Avoid using highly saturated or chromatic colors; adhere strictly to the monochrome palette with subtle gray variations.",
+        "Do not deviate from the specified font families; PP Eiko and Basis Grotesque Pro are core to the brand's typographic identity.",
+        "Avoid box shadows or strong elevation effects, as the system relies on color contrast and negative space for hierarchy.",
+        "Do not use letter-spacing values other than -1.76px for display text and -0.16px for body text.",
+        "Avoid tightly packed sections; ensure `sectionGap` of 900px vertical spacing between major content blocks.",
+        "Do not introduce square or sharp-cornered elements; 50px is the minimum radius for rounded forms including buttons."
+      ],
+      "theme": "light",
+      "title": "Metalab - Cinematic Modernism",
+      "colors": [
+        {
+          "hex": "#ffffff",
+          "name": "Canvas White",
+          "role": "Page backgrounds, prominent text, selected borders.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#000000",
+          "name": "Void Black",
+          "role": "Primary text, core UI elements, contrasting backgrounds.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#252525",
+          "name": "Ash Surface",
+          "role": "Secondary surface background, providing subtle depth against Void Black.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#bababa",
+          "name": "Elevated Grey",
+          "role": "Button backgrounds for an interactive, muted effect.",
+          "group": "neutral"
+        }
+      ],
+      "layout": "The layout follows a full-bleed model with content centered within implied vertical segments, rather than a fixed maximum width. The hero section features a dramatic, highly asymmetric composition of large serif headings framing a central, dark, rounded rectangle. Sections below adopt a similar asymmetrical arrangement, with large dark blocks often balanced by sparse text or logos. There's a strong visual rhythm established by large, consistent vertical section gaps (900px), creating a spacious, almost architectural feel. Content is arranged in alternating visual weights rather than strict grids. Navigation is minimal, likely restricted to an off-screen menu. The overall density is very spacious, emphasizing individual elements and generous negative space.",
+      "imagery": "The site's visual language is dominated by UI-like simulations or abstract dark rectangles that suggest screens or digital interfaces. There are no traditional photographs or illustrations. The treatment is full-bleed, occupying significant visual real estate, with softly rounded corners (implied by the 50px radius). These elements serve a decorative, atmospheric role, enhancing the 'interfaces' theme rather than explaining content or showcasing products directly. The density is medium, with these large visual elements balanced by extensive negative space and purposeful typography.",
+      "similar": [
+        {
+          "why": "Shares a similar high-end agency aesthetic with a focus on strong typography and ample white space.",
+          "business": "Huge Inc."
+        },
+        {
+          "why": "Employs an editorial-like layout with large text elements and striking, minimal visuals for impact.",
+          "business": "Anton & Irene"
+        },
+        {
+          "why": "Uses large type, dark/light contrast, and a modern, spacious feel to convey premium digital services.",
+          "business": "Basic (Agency)"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "forms": "50px",
+          "buttons": "50px",
+          "general": "50px"
+        },
+        "elementGap": "8px",
+        "sectionGap": "",
+        "cardPadding": "24px",
+        "pageMaxWidth": null
+      },
+      "category": "agency",
+      "northStar": "monochrome canvas, serif headlines as art",
+      "typeScale": [
+        {
+          "role": "caption",
+          "size": 12,
+          "lineHeight": 1.76,
+          "letterSpacing": -0.16
+        },
+        {
+          "role": "body",
+          "size": 16,
+          "lineHeight": 1.2,
+          "letterSpacing": -0.16
+        },
+        {
+          "role": "display",
+          "size": 88,
+          "lineHeight": 0.8,
+          "letterSpacing": -1.76
+        }
+      ],
+      "components": [
+        {
+          "html": "<div style=\"--color-canvas-white: #ffffff; --color-void-black: #000000; --color-ash-surface: #252525; --color-elevated-grey: #bababa; --font-pp-eiko: 'Playfair Display', Georgia, serif; --font-basis-grotesque-pro: 'Inter', Arial, sans-serif; background: var(--color-void-black); width: 600px; display: flex; align-items: center; justify-content: center; padding: 80px 40px; box-sizing: border-box; font-family: var(--font-basis-grotesque-pro);\"><a href=\"#\" style=\"display: inline-block; padding: 14px 40px; border: 1px solid var(--color-canvas-white); border-radius: 50px; background: transparent; color: var(--color-canvas-white); font-family: var(--font-basis-grotesque-pro); font-size: 16px; font-weight: 400; letter-spacing: -0.16px; line-height: 1.2; text-decoration: none; cursor: pointer; transition: background 0.2s;\">Get in Touch</a></div>",
+          "name": "Ghost Button",
+          "role": "",
+          "description": ""
+        },
+        {
+          "html": "<div style=\"--color-canvas-white: #ffffff; --color-void-black: #000000; --color-ash-surface: #252525; --color-elevated-grey: #bababa; --font-pp-eiko: 'Playfair Display', Georgia, serif; --font-basis-grotesque-pro: 'Inter', Arial, sans-serif; background: var(--color-void-black); width: 600px; padding: 60px 40px; box-sizing: border-box; font-family: var(--font-basis-grotesque-pro);\"><p style=\"font-family: var(--font-basis-grotesque-pro); font-size: 12px; font-weight: 350; color: rgba(186,186,186,0.7); letter-spacing: -0.16px; line-height: 1.76; margin: 0 0 24px 0; text-transform: uppercase;\">Clients</p><div style=\"display: flex; flex-wrap: wrap; gap: 8px;\"><span style=\"display: inline-block; background: rgba(186,186,186,0.2); color: var(--color-canvas-white); font-family: var(--font-basis-grotesque-pro); font-size: 12px; font-weight: 400; letter-spacing: -0.16px; line-height: 1.76; padding: 6px 16px; border-radius: 50px;\">Slack</span><span style=\"display: inline-block; background: rgba(186,186,186,0.2); color: var(--color-canvas-white); font-family: var(--font-basis-grotesque-pro); font-size: 12px; font-weight: 400; letter-spacing: -0.16px; line-height: 1.76; padding: 6px 16px; border-radius: 50px;\">Amazon</span><span style=\"display: inline-block; background: rgba(186,186,186,0.2); color: var(--color-canvas-white); font-family: var(--font-basis-grotesque-pro); font-size: 12px; font-weight: 400; letter-spacing: -0.16px; line-height: 1.76; padding: 6px 16px; border-radius: 50px;\">Mozilla</span><span style=\"display: inline-block; background: rgba(186,186,186,0.2); color: var(--color-canvas-white); font-family: var(--font-basis-grotesque-pro); font-size: 12px; font-weight: 400; letter-spacing: -0.16px; line-height: 1.76; padding: 6px 16px; border-radius: 50px;\">Coursera</span><span style=\"display: inline-block; background: rgba(186,186,186,0.2); color: var(--color-canvas-white); font-family: var(--font-basis-grotesque-pro); font-size: 12px; font-weight: 400; letter-spacing: -0.16px; line-height: 1.76; padding: 6px 16px; border-radius: 50px;\">Telus</span><span style=\"display: inline-block; background: rgba(186,186,186,0.2); color: var(--color-canvas-white); font-family: var(--font-basis-grotesque-pro); font-size: 12px; font-weight: 400; letter-spacing: -0.16px; line-height: 1.76; padding: 6px 16px; border-radius: 50px;\">Zendesk</span><span style=\"display: inline-block; background: rgba(186,186,186,0.2); color: var(--color-canvas-white); font-family: var(--font-basis-grotesque-pro); font-size: 12px; font-weight: 400; letter-spacing: -0.16px; line-height: 1.76; padding: 6px 16px; border-radius: 50px;\">Hootsuite</span><span style=\"display: inline-block; background: rgba(186,186,186,0.2); color: var(--color-canvas-white); font-family: var(--font-basis-grotesque-pro); font-size: 12px; font-weight: 400; letter-spacing: -0.16px; line-height: 1.76; padding: 6px 16px; border-radius: 50px;\">Lyft</span><span style=\"display: inline-block; background: rgba(186,186,186,0.2); color: var(--color-canvas-white); font-family: var(--font-basis-grotesque-pro); font-size: 12px; font-weight: 400; letter-spacing: -0.16px; line-height: 1.76; padding: 6px 16px; border-radius: 50px;\">Warner Bros.</span><span style=\"display: inline-block; background: rgba(186,186,186,0.2); color: var(--color-canvas-white); font-family: var(--font-basis-grotesque-pro); font-size: 12px; font-weight: 400; letter-spacing: -0.16px; line-height: 1.76; padding: 6px 16px; border-radius: 50px;\">Shopify</span></div></div>",
+          "name": "Client Tag Buttons",
+          "role": "",
+          "description": ""
+        },
+        {
+          "html": "<div style=\"--color-canvas-white: #ffffff; --color-void-black: #000000; --color-ash-surface: #252525; --color-elevated-grey: #bababa; --font-pp-eiko: 'Playfair Display', Georgia, serif; --font-basis-grotesque-pro: 'Inter', Arial, sans-serif; background: var(--color-canvas-white); width: 600px; padding: 60px 48px; box-sizing: border-box; font-family: var(--font-basis-grotesque-pro); display: flex; flex-direction: column; gap: 48px;\"><div style=\"display: flex; justify-content: space-between; align-items: flex-start;\"><div><p style=\"font-family: var(--font-basis-grotesque-pro); font-size: 12px; font-weight: 400; color: rgba(0,0,0,0.45); letter-spacing: -0.16px; line-height: 1.76; margin: 0 0 8px 0;\">EST. 2006</p><p style=\"font-family: var(--font-pp-eiko); font-size: 64px; font-weight: 300; color: var(--color-void-black); letter-spacing: -1.76px; line-height: 0.85; margin: 0;\">Make</p></div><div style=\"text-align: right;\"><p style=\"font-family: var(--font-basis-grotesque-pro); font-size: 12px; font-weight: 400; color: rgba(0,0,0,0.45); letter-spacing: -0.16px; line-height: 1.76; margin: 0 0 4px 0;\">BC, CA</p><p style=\"font-family: var(--font-basis-grotesque-pro); font-size: 12px; font-weight: 400; color: rgba(0,0,0,0.45); letter-spacing: -0.16px; line-height: 1.76; margin: 0;\">12:32 EDT</p></div></div><div style=\"display: flex; gap: 40px; border-top: 1px solid rgba(0,0,0,0.1); padding-top: 32px;\"><div><p style=\"font-family: var(--font-pp-eiko); font-size: 48px; font-weight: 300; color: var(--color-void-black); letter-spacing: -1.76px; line-height: 0.85; margin: 0 0 8px 0;\">0 → 1</p><p style=\"font-family: var(--font-basis-grotesque-pro); font-size: 12px; font-weight: 400; color: rgba(0,0,0,0.45); letter-spacing: -0.16px; line-height: 1.76; margin: 0;\">Products shipped</p></div><div><p style=\"font-family: var(--font-pp-eiko); font-size: 48px; font-weight: 300; color: var(--color-void-black); letter-spacing: -1.76px; line-height: 0.85; margin: 0 0 8px 0;\">18+</p><p style=\"font-family: var(--font-basis-grotesque-pro); font-size: 12px; font-weight: 400; color: rgba(0,0,0,0.45); letter-spacing: -0.16px; line-height: 1.76; margin: 0;\">Years of craft</p></div><div><p style=\"font-family: var(--font-pp-eiko); font-size: 48px; font-weight: 300; color: var(--color-void-black); letter-spacing: -1.76px; line-height: 0.85; margin: 0 0 8px 0;\">60+</p><p style=\"font-family: var(--font-basis-grotesque-pro); font-size: 12px; font-weight: 400; color: rgba(0,0,0,0.45); letter-spacing: -0.16px; line-height: 1.76; margin: 0;\">Global clients</p></div></div></div>",
+          "name": "Stat / Identity Block",
+          "role": "",
+          "description": ""
+        },
+        {
+          "name": "Ghost Button",
+          "role": "Primary Call to Action",
+          "description": "Transparent background, white 1px border, white text. No padding, relying on surrounding layout for spacing. Used for prominent actions like 'Get in Touch'."
+        },
+        {
+          "name": "Client Tag Button",
+          "role": "Client Logo/Identifier",
+          "description": "Background color rgba(186, 186, 186, 0.2) with white text. Pill-shaped with 50px border-radius. Padding 0px top/bottom, 16px left/right. Used to list client names in a subtle, contained manner."
+        }
+      ],
+      "typography": [
+        {
+          "role": "Display headings. It defines the brand's unique voice by using an extremely light weight and tight letter spacing at large sizes, creating a delicate yet commanding presence.",
+          "sizes": "88px",
+          "family": "PP Eiko",
+          "weight": "240",
+          "lineHeight": "0.80",
+          "substitute": "Playfair Display",
+          "letterSpacing": "-1.76"
+        },
+        {
+          "role": "Body text, navigation, and utility elements. Its slight letter-spacing creates a refined, spacious feel even at smaller sizes.",
+          "sizes": "12px, 16px",
+          "family": "Basis Grotesque Pro",
+          "weight": "350, 400",
+          "lineHeight": "1.00, 1.20, 1.40, 1.76, 2.00",
+          "substitute": "Inter",
+          "letterSpacing": "-0.16"
+        }
+      ],
+      "description": "This design system conjures a mood of restrained sophistication and intellectual calm. Large, dramatic serif typography acts as art against a stark black and white canvas, establishing an immediate sense of gravity and refined taste. The composition prioritizes ample negative space, allowing elements to breathe and create an atmosphere of quiet authority, where every visual decision feels deliberate and impactful.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "Quick Color Reference:\n- Text (primary): #000000\n- Background (primary): #ffffff\n- Button Background (active): #bababa\n- Button Background (client tag): rgba(186, 186, 186, 0.2)\n- Accent Border: #ffffff\n\nExample Component Prompts:\n1. Create a display hero section: background #ffffff. Headline 'We' using PP Eiko 240 weight, 88px size, #000000, letter-spacing -1.76px. Place a central placeholder element with background #252525 and 50px radius, approximately 400px wide by 600px high.\n2. Generate a client spotlight section: background #ffffff. Client name 'Robinhood' using Basis Grotesque Pro 400 weight, 16px size, #000000, letter-spacing -0.16px. Accompany with a 'Client Tag Button' below it: background rgba(186, 186, 186, 0.2), text #ffffff, 50px radius, 0px vertical padding, 16px horizontal padding.\n3. Design a navigation link: text 'Get in Touch' using Basis Grotesque Pro 400 weight, 16px size, #000000, letter-spacing -0.16px. Apply a 1px #ffffff bottom border on hover, with 0px padding in all directions."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775925151784-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775925151784-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/da087e69-8832-418a-aa1b-42e1acabb39e",
+  "ranks": {
+    "trending": 688,
+    "popular": 545,
+    "newest": 1109
+  },
+  "localSlug": "metalab-da087e69"
+}

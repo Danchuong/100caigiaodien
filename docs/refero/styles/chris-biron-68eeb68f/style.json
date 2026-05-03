@@ -1,0 +1,505 @@
+{
+  "id": "68eeb68f-935b-4c14-9369-f3a5c23efedc",
+  "url": "https://biron.io",
+  "siteName": "Chris Biron",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777516853092-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777516853092-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "dark",
+  "colors": [
+    {
+      "name": "Midnight Void",
+      "hex": "#000000"
+    },
+    {
+      "name": "Arctic Mist",
+      "hex": "#ffffff"
+    }
+  ],
+  "fonts": [
+    "editorial",
+    "goodsans"
+  ],
+  "northStar": "High-contrast typographic canvas",
+  "createdAt": "2026-04-30T02:41:11.112Z",
+  "previewVideoCapturedAt": null,
+  "industry": "design",
+  "fullResult": {
+    "meta": {
+      "url": "https://biron.io",
+      "siteName": "Chris Biron",
+      "extractedAt": "2026-04-30T02:41:11.049Z",
+      "durationMs": 23362,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 106,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "other",
+              "heading",
+              "link",
+              "body",
+              "image",
+              "icon"
+            ],
+            "frequency": 187,
+            "confidence": 1,
+            "prominence": 88116724.36596796,
+            "properties": [
+              "color",
+              "borderColor",
+              "fill"
+            ],
+            "usageCounts": {
+              "icon/fill": 2,
+              "body/color": 9,
+              "link/color": 9,
+              "image/color": 2,
+              "other/color": 16,
+              "heading/color": 1,
+              "body/borderColor": 36,
+              "link/borderColor": 36,
+              "image/borderColor": 8,
+              "other/borderColor": 64,
+              "heading/borderColor": 4
+            }
+          },
+          {
+            "hex": "#ffffff",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 1.0000000000000002
+            },
+            "contexts": [
+              "other",
+              "nav",
+              "heading",
+              "icon",
+              "body"
+            ],
+            "frequency": 332,
+            "confidence": 1,
+            "prominence": 8445097.831604201,
+            "properties": [
+              "color",
+              "borderColor",
+              "fill"
+            ],
+            "usageCounts": {
+              "nav/color": 3,
+              "body/color": 3,
+              "icon/color": 1,
+              "other/fill": 2,
+              "other/color": 27,
+              "heading/color": 32,
+              "nav/borderColor": 12,
+              "body/borderColor": 12,
+              "icon/borderColor": 4,
+              "other/borderColor": 108,
+              "heading/borderColor": 128
+            }
+          }
+        ],
+        "isDarkMode": true,
+        "colorfulness": 0,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 21,
+            "background": "#ffffff",
+            "foreground": "#000000"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 5,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 5,
+            "properties": [
+              "marginLeft",
+              "paddingTop",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "marginLeft|body",
+              "paddingTop|body",
+              "paddingBottom|body"
+            ]
+          },
+          {
+            "value": 20,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingTop",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other",
+              "paddingBottom|other"
+            ]
+          },
+          {
+            "value": 22,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 20,
+            "properties": [
+              "paddingTop",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other",
+              "paddingBottom|other"
+            ]
+          },
+          {
+            "value": 40,
+            "contexts": [
+              "other",
+              "heading"
+            ],
+            "frequency": 4,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|other",
+              "paddingLeft|other",
+              "paddingRight|heading",
+              "paddingLeft|heading"
+            ]
+          },
+          {
+            "value": 50,
+            "contexts": [
+              "link",
+              "heading"
+            ],
+            "frequency": 38,
+            "properties": [
+              "paddingTop",
+              "paddingRight",
+              "paddingBottom",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|link",
+              "paddingRight|link",
+              "paddingBottom|link",
+              "paddingLeft|link",
+              "paddingTop|heading",
+              "paddingBottom|heading"
+            ]
+          }
+        ],
+        "density": "spacious",
+        "baseUnit": null
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "editorial",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 78,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "goodsans",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 25,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 16,
+          "name": "Major Second",
+          "ratio": 1.125,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 10,
+            "family": "goodsans",
+            "weight": 400,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 2,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 12,
+            "family": "goodsans",
+            "weight": 400,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 3,
+            "lineHeight": 1.1,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 16,
+            "family": "editorial",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "nav",
+              "link",
+              "body",
+              "image"
+            ],
+            "frequency": 64,
+            "lineHeight": 1.15,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 32,
+            "family": "editorial",
+            "weight": 400,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 35,
+            "family": "goodsans",
+            "weight": 400,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 20,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 35,
+            "family": "editorial",
+            "weight": 400,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 10,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 43,
+            "family": "editorial",
+            "weight": 400,
+            "contexts": [
+              "heading",
+              "icon"
+            ],
+            "frequency": 3,
+            "lineHeight": 1.1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Prioritize Midnight Void (#000000) for all main backgrounds to maintain the dark theme.",
+        "Use Arctic Mist (#ffffff) for all primary text and interactive elements on dark backgrounds.",
+        "Apply the `editorial` font for all major headings and expressive textual content, leveraging its classical aesthetic.",
+        "Use the `goodsans` font for all functional elements like navigation, labels, and small informational text.",
+        "Maintain generous spacing: `50px` for vertical section gaps and `22px` for internal content padding.",
+        "Enforce all-caps for headlines using the `editorial` font to maximize impact.",
+        "Utilize border-only interactive states for buttons and links, using Midnight Void (#000000) for borders on light elements, and Arctic Mist (#ffffff) for borders on dark elements."
+      ],
+      "donts": [
+        "Avoid introducing any saturated colors; the palette is strictly achromatic.",
+        "Do not use small line heights for `goodsans` text; maintain ample leading for readability in compact areas.",
+        "Do not add any drop shadows or complex elevation; the design relies on flat, high-contrast surfaces.",
+        "Do not add non-functional ornamentation; every visual element should serve a clear purpose.",
+        "Avoid using `goodsans` for large, dominant headlines; reserve `editorial` for that role to preserve typographic hierarchy.",
+        "Do not deviate from the established spacing values; consistency is key to the spacious feel.",
+        "Avoid generic icon libraries; icons should be minimalist and align with the sharp, clean aesthetic, likely using pure white strokes."
+      ],
+      "theme": "dark",
+      "colors": [
+        {
+          "hex": "#000000",
+          "name": "Midnight Void",
+          "role": "Dark borders and separators for elevated surfaces and inverted UI. Do not promote it to the primary CTA color",
+          "group": "neutral"
+        },
+        {
+          "hex": "#ffffff",
+          "name": "Arctic Mist",
+          "role": "Primary text on dark backgrounds, active navigation elements, decorative accents",
+          "group": "neutral"
+        }
+      ],
+      "layout": "The page adheres to a full-bleed layout, maximizing the dark canvas, with content often centered vertically and horizontally within large sections. The hero section frequently features a full-viewport visual (image or render) with minimal, centered textual overlay. Section rhythm is marked by distinct, generously spaced content blocks rather than explicit visual dividers, featuring alternating arrangements of text and visuals. Content frequently stacks centrally or uses a 2-column layout for text and images or product mockups. The navigation is a minimalist top bar, likely sticky, with 'INDEX' and 'INFO' links positioned at the top left and right corners, serving as a subtle framing element.",
+      "imagery": "The visual language is characterized by bold, full-bleed product photography within simulated digital interfaces (like phone mockups) or artistic 3D renders of physical products. Imagery is typically self-contained, presented with raw edges and little to no masking. When photography is used, it often features tight crops and a sense of candid immediacy, with high contrast. The role of imagery is to showcase product design and provide contextual examples of the designer's work, rather than decorative atmosphere. The overall density is image-heavy in showcased project sections, balanced by text-dominant areas for descriptions.",
+      "similar": [
+        {
+          "why": "Dark theme with strong contrast typography, minimalist navigation, and large sections dedicated to product showcases.",
+          "business": "Aytm.com"
+        },
+        {
+          "why": "Portfolio site with a dark, spacious aesthetic and a focus on large images and highly legible typography.",
+          "business": "Pichard.me"
+        },
+        {
+          "why": "Design portfolio with a dark, content-focused layout, high contrast between text and background, and strategic use of serif headlines.",
+          "business": "Adrien Giraud"
+        },
+        {
+          "why": "Another designer portfolio utilizing a high-contrast dark theme and minimal UI elements to emphasize project visuals.",
+          "business": "Basile David"
+        }
+      ],
+      "spacing": {
+        "radius": {},
+        "elementGap": "5px",
+        "sectionGap": "50px",
+        "cardPadding": "22px",
+        "pageMaxWidth": null
+      },
+      "industry": "design",
+      "northStar": "High-contrast typographic canvas",
+      "typeScale": [
+        {
+          "role": "caption",
+          "size": 16,
+          "lineHeight": 1.1
+        },
+        {
+          "role": "body-sm",
+          "size": 32,
+          "lineHeight": 1.1
+        },
+        {
+          "role": "body",
+          "size": 35,
+          "lineHeight": 1.1
+        },
+        {
+          "role": "body-lg",
+          "size": 43,
+          "lineHeight": 1.1
+        }
+      ],
+      "components": [
+        {
+          "name": "Primary Navigation Link",
+          "role": "Top-level navigation items",
+          "description": "Text: Arctic Mist (#ffffff) using goodsans, 12px, weight 400. Hover state shows a subtle border or color change. Padded with 50px on right."
+        },
+        {
+          "name": "Body Text Block",
+          "role": "Main narrative content",
+          "description": "Text: Arctic Mist (#ffffff) using editorial, 16px, weight 400. Contained within a spacious layout."
+        },
+        {
+          "name": "Section Heading",
+          "role": "Major content section titles",
+          "description": "Text: Arctic Mist (#ffffff) using editorial, typically 35px or 43px, weight 400. All-caps for strong visual presence."
+        },
+        {
+          "name": "Footer Description",
+          "role": "Site-wide descriptive text",
+          "description": "Text: Arctic Mist (#ffffff) using editorial, 16px, weight 400. Usually appears centered at the bottom of the page."
+        }
+      ],
+      "typography": [
+        {
+          "role": "Headlines, expressive body text, and key content labels - its distinct serif character provides a classical, editorial feel, contrasting with the minimalist layout.",
+          "sizes": "16px, 32px, 35px, 43px",
+          "family": "editorial",
+          "weight": "400",
+          "lineHeight": "1.00, 1.10, 1.15",
+          "substitute": "Playfair Display"
+        },
+        {
+          "role": "Navigation, small labels, and accent text - its clean, geometric forms provide a modern, functional counterpoint to the more decorative serif.",
+          "sizes": "10px, 12px, 35px",
+          "family": "goodsans",
+          "weight": "400",
+          "lineHeight": "1.00, 1.10",
+          "substitute": "Open Sans"
+        }
+      ],
+      "description": "Chris Biron presents a dark, minimalist aesthetic with a strong focus on high-contrast typography and subtle interactive elements. The design system emphasizes spacious layouts and a sense of calm, with large areas of negative space allowing content and imagery to breathe. Typography carries significant weight in conveying messages, often in all-caps, with a striking interplay between a classical serif and a modern sans-serif. Visual transitions are smooth and expressive, complementing the refined but raw interaction style.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "Quick Color Reference:\ntext: #ffffff\nbackground: #000000\nborder: #000000\naccent: #ffffff\nprimary action: no distinct CTA color\n\nExample Component Prompts:\n1. Create a top navigation bar: Midnight Void (#000000) background, with 'INDEX' on the left and 'INFO' on the right, both using goodsans font, 12px, Arctic Mist (#ffffff) text color.\n2. Design a project title section: Centered text 'FNATIC, 2018-2020' using editorial font, 43px, Arctic Mist (#ffffff) text, positioned above a product image, with 50px vertical padding above and below.\n3. Implement a descriptive paragraph: 'Chris is an independent Visual Designer based in London. He combines raw aesthetics with refined interactions to create memorable digital experiences' using editorial font, 16px, Arctic Mist (#ffffff) text, centered horizontally within a Midnight Void (#000000) section, with 50px vertical padding."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777516853092-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777516853092-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/68eeb68f-935b-4c14-9369-f3a5c23efedc",
+  "ranks": {
+    "trending": 713,
+    "popular": 817,
+    "newest": 318
+  },
+  "localSlug": "chris-biron-68eeb68f"
+}

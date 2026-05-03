@@ -1,0 +1,669 @@
+{
+  "id": "41220ec0-ca0d-4697-a2fc-7a9a50d52e7c",
+  "url": "https://goodglyphs.com",
+  "siteName": "Good Glyphs",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777521661065-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777521661065-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "light",
+  "colors": [
+    {
+      "name": "Ghostly Green",
+      "hex": "#c7ffcd"
+    },
+    {
+      "name": "Midnight Ink",
+      "hex": "#000000"
+    },
+    {
+      "name": "Slate Text",
+      "hex": "#101010"
+    }
+  ],
+  "fonts": [
+    "Helvetica Neue",
+    "good-glyphs"
+  ],
+  "northStar": "Neon Playbill on Black Canvas",
+  "createdAt": "2026-04-30T04:01:18.230Z",
+  "previewVideoCapturedAt": null,
+  "industry": "design",
+  "fullResult": {
+    "meta": {
+      "url": "https://goodglyphs.com",
+      "siteName": "Good Glyphs",
+      "extractedAt": "2026-04-30T04:01:18.161Z",
+      "durationMs": 25523,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 470,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "other",
+              "body",
+              "link",
+              "heading",
+              "card",
+              "icon",
+              "input",
+              "button",
+              "footer"
+            ],
+            "frequency": 2282,
+            "confidence": 1,
+            "prominence": 84326681.45508996,
+            "properties": [
+              "color",
+              "borderColor",
+              "backgroundColor",
+              "fill"
+            ],
+            "usageCounts": {
+              "icon/fill": 2,
+              "body/color": 35,
+              "link/color": 40,
+              "input/color": 6,
+              "other/color": 304,
+              "button/color": 33,
+              "footer/color": 1,
+              "heading/color": 4,
+              "body/borderColor": 140,
+              "card/borderColor": 4,
+              "link/borderColor": 160,
+              "input/borderColor": 24,
+              "other/borderColor": 1216,
+              "button/borderColor": 260,
+              "footer/borderColor": 4,
+              "heading/borderColor": 16,
+              "card/backgroundColor": 1,
+              "button/backgroundColor": 32
+            }
+          },
+          {
+            "hex": "#c7ffcd",
+            "oklch": {
+              "c": 0.08770456424220574,
+              "h": 147.7049724979704,
+              "l": 0.9488134682688879
+            },
+            "contexts": [
+              "card",
+              "other",
+              "heading",
+              "icon",
+              "button"
+            ],
+            "frequency": 196,
+            "confidence": 1,
+            "prominence": 4439464.082242367,
+            "properties": [
+              "color",
+              "borderColor",
+              "backgroundColor",
+              "stroke"
+            ],
+            "usageCounts": {
+              "card/color": 1,
+              "icon/color": 1,
+              "other/color": 4,
+              "button/color": 32,
+              "other/stroke": 4,
+              "heading/color": 1,
+              "icon/borderColor": 4,
+              "other/borderColor": 16,
+              "heading/borderColor": 4,
+              "other/backgroundColor": 128,
+              "button/backgroundColor": 1
+            }
+          },
+          {
+            "hex": "#101010",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.17304230872217735
+            },
+            "contexts": [
+              "input"
+            ],
+            "frequency": 5,
+            "confidence": 1,
+            "prominence": 26258.049082325502,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "input/color": 1,
+              "input/borderColor": 4
+            }
+          }
+        ],
+        "isDarkMode": false,
+        "colorfulness": 0.018711121672205944,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 18.61,
+            "background": "#c7ffcd",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 16.87,
+            "background": "#c7ffcd",
+            "foreground": "#101010"
+          },
+          {
+            "level": "fail",
+            "ratio": 1.1,
+            "background": "#000000",
+            "foreground": "#101010"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [
+          {
+            "value": 14,
+            "contexts": [
+              "card",
+              "other"
+            ],
+            "frequency": 33
+          },
+          {
+            "value": 140,
+            "contexts": [
+              "button"
+            ],
+            "frequency": 1
+          }
+        ],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 1,
+            "contexts": [
+              "button"
+            ],
+            "frequency": 64,
+            "properties": [
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingBottom|button"
+            ]
+          },
+          {
+            "value": 4,
+            "contexts": [
+              "button"
+            ],
+            "frequency": 256,
+            "properties": [
+              "paddingTop",
+              "paddingRight",
+              "paddingLeft",
+              "marginRight"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|button",
+              "paddingRight|button",
+              "paddingLeft|button",
+              "marginRight|button"
+            ]
+          },
+          {
+            "value": 7,
+            "contexts": [
+              "body",
+              "heading",
+              "other",
+              "footer"
+            ],
+            "frequency": 165,
+            "properties": [
+              "paddingRight",
+              "paddingLeft",
+              "marginTop",
+              "marginBottom",
+              "paddingTop",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|body",
+              "paddingLeft|body",
+              "paddingRight|heading",
+              "paddingLeft|heading",
+              "paddingRight|other",
+              "paddingLeft|other",
+              "marginTop|other",
+              "marginBottom|other",
+              "marginBottom|heading",
+              "paddingTop|other",
+              "paddingBottom|other",
+              "paddingRight|footer",
+              "paddingLeft|footer"
+            ]
+          },
+          {
+            "value": 14,
+            "contexts": [
+              "other",
+              "card",
+              "body",
+              "footer"
+            ],
+            "frequency": 147,
+            "properties": [
+              "marginTop",
+              "marginBottom",
+              "paddingTop",
+              "paddingRight",
+              "paddingBottom",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "marginTop|other",
+              "marginBottom|other",
+              "marginTop|card",
+              "marginBottom|card",
+              "paddingTop|other",
+              "paddingRight|other",
+              "paddingBottom|other",
+              "paddingLeft|other",
+              "marginTop|body",
+              "marginBottom|body",
+              "paddingTop|body",
+              "paddingLeft|body",
+              "paddingBottom|footer"
+            ]
+          },
+          {
+            "value": 28,
+            "contexts": [
+              "body",
+              "link"
+            ],
+            "frequency": 5,
+            "properties": [
+              "marginRight"
+            ],
+            "propertyContextPairs": [
+              "marginRight|body",
+              "marginRight|link"
+            ]
+          },
+          {
+            "value": 42,
+            "contexts": [
+              "card"
+            ],
+            "frequency": 1,
+            "properties": [
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingBottom|card"
+            ]
+          },
+          {
+            "value": 84,
+            "contexts": [
+              "footer"
+            ],
+            "frequency": 1,
+            "properties": [
+              "marginTop"
+            ],
+            "propertyContextPairs": [
+              "marginTop|footer"
+            ]
+          }
+        ],
+        "density": "compact",
+        "baseUnit": 4
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "Helvetica Neue",
+            "source": "system",
+            "weights": [
+              300,
+              400
+            ],
+            "frequency": 336,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "good-glyphs",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 129,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 16,
+          "name": "Minor Second",
+          "ratio": 1.067,
+          "confidence": 0.75
+        },
+        "steps": [
+          {
+            "size": 13,
+            "family": "Helvetica Neue",
+            "weight": 300,
+            "contexts": [
+              "input"
+            ],
+            "frequency": 5,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 14,
+            "family": "Helvetica Neue",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "body",
+              "link",
+              "card",
+              "heading",
+              "button"
+            ],
+            "frequency": 300,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 14,
+            "family": "Helvetica Neue",
+            "weight": 400,
+            "contexts": [
+              "footer",
+              "body",
+              "link"
+            ],
+            "frequency": 6,
+            "lineHeight": 1.5,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 28,
+            "family": "Helvetica Neue",
+            "weight": 300,
+            "contexts": [
+              "other",
+              "heading",
+              "input"
+            ],
+            "frequency": 14,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 288,
+            "family": "Helvetica Neue",
+            "weight": 400,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 3,
+            "lineHeight": 0.8,
+            "letterSpacing": -0.03,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 288,
+            "family": "good-glyphs",
+            "weight": 400,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 288,
+            "family": "good-glyphs",
+            "weight": 400,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 128,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Prioritize Midnight Ink (#000000) for all text and UI outlines against Ghostly Green (#c7ffcd) backgrounds for maximum contrast.",
+        "Apply a generous border-radius of 140px for all button shapes that are pill-like, and 14px for cards and container corners.",
+        "Use Helvetica Neue with -0.0300em letter-spacing for all body text and secondary headings to maintain a dense, compact feel.",
+        "Employ the 'good-glyphs' font strictly for large, decorative, glyph-based display elements.",
+        "Use 4px as the foundational unit for small element spacing, such as padding inside buttons.",
+        "Ensure all interactive elements reverse their color scheme upon activation, for example, from Ghostly Green text on Midnight Ink background to Midnight Ink text on Ghostly Green background.",
+        "Utilize 14px for vertical spacing between smaller content blocks or lists, and 84px for large section separation."
+      ],
+      "donts": [
+        "Avoid using gradients or complex box-shadows; maintain a flat, high-contrast aesthetic.",
+        "Do not introduce additional color beyond Ghostly Green, Midnight Ink, and Slate Text, except where specific brand assets necessitate it.",
+        "Do not vary the letter-spacing for Helvetica Neue beyond -0.0300em unless specifically for the 'good-glyphs' display font.",
+        "Avoid complex layouts; favor centered content stacks or simple grid structures.",
+        "Do not use subtle elevation cues like soft shadows; interaction should be indicated through color changes or strong borders.",
+        "Do not use the 'good-glyphs' font for standard body text or headings due to its decorative nature.",
+        "Avoid padding within input elements where default browser styles are visually sufficient; rely on the minimal border emphasis."
+      ],
+      "theme": "light",
+      "colors": [
+        {
+          "hex": "#c7ffcd",
+          "name": "Ghostly Green",
+          "role": "Page background, light surfaces, interactive element highlights, and active text on dark backgrounds",
+          "group": "brand"
+        },
+        {
+          "hex": "#000000",
+          "name": "Midnight Ink",
+          "role": "Primary text, deep background for cards and interactive components, borders for all elements, and the base color for all UI controls",
+          "group": "neutral"
+        },
+        {
+          "hex": "#101010",
+          "name": "Slate Text",
+          "role": "Input text and subtle input borders, a slightly lighter variant of Midnight Ink used for specific form fields",
+          "group": "neutral"
+        }
+      ],
+      "layout": "The page primarily uses a full-bleed layout, taking advantage of the large background color. The hero section is characterized by ultra-large, compressed typography layered directly onto the background, followed by a contrasting full-width dark section. Content then alternates between a max-width centered stack for body text and a three-column grid for 'Contributors' cards, maintaining consistent vertical spacing. Navigation is minimal, consisting of a sticky top-right link.",
+      "imagery": "The site primarily uses custom dingbat-style vector illustrations from the 'good-glyphs' font. These are graphic, black-and-white, outline icons with a quirky, playful, and sometimes abstract aesthetic. They are used decoratively within card components, demonstrating the font's content. There are no photographs or complex 3D renders; the visual emphasis is on stylized, flat vector art.",
+      "similar": [
+        {
+          "why": "Uses a very stark, high-contrast typography-focused design with minimal color outside of text and functional elements.",
+          "business": "Fonts In Use"
+        },
+        {
+          "why": "Embraces a 'brutalist' aesthetic with strong borders, high contrast colors, and unconventional typography choices.",
+          "business": "Brutalism.website"
+        },
+        {
+          "why": "Features a strong emphasis on typography as a primary visual element, often with large, impactful headlines.",
+          "business": "The Brand Identity"
+        },
+        {
+          "why": "Known for bold, experimental typography, high-contrast color palettes, and a minimalist but impactful UI.",
+          "business": "Supremo"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "cards": "14px",
+          "other": "14px",
+          "buttons": "140px"
+        },
+        "elementGap": "4px",
+        "sectionGap": "84px",
+        "cardPadding": "42px",
+        "pageMaxWidth": null
+      },
+      "industry": "design",
+      "surfaces": [
+        {
+          "hex": "#c7ffcd",
+          "name": "Canvas",
+          "level": 0,
+          "purpose": "Primary page background and overall content area."
+        },
+        {
+          "hex": "#000000",
+          "name": "Card Surface",
+          "level": 1,
+          "purpose": "Background for major content blocks like contributor cards."
+        }
+      ],
+      "northStar": "Neon Playbill on Black Canvas",
+      "typeScale": [
+        {
+          "role": "caption",
+          "size": 13,
+          "lineHeight": 1.5,
+          "letterSpacing": -0.39
+        },
+        {
+          "role": "heading",
+          "size": 28,
+          "lineHeight": 1.2,
+          "letterSpacing": -0.84
+        },
+        {
+          "role": "display",
+          "size": 288,
+          "lineHeight": 0.8,
+          "letterSpacing": -8.64
+        }
+      ],
+      "components": [
+        {
+          "name": "Default Button",
+          "role": "Standard interactive element with minimal styling.",
+          "description": "Text: Midnight Ink (#000000), Helvetica Neue, 4px padding (top, right, left), 1px (bottom). Border: 1px solid Midnight Ink (#000000). Background: transparent. Border-radius: 10% (for square buttons), 140px (for pill-shaped buttons)."
+        },
+        {
+          "name": "Inverted Button",
+          "role": "Action-oriented button with high contrast.",
+          "description": "Text: Ghostly Green (#c7ffcd), Helvetica Neue. Background: Midnight Ink (#000000). Padding: 4px (top, right, left), 1px (bottom). Border: 1px solid Midnight Ink (#000000). Border-radius: 10% (for square buttons)."
+        },
+        {
+          "name": "Download Button",
+          "role": "Primary call to action.",
+          "description": "Text: Midnight Ink (#000000), Helvetica Neue. Background: Ghostly Green (#c7ffcd). Border: 1px solid Midnight Ink (#000000). Border-radius: 140px. Padding (implicit): 0px — relies on intrinsic text spacing."
+        },
+        {
+          "name": "Contributor Card",
+          "role": "Displays individual entries for designers.",
+          "description": "Background: Midnight Ink (#000000). Border-radius: 14px. Padding-bottom: 42px. No box shadow."
+        },
+        {
+          "name": "Text Input (Default)",
+          "role": "Basic text input field.",
+          "description": "Text: Midnight Ink (#000000), Helvetica Neue. Background: transparent. Border: 1px solid Midnight Ink (#000000) on top. Border-radius: 0px. No padding defined by component; relies on content."
+        },
+        {
+          "name": "Text Input (Active)",
+          "role": "Text input field in a focused or active state.",
+          "description": "Text: Slate Text (#101010), Helvetica Neue. Background: transparent. Border: 1px solid Slate Text (#101010) on top. Border-radius: 0px. No padding defined by component; relies on content."
+        }
+      ],
+      "typography": [
+        {
+          "role": "Body copy, links, general text, and some headings. The tight letter-spacing gives it a compact, modern feel.",
+          "sizes": "13px, 14px, 28px, 288px",
+          "family": "Helvetica Neue",
+          "weight": "300, 400",
+          "weights": [
+            300,
+            400
+          ],
+          "lineHeight": "0.80, 1.20, 1.50",
+          "substitute": "Arial",
+          "letterSpacing": "-0.0300em"
+        },
+        {
+          "role": "Primary display font for decorative glyphs and large, impactful visual statements.",
+          "sizes": "288px",
+          "family": "good-glyphs",
+          "weight": "400",
+          "weights": [
+            400
+          ],
+          "lineHeight": "1.00, 1.20",
+          "substitute": "System icons (fallback)",
+          "letterSpacing": "normal"
+        }
+      ],
+      "description": "Good Glyphs embraces a stark, high-contrast aesthetic, juxtaposing a vibrant, almost neon green background with severe black text and containers. Typography is a dominant visual element, using an ultra-large, compressed sans-serif for headlines that conveys an irreverent, playful attitude. Interface elements are minimal, relying on strong borders and generous radii, with interactive states signaled primarily through color inversion rather than complex shadows or gradients. The overall atmosphere is punchy, high-energy, and digital-native.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "Quick Color Reference:\ntext: #000000\nbackground: #c7ffcd\nborder: #000000\naccent: #c7ffcd\nprimary action: #c7ffcd (filled action)\n\nExample Component Prompts:\n1. Create a hero section: 'Ghostly Green' background (#c7ffcd). Headline (good-glyphs, weight 400, 288px, lineHeight 0.8, normal letter-spacing, Midnight Ink #000000). Subtitle (Helvetica Neue, weight 400, 28px, lineHeight 1.2, -0.0300em letter-spacing, Midnight Ink #000000).\n2. Create a 'Download' button: Background 'Ghostly Green' (#c7ffcd), text 'Midnight Ink' (#000000), 'Helvetica Neue' font, 140px border-radius, 1px solid 'Midnight Ink' border. Text should be 'Donate & Download'.\n3. Create a 'Contributor' card: 'Midnight Ink' background (#000000), 14px border-radius, padding-bottom 42px. Inside, place a 'Good Glyphs' icon (good-glyphs font, 288px, Midnight Ink #000000) and Helvetica Neue body text (14px, #c7ffcd, -0.0300em letter-spacing) for designer name.\n4. Create a money input field with a label '$$$': Text input (Helvetica Neue, 14px, Slate Text #101010) with transparent background and a 1px solid Slate Text border only on top. Label '$$$' (Helvetica Neue, 14px, Midnight Ink #000000)."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777521661065-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777521661065-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/41220ec0-ca0d-4697-a2fc-7a9a50d52e7c",
+  "ranks": {
+    "trending": 257,
+    "popular": 441,
+    "newest": 4
+  },
+  "localSlug": "good-glyphs-41220ec0"
+}

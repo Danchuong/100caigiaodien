@@ -1,0 +1,727 @@
+{
+  "id": "e249ea21-fafd-481f-a5b5-33932b6d8f71",
+  "url": "https://seis.studio",
+  "siteName": "Sébastien El Idrissi",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777518280392-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777518280392-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "dark",
+  "colors": [
+    {
+      "name": "Midnight Matte",
+      "hex": "#000000"
+    },
+    {
+      "name": "Canvas White",
+      "hex": "#ffffff"
+    },
+    {
+      "name": "Charcoal Surface",
+      "hex": "#1c1c1c"
+    },
+    {
+      "name": "Fine Stone",
+      "hex": "#808080"
+    },
+    {
+      "name": "Pebble Gray",
+      "hex": "#cccccc"
+    }
+  ],
+  "fonts": [
+    "Toto"
+  ],
+  "northStar": "Gallery of Quiet Objects",
+  "createdAt": "2026-04-30T03:04:56.621Z",
+  "previewVideoCapturedAt": null,
+  "industry": "design",
+  "fullResult": {
+    "meta": {
+      "url": "https://seis.studio",
+      "siteName": "Sébastien El Idrissi",
+      "extractedAt": "2026-04-30T03:04:56.453Z",
+      "durationMs": 33031,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 117,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "other",
+              "heading",
+              "body",
+              "link",
+              "input",
+              "button"
+            ],
+            "frequency": 416,
+            "confidence": 1,
+            "prominence": 61122100.96827918,
+            "properties": [
+              "color",
+              "borderColor",
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "body/color": 27,
+              "link/color": 15,
+              "input/color": 4,
+              "other/color": 30,
+              "button/color": 1,
+              "heading/color": 6,
+              "body/borderColor": 108,
+              "link/borderColor": 60,
+              "input/borderColor": 16,
+              "other/borderColor": 120,
+              "button/borderColor": 4,
+              "heading/borderColor": 24,
+              "other/backgroundColor": 1
+            }
+          },
+          {
+            "hex": "#ffffff",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 1.0000000000000002
+            },
+            "contexts": [
+              "other",
+              "nav",
+              "heading",
+              "link",
+              "hero",
+              "list"
+            ],
+            "frequency": 171,
+            "confidence": 1,
+            "prominence": 13852315.61465239,
+            "properties": [
+              "color",
+              "borderColor",
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "nav/color": 2,
+              "hero/color": 1,
+              "link/color": 7,
+              "list/color": 7,
+              "other/color": 9,
+              "heading/color": 8,
+              "nav/borderColor": 8,
+              "hero/borderColor": 4,
+              "link/borderColor": 28,
+              "list/borderColor": 28,
+              "other/borderColor": 36,
+              "heading/borderColor": 32,
+              "other/backgroundColor": 1
+            }
+          },
+          {
+            "hex": "#808080",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.5981807305268477
+            },
+            "contexts": [
+              "hero",
+              "other"
+            ],
+            "frequency": 3,
+            "confidence": 1,
+            "prominence": 7042328,
+            "properties": [
+              "boxShadow"
+            ],
+            "usageCounts": {
+              "hero/boxShadow": 1,
+              "other/boxShadow": 2
+            }
+          },
+          {
+            "hex": "#ebebeb",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.9400701157803539
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 3521164,
+            "properties": [
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "other/backgroundColor": 1
+            }
+          },
+          {
+            "hex": "#1c1c1c",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.22644986475198373
+            },
+            "contexts": [
+              "hero"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 1865314,
+            "properties": [
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "hero/backgroundColor": 1
+            }
+          },
+          {
+            "hex": "#cccccc",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.8452222558133237
+            },
+            "contexts": [
+              "hero"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 1865314,
+            "properties": [
+              "boxShadow"
+            ],
+            "usageCounts": {
+              "hero/boxShadow": 1
+            }
+          }
+        ],
+        "isDarkMode": false,
+        "colorfulness": 0,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 21,
+            "background": "#ffffff",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 17.62,
+            "background": "#ebebeb",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 17.04,
+            "background": "#1c1c1c",
+            "foreground": "#ffffff"
+          },
+          {
+            "level": "AAA",
+            "ratio": 14.3,
+            "background": "#ebebeb",
+            "foreground": "#1c1c1c"
+          },
+          {
+            "level": "AAA",
+            "ratio": 13.08,
+            "background": "#cccccc",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 10.61,
+            "background": "#cccccc",
+            "foreground": "#1c1c1c"
+          },
+          {
+            "level": "fail",
+            "ratio": 1.23,
+            "background": "#1c1c1c",
+            "foreground": "#000000"
+          },
+          {
+            "level": "fail",
+            "ratio": 1.19,
+            "background": "#ebebeb",
+            "foreground": "#ffffff"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [],
+        "shadows": [
+          {
+            "value": "rgba(0, 0, 0, 0.5) 0px -3px 6px 0px",
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2
+          },
+          {
+            "value": "rgba(0, 0, 0, 0.2) 0px -50px 50px 0px, rgba(0, 0, 0, 0.5) 0px -4px 8px 0px",
+            "contexts": [
+              "hero"
+            ],
+            "frequency": 1
+          }
+        ]
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 12,
+            "contexts": [
+              "input",
+              "button"
+            ],
+            "frequency": 16,
+            "properties": [
+              "paddingTop",
+              "paddingBottom",
+              "marginRight",
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|input",
+              "paddingBottom|input",
+              "marginRight|input",
+              "marginBottom|input",
+              "paddingTop|button",
+              "paddingBottom|button",
+              "marginBottom|button"
+            ]
+          },
+          {
+            "value": 18,
+            "contexts": [
+              "input"
+            ],
+            "frequency": 8,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|input",
+              "paddingLeft|input"
+            ]
+          },
+          {
+            "value": 24,
+            "contexts": [
+              "nav",
+              "body",
+              "other"
+            ],
+            "frequency": 8,
+            "properties": [
+              "paddingTop",
+              "paddingBottom",
+              "marginBottom",
+              "marginTop"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|nav",
+              "paddingBottom|nav",
+              "marginBottom|body",
+              "marginTop|other"
+            ]
+          },
+          {
+            "value": 36,
+            "contexts": [
+              "nav",
+              "link",
+              "hero",
+              "other"
+            ],
+            "frequency": 12,
+            "properties": [
+              "paddingRight",
+              "paddingLeft",
+              "paddingTop",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|nav",
+              "paddingLeft|nav",
+              "paddingTop|link",
+              "paddingRight|link",
+              "paddingBottom|link",
+              "paddingLeft|link",
+              "paddingRight|hero",
+              "paddingLeft|hero",
+              "paddingRight|other",
+              "paddingLeft|other"
+            ]
+          },
+          {
+            "value": 40,
+            "contexts": [
+              "list",
+              "heading"
+            ],
+            "frequency": 7,
+            "properties": [
+              "columnGap",
+              "marginTop"
+            ],
+            "propertyContextPairs": [
+              "columnGap|list",
+              "marginTop|heading"
+            ]
+          },
+          {
+            "value": 42,
+            "contexts": [
+              "button"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|button",
+              "paddingLeft|button"
+            ]
+          },
+          {
+            "value": 48,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingTop",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other",
+              "paddingBottom|other"
+            ]
+          },
+          {
+            "value": 72,
+            "contexts": [
+              "heading",
+              "other"
+            ],
+            "frequency": 12,
+            "properties": [
+              "marginBottom",
+              "marginTop"
+            ],
+            "propertyContextPairs": [
+              "marginBottom|heading",
+              "marginBottom|other",
+              "marginTop|heading"
+            ]
+          },
+          {
+            "value": 90,
+            "contexts": [
+              "hero",
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingTop"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|hero",
+              "paddingTop|other"
+            ]
+          },
+          {
+            "value": 100,
+            "contexts": [
+              "hero",
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingBottom|hero",
+              "paddingBottom|other"
+            ]
+          },
+          {
+            "value": 157,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "marginRight",
+              "marginLeft"
+            ],
+            "propertyContextPairs": [
+              "marginRight|other",
+              "marginLeft|other"
+            ]
+          },
+          {
+            "value": 237,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 8,
+            "properties": [
+              "marginRight",
+              "marginLeft"
+            ],
+            "propertyContextPairs": [
+              "marginRight|other",
+              "marginLeft|other"
+            ]
+          }
+        ],
+        "density": "spacious",
+        "baseUnit": 6
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "Toto",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 117,
+            "fontFeatureSettings": [
+              "\"tnum\""
+            ]
+          }
+        ],
+        "scale": null,
+        "steps": [
+          {
+            "size": 24,
+            "family": "Toto",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "nav",
+              "heading",
+              "link",
+              "hero",
+              "list",
+              "body"
+            ],
+            "frequency": 105,
+            "lineHeight": 1.33,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 24,
+            "family": "Toto",
+            "weight": 400,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 7,
+            "lineHeight": 1.33,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 24,
+            "family": "Toto",
+            "weight": 400,
+            "contexts": [
+              "input",
+              "button"
+            ],
+            "frequency": 5,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Use 'Midnight Matte' (#000000) for all primary text and important borders to maintain high contrast.",
+        "Apply 'Toto' font (or 'Playfair Display' as substitute) consistently for all text elements, maintaining weight 400 and tabular figures.",
+        "Implement a '0px' border-radius for all interactive elements and containers, promoting sharp, defined edges.",
+        "Employ `sectionGap` of 72px for generous vertical spacing between major content blocks.",
+        "Ensure interactive elements like buttons and inputs use 12px vertical padding as a minimum.",
+        "Maintain a spacious density with a base unit of 6px for all spacing decisions.",
+        "Use 'Charcoal Surface' (#1c1c1c) as the primary background for content presentation."
+      ],
+      "donts": [
+        "Avoid using highly saturated, chromatic colors; the palette is strictly achromatic to maintain focus on content.",
+        "Do not introduce additional font families or weights beyond Toto 400.",
+        "Prevent any rounded corners; elements should always have sharp, 0px border-radius edges.",
+        "Do not constrain page content with a `pageMaxWidth`; allow content to span the full viewport.",
+        "Avoid decorative gradients; rely on stark color blocks and subtle shadows for visual interest.",
+        "Do not introduce complex shadow styles; keep shadows minimal and subtle to suggest depth without visual clutter.",
+        "Refrain from using small, tight line heights; maintain generous line spacing for legibility, especially for body text (1.33)."
+      ],
+      "theme": "dark",
+      "colors": [
+        {
+          "hex": "#000000",
+          "name": "Midnight Matte",
+          "role": "Primary text, critical interface elements, borders for ghost buttons, page backgrounds for dark sections. Its absolute blackness provides stark contrast",
+          "group": "neutral"
+        },
+        {
+          "hex": "#ffffff",
+          "name": "Canvas White",
+          "role": "Text on dark backgrounds, secondary backgrounds in light-themed sections, and subtle borders",
+          "group": "neutral"
+        },
+        {
+          "hex": "#1c1c1c",
+          "name": "Charcoal Surface",
+          "role": "Dominant background for main content areas, creating a stark, object-focused display environment",
+          "group": "neutral"
+        },
+        {
+          "hex": "#808080",
+          "name": "Fine Stone",
+          "role": "Subtle shadow tint for elevated components, suggesting depth in a dark context",
+          "group": "neutral"
+        },
+        {
+          "hex": "#cccccc",
+          "name": "Pebble Gray",
+          "role": "Very faint shadow tint, used minimally for a touch of light contrast in darker areas",
+          "group": "neutral"
+        }
+      ],
+      "layout": "The page primarily uses a full-bleed layout, particularly for hero sections, which feature large product images or statements with centered text. Content sections typically utilize a contained grid for product listings, often a 3-column arrangement, within the dominant 'Charcoal Surface' background. The section rhythm is consistent with vertical separation provided by `72px` `sectionGap`. Layouts are often single-column or symmetrical multi-column stacks, emphasizing individual items rather than complex arrangements. Navigation is minimal, consisting of a sticky top header with the brand name.",
+      "imagery": "The site primarily uses product photography, often showcasing single objects or small arrangements against a stark, desaturated background or a textured concrete wall, highlighting material and form. These are contained within their own blocks or function as full-bleed hero banners, without overlapping. The treatment is focused, with tight crops and minimal contextual information, making the object the central focus. Illustrations or complex graphic elements are absent; the visual language relies purely on clean product representation and achromatic UI.",
+      "similar": [
+        {
+          "why": "Shares a similar focus on product presentation with an achromatic color palette and minimal UI.",
+          "business": "Opendesigns"
+        },
+        {
+          "why": "Exhibits a clean, functional UI with strong use of neutrals and clear typography for hierarchical content.",
+          "business": "Figma"
+        },
+        {
+          "why": "Uses a serif typeface for its primary content and navigation, creating a strong editorial feel combined with modern layouts.",
+          "business": "AIGA"
+        },
+        {
+          "why": "Features high-contrast product photography against dark or neutral backgrounds, minimal text, and a strong emphasis on product details.",
+          "business": "Aer"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "none": "0px"
+        },
+        "elementGap": "12px",
+        "sectionGap": "72px",
+        "cardPadding": "12px",
+        "pageMaxWidth": null
+      },
+      "industry": "design",
+      "elevation": [
+        {
+          "style": "rgba(0, 0, 0, 0.5) 0px -3px 6px 0px",
+          "element": "Surface interactions"
+        },
+        {
+          "style": "rgba(0, 0, 0, 0.2) 0px -50px 50px 0px, rgba(0, 0, 0, 0.5) 0px -4px 8px 0px",
+          "element": "Hero section depth"
+        }
+      ],
+      "northStar": "Gallery of Quiet Objects",
+      "components": [
+        {
+          "name": "Ghost Button",
+          "role": "Action button with minimal visual footprint.",
+          "description": "Transparent background, 'Midnight Matte' text, 'Midnight Matte' 0px border (acting as an underline on hover/focus), 12px vertical padding, 42px horizontal padding. No border-radius, maintaining sharp edges."
+        },
+        {
+          "name": "Minimal Input Field",
+          "role": "Form input field.",
+          "description": "Transparent background, 'Midnight Matte' text. No border-radius. 12px vertical padding, 18px horizontal padding. Focus state indicated purely by text color and cursor."
+        },
+        {
+          "name": "Product Thumbnail",
+          "role": "Display individual product or work items visually.",
+          "description": "Each thumbnail is housed within a responsive container. Text ('Midnight Matte') is centered below, with generous vertical spacing (24px below image) and a 40px column gap between items, promoting individual focus."
+        },
+        {
+          "name": "Page Header",
+          "role": "Brand identity and navigation.",
+          "description": "Fixed header. 'Sébastien El Idrissi' in 'Canvas White' text, with a top padding of 36px. Its height is minimal, leaving the content itself as the dominant visual."
+        }
+      ],
+      "typography": [
+        {
+          "role": "The sole typeface, 'Toto', is a refined serif, used consistently across all headings, body text, navigation, and interactive elements. Its consistent weight 400 and tabular figures ('tnum') contribute to a strong, understated, and precise editorial voice.",
+          "sizes": "24px",
+          "family": "Toto",
+          "weight": "400",
+          "lineHeight": "1.20, 1.33",
+          "substitute": "Playfair Display, Lora",
+          "letterSpacing": "normal",
+          "fontFeatureSettings": "\"tnum\""
+        }
+      ],
+      "description": "This design system presents content with deliberate minimalism, using strong achromatic contrast and ample negative space to spotlight product visuals. Typography anchors the identity with a single serif font used across all content, creating a consistent, editorial feel. The dark, spacious layout emphasizes raw object forms, while a subtle border style offers a tactile texture to interactive elements.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "Quick Color Reference: text: #000000, background: #1c1c1c, border: #000000, accent: none, primary action: no distinct CTA color\n\nExample Component Prompts:\nCreate a hero section: 'Charcoal Surface' (#1c1c1c) background. Centered headline 'Selected Works' in 'Canvas White' (#ffffff) using Toto 24px/1.2. Below, provide 3 columns with 24px vertical padding and 40px column gap, each containing an image (placeholder) and 'Midnight Matte' (#000000) text 'Screens lighting' 'Toto' 24px/1.2 centered below, 24px margin-bottom.\nCreate a ghost button: 'Ghost Button' variant with 'Midnight Matte' (#000000) text, transparent background, and a 0px border in 'Midnight Matte' (#000000). Use 12px vertical padding and 42px horizontal padding.\nCreate an about text block: 'Canvas White' (#ffffff) background. Body text in 'Midnight Matte' (#000000), Toto 24px/1.33. Apply 24px vertical padding to the block."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777518280392-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777518280392-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/e249ea21-fafd-481f-a5b5-33932b6d8f71",
+  "ranks": {
+    "trending": 1075,
+    "popular": 1113,
+    "newest": 236
+  },
+  "localSlug": "sebastien-el-idrissi-e249ea21"
+}

@@ -1,0 +1,439 @@
+{
+  "id": "f46616d6-5138-408b-a29d-b6749a6f3b04",
+  "url": "https://www.holographik.co",
+  "siteName": "Holographik",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777514549889-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777514549889-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "dark",
+  "colors": [
+    {
+      "name": "Absolute Black",
+      "hex": "#000000"
+    },
+    {
+      "name": "Pure White",
+      "hex": "#ffffff"
+    },
+    {
+      "name": "Ash Gray",
+      "hex": "#aaaaaa"
+    }
+  ],
+  "fonts": [
+    "Helvetica Neue"
+  ],
+  "northStar": "High-contrast monochrome blueprint",
+  "createdAt": "2026-04-30T02:02:49.131Z",
+  "previewVideoCapturedAt": null,
+  "industry": "design",
+  "fullResult": {
+    "meta": {
+      "url": "https://www.holographik.co",
+      "siteName": "Holographik",
+      "extractedAt": "2026-04-30T02:02:48.963Z",
+      "durationMs": 27583,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 69,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "other",
+              "hero"
+            ],
+            "frequency": 156,
+            "confidence": 1,
+            "prominence": 9453828.49056355,
+            "properties": [
+              "color",
+              "borderColor",
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "hero/color": 1,
+              "other/color": 30,
+              "hero/borderColor": 4,
+              "other/borderColor": 120,
+              "hero/backgroundColor": 1
+            }
+          },
+          {
+            "hex": "#ffffff",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 1.0000000000000002
+            },
+            "contexts": [
+              "other",
+              "link",
+              "heading"
+            ],
+            "frequency": 96,
+            "confidence": 1,
+            "prominence": 8553487.043474518,
+            "properties": [
+              "backgroundColor",
+              "color",
+              "borderColor",
+              "fill"
+            ],
+            "usageCounts": {
+              "link/color": 2,
+              "other/fill": 24,
+              "other/color": 11,
+              "heading/color": 1,
+              "link/borderColor": 8,
+              "other/borderColor": 44,
+              "heading/borderColor": 4,
+              "other/backgroundColor": 2
+            }
+          },
+          {
+            "hex": "#aaaaaa",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.7380186709485949
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 12,
+            "confidence": 1,
+            "prominence": 0,
+            "properties": [
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "other/backgroundColor": 12
+            }
+          }
+        ],
+        "isDarkMode": false,
+        "colorfulness": 0,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 21,
+            "background": "#ffffff",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 9.04,
+            "background": "#aaaaaa",
+            "foreground": "#000000"
+          },
+          {
+            "level": "fail",
+            "ratio": 2.32,
+            "background": "#aaaaaa",
+            "foreground": "#ffffff"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [
+          {
+            "value": 160,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1
+          }
+        ],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 5,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 24,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|other",
+              "paddingLeft|other"
+            ]
+          },
+          {
+            "value": 10,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 3,
+            "properties": [
+              "paddingRight",
+              "paddingLeft",
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|other",
+              "paddingLeft|other",
+              "marginBottom|other"
+            ]
+          },
+          {
+            "value": 24,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 3,
+            "properties": [
+              "paddingRight",
+              "paddingLeft",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|other",
+              "paddingLeft|other",
+              "paddingBottom|other"
+            ]
+          },
+          {
+            "value": 200,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "rowGap",
+              "columnGap"
+            ],
+            "propertyContextPairs": [
+              "rowGap|other",
+              "columnGap|other"
+            ]
+          }
+        ],
+        "density": "compact",
+        "baseUnit": 6
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "Helvetica Neue",
+            "source": "system",
+            "weights": [
+              400
+            ],
+            "frequency": 45,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": null,
+        "steps": [
+          {
+            "size": 16,
+            "family": "Helvetica Neue",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "hero"
+            ],
+            "frequency": 42,
+            "lineHeight": 1.25,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "Helvetica Neue",
+            "weight": 400,
+            "contexts": [
+              "link"
+            ],
+            "frequency": 2,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 26,
+            "family": "Helvetica Neue",
+            "weight": 400,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 1,
+            "lineHeight": 1,
+            "letterSpacing": -0.02,
+            "textTransform": "uppercase"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Maintain a strict monochrome palette, leveraging Absolute Black (#000000) and Pure White (#ffffff) for primary contrast and Ash Gray (#aaaaaa) for subtle variations.",
+        "Apply the extreme 160px border-radius to all interactive components and card-like elements to establish a distinct pill or circular visual cue.",
+        "Use Helvetica Neue (or Arial as substitute) exclusively for all text, maintaining weight 400 and a consistent -0.0200em letter-spacing across all sizes.",
+        "Utilize 200px for vertical section separation to ensure generous breathing room between content blocks.",
+        "Prioritize high contrast pairings of #000000 text on #ffffff backgrounds or vice-versa for all content to maximize readability and visual impact.",
+        "Employ 24px internal padding for card-like elements and similar content containers, with smaller 5px or 10px padding for tighter internal element spacing."
+      ],
+      "donts": [
+        "Avoid introducing any additional chromatic colors; limit the palette to black, white, and a single gray.",
+        "Do not use subtle or moderate border radii, as the system mandates an extreme 160px radius for specific components.",
+        "Do not vary font weights beyond 400 for Helvetica Neue; all typography should maintain its consistent visual weight.",
+        "Do not introduce shadows or elevation effects; the design relies on flat, high-contrast surfaces.",
+        "Avoid intricate layout grids or complex component architectures; maintain a direct, block-based composition.",
+        "Do not use generic system link styles; links should be Pure White or Absolute Black text without explicit underlines unless contextualized."
+      ],
+      "theme": "dark",
+      "colors": [
+        {
+          "hex": "#000000",
+          "name": "Absolute Black",
+          "role": "Page backgrounds, primary text, foundational UI borders, critical information, hero section background",
+          "group": "neutral"
+        },
+        {
+          "hex": "#ffffff",
+          "name": "Pure White",
+          "role": "Hairline borders, dividers, input outlines, and card edges on light surfaces. Do not promote it to the primary CTA color",
+          "group": "neutral"
+        },
+        {
+          "hex": "#aaaaaa",
+          "name": "Ash Gray",
+          "role": "Subtle background panels and sections; used for lower-prominence content areas",
+          "group": "neutral"
+        }
+      ],
+      "layout": "The page primarily uses a full-bleed layout on an Absolute Black background, creating a vast, immersive canvas. The hero section features large, layered graphic elements and bold typography, breaking traditional content structures. Content below the hero appears to be organized in stacked, high-contrast blocks, potentially alternating between full-bleed black and contained white sections. Vertical rhythm is established by significant section gaps (200px). The overall layout emphasizes density and visual impact in key areas, suggesting a minimal navigation structure (top-header links only). There's no evident constrained max-width for the main content.",
+      "imagery": "This site features a heavy use of conceptual, abstract graphics composed of tightly cropped, monochromatic or desaturated photography combined with grid patterns and distorted typographic elements. Imagery often appears as overlapping, raw-edged layers without rounded corners, creating a visual collage effect. The role of imagery is primarily decorative atmosphere and brand expression, rather than explanatory content or product showcase. The density is image-heavy in the hero, becoming more text-dominant downwards. Icons are not a prominent feature, with the visual weight carried by the typographic and photographic elements.",
+      "similar": [
+        {
+          "why": "Stark black and white color scheme with large, impactful typography.",
+          "business": "Acme Co."
+        },
+        {
+          "why": "Monochrome palette, heavy typographic treatment, and abstract, layered visual elements.",
+          "business": "Büro. by Ben Mingo"
+        },
+        {
+          "why": "Minimalist, type-focused approach with high contrast and limited color use.",
+          "business": "Future Fonts"
+        },
+        {
+          "why": "Emphasis on typographic hierarchy and strong graphic design principles within a limited color scope.",
+          "business": "AIGA (certain historical designs)"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "other": "160px",
+          "buttons": "160px"
+        },
+        "elementGap": "10px",
+        "sectionGap": "200px",
+        "cardPadding": "24px",
+        "pageMaxWidth": null
+      },
+      "industry": "design",
+      "northStar": "High-contrast monochrome blueprint",
+      "typeScale": [
+        {
+          "role": "body",
+          "size": 16,
+          "lineHeight": 1.25
+        },
+        {
+          "role": "heading",
+          "size": 26,
+          "lineHeight": 1,
+          "letterSpacing": -0.52
+        }
+      ],
+      "components": [
+        {
+          "name": "Navigation Link",
+          "role": "Top-bar navigation and footer links",
+          "description": "Uses Pure White text (#ffffff) on Absolute Black (#000000) or vice versa, with no underline for a clean, direct appearance. Active states or hover effects are not visibly distinguished through color; interactions rely on inherent link behavior."
+        },
+        {
+          "name": "Accent Bordered Element (Ghost/Outlined)",
+          "role": "Interactive elements, likely buttons/links",
+          "description": "Defined by a 1px Pure White border (#ffffff) on a Pure White background, implying an outlined element against a dark canvas. Text color defaults to Absolute Black (#000000). Radii are extreme at 160px, creating a pill-like shape."
+        },
+        {
+          "name": "Text Block",
+          "role": "Descriptive paragraphs and content sections",
+          "description": "Body text in Helvetica Neue, weight 400, 16px, line-height 1.25. Text is Absolute Black (#000000) on Pure White (#ffffff) backgrounds or Pure White on Absolute Black backgrounds, maintaining high contrast. Padding is minimal at 24px."
+        },
+        {
+          "name": "Hero Headline",
+          "role": "Main page headline",
+          "description": "Large (26px) Helvetica Neue, weight 400, with tight line-height of 1.0 and -0.02em letter-spacing for visual density. Text color is Pure White (#ffffff) on Absolute Black (#000000)."
+        }
+      ],
+      "typography": [
+        {
+          "role": "Primary typeface for all content. Its consistent weight and tight letter-spacing across sizes contribute to the direct, industrial feel, serving for both prominent headings and body text.",
+          "sizes": "16px, 26px",
+          "family": "Helvetica Neue",
+          "weight": "400",
+          "weights": [
+            400
+          ],
+          "lineHeight": "1.00, 1.25",
+          "substitute": "Arial",
+          "letterSpacing": "-0.0200em at all sizes"
+        }
+      ],
+      "description": "Holographik uses a high-contrast, stark visual language built on an uncompromising black and white palette. Typography is large, bold, and tightly tracked for maximum impact, creating a sense of directness. Components are entirely UI-driven, with no decorative elements, relying on sharp edges and a single, extreme radius for interaction cues. The overall impression is one of confident, unornamented clarity.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "Quick Color Reference:\ntext: #000000\nbackground: #000000\nborder: #000000\naccent: no distinct accent color\nprimary action: no distinct CTA color\n\nExample Component Prompts:\n1. Create a header bar: Absolute Black background (#000000), with 'HOLOGRAPHIK' in Pure White Helvetica Neue 26px, weight 400, line-height 1.0, and 'hello@holographik.co' and 'Instagram↗' as Pure White Helvetica Neue 16px, weight 400, line-height 1.25, both with -0.0200em letter-spacing.\n2. Design a hero section with an Absolute Black background (#000000). Title the section 'HOLOGRAPHIK®' using Pure White #ffffff text, Helvetica Neue 26px, weight 400, line-height 1.0, with -0.0200em letter-spacing. Below it, add a descriptive paragraph: 'A DESIGN AND MOTION STUDIO WORKING WITH LIKE-MINDED VISIONARIES TO MAKE AN IMPACT ON THE INDUSTRY THROUGH A CLEAR AND EFFECTIVE VISUAL LANGUAGE.' in Pure White #ffffff text, Helvetica Neue 16px, weight 400, line-height 1.25, -0.0200em letter-spacing. Ensure ample padding of 24px and a 200px section gap before any subsequent content.\n3. Create a conceptual grid element: Pure White background (#ffffff), featuring an internal grid pattern in Absolute Black (#000000), using the default element gap of 10px between grid lines. This element should have a 160px border-radius, giving it a soft, pill-shaped edge. Text content on this element should be Absolute Black (#000000) Helvetica Neue 16px, weight 400, line-height 1.25."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777514549889-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777514549889-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/f46616d6-5138-408b-a29d-b6749a6f3b04",
+  "ranks": {
+    "trending": 518,
+    "popular": 661,
+    "newest": 459
+  },
+  "localSlug": "holographik-f46616d6"
+}

@@ -1,0 +1,594 @@
+{
+  "id": "bb961b10-d437-4023-9201-a44349fe591f",
+  "url": "https://anacuna.com",
+  "siteName": "Anacuna",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777513420388-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777513420388-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "light",
+  "colors": [
+    {
+      "name": "Canvas White",
+      "hex": "#ffffff"
+    },
+    {
+      "name": "Ink Black",
+      "hex": "#000000"
+    },
+    {
+      "name": "Flamingo Pink",
+      "hex": "#ffc8c8"
+    }
+  ],
+  "fonts": [
+    "ABCMonumentGrotesk-Regular"
+  ],
+  "northStar": "Type-first stark canvas",
+  "createdAt": "2026-04-30T01:44:03.704Z",
+  "previewVideoCapturedAt": null,
+  "industry": "design",
+  "fullResult": {
+    "meta": {
+      "url": "https://anacuna.com",
+      "siteName": "Anacuna",
+      "extractedAt": "2026-04-30T01:44:03.637Z",
+      "durationMs": 30964,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 181,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "other",
+              "button",
+              "link",
+              "icon",
+              "list",
+              "body",
+              "heading",
+              "image",
+              "footer"
+            ],
+            "frequency": 896,
+            "confidence": 1,
+            "prominence": 33226590.977196258,
+            "properties": [
+              "color",
+              "borderColor",
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "body/color": 27,
+              "icon/color": 1,
+              "link/color": 29,
+              "list/color": 6,
+              "image/color": 25,
+              "other/color": 62,
+              "button/color": 3,
+              "footer/color": 1,
+              "heading/color": 25,
+              "body/borderColor": 108,
+              "icon/borderColor": 4,
+              "link/borderColor": 116,
+              "list/borderColor": 24,
+              "image/borderColor": 100,
+              "other/borderColor": 248,
+              "button/borderColor": 12,
+              "footer/borderColor": 4,
+              "heading/borderColor": 100,
+              "link/backgroundColor": 1
+            }
+          },
+          {
+            "hex": "#ffffff",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 1.0000000000000002
+            },
+            "contexts": [
+              "link",
+              "button",
+              "list",
+              "body",
+              "other",
+              "footer"
+            ],
+            "frequency": 41,
+            "confidence": 1,
+            "prominence": 845186.4405289202,
+            "properties": [
+              "backgroundColor",
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "body/color": 1,
+              "link/color": 1,
+              "body/borderColor": 4,
+              "link/borderColor": 4,
+              "link/backgroundColor": 2,
+              "list/backgroundColor": 1,
+              "other/backgroundColor": 25,
+              "button/backgroundColor": 2,
+              "footer/backgroundColor": 1
+            }
+          },
+          {
+            "hex": "#ffc8c8",
+            "oklch": {
+              "c": 0.06285457739838803,
+              "h": 18.415930661066785,
+              "l": 0.8813296258034615
+            },
+            "contexts": [
+              "button"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 8470,
+            "properties": [
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "button/backgroundColor": 1
+            }
+          }
+        ],
+        "isDarkMode": false,
+        "colorfulness": 0.0001811057955350315,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 21,
+            "background": "#ffffff",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 14.35,
+            "background": "#ffc8c8",
+            "foreground": "#000000"
+          },
+          {
+            "level": "fail",
+            "ratio": 1.46,
+            "background": "#ffc8c8",
+            "foreground": "#ffffff"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [
+          {
+            "value": 27.4285,
+            "contexts": [
+              "button",
+              "list",
+              "body"
+            ],
+            "frequency": 29
+          }
+        ],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 2,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 25,
+            "properties": [
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingBottom|other"
+            ]
+          },
+          {
+            "value": 4,
+            "contexts": [
+              "list"
+            ],
+            "frequency": 4,
+            "properties": [
+              "paddingTop",
+              "paddingRight",
+              "paddingBottom",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|list",
+              "paddingRight|list",
+              "paddingBottom|list",
+              "paddingLeft|list"
+            ]
+          },
+          {
+            "value": 6,
+            "contexts": [
+              "button",
+              "body"
+            ],
+            "frequency": 28,
+            "properties": [
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingBottom|button",
+              "paddingBottom|body"
+            ]
+          },
+          {
+            "value": 7,
+            "contexts": [
+              "link",
+              "list",
+              "other",
+              "body"
+            ],
+            "frequency": 29,
+            "properties": [
+              "marginLeft"
+            ],
+            "propertyContextPairs": [
+              "marginLeft|link",
+              "marginLeft|list",
+              "marginLeft|other",
+              "marginLeft|body"
+            ]
+          },
+          {
+            "value": 8,
+            "contexts": [
+              "button",
+              "body"
+            ],
+            "frequency": 28,
+            "properties": [
+              "paddingTop"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|button",
+              "paddingTop|body"
+            ]
+          },
+          {
+            "value": 10,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 25,
+            "properties": [
+              "marginTop"
+            ],
+            "propertyContextPairs": [
+              "marginTop|body"
+            ]
+          },
+          {
+            "value": 12,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 25,
+            "properties": [
+              "paddingTop"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other"
+            ]
+          },
+          {
+            "value": 14,
+            "contexts": [
+              "other",
+              "button",
+              "list",
+              "body"
+            ],
+            "frequency": 116,
+            "properties": [
+              "paddingTop",
+              "paddingBottom",
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other",
+              "paddingBottom|other",
+              "paddingRight|button",
+              "paddingLeft|button",
+              "paddingTop|list",
+              "paddingBottom|list",
+              "paddingRight|other",
+              "paddingLeft|other",
+              "paddingRight|body",
+              "paddingLeft|body"
+            ]
+          },
+          {
+            "value": 21,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 4,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|other",
+              "paddingLeft|other"
+            ]
+          }
+        ],
+        "density": "comfortable",
+        "baseUnit": null
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "ABCMonumentGrotesk-Regular",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 181,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 31,
+          "name": "Minor Third",
+          "ratio": 1.2,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 15,
+            "family": "ABCMonumentGrotesk-Regular",
+            "weight": 400,
+            "contexts": [
+              "link",
+              "body"
+            ],
+            "frequency": 4,
+            "lineHeight": 1.11,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 15,
+            "family": "ABCMonumentGrotesk-Regular",
+            "weight": 400,
+            "contexts": [
+              "body",
+              "other",
+              "link"
+            ],
+            "frequency": 30,
+            "lineHeight": 1.11,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 31,
+            "family": "ABCMonumentGrotesk-Regular",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "link",
+              "icon",
+              "list",
+              "image",
+              "footer"
+            ],
+            "frequency": 116,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 31,
+            "family": "ABCMonumentGrotesk-Regular",
+            "weight": 400,
+            "contexts": [
+              "button",
+              "list"
+            ],
+            "frequency": 6,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 94,
+            "family": "ABCMonumentGrotesk-Regular",
+            "weight": 400,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 25,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Always use ABCMonumentGrotesk-Regular for all text elements.",
+        "Apply Ink Black (#000000) for all text color and border strokes.",
+        "Ensure backgrounds are Canvas White (#ffffff) unless explicitly a Flamingo Pink (#ffc8c8) brand tag.",
+        "Use 27.4285px border radius for all interactive elements like buttons and tags.",
+        "Separate major content sections using a 1px solid Ink Black (#000000) horizontal rule.",
+        "Maintain a minimum of 7px elementGap for horizontal spacing between inline elements.",
+        "Pad interactive tags and buttons with 7.71px vertical and 13.71px horizontal padding."
+      ],
+      "donts": [
+        "Do not introduce additional color beyond Canvas White, Ink Black, and Flamingo Pink.",
+        "Avoid using drop shadows or complex elevation; maintain a flat, border-driven aesthetic.",
+        "Do not vary font weights; all text should be ABCMonumentGrotesk-Regular at weight 400.",
+        "Refrain from using color to indicate primary or secondary actions; instead, use composition and border styles.",
+        "Do not use internal padding within content blocks; rely on the universal horizontal rule for separation.",
+        "Avoid introducing additional fonts or typographic styles; maintain the single, consistent typeface.",
+        "Do not deviate from the specified border radius; its unusual value is a core brand identifier."
+      ],
+      "theme": "light",
+      "colors": [
+        {
+          "hex": "#ffffff",
+          "name": "Canvas White",
+          "role": "Page backgrounds, default surface color, text backgrounds for contrast within lists",
+          "group": "neutral"
+        },
+        {
+          "hex": "#000000",
+          "name": "Ink Black",
+          "role": "Primary text, borders for all interactive and structural elements, decorative rules for content separation, icon outlines",
+          "group": "neutral"
+        },
+        {
+          "hex": "#ffc8c8",
+          "name": "Flamingo Pink",
+          "role": "Red action color for filled buttons, selected navigation states, and focused conversion moments.",
+          "group": "accent"
+        }
+      ],
+      "layout": "The page uses a full-bleed layout without a max-width container, allowing the main content to span the entire viewport. The hero consists of simple header navigation with a brand tag. The primary content area features large, stacked headlines, each acting as a link, separated by thin horizontal Ink Black rules. Most content is left-aligned, creating a dynamic, newspaper-like column. Navigation is a minimal top-right bar with ghost buttons, consistent across sections.",
+      "imagery": "The site uses no traditional imagery beyond text-based logos or tiny decorative icons within specific link contexts. Visuals are entirely driven by typography, layout, and the stark black-and-white contrast. When small graphics are present (e.g., brand logos within tags), they are monochrome and treated as inline text elements.",
+      "similar": [
+        {
+          "why": "Shares the stark black-on-white, raw typography, and minimal interaction design.",
+          "business": "Brutalism.js"
+        },
+        {
+          "why": "Exhibits a similar focus on content containers, text as primary UI, and a near-monochromatic palette with minimal accents.",
+          "business": "Are.na"
+        },
+        {
+          "why": "Employs bold, editorial typography and high contrast for a strong brand statement, similar to the Anacuna approach.",
+          "business": "Studio Dumbar"
+        },
+        {
+          "why": "Follows the current trend of web brutalism with oversized typography, clear separation lines, and a deliberate lack of ornamentation.",
+          "business": "The Practical Brutalism (design trend)"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "tags": "27.4285px",
+          "buttons": "27.4285px"
+        },
+        "elementGap": "7px",
+        "sectionGap": "",
+        "cardPadding": "14px",
+        "pageMaxWidth": null
+      },
+      "industry": "design",
+      "northStar": "Type-first stark canvas",
+      "typeScale": [
+        {
+          "role": "caption",
+          "size": 15,
+          "lineHeight": 1.11,
+          "letterSpacing": 0
+        },
+        {
+          "role": "body",
+          "size": 31,
+          "lineHeight": 1.11,
+          "letterSpacing": 0
+        },
+        {
+          "role": "display",
+          "size": 94,
+          "lineHeight": 1,
+          "letterSpacing": 0
+        }
+      ],
+      "components": [
+        {
+          "name": "Navigation Button",
+          "role": "Secondary navigation and utility buttons",
+          "description": "Ghost button with an Ink Black stroke and default Canvas White background. 27.4285px border radius, 7.71px vertical padding, 13.71px horizontal padding."
+        },
+        {
+          "name": "Brand Tag",
+          "role": "Primary brand identifier button in the header",
+          "description": "A filled button with a Flamingo Pink background, Ink Black text, and 27.4285px border radius. 7.71px vertical padding, 13.71px horizontal padding."
+        },
+        {
+          "name": "Section Separator",
+          "role": "Visual division between list items and main content sections",
+          "description": "A 1px solid Ink Black border, providing horizontal separation between large text blocks or interactive list items."
+        },
+        {
+          "name": "Headline Link with Tag",
+          "role": "Main content items combining a large headline with an associated descriptive tag",
+          "description": "A full-width Ink Black bottom border. The main text is 94px ABCMonumentGrotesk-Regular, followed by a smaller, ghost-style tag (15px ABCMonumentGrotesk-Regular, Ink Black text, Canvas White background, 27.4285px radius, with 7.71px vertical and 13.71px horizontal padding) offset to the right."
+        }
+      ],
+      "typography": [
+        {
+          "role": "The sole typeface on the site. Its consistent weight and geometric structure convey directness. Used for all headings, body text, links, and buttons, maintaining a unified visual voice across all content levels. The varied sizes provide hierarchy without relying on weight changes.",
+          "sizes": "15px, 31px, 94px",
+          "family": "ABCMonumentGrotesk-Regular",
+          "weight": "400",
+          "lineHeight": "1.00, 1.11",
+          "substitute": "Space Grotesk, Montserrat, Inter",
+          "letterSpacing": "normal"
+        }
+      ],
+      "description": "Anacuna embodies a striking 'digital Brutalism' aesthetic: stark contrast of black text on a generous white canvas, punctuated by ultra-minimalist interaction elements. Typography is primary, dominating the visual field with large, bold characters and precise tracking. Subtle borders and a single playful accent color soften the edges of this otherwise stark, information-dense interface, creating an experience that is both direct and distinctively artistic.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "Quick Color Reference:\ntext: #000000\nbackground: #ffffff\nborder: #000000\naccent: #ffc8c8\nprimary action: #ffc8c8 (filled action)\n\nExample Component Prompts:\n1. Create a top navigation bar: Canvas White background. 'Ana Cuna' Brand Tag (Flamingo Pink background, Ink Black text, 27.4285px radius, 7.71px vertical padding, 13.71px horizontal padding). 'Play' and 'About' Navigation Buttons (Ink Black 1px border, Canvas White background, 27.4285px radius, 7.71px vertical padding, 13.71px horizontal padding). All text 15px ABCMonumentGrotesk-Regular.\n2. Create a main content link section: Full width. Display text 'INDIE GAMES FESTIVAL' (94px ABCMonumentGrotesk-Regular, Ink Black, 1.0 lineHeight). Below it, a 1px Ink Black horizontal separator line. Followed by a 'Google Play' Tag (Ink Black 1px border, Canvas White background, 27.4285px radius, 7.71px vertical padding, 13.71px horizontal padding), 7px to the right of the main text.\n3. Create a footer: Ink Black text (15px ABCMonumentGrotesk-Regular). Link 'LEGAL' and 'COOKIES' using Canvas White background, Ink Black text. No interactive styling."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777513420388-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777513420388-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/bb961b10-d437-4023-9201-a44349fe591f",
+  "ranks": {
+    "trending": 856,
+    "popular": 911,
+    "newest": 532
+  },
+  "localSlug": "anacuna-bb961b10"
+}

@@ -1,0 +1,648 @@
+{
+  "id": "ec17bdec-c8fa-4221-abd6-da717bf38d96",
+  "url": "https://egstad.com",
+  "siteName": "Egstad",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777521663997-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777521663997-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "light",
+  "colors": [
+    {
+      "name": "Canvas Parchment",
+      "hex": "#e2e0d9"
+    },
+    {
+      "name": "Inkwell Black",
+      "hex": "#252422"
+    },
+    {
+      "name": "Deepest Black",
+      "hex": "#000000"
+    }
+  ],
+  "fonts": [
+    "Times New Roman",
+    "EG Metaphor",
+    "S85"
+  ],
+  "northStar": "Type-first Brutalist",
+  "createdAt": "2026-04-30T04:01:21.427Z",
+  "previewVideoCapturedAt": null,
+  "industry": "design",
+  "fullResult": {
+    "meta": {
+      "url": "https://egstad.com",
+      "siteName": "Egstad",
+      "extractedAt": "2026-04-30T04:01:21.088Z",
+      "durationMs": 24690,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 57,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#252422",
+            "oklch": {
+              "c": 0.00396541339535878,
+              "h": 84.58375789507352,
+              "l": 0.2606416352210785
+            },
+            "contexts": [
+              "other",
+              "nav",
+              "hero",
+              "heading",
+              "body",
+              "link",
+              "footer"
+            ],
+            "frequency": 244,
+            "confidence": 1,
+            "prominence": 14788281.915277917,
+            "properties": [
+              "color",
+              "borderColor",
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "nav/color": 12,
+              "body/color": 4,
+              "hero/color": 1,
+              "link/color": 4,
+              "other/color": 17,
+              "footer/color": 1,
+              "heading/color": 9,
+              "nav/borderColor": 48,
+              "body/borderColor": 16,
+              "hero/borderColor": 4,
+              "link/borderColor": 16,
+              "other/borderColor": 68,
+              "footer/borderColor": 4,
+              "heading/borderColor": 36,
+              "nav/backgroundColor": 4
+            }
+          },
+          {
+            "hex": "#e2e0d9",
+            "oklch": {
+              "c": 0.009668349766026155,
+              "h": 93.57687254338755,
+              "l": 0.9063073101006249
+            },
+            "contexts": [
+              "other",
+              "nav"
+            ],
+            "frequency": 37,
+            "confidence": 1,
+            "prominence": 9778426.600306839,
+            "properties": [
+              "backgroundColor",
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "nav/color": 7,
+              "nav/borderColor": 28,
+              "nav/backgroundColor": 1,
+              "other/backgroundColor": 1
+            }
+          },
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 10,
+            "confidence": 1,
+            "prominence": 6445934.718985545,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "other/color": 2,
+              "other/borderColor": 8
+            }
+          }
+        ],
+        "isDarkMode": false,
+        "colorfulness": 0.01230881220219662,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 15.9,
+            "background": "#e2e0d9",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 11.74,
+            "background": "#e2e0d9",
+            "foreground": "#252422"
+          },
+          {
+            "level": "fail",
+            "ratio": 1.35,
+            "background": "#252422",
+            "foreground": "#000000"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [
+          {
+            "value": 1440,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 4
+          },
+          {
+            "value": 36,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 1
+          }
+        ],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 7,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 2,
+            "properties": [
+              "marginRight"
+            ],
+            "propertyContextPairs": [
+              "marginRight|nav"
+            ]
+          },
+          {
+            "value": 14,
+            "contexts": [
+              "other",
+              "nav"
+            ],
+            "frequency": 5,
+            "properties": [
+              "marginBottom",
+              "paddingTop",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "marginBottom|other",
+              "paddingTop|other",
+              "marginBottom|nav",
+              "paddingBottom|other"
+            ]
+          },
+          {
+            "value": 16,
+            "contexts": [
+              "other",
+              "nav",
+              "heading"
+            ],
+            "frequency": 18,
+            "properties": [
+              "paddingRight",
+              "paddingLeft",
+              "paddingTop",
+              "paddingBottom",
+              "marginLeft",
+              "rowGap",
+              "columnGap"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|other",
+              "paddingLeft|other",
+              "paddingTop|nav",
+              "paddingBottom|nav",
+              "marginLeft|other",
+              "paddingTop|heading",
+              "rowGap|other",
+              "columnGap|other"
+            ]
+          },
+          {
+            "value": 22,
+            "contexts": [
+              "other",
+              "footer"
+            ],
+            "frequency": 4,
+            "properties": [
+              "paddingTop",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other",
+              "paddingBottom|other",
+              "paddingTop|footer",
+              "paddingBottom|footer"
+            ]
+          },
+          {
+            "value": 30,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 6,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|nav",
+              "paddingLeft|nav"
+            ]
+          }
+        ],
+        "density": "comfortable",
+        "baseUnit": null
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "Times",
+            "source": "system",
+            "weights": [
+              400
+            ],
+            "frequency": 26,
+            "fontFeatureSettings": [
+              "\"kern\", \"liga\", \"pnum\""
+            ]
+          },
+          {
+            "family": "EG Metaphor",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 19,
+            "fontFeatureSettings": [
+              "\"kern\", \"liga\", \"pnum\"",
+              "\"ss04\", \"ss05\", \"ss06\", \"ss07\""
+            ]
+          },
+          {
+            "family": "System85",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 9,
+            "fontFeatureSettings": [
+              "\"ss04\", \"ss05\", \"ss06\", \"ss07\"",
+              "\"tnum\""
+            ]
+          },
+          {
+            "family": "S85",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 3,
+            "fontFeatureSettings": [
+              "\"ss04\", \"ss05\", \"ss06\", \"ss07\""
+            ]
+          }
+        ],
+        "scale": {
+          "base": 16,
+          "name": "Minor Third",
+          "ratio": 1.2,
+          "confidence": 0.8
+        },
+        "steps": [
+          {
+            "size": 12,
+            "family": "S85",
+            "weight": 400,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 3,
+            "lineHeight": 3,
+            "letterSpacing": 0.1,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 12,
+            "family": "System85",
+            "weight": 400,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 3,
+            "lineHeight": 3,
+            "letterSpacing": 0.1,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 12,
+            "family": "System85",
+            "weight": 400,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 3,
+            "lineHeight": 3,
+            "letterSpacing": 0.03,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 12,
+            "family": "EG Metaphor",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "link"
+            ],
+            "frequency": 6,
+            "lineHeight": 1.33,
+            "letterSpacing": 0.02,
+            "textTransform": "none"
+          },
+          {
+            "size": 12,
+            "family": "System85",
+            "weight": 400,
+            "contexts": [
+              "footer",
+              "heading",
+              "body"
+            ],
+            "frequency": 3,
+            "lineHeight": 1.33,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 15,
+            "family": "EG Metaphor",
+            "weight": 400,
+            "contexts": [
+              "body",
+              "link"
+            ],
+            "frequency": 5,
+            "lineHeight": 1.34,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "Times",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "nav",
+              "hero"
+            ],
+            "frequency": 26,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 59,
+            "family": "EG Metaphor",
+            "weight": 400,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 1,
+            "lineHeight": 0.97,
+            "letterSpacing": -0.055,
+            "textTransform": "none"
+          },
+          {
+            "size": 399,
+            "family": "EG Metaphor",
+            "weight": 400,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 7,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Prioritize text as the primary visual element, using large scale and distinct typefaces to convey meaning.",
+        "Maintain high contrast between text (Inkwell Black) and background (Canvas Parchment) for all content.",
+        "Use 1440px border radius consistently for all interactive elements and navigation items to create a 'pill' shape.",
+        "Apply -0.055em letter spacing to display text (EG Metaphor 399px) to enhance its compactness and visual weight.",
+        "Employ the Canvas Parchment background as the dominant canvas, allowing Inkwell Black typography and components to stand out.",
+        "Utilize 4px solid Inkwell Black lines for expressive underlines or dividers, particularly under large headlines."
+      ],
+      "donts": [
+        "Avoid decorative gradients or shadows; the aesthetic relies on flat, high-contrast forms.",
+        "Do not introduce additional color; the palette is strictly monochrome with a warm neutral base.",
+        "Do not vary from the precise letter spacing applied to display and specialized navigation text (S85), as it is integral to their identity.",
+        "Avoid complex layouts or highly nested elements; maintain a clean, open composition.",
+        "Do not use Times New Roman for display elements; reserve it for secondary content where a classic feel is desired."
+      ],
+      "theme": "light",
+      "colors": [
+        {
+          "hex": "#e2e0d9",
+          "name": "Canvas Parchment",
+          "role": "Hairline borders, dividers, input outlines, and card edges on light surfaces. Do not promote it to the primary CTA color",
+          "group": "neutral"
+        },
+        {
+          "hex": "#252422",
+          "name": "Inkwell Black",
+          "role": "Dark borders and separators for elevated surfaces and inverted UI. Do not promote it to the primary CTA color",
+          "group": "neutral"
+        },
+        {
+          "hex": "#000000",
+          "name": "Deepest Black",
+          "role": "Secondary text, subtle borders, high-contrast accents",
+          "group": "neutral"
+        }
+      ],
+      "layout": "The site employs a max-width contained layout, with content usually centered. The hero section features extremely large, full-width typography ('EGSTAD') which dominates the screen, often overlapping with the circular portrait. Sections maintain a consistent vertical rhythm, primarily defined by the spacing between large text blocks and smaller content groupings. Navigation consists of a static top bar with interactive 'pill' shaped buttons, appearing like a physical tab interface, and a secondary minimalist footer navigation. The overall density is spacious, emphasizing individual elements rather than overwhelming the user with information.",
+      "imagery": "This site features very minimal imagery. When present, it appears as a singular, dominant, circular cropped portrait of a person, positioned in a way that visually interacts with text. There are no other visual elements like photography, illustrations, or product screenshots. The focus is entirely on typography and UI.",
+      "similar": [
+        {
+          "why": "Employs an unadorned, high-contrast, type-focused approach with minimal use of color or decorative elements.",
+          "business": "Brutalist Websites"
+        },
+        {
+          "why": "Uses a stark, functional aesthetic with strong typography and high contrast across UI elements.",
+          "business": "Linear"
+        },
+        {
+          "why": "Features a clean, minimalist design with a focus on typography and clear functional elements, though more refined than Egstad.",
+          "business": "Stripe"
+        },
+        {
+          "why": "Prioritizes content clarity with minimal UI chrome, using a neutral color palette and straightforward type.",
+          "business": "Are.na"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "tabs": "36px",
+          "buttons": "1440px",
+          "navigation": "1440px"
+        },
+        "elementGap": "16px",
+        "sectionGap": "22px",
+        "cardPadding": "14px",
+        "pageMaxWidth": null
+      },
+      "industry": "design",
+      "northStar": "Type-first Brutalist",
+      "typeScale": [
+        {
+          "role": "caption",
+          "size": 12,
+          "lineHeight": 1.34,
+          "letterSpacing": 0.24
+        },
+        {
+          "role": "body-lg",
+          "size": 16,
+          "lineHeight": 1.2
+        },
+        {
+          "role": "heading",
+          "size": 59,
+          "lineHeight": 1.33
+        },
+        {
+          "role": "display",
+          "size": 399,
+          "lineHeight": 0.97,
+          "letterSpacing": -22
+        }
+      ],
+      "components": [
+        {
+          "name": "Navigation Tab Active",
+          "role": "Primary navigation item, active state",
+          "description": "Solid Inkwell Black background with Canvas Parchment text. Uses 1440px border radius for full rounded ends. Padding of 14px vertical and 30px horizontal, with 1px Deepest Black border."
+        },
+        {
+          "name": "Navigation Tab Inactive",
+          "role": "Primary navigation item, inactive state",
+          "description": "Transparent background with Inkwell Black text. Uses 1440px border radius for full rounded ends. Padding of 14px vertical and 30px horizontal, with 1px Canvas Parchment border."
+        },
+        {
+          "name": "Navigation Link Outlined",
+          "role": "Small, outlined navigation link",
+          "description": "Text in Inkwell Black, border in Canvas Parchment. Uses S85 font at 12px, 0.1em letter spacing. Padding of 14px vertical and 16px horizontal. Radius of 1440px for a pill shape."
+        },
+        {
+          "name": "Large Typography Headline",
+          "role": "Main heading text on hero sections",
+          "description": "Uses EG Metaphor font at 399px, weight 400, Inkwell Black color, with -0.055em letter spacing. Underlined with a 4px solid Inkwell Black line."
+        },
+        {
+          "name": "Body Text Section",
+          "role": "Paragraphs of body content",
+          "description": "Times New Roman at 16px, weight 400, Inkwell Black color. Line height 1.2. Margin bottom of 14px between paragraphs."
+        }
+      ],
+      "typography": [
+        {
+          "role": "Muted body text, navigation items, secondary information, adopting a classic feel.",
+          "sizes": "16px",
+          "family": "Times New Roman",
+          "weight": "400",
+          "weights": [
+            400
+          ],
+          "lineHeight": "1.20",
+          "substitute": "Times",
+          "letterSpacing": "normal",
+          "fontFeatureSettings": "\"kern\", \"liga\", \"pnum\""
+        },
+        {
+          "role": "Dominant headlines and large display text, creating a strong, almost architectural presence with tight tracking and custom features for distinctive letterforms.",
+          "sizes": "12px, 15px, 59px, 399px",
+          "family": "EG Metaphor",
+          "weight": "400",
+          "weights": [
+            400
+          ],
+          "lineHeight": "0.97, 1.00, 1.33, 1.34",
+          "letterSpacing": "-0.055em at 399px, 0.020em at 12px and 15px",
+          "fontFeatureSettings": "\"kern\", \"liga\", \"pnum\", \"ss04\", \"ss05\", \"ss06\", \"ss07\""
+        },
+        {
+          "role": "Specialized navigation elements and labels, characterized by wide tracking for a technical, spaced-out effect.",
+          "sizes": "12px",
+          "family": "S85",
+          "weight": "400",
+          "weights": [
+            400
+          ],
+          "lineHeight": "3.00",
+          "letterSpacing": "0.100em",
+          "fontFeatureSettings": "\"ss04\", \"ss05\", \"ss06\", \"ss07\""
+        }
+      ],
+      "description": "Egstad's design system embraces a bold, unadorned aesthetic with stark visual contrasts. A muted, warm off-white background serves as the canvas for heavy, densely tracked sans-serif typography, asserting presence through scale and weight rather than color. Interactive elements use a tactile, almost skeumorphic toggle-like appearance with rounded full-bleed radii, creating a sense of mechanical precision against the otherwise flat plane. The overall impression is one of grounded, deliberate clarity, using minimal color to focus attention on structure and text.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "Quick Color Reference:\ntext: #252422\nbackground: #e2e0d9\nborder: #e2e0d9\naccent: no distinct accent color\nprimary action: no distinct CTA color\n\nExample Component Prompts:\n1. Create a primary navigation bar: Use a Canvas Parchment background. The active item should be an 'Inkwell Black' background with Canvas Parchment text, 1440px radius, 14px vertical and 30px horizontal padding, with a 1px Deepest Black border. Inactive items should be transparent with Inkwell Black text, 1440px radius, 14px vertical and 30px horizontal padding, and a 1px Canvas Parchment border. Use Times New Roman at 16px for text.\n2. Create a main hero headline: Use 'EG Metaphor' font, 399px size, weight 400, Inkwell Black color, -0.055em letter spacing. Include a 4px solid Inkwell Black underscore.\n3. Create a secondary information paragraph: Use Times New Roman, 16px size, weight 400, Inkwell Black color, with 1.2 line height. Ensure 14px spacing below the paragraph."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777521663997-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777521663997-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/ec17bdec-c8fa-4221-abd6-da717bf38d96",
+  "ranks": {
+    "trending": 205,
+    "popular": 322,
+    "newest": 3
+  },
+  "localSlug": "egstad-ec17bdec"
+}

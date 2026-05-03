@@ -1,0 +1,604 @@
+{
+  "id": "c0a3f588-74b7-4fad-b557-1fc7cd7bd777",
+  "url": "https://notreal.tv",
+  "siteName": "Not Real",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777515156685-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777515156685-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "light",
+  "colors": [
+    {
+      "name": "Canvas White",
+      "hex": "#f2f2f2"
+    },
+    {
+      "name": "Ink Black",
+      "hex": "#292a2c"
+    },
+    {
+      "name": "Deepest Black",
+      "hex": "#000000"
+    }
+  ],
+  "fonts": [
+    "Telegraf",
+    "Ogg"
+  ],
+  "northStar": "High-contrast editorial canvas",
+  "createdAt": "2026-04-30T02:13:13.078Z",
+  "previewVideoCapturedAt": null,
+  "industry": "design",
+  "fullResult": {
+    "meta": {
+      "url": "https://notreal.tv",
+      "siteName": "Not Real",
+      "extractedAt": "2026-04-30T02:13:13.015Z",
+      "durationMs": 49953,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 317,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#292a2c",
+            "oklch": {
+              "c": 0.003912727543498919,
+              "h": 264.5039439516218,
+              "l": 0.28477360399949125
+            },
+            "contexts": [
+              "other",
+              "nav"
+            ],
+            "frequency": 827,
+            "confidence": 1,
+            "prominence": 74274220.9381949,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "nav/color": 6,
+              "other/color": 162,
+              "nav/borderColor": 24,
+              "other/borderColor": 635
+            }
+          },
+          {
+            "hex": "#f2f2f2",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.9611513666441094
+            },
+            "contexts": [
+              "other",
+              "nav"
+            ],
+            "frequency": 6,
+            "confidence": 1,
+            "prominence": 21510742.27953846,
+            "properties": [
+              "backgroundColor",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "nav/borderColor": 4,
+              "other/backgroundColor": 2
+            }
+          },
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "nav",
+              "other",
+              "image",
+              "body",
+              "link",
+              "heading",
+              "icon",
+              "footer"
+            ],
+            "frequency": 743,
+            "confidence": 1,
+            "prominence": 5742573.604287035,
+            "properties": [
+              "color",
+              "borderColor",
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "nav/color": 8,
+              "body/color": 19,
+              "icon/color": 1,
+              "link/color": 26,
+              "image/color": 10,
+              "other/color": 71,
+              "footer/color": 1,
+              "heading/color": 13,
+              "nav/borderColor": 28,
+              "body/borderColor": 76,
+              "icon/borderColor": 4,
+              "link/borderColor": 104,
+              "image/borderColor": 40,
+              "other/borderColor": 285,
+              "footer/borderColor": 4,
+              "heading/borderColor": 52,
+              "other/backgroundColor": 1
+            }
+          }
+        ],
+        "isDarkMode": false,
+        "colorfulness": 0.005549159141297857,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 18.76,
+            "background": "#f2f2f2",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 12.83,
+            "background": "#f2f2f2",
+            "foreground": "#292a2c"
+          },
+          {
+            "level": "fail",
+            "ratio": 1.46,
+            "background": "#000000",
+            "foreground": "#292a2c"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 11,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 48,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|other",
+              "paddingLeft|other"
+            ]
+          },
+          {
+            "value": 18,
+            "contexts": [
+              "other",
+              "footer"
+            ],
+            "frequency": 10,
+            "properties": [
+              "paddingTop",
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other",
+              "marginBottom|footer"
+            ]
+          },
+          {
+            "value": 44,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 24,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|other",
+              "paddingLeft|other"
+            ]
+          }
+        ],
+        "density": "compact",
+        "baseUnit": 6
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "telegraf",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 303,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "ogg",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 14,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 16,
+          "name": "Major Second",
+          "ratio": 1.125,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 15,
+            "family": "telegraf",
+            "weight": 400,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 9,
+            "lineHeight": 2,
+            "letterSpacing": 0.033,
+            "textTransform": "none"
+          },
+          {
+            "size": 18,
+            "family": "telegraf",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "link"
+            ],
+            "frequency": 180,
+            "lineHeight": 1.67,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 18,
+            "family": "telegraf",
+            "weight": 400,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 2,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 20,
+            "family": "telegraf",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "link",
+              "body"
+            ],
+            "frequency": 10,
+            "lineHeight": 2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 20,
+            "family": "telegraf",
+            "weight": 400,
+            "contexts": [
+              "body",
+              "link"
+            ],
+            "frequency": 3,
+            "lineHeight": 1.33,
+            "letterSpacing": 0.025,
+            "textTransform": "none"
+          },
+          {
+            "size": 20,
+            "family": "telegraf",
+            "weight": 400,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.25,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 20,
+            "family": "telegraf",
+            "weight": 400,
+            "contexts": [
+              "footer",
+              "other",
+              "link"
+            ],
+            "frequency": 9,
+            "lineHeight": 0.75,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 24,
+            "family": "telegraf",
+            "weight": 400,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.08,
+            "letterSpacing": 0.021,
+            "textTransform": "none"
+          },
+          {
+            "size": 24,
+            "family": "ogg",
+            "weight": 400,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 2,
+            "lineHeight": 1.06,
+            "letterSpacing": -0.02,
+            "textTransform": "none"
+          },
+          {
+            "size": 25,
+            "family": "telegraf",
+            "weight": 400,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 4,
+            "lineHeight": 1,
+            "letterSpacing": 0.04,
+            "textTransform": "none"
+          },
+          {
+            "size": 25,
+            "family": "telegraf",
+            "weight": 400,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 9,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 26,
+            "family": "ogg",
+            "weight": 400,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 9,
+            "lineHeight": 1.5,
+            "letterSpacing": -0.02,
+            "textTransform": "none"
+          },
+          {
+            "size": 55,
+            "family": "telegraf",
+            "weight": 400,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.1,
+            "letterSpacing": 0.002,
+            "textTransform": "none"
+          },
+          {
+            "size": 55,
+            "family": "ogg",
+            "weight": 400,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 3,
+            "lineHeight": 1.1,
+            "letterSpacing": -0.036,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Prioritize high contrast between text (#292a2c, #000000) and background (#f2f2f2).",
+        "Use Ogg font for all prominent headings and brand elements to establish a distinct editorial tone, applying its specific negative letter spacing for a dense effect.",
+        "Employ Telegraf for all body text, navigation, and secondary UI elements, maintaining its default letter spacing for optimal readability.",
+        "Maintain a compact density for typography by using specified line heights such as 1.33 for 18px body text and 0.75 to 1.10 for larger headings.",
+        "Structure layouts with generous Canvas White (#f2f2f2) surrounding content blocks to create breathing room and emphasize core visual elements.",
+        "Apply Deepest Black (#000000) as a 1px border for interactive states or as an accent border for text links and visual separators.",
+        "Ensure all imagery is crisp and occupies significant visual space, acting as the primary splash of color and detail against the monochrome UI."
+      ],
+      "donts": [
+        "Do not introduce new color hues; strictly adhere to the achromatic palette with #f2f2f2, #292a2c, and #000000.",
+        "Avoid decorative elements like shadows, gradients, or complex background patterns; rely on typography and spacing for visual hierarchy.",
+        "Do not use generic system fonts or fallbacks as primary UI text; Telegraf and Ogg are fundamental to the brand's identity.",
+        "Prevent cluttered layouts; prioritize white space, using 44px for section gaps and 18px for internal padding around content.",
+        "Do not round corners on any UI elements; all shapes should be sharp and angular, reflecting a precise, craft-oriented aesthetic.",
+        "Avoid using multiple font families beyond Telegraf and Ogg; maintain typographic simplicity.",
+        "Do not apply excessive padding or margin to small text elements; keep them dense and contained within 11px general element spacing."
+      ],
+      "theme": "light",
+      "colors": [
+        {
+          "hex": "#f2f2f2",
+          "name": "Canvas White",
+          "role": "Primary page and surface background",
+          "group": "neutral"
+        },
+        {
+          "hex": "#292a2c",
+          "name": "Ink Black",
+          "role": "Primary text, navigation links, and element borders",
+          "group": "neutral"
+        },
+        {
+          "hex": "#000000",
+          "name": "Deepest Black",
+          "role": "Dark borders and separators for elevated surfaces and inverted UI. Do not promote it to the primary CTA color",
+          "group": "neutral"
+        }
+      ],
+      "layout": "The page exhibits a full-bleed layout for its overall structure, embracing the screen edges. The hero section features the logo and navigation prominently at the top, with a centered description block, while project showcases are arranged in an alternating text-left/image-right pattern or stacked vertically. Sections maintain consistent vertical spacing of 44px, creating a rhythmic, clean flow. There is a strong single-column grid for content blocks, with images often spanning full width, and an implicit two-column grid for text-and-image pairings. Navigation is a minimal top-bar, always visible.",
+      "imagery": "Imagery primarily consists of high-quality, product-focused 3D renders and CGI, often showcasing intricate textures and dynamic lighting. The treatment is full-bleed or contained within a sharp, rectangular frame, never overlapping or with rounded corners. Images serve as vibrant, expressive focal points that break the monochromatic UI, acting as a product showcase to explain content and impress. Density is high within the image blocks themselves, but these blocks are surrounded by text-dominant and spacious negative space.",
+      "similar": [
+        {
+          "why": "Similar emphasis on high-contrast black and white, oversized serif typography for headings, and a content-forward, grid-based layout.",
+          "business": "AIGA Design"
+        },
+        {
+          "why": "Shares a portfolio-centric layout with prominent imagery, clean sans-serif body text, and a minimalist navigation.",
+          "business": "Working Not Working"
+        },
+        {
+          "why": "Exhibits a classic modernist approach with strong typographic hierarchy, a limited color palette, and high-quality hero imagery for case studies.",
+          "business": "Chermayeff & Geismar & Haviv"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "default": "0px"
+        },
+        "elementGap": "11px",
+        "sectionGap": "44px",
+        "cardPadding": "18px",
+        "pageMaxWidth": null
+      },
+      "industry": "design",
+      "northStar": "High-contrast editorial canvas",
+      "typeScale": [
+        {
+          "role": "body-sm",
+          "size": 15,
+          "lineHeight": 1.67
+        },
+        {
+          "role": "body",
+          "size": 18,
+          "lineHeight": 1.33,
+          "letterSpacing": 0.38
+        },
+        {
+          "role": "subheading",
+          "size": 20,
+          "lineHeight": 1.25
+        },
+        {
+          "role": "heading-sm",
+          "size": 24,
+          "lineHeight": 1.1,
+          "letterSpacing": -0.48
+        },
+        {
+          "role": "display",
+          "size": 55,
+          "lineHeight": 0.75,
+          "letterSpacing": -1.98
+        }
+      ],
+      "components": [
+        {
+          "name": "Primary Navigation Link",
+          "role": "Top-level navigation element",
+          "description": "Text in Ink Black (telegraf, 400, 18px, 1.33 lh, 0.38px ls), with a bottom border of 1px Deepest Black on hover or active state."
+        },
+        {
+          "name": "Site Logo",
+          "role": "Brand identifier",
+          "description": "Exclusively uses Ogg, 400 weight, 55px size, with -1.98px letter spacing. Color is Ink Black, positioned prominently in the top left."
+        },
+        {
+          "name": "Hero Description Block",
+          "role": "Introductory text for the agency",
+          "description": "Set in Telegraf 400, Ink Black, using 15px text and 1.67 line height for body, and a 25px size with 1.08 line height for key phrases. Utilizes a compact letterSpacing of 0.025em for emphasis."
+        },
+        {
+          "name": "Project Thumbnail Card",
+          "role": "Showcase individual projects",
+          "description": "Consists of an image filling its container, with no visible borders or radius. Text below uses Telegraf 400, 15px, Ink Black for tags and project title in Ogg 400, 26px with -0.52px letter spacing."
+        },
+        {
+          "name": "Copyright/Status Text",
+          "role": "Informational text in footer or sidebar",
+          "description": "Small text in Telegraf 400, 15px, Ink Black, with a tight lineHeight of 1.67. Often rotated or positioned vertically to save space."
+        }
+      ],
+      "typography": [
+        {
+          "role": "Body copy, navigation, descriptive text, and secondary headings. Its clean, technical feel provides legibility across various scales.",
+          "sizes": "15px, 18px, 20px, 24px, 25px, 55px",
+          "family": "Telegraf",
+          "weight": "400",
+          "lineHeight": "0.75, 1.00, 1.08, 1.10, 1.25, 1.33, 1.67, 2.00",
+          "substitute": "Inter",
+          "letterSpacing": "0.002em, 0.021em, 0.025em, 0.033em, 0.040em"
+        },
+        {
+          "role": "Primary headings and artistic display text. Its high contrast and elegant serifs provide a distinct, editorial brand identity, with tight negative tracking to maintain a compact appearance.",
+          "sizes": "24px, 26px, 55px",
+          "family": "Ogg",
+          "weight": "400",
+          "lineHeight": "1.06, 1.10, 1.50",
+          "substitute": "Playfair Display",
+          "letterSpacing": "-0.036em, -0.020em"
+        }
+      ],
+      "description": "NotReal employs a stark, print-inspired aesthetic characterized by high-contrast typography and a restrained achromatic palette. The design system emphasizes generous white space and precise visual hierarchy through font choices, rather than color or complex layouts. Project showcases act as vibrant focal points within an otherwise minimalist, editorial grid.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "Quick Color Reference:\ntext: #292a2c\nbackground: #f2f2f2\nborder: #000000\naccent: no distinct accent color\nprimary action: no distinct CTA color\n\n3-5 Example Component Prompts:\nCreate a navigation bar: Background Canvas White (#f2f2f2). Links in Telegraf 400, 18px, #292a2c (0.38px ls), with a 1px Deepest Black (#000000) bottom border on hover. The logo is Ogg 400, 55px, #292a2c, -1.98px ls.\n\nGenerate a project entry card: Full-width image. Title below in Ogg 400, 26px, #000000 (-0.52px ls). Project tags below in Telegraf 400, 15px, #292a2c, with default letter spacing. No borders or radius.\n\nDesign the agency description block: Use Telegraf 400, #292a2c. Key phrases at 25px (1.08 lh, 0.025em ls), body text at 15px (1.67 lh). Text aligned left, with 44px vertical padding above and below."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777515156685-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777515156685-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/c0a3f588-74b7-4fad-b557-1fc7cd7bd777",
+  "ranks": {
+    "trending": 1296,
+    "popular": 1300,
+    "newest": 416
+  },
+  "localSlug": "not-real-c0a3f588"
+}

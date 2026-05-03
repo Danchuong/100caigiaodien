@@ -1,0 +1,588 @@
+{
+  "id": "e4a7b5f3-f393-4f6d-b4a5-ecf874024bed",
+  "url": "https://099.supply",
+  "siteName": "099",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775925841682-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775925841682-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "dark",
+  "colors": [
+    {
+      "name": "Midnight Oil",
+      "hex": "#000000"
+    },
+    {
+      "name": "Ghost White",
+      "hex": "#ffffff"
+    },
+    {
+      "name": "Steel Gray",
+      "hex": "#1d1d1d"
+    },
+    {
+      "name": "Muted Ash",
+      "hex": "#383838"
+    },
+    {
+      "name": "Dim Gray",
+      "hex": "#888888"
+    }
+  ],
+  "fonts": [
+    "Soehne Mono"
+  ],
+  "northStar": "Terminal aesthetic, digital workbench. The UI feels like a high-contrast monospaced terminal environment for creative tools.",
+  "createdAt": "2026-03-09T13:13:07.000Z",
+  "previewVideoCapturedAt": null,
+  "industry": "agency",
+  "fullResult": {
+    "meta": {
+      "url": "https://099.supply",
+      "siteName": "099",
+      "extractedAt": "2026-04-11T16:44:23.257Z",
+      "durationMs": 28716,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 205,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "complete",
+          "attempts": 2
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#ffffff",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 1.0000000000000002
+            },
+            "contexts": [
+              "other",
+              "button",
+              "icon",
+              "body",
+              "link",
+              "card",
+              "heading",
+              "footer",
+              "input"
+            ],
+            "frequency": 927,
+            "confidence": 1,
+            "prominence": 44656732.771775864,
+            "properties": [
+              "color",
+              "borderColor",
+              "backgroundColor",
+              "stroke"
+            ]
+          },
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "other",
+              "icon",
+              "button"
+            ],
+            "frequency": 7,
+            "confidence": 1,
+            "prominence": 13590024,
+            "properties": [
+              "backgroundColor",
+              "fill",
+              "color"
+            ]
+          },
+          {
+            "hex": "#1d1d1d",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.23075046833254287
+            },
+            "contexts": [
+              "card",
+              "button",
+              "other",
+              "input"
+            ],
+            "frequency": 6,
+            "confidence": 1,
+            "prominence": 542672.9358534231,
+            "properties": [
+              "backgroundColor"
+            ]
+          },
+          {
+            "hex": "#383838",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.3406970568972224
+            },
+            "contexts": [
+              "button"
+            ],
+            "frequency": 8,
+            "confidence": 1,
+            "prominence": 87508.94958981648,
+            "properties": [
+              "borderColor"
+            ]
+          },
+          {
+            "hex": "#888888",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.6267535410065036
+            },
+            "contexts": [
+              "card"
+            ],
+            "frequency": 60,
+            "confidence": 1,
+            "prominence": 23515.373543436846,
+            "properties": [
+              "color",
+              "borderColor"
+            ]
+          }
+        ],
+        "isDarkMode": true,
+        "colorfulness": 0,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 21,
+            "background": "#000000",
+            "foreground": "#ffffff"
+          },
+          {
+            "level": "AAA",
+            "ratio": 16.86,
+            "background": "#1d1d1d",
+            "foreground": "#ffffff"
+          },
+          {
+            "level": "AAA",
+            "ratio": 11.73,
+            "background": "#ffffff",
+            "foreground": "#383838"
+          },
+          {
+            "level": "AA",
+            "ratio": 5.92,
+            "background": "#000000",
+            "foreground": "#888888"
+          },
+          {
+            "level": "AA",
+            "ratio": 4.76,
+            "background": "#1d1d1d",
+            "foreground": "#888888"
+          },
+          {
+            "level": "fail",
+            "ratio": 3.54,
+            "background": "#ffffff",
+            "foreground": "#888888"
+          },
+          {
+            "level": "fail",
+            "ratio": 1.25,
+            "background": "#1d1d1d",
+            "foreground": "#000000"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [
+          {
+            "value": 10,
+            "contexts": [
+              "card",
+              "button",
+              "other",
+              "input"
+            ],
+            "frequency": 24
+          }
+        ],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 5,
+            "frequency": 2,
+            "properties": [
+              "marginLeft"
+            ]
+          },
+          {
+            "value": 6,
+            "frequency": 4,
+            "properties": [
+              "paddingTop",
+              "paddingBottom"
+            ]
+          },
+          {
+            "value": 8,
+            "frequency": 2,
+            "properties": [
+              "rowGap",
+              "columnGap"
+            ]
+          },
+          {
+            "value": 16,
+            "frequency": 17,
+            "properties": [
+              "marginBottom",
+              "rowGap",
+              "columnGap",
+              "paddingTop"
+            ]
+          },
+          {
+            "value": 19,
+            "frequency": 12,
+            "properties": [
+              "paddingTop",
+              "paddingBottom",
+              "paddingRight",
+              "paddingLeft"
+            ]
+          },
+          {
+            "value": 26,
+            "frequency": 8,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ]
+          },
+          {
+            "value": 27,
+            "frequency": 36,
+            "properties": [
+              "paddingTop",
+              "paddingRight",
+              "paddingBottom",
+              "paddingLeft",
+              "rowGap",
+              "columnGap"
+            ]
+          },
+          {
+            "value": 32,
+            "frequency": 2,
+            "properties": [
+              "rowGap",
+              "columnGap"
+            ]
+          }
+        ],
+        "density": "spacious",
+        "baseUnit": 4
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "Soehne Mono",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 201,
+            "fontFeatureSettings": [
+              "\"zero\""
+            ]
+          }
+        ],
+        "scale": null,
+        "steps": [
+          {
+            "size": 16,
+            "family": "Soehne Mono",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "body",
+              "link",
+              "card",
+              "footer",
+              "icon"
+            ],
+            "frequency": 89,
+            "lineHeight": 1.4,
+            "letterSpacing": 0.015,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "Soehne Mono",
+            "weight": 400,
+            "contexts": [
+              "button",
+              "input"
+            ],
+            "frequency": 7,
+            "lineHeight": 1.4,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "Soehne Mono",
+            "weight": 400,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 34,
+            "lineHeight": 1,
+            "letterSpacing": 0.015,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "Soehne Mono",
+            "weight": 400,
+            "contexts": [
+              "heading",
+              "card",
+              "body",
+              "link"
+            ],
+            "frequency": 68,
+            "lineHeight": 1.2,
+            "letterSpacing": 0.015,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Use Midnight Oil (#000000) as the primary page background color across all layouts.",
+        "Always use the Soehne Mono font at 16px weight 400 for all text elements.",
+        "Apply 10px border-radius to all interactive components like buttons, cards, and input fields.",
+        "Maintain a clear visual hierarchy by limiting text colors to Ghost White (#ffffff) for primary information and Dim Gray (#888888) for secondary details.",
+        "Ensure generous spacing: a minimum of 16px between elements and 26.5px internal padding for information cards.",
+        "For content blocks, apply Steel Gray (#1d1d1d) for explicit background distinction, maintaining a 10px radius."
+      ],
+      "tags": [
+        "dark-mode",
+        "monospace",
+        "achromatic",
+        "high-contrast",
+        "geometric",
+        "minimalist",
+        "developer",
+        "technical",
+        "gridded",
+        "structured"
+      ],
+      "donts": [
+        "Do not use any chromatic colors; visuals must remain strictly achromatic.",
+        "Avoid box shadows or complex elevation; depth is created through varying shades of gray and explicit borders.",
+        "Do not introduce any additional font families; exclusively use Soehne Mono.",
+        "Do not use border-radius values other than 0px or 10px.",
+        "Do not vary line-height significantly from the base 1.2 or 1.4 for readability, especially on long blocks of text.",
+        "Do not use images or graphics that break the high-contrast, dark mode aesthetic; ensure all visuals integrate seamlessly."
+      ],
+      "theme": "dark",
+      "colors": [
+        {
+          "hex": "#000000",
+          "name": "Midnight Oil",
+          "role": "Page background, primary text on white surfaces, icon active state. This provides the deep, commanding backdrop for all content.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#ffffff",
+          "name": "Ghost White",
+          "role": "Primary text, headers, icons, button text. Provides maximum contrast against dark backgrounds for clear information hierarchy.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#1d1d1d",
+          "name": "Steel Gray",
+          "role": "Card backgrounds, selected button states, input fields. Creates a subtle, secondary surface level for interactive components and content blocks.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#383838",
+          "name": "Muted Ash",
+          "role": "Outlined button borders, subtle dividers. A lighter gray for visual separation without being too jarring on dark surfaces.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#888888",
+          "name": "Dim Gray",
+          "role": "Subtle text, secondary information, card borders for visual grouping. Used for less prominent content that still needs to be legible against dark backgrounds.",
+          "group": "neutral"
+        }
+      ],
+      "similar": [
+        {
+          "why": "Both use a minimalist, grid-based aesthetic with strong emphasis on content, minimal ornamentation, and a focus on functionality over visual flair.",
+          "business": "Are.na"
+        },
+        {
+          "why": "The exclusive use of a monospace font, high achromatic contrast, and stark presentation evokes the utilitarian and technical aesthetic of a developer's terminal.",
+          "business": "Command-line interfaces / Terminal UIs"
+        },
+        {
+          "why": "Similar disciplined use of dark mode, crisp typography, and subtle component variations to create a highly functional and polished application feel, though Linear uses more color.",
+          "business": "Linear"
+        },
+        {
+          "why": "Shares the dark, low-distraction visual environment for creative work, with clean lines and clear separation of interactive elements, although Figma has more chromatic range.",
+          "business": "Figma (dark mode)"
+        },
+        {
+          "why": "Employs a similar high-contrast dark theme with a focus on code and text readability, leveraging monospace fonts and muted neutrals.",
+          "business": "GitHub (dark mode)"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "cards": "10px",
+          "inputs": "10px",
+          "buttons": "10px",
+          "default": "0px"
+        },
+        "elementGap": "16px",
+        "sectionGap": "48px",
+        "cardPadding": "",
+        "pageMaxWidth": "1600px"
+      },
+      "category": "dev-tools",
+      "northStar": "Terminal aesthetic, digital workbench. The UI feels like a high-contrast monospaced terminal environment for creative tools.",
+      "typeScale": [
+        {
+          "role": "body",
+          "size": 16,
+          "lineHeight": 19.2,
+          "letterSpacing": 0.24
+        }
+      ],
+      "components": [
+        {
+          "html": "<div style=\"--color-midnight-oil:#000000;--color-ghost-white:#ffffff;--color-steel-gray:#1d1d1d;--color-muted-ash:#383838;--color-dim-gray:#888888;--font-soehne-mono:'Space Mono',monospace;background:var(--color-midnight-oil);padding:24px;width:600px;box-sizing:border-box;font-family:var(--font-soehne-mono);\">\n  <div style=\"display:flex;gap:16px;\">\n    <button style=\"flex:1;background:var(--color-steel-gray);color:var(--color-ghost-white);border:none;border-radius:10px;padding:19.2px 25.6px;font-family:var(--font-soehne-mono);font-size:16px;line-height:1.2;letter-spacing:0.24px;cursor:pointer;font-weight:400;\">Show All</button>\n    <button style=\"flex:1;background:transparent;color:var(--color-ghost-white);border:1px solid var(--color-muted-ash);border-radius:10px;padding:19.2px 25.6px;font-family:var(--font-soehne-mono);font-size:16px;line-height:1.2;letter-spacing:0.24px;cursor:pointer;font-weight:400;\">Mockups (M)</button>\n    <button style=\"flex:1;background:transparent;color:var(--color-ghost-white);border:1px solid var(--color-muted-ash);border-radius:10px;padding:19.2px 25.6px;font-family:var(--font-soehne-mono);font-size:16px;line-height:1.2;letter-spacing:0.24px;cursor:pointer;font-weight:400;\">Components (C)</button>\n  </div>\n</div>",
+          "name": "Filter Button Group",
+          "role": "",
+          "description": ""
+        },
+        {
+          "html": "<div style=\"--color-midnight-oil:#000000;--color-ghost-white:#ffffff;--color-steel-gray:#1d1d1d;--color-muted-ash:#383838;--color-dim-gray:#888888;--font-soehne-mono:'Space Mono',monospace;background:var(--color-midnight-oil);padding:24px;width:600px;box-sizing:border-box;font-family:var(--font-soehne-mono);\">\n  <div style=\"display:grid;grid-template-columns:1fr 1fr 1fr;gap:16px;\">\n\n    <div style=\"display:flex;flex-direction:column;gap:10px;\">\n      <div style=\"width:100%;height:160px;background:var(--color-steel-gray);border-radius:10px;display:flex;align-items:center;justify-content:center;\">\n        <span style=\"color:var(--color-ghost-white);font-family:var(--font-soehne-mono);font-size:36px;letter-spacing:0.24px;opacity:0.6;\">027</span>\n      </div>\n      <div>\n        <div style=\"color:var(--color-dim-gray);font-family:var(--font-soehne-mono);font-size:16px;line-height:1.2;letter-spacing:0.24px;\">M 027</div>\n        <div style=\"color:var(--color-ghost-white);font-family:var(--font-soehne-mono);font-size:16px;line-height:1.2;letter-spacing:0.24px;\">T-Shirt</div>\n        <div style=\"color:var(--color-dim-gray);font-family:var(--font-soehne-mono);font-size:16px;line-height:1.2;letter-spacing:0.24px;\">From $9</div>\n      </div>\n    </div>\n\n    <div style=\"display:flex;flex-direction:column;gap:10px;\">\n      <div style=\"width:100%;height:160px;background:var(--color-steel-gray);border-radius:10px;display:flex;align-items:center;justify-content:center;\">\n        <span style=\"color:var(--color-ghost-white);font-family:var(--font-soehne-mono);font-size:36px;letter-spacing:0.24px;opacity:0.6;\">026</span>\n      </div>\n      <div>\n        <div style=\"color:var(--color-dim-gray);font-family:var(--font-soehne-mono);font-size:16px;line-height:1.2;letter-spacing:0.24px;\">M 026</div>\n        <div style=\"color:var(--color-ghost-white);font-family:var(--font-soehne-mono);font-size:16px;line-height:1.2;letter-spacing:0.24px;\">F12 Poster</div>\n        <div style=\"color:var(--color-dim-gray);font-family:var(--font-soehne-mono);font-size:16px;line-height:1.2;letter-spacing:0.24px;\">From $9</div>\n      </div>\n    </div>\n\n    <div style=\"display:flex;flex-direction:column;gap:10px;\">\n      <div style=\"width:100%;height:160px;background:var(--color-steel-gray);border-radius:10px;display:flex;align-items:center;justify-content:center;\">\n        <span style=\"color:var(--color-ghost-white);font-family:var(--font-soehne-mono);font-size:36px;letter-spacing:0.24px;opacity:0.6;\">025</span>\n      </div>\n      <div>\n        <div style=\"color:var(--color-dim-gray);font-family:var(--font-soehne-mono);font-size:16px;line-height:1.2;letter-spacing:0.24px;\">M 025</div>\n        <div style=\"color:var(--color-ghost-white);font-family:var(--font-soehne-mono);font-size:16px;line-height:1.2;letter-spacing:0.24px;\">Plane</div>\n        <div style=\"color:var(--color-dim-gray);font-family:var(--font-soehne-mono);font-size:16px;line-height:1.2;letter-spacing:0.24px;\">From $9</div>\n      </div>\n    </div>\n\n    <div style=\"display:flex;flex-direction:column;gap:10px;\">\n      <div style=\"width:100%;height:160px;background:var(--color-steel-gray);border-radius:10px;display:flex;align-items:center;justify-content:center;\">\n        <span style=\"color:var(--color-ghost-white);font-family:var(--font-soehne-mono);font-size:36px;letter-spacing:0.24px;opacity:0.6;\">024</span>\n      </div>\n      <div>\n        <div style=\"color:var(--color-dim-gray);font-family:var(--font-soehne-mono);font-size:16px;line-height:1.2;letter-spacing:0.24px;\">M 024</div>\n        <div style=\"color:var(--color-ghost-white);font-family:var(--font-soehne-mono);font-size:16px;line-height:1.2;letter-spacing:0.24px;\">Beanie</div>\n        <div style=\"color:var(--color-dim-gray);font-family:var(--font-soehne-mono);font-size:16px;line-height:1.2;letter-spacing:0.24px;\">From $9</div>\n      </div>\n    </div>\n\n    <div style=\"display:flex;flex-direction:column;gap:10px;\">\n      <div style=\"width:100%;height:160px;background:var(--color-steel-gray);border-radius:10px;display:flex;align-items:center;justify-content:center;\">\n        <span style=\"color:var(--color-ghost-white);font-family:var(--font-soehne-mono);font-size:24px;letter-spacing:0.24px;opacity:0.6;\">C 012</span>\n      </div>\n      <div>\n        <div style=\"color:var(--color-dim-gray);font-family:var(--font-soehne-mono);font-size:16px;line-height:1.2;letter-spacing:0.24px;\">C 012</div>\n        <div style=\"color:var(--color-ghost-white);font-family:var(--font-soehne-mono);font-size:16px;line-height:1.2;letter-spacing:0.24px;\">Digital Tablet</div>\n        <div style=\"color:var(--color-dim-gray);font-family:var(--font-soehne-mono);font-size:16px;line-height:1.2;letter-spacing:0.24px;\">From $4</div>\n      </div>\n    </div>\n\n    <div style=\"display:flex;flex-direction:column;gap:10px;\">\n      <div style=\"width:100%;height:160px;background:var(--color-steel-gray);border-radius:10px;display:flex;align-items:center;justify-content:center;\">\n        <span style=\"color:var(--color-ghost-white);font-family:var(--font-soehne-mono);font-size:24px;letter-spacing:0.24px;opacity:0.6;\">C 010</span>\n      </div>\n      <div>\n        <div style=\"color:var(--color-dim-gray);font-family:var(--font-soehne-mono);font-size:16px;line-height:1.2;letter-spacing:0.24px;\">C 010</div>\n        <div style=\"color:var(--color-ghost-white);font-family:var(--font-soehne-mono);font-size:16px;line-height:1.2;letter-spacing:0.24px;\">Table</div>\n        <div style=\"color:var(--color-dim-gray);font-family:var(--font-soehne-mono);font-size:16px;line-height:1.2;letter-spacing:0.24px;\">From $4</div>\n      </div>\n    </div>\n\n  </div>\n</div>",
+          "name": "Product Card Grid",
+          "role": "",
+          "description": ""
+        },
+        {
+          "html": "<div style=\"--color-midnight-oil:#000000;--color-ghost-white:#ffffff;--color-steel-gray:#1d1d1d;--color-muted-ash:#383838;--color-dim-gray:#888888;--font-soehne-mono:'Space Mono',monospace;background:var(--color-midnight-oil);padding:24px;width:600px;box-sizing:border-box;font-family:var(--font-soehne-mono);\">\n  <div style=\"display:flex;gap:16px;\">\n\n    <div style=\"flex:1;background:var(--color-steel-gray);border-radius:10px;padding:26.5px;box-sizing:border-box;display:flex;flex-direction:column;justify-content:space-between;min-height:280px;\">\n      <div style=\"color:var(--color-ghost-white);font-family:var(--font-soehne-mono);font-size:16px;line-height:1.2;letter-spacing:0.24px;\">099 Supply</div>\n      <div style=\"color:var(--color-ghost-white);font-family:var(--font-soehne-mono);font-size:16px;line-height:1.4;letter-spacing:0.24px;\">Discover digital tools for creatives. A growing collection of Photoshop mockups and Framer components built for modern design workflows.</div>\n    </div>\n\n    <div style=\"flex:1;background:var(--color-steel-gray);border-radius:10px;overflow:hidden;min-height:280px;display:flex;flex-direction:column;\">\n      <div style=\"padding:16px 20px;color:var(--color-ghost-white);font-family:var(--font-soehne-mono);font-size:16px;line-height:1.2;letter-spacing:0.24px;\">T-Shirt (Bestseller)</div>\n      <div style=\"flex:1;display:flex;align-items:center;justify-content:center;padding:16px;\">\n        <div style=\"width:100%;height:180px;background:#2a2a2a;border-radius:8px;display:flex;align-items:center;justify-content:center;position:relative;\">\n          <div style=\"width:2px;height:60px;background:var(--color-dim-gray);position:absolute;top:20px;left:50%;transform:translateX(-50%);\"></div>\n          <div style=\"position:absolute;top:20px;left:50%;transform:translateX(-50%) translateX(-60px);width:120px;height:2px;background:var(--color-dim-gray);\"></div>\n          <span style=\"color:var(--color-ghost-white);font-family:var(--font-soehne-mono);font-size:42px;letter-spacing:0.24px;opacity:0.5;margin-top:30px;\">027</span>\n        </div>\n      </div>\n    </div>\n\n  </div>\n</div>",
+          "name": "Hero Info Card",
+          "role": "",
+          "description": ""
+        },
+        {
+          "name": "Text Button (Invisible)",
+          "role": "Primary interactive element for navigation and inline actions",
+          "description": "Background: transparent, Text: Ghost White (#ffffff), Border: none, Padding: 0px. Used for 'Menu', 'Cart 0' in header."
+        },
+        {
+          "name": "Ghost Button (Outlined)",
+          "role": "Secondary interactive element, filtering, or calls to action",
+          "description": "Background: transparent, Text: Ghost White (#ffffff), Border: 1px solid Muted Ash (#383838), Border Radius: 10px, Padding: 19.2px 25.6px. Example: 'Show All', 'Mockups (M)'."
+        },
+        {
+          "name": "Subtle Filled Button",
+          "role": "Tertiary action or selected state within a group",
+          "description": "Background: Steel Gray (#1d1d1d), Text: Ghost White (#ffffff), Border: none, Border Radius: 10px, Padding: 19.2px 25.6px. Example: 'Components (C)' when selected."
+        },
+        {
+          "name": "High-Contrast Filled Button",
+          "role": "Primary call to action in specific contexts (e.g., checkout)",
+          "description": "Background: Ghost White (#ffffff), Text: Midnight Oil (#000000), Border: none, Border Radius: 10px, Padding: 19.2px 25.6px. (No visible example in screenshot, but specified in data)."
+        },
+        {
+          "name": "Content Card (Rounded)",
+          "role": "Container for product items or featured content",
+          "description": "Background: transparent, Border Radius: 10px, Box Shadow: none, Padding: 0px. Used for product listings, allows content to define its own padding."
+        },
+        {
+          "name": "Info Card (Padded)",
+          "role": "Descriptive content blocks, like hero text areas",
+          "description": "Background: transparent, Border Radius: 0px, Box Shadow: none, Padding: 26.5px. Used for the main text description on the left."
+        },
+        {
+          "name": "Elevated Card",
+          "role": "Interactive elements with a background to signify interaction or state",
+          "description": "Background: Steel Gray (#1d1d1d), Border Radius: 10px, Box Shadow: none, Padding: 0px. Used for the product image 'T-Shirt (Bestseller)'."
+        },
+        {
+          "name": "Text Input (Search)",
+          "role": "Form element for user input",
+          "description": "Background: Steel Gray (#1d1d1d), Text: Ghost White (#ffffff), Border: none, Border Radius: 10px (left side), Padding: 6.4px 19.2px. Typically paired with a button."
+        }
+      ],
+      "typography": [
+        {
+          "role": "All text elements, including body copy, headings, and interactive elements. The consistent use of a monospace font across the entire UI is a signature choice, reinforcing the technical, command-line aesthetic.",
+          "sizes": "16px",
+          "family": "Soehne Mono",
+          "weight": "400",
+          "lineHeight": "1.00, 1.20, 1.40",
+          "substitute": "Space Mono, Fira Code",
+          "letterSpacing": "0.24px",
+          "fontFeatureSettings": "\"zero\""
+        }
+      ],
+      "description": "This design system presents as a 'digital workbench' – dark, stark, and highly organized, creating an atmosphere of focused, technical precision. The reliance on extreme achromatic contrast combined with a monospace system font defines its aesthetic, making it feel less like a brand and more like an interface for a command-line tool. Sharp 10px corner radii on interactive elements provide a subtle softening against the otherwise rigid grid, allowing functional elements to feel grounded yet approachable.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "### Quick Color Reference\n- Text (primary): #ffffff (Ghost White)\n- Background (page): #000000 (Midnight Oil)\n- Background (card/input): #1d1d1d (Steel Gray)\n- Border (ghost btn): #383838 (Muted Ash)\n- Secondary Text: #888888 (Dim Gray)\n\n### 3-5 Example Component Prompts\n1. Create a product hero section: Full background is Midnight Oil (#000000). On the left, an Info Card: transparent background, 26.5px padding, containing '099 Supply' headline (Soehne Mono, 16px, #ffffff) and body text 'Discover digital tools...' (Soehne Mono, 16px, #ffffff). On the right, an Elevated Card: Steel Gray (#1d1d1d) background, 10px radius, image of a T-Shirt (0px padding), with 'T-Shirt (Bestseller)' below (Soehne Mono, 16px, #ffffff).\n2. Create a Ghost Button: transparent background, text 'Show All' (Soehne Mono, 16px, #ffffff), 1px solid Muted Ash (#383838) border, 10px border radius, 19.2px vertical padding, 25.6px horizontal padding.\n3. Create a product listing grid: Three columns, each item within a Content Card (transparent background, 10px radius, 0px padding). Product image within is 88x88px, then product title 'C 000 Theme Toggle' (Soehne Mono, 16px, #ffffff) and price 'From $9' (Soehne Mono, 16px, #888888), both below the image and left-aligned.\n4. Create a Text Input: Steel Gray (#1d1d1d) background, 10px border radius (left side only, e.g., border-top-left-radius: 10px; border-bottom-left-radius: 10px;), text color Ghost White (#ffffff), font Soehne Mono 16px, 6.4px vertical padding, 19.2px horizontal padding.\n5. Create an Info Card for details: transparent background, 26.5px padding, containing primary text '099 Supply' (Soehne Mono, 16px, #ffffff) and secondary text 'Discover digital tools...' (Soehne Mono, 16px, #ffffff)."
+        }
+      ],
+      "elevationPhilosophy": "This design intentionally eschews traditional drop shadows for elevation. Instead, depth and hierarchy are achieved through a carefully managed progression of achromatic background colors (#000000 -> #1d1d1d) and distinct 1px borders (#383838). This approach reinforces the 'digital workbench' aesthetic, where interfaces are stark and functional, relying on clear separation rather than subtle visual effects."
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775925841682-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775925841682-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/e4a7b5f3-f393-4f6d-b4a5-ecf874024bed",
+  "ranks": {
+    "trending": 108,
+    "popular": 135,
+    "newest": 1070
+  },
+  "localSlug": "099-e4a7b5f3"
+}

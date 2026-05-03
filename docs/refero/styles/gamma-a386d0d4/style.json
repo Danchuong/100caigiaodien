@@ -1,0 +1,442 @@
+{
+  "id": "a386d0d4-01f1-4ec3-80ae-d505075d83ca",
+  "url": "https://gamma.app",
+  "siteName": "Gamma",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775923775399-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775923775399-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "light",
+  "colors": [
+    {
+      "name": "Gamma Blue",
+      "hex": "#002253"
+    },
+    {
+      "name": "Sky Gradient",
+      "hex": "#c6e6fa",
+      "gradient": "linear-gradient(to top, rgb(255, 255, 255), rgb(198, 230, 250))"
+    },
+    {
+      "name": "Cloud White",
+      "hex": "#ffffff"
+    },
+    {
+      "name": "Coal Black",
+      "hex": "#000000"
+    }
+  ],
+  "fonts": [
+    "PPMori",
+    "ESBuild"
+  ],
+  "northStar": "Serene Cloud Sanctuary: A single white card floats effortlessly within a tranquil, sky-blue gradient, cradled by soft, cartoon-like clouds.",
+  "createdAt": "2026-01-26T10:38:03.000Z",
+  "previewVideoCapturedAt": null,
+  "industry": "ai",
+  "fullResult": {
+    "meta": {
+      "url": "https://gamma.app",
+      "siteName": "Gamma",
+      "extractedAt": "2026-04-11T16:09:54.268Z",
+      "durationMs": 25751,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 28,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "complete",
+          "attempts": 3
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "other",
+              "link",
+              "heading",
+              "body"
+            ],
+            "frequency": 105,
+            "confidence": 1,
+            "prominence": 8719384.909113906,
+            "properties": [
+              "color",
+              "borderColor"
+            ]
+          },
+          {
+            "hex": "#ffffff",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 1.0000000000000002
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 126391,
+            "properties": [
+              "backgroundColor"
+            ]
+          },
+          {
+            "hex": "#002253",
+            "oklch": {
+              "c": 0.0977488912044736,
+              "h": 258.0036466538526,
+              "l": 0.2639971043566777
+            },
+            "contexts": [
+              "other",
+              "heading"
+            ],
+            "frequency": 12,
+            "confidence": 1,
+            "prominence": 58082.10181594258,
+            "properties": [
+              "fill",
+              "color",
+              "borderColor"
+            ]
+          }
+        ],
+        "isDarkMode": false,
+        "colorfulness": 0.026866392451985414,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 21,
+            "background": "#ffffff",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 15.51,
+            "background": "#ffffff",
+            "foreground": "#002253"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [
+          {
+            "value": 12,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1
+          }
+        ],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 8,
+            "frequency": 2,
+            "properties": [
+              "rowGap",
+              "columnGap"
+            ]
+          },
+          {
+            "value": 20,
+            "frequency": 2,
+            "properties": [
+              "rowGap",
+              "columnGap"
+            ]
+          },
+          {
+            "value": 32,
+            "frequency": 10,
+            "properties": [
+              "paddingTop",
+              "paddingRight",
+              "paddingBottom",
+              "paddingLeft",
+              "marginTop",
+              "marginRight",
+              "marginBottom",
+              "marginLeft",
+              "rowGap",
+              "columnGap"
+            ]
+          }
+        ],
+        "density": "spacious",
+        "baseUnit": 8
+      },
+      "gradients": [
+        {
+          "type": "linear",
+          "value": "linear-gradient(to top, rgb(255, 255, 255), rgb(198, 230, 250))",
+          "colors": [
+            "rgb(255, 255, 255)",
+            "rgb(198, 230, 250)"
+          ],
+          "frequency": 1
+        }
+      ],
+      "typography": {
+        "fonts": [
+          {
+            "family": "PPMori",
+            "source": "custom",
+            "weights": [
+              500
+            ],
+            "frequency": 21,
+            "fontFeatureSettings": [
+              "\"kern\""
+            ]
+          },
+          {
+            "family": "ESBuild",
+            "source": "custom",
+            "weights": [
+              500
+            ],
+            "frequency": 1,
+            "fontFeatureSettings": [
+              "\"ss02\""
+            ]
+          }
+        ],
+        "scale": null,
+        "steps": [
+          {
+            "size": 16,
+            "family": "PPMori",
+            "weight": 500,
+            "contexts": [
+              "other",
+              "link",
+              "heading",
+              "body"
+            ],
+            "frequency": 21,
+            "lineHeight": 1.5,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 30,
+            "family": "ESBuild",
+            "weight": 500,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Use 'Sky Gradient' (linear-gradient(to top, rgb(255, 255, 255), rgb(198, 230, 250))) as the primary page background to maintain the airy, optimistic feel.",
+        "Apply a 12px border-radius to all card-like containers and interactive elements for a consistent soft, rounded edge.",
+        "Prioritize PPMori font for all body text at 16px font-size and a 1.5 line-height, using weight 500 for clear readability.",
+        "Employ ESBuild font at 30px font-size and weight 500 for main headings to establish clear visual hierarchy and brand voice.",
+        "Utilize 32px padding within all primary content containers to ensure sufficient whitespace and prevent visual clutter.",
+        "Use Gamma Blue (#002253) exclusively for interactive elements like links and key headings to guide user attention.",
+        "Maintain high contrast ratios with text (e.g., #000000 on #ffffff, #002253 on #ffffff) for optimal accessibility (AAA level)."
+      ],
+      "tags": [
+        "minimalist",
+        "airy",
+        "gradient",
+        "soft-edges",
+        "high-contrast-text",
+        "cloudy",
+        "welcoming",
+        "clean"
+      ],
+      "donts": [
+        "Avoid using harsh or highly saturated colors that would disrupt the calming, light aesthetic.",
+        "Do not introduce sharp corners or radii other than 12px on elements intended to be visually grouped or interacted with.",
+        "Refrain from using thin font weights that might compromise readability against the subtle background gradient.",
+        "Do not deviate from the specified font families (PPMori, ESBuild) or their assigned weights/sizes for core text elements.",
+        "Do not use dark backgrounds for main content areas; maintain Cloud White (#ffffff) for card surfaces.",
+        "Avoid excessive use of shadows or complex visual effects that would contradict the clean and light presentation.",
+        "Do not introduce additional brand or accent colors that are not Gamma Blue (#002253), to preserve the focused palette."
+      ],
+      "theme": "light",
+      "colors": [
+        {
+          "hex": "#002253",
+          "name": "Gamma Blue",
+          "role": "Brand text, primary headings, interactive elements. Its deep hue provides strong contrast against light backgrounds, signaling importance and trust.",
+          "group": "brand"
+        },
+        {
+          "hex": "#c6e6fa",
+          "name": "Sky Gradient",
+          "role": "Page background — creates a soft, expansive, and optimistic atmosphere.",
+          "group": "brand",
+          "gradient": "linear-gradient(to top, rgb(255, 255, 255), rgb(198, 230, 250))"
+        },
+        {
+          "hex": "#ffffff",
+          "name": "Cloud White",
+          "role": "Primary surface color for cards and key content areas, providing a clean canvas for information.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#000000",
+          "name": "Coal Black",
+          "role": "Most body text and secondary headings, ensuring high readability and a direct tone.",
+          "group": "neutral"
+        }
+      ],
+      "imagery": "The site uses minimal abstract graphics. Specifically, the background features soft, pastel pink and blue 3D cloud-like shapes that appear to float, creating a dreamy and friendly atmosphere. These are decorative and atmospheric, lending to the overall sense of calm and approachability. The only other visual element is a small product/brand logo (Cloudflare) within a functional UI element, treated as an icon, not an illustrative feature. The design is heavily text-dominant with visuals serving purely as aesthetic framing.",
+      "similar": [
+        {
+          "why": "Soft, welcoming gradients and clean, minimal content blocks that prioritize function yet feel approachable.",
+          "business": "Figma"
+        },
+        {
+          "why": "Emphasis on clear typography and structured information presentation within light-themed, bordered content areas.",
+          "business": "Notion"
+        },
+        {
+          "why": "High contrast dark text on light backgrounds, combined with functional, understated UI elements and subtle visual branding.",
+          "business": "Linear"
+        },
+        {
+          "why": "Uses soft, gradient backgrounds and a sense of spaciousness to create a serene and focused user experience.",
+          "business": "Calm"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "cards": "12px",
+          "fields": "12px",
+          "buttons": "12px"
+        },
+        "elementGap": "8px",
+        "sectionGap": "32px",
+        "cardPadding": "32px",
+        "pageMaxWidth": null
+      },
+      "category": "ai",
+      "northStar": "Serene Cloud Sanctuary: A single white card floats effortlessly within a tranquil, sky-blue gradient, cradled by soft, cartoon-like clouds.",
+      "components": [
+        {
+          "html": "<div style=\"--color-gamma-blue: #002253; --color-sky-gradient: linear-gradient(to top, rgb(255,255,255), rgb(198,230,250)); --color-cloud-white: #ffffff; --color-coal-black: #000000; --font-ppmori: 'Inter', sans-serif; --font-esbuild: 'Roboto', sans-serif; --spacing-8: 8px; --spacing-20: 20px; --spacing-32: 32px; width: 600px; min-height: 340px; background: var(--color-sky-gradient); display: flex; align-items: center; justify-content: center; font-family: var(--font-ppmori); padding: 48px 24px; box-sizing: border-box;\"><div style=\"background: var(--color-cloud-white); border-radius: 12px; padding: var(--spacing-32); width: 100%; max-width: 480px; box-shadow: 0 4px 32px rgba(0,34,83,0.08), 0 1px 4px rgba(0,34,83,0.04); box-sizing: border-box;\"><div style=\"font-family: var(--font-esbuild); font-size: 22px; font-weight: 500; color: var(--color-gamma-blue); letter-spacing: -0.5px; margin-bottom: var(--spacing-20); font-feature-settings: 'ss02';\">GAMMA</div><h1 style=\"font-family: var(--font-esbuild); font-size: 30px; font-weight: 500; color: var(--color-coal-black); line-height: 1.2; margin: 0 0 var(--spacing-20) 0; font-feature-settings: 'ss02';\">Just a moment...</h1><p style=\"font-family: var(--font-ppmori); font-size: 16px; font-weight: 500; color: var(--color-coal-black); line-height: 1.5; margin: 0 0 var(--spacing-20) 0; font-feature-settings: 'kern';\">We're verifying your connection before proceeding. This only takes a few seconds.</p><div style=\"border: 1px solid #e8edf2; border-radius: 12px; padding: 14px 16px; display: flex; align-items: center; justify-content: space-between;\"><div style=\"display: flex; align-items: center; gap: 10px;\"><div style=\"width: 20px; height: 20px; position: relative; flex-shrink: 0;\"><svg viewBox='0 0 20 20' width='20' height='20' style='animation: spin 1.2s linear infinite;'><style>@keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } } .spinner-wrap { animation: spin 1.2s linear infinite; transform-origin: center; }</style><g class='spinner-wrap' transform-origin='10 10'><circle cx='10' cy='3' r='1.5' fill='#4a90d9' opacity='1'/><circle cx='14.5' cy='4.4' r='1.5' fill='#4a90d9' opacity='0.85'/><circle cx='17.6' cy='8' r='1.5' fill='#4a90d9' opacity='0.7'/><circle cx='17.6' cy='12' r='1.5' fill='#4a90d9' opacity='0.55'/><circle cx='14.5' cy='15.6' r='1.5' fill='#4a90d9' opacity='0.4'/><circle cx='10' cy='17' r='1.5' fill='#4a90d9' opacity='0.3'/><circle cx='5.5' cy='15.6' r='1.5' fill='#4a90d9' opacity='0.2'/><circle cx='2.4' cy='12' r='1.5' fill='#4a90d9' opacity='0.15'/></g></svg></div><span style=\"font-family: var(--font-ppmori); font-size: 16px; font-weight: 500; color: var(--color-coal-black); font-feature-settings: 'kern';\">Verifying...</span></div><div style=\"display: flex; flex-direction: column; align-items: flex-end; gap: 2px;\"><div style=\"display: flex; align-items: center; gap: 5px;\"><div style=\"width: 28px; height: 18px; background: #F38020; border-radius: 3px;\"></div><span style=\"font-family: var(--font-ppmori); font-size: 11px; font-weight: 500; color: #404040; letter-spacing: 1px;\">CLOUDFLARE</span></div><div style=\"display: flex; gap: 8px;\"><a href='#' style=\"font-family: var(--font-ppmori); font-size: 11px; font-weight: 500; color: var(--color-gamma-blue); text-decoration: none;\">Privacy</a><span style=\"font-size: 11px; color: #aaa;\">•</span><a href='#' style=\"font-family: var(--font-ppmori); font-size: 11px; font-weight: 500; color: var(--color-gamma-blue); text-decoration: none;\">Help</a></div></div></div></div></div>",
+          "name": "Centered Content Card",
+          "role": "",
+          "description": ""
+        },
+        {
+          "html": "<div style=\"--color-gamma-blue: #002253; --color-sky-gradient: linear-gradient(to top, rgb(255,255,255), rgb(198,230,250)); --color-cloud-white: #ffffff; --color-coal-black: #000000; --font-ppmori: 'Inter', sans-serif; --font-esbuild: 'Roboto', sans-serif; width: 600px; background: var(--color-sky-gradient); display: flex; flex-direction: column; gap: 16px; padding: 40px 24px; box-sizing: border-box; font-family: var(--font-ppmori);\"><div style=\"background: #eaf4fe; border: 1px solid #b8ddf7; border-radius: 12px; padding: 16px 20px; display: flex; align-items: flex-start; gap: 12px;\"><svg width='20' height='20' viewBox='0 0 20 20' fill='none' style='flex-shrink:0;margin-top:1px;'><circle cx='10' cy='10' r='9' stroke='#2d7fd3' stroke-width='1.5'/><rect x='9.25' y='8.5' width='1.5' height='6' rx='0.75' fill='#2d7fd3'/><circle cx='10' cy='6' r='0.9' fill='#2d7fd3'/></svg><div><p style=\"font-family: var(--font-ppmori); font-size: 16px; font-weight: 500; color: var(--color-coal-black); line-height: 1.5; margin: 0 0 4px 0; font-feature-settings: 'kern';\">Connection check in progress</p><p style=\"font-family: var(--font-ppmori); font-size: 14px; font-weight: 500; color: #3a6ea8; line-height: 1.5; margin: 0; font-feature-settings: 'kern';\">Your browser is being verified. You'll be redirected automatically once complete.</p></div></div><div style=\"background: #fff8ec; border: 1px solid #f5d48a; border-radius: 12px; padding: 16px 20px; display: flex; align-items: flex-start; gap: 12px;\"><svg width='20' height='20' viewBox='0 0 20 20' fill='none' style='flex-shrink:0;margin-top:1px;'><path d='M10 2L18.66 17H1.34L10 2Z' stroke='#c88a00' stroke-width='1.5' stroke-linejoin='round' fill='none'/><rect x='9.25' y='8.5' width='1.5' height='4.5' rx='0.75' fill='#c88a00'/><circle cx='10' cy='15' r='0.9' fill='#c88a00'/></svg><div><p style=\"font-family: var(--font-ppmori); font-size: 16px; font-weight: 500; color: var(--color-coal-black); line-height: 1.5; margin: 0 0 4px 0; font-feature-settings: 'kern';\">Slow connection detected</p><p style=\"font-family: var(--font-ppmori); font-size: 14px; font-weight: 500; color: #8a6200; line-height: 1.5; margin: 0; font-feature-settings: 'kern';\">Verification may take longer than usual. Please stay on this page.</p></div></div><div style=\"background: #edfbf3; border: 1px solid #9de0bc; border-radius: 12px; padding: 16px 20px; display: flex; align-items: flex-start; gap: 12px;\"><svg width='20' height='20' viewBox='0 0 20 20' fill='none' style='flex-shrink:0;margin-top:1px;'><circle cx='10' cy='10' r='9' stroke='#1aaa5a' stroke-width='1.5'/><path d='M6 10.5l3 3 5-5.5' stroke='#1aaa5a' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/></svg><div><p style=\"font-family: var(--font-ppmori); font-size: 16px; font-weight: 500; color: var(--color-coal-black); line-height: 1.5; margin: 0 0 4px 0; font-feature-settings: 'kern';\">Verification complete</p><p style=\"font-family: var(--font-ppmori); font-size: 14px; font-weight: 500; color: #1a7a46; line-height: 1.5; margin: 0; font-feature-settings: 'kern';\">You're all set. Redirecting you to Gamma now.</p></div></div></div>",
+          "name": "Status / Alert Banner",
+          "role": "",
+          "description": ""
+        },
+        {
+          "html": "<div style=\"--color-gamma-blue: #002253; --color-sky-gradient: linear-gradient(to top, rgb(255,255,255), rgb(198,230,250)); --color-cloud-white: #ffffff; --color-coal-black: #000000; --font-ppmori: 'Inter', sans-serif; --font-esbuild: 'Roboto', sans-serif; width: 600px; background: var(--color-sky-gradient); padding: 48px 24px; box-sizing: border-box; display: flex; align-items: center; justify-content: center;\"><div style=\"background: var(--color-cloud-white); border-radius: 12px; padding: 32px; width: 100%; max-width: 480px; box-shadow: 0 4px 32px rgba(0,34,83,0.08), 0 1px 4px rgba(0,34,83,0.04); box-sizing: border-box;\"><h2 style=\"font-family: 'Roboto', sans-serif; font-size: 30px; font-weight: 500; color: var(--color-coal-black); line-height: 1.2; margin: 0 0 8px 0; font-feature-settings: 'ss02';\">Get started with Gamma</h2><p style=\"font-family: 'Inter', sans-serif; font-size: 16px; font-weight: 500; color: var(--color-coal-black); line-height: 1.5; margin: 0 0 28px 0; font-feature-settings: 'kern'; opacity: 0.7;\">Create beautiful presentations, documents, and sites in seconds.</p><div style=\"display: flex; flex-direction: column; gap: 12px;\"><button style=\"width: 100%; padding: 14px 24px; background: var(--color-gamma-blue); color: #ffffff; font-family: 'Inter', sans-serif; font-size: 16px; font-weight: 500; border: none; border-radius: 12px; cursor: pointer; text-align: center; line-height: 1.5; font-feature-settings: 'kern'; letter-spacing: 0.01em;\">Sign up for free</button><button style=\"width: 100%; padding: 14px 24px; background: var(--color-cloud-white); color: var(--color-gamma-blue); font-family: 'Inter', sans-serif; font-size: 16px; font-weight: 500; border: 1.5px solid var(--color-gamma-blue); border-radius: 12px; cursor: pointer; text-align: center; line-height: 1.5; font-feature-settings: 'kern'; letter-spacing: 0.01em;\">Log in to your account</button><div style=\"text-align: center; padding-top: 4px;\"><a href='#' style=\"font-family: 'Inter', sans-serif; font-size: 16px; font-weight: 500; color: var(--color-gamma-blue); text-decoration: underline; text-underline-offset: 3px; font-feature-settings: 'kern'; line-height: 1.5;\">Learn more about Gamma →</a></div></div></div></div>",
+          "name": "Button Group",
+          "role": "",
+          "description": ""
+        },
+        {
+          "name": "Centered Content Card",
+          "role": "Contains focal content or interaction points.",
+          "description": "A white card with a 12px border-radius, centered on the page. Uses 32px internal padding on all sides, creating ample breathing room for content. Text elements inside have 8px or 20px vertical spacing between them."
+        },
+        {
+          "name": "Main Heading",
+          "role": "Introduces sections or key messages.",
+          "description": "Uses ESBuild font at 30px, weight 500, with a 1.2 line height. Color is Coal Black (#000000), providing high contrast."
+        },
+        {
+          "name": "Body Text",
+          "role": "Standard informational text.",
+          "description": "Uses PPMori font at 16px, weight 500, with a 1.5 line height. Color is Coal Black (#000000)."
+        },
+        {
+          "name": "Link Text",
+          "role": "Interactive text elements.",
+          "description": "Uses PPMori font at 16px, weight 500, with a 1.5 line height. Color is Gamma Blue (#002253), clearly differentiating it as interactive."
+        },
+        {
+          "name": "Loading Indicator Region",
+          "role": "Shows background processing status.",
+          "description": "A horizontal arrangement of an animated spinner, 'Verifying...' text (PPMori, 16px, #000000), and a Cloudflare logo, implying external background service activity."
+        }
+      ],
+      "typography": [
+        {
+          "role": "Primary body text and links – a slightly thicker weight for standard text gives substance without heaviness. The 'kern' feature implies careful typographic detailing for improved spacing.",
+          "sizes": "16px",
+          "family": "PPMori",
+          "weight": "500",
+          "weights": [
+            500
+          ],
+          "lineHeight": "1.50",
+          "substitute": "Inter",
+          "letterSpacing": "normal",
+          "fontFeatureSettings": "\"kern\""
+        },
+        {
+          "role": "Main headings and key brand elements. Its specific 'ss02' feature suggests a distinct, custom glyph style, likely for branding impact, providing a modern and clear voice at larger sizes.",
+          "sizes": "30px",
+          "family": "ESBuild",
+          "weight": "500",
+          "weights": [
+            500
+          ],
+          "lineHeight": "1.20",
+          "substitute": "Roboto, sans-serif",
+          "letterSpacing": "normal",
+          "fontFeatureSettings": "\"ss02\""
+        }
+      ],
+      "description": "This design system evokes a sense of airy calm and trust, like a quiet moment before a significant event. The pervasive light blue gradient creates an open, optimistic sky-like background. Visual weight is concentrated in the central card with its crisp borders and soft shadows, making the core interaction feel grounded yet gently presented. Typography is minimal and direct, serving the primary purpose of clear communication without visual embellishment.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "### Quick Color Reference\n- Text: #000000\n- Background: linear-gradient(to top, #ffffff, #c6e6fa)\n- CTA/Accent: #002253\n- Card Surface: #ffffff\n- Border/Outline: #000000 (though used sparingly for definition)\n\n### Example Component Prompts\n1. Create a centered content card: background #ffffff, border-radius 12px, internal padding 32px. Add a headline 'Just a moment...' using ESBuild font 30px weight 500 #000000. Below it, add body text 'Verifying...' using PPMori font 16px weight 500 #000000. Ensure 20px vertical gap between headline and body text, and 8px between 'Verifying...' and an inline Cloudflare logo.\n2. Design a primary link: text 'Click Here' using PPMori font 16px weight 500 #002253, with normal letter-spacing and 1.5 line-height. Ensure it has the 'kern' font feature enabled.\n3. Implement the page background: a CSS linear gradient (to top, #ffffff, #c6e6fa) with soft 3D cloud illustration elements positioned to the sides and bottom, maintaining the airy feel. No specific dimensions for clouds, just general placement.\n4. Create a loading text element: PPMori font, 16px, weight 500, color #000000, with the text 'Verifying...' and an accompanying small animated spinner icon to its left."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775923775399-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775923775399-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/a386d0d4-01f1-4ec3-80ae-d505075d83ca",
+  "ranks": {
+    "trending": 164,
+    "popular": 198,
+    "newest": 1271
+  },
+  "localSlug": "gamma-a386d0d4"
+}

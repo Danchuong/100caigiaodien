@@ -1,0 +1,347 @@
+{
+  "id": "6f428c12-ba43-48e3-9a52-299ec1ce509b",
+  "url": "https://19-86.fr",
+  "siteName": "19–86",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775926168148-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775926168148-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "light",
+  "colors": [
+    {
+      "name": "Obsidian Black",
+      "hex": "#000000"
+    },
+    {
+      "name": "Pure White",
+      "hex": "#FFFFFF"
+    },
+    {
+      "name": "Ash Gray",
+      "hex": "#8C8C8C"
+    }
+  ],
+  "fonts": [
+    "store_norske_ja_light"
+  ],
+  "northStar": "Architectural blueprint on white marble. The system is built on a high-contrast, minimalist palette of black and white, reminiscent of technical drawings.",
+  "createdAt": "2026-02-18T13:30:35.000Z",
+  "previewVideoCapturedAt": null,
+  "industry": "agency",
+  "fullResult": {
+    "meta": {
+      "url": "https://19-86.fr",
+      "siteName": "19–86",
+      "extractedAt": "2026-04-11T16:49:42.245Z",
+      "durationMs": 20871,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 807,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "complete",
+          "attempts": 2
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "other",
+              "body",
+              "link",
+              "heading"
+            ],
+            "frequency": 4054,
+            "confidence": 1,
+            "prominence": 21332691.219603762,
+            "properties": [
+              "color",
+              "borderColor",
+              "backgroundColor"
+            ]
+          }
+        ],
+        "isDarkMode": false,
+        "colorfulness": 0,
+        "contrastPairs": []
+      },
+      "shapes": {
+        "radii": [],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 5,
+            "frequency": 32,
+            "properties": [
+              "paddingTop"
+            ]
+          },
+          {
+            "value": 8,
+            "frequency": 32,
+            "properties": [
+              "paddingBottom"
+            ]
+          },
+          {
+            "value": 12,
+            "frequency": 30,
+            "properties": [
+              "paddingBottom"
+            ]
+          },
+          {
+            "value": 24,
+            "frequency": 44,
+            "properties": [
+              "paddingRight",
+              "paddingLeft",
+              "marginRight",
+              "marginLeft"
+            ]
+          },
+          {
+            "value": 30,
+            "frequency": 5,
+            "properties": [
+              "paddingRight",
+              "paddingBottom",
+              "paddingLeft"
+            ]
+          }
+        ],
+        "density": "comfortable",
+        "baseUnit": 6
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "store_norske_ja_light",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 805,
+            "fontFeatureSettings": [
+              "\"kern\""
+            ]
+          }
+        ],
+        "scale": null,
+        "steps": [
+          {
+            "size": 24,
+            "family": "store_norske_ja_light",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "body",
+              "link"
+            ],
+            "frequency": 798,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 490,
+            "family": "store_norske_ja_light",
+            "weight": 400,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 7,
+            "lineHeight": 1,
+            "letterSpacing": -0.02,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Prioritize `Obsidian Black` (#000000) text on `Pure White` (#FFFFFF) backgrounds for all content.",
+        "Utilize `store_norske_ja_light` (or Montserrat) at weight 400 for all typography, maintaining a consistent light aesthetic.",
+        "Implement -0.0200em letter spacing for all text elements to maintain typographic precision.",
+        "Structure content primarily in tabular or list formats with clear 1px solid `Obsidian Black` (#000000) dividers for organization.",
+        "Use subtle spacing increments like `5px` and `8px` for internal element padding, creating a comfortable yet contained feel.",
+        "Leverage the large `490px` `store_norske_ja_light` weight 400 for dominant display elements to infuse monumental scale without visual heaviness."
+      ],
+      "tags": [
+        "minimalist",
+        "monochrome",
+        "architectural",
+        "high-contrast",
+        "technical",
+        "precise",
+        "clean",
+        "editorial",
+        "stark"
+      ],
+      "donts": [
+        "Avoid shadows or complex gradients; rely on pure black and white for depth and visual interest.",
+        "Do not introduce additional font families or arbitrary weights; maintain the singular light aesthetic of `store_norske_ja_light`.",
+        "Do not use saturated or vivid chromatic colors; the system relies on a strictly achromatic palette with a single muted accent (Ash Gray) for links.",
+        "Avoid highly rounded corners or soft shapes; prioritize crisp lines and rectangular forms.",
+        "Do not vary line heights excessively; stick to the defined `1.00` and `1.20` ratios for consistency and readability.",
+        "Do not use a `pageMaxWidth`; allow content to span the full width where appropriate, but maintain internal content alignment."
+      ],
+      "theme": "light",
+      "colors": [
+        {
+          "hex": "#000000",
+          "name": "Obsidian Black",
+          "role": "Primary text, headings, table lines, accent dots — provides stark contrast on white, suggesting permanence and clarity.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#FFFFFF",
+          "name": "Pure White",
+          "role": "Page backgrounds, surface elements — establishes a clean, expansive canvas.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#8C8C8C",
+          "name": "Ash Gray",
+          "role": "Link text in inactive state — offers a subtle desaturation from primary black, indicating interactive but not primary status.",
+          "group": "neutral"
+        }
+      ],
+      "layout": "The page exhibits a full-bleed, uncontained model, but with strong internal alignment and a structured tabular presentation that implies a grid. The hero section is characterized by the monumental '19-86' central to the screen, serving as both branding and a strong visual anchor. Content below flows in a list-like fashion with alternating text and subtle horizontal dividers creating a rhythm. The overall density is comfortable, with ample vertical spacing between content blocks, contrasting with the precise, tight typography.",
+      "imagery": "The visual language is characterized by an absence of traditional imagery like photography or illustrations. Instead, the design foregrounds text as the primary visual element. The large-scale number '19-86' functions as a graphical focal point, treated with the same typographic precision as smaller text, yet gaining monumental presence through its size. Simple, singular black dots serve as purely functional icons, mirroring the minimalist and high-contrast approach.",
+      "similar": [
+        {
+          "why": "Monochromatic palette, emphasis on typography as primary visual, strict grid-like organization for content.",
+          "business": "AIGA Journal"
+        },
+        {
+          "why": "Typographic focus, large-scale numbers and text used as design elements, high-contrast black and white aesthetic.",
+          "business": "Grilli Type"
+        },
+        {
+          "why": "Minimalist aesthetic, muted color palette (or lack thereof), emphasis on structure and clean lines over ornamentation.",
+          "business": "Norm Architects"
+        },
+        {
+          "why": "Emphasis on singular, strong typographic statements, often with a stark, high-contrast visual style.",
+          "business": "Office of Paul Sahre"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "none": "0px"
+        },
+        "elementGap": "5px",
+        "sectionGap": "",
+        "cardPadding": "24px",
+        "pageMaxWidth": null
+      },
+      "category": "agency",
+      "northStar": "Architectural blueprint on white marble. The system is built on a high-contrast, minimalist palette of black and white, reminiscent of technical drawings.",
+      "typeScale": [
+        {
+          "role": "body",
+          "size": 24,
+          "lineHeight": 1.2,
+          "letterSpacing": -0.02
+        },
+        {
+          "role": "display",
+          "size": 490,
+          "lineHeight": 1,
+          "letterSpacing": -0.02
+        }
+      ],
+      "components": [
+        {
+          "html": "<div style=\"--color-obsidian-black: #000000; --color-pure-white: #FFFFFF; --color-ash-gray: #8C8C8C; --font-storenorskejalight: 'Montserrat', sans-serif; background: var(--color-pure-white); padding: 24px; width: 600px; box-sizing: border-box; font-family: var(--font-storenorskejalight); font-weight: 400;\">\n  \n  <table style=\"width: 100%; border-collapse: collapse; font-family: var(--font-storenorskejalight); font-weight: 400;\">\n    <thead>\n      <tr>\n        <th style=\"text-align: left; font-size: 24px; line-height: 1.2; letter-spacing: -0.02em; color: var(--color-obsidian-black); font-weight: 400; padding-bottom: 12px; border-bottom: 1px solid var(--color-obsidian-black); padding-right: 24px; white-space: nowrap;\">19-86</th>\n        <th style=\"text-align: left; font-size: 24px; line-height: 1.2; letter-spacing: -0.02em; color: var(--color-obsidian-black); font-weight: 400; padding-bottom: 12px; border-bottom: 1px solid var(--color-obsidian-black); width: 40%; padding-right: 16px;\">Nom</th>\n        <th style=\"text-align: left; font-size: 24px; line-height: 1.2; letter-spacing: -0.02em; color: var(--color-obsidian-black); font-weight: 400; padding-bottom: 12px; border-bottom: 1px solid var(--color-obsidian-black); padding-right: 16px;\">Lieu</th>\n        <th style=\"text-align: left; font-size: 24px; line-height: 1.2; letter-spacing: -0.02em; color: var(--color-obsidian-black); font-weight: 400; padding-bottom: 12px; border-bottom: 1px solid var(--color-obsidian-black); padding-right: 16px;\">Date</th>\n        <th style=\"text-align: right; font-size: 24px; line-height: 1.2; letter-spacing: -0.02em; color: var(--color-obsidian-black); font-weight: 400; padding-bottom: 12px; border-bottom: 1px solid var(--color-obsidian-black);\">Statut</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr>\n        <td style=\"font-size: 24px; line-height: 1.2; letter-spacing: -0.02em; color: var(--color-obsidian-black); padding-top: 5px; padding-bottom: 8px; border-bottom: 1px solid var(--color-obsidian-black); padding-right: 24px; white-space: nowrap;\">14-01</td>\n        <td style=\"font-size: 24px; line-height: 1.2; letter-spacing: -0.02em; color: var(--color-obsidian-black); padding-top: 5px; padding-bottom: 8px; border-bottom: 1px solid var(--color-obsidian-black); padding-right: 16px;\">Benoît &amp; Roselyne</td>\n        <td style=\"font-size: 24px; line-height: 1.2; letter-spacing: -0.02em; color: var(--color-obsidian-black); padding-top: 5px; padding-bottom: 8px; border-bottom: 1px solid var(--color-obsidian-black); padding-right: 16px;\">Paris</td>\n        <td style=\"font-size: 24px; line-height: 1.2; letter-spacing: -0.02em; color: var(--color-obsidian-black); padding-top: 5px; padding-bottom: 8px; border-bottom: 1px solid var(--color-obsidian-black); padding-right: 16px;\">2014</td>\n        <td style=\"font-size: 24px; line-height: 1.2; letter-spacing: -0.02em; color: var(--color-obsidian-black); padding-top: 5px; padding-bottom: 8px; border-bottom: 1px solid var(--color-obsidian-black); text-align: right;\">●</td>\n      </tr>\n      <tr>\n        <td style=\"font-size: 24px; line-height: 1.2; letter-spacing: -0.02em; color: var(--color-obsidian-black); padding-top: 5px; padding-bottom: 8px; border-bottom: 1px solid var(--color-obsidian-black); padding-right: 24px;\">21-05</td>\n        <td style=\"font-size: 24px; line-height: 1.2; letter-spacing: -0.02em; color: var(--color-obsidian-black); padding-top: 5px; padding-bottom: 8px; border-bottom: 1px solid var(--color-obsidian-black); padding-right: 16px;\">Bien vieillir ensemble</td>\n        <td style=\"font-size: 24px; line-height: 1.2; letter-spacing: -0.02em; color: var(--color-obsidian-black); padding-top: 5px; padding-bottom: 8px; border-bottom: 1px solid var(--color-obsidian-black); padding-right: 16px;\">Lyon</td>\n        <td style=\"font-size: 24px; line-height: 1.2; letter-spacing: -0.02em; color: var(--color-obsidian-black); padding-top: 5px; padding-bottom: 8px; border-bottom: 1px solid var(--color-obsidian-black); padding-right: 16px;\">2021</td>\n        <td style=\"font-size: 24px; line-height: 1.2; letter-spacing: -0.02em; color: var(--color-obsidian-black); padding-top: 5px; padding-bottom: 8px; border-bottom: 1px solid var(--color-obsidian-black); text-align: right;\">●</td>\n      </tr>\n      <tr>\n        <td style=\"font-size: 24px; line-height: 1.2; letter-spacing: -0.02em; color: var(--color-obsidian-black); padding-top: 5px; padding-bottom: 8px; border-bottom: 1px solid var(--color-obsidian-black); padding-right: 24px;\">21-10</td>\n        <td style=\"font-size: 24px; line-height: 1.2; letter-spacing: -0.02em; color: var(--color-obsidian-black); padding-top: 5px; padding-bottom: 8px; border-bottom: 1px solid var(--color-obsidian-black); padding-right: 16px;\">Brics</td>\n        <td style=\"font-size: 24px; line-height: 1.2; letter-spacing: -0.02em; color: var(--color-obsidian-black); padding-top: 5px; padding-bottom: 8px; border-bottom: 1px solid var(--color-obsidian-black); padding-right: 16px;\">Bordeaux</td>\n        <td style=\"font-size: 24px; line-height: 1.2; letter-spacing: -0.02em; color: var(--color-obsidian-black); padding-top: 5px; padding-bottom: 8px; border-bottom: 1px solid var(--color-obsidian-black); padding-right: 16px;\">2021</td>\n        <td style=\"font-size: 24px; line-height: 1.2; letter-spacing: -0.02em; color: var(--color-obsidian-black); padding-top: 5px; padding-bottom: 8px; border-bottom: 1px solid var(--color-obsidian-black); text-align: right;\">●</td>\n      </tr>\n      <tr>\n        <td style=\"font-size: 24px; line-height: 1.2; letter-spacing: -0.02em; color: var(--color-obsidian-black); padding-top: 5px; padding-bottom: 8px; border-bottom: 1px solid var(--color-obsidian-black); padding-right: 24px;\">18-08</td>\n        <td style=\"font-size: 24px; line-height: 1.2; letter-spacing: -0.02em; color: var(--color-obsidian-black); padding-top: 5px; padding-bottom: 8px; border-bottom: 1px solid var(--color-obsidian-black); padding-right: 16px;\">Camille &amp; Emmanuel</td>\n        <td style=\"font-size: 24px; line-height: 1.2; letter-spacing: -0.02em; color: var(--color-obsidian-black); padding-top: 5px; padding-bottom: 8px; border-bottom: 1px solid var(--color-obsidian-black); padding-right: 16px;\">Marseille</td>\n        <td style=\"font-size: 24px; line-height: 1.2; letter-spacing: -0.02em; color: var(--color-obsidian-black); padding-top: 5px; padding-bottom: 8px; border-bottom: 1px solid var(--color-obsidian-black); padding-right: 16px;\">2018</td>\n        <td style=\"font-size: 24px; line-height: 1.2; letter-spacing: -0.02em; color: var(--color-obsidian-black); padding-top: 5px; padding-bottom: 8px; border-bottom: 1px solid var(--color-obsidian-black); text-align: right;\">●</td>\n      </tr>\n      <tr>\n        <td style=\"font-size: 24px; line-height: 1.2; letter-spacing: -0.02em; color: var(--color-obsidian-black); padding-top: 5px; padding-bottom: 8px; border-bottom: 1px solid var(--color-obsidian-black); padding-right: 24px;\">14-10</td>\n        <td style=\"font-size: 24px; line-height: 1.2; letter-spacing: -0.02em; color: var(--color-obsidian-black); padding-top: 5px; padding-bottom: 8px; border-bottom: 1px solid var(--color-obsidian-black); padding-right: 16px;\">Château Saint Jean</td>\n        <td style=\"font-size: 24px; line-height: 1.2; letter-spacing: -0.02em; color: var(--color-obsidian-black); padding-top: 5px; padding-bottom: 8px; border-bottom: 1px solid var(--color-obsidian-black); padding-right: 16px;\">—</td>\n        <td style=\"font-size: 24px; line-height: 1.2; letter-spacing: -0.02em; color: var(--color-obsidian-black); padding-top: 5px; padding-bottom: 8px; border-bottom: 1px solid var(--color-obsidian-black); padding-right: 16px;\">2014</td>\n        <td style=\"font-size: 24px; line-height: 1.2; letter-spacing: -0.02em; color: var(--color-obsidian-black); padding-top: 5px; padding-bottom: 8px; border-bottom: 1px solid var(--color-obsidian-black); text-align: right;\"></td>\n      </tr>\n    </tbody>\n  </table>\n</div>",
+          "name": "Project Table with Header",
+          "role": "",
+          "description": ""
+        },
+        {
+          "html": "<div style=\"--color-obsidian-black: #000000; --color-pure-white: #FFFFFF; --font-storenorskejalight: 'Montserrat', sans-serif; background: var(--color-pure-white); width: 600px; box-sizing: border-box; overflow: hidden; position: relative; height: 220px; display: flex; align-items: center; justify-content: center;\">\n  \n  <span style=\"font-family: var(--font-storenorskejalight); font-weight: 300; font-size: 260px; line-height: 1; letter-spacing: -0.02em; color: var(--color-obsidian-black); white-space: nowrap; display: block; user-select: none;\">19–86</span>\n</div>",
+          "name": "Display Monogram",
+          "role": "",
+          "description": ""
+        },
+        {
+          "html": "<div style=\"--color-obsidian-black: #000000; --color-pure-white: #FFFFFF; --color-ash-gray: #8C8C8C; --font-storenorskejalight: 'Montserrat', sans-serif; background: var(--color-pure-white); padding: 24px; width: 600px; box-sizing: border-box;\">\n  \n  <div style=\"border-bottom: 1px solid var(--color-obsidian-black); padding-bottom: 12px; margin-bottom: 0;\">\n    <span style=\"font-family: var(--font-storenorskejalight); font-weight: 400; font-size: 24px; line-height: 1.2; letter-spacing: -0.02em; color: var(--color-obsidian-black);\">Navigation</span>\n  </div>\n  <div style=\"display: flex; flex-direction: column; gap: 0;\">\n    <div style=\"border-bottom: 1px solid var(--color-obsidian-black); padding-top: 5px; padding-bottom: 8px; display: flex; justify-content: space-between; align-items: baseline;\">\n      <a href=\"#\" style=\"font-family: var(--font-storenorskejalight); font-weight: 400; font-size: 24px; line-height: 1.2; letter-spacing: -0.02em; color: var(--color-obsidian-black); text-decoration: none;\">Projets</a>\n      <span style=\"font-family: var(--font-storenorskejalight); font-weight: 400; font-size: 24px; letter-spacing: -0.02em; color: var(--color-obsidian-black);\">●</span>\n    </div>\n    <div style=\"border-bottom: 1px solid var(--color-obsidian-black); padding-top: 5px; padding-bottom: 8px; display: flex; justify-content: space-between; align-items: baseline;\">\n      <a href=\"#\" style=\"font-family: var(--font-storenorskejalight); font-weight: 400; font-size: 24px; line-height: 1.2; letter-spacing: -0.02em; color: var(--color-ash-gray); text-decoration: none;\">Agence</a>\n      <span style=\"font-family: var(--font-storenorskejalight); font-weight: 400; font-size: 24px; letter-spacing: -0.02em; color: var(--color-ash-gray);\"></span>\n    </div>\n    <div style=\"border-bottom: 1px solid var(--color-obsidian-black); padding-top: 5px; padding-bottom: 8px; display: flex; justify-content: space-between; align-items: baseline;\">\n      <a href=\"#\" style=\"font-family: var(--font-storenorskejalight); font-weight: 400; font-size: 24px; line-height: 1.2; letter-spacing: -0.02em; color: var(--color-ash-gray); text-decoration: none;\">Contact</a>\n      <span style=\"font-family: var(--font-storenorskejalight); font-weight: 400; font-size: 24px; letter-spacing: -0.02em; color: var(--color-ash-gray);\"></span>\n    </div>\n    <div style=\"border-bottom: 1px solid var(--color-obsidian-black); padding-top: 5px; padding-bottom: 8px; display: flex; justify-content: space-between; align-items: baseline;\">\n      <a href=\"#\" style=\"font-family: var(--font-storenorskejalight); font-weight: 400; font-size: 24px; line-height: 1.2; letter-spacing: -0.02em; color: var(--color-ash-gray); text-decoration: none;\">FR / EN</a>\n      <span style=\"font-family: var(--font-storenorskejalight); font-weight: 400; font-size: 24px; letter-spacing: -0.02em; color: var(--color-ash-gray);\"></span>\n    </div>\n  </div>\n</div>",
+          "name": "Link Button Group",
+          "role": "",
+          "description": ""
+        },
+        {
+          "name": "Table Row",
+          "role": "Data display",
+          "description": "A single line item in a list with `paddingTop: 5px`, `paddingBottom: 8px`, and a `border-bottom` of 1px solid `Obsidian Black` (#000000). Text is `Obsidian Black` (#000000) using `store_norske_ja_light`."
+        },
+        {
+          "name": "Table Header Cell",
+          "role": "Table column title",
+          "description": "Headers for tabular data, with `paddingBottom: 12px` and a `border-bottom` of 1px solid `Obsidian Black` (#000000). Text is `Obsidian Black` (#000000) using `store_norske_ja_light`."
+        },
+        {
+          "name": "Link Button",
+          "role": "Interactive navigation",
+          "description": "Simple text link, using `Ash Gray` (#8C8C8C) for text when not primary, and `Obsidian Black` (#000000) or inferred accent colors for active states. Uses `store_norske_ja_light` font family."
+        }
+      ],
+      "typography": [
+        {
+          "role": "All textual content, from body copy to oversized display numbers. The single light weight (400) even at large sizes is the signature, providing an authoritative yet non-aggressive presence due to its subtlety.",
+          "sizes": "24px, 490px",
+          "family": "store_norske_ja_light",
+          "weight": "400",
+          "weights": [
+            400
+          ],
+          "lineHeight": "1.00, 1.20",
+          "substitute": "Montserrat",
+          "letterSpacing": "-0.0200em",
+          "fontFeatureSettings": "\"kern\""
+        }
+      ],
+      "description": "This design system evokes the precision and meticulousness of architectural blueprints, presented with stark clarity. The visual field is dominated by pure black text and lines against an unblemished white background, creating an impression of objective documentation. The singular `store_norske_ja_light` font, with its consistent weight and precise letter-spacing, grounds the aesthetic in technical rigor while allowing large display elements like \"19-86\" to feel monumental yet understated due to their light weight.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "### Quick Color Reference\n- Text: `Obsidian Black` (#000000)\n- Background: `Pure White` (#FFFFFF)\n- Link (inactive): `Ash Gray` (#8C8C8C)\n- Border: `Obsidian Black` (#000000)\n\n### 3-5 Example Component Prompts\n1. Create a header section with '19-86' as a large display element: use `Pure White` background. Text '19-86' should be `Obsidian Black` (#000000), `store_norske_ja_light` font at 490px size, weight 400, line-height 1.0, letter-spacing -0.02em.\n2. Generate a tabular content list: `Pure White` background. Each row should have `Obsidian Black` (#000000) text (e.g., 'Benoît & Roselyne'), `store_norske_ja_light` font at 24px size, weight 400, line-height 1.2, letter-spacing -0.02em. Apply 5px padding-top, 8px padding-bottom, and a 1px solid `Obsidian Black` (#000000) bottom border to each row.\n3. Design a sub-header for a table: use `Obsidian Black` (#000000) text (e.g., 'Typologie'), `store_norske_ja_light` font at 24px size, weight 400, line-height 1.2, letter-spacing -0.02em. Apply 12px padding-bottom and a 1px solid `Obsidian Black` (#000000) bottom border.\n4. Create an interactive text link: use `Ash Gray` (#8C8C8C) text, `store_norske_ja_light` font at 24px size, weight 400, letter-spacing -0.02em. "
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775926168148-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775926168148-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/6f428c12-ba43-48e3-9a52-299ec1ce509b",
+  "ranks": {
+    "trending": 631,
+    "popular": 542,
+    "newest": 1167
+  },
+  "localSlug": "19-86-6f428c12"
+}

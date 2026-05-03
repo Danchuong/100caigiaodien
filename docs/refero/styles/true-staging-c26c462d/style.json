@@ -1,0 +1,738 @@
+{
+  "id": "c26c462d-f219-4814-96da-c05e86f759b7",
+  "url": "https://www.truestaging.co.uk",
+  "siteName": "True Staging",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777514205757-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777514205757-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "dark",
+  "colors": [
+    {
+      "name": "Blueprint Canvas",
+      "hex": "#111111"
+    },
+    {
+      "name": "Parchment White",
+      "hex": "#f5efeb"
+    },
+    {
+      "name": "Amber Peach",
+      "hex": "#f1b497"
+    }
+  ],
+  "fonts": [
+    "Roslindale",
+    "Alliance"
+  ],
+  "northStar": "Architectural blueprint on aged parchment",
+  "createdAt": "2026-04-30T01:57:05.194Z",
+  "previewVideoCapturedAt": null,
+  "industry": "other",
+  "fullResult": {
+    "meta": {
+      "url": "https://www.truestaging.co.uk",
+      "siteName": "True Staging",
+      "extractedAt": "2026-04-30T01:57:05.127Z",
+      "durationMs": 29163,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 124,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#111111",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.17763777307657064
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 80,
+            "confidence": 1,
+            "prominence": 8216445.603738473,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "other/color": 16,
+              "other/borderColor": 64
+            }
+          },
+          {
+            "hex": "#f5efeb",
+            "oklch": {
+              "c": 0.008416775476815706,
+              "h": 56.31208602418381,
+              "l": 0.9556759823414663
+            },
+            "contexts": [
+              "other",
+              "nav",
+              "heading",
+              "body",
+              "button"
+            ],
+            "frequency": 478,
+            "confidence": 1,
+            "prominence": 2612933.166449739,
+            "properties": [
+              "color",
+              "borderColor",
+              "fill"
+            ],
+            "usageCounts": {
+              "nav/color": 36,
+              "body/color": 3,
+              "other/fill": 3,
+              "other/color": 59,
+              "button/color": 1,
+              "heading/color": 4,
+              "nav/borderColor": 120,
+              "body/borderColor": 12,
+              "other/borderColor": 220,
+              "button/borderColor": 4,
+              "heading/borderColor": 16
+            }
+          },
+          {
+            "hex": "#f1b497",
+            "oklch": {
+              "c": 0.08169556792870344,
+              "h": 46.52496460749579,
+              "l": 0.8191440375914102
+            },
+            "contexts": [
+              "nav",
+              "other"
+            ],
+            "frequency": 32,
+            "confidence": 1,
+            "prominence": 116364.0835453608,
+            "properties": [
+              "borderColor",
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "nav/borderColor": 18,
+              "other/borderColor": 10,
+              "nav/backgroundColor": 3,
+              "other/backgroundColor": 1
+            }
+          },
+          {
+            "hex": "#dea083",
+            "oklch": {
+              "c": 0.08447906001629447,
+              "h": 46.04696456597108,
+              "l": 0.7580382210400184
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 23068,
+            "properties": [
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "other/backgroundColor": 1
+            }
+          }
+        ],
+        "isDarkMode": false,
+        "colorfulness": 0.030740183434639926,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 16.57,
+            "background": "#f5efeb",
+            "foreground": "#111111"
+          },
+          {
+            "level": "AAA",
+            "ratio": 10.53,
+            "background": "#f1b497",
+            "foreground": "#111111"
+          },
+          {
+            "level": "AAA",
+            "ratio": 8.51,
+            "background": "#dea083",
+            "foreground": "#111111"
+          },
+          {
+            "level": "fail",
+            "ratio": 1.95,
+            "background": "#dea083",
+            "foreground": "#f5efeb"
+          },
+          {
+            "level": "fail",
+            "ratio": 1.57,
+            "background": "#f1b497",
+            "foreground": "#f5efeb"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [
+          {
+            "value": 80,
+            "corners": [
+              0,
+              80,
+              80,
+              0
+            ],
+            "contexts": [
+              "nav",
+              "button",
+              "other"
+            ],
+            "frequency": 13,
+            "asymmetric": true
+          }
+        ],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 3,
+            "contexts": [
+              "nav",
+              "other",
+              "body"
+            ],
+            "frequency": 31,
+            "properties": [
+              "marginTop",
+              "marginBottom",
+              "paddingTop"
+            ],
+            "propertyContextPairs": [
+              "marginTop|nav",
+              "marginBottom|nav",
+              "paddingTop|other",
+              "marginTop|body",
+              "marginBottom|body"
+            ]
+          },
+          {
+            "value": 8,
+            "contexts": [
+              "nav",
+              "button"
+            ],
+            "frequency": 6,
+            "properties": [
+              "marginLeft",
+              "paddingTop",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "marginLeft|nav",
+              "paddingTop|nav",
+              "paddingBottom|nav",
+              "paddingTop|button",
+              "paddingBottom|button"
+            ]
+          },
+          {
+            "value": 11,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 52,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|other",
+              "paddingLeft|other"
+            ]
+          },
+          {
+            "value": 14,
+            "contexts": [
+              "other",
+              "heading"
+            ],
+            "frequency": 3,
+            "properties": [
+              "paddingRight",
+              "paddingLeft",
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|other",
+              "paddingLeft|other",
+              "marginBottom|heading"
+            ]
+          },
+          {
+            "value": 20,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 3,
+            "properties": [
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingBottom|other"
+            ]
+          },
+          {
+            "value": 21,
+            "contexts": [
+              "nav",
+              "button"
+            ],
+            "frequency": 4,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|nav",
+              "paddingLeft|nav",
+              "paddingRight|button",
+              "paddingLeft|button"
+            ]
+          },
+          {
+            "value": 25,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 1,
+            "properties": [
+              "marginLeft"
+            ],
+            "propertyContextPairs": [
+              "marginLeft|nav"
+            ]
+          },
+          {
+            "value": 28,
+            "contexts": [
+              "other",
+              "heading"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingRight",
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|other",
+              "marginBottom|heading"
+            ]
+          },
+          {
+            "value": 35,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingTop",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other",
+              "paddingBottom|other"
+            ]
+          },
+          {
+            "value": 42,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 2,
+            "properties": [
+              "marginLeft"
+            ],
+            "propertyContextPairs": [
+              "marginLeft|nav"
+            ]
+          },
+          {
+            "value": 53,
+            "contexts": [
+              "other",
+              "heading"
+            ],
+            "frequency": 5,
+            "properties": [
+              "paddingRight",
+              "paddingLeft",
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|other",
+              "paddingLeft|other",
+              "marginBottom|heading"
+            ]
+          }
+        ],
+        "density": "compact",
+        "baseUnit": 4
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "Alliance",
+            "source": "custom",
+            "weights": [
+              400,
+              500,
+              600
+            ],
+            "frequency": 94,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "Roslindale",
+            "source": "custom",
+            "weights": [
+              300
+            ],
+            "frequency": 28,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 15,
+          "name": "Perfect Fourth",
+          "ratio": 1.333,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 9,
+            "family": "Alliance",
+            "weight": 400,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "lineHeight": 1,
+            "letterSpacing": 0.1,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 12,
+            "family": "Alliance",
+            "weight": 500,
+            "contexts": [
+              "nav",
+              "other"
+            ],
+            "frequency": 6,
+            "lineHeight": 1,
+            "letterSpacing": 0.1,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 12,
+            "family": "Alliance",
+            "weight": 500,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 12,
+            "lineHeight": 1.3,
+            "letterSpacing": 0.1,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 12,
+            "family": "Alliance",
+            "weight": 400,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 13,
+            "lineHeight": 1.71,
+            "letterSpacing": 0.023,
+            "textTransform": "none"
+          },
+          {
+            "size": 12,
+            "family": "Alliance",
+            "weight": 500,
+            "contexts": [
+              "nav",
+              "body"
+            ],
+            "frequency": 4,
+            "lineHeight": 1.2,
+            "letterSpacing": 0.1,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 12,
+            "family": "Alliance",
+            "weight": 400,
+            "contexts": [
+              "button",
+              "other"
+            ],
+            "frequency": 15,
+            "lineHeight": 1.5,
+            "letterSpacing": 0.023,
+            "textTransform": "none"
+          },
+          {
+            "size": 14,
+            "family": "Alliance",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "link",
+              "nav",
+              "body"
+            ],
+            "frequency": 35,
+            "lineHeight": 1.5,
+            "letterSpacing": 0.02,
+            "textTransform": "none"
+          },
+          {
+            "size": 14,
+            "family": "Alliance",
+            "weight": 600,
+            "contexts": [
+              "heading",
+              "other"
+            ],
+            "frequency": 3,
+            "lineHeight": 1,
+            "letterSpacing": 0.06,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 28,
+            "family": "Alliance",
+            "weight": 400,
+            "contexts": [
+              "heading",
+              "other"
+            ],
+            "frequency": 5,
+            "lineHeight": 1.15,
+            "letterSpacing": -0.02,
+            "textTransform": "none"
+          },
+          {
+            "size": 158,
+            "family": "Roslindale",
+            "weight": 300,
+            "contexts": [
+              "heading",
+              "other"
+            ],
+            "frequency": 28,
+            "lineHeight": 1,
+            "letterSpacing": -0.02,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Always use Blueprint Canvas (#111111) for page backgrounds and primary dark text.",
+        "Apply Parchment White (#f5efeb) for primary light text on dark backgrounds and for ghost button borders.",
+        "Reserve Amber Peach (#f1b497) for key accents, selected navigation highlights, and the primary 'Our Work' button fill.",
+        "Employ Roslindale (sub: Playfair Display) for large, expressive headlines (158px, weight 300, ls -0.0200em) to convey gravitas.",
+        "Utilize Alliance (sub: Inter) for all functional text, varying weights (400, 500, 600) and sizes (9px, 12px, 14px) as needed for hierarchy.",
+        "Implement an 80px border-radius for all interactive elements like buttons and navigation items to maintain a consistent soft, pill-like shape.",
+        "Maintain a compact spacing density, with an element gap of 8px and section vertical spacing of 53px."
+      ],
+      "donts": [
+        "Do not introduce bright, vibrant colors; maintain the muted, earthy palette of Blueprint Canvas, Parchment White, and Amber Peach.",
+        "Avoid sharp, angular corners; consistently apply the 80px border-radius for all applicable UI elements.",
+        "Do not use generic system fonts for display headings; Roslindale's unique character is central to the brand's sophisticated feel.",
+        "Avoid excessive use of elevation or heavy shadows; the system relies on subtle borders and color shifts for separation.",
+        "Do not deviate from the defined letter-spacing values for Alliance; precise tracking is essential for its compact appearance.",
+        "Do not use Parchment White (#f5efeb) on amber backgrounds due to insufficient contrast (1.6:1 ratio).",
+        "Avoid making any element overtly 'loud'; the design emphasizes understated luxury through subtle contrasts and refined details."
+      ],
+      "theme": "dark",
+      "colors": [
+        {
+          "hex": "#111111",
+          "name": "Blueprint Canvas",
+          "role": "Page background, primary dark text, subtle borders — grounds the design in a deep, almost charcoal base",
+          "group": "neutral"
+        },
+        {
+          "hex": "#f5efeb",
+          "name": "Parchment White",
+          "role": "Primary light text, ghost button borders, accents within a darker canvas — suggests a tactile, natural paper texture",
+          "group": "neutral"
+        },
+        {
+          "hex": "#f1b497",
+          "name": "Amber Peach",
+          "role": "Orange outline accent for tags, dividers, and focused UI edges. Do not promote it to the primary CTA color",
+          "group": "brand"
+        }
+      ],
+      "layout": "The page employs a full-bleed layout, particularly for the hero section, which features a large, centered headline over an architectural graphic background. Content is centrally aligned within this wide canvas, using large, negative space. The header features right-aligned navigation items, subtly outlined. Subsequent content sections appear to follow a consistent vertical rhythm, though specific sectioning is less explicit than a banded approach; instead, it relies on visual weight and typography.",
+      "imagery": "The site uses subtle, abstract blueprint-style graphics overlaid on a textured dark background for atmospheric effect. These graphics are largely monochromatic, serving as an underlying visual motif rather than direct content. All imagery is decorative, establishing a mood of construction and precision, without featuring photography or product showcases. The density is image-light, with UI and typography dominating the visual space.",
+      "similar": [
+        {
+          "why": "Monochromatic palette, large serif typography, and a focus on subtle textures create a similar luxury brand experience with understated elegance.",
+          "business": "Fendi"
+        },
+        {
+          "why": "Understated branding, high-contrast typography, and a tactile, natural color palette evoke a comparable sense of refined craftsmanship.",
+          "business": "Bottega Veneta"
+        },
+        {
+          "why": "Uses a dark, technical background with strong geometric elements and precise, functional typography, albeit in a more modern context. The focus on precision and subtle interactions is similar.",
+          "business": "Linear"
+        },
+        {
+          "why": "Another fictional example that might use a single, muted accent color against a largely grayscale UI, employing elegant serif fonts for impact.",
+          "business": "Acme Co."
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "buttons": "80px",
+          "otherElements": "80px",
+          "navigationItems": "80px"
+        },
+        "elementGap": "8px",
+        "sectionGap": "53px",
+        "cardPadding": "21px",
+        "pageMaxWidth": null
+      },
+      "industry": "other",
+      "northStar": "Architectural blueprint on aged parchment",
+      "typeScale": [
+        {
+          "role": "body",
+          "size": 14,
+          "lineHeight": 1.2,
+          "letterSpacing": 0.02
+        },
+        {
+          "role": "subheading",
+          "size": 28,
+          "lineHeight": 1.3,
+          "letterSpacing": -0.02
+        },
+        {
+          "role": "display",
+          "size": 158,
+          "lineHeight": 1,
+          "letterSpacing": -0.02
+        }
+      ],
+      "components": [
+        {
+          "name": "Hero Headline",
+          "role": "Primary page title",
+          "description": "Uses Roslindale at 158px, weight 300, with a letter-spacing of -0.0200em, in Parchment White (#f5efeb). Placed centrally, defining the page's grand statement."
+        },
+        {
+          "name": "Ghost Navigation Item",
+          "role": "Secondary navigation and non-primary actions",
+          "description": "Text in Alliance, Parchment White (#f5efeb), 9px, weight 400. Has a 1px border in Parchment White (#f5efeb) with an 80px border-radius, creating a pill shape. Padding is 7.7px vertical and 21px horizontal. Transparent background."
+        },
+        {
+          "name": "Primary Action Button",
+          "role": "Call to action button for 'Our Work'",
+          "description": "Filled with Amber Peach (#f1b497) background. Text is Alliance, Parchment White (#f5efeb), 9px, weight 400. Features an 80px border-radius. Padding is 7.7px vertical and 21px horizontal. Appears as a pill-shaped element."
+        },
+        {
+          "name": "Body Text",
+          "role": "Standard informative text",
+          "description": "Uses Alliance, Blueprint Canvas (#111111) or Parchment White (#f5efeb) depending on section background, at 14px, weight 400. Tight letter spacing for efficient reading."
+        },
+        {
+          "name": "Footer Detail Text",
+          "role": "Copyright and minor informational text",
+          "description": "Alliance, 9px, weight 400, in Parchment White (#f5efeb)."
+        }
+      ],
+      "typography": [
+        {
+          "role": "Expressive display headings — its delicate weight and generous size at 158px create an authoritative, almost monumental statement of luxury.",
+          "sizes": "158px",
+          "family": "Roslindale",
+          "weight": "300",
+          "weights": [
+            300
+          ],
+          "lineHeight": "1.00",
+          "substitute": "Playfair Display",
+          "letterSpacing": "-0.0200em"
+        },
+        {
+          "role": "Functional text including body, navigation, and button labels — its versatility across weights and compact letter spacing ensures clear information delivery.",
+          "sizes": "9px, 12px, 14px, 28px",
+          "family": "Alliance",
+          "weight": "400, 500, 600",
+          "weights": [
+            400,
+            500,
+            600
+          ],
+          "lineHeight": "1.00, 1.15, 1.20, 1.30, 1.50, 1.71",
+          "substitute": "Inter",
+          "letterSpacing": "-0.0200em, 0.0200em, 0.0230em, 0.0600em, 0.1000em"
+        }
+      ],
+      "description": "True Staging establishes a serious yet refined industrial aesthetic, using a deep gray canvas punctuated by an antiqued peachy-orange accent. Typography pairs a classic serif for large expressive headlines with a clean sans-serif for functional text, setting up a contrast between permanence and precision. Components emphasize subtle outlining and generous border radii, lending a soft, approachable feel despite the muted palette. The overall impression is one of understated luxury and meticulous craftsmanship.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "Quick Color Reference: \ntext: #f5efeb\nbackground: #111111\nborder: #f5efeb\naccent: #f1b497\nprimary action: no distinct CTA color\n\nExample Component Prompts:\nNo distinct primary action color was observed; use the extracted neutral button treatments instead of inventing a filled CTA color.\n\n\nGenerate two columns of text in a section with a Blueprint Canvas background: Left column with subheading 'Set builders for live events & luxury retail experiences.' in Alliance 28px weight 400, #f5efeb. Right column with body text 'YOUR DESIGNS: MADE REALITY...' in Alliance 14px weight 400, #f5efeb, with a margin-bottom of 14px after initial line."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777514205757-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777514205757-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/c26c462d-f219-4814-96da-c05e86f759b7",
+  "ranks": {
+    "trending": 94,
+    "popular": 130,
+    "newest": 481
+  },
+  "localSlug": "true-staging-c26c462d"
+}

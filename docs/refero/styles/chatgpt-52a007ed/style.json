@@ -1,0 +1,834 @@
+{
+  "id": "52a007ed-ad1b-46a6-bd44-b76f91df6d0c",
+  "url": "https://chatgpt.com",
+  "siteName": "ChatGPT",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775923550174-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775923550174-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "light",
+  "colors": [
+    {
+      "name": "Carbon",
+      "hex": "#0d0d0d"
+    },
+    {
+      "name": "Snow",
+      "hex": "#ffffff"
+    },
+    {
+      "name": "Fog",
+      "hex": "#f9f9f9"
+    },
+    {
+      "name": "Pewter",
+      "hex": "#5d5d5d"
+    },
+    {
+      "name": "Stone",
+      "hex": "#8f8f8f"
+    },
+    {
+      "name": "Arctic Mist",
+      "hex": "#ececec"
+    }
+  ],
+  "fonts": [
+    "ui-sans-serif",
+    "OpenAI Sans"
+  ],
+  "northStar": "Frosted glass workstation. An environment of quiet focus, where soft grays frame crisp textual interaction.",
+  "createdAt": "2026-02-14T12:27:34.000Z",
+  "previewVideoCapturedAt": null,
+  "industry": "ai",
+  "fullResult": {
+    "meta": {
+      "url": "https://chatgpt.com",
+      "siteName": "ChatGPT",
+      "extractedAt": "2026-04-11T16:06:08.707Z",
+      "durationMs": 26161,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 243,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "complete",
+          "attempts": 2
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#0d0d0d",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.15906639920862536
+            },
+            "contexts": [
+              "other",
+              "button",
+              "body",
+              "icon",
+              "link",
+              "heading",
+              "nav",
+              "badge",
+              "input"
+            ],
+            "frequency": 194,
+            "confidence": 1,
+            "prominence": 9859100.086619494,
+            "properties": [
+              "color",
+              "borderColor",
+              "backgroundColor",
+              "fill"
+            ]
+          },
+          {
+            "hex": "#f9f9f9",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.9821176395629414
+            },
+            "contexts": [
+              "other",
+              "nav"
+            ],
+            "frequency": 5,
+            "confidence": 1,
+            "prominence": 604881.2251687505,
+            "properties": [
+              "backgroundColor"
+            ]
+          },
+          {
+            "hex": "#ffffff",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 1.0000000000000002
+            },
+            "contexts": [
+              "button",
+              "other",
+              "body"
+            ],
+            "frequency": 7,
+            "confidence": 1,
+            "prominence": 179400,
+            "properties": [
+              "backgroundColor",
+              "color"
+            ]
+          },
+          {
+            "hex": "#5d5d5d",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.478359140788322
+            },
+            "contexts": [
+              "other",
+              "body",
+              "link"
+            ],
+            "frequency": 7,
+            "confidence": 1,
+            "prominence": 129024,
+            "properties": [
+              "boxShadow",
+              "color"
+            ]
+          },
+          {
+            "hex": "#8f8f8f",
+            "oklch": {
+              "c": 0.00003240601728151734,
+              "h": 23.523775462851248,
+              "l": 0.650037
+            },
+            "contexts": [
+              "body",
+              "button",
+              "nav",
+              "icon",
+              "other"
+            ],
+            "frequency": 25,
+            "confidence": 1,
+            "prominence": 62045.80427946241,
+            "properties": [
+              "backgroundColor",
+              "color",
+              "fill"
+            ]
+          },
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "icon",
+              "nav"
+            ],
+            "frequency": 42,
+            "confidence": 1,
+            "prominence": 3125.5284987084083,
+            "properties": [
+              "fill"
+            ]
+          },
+          {
+            "hex": "#ececec",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.9430889073732058
+            },
+            "contexts": [
+              "button"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 2835,
+            "properties": [
+              "backgroundColor"
+            ]
+          }
+        ],
+        "isDarkMode": false,
+        "colorfulness": 0.000007792155737596743,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 21,
+            "background": "#ffffff",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 19.95,
+            "background": "#f9f9f9",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 19.44,
+            "background": "#ffffff",
+            "foreground": "#0d0d0d"
+          },
+          {
+            "level": "AAA",
+            "ratio": 18.46,
+            "background": "#f9f9f9",
+            "foreground": "#0d0d0d"
+          },
+          {
+            "level": "AAA",
+            "ratio": 17.78,
+            "background": "#ececec",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 16.45,
+            "background": "#ececec",
+            "foreground": "#0d0d0d"
+          },
+          {
+            "level": "AA",
+            "ratio": 6.58,
+            "background": "#ffffff",
+            "foreground": "#5d5d5d"
+          },
+          {
+            "level": "AA",
+            "ratio": 6.25,
+            "background": "#f9f9f9",
+            "foreground": "#5d5d5d"
+          },
+          {
+            "level": "AA",
+            "ratio": 6.01,
+            "background": "#8f8f8f",
+            "foreground": "#0d0d0d"
+          },
+          {
+            "level": "AA",
+            "ratio": 5.57,
+            "background": "#ececec",
+            "foreground": "#5d5d5d"
+          },
+          {
+            "level": "fail",
+            "ratio": 3.23,
+            "background": "#8f8f8f",
+            "foreground": "#ffffff"
+          },
+          {
+            "level": "fail",
+            "ratio": 3.07,
+            "background": "#f9f9f9",
+            "foreground": "#8f8f8f"
+          },
+          {
+            "level": "fail",
+            "ratio": 2.95,
+            "background": "#0d0d0d",
+            "foreground": "#5d5d5d"
+          },
+          {
+            "level": "fail",
+            "ratio": 2.74,
+            "background": "#ececec",
+            "foreground": "#8f8f8f"
+          },
+          {
+            "level": "fail",
+            "ratio": 2.04,
+            "background": "#8f8f8f",
+            "foreground": "#5d5d5d"
+          },
+          {
+            "level": "fail",
+            "ratio": 1.18,
+            "background": "#ececec",
+            "foreground": "#ffffff"
+          },
+          {
+            "level": "fail",
+            "ratio": 1.05,
+            "background": "#f9f9f9",
+            "foreground": "#ffffff"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [
+          {
+            "value": 10,
+            "contexts": [
+              "button",
+              "nav",
+              "link",
+              "other"
+            ],
+            "frequency": 17
+          },
+          {
+            "value": 16,
+            "contexts": [
+              "button"
+            ],
+            "frequency": 1
+          },
+          {
+            "value": 28,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1
+          }
+        ],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 4,
+            "frequency": 7,
+            "properties": [
+              "marginBottom",
+              "rowGap",
+              "columnGap",
+              "paddingRight",
+              "paddingLeft"
+            ]
+          },
+          {
+            "value": 6,
+            "frequency": 81,
+            "properties": [
+              "paddingTop",
+              "paddingBottom",
+              "marginRight",
+              "marginLeft",
+              "rowGap",
+              "columnGap",
+              "paddingRight",
+              "marginBottom",
+              "paddingLeft"
+            ]
+          },
+          {
+            "value": 8,
+            "frequency": 38,
+            "properties": [
+              "paddingTop",
+              "paddingBottom",
+              "marginRight",
+              "marginLeft",
+              "marginTop",
+              "paddingLeft",
+              "rowGap",
+              "columnGap",
+              "paddingRight"
+            ]
+          },
+          {
+            "value": 10,
+            "frequency": 44,
+            "properties": [
+              "paddingRight",
+              "paddingLeft",
+              "rowGap",
+              "columnGap",
+              "paddingTop",
+              "paddingBottom"
+            ]
+          },
+          {
+            "value": 12,
+            "frequency": 8,
+            "properties": [
+              "paddingBottom",
+              "marginTop",
+              "rowGap",
+              "columnGap",
+              "paddingRight",
+              "paddingLeft"
+            ]
+          },
+          {
+            "value": 16,
+            "frequency": 8,
+            "properties": [
+              "paddingRight",
+              "paddingLeft",
+              "marginBottom",
+              "paddingBottom",
+              "marginTop"
+            ]
+          },
+          {
+            "value": 20,
+            "frequency": 4,
+            "properties": [
+              "paddingTop",
+              "paddingRight",
+              "paddingBottom",
+              "paddingLeft"
+            ]
+          },
+          {
+            "value": 60,
+            "frequency": 2,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ]
+          },
+          {
+            "value": 64,
+            "frequency": 6,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ]
+          },
+          {
+            "value": 127,
+            "frequency": 6,
+            "properties": [
+              "marginRight",
+              "marginLeft"
+            ]
+          }
+        ],
+        "density": "compact",
+        "baseUnit": null
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "ui-sans-serif",
+            "source": "system",
+            "weights": [
+              400,
+              500,
+              600
+            ],
+            "frequency": 200,
+            "fontFeatureSettings": [
+              "\"liga\" 0"
+            ]
+          },
+          {
+            "family": "OpenAI Sans",
+            "source": "custom",
+            "weights": [
+              600
+            ],
+            "frequency": 1,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 16,
+          "name": "Minor Second",
+          "ratio": 1.067,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 14,
+            "family": "ui-sans-serif",
+            "weight": 400,
+            "contexts": [
+              "link",
+              "other",
+              "icon",
+              "body",
+              "button",
+              "nav"
+            ],
+            "frequency": 81,
+            "lineHeight": 1.43,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 14,
+            "family": "ui-sans-serif",
+            "weight": 500,
+            "contexts": [
+              "button",
+              "nav",
+              "other",
+              "body"
+            ],
+            "frequency": 7,
+            "lineHeight": 1.43,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 14,
+            "family": "ui-sans-serif",
+            "weight": 400,
+            "contexts": [
+              "body",
+              "link"
+            ],
+            "frequency": 4,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "ui-sans-serif",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "button",
+              "body",
+              "icon",
+              "nav",
+              "badge",
+              "input"
+            ],
+            "frequency": 94,
+            "lineHeight": 1.5,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 18,
+            "family": "ui-sans-serif",
+            "weight": 400,
+            "contexts": [
+              "button",
+              "other",
+              "icon"
+            ],
+            "frequency": 3,
+            "lineHeight": 1.56,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 18,
+            "family": "OpenAI Sans",
+            "weight": 600,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.56,
+            "letterSpacing": -0.015,
+            "textTransform": "none"
+          },
+          {
+            "size": 24,
+            "family": "ui-sans-serif",
+            "weight": 600,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 4,
+            "lineHeight": 1.5,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Use Carbon (#0d0d0d) for all primary text content to ensure maximum legibility against light backgrounds.",
+        "Apply Snow (#ffffff) for primary page and component backgrounds, utilizing Fog (#f9f9f9) for secondary background panels like sidebars.",
+        "Ensure interactive components like buttons and inputs feature generous border radii; use 16px for buttons and 28px for the main input field.",
+        "Maintain a clear visual hierarchy by using OpenAI Sans weight 600 at 18px for main conversational prompts and ui-sans-serif for all other UI text.",
+        "Implement 6px vertical padding paired with 8px horizontal padding for active navigation items to establish distinctive hover/selected states.",
+        "Utilize Pewter (#5d5d5d) for all secondary, descriptive, or placeholder text, providing subtle content without drawing primary attention."
+      ],
+      "tags": [
+        "minimal",
+        "achromatic",
+        "utilitarian",
+        "clean",
+        "functional",
+        "subtle-contrast",
+        "text-focused",
+        "information-dense"
+      ],
+      "donts": [
+        "Avoid introducing any colors other than the defined neutrals and Link Blue (#007aff), to preserve the system's austere palette.",
+        "Do not use sharp corners for interactive elements; all buttons and inputs must adhere to the specified radii of 16px or 28px.",
+        "Never use type weights exceeding 600; the system relies on lighter weights for a calm, understated voice.",
+        "Refrain from adding explicit shadows; the system prioritizes background color shifts (e.g., from Snow to Fog) for depth, with only subtle borders or pseudo-shadows for outlines.",
+        "Do not deviate from the established spacing scale of 4px, 6px, 8px, 10px, 12px, 16px, 20px, 60px, 64px, 127px for element and section separation.",
+        "Avoid full-bleed backgrounds for content sections; adhere to the 1150px max-width content container, even for the main interaction area."
+      ],
+      "theme": "light",
+      "colors": [
+        {
+          "hex": "#0d0d0d",
+          "name": "Carbon",
+          "role": "Primary text, critical headings, icons – its near-black depth offers strong contrast against the light surfaces.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#ffffff",
+          "name": "Snow",
+          "role": "Page backgrounds, card surfaces, interactive button fills – the purest backdrop for content.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#f9f9f9",
+          "name": "Fog",
+          "role": "Secondary background for navigation panels, subtly differentiating sidebars from main content areas.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#5d5d5d",
+          "name": "Pewter",
+          "role": "Secondary text, placeholder text – a muted gray that recedes subtly, hinting at information without demanding attention.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#8f8f8f",
+          "name": "Stone",
+          "role": "Placeholder text, inactive icons, subtle borders – an even lighter presence than Pewter, indicating non-primary elements.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#ececec",
+          "name": "Arctic Mist",
+          "role": "Ghost button background for hover states, providing a faint highlight against white.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#007aff",
+          "name": "Link Blue",
+          "role": "Interactive elements, links, indicating clickable actions within conversational text.",
+          "group": "accent"
+        }
+      ],
+      "layout": "The page adheres to a two-column, fixed-width layout, centered within a max-width of 1150px. A left sidebar (nav) provides persistent global navigation, while the main content area (main) is dedicated to the AI chat interface. The hero pattern is a centered, conversational prompt ('Where should we begin?') above a single prominent input field. Sections are delineated by clear white space and subtle background color shifts rather than dividers. The overall density is spacious, ensuring focus on the primary interaction. A top-right header contains utility buttons.",
+      "imagery": "The design relies primarily on clean, outlined icons for navigation and functional elements. There are no prominent photographs or illustrations; visual storytelling is achieved through minimalist iconography. Icons are monochromatic, mostly in Carbon or Stone, and serve a purely functional, explanatory role rather than decorative. The density is extremely low, preferring white space and typography to communicate.",
+      "similar": [
+        {
+          "why": "Dominant white space, central input field as primary interaction, and minimalist 'less-is-more' approach to UI elements.",
+          "business": "Google Search"
+        },
+        {
+          "why": "Clean, functional aesthetic with strong typographic hierarchy, extensive use of white space, and subtle gray tones for UI elements.",
+          "business": "Notion"
+        },
+        {
+          "why": "Achromatic color palette, focus on information density within a structured layout, and understated interactive elements.",
+          "business": "Linear"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "input": "28px",
+          "buttons": "10px",
+          "default": "10px"
+        },
+        "elementGap": "4px",
+        "sectionGap": "64px",
+        "cardPadding": "20px",
+        "pageMaxWidth": "1150px"
+      },
+      "category": "ai",
+      "northStar": "Frosted glass workstation. An environment of quiet focus, where soft grays frame crisp textual interaction.",
+      "typeScale": [
+        {
+          "role": "caption",
+          "size": 14,
+          "lineHeight": 1.43
+        },
+        {
+          "role": "body",
+          "size": 16,
+          "lineHeight": 1.5
+        },
+        {
+          "role": "subheading",
+          "size": 18,
+          "lineHeight": 1.56
+        },
+        {
+          "role": "heading",
+          "size": 24,
+          "lineHeight": 1
+        }
+      ],
+      "components": [
+        {
+          "html": "<style>:root{--color-carbon:#0d0d0d;--color-snow:#ffffff;--color-fog:#f9f9f9;--color-pewter:#5d5d5d;--color-stone:#8f8f8f;--color-arctic-mist:#ececec;--color-link-blue:#007aff;--font-ui-sans-serif:system-ui,sans-serif;--font-openai-sans:system-ui,sans-serif;}</style><div style=\"width:600px;background:var(--color-snow);display:flex;flex-direction:column;align-items:center;justify-content:center;padding:60px 20px;box-sizing:border-box;font-family:var(--font-ui-sans-serif);\"><h1 style=\"font-family:var(--font-openai-sans);font-size:28px;font-weight:600;color:var(--color-carbon);letter-spacing:-0.015em;line-height:1.56;margin:0 0 28px 0;text-align:center;\">Where should we begin?</h1><div style=\"width:100%;max-width:560px;display:flex;align-items:center;background:var(--color-snow);border:1.5px solid var(--color-arctic-mist);border-radius:28px;padding:10px 12px 10px 16px;box-sizing:border-box;box-shadow:0 1px 4px rgba(0,0,0,0.06);\"><button style=\"background:none;border:none;cursor:pointer;padding:0;margin-right:10px;display:flex;align-items:center;justify-content:center;flex-shrink:0;\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 18 18\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"9\" y1=\"2\" x2=\"9\" y2=\"16\" stroke=\"#8f8f8f\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"2\" y1=\"9\" x2=\"16\" y2=\"9\" stroke=\"#8f8f8f\" stroke-width=\"1.8\" stroke-linecap=\"round\"/></svg></button><input type=\"text\" placeholder=\"Ask anything\" style=\"flex:1;border:none;outline:none;background:transparent;font-family:var(--font-ui-sans-serif);font-size:16px;color:var(--color-carbon);line-height:1.5;caret-color:var(--color-carbon);\" /><button style=\"display:flex;align-items:center;gap:6px;background:var(--color-snow);border:1.5px solid var(--color-arctic-mist);border-radius:16px;padding:6px 12px;cursor:pointer;font-family:var(--font-ui-sans-serif);font-size:13px;font-weight:500;color:var(--color-carbon);white-space:nowrap;flex-shrink:0;\"><svg width=\"14\" height=\"14\" viewBox=\"0 0 14 14\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"2\" y=\"6\" width=\"2\" height=\"5\" rx=\"1\" fill=\"#0d0d0d\"/><rect x=\"6\" y=\"3\" width=\"2\" height=\"8\" rx=\"1\" fill=\"#0d0d0d\"/><rect x=\"10\" y=\"5\" width=\"2\" height=\"4\" rx=\"1\" fill=\"#0d0d0d\"/></svg>Voice</button></div></div>",
+          "name": "Ask Anything Input",
+          "role": "",
+          "description": ""
+        },
+        {
+          "html": "<style>:root{--color-carbon:#0d0d0d;--color-snow:#ffffff;--color-fog:#f9f9f9;--color-pewter:#5d5d5d;--color-stone:#8f8f8f;--color-arctic-mist:#ececec;--color-link-blue:#007aff;--font-ui-sans-serif:system-ui,sans-serif;}</style><div style=\"width:600px;background:var(--color-fog);display:flex;align-items:center;justify-content:center;padding:48px 20px;box-sizing:border-box;font-family:var(--font-ui-sans-serif);\"><div style=\"display:flex;flex-direction:column;align-items:center;gap:20px;\"><p style=\"font-size:14px;color:var(--color-pewter);margin:0;text-align:center;line-height:1.5;\">Access ChatGPT to get started</p><div style=\"display:flex;align-items:center;gap:10px;\"><button style=\"background:var(--color-carbon);color:var(--color-snow);border:none;border-radius:9999px;padding:10px 20px;font-family:var(--font-ui-sans-serif);font-size:14px;font-weight:500;cursor:pointer;letter-spacing:normal;line-height:1;\">Log in</button><button style=\"background:var(--color-snow);color:var(--color-carbon);border:1.5px solid rgba(0,0,0,0.15);border-radius:9999px;padding:10px 20px;font-family:var(--font-ui-sans-serif);font-size:14px;font-weight:500;cursor:pointer;letter-spacing:normal;line-height:1;\">Sign up for free</button></div><p style=\"font-size:12px;color:var(--color-stone);margin:0;text-align:center;line-height:1.5;max-width:340px;\">By messaging ChatGPT, an AI chatbot, you agree to our <a href=\"#\" style=\"color:var(--color-pewter);text-decoration:underline;font-family:var(--font-ui-sans-serif);\">Terms</a> and have read our <a href=\"#\" style=\"color:var(--color-pewter);text-decoration:underline;font-family:var(--font-ui-sans-serif);\">Privacy Policy</a>.</p></div></div>",
+          "name": "Auth Button Group",
+          "role": "",
+          "description": ""
+        },
+        {
+          "html": "<style>:root{--color-carbon:#0d0d0d;--color-snow:#ffffff;--color-fog:#f9f9f9;--color-pewter:#5d5d5d;--color-stone:#8f8f8f;--color-arctic-mist:#ececec;--color-link-blue:#007aff;--font-ui-sans-serif:system-ui,sans-serif;}</style><div style=\"width:600px;background:var(--color-fog);display:flex;align-items:center;justify-content:center;padding:48px 20px;box-sizing:border-box;font-family:var(--font-ui-sans-serif);\"><div style=\"width:240px;background:var(--color-fog);border-radius:12px;padding:16px;box-sizing:border-box;display:flex;flex-direction:column;gap:10px;\"><p style=\"font-size:13px;font-weight:600;color:var(--color-carbon);margin:0;line-height:1.4;\">Get responses tailored to you</p><p style=\"font-size:13px;color:var(--color-pewter);margin:0;line-height:1.5;\">Log in to get answers based on saved chats, plus create images and upload files.</p><button style=\"width:100%;background:var(--color-snow);color:var(--color-carbon);border:1.5px solid rgba(0,0,0,0.12);border-radius:16px;padding:9px 16px;font-family:var(--font-ui-sans-serif);font-size:14px;font-weight:500;cursor:pointer;text-align:center;box-shadow:0 1px 3px rgba(0,0,0,0.06);margin-top:4px;\">Log in</button></div></div>",
+          "name": "Sidebar Login Prompt Card",
+          "role": "",
+          "description": ""
+        },
+        {
+          "name": "Primary Ghost Button",
+          "role": "Interactive element",
+          "description": "Text-only button for navigation items and secondary actions. Background rgba(0, 0, 0, 0), text Carbon (#0d0d0d) via color=rgb(13, 13, 13). No explicit padding in base state, suggesting internal content dictates size."
+        },
+        {
+          "name": "Pill Outline Button",
+          "role": "Main CTAs",
+          "description": "Used for 'Sign up for free'. White background (#ffffff), Carbon text (#0d0d0d). Border defined by borderTopColor rgba(0, 0, 0, 0.15), implying a subtle bottom shadow or edge. Full pill radius 16777215px, 16px horizontal padding."
+        },
+        {
+          "name": "Black Filled Button",
+          "role": "Key CTAs",
+          "description": "Used for 'Log in'. Inherits Carbon (#0d0d0d) as background, white text (#ffffff). Full pill radius 16777215px, 16px horizontal padding."
+        },
+        {
+          "name": "Input with Voice Button",
+          "role": "Primary interaction input",
+          "description": "The main 'Ask anything' input field. Background rgba(0, 0, 0, 0), text Carbon (#0d0d0d). Rounded rectangle with 28px radius. Contains a subtle 'Voice' button with 16px radius, similar styling to Pill Outline Button but within the input."
+        },
+        {
+          "name": "Sidebar Navigation Item",
+          "role": "Navigation links",
+          "description": "Items like 'New chat' and 'Search chats'. Background rgba(0, 0, 0, 0) in default state. Text Carbon (#0d0d0d), icons fill Carbon (#000000). Radius 10px, with 6px vertical padding and 8px left padding, 6px right padding, suggesting minimal touch targets."
+        },
+        {
+          "name": "Sidebar Login Prompt",
+          "role": "Information/action block",
+          "description": "The 'Get responses tailored to you' section in the sidebar. Text Pewter (#5d5d5d). Contains a 'Log In' button with White background (#ffffff) and Carbon text (#0d0d0d), 16px radius, 8px vertical and 16px horizontal padding."
+        },
+        {
+          "name": "Contextual Link",
+          "role": "Informational links",
+          "description": "Used for 'Terms', 'Privacy Policy'. Color Pewter (#5d5d5d) via color=rgb(13, 13, 13) with specific text decoration. No explicit padding or border properties."
+        }
+      ],
+      "typography": [
+        {
+          "role": "Primary UI font for body text (14px, 16px), navigation labels (14px, 16px), and button text (14px, 16px). Its clarity and availability across platforms ensures consistent readability for core interactions. Headings use 24px weight 600 for emphasis, 18px and 14px uses weight 400 for sub-headings, body, and links.",
+          "sizes": "14px, 16px, 18px, 24px",
+          "family": "ui-sans-serif",
+          "weight": "400, 500, 600",
+          "weights": [
+            400,
+            500,
+            600
+          ],
+          "lineHeight": "1.00, 1.43, 1.50, 1.56",
+          "substitute": "system-ui, sans-serif",
+          "letterSpacing": "normal",
+          "fontFeatureSettings": "\"liga\" 0"
+        },
+        {
+          "role": "Used for the primary prompt/headline in the main content area ('Where should we begin?'). Its distinct weight and slightly tighter letter spacing give it a refined, prominent voice that commands attention without being visually loud over other UI text.",
+          "sizes": "18px",
+          "family": "OpenAI Sans",
+          "weight": "600",
+          "weights": [
+            600
+          ],
+          "lineHeight": "1.56",
+          "substitute": "system-ui, sans-serif",
+          "letterSpacing": "-0.015"
+        }
+      ],
+      "description": "This design system presents an austere, functional interface resembling a digital workspace focused on clarity. Predominantly achromatic with precise geometry and subtle textural shifts in its grays, it creates an environment where content takes precedence. The judicious use of system fonts with controlled letter spacing ensures legibility, while rounded forms are reserved for interactive elements, providing visual cues for action within an otherwise stark layout.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "### Quick Color Reference\n- Text: #0d0d0d (Carbon)\n- Background: #ffffff (Snow)\n- Sidebar Background: #f9f9f9 (Fog)\n- CTA Button Background: #0d0d0d (Carbon) or #ffffff (Snow)\n- Placeholder Text: #5d5d5d (Pewter)\n- Active/Link Accent: #007aff (Link Blue)\n\n### 3-5 Example Component Prompts\n1. **Create a primary conversational input field:** Centered on the page, text 'Ask anything' in Pewter #5d5d5d, font ui-sans-serif weight 400 at 16px. Background Snow #ffffff, border rgba(0, 0, 0, 0.15) on top, 28px radius. Include an inline 'Voice' button with ui-sans-serif weight 400 at 14px, #0d0d0d text, 16px radius, 16px internal horizontal padding, and a subtle light gray background for a pill shape.\n2. **Generate a sidebar navigation item for 'New chat':** Text 'New chat' in Carbon #0d0d0d, ui-sans-serif weight 400 at 16px. Include a monochrome icon (like a plus sign) in Carbon #000000. Give it 6px vertical padding, 8px left padding, and 6px right padding, with 10px corner radius on hover.\n3. **Design a pair of top-right utility buttons:** A 'Log in' button with Carbon #0d0d0d background, white text #ffffff, ui-sans-serif weight 400 at 16px, 16777215px (pill) radius, and 16px horizontal padding. Beside it, a 'Sign up for free' button with Snow #ffffff background, Carbon #0d0d0d text, border from rgba(0, 0, 0, 0.15) top, and the same pill radius and padding.\n4. **Create a descriptive text block within the sidebar:** 'Get responses tailored to you' as a heading in Carbon #0d0d0d, ui-sans-serif weight 500 at 14px. Followed by a paragraph 'Log in to get answers based on saved chats, plus create images and upload files' in Pewter #5d5d5d, ui-sans-serif weight 400 at 14px, with a line height of 1.43.\n5. **Render a main page headline:** \"Where should we begin?\" centered on the page, using OpenAI Sans weight 600 at 18px (lineHeight 1.56, letterSpacing -0.015em), in Carbon #0d0d0d."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775923550174-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775923550174-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/52a007ed-ad1b-46a6-bd44-b76f91df6d0c",
+  "ranks": {
+    "trending": 81,
+    "popular": 97,
+    "newest": 1187
+  },
+  "localSlug": "chatgpt-52a007ed"
+}

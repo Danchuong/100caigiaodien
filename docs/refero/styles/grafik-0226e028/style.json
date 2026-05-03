@@ -1,0 +1,515 @@
+{
+  "id": "0226e028-3cd3-440d-b469-ca459267161d",
+  "url": "https://grafik.co.nz",
+  "siteName": "Grafik",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777513781273-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777513781273-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "light",
+  "colors": [
+    {
+      "name": "Absolute Black",
+      "hex": "#000000"
+    },
+    {
+      "name": "Canvas Parchment",
+      "hex": "#f0eeeb"
+    },
+    {
+      "name": "Interaction White",
+      "hex": "#ffffff"
+    },
+    {
+      "name": "Hyperlink Blue",
+      "hex": "#454ade"
+    },
+    {
+      "name": "Dark Granite",
+      "hex": "#959697"
+    }
+  ],
+  "fonts": [
+    "Grotesk"
+  ],
+  "northStar": "Gallery Grid, high contrast.",
+  "createdAt": "2026-04-30T01:50:01.460Z",
+  "previewVideoCapturedAt": null,
+  "industry": "agency",
+  "fullResult": {
+    "meta": {
+      "url": "https://grafik.co.nz",
+      "siteName": "Grafik",
+      "extractedAt": "2026-04-30T01:50:01.388Z",
+      "durationMs": 41928,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 1201,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "other",
+              "link",
+              "heading",
+              "image",
+              "body",
+              "footer"
+            ],
+            "frequency": 5976,
+            "confidence": 1,
+            "prominence": 812933515.1707197,
+            "properties": [
+              "color",
+              "borderColor",
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "body/color": 54,
+              "link/color": 54,
+              "image/color": 259,
+              "other/color": 826,
+              "footer/color": 1,
+              "heading/color": 1,
+              "body/borderColor": 216,
+              "link/borderColor": 216,
+              "image/borderColor": 1036,
+              "other/borderColor": 3304,
+              "footer/borderColor": 4,
+              "heading/borderColor": 4,
+              "footer/backgroundColor": 1
+            }
+          },
+          {
+            "hex": "#f0eeeb",
+            "oklch": {
+              "c": 0.004554811773747956,
+              "h": 78.29758300785598,
+              "l": 0.949822795247408
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 28,
+            "confidence": 1,
+            "prominence": 12167109.739137707,
+            "properties": [
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "other/backgroundColor": 28
+            }
+          },
+          {
+            "hex": "#ffffff",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 1.0000000000000002
+            },
+            "contexts": [
+              "other",
+              "heading",
+              "link",
+              "body"
+            ],
+            "frequency": 31,
+            "confidence": 1,
+            "prominence": 588420,
+            "properties": [
+              "backgroundColor",
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "body/color": 2,
+              "link/color": 1,
+              "heading/color": 3,
+              "body/borderColor": 8,
+              "link/borderColor": 4,
+              "heading/borderColor": 12,
+              "other/backgroundColor": 1
+            }
+          }
+        ],
+        "isDarkMode": false,
+        "colorfulness": 0.000057114906139834203,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 21,
+            "background": "#ffffff",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 18.13,
+            "background": "#f0eeeb",
+            "foreground": "#000000"
+          },
+          {
+            "level": "fail",
+            "ratio": 1.16,
+            "background": "#f0eeeb",
+            "foreground": "#ffffff"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 1,
+            "contexts": [
+              "image",
+              "other"
+            ],
+            "frequency": 564,
+            "properties": [
+              "paddingRight",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|image",
+              "paddingBottom|image",
+              "paddingRight|other",
+              "paddingBottom|other"
+            ]
+          },
+          {
+            "value": 12,
+            "contexts": [
+              "other",
+              "footer"
+            ],
+            "frequency": 34,
+            "properties": [
+              "paddingTop",
+              "paddingRight",
+              "paddingLeft",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other",
+              "paddingRight|other",
+              "paddingLeft|other",
+              "paddingTop|footer",
+              "paddingRight|footer",
+              "paddingBottom|footer",
+              "paddingLeft|footer"
+            ]
+          },
+          {
+            "value": 24,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 27,
+            "properties": [
+              "paddingTop"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other"
+            ]
+          },
+          {
+            "value": 225,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 27,
+            "properties": [
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingBottom|other"
+            ]
+          }
+        ],
+        "density": "compact",
+        "baseUnit": 8
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "Grotesk",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 1201,
+            "fontFeatureSettings": [
+              "\"dlig\""
+            ]
+          }
+        ],
+        "scale": {
+          "base": 16,
+          "name": "Major Second",
+          "ratio": 1.125,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 20,
+            "family": "Grotesk",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "image",
+              "body",
+              "link"
+            ],
+            "frequency": 1179,
+            "lineHeight": 1.2,
+            "letterSpacing": -0.01,
+            "textTransform": "none"
+          },
+          {
+            "size": 20,
+            "family": "Grotesk",
+            "weight": 400,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 2,
+            "lineHeight": 1,
+            "letterSpacing": -0.01,
+            "textTransform": "none"
+          },
+          {
+            "size": 38,
+            "family": "Grotesk",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "link",
+              "footer",
+              "heading"
+            ],
+            "frequency": 19,
+            "lineHeight": 1.11,
+            "letterSpacing": -0.02,
+            "textTransform": "none"
+          },
+          {
+            "size": 40,
+            "family": "Grotesk",
+            "weight": 400,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 1,
+            "lineHeight": 0.6,
+            "letterSpacing": -0.005,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Prioritize high contrast between text and background, using Absolute Black (#000000) on Canvas Parchment (#f0eeeb) predominantly.",
+        "Frame all content elements with crisp, 1px Absolute Black (#000000) borders to create distinct visual blocks.",
+        "Employ Grotesk font at weight 400 for all textual content, ensuring consistent visual tone and applying tight letter-spacing as specified.",
+        "Maintain a clear visual hierarchy by utilizing the full-width grid for content alignment and section breaks, emphasizing negative space.",
+        "Use Canvas Parchment (#f0eeeb) as the primary page background to provide a neutral, gallery-like setting.",
+        "Apply a generous sectionGap of 225px to separate major content blocks vertically, enhancing the sense of space and visual quiet.",
+        "Incorporate `dlig` font feature settings for all Grotesk text to maintain brand typographic distinctiveness."
+      ],
+      "donts": [
+        "Avoid using curved edges or soft shadows; the design relies on sharp angles and flat surfaces.",
+        "Do not introduce gradients or complex color palettes; limit color use strictly to the defined monochrome scale with minimal accent.",
+        "Refrain from using varied font weights or families; Grotesk 400 is the singular typographic voice.",
+        "Do not break away from the content block framing; every significant piece of content should reside within an implied or explicit container with defined borders.",
+        "Avoid decorative imagery or large background visuals; the focus is on content within a structured, minimal interface.",
+        "Do not use generic button styles; interactive elements should be minimal, often text-based or outlined with the core monochrome palette.",
+        "Do not vary line-height based on individual preference; adhere to the specified line-heights of 1.0, 1.11, and 1.2 for the respective font sizes."
+      ],
+      "theme": "light",
+      "colors": [
+        {
+          "hex": "#000000",
+          "name": "Absolute Black",
+          "role": "Primary text, borders for content blocks and images, section backgrounds — defining the high-contrast structure",
+          "group": "neutral"
+        },
+        {
+          "hex": "#f0eeeb",
+          "name": "Canvas Parchment",
+          "role": "Dominant page background, primary canvas for content",
+          "group": "neutral"
+        },
+        {
+          "hex": "#ffffff",
+          "name": "Interaction White",
+          "role": "Hairline borders, dividers, input outlines, and card edges on light surfaces. Do not promote it to the primary CTA color",
+          "group": "neutral"
+        },
+        {
+          "hex": "#454ade",
+          "name": "Hyperlink Blue",
+          "role": "Muted hyperlink text — provides a subtle, functional accent in an otherwise monochrome palette",
+          "group": "accent"
+        },
+        {
+          "hex": "#959697",
+          "name": "Dark Granite",
+          "role": "Secondary, muted text, subtle dividers—provides a softer contrast for secondary information",
+          "group": "neutral"
+        }
+      ],
+      "layout": "The page follows a full-bleed, almost grid-like structure without a fixed max-width container, allowing content to stretch across the viewport. The hero section often features large, impactful imagery or an inverted color scheme with Absolute Black background and white text. Sections are clearly delineated by substantial vertical spacing (sectionGap of 225px) and a strong implied grid system. Content is arranged in a dynamic, sometimes asymmetric pattern of text and visual blocks, often appearing as framed modules. The navigation is minimal, with a fixed header containing brief text links, and a rich, interactive footer.",
+      "imagery": "The site uses a mix of high-fidelity product screenshots of digital interfaces and impactful, often edgy, black and white artistic photography. Product screenshots are typically rendered within device frames, demonstrating the work in context. Photography is raw, portrait-oriented, and high-contrast, contributing to a strong, independent aesthetic. All imagery is contained within explicit content blocks, often framed by borders, and serves to showcase portfolio work rather than purely decorative purposes. The density is medium, with images being key content, occupying significant visual space in a grid layout.",
+      "similar": [
+        {
+          "why": "High-contrast typography, strict grid layouts, and minimal color palettes, often featuring white space and black text as primary design elements.",
+          "business": "AIGA Journal"
+        },
+        {
+          "why": "Emphasis on content framing, a clean editorial feel, and a limited, intentional color scheme to highlight visual work.",
+          "business": "Offscreen Magazine"
+        },
+        {
+          "why": "Bold, graphic typography, high-contrast monochrome design, and a focus on visual presentation within distinct blocks or frames.",
+          "business": "Actual Source"
+        },
+        {
+          "why": "Minimalist aesthetic combined with strong visual framing for product displays, using black and white extensively as primary brand colors.",
+          "business": "Universal Standard"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "none": "0px"
+        },
+        "elementGap": "12px",
+        "sectionGap": "",
+        "cardPadding": "24px",
+        "pageMaxWidth": null
+      },
+      "industry": "agency",
+      "surfaces": [
+        {
+          "hex": "#f0eeeb",
+          "name": "Canvas Parchment",
+          "level": 1,
+          "purpose": "Dominant page background."
+        },
+        {
+          "hex": "#ffffff",
+          "name": "Interaction White",
+          "level": 2,
+          "purpose": "Backgrounds for embedded UI elements and certain content blocks over the main canvas."
+        },
+        {
+          "hex": "#000000",
+          "name": "Absolute Black",
+          "level": 3,
+          "purpose": "Backgrounds for header, footer, and striking full-width content sections, creating inversed visual contrast."
+        }
+      ],
+      "northStar": "Gallery Grid, high contrast.",
+      "typeScale": [
+        {
+          "role": "body",
+          "size": 20,
+          "lineHeight": 1.2,
+          "letterSpacing": -0.4
+        },
+        {
+          "role": "heading",
+          "size": 38,
+          "lineHeight": 1.11,
+          "letterSpacing": -0.38
+        },
+        {
+          "role": "display",
+          "size": 40,
+          "lineHeight": 1,
+          "letterSpacing": -0.2
+        }
+      ],
+      "components": [
+        {
+          "name": "Navigation Link",
+          "role": "Primary navigation elements in the header and footer.",
+          "description": "Text uses Grotesk 20px, weight 400, Absolute Black (#000000). Hover state (not explicitly detailed, but implied by 'text-link' token) would likely use Hyperlink Blue (#454ade). No distinct background or border, relying on high contrast with Canvas Parchment or Absolute Black backgrounds. Features `dlig` for distinct ligatures."
+        },
+        {
+          "name": "Content Block Frame",
+          "role": "Container for all visual and text content sections.",
+          "description": "These blocks often have a 1px solid Absolute Black (#000000) border, serving as a distinct visual frame for each piece of content. Interior padding varies, with elements inside potentially using 12px or 24px padding. The background is typically Canvas Parchment (#f0eeeb) or Interaction White (#ffffff) for embedded UIs, or Absolute Black (#000000) for hero sections."
+        },
+        {
+          "name": "Project Metadata Text",
+          "role": "Descriptive text accompanying project visuals, often small and positioned within content blocks.",
+          "description": "Utilizes Grotesk 20px, weight 400, Absolute Black (#000000). Distinctive tight letter-spacing of -0.0200em."
+        },
+        {
+          "name": "Time & Location Text",
+          "role": "Small, informational text like current time and location in the header.",
+          "description": "Uses Grotesk 20px, weight 400, Absolute Black (#000000) on Canvas Parchment, or Interaction White (#ffffff) on Absolute Black. Letter-spacing of -0.0200em."
+        }
+      ],
+      "typography": [
+        {
+          "role": "All textual content: headlines, body text, links, and footer. The single weight and controlled letter-spacing across all sizes reinforce the authoritative, almost mechanical, visual rhythm.",
+          "sizes": "20px, 38px, 40px",
+          "family": "Grotesk",
+          "weight": "400",
+          "lineHeight": "1.00, 1.11, 1.20",
+          "substitute": "Space Grotesk or Chivo",
+          "letterSpacing": "-0.0200em at 20px, -0.0100em at 38px, -0.0050em at 40px",
+          "fontFeatureSettings": "\"dlig\""
+        }
+      ],
+      "description": "Grafik employs a stark, high-contrast visual language reminiscent of a curated exhibition space. The design centers on a minimal, off-white canvas punctuated by absolute black typography, creating a powerful, almost brutalist aesthetic. Content is presented in framed, distinct blocks, often showcasing embedded digital interfaces within a larger grid. There's a deliberate lack of decorative elements, focusing instead on sharp edges, precise layout, and the interplay of negative space.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "Quick Color Reference:\ntext: #000000\nbackground: #f0eeeb\nborder: #000000\naccent: #454ade\nprimary action: no distinct CTA color\n\nExample Component Prompts:\n1. Create a header: Absolute Black (#000000) background, with navigation links 'Grafik', 'About', 'Contact' using Grotesk 20px, weight 400, Interaction White (#ffffff), letter-spacing -0.4px. Left-aligned 'Grafik' and right-aligned 'About, Contact, Hi' with 12px elementGap between Hi (right-aligned) and Contact.\n2. Design a portfolio item content block: Canvas Parchment (#f0eeeb) background, 1px solid Absolute Black (#000000) border, 24px padding. Inside, title 'Beings,' using Grotesk 20px, weight 400, Absolute Black (#000000), letter-spacing -0.4px. Below it, a product screenshot (placeholder: 300x200px solid #cccccc) framed by a 1px solid Absolute Black (#000000) border. Follow with 'Digital design, Digital development, Identity design' using Grotesk 20px, weight 400, Absolute Black (#000000), letter-spacing -0.4px.\n3. Build a large footer section: Absolute Black (#000000) background, with multiple columns of text links. One column (left) showing 'TOM GOULD DIRECTOR & PHOTOGRAPHER' where DIRECTOR & PHOTOGRAPHER is using Grotesk 20px, weight 400, Interaction White (#ffffff), letter-spacing -0.4px. The other columns (mid/right) show lists of text links using Grotesk 20px, weight 400, Interaction White (#ffffff), letter-spacing -0.4px. All columns are padded with 12px."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777513781273-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777513781273-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/0226e028-3cd3-440d-b469-ca459267161d",
+  "ranks": {
+    "trending": 667,
+    "popular": 775,
+    "newest": 508
+  },
+  "localSlug": "grafik-0226e028"
+}

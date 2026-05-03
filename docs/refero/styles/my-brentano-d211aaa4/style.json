@@ -1,0 +1,691 @@
+{
+  "id": "d211aaa4-e09b-4ef9-a9bf-f6fa8495de73",
+  "url": "https://mybrentano.ch",
+  "siteName": "My Brentano",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777515108907-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777515108907-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "light",
+  "colors": [
+    {
+      "name": "Canvas White",
+      "hex": "#ffffff"
+    },
+    {
+      "name": "Ink Black",
+      "hex": "#000000"
+    },
+    {
+      "name": "Charcoal Text",
+      "hex": "#212529"
+    }
+  ],
+  "fonts": [
+    "Studio Feixen Sans Writer Book",
+    "Studio Feixen Sans Writer Book",
+    "Studio Feixen Sans Book",
+    "Studio Feixen Sans Writer Book Regular"
+  ],
+  "northStar": "Earthy botanical canvas",
+  "createdAt": "2026-04-30T02:12:18.705Z",
+  "previewVideoCapturedAt": null,
+  "industry": "ecommerce",
+  "fullResult": {
+    "meta": {
+      "url": "https://mybrentano.ch",
+      "siteName": "My Brentano",
+      "extractedAt": "2026-04-30T02:12:18.639Z",
+      "durationMs": 36457,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 114,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#212529",
+            "oklch": {
+              "c": 0.009493466733044721,
+              "h": 248.18975403208174,
+              "l": 0.2620927620695693
+            },
+            "contexts": [
+              "other",
+              "heading",
+              "list",
+              "nav",
+              "image",
+              "body",
+              "footer"
+            ],
+            "frequency": 359,
+            "confidence": 1,
+            "prominence": 31197514.266798593,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "nav/color": 5,
+              "body/color": 12,
+              "list/color": 2,
+              "image/color": 1,
+              "other/color": 48,
+              "footer/color": 1,
+              "heading/color": 7,
+              "nav/borderColor": 20,
+              "body/borderColor": 48,
+              "list/borderColor": 8,
+              "image/borderColor": 4,
+              "other/borderColor": 171,
+              "footer/borderColor": 4,
+              "heading/borderColor": 28
+            }
+          },
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "other",
+              "nav",
+              "button",
+              "body",
+              "link",
+              "image",
+              "input"
+            ],
+            "frequency": 211,
+            "confidence": 1,
+            "prominence": 921546.7862862069,
+            "properties": [
+              "borderColor",
+              "color"
+            ],
+            "usageCounts": {
+              "nav/color": 6,
+              "body/color": 3,
+              "link/color": 15,
+              "image/color": 4,
+              "input/color": 1,
+              "other/color": 1,
+              "button/color": 8,
+              "nav/borderColor": 24,
+              "body/borderColor": 12,
+              "link/borderColor": 60,
+              "image/borderColor": 16,
+              "input/borderColor": 4,
+              "other/borderColor": 25,
+              "button/borderColor": 32
+            }
+          },
+          {
+            "hex": "#ffffff",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 1.0000000000000002
+            },
+            "contexts": [
+              "other",
+              "button",
+              "input"
+            ],
+            "frequency": 11,
+            "confidence": 1,
+            "prominence": 34336.77083190723,
+            "properties": [
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "input/backgroundColor": 1,
+              "other/backgroundColor": 3,
+              "button/backgroundColor": 7
+            }
+          }
+        ],
+        "isDarkMode": false,
+        "colorfulness": 0.01585409386036682,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 21,
+            "background": "#ffffff",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 15.43,
+            "background": "#ffffff",
+            "foreground": "#212529"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 3,
+            "contexts": [
+              "list"
+            ],
+            "frequency": 2,
+            "properties": [
+              "marginRight",
+              "marginLeft"
+            ],
+            "propertyContextPairs": [
+              "marginRight|list",
+              "marginLeft|list"
+            ]
+          },
+          {
+            "value": 5,
+            "contexts": [
+              "other",
+              "button",
+              "input"
+            ],
+            "frequency": 25,
+            "properties": [
+              "paddingTop",
+              "paddingBottom",
+              "marginRight",
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other",
+              "paddingBottom|other",
+              "marginRight|button",
+              "paddingTop|button",
+              "paddingBottom|button",
+              "paddingRight|other",
+              "paddingLeft|other",
+              "paddingTop|input",
+              "paddingRight|input",
+              "paddingBottom|input",
+              "paddingLeft|input"
+            ]
+          },
+          {
+            "value": 10,
+            "contexts": [
+              "other",
+              "button",
+              "heading",
+              "body"
+            ],
+            "frequency": 57,
+            "properties": [
+              "paddingRight",
+              "paddingLeft",
+              "marginRight",
+              "marginBottom",
+              "marginTop"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|other",
+              "paddingLeft|other",
+              "marginRight|button",
+              "marginRight|other",
+              "marginBottom|heading",
+              "marginBottom|other",
+              "marginTop|other",
+              "paddingRight|button",
+              "paddingLeft|button",
+              "marginBottom|body"
+            ]
+          },
+          {
+            "value": 30,
+            "contexts": [
+              "nav",
+              "other",
+              "footer"
+            ],
+            "frequency": 9,
+            "properties": [
+              "marginRight",
+              "paddingRight",
+              "paddingLeft",
+              "paddingTop",
+              "marginLeft",
+              "marginTop",
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "marginRight|nav",
+              "paddingRight|other",
+              "paddingLeft|other",
+              "paddingTop|footer",
+              "marginRight|footer",
+              "marginLeft|footer",
+              "marginTop|other",
+              "marginBottom|other"
+            ]
+          },
+          {
+            "value": 40,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 4,
+            "properties": [
+              "marginTop",
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "marginTop|other",
+              "marginBottom|other"
+            ]
+          }
+        ],
+        "density": "compact",
+        "baseUnit": null
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "Studio Feixen Sans Writer Book",
+            "source": "custom",
+            "weights": [
+              400,
+              700
+            ],
+            "frequency": 79,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "Studio Feixen Sans Book",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 34,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "Studio Feixen Sans Writer Book Regular",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 1,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 14,
+          "name": "Minor Third",
+          "ratio": 1.2,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 12,
+            "family": "Studio Feixen Sans Writer Book",
+            "weight": 400,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "lineHeight": 2.5,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 12,
+            "family": "Studio Feixen Sans Writer Book",
+            "weight": 400,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 1,
+            "lineHeight": 2.08,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 15,
+            "family": "Studio Feixen Sans Writer Book",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "heading",
+              "link",
+              "body",
+              "image",
+              "button"
+            ],
+            "frequency": 30,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 15,
+            "family": "Studio Feixen Sans Book",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "body",
+              "link",
+              "input",
+              "button"
+            ],
+            "frequency": 31,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 18,
+            "family": "Studio Feixen Sans Writer Book",
+            "weight": 400,
+            "contexts": [
+              "nav",
+              "button"
+            ],
+            "frequency": 12,
+            "lineHeight": 1.67,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 25,
+            "family": "Studio Feixen Sans Writer Book",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "list",
+              "nav",
+              "button",
+              "image",
+              "footer"
+            ],
+            "frequency": 31,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 30,
+            "family": "Studio Feixen Sans Writer Book",
+            "weight": 400,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 30,
+            "family": "Studio Feixen Sans Writer Book Regular",
+            "weight": 400,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 30,
+            "family": "Studio Feixen Sans Book",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "heading"
+            ],
+            "frequency": 3,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 60,
+            "family": "Studio Feixen Sans Writer Book",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "heading"
+            ],
+            "frequency": 2,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 60,
+            "family": "Studio Feixen Sans Writer Book",
+            "weight": 700,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Prioritize Studio Feixen Sans Writer Book 400 for all body text and general interface elements, ensuring consistent legibility.",
+        "Use Charcoal Text (#212529) for standard body text and structural borders to maintain a slightly softer contrast, reserving Ink Black (#000000) for high-impact text and outlines.",
+        "Maintain a clear visual hierarchy with borders over shadows; use 1px solid Ink Black (#000000) borders for distinct elements like inputs and buttons.",
+        "Implement a 10px element gap for most horizontal and vertical spacing between small interactive components, such as list items or buttons inside a container.",
+        "Utilize 0px border radius for most container elements and buttons to maintain a sharp, clean aesthetic, with the exception of specific circular elements using 100% radius."
+      ],
+      "donts": [
+        "Avoid introducing additional accent colors; stick to the neutral palette for all functional UI elements.",
+        "Do not use drop shadows for elevation; rely exclusively on borders and background color changes to define element depth.",
+        "Refrain from using overly decorative or image-heavy backgrounds; surfaces should remain Canvas White (#ffffff) to keep focus on content and products.",
+        "Avoid excessive padding within elements; maintain a compact density with 5px or 10px padding for most components.",
+        "Do not deviate from the custom font families; system fonts should not be used as a substitute."
+      ],
+      "theme": "light",
+      "colors": [
+        {
+          "hex": "#ffffff",
+          "name": "Canvas White",
+          "role": "Page backgrounds, card surfaces, button fills, input backgrounds",
+          "group": "neutral"
+        },
+        {
+          "hex": "#000000",
+          "name": "Ink Black",
+          "role": "Primary text, link borders, button borders, navigation borders, input borders – providing crisp definition against light surfaces",
+          "group": "neutral"
+        },
+        {
+          "hex": "#212529",
+          "name": "Charcoal Text",
+          "role": "Body text, heading text, list text, primary site borders – a slightly softer alternative to pure black for extensive text blocks and structural outlines",
+          "group": "neutral"
+        }
+      ],
+      "layout": "The page employs a contained, centered layout, allowing content to breathe within a defined maximum width. The hero section features a prominent, centered headline over a background that combines full-bleed abstract imagery with product photography. Content sections alternate between visually engaging abstract images and clear textual blocks, often structured in single or implied two-column arrangements. Vertical rhythm is established through consistent section gaps, creating a clean flow. Navigation is a minimal top bar, featuring text links and subtle iconic elements, maintaining a compact header area.",
+      "imagery": "The imagery focuses on close-up product photography and abstract, organic macro shots of natural ingredients. Product shots are typically clean, isolated crops on neutral or slightly textured backgrounds, emphasizing the product itself with minimal lifestyle context. Abstract macro photography provides atmospheric backdrops, often with soft focus and muted, natural color palettes. Icons are minimalist, outlined, and monochrome, integrating seamlessly into the UI for functional cues rather than decorative accents. The overall density is balanced, allowing significant whitespace to frame both text and imagery.",
+      "similar": [
+        {
+          "why": "Shares a similar minimalist aesthetic, focus on product-centric imagery, and a refined, custom-feeling typography against a neutral palette.",
+          "business": "Aēsop"
+        },
+        {
+          "why": "Utilizes clean product photography and a strong, distinctive san-serif typeface with a restrained color palette for a sophisticated yet approachable feel.",
+          "business": "Byredo"
+        },
+        {
+          "why": "Features a strong emphasis on natural products with a monochromatic design and precise typography that aligns with a premium, organic brand identity.",
+          "business": "Grown Alchemist"
+        },
+        {
+          "why": "Employs a content-forward design with high-quality product imagery and a clean, legible typeface, using minimal color for a natural and trustworthy brand presence.",
+          "business": "Tata Harper Skincare"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "default": "0px",
+          "circularElements": "100%"
+        },
+        "elementGap": "10px",
+        "sectionGap": "30px",
+        "cardPadding": "10px",
+        "pageMaxWidth": null
+      },
+      "industry": "ecommerce",
+      "northStar": "Earthy botanical canvas",
+      "typeScale": [
+        {
+          "role": "caption",
+          "size": 12,
+          "lineHeight": 1.67,
+          "letterSpacing": 0
+        },
+        {
+          "role": "body",
+          "size": 15,
+          "lineHeight": 1.67,
+          "letterSpacing": 0
+        },
+        {
+          "role": "subheading",
+          "size": 18,
+          "lineHeight": 1.67,
+          "letterSpacing": 0
+        },
+        {
+          "role": "heading-sm",
+          "size": 25,
+          "lineHeight": 1.2,
+          "letterSpacing": 0
+        },
+        {
+          "role": "heading",
+          "size": 30,
+          "lineHeight": 1.2,
+          "letterSpacing": 0
+        },
+        {
+          "role": "display",
+          "size": 60,
+          "lineHeight": 1.2,
+          "letterSpacing": 0
+        }
+      ],
+      "components": [
+        {
+          "name": "Circular Ghost Button",
+          "role": "Decorative or iconic buttons, cart badge.",
+          "description": "Ghost style with #ffffff background, #000000 border, and #000000 text. Features a 100% border radius for a circular shape, with no internal padding for a compact, icon-only appearance."
+        },
+        {
+          "name": "Rectangular Outlined Button",
+          "role": "Primary action buttons for purchasing or navigation.",
+          "description": "Outlined button with #ffffff background, #000000 border, and #000000 text. Has a 0px border radius, with 5px vertical and 10px horizontal padding. Font is Studio Feixen Sans Writer Book at appropriate size."
+        },
+        {
+          "name": "Ghost Navigation Link",
+          "role": "Subtle navigation elements.",
+          "description": "Text link with transparent background and #000000 text. No border radius or padding. Used for simple text-based navigation or inline actions."
+        },
+        {
+          "name": "Basic Input",
+          "role": "Form fields for user entry.",
+          "description": "Standard input field with #ffffff background, #000000 border, and #000000 text. Has a 0px border radius, with 5px padding on all sides. Uses Studio Feixen Sans Book for text."
+        },
+        {
+          "name": "Header Navigation Item",
+          "role": "Interactive clickable item in the main site navigation.",
+          "description": "A text link element, using Ink Black (#000000) for text, with a transparent background. Implied border on hover/active states suggested by surrounding elements or interaction."
+        }
+      ],
+      "typography": [
+        {
+          "role": "Primary typeface for all body text, headings, links, and buttons. Its 'Writer Book' style denotes a commitment to legibility and a slightly editorial, handcrafted feel that distinguishes it from standard sans-serifs.",
+          "sizes": "12px, 15px, 18px, 25px, 30px, 60px",
+          "family": "Studio Feixen Sans Writer Book",
+          "weight": "400",
+          "lineHeight": "1.20, 1.67, 2.08, 2.50",
+          "substitute": "Inter",
+          "letterSpacing": "normal"
+        },
+        {
+          "role": "Used for emphasized text and headings, maintaining the same clean aesthetic as the regular weight while adding clarity.",
+          "sizes": "12px, 15px, 18px, 25px, 30px, 60px",
+          "family": "Studio Feixen Sans Writer Book",
+          "weight": "700",
+          "lineHeight": "1.20, 1.67, 2.08, 2.50",
+          "substitute": "Inter",
+          "letterSpacing": "normal"
+        },
+        {
+          "role": "A lighter-touch variant of the primary typeface, used sparingly for specific body elements and input text to provide subtle visual differentiation.",
+          "sizes": "15px, 30px",
+          "family": "Studio Feixen Sans Book",
+          "weight": "400",
+          "lineHeight": "1.20",
+          "substitute": "Inter",
+          "letterSpacing": "normal"
+        },
+        {
+          "role": "Studio Feixen Sans Writer Book Regular — detected in extracted data but not described by AI",
+          "sizes": "30px",
+          "family": "Studio Feixen Sans Writer Book Regular",
+          "weight": "400",
+          "lineHeight": "1.2"
+        }
+      ],
+      "description": "My Brentano embraces a refined, organic aesthetic creating a calm, content-forward experience. Neutral, earthy tones combined with a strong, custom sans-serif typeface define its signature. The layout emphasizes clear structural organization with subtle borders and minimal use of color, allowing product imagery and text to take precedence. Components are lightweight and understated, integrating seamlessly into the canvas rather than standing out as distinct elements.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "Quick Color Reference: \ntext: #000000\nbackground: #ffffff\nborder: #000000\naccent: no distinct accent color\nprimary action: no distinct CTA color\n\nExample Component Prompts:\n1. Create a primary navigation item: text 'Shop' using Studio Feixen Sans Writer Book weight 400, color Ink Black (#000000), no background or border, with elementGap 10px from adjacent items.\n2. Create an input field: 0px border-radius, 1px solid Ink Black (#000000) border, Canvas White (#ffffff) background, 5px padding on all sides, placeholder text in Charcoal Text (#212529) using Studio Feixen Sans Book 400.\n3. Create a secondary button: Text 'View Details' using Studio Feixen Sans Writer Book weight 400, size 15px, color Ink Black (#000000), Canvas White (#ffffff) background, 1px solid Ink Black (#000000) border, 0px border radius, 5px vertical and 10px horizontal padding.\nNo distinct primary action color was observed; use the extracted neutral button treatments instead of inventing a filled CTA color."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777515108907-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777515108907-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/d211aaa4-e09b-4ef9-a9bf-f6fa8495de73",
+  "ranks": {
+    "trending": 1200,
+    "popular": 1195,
+    "newest": 420
+  },
+  "localSlug": "my-brentano-d211aaa4"
+}

@@ -1,0 +1,751 @@
+{
+  "id": "a2e08637-bd7e-4302-ab44-52a5eaa37917",
+  "url": "https://propel.me",
+  "siteName": "PropellerAi",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777512684647-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777512684647-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "light",
+  "colors": [
+    {
+      "name": "Canvas",
+      "hex": "#ffffff"
+    },
+    {
+      "name": "Deep Graphite",
+      "hex": "#111827"
+    },
+    {
+      "name": "Dark Slate",
+      "hex": "#1f2937"
+    },
+    {
+      "name": "Light Fog",
+      "hex": "#e5e7eb"
+    },
+    {
+      "name": "Near White",
+      "hex": "#eff1f3"
+    },
+    {
+      "name": "Silver Pine",
+      "hex": "#d1d5db"
+    }
+  ],
+  "fonts": [
+    "Inter"
+  ],
+  "northStar": "White canvas, floating cards",
+  "createdAt": "2026-04-30T01:31:41.471Z",
+  "previewVideoCapturedAt": null,
+  "industry": "ai",
+  "fullResult": {
+    "meta": {
+      "url": "https://propel.me",
+      "siteName": "PropellerAi",
+      "extractedAt": "2026-04-30T01:31:40.983Z",
+      "durationMs": 23562,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 19,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#e5e7eb",
+            "oklch": {
+              "c": 0.005813542372075684,
+              "h": 264.5313231484507,
+              "l": 0.9275823098127417
+            },
+            "contexts": [
+              "other",
+              "image",
+              "body",
+              "icon"
+            ],
+            "frequency": 52,
+            "confidence": 1,
+            "prominence": 7423384.909113905,
+            "properties": [
+              "borderColor"
+            ],
+            "usageCounts": {
+              "body/borderColor": 8,
+              "icon/borderColor": 4,
+              "image/borderColor": 4,
+              "other/borderColor": 36
+            }
+          },
+          {
+            "hex": "#111827",
+            "oklch": {
+              "c": 0.03176261291165215,
+              "h": 264.66452749147317,
+              "l": 0.2100844908199934
+            },
+            "contexts": [
+              "other",
+              "image",
+              "card"
+            ],
+            "frequency": 11,
+            "confidence": 1,
+            "prominence": 4646111.400934618,
+            "properties": [
+              "color"
+            ],
+            "usageCounts": {
+              "card/color": 1,
+              "image/color": 1,
+              "other/color": 9
+            }
+          },
+          {
+            "hex": "#ffffff",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 1.0000000000000002
+            },
+            "contexts": [
+              "other",
+              "card",
+              "button"
+            ],
+            "frequency": 3,
+            "confidence": 1,
+            "prominence": 2592000,
+            "properties": [
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "card/backgroundColor": 1,
+              "other/backgroundColor": 1,
+              "button/backgroundColor": 1
+            }
+          },
+          {
+            "hex": "#eff1f3",
+            "oklch": {
+              "c": 0.003458689864414402,
+              "h": 264.53998742076044,
+              "l": 0.9567079141981105
+            },
+            "contexts": [
+              "card"
+            ],
+            "frequency": 4,
+            "confidence": 1,
+            "prominence": 165915.69394827136,
+            "properties": [
+              "borderColor"
+            ],
+            "usageCounts": {
+              "card/borderColor": 4
+            }
+          },
+          {
+            "hex": "#d1d5db",
+            "oklch": {
+              "c": 0.00933868254914443,
+              "h": 258.3382673756329,
+              "l": 0.8716813342237643
+            },
+            "contexts": [
+              "button"
+            ],
+            "frequency": 4,
+            "confidence": 1,
+            "prominence": 37150.84951819779,
+            "properties": [
+              "borderColor"
+            ],
+            "usageCounts": {
+              "button/borderColor": 4
+            }
+          },
+          {
+            "hex": "#1f2937",
+            "oklch": {
+              "c": 0.029595646074233123,
+              "h": 256.84795621004855,
+              "l": 0.27807804428637667
+            },
+            "contexts": [
+              "button",
+              "icon",
+              "body"
+            ],
+            "frequency": 3,
+            "confidence": 1,
+            "prominence": 32000,
+            "properties": [
+              "color"
+            ],
+            "usageCounts": {
+              "body/color": 1,
+              "icon/color": 1,
+              "button/color": 1
+            }
+          },
+          {
+            "hex": "#6b7280",
+            "oklch": {
+              "c": 0.02336091733217706,
+              "h": 264.36374727266286,
+              "l": 0.5510191075146065
+            },
+            "contexts": [
+              "body"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 7449,
+            "properties": [
+              "color"
+            ],
+            "usageCounts": {
+              "body/color": 1
+            }
+          },
+          {
+            "hex": "#f25022",
+            "oklch": {
+              "c": 0.20588541826655749,
+              "h": 35.638051469504184,
+              "l": 0.6506106006889452
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 91,
+            "properties": [
+              "fill"
+            ],
+            "usageCounts": {
+              "other/fill": 1
+            }
+          },
+          {
+            "hex": "#7fba00",
+            "oklch": {
+              "c": 0.1907380456103943,
+              "h": 128.85726200737864,
+              "l": 0.7206656103332806
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 91,
+            "properties": [
+              "fill"
+            ],
+            "usageCounts": {
+              "other/fill": 1
+            }
+          },
+          {
+            "hex": "#00a4ef",
+            "oklch": {
+              "c": 0.15589952590072467,
+              "h": 239.64175646745315,
+              "l": 0.6847227804773209
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 91,
+            "properties": [
+              "fill"
+            ],
+            "usageCounts": {
+              "other/fill": 1
+            }
+          },
+          {
+            "hex": "#ffb900",
+            "oklch": {
+              "c": 0.1712209489252076,
+              "h": 81.03806959696853,
+              "l": 0.829017292403888
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 91,
+            "properties": [
+              "fill"
+            ],
+            "usageCounts": {
+              "other/fill": 1
+            }
+          }
+        ],
+        "isDarkMode": false,
+        "colorfulness": 0.05071767400422232,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 17.74,
+            "background": "#ffffff",
+            "foreground": "#111827"
+          },
+          {
+            "level": "AAA",
+            "ratio": 15.67,
+            "background": "#eff1f3",
+            "foreground": "#111827"
+          },
+          {
+            "level": "AAA",
+            "ratio": 14.68,
+            "background": "#ffffff",
+            "foreground": "#1f2937"
+          },
+          {
+            "level": "AAA",
+            "ratio": 14.33,
+            "background": "#e5e7eb",
+            "foreground": "#111827"
+          },
+          {
+            "level": "AAA",
+            "ratio": 12.96,
+            "background": "#eff1f3",
+            "foreground": "#1f2937"
+          },
+          {
+            "level": "AAA",
+            "ratio": 12.04,
+            "background": "#d1d5db",
+            "foreground": "#111827"
+          },
+          {
+            "level": "AAA",
+            "ratio": 11.86,
+            "background": "#e5e7eb",
+            "foreground": "#1f2937"
+          },
+          {
+            "level": "AAA",
+            "ratio": 10.3,
+            "background": "#ffb900",
+            "foreground": "#111827"
+          },
+          {
+            "level": "AAA",
+            "ratio": 9.96,
+            "background": "#d1d5db",
+            "foreground": "#1f2937"
+          },
+          {
+            "level": "AAA",
+            "ratio": 8.52,
+            "background": "#ffb900",
+            "foreground": "#1f2937"
+          },
+          {
+            "level": "AAA",
+            "ratio": 7.54,
+            "background": "#7fba00",
+            "foreground": "#111827"
+          },
+          {
+            "level": "AA",
+            "ratio": 6.24,
+            "background": "#7fba00",
+            "foreground": "#1f2937"
+          },
+          {
+            "level": "AA",
+            "ratio": 4.83,
+            "background": "#ffffff",
+            "foreground": "#6b7280"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [
+          {
+            "value": 12,
+            "contexts": [
+              "button"
+            ],
+            "frequency": 1
+          },
+          {
+            "value": 16,
+            "contexts": [
+              "card"
+            ],
+            "frequency": 1
+          }
+        ],
+        "shadows": [
+          {
+            "value": "rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.1) 0px 4px 6px -4px",
+            "contexts": [
+              "card"
+            ],
+            "frequency": 1
+          },
+          {
+            "value": "rgba(0, 0, 0, 0.05) 0px 1px 2px 0px",
+            "contexts": [
+              "button"
+            ],
+            "frequency": 1
+          }
+        ]
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 12,
+            "contexts": [
+              "button"
+            ],
+            "frequency": 2,
+            "properties": [
+              "rowGap",
+              "columnGap"
+            ],
+            "propertyContextPairs": [
+              "rowGap|button",
+              "columnGap|button"
+            ]
+          },
+          {
+            "value": 14,
+            "contexts": [
+              "button"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingTop",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|button",
+              "paddingBottom|button"
+            ]
+          },
+          {
+            "value": 20,
+            "contexts": [
+              "button"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|button",
+              "paddingLeft|button"
+            ]
+          },
+          {
+            "value": 32,
+            "contexts": [
+              "other",
+              "card"
+            ],
+            "frequency": 7,
+            "properties": [
+              "paddingRight",
+              "paddingLeft",
+              "marginBottom",
+              "paddingTop",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|other",
+              "paddingLeft|other",
+              "marginBottom|other",
+              "paddingTop|card",
+              "paddingRight|card",
+              "paddingBottom|card",
+              "paddingLeft|card"
+            ]
+          },
+          {
+            "value": 48,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingTop",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other",
+              "paddingBottom|other"
+            ]
+          }
+        ],
+        "density": "spacious",
+        "baseUnit": 4
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "Inter",
+            "source": "google",
+            "weights": [
+              400,
+              500
+            ],
+            "frequency": 15,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 16,
+          "name": "Minor Second",
+          "ratio": 1.067,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 12,
+            "family": "Inter",
+            "weight": 500,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.63,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 14,
+            "family": "Inter",
+            "weight": 500,
+            "contexts": [
+              "button",
+              "icon",
+              "body"
+            ],
+            "frequency": 3,
+            "lineHeight": 1.43,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "Inter",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "image",
+              "card"
+            ],
+            "frequency": 11,
+            "lineHeight": 1.5,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Prioritize 'Canvas' (#ffffff) for all main backgrounds and surfaces to maintain a clean, expansive feel.",
+        "Use 'Deep Graphite' (#111827) for primary heading and body text, ensuring high contrast and immediate readability.",
+        "Apply 'Dark Slate' (#1f2937) for secondary text elements, button labels, and icons.",
+        "Utilize Inter font consistently across all text elements; vary weights (400, 500) and sizes (12px, 14px, 16px) for hierarchy.",
+        "Implement soft, rounded corners: 16px for cards and 12px for interactive elements like buttons.",
+        "Employ the card shadow (rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.1) 0px 4px 6px -4px) to subtly elevate containers.",
+        "Adhere to a 32px padding for cards and 12px base spacing between elements for a spacious layout."
+      ],
+      "donts": [
+        "Avoid vivid or highly saturated colors for functional UI elements; color should be reserved for brand accents only when explicitly defined.",
+        "Do not introduce strong, dark backgrounds; the system relies on a light theme for its core identity.",
+        "Refrain from sharp corners or harsh geometric shapes; the visual language emphasizes softness and approachability.",
+        "Do not use heavy, opaque borders or dividers; opt for subtle 'Light Fog' (#e5e7eb) or 'Silver Pine' (#d1d5db) treatments.",
+        "Avoid dense information blocks; maintain ample white space and consistent padding.",
+        "Do not use decorative gradients; the system prioritizes flat colors and subtle shadows for depth.",
+        "Do not use custom fonts outside of Inter; font consistency is key to the system's clean aesthetic."
+      ],
+      "theme": "light",
+      "colors": [
+        {
+          "hex": "#ffffff",
+          "name": "Canvas",
+          "role": "Page and component backgrounds, main interactive elements",
+          "group": "neutral"
+        },
+        {
+          "hex": "#111827",
+          "name": "Deep Graphite",
+          "role": "Primary text, prominent headings",
+          "group": "neutral"
+        },
+        {
+          "hex": "#1f2937",
+          "name": "Dark Slate",
+          "role": "Secondary text, button labels, icons",
+          "group": "neutral"
+        },
+        {
+          "hex": "#e5e7eb",
+          "name": "Light Fog",
+          "role": "Subtle borders, dividers, ghost element outlines",
+          "group": "neutral"
+        },
+        {
+          "hex": "#eff1f3",
+          "name": "Near White",
+          "role": "Card borders, subtle background distinctions",
+          "group": "neutral"
+        },
+        {
+          "hex": "#d1d5db",
+          "name": "Silver Pine",
+          "role": "Button borders, input borders on light backgrounds",
+          "group": "neutral"
+        }
+      ],
+      "layout": "The page model is a full-bleed light surface, with content centered. The hero area (as seen in the login screen) places the primary content card centrally, emphasizing minimal distraction. Section rhythm is dictated by clear vertical spacing, with a base 'sectionGap' of 48px, creating a spacious feel. Content arrangement defaults to centered stacks, using cards as primary content containers. No complex grid usage or multi-column layouts were observed, reinforcing a focused, single-purpose interaction.",
+      "imagery": "No complex imagery was detected; the system relies heavily on pure UI elements. The logo itself uses crisp, monochromatic icons. If icons are introduced, they should be similarly clean, outlined, or subtly filled, with a light default stroke weight.",
+      "similar": [
+        {
+          "why": "Clean, light UI with soft shadows and rounded elements, focusing on content and interaction.",
+          "business": "Framer"
+        },
+        {
+          "why": "Minimalist aesthetic with a strong emphasis on white space and functional, unobtrusive design.",
+          "business": "Superhuman"
+        },
+        {
+          "why": "Subtle elevation, precise typography, and a predominantly achromatic palette with thoughtful element placement.",
+          "business": "Linear"
+        },
+        {
+          "why": "Content-focused, spacious layouts with minimal decorative elements and clear hierarchy through subtle styling.",
+          "business": "Notion"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "cards": "16px",
+          "buttons": "12px"
+        },
+        "elementGap": "12px",
+        "sectionGap": "48px",
+        "cardPadding": "32px",
+        "pageMaxWidth": null
+      },
+      "industry": "ai",
+      "elevation": [
+        {
+          "style": "rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.1) 0px 4px 6px -4px",
+          "element": "Login/Input Card"
+        },
+        {
+          "style": "rgba(0, 0, 0, 0.05) 0px 1px 2px 0px",
+          "element": "Microsoft Sign-in Button"
+        }
+      ],
+      "northStar": "White canvas, floating cards",
+      "typeScale": [
+        {
+          "role": "caption",
+          "size": 12,
+          "lineHeight": 1.43
+        },
+        {
+          "role": "body",
+          "size": 14,
+          "lineHeight": 1.5
+        },
+        {
+          "role": "body-lg",
+          "size": 16,
+          "lineHeight": 1.63
+        }
+      ],
+      "components": [
+        {
+          "name": "Microsoft Sign-in Button",
+          "role": "Primary authentication action.",
+          "description": "A white button with 'Dark Slate' text and a 'Silver Pine' 1px border. It features 12px horizontal padding, 14px vertical padding, and a 12px border-radius, with a soft shadow at rgba(0, 0, 0, 0.05) 0px 1px 2px 0px."
+        },
+        {
+          "name": "Login/Input Card",
+          "role": "Container for forms and interactive elements, typically centered on the page.",
+          "description": "A 'Canvas' background card with a subtle 'Near White' 1px border and a pronounced shadow at rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.1) 0px 4px 6px -4px. Features a 16px border-radius and 32px padding on all sides."
+        },
+        {
+          "name": "Text Input (Placeholder)",
+          "role": "Standard input field for user entry.",
+          "description": "Uses 'Light Fog' for its 1px border, suggesting a minimal visual footprint until focused. Text within likely defaults to a muted neutral."
+        }
+      ],
+      "typography": [
+        {
+          "role": "The primary typeface for all text content, from body to buttons. Its clear, modern sans-serif form supports readability and a crisp digital presentation.",
+          "sizes": "12px, 14px, 16px",
+          "family": "Inter",
+          "weight": "400, 500",
+          "weights": [
+            400,
+            500
+          ],
+          "lineHeight": "1.43, 1.50, 1.63",
+          "substitute": "system-ui, sans-serif",
+          "letterSpacing": "normal"
+        }
+      ],
+      "description": "PropellerAi's design system is a study in minimalist clarity, featuring expansive white space and carefully considered neutral tones. The aesthetic is light, airy, and functional, with subtle shadows and rounded corners providing a sense of approachability without sacrificing professionalism. Typography is highly readable, serving to organize content with measured precision. The system emphasizes clear hierarchies through achromatic contrast and soft visual layering.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "Quick Color Reference:\ntext: #111827\nbackground: #ffffff\nborder: #e5e7eb\naccent: no distinct accent color\nprimary action: no distinct CTA color\n\nExample Component Prompts:\n1. Create a centered login card: background #ffffff, border #eff1f3, radius 16px, shadow rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.1) 0px 4px 6px -4px, padding 32px. Inside, add a text input with placeholder 'Use your full work email address' (Inter 14px, #1f2937), border #e5e7eb.\n2. Create a 'Sign in with Microsoft' button: background #ffffff, text #1f2937, border #d1d5db, radius 12px, padding 14px vertical, 20px horizontal. Apply a shadow rgba(0, 0, 0, 0.05) 0px 1px 2px 0px."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777512684647-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777512684647-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/a2e08637-bd7e-4302-ab44-52a5eaa37917",
+  "ranks": {
+    "trending": 1287,
+    "popular": 1305,
+    "newest": 581
+  },
+  "localSlug": "propellerai-a2e08637"
+}

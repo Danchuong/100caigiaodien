@@ -1,0 +1,598 @@
+{
+  "id": "234e9a17-236d-4446-9d58-f83f6806d012",
+  "url": "https://acnestudios.com",
+  "siteName": "Acne Studios",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775926228105-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775926228105-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "light",
+  "colors": [
+    {
+      "name": "Text Black",
+      "hex": "#000000"
+    },
+    {
+      "name": "Background White",
+      "hex": "#ffffff"
+    },
+    {
+      "name": "Form Surface",
+      "hex": "#f7f7f7"
+    },
+    {
+      "name": "Secondary Text Gray",
+      "hex": "#6b6b6b"
+    },
+    {
+      "name": "Action Violet",
+      "hex": "#0018a8"
+    }
+  ],
+  "fonts": [
+    "Helvetica Monospaced Pro"
+  ],
+  "northStar": "Gallery space, stark and bold.",
+  "createdAt": "2026-02-16T12:02:09.000Z",
+  "previewVideoCapturedAt": null,
+  "industry": "ecommerce",
+  "fullResult": {
+    "meta": {
+      "url": "https://acnestudios.com",
+      "siteName": "Acne Studios",
+      "extractedAt": "2026-04-11T16:50:45.575Z",
+      "durationMs": 26208,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 261,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "complete",
+          "attempts": 2
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "nav",
+              "other",
+              "button",
+              "hero",
+              "heading",
+              "image",
+              "body",
+              "footer",
+              "input"
+            ],
+            "frequency": 726,
+            "confidence": 1,
+            "prominence": 74237660.06819606,
+            "properties": [
+              "color",
+              "borderColor",
+              "stroke",
+              "fill"
+            ]
+          },
+          {
+            "hex": "#0018a8",
+            "oklch": {
+              "c": 0.21745030308196356,
+              "h": 264.1967859240269,
+              "l": 0.3479724741129171
+            },
+            "contexts": [
+              "nav",
+              "link",
+              "button",
+              "icon",
+              "other",
+              "body"
+            ],
+            "frequency": 292,
+            "confidence": 1,
+            "prominence": 9360272.537556162,
+            "properties": [
+              "color",
+              "borderColor"
+            ]
+          },
+          {
+            "hex": "#f2f2f2",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.9611513666441094
+            },
+            "contexts": [
+              "nav",
+              "footer"
+            ],
+            "frequency": 4,
+            "confidence": 1,
+            "prominence": 1826428.639438399,
+            "properties": [
+              "boxShadow",
+              "borderColor"
+            ]
+          },
+          {
+            "hex": "#ffffff",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 1.0000000000000002
+            },
+            "contexts": [
+              "nav",
+              "other",
+              "body"
+            ],
+            "frequency": 25,
+            "confidence": 1,
+            "prominence": 301415.6969257975,
+            "properties": [
+              "backgroundColor",
+              "color",
+              "borderColor"
+            ]
+          },
+          {
+            "hex": "#6b6b6b",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.5277958377351308
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 56,
+            "confidence": 1,
+            "prominence": 249356.0481055427,
+            "properties": [
+              "color",
+              "borderColor"
+            ]
+          }
+        ],
+        "isDarkMode": false,
+        "colorfulness": 0.15558425056953606,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 21,
+            "background": "#ffffff",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 18.76,
+            "background": "#f2f2f2",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 12.38,
+            "background": "#ffffff",
+            "foreground": "#0018a8"
+          },
+          {
+            "level": "AAA",
+            "ratio": 11.06,
+            "background": "#f2f2f2",
+            "foreground": "#0018a8"
+          },
+          {
+            "level": "AA",
+            "ratio": 5.33,
+            "background": "#ffffff",
+            "foreground": "#6b6b6b"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 2,
+            "frequency": 2,
+            "properties": [
+              "paddingTop"
+            ]
+          },
+          {
+            "value": 4,
+            "frequency": 68,
+            "properties": [
+              "paddingTop",
+              "paddingBottom"
+            ]
+          },
+          {
+            "value": 9,
+            "frequency": 76,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ]
+          },
+          {
+            "value": 10,
+            "frequency": 16,
+            "properties": [
+              "marginLeft",
+              "marginBottom",
+              "paddingRight",
+              "paddingLeft",
+              "marginTop"
+            ]
+          },
+          {
+            "value": 11,
+            "frequency": 2,
+            "properties": [
+              "paddingLeft",
+              "paddingRight"
+            ]
+          },
+          {
+            "value": 18,
+            "frequency": 8,
+            "properties": [
+              "paddingBottom"
+            ]
+          },
+          {
+            "value": 19,
+            "frequency": 2,
+            "properties": [
+              "paddingTop",
+              "paddingBottom"
+            ]
+          },
+          {
+            "value": 20,
+            "frequency": 5,
+            "properties": [
+              "marginBottom"
+            ]
+          },
+          {
+            "value": 30,
+            "frequency": 9,
+            "properties": [
+              "paddingTop",
+              "paddingRight",
+              "paddingBottom",
+              "paddingLeft",
+              "marginRight"
+            ]
+          },
+          {
+            "value": 60,
+            "frequency": 2,
+            "properties": [
+              "marginTop",
+              "marginBottom"
+            ]
+          }
+        ],
+        "density": "compact",
+        "baseUnit": 4
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "Helvetica Now Text",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 228,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "Helvetica Monospaced Pro",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 17,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 12,
+          "name": "Minor Second",
+          "ratio": 1.067,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 9,
+            "family": "Helvetica Monospaced Pro",
+            "weight": 400,
+            "contexts": [
+              "image",
+              "icon"
+            ],
+            "frequency": 12,
+            "lineHeight": 1.15,
+            "letterSpacing": 0.033,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 9,
+            "family": "Helvetica Monospaced Pro",
+            "weight": 400,
+            "contexts": [
+              "image"
+            ],
+            "frequency": 5,
+            "lineHeight": 1.15,
+            "letterSpacing": 0.033,
+            "textTransform": "none"
+          },
+          {
+            "size": 12,
+            "family": "Helvetica Now Text",
+            "weight": 400,
+            "contexts": [
+              "nav",
+              "other",
+              "heading",
+              "link",
+              "image",
+              "body"
+            ],
+            "frequency": 71,
+            "lineHeight": 1.67,
+            "letterSpacing": 0.025,
+            "textTransform": "none"
+          },
+          {
+            "size": 12,
+            "family": "Helvetica Now Text",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "nav",
+              "button",
+              "hero",
+              "heading",
+              "link",
+              "image",
+              "body",
+              "footer"
+            ],
+            "frequency": 136,
+            "lineHeight": 1.67,
+            "letterSpacing": 0.025,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 12,
+            "family": "Helvetica Now Text",
+            "weight": 400,
+            "contexts": [
+              "button",
+              "nav"
+            ],
+            "frequency": 20,
+            "lineHeight": 2,
+            "letterSpacing": 0.025,
+            "textTransform": "none"
+          },
+          {
+            "size": 18,
+            "family": "Helvetica Now Text",
+            "weight": 400,
+            "contexts": [
+              "input"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.11,
+            "letterSpacing": 0.017,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Use Helvetica Monospaced Pro for all typography, maintaining a consistent weight of 400 and letter-spacing of 0.0330em for brand cohesion.",
+        "Employ a strict black and white palette (#000000 and #FFFFFF) for primary content and backgrounds, reserving #0018a8 for all interactive elements and high-contrast accents.",
+        "Maintain 0px border-radius across all UI elements, including buttons, inputs, and containers, reinforcing the sharp, modern aesthetic.",
+        "Utilize 60px as the primary vertical spacing unit between major content sections to create a spacious, gallery-like layout.",
+        "Ensure all text links are Action Violet (#0018a8) with a 0px bottom padding when active, clearly indicating interactivity while maintaining the minimalist aesthetic.",
+        "Prioritize product imagery over decorative graphics, presenting products as clean, isolated compositions on white or subtly textured backgrounds."
+      ],
+      "tags": [
+        "minimalist",
+        "high-fashion",
+        "monochrome",
+        "utilitarian",
+        "bold",
+        "unapologetic",
+        "editorial",
+        "statement",
+        "gallery"
+      ],
+      "donts": [
+        "Do not introduce additional chromatic colors; the single Action Violet (#0018a8) is the only brand accent.",
+        "Avoid rounded corners or soft shadows; the design relies on sharp edges and flat planes to convey sophistication.",
+        "Do not deviate from the specified Helvetica Monospaced Pro font family or its defined letter-spacing and weight; this is a core brand identifier.",
+        "Do not use generic gray values; stick to the defined #6b6b6b for secondary text and #f7f7f7 for subtle surface variations.",
+        "Avoid excessive decoration or complex UI patterns; the minimalist approach places emphasis on content and brand imagery.",
+        "Do not use large, visually dominant background images or patterns that distract from product displays; backgrounds should be understated."
+      ],
+      "theme": "light",
+      "colors": [
+        {
+          "hex": "#000000",
+          "name": "Text Black",
+          "role": "Primary text, headings, prominent UI elements, button text, icon strokes. Creates an authoritative, high-contrast presence.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#ffffff",
+          "name": "Background White",
+          "role": "Main page background, content pane backgrounds. Provides a clean, expansive canvas for high-fashion imagery.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#f7f7f7",
+          "name": "Form Surface",
+          "role": "Input field backgrounds. A subtle off-white that creates depth against Background White without adding visual noise.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#6b6b6b",
+          "name": "Secondary Text Gray",
+          "role": "Less prominent text, utility links. Offers a softer contrast for secondary information.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#0018a8",
+          "name": "Action Violet",
+          "role": "Interactive elements like active navigation items, text links, icon fills. This lone chromatic color commands attention and indicates interactivity.",
+          "group": "accent"
+        }
+      ],
+      "layout": "The page uses a full-bleed layout, with content often spanning the entire viewport width, particularly in hero sections with large product imagery. The general structure maintains a centered content flow where text and product grids are present. The hero displays two large, side-by-side product or model images with the brand name 'Acne Studios' overlaid in large, bold typography. The section rhythm is consistent, separated by visible vertical spacing. Content arrangement often features a grid for products and stacked or simple text blocks for informational sections. Navigation is a minimalist sticky top bar, reinforced by the dominant visual of the main content.",
+      "imagery": "Imagery features high-fashion photography primarily showcasing models wearing products or tight product crops. The treatment is stark and editorial, often with models posed against plain, light backgrounds or subtly striped backdrops (like in the hero). Photography is full-bleed in hero sections, otherwise contained within clean, unmasked rectangular frames. The role of imagery is primarily product showcase and brand storytelling, using sophisticated, sometimes avant-garde styling, with a dense, impactful presence in key sections.",
+      "similar": [
+        {
+          "why": "Shares a stark, high-contrast, often monochrome visual aesthetic with minimal ornamentation and heavy reliance on strong typography.",
+          "business": "Balenciaga"
+        },
+        {
+          "why": "Features a similar minimalist luxury approach, utilizing negative space and a clean, gallery-like presentation for fashion products.",
+          "business": "The Row"
+        },
+        {
+          "why": "Employs simple, modern typography and a restrained color palette where black, white, and gray dominate, highlighting product form.",
+          "business": "COS"
+        },
+        {
+          "why": "Leverages bold, impactful typography and large-scale photography to create an editorial, high-fashion e-commerce experience.",
+          "business": "SSENSE"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "all": "0px"
+        },
+        "elementGap": "4px",
+        "sectionGap": "60px",
+        "cardPadding": "",
+        "pageMaxWidth": null
+      },
+      "category": "e-commerce",
+      "northStar": "Gallery space, stark and bold.",
+      "components": [
+        {
+          "html": "<div style=\"--color-text-black:#000000;--color-background-white:#ffffff;--color-form-surface:#f7f7f7;--color-secondary-text-gray:#6b6b6b;--color-action-violet:#0018a8;--font-helvetica-monospaced-pro:'Space Mono',monospace;--spacing-4:4px;--spacing-9:9px;--spacing-10:10px;--spacing-11:11px;--spacing-18:18px;--spacing-19:19px;--spacing-20:20px;--spacing-30:30px;--spacing-60:60px;width:600px;background:var(--color-background-white);border-bottom:1px solid #e8e8e8;display:flex;align-items:stretch;justify-content:space-between;box-sizing:border-box;\">\n  <div style=\"display:flex;align-items:stretch;\">\n    <a href=\"#\" style=\"font-family:var(--font-helvetica-monospaced-pro);font-size:9px;font-weight:400;letter-spacing:0.0330em;color:var(--color-text-black);text-decoration:none;padding:var(--spacing-4) var(--spacing-9) var(--spacing-18);display:flex;align-items:flex-end;\">WOMAN</a>\n    <a href=\"#\" style=\"font-family:var(--font-helvetica-monospaced-pro);font-size:9px;font-weight:400;letter-spacing:0.0330em;color:var(--color-text-black);text-decoration:none;padding:var(--spacing-4) var(--spacing-9) var(--spacing-18);display:flex;align-items:flex-end;\">MAN</a>\n    <a href=\"#\" style=\"font-family:var(--font-helvetica-monospaced-pro);font-size:9px;font-weight:400;letter-spacing:0.0330em;color:var(--color-text-black);text-decoration:none;padding:var(--spacing-4) var(--spacing-9) var(--spacing-18);display:flex;align-items:flex-end;\">BAGS</a>\n    <a href=\"#\" style=\"font-family:var(--font-helvetica-monospaced-pro);font-size:9px;font-weight:400;letter-spacing:0.0330em;color:var(--color-action-violet);text-decoration:underline;text-underline-offset:3px;padding:var(--spacing-4) var(--spacing-9) var(--spacing-18);display:flex;align-items:flex-end;\">RUNWAY</a>\n  </div>\n  <div style=\"display:flex;align-items:stretch;\">\n    <a href=\"#\" style=\"font-family:var(--font-helvetica-monospaced-pro);font-size:9px;font-weight:400;letter-spacing:0.0330em;color:var(--color-text-black);text-decoration:none;padding:var(--spacing-4) var(--spacing-9) var(--spacing-18);display:flex;align-items:flex-end;gap:4px;\">\n      <svg width=\"10\" height=\"10\" viewBox=\"0 0 10 10\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"><circle cx=\"4\" cy=\"4\" r=\"3\"/><line x1=\"6.5\" y1=\"6.5\" x2=\"9.5\" y2=\"9.5\"/></svg>\n      SEARCH\n    </a>\n    <a href=\"#\" style=\"font-family:var(--font-helvetica-monospaced-pro);font-size:9px;font-weight:400;letter-spacing:0.0330em;color:var(--color-text-black);text-decoration:none;padding:var(--spacing-4) var(--spacing-9) var(--spacing-18);display:flex;align-items:flex-end;gap:4px;\">\n      <svg width=\"10\" height=\"10\" viewBox=\"0 0 10 10\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"><circle cx=\"5\" cy=\"5\" r=\"4\"/><line x1=\"5\" y1=\"3\" x2=\"5\" y2=\"5.5\"/><circle cx=\"5\" cy=\"7\" r=\"0.5\" fill=\"currentColor\"/></svg>\n      HELP\n    </a>\n    <a href=\"#\" style=\"font-family:var(--font-helvetica-monospaced-pro);font-size:9px;font-weight:400;letter-spacing:0.0330em;color:var(--color-text-black);text-decoration:none;padding:var(--spacing-4) var(--spacing-9) var(--spacing-18);display:flex;align-items:flex-end;gap:4px;\">\n      <svg width=\"10\" height=\"10\" viewBox=\"0 0 10 10\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"><circle cx=\"5\" cy=\"3.5\" r=\"2\"/><path d=\"M1.5 9c0-2 1.5-3 3.5-3s3.5 1 3.5 3\"/></svg>\n      ACCOUNT\n    </a>\n    <a href=\"#\" style=\"font-family:var(--font-helvetica-monospaced-pro);font-size:9px;font-weight:400;letter-spacing:0.0330em;color:var(--color-text-black);text-decoration:none;padding:var(--spacing-4) var(--spacing-9) var(--spacing-18);display:flex;align-items:flex-end;gap:4px;\">\n      <svg width=\"10\" height=\"10\" viewBox=\"0 0 10 10\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"><path d=\"M1 1.5h1.5l1.5 5h4l1-3H4\"/><circle cx=\"5\" cy=\"8.5\" r=\"0.7\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"7.5\" cy=\"8.5\" r=\"0.7\" fill=\"currentColor\" stroke=\"none\"/></svg>\n      00\n    </a>\n  </div>\n</div>",
+          "name": "Navigation Bar",
+          "role": "",
+          "description": ""
+        },
+        {
+          "html": "<div style=\"--color-text-black:#000000;--color-background-white:#ffffff;--color-form-surface:#f7f7f7;--color-secondary-text-gray:#6b6b6b;--color-action-violet:#0018a8;--font-helvetica-monospaced-pro:'Space Mono',monospace;width:600px;background:var(--color-form-surface);box-sizing:border-box;padding:0;\">\n  <div style=\"display:grid;grid-template-columns:1fr 1fr;gap:1px;background:#e0e0e0;\">\n    <div style=\"background:var(--color-background-white);display:flex;flex-direction:column;\">\n      <div style=\"padding:8px 10px 4px;\">\n        <span style=\"font-family:var(--font-helvetica-monospaced-pro);font-size:9px;font-weight:400;letter-spacing:0.0330em;color:var(--color-text-black);\">WOMEN'S JEANS</span>\n      </div>\n      <div style=\"flex:1;display:flex;align-items:center;justify-content:center;padding:20px 10px 20px;min-height:200px;background:var(--color-background-white);\">\n        <div style=\"width:90px;height:170px;background:linear-gradient(160deg,#c8d8e8 0%,#b0c4d4 40%,#a0b8cc 100%);border-radius:0;position:relative;overflow:hidden;\">\n          <div style=\"position:absolute;top:10px;left:15px;width:60px;height:150px;background:linear-gradient(180deg,#b8ccd8 0%,#9cb4c4 100%);border-radius:0;\"></div>\n          <div style=\"position:absolute;top:40px;left:18px;width:20px;height:4px;background:#8aacbc;border-radius:0;\"></div>\n          <div style=\"position:absolute;top:70px;left:18px;width:18px;height:4px;background:#8aacbc;border-radius:0;\"></div>\n          <div style=\"position:absolute;top:100px;left:18px;width:20px;height:4px;background:#8aacbc;border-radius:0;\"></div>\n        </div>\n      </div>\n    </div>\n    <div style=\"background:var(--color-background-white);display:flex;flex-direction:column;\">\n      <div style=\"padding:8px 10px 4px;\">\n        <span style=\"font-family:var(--font-helvetica-monospaced-pro);font-size:9px;font-weight:400;letter-spacing:0.0330em;color:var(--color-text-black);\">BAGS</span>\n      </div>\n      <div style=\"flex:1;display:flex;align-items:center;justify-content:center;padding:20px 10px 20px;min-height:200px;background:var(--color-background-white);\">\n        <div style=\"width:130px;height:110px;background:linear-gradient(135deg,#a0784a 0%,#7a5630 60%,#5e3d1e 100%);border-radius:0;position:relative;\">\n          <div style=\"position:absolute;top:-18px;left:50%;transform:translateX(-50%);width:2px;height:22px;background:#6b4520;border-radius:0;\"></div>\n          <div style=\"position:absolute;top:-18px;left:calc(50% - 30px);width:60px;height:4px;background:#8a6030;border-radius:0;\"></div>\n          <div style=\"position:absolute;inset:8px;background:repeating-linear-gradient(45deg,rgba(255,255,255,0.06) 0px,rgba(255,255,255,0.06) 2px,transparent 2px,transparent 8px);border-radius:0;\"></div>\n        </div>\n      </div>\n    </div>\n    <div style=\"background:var(--color-background-white);display:flex;flex-direction:column;\">\n      <div style=\"padding:8px 10px 4px;\">\n        <span style=\"font-family:var(--font-helvetica-monospaced-pro);font-size:9px;font-weight:400;letter-spacing:0.0330em;color:var(--color-text-black);\">T-SHIRTS</span>\n      </div>\n      <div style=\"flex:1;display:flex;align-items:center;justify-content:center;padding:20px 10px 20px;min-height:180px;background:var(--color-background-white);\">\n        <div style=\"width:120px;height:130px;background:#4a4a42;border-radius:0;position:relative;display:flex;align-items:center;justify-content:center;\">\n          <div style=\"text-align:center;\">\n            <div style=\"font-family:var(--font-helvetica-monospaced-pro);font-size:7px;letter-spacing:0.04em;color:#c8c8b8;line-height:1.6;\">Acne Studios<br>STOCKHOLM<br>1996</div>\n          </div>\n        </div>\n      </div>\n    </div>\n    <div style=\"background:var(--color-background-white);display:flex;flex-direction:column;\">\n      <div style=\"padding:8px 10px 4px;\">\n        <span style=\"font-family:var(--font-helvetica-monospaced-pro);font-size:9px;font-weight:400;letter-spacing:0.0330em;color:var(--color-text-black);\">MEN'S JEANS</span>\n      </div>\n      <div style=\"flex:1;display:flex;align-items:center;justify-content:center;padding:20px 10px 20px;min-height:180px;background:var(--color-background-white);\">\n        <div style=\"width:90px;height:170px;background:linear-gradient(160deg,#d4c8a0 0%,#c0b080 40%,#a89060 100%);border-radius:0;position:relative;overflow:hidden;\">\n          <div style=\"position:absolute;top:10px;left:15px;width:60px;height:150px;background:linear-gradient(180deg,#c8bc94 0%,#b0a070 100%);border-radius:0;\"></div>\n          <div style=\"position:absolute;top:30px;left:18px;width:22px;height:3px;background:#9a8858;border-radius:0;\"></div>\n          <div style=\"position:absolute;top:60px;left:18px;width:20px;height:3px;background:#9a8858;border-radius:0;\"></div>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>",
+          "name": "Product Category Grid",
+          "role": "",
+          "description": ""
+        },
+        {
+          "html": "<div style=\"--color-text-black:#000000;--color-background-white:#ffffff;--color-form-surface:#f7f7f7;--color-secondary-text-gray:#6b6b6b;--color-action-violet:#0018a8;--font-helvetica-monospaced-pro:'Space Mono',monospace;width:600px;background:var(--color-background-white);box-sizing:border-box;padding:40px 0 0;\">\n\n  <div style=\"border-top:1px solid var(--color-text-black);border-bottom:1px solid var(--color-text-black);display:flex;align-items:stretch;\">\n    <div style=\"flex:1;display:flex;align-items:center;background:var(--color-form-surface);padding:0 10px;\">\n      <svg width=\"12\" height=\"12\" viewBox=\"0 0 12 12\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.3\" style=\"flex-shrink:0;margin-right:8px;\"><circle cx=\"5\" cy=\"5\" r=\"3.5\"/><line x1=\"8\" y1=\"8\" x2=\"11\" y2=\"11\"/></svg>\n      <input type=\"text\" placeholder=\"Search for products, categories...\" style=\"font-family:var(--font-helvetica-monospaced-pro);font-size:9px;font-weight:400;letter-spacing:0.0330em;color:var(--color-text-black);background:transparent;border:none;outline:none;width:100%;padding:19px 0;\" />\n    </div>\n    <button style=\"font-family:var(--font-helvetica-monospaced-pro);font-size:9px;font-weight:400;letter-spacing:0.0330em;color:var(--color-text-black);background:var(--color-background-white);border:none;border-left:1px solid var(--color-text-black);padding:4px 18px 18px;cursor:pointer;white-space:nowrap;border-radius:0;\">SEARCH</button>\n  </div>\n\n  <div style=\"margin-top:20px;padding:0 0 20px;\">\n    <div style=\"font-family:var(--font-helvetica-monospaced-pro);font-size:9px;font-weight:400;letter-spacing:0.0330em;color:var(--color-secondary-text-gray);margin-bottom:10px;\">POPULAR SEARCHES</div>\n    <div style=\"display:flex;flex-wrap:wrap;gap:4px;\">\n      <a href=\"#\" style=\"font-family:var(--font-helvetica-monospaced-pro);font-size:9px;font-weight:400;letter-spacing:0.0330em;color:var(--color-action-violet);text-decoration:underline;text-underline-offset:2px;padding:2px 0;\">Jeans</a>\n      <span style=\"font-family:var(--font-helvetica-monospaced-pro);font-size:9px;color:var(--color-secondary-text-gray);padding:2px 2px;\">/</span>\n      <a href=\"#\" style=\"font-family:var(--font-helvetica-monospaced-pro);font-size:9px;font-weight:400;letter-spacing:0.0330em;color:var(--color-action-violet);text-decoration:underline;text-underline-offset:2px;padding:2px 0;\">T-Shirts</a>\n      <span style=\"font-family:var(--font-helvetica-monospaced-pro);font-size:9px;color:var(--color-secondary-text-gray);padding:2px 2px;\">/</span>\n      <a href=\"#\" style=\"font-family:var(--font-helvetica-monospaced-pro);font-size:9px;font-weight:400;letter-spacing:0.0330em;color:var(--color-action-violet);text-decoration:underline;text-underline-offset:2px;padding:2px 0;\">Bags</a>\n      <span style=\"font-family:var(--font-helvetica-monospaced-pro);font-size:9px;color:var(--color-secondary-text-gray);padding:2px 2px;\">/</span>\n      <a href=\"#\" style=\"font-family:var(--font-helvetica-monospaced-pro);font-size:9px;font-weight:400;letter-spacing:0.0330em;color:var(--color-action-violet);text-decoration:underline;text-underline-offset:2px;padding:2px 0;\">Hoodies</a>\n      <span style=\"font-family:var(--font-helvetica-monospaced-pro);font-size:9px;color:var(--color-secondary-text-gray);padding:2px 2px;\">/</span>\n      <a href=\"#\" style=\"font-family:var(--font-helvetica-monospaced-pro);font-size:9px;font-weight:400;letter-spacing:0.0330em;color:var(--color-action-violet);text-decoration:underline;text-underline-offset:2px;padding:2px 0;\">Runway</a>\n      <span style=\"font-family:var(--font-helvetica-monospaced-pro);font-size:9px;color:var(--color-secondary-text-gray);padding:2px 2px;\">/</span>\n      <a href=\"#\" style=\"font-family:var(--font-helvetica-monospaced-pro);font-size:9px;font-weight:400;letter-spacing:0.0330em;color:var(--color-action-violet);text-decoration:underline;text-underline-offset:2px;padding:2px 0;\">Knitwear</a>\n      <span style=\"font-family:var(--font-helvetica-monospaced-pro);font-size:9px;color:var(--color-secondary-text-gray);padding:2px 2px;\">/</span>\n      <a href=\"#\" style=\"font-family:var(--font-helvetica-monospaced-pro);font-size:9px;font-weight:400;letter-spacing:0.0330em;color:var(--color-action-violet);text-decoration:underline;text-underline-offset:2px;padding:2px 0;\">Coats</a>\n    </div>\n  </div>\n\n  <div style=\"border-top:1px solid #e8e8e8;padding-top:20px;padding-bottom:20px;display:flex;gap:1px;\">\n    <button style=\"font-family:var(--font-helvetica-monospaced-pro);font-size:9px;font-weight:400;letter-spacing:0.0330em;color:var(--color-text-black);background:var(--color-text-black);color:var(--color-background-white);border:none;padding:4px 18px 18px;cursor:pointer;border-radius:0;margin-right:1px;\">SHOP WOMAN</button>\n    <button style=\"font-family:var(--font-helvetica-monospaced-pro);font-size:9px;font-weight:400;letter-spacing:0.0330em;color:var(--color-text-black);background:transparent;border:1px solid var(--color-text-black);padding:4px 18px 18px;cursor:pointer;border-radius:0;\">SHOP MAN</button>\n  </div>\n\n</div>",
+          "name": "Search Input with Action Buttons",
+          "role": "",
+          "description": ""
+        },
+        {
+          "name": "Primary Navigation Link",
+          "role": "Top navigation items",
+          "description": "Text Black on Background White, no background, 0px border-radius, 4px top padding, 9px horizontal padding, 18px bottom padding. Uses Helvetica Monospaced Pro, weight 400, letter-spacing 0.0330em. Underlined with Action Violet (0px bottom padding) when active."
+        },
+        {
+          "name": "Ghost Button",
+          "role": "Primary action triggers, navigation",
+          "description": "Transparent background, Text Black text. 0px border-radius. Padding of 4px top, 9px horizontal, 18px bottom. Helvetica Monospaced Pro, weight 400, letter-spacing 0.0330em."
+        },
+        {
+          "name": "Accent Link Button",
+          "role": "Secondary calls to action or embedded links",
+          "description": "Transparent background, Action Violet text, underlined with Action Violet. 0px border-radius. Padding of 2px top, 0px horizontal, 0px bottom. Helvetica Monospaced Pro, weight 400, letter-spacing 0.0330em."
+        },
+        {
+          "name": "Standard Input Field",
+          "role": "Text input for forms and search",
+          "description": "Form Surface background, Text Black text. 0px border-radius. Padding of 19px vertical, 10px horizontal. Uses Helvetica Monospaced Pro, weight 400, letter-spacing 0.0330em."
+        },
+        {
+          "name": "Icon Button",
+          "role": "Utility functions like search, help, account, cart.",
+          "description": "Text Black icon, typically 4px padding around the icon. No background or border. Interactivity often implied by parent container's hover state or Action Violet color if active."
+        },
+        {
+          "name": "Footer Section Link",
+          "role": "Footer navigation and social links",
+          "description": "Secondary Text Gray text (can be Text Black). No background or border. Uses Helvetica Monospaced Pro, weight 400, letter-spacing 0.0330em. Often grouped in 4px vertical stacks."
+        }
+      ],
+      "typography": [
+        {
+          "role": "This custom monospace font is the signature typographic element, used for all primary text, headings, and UI labels. Its wide letter-spacing and technical precision lend a utilitarian yet high-fashion feel, differentiating the brand from conventional luxury sites.",
+          "sizes": "9px",
+          "family": "Helvetica Monospaced Pro",
+          "weight": "400",
+          "lineHeight": "1.15",
+          "substitute": "Space Mono",
+          "letterSpacing": "0.0330em"
+        }
+      ],
+      "description": "Acne Studios presents a design system that feels like a stark, minimalist gallery exhibiting cutting-edge fashion. The visual identity is built on a high-contrast black and white foundation, leveraging negative space and a single, vivid violet accent. This bold simplicity ensures that the products themselves are the focal point, while a custom monospace typeface adds a distinctive, technical-luxury edge. The overall impression is one of unapologetic sophistication and brand confidence.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "**Quick Color Reference**\n- Text: #000000\n- Background: #ffffff\n- CTA/Accent: #0018a8\n- Secondary Text: #6b6b6b\n- Form Input Background: #f7f7f7\n\n**3-5 Example Component Prompts**\n- Create a top navigation bar: Background White, with 'Shop Woman' button using Helvetica Monospaced Pro 400, #000000 text, 4px top padding, 9px horizontal, 18px bottom. On active, underline with #0018a8, 0px bottom padding. Include a Search icon that's a Text Black stroke.\n- Design an input field for a newsletter signup: Form Surface background, Helvetica Monospaced Pro 400, #000000 text, 19px vertical padding, 10px horizontal padding, 0px border-radius.\n- Generate a primary hero section with two side-by-side product images, each taking 50% width. Overlay 'Acne Studios' in Helvetica Monospaced Pro, large size (e.g., 96px for 'Acne Studios'), weight 400, #000000, letter-spacing 0.0330em, centered visually.\n- Create a social media link: Secondary Text Gray text, Helvetica Monospaced Pro 400, letter-spacing 0.0330em. Label as 'IG'."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775926228105-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775926228105-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/234e9a17-236d-4446-9d58-f83f6806d012",
+  "ranks": {
+    "trending": 401,
+    "popular": 336,
+    "newest": 1178
+  },
+  "localSlug": "acne-studios-234e9a17"
+}

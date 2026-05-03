@@ -1,0 +1,405 @@
+{
+  "id": "b5bc8362-467b-455b-b31c-08a16f224649",
+  "url": "https://niklasrosen.se",
+  "siteName": "Niklas Rosén",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777521485829-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777521485829-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "light",
+  "colors": [
+    {
+      "name": "Midnight Charcoal",
+      "hex": "#1a1a1a"
+    },
+    {
+      "name": "Soft Frost",
+      "hex": "#ededed"
+    },
+    {
+      "name": "Muted Gray",
+      "hex": "#b7b7b7"
+    }
+  ],
+  "fonts": [
+    "Univers Next Pro"
+  ],
+  "northStar": "monochromatic archive on stark paper white",
+  "createdAt": "2026-04-30T03:58:17.099Z",
+  "previewVideoCapturedAt": null,
+  "industry": "design",
+  "fullResult": {
+    "meta": {
+      "url": "https://niklasrosen.se",
+      "siteName": "Niklas Rosén",
+      "extractedAt": "2026-04-30T03:58:17.031Z",
+      "durationMs": 17509,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 974,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#1a1a1a",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.217786502463702
+            },
+            "contexts": [
+              "other",
+              "heading",
+              "link",
+              "body",
+              "icon",
+              "button",
+              "list",
+              "footer"
+            ],
+            "frequency": 3798,
+            "confidence": 1,
+            "prominence": 56262132.68873313,
+            "properties": [
+              "color",
+              "borderColor",
+              "fill"
+            ],
+            "usageCounts": {
+              "icon/fill": 144,
+              "body/color": 6,
+              "icon/color": 72,
+              "link/color": 68,
+              "list/color": 125,
+              "other/fill": 75,
+              "other/color": 536,
+              "button/color": 4,
+              "footer/color": 1,
+              "heading/color": 2,
+              "body/borderColor": 24,
+              "icon/borderColor": 288,
+              "link/borderColor": 272,
+              "list/borderColor": 11,
+              "other/borderColor": 2142,
+              "button/borderColor": 16,
+              "footer/borderColor": 4,
+              "heading/borderColor": 8
+            }
+          },
+          {
+            "hex": "#ededed",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.9461052851327489
+            },
+            "contexts": [
+              "other",
+              "list"
+            ],
+            "frequency": 498,
+            "confidence": 1,
+            "prominence": 39531390.60530031,
+            "properties": [
+              "borderColor"
+            ],
+            "usageCounts": {
+              "list/borderColor": 497,
+              "other/borderColor": 1
+            }
+          },
+          {
+            "hex": "#b7b7b7",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.7794404798137914
+            },
+            "contexts": [
+              "heading",
+              "list",
+              "other",
+              "body"
+            ],
+            "frequency": 57,
+            "confidence": 1,
+            "prominence": 293602.0074757939,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "body/color": 2,
+              "list/color": 4,
+              "other/color": 5,
+              "heading/color": 2,
+              "body/borderColor": 8,
+              "list/borderColor": 8,
+              "other/borderColor": 20,
+              "heading/borderColor": 8
+            }
+          }
+        ],
+        "isDarkMode": false,
+        "colorfulness": 0,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 14.87,
+            "background": "#ededed",
+            "foreground": "#1a1a1a"
+          },
+          {
+            "level": "AAA",
+            "ratio": 8.68,
+            "background": "#b7b7b7",
+            "foreground": "#1a1a1a"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 4,
+            "contexts": [
+              "other",
+              "link",
+              "list",
+              "button"
+            ],
+            "frequency": 382,
+            "properties": [
+              "paddingTop",
+              "marginBottom",
+              "rowGap",
+              "columnGap",
+              "paddingBottom",
+              "paddingRight"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other",
+              "marginBottom|other",
+              "rowGap|other",
+              "columnGap|other",
+              "rowGap|link",
+              "columnGap|link",
+              "paddingBottom|list",
+              "paddingBottom|link",
+              "paddingBottom|other",
+              "paddingRight|link",
+              "paddingRight|button",
+              "paddingBottom|button"
+            ]
+          },
+          {
+            "value": 6,
+            "contexts": [
+              "list",
+              "link",
+              "other",
+              "button"
+            ],
+            "frequency": 126,
+            "properties": [
+              "paddingTop"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|list",
+              "paddingTop|link",
+              "paddingTop|other",
+              "paddingTop|button"
+            ]
+          },
+          {
+            "value": 80,
+            "contexts": [
+              "icon",
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "marginBottom|icon",
+              "marginBottom|other"
+            ]
+          }
+        ],
+        "density": "compact",
+        "baseUnit": 4
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "Univers Next Pro",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 827,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": null,
+        "steps": [
+          {
+            "size": 24,
+            "family": "Univers Next Pro",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "heading",
+              "link",
+              "body",
+              "icon",
+              "button",
+              "list",
+              "footer"
+            ],
+            "frequency": 827,
+            "lineHeight": 1,
+            "letterSpacing": -0.03,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Use Midnight Charcoal (#1a1a1a) for all primary text and critical interactive borders to maintain visual gravity.",
+        "Apply Soft Frost (#ededed) for hairline separators and subtle divisions, particularly for list items and section breaks.",
+        "Maintain a tight, structured hierarchy through generous vertical spacing of 80px between main content blocks.",
+        "Ensure all interactive elements, such as buttons and links, have a 0px border-radius and no distinct background to emphasize content over chrome.",
+        "Strictly adhere to Univers Next Pro 24px weight 400 with -0.0300em letter spacing for all typorgraphic elements to preserve a consistent visual voice.",
+        "Utilize 4px as the foundational unit for small inner element spacing, creating a compact yet legible content display.",
+        "Favor minimal interactive states, relying on subtle text color changes or fine line strokes rather than background fills for feedback."
+      ],
+      "donts": [
+        "Do not introduce strong accent colors or vivid hues; the palette is strictly achromatic to maintain a serious, content-focused atmosphere.",
+        "Avoid using any border-radius greater than 0px on buttons or containers; the design intentionally disavows rounded corners.",
+        "Refrain from using drop shadows or complex elevation techniques; the design should remain flat and stark.",
+        "Do not deviate from the single Univers Next Pro font at 24px weight 400; typographic variety is not part of this system.",
+        "Do not use explicit card backgrounds or paneling; boundaries and hierarchy are established through spacing and subtle borders.",
+        "Do not use full-width backgrounds or color blocks to define sections; transitions should be defined by typography, spacing, and thin lines.",
+        "Avoid marketing-style imagery, decorative backgrounds, or large graphical elements; the focus is on textual information and structured presentation."
+      ],
+      "theme": "light",
+      "colors": [
+        {
+          "hex": "#1a1a1a",
+          "name": "Midnight Charcoal",
+          "role": "Dark borders and separators for elevated surfaces and inverted UI. Do not promote it to the primary CTA color",
+          "group": "neutral"
+        },
+        {
+          "hex": "#ededed",
+          "name": "Soft Frost",
+          "role": "Subtle borders, list item separators — provides visual division without harsh lines, maintaining a light feel",
+          "group": "neutral"
+        },
+        {
+          "hex": "#b7b7b7",
+          "name": "Muted Gray",
+          "role": "Secondary text, subtle decorative lines — offers a softer tone for less emphasized information",
+          "group": "neutral"
+        }
+      ],
+      "layout": "The page adheres to a full-bleed, unconstrained width layout, with central content columns implicitly defined by text alignment and max-width of text blocks. The hero section introduces the designer with a centered name and left-aligned descriptive text. Sections are clearly delineated by generous 80px vertical spacing and sometimes by a hairline border. Content is primarily presented in-list format, with minimal lateral hierarchy. Navigation is minimal, consisting of a sticky top bar and a main index that forms the core of the page structure.",
+      "imagery": "The site is almost entirely devoid of imagery, relying instead on clean typography and structured text. When icons are present (like the arrow icons for navigation), they are simple, outline-based, and rendered in the primary text color, serving purely functional roles without decorative flair. The visual density is extremely low, placing all emphasis on the textual content.",
+      "similar": [
+        {
+          "why": "Monochromatic palette with a focus on text-based portfolio items and clean, unadorned UI.",
+          "business": "Kerem Suer"
+        },
+        {
+          "why": "Minimalist design, strong emphasis on typography over imagery, and subtle interactive elements.",
+          "business": "Build with Argonaut"
+        },
+        {
+          "why": "Clean, grid-like layout for content, restrained color use, and a focus on project presentation through text rather than rich visuals.",
+          "business": "Studiometa"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "none": "0px"
+        },
+        "elementGap": "4px",
+        "sectionGap": "80px",
+        "cardPadding": "0px",
+        "pageMaxWidth": null
+      },
+      "industry": "design",
+      "northStar": "monochromatic archive on stark paper white",
+      "components": [
+        {
+          "name": "Unstyled Text Button",
+          "role": "Interactive navigation and information toggles",
+          "description": "Minimalist button with no background or padding beyond text. Text color is Midnight Charcoal (#1a1a1a). Border radius is 0px. Focus indication is implied by hover line stroke, or text color change only. Used for 'Portfolio', 'Learn more', 'Browse Index'."
+        },
+        {
+          "name": "Index List Item",
+          "role": "Displaying project entries in a structured, scannable format",
+          "description": "Each list item is text-based with padding that implies grouping, without explicit cards or borders. Separated by a 1px solid Soft Frost (#ededed) border. Text uses Univers Next Pro 24px weight 400 with -0.0300em letter spacing. Interaction highlights are text-based."
+        },
+        {
+          "name": "Menu Toggle",
+          "role": "Initiating navigation pane display",
+          "description": "A ghost button, typically displaying 'Menu' or a hamburger icon. Text is Midnight Charcoal (#1a1a1a), no background, no border, no radius. Implicit 0px padding. Transitions on color change for active states."
+        }
+      ],
+      "typography": [
+        {
+          "role": "All textual content, from headings to body text and interactive elements. Its consistent use at a single weight creates a uniform, unadorned voice across the site.",
+          "sizes": "24px",
+          "family": "Univers Next Pro",
+          "weight": "400",
+          "lineHeight": "1.00",
+          "substitute": "Helvetica Neue",
+          "letterSpacing": "-0.0300em"
+        }
+      ],
+      "description": "The Niklas Rosén portfolio embodies a minimalist, content-first layout with a strong emphasis on typography and structured information. A monochromatic palette of deep charcoal, soft grays, and crisp white defines the interface, creating a serious, uncluttered canvas. Interactivity is subtle, often indicated by fine line treatments rather than bold color fills, allowing the project titles and details to take center stage with a quiet authority.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "Quick Color Reference:\ntext: #1a1a1a\nbackground: #ffffff (implied base background)\nborder: #ededed\naccent: no distinct accent color\nprimary action: no distinct CTA color\n\nExample Component Prompts:\nCreate a header link: text 'Portfolio' using Univers Next Pro 24px weight 400, color Midnight Charcoal (#1a1a1a), 0px padding, no border, 0px radius.\nCreate a project list item: text 'Hyperice (HV3) Product brand identity ID—C 2025' using Univers Next Pro 24px weight 400, color Midnight Charcoal (#1a1a1a), with a 1px solid Soft Frost (#ededed) border on the bottom of the content area.\nCreate a sub-heading: 'Information' using Univers Next Pro 24px weight 400, color Midnight Charcoal (#1a1a1a), followed by a section gap of 80px."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777521485829-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777521485829-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/b5bc8362-467b-455b-b31c-08a16f224649",
+  "ranks": {
+    "trending": 660,
+    "popular": 782,
+    "newest": 15
+  },
+  "localSlug": "niklas-rosen-b5bc8362"
+}

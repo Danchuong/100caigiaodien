@@ -1,0 +1,556 @@
+{
+  "id": "b321ca45-2971-4828-9165-82b77f676bfd",
+  "url": "https://thebeamslondon.com",
+  "siteName": "The Beams",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777512739333-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777512739333-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "light",
+  "colors": [
+    {
+      "name": "Canvas White",
+      "hex": "#ffffff"
+    },
+    {
+      "name": "Ink Black",
+      "hex": "#000000"
+    },
+    {
+      "name": "Terra Cotta",
+      "hex": "#a05b38",
+      "gradient": "linear-gradient(287deg, rgba(230,126,79,1), rgba(160,91,56,1))"
+    }
+  ],
+  "fonts": [
+    "NeueHaas-web"
+  ],
+  "northStar": "Industrial monochrome canvas",
+  "createdAt": "2026-04-30T01:32:36.100Z",
+  "previewVideoCapturedAt": null,
+  "industry": "other",
+  "fullResult": {
+    "meta": {
+      "url": "https://thebeamslondon.com",
+      "siteName": "The Beams",
+      "extractedAt": "2026-04-30T01:32:36.033Z",
+      "durationMs": 29997,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 80,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "other",
+              "link",
+              "button",
+              "hero",
+              "heading",
+              "body",
+              "input",
+              "footer",
+              "list"
+            ],
+            "frequency": 317,
+            "confidence": 1,
+            "prominence": 25654795.419567857,
+            "properties": [
+              "color",
+              "borderColor",
+              "fill"
+            ],
+            "usageCounts": {
+              "body/color": 1,
+              "hero/color": 1,
+              "link/color": 9,
+              "list/color": 9,
+              "other/fill": 12,
+              "input/color": 1,
+              "other/color": 33,
+              "button/color": 2,
+              "footer/color": 1,
+              "heading/color": 4,
+              "body/borderColor": 4,
+              "hero/borderColor": 4,
+              "link/borderColor": 36,
+              "list/borderColor": 36,
+              "input/borderColor": 4,
+              "other/borderColor": 132,
+              "button/borderColor": 8,
+              "footer/borderColor": 4,
+              "heading/borderColor": 16
+            }
+          },
+          {
+            "hex": "#ffffff",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 1.0000000000000002
+            },
+            "contexts": [
+              "other",
+              "heading",
+              "button"
+            ],
+            "frequency": 41,
+            "confidence": 1,
+            "prominence": 6159250.552868316,
+            "properties": [
+              "backgroundColor",
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "other/color": 4,
+              "button/color": 3,
+              "heading/color": 1,
+              "other/borderColor": 16,
+              "button/borderColor": 12,
+              "heading/borderColor": 4,
+              "other/backgroundColor": 1
+            }
+          }
+        ],
+        "isDarkMode": false,
+        "colorfulness": 0,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 21,
+            "background": "#ffffff",
+            "foreground": "#000000"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 6,
+            "contexts": [
+              "input",
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingBottom",
+              "marginTop"
+            ],
+            "propertyContextPairs": [
+              "paddingBottom|input",
+              "marginTop|other"
+            ]
+          },
+          {
+            "value": 11,
+            "contexts": [
+              "footer",
+              "list"
+            ],
+            "frequency": 3,
+            "properties": [
+              "paddingTop",
+              "paddingBottom",
+              "marginTop"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|footer",
+              "paddingBottom|footer",
+              "marginTop|list"
+            ]
+          },
+          {
+            "value": 19,
+            "contexts": [
+              "other",
+              "hero",
+              "footer",
+              "list"
+            ],
+            "frequency": 19,
+            "properties": [
+              "paddingRight",
+              "paddingLeft",
+              "columnGap",
+              "marginBottom",
+              "paddingTop",
+              "marginRight"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|other",
+              "paddingLeft|other",
+              "columnGap|other",
+              "paddingRight|hero",
+              "paddingLeft|hero",
+              "marginBottom|other",
+              "paddingTop|other",
+              "paddingRight|footer",
+              "paddingLeft|footer",
+              "columnGap|footer",
+              "marginRight|list"
+            ]
+          },
+          {
+            "value": 46,
+            "contexts": [
+              "footer"
+            ],
+            "frequency": 1,
+            "properties": [
+              "marginTop"
+            ],
+            "propertyContextPairs": [
+              "marginTop|footer"
+            ]
+          },
+          {
+            "value": 257,
+            "contexts": [
+              "hero"
+            ],
+            "frequency": 1,
+            "properties": [
+              "marginTop"
+            ],
+            "propertyContextPairs": [
+              "marginTop|hero"
+            ]
+          }
+        ],
+        "density": "comfortable",
+        "baseUnit": 6
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "NeueHaas-web",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 69,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 16,
+          "name": "Major Third",
+          "ratio": 1.25,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 19,
+            "family": "NeueHaas-web",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "hero",
+              "body",
+              "link",
+              "input",
+              "footer",
+              "list"
+            ],
+            "frequency": 48,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 19,
+            "family": "NeueHaas-web",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "button"
+            ],
+            "frequency": 4,
+            "lineHeight": 1.95,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 19,
+            "family": "NeueHaas-web",
+            "weight": 400,
+            "contexts": [
+              "link"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.95,
+            "letterSpacing": -0.03,
+            "textTransform": "none"
+          },
+          {
+            "size": 19,
+            "family": "NeueHaas-web",
+            "weight": 400,
+            "contexts": [
+              "button"
+            ],
+            "frequency": 1,
+            "lineHeight": 2.9,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 19,
+            "family": "NeueHaas-web",
+            "weight": 400,
+            "contexts": [
+              "button"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 29,
+            "family": "NeueHaas-web",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "button"
+            ],
+            "frequency": 3,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 38,
+            "family": "NeueHaas-web",
+            "weight": 400,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 3,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 95,
+            "family": "NeueHaas-web",
+            "weight": 400,
+            "contexts": [
+              "heading",
+              "other"
+            ],
+            "frequency": 5,
+            "lineHeight": 0.9,
+            "letterSpacing": -0.03,
+            "textTransform": "none"
+          },
+          {
+            "size": 160,
+            "family": "NeueHaas-web",
+            "weight": 400,
+            "contexts": [
+              "heading",
+              "other"
+            ],
+            "frequency": 3,
+            "lineHeight": 0.9,
+            "letterSpacing": -0.03,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Prioritize Ink Black text (#000000) on Canvas White (#ffffff) backgrounds for all primary content, ensuring maximum legibility.",
+        "Use NeueHaas-web font family consistently across all text elements, leveraging its singular weight (400) and varying sizes for hierarchy.",
+        "Apply a letter-spacing of -0.0300em (approx. -0.9px at 30px up to -4.8px at 160px) to all text for a compact, editorial feel.",
+        "Maintain a strict 0px border-radius system; all corners must be sharp and unrounded.",
+        "Utilize Ink Black (#000000) bottom borders as the primary visual indicator for interactive elements like buttons and input fields.",
+        "Ensure generous vertical spacing with a base unit of 6px, creating a comfortable density where sections and elements breathe."
+      ],
+      "donts": [
+        "Avoid using any colors outside of the monochrome Ink Black and Canvas White, except for the Terra Cotta gradient for distinct hero or atmospheric sections.",
+        "Do not introduce shadows or any form of elevation (e.g., box-shadow) for interactive elements or containers.",
+        "Do not use heavily filled or overtly styled buttons; actions should be communicated primarily through text and minimal borders.",
+        "Do not introduce decorative icons or illustrations that deviate from the stark, high-contrast aesthetic.",
+        "Avoid mixed letter-spacing values across different text roles; `NeueHaas-web`'s inherent -0.0300em is a cornerstone.",
+        "Do not vary line-height aggressively at smaller text sizes; stick to the specified values which are often condensed for headlines."
+      ],
+      "theme": "light",
+      "colors": [
+        {
+          "hex": "#ffffff",
+          "name": "Canvas White",
+          "role": "Hairline borders, dividers, input outlines, and card edges on light surfaces. Do not promote it to the primary CTA color",
+          "group": "neutral"
+        },
+        {
+          "hex": "#000000",
+          "name": "Ink Black",
+          "role": "Neutral form states, badge text, and quiet UI feedback where color should stay understated. Do not promote it to the primary CTA color",
+          "group": "neutral"
+        },
+        {
+          "hex": "#a05b38",
+          "name": "Terra Cotta",
+          "role": "Hero section background — deep, warm, and earthy, evoking an aged, material quality",
+          "group": "accent",
+          "gradient": "linear-gradient(287deg, rgba(230,126,79,1), rgba(160,91,56,1))"
+        }
+      ],
+      "layout": "The page maintains a maximum-width contained layout rather than being full-bleed. The hero section often features a full-viewport image or gradient with centered headline text. Section rhythm is often defined by large, distinct blocks, sometimes alternating between text-heavy and image-heavy, but always with consistent vertical spacing. Content arrangement leans towards centered stacks for headlines and body text, with occasional two-column layouts for descriptive paragraphs that alternate text and potentially inferred imagery from the layout. Navigation is a minimal top bar with left-aligned brand and centered primary links.",
+      "imagery": "The site primarily uses photography, featuring wide-angle, low-key, industrial shots often with a warm, somewhat desaturated filter. Imagery acts as a decorative atmosphere rather than containing explicit content, often blurring into an abstract pattern, such as the Terra Cotta gradient with light streaks. It is typically full-bleed or large background elements, creating immersive sections. Icons appear minimal, outlined, and monochromatic, integrated subtly into the UI.",
+      "similar": [
+        {
+          "why": "Prominent use of typography as primary visual, high-contrast monochrome palette, minimal decoration, and stark, editorial layouts.",
+          "business": "AIGA"
+        },
+        {
+          "why": "Emphasis on typographic hierarchy and a black-and-white grid structure for content delivery, with minimal use of color.",
+          "business": "The New York Times"
+        },
+        {
+          "why": "Stark, functional design, reliance on black and white, and geometric simplicity, utilizing typography as a key visual element.",
+          "business": "Bauhaus Archive"
+        },
+        {
+          "why": "Clean, large-scale typography, high-contrast monochromatic design to highlight art, and a minimal, content-focused approach.",
+          "business": "Artsy"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "none": "0px"
+        },
+        "elementGap": "19px",
+        "sectionGap": "46px",
+        "cardPadding": "19px",
+        "pageMaxWidth": null
+      },
+      "industry": "other",
+      "surfaces": [
+        {
+          "hex": "#ffffff",
+          "name": "Canvas White",
+          "level": 1,
+          "purpose": "Primary page background and default surface for all content."
+        }
+      ],
+      "northStar": "Industrial monochrome canvas",
+      "typeScale": [
+        {
+          "role": "body-sm",
+          "size": 19,
+          "lineHeight": 1.95,
+          "letterSpacing": -0.57
+        },
+        {
+          "role": "body",
+          "size": 29,
+          "lineHeight": 1.95,
+          "letterSpacing": -0.87
+        },
+        {
+          "role": "heading-sm",
+          "size": 38,
+          "lineHeight": 1.1,
+          "letterSpacing": -1.14
+        },
+        {
+          "role": "heading",
+          "size": 95,
+          "lineHeight": 0.9,
+          "letterSpacing": -2.85
+        },
+        {
+          "role": "display",
+          "size": 160,
+          "lineHeight": 0.9,
+          "letterSpacing": -4.8
+        }
+      ],
+      "components": [
+        {
+          "name": "Text Outline Button (Light)",
+          "role": "Secondary action button or navigation element.",
+          "description": "Minimal button with Ink Black text on a Canvas White background, featuring a 1px Ink Black bottom border. No border radius. Padding: 0px top/bottom, 0px left/right. Font: NeueHaas-web, weight 400."
+        },
+        {
+          "name": "Text Outline Button (Dark)",
+          "role": "Secondary action button or navigation element on dark backgrounds.",
+          "description": "Minimal button with Canvas White text on a transparent background, featuring a 1px Canvas White bottom border. No border radius. Padding: 0px top/bottom, 40px left/right initially, shrinking to 15.2381px. Font: NeueHaas-web, weight 400."
+        },
+        {
+          "name": "Text Input",
+          "role": "Standard text input field for forms.",
+          "description": "Ink Black text on a transparent background, with a 1px Ink Black bottom border. No border radius. Padding: 0px top/left/right, 5.71429px bottom. Font: NeueHaas-web, weight 400."
+        },
+        {
+          "name": "Header Navigation Link",
+          "role": "Top-level navigation items.",
+          "description": "Ink Black text on transparent. No border. Font: NeueHaas-web, weight 400. Text is uppercase for top-level links like 'BEAMS' and 'Centre for Culture'."
+        }
+      ],
+      "typography": [
+        {
+          "role": "All textual content — headlines, body, links, buttons, inputs. Its consistent use at various scales reinforces a unified, minimalist, and precise brand voice. The tight letter spacing ensures a compact, considered appearance.",
+          "sizes": "19px, 29px, 38px, 95px, 160px",
+          "family": "NeueHaas-web",
+          "weight": "400",
+          "lineHeight": "0.90, 1.00, 1.10, 1.95, 2.90",
+          "substitute": "Helvetica Neue",
+          "letterSpacing": "-0.0300em"
+        }
+      ],
+      "description": "The Beams presents a stark, high-contrast visual system, built upon a monochrome palette and large-scale typography. It leverages raw, industrial aesthetics by minimizing decorative elements, relying instead on bold, unadorned text on clean white surfaces. Interaction is signaled through subtle borders and text-only links, avoiding visually heavy components to maintain an austere, content-forward focus.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "Quick Color Reference:\ntext: #000000\nbackground: #ffffff\nborder: #000000\naccent: #a05b38\nprimary action: no distinct CTA color\n\nExample Component Prompts:\n1. Create a primary hero section: use a deep Terra Cotta gradient (#a05b38 as hex, linear-gradient(287deg, rgba(230,126,79,1), rgba(160,91,56,1)) as gradient) as the background. Place 'Centre For New Culture' in NeueHaas-web, size 160px, weight 400, Canvas White (#ffffff) text, letter-spacing -4.8px, centered on the gradient.\n2. Create a Text Outline Button (Dark): 'SIGN UP' in NeueHaas-web, size 19px, weight 400, Canvas White (#ffffff) text. Use a 1px Canvas White bottom border. Padding 0px top/bottom, 40px right, 15.2381px left. No border radius.\n3. Create a text input field: 'Email Address' as placeholder (same styling as regular text inputs) in NeueHaas-web, size 19px, weight 400, Ink Black (#000000) text. Apply a 1px Ink Black bottom border. Padding 0px top/left/right, 5.71429px bottom. No border radius. Background is Canvas White."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777512739333-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777512739333-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/b321ca45-2971-4828-9165-82b77f676bfd",
+  "ranks": {
+    "trending": 1322,
+    "popular": 1321,
+    "newest": 578
+  },
+  "localSlug": "the-beams-b321ca45"
+}

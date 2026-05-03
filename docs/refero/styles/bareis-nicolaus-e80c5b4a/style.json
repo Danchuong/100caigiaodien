@@ -1,0 +1,603 @@
+{
+  "id": "e80c5b4a-fd03-460e-a577-49928a4ab5db",
+  "url": "https://www.bareis-nicolaus.com",
+  "siteName": "Bareis + Nicolaus",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777512921961-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777512921961-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "dark",
+  "colors": [
+    {
+      "name": "Canvas Black",
+      "hex": "#000000"
+    },
+    {
+      "name": "Arctic White",
+      "hex": "#ffffff"
+    },
+    {
+      "name": "Subtle Gray",
+      "hex": "#a9a9a9"
+    }
+  ],
+  "fonts": [
+    "Lausanne",
+    "Victor Serif",
+    "Black Tie"
+  ],
+  "northStar": "Graphic Monochrome Canvas: crisp, high-contrast, typographic art.",
+  "createdAt": "2026-04-30T01:36:13.911Z",
+  "previewVideoCapturedAt": null,
+  "industry": "agency",
+  "fullResult": {
+    "meta": {
+      "url": "https://www.bareis-nicolaus.com",
+      "siteName": "Bareis + Nicolaus",
+      "extractedAt": "2026-04-30T01:36:13.844Z",
+      "durationMs": 64614,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 861,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#ffffff",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 1.0000000000000002
+            },
+            "contexts": [
+              "other",
+              "link",
+              "nav",
+              "button",
+              "heading",
+              "body",
+              "card",
+              "image",
+              "footer"
+            ],
+            "frequency": 4025,
+            "confidence": 1,
+            "prominence": 167535969.02492157,
+            "properties": [
+              "color",
+              "borderColor",
+              "fill",
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "nav/color": 10,
+              "body/color": 13,
+              "card/color": 51,
+              "link/color": 56,
+              "other/fill": 18,
+              "image/color": 35,
+              "other/color": 543,
+              "button/color": 40,
+              "heading/color": 53,
+              "nav/borderColor": 40,
+              "body/borderColor": 52,
+              "card/borderColor": 204,
+              "link/borderColor": 224,
+              "image/borderColor": 140,
+              "other/borderColor": 2172,
+              "button/borderColor": 160,
+              "heading/borderColor": 212,
+              "button/backgroundColor": 1,
+              "footer/backgroundColor": 1
+            }
+          },
+          {
+            "hex": "#a9a9a9",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.7348085828066984
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 20,
+            "confidence": 1,
+            "prominence": 511006.6012835038,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "other/color": 4,
+              "other/borderColor": 16
+            }
+          },
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "nav",
+              "other",
+              "button",
+              "footer",
+              "link"
+            ],
+            "frequency": 237,
+            "confidence": 1,
+            "prominence": 443372.9655873741,
+            "properties": [
+              "backgroundColor",
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "link/color": 3,
+              "other/color": 35,
+              "footer/color": 1,
+              "link/borderColor": 12,
+              "other/borderColor": 140,
+              "footer/borderColor": 4,
+              "nav/backgroundColor": 2,
+              "other/backgroundColor": 1,
+              "button/backgroundColor": 39
+            }
+          }
+        ],
+        "isDarkMode": true,
+        "colorfulness": 0,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 21,
+            "background": "#000000",
+            "foreground": "#ffffff"
+          },
+          {
+            "level": "AAA",
+            "ratio": 8.94,
+            "background": "#000000",
+            "foreground": "#a9a9a9"
+          },
+          {
+            "level": "fail",
+            "ratio": 2.35,
+            "background": "#ffffff",
+            "foreground": "#a9a9a9"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [
+          {
+            "value": 120,
+            "contexts": [
+              "nav",
+              "other",
+              "button"
+            ],
+            "frequency": 94
+          }
+        ],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 7,
+            "contexts": [
+              "nav",
+              "other"
+            ],
+            "frequency": 45,
+            "properties": [
+              "marginRight",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "marginRight|nav",
+              "marginRight|other",
+              "paddingBottom|other"
+            ]
+          },
+          {
+            "value": 8,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 3,
+            "properties": [
+              "paddingTop"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other"
+            ]
+          },
+          {
+            "value": 10,
+            "contexts": [
+              "nav",
+              "button",
+              "other"
+            ],
+            "frequency": 93,
+            "properties": [
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingBottom|nav",
+              "paddingBottom|button",
+              "paddingBottom|other"
+            ]
+          },
+          {
+            "value": 12,
+            "contexts": [
+              "nav",
+              "button",
+              "other"
+            ],
+            "frequency": 123,
+            "properties": [
+              "paddingTop",
+              "marginRight"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|nav",
+              "paddingTop|button",
+              "paddingTop|other",
+              "marginRight|other"
+            ]
+          },
+          {
+            "value": 13,
+            "contexts": [
+              "nav",
+              "other",
+              "button"
+            ],
+            "frequency": 228,
+            "properties": [
+              "marginBottom",
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "marginBottom|nav",
+              "paddingRight|nav",
+              "paddingLeft|nav",
+              "marginBottom|other",
+              "paddingRight|button",
+              "paddingLeft|button",
+              "paddingRight|other",
+              "paddingLeft|other"
+            ]
+          },
+          {
+            "value": 20,
+            "contexts": [
+              "other",
+              "link"
+            ],
+            "frequency": 243,
+            "properties": [
+              "paddingTop",
+              "paddingRight",
+              "paddingBottom",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other",
+              "paddingRight|other",
+              "paddingBottom|other",
+              "paddingLeft|other",
+              "paddingTop|link",
+              "paddingRight|link",
+              "paddingBottom|link",
+              "paddingLeft|link"
+            ]
+          },
+          {
+            "value": 29,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 9,
+            "properties": [
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "marginBottom|body"
+            ]
+          }
+        ],
+        "density": "comfortable",
+        "baseUnit": 4
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "Lausanne",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 823,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "Victor Serif",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 20,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "Black Tie",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 1,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": null,
+        "steps": [
+          {
+            "size": 24,
+            "family": "Lausanne",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "link",
+              "nav",
+              "card",
+              "image"
+            ],
+            "frequency": 447,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 24,
+            "family": "Lausanne",
+            "weight": 400,
+            "contexts": [
+              "nav",
+              "other",
+              "button",
+              "heading",
+              "body",
+              "footer",
+              "link"
+            ],
+            "frequency": 373,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 24,
+            "family": "Black Tie",
+            "weight": 400,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 24,
+            "family": "Victor Serif",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "body",
+              "link"
+            ],
+            "frequency": 20,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 72,
+            "family": "Lausanne",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "heading"
+            ],
+            "frequency": 3,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Prioritize Canvas Black (#000000) as the dominant background color for all primary surfaces.",
+        "Use Arctic White (#ffffff) exclusively for primary text, borders, and active states to maintain high contrast.",
+        "Apply a 120px border radius to all interactive elements like buttons and navigation items for a consistent 'pill' shape.",
+        "Maintain a 2px stroke width for all borders, particularly for ghost buttons and interactive links (e.g., Arctic White on Canvas Black).",
+        "Employ the Lausanne font for all navigational text, headings, and body copy to ensure brand consistency.",
+        "Utilize 13px as the primary 'elementGap' between interactive components and internal card padding."
+      ],
+      "donts": [
+        "Avoid using saturated colors; the system relies strictly on a monochrome palette of Canvas Black, Arctic White, and Subtle Gray.",
+        "Do not introduce shadows or elevation; surfaces are flat and blend seamlessly into the background.",
+        "Never deviate from the 2px border width for interactive elements, as this is a core stylistic cue.",
+        "Do not use highly decorative gradients or background images in primary UI components; the focus is on typography and clean interaction.",
+        "Avoid arbitrary changes in border radius; the 120px value is a signature design element for interactive components.",
+        "Do not use font weights other than 400 for any of the typefaces, as weight variation is not part of the system's expressive range."
+      ],
+      "theme": "dark",
+      "colors": [
+        {
+          "hex": "#000000",
+          "name": "Canvas Black",
+          "role": "Page background, primary button fill, interactive link borders — establishing a high-contrast dark theme",
+          "group": "neutral"
+        },
+        {
+          "hex": "#ffffff",
+          "name": "Arctic White",
+          "role": "Primary text color, button and navigation borders, active button fill — serves as the primary contrasting element against Canvas Black",
+          "group": "neutral"
+        },
+        {
+          "hex": "#a9a9a9",
+          "name": "Subtle Gray",
+          "role": "Secondary text and muted borders — offering a slight de-emphasis while maintaining readability on Canvas Black",
+          "group": "neutral"
+        }
+      ],
+      "layout": "The page structure is a split layout: a dominant left-hand navigation and content area, set against a dynamic, image-heavy right column that showcases projects in a full-bleed manner. The left column maintains a contained max-width of 721px. Sections are visually separated by deep vertical spacing provided by a 29px section gap. The hero section is characterized by large, bold typography on the left and a prominent, full-bleed image on the right. Content within the left column is often a centered stack of typographic elements and pill-shaped filters. Navigation is a sticky top bar within the left column.",
+      "imagery": "This system features a dynamic mix of product photography and lifestyle imagery, often cropped and presented within a full-bleed grid pattern that contrasts sharply with the typographic UI. Photography is typically vibrant and detailed, often showing close-ups or action shots. The imagery acts as the visual counterpoint to the stark, minimal UI, providing bursts of detailed, contextual information. Images are generally contained within their own visual blocks, without overlapping, and often appear as part of a two-column grid. Icons are simple, outlined, and monochromatic, matching the overall UI aesthetic.",
+      "similar": [
+        {
+          "why": "High-contrast dark mode with minimal UI and a strong focus on typography and image grids.",
+          "business": "Kerem Suer"
+        },
+        {
+          "why": "Monochrome palette, emphasis on custom typography, and a grid-based content presentation.",
+          "business": "Basic Type"
+        },
+        {
+          "why": "Stark contrast, dark canvas, and a focus on large-scale typography paired with bold imagery.",
+          "business": "Build in Amsterdam"
+        },
+        {
+          "why": "Black and white visual language, oversized type, and a clean, almost 'anti-design' component approach.",
+          "business": "Anthony Gribben"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "all": "120px"
+        },
+        "elementGap": "13px",
+        "sectionGap": "29px",
+        "cardPadding": "13px",
+        "pageMaxWidth": "721px"
+      },
+      "industry": "agency",
+      "surfaces": [
+        {
+          "hex": "#000000",
+          "name": "Page Canvas",
+          "level": 1,
+          "purpose": "Dominant background for the entire page, setting the dark theme."
+        },
+        {
+          "hex": "#ffffff",
+          "name": "Interactive Surface",
+          "level": 2,
+          "purpose": "Used for selected states of buttons and navigation, providing visual emphasis through color inversion."
+        }
+      ],
+      "northStar": "Graphic Monochrome Canvas: crisp, high-contrast, typographic art.",
+      "components": [
+        {
+          "name": "Pill Button - Dark Filled",
+          "role": "Primary action, navigation items",
+          "description": "Solid Canvas Black background with Arctic White text and a 2px Arctic White border, 120px border radius for a distinct pill shape. Padding is 12px vertical, 13.2px horizontal."
+        },
+        {
+          "name": "Pill Button - Light Filled",
+          "role": "Active state or selected filter",
+          "description": "Arctic White background with Arctic White text and a 2px Arctic White border, 120px border radius. Padding is 12px vertical, 13.2px horizontal. This button likely inverts on hover/active."
+        },
+        {
+          "name": "Pill Button - Ghost",
+          "role": "Secondary actions, filters, navigation",
+          "description": "Transparent background with Arctic White text and a 2px Arctic White border, 120px border radius. Padding is 12px vertical, 13.2px horizontal. Used for most interactive elements where a visual hierarchy is not needed over the background."
+        },
+        {
+          "name": "Content Card - Default",
+          "role": "Project showcase, content containers",
+          "description": "Transparent background with no border radius or shadow, effectively blending into the Canvas Black page background. Padding is 0px allowing content to dictate visual spacing. Contains specific project imagery and text."
+        },
+        {
+          "name": "Footer Link",
+          "role": "Informational links in the footer",
+          "description": "Arctic White text on Canvas Black, 2px Arctic White border on inactive state, 13px padding applied for interactive area. Text uses Lausanne font at 24px."
+        }
+      ],
+      "typography": [
+        {
+          "role": "Headings, body text, and interactive elements – a custom typeface providing a strong, modern, and distinct voice, critical for the brand's graphic identity.",
+          "sizes": "24px, 72px",
+          "family": "Lausanne",
+          "weight": "400",
+          "lineHeight": "1.00, 1.20",
+          "substitute": "Inter"
+        },
+        {
+          "role": "Decorative or specific content text – a custom serif font used sparingly to add a subtle contrasting texture.",
+          "sizes": "24px",
+          "family": "Victor Serif",
+          "weight": "400",
+          "lineHeight": "1.20",
+          "substitute": "Lora"
+        },
+        {
+          "role": "Highly specific, rarely used content – a custom font reserved for unique graphic elements, emphasizing rarity.",
+          "sizes": "24px",
+          "family": "Black Tie",
+          "weight": "400",
+          "lineHeight": "1.00",
+          "substitute": "DM Mono"
+        }
+      ],
+      "description": "Bareis + Nicolaus employs a high-contrast, starkly monochrome aesthetic defined by a dominant black canvas and pure white typography. The visual focus is on precise typographic hierarchy and minimal, utilitarian components. Interactivity is signaled through inverted color states or simple bordering, maintaining a graphic, almost print-like presentation with deep, comfortable spacing that allows elements to breathe.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "Quick Color Reference:\ntext: #ffffff\nbackground: #000000\nborder: #ffffff\naccent: no distinct accent color\nprimary action: #000000 (filled action)\n\nExample Component Prompts:\n1. Create a primary navigation item: Lausanne font, 24px weight 400, Arctic White text (#ffffff), 2px Arctic White border (#ffffff), Canvas Black background (#000000), 120px radius, 12px top/bottom padding, 13.2px left/right padding.\n2. Design a selected category filter: Lausanne font, 24px weight 400, Arctic White text (#ffffff), Arctic White background (#ffffff), 120px radius, 12px top/bottom padding, 13.2px left/right padding.\n3. Build a project showcase card: Canvas Black background (#000000), no border, no radius, 0px padding. Content includes Lausanne font at 24px, Arctic White (#ffffff) text, and a full-bleed image within the card itself."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777512921961-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777512921961-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/e80c5b4a-fd03-460e-a577-49928a4ab5db",
+  "ranks": {
+    "trending": 390,
+    "popular": 635,
+    "newest": 565
+  },
+  "localSlug": "bareis-nicolaus-e80c5b4a"
+}

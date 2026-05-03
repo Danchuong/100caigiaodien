@@ -1,0 +1,548 @@
+{
+  "id": "d9fca67f-0b4c-4ba5-ab95-2b3b1018d5a3",
+  "url": "https://www.fornasettiprofumi.com",
+  "siteName": "Fornasetti Profumi ASMR Rooms",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777513594839-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777513594839-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "dark",
+  "colors": [
+    {
+      "name": "Midnight Canvas",
+      "hex": "#000000"
+    },
+    {
+      "name": "Antique Ivory",
+      "hex": "#ffffff"
+    },
+    {
+      "name": "Shadowed Slate",
+      "hex": "#4d4d4d"
+    }
+  ],
+  "fonts": [
+    "Quadrant Text Mono",
+    "Quadrant Text Mono",
+    "Quadrant Text Mono",
+    "Fornasetti Text"
+  ],
+  "northStar": "velvet darkness, whispered elegance",
+  "createdAt": "2026-04-30T01:47:26.764Z",
+  "previewVideoCapturedAt": null,
+  "industry": "other",
+  "fullResult": {
+    "meta": {
+      "url": "https://www.fornasettiprofumi.com",
+      "siteName": "Fornasetti Profumi ASMR Rooms",
+      "extractedAt": "2026-04-30T01:47:26.698Z",
+      "durationMs": 62803,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 129,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#ffffff",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 1.0000000000000002
+            },
+            "contexts": [
+              "other",
+              "hero",
+              "body",
+              "link",
+              "image",
+              "button"
+            ],
+            "frequency": 581,
+            "confidence": 1,
+            "prominence": 11903598.444409134,
+            "properties": [
+              "color",
+              "borderColor",
+              "fill"
+            ],
+            "usageCounts": {
+              "body/color": 11,
+              "hero/color": 1,
+              "link/color": 6,
+              "other/fill": 6,
+              "image/color": 1,
+              "other/color": 94,
+              "button/color": 2,
+              "body/borderColor": 44,
+              "hero/borderColor": 4,
+              "link/borderColor": 24,
+              "image/borderColor": 4,
+              "other/borderColor": 376,
+              "button/borderColor": 8
+            }
+          },
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 13,
+            "confidence": 1,
+            "prominence": 4934331.978986655,
+            "properties": [
+              "fill",
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "other/fill": 12,
+              "other/backgroundColor": 1
+            }
+          },
+          {
+            "hex": "#4d4d4d",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.41838944017064783
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 10,
+            "confidence": 1,
+            "prominence": 77681.53699650051,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "other/color": 2,
+              "other/borderColor": 8
+            }
+          }
+        ],
+        "isDarkMode": true,
+        "colorfulness": 0,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 21,
+            "background": "#000000",
+            "foreground": "#ffffff"
+          },
+          {
+            "level": "AAA",
+            "ratio": 8.45,
+            "background": "#ffffff",
+            "foreground": "#4d4d4d"
+          },
+          {
+            "level": "fail",
+            "ratio": 2.48,
+            "background": "#000000",
+            "foreground": "#4d4d4d"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 8,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 6,
+            "properties": [
+              "rowGap"
+            ],
+            "propertyContextPairs": [
+              "rowGap|other"
+            ]
+          },
+          {
+            "value": 24,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 6,
+            "properties": [
+              "paddingTop",
+              "paddingRight",
+              "paddingBottom",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other",
+              "paddingRight|other",
+              "paddingBottom|other",
+              "paddingLeft|other"
+            ]
+          },
+          {
+            "value": 26,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "marginRight",
+              "marginLeft"
+            ],
+            "propertyContextPairs": [
+              "marginRight|other",
+              "marginLeft|other"
+            ]
+          },
+          {
+            "value": 32,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 6,
+            "properties": [
+              "columnGap"
+            ],
+            "propertyContextPairs": [
+              "columnGap|other"
+            ]
+          },
+          {
+            "value": 48,
+            "contexts": [
+              "link"
+            ],
+            "frequency": 12,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|link",
+              "paddingLeft|link"
+            ]
+          }
+        ],
+        "density": "spacious",
+        "baseUnit": 8
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "Quadrant Text Mono",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 113,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "Fornasetti Text",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 4,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 10,
+          "name": "Minor Second",
+          "ratio": 1.067,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 10,
+            "family": "Quadrant Text Mono",
+            "weight": 400,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 49,
+            "lineHeight": 1.3,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 10,
+            "family": "Quadrant Text Mono",
+            "weight": 400,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 6,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 12,
+            "family": "Quadrant Text Mono",
+            "weight": 400,
+            "contexts": [
+              "body",
+              "other"
+            ],
+            "frequency": 14,
+            "lineHeight": 1.3,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 12,
+            "family": "Quadrant Text Mono",
+            "weight": 400,
+            "contexts": [
+              "button",
+              "body"
+            ],
+            "frequency": 4,
+            "lineHeight": 1.3,
+            "letterSpacing": 0.15,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 16,
+            "family": "Quadrant Text Mono",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "hero",
+              "body",
+              "link",
+              "image"
+            ],
+            "frequency": 40,
+            "lineHeight": 1.5,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "Fornasetti Text",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "body"
+            ],
+            "frequency": 4,
+            "lineHeight": 1.3,
+            "letterSpacing": 0.03,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Ground all designs in Midnight Canvas (#000000) for backgrounds and primary surfaces.",
+        "Use Antique Ivory (#ffffff) sparingly for primary text and subtle UI outlines to create luminous contrast.",
+        "Employ Quadrant Text Mono (IBM Plex Mono) with -0.15em letter-spacing for the majority of UI text to maintain the ethereal, spaced-out feel.",
+        "Limit interactive elements to pure outlines or text-only, avoiding solid filled backgrounds for buttons unless explicitly necessary.",
+        "Maintain a clear sense of visual spaciousness, especially around interactive elements where 48px horizontal padding is typical.",
+        "Utilize Fornasetti Text (Playfair Display) for key headlines or titles, leveraging its classic serif appearance at 16px 400 weight with 0.03em letter-spacing.",
+        "Ensure all components have a 0px border radius, contributing to a sharp, uncluttered aesthetic."
+      ],
+      "donts": [
+        "Do not introduce highly saturated colors; the palette is strictly achromatic and relies on subtle contrast for visual interest.",
+        "Avoid heavy shadows or gradients; elevation should be achieved through subtle borders or implied depth via content placement.",
+        "Do not use generic sans-serif fonts; the distinct monospaced and serif typefaces are fundamental to the brand's atmosphere.",
+        "Avoid dense, information-heavy layouts; prioritize generous white space and minimal content presentation.",
+        "Do not deviate from the 0px border radius; rounded corners would disrupt the precise, antique quality of the design.",
+        "Do not animate elements with fast, jarring transitions; motion should be smooth and subtle (circa 0.5s ease).",
+        "Do not overload screens with interactive elements; the UI is meant to be sparse and meditative."
+      ],
+      "theme": "dark",
+      "colors": [
+        {
+          "hex": "#000000",
+          "name": "Midnight Canvas",
+          "role": "Page backgrounds, full-bleed sections, ambient darkness",
+          "group": "neutral"
+        },
+        {
+          "hex": "#ffffff",
+          "name": "Antique Ivory",
+          "role": "Hairline borders, dividers, input outlines, and card edges on light surfaces. Do not promote it to the primary CTA color",
+          "group": "neutral"
+        },
+        {
+          "hex": "#4d4d4d",
+          "name": "Shadowed Slate",
+          "role": "Muted helper text, secondary information, very subtle borders – recedes into the background, providing information without drawing attention",
+          "group": "neutral"
+        }
+      ],
+      "layout": "The layout is primarily a full-bleed dark canvas with content constrained to a max-width of 900px and centered. The hero section features a centered headline and subtext over the Midnight Canvas. Subsequent sections also follow a centered, single-column content stack, each section appearing to be a distinct 'room' without strong visual dividers between them. The rhythm is slow and deliberate, with a focus on individual content blocks that fade into the dominant darkness. The navigation is minimal and appears as discreet, widely spaced text links or subtle outlined interactive elements.",
+      "imagery": "The site primarily features a lack of overt imagery, creating a stark, UI-dominant experience. When 'imagery' is present, it is represented by conceptual, almost abstract interactive candle elements, consisting of simple white outlines on the black canvas. These outlined 'candles' serve as functional interaction points that reveal content rather than decorative graphics. Icons, if present, are minimal simple outlines. The visual language emphasizes emptiness and suggestion over overt visual content, allowing the focus to remain on the poetic text and implied sensory experience.",
+      "similar": [
+        {
+          "why": "Shared aesthetic of understated luxury, minimal interfaces, emphasis on typography, and a deliberate, unhurried content presentation.",
+          "business": "Aēsop"
+        },
+        {
+          "why": "Similar approach to dark, immersive UI, precise typography with significant letter-spacing, and a focus on core content with minimal distractions.",
+          "business": "Bang & Olufsen"
+        },
+        {
+          "why": "Emphasizes a premium, editorial aesthetic with generous white (or in this case, black) space and classic typography.",
+          "business": "Le Moniteur des Parfums"
+        },
+        {
+          "why": "A blend of traditional elegance with minimalist digital presence, using classic typefaces against a refined, simple color palette.",
+          "business": "The Art of Shaving"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "elements": "0px"
+        },
+        "elementGap": "8px",
+        "sectionGap": "",
+        "cardPadding": "24px",
+        "pageMaxWidth": "900px"
+      },
+      "industry": "other",
+      "surfaces": [
+        {
+          "hex": "#000000",
+          "name": "Midnight Canvas",
+          "level": 0,
+          "purpose": "Primary page background, creating a deep, void-like atmosphere."
+        }
+      ],
+      "northStar": "velvet darkness, whispered elegance",
+      "typeScale": [
+        {
+          "role": "caption",
+          "size": 10,
+          "lineHeight": 1.3
+        },
+        {
+          "role": "body-sm",
+          "size": 12,
+          "lineHeight": 1.3
+        },
+        {
+          "role": "body",
+          "size": 16,
+          "lineHeight": 1.3
+        }
+      ],
+      "components": [
+        {
+          "name": "Ghost Circular Action Button",
+          "role": "Primary interactive elements",
+          "description": "A purely outlined circular button with a 0px border-radius, using Antique Ivory (#ffffff) for its border and text. Buttons are visually light, almost transparent, aligning with the ethereal aesthetic. Text uses Quadrant Text Mono at 16px with -0.15em letter-spacing. Padding for these specific circular elements is implicitly driven by their content, not explicit padding tokens in the data. The visual shape is a circle due to internal SVG paths, which acts as the 'button'."
+        },
+        {
+          "name": "Introductory Text Block",
+          "role": "Hero and section introductions",
+          "description": "Centered text blocks on the Midnight Canvas (#000000) background. Main headline uses Fornasetti Text 16px with 0.03em letter-spacing, color Antique Ivory (#ffffff). Subtext uses Quadrant Text Mono 16px with -0.15em letter-spacing, color Antique Ivory (#ffffff). Content areas are constrained to a max-width of 900px, creating focused viewing."
+        },
+        {
+          "name": "Navigation Link",
+          "role": "Accessing different 'rooms' or sections",
+          "description": "Simple text links using Antique Ivory (#ffffff) on the Midnight Canvas (#000000). Uses Quadrant Text Mono 16px, -0.15em letter-spacing. Padded horizontally with 48px to create generous whitespace, serving as discrete navigation items."
+        },
+        {
+          "name": "Body Copy Text",
+          "role": "Detailed descriptions",
+          "description": "Body copy uses Quadrant Text Mono 12px with -0.15em letter-spacing and Antique Ivory (#ffffff) color, creating a readable yet subdued presence. Lines are set with 1.3 line height."
+        },
+        {
+          "name": "Muted Footer Text",
+          "role": "Legal or experience guidance text",
+          "description": "Small, functional text blocks using Shadowed Slate (#4d4d4d) for extreme subtlety against Midnight Canvas (#000000), using Quadrant Text Mono at 10px with -0.15em letter-spacing. Intended to be almost invisible boilerplate."
+        }
+      ],
+      "typography": [
+        {
+          "role": "Decorative labels, small utility text, captions. The generous letter-spacing makes it airy and subtle, almost a visual texture.",
+          "sizes": "10px, 12px, 16px",
+          "family": "Quadrant Text Mono",
+          "weight": "400",
+          "lineHeight": "1.00, 1.30, 1.50",
+          "substitute": "IBM Plex Mono",
+          "letterSpacing": "-0.15em"
+        },
+        {
+          "role": "Body text for descriptions and detail. Maintains legibility while keeping the ethereal, sparse feel.",
+          "sizes": "10px, 12px, 16px",
+          "family": "Quadrant Text Mono",
+          "weight": "400",
+          "lineHeight": "1.00, 1.30, 1.50",
+          "substitute": "IBM Plex Mono",
+          "letterSpacing": "-0.15em"
+        },
+        {
+          "role": "Main content headings, interactive element text. The wide letter-spacing is a signature, lending an antique, almost hand-set quality.",
+          "sizes": "10px, 12px, 16px",
+          "family": "Quadrant Text Mono",
+          "weight": "400",
+          "lineHeight": "1.00, 1.30, 1.50",
+          "substitute": "IBM Plex Mono",
+          "letterSpacing": "-0.15em"
+        },
+        {
+          "role": "Primary headings, elegant titles. Its slight serif and more compact letter-spacing provide a touch of classic sophistication against the monospaced backdrop.",
+          "sizes": "16px",
+          "family": "Fornasetti Text",
+          "weight": "400",
+          "lineHeight": "1.30",
+          "substitute": "Playfair Display",
+          "letterSpacing": "0.03em"
+        }
+      ],
+      "description": "Fornasetti Profumi ASMR creates a deeply immersive, almost reverent atmosphere through its use of a pure black canvas and delicate, antique-inspired typography. The UI is exceptionally sparse, relying on subtle outlined interactive elements and minimal text to guide the user. The aesthetic is one of quiet luxury and focused attention, where UI elements are barely-there whispers rather than prominent features.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "### Quick Color Reference\n- text: #ffffff\n- background: #000000\n- border: #ffffff\n- accent: no distinct accent color\n- primary action: no distinct CTA color\n\n### 3-5 Example Component Prompts\n- Create a hero section: Midnight Canvas (#000000) background. Headline 'Welcome to Fornasetti Profumi's ASMR rooms,' using Fornasetti Text 16px weight 400, Antique Ivory (#ffffff), letter-spacing 0.03em. Body text 'Light up your candle to open up curated moments of ethereal visuals and soothing sounds.' using Quadrant Text Mono 16px weight 400, Antique Ivory (#ffffff), letter-spacing -0.15em. Both texts are centered within a 900px max-width container.\n- Create an interactive 'candle' placeholder button: A purely text-based link 'SUL TARDI scented candle' using Quadrant Text Mono 16px weight 400, Antique Ivory (#ffffff), letter-spacing -0.15em. Place it on a Midnight Canvas (#000000) background with 48px horizontal padding, and a subtle circular Antique Ivory (#ffffff) border that acts as the interactive hit area without solid fill.\n- Create a muted footer warning: 'FOR A BETTER EXPERIENCE WE RECOMMEND USING HEADPHONES' using Quadrant Text Mono 10px weight 400, Shadowed Slate (#4d4d4d), letter-spacing -0.15em, centered on Midnight Canvas (#000000)."
+        }
+      ],
+      "elevationPhilosophy": "The design intentionally avoids any visible elevation, shadows, or gradients. All visual depth is achieved through stark foreground/background contrast and the ethereal nature of outlined elements. Elements are presented as if floating on, or emerging from, a pure black void, emphasizing a flat, almost two-dimensional, paper-like quality against the deep black."
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777513594839-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777513594839-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/d9fca67f-0b4c-4ba5-ab95-2b3b1018d5a3",
+  "ranks": {
+    "trending": 558,
+    "popular": 730,
+    "newest": 520
+  },
+  "localSlug": "fornasetti-profumi-asmr-rooms-d9fca67f"
+}

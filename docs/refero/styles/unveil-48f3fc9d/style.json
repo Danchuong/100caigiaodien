@@ -1,0 +1,382 @@
+{
+  "id": "48f3fc9d-f423-4774-aea5-9a3d68e39b54",
+  "url": "https://unveil.fr",
+  "siteName": "UNVEIL®",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775925395467-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775925395467-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "light",
+  "colors": [
+    {
+      "name": "Pitch Black",
+      "hex": "#000000"
+    },
+    {
+      "name": "Canvas White",
+      "hex": "#FFFFFF"
+    }
+  ],
+  "fonts": [
+    "nb_international_proregular"
+  ],
+  "northStar": "Architectural blueprint on white marble. Information is presented with surgical precision on a crisp, unblemished background.",
+  "createdAt": "2026-03-03T16:45:01.000Z",
+  "previewVideoCapturedAt": null,
+  "industry": "agency",
+  "fullResult": {
+    "meta": {
+      "url": "https://unveil.fr",
+      "siteName": "UNVEIL®",
+      "extractedAt": "2026-04-11T16:36:50.489Z",
+      "durationMs": 25691,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 42,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "complete",
+          "attempts": 3
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "other",
+              "nav",
+              "button",
+              "list",
+              "link",
+              "hero"
+            ],
+            "frequency": 210,
+            "confidence": 1,
+            "prominence": 10006544.548564512,
+            "properties": [
+              "color",
+              "borderColor"
+            ]
+          }
+        ],
+        "isDarkMode": false,
+        "colorfulness": 0,
+        "contrastPairs": []
+      },
+      "shapes": {
+        "radii": [
+          {
+            "value": 6,
+            "contexts": [
+              "nav",
+              "button",
+              "other"
+            ],
+            "frequency": 6
+          }
+        ],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 2,
+            "frequency": 7,
+            "properties": [
+              "columnGap",
+              "paddingTop"
+            ]
+          },
+          {
+            "value": 4,
+            "frequency": 4,
+            "properties": [
+              "paddingTop",
+              "paddingRight",
+              "paddingBottom",
+              "paddingLeft"
+            ]
+          },
+          {
+            "value": 7,
+            "frequency": 4,
+            "properties": [
+              "paddingBottom"
+            ]
+          },
+          {
+            "value": 10,
+            "frequency": 8,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ]
+          },
+          {
+            "value": 14,
+            "frequency": 8,
+            "properties": [
+              "paddingRight",
+              "paddingLeft",
+              "paddingTop",
+              "paddingBottom"
+            ]
+          },
+          {
+            "value": 16,
+            "frequency": 8,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ]
+          },
+          {
+            "value": 40,
+            "frequency": 4,
+            "properties": [
+              "paddingTop"
+            ]
+          }
+        ],
+        "density": "compact",
+        "baseUnit": null
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "nb_international_proregular",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 42,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 11,
+          "name": "Minor Second",
+          "ratio": 1.067,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 8,
+            "family": "nb_international_proregular",
+            "weight": 400,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.05,
+            "letterSpacing": 0.019,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 11,
+            "family": "nb_international_proregular",
+            "weight": 400,
+            "contexts": [
+              "nav",
+              "button",
+              "other",
+              "list",
+              "link"
+            ],
+            "frequency": 21,
+            "lineHeight": 1.05,
+            "letterSpacing": 0.015,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 11,
+            "family": "nb_international_proregular",
+            "weight": 400,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 6,
+            "lineHeight": 1.24,
+            "letterSpacing": 0.015,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 16,
+            "family": "nb_international_proregular",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "nav",
+              "hero"
+            ],
+            "frequency": 14,
+            "lineHeight": 1.5,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Maintain a monochromatic palette with #FFFFFF backgrounds and #000000 text and borders, avoiding any chromatic colors.",
+        "Apply a consistent 6px border-radius to all interactive containers, including buttons and navigation items.",
+        "Use nb_international_proregular (or Inter) at weight 400 for all text, varying only size and line height.",
+        "Ensure letter spacing is applied: 0.165px for 11px text and 0.304px for 16px text.",
+        "Utilize transparent backgrounds and 1px #000000 borders for default button states, defining borders as the primary visual differentiator.",
+        "Prioritize compact spacing, with internal padding values of 2px, 4px, 7px, 10px, 14px, 16px, and 40px."
+      ],
+      "tags": [
+        "achromatic",
+        "minimal",
+        "technical",
+        "precise",
+        "geometric",
+        "structured",
+        "monochromatic",
+        "high-contrast"
+      ],
+      "donts": [
+        "Do not introduce any chromatic colors; the system relies on a strictly achromatic palette.",
+        "Avoid any drop shadows or complex elevation schemes; depth is suggested through content layering.",
+        "Do not use font weights other than 400; all text should maintain a uniform visual density.",
+        "Do not use border-radius values other than 6px; maintain this consistent level of corner rounding.",
+        "Do not add decorative gradients or textures; surfaces should remain flat and unadorned.",
+        "Do not introduce large content gaps or widely spaced elements; the design emphasizes density and precision."
+      ],
+      "theme": "light",
+      "colors": [
+        {
+          "hex": "#000000",
+          "name": "Pitch Black",
+          "role": "Primary text, button borders, navigation items — establishes a high-contrast foundation for all content.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#FFFFFF",
+          "name": "Canvas White",
+          "role": "Page backgrounds, interactive element fills — provides a pristine, expansive surface.",
+          "group": "neutral"
+        }
+      ],
+      "layout": "The page primarily uses a full-bleed layout for its main content area, with a distinctive diagonal arrangement of overlapping image panels creating a sense of dynamic depth. The navigation is fixed-width at the top-left, centered within its container. There is no explicit page max-width, allowing content to scale to the viewport. Sections appear to flow continuously without strong visual dividers or alternating backgrounds, maintaining a consistent, clean canvas. The information architecture is linear and direct, with navigation elements positioned clearly without visual distraction.",
+      "imagery": "The visual language is characterized by an absence of typical UI imagery. Instead, it utilizes layered, slightly transparent photo-realistic images, often with muted or desaturated tones, that overlap and recede into the background. These images are treated as contextual elements rather than primary content, featuring abstract forms, x-rays, or natural phenomena, suggesting a blend of art and science. They are contained within sharp, unrounded rectangles, contributing to the overall precise and technical aesthetic. Image density is high in the main content area, forming the primary visual interest.",
+      "similar": [
+        {
+          "why": "Shares a precise, architectural feel with minimal, high-contrast typography and a lack of overt color.",
+          "business": "Büro Uebele"
+        },
+        {
+          "why": "Exhibits a similar focus on stark, systematic presentation and thoughtful spatial arrangements of visual assets.",
+          "business": "Certain Measures"
+        },
+        {
+          "why": "Employs a focused color palette and geometric forms to convey a technical yet artistic identity.",
+          "business": "FutureDeluxe"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "all": "6px"
+        },
+        "elementGap": "2-14px",
+        "sectionGap": "",
+        "cardPadding": "10-16px",
+        "pageMaxWidth": null
+      },
+      "category": "agency",
+      "northStar": "Architectural blueprint on white marble. Information is presented with surgical precision on a crisp, unblemished background.",
+      "typeScale": [
+        {
+          "role": "body",
+          "size": 16,
+          "lineHeight": 1.05,
+          "letterSpacing": 0.304
+        }
+      ],
+      "components": [
+        {
+          "html": "<style>:root{--color-pitch-black:#000000;--color-canvas-white:#FFFFFF;--font-nbinternationalproregular:'Inter',sans-serif;--spacing-4:4px;--spacing-7:7px;--spacing-10:10px;--spacing-14:14px;--spacing-16:16px;--spacing-40:40px;}*{box-sizing:border-box;margin:0;padding:0;}</style><div style=\"width:600px;background:var(--color-canvas-white);padding:0;font-family:var(--font-nbinternationalproregular);\"><div style=\"display:flex;align-items:stretch;\"><a href=\"#\" style=\"display:flex;align-items:center;padding:var(--spacing-10) var(--spacing-16);border:1px solid rgba(0,0,0,0.12);border-radius:6px 6px 0 0;text-decoration:none;color:var(--color-pitch-black);font-size:16px;font-weight:400;letter-spacing:0.304px;line-height:1.05;white-space:nowrap;background:var(--color-canvas-white);margin-right:2px;\">UNVEIL <sup style=\"font-size:9px;vertical-align:super;\">®</sup>&nbsp;PROJECTS</a><a href=\"#\" style=\"display:flex;align-items:center;padding:var(--spacing-10) var(--spacing-16);border:1px solid rgba(0,0,0,0.12);border-radius:6px 6px 0 0;text-decoration:none;color:var(--color-pitch-black);font-size:16px;font-weight:400;letter-spacing:0.304px;line-height:1.05;white-space:nowrap;background:var(--color-canvas-white);margin-right:2px;\">RESEARCH</a><a href=\"#\" style=\"display:flex;align-items:center;padding:var(--spacing-10) var(--spacing-16);border:1px solid rgba(0,0,0,0.12);border-radius:6px 6px 0 0;text-decoration:none;color:var(--color-pitch-black);font-size:16px;font-weight:400;letter-spacing:0.304px;line-height:1.05;white-space:nowrap;background:var(--color-canvas-white);margin-right:2px;\">STUDIO</a><a href=\"#\" style=\"display:flex;align-items:center;padding:var(--spacing-10) var(--spacing-16);border:1px solid rgba(0,0,0,0.12);border-radius:6px 6px 0 0;text-decoration:none;color:var(--color-pitch-black);font-size:16px;font-weight:400;letter-spacing:0.304px;line-height:1.05;white-space:nowrap;background:var(--color-canvas-white);\">CONTACT</a></div><div style=\"width:100%;height:1px;background:rgba(0,0,0,0.12);\"></div></div>",
+          "name": "Navigation Bar",
+          "role": "",
+          "description": ""
+        },
+        {
+          "html": "<style>:root{--color-pitch-black:#000000;--color-canvas-white:#FFFFFF;--font-nbinternationalproregular:'Inter',sans-serif;--spacing-4:4px;--spacing-7:7px;--spacing-10:10px;--spacing-14:14px;--spacing-16:16px;--spacing-40:40px;}*{box-sizing:border-box;margin:0;padding:0;}</style><div style=\"width:600px;background:var(--color-canvas-white);display:flex;align-items:center;justify-content:flex-end;padding:var(--spacing-16);font-family:var(--font-nbinternationalproregular);\"><div style=\"display:inline-flex;align-items:stretch;border:1px solid var(--color-pitch-black);border-radius:6px;overflow:hidden;\"><a href=\"#\" style=\"display:flex;align-items:center;padding:var(--spacing-7) var(--spacing-10);padding-top:var(--spacing-40);text-decoration:none;color:var(--color-pitch-black);font-size:16px;font-weight:400;letter-spacing:0.304px;line-height:1.05;background:var(--color-pitch-black);color:var(--color-canvas-white);border-right:1px solid var(--color-pitch-black);\">OVERVIEW</a><a href=\"#\" style=\"display:flex;align-items:center;padding:var(--spacing-7) var(--spacing-10);padding-top:var(--spacing-40);text-decoration:none;color:var(--color-pitch-black);font-size:16px;font-weight:400;letter-spacing:0.304px;line-height:1.05;background:var(--color-canvas-white);\">INDEX</a></div></div>",
+          "name": "View Toggle Button Group",
+          "role": "",
+          "description": ""
+        },
+        {
+          "html": "<style>:root{--color-pitch-black:#000000;--color-canvas-white:#FFFFFF;--font-nbinternationalproregular:'Inter',sans-serif;--spacing-4:4px;--spacing-7:7px;--spacing-10:10px;--spacing-14:14px;--spacing-16:16px;--spacing-40:40px;}*{box-sizing:border-box;margin:0;padding:0;}</style><div style=\"width:600px;background:var(--color-canvas-white);padding:var(--spacing-16);font-family:var(--font-nbinternationalproregular);\"><div style=\"display:flex;flex-direction:column;gap:var(--spacing-4);\"><div style=\"display:flex;align-items:center;justify-content:space-between;padding:var(--spacing-10) var(--spacing-14);border:1px solid rgba(0,0,0,0.15);border-radius:6px;background:var(--color-canvas-white);\"><div style=\"display:flex;flex-direction:column;gap:var(--spacing-4);\"><span style=\"font-size:16px;font-weight:400;color:var(--color-pitch-black);letter-spacing:0.304px;line-height:1.05;\">Controlled Burn</span><span style=\"font-size:11px;font-weight:400;color:var(--color-pitch-black);letter-spacing:0.165px;line-height:1.05;opacity:0.5;\">2023 — Photography, Installation</span></div><div style=\"width:64px;height:44px;background:#c8c8c8;border-radius:4px;overflow:hidden;\"><div style=\"width:100%;height:100%;background:linear-gradient(135deg,#888 0%,#bbb 50%,#777 100%);\"></div></div></div><div style=\"display:flex;align-items:center;justify-content:space-between;padding:var(--spacing-10) var(--spacing-14);border:1px solid rgba(0,0,0,0.15);border-radius:6px;background:var(--color-canvas-white);\"><div style=\"display:flex;flex-direction:column;gap:var(--spacing-4);\"><span style=\"font-size:16px;font-weight:400;color:var(--color-pitch-black);letter-spacing:0.304px;line-height:1.05;\">Ossuary Index</span><span style=\"font-size:11px;font-weight:400;color:var(--color-pitch-black);letter-spacing:0.165px;line-height:1.05;opacity:0.5;\">2022 — X-Ray, Research</span></div><div style=\"width:64px;height:44px;background:#d0d0d0;border-radius:4px;overflow:hidden;\"><div style=\"width:100%;height:100%;background:linear-gradient(135deg,#aaa 0%,#ddd 50%,#999 100%);\"></div></div></div><div style=\"display:flex;align-items:center;justify-content:space-between;padding:var(--spacing-10) var(--spacing-14);border:1px solid rgba(0,0,0,0.15);border-radius:6px;background:var(--color-canvas-white);\"><div style=\"display:flex;flex-direction:column;gap:var(--spacing-4);\"><span style=\"font-size:16px;font-weight:400;color:var(--color-pitch-black);letter-spacing:0.304px;line-height:1.05;\">Atmospheric Drift</span><span style=\"font-size:11px;font-weight:400;color:var(--color-pitch-black);letter-spacing:0.165px;line-height:1.05;opacity:0.5;\">2021 — Video, Environment</span></div><div style=\"width:64px;height:44px;background:#b8b8b8;border-radius:4px;overflow:hidden;\"><div style=\"width:100%;height:100%;background:linear-gradient(135deg,#999 0%,#ccc 50%,#888 100%);\"></div></div></div><div style=\"display:flex;align-items:center;justify-content:space-between;padding:var(--spacing-10) var(--spacing-14);border:1px solid rgba(0,0,0,0.15);border-radius:6px;background:var(--color-canvas-white);\"><div style=\"display:flex;flex-direction:column;gap:var(--spacing-4);\"><span style=\"font-size:16px;font-weight:400;color:var(--color-pitch-black);letter-spacing:0.304px;line-height:1.05;\">Veil Study No. 4</span><span style=\"font-size:11px;font-weight:400;color:var(--color-pitch-black);letter-spacing:0.165px;line-height:1.05;opacity:0.5;\">2020 — Sculpture, Mixed Media</span></div><div style=\"width:64px;height:44px;background:#c0c0c0;border-radius:4px;overflow:hidden;\"><div style=\"width:100%;height:100%;background:linear-gradient(135deg,#777 0%,#bbb 50%,#666 100%);\"></div></div></div><div style=\"display:flex;align-items:center;justify-content:space-between;padding:var(--spacing-10) var(--spacing-14);border:1px solid rgba(0,0,0,0.15);border-radius:6px;background:var(--color-canvas-white);\"><div style=\"display:flex;flex-direction:column;gap:var(--spacing-4);\"><span style=\"font-size:16px;font-weight:400;color:var(--color-pitch-black);letter-spacing:0.304px;line-height:1.05;\">Thermal Mapping</span><span style=\"font-size:11px;font-weight:400;color:var(--color-pitch-black);letter-spacing:0.165px;line-height:1.05;opacity:0.5;\">2019 — Data, Imaging</span></div><div style=\"width:64px;height:44px;background:#d8d8d8;border-radius:4px;overflow:hidden;\"><div style=\"width:100%;height:100%;background:linear-gradient(135deg,#aaa 0%,#eee 50%,#999 100%);\"></div></div></div></div><div style=\"margin-top:var(--spacing-14);display:flex;justify-content:space-between;align-items:center;\"><span style=\"font-size:11px;font-weight:400;color:var(--color-pitch-black);letter-spacing:0.165px;opacity:0.4;\">5 PROJECTS</span><a href=\"#\" style=\"font-size:11px;font-weight:400;color:var(--color-pitch-black);letter-spacing:0.165px;text-decoration:none;border-bottom:1px solid var(--color-pitch-black);padding-bottom:1px;\">VIEW ALL</a></div></div>",
+          "name": "Project Card Stack",
+          "role": "",
+          "description": ""
+        },
+        {
+          "name": "Navigation Link",
+          "role": "Primary Navigation",
+          "description": "Black text (#000000) at 16px, weight 400. Letter spacing is 0.304px. Default line height is 1.05. No background, transparent. Active state unknown."
+        },
+        {
+          "name": "Button Default",
+          "role": "Interactive Element",
+          "description": "Transparent background, 1px black border (#000000), 6px border-radius. Padding: 40px top, 10px right, 7px bottom, 10px left. Text is black (#000000), 16px, weight 400, letter spacing 0.304px."
+        },
+        {
+          "name": "Footer Link",
+          "role": "Sub-navigation/Utility",
+          "description": "Black text (#000000) at 11px, weight 400. Letter spacing is 0.165px. No background. Default line height 1.05."
+        }
+      ],
+      "typography": [
+        {
+          "role": "All text elements: navigation links, button labels, main body text. Its subtle spacing and consistent weight are critical to the system's understated, technical feel. Letter spacing increases with font size, maintaining legibility and presence for smaller elements.",
+          "sizes": "11px, 16px",
+          "family": "nb_international_proregular",
+          "weight": "400",
+          "lineHeight": "1.05, 1.24, 1.50",
+          "substitute": "Inter",
+          "letterSpacing": "0.165, 0.304"
+        }
+      ],
+      "description": "This design system evokes a sense of highly precise, almost clinical, digital presentation. The stark achromatic palette and geometric typography create a serious, focused atmosphere. The lack of color accents and subtle interactive states prioritize content and function, presenting information with direct clarity. The overlapping image layers give an illusion of depth and interaction.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "### Quick Color Reference\n- Text: #000000\n- Background: #FFFFFF\n- Button Border: #000000\n- Primary Interactive: #000000 (text)\n- Default Button Fill: transparent\n\n### 3-5 Example Component Prompts\n1. Create a transparent ghost button labeled 'Research': text 'Research' in nb_international_proregular weight 400, 16px, #000000, letter-spacing 0.304px. Button has a 1px #000000 border and 6px border-radius. Padding is 40px top, 10px right, 7px bottom, 10px left.\n2. Generate a navigation link: text 'UNVEIL® Projects' in nb_international_proregular weight 400, 16px, #000000, letter-spacing 0.304px, line-height 1.05. No background or border.\n3. Create a footer link: text 'Overview' in nb_international_proregular weight 400, 11px, #000000, letter-spacing 0.165px, line-height 1.05. No background or border.\n4. Design a header container: background white (#FFFFFF), height 66px. Contain a navigation bar inside."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775925395467-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775925395467-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/48f3fc9d-f423-4774-aea5-9a3d68e39b54",
+  "ranks": {
+    "trending": 249,
+    "popular": 323,
+    "newest": 1099
+  },
+  "localSlug": "unveil-48f3fc9d"
+}

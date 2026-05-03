@@ -1,0 +1,408 @@
+{
+  "id": "c9ec904b-49c9-49f5-96e6-49bd818cd952",
+  "url": "https://block.xyz",
+  "siteName": "Block",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777515965493-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777515965493-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "light",
+  "colors": [
+    {
+      "name": "Canvas White",
+      "hex": "#ffffff"
+    },
+    {
+      "name": "Absolute Black",
+      "hex": "#000000"
+    }
+  ],
+  "fonts": [
+    "Cash Sans",
+    "Times"
+  ],
+  "northStar": "monochromatic minimalist canvas",
+  "createdAt": "2026-04-30T02:26:19.153Z",
+  "previewVideoCapturedAt": null,
+  "industry": "fintech",
+  "fullResult": {
+    "meta": {
+      "url": "https://block.xyz",
+      "siteName": "Block",
+      "extractedAt": "2026-04-30T02:26:19.087Z",
+      "durationMs": 27468,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 57,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "other",
+              "nav",
+              "icon",
+              "heading",
+              "footer"
+            ],
+            "frequency": 246,
+            "confidence": 1,
+            "prominence": 10301083.932133742,
+            "properties": [
+              "color",
+              "borderColor",
+              "fill"
+            ],
+            "usageCounts": {
+              "icon/fill": 2,
+              "nav/color": 18,
+              "icon/color": 1,
+              "other/fill": 9,
+              "other/color": 25,
+              "footer/color": 2,
+              "heading/color": 1,
+              "nav/borderColor": 72,
+              "icon/borderColor": 4,
+              "other/borderColor": 100,
+              "footer/borderColor": 8,
+              "heading/borderColor": 4
+            }
+          }
+        ],
+        "isDarkMode": false,
+        "colorfulness": 0,
+        "contrastPairs": []
+      },
+      "shapes": {
+        "radii": [],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 10,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 32,
+            "properties": [
+              "paddingTop",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|nav",
+              "paddingBottom|nav"
+            ]
+          },
+          {
+            "value": 17,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 32,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|nav",
+              "paddingLeft|nav"
+            ]
+          },
+          {
+            "value": 30,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "rowGap",
+              "columnGap"
+            ],
+            "propertyContextPairs": [
+              "rowGap|other",
+              "columnGap|other"
+            ]
+          },
+          {
+            "value": 35,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 4,
+            "properties": [
+              "rowGap",
+              "columnGap"
+            ],
+            "propertyContextPairs": [
+              "rowGap|nav",
+              "columnGap|nav"
+            ]
+          },
+          {
+            "value": 100,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|other",
+              "paddingLeft|other"
+            ]
+          }
+        ],
+        "density": "comfortable",
+        "baseUnit": null
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "Cash Sans",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 39,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "Times",
+            "source": "system",
+            "weights": [
+              400
+            ],
+            "frequency": 8,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 16,
+          "name": "Minor Second",
+          "ratio": 1.067,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 12,
+            "family": "Cash Sans",
+            "weight": 400,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 16,
+            "lineHeight": 1.4,
+            "letterSpacing": 0.083,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 16,
+            "family": "Times",
+            "weight": 400,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 8,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "Cash Sans",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "nav",
+              "icon",
+              "footer"
+            ],
+            "frequency": 22,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 30,
+            "family": "Cash Sans",
+            "weight": 400,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.26,
+            "letterSpacing": 0.007,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Use Canvas White (#ffffff) for all primary backgrounds and surfaces.",
+        "Apply Absolute Black (#000000) for all text, icons, and borders.",
+        "Prioritize Cash Sans for all headings and UI text content.",
+        "Center-align primary headlines and section content where appropriate to reinforce the focused aesthetic.",
+        "Maintain generous vertical spacing between sections, following the 215-675px range.",
+        "Ensure navigation links use 17px horizontal padding with no background or border.",
+        "Avoid any border-radius; elements should have sharp, rectangular edges."
+      ],
+      "donts": [
+        "Do not introduce any additional colors for UI elements; strictly adhere to the white and black palette.",
+        "Avoid decorative gradients or shadows; the design relies on flatness and strong contrast.",
+        "Do not use Times for prominent headings or UI elements; restrict its use to specific body text instances.",
+        "Do not vary font weights; Cash Sans and Times should consistently use weight 400.",
+        "Avoid dense, packed layouts; embrace generous negative space around elements.",
+        "Do not use border-radius for any component; all corners should be 0px."
+      ],
+      "theme": "light",
+      "colors": [
+        {
+          "hex": "#ffffff",
+          "name": "Canvas White",
+          "role": "Page backgrounds, surface base layer",
+          "group": "neutral"
+        },
+        {
+          "hex": "#000000",
+          "name": "Absolute Black",
+          "role": "Primary text, navigation links, icons, borders, and decorative elements. This single dark hue defines all foreground content against the white canvas",
+          "group": "neutral"
+        }
+      ],
+      "layout": "The page maintains a full-bleed layout with a centered content approach rather than a fixed max-width container, especially for the main content areas. The hero features a large, centered headline accompanied by a simple icon, dominating the initial view. Sections are vertically distinct with significant spacing (215-675px), creating a calm rhythm. Content is primarily stacked and centered, with a clear hierarchy driven by font size and placement. Navigation is handled by a minimal top bar and a similar footer, both text-based and centered to the content axis.",
+      "imagery": "This site uses no visible imagery on the main page. The visual system is purely typographic and layout-driven, relying on a content-first, minimalist approach that directs full attention to the text.",
+      "similar": [
+        {
+          "why": "Shares a monochromatic palette, extensive use of white space, and a focus on clean typography to convey premium simplicity.",
+          "business": "Apple"
+        },
+        {
+          "why": "Employs a minimalist UI, strong typographic hierarchy, and a highly restrained color palette to emphasize clarity and content.",
+          "business": "Stripe"
+        },
+        {
+          "why": "Known for its clean, efficient UI dominated by dark neutrals and sharp typography, similar to Block's precision-first approach.",
+          "business": "Linear"
+        },
+        {
+          "why": "Simple, text-focused design with stark black and white contrast and minimal UI chrome to prioritize content.",
+          "business": "Substack"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "none": "0px"
+        },
+        "elementGap": "30-35px",
+        "sectionGap": "",
+        "cardPadding": "0px",
+        "pageMaxWidth": null
+      },
+      "industry": "fintech",
+      "northStar": "monochromatic minimalist canvas",
+      "typeScale": [
+        {
+          "role": "caption",
+          "size": 12,
+          "lineHeight": 1.26,
+          "letterSpacing": 0.996
+        },
+        {
+          "role": "body",
+          "size": 16,
+          "lineHeight": 1.2,
+          "letterSpacing": 0.112
+        },
+        {
+          "role": "heading",
+          "size": 30,
+          "lineHeight": 1.4,
+          "letterSpacing": 0
+        }
+      ],
+      "components": [
+        {
+          "name": "Navigation Link",
+          "role": "Top and bottom navigation items.",
+          "description": "Uses Cash Sans, size 12px for primary nav and 16px for footer sub-nav, weight 400, color Absolute Black (#000000). Padding is 17px horizontal for top nav items. No visible borders or backgrounds."
+        },
+        {
+          "name": "Centred Brand Headline",
+          "role": "Central page headline for brand messaging.",
+          "description": "Centered text using Cash Sans, size 30px, weight 400, color Absolute Black (#000000), line-height 1.4. This is a prominent focal point for key messages."
+        }
+      ],
+      "typography": [
+        {
+          "role": "Primary brand typeface for all headings and UI elements. Its unique geometry contributes to the brand's distinctive, slightly technical yet approachable feel. The restrained weight maintains the system's lightweight visual character.",
+          "sizes": "12px, 16px, 30px",
+          "family": "Cash Sans",
+          "weight": "400",
+          "weights": [
+            400
+          ],
+          "lineHeight": "1.20, 1.26, 1.40",
+          "substitute": "Inter",
+          "letterSpacing": "0.083em at 12px, 0.007em at 16px, normal at 30px"
+        },
+        {
+          "role": "Limited use for body text, providing a classic counterpoint to the more contemporary Cash Sans. Its use appears highly curated.",
+          "sizes": "16px",
+          "family": "Times",
+          "weight": "400",
+          "weights": [
+            400
+          ],
+          "lineHeight": "1.20",
+          "substitute": "Times New Roman"
+        }
+      ],
+      "description": "Block's design system embodies unadorned clarity: a stark white canvas serves as the backdrop for precise, centered typography. The visual language centers on minimal distraction, prioritizing content with a clean, almost ascetic aesthetic. Interaction is subtle, with elements distinguished primarily through typography and placement rather than color or elaborate surfacing.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "Quick Color Reference:\ntext: #000000\nbackground: #ffffff\nborder: #000000\naccent: no distinct accent color\nprimary action: no distinct CTA color\n\nExample Component Prompts:\nCreate a top navigation bar: Canvas White background, links in Cash Sans 12px, weight 400, Absolute Black (#000000) color, with 17px horizontal padding on each link.\nCreate a central brand statement: 'block builds technology for economic empowerment' using Cash Sans 30px, weight 400, line-height 1.4, Absolute Black (#000000) color, centered on the page.\nCreate a footer navigation: Cash Sans 16px, weight 400, Absolute Black (#000000) color, centered, with 35px horizontal spacing between items."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777515965493-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777515965493-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/c9ec904b-49c9-49f5-96e6-49bd818cd952",
+  "ranks": {
+    "trending": 1150,
+    "popular": 1163,
+    "newest": 371
+  },
+  "localSlug": "block-c9ec904b"
+}

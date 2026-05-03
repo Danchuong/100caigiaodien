@@ -1,0 +1,795 @@
+{
+  "id": "2f0a053b-0596-4212-a4f4-8a7b580acb90",
+  "url": "https://www.keepgrading.com",
+  "siteName": "KeepGrading",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777514973022-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777514973022-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "dark",
+  "colors": [
+    {
+      "name": "Void Black",
+      "hex": "#080808"
+    },
+    {
+      "name": "Canvas White",
+      "hex": "#f8f8f8"
+    },
+    {
+      "name": "Onyx Shadow",
+      "hex": "#000000"
+    }
+  ],
+  "fonts": [
+    "Inter",
+    "Cabinet Grotesk"
+  ],
+  "northStar": "Gallery in an Empty Room",
+  "createdAt": "2026-04-30T02:09:47.925Z",
+  "previewVideoCapturedAt": null,
+  "industry": "media",
+  "fullResult": {
+    "meta": {
+      "url": "https://www.keepgrading.com",
+      "siteName": "KeepGrading",
+      "extractedAt": "2026-04-30T02:09:47.543Z",
+      "durationMs": 23490,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 121,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#f8f8f8",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.9791293560100793
+            },
+            "contexts": [
+              "other",
+              "image",
+              "nav",
+              "link"
+            ],
+            "frequency": 369,
+            "confidence": 1,
+            "prominence": 22451951.275826175,
+            "properties": [
+              "color",
+              "borderColor",
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "nav/color": 8,
+              "link/color": 7,
+              "image/color": 8,
+              "other/color": 50,
+              "nav/borderColor": 32,
+              "link/borderColor": 28,
+              "image/borderColor": 32,
+              "other/borderColor": 200,
+              "nav/backgroundColor": 2,
+              "other/backgroundColor": 2
+            }
+          },
+          {
+            "hex": "#080808",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.13440923139492972
+            },
+            "contexts": [
+              "other",
+              "image",
+              "icon",
+              "list",
+              "link"
+            ],
+            "frequency": 154,
+            "confidence": 1,
+            "prominence": 19148503.836116157,
+            "properties": [
+              "backgroundColor",
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "icon/color": 3,
+              "link/color": 6,
+              "list/color": 1,
+              "other/color": 20,
+              "icon/borderColor": 12,
+              "link/borderColor": 24,
+              "list/borderColor": 4,
+              "other/borderColor": 80,
+              "image/backgroundColor": 1,
+              "other/backgroundColor": 3
+            }
+          },
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "other",
+              "icon",
+              "nav"
+            ],
+            "frequency": 30,
+            "confidence": 1,
+            "prominence": 2550638.2452248204,
+            "properties": [
+              "fill"
+            ],
+            "usageCounts": {
+              "nav/fill": 3,
+              "icon/fill": 6,
+              "other/fill": 21
+            }
+          },
+          {
+            "hex": "#1c6d8a",
+            "oklch": {
+              "c": 0.08703690033338238,
+              "h": 227.12464884573652,
+              "l": 0.5012110493056797
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 140850,
+            "properties": [
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "other/backgroundColor": 1
+            }
+          },
+          {
+            "hex": "#693619",
+            "oklch": {
+              "c": 0.08362474765301561,
+              "h": 48.163354647650245,
+              "l": 0.39265491784252593
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "confidence": 1,
+            "prominence": 133724.87114834465,
+            "properties": [
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "other/backgroundColor": 2
+            }
+          },
+          {
+            "hex": "#1c4369",
+            "oklch": {
+              "c": 0.07895786559569964,
+              "h": 250.23601537998155,
+              "l": 0.37465502523392774
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 116458,
+            "properties": [
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "other/backgroundColor": 1
+            }
+          },
+          {
+            "hex": "#026946",
+            "oklch": {
+              "c": 0.10083750579326642,
+              "h": 161.65919752928323,
+              "l": 0.4604709167012097
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 109195,
+            "properties": [
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "other/backgroundColor": 1
+            }
+          },
+          {
+            "hex": "#1d2d44",
+            "oklch": {
+              "c": 0.04739051681486471,
+              "h": 257.4448464164615,
+              "l": 0.2947467592035904
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 90496,
+            "properties": [
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "other/backgroundColor": 1
+            }
+          },
+          {
+            "hex": "#061c32",
+            "oklch": {
+              "c": 0.05147847227078195,
+              "h": 250.82014077953863,
+              "l": 0.2222316864561209
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 52263,
+            "properties": [
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "other/backgroundColor": 1
+            }
+          },
+          {
+            "hex": "#8ed6ff",
+            "oklch": {
+              "c": 0.09202088966569517,
+              "h": 234.36464295910395,
+              "l": 0.843387623244807
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 10,
+            "confidence": 1,
+            "prominence": 0,
+            "properties": [
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "other/backgroundColor": 10
+            }
+          }
+        ],
+        "isDarkMode": true,
+        "colorfulness": 0.006890278107022182,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 19.77,
+            "background": "#f8f8f8",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 18.86,
+            "background": "#080808",
+            "foreground": "#f8f8f8"
+          },
+          {
+            "level": "AAA",
+            "ratio": 16.21,
+            "background": "#061c32",
+            "foreground": "#f8f8f8"
+          },
+          {
+            "level": "AAA",
+            "ratio": 13.21,
+            "background": "#8ed6ff",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 13.09,
+            "background": "#1d2d44",
+            "foreground": "#f8f8f8"
+          },
+          {
+            "level": "AAA",
+            "ratio": 12.6,
+            "background": "#8ed6ff",
+            "foreground": "#080808"
+          },
+          {
+            "level": "AAA",
+            "ratio": 10.83,
+            "background": "#8ed6ff",
+            "foreground": "#061c32"
+          },
+          {
+            "level": "AAA",
+            "ratio": 9.62,
+            "background": "#1c4369",
+            "foreground": "#f8f8f8"
+          },
+          {
+            "level": "AAA",
+            "ratio": 9.23,
+            "background": "#693619",
+            "foreground": "#f8f8f8"
+          },
+          {
+            "level": "AAA",
+            "ratio": 8.74,
+            "background": "#8ed6ff",
+            "foreground": "#1d2d44"
+          },
+          {
+            "level": "AA",
+            "ratio": 6.43,
+            "background": "#8ed6ff",
+            "foreground": "#1c4369"
+          },
+          {
+            "level": "AA",
+            "ratio": 6.35,
+            "background": "#026946",
+            "foreground": "#f8f8f8"
+          },
+          {
+            "level": "AA",
+            "ratio": 6.17,
+            "background": "#8ed6ff",
+            "foreground": "#693619"
+          },
+          {
+            "level": "AA",
+            "ratio": 5.49,
+            "background": "#1c6d8a",
+            "foreground": "#f8f8f8"
+          },
+          {
+            "level": "fail",
+            "ratio": 4.25,
+            "background": "#8ed6ff",
+            "foreground": "#026946"
+          },
+          {
+            "level": "fail",
+            "ratio": 3.44,
+            "background": "#1c6d8a",
+            "foreground": "#080808"
+          },
+          {
+            "level": "fail",
+            "ratio": 2.97,
+            "background": "#026946",
+            "foreground": "#080808"
+          },
+          {
+            "level": "fail",
+            "ratio": 2.04,
+            "background": "#693619",
+            "foreground": "#080808"
+          },
+          {
+            "level": "fail",
+            "ratio": 1.96,
+            "background": "#1c4369",
+            "foreground": "#080808"
+          },
+          {
+            "level": "fail",
+            "ratio": 1.5,
+            "background": "#8ed6ff",
+            "foreground": "#f8f8f8"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [
+          {
+            "value": 160,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 3
+          },
+          {
+            "value": 9999,
+            "contexts": [
+              "other",
+              "nav"
+            ],
+            "frequency": 2
+          }
+        ],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 12,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 6,
+            "properties": [
+              "paddingTop",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other",
+              "paddingBottom|other"
+            ]
+          },
+          {
+            "value": 15,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 4,
+            "properties": [
+              "columnGap"
+            ],
+            "propertyContextPairs": [
+              "columnGap|other"
+            ]
+          },
+          {
+            "value": 24,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 6,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|other",
+              "paddingLeft|other"
+            ]
+          },
+          {
+            "value": 48,
+            "contexts": [
+              "other",
+              "nav"
+            ],
+            "frequency": 7,
+            "properties": [
+              "paddingTop",
+              "paddingRight",
+              "paddingBottom",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other",
+              "paddingRight|other",
+              "paddingBottom|other",
+              "paddingLeft|other",
+              "paddingTop|nav"
+            ]
+          }
+        ],
+        "density": "comfortable",
+        "baseUnit": 8
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "Inter",
+            "source": "google",
+            "weights": [
+              400
+            ],
+            "frequency": 89,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "Cabinet Grotesk",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 14,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 16,
+          "name": "Minor Third",
+          "ratio": 1.2,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 16,
+            "family": "Inter",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "image",
+              "icon",
+              "nav",
+              "link"
+            ],
+            "frequency": 73,
+            "lineHeight": 1.5,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "Inter",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "link"
+            ],
+            "frequency": 15,
+            "lineHeight": 1.5,
+            "letterSpacing": 0,
+            "textTransform": "capitalize"
+          },
+          {
+            "size": 16,
+            "family": "Cabinet Grotesk",
+            "weight": 400,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.5,
+            "letterSpacing": 0,
+            "textTransform": "capitalize"
+          },
+          {
+            "size": 20,
+            "family": "Inter",
+            "weight": 400,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.4,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 20,
+            "family": "Cabinet Grotesk",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "icon"
+            ],
+            "frequency": 2,
+            "lineHeight": 1.4,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 24,
+            "family": "Cabinet Grotesk",
+            "weight": 400,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "lineHeight": 1.33,
+            "letterSpacing": 0,
+            "textTransform": "capitalize"
+          },
+          {
+            "size": 96,
+            "family": "Cabinet Grotesk",
+            "weight": 400,
+            "contexts": [
+              "list",
+              "other",
+              "link"
+            ],
+            "frequency": 9,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "capitalize"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Prioritize Void Black (#080808) for all primary background surfaces and Canvas White (#f8f8f8) for primary text to maintain high contrast.",
+        "Use Cabinet Grotesk for all primary headings and display text, reserving Inter for body copy and navigation.",
+        "Employ a 9999px border-radius for all interactive buttons and navigation elements to achieve a fully rounded, 'pill' shape.",
+        "Apply a 160px border-radius to all content-bearing cards, giving them a distinctively soft, organic container.",
+        "Maintain a comfortable rhythm with element gaps set to 15px and general section padding at 48px.",
+        "Ensure all interactive elements, where not a solid fill, use a 1px border of Canvas White (#f8f8f8) against the dark background."
+      ],
+      "donts": [
+        "Do not introduce strong accent colors; the palette is intentionally monochrome, letting imagery provide visual interest.",
+        "Avoid using filled buttons as primary calls to action; prefer ghost buttons with Canvas White borders.",
+        "Do not use generic square or slightly rounded corners for cards; the 160px radius is a signature element.",
+        "Do not deviate from the specified font families; Cabinet Grotesk and Inter are integral to the brand's typographic identity.",
+        "Avoid tight spacing; maintain the comfortable density established by 15px element gaps and 48px section padding."
+      ],
+      "theme": "dark",
+      "colors": [
+        {
+          "hex": "#080808",
+          "name": "Void Black",
+          "role": "Page backgrounds, card surfaces, primary text for dark backgrounds",
+          "group": "neutral"
+        },
+        {
+          "hex": "#f8f8f8",
+          "name": "Canvas White",
+          "role": "Hairline borders, dividers, input outlines, and card edges on light surfaces. Do not promote it to the primary CTA color",
+          "group": "neutral"
+        },
+        {
+          "hex": "#000000",
+          "name": "Onyx Shadow",
+          "role": "Illustrative fill for icons and SVG elements, creating subtle depth against darker backgrounds",
+          "group": "neutral"
+        }
+      ],
+      "layout": "The page operates on a full-bleed black background (#080808) that expands to the edges of the viewport, with content centered. Featured image/video content is displayed within distinctively rounded cards (160px radius) that float within this dark space. The hero section likely features a large, impacting visual due to the nature of the brand. Sections appear to maintain consistent vertical spacing of 48px, creating clear divisions. Content is primarily image-dominant, using a grid-like arrangement for projects.",
+      "imagery": "This site prominently features high-quality, full-color photography and video stills. Imagery is generally contained within cards with 160px rounded corners, creating a soft-edged visual presentation. The visuals serve as the primary content, showcasing work examples and creating atmospheric context for the studio's services. The density is image-heavy, with substantial visual real estate dedicated to showcasing product shots often in lifestyle or professional contexts, appearing unmasked with raw edges within their rounded containers. Icons are kept minimal, outlined, and monochromatic, serving purely functional roles like menu toggles.",
+      "similar": [
+        {
+          "why": "Heavy use of dark backgrounds to showcase visual work, relying on high-contrast text and minimal UI elements.",
+          "business": "Aardman Digital"
+        },
+        {
+          "why": "Portfolio-centric site that prioritizes large visuals and video over heavy UI, using a simple dark theme.",
+          "business": "Unit9"
+        },
+        {
+          "why": "Film/animation studio sites that often feature dark interfaces with subtle typography to let their visual projects stand out.",
+          "business": "PostPanic"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "cards": "160px",
+          "buttons": "9999px",
+          "navigation": "9999px"
+        },
+        "elementGap": "15px",
+        "sectionGap": "48px",
+        "cardPadding": "24px",
+        "pageMaxWidth": null
+      },
+      "industry": "media",
+      "northStar": "Gallery in an Empty Room",
+      "typeScale": [
+        {
+          "role": "caption",
+          "size": 16,
+          "lineHeight": 1.4
+        },
+        {
+          "role": "body-sm",
+          "size": 20,
+          "lineHeight": 1.4
+        },
+        {
+          "role": "body",
+          "size": 24,
+          "lineHeight": 1.3
+        },
+        {
+          "role": "body-lg",
+          "size": 96,
+          "lineHeight": 1.3
+        }
+      ],
+      "components": [
+        {
+          "name": "Navigation Link",
+          "role": "Top-level navigation items and secondary links.",
+          "description": "Inter font, 16px, weight 400, Canvas White text (#f8f8f8) on Void Black background (#080808). Hover state shows a subtle underline. Radius 9999px for rounded visual shape on hover/active."
+        },
+        {
+          "name": "Primary Heading",
+          "role": "Main page titles and large section headings.",
+          "description": "Cabinet Grotesk font, 96px, weight 400, Canvas White text (#f8f8f8)."
+        },
+        {
+          "name": "Ghost Button",
+          "role": "Secondary calls to action or navigation elements.",
+          "description": "Canvas White text (#f8f8f8) with a 1px Canvas White border (#f8f8f8). Void Black background (#080808). Inter font, 16px, weight 400. Padding 12px vertical, 24px horizontal. Full pill shape radius 9999px."
+        },
+        {
+          "name": "Media Card",
+          "role": "Containers for images and videos with associated text.",
+          "description": "Void Black background (#080808). Text in Canvas White (#f8f8f8). Features a significantly rounded border radius of 160px, making the cards distinctively soft-edged."
+        },
+        {
+          "name": "Menu Toggle Button",
+          "role": "Hamburger menu icon for mobile or hidden navigation.",
+          "description": "A circular button with a 2px Canvas White stroke (#f8f8f8) and an Onyx Shadow fill (#000000) for the icon. Radius 9999px for a perfect circle."
+        }
+      ],
+      "typography": [
+        {
+          "role": "Body copy and navigation links — a functional, legible sans-serif for everyday content.",
+          "sizes": "16px, 20px",
+          "family": "Inter",
+          "weight": "400",
+          "weights": [
+            400
+          ],
+          "lineHeight": "1.40, 1.50",
+          "substitute": "system-ui",
+          "letterSpacing": "normal"
+        },
+        {
+          "role": "Headings and prominent display text — a custom geometric sans-serif that provides a distinct, modern voice without excessive ornamentation.",
+          "sizes": "16px, 20px, 24px, 96px",
+          "family": "Cabinet Grotesk",
+          "weight": "400",
+          "weights": [
+            400
+          ],
+          "lineHeight": "1.00, 1.33, 1.40, 1.50",
+          "substitute": "sans-serif",
+          "letterSpacing": "normal"
+        }
+      ],
+      "description": "KeepGrading employs a deep, dark canvas as its primary backdrop, featuring a striking black and white contrast. Typography is the main vehicle for conveying information, appearing in clean geometric sans-serifs. Interactive elements are subtly outlined rather than boldly filled, maintaining the overall sleek, low-key aesthetic, ensuring that images and video content are the focal point.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "Quick Color Reference:\ntext: #f8f8f8\nbackground: #080808\nborder: #f8f8f8\naccent: no distinct accent color\nprimary action: no distinct CTA color\n\nExample Component Prompts:\n1. Create a ghost 'Show me more' button: Canvas White (#f8f8f8) text, 16px Inter font, weight 400. 1px Canvas White border (#f8f8f8), Void Black background (#080808), 12px vertical padding, 24px horizontal padding, 9999px radius.\n2. Design a Media Card containing an image: 160px border-radius, Void Black background (#080808). Display 'Louis Vuitton - By The Pool' as a title in Cabinet Grotesk font, 24px, weight 400, Canvas White text (#f8f8f8).\n3. Generate a primary heading for a new section: 'OUR WORK' in Cabinet Grotesk font, 96px, weight 400, Canvas White text (#f8f8f8)."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777514973022-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777514973022-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/2f0a053b-0596-4212-a4f4-8a7b580acb90",
+  "ranks": {
+    "trending": 907,
+    "popular": 1030,
+    "newest": 429
+  },
+  "localSlug": "keepgrading-2f0a053b"
+}

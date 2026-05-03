@@ -1,0 +1,621 @@
+{
+  "id": "430253c2-013d-4a47-a234-d1fa62dbc4bd",
+  "url": "https://www.guillaumetomasi.com",
+  "siteName": "Guillaume Tomasi",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777514045650-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777514045650-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "light",
+  "colors": [
+    {
+      "name": "Canvas White",
+      "hex": "#ffffff"
+    },
+    {
+      "name": "Ink Black",
+      "hex": "#000000"
+    },
+    {
+      "name": "Stone Gray",
+      "hex": "#bfbfbf"
+    },
+    {
+      "name": "Deep Slate",
+      "hex": "#212121"
+    }
+  ],
+  "fonts": [
+    "NeueMachina"
+  ],
+  "northStar": "Gallery Canvas, Monochromatic Depth",
+  "createdAt": "2026-04-30T01:54:19.483Z",
+  "previewVideoCapturedAt": null,
+  "industry": "design",
+  "fullResult": {
+    "meta": {
+      "url": "https://www.guillaumetomasi.com",
+      "siteName": "Guillaume Tomasi",
+      "extractedAt": "2026-04-30T01:54:19.414Z",
+      "durationMs": 24039,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 96,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "other",
+              "nav",
+              "button",
+              "hero",
+              "body",
+              "heading",
+              "image"
+            ],
+            "frequency": 389,
+            "confidence": 1,
+            "prominence": 11155100.086619494,
+            "properties": [
+              "color",
+              "borderColor",
+              "backgroundColor",
+              "fill"
+            ],
+            "usageCounts": {
+              "nav/color": 12,
+              "body/color": 4,
+              "hero/color": 1,
+              "other/fill": 3,
+              "image/color": 6,
+              "other/color": 51,
+              "button/color": 2,
+              "heading/color": 1,
+              "nav/borderColor": 48,
+              "body/borderColor": 16,
+              "hero/borderColor": 4,
+              "image/borderColor": 24,
+              "other/borderColor": 204,
+              "button/borderColor": 8,
+              "heading/borderColor": 4,
+              "other/backgroundColor": 1
+            }
+          },
+          {
+            "hex": "#ffffff",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 1.0000000000000002
+            },
+            "contexts": [
+              "nav",
+              "heading",
+              "body",
+              "other"
+            ],
+            "frequency": 51,
+            "confidence": 1,
+            "prominence": 2513893.9157002214,
+            "properties": [
+              "color",
+              "borderColor",
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "nav/color": 6,
+              "body/color": 1,
+              "heading/color": 3,
+              "nav/borderColor": 24,
+              "body/borderColor": 4,
+              "heading/borderColor": 12,
+              "other/backgroundColor": 1
+            }
+          },
+          {
+            "hex": "#bfbfbf",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.8054428611228005
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 441000,
+            "properties": [
+              "boxShadow"
+            ],
+            "usageCounts": {
+              "other/boxShadow": 1
+            }
+          },
+          {
+            "hex": "#212121",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.24775871011467596
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 4,
+            "confidence": 1,
+            "prominence": 0,
+            "properties": [
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "other/backgroundColor": 4
+            }
+          }
+        ],
+        "isDarkMode": false,
+        "colorfulness": 0,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 21,
+            "background": "#ffffff",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 16.1,
+            "background": "#212121",
+            "foreground": "#ffffff"
+          },
+          {
+            "level": "AAA",
+            "ratio": 11.42,
+            "background": "#bfbfbf",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 8.76,
+            "background": "#bfbfbf",
+            "foreground": "#212121"
+          },
+          {
+            "level": "fail",
+            "ratio": 1.3,
+            "background": "#212121",
+            "foreground": "#000000"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 1,
+            "contexts": [
+              "button"
+            ],
+            "frequency": 4,
+            "properties": [
+              "paddingTop",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|button",
+              "paddingBottom|button"
+            ]
+          },
+          {
+            "value": 6,
+            "contexts": [
+              "button"
+            ],
+            "frequency": 4,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|button",
+              "paddingLeft|button"
+            ]
+          },
+          {
+            "value": 8,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 3,
+            "properties": [
+              "paddingTop"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|nav"
+            ]
+          },
+          {
+            "value": 20,
+            "contexts": [
+              "nav",
+              "other"
+            ],
+            "frequency": 6,
+            "properties": [
+              "marginBottom",
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "marginBottom|nav",
+              "paddingRight|other",
+              "paddingLeft|other"
+            ]
+          },
+          {
+            "value": 40,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 1,
+            "properties": [
+              "paddingTop"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|nav"
+            ]
+          },
+          {
+            "value": 45,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 1,
+            "properties": [
+              "paddingRight"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|nav"
+            ]
+          },
+          {
+            "value": 49,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 1,
+            "properties": [
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingLeft|nav"
+            ]
+          }
+        ],
+        "density": "compact",
+        "baseUnit": 4
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "NeueMachina",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 94,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 23,
+          "name": "Major Second",
+          "ratio": 1.125,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 17,
+            "family": "NeueMachina",
+            "weight": 400,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.7,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 18,
+            "family": "NeueMachina",
+            "weight": 400,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.1,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 20,
+            "family": "NeueMachina",
+            "weight": 400,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 2,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 20,
+            "family": "NeueMachina",
+            "weight": 400,
+            "contexts": [
+              "nav",
+              "body"
+            ],
+            "frequency": 2,
+            "lineHeight": 1.88,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 23,
+            "family": "NeueMachina",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "nav",
+              "hero",
+              "link",
+              "image",
+              "body"
+            ],
+            "frequency": 47,
+            "lineHeight": 1.67,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 23,
+            "family": "NeueMachina",
+            "weight": 400,
+            "contexts": [
+              "button",
+              "body",
+              "other"
+            ],
+            "frequency": 4,
+            "lineHeight": 1.15,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 24,
+            "family": "NeueMachina",
+            "weight": 400,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 3,
+            "lineHeight": 1.46,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 48,
+            "family": "NeueMachina",
+            "weight": 400,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 3,
+            "lineHeight": 0.88,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 66,
+            "family": "NeueMachina",
+            "weight": 400,
+            "contexts": [
+              "heading",
+              "other"
+            ],
+            "frequency": 28,
+            "lineHeight": 1.1,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 76,
+            "family": "NeueMachina",
+            "weight": 400,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 3,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Prioritize a high-contrast palette of Canvas White backgrounds and Ink Black foregrounds for all primary content.",
+        "Maintain a monochromatic base with occasional inclusion of Stone Gray and Deep Slate as abstract visual blocks or background tints.",
+        "Use NeueMachina 400 for all typography, ensuring consistency across headlines, body, and UI elements.",
+        "Apply 0px border-radius to all interactive and static elements to maintain sharp, unyielding geometric forms.",
+        "Implement motion with `ease` timing functions and durations of 0.5s or 1s for subtle, controlled transitions.",
+        "Treat images as art objects, often with stark compositions resembling photographic prints, integrated as large blocks in the layout.",
+        "Utilize 20px of spacing as a default `margin-bottom` for content blocks and `padding-left`/`padding-right` for container elements."
+      ],
+      "donts": [
+        "Avoid color in the primary UI; reserve any color for embedded imagery or specific artistic elements.",
+        "Do not use rounded corners or any soft shaping on UI components; all elements should adhere to strict 0px radius.",
+        "Refrain from using drop shadows or complex elevation; maintain a flat, two-dimensional aesthetic for all surfaces.",
+        "Do not introduce decorative gradients; preserve the solid, stark color blocks.",
+        "Avoid decorative iconography; the visual language relies on pure text and photographic elements.",
+        "Do not use excessive visual hierarchy through varying font weights; all typography is NeueMachina 400, relying on size and position for emphasis.",
+        "Prevent cluttered layouts; prioritize ample whitespace, with spacing mostly derived from the 20px and 40px tokens."
+      ],
+      "theme": "light",
+      "colors": [
+        {
+          "hex": "#ffffff",
+          "name": "Canvas White",
+          "role": "Page backgrounds, default text color for inverse elements, borders in navigation",
+          "group": "neutral"
+        },
+        {
+          "hex": "#000000",
+          "name": "Ink Black",
+          "role": "Primary text, borders, button text, and occasional background fills for visual emphasis",
+          "group": "neutral"
+        },
+        {
+          "hex": "#bfbfbf",
+          "name": "Stone Gray",
+          "role": "Secondary background surfaces and visual blocks",
+          "group": "neutral"
+        },
+        {
+          "hex": "#212121",
+          "name": "Deep Slate",
+          "role": "Darker background surfaces, visual blocks",
+          "group": "neutral"
+        }
+      ],
+      "layout": "The page structure is full-bleed, adapting to the viewport width without a maximum content constraint. The hero section often features a large, centered headline or an impactful image block. Sections flow seamlessly, using consistent vertical spacing but without alternating background bands. Content arrangement is highly asymmetric, eschewing traditional grids for an artfully scattered composition of text blocks and visual elements, creating dynamic visual tension rather than ordered rhythm. The navigation is a minimalist top bar, likely sticky, with minimal links or a simple 'menu' toggle.",
+      "imagery": "This system primarily uses atmospheric and sometimes abstract photography or image-like monochromatic blocks. Images are treated as embedded art pieces, often cropped tightly within rectangular frames. They are typically product-focused or environmental, presented without rounded corners or complex masking, contributing to the overall starkness. A single style of minimalist, outlined icon may be present, but the system is image-heavy in its content sections rather than text-dominant, with images serving both decorative atmosphere and explicit content.",
+      "similar": [
+        {
+          "why": "Monochromatic palette, strong typography, and a focus on clean, unadorned product presentation.",
+          "business": "A.P.C."
+        },
+        {
+          "why": "Minimalist, high-contrast aesthetic with an emphasis on texture and quiet luxury through stark framing.",
+          "business": "The Row"
+        },
+        {
+          "why": "Editorial style with a focus on oversized typography, stark whitespace, and art gallery-like presentation of images.",
+          "business": "Artsy (editorial sections)"
+        },
+        {
+          "why": "Grid-less, artifact-based layout with a mix of text and image blocks, creating a collage-like, discovery-focused experience.",
+          "business": "Are.na"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "none": "0px"
+        },
+        "elementGap": "20px",
+        "sectionGap": "40px",
+        "cardPadding": "20px",
+        "pageMaxWidth": null
+      },
+      "industry": "design",
+      "northStar": "Gallery Canvas, Monochromatic Depth",
+      "typeScale": [
+        {
+          "role": "caption",
+          "size": 17,
+          "lineHeight": 1.7
+        },
+        {
+          "role": "subheading",
+          "size": 20,
+          "lineHeight": 1.46
+        },
+        {
+          "role": "heading-sm",
+          "size": 23,
+          "lineHeight": 1.15
+        },
+        {
+          "role": "heading-lg",
+          "size": 48,
+          "lineHeight": 1
+        },
+        {
+          "role": "display",
+          "size": 76,
+          "lineHeight": 0.88
+        }
+      ],
+      "components": [
+        {
+          "name": "Ghost Text Button",
+          "role": "Interactive text link, often used for navigation and system controls.",
+          "description": "Transparent background button with Ink Black text, 1px padding top/bottom and 6px padding left/right, no border or radius. Uses NeueMachina 400 for text."
+        }
+      ],
+      "typography": [
+        {
+          "role": "All textual content, from navigation to headings, body text, and button labels. Its industrial, geometric quality defines the brand's direct and editorial tone.",
+          "sizes": "17px, 18px, 20px, 23px, 24px, 48px, 66px, 76px",
+          "family": "NeueMachina",
+          "weight": "400",
+          "weights": [
+            400
+          ],
+          "lineHeight": "0.88, 1.00, 1.10, 1.15, 1.46, 1.67, 1.70, 1.88",
+          "substitute": "Space Mono, IBM Plex Mono"
+        }
+      ],
+      "description": "The Guillaume Tomasi design system uses a stark, high-contrast aesthetic characterized by a pure white canvas and dominant black typography. The visual rhythm is established through a seemingly random but controlled placement of large, non-interactive rectangular blocks of varied neutral tones and cropped atmospheric photography. Minimalism in color is paired with a strong, industrial typeface, giving the impression of an art gallery catalogue or editorial spread.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "Quick Color Reference: \ntext: #000000\nbackground: #ffffff\nborder: #000000\naccent: no distinct accent color\nprimary action: no distinct CTA color\n\nExample Component Prompts:\n1. Create a primary navigation item: Ink Black text (NeueMachina 400, 18px), no background, no border, with 1px top/bottom padding and 6px left/right padding.\n2. Design a headline section: Ink Black text (NeueMachina 400, 76px, lineHeight 0.88) centered on a Canvas White background. Below it, a subtitle in Ink Black (NeueMachina 400, 24px, lineHeight 1.1) with 20px margin-bottom.\n3. Create a descriptive text block: Ink Black text (NeueMachina 400, 18px, lineHeight 1.67) on a Canvas White background, with an elementGap of 20px between paragraphs."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777514045650-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777514045650-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/430253c2-013d-4a47-a234-d1fa62dbc4bd",
+  "ranks": {
+    "trending": 1264,
+    "popular": 1275,
+    "newest": 493
+  },
+  "localSlug": "guillaume-tomasi-430253c2"
+}

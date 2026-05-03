@@ -1,0 +1,474 @@
+{
+  "id": "adbdc8b1-be46-4d4c-a973-5022f6fd381e",
+  "url": "https://makkaihang.com",
+  "siteName": "makkaihang design",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777512481052-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777512481052-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "dark",
+  "colors": [
+    {
+      "name": "Carbon",
+      "hex": "#1a1a1a"
+    },
+    {
+      "name": "Frost",
+      "hex": "#ffffff"
+    },
+    {
+      "name": "Smoke",
+      "hex": "#e5e7eb"
+    }
+  ],
+  "fonts": [
+    "Untitled Sans",
+    "ui-sans-serif"
+  ],
+  "northStar": "Midnight canvas, silver thread",
+  "createdAt": "2026-04-30T01:28:14.369Z",
+  "previewVideoCapturedAt": null,
+  "industry": "design",
+  "fullResult": {
+    "meta": {
+      "url": "https://makkaihang.com",
+      "siteName": "makkaihang design",
+      "extractedAt": "2026-04-30T01:28:14.300Z",
+      "durationMs": 20970,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 94,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#e5e7eb",
+            "oklch": {
+              "c": 0.005813542372075684,
+              "h": 264.5313231484507,
+              "l": 0.9275823098127417
+            },
+            "contexts": [
+              "other",
+              "button",
+              "nav",
+              "heading",
+              "body",
+              "card"
+            ],
+            "frequency": 372,
+            "confidence": 1,
+            "prominence": 11071769.239050787,
+            "properties": [
+              "borderColor"
+            ],
+            "usageCounts": {
+              "nav/borderColor": 220,
+              "body/borderColor": 40,
+              "card/borderColor": 12,
+              "other/borderColor": 80,
+              "button/borderColor": 16,
+              "heading/borderColor": 4
+            }
+          },
+          {
+            "hex": "#ffffff",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 1.0000000000000002
+            },
+            "contexts": [
+              "other",
+              "button",
+              "nav",
+              "heading",
+              "body",
+              "card"
+            ],
+            "frequency": 97,
+            "confidence": 1,
+            "prominence": 8572663.95797331,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "nav/color": 55,
+              "body/color": 10,
+              "card/color": 3,
+              "other/color": 20,
+              "button/color": 4,
+              "heading/color": 1,
+              "other/borderColor": 4
+            }
+          },
+          {
+            "hex": "#1a1a1a",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.217786502463702
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 4,
+            "confidence": 1,
+            "prominence": 3009218.8109740214,
+            "properties": [
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "other/backgroundColor": 4
+            }
+          },
+          {
+            "hex": "#080808",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.13327968865266274
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 0,
+            "properties": [
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "other/backgroundColor": 1
+            }
+          }
+        ],
+        "isDarkMode": true,
+        "colorfulness": 0.012331153851135559,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 20.03,
+            "background": "#080808",
+            "foreground": "#ffffff"
+          },
+          {
+            "level": "AAA",
+            "ratio": 17.4,
+            "background": "#1a1a1a",
+            "foreground": "#ffffff"
+          },
+          {
+            "level": "AAA",
+            "ratio": 16.18,
+            "background": "#e5e7eb",
+            "foreground": "#080808"
+          },
+          {
+            "level": "AAA",
+            "ratio": 14.06,
+            "background": "#e5e7eb",
+            "foreground": "#1a1a1a"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 2,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 6,
+            "properties": [
+              "marginTop",
+              "rowGap"
+            ],
+            "propertyContextPairs": [
+              "marginTop|nav",
+              "rowGap|nav"
+            ]
+          },
+          {
+            "value": 12,
+            "contexts": [
+              "nav",
+              "other",
+              "body"
+            ],
+            "frequency": 21,
+            "properties": [
+              "columnGap",
+              "paddingTop",
+              "paddingRight",
+              "paddingBottom",
+              "paddingLeft",
+              "rowGap"
+            ],
+            "propertyContextPairs": [
+              "columnGap|nav",
+              "paddingTop|other",
+              "paddingRight|other",
+              "paddingBottom|other",
+              "paddingLeft|other",
+              "columnGap|other",
+              "rowGap|body",
+              "columnGap|body",
+              "rowGap|other"
+            ]
+          },
+          {
+            "value": 32,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 3,
+            "properties": [
+              "marginBottom",
+              "rowGap",
+              "columnGap"
+            ],
+            "propertyContextPairs": [
+              "marginBottom|other",
+              "rowGap|other",
+              "columnGap|other"
+            ]
+          }
+        ],
+        "density": "comfortable",
+        "baseUnit": 6
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "Untitled Sans",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 93,
+            "fontFeatureSettings": [
+              "\"lnum\", \"tnum\""
+            ]
+          },
+          {
+            "family": "ui-sans-serif",
+            "source": "system",
+            "weights": [
+              400
+            ],
+            "frequency": 1,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": null,
+        "steps": [
+          {
+            "size": 14,
+            "family": "Untitled Sans",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "button",
+              "nav",
+              "card"
+            ],
+            "frequency": 42,
+            "lineHeight": 1.5,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 14,
+            "family": "Untitled Sans",
+            "weight": 400,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 39,
+            "lineHeight": 1.5,
+            "letterSpacing": 0,
+            "textTransform": "capitalize"
+          },
+          {
+            "size": 14,
+            "family": "Untitled Sans",
+            "weight": 400,
+            "contexts": [
+              "heading",
+              "other",
+              "body"
+            ],
+            "frequency": 12,
+            "lineHeight": 1.5,
+            "letterSpacing": 0,
+            "textTransform": "lowercase"
+          },
+          {
+            "size": 16,
+            "family": "ui-sans-serif",
+            "weight": 400,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.5,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Always use Carbon (#1a1a1a) for primary page backgrounds to maintain the deep, dark ambiance.",
+        "Render all primary text in Frost (#ffffff) to ensure readability against dark surfaces.",
+        "Employ Smoke (#e5e7eb) for all borders and subtle separators, keeping visual distractions to a minimum.",
+        "Use Untitled Sans (or a suitable substitute) at weight 400 for all typographic elements, prioritizing content clarity over size-based hierarchy.",
+        "Maintain 0px border-radius across all UI elements for a consistently sharp and unadorned aesthetic.",
+        "Utilize 12px for horizontal and vertical element separation within components or content blocks.",
+        "Apply 32px as the standard vertical spacing between distinct content sections."
+      ],
+      "donts": [
+        "Avoid using any vibrantly saturated colors; restrict the palette to the defined achromatic grays.",
+        "Do not introduce shadows or elevation; surfaces should remain flat and blend with the background.",
+        "Never use rounded corners on any UI element; the design mandates strict 0px radii.",
+        "Refrain from altering font sizes or weights for hierarchy; rely on spacing and position for emphasis.",
+        "Do not use background colors on buttons or cards; maintain a 'ghost' or 'naked' appearance.",
+        "Avoid using decorative imagery or complex illustrations; the focus is on clean UI and textual content.",
+        "Do not vary paragraph line heights; maintain the established 1.5 ratio for all body text."
+      ],
+      "theme": "dark",
+      "colors": [
+        {
+          "hex": "#1a1a1a",
+          "name": "Carbon",
+          "role": "Page background (primary canvas), deeply recessed surfaces",
+          "group": "neutral"
+        },
+        {
+          "hex": "#ffffff",
+          "name": "Frost",
+          "role": "Light text on dark surfaces, inverse labels, and high-contrast captions. Do not promote it to the primary CTA color",
+          "group": "neutral"
+        },
+        {
+          "hex": "#e5e7eb",
+          "name": "Smoke",
+          "role": "Hairline borders, subtle dividers, ghost button outlines — providing minimal separation on dark backgrounds",
+          "group": "neutral"
+        }
+      ],
+      "layout": "The page maintains a full-bleed, uncontained content model, with no defined `pageMaxWidth`. The headers and navigation are integrated into this full-width presentation. Content appears to be structured in blocks, with 32px vertical gaps separating major sections. The navigation and header elements are positioned at the top of the page, potentially overlapping or layering content. Minimal layout elements are used, giving the feeling of content floating on a dark canvas, with an absence of clear grid structures outside of basic vertical and horizontal spacing.",
+      "imagery": "The visual language is characterized by an absence of imagery on the page itself, relying instead on pure UI and typography. When visuals appear, as suggested by the 'Identity Book Design' content, they are likely confined to product showcases or project portfolios, presenting the work directly without decorative framing. Iconography, if present, would likely be minimal, outlined, and monochromatic, maintaining the severe aesthetic. The system is text-dominant.",
+      "similar": [
+        {
+          "why": "Similar focus on minimal design, achromatic palette, and content as the primary visual element.",
+          "business": "Are.na"
+        },
+        {
+          "why": "Uses a stark, almost brutalist typographic approach with a subdued color scheme and emphasis on white space or dark canvases.",
+          "business": "Manual Studio"
+        },
+        {
+          "why": "Employs a largely monochrome interface with clean typography and minimal visual adornment, prioritizing function over decoration.",
+          "business": "Superside"
+        },
+        {
+          "why": "Features a content-first design with a simple color palette, strong typographic hierarchy, and limited use of decorative elements.",
+          "business": "Read.cv"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "none": "0px"
+        },
+        "elementGap": "12px",
+        "sectionGap": "32px",
+        "cardPadding": "0px",
+        "pageMaxWidth": null
+      },
+      "industry": "design",
+      "northStar": "Midnight canvas, silver thread",
+      "components": [
+        {
+          "name": "Ghost Border Button",
+          "role": "Interactive Element",
+          "description": "Transparent background, white text (#ffffff), and a light gray (#e5e7eb) bottom border. Used for navigation links and subtle actions. Features a 0px border-radius, emphasizing sharp, unadorned interaction points. Padding is absent."
+        },
+        {
+          "name": "Naked Card",
+          "role": "Content container",
+          "description": "Transparent background, no border, no shadow, and 0px border-radius. These cards serve as purely semantic groupings, relying on content and spacing for definition rather than visual affordances. No padding is applied."
+        }
+      ],
+      "typography": [
+        {
+          "role": "Primary typeface for all text content, including headings, body, and navigation. Its singularity at a single weight and size reinforces the minimalist and content-focused approach.",
+          "sizes": "14px",
+          "family": "Untitled Sans",
+          "weight": "400",
+          "weights": [
+            400
+          ],
+          "lineHeight": "1.50",
+          "substitute": "Inter",
+          "letterSpacing": "normal",
+          "fontFeatureSettings": "\"lnum\" on, \"tnum\" on"
+        },
+        {
+          "role": "ui-sans-serif — detected in extracted data but not described by AI",
+          "sizes": "16px",
+          "family": "ui-sans-serif",
+          "weight": "400",
+          "lineHeight": "1.5"
+        }
+      ],
+      "description": "The makkaihang design system establishes a minimal, almost invisible interface ethos. A stark charcoal canvas serves as the dominant background, providing a neutral backdrop for content. Text is a bright white, ensuring high contrast. Subtle light gray borders are used sparingly for visual segmentation rather than heavy containers. The overall aesthetic suggests an emphasis on content and unadorned presentation.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "Quick Color Reference:\ntext: #ffffff\nbackground: #1a1a1a\nborder: #e5e7eb\naccent: no distinct accent color\nprimary action: no distinct CTA color\n\nExample Component Prompts:\n1. Create a top navigation bar: background Carbon (#1a1a1a). Navigation links are Ghost Border Buttons with Frost (#ffffff) text and Smoke (#e5e7eb) bottom borders, 0px radius, 0px padding. Elements within the nav should be spaced 12px apart.\n2. Design a content section header: Background Carbon (#1a1a1a). Text is a single line 'm a k k a i h a n g Identity Book Design' using Frost (#ffffff) and the default Untitled Sans font at 14px size, line-height 1.5.\n3. Implement a 'Naked Card' for a project preview: Transparent background, no borders, no shadows, 0px padding and 0px radius. The card's content should use Frost (#ffffff) text for any titles or descriptions."
+        },
+        {
+          "title": "Motion Philosophy",
+          "content": "The system employs subtle, expressive transitions primarily using 'ease' timing functions. Durations range from 0.1s to 0.8s, with 0.5s being the most common, suggesting a balance between responsiveness and smooth visual feedback. Common effects include 'fadeIn' and 'slideLeaveUp', indicating a preference for elements appearing and disappearing with gentle vertical motion and opacity changes."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777512481052-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777512481052-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/adbdc8b1-be46-4d4c-a973-5022f6fd381e",
+  "ranks": {
+    "trending": 236,
+    "popular": 375,
+    "newest": 593
+  },
+  "localSlug": "makkaihang-design-adbdc8b1"
+}

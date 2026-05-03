@@ -1,0 +1,834 @@
+{
+  "id": "37215d07-9e4e-4cef-ad58-65d111caba19",
+  "url": "https://orson.ai",
+  "siteName": "Orson",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777520106744-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777520106744-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "light",
+  "colors": [
+    {
+      "name": "Parchment",
+      "hex": "#f0ebdd"
+    },
+    {
+      "name": "Inkwell",
+      "hex": "#302f2c"
+    },
+    {
+      "name": "Activated Black",
+      "hex": "#000000"
+    },
+    {
+      "name": "Sunbeam Gradient",
+      "hex": "#ffb801",
+      "gradient": "radial-gradient(41.33% 41.33%, rgb(255, 199, 56) 0px, rgba(248, 233, 226, 0) 100%)"
+    }
+  ],
+  "fonts": [
+    "Big Daily Short",
+    "Basel Grotesk",
+    "Arial"
+  ],
+  "northStar": "Warm parchment elegance.",
+  "createdAt": "2026-04-30T03:35:22.335Z",
+  "previewVideoCapturedAt": null,
+  "industry": "agency",
+  "fullResult": {
+    "meta": {
+      "url": "https://orson.ai",
+      "siteName": "Orson",
+      "extractedAt": "2026-04-30T03:35:22.268Z",
+      "durationMs": 25412,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 196,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#302f2c",
+            "oklch": {
+              "c": 0.005475641353348178,
+              "h": 91.558194993966,
+              "l": 0.30513714774780115
+            },
+            "contexts": [
+              "other",
+              "link",
+              "body",
+              "nav",
+              "hero",
+              "heading",
+              "image",
+              "badge",
+              "footer"
+            ],
+            "frequency": 927,
+            "confidence": 1,
+            "prominence": 75393375.3256289,
+            "properties": [
+              "color",
+              "borderColor",
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "nav/color": 7,
+              "body/color": 56,
+              "hero/color": 1,
+              "link/color": 14,
+              "badge/color": 3,
+              "image/color": 8,
+              "other/color": 57,
+              "footer/color": 1,
+              "heading/color": 45,
+              "nav/borderColor": 28,
+              "body/borderColor": 188,
+              "hero/borderColor": 4,
+              "link/borderColor": 56,
+              "badge/borderColor": 12,
+              "image/borderColor": 32,
+              "other/borderColor": 228,
+              "footer/borderColor": 4,
+              "heading/borderColor": 180,
+              "body/backgroundColor": 3
+            }
+          },
+          {
+            "hex": "#f0ebdd",
+            "oklch": {
+              "c": 0.01936642873960094,
+              "h": 90.54567534764394,
+              "l": 0.9401673172659856
+            },
+            "contexts": [
+              "footer"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 491040,
+            "properties": [
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "footer/backgroundColor": 1
+            }
+          },
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "button",
+              "body"
+            ],
+            "frequency": 20,
+            "confidence": 1,
+            "prominence": 5226.857733106725,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "body/color": 3,
+              "button/color": 1,
+              "body/borderColor": 12,
+              "button/borderColor": 4
+            }
+          },
+          {
+            "hex": "#ffb801",
+            "oklch": {
+              "c": 0.17095059300742035,
+              "h": 80.50204979106802,
+              "l": 0.8271681131330593
+            },
+            "contexts": [
+              "body"
+            ],
+            "frequency": 45,
+            "confidence": 1,
+            "prominence": 2209.424782422805,
+            "properties": [
+              "backgroundColor",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "body/borderColor": 36,
+              "body/backgroundColor": 9
+            }
+          }
+        ],
+        "isDarkMode": false,
+        "colorfulness": 0.034805973295847364,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 17.63,
+            "background": "#f0ebdd",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 12.11,
+            "background": "#ffb801",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 11.24,
+            "background": "#f0ebdd",
+            "foreground": "#302f2c"
+          },
+          {
+            "level": "AAA",
+            "ratio": 7.72,
+            "background": "#ffb801",
+            "foreground": "#302f2c"
+          },
+          {
+            "level": "fail",
+            "ratio": 1.57,
+            "background": "#302f2c",
+            "foreground": "#000000"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [
+          {
+            "value": 40,
+            "contexts": [
+              "link"
+            ],
+            "frequency": 8
+          }
+        ],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 8,
+            "contexts": [
+              "link"
+            ],
+            "frequency": 16,
+            "properties": [
+              "paddingTop",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|link",
+              "paddingBottom|link"
+            ]
+          },
+          {
+            "value": 9,
+            "contexts": [
+              "link"
+            ],
+            "frequency": 8,
+            "properties": [
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingLeft|link"
+            ]
+          },
+          {
+            "value": 10,
+            "contexts": [
+              "button",
+              "body",
+              "link"
+            ],
+            "frequency": 9,
+            "properties": [
+              "paddingTop",
+              "paddingBottom",
+              "marginBottom",
+              "marginRight"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|button",
+              "paddingBottom|button",
+              "marginBottom|body",
+              "marginRight|link"
+            ]
+          },
+          {
+            "value": 12,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 11,
+            "properties": [
+              "marginRight"
+            ],
+            "propertyContextPairs": [
+              "marginRight|body"
+            ]
+          },
+          {
+            "value": 14,
+            "contexts": [
+              "link"
+            ],
+            "frequency": 9,
+            "properties": [
+              "paddingRight",
+              "marginTop"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|link",
+              "marginTop|link"
+            ]
+          },
+          {
+            "value": 18,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 4,
+            "properties": [
+              "paddingTop",
+              "rowGap"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other",
+              "rowGap|other"
+            ]
+          },
+          {
+            "value": 30,
+            "contexts": [
+              "heading",
+              "body",
+              "footer",
+              "link"
+            ],
+            "frequency": 13,
+            "properties": [
+              "marginBottom",
+              "paddingBottom",
+              "paddingRight"
+            ],
+            "propertyContextPairs": [
+              "marginBottom|heading",
+              "marginBottom|body",
+              "paddingBottom|footer",
+              "paddingRight|link"
+            ]
+          },
+          {
+            "value": 40,
+            "contexts": [
+              "other",
+              "footer"
+            ],
+            "frequency": 10,
+            "properties": [
+              "paddingRight",
+              "paddingLeft",
+              "columnGap",
+              "marginBottom",
+              "paddingTop"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|other",
+              "paddingLeft|other",
+              "columnGap|other",
+              "marginBottom|other",
+              "paddingTop|footer",
+              "paddingLeft|footer"
+            ]
+          },
+          {
+            "value": 60,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 3,
+            "properties": [
+              "marginTop",
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "marginTop|other",
+              "marginBottom|other"
+            ]
+          },
+          {
+            "value": 90,
+            "contexts": [
+              "hero",
+              "other"
+            ],
+            "frequency": 8,
+            "properties": [
+              "paddingBottom",
+              "paddingTop",
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingBottom|hero",
+              "paddingTop|other",
+              "paddingBottom|other",
+              "marginBottom|other"
+            ]
+          },
+          {
+            "value": 247,
+            "contexts": [
+              "heading",
+              "other"
+            ],
+            "frequency": 5,
+            "properties": [
+              "marginRight",
+              "marginLeft"
+            ],
+            "propertyContextPairs": [
+              "marginRight|heading",
+              "marginLeft|heading",
+              "marginLeft|other"
+            ]
+          }
+        ],
+        "density": "comfortable",
+        "baseUnit": null
+      },
+      "gradients": [
+        {
+          "type": "radial",
+          "value": "radial-gradient(41.33% 41.33%, rgb(255, 199, 56) 0px, rgba(248, 233, 226, 0) 100%)",
+          "colors": [
+            "rgb(255, 199, 56)",
+            "rgba(248, 233, 226, 0)"
+          ],
+          "frequency": 1
+        }
+      ],
+      "typography": {
+        "fonts": [
+          {
+            "family": "Big Daily Short",
+            "source": "custom",
+            "weights": [
+              300,
+              400
+            ],
+            "frequency": 176,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "Basel Grotesk",
+            "source": "custom",
+            "weights": [
+              500
+            ],
+            "frequency": 16,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "Arial",
+            "source": "system",
+            "weights": [
+              400
+            ],
+            "frequency": 4,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 15,
+          "name": "Minor Third",
+          "ratio": 1.2,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 13,
+            "family": "Arial",
+            "weight": 400,
+            "contexts": [
+              "button",
+              "body"
+            ],
+            "frequency": 4,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "Big Daily Short",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "nav",
+              "hero",
+              "link",
+              "body",
+              "image",
+              "footer"
+            ],
+            "frequency": 81,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "Big Daily Short",
+            "weight": 300,
+            "contexts": [
+              "body",
+              "other",
+              "badge"
+            ],
+            "frequency": 28,
+            "lineHeight": 1.5,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "Basel Grotesk",
+            "weight": 500,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 3,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "Big Daily Short",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "body"
+            ],
+            "frequency": 12,
+            "lineHeight": 1.5,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 17,
+            "family": "Basel Grotesk",
+            "weight": 500,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 7,
+            "lineHeight": 1.41,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 17,
+            "family": "Basel Grotesk",
+            "weight": 500,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 6,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 22,
+            "family": "Big Daily Short",
+            "weight": 400,
+            "contexts": [
+              "link"
+            ],
+            "frequency": 4,
+            "lineHeight": 1.25,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 36,
+            "family": "Big Daily Short",
+            "weight": 300,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 2,
+            "lineHeight": 1.25,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 42,
+            "family": "Big Daily Short",
+            "weight": 400,
+            "contexts": [
+              "link"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.25,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 64,
+            "family": "Big Daily Short",
+            "weight": 400,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 5,
+            "lineHeight": 1.12,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 64,
+            "family": "Big Daily Short",
+            "weight": 300,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 40,
+            "lineHeight": 1.12,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 86,
+            "family": "Big Daily Short",
+            "weight": 300,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 3,
+            "lineHeight": 1.12,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Use Parchment (#f0ebdd) as the primary background color for all main content areas.",
+        "Employ Inkwell (#302f2c) for primary text content and essential structural elements like borders.",
+        "Apply Big Daily Short font at weight 300 for large headings and weight 400 for subheadings to maintain the editorial tone.",
+        "Ensure navigation links have 8px vertical padding and 9px-14px horizontal padding, with a 40px border-radius upon interaction.",
+        "Maintain a comfortable information density by using '12px' for element gaps and '30px' for section gaps.",
+        "Integrate the Sunbeam Gradient into hero sections or subtle atmospheric backgrounds to add warmth and depth.",
+        "Use radial-gradient(41.33% 41.33%, rgb(255, 199, 56) 0px, rgba(248, 233, 226, 0) 100%) for decorative background effects."
+      ],
+      "donts": [
+        "Avoid high-contrast, vivid colors for interactive elements; use the existing neutral palette with subtle activations.",
+        "Do not introduce strong visual borders or shadows on cards or buttons; maintain a flat, uncluttered aesthetic.",
+        "Do not deviate from the Big Daily Short and Basel Grotesk fonts for headlines and body text to preserve brand consistency.",
+        "Do not use letter-spacing other than 'normal' for any type roles, as it's not present in the extracted data and would alter the typographic rhythm.",
+        "Avoid heavy imagery or large visual elements that clash with the text-dominant, editorial aesthetic.",
+        "Do not use generic system borders; all borders should be 1px solid with Inkwell (#302f2c) as the color.",
+        "Avoid using any geometric shapes or sharp angles for interactive elements; prefer soft curves or ghost outlines."
+      ],
+      "theme": "light",
+      "colors": [
+        {
+          "hex": "#f0ebdd",
+          "name": "Parchment",
+          "role": "Page backgrounds, large content sections, subtle surface elevation",
+          "group": "neutral"
+        },
+        {
+          "hex": "#302f2c",
+          "name": "Inkwell",
+          "role": "Primary text, headings, accent borders, and semantic UI elements for structure and emphasis",
+          "group": "neutral"
+        },
+        {
+          "hex": "#000000",
+          "name": "Activated Black",
+          "role": "Strongest text contrast, button text and borders when a precise contrast is needed",
+          "group": "neutral"
+        },
+        {
+          "hex": "#ffb801",
+          "name": "Sunbeam Gradient",
+          "role": "Decorative background gradients, soft visual accents. The primary hue implies warmth and a gentle glow",
+          "group": "accent",
+          "gradient": "radial-gradient(41.33% 41.33%, rgb(255, 199, 56) 0px, rgba(248, 233, 226, 0) 100%)"
+        }
+      ],
+      "layout": "The page uses a maximum content width that is visually contained, often with generous horizontal margins, giving a sense of spaciousness. The hero section features a centered headline over a soft radial gradient, creating an immediate atmospheric impression. Content sections generally employ consistent vertical spacing, creating an even rhythm. The arrangement often features centered text blocks or occasionally multi-column layouts, particularly for feature descriptions below decorative line-art. Navigation is a minimalist top bar with a hamburger menu for expanded options, reflecting a focus on clear, uncluttered presentation rather than constant access to many links. The overall density is spacious, emphasizing readability and a calm user experience.",
+      "imagery": "The visual language for imagery is minimal and functional. Photography, when present, is often contained within clear boundaries, focusing on human subjects or concepts relevant to professional settings. There are abstract, geometric line-art illustrations used as decorative elements, typically rendered in outline form with a strong visual connection to the brand's Inkwell color. Icons are simple, outlined, and monochromatic, used sparingly for navigation or conceptual representation. The density is text-dominant, with imagery serving as an atmospheric or explanatory complement rather than the primary focus, aiming for a refined, almost academic aesthetic.",
+      "similar": [
+        {
+          "why": "Similar classic serif typography combined with sophisticated use of neutrals and generous white space for an editorial feel.",
+          "business": "AIGA"
+        },
+        {
+          "why": "Shared emphasis on classic, authoritative typography and a restrained color palette, prioritizing content legibility and an academic tone.",
+          "business": "The New York Times"
+        },
+        {
+          "why": "Similar focus on unique, high-quality typography as a core brand element, paired with sparse, elegant design.",
+          "business": "Future Fonts"
+        },
+        {
+          "why": "Uses a light, parchment-like background with dark, traditional typography for a serious, content-focused feel.",
+          "business": "The Information"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "links": "40px"
+        },
+        "elementGap": "12px",
+        "sectionGap": "30px",
+        "cardPadding": "18px",
+        "pageMaxWidth": null
+      },
+      "industry": "agency",
+      "surfaces": [
+        {
+          "hex": "#f0ebdd",
+          "name": "Canvas",
+          "level": 1,
+          "purpose": "Dominant background for the entire page, conveying a warm, inviting foundation."
+        },
+        {
+          "hex": "#ffb801",
+          "name": "Accent Surface",
+          "level": 2,
+          "purpose": "Used subtly for decorative backgrounds, often in gradient form, creating gentle visual interest without sharp contrast."
+        },
+        {
+          "hex": "#302f2c",
+          "name": "Interactive Text/Stroke",
+          "level": 3,
+          "purpose": "Main text, outlines for subtle interactive elements, and key structural lines."
+        }
+      ],
+      "northStar": "Warm parchment elegance.",
+      "typeScale": [
+        {
+          "role": "caption",
+          "size": 13,
+          "lineHeight": 1.2
+        },
+        {
+          "role": "body",
+          "size": 16,
+          "lineHeight": 1.41
+        },
+        {
+          "role": "subheading",
+          "size": 22,
+          "lineHeight": 1.25
+        },
+        {
+          "role": "heading",
+          "size": 36,
+          "lineHeight": 1.25
+        },
+        {
+          "role": "heading-lg",
+          "size": 64,
+          "lineHeight": 1.12
+        },
+        {
+          "role": "display",
+          "size": 86,
+          "lineHeight": 1
+        }
+      ],
+      "components": [
+        {
+          "name": "Ghost Button",
+          "role": "Navigation links and secondary actions.",
+          "description": "Text in Activated Black or Inkwell on a transparent background, with a 0px border-radius, 10px vertical padding, and 0px horizontal padding. Borders are not visible by default but appear on hover for subtle feedback."
+        },
+        {
+          "name": "Navigation Link",
+          "role": "Primary navigation items.",
+          "description": "Text in Inkwell (Big Daily Short, 16px) with 8px top/bottom padding and 9px left padding, 14px right padding. Applies a 40px border radius on hover/active states for a 'pill' shape."
+        },
+        {
+          "name": "Implicit Badge",
+          "role": "Contextual labels or category indicators.",
+          "description": "Text in Inkwell without any background or border. Used for discrete labeling, similar to inline text but carrying semantic meaning. No padding or border-radius."
+        }
+      ],
+      "typography": [
+        {
+          "role": "Headlines, subheadings, and emphasized textual content. The custom font provides a sophisticated, almost editorial gravitas through its classic serif forms. Weight 300 for lead headlines feels light and refined, suggesting authority through understatement.",
+          "sizes": "16px, 22px, 36px, 42px, 64px, 86px",
+          "family": "Big Daily Short",
+          "weight": "300, 400",
+          "lineHeight": "1.00, 1.12, 1.25, 1.50",
+          "substitute": "Playfair Display"
+        },
+        {
+          "role": "Body text, navigation, and detailed content. Its clean, sans-serif structure balances the serif headlines, ensuring readability for longer passages.",
+          "sizes": "16px, 17px",
+          "family": "Basel Grotesk",
+          "weight": "500",
+          "lineHeight": "1.00, 1.41",
+          "substitute": "Inter"
+        },
+        {
+          "role": "Small functional text, legal disclosures, and system-level button labels where maximum legibility and neutrality are required.",
+          "sizes": "13px",
+          "family": "Arial",
+          "weight": "400",
+          "lineHeight": "1.20",
+          "substitute": "Arial"
+        }
+      ],
+      "description": "Orson uses an academic-editorial design language, combining classic serif typography with subtle, sophisticated color gradients. The system emphasizes generous white space and a calming, almost analog, background tone. Interactions are minimal and text-focused, with outlines and understated hovers. The visual identity exudes trusted authority through a restrained palette and mature typographic choices, avoiding bold or high-contrast elements for actions.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "Quick Color Reference:\ntext: #302f2c\nbackground: #f0ebdd\nborder: #302f2c\naccent: #ffb801\nprimary action: no distinct CTA color\n\nExample Component Prompts:\nCreate a hero section: Parchment background with an overlay of radial-gradient(41.33% 41.33%, rgb(255, 199, 56) 0px, rgba(248, 233, 226, 0) 100%). Headline 'Building Trust' using Big Daily Short, weight 64px, lineHeight 1.12, Inkwell color.\nCreate a navigation link: Text 'Our Mission' using Basel Grotesk, 16px, weight 500, Inkwell color. Apply 8px top/bottom padding, 9px left padding, 14px right padding. On hover, apply a 40px border-radius with a 1px solid Inkwell border.\nCreate a body text paragraph: Content 'Whether executives are steering through...' using Basel Grotesk, 16px, weight 500, Inkwell color, 1.41 lineHeight, 12px right margin."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777520106744-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777520106744-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/37215d07-9e4e-4cef-ad58-65d111caba19",
+  "ranks": {
+    "trending": 265,
+    "popular": 374,
+    "newest": 120
+  },
+  "localSlug": "orson-37215d07"
+}

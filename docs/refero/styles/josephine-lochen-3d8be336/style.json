@@ -1,0 +1,455 @@
+{
+  "id": "3d8be336-7e0e-45f7-baf3-0fb64750decd",
+  "url": "https://josephinelochen.com",
+  "siteName": "Joséphine Löchen",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777516533553-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777516533553-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "light",
+  "colors": [
+    {
+      "name": "Ink Black",
+      "hex": "#000000"
+    },
+    {
+      "name": "Canvas White",
+      "hex": "#ffffff"
+    },
+    {
+      "name": "Muted Gray",
+      "hex": "#cecece"
+    }
+  ],
+  "fonts": [
+    "EU-SwissRail-Medium"
+  ],
+  "northStar": "monochromatic gallery, stark and precise",
+  "createdAt": "2026-04-30T02:36:08.824Z",
+  "previewVideoCapturedAt": null,
+  "industry": "agency",
+  "fullResult": {
+    "meta": {
+      "url": "https://josephinelochen.com",
+      "siteName": "Joséphine Löchen",
+      "extractedAt": "2026-04-30T02:36:08.657Z",
+      "durationMs": 43387,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 106,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "other",
+              "link",
+              "heading",
+              "body",
+              "hero",
+              "image"
+            ],
+            "frequency": 430,
+            "confidence": 1,
+            "prominence": 11342001.100579472,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "body/color": 3,
+              "hero/color": 1,
+              "link/color": 4,
+              "image/color": 10,
+              "other/color": 67,
+              "heading/color": 1,
+              "body/borderColor": 12,
+              "hero/borderColor": 4,
+              "link/borderColor": 16,
+              "image/borderColor": 40,
+              "other/borderColor": 268,
+              "heading/borderColor": 4
+            }
+          },
+          {
+            "hex": "#ffffff",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 1.0000000000000002
+            },
+            "contexts": [
+              "hero"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 1296000,
+            "properties": [
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "hero/backgroundColor": 1
+            }
+          },
+          {
+            "hex": "#cecece",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.8514193414111833
+            },
+            "contexts": [
+              "heading",
+              "other",
+              "body"
+            ],
+            "frequency": 100,
+            "confidence": 1,
+            "prominence": 35628.089644204854,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "body/color": 10,
+              "other/color": 5,
+              "heading/color": 5,
+              "body/borderColor": 40,
+              "other/borderColor": 20,
+              "heading/borderColor": 20
+            }
+          }
+        ],
+        "isDarkMode": false,
+        "colorfulness": 0,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 21,
+            "background": "#ffffff",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 13.34,
+            "background": "#cecece",
+            "foreground": "#000000"
+          },
+          {
+            "level": "fail",
+            "ratio": 1.57,
+            "background": "#ffffff",
+            "foreground": "#cecece"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 1,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 5,
+            "properties": [
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "marginBottom|heading"
+            ]
+          },
+          {
+            "value": 7,
+            "contexts": [
+              "other",
+              "body"
+            ],
+            "frequency": 7,
+            "properties": [
+              "paddingTop",
+              "paddingBottom",
+              "marginRight"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other",
+              "paddingBottom|other",
+              "marginRight|body"
+            ]
+          },
+          {
+            "value": 11,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 7,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|other",
+              "paddingLeft|other"
+            ]
+          },
+          {
+            "value": 14,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 2,
+            "properties": [
+              "marginTop"
+            ],
+            "propertyContextPairs": [
+              "marginTop|heading"
+            ]
+          },
+          {
+            "value": 32,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 9,
+            "properties": [
+              "paddingTop",
+              "paddingRight",
+              "paddingBottom",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other",
+              "paddingRight|other",
+              "paddingBottom|other",
+              "paddingLeft|other"
+            ]
+          },
+          {
+            "value": 50,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "rowGap",
+              "columnGap"
+            ],
+            "propertyContextPairs": [
+              "rowGap|other",
+              "columnGap|other"
+            ]
+          },
+          {
+            "value": 130,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingBottom|other"
+            ]
+          }
+        ],
+        "density": "compact",
+        "baseUnit": 4
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "EU-SwissRail-Medium",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 101,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": null,
+        "steps": [
+          {
+            "size": 14,
+            "family": "EU-SwissRail-Medium",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "link",
+              "heading",
+              "body",
+              "hero",
+              "image"
+            ],
+            "frequency": 101,
+            "lineHeight": 1.25,
+            "letterSpacing": 0.015,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Maintain a strictly monochromatic palette, using only Ink Black (#000000), Canvas White (#ffffff), and Muted Gray (#cecece).",
+        "Apply the EU-SwissRail-Medium font consistently for all text elements, at 14px size and 400 weight with 0.0150em letter spacing.",
+        "Use 1px borders to define interactive areas or visual separation for text-based elements, often implied rather than explicitly drawn.",
+        "Ensure all interactive elements animate with an 'ease' timing function over 0.4s to convey responsiveness.",
+        "Utilize 7px as a compact default for spacing between related elements and 50px for vertical separation between distinct content sections.",
+        "Place the brand name in the top-left corner and supplementary navigation items in the top-right, maintaining a consistent header pattern."
+      ],
+      "donts": [
+        "Introduce any saturated colors; limit the palette to the defined achromatic neutrals.",
+        "Vary font families, sizes, or weights from EU-SwissRail-Medium 14px/400, to preserve typographic precision.",
+        "Use prominent or heavy shadows for elevation; rely on subtle visual cues like borders and compact spacing.",
+        "Break the full-bleed content layout with a max-width container; content should extend to the viewport edges.",
+        "Decorate with graphic elements that are not core to the content itself; the focus is on content presentation.",
+        "Disturb the compact spacing rhythm with large, airy gaps, particularly for element gaps."
+      ],
+      "theme": "light",
+      "colors": [
+        {
+          "hex": "#000000",
+          "name": "Ink Black",
+          "role": "Dark borders and separators for elevated surfaces and inverted UI. Do not promote it to the primary CTA color",
+          "group": "neutral"
+        },
+        {
+          "hex": "#ffffff",
+          "name": "Canvas White",
+          "role": "Page backgrounds, surface background for heroic content blocks",
+          "group": "neutral"
+        },
+        {
+          "hex": "#cecece",
+          "name": "Muted Gray",
+          "role": "Muted secondary text, subtle decorative borders, ghost element outlines. Offers a softer interaction against Ink Black",
+          "group": "neutral"
+        }
+      ],
+      "layout": "The site follows a full-bleed layout model, where primary content, mainly large-scale photography, extends edge-to-edge. The hero section is a full-viewport image with crisp, minimal navigation text overlaid at the top left and right. Sections flow seamlessly without distinct visual dividers or alternating background bands, maintaining consistent vertical spacing. Content is highly image-dominant, using a minimal grid for text arrangements, mostly stacking text centrally or in small, precise blocks. The navigation is a fixed top bar with a left-aligned brand name and right-aligned links, maintaining a subtle presence over the full-bleed imagery.",
+      "imagery": "The site primarily features high-contrast, black and white fine-art photography. Images are full-bleed, occupying the entire viewport or significant sections of it, serving as the dominant visual content rather than decorative elements. There are no rounded corners or complex masking; images are presented squarely, often with a raw, unedited edge quality, emphasizing the starkness and directness of the work. Icons are not present, and the visual language is entirely image-driven with minimal interface elements.",
+      "similar": [
+        {
+          "why": "Stark, monochrome photography-focused UI with minimal text and navigation.",
+          "business": "A.P.C. (archive sections)"
+        },
+        {
+          "why": "Emphasis on high-quality, full-bleed fashion photography with a very subtle, almost invisible interface.",
+          "business": "Acne Studios (archive photography)"
+        },
+        {
+          "why": "Highly curated, image-heavy presentation with extremely restrained typography and a neutral color palette.",
+          "business": "The Row (older site versions)"
+        },
+        {
+          "why": "Focus on content purity, often using a stark black and white palette with precise, understated typography.",
+          "business": "Selected works of Jil Sander"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "none": "0px"
+        },
+        "elementGap": "7px",
+        "sectionGap": "50px",
+        "cardPadding": "11px",
+        "pageMaxWidth": null
+      },
+      "industry": "agency",
+      "northStar": "monochromatic gallery, stark and precise",
+      "typeScale": [
+        {
+          "role": "body",
+          "size": 14,
+          "lineHeight": 1.25,
+          "letterSpacing": 0.21
+        }
+      ],
+      "components": [
+        {
+          "name": "Text Link Outlined",
+          "role": "Interactive navigation and informational links",
+          "description": "Text in Ink Black (#000000) with an implied 1px border. On interaction, the text animates with an ease timing function. Example: 'Information' link."
+        },
+        {
+          "name": "Body Text Block",
+          "role": "Descriptive text and content listings",
+          "description": "Text in Ink Black (#000000) at 14px EU-SwissRail-Medium weight 400, line height 1.25, with paragraphs separated by 1px marginBottom. Used for client lists or descriptions."
+        },
+        {
+          "name": "Header Branding",
+          "role": "Site title",
+          "description": "Text in Ink Black (#000000) at 14px EU-SwissRail-Medium weight 400, with letter-spacing 0.015em. Positioned in the top-left corner, serving as a non-interactive brand identifier."
+        },
+        {
+          "name": "Gallery Navigation",
+          "role": "Contextual navigation within image galleries",
+          "description": "Text in Muted Gray (#cecece) at 14px EU-SwissRail-Medium weight 400, with implied 1px borders surrounding the text. Example: '[ Print ]', '[ Pages ]'."
+        },
+        {
+          "name": "Information Link",
+          "role": "Secondary navigation or utility link",
+          "description": "Text in Muted Gray (#cecece) at 14px EU-SwissRail-Medium weight 400, with implied 1px borders. Positioned top-right for less prominent actions. Example: 'Information'."
+        }
+      ],
+      "typography": [
+        {
+          "role": "All text: headlines, body copy, navigation, and links. Its uniform application across all text elements reinforces the minimalist and precise tone, giving a consistent, almost whispered presence.",
+          "sizes": "14px",
+          "family": "EU-SwissRail-Medium",
+          "weight": "400",
+          "lineHeight": "1.25",
+          "substitute": "Inter",
+          "letterSpacing": "0.0150em"
+        }
+      ],
+      "description": "Joséphine Löchen employs a stark, monochromatic aesthetic, creating a visual language that emphasizes raw content over elaborate UI. The design is a minimalist canvas where imagery and text hold equal weight, defined by precise typography, tight spacing, and an absence of color. The overall impression is one of high-fidelity, unadorned presentation, allowing the creative work to take center stage.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "Quick Color Reference: text: #000000, background: #ffffff, border: #cecece, accent: no distinct accent color, primary action: no distinct CTA color\n\nExample Component Prompts:\n1. Create a header: 'Joséphine Löchen' left-aligned (14px EU-SwissRail-Medium 400, letter-spacing 0.015em, #000000), 'Information' right-aligned (14px EU-SwissRail-Medium 400, #cecece, letter-spacing 0.015em), both with subtle implied 1px borders as interactive elements.\n2. Create a full-bleed hero section: a large black and white image spanning the viewport, with the header elements overlaid. Ensure no radius on the image.\n3. Create a descriptive text block: 'Study, Harper's Bazaar France, Modern Matter, D la Repubblica, AnOther, M le Monde' as multiple lines of 14px EU-SwissRail-Medium 400 text, #000000, with 1px margin-bottom between entries."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777516533553-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777516533553-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/3d8be336-7e0e-45f7-baf3-0fb64750decd",
+  "ranks": {
+    "trending": 1090,
+    "popular": 1092,
+    "newest": 339
+  },
+  "localSlug": "josephine-lochen-3d8be336"
+}

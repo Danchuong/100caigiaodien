@@ -1,0 +1,766 @@
+{
+  "id": "657e55de-8cff-4d24-9a4e-17d3b7593a55",
+  "url": "https://traffic.productions",
+  "siteName": "Traffic Productions",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775927611871-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775927611871-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "light",
+  "colors": [
+    {
+      "name": "Midnight Ink",
+      "hex": "#151515"
+    },
+    {
+      "name": "Canvas White",
+      "hex": "#f3f3f3"
+    },
+    {
+      "name": "Highlight Yellow",
+      "hex": "#fff824"
+    },
+    {
+      "name": "Pure Black",
+      "hex": "#000000"
+    },
+    {
+      "name": "Faded Gray",
+      "hex": "#e5e5e5"
+    }
+  ],
+  "fonts": [
+    "Suisse"
+  ],
+  "northStar": "Industrial Print Workshop: stark black, off-white, and sharp yellow accents on bold, condensed type.",
+  "createdAt": "2026-02-17T17:35:33.000Z",
+  "previewVideoCapturedAt": null,
+  "industry": "agency",
+  "fullResult": {
+    "meta": {
+      "url": "https://traffic.productions",
+      "siteName": "Home",
+      "extractedAt": "2026-04-11T17:13:51.707Z",
+      "durationMs": 25912,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 585,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "complete",
+          "attempts": 2
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#151515",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.19573496075691943
+            },
+            "contexts": [
+              "other",
+              "link",
+              "nav",
+              "hero",
+              "heading",
+              "list",
+              "body",
+              "button",
+              "image",
+              "footer",
+              "icon"
+            ],
+            "frequency": 2461,
+            "confidence": 1,
+            "prominence": 76451043.53128918,
+            "properties": [
+              "color",
+              "borderColor",
+              "backgroundColor",
+              "fill"
+            ]
+          },
+          {
+            "hex": "#f3f3f3",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.9641535001508271
+            },
+            "contexts": [
+              "other",
+              "button",
+              "icon"
+            ],
+            "frequency": 26,
+            "confidence": 1,
+            "prominence": 32267755.45891929,
+            "properties": [
+              "backgroundColor",
+              "color",
+              "borderColor",
+              "fill"
+            ]
+          },
+          {
+            "hex": "#fff824",
+            "oklch": {
+              "c": 0.19935973102817553,
+              "h": 107.49784180438343,
+              "l": 0.9541062433805594
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 4,
+            "confidence": 1,
+            "prominence": 2170712.5277078226,
+            "properties": [
+              "backgroundColor"
+            ]
+          },
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "other",
+              "nav",
+              "icon"
+            ],
+            "frequency": 84,
+            "confidence": 1,
+            "prominence": 41539.26265710845,
+            "properties": [
+              "fill"
+            ]
+          },
+          {
+            "hex": "#e5e5e5",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.9219060167761346
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 10,
+            "confidence": 1,
+            "prominence": 678.0485972529103,
+            "properties": [
+              "color",
+              "borderColor"
+            ]
+          }
+        ],
+        "isDarkMode": false,
+        "colorfulness": 0.0008337486790869383,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 18.93,
+            "background": "#f3f3f3",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 18.7,
+            "background": "#fff824",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 16.67,
+            "background": "#e5e5e5",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 16.46,
+            "background": "#f3f3f3",
+            "foreground": "#151515"
+          },
+          {
+            "level": "AAA",
+            "ratio": 16.27,
+            "background": "#fff824",
+            "foreground": "#151515"
+          },
+          {
+            "level": "AAA",
+            "ratio": 14.5,
+            "background": "#151515",
+            "foreground": "#e5e5e5"
+          },
+          {
+            "level": "fail",
+            "ratio": 1.14,
+            "background": "#f3f3f3",
+            "foreground": "#e5e5e5"
+          },
+          {
+            "level": "fail",
+            "ratio": 1.12,
+            "background": "#fff824",
+            "foreground": "#e5e5e5"
+          },
+          {
+            "level": "fail",
+            "ratio": 1.01,
+            "background": "#fff824",
+            "foreground": "#f3f3f3"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [
+          {
+            "value": 9999,
+            "contexts": [
+              "other",
+              "button"
+            ],
+            "frequency": 3
+          }
+        ],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 2,
+            "frequency": 47,
+            "properties": [
+              "paddingBottom",
+              "paddingTop",
+              "marginTop"
+            ]
+          },
+          {
+            "value": 4,
+            "frequency": 29,
+            "properties": [
+              "paddingTop",
+              "paddingBottom",
+              "paddingRight",
+              "paddingLeft",
+              "rowGap"
+            ]
+          },
+          {
+            "value": 5,
+            "frequency": 38,
+            "properties": [
+              "paddingBottom",
+              "marginRight",
+              "marginLeft"
+            ]
+          },
+          {
+            "value": 6,
+            "frequency": 11,
+            "properties": [
+              "paddingLeft",
+              "paddingTop"
+            ]
+          },
+          {
+            "value": 7,
+            "frequency": 2,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ]
+          },
+          {
+            "value": 8,
+            "frequency": 48,
+            "properties": [
+              "paddingBottom",
+              "marginRight",
+              "paddingRight",
+              "paddingLeft"
+            ]
+          },
+          {
+            "value": 9,
+            "frequency": 4,
+            "properties": [
+              "paddingTop",
+              "paddingRight",
+              "paddingBottom",
+              "paddingLeft"
+            ]
+          },
+          {
+            "value": 10,
+            "frequency": 2,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ]
+          },
+          {
+            "value": 12,
+            "frequency": 7,
+            "properties": [
+              "paddingLeft",
+              "marginLeft"
+            ]
+          },
+          {
+            "value": 15,
+            "frequency": 16,
+            "properties": [
+              "paddingTop",
+              "paddingBottom"
+            ]
+          },
+          {
+            "value": 18,
+            "frequency": 4,
+            "properties": [
+              "paddingTop"
+            ]
+          },
+          {
+            "value": 20,
+            "frequency": 65,
+            "properties": [
+              "marginTop",
+              "marginRight",
+              "marginLeft",
+              "paddingRight",
+              "paddingLeft",
+              "paddingBottom",
+              "columnGap"
+            ]
+          },
+          {
+            "value": 34,
+            "frequency": 4,
+            "properties": [
+              "rowGap"
+            ]
+          },
+          {
+            "value": 47,
+            "frequency": 3,
+            "properties": [
+              "marginTop"
+            ]
+          }
+        ],
+        "density": "compact",
+        "baseUnit": 4
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "Suisse",
+            "source": "custom",
+            "weights": [
+              400,
+              700
+            ],
+            "frequency": 495,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 15,
+          "name": "Major Third",
+          "ratio": 1.25,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 8,
+            "family": "Suisse",
+            "weight": 700,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "lineHeight": 1,
+            "letterSpacing": -0.044,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 12,
+            "family": "Suisse",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "heading"
+            ],
+            "frequency": 3,
+            "lineHeight": 1.17,
+            "letterSpacing": -0.01,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 12,
+            "family": "Suisse",
+            "weight": 400,
+            "contexts": [
+              "button",
+              "icon"
+            ],
+            "frequency": 2,
+            "lineHeight": 1.17,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 18,
+            "family": "Suisse",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "hero",
+              "list",
+              "footer",
+              "nav",
+              "icon"
+            ],
+            "frequency": 59,
+            "lineHeight": 1,
+            "letterSpacing": -0.02,
+            "textTransform": "none"
+          },
+          {
+            "size": 18,
+            "family": "Suisse",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "link",
+              "nav",
+              "heading",
+              "body",
+              "image",
+              "list",
+              "icon"
+            ],
+            "frequency": 210,
+            "lineHeight": 1,
+            "letterSpacing": -0.02,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 18,
+            "family": "Suisse",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "list",
+              "body"
+            ],
+            "frequency": 83,
+            "lineHeight": 1.17,
+            "letterSpacing": -0.03,
+            "textTransform": "none"
+          },
+          {
+            "size": 18,
+            "family": "Suisse",
+            "weight": 400,
+            "contexts": [
+              "button",
+              "other"
+            ],
+            "frequency": 20,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 30,
+            "family": "Suisse",
+            "weight": 400,
+            "contexts": [
+              "button",
+              "other"
+            ],
+            "frequency": 3,
+            "lineHeight": 1,
+            "letterSpacing": -0.02,
+            "textTransform": "none"
+          },
+          {
+            "size": 54,
+            "family": "Suisse",
+            "weight": 400,
+            "contexts": [
+              "heading",
+              "other"
+            ],
+            "frequency": 21,
+            "lineHeight": 0.96,
+            "letterSpacing": -0.03,
+            "textTransform": "none"
+          },
+          {
+            "size": 84,
+            "family": "Suisse",
+            "weight": 400,
+            "contexts": [
+              "heading",
+              "other"
+            ],
+            "frequency": 36,
+            "lineHeight": 0.93,
+            "letterSpacing": -0.03,
+            "textTransform": "none"
+          },
+          {
+            "size": 108,
+            "family": "Suisse",
+            "weight": 400,
+            "contexts": [
+              "link",
+              "other",
+              "image"
+            ],
+            "frequency": 56,
+            "lineHeight": 0.89,
+            "letterSpacing": -0.04,
+            "textTransform": "uppercase"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Use Suisse (or a substitute with similar condensed, impactful qualities) for all typography.",
+        "Maintain a stark, high-contrast palette with Midnight Ink (#151515) for text and Canvas White (#f3f3f3) for backgrounds.",
+        "Reserve Highlight Yellow (#fff824) exclusively for active states, small accents, or critical interactive elements.",
+        "Apply 0px border radius to all elements except explicitly pill-shaped buttons (9999px).",
+        "Utilize fine lines (1px) in Midnight Ink (#151515) for borders and dividers to emphasize structure.",
+        "Employ the aggressive letter-spacing and low line-height values defined in the typography section to create dense, impactful text blocks."
+      ],
+      "tags": [
+        "minimalist",
+        "high-contrast",
+        "industrial",
+        "condensed-type",
+        "monochromatic-plus-accent",
+        "grid-based",
+        "bold",
+        "print-inspired",
+        "sharp-edges",
+        "graphic"
+      ],
+      "donts": [
+        "Do not introduce additional color accents or gradients, as they dilute the system's impact.",
+        "Avoid soft shadows or subtle gradients; the design relies on flat colors and sharp distinctions.",
+        "Do not use rounded corners unless it's a specific pill button; maintain a rectilinear aesthetic.",
+        "Never use generic body text; all text should adhere to the Suisse font family and its specified weights/sizes.",
+        "Do not use varied padding or margin values for similar components; adhere to the defined spacing tokens (e.g., 9px for component padding, 20px for larger element margins).",
+        "Avoid complex layouts or overlapping elements; maintain a clean, grid-like structure with clear visual separation."
+      ],
+      "theme": "light",
+      "colors": [
+        {
+          "hex": "#151515",
+          "name": "Midnight Ink",
+          "role": "Primary text, borders, button backgrounds — the dominant dark color creating strong contrast.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#f3f3f3",
+          "name": "Canvas White",
+          "role": "Page backgrounds, large content blocks — provides a muted contrast to text without being blinding white.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#fff824",
+          "name": "Highlight Yellow",
+          "role": "Interactive elements, highlight bars, active states — acts as a critical visual cue and brand accent.",
+          "group": "brand"
+        },
+        {
+          "hex": "#000000",
+          "name": "Pure Black",
+          "role": "Fine lines, icons, secondary text — used sparingly for maximum impact or to provide slight variation from Midnight Ink.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#e5e5e5",
+          "name": "Faded Gray",
+          "role": "Subtle borders, dividers, disabled states — an understated neutral for visual separation.",
+          "group": "neutral"
+        }
+      ],
+      "layout": "The site employs a full-width layout, pushing content to the edges of the viewport, but features a strong underlying grid for content organization. The hero section is characterized by a large, centered, bold heading over a Canvas White background, occupying significant vertical space. Sections flow with consistent vertical spacing (approx. 48px `sectionGap`), often using thin rule lines and Highlight Yellow accents as visual dividers or separators. Content is typically arranged in clear, contained blocks, favoring a text-left/text-right or stacked approach, with visual tension created by the bold typography and strategic use of negative space. Navigation is a sticky top bar with minimal styling, emphasizing functionality. The layout is information-dense but meticulously structured, akin to a printed magazine.",
+      "imagery": "The visual language is characterized by an absence of stock photography or complex illustrations. Instead, it relies on minimalist icons (black on white), carefully framed product/project samples, and abstract graphical elements like lines and arrows. When photography is present, it's typically within a contained frame, often monochrome (as seen in the 'House of Schwarzkopf' example), treated as an object within the design grid rather than a background element. The overall density of imagery is low, with text and graphical lines playing a more dominant role in conveying information and mood. Imagery serves an explanatory or showcase role for work, rather than decorative atmosphere.",
+      "similar": [
+        {
+          "why": "Shares a similar agency aesthetic with bold, large typography, high contrast, and a focus on content over overly ornate design.",
+          "business": "Huge Inc."
+        },
+        {
+          "why": "Employs a stark, minimalist visual style with a strong typographic emphasis and a restricted color palette for brand identity.",
+          "business": "Pentagram"
+        },
+        {
+          "why": "Known for clean, functional interfaces with strong typography and a limited, effective accent color against a clean background.",
+          "business": "Stripe"
+        },
+        {
+          "why": "Exhibits a passion for typographic expression, using bold and unique typefaces as the primary design element against simple backgrounds.",
+          "business": "Future Fonts"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "buttons": "9999px",
+          "default": "0px"
+        },
+        "elementGap": "4px",
+        "sectionGap": "48px",
+        "cardPadding": "9px",
+        "pageMaxWidth": null
+      },
+      "category": "agency",
+      "northStar": "Industrial Print Workshop: stark black, off-white, and sharp yellow accents on bold, condensed type.",
+      "typeScale": [
+        {
+          "role": "caption",
+          "size": 12,
+          "lineHeight": 14.04
+        },
+        {
+          "role": "body",
+          "size": 18,
+          "lineHeight": 20.88,
+          "letterSpacing": -0.18
+        },
+        {
+          "role": "subheading",
+          "size": 30,
+          "lineHeight": 30,
+          "letterSpacing": -0.6
+        },
+        {
+          "role": "heading",
+          "size": 54,
+          "lineHeight": 50.76,
+          "letterSpacing": -1.62
+        },
+        {
+          "role": "heading-lg",
+          "size": 84,
+          "lineHeight": 74.04,
+          "letterSpacing": -3.36
+        },
+        {
+          "role": "display",
+          "size": 108,
+          "lineHeight": 95.04,
+          "letterSpacing": -4.75
+        }
+      ],
+      "components": [
+        {
+          "html": "<div style=\"--color-midnight-ink:#151515;--color-canvas-white:#f3f3f3;--color-highlight-yellow:#fff824;--color-pure-black:#000000;--color-faded-gray:#e5e5e5;--font-suisse:'Arial Narrow',Arial,sans-serif;width:600px;box-sizing:border-box;font-family:var(--font-suisse);\">\n  <div style=\"background:var(--color-highlight-yellow);display:flex;align-items:center;justify-content:space-between;padding:9px 12px;border:1px solid var(--color-midnight-ink);box-sizing:border-box;\">\n    <span style=\"font-family:var(--font-suisse);font-size:18px;font-weight:700;color:var(--color-midnight-ink);letter-spacing:-0.01em;text-transform:uppercase;\">COOKIES</span>\n    <button style=\"background:none;border:none;cursor:pointer;padding:4px 8px;font-family:var(--font-suisse);font-size:18px;font-weight:700;color:var(--color-midnight-ink);line-height:1;\">✕</button>\n  </div>\n  <div style=\"background:var(--color-canvas-white);border:1px solid var(--color-midnight-ink);border-top:none;padding:18px 12px;box-sizing:border-box;\">\n    <p style=\"font-family:var(--font-suisse);font-size:18px;font-weight:400;color:var(--color-midnight-ink);letter-spacing:-0.01em;line-height:1.17;margin:0 0 18px 0;\">We use cookies to ensure you get the best experience on our website. By continuing to use this site you accept our use of cookies.</p>\n    <div style=\"display:flex;gap:12px;align-items:center;\">\n      <a href=\"#\" style=\"font-family:var(--font-suisse);font-size:18px;font-weight:400;color:var(--color-midnight-ink);text-decoration:underline;letter-spacing:-0.01em;\">PRIVACY POLICY</a>\n      <button style=\"background:var(--color-midnight-ink);color:var(--color-canvas-white);font-family:var(--font-suisse);font-size:18px;font-weight:700;letter-spacing:-0.01em;border:none;border-radius:9999px;padding:8px 24px;cursor:pointer;\">ACCEPT</button>\n    </div>\n  </div>\n</div>",
+          "name": "Cookie Bar",
+          "role": "",
+          "description": ""
+        },
+        {
+          "html": "<div style=\"--color-midnight-ink:#151515;--color-canvas-white:#f3f3f3;--color-highlight-yellow:#fff824;--color-pure-black:#000000;--color-faded-gray:#e5e5e5;--font-suisse:'Arial Narrow',Arial,sans-serif;width:600px;box-sizing:border-box;background:var(--color-canvas-white);font-family:var(--font-suisse);padding:40px 24px 48px 24px;border-top:2px solid var(--color-midnight-ink);\">\n  <div style=\"margin-bottom:4px;\">\n    <div style=\"width:100%;height:3px;background:var(--color-highlight-yellow);margin-bottom:2px;\"></div>\n    <div style=\"width:100%;height:1px;background:var(--color-midnight-ink);\"></div>\n  </div>\n  <h2 style=\"font-family:var(--font-suisse);font-size:54px;font-weight:700;color:var(--color-midnight-ink);letter-spacing:-0.03em;line-height:0.93;margin:28px 0 32px 0;text-transform:none;\">A non-agency offer for Brands, Agencies, Marketers, Creatives and Procurement focusing on delivering performance at scale.</h2>\n  <div style=\"display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-bottom:32px;\">\n    <p style=\"font-family:var(--font-suisse);font-size:18px;font-weight:400;color:var(--color-midnight-ink);letter-spacing:-0.01em;line-height:1.17;margin:0;\">Independent in thinking, but seamlessly integrated in our clients' ecosystem to deliver sustainable growth.</p>\n    <p style=\"font-family:var(--font-suisse);font-size:18px;font-weight:400;color:var(--color-midnight-ink);letter-spacing:-0.01em;line-height:1.17;margin:0;\">Radically service-oriented and without ego, but always with a clear vision.</p>\n  </div>\n  <a href=\"#\" style=\"font-family:var(--font-suisse);font-size:18px;font-weight:400;color:var(--color-midnight-ink);text-decoration:underline;letter-spacing:-0.01em;\">MORE ABOUT US</a>\n</div>",
+          "name": "About Section — Non-Agency Offer",
+          "role": "",
+          "description": ""
+        },
+        {
+          "html": "<div style=\"--color-midnight-ink:#151515;--color-canvas-white:#f3f3f3;--color-highlight-yellow:#fff824;--color-pure-black:#000000;--color-faded-gray:#e5e5e5;--font-suisse:'Arial Narrow',Arial,sans-serif;width:600px;box-sizing:border-box;background:var(--color-canvas-white);font-family:var(--font-suisse);border:1px solid var(--color-midnight-ink);\">\n  <div style=\"display:flex;align-items:stretch;border-bottom:1px solid var(--color-midnight-ink);\">\n    <div style=\"padding:9px 12px;border-right:1px solid var(--color-midnight-ink);min-width:60px;\">\n      <span style=\"font-family:var(--font-suisse);font-size:18px;font-weight:400;color:var(--color-midnight-ink);letter-spacing:-0.01em;\">A)</span>\n    </div>\n    <div style=\"padding:9px 12px;flex:1;\">\n      <span style=\"font-family:var(--font-suisse);font-size:18px;font-weight:700;color:var(--color-midnight-ink);letter-spacing:-0.01em;text-decoration:underline;\">HOUSE OF SCHWARZKOPF</span>\n    </div>\n  </div>\n  <div style=\"display:flex;flex-direction:row;\">\n    <div style=\"flex:1;padding:20px 12px;border-right:1px solid var(--color-midnight-ink);display:flex;flex-direction:column;justify-content:space-between;\">\n      <div>\n        <p style=\"font-family:var(--font-suisse);font-size:18px;font-weight:400;color:var(--color-midnight-ink);letter-spacing:-0.01em;line-height:1.17;margin:0 0 20px 0;\">Brand activation campaign spanning physical events and digital content strategy across Europe.</p>\n        <div style=\"display:flex;flex-wrap:wrap;gap:6px;margin-bottom:20px;\">\n          <span style=\"font-family:var(--font-suisse);font-size:12px;font-weight:700;color:var(--color-midnight-ink);border:1px solid var(--color-midnight-ink);padding:4px 9px;letter-spacing:0;text-transform:uppercase;\">BRAND</span>\n          <span style=\"font-family:var(--font-suisse);font-size:12px;font-weight:700;color:var(--color-midnight-ink);border:1px solid var(--color-midnight-ink);padding:4px 9px;letter-spacing:0;text-transform:uppercase;\">EVENTS</span>\n          <span style=\"font-family:var(--font-suisse);font-size:12px;font-weight:700;color:var(--color-midnight-ink);border:1px solid var(--color-midnight-ink);padding:4px 9px;letter-spacing:0;text-transform:uppercase;\">DIGITAL</span>\n        </div>\n      </div>\n      <a href=\"#\" style=\"font-family:var(--font-suisse);font-size:18px;font-weight:400;color:var(--color-midnight-ink);text-decoration:underline;letter-spacing:-0.01em;align-self:flex-start;\">VIEW PROJECT</a>\n    </div>\n    <div style=\"width:220px;flex-shrink:0;\">\n      <div style=\"width:100%;height:200px;background:#c8c8c8;display:flex;align-items:center;justify-content:center;\">\n        <div style=\"width:100%;height:100%;background:linear-gradient(135deg,#b0b0b0 0%,#d8d8d8 100%);\"></div>\n      </div>\n    </div>\n  </div>\n  <div style=\"border-top:1px solid var(--color-midnight-ink);background:var(--color-highlight-yellow);height:4px;\"></div>\n</div>",
+          "name": "Work Card — Project Listing",
+          "role": "",
+          "description": ""
+        },
+        {
+          "name": "Text Link Button",
+          "role": "Basic navigation and call to action.",
+          "description": "Text in Midnight Ink (#151515), no background, no border, 0px border radius, 0px padding. Uses Suisse font size 18px, weight 400."
+        },
+        {
+          "name": "Pill Button",
+          "role": "Primary action button, standing out with its distinctive shape.",
+          "description": "Background: Midnight Ink (#151515); Text: Canvas White (#f3f3f3); 9999px border radius. Uses Suisse font size 18px, weight 400. Not padded."
+        },
+        {
+          "name": "Framed Box Button",
+          "role": "Interactive elements with a strong visual presence, like the 'Cookies' banner or content cards.",
+          "description": "Background: Canvas White (#f3f3f3); Text: Midnight Ink (#151515); 0px border radius; 9px padding. Uses Suisse font size 18px, weight 400. Border color #151515."
+        },
+        {
+          "name": "Navigation Link",
+          "role": "Main navigation items.",
+          "description": "Text: Midnight Ink (#151515), Suisse font size 18px, weight 400. Active state indicated by a bottom highlight bar in Highlight Yellow (#fff824)."
+        },
+        {
+          "name": "Cookie Bar",
+          "role": "Legal compliance notification.",
+          "description": "Background: Highlight Yellow (#fff824); Text: Midnight Ink (#151515); padding: 9px. Contains an 'X' button to close."
+        },
+        {
+          "name": "Section Divider",
+          "role": "Visual separation between content blocks.",
+          "description": "Solid line of Midnight Ink (#151515) with an optional Highlight Yellow (#fff824) accent line above or below."
+        }
+      ],
+      "typography": [
+        {
+          "role": "The sole typeface, Suisse, is a custom condensed sans-serif, giving the entire site a direct, impactful, and almost industrial voice. The tight letter-spacing and low line-height create dense blocks of text, resembling a printed layout rather than a fluid digital interface.",
+          "sizes": "12px, 18px, 30px, 54px, 84px, 108px",
+          "family": "Suisse",
+          "weight": "400, 700",
+          "lineHeight": "0.89, 0.93, 0.96, 1.00, 1.17",
+          "substitute": "Open Sans Condensed / Source Sans 3 (condensed weights)",
+          "letterSpacing": "-0.0440em at 108px, -0.0400em at 84px, -0.0300em at 54px, -0.0200em at 30px, -0.0100em at 18px"
+        }
+      ],
+      "description": "This design system projects a raw, industrial efficiency, like a minimalist print workshop. Bold, condensed typography in Suisse (or a similar sans-serif) dominates the visual field, creating an assertive, no-nonsense tone. The stark black and white palette is punctured by a single, aggressive yellow accent, reminiscent of hazard tape or highlighting, which directs attention and provides visual adrenaline. Understated component styling, characterized by sharp angles and strong lines, reinforces the functional and direct approach.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "**Quick Color Reference:** \n- Text: #151515\n- Background: #f3f3f3\n- CTA: #151515 (bg) / #f3f3f3 (text)\n- Accent: #fff824\n- Border: #151515\n\n**3-5 Example Component Prompts:**\n1. Create a hero section: background #f3f3f3. Headline 'We are TRAFFIC' in Suisse 108px, weight 700, #151515, letter-spacing -4.75px, line-height 95.04px. Subtitle 'PRODUCTIONS' in Suisse 54px, weight 400, #151515, letter-spacing -1.62px, line-height 50.76px. Ensure the section ends with a thin #151515 border line and a thin #fff824 line above it.\n2. Design a 'Read More' link: text 'more about us' in Suisse 18px, weight 400, #151515, letter-spacing -0.18px, line-height 20.88px. Underline is 1px #151515. On hover, the text color should remain #151515, and the underline should change to #fff824.\n3. Implement a primary action button: text 'Submit' in Suisse 18px, weight 400, #f3f3f3, letter-spacing -0.18px, line-height 20.88px. Background #151515, border-radius 9999px. Padding 9px all around. No borders.\n4. Create a framed content card: title 'PROJECT NAME' in Suisse 30px, weight 700, #151515, letter-spacing -0.6px, line-height 30px. Body text 'A brief description of the project' in Suisse 18px, weight 400, #151515, letter-spacing -0.18px, line-height 20.88px. Card has a 1px #151515 border and 9px padding. Background #f3f3f3."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775927611871-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775927611871-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/657e55de-8cff-4d24-9a4e-17d3b7593a55",
+  "ranks": {
+    "trending": 313,
+    "popular": 319,
+    "newest": 1171
+  },
+  "localSlug": "traffic-productions-657e55de"
+}

@@ -1,0 +1,1677 @@
+{
+  "id": "d4c51049-58eb-404a-9fcb-f195928b1c99",
+  "url": "https://warp.dev",
+  "siteName": "Warp",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775923168907-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775923168907-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "dark",
+  "colors": [
+    {
+      "name": "Deep Space",
+      "hex": "#000000"
+    },
+    {
+      "name": "Console Dark",
+      "hex": "#121212"
+    },
+    {
+      "name": "Surface Dark",
+      "hex": "#1E1E1D"
+    },
+    {
+      "name": "Ghost Gray",
+      "hex": "#868684"
+    },
+    {
+      "name": "Luminous White",
+      "hex": "#FAF9F6"
+    },
+    {
+      "name": "Polar White",
+      "hex": "#FFFFFF"
+    }
+  ],
+  "fonts": [
+    "Matter",
+    "Inter",
+    "Geist Mono"
+  ],
+  "northStar": "Midnight Command Center. Deeply desaturated dark surfaces provide a stage for precise, luminous information, like a control panel in low light.",
+  "createdAt": "2026-02-10T19:00:00.000Z",
+  "previewVideoCapturedAt": null,
+  "industry": "devtools",
+  "fullResult": {
+    "meta": {
+      "url": "https://warp.dev",
+      "siteName": "Warp",
+      "extractedAt": "2026-04-11T15:59:56.192Z",
+      "durationMs": 33128,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 894,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "complete",
+          "attempts": 2
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "other",
+              "nav",
+              "icon",
+              "button",
+              "list",
+              "image",
+              "link",
+              "footer",
+              "body"
+            ],
+            "frequency": 2332,
+            "confidence": 1,
+            "prominence": 73458715.71890892,
+            "properties": [
+              "color",
+              "borderColor",
+              "fill",
+              "stroke"
+            ]
+          },
+          {
+            "hex": "#121212",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.18220370283599863
+            },
+            "contexts": [
+              "other",
+              "body",
+              "footer"
+            ],
+            "frequency": 7,
+            "confidence": 1,
+            "prominence": 19697598,
+            "properties": [
+              "backgroundColor",
+              "color",
+              "borderColor"
+            ]
+          },
+          {
+            "hex": "#1e1e1d",
+            "oklch": {
+              "c": 0.001884253006969585,
+              "h": 106.54393288922726,
+              "l": 0.234637546557392
+            },
+            "contexts": [
+              "other",
+              "footer"
+            ],
+            "frequency": 6,
+            "confidence": 1,
+            "prominence": 2901067.236710809,
+            "properties": [
+              "backgroundColor"
+            ]
+          },
+          {
+            "hex": "#868684",
+            "oklch": {
+              "c": 0.002307072620437661,
+              "h": 91.44185212231237,
+              "l": 0.6183450571379726
+            },
+            "contexts": [
+              "body",
+              "link",
+              "heading"
+            ],
+            "frequency": 245,
+            "confidence": 1,
+            "prominence": 498710.4857902509,
+            "properties": [
+              "color",
+              "borderColor"
+            ]
+          },
+          {
+            "hex": "#faf9f6",
+            "oklch": {
+              "c": 0.00410957282652452,
+              "h": 91.44581544346819,
+              "l": 0.9820488326089454
+            },
+            "contexts": [
+              "nav",
+              "heading",
+              "body",
+              "link",
+              "other"
+            ],
+            "frequency": 209,
+            "confidence": 1,
+            "prominence": 484377.47605425585,
+            "properties": [
+              "color",
+              "borderColor",
+              "backgroundColor",
+              "fill",
+              "stroke"
+            ]
+          },
+          {
+            "hex": "#ffffff",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 1.0000000000000002
+            },
+            "contexts": [
+              "nav",
+              "other",
+              "body",
+              "button",
+              "heading"
+            ],
+            "frequency": 113,
+            "confidence": 1,
+            "prominence": 477106.5452390531,
+            "properties": [
+              "backgroundColor",
+              "color",
+              "borderColor",
+              "fill",
+              "stroke"
+            ]
+          },
+          {
+            "hex": "#333333",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.3210925111636326
+            },
+            "contexts": [
+              "nav",
+              "other",
+              "button",
+              "link"
+            ],
+            "frequency": 34,
+            "confidence": 1,
+            "prominence": 395980.64890815143,
+            "properties": [
+              "color",
+              "borderColor",
+              "backgroundColor"
+            ]
+          },
+          {
+            "hex": "#b4b4b2",
+            "oklch": {
+              "c": 0.003058357457062287,
+              "h": 91.4440066710725,
+              "l": 0.7689273802138016
+            },
+            "contexts": [
+              "body",
+              "heading",
+              "button"
+            ],
+            "frequency": 115,
+            "confidence": 1,
+            "prominence": 262112.0336337758,
+            "properties": [
+              "color",
+              "borderColor"
+            ]
+          },
+          {
+            "hex": "#a0a0a0",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.7064058164388182
+            },
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 70,
+            "confidence": 1,
+            "prominence": 224779.40696501563,
+            "properties": [
+              "color",
+              "borderColor"
+            ]
+          },
+          {
+            "hex": "#e3e2e0",
+            "oklch": {
+              "c": 0.0029102256520441966,
+              "h": 84.55951967572075,
+              "l": 0.9130014288661087
+            },
+            "contexts": [
+              "body",
+              "heading"
+            ],
+            "frequency": 45,
+            "confidence": 1,
+            "prominence": 147120.07269957854,
+            "properties": [
+              "color",
+              "borderColor"
+            ]
+          },
+          {
+            "hex": "#40403f",
+            "oklch": {
+              "c": 0.001681928317820699,
+              "h": 106.48126758611053,
+              "l": 0.3711417083837764
+            },
+            "contexts": [
+              "nav",
+              "other"
+            ],
+            "frequency": 6,
+            "confidence": 1,
+            "prominence": 64513.01610888374,
+            "properties": [
+              "backgroundColor"
+            ]
+          },
+          {
+            "hex": "#080808",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.13496695243647713
+            },
+            "contexts": [
+              "nav",
+              "body"
+            ],
+            "frequency": 30,
+            "confidence": 1,
+            "prominence": 41342.768210178474,
+            "properties": [
+              "color",
+              "borderColor"
+            ]
+          },
+          {
+            "hex": "#cbb0f7",
+            "oklch": {
+              "c": 0.10227375074493518,
+              "h": 301.5823414206865,
+              "l": 0.8052493940256198
+            },
+            "contexts": [
+              "body"
+            ],
+            "frequency": 10,
+            "confidence": 1,
+            "prominence": 22022.741684245033,
+            "properties": [
+              "color",
+              "borderColor"
+            ]
+          },
+          {
+            "hex": "#ebebeb",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.9400701157803539
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 16,
+            "confidence": 1,
+            "prominence": 10206.394714602096,
+            "properties": [
+              "backgroundColor"
+            ]
+          },
+          {
+            "hex": "#666469",
+            "oklch": {
+              "c": 0.008163256352614829,
+              "h": 304.11412149802004,
+              "l": 0.5067266011183456
+            },
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 5,
+            "confidence": 1,
+            "prominence": 3998.9369886156283,
+            "properties": [
+              "color",
+              "borderColor"
+            ]
+          },
+          {
+            "hex": "#2ecc71",
+            "oklch": {
+              "c": 0.18124940984274523,
+              "h": 152.3266081993837,
+              "l": 0.7458673885977593
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 64,
+            "properties": [
+              "backgroundColor"
+            ]
+          }
+        ],
+        "isDarkMode": true,
+        "colorfulness": 0.0026435540554361624,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 21,
+            "background": "#ffffff",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 20.03,
+            "background": "#ffffff",
+            "foreground": "#080808"
+          },
+          {
+            "level": "AAA",
+            "ratio": 19.95,
+            "background": "#faf9f6",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 19.02,
+            "background": "#faf9f6",
+            "foreground": "#080808"
+          },
+          {
+            "level": "AAA",
+            "ratio": 18.73,
+            "background": "#ffffff",
+            "foreground": "#121212"
+          },
+          {
+            "level": "AAA",
+            "ratio": 17.79,
+            "background": "#faf9f6",
+            "foreground": "#121212"
+          },
+          {
+            "level": "AAA",
+            "ratio": 17.62,
+            "background": "#ebebeb",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 16.8,
+            "background": "#ebebeb",
+            "foreground": "#080808"
+          },
+          {
+            "level": "AAA",
+            "ratio": 16.68,
+            "background": "#1e1e1d",
+            "foreground": "#ffffff"
+          },
+          {
+            "level": "AAA",
+            "ratio": 16.22,
+            "background": "#e3e2e0",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 15.85,
+            "background": "#1e1e1d",
+            "foreground": "#faf9f6"
+          },
+          {
+            "level": "AAA",
+            "ratio": 15.71,
+            "background": "#ebebeb",
+            "foreground": "#121212"
+          },
+          {
+            "level": "AAA",
+            "ratio": 15.47,
+            "background": "#e3e2e0",
+            "foreground": "#080808"
+          },
+          {
+            "level": "AAA",
+            "ratio": 14.47,
+            "background": "#121212",
+            "foreground": "#e3e2e0"
+          },
+          {
+            "level": "AAA",
+            "ratio": 14,
+            "background": "#ebebeb",
+            "foreground": "#1e1e1d"
+          },
+          {
+            "level": "AAA",
+            "ratio": 12.89,
+            "background": "#1e1e1d",
+            "foreground": "#e3e2e0"
+          },
+          {
+            "level": "AAA",
+            "ratio": 12.63,
+            "background": "#333333",
+            "foreground": "#ffffff"
+          },
+          {
+            "level": "AAA",
+            "ratio": 12,
+            "background": "#333333",
+            "foreground": "#faf9f6"
+          },
+          {
+            "level": "AAA",
+            "ratio": 11.09,
+            "background": "#cbb0f7",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 10.6,
+            "background": "#ebebeb",
+            "foreground": "#333333"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [
+          {
+            "value": 4,
+            "contexts": [
+              "nav",
+              "other",
+              "link",
+              "button",
+              "icon",
+              "image"
+            ],
+            "frequency": 56
+          },
+          {
+            "value": 7,
+            "contexts": [
+              "link",
+              "button",
+              "other",
+              "image"
+            ],
+            "frequency": 12
+          },
+          {
+            "value": 10,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1
+          },
+          {
+            "value": 20,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 7
+          },
+          {
+            "value": 33.17,
+            "contexts": [
+              "button"
+            ],
+            "frequency": 5
+          },
+          {
+            "value": 50,
+            "contexts": [
+              "button"
+            ],
+            "frequency": 2
+          }
+        ],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 2,
+            "frequency": 2,
+            "properties": [
+              "rowGap",
+              "columnGap"
+            ]
+          },
+          {
+            "value": 4,
+            "frequency": 16,
+            "properties": [
+              "rowGap",
+              "columnGap"
+            ]
+          },
+          {
+            "value": 5,
+            "frequency": 10,
+            "properties": [
+              "paddingTop",
+              "paddingBottom"
+            ]
+          },
+          {
+            "value": 6,
+            "frequency": 24,
+            "properties": [
+              "rowGap",
+              "columnGap"
+            ]
+          },
+          {
+            "value": 7,
+            "frequency": 16,
+            "properties": [
+              "rowGap",
+              "columnGap"
+            ]
+          },
+          {
+            "value": 8,
+            "frequency": 78,
+            "properties": [
+              "rowGap",
+              "columnGap",
+              "paddingRight",
+              "paddingLeft",
+              "paddingTop",
+              "paddingBottom",
+              "marginBottom"
+            ]
+          },
+          {
+            "value": 9,
+            "frequency": 2,
+            "properties": [
+              "rowGap",
+              "columnGap"
+            ]
+          },
+          {
+            "value": 10,
+            "frequency": 168,
+            "properties": [
+              "rowGap",
+              "columnGap",
+              "paddingTop",
+              "paddingBottom",
+              "paddingRight",
+              "paddingLeft"
+            ]
+          },
+          {
+            "value": 11,
+            "frequency": 8,
+            "properties": [
+              "paddingRight",
+              "paddingLeft",
+              "rowGap",
+              "columnGap"
+            ]
+          },
+          {
+            "value": 12,
+            "frequency": 102,
+            "properties": [
+              "rowGap",
+              "columnGap",
+              "paddingTop",
+              "paddingRight",
+              "paddingBottom",
+              "paddingLeft"
+            ]
+          },
+          {
+            "value": 13,
+            "frequency": 6,
+            "properties": [
+              "paddingRight",
+              "paddingLeft",
+              "rowGap",
+              "columnGap"
+            ]
+          },
+          {
+            "value": 14,
+            "frequency": 10,
+            "properties": [
+              "paddingTop",
+              "paddingBottom"
+            ]
+          },
+          {
+            "value": 15,
+            "frequency": 4,
+            "properties": [
+              "paddingTop",
+              "paddingRight",
+              "paddingBottom",
+              "paddingLeft"
+            ]
+          },
+          {
+            "value": 16,
+            "frequency": 30,
+            "properties": [
+              "paddingTop",
+              "paddingBottom",
+              "rowGap",
+              "columnGap"
+            ]
+          },
+          {
+            "value": 18,
+            "frequency": 4,
+            "properties": [
+              "rowGap",
+              "columnGap"
+            ]
+          },
+          {
+            "value": 19,
+            "frequency": 4,
+            "properties": [
+              "rowGap",
+              "columnGap"
+            ]
+          },
+          {
+            "value": 20,
+            "frequency": 22,
+            "properties": [
+              "paddingRight",
+              "paddingLeft",
+              "rowGap",
+              "columnGap",
+              "paddingTop",
+              "paddingBottom"
+            ]
+          },
+          {
+            "value": 21,
+            "frequency": 3,
+            "properties": [
+              "rowGap",
+              "columnGap",
+              "paddingBottom"
+            ]
+          },
+          {
+            "value": 24,
+            "frequency": 38,
+            "properties": [
+              "paddingTop",
+              "paddingBottom",
+              "paddingRight",
+              "rowGap",
+              "columnGap"
+            ]
+          },
+          {
+            "value": 25,
+            "frequency": 10,
+            "properties": [
+              "paddingTop",
+              "paddingBottom"
+            ]
+          },
+          {
+            "value": 30,
+            "frequency": 18,
+            "properties": [
+              "paddingRight",
+              "paddingLeft",
+              "rowGap",
+              "columnGap",
+              "paddingTop",
+              "paddingBottom"
+            ]
+          },
+          {
+            "value": 32,
+            "frequency": 19,
+            "properties": [
+              "paddingTop",
+              "paddingRight",
+              "paddingLeft",
+              "columnGap",
+              "rowGap"
+            ]
+          },
+          {
+            "value": 36,
+            "frequency": 2,
+            "properties": [
+              "rowGap",
+              "columnGap"
+            ]
+          },
+          {
+            "value": 40,
+            "frequency": 7,
+            "properties": [
+              "paddingTop",
+              "rowGap",
+              "columnGap",
+              "paddingBottom"
+            ]
+          },
+          {
+            "value": 42,
+            "frequency": 2,
+            "properties": [
+              "rowGap",
+              "columnGap"
+            ]
+          },
+          {
+            "value": 52,
+            "frequency": 2,
+            "properties": [
+              "rowGap",
+              "columnGap"
+            ]
+          },
+          {
+            "value": 64,
+            "frequency": 2,
+            "properties": [
+              "paddingBottom"
+            ]
+          },
+          {
+            "value": 72,
+            "frequency": 2,
+            "properties": [
+              "rowGap",
+              "columnGap"
+            ]
+          },
+          {
+            "value": 120,
+            "frequency": 2,
+            "properties": [
+              "paddingTop",
+              "paddingBottom"
+            ]
+          },
+          {
+            "value": 128,
+            "frequency": 2,
+            "properties": [
+              "rowGap",
+              "columnGap"
+            ]
+          }
+        ],
+        "density": "compact",
+        "baseUnit": null
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "sans-serif",
+            "source": "system",
+            "weights": [
+              400
+            ],
+            "frequency": 575,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "Matter Regular",
+            "source": "custom",
+            "weights": [
+              400,
+              600,
+              700
+            ],
+            "frequency": 123,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "Inter",
+            "source": "google",
+            "weights": [
+              400,
+              500
+            ],
+            "frequency": 33,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "Matter Medium",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 11,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "Geist Mono",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 6,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "Matter Mono Regular",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 2,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 16,
+          "name": "Major Second",
+          "ratio": 1.125,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 10,
+            "family": "Matter Regular",
+            "weight": 400,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 5,
+            "lineHeight": 1.15,
+            "letterSpacing": 0.02,
+            "textTransform": "none"
+          },
+          {
+            "size": 12,
+            "family": "sans-serif",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "nav",
+              "icon",
+              "link",
+              "image",
+              "button",
+              "list",
+              "footer"
+            ],
+            "frequency": 575,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 12,
+            "family": "Matter Regular",
+            "weight": 400,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.2,
+            "letterSpacing": -0.02,
+            "textTransform": "none"
+          },
+          {
+            "size": 12,
+            "family": "Matter Regular",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "list",
+              "link"
+            ],
+            "frequency": 10,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 12,
+            "family": "Matter Regular",
+            "weight": 400,
+            "contexts": [
+              "body",
+              "link"
+            ],
+            "frequency": 3,
+            "lineHeight": 1.35,
+            "letterSpacing": 0.2,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 12,
+            "family": "Matter Regular",
+            "weight": 400,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 1,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 13,
+            "family": "Matter Regular",
+            "weight": 600,
+            "contexts": [
+              "button"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 14,
+            "family": "Inter",
+            "weight": 500,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 5,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 14,
+            "family": "Inter",
+            "weight": 400,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 7,
+            "lineHeight": 1.3,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 14,
+            "family": "Matter Regular",
+            "weight": 400,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "lineHeight": 1,
+            "letterSpacing": 0.1,
+            "textTransform": "none"
+          },
+          {
+            "size": 14,
+            "family": "Matter Regular",
+            "weight": 400,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 1,
+            "lineHeight": 1,
+            "letterSpacing": 0.1,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 14,
+            "family": "Inter",
+            "weight": 400,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 5,
+            "lineHeight": 1,
+            "letterSpacing": -0.014,
+            "textTransform": "none"
+          },
+          {
+            "size": 14,
+            "family": "Inter",
+            "weight": 400,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 10,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "Matter Regular",
+            "weight": 400,
+            "contexts": [
+              "nav",
+              "body"
+            ],
+            "frequency": 13,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "Matter Medium",
+            "weight": 400,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 2,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "Matter Medium",
+            "weight": 400,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 7,
+            "lineHeight": 1,
+            "letterSpacing": 0.001,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "Matter Medium",
+            "weight": 400,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 2,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "Matter Regular",
+            "weight": 400,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 2,
+            "lineHeight": 1.25,
+            "letterSpacing": -0.012,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "Matter Regular",
+            "weight": 400,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 2,
+            "lineHeight": 1.15,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "Matter Regular",
+            "weight": 400,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 2,
+            "lineHeight": 1.15,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 16,
+            "family": "Matter Regular",
+            "weight": 400,
+            "contexts": [
+              "body",
+              "link"
+            ],
+            "frequency": 44,
+            "lineHeight": 1,
+            "letterSpacing": 0.01,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "Inter",
+            "weight": 500,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 5,
+            "lineHeight": 1,
+            "letterSpacing": -0.012,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "Geist Mono",
+            "weight": 400,
+            "contexts": [
+              "button",
+              "body"
+            ],
+            "frequency": 6,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "Matter Mono Regular",
+            "weight": 400,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 2,
+            "lineHeight": 1,
+            "letterSpacing": -0.012,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "Matter Regular",
+            "weight": 400,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 4,
+            "lineHeight": 1.38,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "Inter",
+            "weight": 400,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.38,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 18,
+            "family": "Matter Regular",
+            "weight": 400,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 3,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 20,
+            "family": "Matter Regular",
+            "weight": 700,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 4,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 20,
+            "family": "Matter Regular",
+            "weight": 400,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 3,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 20,
+            "family": "Matter Regular",
+            "weight": 400,
+            "contexts": [
+              "heading",
+              "link"
+            ],
+            "frequency": 2,
+            "lineHeight": 1.4,
+            "letterSpacing": -0.01,
+            "textTransform": "none"
+          },
+          {
+            "size": 24,
+            "family": "Matter Regular",
+            "weight": 400,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 2,
+            "lineHeight": 1.33,
+            "letterSpacing": -0.027,
+            "textTransform": "none"
+          },
+          {
+            "size": 24,
+            "family": "Matter Regular",
+            "weight": 400,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 7,
+            "lineHeight": 1.1,
+            "letterSpacing": -0.04,
+            "textTransform": "none"
+          },
+          {
+            "size": 32,
+            "family": "Matter Regular",
+            "weight": 400,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 3,
+            "lineHeight": 1.19,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 40,
+            "family": "Matter Regular",
+            "weight": 400,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 2,
+            "lineHeight": 1.15,
+            "letterSpacing": -0.01,
+            "textTransform": "none"
+          },
+          {
+            "size": 42,
+            "family": "Matter Regular",
+            "weight": 400,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 4,
+            "lineHeight": 1.15,
+            "letterSpacing": -0.02,
+            "textTransform": "none"
+          },
+          {
+            "size": 56,
+            "family": "Matter Regular",
+            "weight": 400,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 2,
+            "lineHeight": 0.96,
+            "letterSpacing": -0.011,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Use Console Dark (#121212) for primary backgrounds and Surface Dark (#1E1E1D) for secondary sections to create a sense of layered depth.",
+        "Employ Luminous White (#FAF9F6) and Polar White (#FFFFFF) as primary text colors on all dark backgrounds for maximum readability.",
+        "Apply Matter font with negative letter spacing for display headlines (e.g., Matter 56px with -0.04em, -0.48px) to achieve a precise, high-tech aesthetic.",
+        "Utilize Agent Violet (#CBB0F7) exclusively for interactive elements and brand accents like links and primary buttons.",
+        "Ensure buttons maintain varying radius profiles: 33.17px for primary actions, 4px for secondary, and 50px for pill-shaped status elements.",
+        "Maintain a compact spacing density, utilizing 8px for element gaps and multiples of 5-14px for internal padding within components."
+      ],
+      "tags": [
+        "dark mode",
+        "developer tools",
+        "minimalist",
+        "high-tech",
+        "command line",
+        "agentic",
+        "monochromatic",
+        "structured",
+        "industrial",
+        "precise"
+      ],
+      "donts": [
+        "Avoid introducing additional saturated colors beyond Agent Violet (#CBB0F7) and Success Green (#2ECC71) to preserve the desaturated, focused environment.",
+        "Do not use generic system fonts for prominent text; always prioritize Matter and Geist Mono for brand consistency.",
+        "Resist using hard-edged rectangles for cards or buttons where a subtle radius (4px, 7px, or 33.17px) is intended, as it softens the technical aesthetic appropriately.",
+        "Do not deviate from the tight line heights and letter spacing defined in the Matter font profiles; they are critical for the system's precise feel.",
+        "Avoid large, open white spaces; the design emphasizes compact information blocks within dark, structured sections.",
+        "Do not use box-shadows or significant elevation; depth is created through subtle background shifts rather than visual lifts."
+      ],
+      "image": {
+        "role": "Product showcasing (primary), explanatory content (via screenshots), decorative atmosphere (subtle abstract graphics).",
+        "type": "product screenshots, abstract graphics",
+        "density": "Text-dominant with key visuals used strategically to break up content and illustrate product features.",
+        "treatment": "Product screenshots are contained within softly rounded (`7px` radius) cards or frames, often featuring dark UI themes within the screenshot itself, creating a 'screen-within-a-screen' effect. Abstract graphics, like glowy particles or subtle background patterns, are used sparingly to add atmosphere without distracting from the UI. Imagery serves primarily to showcase the product's functionality in a direct, unembellished manner.",
+        "icon_style": "outlined icons with neutral color fills, or subtle multi-color icons when representing specific brand logos. Apparent stroke weight is medium, creating a clean, legible style against dark backgrounds.",
+        "if_photography": null,
+        "if_illustrations": null
+      },
+      "theme": "dark",
+      "colors": [
+        {
+          "hex": "#000000",
+          "name": "Deep Space",
+          "role": "Illustrations, icon fills, occasional text like legal disclaimers. Its absolute nature anchors contrasting elements.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#121212",
+          "name": "Console Dark",
+          "role": "Primary page background, card surfaces, footer background — forms the foundational dark canvas.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#1E1E1D",
+          "name": "Surface Dark",
+          "role": "Secondary background color for sections, providing a subtle differentiation from the main Console Dark without adding visual noise.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#868684",
+          "name": "Ghost Gray",
+          "role": "Secondary body text, subtle labels, placeholder text. Quietly present without demanding attention.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#FAF9F6",
+          "name": "Luminous White",
+          "role": "Primary text color for headings and body content, providing maximum legibility against dark backgrounds. Also used for navigation items and prominent links.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#FFFFFF",
+          "name": "Polar White",
+          "role": "Text on interactive elements, highlighted text. Used sparingly to denote a higher level of importance or activeness.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#333333",
+          "name": "Deep Gray",
+          "role": "Text in darker contexts, specific button backgrounds, subtle borders. A robust dark grey for structural elements.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#B4B4B2",
+          "name": "Storm Gray",
+          "role": "Tertiary text, less prominent headlines, button borders. Lighter than Ghost Gray for slightly more emphasis.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#A0A0A0",
+          "name": "Ash Gray",
+          "role": "Similar to Storm Gray, used for less prominent headings and textual elements, contributing to the overall desaturated aesthetic.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#E3E2E0",
+          "name": "Light Driftwood",
+          "role": "Used for very light text elements on darker backgrounds; offers a softer contrast than Luminous White or Polar White.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#40403F",
+          "name": "Twilight Gray",
+          "role": "Specific navigation and section backgrounds, providing a slightly warmer dark tone.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#080808",
+          "name": "Eclipse Black",
+          "role": "Text on very light backgrounds, subtle shadows, reinforces the deep dark theme.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#EBEBEB",
+          "name": "Crystal Silver",
+          "role": "Occasional background element, notably in what appears to be a brand logo area, offering a stark light contrast.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#666469",
+          "name": "Battleship Gray",
+          "role": "Minor text elements, specifically within navigation, for very low prominence. Its slight blue undertone is barely perceptible.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#CBB0F7",
+          "name": "Agent Violet",
+          "role": "Accent color for interactive elements like links, highlights, and status indicators. Its moderate saturation provides a subtle yet distinct point of visual interest against the dark neutrals.",
+          "group": "brand"
+        },
+        {
+          "hex": "#2ECC71",
+          "name": "Success Green",
+          "role": "Feedback or status indicators; its vivid hue ensures immediate recognition for positive states on dark backgrounds.",
+          "group": "semantic"
+        }
+      ],
+      "similar": [
+        {
+          "why": "Dark-themed UI with clean typography and a focus on code-related content, often using ghost buttons and subtle accents.",
+          "business": "GitHub"
+        },
+        {
+          "why": "Emphasis on precision and efficiency through a minimalist UI, tight typography, and sophisticated use of dark neutrals as primary surfaces.",
+          "business": "Linear"
+        },
+        {
+          "why": "Modern dark mode, high-contrast text, structured layouts and a restrained use of brand colors to highlight interactive elements, very common in developer tools interfaces.",
+          "business": "Vercel"
+        },
+        {
+          "why": "Clean, functional typography, dark-themed interface, and a direct approach to presenting complex UI elements within a developer-centric product.",
+          "business": "Figma"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "buttons": "4px, 33.17px, 50px",
+          "default": "4px",
+          "components": "7px, 20px"
+        },
+        "elementGap": "8px",
+        "sectionGap": "60px",
+        "cardPadding": "",
+        "pageMaxWidth": null
+      },
+      "category": "dev-tools",
+      "northStar": "Midnight Command Center. Deeply desaturated dark surfaces provide a stage for precise, luminous information, like a control panel in low light.",
+      "typeScale": [
+        {
+          "role": "caption",
+          "size": 10,
+          "lineHeight": 1.4,
+          "letterSpacing": 0.12
+        },
+        {
+          "role": "body",
+          "size": 14,
+          "lineHeight": 1.38,
+          "letterSpacing": -0.17
+        },
+        {
+          "role": "heading-sm",
+          "size": 24,
+          "lineHeight": 1.25,
+          "letterSpacing": -0.24
+        },
+        {
+          "role": "heading",
+          "size": 32,
+          "lineHeight": 1.2,
+          "letterSpacing": -0.32
+        },
+        {
+          "role": "heading-lg",
+          "size": 42,
+          "lineHeight": 1.15,
+          "letterSpacing": -0.42
+        },
+        {
+          "role": "display",
+          "size": 56,
+          "lineHeight": 1,
+          "letterSpacing": -0.48
+        }
+      ],
+      "components": [
+        {
+          "html": "<style>\n  :root {\n    --color-console-dark: #121212;\n    --color-surface-dark: #1E1E1D;\n    --color-luminous-white: #FAF9F6;\n    --color-polar-white: #FFFFFF;\n    --color-ghost-gray: #868684;\n    --color-storm-gray: #B4B4B2;\n    --color-agent-violet: #CBB0F7;\n    --color-twilight-gray: #40403F;\n    --color-deep-gray: #353534;\n    --font-matter: 'Inter', system-ui, sans-serif;\n    --font-geist-mono: 'SF Mono', 'Fira Code', monospace;\n  }\n\n  .warp-wrapper {\n    background: var(--color-console-dark);\n    padding: 32px 24px;\n    font-family: var(--font-matter);\n    display: flex;\n    gap: 16px;\n    box-sizing: border-box;\n    width: 600px;\n  }\n\n  .product-card {\n    flex: 1;\n    background: var(--color-surface-dark);\n    border-radius: 7px;\n    padding: 24px 20px 20px;\n    display: flex;\n    flex-direction: column;\n    gap: 12px;\n  }\n\n  .card-header {\n    display: flex;\n    align-items: center;\n    gap: 8px;\n  }\n\n  .card-icon {\n    width: 28px;\n    height: 28px;\n    border-radius: 6px;\n    flex-shrink: 0;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n  }\n\n  .card-icon-terminal {\n    background: #1a1a2e;\n    border: 1px solid var(--color-twilight-gray);\n  }\n\n  .card-icon-oz {\n    background: #2d1f4e;\n    border: 1px solid #5a3d8a;\n  }\n\n  .card-title {\n    color: var(--color-luminous-white);\n    font-size: 16px;\n    font-weight: 500;\n    letter-spacing: -0.14px;\n    margin: 0;\n    font-family: var(--font-matter);\n  }\n\n  .card-description {\n    color: var(--color-ghost-gray);\n    font-size: 14px;\n    line-height: 1.38;\n    letter-spacing: -0.17px;\n    margin: 0;\n    font-family: var(--font-matter);\n  }\n\n  .card-image-placeholder {\n    width: 100%;\n    height: 120px;\n    border-radius: 7px;\n    margin-top: 4px;\n    position: relative;\n    overflow: hidden;\n  }\n\n  .card-image-terminal {\n    background: linear-gradient(135deg, #0d1117 0%, #161b22 50%, #1a1f2e 100%);\n    display: flex;\n    align-items: center;\n    justify-content: center;\n  }\n\n  .card-image-oz {\n    background: linear-gradient(135deg, #1a0d2e 0%, #2d1b4e 50%, #3d2060 100%);\n    display: flex;\n    align-items: center;\n    justify-content: center;\n  }\n\n  .mock-code {\n    font-family: var(--font-geist-mono);\n    font-size: 9px;\n    color: var(--color-ghost-gray);\n    text-align: left;\n    padding: 8px 10px;\n    width: 100%;\n    box-sizing: border-box;\n    line-height: 1.6;\n  }\n\n  .mock-code .cmd { color: #79c0ff; }\n  .mock-code .out { color: var(--color-ghost-gray); }\n  .mock-code .acc { color: var(--color-agent-violet); }\n\n  .card-actions {\n    display: flex;\n    align-items: center;\n    gap: 10px;\n    margin-top: 4px;\n  }\n\n  .btn-primary {\n    background: rgba(255,255,255,0.1);\n    color: var(--color-agent-violet);\n    border: none;\n    border-radius: 33.17px;\n    padding: 7px 14px;\n    font-size: 13px;\n    font-family: var(--font-matter);\n    font-weight: 500;\n    letter-spacing: -0.12px;\n    cursor: pointer;\n    white-space: nowrap;\n  }\n\n  .btn-ghost {\n    background: transparent;\n    color: var(--color-storm-gray);\n    border: none;\n    border-radius: 4px;\n    padding: 7px 8px;\n    font-size: 13px;\n    font-family: var(--font-matter);\n    font-weight: 400;\n    letter-spacing: -0.12px;\n    cursor: pointer;\n    white-space: nowrap;\n  }\n</style>\n<div class=\"warp-wrapper\">\n  <div class=\"product-card\">\n    <div class=\"card-header\">\n      <div class=\"card-icon card-icon-terminal\">\n        <svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\">\n          <rect width=\"16\" height=\"16\" rx=\"3\" fill=\"#1a1a2e\"/>\n          <path d=\"M3 5l3 3-3 3\" stroke=\"#CBB0F7\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n          <path d=\"M9 11h4\" stroke=\"#CBB0F7\" stroke-width=\"1.5\" stroke-linecap=\"round\"/>\n        </svg>\n      </div>\n      <h3 class=\"card-title\">Warp Terminal</h3>\n    </div>\n    <p class=\"card-description\">A modern terminal for agentic coding</p>\n    <div class=\"card-image-placeholder card-image-terminal\">\n      <div class=\"mock-code\">\n        <div><span class=\"cmd\">$ git status</span></div>\n        <div><span class=\"out\">On branch main</span></div>\n        <div><span class=\"acc\">✓ Agent running...</span></div>\n        <div><span class=\"out\">3 files changed</span></div>\n        <div><span class=\"cmd\">$ warp run deploy</span></div>\n      </div>\n    </div>\n    <div class=\"card-actions\">\n      <button class=\"btn-ghost\">Learn More</button>\n      <button class=\"btn-primary\">Download for Mac</button>\n    </div>\n  </div>\n\n  <div class=\"product-card\">\n    <div class=\"card-header\">\n      <div class=\"card-icon card-icon-oz\">\n        <svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\">\n          <rect width=\"16\" height=\"16\" rx=\"3\" fill=\"#2d1f4e\"/>\n          <circle cx=\"8\" cy=\"8\" r=\"4\" stroke=\"#CBB0F7\" stroke-width=\"1.2\"/>\n          <circle cx=\"8\" cy=\"8\" r=\"1.5\" fill=\"#CBB0F7\"/>\n        </svg>\n      </div>\n      <h3 class=\"card-title\">Oz</h3>\n    </div>\n    <p class=\"card-description\">The orchestration platform for cloud agents</p>\n    <div class=\"card-image-placeholder card-image-oz\">\n      <div class=\"mock-code\">\n        <div><span class=\"acc\">● Find Duplicate GitHub Issues</span></div>\n        <div><span class=\"out\">Environment: powerfixer-secure</span></div>\n        <div><span class=\"cmd\">API · Done · 39 min ago</span></div>\n        <div><span class=\"acc\">● Remove Feature Flag</span></div>\n        <div><span class=\"out\">PR Created · 2 hours ago</span></div>\n      </div>\n    </div>\n    <div class=\"card-actions\">\n      <button class=\"btn-ghost\">Learn More</button>\n      <button class=\"btn-primary\">Sign Up</button>\n    </div>\n  </div>\n</div>",
+          "name": "Product Cards — Warp Terminal & Oz",
+          "role": "",
+          "description": ""
+        },
+        {
+          "html": "<style>\n  :root {\n    --color-console-dark: #121212;\n    --color-surface-dark: #1E1E1D;\n    --color-luminous-white: #FAF9F6;\n    --color-polar-white: #FFFFFF;\n    --color-ghost-gray: #868684;\n    --color-storm-gray: #B4B4B2;\n    --color-agent-violet: #CBB0F7;\n    --color-light-driftwood: #E3E2E0;\n    --font-matter: 'Inter', system-ui, sans-serif;\n  }\n\n  .testimonials-section {\n    background: var(--color-console-dark);\n    padding: 40px 24px;\n    font-family: var(--font-matter);\n    box-sizing: border-box;\n    width: 600px;\n  }\n\n  .testimonials-heading {\n    color: var(--color-luminous-white);\n    font-size: 32px;\n    font-weight: 500;\n    letter-spacing: -0.32px;\n    line-height: 1.2;\n    text-align: center;\n    margin: 0 0 32px 0;\n    font-family: var(--font-matter);\n  }\n\n  .testimonials-grid {\n    display: flex;\n    flex-direction: column;\n    gap: 16px;\n  }\n\n  .testimonial-card {\n    background: var(--color-surface-dark);\n    border-radius: 7px;\n    overflow: hidden;\n    display: flex;\n    flex-direction: column;\n  }\n\n  .testimonial-image {\n    width: 100%;\n    height: 140px;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    font-size: 22px;\n    font-weight: 700;\n    letter-spacing: -0.5px;\n    color: var(--color-polar-white);\n    font-family: var(--font-matter);\n    flex-shrink: 0;\n  }\n\n  .img-microsoft {\n    background: linear-gradient(135deg, #1a1a2a 0%, #1f2535 60%, #252d40 100%);\n  }\n\n  .img-ibm {\n    background: linear-gradient(135deg, #0530ad 0%, #0f4acf 50%, #1a60e8 100%);\n  }\n\n  .img-openai {\n    background: linear-gradient(135deg, #c084fc 0%, #a855f7 40%, #ec4899 80%, #f472b6 100%);\n  }\n\n  .ms-logo {\n    display: flex;\n    align-items: center;\n    gap: 10px;\n  }\n  .ms-squares {\n    display: grid;\n    grid-template-columns: 1fr 1fr;\n    gap: 2px;\n    width: 24px;\n    height: 24px;\n  }\n  .ms-sq { width: 11px; height: 11px; border-radius: 1px; }\n  .ms-red { background: #f25022; }\n  .ms-green { background: #7fba00; }\n  .ms-blue { background: #00a4ef; }\n  .ms-yellow { background: #ffb900; }\n\n  .testimonial-body {\n    padding: 16px 20px 20px;\n    display: flex;\n    flex-direction: column;\n    gap: 8px;\n  }\n\n  .testimonial-author {\n    display: flex;\n    align-items: center;\n    gap: 6px;\n    flex-wrap: wrap;\n  }\n\n  .author-name {\n    color: var(--color-light-driftwood);\n    font-size: 13px;\n    font-weight: 500;\n    letter-spacing: -0.13px;\n    font-family: var(--font-matter);\n  }\n\n  .author-divider {\n    color: var(--color-ghost-gray);\n    font-size: 13px;\n    font-family: var(--font-matter);\n  }\n\n  .author-role {\n    color: var(--color-ghost-gray);\n    font-size: 12px;\n    letter-spacing: -0.12px;\n    font-family: var(--font-matter);\n  }\n\n  .testimonial-quote {\n    color: var(--color-luminous-white);\n    font-size: 14px;\n    line-height: 1.5;\n    letter-spacing: -0.14px;\n    margin: 0;\n    font-family: var(--font-matter);\n    font-weight: 400;\n  }\n</style>\n<div class=\"testimonials-section\">\n  <h2 class=\"testimonials-heading\">Don't take our word for it</h2>\n  <div class=\"testimonials-grid\">\n    <div class=\"testimonial-card\">\n      <div class=\"testimonial-image img-microsoft\">\n        <div class=\"ms-logo\">\n          <div class=\"ms-squares\">\n            <div class=\"ms-sq ms-red\"></div>\n            <div class=\"ms-sq ms-green\"></div>\n            <div class=\"ms-sq ms-blue\"></div>\n            <div class=\"ms-sq ms-yellow\"></div>\n          </div>\n          <span style=\"color:#fff;font-size:20px;font-weight:600;letter-spacing:-0.3px;\">Microsoft</span>\n        </div>\n      </div>\n      <div class=\"testimonial-body\">\n        <div class=\"testimonial-author\">\n          <span class=\"author-name\">Marco Casalaina</span>\n          <span class=\"author-divider\">/</span>\n          <span class=\"author-role\">VP Products, Core AI and AI Futurist</span>\n        </div>\n        <p class=\"testimonial-quote\">\"Turn minutes into seconds, things that would normally take me 10 minutes instead take just a few seconds to do with Warp.\"</p>\n      </div>\n    </div>\n\n    <div class=\"testimonial-card\">\n      <div class=\"testimonial-image img-ibm\">\n        <span style=\"font-size:28px;font-weight:700;letter-spacing:2px;color:#fff;\">IBM.</span>\n      </div>\n      <div class=\"testimonial-body\">\n        <div class=\"testimonial-author\">\n          <span class=\"author-name\">Kiyu Gabriel</span>\n          <span class=\"author-divider\">/</span>\n          <span class=\"author-role\">Field CTO</span>\n        </div>\n        <p class=\"testimonial-quote\">\"Warp is the single greatest productivity tool I've ever used in my 30-year career in tech.\"</p>\n      </div>\n    </div>\n\n    <div class=\"testimonial-card\">\n      <div class=\"testimonial-image img-openai\">\n        <span style=\"font-size:22px;font-weight:700;letter-spacing:-0.3px;color:#fff;\">OpenAI</span>\n      </div>\n      <div class=\"testimonial-body\">\n        <div class=\"testimonial-author\">\n          <span class=\"author-name\">Yash Patil</span>\n          <span class=\"author-divider\">/</span>\n          <span class=\"author-role\">Technical Staff at OpenAI</span>\n        </div>\n        <p class=\"testimonial-quote\">\"Warp is absolutely amazing. It has transformed my terminal workflow.\"</p>\n      </div>\n    </div>\n  </div>\n</div>",
+          "name": "Testimonial Cards",
+          "role": "",
+          "description": ""
+        },
+        {
+          "html": "<style>\n  :root {\n    --color-console-dark: #121212;\n    --color-surface-dark: #1E1E1D;\n    --color-luminous-white: #FAF9F6;\n    --color-polar-white: #FFFFFF;\n    --color-ghost-gray: #868684;\n    --color-storm-gray: #B4B4B2;\n    --color-agent-violet: #CBB0F7;\n    --color-twilight-gray: #40403F;\n    --color-deep-gray: #353534;\n    --font-matter: 'Inter', system-ui, sans-serif;\n  }\n\n  .ui-showcase {\n    background: var(--color-console-dark);\n    padding: 40px 24px;\n    font-family: var(--font-matter);\n    box-sizing: border-box;\n    width: 600px;\n    display: flex;\n    flex-direction: column;\n    gap: 32px;\n  }\n\n  /* Announcement Banner */\n  .announcement-banner {\n    background: var(--color-surface-dark);\n    border-bottom: 1px solid var(--color-twilight-gray);\n    padding: 12px 24px;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    gap: 6px;\n    border-radius: 4px;\n  }\n\n  .banner-text {\n    color: var(--color-storm-gray);\n    font-size: 14px;\n    letter-spacing: -0.14px;\n    line-height: 1.38;\n    font-family: var(--font-matter);\n  }\n\n  .banner-link {\n    color: var(--color-luminous-white);\n    font-size: 14px;\n    letter-spacing: -0.14px;\n    text-decoration: underline;\n    text-underline-offset: 2px;\n    font-family: var(--font-matter);\n    cursor: pointer;\n  }\n\n  /* Section label */\n  .section-label {\n    color: var(--color-ghost-gray);\n    font-size: 10px;\n    letter-spacing: 2.4px;\n    text-transform: uppercase;\n    font-family: var(--font-matter);\n    margin-bottom: 12px;\n  }\n\n  /* Button Groups */\n  .button-group-section {\n    display: flex;\n    flex-direction: column;\n    gap: 8px;\n  }\n\n  .button-row {\n    display: flex;\n    align-items: center;\n    gap: 10px;\n    flex-wrap: wrap;\n  }\n\n  /* Primary pill button */\n  .btn-pill-primary {\n    background: rgba(255,255,255,0.1);\n    color: var(--color-agent-violet);\n    border: none;\n    border-radius: 33.17px;\n    padding: 8px 18px;\n    font-size: 14px;\n    font-family: var(--font-matter);\n    font-weight: 500;\n    letter-spacing: -0.14px;\n    cursor: pointer;\n    display: inline-flex;\n    align-items: center;\n    gap: 6px;\n  }\n\n  /* Secondary ghost button */\n  .btn-secondary {\n    background: rgba(255,255,255,0.04);\n    color: var(--color-agent-violet);\n    border: none;\n    border-radius: 4px;\n    padding: 8px 14px;\n    font-size: 14px;\n    font-family: var(--font-matter);\n    font-weight: 400;\n    letter-spacing: -0.14px;\n    cursor: pointer;\n  }\n\n  /* Tertiary dark button */\n  .btn-tertiary {\n    background: var(--color-deep-gray);\n    color: var(--color-storm-gray);\n    border: none;\n    border-radius: 4px;\n    padding: 8px 14px;\n    font-size: 14px;\n    font-family: var(--font-matter);\n    font-weight: 400;\n    letter-spacing: -0.14px;\n    cursor: pointer;\n  }\n\n  .btn-tertiary-white {\n    background: var(--color-polar-white);\n    color: #000;\n    border: none;\n    border-radius: 4px;\n    padding: 8px 18px;\n    font-size: 14px;\n    font-family: var(--font-matter);\n    font-weight: 500;\n    letter-spacing: -0.14px;\n    cursor: pointer;\n  }\n\n  /* Pill status badges */\n  .pill-status {\n    background: var(--color-deep-gray);\n    color: #AFACAC;\n    border: none;\n    border-radius: 50px;\n    padding: 6px 14px;\n    font-size: 12px;\n    font-family: var(--font-matter);\n    letter-spacing: 0.12px;\n    cursor: pointer;\n    display: inline-block;\n  }\n\n  .pill-status.active {\n    background: rgba(203, 176, 247, 0.15);\n    color: var(--color-agent-violet);\n  }\n\n  .divider {\n    height: 1px;\n    background: var(--color-twilight-gray);\n    width: 100%;\n  }\n</style>\n<div class=\"ui-showcase\">\n\n  <!-- Announcement Banner -->\n  <div>\n    <div class=\"section-label\">Announcement Banner</div>\n    <div class=\"announcement-banner\">\n      <span class=\"banner-text\">Introducing Oz: the orchestration platform for cloud agents.</span>\n      <a class=\"banner-link\">Learn more.</a>\n    </div>\n  </div>\n\n  <div class=\"divider\"></div>\n\n  <!-- Button Variants -->\n  <div class=\"button-group-section\">\n    <div class=\"section-label\">Button Variants</div>\n\n    <div class=\"button-row\">\n      <button class=\"btn-pill-primary\">\n        <svg width=\"12\" height=\"12\" viewBox=\"0 0 12 12\" fill=\"none\">\n          <path d=\"M2 6h8M7 3l3 3-3 3\" stroke=\"#CBB0F7\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n        </svg>\n        Download for Mac\n      </button>\n      <button class=\"btn-pill-primary\">Sign Up</button>\n      <button class=\"btn-tertiary-white\">Download for Mac</button>\n    </div>\n\n    <div class=\"button-row\" style=\"margin-top:8px;\">\n      <button class=\"btn-secondary\">Learn More</button>\n      <button class=\"btn-tertiary\">Contact sales</button>\n      <button class=\"btn-tertiary\">Resources</button>\n      <button class=\"btn-tertiary\">Pricing</button>\n    </div>\n  </div>\n\n  <div class=\"divider\"></div>\n\n  <!-- Pill Status Tags -->\n  <div>\n    <div class=\"section-label\">Pill Status Tags</div>\n    <div class=\"button-row\">\n      <span class=\"pill-status active\">All</span>\n      <span class=\"pill-status\">Mine</span>\n      <span class=\"pill-status\">Active</span>\n      <span class=\"pill-status\">Failed</span>\n      <span class=\"pill-status\">Recurring</span>\n      <span class=\"pill-status\">Livestream</span>\n      <span class=\"pill-status\">Case Study</span>\n      <span class=\"pill-status\">Launch Partner</span>\n    </div>\n  </div>\n\n</div>",
+          "name": "Announcement Banner + Button Group",
+          "role": "",
+          "description": ""
+        },
+        {
+          "name": "Primary Action Button",
+          "role": "Call to action for downloads or critical next steps.",
+          "description": "Background: rgba(255, 255, 255, 0.1) (10% white overlay for subtle lift). Text: Agent Violet (#CBB0F7). Border: None. Border Radius: 33.17px (pill shape). Padding: 5px vertical, 10px horizontal. Employs a ghosted, almost ethereal look despite being a CTA, leveraging the brand accent."
+        },
+        {
+          "name": "Secondary Ghost Button",
+          "role": "Less prominent interactive actions.",
+          "description": "Background: rgba(255, 255, 255, 0.04) (4% white overlay). Text: Agent Violet (#CBB0F7). Border: None. Border Radius: 4px. Padding: 8px vertical, 12px horizontal. A more subdued version of the primary, hinting at interactiveness without strong visual dominance."
+        },
+        {
+          "name": "Tertiary Dark Button",
+          "role": "Navigation items or filter buttons.",
+          "description": "Background: #353534 (Deep Gray). Text: Storm Gray (#B4B4B2) or Polar White (#FFFFFF). Border: None. Border Radius: 4px. Padding: 8px vertical, 12px horizontal. A solid, functional button for less critical interactions, blending into the dark theme."
+        },
+        {
+          "name": "Pill Status Button",
+          "role": "Informational tags or minor selections.",
+          "description": "Background: #353534 (Deep Gray). Text: Ghost Gray (#AFACAC or #AFB0AC). Border: None. Border Radius: 50px (full pill). Padding: 10px all around. A highly rounded element for subtle visual cues or category selection, using a desaturated palette."
+        },
+        {
+          "name": "Image Card Wrapper",
+          "role": "Containers for product screenshots or visual content.",
+          "description": "Background: Console Dark (#121212) or Surface Dark (#1E1E1D). Border: None. Border Radius: 7px (softly rounded). Padding: Not explicitly defined, but visuals suggest moderate internal spacing. Contains the visual elements within the dark theme."
+        }
+      ],
+      "typography": [
+        {
+          "role": "Primary typeface for all headings and most body text. The tight line heights and varying letter spacing, especially negative values at larger sizes, create a dense, technical feel appropriate for a dev tool. The range of weights provides a strong hierarchy without introducing additional families.",
+          "sizes": "16px",
+          "family": "Matter",
+          "weight": "400",
+          "lineHeight": "1.00, 1.20",
+          "substitute": "Inter",
+          "letterSpacing": "-0.48, -0.32, -0.24, -0.14, -0.13, -0.12, 0.12, 0.24, 1.2, 2.4"
+        },
+        {
+          "role": "Secondary sans-serif for supplemental information, fine print, and some body text where a slightly more open feel is desired compared to Matter.",
+          "sizes": "14px, 16px",
+          "family": "Inter",
+          "weight": "400, 500",
+          "lineHeight": "1.00, 1.20, 1.30, 1.38",
+          "substitute": "system-ui",
+          "letterSpacing": "-0.17, -0.14"
+        },
+        {
+          "role": "Monospaced font used for code snippets, technical commands, and precise data representation, reinforcing the developer tool identity.",
+          "sizes": "16px",
+          "family": "Geist Mono",
+          "weight": "400",
+          "lineHeight": "1.00",
+          "substitute": "SF Mono, Fira Code"
+        }
+      ],
+      "description": "This design system conjures a high-tech command center feel, where dark surfaces meet crisp, focused information. The primary visual choice is the deeply desaturated dark background (#121212) contrasted with luminous white text (#FAFAFA), creating a sense of precision and low-light operations. Subtle uses of a muted violet (#CBB0F7) and an infrequent vivid green (#2ECC71) serve as functional indicators, akin to status lights on a console, reinforcing the industrial yet refined atmosphere. The almost exclusive use of the Matter font family, with its defined structure and variable weights, maintains a consistent technical aesthetic.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "### Quick Color Reference\n- Text: #FAF9F6 (Luminous White)\n- Background: #121212 (Console Dark)\n- CTA: #CBB0F7 (Agent Violet)\n- Button Background: rgba(255, 255, 255, 0.1)\n- Border (subtle): #333333 (Deep Gray)\n\n### 3-5 Example Component Prompts\n1. Create a hero section with a Console Dark (#121212) background. Centered headline 'Warp is the agentic development environment' using Matter 56px weight 400, #FAF9F6, letter-spacing -0.48px. Below it, a 'Download for Mac' button: background rgba(255, 255, 255, 0.1), text #CBB0F7, 33.17px border radius, 5px vertical, 10px horizontal padding.\n2. Design a feature card for the 'Oz' product: Surface Dark (#1E1E1D) background, 7px border radius. Title 'Oz' in Matter 24px weight 600, #FAF9F6. Description 'The orchestration platform for cloud agents' in Matter 16px weight 400, #B4B4B2. Include a 'Learn More' link in #CBB0F7 with Matter 12px weight 400.\n3. Implement a partner logo grid section: Background Surface Dark (#1E1E1D). Use a 5-column grid. Logos should be monochrome, rendered in Light Driftwood (#E3E2E0) against the dark background. Each logo item should have 10px padding and 4px border radius, with Deep Gray (#333333) for hover state background.\n4. Create a testimonial card: Console Dark (#121212) background, 7px border radius, with 10px padding. Quote text in Matter 18px weight 400, #FAF9F6. Author name 'Kyvu Gabriel' in Matter 16px weight 600, #CBB0F7. Author title 'Field CTO' in Matter 14px weight 400, #868684."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775923168907-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775923168907-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/d4c51049-58eb-404a-9fcb-f195928b1c99",
+  "ranks": {
+    "trending": 425,
+    "popular": 413,
+    "newest": 1205
+  },
+  "localSlug": "warp-d4c51049"
+}

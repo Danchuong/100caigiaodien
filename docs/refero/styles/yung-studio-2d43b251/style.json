@@ -1,0 +1,640 @@
+{
+  "id": "2d43b251-ad01-4e59-9068-502457aa0592",
+  "url": "https://yung.studio",
+  "siteName": "Yung Studio",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775925291436-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775925291436-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "dark",
+  "colors": [
+    {
+      "name": "Midnight Void",
+      "hex": "#000000"
+    },
+    {
+      "name": "Ghost White",
+      "hex": "#ffffff"
+    },
+    {
+      "name": "Accent Violet",
+      "hex": "#c692ff"
+    }
+  ],
+  "fonts": [
+    "PolySans-Slim",
+    "PolySans-Neutral",
+    "PolySans-Bulky"
+  ],
+  "northStar": "Monochromatic Command Center. Pure black canvas where sharp white elements punctuate with precision and ample negative space.",
+  "createdAt": "2026-02-04T20:23:32.000Z",
+  "previewVideoCapturedAt": null,
+  "industry": "agency",
+  "fullResult": {
+    "meta": {
+      "url": "https://yung.studio",
+      "siteName": "Yung Studio",
+      "extractedAt": "2026-04-11T16:35:12.450Z",
+      "durationMs": 30192,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 196,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "complete",
+          "attempts": 2
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#ffffff",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 1.0000000000000002
+            },
+            "contexts": [
+              "other",
+              "list",
+              "button",
+              "link",
+              "body",
+              "heading",
+              "image",
+              "card"
+            ],
+            "frequency": 912,
+            "confidence": 1,
+            "prominence": 155535395.19647592,
+            "properties": [
+              "color",
+              "borderColor",
+              "backgroundColor"
+            ]
+          },
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "button",
+              "other"
+            ],
+            "frequency": 91,
+            "confidence": 1,
+            "prominence": 1070418.663559615,
+            "properties": [
+              "color",
+              "borderColor",
+              "backgroundColor"
+            ]
+          },
+          {
+            "hex": "#c692ff",
+            "oklch": {
+              "c": 0.15975998723359705,
+              "h": 304.855938678998,
+              "l": 0.7517688432251909
+            },
+            "contexts": [
+              "other",
+              "body"
+            ],
+            "frequency": 5,
+            "confidence": 1,
+            "prominence": 762.563937712741,
+            "properties": [
+              "backgroundColor"
+            ]
+          }
+        ],
+        "isDarkMode": true,
+        "colorfulness": 0.002141784470634881,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 21,
+            "background": "#000000",
+            "foreground": "#ffffff"
+          },
+          {
+            "level": "AAA",
+            "ratio": 8.96,
+            "background": "#c692ff",
+            "foreground": "#000000"
+          },
+          {
+            "level": "fail",
+            "ratio": 2.34,
+            "background": "#c692ff",
+            "foreground": "#ffffff"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [
+          {
+            "value": 10,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 1
+          },
+          {
+            "value": 9999,
+            "contexts": [
+              "button",
+              "body"
+            ],
+            "frequency": 19
+          }
+        ],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 2,
+            "frequency": 4,
+            "properties": [
+              "marginTop",
+              "marginRight",
+              "marginBottom",
+              "marginLeft"
+            ]
+          },
+          {
+            "value": 14,
+            "frequency": 4,
+            "properties": [
+              "paddingTop"
+            ]
+          },
+          {
+            "value": 20,
+            "frequency": 26,
+            "properties": [
+              "rowGap",
+              "columnGap",
+              "marginBottom",
+              "marginRight"
+            ]
+          },
+          {
+            "value": 22,
+            "frequency": 18,
+            "properties": [
+              "paddingBottom"
+            ]
+          },
+          {
+            "value": 24,
+            "frequency": 16,
+            "properties": [
+              "marginBottom"
+            ]
+          },
+          {
+            "value": 32,
+            "frequency": 18,
+            "properties": [
+              "paddingTop"
+            ]
+          },
+          {
+            "value": 36,
+            "frequency": 13,
+            "properties": [
+              "paddingRight",
+              "paddingLeft",
+              "paddingBottom"
+            ]
+          },
+          {
+            "value": 50,
+            "frequency": 36,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ]
+          },
+          {
+            "value": 60,
+            "frequency": 3,
+            "properties": [
+              "marginBottom",
+              "rowGap",
+              "columnGap"
+            ]
+          },
+          {
+            "value": 68,
+            "frequency": 11,
+            "properties": [
+              "paddingLeft"
+            ]
+          },
+          {
+            "value": 110,
+            "frequency": 2,
+            "properties": [
+              "marginBottom"
+            ]
+          },
+          {
+            "value": 124,
+            "frequency": 4,
+            "properties": [
+              "marginBottom"
+            ]
+          },
+          {
+            "value": 222,
+            "frequency": 2,
+            "properties": [
+              "marginBottom"
+            ]
+          }
+        ],
+        "density": "spacious",
+        "baseUnit": null
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "PolySans-Slim",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 152,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "PolySans-Neutral",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 42,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "PolySans-Bulky",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 2,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 15,
+          "name": "Augmented Fourth",
+          "ratio": 1.414,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 16,
+            "family": "PolySans-Slim",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "list",
+              "body",
+              "image",
+              "card",
+              "link"
+            ],
+            "frequency": 115,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 20,
+            "family": "PolySans-Slim",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "body",
+              "link"
+            ],
+            "frequency": 3,
+            "lineHeight": 1.35,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 28,
+            "family": "PolySans-Bulky",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "link"
+            ],
+            "frequency": 2,
+            "lineHeight": 1.01,
+            "letterSpacing": -0.01,
+            "textTransform": "none"
+          },
+          {
+            "size": 30,
+            "family": "PolySans-Slim",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "heading"
+            ],
+            "frequency": 14,
+            "lineHeight": 1.1,
+            "letterSpacing": -0.01,
+            "textTransform": "none"
+          },
+          {
+            "size": 30,
+            "family": "PolySans-Slim",
+            "weight": 400,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 7,
+            "lineHeight": 1.1,
+            "letterSpacing": -0.01,
+            "textTransform": "capitalize"
+          },
+          {
+            "size": 40,
+            "family": "PolySans-Slim",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "heading"
+            ],
+            "frequency": 13,
+            "lineHeight": 1.1,
+            "letterSpacing": -0.01,
+            "textTransform": "none"
+          },
+          {
+            "size": 60,
+            "family": "PolySans-Neutral",
+            "weight": 400,
+            "contexts": [
+              "button",
+              "heading",
+              "other",
+              "list"
+            ],
+            "frequency": 35,
+            "lineHeight": 1.1,
+            "letterSpacing": -0.02,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 160,
+            "family": "PolySans-Neutral",
+            "weight": 400,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 7,
+            "lineHeight": 0.9,
+            "letterSpacing": -0.02,
+            "textTransform": "uppercase"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Maintain a strict achromatic palette, using only `Midnight Void` (#000000) for backgrounds and `Ghost White` (#ffffff) for primary foreground elements.",
+        "Apply `9999px` border-radius to all interactive element buttons for a consistent pill shape.",
+        "Utilize PolySans-Neutral with -0.0200em letter-spacing for all significant headings to create a dense, impactful typographic appearance.",
+        "Implement `--obe` (#c692ff) sparingly as the sole chromatic accent, allowing it to highlight specific backgrounds or subtle contextual elements.",
+        "Ensure generous `50px` horizontal padding for content sections and `20-24px` vertical spacing between elements to preserve ample negative space.",
+        "Employ PolySans-Slim as the default font for all body copy and most secondary text at weight 400, ensuring clear readability across sizes."
+      ],
+      "tags": [
+        "monochromatic",
+        "high-contrast",
+        "minimalist",
+        "editorial",
+        "bold typography",
+        "spacious",
+        "dark mode",
+        "digital studio",
+        "precise"
+      ],
+      "donts": [
+        "Avoid introducing any additional saturated colors beyond the designated `--ube` (#c692ff) to prevent diluting the distinct monochrome aesthetic.",
+        "Do not use box-shadows or drop shadows; depth is implied solely through stark contrast and generous negative space.",
+        "Refrain from deviating from the specified PolySans typefaces; custom fonts are a core identifier, and system defaults would undermine the brand.",
+        "Do not add borders or background colors to content cards; they should appear as seamless blocks of text on the `Midnight Void` background.",
+        "Avoid using radii other than `0px` for content containers and `9999px` for buttons, to maintain precision and the signature rounded forms.",
+        "Do not clutter content sections; maintain the spacious `50px` horizontal padding and ample vertical element gaps to preserve legibility and impact."
+      ],
+      "theme": "dark",
+      "colors": [
+        {
+          "hex": "#000000",
+          "name": "Midnight Void",
+          "role": "Page backgrounds, card backgrounds, text on white buttons – the foundational darkness.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#ffffff",
+          "name": "Ghost White",
+          "role": "Primary text, button backgrounds, interactive elements – the dominant light element creating high contrast.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#c692ff",
+          "name": "Accent Violet",
+          "role": "Subtle background accents, specific contextual highlights; provides the only chromatic color for visual differentiation.",
+          "group": "brand"
+        }
+      ],
+      "imagery": "This site features a clean visual language predominantly based on illustration and graphic elements, with minimal and direct application. The hero section displays large, custom, playful illustrations in pure white on a black background, with a hand-drawn, almost explosive quality, acting as a direct visual representation of the 'Yung' brand. The overall impression is that imagery serves a decorative, brand-identity building purpose rather than explanatory content, with a high visual density only in a dedicated hero area, transitioning to text-dominant content. Icons are minimal, represented by the white hamburger menu, suggesting a clean, outlined style. No photography is visible, reinforcing a graphic-first approach.",
+      "similar": [
+        {
+          "why": "Stark black and white color scheme; emphasis on strong typography and ample negative space for a premium, editorial feel.",
+          "business": "Akin Gump"
+        },
+        {
+          "why": "Dominant dark background with high-contrast white text, using spacious layouts and minimal visual clutter.",
+          "business": "Baidu Ventures"
+        },
+        {
+          "why": "Bold, expressive typography at large sizes often against a dark background, asserting brand identity through text.",
+          "business": "Huge Inc."
+        },
+        {
+          "why": "Monochromatic focus with a single accent color for interactive elements, maintaining clarity within a dark interface.",
+          "business": "Figma (dark mode)"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "cards": "0px",
+          "buttons": "9999px",
+          "default": "10px"
+        },
+        "elementGap": "20-24px",
+        "sectionGap": "60-124px",
+        "cardPadding": "0px",
+        "pageMaxWidth": null
+      },
+      "category": "agency",
+      "northStar": "Monochromatic Command Center. Pure black canvas where sharp white elements punctuate with precision and ample negative space.",
+      "typeScale": [
+        {
+          "role": "body",
+          "size": 16,
+          "lineHeight": 1.35
+        },
+        {
+          "role": "body-lg",
+          "size": 20,
+          "lineHeight": 1.1
+        },
+        {
+          "role": "subheading",
+          "size": 28,
+          "lineHeight": 1.01,
+          "letterSpacing": -0.28
+        },
+        {
+          "role": "heading",
+          "size": 30,
+          "lineHeight": 1.1,
+          "letterSpacing": -0.3
+        },
+        {
+          "role": "heading-lg",
+          "size": 40,
+          "lineHeight": 1,
+          "letterSpacing": -0.4
+        },
+        {
+          "role": "display",
+          "size": 60,
+          "lineHeight": 0.9,
+          "letterSpacing": -1.2
+        },
+        {
+          "role": "display-xl",
+          "size": 160,
+          "lineHeight": 0.9,
+          "letterSpacing": -3.2
+        }
+      ],
+      "components": [
+        {
+          "html": "<div style=\"--color-midnight-void: #000000; --color-ghost-white: #ffffff; --color-accent-violet: #c692ff; --font-polysans-slim: 'Inter', sans-serif; --font-polysans-neutral: 'Inter', sans-serif; --font-polysans-bulky: 'Inter', sans-serif; background: var(--color-midnight-void); padding: 60px 50px; display: flex; flex-direction: column; gap: 24px; align-items: flex-start; width: 600px; box-sizing: border-box; font-family: var(--font-polysans-slim);\"><p style=\"color: var(--color-ghost-white); font-family: var(--font-polysans-slim); font-size: 16px; line-height: 1.35; letter-spacing: -0.01em; margin: 0 0 12px 0; opacity: 0.6; text-transform: uppercase; font-weight: 400;\">Interactions</p><div style=\"display: flex; flex-wrap: wrap; gap: 16px; align-items: center;\"><a href=\"#\" style=\"display: inline-block; background: var(--color-ghost-white); color: var(--color-midnight-void); font-family: var(--font-polysans-neutral); font-size: 20px; font-weight: 400; letter-spacing: -0.02em; line-height: 1.1; padding: 32px 50px 22px 50px; border-radius: 9999px; text-decoration: none; white-space: nowrap;\">Get in touch</a><a href=\"#\" style=\"display: inline-block; background: transparent; color: var(--color-ghost-white); font-family: var(--font-polysans-neutral); font-size: 20px; font-weight: 400; letter-spacing: -0.02em; line-height: 1.1; padding: 32px 50px 22px 50px; border-radius: 9999px; text-decoration: none; border: 2px solid var(--color-ghost-white); white-space: nowrap;\">Our work</a></div><div style=\"display: flex; flex-wrap: wrap; gap: 16px; align-items: center; margin-top: 16px;\"><a href=\"#\" style=\"display: inline-block; background: var(--color-accent-violet); color: var(--color-midnight-void); font-family: var(--font-polysans-neutral); font-size: 16px; font-weight: 400; letter-spacing: -0.02em; line-height: 1.1; padding: 22px 36px 16px 36px; border-radius: 9999px; text-decoration: none; white-space: nowrap;\">Start a project</a><a href=\"#\" style=\"display: inline-block; background: transparent; color: var(--color-ghost-white); font-family: var(--font-polysans-slim); font-size: 16px; font-weight: 400; letter-spacing: -0.01em; line-height: 1.35; padding: 22px 36px 16px 36px; border-radius: 9999px; text-decoration: none; border: 1px solid rgba(255,255,255,0.3); white-space: nowrap;\">Learn more</a></div></div>",
+          "name": "Primary Action Button Group",
+          "role": "",
+          "description": ""
+        },
+        {
+          "html": "<div style=\"--color-midnight-void: #000000; --color-ghost-white: #ffffff; --color-accent-violet: #c692ff; --font-polysans-slim: 'Inter', sans-serif; --font-polysans-neutral: 'Inter', sans-serif; --font-polysans-bulky: 'Inter', sans-serif; background: var(--color-midnight-void); padding: 60px 50px; width: 600px; box-sizing: border-box;\"><p style=\"color: var(--color-ghost-white); font-family: var(--font-polysans-slim); font-size: 16px; line-height: 1.35; letter-spacing: -0.01em; margin: 0 0 48px 0; opacity: 0.6; text-transform: uppercase; font-weight: 400;\">By the numbers</p><div style=\"display: grid; grid-template-columns: 1fr 1fr; gap: 0px;\"><div style=\"padding: 32px 0 32px 0; border-top: 1px solid rgba(255,255,255,0.15); border-right: 1px solid rgba(255,255,255,0.15);\"><div style=\"font-family: var(--font-polysans-neutral); font-size: 60px; font-weight: 400; color: var(--color-ghost-white); letter-spacing: -1.2px; line-height: 0.9; margin-bottom: 14px;\">120+</div><div style=\"font-family: var(--font-polysans-slim); font-size: 16px; font-weight: 400; color: rgba(255,255,255,0.6); letter-spacing: -0.01em; line-height: 1.35;\">Projects delivered</div></div><div style=\"padding: 32px 0 32px 32px; border-top: 1px solid rgba(255,255,255,0.15);\"><div style=\"font-family: var(--font-polysans-neutral); font-size: 60px; font-weight: 400; color: var(--color-ghost-white); letter-spacing: -1.2px; line-height: 0.9; margin-bottom: 14px;\">8+</div><div style=\"font-family: var(--font-polysans-slim); font-size: 16px; font-weight: 400; color: rgba(255,255,255,0.6); letter-spacing: -0.01em; line-height: 1.35;\">Years of craft</div></div><div style=\"padding: 32px 0 0 0; border-top: 1px solid rgba(255,255,255,0.15); border-right: 1px solid rgba(255,255,255,0.15);\"><div style=\"font-family: var(--font-polysans-neutral); font-size: 60px; font-weight: 400; color: var(--color-accent-violet); letter-spacing: -1.2px; line-height: 0.9; margin-bottom: 14px;\">40+</div><div style=\"font-family: var(--font-polysans-slim); font-size: 16px; font-weight: 400; color: rgba(255,255,255,0.6); letter-spacing: -0.01em; line-height: 1.35;\">Global brands</div></div><div style=\"padding: 32px 0 0 32px; border-top: 1px solid rgba(255,255,255,0.15);\"><div style=\"font-family: var(--font-polysans-neutral); font-size: 60px; font-weight: 400; color: var(--color-ghost-white); letter-spacing: -1.2px; line-height: 0.9; margin-bottom: 14px;\">3×</div><div style=\"font-family: var(--font-polysans-slim); font-size: 16px; font-weight: 400; color: rgba(255,255,255,0.6); letter-spacing: -0.01em; line-height: 1.35;\">Average growth rate</div></div></div></div>",
+          "name": "Stat / Metric Block",
+          "role": "",
+          "description": ""
+        },
+        {
+          "html": "<div style=\"--color-midnight-void: #000000; --color-ghost-white: #ffffff; --color-accent-violet: #c692ff; --font-polysans-slim: 'Inter', sans-serif; --font-polysans-neutral: 'Inter', sans-serif; --font-polysans-bulky: 'Inter', sans-serif; background: var(--color-midnight-void); padding: 60px 50px; width: 600px; box-sizing: border-box;\"><p style=\"color: var(--color-ghost-white); font-family: var(--font-polysans-slim); font-size: 16px; line-height: 1.35; letter-spacing: -0.01em; margin: 0 0 48px 0; opacity: 0.6; text-transform: uppercase; font-weight: 400;\">What we do</p><div style=\"display: flex; flex-direction: column; gap: 0;\"><div style=\"padding: 32px 0; border-top: 1px solid rgba(255,255,255,0.15); display: flex; justify-content: space-between; align-items: flex-start; gap: 24px;\"><div style=\"flex: 1;\"><div style=\"font-family: var(--font-polysans-neutral); font-size: 30px; font-weight: 400; color: var(--color-ghost-white); letter-spacing: -0.3px; line-height: 1.1; margin-bottom: 14px;\">Strategy</div><div style=\"font-family: var(--font-polysans-slim); font-size: 16px; font-weight: 400; color: rgba(255,255,255,0.6); letter-spacing: -0.01em; line-height: 1.35;\">Brand positioning, audience insight, and growth frameworks that turn vision into a clear direction.</div></div><a href=\"#\" style=\"flex-shrink: 0; background: var(--color-ghost-white); color: var(--color-midnight-void); font-family: var(--font-polysans-neutral); font-size: 14px; font-weight: 400; letter-spacing: -0.02em; line-height: 1.1; padding: 14px 24px 10px 24px; border-radius: 9999px; text-decoration: none; align-self: center;\">Explore →</a></div><div style=\"padding: 32px 0; border-top: 1px solid rgba(255,255,255,0.15); display: flex; justify-content: space-between; align-items: flex-start; gap: 24px;\"><div style=\"flex: 1;\"><div style=\"font-family: var(--font-polysans-neutral); font-size: 30px; font-weight: 400; color: var(--color-ghost-white); letter-spacing: -0.3px; line-height: 1.1; margin-bottom: 14px;\">Design</div><div style=\"font-family: var(--font-polysans-slim); font-size: 16px; font-weight: 400; color: rgba(255,255,255,0.6); letter-spacing: -0.01em; line-height: 1.35;\">Visual identity, UI systems, and brand expression that make you unforgettable across every touchpoint.</div></div><a href=\"#\" style=\"flex-shrink: 0; background: var(--color-ghost-white); color: var(--color-midnight-void); font-family: var(--font-polysans-neutral); font-size: 14px; font-weight: 400; letter-spacing: -0.02em; line-height: 1.1; padding: 14px 24px 10px 24px; border-radius: 9999px; text-decoration: none; align-self: center;\">Explore →</a></div><div style=\"padding: 32px 0; border-top: 1px solid rgba(255,255,255,0.15); border-bottom: 1px solid rgba(255,255,255,0.15); display: flex; justify-content: space-between; align-items: flex-start; gap: 24px;\"><div style=\"flex: 1;\"><div style=\"font-family: var(--font-polysans-neutral); font-size: 30px; font-weight: 400; color: var(--color-accent-violet); letter-spacing: -0.3px; line-height: 1.1; margin-bottom: 14px;\">Digital</div><div style=\"font-family: var(--font-polysans-slim); font-size: 16px; font-weight: 400; color: rgba(255,255,255,0.6); letter-spacing: -0.01em; line-height: 1.35;\">Web, content, and campaign execution that drives real, measurable action and lasting audience connection.</div></div><a href=\"#\" style=\"flex-shrink: 0; background: var(--color-accent-violet); color: var(--color-midnight-void); font-family: var(--font-polysans-neutral); font-size: 14px; font-weight: 400; letter-spacing: -0.02em; line-height: 1.1; padding: 14px 24px 10px 24px; border-radius: 9999px; text-decoration: none; align-self: center;\">Explore →</a></div></div></div>",
+          "name": "Service / Feature Cards",
+          "role": "",
+          "description": ""
+        },
+        {
+          "name": "Primary Action Button",
+          "role": "Interactive element",
+          "description": "White background (`#ffffff`), black text (`#000000`). Fully rounded with `9999px` border-radius. Generous padding: `31.968px` top, `22.032px` bottom, `49.968px` sides. Uses PolySans-Neutral font, weight 400, for clear call to action."
+        },
+        {
+          "name": "Naked Content Card",
+          "role": "Content container",
+          "description": "Transparent background (`rgba(0, 0, 0, 0)`) with `0px` border-radius. No box-shadow or padding, integrating seamlessly into the negative space. Used for showcasing work items or article previews."
+        },
+        {
+          "name": "Text Link",
+          "role": "Navigation/Internal link",
+          "description": "Uses PolySans-Slim for general links, or PolySans-Bulky at 28px for prominent links. Text color is `Ghost White` (`#ffffff`) against `Midnight Void` (`#000000`), no underline by default."
+        },
+        {
+          "name": "Header Logo",
+          "role": "Brand identity",
+          "description": "Uses PolySans-Slim at a 20px size, weight 400, `Ghost White` (`#ffffff`), positioned top-left on the `Midnight Void` (`#000000`) background."
+        }
+      ],
+      "typography": [
+        {
+          "role": "Body text, smaller headings, supporting information, links, and various content elements. Its uniform weight contributes to a calm, readable tone across varied text sizes.",
+          "sizes": "16px, 20px, 30px, 40px",
+          "family": "PolySans-Slim",
+          "weight": "400",
+          "lineHeight": "1.00, 1.10, 1.35",
+          "substitute": "Inter",
+          "letterSpacing": "-0.0100em"
+        },
+        {
+          "role": "Display headings and prominent interactive elements like buttons. The extremely tight letter-spacing at large sizes creates a dense, impactful visual block rather than sprawling text, like a bold declaration.",
+          "sizes": "60px, 160px",
+          "family": "PolySans-Neutral",
+          "weight": "400",
+          "lineHeight": "0.90, 1.10",
+          "substitute": "Inter",
+          "letterSpacing": "-0.0200em"
+        },
+        {
+          "role": "Specialized links and secondary headings. This family variation offers a bulkier form factor for specific emphasis at a mid-range size.",
+          "sizes": "28px",
+          "family": "PolySans-Bulky",
+          "weight": "400",
+          "lineHeight": "1.01",
+          "substitute": "Inter",
+          "letterSpacing": "-0.0100em"
+        }
+      ],
+      "description": "This design system presents a stark, high-contrast aesthetic, mimicking a digital command console. Its core identity is built on pure black and white, creating immediate visual impact. The generous negative space and tight letter-spacing in headlines maintain an air of intentional precision, while the signature 9999px pill-shaped buttons introduce a single, playful soft edge.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "### Quick Color Reference\n- Text: `#ffffff`\n- Background: `#000000`\n- Button Background: `#ffffff`\n- Button Text: `#000000`\n- Accent: `#c692ff`\n\n### 3-5 Example Component Prompts\n1. **Create a Primary Action Button:** Text 'Get Started', background `Ghost White` (`#ffffff`), text `Midnight Void` (`#000000`), `9999px` border-radius. Padding: `31.968px` top, `22.032px` bottom, `49.968px` left and right. Font: PolySans-Neutral, weight 400, size 16px, `1.1` lineHeight, `-0.0200em` letter-spacing.\n2. **Design a Hero Section:** Full-bleed `Midnight Void` (`#000000`) background. Headline 'We Define Tomorrow' in PolySans-Neutral, size 160px, weight 400, `0.9` lineHeight, `-0.0200em` letter-spacing, color `Ghost White` (`#ffffff`). Add a sub-headline 'Strategy to Action' in PolySans-Slim, size 40px, weight 400, `1.0` lineHeight, `-0.0100em` letter-spacing, color `Ghost White` (`#ffffff`). A `20px` `marginBottom` should separate headline from sub-headline.\n3. **Implement a Content Block:** Background `Midnight Void` (`#000000`). Title 'Featured Work' in PolySans-Slim, size 30px, weight 400, `1.1` lineHeight, `-0.0100em` letter-spacing, color `Ghost White` (`#ffffff`). Body text 'Our latest projects blend design thinking with bold execution.' in PolySans-Slim, size 20px, weight 400, `1.1` lineHeight, `-0.0100em` letter-spacing, `Ghost White` color. Use `50px` horizontal padding for the block and `24px` `marginBottom` between title and body.\n4. **Create a Text Link:** Text 'Learn More', font PolySans-Bulky, size 28px, weight 400, `1.01` lineHeight, `-0.0100em` letter-spacing, color `Ghost White` (`#ffffff`). No underline, no background, and no padding."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775925291436-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775925291436-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/2d43b251-ad01-4e59-9068-502457aa0592",
+  "ranks": {
+    "trending": 256,
+    "popular": 299,
+    "newest": 1233
+  },
+  "localSlug": "yung-studio-2d43b251"
+}

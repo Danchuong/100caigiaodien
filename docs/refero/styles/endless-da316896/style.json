@@ -1,0 +1,551 @@
+{
+  "id": "da316896-0121-433a-8188-e785ce7eac68",
+  "url": "https://endless.design",
+  "siteName": "Endless",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775923955749-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775923955749-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "light",
+  "colors": [
+    {
+      "name": "Ink",
+      "hex": "#000000"
+    },
+    {
+      "name": "Graphite",
+      "hex": "#737373"
+    },
+    {
+      "name": "Canvas",
+      "hex": "#ffffff"
+    },
+    {
+      "name": "Ghost",
+      "hex": "#f5f5f5"
+    },
+    {
+      "name": "Charcoal",
+      "hex": "#0a0a0a"
+    }
+  ],
+  "fonts": [
+    "Inter"
+  ],
+  "northStar": "Academic monograph on a clean desk. Information density without visual clutter, framed by stark black and white.",
+  "createdAt": "2026-01-17T16:33:51.000Z",
+  "previewVideoCapturedAt": null,
+  "industry": "design",
+  "fullResult": {
+    "meta": {
+      "url": "https://endless.design",
+      "siteName": "Endless",
+      "extractedAt": "2026-04-11T16:12:52.773Z",
+      "durationMs": 21282,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 111,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "complete",
+          "attempts": 2
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "other",
+              "nav",
+              "heading",
+              "body",
+              "button",
+              "image"
+            ],
+            "frequency": 476,
+            "confidence": 1,
+            "prominence": 281695127.5182782,
+            "properties": [
+              "color",
+              "borderColor",
+              "fill"
+            ]
+          },
+          {
+            "hex": "#737373",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.556
+            },
+            "contexts": [
+              "nav",
+              "body",
+              "other"
+            ],
+            "frequency": 70,
+            "confidence": 1,
+            "prominence": 152316.93665589197,
+            "properties": [
+              "color",
+              "borderColor"
+            ]
+          },
+          {
+            "hex": "#ffffff",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 1.0000000000000002
+            },
+            "contexts": [
+              "button"
+            ],
+            "frequency": 5,
+            "confidence": 1,
+            "prominence": 7328.368689544477,
+            "properties": [
+              "color",
+              "borderColor"
+            ]
+          },
+          {
+            "hex": "#f5f5f5",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.97
+            },
+            "contexts": [
+              "button"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 2992,
+            "properties": [
+              "backgroundColor"
+            ]
+          },
+          {
+            "hex": "#0a0a0a",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.145
+            },
+            "contexts": [
+              "button"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 2835,
+            "properties": [
+              "backgroundColor"
+            ]
+          }
+        ],
+        "isDarkMode": false,
+        "colorfulness": 0,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 21,
+            "background": "#ffffff",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 19.8,
+            "background": "#0a0a0a",
+            "foreground": "#ffffff"
+          },
+          {
+            "level": "AAA",
+            "ratio": 19.26,
+            "background": "#f5f5f5",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 18.16,
+            "background": "#f5f5f5",
+            "foreground": "#0a0a0a"
+          },
+          {
+            "level": "fail",
+            "ratio": 4.35,
+            "background": "#f5f5f5",
+            "foreground": "#737373"
+          },
+          {
+            "level": "fail",
+            "ratio": 4.18,
+            "background": "#0a0a0a",
+            "foreground": "#737373"
+          },
+          {
+            "level": "fail",
+            "ratio": 1.09,
+            "background": "#f5f5f5",
+            "foreground": "#ffffff"
+          },
+          {
+            "level": "fail",
+            "ratio": 1.06,
+            "background": "#0a0a0a",
+            "foreground": "#000000"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 2,
+            "frequency": 2,
+            "properties": [
+              "rowGap"
+            ]
+          },
+          {
+            "value": 4,
+            "frequency": 4,
+            "properties": [
+              "marginTop",
+              "marginRight",
+              "rowGap",
+              "columnGap"
+            ]
+          },
+          {
+            "value": 6,
+            "frequency": 4,
+            "properties": [
+              "rowGap",
+              "columnGap"
+            ]
+          },
+          {
+            "value": 8,
+            "frequency": 6,
+            "properties": [
+              "rowGap",
+              "columnGap"
+            ]
+          },
+          {
+            "value": 12,
+            "frequency": 6,
+            "properties": [
+              "paddingRight",
+              "paddingLeft",
+              "rowGap",
+              "columnGap"
+            ]
+          },
+          {
+            "value": 16,
+            "frequency": 2,
+            "properties": [
+              "rowGap",
+              "columnGap"
+            ]
+          },
+          {
+            "value": 20,
+            "frequency": 4,
+            "properties": [
+              "rowGap",
+              "columnGap"
+            ]
+          },
+          {
+            "value": 32,
+            "frequency": 4,
+            "properties": [
+              "rowGap",
+              "columnGap"
+            ]
+          }
+        ],
+        "density": "compact",
+        "baseUnit": 4
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "Inter",
+            "source": "google",
+            "weights": [
+              400
+            ],
+            "frequency": 110,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 16,
+          "name": "Minor Second",
+          "ratio": 1.067,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 14,
+            "family": "Inter",
+            "weight": 400,
+            "contexts": [
+              "nav",
+              "body",
+              "other",
+              "button"
+            ],
+            "frequency": 34,
+            "lineHeight": 1.43,
+            "letterSpacing": -0.017,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "Inter",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "nav",
+              "image"
+            ],
+            "frequency": 75,
+            "lineHeight": 1.25,
+            "letterSpacing": -0.015,
+            "textTransform": "none"
+          },
+          {
+            "size": 22,
+            "family": "Inter",
+            "weight": 400,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.25,
+            "letterSpacing": -0.011,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Prioritize 'Ink' (#000000) for all primary text and critical UI elements, ensuring maximum contrast against 'Canvas' (#ffffff).",
+        "Maintain a maximal radius of 9999px for all interactive buttons or tags, creating a distinct pill shape.",
+        "Utilize Inter at weight 400 for all typography, adjusting size and letter-spacing (-0.238px to -0.242px) to define hierarchy, not weight variation.",
+        "Employ 'Graphite' (#737373) specifically for secondary information or subdued interactive states, adhering to its moderate contrast.",
+        "Adhere to the compact spacing system, using 2px, 4px, 6px, 8px, 12px, 16px, 20px, and 32px increments to create dense but organized layouts."
+      ],
+      "tags": [
+        "monochromatic",
+        "minimalist",
+        "clean",
+        "text-heavy",
+        "high-contrast",
+        "gradient-showcase",
+        "type-focused",
+        "academic",
+        "precise"
+      ],
+      "donts": [
+        "Do not introduce additional font weights or families; Inter 400 is the only typeface.",
+        "Avoid using saturated colors in the main UI; restrict color to embedded portfolio imagery or gradients.",
+        "Do not deviate from the pill shape (9999px radius) for buttons; all other elements should retain sharp 0px corners, or very subtle rounding where necessary for images.",
+        "Do not use generic box shadows or elevation; depth should be created through color contrast and layered gradients within content blocks, not UI chrome.",
+        "Do not use letter-spacing values outside the established -0.011em to -0.017em range; tight tracking is a signature element."
+      ],
+      "theme": "light",
+      "colors": [
+        {
+          "hex": "#000000",
+          "name": "Ink",
+          "role": "Primary text, headings, button background, critical UI borders. The dominant dark element, providing visual weight.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#737373",
+          "name": "Graphite",
+          "role": "Secondary text, navigation items, subtle borders. Establishes hierarchy and softens strict black without introducing color.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#ffffff",
+          "name": "Canvas",
+          "role": "Page background, primary surface color, text on dark buttons. The pervasive white creates an open, almost stark, environment.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#f5f5f5",
+          "name": "Ghost",
+          "role": "Subtle button background for secondary actions. A very light gray providing a hint of separation without adding visual noise.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#0a0a0a",
+          "name": "Charcoal",
+          "role": "Button background for primary actions. A slightly lighter black than 'Ink', offering a subtle variation for interactive elements.",
+          "group": "neutral"
+        }
+      ],
+      "layout": "The page adheres to a max-width of 950px, centered on a 'Canvas' (#ffffff) background. The hero section is a minimal, left-aligned text column with a bold headline. Content primarily flows in a single column, with occasionally split sections (e.g., client lists). Information is densified through tight line heights and compact block elements, creating a sense of a packed, highly organized document. Navigation is a simple top-left set of text links, maintaining a subdued presence.",
+      "imagery": "The visual language is split: the UI itself is text-dominant with no decorative imagery, focusing on pure content. However, portfolio showcases prominently feature vibrant, abstract, swirling gradient backgrounds with product screenshots or logos superimposed. These are full-bleed within their card containers, often featuring soft, organic color blends that stand in stark contrast to the monochrome UI. The imagery serves as a 'window' into client work, visually rich but isolated from the functional interface.",
+      "similar": [
+        {
+          "why": "Shares a monochromatic, text-focused UI with precise typography and a strong emphasis on content over decorative elements.",
+          "business": "Linear"
+        },
+        {
+          "why": "Features dense, information-heavy layouts within a narrow max-width, using a clean, systematic approach to typography and spacing.",
+          "business": "Stripe (Docs)"
+        },
+        {
+          "why": "Similar use of pill-shaped buttons and a general minimalist aesthetic, though Contra uses more accent colors.",
+          "business": "Contra"
+        },
+        {
+          "why": "Employs an almost academic rigor in layout and typography, with a bias towards functional, clean design and minimal color.",
+          "business": "Framer"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "buttons": "9999px",
+          "default": "0px"
+        },
+        "elementGap": "8px",
+        "sectionGap": "32px",
+        "cardPadding": "12px",
+        "pageMaxWidth": "950px"
+      },
+      "category": "agency",
+      "northStar": "Academic monograph on a clean desk. Information density without visual clutter, framed by stark black and white.",
+      "typeScale": [
+        {
+          "role": "caption",
+          "size": 14,
+          "lineHeight": 1.43,
+          "letterSpacing": -0.238
+        },
+        {
+          "role": "body",
+          "size": 16,
+          "lineHeight": 1.43,
+          "letterSpacing": -0.24
+        },
+        {
+          "role": "heading-sm",
+          "size": 22,
+          "lineHeight": 1.25,
+          "letterSpacing": -0.242
+        }
+      ],
+      "components": [
+        {
+          "html": "<div style=\"--color-ink:#000000;--color-graphite:#737373;--color-canvas:#ffffff;--color-ghost:#f5f5f5;--color-charcoal:#0a0a0a;--font-inter:'Inter',system-ui,sans-serif;background:var(--color-canvas);padding:32px;display:flex;align-items:center;gap:8px;font-family:var(--font-inter);\"><button style=\"font-family:var(--font-inter);font-size:16px;font-weight:400;letter-spacing:-0.24px;line-height:1.43;color:var(--color-canvas);background:var(--color-charcoal);border:1px solid var(--color-charcoal);border-radius:9999px;padding:8px 16px;cursor:pointer;display:inline-flex;align-items:center;white-space:nowrap;\">Subscribe</button><button style=\"font-family:var(--font-inter);font-size:16px;font-weight:400;letter-spacing:-0.24px;line-height:1.43;color:var(--color-ink);background:var(--color-ghost);border:1px solid transparent;border-radius:9999px;padding:8px 16px;cursor:pointer;display:inline-flex;align-items:center;white-space:nowrap;\">Book a call</button></div>",
+          "name": "CTA Button Group",
+          "role": "",
+          "description": ""
+        },
+        {
+          "html": "<div style=\"--color-ink:#000000;--color-graphite:#737373;--color-canvas:#ffffff;--color-ghost:#f5f5f5;--color-charcoal:#0a0a0a;--font-inter:'Inter',system-ui,sans-serif;background:var(--color-canvas);padding:32px;max-width:600px;font-family:var(--font-inter);\"><h1 style=\"font-family:var(--font-inter);font-size:22px;font-weight:400;line-height:1.25;letter-spacing:-0.242px;color:var(--color-ink);margin:0 0 16px 0;padding:0;\">Design partner for AI, web3,<br>and ambitious startups</h1><p style=\"font-family:var(--font-inter);font-size:16px;font-weight:400;line-height:1.43;letter-spacing:-0.24px;color:var(--color-ink);margin:0 0 20px 0;padding:0;\">A dedicated team of passionate designers with over 20 years in the game designing experiences used by millions of users.</p><p style=\"font-family:var(--font-inter);font-size:14px;font-weight:400;line-height:1.43;letter-spacing:-0.238px;color:var(--color-graphite);margin:0 0 8px 0;padding:0;\">Past clients include</p><div style=\"display:grid;grid-template-columns:1fr 1fr;gap:0;\"><div style=\"display:flex;flex-direction:column;gap:0;\"><span style=\"font-family:var(--font-inter);font-size:16px;font-weight:400;line-height:1.43;letter-spacing:-0.24px;color:var(--color-ink);display:block;\">Whop</span><span style=\"font-family:var(--font-inter);font-size:16px;font-weight:400;line-height:1.43;letter-spacing:-0.24px;color:var(--color-ink);display:block;\">Tally</span><span style=\"font-family:var(--font-inter);font-size:16px;font-weight:400;line-height:1.43;letter-spacing:-0.24px;color:var(--color-ink);display:block;\">Rainbow</span><span style=\"font-family:var(--font-inter);font-size:16px;font-weight:400;line-height:1.43;letter-spacing:-0.24px;color:var(--color-ink);display:block;\">Linktree</span><span style=\"font-family:var(--font-inter);font-size:16px;font-weight:400;line-height:1.43;letter-spacing:-0.24px;color:var(--color-ink);display:block;\">Bags</span><span style=\"font-family:var(--font-inter);font-size:16px;font-weight:400;line-height:1.43;letter-spacing:-0.24px;color:var(--color-ink);display:block;\">Flooz</span><span style=\"font-family:var(--font-inter);font-size:16px;font-weight:400;line-height:1.43;letter-spacing:-0.24px;color:var(--color-ink);display:block;\">Candle</span></div><div style=\"display:flex;flex-direction:column;gap:0;\"><span style=\"font-family:var(--font-inter);font-size:16px;font-weight:400;line-height:1.43;letter-spacing:-0.24px;color:var(--color-ink);display:block;\">Aviato</span><span style=\"font-family:var(--font-inter);font-size:16px;font-weight:400;line-height:1.43;letter-spacing:-0.24px;color:var(--color-ink);display:block;\">Wish</span><span style=\"font-family:var(--font-inter);font-size:16px;font-weight:400;line-height:1.43;letter-spacing:-0.24px;color:var(--color-ink);display:block;\">Tiny Wins</span><span style=\"font-family:var(--font-inter);font-size:16px;font-weight:400;line-height:1.43;letter-spacing:-0.24px;color:var(--color-ink);display:block;\">PVP</span><span style=\"font-family:var(--font-inter);font-size:16px;font-weight:400;line-height:1.43;letter-spacing:-0.24px;color:var(--color-ink);display:block;\">Surf</span><span style=\"font-family:var(--font-inter);font-size:16px;font-weight:400;line-height:1.43;letter-spacing:-0.24px;color:var(--color-ink);display:block;\">LetsPay</span><span style=\"font-family:var(--font-inter);font-size:16px;font-weight:400;line-height:1.43;letter-spacing:-0.24px;color:var(--color-ink);display:block;\">Usual</span></div></div></div>",
+          "name": "Hero Text Block with Client List",
+          "role": "",
+          "description": ""
+        },
+        {
+          "html": "<div style=\"--color-ink:#000000;--color-graphite:#737373;--color-canvas:#ffffff;--color-ghost:#f5f5f5;--color-charcoal:#0a0a0a;--font-inter:'Inter',system-ui,sans-serif;background:var(--color-canvas);padding:32px;max-width:600px;font-family:var(--font-inter);\"><p style=\"font-family:var(--font-inter);font-size:16px;font-weight:400;line-height:1.43;letter-spacing:-0.24px;color:var(--color-ink);margin:0 0 20px 0;padding:0;\"><a href=\"#\" style=\"color:var(--color-ink);text-decoration:underline;font-family:var(--font-inter);font-size:16px;font-weight:400;\">We charge 10K USD per month.</a> Projects typically take 3-6 weeks. You can pause or cancel anytime for ultimate flexibility.</p><div style=\"display:grid;grid-template-columns:1fr 1fr;gap:0;margin-top:8px;\"><div style=\"display:flex;flex-direction:column;gap:0;\"><span style=\"font-family:var(--font-inter);font-size:14px;font-weight:400;line-height:1.43;letter-spacing:-0.238px;color:var(--color-graphite);display:block;\">Brand sprints</span><span style=\"font-family:var(--font-inter);font-size:14px;font-weight:400;line-height:1.43;letter-spacing:-0.238px;color:var(--color-graphite);display:block;\">User journeys</span><span style=\"font-family:var(--font-inter);font-size:14px;font-weight:400;line-height:1.43;letter-spacing:-0.238px;color:var(--color-graphite);display:block;\">Product design</span><span style=\"font-family:var(--font-inter);font-size:14px;font-weight:400;line-height:1.43;letter-spacing:-0.238px;color:var(--color-graphite);display:block;\">Web design</span></div><div style=\"display:flex;flex-direction:column;gap:0;\"><span style=\"font-family:var(--font-inter);font-size:14px;font-weight:400;line-height:1.43;letter-spacing:-0.238px;color:var(--color-graphite);display:block;\">Wireframing</span><span style=\"font-family:var(--font-inter);font-size:14px;font-weight:400;line-height:1.43;letter-spacing:-0.238px;color:var(--color-graphite);display:block;\">Social assets</span><span style=\"font-family:var(--font-inter);font-size:14px;font-weight:400;line-height:1.43;letter-spacing:-0.238px;color:var(--color-graphite);display:block;\">UX auditing</span><span style=\"font-family:var(--font-inter);font-size:14px;font-weight:400;line-height:1.43;letter-spacing:-0.238px;color:var(--color-graphite);display:block;\">Consulting</span></div></div></div>",
+          "name": "Services & Pricing Info Block",
+          "role": "",
+          "description": ""
+        },
+        {
+          "name": "Primary Action Button",
+          "role": "Interactive element",
+          "description": "A pill-shaped button with 'Charcoal' (#0a0a0a) background, 'Canvas' (#ffffff) text, and 'Canvas' (#ffffff) border, indicating a primary call to action. Padding is 0px vertical, 12px horizontal. Text is Inter 16px, 400 weight."
+        },
+        {
+          "name": "Secondary Action Button",
+          "role": "Interactive element",
+          "description": "A pill-shaped button with 'Ghost' (#f5f5f5) background, 'Ink' (#000000) text, and 'Ink' (#000000) border. This variant signals a less emphatic action. Padding is 0px vertical, 12px horizontal. Text is Inter 16px, 400 weight."
+        },
+        {
+          "name": "Navigation Link",
+          "role": "Navigation element",
+          "description": "Text link using 'Ink' (#000000) for standard state and 'Graphite' (#737373) for inactive or less prominent items. Uses Inter 14px, 400 weight."
+        },
+        {
+          "name": "Main Heading",
+          "role": "Headline",
+          "description": "Headline text using 'Ink' (#000000), Inter 22px, 400 weight, with a tight lineHeight of 1.25 and letter-spacing -0.242px, making it precise and compact."
+        },
+        {
+          "name": "Body Text",
+          "role": "Content",
+          "description": "General body text primarily in 'Ink' (#000000), utilizing Inter 16px, 400 weight, with a lineHeight of 1.43 and letter-spacing -0.24px for readability in information-dense blocks."
+        },
+        {
+          "name": "Caption/Utility Text",
+          "role": "Supporting content",
+          "description": "Smaller descriptive text, often in 'Graphite' (#737373), using Inter 14px, 400 weight, with lineHeight 1.43 and letter-spacing -0.238px for detailed information."
+        }
+      ],
+      "typography": [
+        {
+          "role": "The sole typeface, Inter, handles all text roles. Its neutral, highly legible geometry at weight 400 is signature, emphasizing content over decorative flair.",
+          "sizes": "14px, 16px, 22px",
+          "family": "Inter",
+          "weight": "400",
+          "lineHeight": "1.25, 1.43",
+          "substitute": "system-ui",
+          "letterSpacing": "-0.238, -0.24, -0.242"
+        }
+      ],
+      "description": "This system projects an academic, almost clinical, precision with its sparse layout and strict monochrome palette. The design balances significant negative space with dense, information-rich text blocks, reminiscent of a research paper's appendix. Inter's subtle letter-spacing adjustments, especially noticeable at smaller text sizes, carve out readable blocks, contrasting with the bold visual statements of fluid, almost psychedelic, gradients used in portfolio showcases. The singular design choice is the use of perfectly circular 9999px pill buttons, offering the only soft, organic shape in an otherwise angular and purely functional interface.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "### Quick Color Reference\n- Text: #000000 (Ink)\n- Background: #ffffff (Canvas)\n- Primary Button: #0a0a0a (Charcoal)\n- Secondary Text: #737373 (Graphite)\n- Secondary Button Background: #f5f5f5 (Ghost)\n\n### Example Component Prompts\n1. Create a primary call-to-action button: 'Charcoal' (#0a0a0a) background, 'Canvas' (#ffffff) text, 'Canvas' (#ffffff) border, 9999px border-radius, 0px vertical padding, 12px horizontal padding. Text is Inter 16px, 400 weight, letter-spacing -0.24px.\n2. Design a navigation item: Inter 14px, 400 weight, 'Ink' (#000000) color, letter-spacing -0.238px. For inactive, use 'Graphite' (#737373).\n3. Generate a main heading for a section: 'Ink' (#000000) color, Inter 22px, 400 weight, line-height 1.25, letter-spacing -0.242px.\n4. Produce a body text block: 'Ink' (#000000) color, Inter 16px, 400 weight, line-height 1.43, letter-spacing -0.24px. Use a horizontal max-width of 950px for the content container."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775923955749-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775923955749-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/da316896-0121-433a-8188-e785ce7eac68",
+  "ranks": {
+    "trending": 602,
+    "popular": 468,
+    "newest": 1303
+  },
+  "localSlug": "endless-da316896"
+}

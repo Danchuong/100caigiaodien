@@ -1,0 +1,369 @@
+{
+  "id": "2ef27b47-36b6-46a3-b325-512bccc76abc",
+  "url": "https://aino.agency",
+  "siteName": "Aino",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775925209435-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775925209435-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "light",
+  "colors": [
+    {
+      "name": "Greige Canvas",
+      "hex": "#f5f5ff"
+    },
+    {
+      "name": "Inkwell",
+      "hex": "#181818"
+    }
+  ],
+  "fonts": [
+    "abcplus",
+    "abc",
+    "mono"
+  ],
+  "northStar": "Terminal aesthetic, ASCII art",
+  "createdAt": "2026-03-12T17:30:05.000Z",
+  "previewVideoCapturedAt": null,
+  "industry": "agency",
+  "fullResult": {
+    "meta": {
+      "url": "https://aino.agency",
+      "siteName": "Aino",
+      "extractedAt": "2026-04-11T16:33:46.497Z",
+      "durationMs": 21731,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 17,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "complete",
+          "attempts": 2
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#181818",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.20903608651870992
+            },
+            "contexts": [
+              "other",
+              "nav",
+              "button",
+              "hero",
+              "body"
+            ],
+            "frequency": 85,
+            "confidence": 1,
+            "prominence": 8328439.122093919,
+            "properties": [
+              "color",
+              "borderColor"
+            ]
+          }
+        ],
+        "isDarkMode": false,
+        "colorfulness": 0,
+        "contrastPairs": []
+      },
+      "shapes": {
+        "radii": [],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 16,
+            "frequency": 13,
+            "properties": [
+              "paddingTop",
+              "rowGap",
+              "columnGap",
+              "paddingRight",
+              "paddingLeft"
+            ]
+          },
+          {
+            "value": 49,
+            "frequency": 2,
+            "properties": [
+              "paddingTop",
+              "paddingBottom"
+            ]
+          }
+        ],
+        "density": "comfortable",
+        "baseUnit": 8
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "abcplus",
+            "source": "custom",
+            "weights": [
+              400,
+              500
+            ],
+            "frequency": 15,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "mono",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 1,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "abc",
+            "source": "custom",
+            "weights": [
+              720
+            ],
+            "frequency": 1,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": null,
+        "steps": [
+          {
+            "size": 13,
+            "family": "abcplus",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "hero"
+            ],
+            "frequency": 3,
+            "lineHeight": 1.29,
+            "letterSpacing": 0.043,
+            "textTransform": "none"
+          },
+          {
+            "size": 13,
+            "family": "abcplus",
+            "weight": 400,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 11,
+            "lineHeight": 1.29,
+            "letterSpacing": 0.043,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 13,
+            "family": "abcplus",
+            "weight": 500,
+            "contexts": [
+              "button"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.29,
+            "letterSpacing": 0.043,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 13,
+            "family": "mono",
+            "weight": 400,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.29,
+            "letterSpacing": 0.043,
+            "textTransform": "none"
+          },
+          {
+            "size": 13,
+            "family": "abc",
+            "weight": 720,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.29,
+            "letterSpacing": 0.043,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Prioritize `Greige Canvas` (#f5f5f0) for all page and section backgrounds to maintain the light, soft base.",
+        "Use `Inkwell` (#181818) for all text elements to ensure high contrast and consistency.",
+        "Apply `abcplus` 13px, 1.29 line-height, and 0.0430em letter-spacing for primary UI text, including navigation and buttons.",
+        "Utilize 0px border-radius across all elements to enforce the sharp, angular aesthetic.",
+        "Integrate `16px` for internal component padding and spacing between discrete elements and `49px` for larger section-level vertical separation.",
+        "Emphasize the custom ASCII art as a primary decorative and structural element, using it to define sections or visual motifs."
+      ],
+      "tags": [
+        "monochrome",
+        "ascii-art",
+        "terminal-ui",
+        "minimalist",
+        "text-heavy",
+        "geometric",
+        "engineered",
+        "retro-tech",
+        "high-contrast"
+      ],
+      "donts": [
+        "Do not introduce any saturated colors; maintain the strictly achromatic palette of `Greige Canvas` and `Inkwell`.",
+        "Avoid rounded corners or any soft geometrical shapes; enforce 0px radius for all borders and elements.",
+        "Do not use box-shadows or gradients for elevation; depth and separation are achieved purely through line art and spacing.",
+        "Do not vary font sizes extensively; keep most text at `13px` with consistent line-height and letter-spacing.",
+        "Avoid large hero images or photographic elements; the visual language is based on text and ASCII-style graphics.",
+        "Do not alter the `0.0430em` letter-spacing of the `abcplus` or `abc` fonts, as it's critical to the terminal aesthetic."
+      ],
+      "theme": "light",
+      "colors": [
+        {
+          "hex": "#f5f5ff",
+          "name": "Greige Canvas",
+          "role": "Page background — a soft, warm white that prevents the harshness of pure white while still providing high contrast for text.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#181818",
+          "name": "Inkwell",
+          "role": "Primary text, navigation items, borders, and the core color for the ASCII-art graphics and interactive elements. Its near-black value offers strong readability against the Greige Canvas.",
+          "group": "neutral"
+        }
+      ],
+      "layout": "The page model is full-bleed with no discernible max-width container, allowing the ASCII art to span the entire viewport. The hero section features a prominent, centered ASCII art graphic with navigation links sparsely placed around it. Section rhythm is driven by the large, continuous ASCII art patterns rather than distinct background color changes or visual dividers. Content, such as navigation, is arranged linearly and subtly within this art. There is no visible grid for content arrangement, instead, elements are positioned freely or minimally centered. The navigation is a classic top-bar with sparse, unstyled text links.",
+      "imagery": "The site's visual language is dominated by ASCII-style art and typographic elements. There is no traditional photography, rich illustrations, or 3D renders. Instead, graphics are composed entirely of text characters (periods, slashes, asterisks, etc.) forming large, abstract patterns and shapes. These 'images' serve a decorative and structural role, rather than depicting objects or scenes. They are full-page or full-section width, integrated directly into the background, and create an intricate, almost code-like texture. Icons, if present, are also character-based.",
+      "similar": [
+        {
+          "why": "Embrace a raw, deconstructed aesthetic based on foundational web elements, often using monochrome palettes and minimal styling.",
+          "business": "Brutalist Websites"
+        },
+        {
+          "why": "Text-heavy interface with strong focus on character-based graphics and a distinct, consistent default typeface for all elements.",
+          "business": "Old School RuneScape UI"
+        },
+        {
+          "why": "Directly leans into a command-line interface aesthetic, using monospace fonts and character-based 'graphics'.",
+          "business": "Terminal.com"
+        },
+        {
+          "why": "Often use large, unstyled type and emphasize a stark black and white aesthetic, letting the primary content be the visual focus.",
+          "business": "Minimal Gallery Sites"
+        },
+        {
+          "why": "Recalls the simplicity and text-based nature of the early internet, where content and structure were often defined by ASCII characters.",
+          "business": "Early Web Designs"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "all": "0px"
+        },
+        "elementGap": "16px",
+        "sectionGap": "49px",
+        "cardPadding": "16px",
+        "pageMaxWidth": null
+      },
+      "category": "agency",
+      "northStar": "Terminal aesthetic, ASCII art",
+      "components": [
+        {
+          "html": "<style>@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&display=swap');:root{--color-greige-canvas:#f5f5ef;--color-inkwell:#181818;--font-abcplus:'IBM Plex Mono',monospace;--font-mono:'IBM Plex Mono',monospace;--spacing-16:16px;--spacing-49:49px;}*{margin:0;padding:0;box-sizing:border-box;}</style><div style=\"background:var(--color-greige-canvas);width:100%;padding:var(--spacing-16) var(--spacing-16);display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--color-inkwell);\"><a href='#' style=\"font-family:var(--font-abcplus);font-size:13px;font-weight:500;color:var(--color-inkwell);text-decoration:none;letter-spacing:0.0430em;line-height:1.29;\">AINO</a><nav style=\"display:flex;gap:var(--spacing-49);align-items:center;\"><a href='#' style=\"font-family:var(--font-abcplus);font-size:13px;font-weight:400;color:var(--color-inkwell);text-decoration:none;letter-spacing:0.0430em;line-height:1.29;\">WORK</a><a href='#' style=\"font-family:var(--font-abcplus);font-size:13px;font-weight:400;color:var(--color-inkwell);text-decoration:none;letter-spacing:0.0430em;line-height:1.29;\">SERVICES</a><a href='#' style=\"font-family:var(--font-abcplus);font-size:13px;font-weight:400;color:var(--color-inkwell);text-decoration:none;letter-spacing:0.0430em;line-height:1.29;\">/-</a><a href='#' style=\"font-family:var(--font-abcplus);font-size:13px;font-weight:400;color:var(--color-inkwell);text-decoration:none;letter-spacing:0.0430em;line-height:1.29;\">/+>ABOUT>+PLAY</a></nav><div style=\"display:flex;gap:var(--spacing-49);\"><a href='#' style=\"font-family:var(--font-abcplus);font-size:13px;font-weight:400;color:var(--color-inkwell);text-decoration:none;letter-spacing:0.0430em;line-height:1.29;\">SETTINGS</a><a href='#' style=\"font-family:var(--font-abcplus);font-size:13px;font-weight:400;color:var(--color-inkwell);text-decoration:none;letter-spacing:0.0430em;line-height:1.29;\">CONTACT</a></div></div>",
+          "name": "Navigation Bar",
+          "role": "",
+          "description": ""
+        },
+        {
+          "html": "<style>@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&display=swap');:root{--color-greige-canvas:#f5f5ef;--color-inkwell:#181818;--font-abcplus:'IBM Plex Mono',monospace;--font-mono:'IBM Plex Mono',monospace;--spacing-16:16px;--spacing-49:49px;}*{margin:0;padding:0;box-sizing:border-box;}</style><div style=\"background:var(--color-greige-canvas);width:100%;padding:var(--spacing-49) var(--spacing-16);display:flex;flex-direction:column;align-items:center;justify-content:center;\"><pre style=\"font-family:var(--font-mono);font-size:13px;font-weight:400;color:var(--color-inkwell);letter-spacing:0.0430em;line-height:1.29;text-align:center;white-space:pre;overflow:hidden;max-width:100%;\">          /-        -+&lt;!!&lt;=:·\n        ·/+&gt;ABOUT&gt;+PLAY\n      ·:/=&gt;&lt;&lt;!!!&lt;&gt;=+:·\n     ·-/+==&lt;&lt;!!!!&lt;&lt;&gt;=+:-\n   ··:/+==&gt;&lt;&lt;!!!!!&lt;&lt;&gt;&gt;==+/:-·\n  ···://+==&gt;&gt;&lt;&lt;&lt;!!!!!!!&lt;&lt;&lt;&gt;&gt;&gt;==++/::·-·\n···-://++==&gt;&gt;&gt;&lt;&lt;&lt;&lt;!!!!!!!!!!!&lt;&lt;&lt;&lt;&gt;&gt;&gt;&gt;===+//::---·\n ···-://++===&gt;&gt;&gt;&lt;&lt;&lt;&lt;&lt;!!!!!!!!!!!!&lt;&lt;&lt;&lt;&lt;&gt;&gt;&gt;&gt;&gt;====+//::--·\n  ·--://++=====&gt;&gt;&gt;&gt;&lt;&lt;&lt;&lt;&lt;&lt;!!!!!!!!!!&lt;&lt;&lt;&lt;&lt;&lt;&gt;&gt;&gt;&gt;&gt;=====+//::--\n    ·:://++====&gt;&gt;&gt;&lt;&lt;&lt;&lt;!!!!!!!!&lt;&lt;&lt;&lt;&gt;&gt;&gt;&gt;====++//::--·\n       ···:/+==&gt;&gt;&lt;&lt;&lt;!!!!!!!&lt;&lt;&lt;&gt;&gt;==++/:-··\n           ·-/+=&gt;&lt;&lt;!!!!!&lt;&lt;&gt;&gt;=+/:-·\n               ·:/+=&lt;&lt;!!!&lt;&gt;=+:-\n                   ·-/=&lt;!!&gt;+:\n                       -=&lt;!/\n                          ·\n                       -&lt;\n                    -   &lt;=\n                 -     -&lt;&lt;-\n             -        ·+&lt;!&gt;:\n          -        :=&lt;!&lt;&gt;/·\n       -         :+&gt;&lt;!!&lt;&gt;+:\n    -          -/=&gt;&lt;!!!&lt;p+/-\n            ·/+&gt;&gt;&lt;&lt;!!!&lt;&lt;=+:-\n          ·:/+=&gt;&lt;&lt;!!!!&lt;&lt;=&gt;=+/:-\n        ·::/+==&gt;&lt;&lt;!!!!!&lt;&lt;&lt;&gt;==++/::---·</pre></div>",
+          "name": "ASCII Art Hero Block",
+          "role": "",
+          "description": ""
+        },
+        {
+          "html": "<style>@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&display=swap');:root{--color-greige-canvas:#f5f5ef;--color-inkwell:#181818;--font-abcplus:'IBM Plex Mono',monospace;--font-mono:'IBM Plex Mono',monospace;--spacing-16:16px;--spacing-49:49px;}*{margin:0;padding:0;box-sizing:border-box;}</style><div style=\"background:var(--color-greige-canvas);width:100%;padding:var(--spacing-49) var(--spacing-16);border-top:1px solid var(--color-inkwell);\"><div style=\"display:flex;flex-direction:column;gap:var(--spacing-16);\"><p style=\"font-family:var(--font-abcplus);font-size:13px;font-weight:400;color:var(--color-inkwell);letter-spacing:0.0430em;line-height:1.29;margin-bottom:var(--spacing-16);\">// SELECT ACTION</p><div style=\"display:flex;flex-wrap:wrap;gap:var(--spacing-16);\"><button style=\"font-family:var(--font-abcplus);font-size:13px;font-weight:500;color:var(--color-greige-canvas);background:var(--color-inkwell);border:1px solid var(--color-inkwell);border-radius:0px;padding:8px var(--spacing-16);letter-spacing:0.0430em;line-height:1.29;cursor:pointer;\">VIEW WORK</button><button style=\"font-family:var(--font-abcplus);font-size:13px;font-weight:400;color:var(--color-inkwell);background:transparent;border:1px solid var(--color-inkwell);border-radius:0px;padding:8px var(--spacing-16);letter-spacing:0.0430em;line-height:1.29;cursor:pointer;\">OUR SERVICES</button><button style=\"font-family:var(--font-abcplus);font-size:13px;font-weight:400;color:var(--color-inkwell);background:transparent;border:none;border-radius:0px;padding:8px 0px;letter-spacing:0.0430em;line-height:1.29;cursor:pointer;text-decoration:underline;\">CONTACT →</button></div><div style=\"margin-top:var(--spacing-16);padding-top:var(--spacing-16);border-top:1px solid var(--color-inkwell);display:flex;gap:var(--spacing-49);\"><span style=\"font-family:var(--font-mono);font-size:13px;font-weight:400;color:var(--color-inkwell);letter-spacing:0.0430em;line-height:1.29;opacity:0.5;\">/+>ABOUT>+PLAY</span><span style=\"font-family:var(--font-mono);font-size:13px;font-weight:400;color:var(--color-inkwell);letter-spacing:0.0430em;line-height:1.29;opacity:0.5;\">SETTINGS</span><span style=\"font-family:var(--font-mono);font-size:13px;font-weight:400;color:var(--color-inkwell);letter-spacing:0.0430em;line-height:1.29;opacity:0.5;\">/-</span></div></div></div>",
+          "name": "Button Group / CTA Strip",
+          "role": "",
+          "description": ""
+        },
+        {
+          "name": "Navigation Link",
+          "role": "Interactive element",
+          "description": "Text link using `abcplus` font, 13px size, weight 400 or 500, `Inkwell` color, no background, and no border. Active state is subtly indicated by the cursor."
+        },
+        {
+          "name": "Primary Button",
+          "role": "Interactive element",
+          "description": "Primarily decorative, uses `abcplus` font, 13px size, weight 400 or 500, `Inkwell` for text and border, no background, and 0px border-radius. Padding is explicitly 0px, suggesting a text-like button within the ASCII art context."
+        }
+      ],
+      "typography": [
+        {
+          "role": "Used for navigation, buttons, and most general purpose text. The distinct letter spacing contributes to its terminal-like appearance.",
+          "sizes": "13px",
+          "family": "abcplus",
+          "weight": "400, 500",
+          "lineHeight": "1.29",
+          "substitute": "IBM Plex Mono",
+          "letterSpacing": "0.0430em"
+        },
+        {
+          "role": "The boldest weight of this custom typeface, used for body text elements that need to stand out within the general text flow.",
+          "sizes": "13px",
+          "family": "abc",
+          "weight": "720",
+          "lineHeight": "1.29",
+          "substitute": "IBM Plex Mono",
+          "letterSpacing": "0.0430em"
+        },
+        {
+          "role": "A distinct mono font, likely used for specific code-like or technical elements to differentiate them from the primary text.",
+          "sizes": "13px",
+          "family": "mono",
+          "weight": "400",
+          "lineHeight": "1.29",
+          "substitute": "Space Mono",
+          "letterSpacing": "0.0430em"
+        }
+      ],
+      "description": "This design system is a monochrome canvas, evoking the disciplined aesthetic of programming and terminal UIs. It's built on a stark contrast of near-black text on a creamy, soft white background. The most distinctive choice is the pixel-perfect recreation of ASCII art across the page, transforming what might be seen as technical constraints into a primary visual element. This creates a raw, almost deconstructed feel, prioritizing technical expression over traditional graphic design flourishes, making the site itself an artifact of agentic engineering.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "### Quick Color Reference\n- Text: #181818 (Inkwell)\n- Background: #F5F5F0 (Greige Canvas)\n- CTA/Interactive: #181818 (Inkwell, border/text only)\n- Border: #181818 (Inkwell)\n\n### 3-5 Example Component Prompts\n- Create a top navigation bar: `Greige Canvas` background, full-width. Place text links: 'Aino', 'Work', 'Services', 'About', 'Play', 'Settings', 'Contact' using `abcplus` weight 400, 13px, line-height 1.29, letter-spacing 0.0430em, color `Inkwell` (#181818). Ensure 0px border-radius.\n- Generate a primary interactive button: Text 'Settings' using `abcplus` weight 400, 13px, line-height 1.29, letter-spacing 0.0430em, color `Inkwell` (#181818). Background is transparent. Border is 1px solid `Inkwell` (#181818). Padding 0px. Ensure 0px border-radius.\n- Build a page section containing body copy: Use `abc` font weight 720, 13px, line-height 1.29, letter-spacing 0.0430em, color `Inkwell` (#181818) on a `Greige Canvas` background. Ensure generous vertical spacing of `49px` between this section and surrounding elements."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775925209435-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775925209435-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/2ef27b47-36b6-46a3-b325-512bccc76abc",
+  "ranks": {
+    "trending": 152,
+    "popular": 248,
+    "newest": 1046
+  },
+  "localSlug": "aino-2ef27b47"
+}

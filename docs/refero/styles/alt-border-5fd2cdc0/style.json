@@ -1,0 +1,646 @@
+{
+  "id": "5fd2cdc0-05ac-4290-b67c-72e7525a532c",
+  "url": "https://www.alt-border.com",
+  "siteName": "Alt–Border",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777513840718-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777513840718-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "light",
+  "colors": [
+    {
+      "name": "Canvas White",
+      "hex": "#ffffff"
+    },
+    {
+      "name": "Ink Black",
+      "hex": "#000000"
+    },
+    {
+      "name": "Charcoal Grey",
+      "hex": "#333333"
+    },
+    {
+      "name": "Pale Stone",
+      "hex": "#808080"
+    }
+  ],
+  "fonts": [
+    "Inferi",
+    "Neuehaasdisplay",
+    "Suisseintl"
+  ],
+  "northStar": "monochromatic minimalist gallery",
+  "createdAt": "2026-04-30T01:51:17.833Z",
+  "previewVideoCapturedAt": null,
+  "industry": "design",
+  "fullResult": {
+    "meta": {
+      "url": "https://www.alt-border.com",
+      "siteName": "Alt–Border",
+      "extractedAt": "2026-04-30T01:51:17.768Z",
+      "durationMs": 51954,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 162,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#333333",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.3210925111636326
+            },
+            "contexts": [
+              "other",
+              "image"
+            ],
+            "frequency": 162,
+            "confidence": 1,
+            "prominence": 21953436.16465868,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "image/color": 11,
+              "other/color": 24,
+              "image/borderColor": 44,
+              "other/borderColor": 83
+            }
+          },
+          {
+            "hex": "#ffffff",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 1.0000000000000002
+            },
+            "contexts": [
+              "other",
+              "button",
+              "heading"
+            ],
+            "frequency": 29,
+            "confidence": 1,
+            "prominence": 14658741.920618381,
+            "properties": [
+              "backgroundColor",
+              "color",
+              "borderColor",
+              "boxShadow"
+            ],
+            "usageCounts": {
+              "button/color": 2,
+              "other/boxShadow": 4,
+              "other/borderColor": 3,
+              "button/borderColor": 8,
+              "other/backgroundColor": 11,
+              "heading/backgroundColor": 1
+            }
+          },
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "image",
+              "heading",
+              "link",
+              "other",
+              "body"
+            ],
+            "frequency": 491,
+            "confidence": 1,
+            "prominence": 6966809.00561662,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "body/color": 36,
+              "link/color": 7,
+              "image/color": 9,
+              "other/color": 46,
+              "heading/color": 4,
+              "body/borderColor": 144,
+              "link/borderColor": 23,
+              "image/borderColor": 36,
+              "other/borderColor": 171,
+              "heading/borderColor": 15
+            }
+          },
+          {
+            "hex": "#808080",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.5998708056221468
+            },
+            "contexts": [
+              "link",
+              "other",
+              "heading"
+            ],
+            "frequency": 29,
+            "confidence": 1,
+            "prominence": 6137842.984204063,
+            "properties": [
+              "borderColor"
+            ],
+            "usageCounts": {
+              "link/borderColor": 5,
+              "other/borderColor": 23,
+              "heading/borderColor": 1
+            }
+          }
+        ],
+        "isDarkMode": false,
+        "colorfulness": 0,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 21,
+            "background": "#ffffff",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 12.63,
+            "background": "#ffffff",
+            "foreground": "#333333"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [
+          {
+            "value": 10,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 4
+          }
+        ],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 5,
+            "contexts": [
+              "link"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingBottom|link"
+            ]
+          },
+          {
+            "value": 7,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 6,
+            "properties": [
+              "paddingTop"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other"
+            ]
+          },
+          {
+            "value": 9,
+            "contexts": [
+              "image",
+              "other"
+            ],
+            "frequency": 30,
+            "properties": [
+              "paddingRight",
+              "paddingTop",
+              "marginTop",
+              "marginBottom",
+              "rowGap",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|image",
+              "paddingTop|other",
+              "marginTop|other",
+              "marginBottom|other",
+              "rowGap|other",
+              "paddingBottom|other"
+            ]
+          },
+          {
+            "value": 11,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingBottom|other"
+            ]
+          },
+          {
+            "value": 19,
+            "contexts": [
+              "other",
+              "heading"
+            ],
+            "frequency": 25,
+            "properties": [
+              "marginTop",
+              "marginRight",
+              "marginLeft",
+              "rowGap",
+              "columnGap",
+              "paddingTop",
+              "paddingRight",
+              "paddingBottom",
+              "paddingLeft",
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "marginTop|other",
+              "marginRight|other",
+              "marginLeft|other",
+              "rowGap|other",
+              "columnGap|other",
+              "paddingTop|other",
+              "paddingRight|other",
+              "paddingBottom|other",
+              "paddingLeft|other",
+              "paddingTop|heading",
+              "marginBottom|other"
+            ]
+          }
+        ],
+        "density": "compact",
+        "baseUnit": 4
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "Inferi",
+            "source": "custom",
+            "weights": [
+              200,
+              300,
+              400
+            ],
+            "frequency": 113,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "Neuehaasdisplay",
+            "source": "custom",
+            "weights": [
+              300
+            ],
+            "frequency": 45,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "Suisseintl",
+            "source": "custom",
+            "weights": [
+              300
+            ],
+            "frequency": 4,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 21,
+          "name": "Minor Third",
+          "ratio": 1.2,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 14,
+            "family": "Inferi",
+            "weight": 200,
+            "contexts": [
+              "other",
+              "image"
+            ],
+            "frequency": 13,
+            "lineHeight": 2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 21,
+            "family": "Inferi",
+            "weight": 300,
+            "contexts": [
+              "other",
+              "link"
+            ],
+            "frequency": 33,
+            "lineHeight": 1,
+            "letterSpacing": -0.027,
+            "textTransform": "none"
+          },
+          {
+            "size": 21,
+            "family": "Suisseintl",
+            "weight": 300,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 4,
+            "lineHeight": 1,
+            "letterSpacing": -0.027,
+            "textTransform": "none"
+          },
+          {
+            "size": 34,
+            "family": "Inferi",
+            "weight": 200,
+            "contexts": [
+              "heading",
+              "link"
+            ],
+            "frequency": 4,
+            "lineHeight": 0.69,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 34,
+            "family": "Inferi",
+            "weight": 200,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 1,
+            "lineHeight": 0.68,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 105,
+            "family": "Neuehaasdisplay",
+            "weight": 300,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 6,
+            "lineHeight": 0.92,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 105,
+            "family": "Neuehaasdisplay",
+            "weight": 300,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 1,
+            "lineHeight": 0.85,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 120,
+            "family": "Inferi",
+            "weight": 200,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 1,
+            "lineHeight": 0.69,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Prioritize Neuehaasdisplay 300 at extremely large sizes (e.g., 105px) for hero headlines to maximize immediate visual impact.",
+        "Use Inferi across all typographic elements that require controlled, refined elegance, adjusting weights (200-400) for hierarchy but maintaining its signature narrow tracking.",
+        "Employ Ink Black (#000000) for all primary text and critical borders to create strong visual anchors against the Canvas White (#ffffff) background.",
+        "Structure layouts using visible 1px solid borders in Charcoal Grey (#333333) or Pale Stone (#808080) to define content areas without relying on shadows or heavy backgrounds.",
+        "Maintain a compact visual density, using standard element gaps of 9px and card padding of 9px to keep elements close-knit.",
+        "Apply a 10px border-radius consistently to all image frames and contained card components to soften hard edges slightly.",
+        "Keep backgrounds minimal and pure, primarily using Canvas White (#ffffff) as the dominant surface for all content."
+      ],
+      "donts": [
+        "Avoid using drop shadows or elevation effects; elements should rely on borders and spatial separation for hierarchy.",
+        "Do not introduce chromatic colors for UI elements; the palette is strictly monochromatic with white, black, and grays.",
+        "Refrain from using heavily padded buttons or buttons with solid backgrounds; actions should primarily be expressed through ghost buttons or text links.",
+        "Do not deviate from the specified negative letter-spacing for headlines and navigation links; this is key to the brand's typographic identity.",
+        "Avoid decorative gradients or background images that would disrupt the clean, high-contrast, text-forward aesthetic.",
+        "Do not use generic sans-serifs where a custom font is specified; the precise character of Inferi and Neuehaasdisplay is foundational to the brand."
+      ],
+      "theme": "light",
+      "colors": [
+        {
+          "hex": "#ffffff",
+          "name": "Canvas White",
+          "role": "Page backgrounds, card surfaces, active text color for ghost buttons",
+          "group": "neutral"
+        },
+        {
+          "hex": "#000000",
+          "name": "Ink Black",
+          "role": "Primary text, headings, strong borders, ghost button borders",
+          "group": "neutral"
+        },
+        {
+          "hex": "#333333",
+          "name": "Charcoal Grey",
+          "role": "Secondary text, muted borders, subtle visual breaks in content",
+          "group": "neutral"
+        },
+        {
+          "hex": "#808080",
+          "name": "Pale Stone",
+          "role": "Decorative borders for content frames, subtle dividers",
+          "group": "neutral"
+        }
+      ],
+      "layout": "The site employs a primarily contained, max-width layout for its textual content, but images frequently break free to fill horizontal space, creating a dynamic visual flow. The hero section often features a large-scale headline (Neuehaasdisplay) over a white background with interspersed small, decorative thumbnails. Sections maintain a consistent vertical rhythm, separated by clean horizontal dividers (Charcoal Grey lines). Content is arranged in structured grids, such as 3-column image grids for projects, or 2-column layouts for text-and-image features. The layout feels dense and information-rich yet highly organized, maintaining a strict grid alignment. Navigation is a minimalist top bar with text links.",
+      "imagery": "This design system heavily features high-end, editorial-style photography and CGI renders. Images are typically contained within a solid border (Ink Black or Pale Stone) and a 10px border-radius, presenting them like curated art pieces. They are product-focused or abstract, often featuring clean, stark backgrounds that complement the overall minimalism. There is a strong emphasis on visual storytelling through the images themselves, with minimal text overlay. Icons are absent from standard UI, with the focus solely on photographic and CGI content for visual flair. Image density is high, with large, prominent images dominating sections, but always within a structured layout.",
+      "similar": [
+        {
+          "why": "Shared minimalist white-space aesthetic, strong typographic focus with large, condensed headlines, and grid-based content presentation.",
+          "business": "AIGA (American Institute of Graphic Arts)"
+        },
+        {
+          "why": "Similar emphasis on editorial-style typography, particularly narrow sans-serifs, and a clean, high-contrast black-and-white color scheme.",
+          "business": "Kerning City"
+        },
+        {
+          "why": "Utilizes a comparable monochromatic palette with strong typographic hierarchy, clean layouts, and a focus on high-quality visual content presentation over complex UI elements.",
+          "business": "The Brand Identity"
+        },
+        {
+          "why": "Another studio that uses large, impactful typography, grid systems, and a strict, often black and white, visual language to showcase creative work.",
+          "business": "Actual Source"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "cards": "10px",
+          "images": "10px"
+        },
+        "elementGap": "9px",
+        "sectionGap": "48px",
+        "cardPadding": "9px",
+        "pageMaxWidth": null
+      },
+      "industry": "design",
+      "surfaces": [
+        {
+          "hex": "#ffffff",
+          "name": "Canvas White",
+          "level": 0,
+          "purpose": "Primary page background and default surface for all content blocks"
+        }
+      ],
+      "northStar": "monochromatic minimalist gallery",
+      "typeScale": [
+        {
+          "role": "caption",
+          "size": 14,
+          "lineHeight": 1,
+          "letterSpacing": -0.38
+        },
+        {
+          "role": "body",
+          "size": 21,
+          "lineHeight": 1,
+          "letterSpacing": -0.57
+        },
+        {
+          "role": "subheading",
+          "size": 34,
+          "lineHeight": 1,
+          "letterSpacing": -0.92
+        },
+        {
+          "role": "heading",
+          "size": 105,
+          "lineHeight": 0.85,
+          "letterSpacing": 0
+        },
+        {
+          "role": "display",
+          "size": 120,
+          "lineHeight": 1,
+          "letterSpacing": -1.4
+        }
+      ],
+      "components": [
+        {
+          "name": "Navigation Link",
+          "role": "Primary site navigation, secondary links like 'Read more'",
+          "description": "Text in Inferi weight 200-300, color Ink Black, with 5px padding-bottom that serves as a visual hit area. No background or distinct border, relying on spacing and context for discoverability."
+        },
+        {
+          "name": "Ghost Button",
+          "role": "Actionable text that blends into surrounds but indicates interaction",
+          "description": "Transparent background with Ink Black text, 0px border-radius, no padding defined. Primarily used for navigational elements like '← Previous' and '→ Next' to maintain visual lightness."
+        },
+        {
+          "name": "Image Grid Card",
+          "role": "Displaying project thumbnails and content previews in a masonry-style grid",
+          "description": "Each image within a 1px solid Pine Stone border, with 10px corner radius. Image titles below use Ink Black text at a small size (e.g., 14px Inferi weight 200). Content cards are themselves containers, often arranged in dense grids."
+        },
+        {
+          "name": "Content Section Headline",
+          "role": "Breaking up content sections with prominent descriptive text",
+          "description": "Large text using Inferi weight 300, color Ink Black, typically around 34px, with a negative letter-spacing for a condensed look. Often paired with a subtle Charcoal Grey border-bottom as a visual separator."
+        },
+        {
+          "name": "Dividing Line",
+          "role": "Subtle visual separation between content blocks or navigation items",
+          "description": "A 1px solid Charcoal Grey or Pine Stone line, typically full-width or extending to frame specific content, providing structure without heaviness."
+        }
+      ],
+      "typography": [
+        {
+          "role": "Headlines, navigation links, and content area text — a precise, narrow serif that brings a high-fashion editorial feel through its controlled tracking and varied weights. Weight 200/300 for a whispered authority, 400 for structural content.",
+          "sizes": "14px, 21px, 34px, 120px",
+          "family": "Inferi",
+          "weight": "200, 300, 400",
+          "lineHeight": "1.00, 2.00",
+          "substitute": "Georgia",
+          "letterSpacing": "-1.4"
+        },
+        {
+          "role": "Large display headings and hero statements — its extra-condensed, light weight provides architectural rigor and a striking impact at large sizes, drawing immediate attention.",
+          "sizes": "105px",
+          "family": "Neuehaasdisplay",
+          "weight": "300",
+          "lineHeight": "0.85, 0.92",
+          "substitute": "Helvetica Neue",
+          "letterSpacing": "0"
+        },
+        {
+          "role": "Body text and descriptive content — a clean, legible sans-serif for reading, maintaining a modern and unobtrusive presence with its light weight.",
+          "sizes": "21px",
+          "family": "Suisseintl",
+          "weight": "300",
+          "lineHeight": "1.00",
+          "substitute": "Inter",
+          "letterSpacing": "-0.57"
+        }
+      ],
+      "description": "Alt-Border embodies a minimalist art gallery aesthetic: stark white canvases juxtaposed with deep black text and hairline dividers. Layouts are tight and grid-based, preferring dense information presentation over expansive negative space. Typography is critical, using a precise, narrow sans-serif at varying weights for an intellectual and assertive tone. The visual system emphasizes content, with images acting as art pieces within structured frames, devoid of soft shadows or chromatic accents, relying on sharp contrast and precise alignment to communicate a high-end, curated feel.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "Quick Color Reference:\ntext: #000000\nbackground: #ffffff\nborder: #333333\naccent: no distinct accent color\nprimary action: no distinct CTA color\n\n3-5 Example Component Prompts:\n1. Create a hero section with a centered headline 'WE MAKE IMAGES' using Neuehaasdisplay weight 300, color #000000, size 105px. Below it, apply a 1px solid border #333333 spanning the content width.\n2. Design a navigation bar with a link 'INFORMATION' using Inferi weight 200, color #000000, size 14px, with 5px padding-bottom.\n3. Construct a project image card: an image with a 10px border-radius, within a 1px solid #808080 border, with a caption 'Water Games' below it in Inferi weight 200, color #000000, size 14px.\n4. Build a content section: a headline 'OUR PRACTICE' using Inferi weight 300, color #000000, size 34px, letter-spacing -0.92px, followed by a 1px solid #333333 divider, and body text 'We create concept-driven imagery' using Suisseintl weight 300, color #000000, size 21px."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777513840718-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777513840718-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/5fd2cdc0-05ac-4290-b67c-72e7525a532c",
+  "ranks": {
+    "trending": 958,
+    "popular": 979,
+    "newest": 504
+  },
+  "localSlug": "alt-border-5fd2cdc0"
+}

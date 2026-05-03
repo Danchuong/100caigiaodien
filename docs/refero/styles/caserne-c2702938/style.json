@@ -1,0 +1,603 @@
+{
+  "id": "c2702938-b670-414c-ba47-94618212085e",
+  "url": "https://caserne.com",
+  "siteName": "Caserne",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777521007065-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777521007065-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "dark",
+  "colors": [
+    {
+      "name": "Absolute Zero",
+      "hex": "#000000"
+    },
+    {
+      "name": "Ghost White",
+      "hex": "#f2f2f2"
+    },
+    {
+      "name": "Cloud Burst",
+      "hex": "#ffffff"
+    },
+    {
+      "name": "Steel Gaze",
+      "hex": "#858484"
+    },
+    {
+      "name": "Deep Graphite",
+      "hex": "#333333"
+    },
+    {
+      "name": "Ember Glow",
+      "hex": "#ff4513"
+    }
+  ],
+  "fonts": [
+    "ABC Oracle"
+  ],
+  "northStar": "Gallery Grid, Dark Canvas",
+  "createdAt": "2026-04-30T03:50:23.197Z",
+  "previewVideoCapturedAt": null,
+  "industry": "design",
+  "fullResult": {
+    "meta": {
+      "url": "https://caserne.com",
+      "siteName": "Caserne",
+      "extractedAt": "2026-04-30T03:50:23.130Z",
+      "durationMs": 26892,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 330,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#f2f2f2",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.9611513666441094
+            },
+            "contexts": [
+              "other",
+              "link",
+              "nav",
+              "image"
+            ],
+            "frequency": 1315,
+            "confidence": 1,
+            "prominence": 204195790.18917805,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "nav/color": 11,
+              "link/color": 4,
+              "image/color": 26,
+              "other/color": 222,
+              "nav/borderColor": 44,
+              "link/borderColor": 16,
+              "image/borderColor": 104,
+              "other/borderColor": 888
+            }
+          },
+          {
+            "hex": "#ffffff",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 1.0000000000000002
+            },
+            "contexts": [
+              "link",
+              "icon",
+              "other"
+            ],
+            "frequency": 161,
+            "confidence": 1,
+            "prominence": 12091786.332352176,
+            "properties": [
+              "color",
+              "borderColor",
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "icon/color": 1,
+              "link/color": 28,
+              "other/color": 3,
+              "icon/borderColor": 4,
+              "link/borderColor": 112,
+              "other/borderColor": 12,
+              "other/backgroundColor": 1
+            }
+          },
+          {
+            "hex": "#858484",
+            "oklch": {
+              "c": 0.0011990682794274247,
+              "h": 17.19038475398076,
+              "l": 0.6142071776170942
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 145,
+            "confidence": 1,
+            "prominence": 92209.49996763622,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "other/color": 29,
+              "other/borderColor": 116
+            }
+          },
+          {
+            "hex": "#ff4513",
+            "oklch": {
+              "c": 0.22821104348663204,
+              "h": 34.246880565441735,
+              "l": 0.660677962218988
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 20,
+            "confidence": 1,
+            "prominence": 16040.743227988034,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "other/color": 4,
+              "other/borderColor": 16
+            }
+          },
+          {
+            "hex": "#333333",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.3210925111636326
+            },
+            "contexts": [
+              "link",
+              "icon"
+            ],
+            "frequency": 10,
+            "confidence": 1,
+            "prominence": 11205.099012766206,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "icon/color": 1,
+              "link/color": 1,
+              "icon/borderColor": 4,
+              "link/borderColor": 4
+            }
+          }
+        ],
+        "isDarkMode": true,
+        "colorfulness": 0.007756291469952065,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 12.63,
+            "background": "#ffffff",
+            "foreground": "#333333"
+          },
+          {
+            "level": "AAA",
+            "ratio": 11.29,
+            "background": "#f2f2f2",
+            "foreground": "#333333"
+          },
+          {
+            "level": "fail",
+            "ratio": 3.73,
+            "background": "#ffffff",
+            "foreground": "#858484"
+          },
+          {
+            "level": "fail",
+            "ratio": 3.44,
+            "background": "#ffffff",
+            "foreground": "#ff4513"
+          },
+          {
+            "level": "fail",
+            "ratio": 1.12,
+            "background": "#ffffff",
+            "foreground": "#f2f2f2"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 2,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingLeft|nav"
+            ]
+          },
+          {
+            "value": 3,
+            "contexts": [
+              "other",
+              "nav"
+            ],
+            "frequency": 5,
+            "properties": [
+              "paddingTop",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other",
+              "paddingLeft|other",
+              "paddingLeft|nav"
+            ]
+          },
+          {
+            "value": 5,
+            "contexts": [
+              "link",
+              "nav",
+              "other"
+            ],
+            "frequency": 144,
+            "properties": [
+              "paddingRight",
+              "paddingLeft",
+              "paddingTop",
+              "rowGap",
+              "columnGap",
+              "marginBottom",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|link",
+              "paddingLeft|link",
+              "paddingRight|nav",
+              "paddingTop|other",
+              "paddingRight|other",
+              "paddingLeft|other",
+              "rowGap|other",
+              "columnGap|other",
+              "marginBottom|other",
+              "paddingBottom|other"
+            ]
+          },
+          {
+            "value": 45,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "marginBottom|other"
+            ]
+          },
+          {
+            "value": 90,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 25,
+            "properties": [
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "marginBottom|other"
+            ]
+          },
+          {
+            "value": 120,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 24,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|other",
+              "paddingLeft|other"
+            ]
+          },
+          {
+            "value": 225,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "marginTop",
+              "paddingTop"
+            ],
+            "propertyContextPairs": [
+              "marginTop|other",
+              "paddingTop|other"
+            ]
+          },
+          {
+            "value": 240,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingRight"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|other"
+            ]
+          }
+        ],
+        "density": "compact",
+        "baseUnit": 6
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "ABC Oracle",
+            "source": "custom",
+            "weights": [
+              100,
+              400,
+              700
+            ],
+            "frequency": 330,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": null,
+        "steps": [
+          {
+            "size": 13,
+            "family": "ABC Oracle",
+            "weight": 400,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.38,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 13,
+            "family": "ABC Oracle",
+            "weight": 700,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "lineHeight": 1.38,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 13,
+            "family": "ABC Oracle",
+            "weight": 100,
+            "contexts": [
+              "link"
+            ],
+            "frequency": 2,
+            "lineHeight": 1.38,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 14,
+            "family": "ABC Oracle",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "link",
+              "icon",
+              "nav",
+              "image"
+            ],
+            "frequency": 322,
+            "lineHeight": 1.29,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 14,
+            "family": "ABC Oracle",
+            "weight": 400,
+            "contexts": [
+              "link"
+            ],
+            "frequency": 3,
+            "lineHeight": 1.43,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Maintain a high contrast ratio between text and background, predominantly using Ghost White (#f2f2f2) or Cloud Burst (#ffffff) on Absolute Zero (#000000).",
+        "Utilize Ember Glow (#ff4513) exclusively for interactive states or minimal decorative accents, ensuring it never competes with primary content.",
+        "Employ ABC Oracle's lighter weights (100, 400) for navigation and body text, reserving the 700 weight for critical emphasis.",
+        "Apply a default border-radius of 0px to all elements, maintaining crisp, sharp edges throughout the interface.",
+        "Implement consistent vertical spacing with 90px between major content sections and 5px between closely related elements.",
+        "Position all navigation links and key interactive elements with top and left padding of 5px to ensure consistent visual alignment.",
+        "Allow large-format photography to occupy significant screen real estate, often full-bleed, as the primary visual content."
+      ],
+      "donts": [
+        "Avoid introducing additional chromatic colors; Ember Glow (#ff4513) is the sole acceptable accent color.",
+        "Do not use shadows or complex elevation techniques; the design relies on flat planes and strong contrast for depth.",
+        "Refrain from using heavily rounded corners; all elements should maintain sharp, angular forms.",
+        "Do not break the dark background scheme with light-themed sections or cards; maintain an overall dark aesthetic.",
+        "Avoid excessive ornamental elements or decorative visuals that detract from the content and minimalist ethos.",
+        "Do not use generic system fonts; ABC Oracle must be used for all text content to maintain brand identity.",
+        "Avoid small unreadable text sizes; ensure minimum text size is 13px, with adequate line height for readability."
+      ],
+      "theme": "dark",
+      "colors": [
+        {
+          "hex": "#000000",
+          "name": "Absolute Zero",
+          "role": "Page backgrounds, large content blocks — creates a deep, infinite canvas for content",
+          "group": "neutral"
+        },
+        {
+          "hex": "#f2f2f2",
+          "name": "Ghost White",
+          "role": "Primary text, prominent links, card borders, subtle dividing lines — forms the central contrast against dark backgrounds",
+          "group": "neutral"
+        },
+        {
+          "hex": "#ffffff",
+          "name": "Cloud Burst",
+          "role": "Hairline borders, dividers, input outlines, and card edges on light surfaces. Do not promote it to the primary CTA color",
+          "group": "neutral"
+        },
+        {
+          "hex": "#858484",
+          "name": "Steel Gaze",
+          "role": "Muted helper text, secondary descriptions, subdued captions — provides hierarchical separation without visual noise",
+          "group": "neutral"
+        },
+        {
+          "hex": "#333333",
+          "name": "Deep Graphite",
+          "role": "Icon outlines, subtle borders in light areas (if present) — provides a soft contrast without being stark black",
+          "group": "neutral"
+        },
+        {
+          "hex": "#ff4513",
+          "name": "Ember Glow",
+          "role": "Orange outline accent for tags, dividers, and focused UI edges. Do not promote it to the primary CTA color",
+          "group": "accent"
+        }
+      ],
+      "layout": "The page maintains a full-bleed layout, with content extending to the edges of the viewport rather than being constrained by a `pageMaxWidth`. The hero section features large, immersive photography as its background, usually with minimal overlaid text. Section rhythm is driven by alternating content blocks, often full-width images or black quadrants, maintaining consistent vertical spacing. Content arrangement frequently uses a grid-like structure for displaying work, where large image tiles with minimal text details are presented. The overall density leans towards spacious and impactful presentation rather than information-heavy blocks. Navigation is a simple, fixed top bar presenting minimal links without complex menus.",
+      "imagery": "This system primarily features large-format, full-bleed photography and product screenshots. The photography style is direct, often showcasing structures or branding elements with a focus on clean lines and real-world application. Imagery is contained within sharp, unrounded edges and occupies significant visual space, acting as hero content. Icons, if present, are minimal (e.g., Apple logo) and monochromatic, aligning with the stark visual language. The density is image-heavy, with visuals frequently dominating sections over text.",
+      "similar": [
+        {
+          "why": "Similar high-contrast dark mode aesthetic with minimal accent colors and strong typography.",
+          "business": "Stripe"
+        },
+        {
+          "why": "Emphasizes large-format imagery in a grid layout with a focus on design work, often with stark backgrounds.",
+          "business": "AIGA"
+        },
+        {
+          "why": "Clean, modernist design with sharp edges, a limited color palette, and premium typography.",
+          "business": "ACME"
+        },
+        {
+          "why": "Heavy reliance on typography as a primary design element, often with a monochrome base and selective color use.",
+          "business": "Basic Type Co"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "default": "0px"
+        },
+        "elementGap": "5px",
+        "sectionGap": "90px",
+        "cardPadding": "5px",
+        "pageMaxWidth": null
+      },
+      "industry": "design",
+      "northStar": "Gallery Grid, Dark Canvas",
+      "components": [
+        {
+          "name": "Navigation Link",
+          "role": "Top-level navigation items",
+          "description": "Text uses ABC Oracle, weight 400, 13px size, Cloud Burst (#ffffff) color. On hover, the text color changes to Ember Glow (#ff4513)."
+        },
+        {
+          "name": "Work Item Title",
+          "role": "Titles for portfolio pieces or content cards",
+          "description": "Uses ABC Oracle, weight 400, 14px size, Ghost White (#f2f2f2) color, with a line-height of 1.38."
+        },
+        {
+          "name": "Work Item Subtitle",
+          "role": "Descriptive text for portfolio pieces or content cards",
+          "description": "Uses ABC Oracle, weight 400, 14px size, Steel Gaze (#858484) color, with a line-height of 1.38."
+        },
+        {
+          "name": "Info / Contact Link",
+          "role": "Small, functional links in footer or secondary sections",
+          "description": "Text uses ABC Oracle, weight 400, 13px size, Ghost White (#f2f2f2) color. No explicit hover state provided, implying standard browser link behavior if not overridden."
+        }
+      ],
+      "typography": [
+        {
+          "role": "Primary typeface for all text content, from navigation to body text. Its range of weights allows for subtle differentiation in hierarchy, from the light weight often used in navigation to the more substantial for emphasis.",
+          "sizes": "13px, 14px",
+          "family": "ABC Oracle",
+          "weight": "100, 400, 700",
+          "lineHeight": "1.29, 1.38, 1.43",
+          "substitute": "Inter",
+          "letterSpacing": "normal"
+        }
+      ],
+      "description": "Caserne employs a stark, high-contrast dark mode aesthetic, emphasizing content through its absence of clutter. Typography is the primary visual element, with a single, highly legible sans-serif font deployed across various weights. A singular vivid orange serves as the functional accent, acting as a precise visual punctuation against the expansive black and white canvas. The design prioritizes a minimalist presentation, allowing large-format imagery and bold type to command attention.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "Quick Color Reference:\ntext: #f2f2f2\nbackground: #000000\nborder: #f2f2f2\naccent: #ff4513\nprimary action: no distinct CTA color\n\nExample Component Prompts:\n1. Create a top navigation bar: background Absolute Zero (#000000). Links are 'Caserne', 'Work', 'Culture', 'Notes', 'Studio', 'Contact', 'FORUM' using ABC Oracle, weight 400, 13px, Cloud Burst (#ffffff). Padding-left for each link is 5px.\n2. Design a work item card: background Absolute Zero (#000000), with a Ghost White (#f2f2f2) border on hover. Title 'Avril supermarket' uses ABC Oracle, weight 400, 14px, Ghost White (#f2f2f2). Subtitle 'A new standard for accessible healthy living' uses ABC Oracle, weight 400, 14px, Steel Gaze (#858484). Padding around text should be 5px.\n3. Create a decorative accent dot: color Ember Glow (#ff4513), 3px, used before a text label."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777521007065-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777521007065-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/c2702938-b670-414c-ba47-94618212085e",
+  "ranks": {
+    "trending": 1044,
+    "popular": 1080,
+    "newest": 49
+  },
+  "localSlug": "caserne-c2702938"
+}

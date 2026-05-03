@@ -1,0 +1,484 @@
+{
+  "id": "e11be5e4-cd8f-410e-bfe1-8763ed62fac3",
+  "url": "https://www.eduardodelfraile.com",
+  "siteName": "Eduardo del Fraile",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777520952219-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777520952219-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "dark",
+  "colors": [
+    {
+      "name": "Void Black",
+      "hex": "#000000"
+    },
+    {
+      "name": "Ghost White",
+      "hex": "#ffffff"
+    },
+    {
+      "name": "Muted Gray",
+      "hex": "#888888"
+    }
+  ],
+  "fonts": [
+    "AkzidenzGrotesk"
+  ],
+  "northStar": "Gallery Black Canvas",
+  "createdAt": "2026-04-30T03:49:25.827Z",
+  "previewVideoCapturedAt": null,
+  "industry": "design",
+  "fullResult": {
+    "meta": {
+      "url": "https://www.eduardodelfraile.com",
+      "siteName": "Eduardo del Fraile",
+      "extractedAt": "2026-04-30T03:49:25.760Z",
+      "durationMs": 23335,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 133,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#ffffff",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 1.0000000000000002
+            },
+            "contexts": [
+              "other",
+              "link",
+              "list",
+              "body",
+              "icon",
+              "image",
+              "footer"
+            ],
+            "frequency": 640,
+            "confidence": 1,
+            "prominence": 12084137.98841789,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "body/color": 1,
+              "icon/color": 1,
+              "link/color": 25,
+              "list/color": 5,
+              "image/color": 20,
+              "other/color": 75,
+              "footer/color": 1,
+              "body/borderColor": 4,
+              "icon/borderColor": 4,
+              "link/borderColor": 100,
+              "list/borderColor": 20,
+              "image/borderColor": 80,
+              "other/borderColor": 300,
+              "footer/borderColor": 4
+            }
+          },
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 1296000,
+            "properties": [
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "other/backgroundColor": 1
+            }
+          },
+          {
+            "hex": "#888888",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.6267535410065036
+            },
+            "contexts": [
+              "link",
+              "other"
+            ],
+            "frequency": 25,
+            "confidence": 1,
+            "prominence": 21706.630618375562,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "link/color": 1,
+              "other/color": 4,
+              "link/borderColor": 4,
+              "other/borderColor": 16
+            }
+          }
+        ],
+        "isDarkMode": true,
+        "colorfulness": 0,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 21,
+            "background": "#000000",
+            "foreground": "#ffffff"
+          },
+          {
+            "level": "AA",
+            "ratio": 5.92,
+            "background": "#000000",
+            "foreground": "#888888"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 5,
+            "contexts": [
+              "list",
+              "link",
+              "other"
+            ],
+            "frequency": 12,
+            "properties": [
+              "marginTop",
+              "marginBottom",
+              "paddingTop",
+              "paddingBottom",
+              "paddingRight"
+            ],
+            "propertyContextPairs": [
+              "marginTop|list",
+              "marginBottom|list",
+              "paddingTop|link",
+              "paddingBottom|link",
+              "paddingRight|other"
+            ]
+          },
+          {
+            "value": 10,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 10,
+            "properties": [
+              "paddingTop",
+              "paddingBottom",
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other",
+              "paddingBottom|other",
+              "paddingRight|other",
+              "paddingLeft|other"
+            ]
+          },
+          {
+            "value": 15,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 8,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|other",
+              "paddingLeft|other"
+            ]
+          },
+          {
+            "value": 20,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 20,
+            "properties": [
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "marginBottom|other"
+            ]
+          },
+          {
+            "value": 24,
+            "contexts": [
+              "list"
+            ],
+            "frequency": 4,
+            "properties": [
+              "marginLeft"
+            ],
+            "propertyContextPairs": [
+              "marginLeft|list"
+            ]
+          }
+        ],
+        "density": "comfortable",
+        "baseUnit": 4
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "AkzidenzGrotesk",
+            "source": "custom",
+            "weights": [
+              400,
+              700
+            ],
+            "frequency": 133,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 16,
+          "name": "Minor Second",
+          "ratio": 1.067,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 14,
+            "family": "AkzidenzGrotesk",
+            "weight": 400,
+            "contexts": [
+              "link",
+              "body"
+            ],
+            "frequency": 2,
+            "lineHeight": 1.3,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 15,
+            "family": "AkzidenzGrotesk",
+            "weight": 400,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "lineHeight": 1.3,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 15,
+            "family": "AkzidenzGrotesk",
+            "weight": 700,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "lineHeight": 1.3,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 20,
+            "family": "AkzidenzGrotesk",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "link",
+              "list",
+              "icon",
+              "image",
+              "footer"
+            ],
+            "frequency": 124,
+            "lineHeight": 1.3,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 21,
+            "family": "AkzidenzGrotesk",
+            "weight": 400,
+            "contexts": [
+              "link"
+            ],
+            "frequency": 3,
+            "lineHeight": 1.3,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Use Void Black (#000000) as the universal page background to provide a consistent dark canvas.",
+        "Utilize Ghost White (#ffffff) for all primary text and interactive elements to ensure high contrast and highlight focus.",
+        "Reserve Muted Gray (#888888) for secondary information or less prominent interactive elements.",
+        "Employ AkzidenzGrotesk (or substitute Inter) for all typography, maintaining a consistent sans-serif aesthetic.",
+        "Apply AkzidenzGrotesk weight 700 for brand names and critical headings, and weight 400 for body and navigation text.",
+        "Maintain a default line height of 1.30 across all text sizes for optimal legibility within dense content blocks.",
+        "Implement 10px padding around primary content blocks within elements and 20px for vertical spacing between sections."
+      ],
+      "donts": [
+        "Avoid the use of any chromatic colors in the UI layer; colors should be reserved for content (product photography) only.",
+        "Do not introduce gradients or heavy shadows on UI elements; maintain a flat, minimalist interface aesthetic.",
+        "Refrain from using any borders or backgrounds on navigation links unless specifically for an active or hover state.",
+        "Avoid crowded layouts; prioritize negative space around focal content to enhance its impact.",
+        "Do not use generic system fonts; AkzidenzGrotesk (or its substitute) must be consistently applied.",
+        "Never use text smaller than 14px or larger than 21px for UI elements to maintain visual rhythm."
+      ],
+      "theme": "dark",
+      "colors": [
+        {
+          "hex": "#000000",
+          "name": "Void Black",
+          "role": "Page background, primary canvas, content backdrop, providing infinite depth for product photography",
+          "group": "neutral"
+        },
+        {
+          "hex": "#ffffff",
+          "name": "Ghost White",
+          "role": "Hairline borders, dividers, input outlines, and card edges on light surfaces. Do not promote it to the primary CTA color",
+          "group": "neutral"
+        },
+        {
+          "hex": "#888888",
+          "name": "Muted Gray",
+          "role": "Secondary text, helper messages, less prominent links — a softer, less assertive contrast than Ghost White",
+          "group": "neutral"
+        }
+      ],
+      "layout": "The page uses a full-bleed, dark canvas model. The hero section features large-scale product imagery spanning the width of the viewport. Content then flows vertically with a consistent spacing, showcasing individual projects via immersive visuals. The overall layout is centered and horizontal, giving each product equal visual weight. Navigation is a minimal top-right header, disappearing into the background, with the brand name on the top-left.",
+      "imagery": "The site primarily features product photography and 3D renders. Images are treated as hero content, often against the deep black background, showcasing objects in stark, high-contrast lighting. The focus is on the object itself, often with a raw or sculptural quality, without lifestyle context. Imagery is full-bleed or large-scale, dominating the visual space, serving a product showcase and decorative atmosphere role. No specific icon style is discernable beyond a simple Instagram icon.",
+      "similar": [
+        {
+          "why": "Monochromatic interface that prioritizes showcasing visual work without distracting UI elements.",
+          "business": "AIGA Design Archives"
+        },
+        {
+          "why": "Minimalist navigation and focus on large, impactful imagery to present design projects.",
+          "business": "Pentagram"
+        },
+        {
+          "why": "High-contrast dark mode with white typography, emphasizing visual content over complex UI.",
+          "business": "The Brand Identity"
+        },
+        {
+          "why": "Using a dark, expansive background to highlight individual products with stark lighting and minimal text.",
+          "business": "Apple's product pages (for specific products)"
+        }
+      ],
+      "spacing": {
+        "radius": {},
+        "elementGap": "10px",
+        "sectionGap": "20px",
+        "cardPadding": "15px",
+        "pageMaxWidth": null
+      },
+      "industry": "design",
+      "northStar": "Gallery Black Canvas",
+      "typeScale": [
+        {
+          "role": "caption",
+          "size": 14,
+          "lineHeight": 1.3
+        },
+        {
+          "role": "body-sm",
+          "size": 15,
+          "lineHeight": 1.3
+        },
+        {
+          "role": "body",
+          "size": 20,
+          "lineHeight": 1.3
+        },
+        {
+          "role": "body-lg",
+          "size": 21,
+          "lineHeight": 1.3
+        }
+      ],
+      "components": [
+        {
+          "name": "Header Navigation Link",
+          "role": "Primary navigation element",
+          "description": "Ghost White text at 15px, AkzidenzGrotesk weight 400. Borders are only present on interaction."
+        },
+        {
+          "name": "Brand Logo Text",
+          "role": "Site identifier",
+          "description": "Eduardo del Fraile text at 15px, AkzidenzGrotesk weight 700, Ghost White color."
+        },
+        {
+          "name": "Muted Helper Text",
+          "role": "Contextual navigation or instructional text",
+          "description": "Muted Gray text at 14px, AkzidenzGrotesk weight 400. Used for footer instructions."
+        }
+      ],
+      "typography": [
+        {
+          "role": "The primary typeface for all textual content, including navigation and body text. Its clean, sans-serif lines support legibility without distracting from the visual content.",
+          "sizes": "14px, 15px, 20px, 21px",
+          "family": "AkzidenzGrotesk",
+          "weight": "400, 700",
+          "lineHeight": "1.30",
+          "substitute": "Inter",
+          "letterSpacing": "normal"
+        }
+      ],
+      "description": "Eduardo del Fraile's visual identity is a high-contrast, minimalist showcase of striking product photography. Against a deep, expansive black canvas, content is primarily visual, featuring starkly lit objects. Typographic elements are understated, monochrome, and serve purely functional navigation or descriptive roles. The design prioritizes the visual impact of the work itself, with the UI receding into the background.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "Quick Color Reference:\ntext: #ffffff\nbackground: #000000\nborder: #ffffff\naccent: no distinct accent color\nprimary action: no distinct CTA color\n\nExample Component Prompts:\n1. Create a Header Navigation item: 'Work' text, AkzidenzGrotesk weight 400, 15px size, Ghost White (#ffffff).\n2. Create a Brand Title: 'Eduardo del Fraile' text, AkzidenzGrotesk weight 700, 15px size, Ghost White (#ffffff).\n3. Create Footer Instructional Text: 'Scroll with the mouse' text, AkzidenzGrotesk weight 400, 14px size, Muted Gray (#888888)."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777520952219-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777520952219-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/e11be5e4-cd8f-410e-bfe1-8763ed62fac3",
+  "ranks": {
+    "trending": 1164,
+    "popular": 1209,
+    "newest": 53
+  },
+  "localSlug": "eduardo-del-fraile-e11be5e4"
+}

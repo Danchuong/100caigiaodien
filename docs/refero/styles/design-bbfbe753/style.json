@@ -1,0 +1,748 @@
+{
+  "id": "bbfbe753-a417-43ec-9af7-ef6c08a5140d",
+  "url": "https://design.cash.app",
+  "siteName": "Design",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777509469153-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777509469153-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "dark",
+  "colors": [
+    {
+      "name": "Midnight Black",
+      "hex": "#000000"
+    },
+    {
+      "name": "Canvas White",
+      "hex": "#ffffff"
+    },
+    {
+      "name": "Ghost Border",
+      "hex": "#e5e7eb"
+    },
+    {
+      "name": "Subtle Gray",
+      "hex": "#858585"
+    },
+    {
+      "name": "Hinting Gray",
+      "hex": "#b3b3b3"
+    }
+  ],
+  "fonts": [
+    "CashSans"
+  ],
+  "northStar": "Dark mode precision, neon punctuation",
+  "createdAt": "2026-04-30T00:38:05.585Z",
+  "previewVideoCapturedAt": null,
+  "industry": "fintech",
+  "fullResult": {
+    "meta": {
+      "url": "https://design.cash.app",
+      "siteName": "Design",
+      "extractedAt": "2026-04-30T00:38:05.490Z",
+      "durationMs": 34381,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 448,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#e5e7eb",
+            "oklch": {
+              "c": 0.005813542372075684,
+              "h": 264.5313231484507,
+              "l": 0.9275823098127417
+            },
+            "contexts": [
+              "other",
+              "icon",
+              "list",
+              "button",
+              "body",
+              "heading",
+              "link",
+              "image",
+              "card"
+            ],
+            "frequency": 1596,
+            "confidence": 1,
+            "prominence": 86504535.95320807,
+            "properties": [
+              "borderColor",
+              "stroke",
+              "fill"
+            ],
+            "usageCounts": {
+              "other/fill": 3,
+              "other/stroke": 1,
+              "body/borderColor": 16,
+              "card/borderColor": 40,
+              "icon/borderColor": 76,
+              "link/borderColor": 168,
+              "list/borderColor": 204,
+              "image/borderColor": 48,
+              "other/borderColor": 864,
+              "button/borderColor": 12,
+              "heading/borderColor": 164
+            }
+          },
+          {
+            "hex": "#ffffff",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 1.0000000000000002
+            },
+            "contexts": [
+              "other",
+              "icon",
+              "list",
+              "image",
+              "card"
+            ],
+            "frequency": 226,
+            "confidence": 1,
+            "prominence": 63623953.63721269,
+            "properties": [
+              "color",
+              "fill",
+              "backgroundColor",
+              "stroke"
+            ],
+            "usageCounts": {
+              "icon/fill": 2,
+              "card/color": 10,
+              "icon/color": 2,
+              "list/color": 3,
+              "other/fill": 2,
+              "image/color": 1,
+              "other/color": 200,
+              "other/stroke": 2,
+              "other/backgroundColor": 4
+            }
+          },
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "other",
+              "icon",
+              "heading",
+              "list",
+              "link",
+              "image"
+            ],
+            "frequency": 186,
+            "confidence": 1,
+            "prominence": 9780775.220014377,
+            "properties": [
+              "color",
+              "fill",
+              "stroke"
+            ],
+            "usageCounts": {
+              "icon/fill": 24,
+              "icon/color": 9,
+              "link/color": 27,
+              "list/color": 34,
+              "other/fill": 26,
+              "image/color": 11,
+              "other/color": 16,
+              "other/stroke": 3,
+              "heading/color": 36
+            }
+          },
+          {
+            "hex": "#858585",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.616706943829689
+            },
+            "contexts": [
+              "list",
+              "link",
+              "heading",
+              "icon"
+            ],
+            "frequency": 35,
+            "confidence": 1,
+            "prominence": 4234173.746106255,
+            "properties": [
+              "color"
+            ],
+            "usageCounts": {
+              "icon/color": 5,
+              "link/color": 11,
+              "list/color": 14,
+              "heading/color": 5
+            }
+          },
+          {
+            "hex": "#b3b3b3",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.7651658759683705
+            },
+            "contexts": [
+              "button",
+              "body",
+              "icon",
+              "link",
+              "other"
+            ],
+            "frequency": 17,
+            "confidence": 1,
+            "prominence": 160125.1200553848,
+            "properties": [
+              "color",
+              "stroke"
+            ],
+            "usageCounts": {
+              "body/color": 4,
+              "icon/color": 3,
+              "link/color": 4,
+              "button/color": 3,
+              "other/stroke": 3
+            }
+          }
+        ],
+        "isDarkMode": true,
+        "colorfulness": 0.012173200768607706,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 21,
+            "background": "#ffffff",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 16.96,
+            "background": "#e5e7eb",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 10.02,
+            "background": "#b3b3b3",
+            "foreground": "#000000"
+          },
+          {
+            "level": "fail",
+            "ratio": 3.69,
+            "background": "#ffffff",
+            "foreground": "#858585"
+          },
+          {
+            "level": "fail",
+            "ratio": 2.1,
+            "background": "#ffffff",
+            "foreground": "#b3b3b3"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [
+          {
+            "value": 15,
+            "contexts": [
+              "image"
+            ],
+            "frequency": 11
+          }
+        ],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 5,
+            "contexts": [
+              "link"
+            ],
+            "frequency": 22,
+            "properties": [
+              "paddingTop",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|link",
+              "paddingBottom|link"
+            ]
+          },
+          {
+            "value": 6,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 5,
+            "properties": [
+              "marginLeft"
+            ],
+            "propertyContextPairs": [
+              "marginLeft|heading"
+            ]
+          },
+          {
+            "value": 9,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 5,
+            "properties": [
+              "marginTop"
+            ],
+            "propertyContextPairs": [
+              "marginTop|heading"
+            ]
+          },
+          {
+            "value": 10,
+            "contexts": [
+              "button"
+            ],
+            "frequency": 12,
+            "properties": [
+              "paddingTop",
+              "paddingRight",
+              "paddingBottom",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|button",
+              "paddingRight|button",
+              "paddingBottom|button",
+              "paddingLeft|button"
+            ]
+          },
+          {
+            "value": 12,
+            "contexts": [
+              "button",
+              "heading",
+              "list"
+            ],
+            "frequency": 38,
+            "properties": [
+              "columnGap",
+              "paddingRight",
+              "paddingLeft",
+              "paddingTop",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "columnGap|button",
+              "paddingRight|heading",
+              "paddingLeft|heading",
+              "paddingTop|list",
+              "paddingRight|list",
+              "paddingBottom|list",
+              "paddingLeft|list",
+              "paddingTop|heading",
+              "paddingBottom|heading",
+              "columnGap|list"
+            ]
+          },
+          {
+            "value": 20,
+            "contexts": [
+              "other",
+              "list",
+              "link"
+            ],
+            "frequency": 23,
+            "properties": [
+              "paddingTop",
+              "paddingRight",
+              "paddingBottom",
+              "paddingLeft",
+              "rowGap",
+              "columnGap",
+              "marginRight",
+              "marginLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other",
+              "paddingRight|other",
+              "paddingBottom|other",
+              "paddingLeft|other",
+              "rowGap|list",
+              "columnGap|list",
+              "paddingLeft|link",
+              "marginRight|list",
+              "marginLeft|list"
+            ]
+          },
+          {
+            "value": 30,
+            "contexts": [
+              "other",
+              "heading"
+            ],
+            "frequency": 14,
+            "properties": [
+              "paddingBottom",
+              "paddingRight"
+            ],
+            "propertyContextPairs": [
+              "paddingBottom|other",
+              "paddingRight|heading"
+            ]
+          },
+          {
+            "value": 64,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 2,
+            "properties": [
+              "marginRight",
+              "marginLeft"
+            ],
+            "propertyContextPairs": [
+              "marginRight|body",
+              "marginLeft|body"
+            ]
+          }
+        ],
+        "density": "comfortable",
+        "baseUnit": 4
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "CashSans",
+            "source": "custom",
+            "weights": [
+              400,
+              500,
+              700
+            ],
+            "frequency": 398,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 20,
+          "name": "Minor Third",
+          "ratio": 1.2,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 10,
+            "family": "CashSans",
+            "weight": 400,
+            "contexts": [
+              "body",
+              "link"
+            ],
+            "frequency": 5,
+            "lineHeight": 1.5,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 12,
+            "family": "CashSans",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "icon"
+            ],
+            "frequency": 2,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 16,
+            "family": "CashSans",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "icon",
+              "list",
+              "button",
+              "body",
+              "image",
+              "card"
+            ],
+            "frequency": 142,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "CashSans",
+            "weight": 500,
+            "contexts": [
+              "list",
+              "link"
+            ],
+            "frequency": 9,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "CashSans",
+            "weight": 700,
+            "contexts": [
+              "list",
+              "link"
+            ],
+            "frequency": 27,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 86,
+            "family": "CashSans",
+            "weight": 400,
+            "contexts": [
+              "list",
+              "link",
+              "heading",
+              "icon"
+            ],
+            "frequency": 32,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 117,
+            "family": "CashSans",
+            "weight": 400,
+            "contexts": [
+              "list"
+            ],
+            "frequency": 3,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 117,
+            "family": "CashSans",
+            "weight": 400,
+            "contexts": [
+              "list",
+              "link",
+              "heading",
+              "image",
+              "icon"
+            ],
+            "frequency": 65,
+            "lineHeight": 1,
+            "letterSpacing": -0.015,
+            "textTransform": "none"
+          },
+          {
+            "size": 122,
+            "family": "CashSans",
+            "weight": 400,
+            "contexts": [
+              "heading",
+              "icon"
+            ],
+            "frequency": 12,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Prioritize high contrast using Midnight Black and Canvas White for text and backgrounds.",
+        "Use Ghost Border (#e5e7eb) for subtle structural elements like dividers and non-primary button outlines, not for solid fills.",
+        "Apply Cash Lime (#00d533) sparingly as a functional accent for interactive states or key brand moments.",
+        "Employ the CashSans font family at specified weights and sizes, ensuring the global -0.0150em letter-spacing is applied.",
+        "Maintain 0px border-radius for buttons and cards, preserving a structured and sharp aesthetic.",
+        "Utilize 12px as the standard element gap for horizontal and vertical spacing between most UI elements.",
+        "Set section gaps at 64px to create clear visual separation between major content blocks."
+      ],
+      "donts": [
+        "Avoid using saturated colors other than Cash Lime, unless explicitly defined as semantic status colors.",
+        "Do not introduce heavy box shadows or gradient overlays, as the system relies on flat surfaces and minimal elevation.",
+        "Refrain from deviating from the 0px border-radius for interactive components like buttons and cards.",
+        "Do not use generic system fonts; always default to CashSans for brand consistency.",
+        "Avoid excessive padding within card components, as they are designed to be content-forward without ornate frames.",
+        "Do not allow text to have low contrast; ensure sufficient contrast ratios for readability, especially for Subtle Gray and Hinting Gray.",
+        "Do not use multiple font families; restrict typography to CashSans only."
+      ],
+      "theme": "dark",
+      "colors": [
+        {
+          "hex": "#000000",
+          "name": "Midnight Black",
+          "role": "Primary text, icon fills, page backgrounds (dominant for text/icons, secondary for canvas)",
+          "group": "neutral"
+        },
+        {
+          "hex": "#ffffff",
+          "name": "Canvas White",
+          "role": "Page backgrounds, card surfaces, high-contrast text and icon fills against dark backgrounds",
+          "group": "neutral"
+        },
+        {
+          "hex": "#e5e7eb",
+          "name": "Ghost Border",
+          "role": "Subtle borders for outlined elements, dividers, ghost buttons, and list item separators – providing structure without heavy lines",
+          "group": "neutral"
+        },
+        {
+          "hex": "#858585",
+          "name": "Subtle Gray",
+          "role": "Muted text, secondary labels, disabled states, supporting information",
+          "group": "neutral"
+        },
+        {
+          "hex": "#b3b3b3",
+          "name": "Hinting Gray",
+          "role": "Placeholder text, tertiary information, subtle icon tones",
+          "group": "neutral"
+        }
+      ],
+      "layout": "The page primarily uses a full-bleed structure without a defined `pageMaxWidth`, suggesting content can span the full viewport. However, content elements and sections appear to be intentionally spaced using a `64px` section gap. The hero pattern is not explicitly visible but the overall feel suggests a dark canvas with strong typographic elements. Content arrangement appears to be linear, with distinct sections vertically stacked and internally structured by strong use of borders and whitespace. Navigation elements are likely a top bar or side panel given the structured nature, with minimal visual emphasis allowing content to dominate.",
+      "imagery": "Imagery use is minimal, with the provided screenshot indicating image blocks with rounded corners. If photography or illustration is introduced, it should be contained within these structured blocks. The primary visual language seems to be UI-focused, leaning towards text and simple icons/shapes rather than rich graphical elements. Icons are likely filled or outlined, inheriting color from the parent text context, and contribute to the structured typographic field.",
+      "similar": [
+        {
+          "why": "Dark-mode UI with high contrast and reliance on a single vivid accent color for interactive elements.",
+          "business": "Revolut"
+        },
+        {
+          "why": "Strong emphasis on custom typography and precise letter-spacing to define brand identity, rather than decorative elements.",
+          "business": "Acme Inc. (fictional)"
+        },
+        {
+          "why": "Minimalist aesthetic, with a focus on functional UIs, subtle borders, and precise spacing over heavy visual adornments.",
+          "business": "Stripe"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "cards": "0px",
+          "images": "15px",
+          "buttons": "0px"
+        },
+        "elementGap": "12px",
+        "sectionGap": "64px",
+        "cardPadding": "0px",
+        "pageMaxWidth": null
+      },
+      "industry": "fintech",
+      "northStar": "Dark mode precision, neon punctuation",
+      "typeScale": [
+        {
+          "role": "caption",
+          "size": 10,
+          "lineHeight": 1.5
+        },
+        {
+          "role": "body-sm",
+          "size": 12,
+          "lineHeight": 1.5
+        },
+        {
+          "role": "body",
+          "size": 16,
+          "lineHeight": 1.5
+        },
+        {
+          "role": "body-lg",
+          "size": 86,
+          "lineHeight": 1.3
+        },
+        {
+          "role": "heading-sm",
+          "size": 117,
+          "lineHeight": 1.3
+        },
+        {
+          "role": "heading",
+          "size": 122,
+          "lineHeight": 1.3
+        }
+      ],
+      "components": [
+        {
+          "name": "Ghost Navigation Button",
+          "role": "Navigation items and secondary actions without visual hierarchy",
+          "description": "Transparent background, Ghost Border around the bottom for emphasis, Midnight Black text, 0px border-radius, `CashSans` font, 10px vertical padding, 10px horizontal padding."
+        },
+        {
+          "name": "Plain Card",
+          "role": "Container for content; appears as a content block within the page structure",
+          "description": "Transparent background, no border, no box shadow, 0px border-radius, 0px padding inside. Renders content directly without a distinct container style."
+        },
+        {
+          "name": "Image with Rounded Corners",
+          "role": "Visual content container with minimal styling aside from radius",
+          "description": "Images are displayed with a 15px border-radius, without any border or shadow."
+        }
+      ],
+      "typography": [
+        {
+          "role": "Primary brand typeface, used across all text elements from body to display headlines. Its tailored tracking ensures visual tightness even at large sizes.",
+          "sizes": "10px, 12px, 16px, 86px, 117px, 122px",
+          "family": "CashSans",
+          "weight": "400, 500, 700",
+          "lineHeight": "1.00, 1.50",
+          "substitute": "system-ui",
+          "letterSpacing": "-0.0150em"
+        }
+      ],
+      "description": "Cash App's design system navigates between stark order and vibrant expression, built on a dark theme that leverages high contrast and precise typographic control. The core palette is achromatic, allowing saturated brand colors to serve as energetic accents within a highly structured environment. Typography is prominent, employing large, confident sizes and distinctive letter-spacing. UI elements are rendered with minimal visual embellishment, emphasizing function and content, with interaction indicated by subtle borders and color shifts.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "Quick Color Reference:\ntext: #000000\nbackground: #ffffff\nborder: #e5e7eb\naccent: #00d533\nprimary action: no distinct CTA color\n\nExample Component Prompts:\n1. Create a page section: Canvas White background. Headline at 122px CashSans weight 700, Midnight Black color, letter-spacing -0.0150em. Below, a paragraph of text at 16px CashSans weight 400, Subtle Gray color, with 1.5 line-height. Ensure 64px vertical spacing between the headline and the text.\n2. Create a Ghost Navigation Button: Transparent background. Text 'Foundations' using Midnight Black, CashSans weight 400, 0px border-radius. Add a 1px solid Ghost Border (#e5e7eb) only to the bottom edge. Apply 10px padding vertically and 10px horizontally.\n3. Create an image display: Use an image with a 15px border-radius. Ensure no border or shadow is applied. The element should have a 12px horizontal element gap from adjacent content."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777509469153-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777509469153-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/bbfbe753-a417-43ec-9af7-ef6c08a5140d",
+  "ranks": {
+    "trending": 1030,
+    "popular": 1103,
+    "newest": 743
+  },
+  "localSlug": "design-bbfbe753"
+}

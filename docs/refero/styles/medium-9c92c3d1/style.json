@@ -1,0 +1,758 @@
+{
+  "id": "9c92c3d1-a2fe-4a27-a324-826b19501774",
+  "url": "https://medium.com",
+  "siteName": "Medium",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1776105334073-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1776105334073-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "light",
+  "colors": [
+    {
+      "name": "Vellum Background",
+      "hex": "#f7f4ed"
+    },
+    {
+      "name": "Parchment White",
+      "hex": "#ffffff"
+    },
+    {
+      "name": "Charcoal Black",
+      "hex": "#191919"
+    },
+    {
+      "name": "Inkwell Black",
+      "hex": "#242424"
+    },
+    {
+      "name": "Book Text Gray",
+      "hex": "#333333"
+    },
+    {
+      "name": "Muted Text Gray",
+      "hex": "#6b6b6b"
+    }
+  ],
+  "fonts": [
+    "medium-content-sans-serif-font",
+    "gt-super",
+    "sohne",
+    "Times"
+  ],
+  "northStar": "Literary Cafe, Digital Ink on Vellum.",
+  "createdAt": "2026-04-05T18:44:52.000Z",
+  "previewVideoCapturedAt": null,
+  "industry": "media",
+  "fullResult": {
+    "meta": {
+      "url": "https://medium.com",
+      "siteName": "Medium",
+      "extractedAt": "2026-04-13T18:35:58.237Z",
+      "durationMs": 30873,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 89,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#333333",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.3210925111636325
+            },
+            "contexts": [
+              "other",
+              "link",
+              "body",
+              "image"
+            ],
+            "frequency": 318,
+            "confidence": 1,
+            "prominence": 10779366.74743927,
+            "properties": [
+              "color",
+              "borderColor"
+            ]
+          },
+          {
+            "hex": "#ffffff",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 1.0000000000000002
+            },
+            "contexts": [
+              "other",
+              "button"
+            ],
+            "frequency": 3,
+            "confidence": 1,
+            "prominence": 2592000,
+            "properties": [
+              "backgroundColor",
+              "color"
+            ]
+          },
+          {
+            "hex": "#f7f4ed",
+            "oklch": {
+              "c": 0.009821969991466194,
+              "h": 87.47092624721957,
+              "l": 0.9675356728505989
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 3,
+            "confidence": 1,
+            "prominence": 2393280,
+            "properties": [
+              "backgroundColor"
+            ]
+          },
+          {
+            "hex": "#242424",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.2603248134180716
+            },
+            "contexts": [
+              "other",
+              "body",
+              "link",
+              "heading"
+            ],
+            "frequency": 63,
+            "confidence": 1,
+            "prominence": 864000,
+            "properties": [
+              "borderColor",
+              "color",
+              "fill"
+            ]
+          },
+          {
+            "hex": "#191919",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.21342250711191385
+            },
+            "contexts": [
+              "button"
+            ],
+            "frequency": 10,
+            "confidence": 1,
+            "prominence": 31190.23547363387,
+            "properties": [
+              "backgroundColor",
+              "borderColor"
+            ]
+          },
+          {
+            "hex": "#6b6b6b",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.5277958377351308
+            },
+            "contexts": [
+              "body"
+            ],
+            "frequency": 50,
+            "confidence": 1,
+            "prominence": 9501.312447802255,
+            "properties": [
+              "color",
+              "borderColor"
+            ]
+          }
+        ],
+        "isDarkMode": false,
+        "colorfulness": 0.00017816016672349342,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 17.58,
+            "background": "#191919",
+            "foreground": "#ffffff"
+          },
+          {
+            "level": "AAA",
+            "ratio": 16.01,
+            "background": "#f7f4ed",
+            "foreground": "#191919"
+          },
+          {
+            "level": "AAA",
+            "ratio": 15.52,
+            "background": "#ffffff",
+            "foreground": "#242424"
+          },
+          {
+            "level": "AAA",
+            "ratio": 14.13,
+            "background": "#f7f4ed",
+            "foreground": "#242424"
+          },
+          {
+            "level": "AAA",
+            "ratio": 12.63,
+            "background": "#ffffff",
+            "foreground": "#333333"
+          },
+          {
+            "level": "AAA",
+            "ratio": 11.5,
+            "background": "#f7f4ed",
+            "foreground": "#333333"
+          },
+          {
+            "level": "AA",
+            "ratio": 5.33,
+            "background": "#ffffff",
+            "foreground": "#6b6b6b"
+          },
+          {
+            "level": "AA",
+            "ratio": 4.85,
+            "background": "#f7f4ed",
+            "foreground": "#6b6b6b"
+          },
+          {
+            "level": "fail",
+            "ratio": 3.3,
+            "background": "#191919",
+            "foreground": "#6b6b6b"
+          },
+          {
+            "level": "fail",
+            "ratio": 1.39,
+            "background": "#191919",
+            "foreground": "#333333"
+          },
+          {
+            "level": "fail",
+            "ratio": 1.13,
+            "background": "#191919",
+            "foreground": "#242424"
+          },
+          {
+            "level": "fail",
+            "ratio": 1.1,
+            "background": "#f7f4ed",
+            "foreground": "#ffffff"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [
+          {
+            "value": 1386,
+            "contexts": [
+              "button"
+            ],
+            "frequency": 1
+          },
+          {
+            "value": 1980,
+            "contexts": [
+              "button"
+            ],
+            "frequency": 1
+          }
+        ],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 8,
+            "contexts": [
+              "button"
+            ],
+            "frequency": 4,
+            "properties": [
+              "paddingTop",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|button",
+              "paddingBottom|button"
+            ]
+          },
+          {
+            "value": 16,
+            "contexts": [
+              "button",
+              "other"
+            ],
+            "frequency": 11,
+            "properties": [
+              "paddingRight",
+              "paddingLeft",
+              "marginRight"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|button",
+              "paddingLeft|button",
+              "marginRight|other"
+            ]
+          },
+          {
+            "value": 20,
+            "contexts": [
+              "button"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|button",
+              "paddingLeft|button"
+            ]
+          },
+          {
+            "value": 24,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 4,
+            "properties": [
+              "marginRight",
+              "marginLeft",
+              "paddingTop",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "marginRight|other",
+              "marginLeft|other",
+              "paddingTop|other",
+              "paddingBottom|other"
+            ]
+          },
+          {
+            "value": 25,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 6,
+            "properties": [
+              "paddingTop",
+              "paddingBottom",
+              "marginRight"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other",
+              "paddingBottom|other",
+              "marginRight|other"
+            ]
+          },
+          {
+            "value": 48,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "marginBottom|other"
+            ]
+          },
+          {
+            "value": 64,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 4,
+            "properties": [
+              "marginRight",
+              "marginLeft"
+            ],
+            "propertyContextPairs": [
+              "marginRight|other",
+              "marginLeft|other"
+            ]
+          }
+        ],
+        "density": "comfortable",
+        "baseUnit": 8
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "medium-content-sans-serif-font",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 62,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "sohne",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 23,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "Times",
+            "source": "system",
+            "weights": [
+              400
+            ],
+            "frequency": 2,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "gt-super",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 1,
+            "fontFeatureSettings": [
+              "\"lnum\", \"pnum\""
+            ]
+          }
+        ],
+        "scale": {
+          "base": 18,
+          "name": "Minor Third",
+          "ratio": 1.2,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 13,
+            "family": "sohne",
+            "weight": 400,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 10,
+            "lineHeight": 1.54,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 14,
+            "family": "sohne",
+            "weight": 400,
+            "contexts": [
+              "body",
+              "link",
+              "button"
+            ],
+            "frequency": 11,
+            "lineHeight": 1.43,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "Times",
+            "weight": 400,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "medium-content-sans-serif-font",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "link",
+              "body",
+              "image"
+            ],
+            "frequency": 62,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 20,
+            "family": "sohne",
+            "weight": 400,
+            "contexts": [
+              "button"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.4,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 22,
+            "family": "sohne",
+            "weight": 400,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.27,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 120,
+            "family": "gt-super",
+            "weight": 400,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 1,
+            "lineHeight": 0.83,
+            "letterSpacing": -0.055,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Do use Vellum Background (#f7f4ed) as the primary page background to maintain the soft, inviting tone.",
+        "Do apply gt-super for headlines at weight 400 with 'lnum' and 'pnum' font features enabled for distinct editorial typography.",
+        "Do use Charcoal Black (#191919) for primary interactive elements like buttons and primary text, and Inkwell Black (#242424) for standard body text.",
+        "Do use a generous horizontal padding of 16px or 20px for buttons to emphasize their pill shape.",
+        "Do rely on a minimal set of neutral colors for UI elements, reserving Story Green (#50B33A) exclusively for brand illustrations and impactful visuals.",
+        "Do maintain element gaps of 16px between most inline UI elements to ensure comfortable density."
+      ],
+      "donts": [
+        "Don't use strong, saturated colors for backgrounds or text, which would disrupt the subtle and content-focused aesthetic.",
+        "Don't add shadows or heavy borders to UI components; design should feel flat and integrated with the canvas.",
+        "Don't deviate from the established pill shapes for buttons; all interactive buttons should have extremely high border radii.",
+        "Don't introduce additional serif fonts; the contrast between gt-super and sohne (or medium-content-sans-serif-font) is a core part of the identity.",
+        "Don't animate UI elements with excessive complexity or duration beyond the 'ease' timing and 0.3s duration for subtle transitions.",
+        "Don't use dense layouts; ensure comfortable spacing with a base unit of 8px and larger gaps for sections."
+      ],
+      "theme": "light",
+      "colors": [
+        {
+          "hex": "#f7f4ed",
+          "name": "Vellum Background",
+          "role": "Page background, primary canvas.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#ffffff",
+          "name": "Parchment White",
+          "role": "Secondary background for minor UI elements against warmer canvas.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#191919",
+          "name": "Charcoal Black",
+          "role": "Primary text for headings and bold interactive elements like buttons.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#242424",
+          "name": "Inkwell Black",
+          "role": "Standard body text color, dark but slightly softer than charcoal black for readability.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#333333",
+          "name": "Book Text Gray",
+          "role": "Main body text, general text accents, and borders.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#6b6b6b",
+          "name": "Muted Text Gray",
+          "role": "Secondary or muted text, such as footer links and captions.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#50B33A",
+          "name": "Story Green",
+          "role": "Brand accent for illustrative elements and visual flair, marking the creative, organic aspect of the brand.",
+          "group": "brand"
+        }
+      ],
+      "layout": "The layout is predominantly content-focused, utilizing a maximum width for readability while allowing key elements like the hero illustration to span wider. The hero section features a large, centered headline (`gt-super` 120px) under a sticky top navigation bar. Content is arranged with clear vertical separation between sections (64px `sectionGap`), often with text blocks and illustrative elements in a balanced composition. The footer is minimalistic, presenting links in a compact horizontal arrangement. The overall impression is spacious and breathable, prioritizing legibility and a calm reading experience.",
+      "imagery": "The site uses a combination of abstract, illustrative graphics and highly stylized conceptual visuals. The key pieces include a hand drawing with a pen, geometric patterns (possibly related to design or mathematics), and a bold, illustrative flower in Story Green (#50B33A). Imagery is used decoratively, providing visual metaphors for 'stories & ideas' rather than literal representations, enhancing the brand's creative and thoughtful atmosphere. Icons are minimal, primarily functional, and likely monochrome.",
+      "similar": [
+        {
+          "why": "Emphasizes classic serif typography for headlines and a strong content-over-chrome aesthetic with a focus on readability.",
+          "business": "The New York Times"
+        },
+        {
+          "why": "Uses a clean, minimalist layout with a warm off-white background and high-contrast text, prioritizing a focused reading experience.",
+          "business": "Farnam Street Blog"
+        },
+        {
+          "why": "Provides a platform for individual writers with a similar emphasis on readable content, clear typography, and minimal UI distractions, often using a single brand accent color.",
+          "business": "Substack"
+        },
+        {
+          "why": "Offers blogging and publishing tools with a focus on simple, elegant themes that prioritize text display and ease of use, often with muted color palettes.",
+          "business": "WordPress.com"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "buttons": "1386px",
+          "pillButtons": "1980px"
+        },
+        "elementGap": "16px",
+        "sectionGap": "64px",
+        "cardPadding": "16px",
+        "pageMaxWidth": null
+      },
+      "industry": "media",
+      "surfaces": [
+        {
+          "hex": "#f7f4ed",
+          "name": "Vellum Background",
+          "level": 0,
+          "purpose": "Base page background"
+        },
+        {
+          "hex": "#ffffff",
+          "name": "Parchment White",
+          "level": 1,
+          "purpose": "Subtle surface for minor UI elements or specific content blocks"
+        }
+      ],
+      "northStar": "Literary Cafe, Digital Ink on Vellum.",
+      "typeScale": [
+        {
+          "role": "caption",
+          "size": 13,
+          "lineHeight": 1.27
+        },
+        {
+          "role": "body",
+          "size": 16,
+          "lineHeight": 1.2
+        },
+        {
+          "role": "subheading",
+          "size": 20,
+          "lineHeight": 1.43
+        },
+        {
+          "role": "heading-sm",
+          "size": 22,
+          "lineHeight": 1.54
+        },
+        {
+          "role": "display",
+          "size": 120,
+          "lineHeight": 0.83,
+          "letterSpacing": -6.6
+        }
+      ],
+      "components": [
+        {
+          "name": "Primary Filled Button",
+          "role": "Call to action button for primary actions.",
+          "description": "Filled with Charcoal Black (#191919), text in Parchment White (#ffffff). Rounded corners set extremely high at 1386px for a pill shape. Padding is 8px vertical, 16px horizontal."
+        },
+        {
+          "name": "Pill Accent Button",
+          "role": "Secondary call to action button, used primarily in navigation.",
+          "description": "Filled with Charcoal Black (#191919), text in Parchment White (#ffffff). Features significantly higher rounded corners at 1980px, creating a distinct pill shape. Padding is 8px vertical, 20px horizontal."
+        },
+        {
+          "name": "Header Navigation Link",
+          "role": "Standard text link within the header.",
+          "description": "Uses Inkwell Black (#242424) text, font family 'sohne' weight 400, size 14px, line height 1.40. No specific padding but follows element spacing of 16px."
+        },
+        {
+          "name": "Footer Navigation Link",
+          "role": "Muted text links in the footer.",
+          "description": "Uses Muted Text Gray (#6b6b6b) text, font family 'sohne' weight 400, size 13px, line height 1.27. Organized with element gaps."
+        }
+      ],
+      "typography": [
+        {
+          "role": "Content body text, designed for extended reading passages. Its custom nature likely provides specific readability optimizations.",
+          "sizes": "16px",
+          "family": "medium-content-sans-serif-font",
+          "weight": "400",
+          "lineHeight": "1.20",
+          "letterSpacing": "0"
+        },
+        {
+          "role": "Display headlines and primary page titles. The wide letter-spacing creates a sense of gravitas and classic editorial style.",
+          "sizes": "120px",
+          "family": "gt-super",
+          "weight": "400",
+          "lineHeight": "0.83",
+          "letterSpacing": "-0.055",
+          "fontFeatureSettings": "\"lnum\" on, \"pnum\""
+        },
+        {
+          "role": "Body text, navigation links, and button labels. Its clean sans-serif nature provides high readability for continuous reading.",
+          "sizes": "13px, 14px, 20px, 22px",
+          "family": "sohne",
+          "weight": "400",
+          "lineHeight": "1.27, 1.40, 1.43, 1.54",
+          "letterSpacing": "0"
+        },
+        {
+          "role": "Times — detected in extracted data but not described by AI",
+          "sizes": "16px",
+          "family": "Times",
+          "weight": "400",
+          "lineHeight": "1.2"
+        }
+      ],
+      "description": "Medium's design evokes the feeling of a refined, minimalist literary journal, emphasizing content over chrome. The dominant use of a warm off-white background (#f7f4ed) creates a soft, inviting canvas for the high-contrast text. Typography is the cornerstone, with a stately serif font for headlines paired with a clean sans-serif for body text, creating a classic yet accessible reading experience. Accent colors are deliberately minimal, primarily using deep black for interactive elements to draw clear focus and a vibrant green for specific illustrative brand moments.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "### Quick Color Reference\n- **Text (Headings):** #191919 (Charcoal Black)\n- **Text (Body):** #242424 (Inkwell Black)\n- **Background (Page):** #f7f4ed (Vellum Background)\n- **Button Background:** #191919 (Charcoal Black)\n- **Button Text:** #ffffff (Parchment White)\n- **Accent (Illustration):** #50B33A (Story Green)\n\n### 3-5 Example Component Prompts\n1. **Create a hero section:** Vellum Background (#f7f4ed). Main headline: 'Human stories & ideas' using gt-super weight 400, size 120px, Inkwell Black (#242424), letter-spacing -0.0550em. Subtitle: 'A place to read, write, and deepen your understanding' using sohne weight 400, size 22px, Inkwell Black (#242424), line height 1.54. Include a Primary Filled Button 'Start reading'.\n2. **Generate a header navigation bar:** Vellum Background (#f7f4ed) and a thin 1px border-bottom in Book Text Gray (#333333). Include a 'Medium' logo as text using Charcoal Black (#191919), sohne weight 400, size 20px. On the right, include Header Navigation Links 'Our story', 'Membership', 'Write', 'Sign in' (all Inkwell Black (#242424), sohne weight 400, size 14px) and a Pill Accent Button 'Get started'.\n3. **Design a content block with a footer:** Use a section gap of 64px. Place a block of body text using medium-content-sans-serif-font weight 400, size 16px, Book Text Gray (#333333). Below this, add a footer section with a 1px top border in Book Text Gray (#333333) and a muted background if desired (Parchment White), featuring Footer Navigation Links in Muted Text Gray (#6b6b6b), sohne weight 400, size 13px, separated by element gaps of 16px."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1776105334073-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1776105334073-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/9c92c3d1-a2fe-4a27-a324-826b19501774",
+  "ranks": {
+    "trending": 465,
+    "popular": 389,
+    "newest": 950
+  },
+  "localSlug": "medium-9c92c3d1"
+}

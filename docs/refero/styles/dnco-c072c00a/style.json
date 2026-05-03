@@ -1,0 +1,686 @@
+{
+  "id": "c072c00a-ee7f-4160-bd06-645cca12f7a8",
+  "url": "https://dnco.com",
+  "siteName": "DNCO",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777512947248-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777512947248-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "light",
+  "colors": [
+    {
+      "name": "Midnight Ink",
+      "hex": "#000000"
+    },
+    {
+      "name": "Canvas White",
+      "hex": "#ffffff"
+    },
+    {
+      "name": "Concrete Gray",
+      "hex": "#e5e7eb"
+    },
+    {
+      "name": "Muted Ash",
+      "hex": "#a3a3a3"
+    }
+  ],
+  "fonts": [
+    "Neue Haas Unica Pro"
+  ],
+  "northStar": "Graphic exhibition space.",
+  "createdAt": "2026-04-30T01:36:06.076Z",
+  "previewVideoCapturedAt": null,
+  "industry": "agency",
+  "fullResult": {
+    "meta": {
+      "url": "https://dnco.com",
+      "siteName": "DNCO",
+      "extractedAt": "2026-04-30T01:36:06.010Z",
+      "durationMs": 31189,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 727,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#e5e7eb",
+            "oklch": {
+              "c": 0.005813542372075684,
+              "h": 264.5313231484507,
+              "l": 0.9275823098127417
+            },
+            "contexts": [
+              "heading",
+              "link",
+              "other",
+              "nav",
+              "list",
+              "button",
+              "body",
+              "image",
+              "footer"
+            ],
+            "frequency": 2667,
+            "confidence": 1,
+            "prominence": 364823408.68012315,
+            "properties": [
+              "borderColor",
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "nav/borderColor": 32,
+              "body/borderColor": 324,
+              "link/borderColor": 352,
+              "list/borderColor": 76,
+              "image/borderColor": 192,
+              "other/borderColor": 1308,
+              "button/borderColor": 16,
+              "footer/borderColor": 4,
+              "heading/borderColor": 292,
+              "other/backgroundColor": 71
+            }
+          },
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "other",
+              "heading",
+              "list",
+              "button",
+              "link",
+              "image",
+              "footer"
+            ],
+            "frequency": 872,
+            "confidence": 1,
+            "prominence": 313161893.7478059,
+            "properties": [
+              "color",
+              "backgroundColor",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "link/color": 71,
+              "list/color": 5,
+              "image/color": 48,
+              "other/color": 386,
+              "button/color": 4,
+              "heading/color": 72,
+              "other/borderColor": 284,
+              "other/backgroundColor": 1,
+              "footer/backgroundColor": 1
+            }
+          },
+          {
+            "hex": "#ffffff",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 1.0000000000000002
+            },
+            "contexts": [
+              "heading",
+              "link",
+              "other",
+              "nav",
+              "footer",
+              "body"
+            ],
+            "frequency": 38,
+            "confidence": 1,
+            "prominence": 153623999.83921996,
+            "properties": [
+              "color",
+              "fill",
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "nav/color": 8,
+              "body/color": 5,
+              "link/color": 1,
+              "other/fill": 9,
+              "other/color": 10,
+              "footer/color": 1,
+              "heading/color": 1,
+              "nav/backgroundColor": 1,
+              "other/backgroundColor": 2
+            }
+          },
+          {
+            "hex": "#a3a3a3",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.7154735289549714
+            },
+            "contexts": [
+              "body",
+              "list",
+              "link",
+              "other"
+            ],
+            "frequency": 108,
+            "confidence": 1,
+            "prominence": 274720.60174269543,
+            "properties": [
+              "color"
+            ],
+            "usageCounts": {
+              "body/color": 76,
+              "link/color": 16,
+              "list/color": 14,
+              "other/color": 2
+            }
+          }
+        ],
+        "isDarkMode": false,
+        "colorfulness": 0.011371680300946754,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 21,
+            "background": "#ffffff",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 16.96,
+            "background": "#e5e7eb",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 8.33,
+            "background": "#000000",
+            "foreground": "#a3a3a3"
+          },
+          {
+            "level": "fail",
+            "ratio": 2.52,
+            "background": "#ffffff",
+            "foreground": "#a3a3a3"
+          },
+          {
+            "level": "fail",
+            "ratio": 2.04,
+            "background": "#e5e7eb",
+            "foreground": "#a3a3a3"
+          },
+          {
+            "level": "fail",
+            "ratio": 1.24,
+            "background": "#e5e7eb",
+            "foreground": "#ffffff"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [
+          {
+            "value": 9999,
+            "contexts": [
+              "nav",
+              "other"
+            ],
+            "frequency": 72
+          }
+        ],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 4,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 71,
+            "properties": [
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingBottom|other"
+            ]
+          },
+          {
+            "value": 12,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 71,
+            "properties": [
+              "paddingTop"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other"
+            ]
+          },
+          {
+            "value": 14,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 142,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|other",
+              "paddingLeft|other"
+            ]
+          },
+          {
+            "value": 16,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 3,
+            "properties": [
+              "paddingTop",
+              "marginTop"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other",
+              "marginTop|other"
+            ]
+          },
+          {
+            "value": 24,
+            "contexts": [
+              "heading",
+              "other",
+              "nav",
+              "footer"
+            ],
+            "frequency": 29,
+            "properties": [
+              "paddingRight",
+              "paddingLeft",
+              "rowGap",
+              "columnGap",
+              "paddingBottom",
+              "paddingTop",
+              "marginRight",
+              "marginLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|heading",
+              "paddingLeft|heading",
+              "paddingRight|other",
+              "paddingLeft|other",
+              "rowGap|nav",
+              "columnGap|nav",
+              "paddingBottom|other",
+              "paddingTop|other",
+              "rowGap|other",
+              "columnGap|other",
+              "marginRight|other",
+              "marginLeft|other",
+              "paddingTop|footer",
+              "paddingRight|footer",
+              "paddingLeft|footer",
+              "rowGap|footer",
+              "columnGap|footer"
+            ]
+          },
+          {
+            "value": 48,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 71,
+            "properties": [
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingBottom|other"
+            ]
+          },
+          {
+            "value": 64,
+            "contexts": [
+              "heading",
+              "footer"
+            ],
+            "frequency": 2,
+            "properties": [
+              "marginBottom",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "marginBottom|heading",
+              "paddingBottom|footer"
+            ]
+          }
+        ],
+        "density": "comfortable",
+        "baseUnit": null
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "Neue Haas Unica Pro",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 720,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 16,
+          "name": "Minor Third",
+          "ratio": 1.2,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 16,
+            "family": "Neue Haas Unica Pro",
+            "weight": 400,
+            "contexts": [
+              "heading",
+              "link",
+              "other",
+              "image"
+            ],
+            "frequency": 438,
+            "lineHeight": 1.5,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "Neue Haas Unica Pro",
+            "weight": 400,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "Neue Haas Unica Pro",
+            "weight": 400,
+            "contexts": [
+              "footer",
+              "other",
+              "body",
+              "list",
+              "link"
+            ],
+            "frequency": 49,
+            "lineHeight": 1.25,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 18,
+            "family": "Neue Haas Unica Pro",
+            "weight": 400,
+            "contexts": [
+              "nav",
+              "other",
+              "list",
+              "button"
+            ],
+            "frequency": 18,
+            "lineHeight": 1.56,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 18,
+            "family": "Neue Haas Unica Pro",
+            "weight": 400,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 71,
+            "lineHeight": 1.33,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 22,
+            "family": "Neue Haas Unica Pro",
+            "weight": 400,
+            "contexts": [
+              "heading",
+              "body"
+            ],
+            "frequency": 142,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 72,
+            "family": "Neue Haas Unica Pro",
+            "weight": 400,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 1,
+            "lineHeight": 1,
+            "letterSpacing": -0.025,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Prioritize Neue Haas Unica Pro typography at 72px with -0.0250em letter-spacing for large headlines, utilizing Midnight Ink on Canvas White or vice versa for maximum impact.",
+        "Use a purely achromatic palette of Midnight Ink (#000000), Canvas White (#ffffff), and Concrete Gray (#e5e7eb) for all UI elements to maintain a stark, graphic aesthetic.",
+        "Employ Concrete Gray (#e5e7eb) for all subtle borders and dividers, typically at 1px thickness, to define boundaries without adding visual weight.",
+        "Ensure interactive elements like buttons and navigation links transition with a duration of 0.3s and an `ease` timing function.",
+        "Maintain minimal padding on interactive text elements (e.g., 0px for text-only buttons in the component variant example) to keep them lightweight.",
+        "Use Muted Ash (#a3a3a3) exclusively for secondary or informational text, never for primary actions or main headings.",
+        "Apply 9999px border-radius for all small, interactive elements like tags and navigation items, creating a 'pill' shape."
+      ],
+      "donts": [
+        "Do not introduce additional colors beyond Midnight Ink, Canvas White, Concrete Gray, and Muted Ash for functional UI elements.",
+        "Avoid using drop shadows or complex gradients; the design relies on flat surfaces and high contrast.",
+        "Do not deviate from the Neue Haas Unica Pro font family or its specified letter-spacing for any text content.",
+        "Do not add heavy backgrounds or large fills to interactive elements; maintain a lightweight, often border-only or text-only approach.",
+        "Do not vary font weights; consistency with 400 weight across all text is key to the system's character.",
+        "Avoid excessive spacing between UI elements or sections; aim for a 'comfortable' density as defined by the elementGap and sectionGap.",
+        "Do not use generic system default link colors; ensure all link text uses either Midnight Ink, Canvas White, or Muted Ash."
+      ],
+      "theme": "light",
+      "colors": [
+        {
+          "hex": "#000000",
+          "name": "Midnight Ink",
+          "role": "Primary text, heading text, background for hero sections and footer, structural elements",
+          "group": "neutral"
+        },
+        {
+          "hex": "#ffffff",
+          "name": "Canvas White",
+          "role": "Secondary background, general page background for most content sections, navigation text, icon fills",
+          "group": "neutral"
+        },
+        {
+          "hex": "#e5e7eb",
+          "name": "Concrete Gray",
+          "role": "Hairline borders, dividers, input outlines, and card edges on light surfaces. Do not promote it to the primary CTA color",
+          "group": "neutral"
+        },
+        {
+          "hex": "#a3a3a3",
+          "name": "Muted Ash",
+          "role": "Muted body text, helper text, secondary links for lower hierarchy information",
+          "group": "neutral"
+        }
+      ],
+      "layout": "The page model alternates between full-bleed sections and max-width contained sections, with a generally centered content approach. The hero uses a text-dominant, large-scale headline against a black background. Section rhythm is established by alternating Midnight Ink and Canvas White backgrounds, with concrete gray borders often serving as subtler dividers. Content is frequently arranged in a stacked, centered manner for headlines and subtext, and then transitions to a multi-column grid for project showcases where images are primary. Navigation is a minimal top-right bar on a white background, becoming white text on black in the hero.",
+      "imagery": "The site uses product photography that is contained within rectangular frames, often full-bleed against sections of the page. The images are high-quality, often featuring people interacting with 'place brands' or architectural contexts, emphasizing lifestyle and experience. There's a mix of candid and staged photography, treated with natural colors, avoiding filters or heavy stylization. Imagery serves to showcase project examples and add visual richness without overwhelming the stark UI.",
+      "similar": [
+        {
+          "why": "High-contrast, minimalist design with bold typography on white/black backgrounds.",
+          "business": "Huge Inc."
+        },
+        {
+          "why": "Focus on strong typographic identity paired with impactful, often full-bleed, project imagery.",
+          "business": "Pentagram"
+        },
+        {
+          "why": "Graphic-heavy layouts, often featuring stark color palettes and large-scale text as primary visual elements.",
+          "business": "Wolff Olins"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "tags": "9999px",
+          "buttons": "9999px",
+          "interactiveElements": "9999px"
+        },
+        "elementGap": "24px",
+        "sectionGap": "24px",
+        "cardPadding": "",
+        "pageMaxWidth": null
+      },
+      "industry": "agency",
+      "surfaces": [
+        {
+          "hex": "#000000",
+          "name": "Midnight Base",
+          "level": 0,
+          "purpose": "Primary background for hero sections and footer, creating a strong initial impression and grounding the page."
+        },
+        {
+          "hex": "#ffffff",
+          "name": "Canvas White Content",
+          "level": 1,
+          "purpose": "Dominant background for main content areas, providing a clean, bright canvas for text and imagery."
+        },
+        {
+          "hex": "#e5e7eb",
+          "name": "Concrete Gray Accent",
+          "level": 2,
+          "purpose": "Subtle background for specific UI elements or sections requiring slight differentiation from Canvas White, often also serving as borders."
+        }
+      ],
+      "northStar": "Graphic exhibition space.",
+      "typeScale": [
+        {
+          "role": "body",
+          "size": 16,
+          "lineHeight": 1.56,
+          "letterSpacing": -0.4
+        },
+        {
+          "role": "subheading",
+          "size": 18,
+          "lineHeight": 1.5,
+          "letterSpacing": -0.45
+        },
+        {
+          "role": "heading-sm",
+          "size": 22,
+          "lineHeight": 1.33,
+          "letterSpacing": -0.55
+        },
+        {
+          "role": "display",
+          "size": 72,
+          "lineHeight": 1,
+          "letterSpacing": -1.8
+        }
+      ],
+      "components": [
+        {
+          "name": "Navigation Link",
+          "role": "Main navigation and footer links",
+          "description": "Displays as Canvas White text on a Midnight Ink background or Midnight Ink text on a Canvas White background. An underline interaction is implied by transitions but not a static style."
+        },
+        {
+          "name": "Filter Button (Text Only)",
+          "role": "Category/filter selection",
+          "description": "Text-only button with no background or border in its default state. Text color is Midnight Ink. Interaction is implied visually but no explicit styling is provided for the default state from the data. Used for 'All', 'Sector', 'Location', 'Expertise' filters, etc."
+        },
+        {
+          "name": "Outlined Filter Button",
+          "role": "Categorization or filtering, visually separating options",
+          "description": "A ghost button, typically Midnight Ink text on a transparent background, but defined by a 1px solid Concrete Gray border. Radius is 0px as per the component variant data. Padding around text is variable based on context but minimal."
+        },
+        {
+          "name": "Body Text Link",
+          "role": "Contextual navigation or references within body content",
+          "description": "Midnight Ink text by default, often appearing in close proximity to a Concrete Gray border for visual separation or structuring elements. Muted Ash for lower hierarchy links."
+        },
+        {
+          "name": "Hero Headline",
+          "role": "Page-level and major section headlines",
+          "description": "Presented in Neue Haas Unica Pro, 72px, weight 400, Midnight Ink color, with a tight letter-spacing of -0.0250em. Often against a stark white or black background, commanding immediate attention through size and contrast."
+        },
+        {
+          "name": "Section Divider",
+          "role": "Visual separation of content blocks",
+          "description": "A 1px solid border using Concrete Gray, creating subtle but clear divisions on the Canvas White background. Often found at the base of sections."
+        }
+      ],
+      "typography": [
+        {
+          "role": "The primary typeface for all text content, from headings to body copy, maintaining a consistent minimalist yet impactful tone. The tight letter-spacing enforces a sense of precision and graphic density.",
+          "sizes": "16px, 18px, 22px, 72px",
+          "family": "Neue Haas Unica Pro",
+          "weight": "400",
+          "lineHeight": "1.00, 1.25, 1.33, 1.50, 1.56",
+          "substitute": "Helvetica Neue",
+          "letterSpacing": "-0.0250em"
+        }
+      ],
+      "description": "DNCO uses a bold, high-contrast visual language reminiscent of abstract expressionism. Large-scale typography on stark backgrounds defines a significant portion of the primary messaging. The palette is intentionally minimal, relying on black, white, and a single light gray for structure, with interactivity indicated subtly through borders and hover states. Components are lightweight and direct, ensuring that content, especially large text, remains the focal point.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "**Quick Color Reference**\n- text: #000000\n- background: #ffffff\n- border: #e5e7eb\n- accent: no distinct accent color\n- primary action: no distinct CTA color\n\n**3-5 Example Component Prompts**\n- Create a section divider: 1px solid border, color #e5e7eb.\n- Create a hero headline: \"We create place brands that move your world\", Neue Haas Unica Pro, 72px, weight 400, color #000000, letter-spacing -0.0250em.\n- Create a navigation link: \"Work\", Neue Haas Unica Pro, 16px, weight 400, color #000000.\n- Create a text-only filter button: \"All\", Neue Haas Unica Pro, 16px, weight 400, color #000000, no background, 0px border-radius, 0px padding.\n- Create an outlined filter button: \"Sector\", Neue Haas Unica Pro, 16px, weight 400, color #000000, 1px solid border #e5e7eb, 0px border-radius, 12px 14px padding."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777512947248-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777512947248-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/c072c00a-ee7f-4160-bd06-645cca12f7a8",
+  "ranks": {
+    "trending": 811,
+    "popular": 912,
+    "newest": 566
+  },
+  "localSlug": "dnco-c072c00a"
+}

@@ -1,0 +1,690 @@
+{
+  "id": "cb266ff9-f168-4a42-a522-f0e84508f90f",
+  "url": "https://desktop.fm",
+  "siteName": "Desktop.fm",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775925790808-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775925790808-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "light",
+  "colors": [
+    {
+      "name": "Cloud Cover",
+      "hex": "#f1f2f3"
+    },
+    {
+      "name": "Graphite",
+      "hex": "#111111"
+    },
+    {
+      "name": "Light Steel",
+      "hex": "#dddddd"
+    },
+    {
+      "name": "Snow",
+      "hex": "#ffffff"
+    },
+    {
+      "name": "Dark Slate",
+      "hex": "#2d2d2d"
+    },
+    {
+      "name": "Mid Grey",
+      "hex": "#b4b4b4"
+    }
+  ],
+  "fonts": [
+    "-apple-system",
+    "monospace"
+  ],
+  "northStar": "Operating System Interface — clean-cut, functional, and digital.",
+  "createdAt": "2026-02-01T09:09:57.000Z",
+  "previewVideoCapturedAt": null,
+  "industry": "media",
+  "fullResult": {
+    "meta": {
+      "url": "https://desktop.fm",
+      "siteName": "Desktop.fm",
+      "extractedAt": "2026-04-11T16:43:24.232Z",
+      "durationMs": 27047,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 37,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "complete",
+          "attempts": 2
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#f1f2f3",
+            "oklch": {
+              "c": 0.0010534526640435984,
+              "h": 228.76525907208324,
+              "l": 0.9615703727941585
+            },
+            "contexts": [
+              "other",
+              "card"
+            ],
+            "frequency": 31,
+            "confidence": 1,
+            "prominence": 6480000,
+            "properties": [
+              "color",
+              "borderColor",
+              "backgroundColor"
+            ]
+          },
+          {
+            "hex": "#111111",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.17763777307657064
+            },
+            "contexts": [
+              "card",
+              "other"
+            ],
+            "frequency": 70,
+            "confidence": 1,
+            "prominence": 344385.8386922622,
+            "properties": [
+              "color",
+              "borderColor"
+            ]
+          },
+          {
+            "hex": "#dddddd",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.8975468705785317
+            },
+            "contexts": [
+              "button",
+              "card"
+            ],
+            "frequency": 2,
+            "confidence": 1,
+            "prominence": 88757.90004038475,
+            "properties": [
+              "backgroundColor"
+            ]
+          },
+          {
+            "hex": "#ffffff",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 1.0000000000000002
+            },
+            "contexts": [
+              "other",
+              "button",
+              "icon"
+            ],
+            "frequency": 33,
+            "confidence": 1,
+            "prominence": 72750.71862987985,
+            "properties": [
+              "color",
+              "borderColor",
+              "stroke"
+            ]
+          },
+          {
+            "hex": "#2d2d2d",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.2971629660895966
+            },
+            "contexts": [
+              "button",
+              "icon",
+              "other",
+              "card"
+            ],
+            "frequency": 22,
+            "confidence": 1,
+            "prominence": 64686.93597161529,
+            "properties": [
+              "color",
+              "borderColor",
+              "backgroundColor"
+            ]
+          },
+          {
+            "hex": "#b4b4b4",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.7699314175046421
+            },
+            "contexts": [
+              "button",
+              "other"
+            ],
+            "frequency": 8,
+            "confidence": 1,
+            "prominence": 2142.869300975003,
+            "properties": [
+              "backgroundColor"
+            ]
+          },
+          {
+            "hex": "#777777",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.5692624033839502
+            },
+            "contexts": [
+              "icon",
+              "other"
+            ],
+            "frequency": 4,
+            "confidence": 1,
+            "prominence": 752.3047027435053,
+            "properties": [
+              "stroke"
+            ]
+          },
+          {
+            "hex": "#009942",
+            "oklch": {
+              "c": 0.16732160999125067,
+              "h": 149.23521252261162,
+              "l": 0.5964156541416237
+            },
+            "contexts": [
+              "icon",
+              "other"
+            ],
+            "frequency": 3,
+            "confidence": 1,
+            "prominence": 648,
+            "properties": [
+              "stroke"
+            ]
+          }
+        ],
+        "isDarkMode": false,
+        "colorfulness": 0.00835216157723955,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 18.88,
+            "background": "#ffffff",
+            "foreground": "#111111"
+          },
+          {
+            "level": "AAA",
+            "ratio": 16.85,
+            "background": "#f1f2f3",
+            "foreground": "#111111"
+          },
+          {
+            "level": "AAA",
+            "ratio": 13.9,
+            "background": "#dddddd",
+            "foreground": "#111111"
+          },
+          {
+            "level": "AAA",
+            "ratio": 13.77,
+            "background": "#2d2d2d",
+            "foreground": "#ffffff"
+          },
+          {
+            "level": "AAA",
+            "ratio": 12.29,
+            "background": "#2d2d2d",
+            "foreground": "#f1f2f3"
+          },
+          {
+            "level": "AAA",
+            "ratio": 10.14,
+            "background": "#dddddd",
+            "foreground": "#2d2d2d"
+          },
+          {
+            "level": "AAA",
+            "ratio": 9.11,
+            "background": "#b4b4b4",
+            "foreground": "#111111"
+          },
+          {
+            "level": "AA",
+            "ratio": 6.64,
+            "background": "#b4b4b4",
+            "foreground": "#2d2d2d"
+          },
+          {
+            "level": "fail",
+            "ratio": 2.07,
+            "background": "#b4b4b4",
+            "foreground": "#ffffff"
+          },
+          {
+            "level": "fail",
+            "ratio": 1.85,
+            "background": "#b4b4b4",
+            "foreground": "#f1f2f3"
+          },
+          {
+            "level": "fail",
+            "ratio": 1.37,
+            "background": "#2d2d2d",
+            "foreground": "#111111"
+          },
+          {
+            "level": "fail",
+            "ratio": 1.36,
+            "background": "#dddddd",
+            "foreground": "#ffffff"
+          },
+          {
+            "level": "fail",
+            "ratio": 1.21,
+            "background": "#dddddd",
+            "foreground": "#f1f2f3"
+          },
+          {
+            "level": "fail",
+            "ratio": 1.12,
+            "background": "#f1f2f3",
+            "foreground": "#ffffff"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [
+          {
+            "value": 1.5,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 7
+          },
+          {
+            "value": 13,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2
+          },
+          {
+            "value": 20,
+            "contexts": [
+              "button"
+            ],
+            "frequency": 1
+          },
+          {
+            "value": 25,
+            "contexts": [
+              "card"
+            ],
+            "frequency": 1
+          }
+        ],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 2,
+            "frequency": 6,
+            "properties": [
+              "rowGap",
+              "columnGap",
+              "paddingTop",
+              "paddingRight",
+              "paddingBottom",
+              "paddingLeft"
+            ]
+          },
+          {
+            "value": 5,
+            "frequency": 2,
+            "properties": [
+              "paddingTop",
+              "paddingBottom"
+            ]
+          },
+          {
+            "value": 8,
+            "frequency": 2,
+            "properties": [
+              "rowGap",
+              "columnGap"
+            ]
+          },
+          {
+            "value": 10,
+            "frequency": 4,
+            "properties": [
+              "paddingRight",
+              "paddingBottom",
+              "paddingLeft",
+              "paddingTop"
+            ]
+          },
+          {
+            "value": 20,
+            "frequency": 2,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ]
+          },
+          {
+            "value": 30,
+            "frequency": 2,
+            "properties": [
+              "marginTop",
+              "marginBottom"
+            ]
+          }
+        ],
+        "density": "compact",
+        "baseUnit": null
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "-apple-system",
+            "source": "system",
+            "weights": [
+              500,
+              700,
+              800
+            ],
+            "frequency": 29,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "monospace",
+            "source": "system",
+            "weights": [
+              800
+            ],
+            "frequency": 1,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 16,
+          "name": "Minor Second",
+          "ratio": 1.067,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 12,
+            "family": "-apple-system",
+            "weight": 700,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.25,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 12,
+            "family": "monospace",
+            "weight": 800,
+            "contexts": [
+              "button"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.25,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "-apple-system",
+            "weight": 700,
+            "contexts": [
+              "button",
+              "other",
+              "icon"
+            ],
+            "frequency": 4,
+            "lineHeight": 1.25,
+            "letterSpacing": -0.016,
+            "textTransform": "none"
+          },
+          {
+            "size": 18,
+            "family": "-apple-system",
+            "weight": 500,
+            "contexts": [
+              "other",
+              "card",
+              "button",
+              "icon"
+            ],
+            "frequency": 23,
+            "lineHeight": 1.25,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 28,
+            "family": "-apple-system",
+            "weight": 800,
+            "contexts": [
+              "card"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.25,
+            "letterSpacing": -0.036,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Prioritize the achromatic palette with Cloud Cover (#f1f2f3) as background and Graphite (#111111) as primary text for core content.",
+        "Apply a 25px border-radius to all primary content cards, reinforcing the soft, digital aesthetic.",
+        "Use the specific letter-spacing values from the -apple-system font profiles (-0.0360em at 12px, -0.0160em at 16px, etc.) for all text to maintain visual density.",
+        "Implement the rgba(51, 51, 51, 0.1) 0px 0px 40px 0px shadow for all elevated card components to create subtle depth.",
+        "Reserve Neon Green (#009942) exclusively for decorative elements or non-critical accents in illustrations and icons.",
+        "Use Dark Slate (#2d2d2d) for primary call-to-action buttons, with 5px vertical and 20px horizontal padding and 20px border-radius."
+      ],
+      "tags": [
+        "minimalist",
+        "achromatic",
+        "digital",
+        "clean",
+        "subtle-shadows",
+        "system-like",
+        "precise-typography",
+        "soft-corners"
+      ],
+      "donts": [
+        "Avoid strong, saturated colors outside of the designated accent palette; maintain the dominant neutral scheme.",
+        "Do not deviate from the specified border radii; avoid sharp corners or excessively rounded elements beyond the 20px/25px standard.",
+        "Do not use generic shadows; adhere strictly to the defined card shadow for all elevated elements.",
+        "Avoid large negative letter spacing on display type; only apply the precisely defined values for -apple-system.",
+        "Do not introduce additional font families; stick to -apple-system (or its system-ui substitute) and monospace.",
+        "Do not use more than two distinct button styles on a single screen without a clear hierarchy."
+      ],
+      "theme": "light",
+      "colors": [
+        {
+          "hex": "#f1f2f3",
+          "name": "Cloud Cover",
+          "role": "Page backgrounds, neutral surfaces.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#111111",
+          "name": "Graphite",
+          "role": "Primary text, prominent UI elements. High contrast for readability.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#dddddd",
+          "name": "Light Steel",
+          "role": "Button backgrounds, light interactive states.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#ffffff",
+          "name": "Snow",
+          "role": "Text on dark backgrounds, selected icons.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#2d2d2d",
+          "name": "Dark Slate",
+          "role": "Secondary text, backgrounds for dark components, internal card surfaces. Offers good contrast against Snow.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#b4b4b4",
+          "name": "Mid Grey",
+          "role": "Button backgrounds for less prominent actions.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#777777",
+          "name": "Ash",
+          "role": "Subtle stroke and icon details.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#009942",
+          "name": "Neon Green",
+          "role": "Accents for decorative elements and visual interest. Its vividness pops against the neutral palette.",
+          "group": "accent"
+        }
+      ],
+      "layout": "The layout is primarily centered and minimal, focusing on a single hero element. The page operates on a full-bleed model with a light gray background, presenting a single focal point (the 3D CD render) with interactive elements centered beneath it. Elements are stacked vertically with compact spacing, creating a dense yet clean presentation. There is no visible navigation or complex grid structure, suggesting a single-purpose landing page rather than a multi-page site.",
+      "imagery": "The site uses abstract 3D renders with strong reflections and geometric light lines. The central image of a reflective silver CD-ROM, bathed in dynamic blue-green light, is surrounded by thin, vivid Neon Green (#009942) laser-like lines that crisscross the background. Imagery serves a decorative and atmospheric role, establishing a futuristic, tech-oriented mood without direct product representation. The treatment is full-bleed for the background element, with a contained, center-stage main object.",
+      "similar": [
+        {
+          "why": "Shares a highly constrained achromatic palette with a single vibrant accent color and precise, compact typography.",
+          "business": "Linear"
+        },
+        {
+          "why": "Uses subtle shadows and rounded corners on cards combined with a light, airy, and functional aesthetic.",
+          "business": "Dropbox (new branding)"
+        },
+        {
+          "why": "Features a strong focus on minimalist UI, functional iconography, and a digital tool aesthetic.",
+          "business": "Raycast"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "cards": "25px",
+          "buttons": "20px",
+          "default": "1.5px"
+        },
+        "elementGap": "2px",
+        "sectionGap": "30px",
+        "cardPadding": "0px",
+        "pageMaxWidth": null
+      },
+      "category": "technology",
+      "northStar": "Operating System Interface — clean-cut, functional, and digital.",
+      "components": [
+        {
+          "html": "<div style=\"--color-cloud-cover:#f1f2f3;--color-graphite:#111111;--color-light-steel:#dddddd;--color-snow:#ffffff;--color-dark-slate:#2d2d2d;--color-mid-grey:#b4b4b4;--color-ash:#777777;--color-neon-green:#009942;--font-apple-system:-apple-system,system-ui,sans-serif;--font-monospace:Menlo,Monaco,Consolas,'Liberation Mono','Courier New',monospace; display:flex; justify-content:center; align-items:center; padding:40px; background:var(--color-cloud-cover); min-height:200px;\"><div style=\"width:280px; background:var(--color-cloud-cover); border-radius:25px; box-shadow:rgba(51,51,51,0.1) 0px 0px 40px 0px; overflow:hidden; font-family:var(--font-apple-system);\"><div style=\"padding:14px 16px 10px 16px; display:flex; align-items:center; justify-content:space-between;\"><div style=\"display:flex; align-items:center; gap:10px;\"><div style=\"width:28px; height:28px; border-radius:50%; background:var(--color-mid-grey); display:flex; align-items:center; justify-content:center;\"><span style=\"font-family:var(--font-apple-system); font-size:13px; font-weight:700; color:var(--color-snow); line-height:1;\">i</span></div><div style=\"display:flex; gap:3px; align-items:center;\"><span style=\"display:inline-block; width:5px; height:5px; border-radius:50%; background:var(--color-mid-grey);\"></span><span style=\"display:inline-block; width:5px; height:5px; border-radius:50%; background:var(--color-mid-grey);\"></span><span style=\"display:inline-block; width:5px; height:5px; border-radius:50%; background:var(--color-mid-grey);\"></span><span style=\"display:inline-block; width:5px; height:5px; border-radius:50%; background:var(--color-mid-grey);\"></span><span style=\"display:inline-block; width:5px; height:5px; border-radius:50%; background:var(--color-mid-grey);\"></span><span style=\"display:inline-block; width:5px; height:5px; border-radius:50%; background:var(--color-mid-grey);\"></span><span style=\"display:inline-block; width:5px; height:5px; border-radius:50%; background:var(--color-mid-grey);\"></span><span style=\"display:inline-block; width:5px; height:5px; border-radius:50%; background:var(--color-mid-grey);\"></span></div></div><div style=\"width:36px; height:20px; border-radius:10px; background:var(--color-mid-grey); position:relative;\"><div style=\"width:16px; height:16px; border-radius:50%; background:var(--color-snow); position:absolute; top:2px; right:2px;\"></div></div></div><div style=\"padding:12px 16px 20px 16px; text-align:center;\"><h2 style=\"font-family:var(--font-apple-system); font-size:28px; font-weight:800; color:var(--color-graphite); margin:0 0 20px 0; letter-spacing:-0.063em; line-height:1.25;\">Desktop.fm</h2><a href=\"#\" style=\"display:flex; align-items:center; justify-content:space-between; background:var(--color-dark-slate); color:var(--color-snow); text-decoration:none; padding:14px 20px; border-radius:20px; font-family:var(--font-apple-system); font-size:16px; font-weight:700; letter-spacing:-0.016em; line-height:1.25;\"><span>Join the waiting list</span><svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M6 3l5 5-5 5\" stroke=\"#ffffff\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></a></div></div></div>",
+          "name": "Main CTA Card",
+          "role": "",
+          "description": ""
+        },
+        {
+          "html": "<div style=\"--color-cloud-cover:#f1f2f3;--color-graphite:#111111;--color-light-steel:#dddddd;--color-snow:#ffffff;--color-dark-slate:#2d2d2d;--color-mid-grey:#b4b4b4;--color-ash:#777777;--color-neon-green:#009942;--font-apple-system:-apple-system,system-ui,sans-serif; display:flex; justify-content:center; align-items:center; padding:40px; background:var(--color-cloud-cover); min-height:160px;\"><div style=\"display:flex; flex-direction:column; gap:12px; align-items:center; width:100%; max-width:340px;\"><div style=\"display:flex; gap:8px; align-items:center; width:100%;\"><a href=\"#\" style=\"flex:1; display:flex; align-items:center; justify-content:center; background:var(--color-dark-slate); color:var(--color-snow); text-decoration:none; padding:11px 20px; border-radius:20px; font-family:var(--font-apple-system); font-size:16px; font-weight:700; letter-spacing:-0.016em; line-height:1.25; gap:8px;\"><span>Join the waiting list</span><svg width=\"14\" height=\"14\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M6 3l5 5-5 5\" stroke=\"#ffffff\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></a><button style=\"width:40px; height:40px; border-radius:50%; background:var(--color-light-steel); border:none; cursor:pointer; display:flex; align-items:center; justify-content:center; flex-shrink:0;\"><span style=\"font-family:var(--font-apple-system); font-size:14px; font-weight:700; color:var(--color-dark-slate); line-height:1;\">i</span></button><button style=\"width:40px; height:40px; border-radius:50%; background:var(--color-mid-grey); border:none; cursor:pointer; display:flex; align-items:center; justify-content:center; flex-shrink:0;\"><span style=\"font-family:var(--font-apple-system); font-size:14px; font-weight:700; color:var(--color-snow); line-height:1;\">i</span></button></div><div style=\"display:flex; gap:8px; align-items:center; width:100%;\"><a href=\"#\" style=\"flex:1; display:flex; align-items:center; justify-content:center; background:var(--color-light-steel); color:var(--color-graphite); text-decoration:none; padding:11px 20px; border-radius:20px; font-family:var(--font-apple-system); font-size:16px; font-weight:500; letter-spacing:-0.016em; line-height:1.25;\">Learn more</a><a href=\"#\" style=\"flex:1; display:flex; align-items:center; justify-content:center; background:var(--color-mid-grey); color:var(--color-graphite); text-decoration:none; padding:11px 20px; border-radius:20px; font-family:var(--font-apple-system); font-size:16px; font-weight:500; letter-spacing:-0.016em; line-height:1.25;\">Dismiss</a></div></div></div>",
+          "name": "Button Group — Primary & Utility",
+          "role": "",
+          "description": ""
+        },
+        {
+          "html": "<div style=\"--color-cloud-cover:#f1f2f3;--color-graphite:#111111;--color-light-steel:#dddddd;--color-snow:#ffffff;--color-dark-slate:#2d2d2d;--color-mid-grey:#b4b4b4;--color-ash:#777777;--color-neon-green:#009942;--font-apple-system:-apple-system,system-ui,sans-serif;--font-monospace:Menlo,Monaco,Consolas,'Liberation Mono','Courier New',monospace; display:flex; justify-content:center; align-items:center; padding:40px; background:var(--color-cloud-cover); min-height:200px;\"><div style=\"width:100%; max-width:380px; background:var(--color-cloud-cover); border-radius:25px; box-shadow:rgba(51,51,51,0.1) 0px 0px 40px 0px; padding:24px;\"><div style=\"display:flex; align-items:center; justify-content:space-between; margin-bottom:18px;\"><span style=\"font-family:var(--font-apple-system); font-size:16px; font-weight:700; color:var(--color-graphite); letter-spacing:-0.016em;\">System Status</span><div style=\"display:flex; align-items:center; gap:6px; background:var(--color-dark-slate); padding:5px 12px; border-radius:20px;\"><span style=\"width:7px; height:7px; border-radius:50%; background:var(--color-neon-green); display:inline-block;\"></span><span style=\"font-family:var(--font-apple-system); font-size:12px; font-weight:500; color:var(--color-snow); letter-spacing:-0.036em;\">Online</span></div></div><div style=\"display:flex; flex-wrap:wrap; gap:6px; margin-bottom:18px;\"><span style=\"font-family:var(--font-monospace); font-size:12px; font-weight:800; color:var(--color-dark-slate); background:var(--color-light-steel); padding:5px 10px; border-radius:8px; letter-spacing:0;\">v0.1.0-beta</span><span style=\"font-family:var(--font-monospace); font-size:12px; font-weight:800; color:var(--color-snow); background:var(--color-dark-slate); padding:5px 10px; border-radius:8px; letter-spacing:0;\">macOS</span><span style=\"font-family:var(--font-monospace); font-size:12px; font-weight:800; color:var(--color-graphite); background:var(--color-mid-grey); padding:5px 10px; border-radius:8px; letter-spacing:0;\">arm64</span><span style=\"font-family:var(--font-monospace); font-size:12px; font-weight:800; color:var(--color-snow); background:var(--color-neon-green); padding:5px 10px; border-radius:8px; letter-spacing:0;\">stable</span></div><div style=\"border-top:1px solid var(--color-light-steel); padding-top:14px;\"><p style=\"font-family:var(--font-apple-system); font-size:12px; font-weight:500; color:var(--color-ash); margin:0; letter-spacing:-0.036em; line-height:1.5;\">Desktop.fm is currently in early access. Join the waiting list to be notified when your spot is ready.</p></div></div></div>",
+          "name": "Status Badge & Monospace Tag Collection",
+          "role": "",
+          "description": ""
+        },
+        {
+          "name": "Info Button",
+          "role": "Utility button",
+          "description": "Circular button with a 50% border radius acting as an info icon. Background: Light Steel (#dddddd), text: Graphite (#2d2d2d). No internal padding specified, implies icon fitting tightly."
+        },
+        {
+          "name": "Selected Info Button",
+          "role": "Active utility button",
+          "description": "Circular button with a 50% border radius for active states. Background: Mid Grey (#b4b4b4), text: Snow (#ffffff). No internal padding, indicates a toggle or enabled state."
+        },
+        {
+          "name": "Main Card",
+          "role": "Content container",
+          "description": "A light content container with Cloud Cover (#f1f2f3) background and a 25px border-radius. Features a prominent shadow: rgba(51, 51, 51, 0.1) 0px 0px 40px 0px, suggesting an elevated, floating presence on the page."
+        }
+      ],
+      "typography": [
+        {
+          "role": "Primary typeface for all UI text, headings, and buttons. Variable letter spacing maintains visual density across sizes, making UI feel compact and precise.",
+          "sizes": "12px, 16px, 18px, 28px",
+          "family": "-apple-system",
+          "weight": "500, 700, 800",
+          "lineHeight": "1.25",
+          "substitute": "system-ui, sans-serif",
+          "letterSpacing": "-0.432, -0.256, -0.288, -1.008"
+        },
+        {
+          "role": "Used for specific technical or code-like elements, offering a distinct visual break. The bold weight ensures it remains legible at small sizes.",
+          "sizes": "12px",
+          "family": "monospace",
+          "weight": "800",
+          "lineHeight": "1.25",
+          "substitute": "Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace"
+        }
+      ],
+      "description": "This design system evokes a sense of digital minimalism, like an operating system interface. It uses a predominantly achromatic palette with subtle gradients on surfaces, creating depth without heavy shadows. The overall feel is one of understated functionality and quiet efficiency, utilizing precise typography and a singular vibrant accent for interactive elements.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "### Quick Color Reference\n- Text: #111111 (Graphite)\n- Background: #f1f2f3 (Cloud Cover)\n- CTA Background: #2d2d2d (Dark Slate)\n- CTA Text: #ffffff (Snow)\n- Accent: #009942 (Neon Green)\n\n### 3-5 Example Component Prompts\n1. Create a primary call to action button: 5px vertical padding, 20px horizontal padding, 20px border-radius, background Dark Slate (#2d2d2d), text Snow (#ffffff) in -apple-system 500, letter-spacing -0.256px (for 16px font).\n2. Generate a main content card: background Cloud Cover (#f1f2f3), 25px border-radius, box-shadow rgba(51, 51, 51, 0.1) 0px 0px 40px 0px, with internal text Graphite (#111111) in -apple-system 500.\n3. Design a small info button: circular (50% border radius), background Light Steel (#dddddd), text Graphite (#2d2d2d) in -apple-system 500. No specific padding."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775925790808-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775925790808-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/cb266ff9-f168-4a42-a522-f0e84508f90f",
+  "ranks": {
+    "trending": 269,
+    "popular": 286,
+    "newest": 1246
+  },
+  "localSlug": "desktop-fm-cb266ff9"
+}

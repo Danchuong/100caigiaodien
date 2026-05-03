@@ -1,0 +1,534 @@
+{
+  "id": "9d29d491-b705-46e1-9598-a4a70468e7e0",
+  "url": "https://www.consumedinkey.com",
+  "siteName": "Consumedinkey",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777514428220-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777514428220-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "light",
+  "colors": [
+    {
+      "name": "Canvas White",
+      "hex": "#ffffff"
+    },
+    {
+      "name": "Pitch Black",
+      "hex": "#000000"
+    }
+  ],
+  "fonts": [
+    "Helvetica LT"
+  ],
+  "northStar": "Monochrome starkness; an uncompromising canvas of text and light.",
+  "createdAt": "2026-04-30T02:00:42.028Z",
+  "previewVideoCapturedAt": null,
+  "industry": "media",
+  "fullResult": {
+    "meta": {
+      "url": "https://www.consumedinkey.com",
+      "siteName": "Consumedinkey",
+      "extractedAt": "2026-04-30T02:00:41.964Z",
+      "durationMs": 21079,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 123,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#ffffff",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 1.0000000000000002
+            },
+            "contexts": [
+              "other",
+              "link",
+              "hero",
+              "image",
+              "button",
+              "heading",
+              "body"
+            ],
+            "frequency": 601,
+            "confidence": 1,
+            "prominence": 80599278.16113003,
+            "properties": [
+              "color",
+              "borderColor",
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "body/color": 11,
+              "hero/color": 1,
+              "link/color": 7,
+              "image/color": 1,
+              "other/color": 89,
+              "button/color": 2,
+              "heading/color": 9,
+              "body/borderColor": 44,
+              "hero/borderColor": 4,
+              "link/borderColor": 28,
+              "image/borderColor": 4,
+              "other/borderColor": 356,
+              "button/borderColor": 8,
+              "heading/borderColor": 36,
+              "hero/backgroundColor": 1
+            }
+          },
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "hero",
+              "other"
+            ],
+            "frequency": 21,
+            "confidence": 1,
+            "prominence": 10329796.185390105,
+            "properties": [
+              "color",
+              "borderColor",
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "hero/color": 1,
+              "other/color": 2,
+              "hero/borderColor": 4,
+              "other/borderColor": 8,
+              "hero/backgroundColor": 1,
+              "other/backgroundColor": 5
+            }
+          },
+          {
+            "hex": "#dddddd",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.8975468705785317
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 1282500,
+            "properties": [
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "other/backgroundColor": 1
+            }
+          }
+        ],
+        "isDarkMode": false,
+        "colorfulness": 0,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 21,
+            "background": "#000000",
+            "foreground": "#ffffff"
+          },
+          {
+            "level": "AAA",
+            "ratio": 15.46,
+            "background": "#dddddd",
+            "foreground": "#000000"
+          },
+          {
+            "level": "fail",
+            "ratio": 1.36,
+            "background": "#dddddd",
+            "foreground": "#ffffff"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 4,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "marginRight",
+              "marginLeft"
+            ],
+            "propertyContextPairs": [
+              "marginRight|other",
+              "marginLeft|other"
+            ]
+          },
+          {
+            "value": 16,
+            "contexts": [
+              "other",
+              "hero"
+            ],
+            "frequency": 30,
+            "properties": [
+              "paddingTop",
+              "paddingRight",
+              "paddingBottom",
+              "paddingLeft",
+              "marginTop",
+              "rowGap",
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other",
+              "paddingRight|other",
+              "paddingBottom|other",
+              "paddingLeft|other",
+              "paddingTop|hero",
+              "paddingRight|hero",
+              "paddingBottom|hero",
+              "paddingLeft|hero",
+              "marginTop|other",
+              "rowGap|other",
+              "marginBottom|other"
+            ]
+          },
+          {
+            "value": 22,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 3,
+            "properties": [
+              "columnGap"
+            ],
+            "propertyContextPairs": [
+              "columnGap|other"
+            ]
+          },
+          {
+            "value": 32,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "marginTop",
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "marginTop|other",
+              "marginBottom|other"
+            ]
+          },
+          {
+            "value": 61,
+            "contexts": [
+              "hero",
+              "other"
+            ],
+            "frequency": 6,
+            "properties": [
+              "paddingTop",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|hero",
+              "paddingTop|other",
+              "paddingBottom|other"
+            ]
+          },
+          {
+            "value": 65,
+            "contexts": [
+              "hero"
+            ],
+            "frequency": 1,
+            "properties": [
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingBottom|hero"
+            ]
+          },
+          {
+            "value": 72,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "marginBottom|other"
+            ]
+          },
+          {
+            "value": 108,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "marginBottom|other"
+            ]
+          }
+        ],
+        "density": "comfortable",
+        "baseUnit": 8
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "HelveticaLT",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 123,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 16,
+          "name": "Minor Third",
+          "ratio": 1.2,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 14,
+            "family": "HelveticaLT",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "link",
+              "hero",
+              "image"
+            ],
+            "frequency": 64,
+            "lineHeight": 1.25,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "HelveticaLT",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "link",
+              "body"
+            ],
+            "frequency": 47,
+            "lineHeight": 1.25,
+            "letterSpacing": 0.04,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "HelveticaLT",
+            "weight": 400,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.25,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 40,
+            "family": "HelveticaLT",
+            "weight": 400,
+            "contexts": [
+              "button"
+            ],
+            "frequency": 2,
+            "lineHeight": 1.25,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 64,
+            "family": "HelveticaLT",
+            "weight": 400,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 9,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Prioritize Canvas White (#ffffff) as the dominant background color for most sections, establishing a high-contrast foundation.",
+        "Use Pitch Black (#000000) for all text and as the background for inverted sections (e.g., hero section).",
+        "Implement Helvetica LT, weight 400, for all typographic needs, varying only the font size to create hierarchy.",
+        "Apply a consistent letter-spacing of 0.0400em to all Helvetica LT text to maintain its defined character.",
+        "Maintain a default border-radius of 0px for all elements, reinforcing the sharp, unadorned aesthetic.",
+        "Utilize 72px as the standard vertical spacing between major page sections.",
+        "Define interactive elements such as links and buttons with a transparent background, white text, and a 1px white border on interaction states to preserve the minimalist presentation."
+      ],
+      "donts": [
+        "Avoid the introduction of any chromatic colors; the palette is strictly monochrome.",
+        "Do not use any shadows or gradients for elevation or decorative purposes.",
+        "Refrain from using border-radius values other than 0px.",
+        "Do not introduce additional font families or weights beyond Helvetica LT 400.",
+        "Avoid using decorative imagery or complex graphic elements; visual focus should remain on typography and direct contrast.",
+        "Do not add any padding to interactive link or button elements for a minimal, integrated appearance."
+      ],
+      "theme": "light",
+      "colors": [
+        {
+          "hex": "#ffffff",
+          "name": "Canvas White",
+          "role": "Hairline borders, dividers, input outlines, and card edges on light surfaces. Do not promote it to the primary CTA color",
+          "group": "neutral"
+        },
+        {
+          "hex": "#000000",
+          "name": "Pitch Black",
+          "role": "Primary text color, background for inverse sections, and the dominant cursor character. It provides unflinching contrast against Canvas White",
+          "group": "neutral"
+        }
+      ],
+      "layout": "The page adheres to a full-bleed layout, horizontally extending content to the viewport edges without a dedicated `pageMaxWidth`. Sections are delineated by shifts in background color (either Canvas White or Pitch Black) and a generous vertical `sectionGap` of 72px. The hero section often features oversized, centered typography. Content arrangement is primarily composed of large, single-column text blocks or simple two-column layouts, usually text-dominant. The navigation consists of discreet, non-intrusive `Ghost Link Buttons` positioned at the top corners of the page, blending into the background until hovered.",
+      "imagery": "This site features a complete absence of conventional imagery. Instead, it relies on typography and the stark contrast of its monochrome palette to convey information and mood. The presence of a prominent black vertical bar (like a text cursor) in the hero section acts as a minimalist, abstract visual anchor. Icons are not present on the site, reinforcing its text-dominant, utilitarian approach. Density is extremely low, with ample negative space.",
+      "similar": [
+        {
+          "why": "Employs heavy use of monochrome, bold typography, and minimalist layouts for cinematic impact.",
+          "business": "A24 FILMS"
+        },
+        {
+          "why": "Adheres to a strict design philosophy using Helvetica, high contrast, and grid-based, unadorned layouts.",
+          "business": "Massimo Vignelli's website"
+        },
+        {
+          "why": "Features a very stark, text-heavy design with limited visual elements and a strong emphasis on typography.",
+          "business": "The Paragraphs (a design agency)"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "default": "0px"
+        },
+        "elementGap": "16px",
+        "sectionGap": "72px",
+        "cardPadding": "16px",
+        "pageMaxWidth": null
+      },
+      "industry": "media",
+      "northStar": "Monochrome starkness; an uncompromising canvas of text and light.",
+      "typeScale": [
+        {
+          "role": "caption",
+          "size": 14,
+          "lineHeight": 1.25,
+          "letterSpacing": 0.56
+        },
+        {
+          "role": "body",
+          "size": 16,
+          "lineHeight": 1.25,
+          "letterSpacing": 0.64
+        },
+        {
+          "role": "heading",
+          "size": 40,
+          "lineHeight": 1,
+          "letterSpacing": 1.6
+        },
+        {
+          "role": "display",
+          "size": 64,
+          "lineHeight": 1,
+          "letterSpacing": 2.56
+        }
+      ],
+      "components": [
+        {
+          "name": "Ghost Link Button",
+          "role": "Interactive navigation and calls-to-action.",
+          "description": "Rendered as white text on a transparent background, with a subtle 1px white border on hover/focus. Uses Helvetica LT, weight 400, no explicit padding, and 0px border-radius, contributing to an understated interaction style."
+        },
+        {
+          "name": "Primary Headline",
+          "role": "Section titles and prominent textual emphasis.",
+          "description": "Large text using Helvetica LT, weight 400, in Pitch Black. Sizes include 40px and 64px, with line heights tuned for compact displays. No additional styling, relying purely on size and weight for impact."
+        },
+        {
+          "name": "Body Text",
+          "role": "General content and explanatory paragraphs.",
+          "description": "Helvetica LT, weight 400, in Pitch Black on Canvas White. Rendered at 14px or 16px, with a line height of 1.25. Maintains high legibility within the monochrome design."
+        }
+      ],
+      "typography": [
+        {
+          "role": "The sole typeface, used for all textual content from headings to body text. Its neutral, legible character perfectly supports the site's spartan aesthetic, with varying sizes defining hierarchy through scale alone.",
+          "sizes": "14px, 16px, 40px, 64px",
+          "family": "Helvetica LT",
+          "weight": "400",
+          "weights": [
+            400
+          ],
+          "lineHeight": "1.00, 1.25",
+          "substitute": "Arial",
+          "letterSpacing": "0.0400em"
+        }
+      ],
+      "description": "Consumedinkey's design system emanates a stark, minimalist severity, prioritizing content with an absolute monochrome palette. Typography, the primary visual element, is rendered in high-contrast against expansive, unblemished surfaces. The visual language is ascetic, focusing on direct communication and an almost complete absence of decorative components or background textures.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "Quick Color Reference:\ntext: #000000\nbackground: #ffffff\nborder: #ffffff\naccent: no distinct accent color\nprimary action: no distinct CTA color\n\nExample Component Prompts:\n1. Create a full-bleed hero section: background #000000. Display text 'Consumed In Key' at 64px Helvetica LT weight 400, #ffffff, letter-spacing 2.56px, centered horizontally and vertically.\n2. Create a body text section: background #ffffff. Body text 'Turbo Recordings presents its grandest achievement yet...' at 16px Helvetica LT weight 400, #000000, letter-spacing 0.64px. Set padding to 16px.\n3. Create a navigation element for the top right: a Ghost Link Button, text 'Listen | Buy' at 14px Helvetica LT weight 400, #ffffff, letter-spacing 0.56px. Provide a 1px #ffffff border on hover. No padding."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777514428220-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777514428220-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/9d29d491-b705-46e1-9598-a4a70468e7e0",
+  "ranks": {
+    "trending": 959,
+    "popular": 1006,
+    "newest": 465
+  },
+  "localSlug": "consumedinkey-9d29d491"
+}

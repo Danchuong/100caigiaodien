@@ -1,0 +1,1212 @@
+{
+  "id": "d58d888e-85ed-4273-9816-2c83f65f6f1d",
+  "url": "https://www.gru.space",
+  "siteName": "GRU Space",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1776010486894-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1776010486894-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "dark",
+  "colors": [
+    {
+      "name": "Void Black",
+      "hex": "#080808"
+    },
+    {
+      "name": "Lunar White",
+      "hex": "#ffffff"
+    },
+    {
+      "name": "Slate Gray",
+      "hex": "#9c9c9c"
+    },
+    {
+      "name": "Obsidian Grey",
+      "hex": "#191919"
+    },
+    {
+      "name": "Meteorite Gray",
+      "hex": "#393939"
+    },
+    {
+      "name": "Moon Rock",
+      "hex": "#b4b7b8"
+    }
+  ],
+  "fonts": [
+    "Overused Grotesk",
+    "PP Mondwest"
+  ],
+  "northStar": "Star Chart Blueprint: High-contrast, sharp, and focused on pure form against a dark void.",
+  "createdAt": "2026-04-13T19:24:17.000Z",
+  "previewVideoCapturedAt": null,
+  "industry": "other",
+  "fullResult": {
+    "meta": {
+      "url": "https://www.gru.space",
+      "siteName": "GRU Space",
+      "extractedAt": "2026-04-12T16:15:08.420Z",
+      "durationMs": 37290,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 409,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "complete",
+          "attempts": 2
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#ffffff",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 1.0000000000000002
+            },
+            "contexts": [
+              "other",
+              "nav",
+              "link",
+              "body",
+              "hero",
+              "icon",
+              "image",
+              "badge",
+              "card",
+              "heading",
+              "button",
+              "input",
+              "footer"
+            ],
+            "frequency": 1622,
+            "confidence": 1,
+            "prominence": 161158983.81018475,
+            "properties": [
+              "color",
+              "borderColor",
+              "backgroundColor",
+              "fill",
+              "stroke"
+            ]
+          },
+          {
+            "hex": "#080808",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.13440930419989064
+            },
+            "contexts": [
+              "other",
+              "icon",
+              "link",
+              "card",
+              "input"
+            ],
+            "frequency": 100,
+            "confidence": 1,
+            "prominence": 33200239.40913424,
+            "properties": [
+              "color",
+              "borderColor",
+              "backgroundColor",
+              "fill"
+            ]
+          },
+          {
+            "hex": "#191919",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.21342250711191385
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 9,
+            "confidence": 1,
+            "prominence": 1928525.423918289,
+            "properties": [
+              "borderColor"
+            ]
+          },
+          {
+            "hex": "#9c9c9c",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.6934011573946197
+            },
+            "contexts": [
+              "other",
+              "heading",
+              "badge",
+              "body",
+              "link",
+              "card",
+              "icon"
+            ],
+            "frequency": 194,
+            "confidence": 1,
+            "prominence": 529447.3678460317,
+            "properties": [
+              "color",
+              "borderColor",
+              "fill",
+              "stroke"
+            ]
+          },
+          {
+            "hex": "#b4b7b8",
+            "oklch": {
+              "c": 0.0036696728093752605,
+              "h": 219.54161899060324,
+              "l": 0.7773396496122166
+            },
+            "contexts": [
+              "card"
+            ],
+            "frequency": 3,
+            "confidence": 1,
+            "prominence": 294366,
+            "properties": [
+              "backgroundColor"
+            ]
+          },
+          {
+            "hex": "#6b6b6b",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.5270979546644884
+            },
+            "contexts": [
+              "input"
+            ],
+            "frequency": 4,
+            "confidence": 1,
+            "prominence": 44657.64304896864,
+            "properties": [
+              "borderColor"
+            ]
+          },
+          {
+            "hex": "#393939",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.34613545531879625
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 10,
+            "confidence": 1,
+            "prominence": 24004.996001724205,
+            "properties": [
+              "backgroundColor",
+              "borderColor"
+            ]
+          },
+          {
+            "hex": "#333333",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.3210925111636326
+            },
+            "contexts": [
+              "link",
+              "image"
+            ],
+            "frequency": 20,
+            "confidence": 1,
+            "prominence": 21399.370483778122,
+            "properties": [
+              "color",
+              "borderColor"
+            ]
+          }
+        ],
+        "isDarkMode": true,
+        "colorfulness": 0.000015165190550356477,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 20.03,
+            "background": "#080808",
+            "foreground": "#ffffff"
+          },
+          {
+            "level": "AAA",
+            "ratio": 17.58,
+            "background": "#ffffff",
+            "foreground": "#191919"
+          },
+          {
+            "level": "AAA",
+            "ratio": 12.63,
+            "background": "#ffffff",
+            "foreground": "#333333"
+          },
+          {
+            "level": "AAA",
+            "ratio": 11.55,
+            "background": "#393939",
+            "foreground": "#ffffff"
+          },
+          {
+            "level": "AAA",
+            "ratio": 9.92,
+            "background": "#b4b7b8",
+            "foreground": "#080808"
+          },
+          {
+            "level": "AAA",
+            "ratio": 8.71,
+            "background": "#b4b7b8",
+            "foreground": "#191919"
+          },
+          {
+            "level": "AAA",
+            "ratio": 7.29,
+            "background": "#080808",
+            "foreground": "#9c9c9c"
+          },
+          {
+            "level": "AA",
+            "ratio": 6.26,
+            "background": "#b4b7b8",
+            "foreground": "#333333"
+          },
+          {
+            "level": "AA",
+            "ratio": 5.72,
+            "background": "#b4b7b8",
+            "foreground": "#393939"
+          },
+          {
+            "level": "fail",
+            "ratio": 4.21,
+            "background": "#393939",
+            "foreground": "#9c9c9c"
+          },
+          {
+            "level": "fail",
+            "ratio": 2.75,
+            "background": "#ffffff",
+            "foreground": "#9c9c9c"
+          },
+          {
+            "level": "fail",
+            "ratio": 2.02,
+            "background": "#b4b7b8",
+            "foreground": "#ffffff"
+          },
+          {
+            "level": "fail",
+            "ratio": 1.73,
+            "background": "#393939",
+            "foreground": "#080808"
+          },
+          {
+            "level": "fail",
+            "ratio": 1.59,
+            "background": "#080808",
+            "foreground": "#333333"
+          },
+          {
+            "level": "fail",
+            "ratio": 1.36,
+            "background": "#b4b7b8",
+            "foreground": "#9c9c9c"
+          },
+          {
+            "level": "fail",
+            "ratio": 1.09,
+            "background": "#393939",
+            "foreground": "#333333"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [
+          {
+            "value": 6,
+            "contexts": [
+              "link",
+              "card"
+            ],
+            "frequency": 10
+          },
+          {
+            "value": 20,
+            "contexts": [
+              "other",
+              "card"
+            ],
+            "frequency": 8
+          },
+          {
+            "value": 100,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2
+          },
+          {
+            "value": 1440,
+            "contexts": [
+              "other",
+              "link",
+              "button"
+            ],
+            "frequency": 23
+          }
+        ],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 4,
+            "frequency": 28,
+            "properties": [
+              "rowGap",
+              "columnGap",
+              "paddingTop",
+              "paddingBottom"
+            ]
+          },
+          {
+            "value": 6,
+            "frequency": 8,
+            "properties": [
+              "rowGap",
+              "columnGap"
+            ]
+          },
+          {
+            "value": 7,
+            "frequency": 2,
+            "properties": [
+              "marginBottom"
+            ]
+          },
+          {
+            "value": 8,
+            "frequency": 37,
+            "properties": [
+              "paddingTop",
+              "paddingRight",
+              "paddingBottom",
+              "rowGap",
+              "columnGap"
+            ]
+          },
+          {
+            "value": 10,
+            "frequency": 35,
+            "properties": [
+              "paddingLeft",
+              "paddingTop",
+              "paddingBottom"
+            ]
+          },
+          {
+            "value": 12,
+            "frequency": 18,
+            "properties": [
+              "rowGap",
+              "columnGap",
+              "paddingTop",
+              "paddingRight",
+              "paddingBottom",
+              "paddingLeft"
+            ]
+          },
+          {
+            "value": 16,
+            "frequency": 58,
+            "properties": [
+              "rowGap",
+              "columnGap",
+              "paddingRight",
+              "paddingLeft",
+              "paddingTop",
+              "paddingBottom"
+            ]
+          },
+          {
+            "value": 20,
+            "frequency": 46,
+            "properties": [
+              "paddingRight",
+              "paddingLeft",
+              "rowGap",
+              "columnGap",
+              "marginBottom",
+              "paddingTop",
+              "paddingBottom"
+            ]
+          },
+          {
+            "value": 23,
+            "frequency": 2,
+            "properties": [
+              "rowGap",
+              "columnGap"
+            ]
+          },
+          {
+            "value": 24,
+            "frequency": 18,
+            "properties": [
+              "rowGap",
+              "columnGap",
+              "paddingRight",
+              "paddingLeft"
+            ]
+          },
+          {
+            "value": 27,
+            "frequency": 20,
+            "properties": [
+              "marginRight",
+              "marginLeft"
+            ]
+          },
+          {
+            "value": 28,
+            "frequency": 2,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ]
+          },
+          {
+            "value": 32,
+            "frequency": 47,
+            "properties": [
+              "paddingTop",
+              "paddingRight",
+              "paddingBottom",
+              "paddingLeft",
+              "rowGap",
+              "columnGap"
+            ]
+          },
+          {
+            "value": 40,
+            "frequency": 16,
+            "properties": [
+              "paddingTop",
+              "paddingBottom",
+              "rowGap",
+              "columnGap"
+            ]
+          },
+          {
+            "value": 44,
+            "frequency": 3,
+            "properties": [
+              "marginBottom",
+              "rowGap",
+              "columnGap"
+            ]
+          },
+          {
+            "value": 48,
+            "frequency": 5,
+            "properties": [
+              "paddingRight",
+              "paddingLeft",
+              "rowGap",
+              "columnGap"
+            ]
+          },
+          {
+            "value": 59,
+            "frequency": 4,
+            "properties": [
+              "marginRight",
+              "marginLeft"
+            ]
+          },
+          {
+            "value": 64,
+            "frequency": 10,
+            "properties": [
+              "rowGap",
+              "columnGap",
+              "paddingTop",
+              "paddingRight",
+              "paddingBottom",
+              "paddingLeft"
+            ]
+          },
+          {
+            "value": 67,
+            "frequency": 2,
+            "properties": [
+              "marginRight",
+              "marginLeft"
+            ]
+          },
+          {
+            "value": 68,
+            "frequency": 4,
+            "properties": [
+              "marginRight",
+              "marginLeft"
+            ]
+          },
+          {
+            "value": 78,
+            "frequency": 2,
+            "properties": [
+              "marginRight",
+              "marginLeft"
+            ]
+          },
+          {
+            "value": 80,
+            "frequency": 4,
+            "properties": [
+              "paddingTop",
+              "paddingBottom",
+              "rowGap",
+              "columnGap"
+            ]
+          },
+          {
+            "value": 88,
+            "frequency": 2,
+            "properties": [
+              "paddingTop",
+              "paddingBottom"
+            ]
+          },
+          {
+            "value": 98,
+            "frequency": 2,
+            "properties": [
+              "paddingTop",
+              "paddingBottom"
+            ]
+          },
+          {
+            "value": 103,
+            "frequency": 2,
+            "properties": [
+              "marginRight",
+              "marginLeft"
+            ]
+          },
+          {
+            "value": 110,
+            "frequency": 4,
+            "properties": [
+              "marginTop",
+              "marginBottom"
+            ]
+          },
+          {
+            "value": 184,
+            "frequency": 4,
+            "properties": [
+              "marginRight",
+              "marginLeft"
+            ]
+          },
+          {
+            "value": 231,
+            "frequency": 4,
+            "properties": [
+              "marginRight",
+              "marginLeft"
+            ]
+          }
+        ],
+        "density": "comfortable",
+        "baseUnit": 4
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "Overused Grotesk",
+            "source": "custom",
+            "weights": [
+              400,
+              500
+            ],
+            "frequency": 372,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "PP Mondwest",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 11,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 19,
+          "name": "Major Second",
+          "ratio": 1.125,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 12,
+            "family": "Overused Grotesk",
+            "weight": 400,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.4,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 14,
+            "family": "Overused Grotesk",
+            "weight": 400,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 5,
+            "lineHeight": 1.6,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 14,
+            "family": "Overused Grotesk",
+            "weight": 500,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 6,
+            "lineHeight": 1.3,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 14,
+            "family": "Overused Grotesk",
+            "weight": 500,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.4,
+            "letterSpacing": 0.02,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 14,
+            "family": "Overused Grotesk",
+            "weight": 400,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.4,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 14,
+            "family": "Overused Grotesk",
+            "weight": 400,
+            "contexts": [
+              "card"
+            ],
+            "frequency": 3,
+            "lineHeight": 1.2,
+            "letterSpacing": 0.02,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 14,
+            "family": "Overused Grotesk",
+            "weight": 400,
+            "contexts": [
+              "card",
+              "link"
+            ],
+            "frequency": 10,
+            "lineHeight": 1.5,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 14,
+            "family": "Overused Grotesk",
+            "weight": 500,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.3,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 14,
+            "family": "Overused Grotesk",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "body",
+              "link"
+            ],
+            "frequency": 6,
+            "lineHeight": 1.5,
+            "letterSpacing": 0.02,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 16,
+            "family": "PP Mondwest",
+            "weight": 400,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "lineHeight": 1.1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "PP Mondwest",
+            "weight": 400,
+            "contexts": [
+              "badge"
+            ],
+            "frequency": 2,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 16,
+            "family": "PP Mondwest",
+            "weight": 400,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.4,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "Overused Grotesk",
+            "weight": 400,
+            "contexts": [
+              "input"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.3,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 18,
+            "family": "Overused Grotesk",
+            "weight": 400,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.4,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 19,
+            "family": "Overused Grotesk",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "link",
+              "image",
+              "nav",
+              "body",
+              "hero",
+              "icon",
+              "badge",
+              "card",
+              "button",
+              "footer"
+            ],
+            "frequency": 283,
+            "lineHeight": 1.4,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 19,
+            "family": "Overused Grotesk",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "icon"
+            ],
+            "frequency": 31,
+            "lineHeight": 1.3,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 20,
+            "family": "Overused Grotesk",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "body",
+              "card"
+            ],
+            "frequency": 9,
+            "lineHeight": 1.4,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 24,
+            "family": "Overused Grotesk",
+            "weight": 400,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 3,
+            "lineHeight": 1.1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 24,
+            "family": "Overused Grotesk",
+            "weight": 400,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.3,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 28,
+            "family": "Overused Grotesk",
+            "weight": 400,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 6,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 51,
+            "family": "Overused Grotesk",
+            "weight": 400,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 3,
+            "lineHeight": 1.1,
+            "letterSpacing": -0.01,
+            "textTransform": "none"
+          },
+          {
+            "size": 51,
+            "family": "PP Mondwest",
+            "weight": 400,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 2,
+            "lineHeight": 1,
+            "letterSpacing": -0.01,
+            "textTransform": "none"
+          },
+          {
+            "size": 54,
+            "family": "PP Mondwest",
+            "weight": 400,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 2,
+            "lineHeight": 1.1,
+            "letterSpacing": -0.011,
+            "textTransform": "none"
+          },
+          {
+            "size": 54,
+            "family": "PP Mondwest",
+            "weight": 400,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 2,
+            "lineHeight": 1.1,
+            "letterSpacing": -0.009,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Use Overused Grotesk (or Inter) for all body copy and UI elements, prioritizing readability with Lunar White #ffffff on Void Black #080808.",
+        "Employ PP Mondwest (or Playfair Display) exclusively for large, impactful headlines at sizes 51px and 54px to convey brand authority.",
+        "Maintain a fully dark theme with 'Void Black' #080808 as the pervasive background color.",
+        "Apply a 1440px border-radius to all buttons for a distinctive pill shape, ensuring a soft touch within the otherwise sharp interface.",
+        "Utilize 'Lunar White' #ffffff for all interactive element borders and primary text to ensure maximum contrast and visual guidance.",
+        "Use letter-spacing as specified for PP Mondwest headlines (-0.011em at largest size) to ensure a high-end, tight typographic presentation."
+      ],
+      "donts": [
+        "Do not use shadows for elevation; rely solely on color contrast and background changes for layering and hierarchy.",
+        "Avoid using chromatic colors; the palette is strictly achromatic with very subtle dark and light grays.",
+        "Do not introduce new fonts; restrict typography to Overused Grotesk and PP Mondwest to maintain distinct roles.",
+        "Do not deviate from the specified border-radii; especially the 1440px pill shape for buttons and 0px for inputs.",
+        "Do not use generic button styles; all buttons are primarily ghost buttons with a visible border, not solid fills.",
+        "Avoid excessive imagery; the aesthetic is text and UI-dominant, with imagery used sparingly and powerfully (e.g., full-bleed backgrounds)."
+      ],
+      "theme": "dark",
+      "colors": [
+        {
+          "hex": "#080808",
+          "name": "Void Black",
+          "role": "Primary background for the entire application, creating a deep, infinite canvas. Also used for some text.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#ffffff",
+          "name": "Lunar White",
+          "role": "Dominant text color for headings and body, accent color for borders and interactive elements, providing high contrast against the Void Black.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#9c9c9c",
+          "name": "Slate Gray",
+          "role": "Secondary text and informational accents, offering a subtle contrast to Lunar White without diminishing readability.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#191919",
+          "name": "Obsidian Grey",
+          "role": "Subtle border color, creating very low-contrast divisions within the dark theme.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#393939",
+          "name": "Meteorite Gray",
+          "role": "Background for minor elements or dividers, a slightly lighter shade of the background.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#b4b7b8",
+          "name": "Moon Rock",
+          "role": "Background for specific card elements, providing a distinct, slightly desaturated surface within the dark theme.",
+          "group": "neutral"
+        }
+      ],
+      "layout": "The page employs a full-bleed layout, where background imagery and dark gradients extend to the edges of the viewport, creating a vast, immersive experience. Content is primarily centered within a flexible max-width container that isn't strictly defined but provides comfortable reading lines. The hero section features a full-viewport visual (dynamic video/image) with a centered headline and navigation pinned to the top. Subsequent sections maintain consistent vertical spacing (sectionGap of 80px) and often utilize a single-column stacked content arrangement, with text-heavy blocks contrasting against the dark backgrounds. There's no distinct grid for cards or features, rather content flows linearly. Navigation is a sticky top bar with minimal links and a prominent 'Reserve a Spot' ghost button.",
+      "imagery": "The visual language is characterized by realistic, high-resolution photography of celestial bodies (planets, stars, sun flares) used full-bleed as background elements, creating an immersive, atmospheric context. These images are often dark and moody, serving as subtle backdrops rather than focal points. Product-specific visuals are minimal, with abstract UI graphics represented through high-contrast grid lines (+ shapes) on dark surfaces. Icons are typically monochromatic white outlines. The density is image-heavy in the hero but otherwise text-dominant, with imagery functioning decoratively to establish mood and theme.",
+      "similar": [
+        {
+          "why": "Dark-mode UI, focus on space exploration, high-contrast text on dark backgrounds, and a blend of modern sans-serifs with a touch of elegance.",
+          "business": "Axiom Space"
+        },
+        {
+          "why": "Technical, minimalist design, dark UI with strong typography, and a brand focus on futuristic endeavors.",
+          "business": "SpaceX"
+        },
+        {
+          "why": "High-contrast dark themes, strong emphasis on typography, and a sophisticated, almost stark presentation of advanced technology.",
+          "business": "Apple (Pro product pages)"
+        },
+        {
+          "why": "Utilizes a clean, dark interface with prominent header typography, blending technological advancement with a refined visual style.",
+          "business": "Baidu (Science & Tech pages)"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "cards": "6px",
+          "badges": "20px",
+          "inputs": "0px",
+          "buttons": "1440px"
+        },
+        "elementGap": "",
+        "sectionGap": "80px",
+        "cardPadding": "",
+        "pageMaxWidth": null
+      },
+      "industry": "other",
+      "northStar": "Star Chart Blueprint: High-contrast, sharp, and focused on pure form against a dark void.",
+      "typeScale": [
+        {
+          "role": "caption",
+          "size": 12,
+          "lineHeight": 1.5,
+          "letterSpacing": 0.24
+        },
+        {
+          "role": "body-sm",
+          "size": 14,
+          "lineHeight": 1.4
+        },
+        {
+          "role": "body",
+          "size": 16,
+          "lineHeight": 1.4,
+          "letterSpacing": -0.16
+        },
+        {
+          "role": "subheading",
+          "size": 19,
+          "lineHeight": 1.3
+        },
+        {
+          "role": "heading",
+          "size": 24,
+          "lineHeight": 1.2
+        },
+        {
+          "role": "heading-lg",
+          "size": 28,
+          "lineHeight": 1.2
+        },
+        {
+          "role": "display",
+          "size": 51,
+          "lineHeight": 1.1,
+          "letterSpacing": -0.51
+        },
+        {
+          "role": "display-xl",
+          "size": 54,
+          "lineHeight": 1,
+          "letterSpacing": -0.59
+        }
+      ],
+      "components": [
+        {
+          "html": "<div style=\"--color-void-black:#080808;--color-lunar-white:#ffffff;--color-slate-gray:#9c9c9c;--color-obsidian-grey:#191919;--color-meteorite-gray:#393939;--color-moon-rock:#b4b7b8;--font-overused-grotesk:'Inter',sans-serif;--font-pp-mondwest:'Playfair Display',serif;box-sizing:border-box;background:var(--color-void-black);padding:48px 40px;display:flex;flex-direction:column;align-items:center;gap:24px;width:600px;font-family:var(--font-overused-grotesk);\"><p style=\"font-family:var(--font-overused-grotesk);font-size:12px;font-weight:400;letter-spacing:0.08em;color:var(--color-slate-gray);text-transform:uppercase;margin:0 0 8px 0;\">Interactive Elements</p><div style=\"display:flex;flex-direction:row;align-items:center;gap:16px;flex-wrap:wrap;justify-content:center;\"><a href=\"#\" style=\"font-family:var(--font-overused-grotesk);font-size:16px;font-weight:400;color:var(--color-lunar-white);background:transparent;border:1px solid var(--color-lunar-white);border-radius:1440px;padding:12px 28px;text-decoration:none;display:inline-block;letter-spacing:-0.01em;transition:opacity 0.2s;\">Reserve a Spot</a><a href=\"#\" style=\"font-family:var(--font-overused-grotesk);font-size:16px;font-weight:400;color:var(--color-lunar-white);background:transparent;border:1px solid var(--color-obsidian-grey);border-radius:1440px;padding:12px 28px;text-decoration:none;display:inline-block;letter-spacing:-0.01em;\">Learn More</a><a href=\"#\" style=\"font-family:var(--font-overused-grotesk);font-size:16px;font-weight:400;color:var(--color-slate-gray);background:transparent;border:1px solid var(--color-meteorite-gray);border-radius:1440px;padding:12px 28px;text-decoration:none;display:inline-block;letter-spacing:-0.01em;\">Whitepaper</a></div><div style=\"width:100%;height:1px;background:var(--color-obsidian-grey);margin:8px 0;\"></div><div style=\"display:flex;flex-direction:row;align-items:center;gap:12px;\"><span style=\"font-family:var(--font-overused-grotesk);font-size:14px;color:var(--color-slate-gray);\">Primary</span><a href=\"#\" style=\"font-family:var(--font-overused-grotesk);font-size:14px;font-weight:400;color:var(--color-lunar-white);background:transparent;border:1px solid var(--color-lunar-white);border-radius:1440px;padding:8px 20px;text-decoration:none;display:inline-block;\">Reserve a Spot</a><span style=\"font-family:var(--font-overused-grotesk);font-size:14px;color:var(--color-slate-gray);margin-left:8px;\">Disabled</span><span style=\"font-family:var(--font-overused-grotesk);font-size:14px;font-weight:400;color:var(--color-meteorite-gray);background:transparent;border:1px solid var(--color-meteorite-gray);border-radius:1440px;padding:8px 20px;display:inline-block;cursor:not-allowed;\">Unavailable</span></div></div>",
+          "name": "Primary Ghost Button Group",
+          "role": "",
+          "description": ""
+        },
+        {
+          "html": "<div style=\"--color-void-black:#080808;--color-lunar-white:#ffffff;--color-slate-gray:#9c9c9c;--color-obsidian-grey:#191919;--color-meteorite-gray:#393939;--color-moon-rock:#b4b7b8;--font-overused-grotesk:'Inter',sans-serif;--font-pp-mondwest:'Playfair Display',serif;box-sizing:border-box;background:var(--color-void-black);width:600px;font-family:var(--font-overused-grotesk);padding:48px 0 0 0;\"><div style=\"padding:0 40px 32px 40px;\"><h2 style=\"font-family:var(--font-overused-grotesk);font-size:28px;font-weight:400;color:var(--color-lunar-white);margin:0;letter-spacing:-0.01em;\">Featured <span style=\"color:var(--color-slate-gray);font-style:italic;\">in</span></h2><p style=\"font-family:var(--font-overused-grotesk);font-size:14px;color:var(--color-slate-gray);margin:12px 0 0 0;line-height:1.5;\">GRU Space has been covered by leading global media since launch.</p></div><div style=\"border-top:1px solid var(--color-obsidian-grey);\"><a href=\"#\" style=\"display:block;padding:28px 40px;border-bottom:1px solid var(--color-obsidian-grey);text-decoration:none;background:transparent;\"><div style=\"font-family:var(--font-overused-grotesk);font-size:13px;font-weight:500;color:var(--color-slate-gray);letter-spacing:0.06em;text-transform:uppercase;margin-bottom:10px;\">SPACE.COM</div><div style=\"font-family:var(--font-overused-grotesk);font-size:18px;font-weight:400;color:var(--color-lunar-white);line-height:1.3;margin-bottom:10px;\">This company is taking $1 million reservations for hotel rooms on the Moon...</div><div style=\"font-family:var(--font-overused-grotesk);font-size:12px;color:var(--color-slate-gray);letter-spacing:0.06em;text-transform:uppercase;\">JANUARY 13, 2026</div></a><a href=\"#\" style=\"display:block;padding:28px 40px;border-bottom:1px solid var(--color-obsidian-grey);text-decoration:none;background:transparent;\"><div style=\"font-family:var(--font-overused-grotesk);font-size:13px;font-weight:500;color:var(--color-slate-gray);letter-spacing:0.06em;text-transform:uppercase;margin-bottom:10px;\">FOX 32 CHICAGO</div><div style=\"font-family:var(--font-overused-grotesk);font-size:18px;font-weight:400;color:var(--color-lunar-white);line-height:1.3;margin-bottom:10px;\">Want to vacation on the moon? GRU Space opens $1M reservations...</div><div style=\"font-family:var(--font-overused-grotesk);font-size:12px;color:var(--color-slate-gray);letter-spacing:0.06em;text-transform:uppercase;\">JANUARY 13, 2026</div></a><a href=\"#\" style=\"display:block;padding:28px 40px;border-bottom:1px solid var(--color-obsidian-grey);text-decoration:none;background:transparent;\"><div style=\"font-family:var(--font-overused-grotesk);font-size:13px;font-weight:500;color:var(--color-slate-gray);letter-spacing:0.06em;text-transform:uppercase;margin-bottom:10px;\">PAYLOAD</div><div style=\"font-family:var(--font-overused-grotesk);font-size:18px;font-weight:400;color:var(--color-lunar-white);line-height:1.3;margin-bottom:10px;\">You can now reserve a hotel room on the Moon for $250,000...</div><div style=\"font-family:var(--font-overused-grotesk);font-size:12px;color:var(--color-slate-gray);letter-spacing:0.06em;text-transform:uppercase;\">JANUARY 12, 2026</div></a></div></div>",
+          "name": "Featured In — Press Article Cards",
+          "role": "",
+          "description": ""
+        },
+        {
+          "html": "<div style=\"--color-void-black:#080808;--color-lunar-white:#ffffff;--color-slate-gray:#9c9c9c;--color-obsidian-grey:#191919;--color-meteorite-gray:#393939;--color-moon-rock:#b4b7b8;--font-overused-grotesk:'Inter',sans-serif;--font-pp-mondwest:'Playfair Display',serif;box-sizing:border-box;background:radial-gradient(ellipse at 50% 80%, #1a2030 0%, #0d0d14 45%, var(--color-void-black) 100%);width:600px;min-height:380px;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:64px 40px;position:relative;\"><div style=\"position:absolute;top:24px;left:24px;color:var(--color-slate-gray);font-size:18px;line-height:1;user-select:none;\">+</div><div style=\"position:absolute;top:24px;right:24px;color:var(--color-slate-gray);font-size:18px;line-height:1;user-select:none;\">+</div><div style=\"position:absolute;bottom:24px;left:24px;color:var(--color-slate-gray);font-size:18px;line-height:1;user-select:none;\">+</div><div style=\"position:absolute;bottom:24px;right:24px;color:var(--color-slate-gray);font-size:18px;line-height:1;user-select:none;\">+</div><div style=\"text-align:center;max-width:520px;\"><p style=\"font-family:var(--font-pp-mondwest);font-size:16px;font-weight:400;color:var(--color-slate-gray);margin:0 0 16px 0;letter-spacing:-0.009em;line-height:1.4;\">The First Hotel on the Moon</p><h1 style=\"font-family:var(--font-pp-mondwest);font-size:48px;font-weight:400;color:var(--color-lunar-white);margin:0 0 36px 0;line-height:1.1;letter-spacing:-0.011em;\">Take Part in Humanity's Journey to the Next Frontier</h1><a href=\"#\" style=\"font-family:var(--font-overused-grotesk);font-size:16px;font-weight:400;color:var(--color-lunar-white);background:transparent;border:1px solid var(--color-lunar-white);border-radius:1440px;padding:13px 32px;text-decoration:none;display:inline-block;letter-spacing:-0.01em;\">Reserve a Spot</a></div></div>",
+          "name": "Hero Headline & CTA Block",
+          "role": "",
+          "description": ""
+        },
+        {
+          "name": "Primary Ghost Button",
+          "role": "Call to action button for primary actions",
+          "description": "Border-only button with Lunar White text and 1440px border-radius, giving it a pill shape. Text is Overused Grotesk, 16px, weight 400. No background, transparent."
+        },
+        {
+          "name": "Header Navigation Link",
+          "role": "Navigation items in the header",
+          "description": "Text link using Overused Grotesk, 16px, weight 400, Lunar White color, no background or border, 0px border-radius."
+        },
+        {
+          "name": "Featured Article Card",
+          "role": "Displays news articles or similar content",
+          "description": "Transparent background card with 0px border-radius. Text uses Overused Grotesk or PP Mondwest with Lunar White or Slate Gray color. Padding of 80px top/bottom and 72px left on desktop. Hover state darkens text to 60% opacity."
+        },
+        {
+          "name": "Badge with Moon Rock Background",
+          "role": "Category tags or specific status indicators",
+          "description": "Rectangle with 20px border-radius and Moon Rock background (#b4b7b8). Padding of 16px around content. Text is Overused Grotesk, Lunar White."
+        },
+        {
+          "name": "Dark Overlay Card",
+          "role": "Informational cards with slight background emphasis",
+          "description": "Card with a translucent dark background (rgba(0,0,0,0.4)) and 8px border-radius. Padding of 12px vertical and 20px horizontal. Text is Lunar White with Overused Grotesk."
+        },
+        {
+          "name": "Text Input Field",
+          "role": "User input for forms",
+          "description": "White background, Lunar White border with 0px border-radius. Text is Void Black. Padding of 8px vertical and 24px horizontal. Placeholder text is Slate Grey (#6b6b6b)."
+        }
+      ],
+      "typography": [
+        {
+          "role": "The primary workhorse typeface for all body text, navigation, buttons, and most headings below display size. Its modern, sans-serif character supports the technical and forward-looking brand identity.",
+          "sizes": "12px, 14px, 16px, 18px, 19px, 20px, 24px, 28px, 51px",
+          "family": "Overused Grotesk",
+          "weight": "400, 500",
+          "lineHeight": "1.10, 1.20, 1.30, 1.40, 1.50, 1.60",
+          "substitute": "Inter",
+          "letterSpacing": "-0.01em at larger sizes; 0.02em for smaller text, maintaining legibility across contrast levels."
+        },
+        {
+          "role": "Used exclusively for large display headings; its classical serif form provides a sense of gravitas and sophistication, contrasting with the technical sans-serif to create an elevated, almost luxury, feel for key brand statements.",
+          "sizes": "16px, 51px, 54px",
+          "family": "PP Mondwest",
+          "weight": "400",
+          "lineHeight": "1.00, 1.10, 1.20, 1.40",
+          "substitute": "Playfair Display",
+          "letterSpacing": "-0.011em at 54px, -0.01em at 51px, -0.009em at 16px, creating a refined, tight feel for headlines."
+        }
+      ],
+      "description": "GRU Space presents a 'cosmic minimalist' aesthetic, leveraging deep blacks and stark whites to evoke the vastness of space and the precision of engineering. The combination of two distinct custom typefaces — one a contemporary sans-serif, the other a more traditional serif for display — creates a tension between futuristic ambition and foundational elegance. Minimalist border-only buttons, coupled with a complete absence of shadows, emphasize a flat, high-contrast digital environment, akin to looking at a star chart.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "### Quick Color Reference\n- Text (Primary): #ffffff (Lunar White)\n- Background (Primary): #080808 (Void Black)\n- CTA Button Border: #ffffff (Lunar White)\n- Accent (Headline Text): #ffffff (Lunar White)\n- Secondary Text: #9c9c9c (Slate Gray)\n\n### 3-5 Example Component Prompts\n1. Create a Hero Section: Full-bleed background image of space. Centered headline 'The First Hotel on the Moon' using PP Mondwest 54px #ffffff, lineHeight 1.0, letterSpacing -0.59px. Subtext 'Take Part in Humanity’s Journey to the Next Frontier' directly below, using Overused Grotesk 28px #ffffff, lineHeight 1.2.\n2. Design a Primary Ghost Button: Text 'RESERVE A SPOT' using Overused Grotesk 16px weight 400. Background transparent, border 1px solid #ffffff, border-radius 1440px. Padding 10px 20px.\n3. Implement a 'Featured In' Article Card: Transparent background. Headline 'This company is taking $1 million reservations...' using Overused Grotesk 24px #ffffff. Date 'January 13, 2026' below it, using Overused Grotesk 14px #9c9c9c. No border, no shadow, 0px radius. Padding 80px top/bottom and 72px left."
+        }
+      ],
+      "elevationPhilosophy": "The design intentionally avoids all shadows. Elevation is conveyed purely through high-contrast text and border treatments against a deep, dark background. Surface changes, when present, are achieved by slight variations in background color (e.g., Moon Rock #b4b7b8 for cards) rather than dimensional effects, reinforcing a flat, almost blueprint-like aesthetic."
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1776010486894-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1776010486894-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/d58d888e-85ed-4273-9816-2c83f65f6f1d",
+  "ranks": {
+    "trending": 464,
+    "popular": 355,
+    "newest": 909
+  },
+  "localSlug": "gru-space-d58d888e"
+}

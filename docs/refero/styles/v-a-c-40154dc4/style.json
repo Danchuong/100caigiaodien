@@ -1,0 +1,726 @@
+{
+  "id": "40154dc4-e681-4df9-be01-a6681d5887a6",
+  "url": "https://v-a-c.org/en",
+  "siteName": "V–A–C",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777517693895-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777517693895-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "light",
+  "colors": [
+    {
+      "name": "Canvas White",
+      "hex": "#ffffff"
+    },
+    {
+      "name": "Ink Black",
+      "hex": "#000000"
+    },
+    {
+      "name": "Accent Gray",
+      "hex": "#999999"
+    }
+  ],
+  "fonts": [
+    "Diagramatika Text",
+    "Diagramatika Display"
+  ],
+  "northStar": "Architectural grid on white",
+  "createdAt": "2026-04-30T02:55:18.017Z",
+  "previewVideoCapturedAt": null,
+  "industry": "media",
+  "fullResult": {
+    "meta": {
+      "url": "https://v-a-c.org/en",
+      "siteName": "V–A–C",
+      "extractedAt": "2026-04-30T02:55:17.189Z",
+      "durationMs": 35997,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 632,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "other",
+              "link",
+              "heading",
+              "button",
+              "body",
+              "hero",
+              "list",
+              "card",
+              "image",
+              "input"
+            ],
+            "frequency": 3105,
+            "confidence": 1,
+            "prominence": 87166303.07150428,
+            "properties": [
+              "color",
+              "borderColor",
+              "backgroundColor",
+              "fill"
+            ],
+            "usageCounts": {
+              "body/color": 97,
+              "card/color": 103,
+              "hero/color": 1,
+              "link/color": 43,
+              "list/color": 26,
+              "other/fill": 8,
+              "image/color": 22,
+              "input/color": 1,
+              "other/color": 256,
+              "button/color": 4,
+              "heading/color": 66,
+              "body/borderColor": 388,
+              "card/borderColor": 412,
+              "hero/borderColor": 4,
+              "link/borderColor": 172,
+              "list/borderColor": 104,
+              "image/borderColor": 88,
+              "input/borderColor": 4,
+              "other/borderColor": 1024,
+              "button/borderColor": 16,
+              "heading/borderColor": 264,
+              "body/backgroundColor": 2
+            }
+          },
+          {
+            "hex": "#999999",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.6829534013134412
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "confidence": 1,
+            "prominence": 1837909.8361362468,
+            "properties": [
+              "stroke"
+            ],
+            "usageCounts": {
+              "other/stroke": 2
+            }
+          },
+          {
+            "hex": "#ffffff",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 1.0000000000000002
+            },
+            "contexts": [
+              "heading",
+              "other",
+              "button"
+            ],
+            "frequency": 45,
+            "confidence": 1,
+            "prominence": 1090881.392073436,
+            "properties": [
+              "backgroundColor",
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "other/color": 5,
+              "button/color": 2,
+              "other/borderColor": 20,
+              "button/borderColor": 8,
+              "other/backgroundColor": 4,
+              "heading/backgroundColor": 6
+            }
+          }
+        ],
+        "isDarkMode": false,
+        "colorfulness": 0,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 21,
+            "background": "#ffffff",
+            "foreground": "#000000"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 2,
+            "contexts": [
+              "other",
+              "input"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingBottom",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingBottom|other",
+              "paddingLeft|input"
+            ]
+          },
+          {
+            "value": 5,
+            "contexts": [
+              "other",
+              "card",
+              "link"
+            ],
+            "frequency": 77,
+            "properties": [
+              "marginLeft",
+              "marginBottom",
+              "marginRight"
+            ],
+            "propertyContextPairs": [
+              "marginLeft|other",
+              "marginBottom|other",
+              "marginBottom|card",
+              "marginRight|link"
+            ]
+          },
+          {
+            "value": 10,
+            "contexts": [
+              "other",
+              "button"
+            ],
+            "frequency": 10,
+            "properties": [
+              "paddingTop",
+              "paddingBottom",
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other",
+              "paddingBottom|other",
+              "paddingTop|button",
+              "paddingBottom|button",
+              "paddingRight|other",
+              "paddingLeft|other"
+            ]
+          },
+          {
+            "value": 11,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingLeft|other"
+            ]
+          },
+          {
+            "value": 20,
+            "contexts": [
+              "other",
+              "list"
+            ],
+            "frequency": 17,
+            "properties": [
+              "paddingRight",
+              "paddingLeft",
+              "columnGap",
+              "marginTop",
+              "rowGap"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|other",
+              "paddingLeft|other",
+              "columnGap|other",
+              "columnGap|list",
+              "marginTop|other",
+              "rowGap|other"
+            ]
+          },
+          {
+            "value": 35,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingTop",
+              "marginTop"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other",
+              "marginTop|other"
+            ]
+          },
+          {
+            "value": 40,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "marginBottom|other"
+            ]
+          },
+          {
+            "value": 150,
+            "contexts": [
+              "list"
+            ],
+            "frequency": 25,
+            "properties": [
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "marginBottom|list"
+            ]
+          },
+          {
+            "value": 258,
+            "contexts": [
+              "card"
+            ],
+            "frequency": 14,
+            "properties": [
+              "paddingTop"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|card"
+            ]
+          },
+          {
+            "value": 271,
+            "contexts": [
+              "card"
+            ],
+            "frequency": 1,
+            "properties": [
+              "paddingTop"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|card"
+            ]
+          },
+          {
+            "value": 274,
+            "contexts": [
+              "card"
+            ],
+            "frequency": 1,
+            "properties": [
+              "paddingTop"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|card"
+            ]
+          },
+          {
+            "value": 275,
+            "contexts": [
+              "card"
+            ],
+            "frequency": 3,
+            "properties": [
+              "paddingTop"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|card"
+            ]
+          },
+          {
+            "value": 276,
+            "contexts": [
+              "card"
+            ],
+            "frequency": 3,
+            "properties": [
+              "paddingTop"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|card"
+            ]
+          },
+          {
+            "value": 284,
+            "contexts": [
+              "card"
+            ],
+            "frequency": 1,
+            "properties": [
+              "paddingTop"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|card"
+            ]
+          },
+          {
+            "value": 310,
+            "contexts": [
+              "card"
+            ],
+            "frequency": 1,
+            "properties": [
+              "paddingTop"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|card"
+            ]
+          }
+        ],
+        "density": "compact",
+        "baseUnit": 6
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "Diagramatika Text",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 511,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "Diagramatika Display",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 114,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 16,
+          "name": "Major Second",
+          "ratio": 1.125,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 16,
+            "family": "Diagramatika Text",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "link",
+              "body",
+              "hero",
+              "list",
+              "card",
+              "image"
+            ],
+            "frequency": 320,
+            "lineHeight": 1.15,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 20,
+            "family": "Diagramatika Text",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "card",
+              "body",
+              "link"
+            ],
+            "frequency": 177,
+            "lineHeight": 1.1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 20,
+            "family": "Diagramatika Text",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "input"
+            ],
+            "frequency": 3,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 20,
+            "family": "Diagramatika Text",
+            "weight": 400,
+            "contexts": [
+              "button",
+              "other",
+              "body",
+              "link"
+            ],
+            "frequency": 9,
+            "lineHeight": 1.15,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 20,
+            "family": "Diagramatika Text",
+            "weight": 400,
+            "contexts": [
+              "button"
+            ],
+            "frequency": 2,
+            "lineHeight": 1.15,
+            "letterSpacing": 0,
+            "textTransform": "capitalize"
+          },
+          {
+            "size": 24,
+            "family": "Diagramatika Display",
+            "weight": 400,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.15,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 34,
+            "family": "Diagramatika Display",
+            "weight": 400,
+            "contexts": [
+              "heading",
+              "card",
+              "other"
+            ],
+            "frequency": 89,
+            "lineHeight": 0.9,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 35,
+            "family": "Diagramatika Display",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "link",
+              "heading",
+              "button"
+            ],
+            "frequency": 24,
+            "lineHeight": 0.88,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Use 'Ink Black' (#000000) for all text color, borders, and interactive elements where contrast is paramount.",
+        "Maintain a strict '0px' border-radius for all interactive and display elements, adhering to the sharp, angular aesthetic.",
+        "Employ 'Diagramatika Text' (400) for all body copy and most UI labels, prioritizing clarity over decoration.",
+        "Employ 'Diagramatika Display' (400) for headlines and major navigational elements, with sizes 24px, 34px, or 35px.",
+        "Ensure ample whitespace between sections using '150px' vertical spacing (`sectionGap`).",
+        "Design all interactive elements, such as buttons and links, as transparent backgrounds with only text and a border where necessary.",
+        "Utilize 'Accent Gray' (#999999) sparingly for subtle decorative strokes, not for primary UI elements."
+      ],
+      "donts": [
+        "Avoid using any colors other than Canvas White, Ink Black, and Accent Gray for primary UI elements and text.",
+        "Do not introduce any border-radius greater than '0px' on any component or surface.",
+        "Never apply box-shadows or elevation effects; the design system relies on flat surfaces and lines.",
+        "Do not introduce any explicit background colors for cards; they should appear as content directly on the canvas.",
+        "Avoid decorative imagery that breaks the monochrome, grid-based aesthetic, unless it is content within a card.",
+        "Do not use letter-spacing adjustments; all typography should maintain 'normal' letter-spacing.",
+        "Refrain from using any gradient fills; surfaces should be solid colors."
+      ],
+      "theme": "light",
+      "colors": [
+        {
+          "hex": "#ffffff",
+          "name": "Canvas White",
+          "role": "Page backgrounds, card surfaces, ghost button text (dark theme)",
+          "group": "neutral"
+        },
+        {
+          "hex": "#000000",
+          "name": "Ink Black",
+          "role": "Neutral form states, badge text, and quiet UI feedback where color should stay understated. Do not promote it to the primary CTA color",
+          "group": "neutral"
+        },
+        {
+          "hex": "#999999",
+          "name": "Accent Gray",
+          "role": "Decorative strokes, subtle secondary graphical elements",
+          "group": "neutral"
+        }
+      ],
+      "layout": "The page operates on a full-bleed model horizontally, with content contained within a flexible-width, vertically oriented grid. The hero section often features a clean line and heading (like 'GES-2', 'V', 'A', 'C') at the top, acting as a navigational anchor. Section rhythm is dictated by a consistent '150px' vertical gap between content blocks. Content is arranged primarily in a two-column grid where text and imagery flow in a linear, timeline-like sequence down the page without alternating patterns. Navigation is minimal, consisting of text links in the header and alongside sections, with a fixed position vertical navigation bar with rotated text. The design is compact in its element spacing but generous in its section spacing.",
+      "imagery": "Imagery largely consists of contained, unedited photographs and occasionally product/installation shots, serving as direct content rather than decorative elements. They are displayed within minimalist card containers without rounded corners or shadows, sitting directly on the white canvas. The treatment is raw, with no specific color filters beyond the original photo's intent. Icons (like the arrow for events) are minimal, outlined, and monochromatic, using 'Ink Black' (#000000). Imagery functions as explanatory content or event showcases, allowing the text to provide context.",
+      "similar": [
+        {
+          "why": "Similar white-space-heavy, precise typographic approach for an institutional feel.",
+          "business": "The Tate Modern"
+        },
+        {
+          "why": "Employs a stark, grid-based layout with minimal color, focusing on content and product arrangement.",
+          "business": "MoMA Design Store"
+        },
+        {
+          "why": "Many portfolio sites use a similar monochrome, high-contrast, no-radius aesthetic with strong typography.",
+          "business": "Studio—JQ"
+        },
+        {
+          "why": "Historical design influences that prioritize function, clean lines, and a minimalist color palette, similar to the V–A–C approach.",
+          "business": "Bauhaus Archive"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "all": "0px"
+        },
+        "elementGap": "5px",
+        "sectionGap": "150px",
+        "cardPadding": "0px",
+        "pageMaxWidth": null
+      },
+      "industry": "media",
+      "surfaces": [
+        {
+          "hex": "#ffffff",
+          "name": "Canvas White",
+          "level": 0,
+          "purpose": "Primary page background and default surface for content."
+        }
+      ],
+      "northStar": "Architectural grid on white",
+      "typeScale": [
+        {
+          "role": "body-sm",
+          "size": 16,
+          "lineHeight": 1.15
+        },
+        {
+          "role": "body",
+          "size": 20,
+          "lineHeight": 1.1
+        },
+        {
+          "role": "subheading",
+          "size": 24,
+          "lineHeight": 1.15
+        },
+        {
+          "role": "heading",
+          "size": 34,
+          "lineHeight": 0.9
+        }
+      ],
+      "components": [
+        {
+          "name": "Ghost Text Button (Dark Text)",
+          "role": "Primary interactions and navigation links",
+          "description": "Transparent background with Ink Black text. No padding, border, or radius. Text uses Diagramatika Text or Display, weight 400. Example: 'Search' or 'Load more'."
+        },
+        {
+          "name": "Ghost Text Button (Light Text)",
+          "role": "Interactive elements on dark sections, such as language toggles",
+          "description": "Transparent background with Canvas White text. No padding, border, or radius. Text uses Diagramatika Text, weight 400. Example: 'ru' / 'en'."
+        },
+        {
+          "name": "Minimal Card",
+          "role": "Displaying informational blocks like event listings",
+          "description": "Transparent background with no border-radius or box-shadow. Content is tightly aligned, often directly on the canvas. Padding is 0px. Top padding can vary (258px, 271px, 274px, 275px) depending on image height. Example: Event listings like 'Alexandra Sukhareva. Beginnings'."
+        },
+        {
+          "name": "Line Input",
+          "role": "Form inputs for search or data entry",
+          "description": "Transparent background with Ink Black text and a 1px Ink Black underline. Left padding is 2px. No border radius. Text uses Diagramatika Text, weight 400."
+        }
+      ],
+      "typography": [
+        {
+          "role": "Body copy, link text, card subtitles, input text — conveys clear information without demanding attention.",
+          "sizes": "16px, 20px",
+          "family": "Diagramatika Text",
+          "weight": "400",
+          "weights": [
+            400
+          ],
+          "lineHeight": "1.00, 1.10, 1.15",
+          "substitute": "IBM Plex Sans",
+          "letterSpacing": "normal"
+        },
+        {
+          "role": "Headlines, section titles, card titles — large and impactful, yet light in weight, establishing hierarchy subtly.",
+          "sizes": "24px, 34px, 35px",
+          "family": "Diagramatika Display",
+          "weight": "400",
+          "weights": [
+            400
+          ],
+          "lineHeight": "0.88, 0.90, 1.15",
+          "substitute": "IBM Plex Sans",
+          "letterSpacing": "normal"
+        }
+      ],
+      "description": "V–A–C embraces a highly structured, almost architectural aesthetic, presenting content within a minimalist, monochrome grid. Information is delivered with an academic rigor: thin lines, expansive white space, and stark black typography create a sense of directness without embellishment. The design prioritizes visual organization and content discovery through a precise, fixed-width layout and sparse use of interactive elements, giving the impression of an expertly curated digital catalog.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "Quick Color Reference:\ntext: #000000\nbackground: #ffffff\nborder: #000000\naccent: #000000 (primary visual accent)\nprimary action: no distinct CTA color\n\nExample Component Prompts:\nCreate a header link: Using Diagramatika Text 400 at 16px, color #000000, no background.\nCreate an event card title: 'The Oldest Person in the World.' using Diagramatika Display 400 at 34px, color #000000.\nCreate a search input: Transparent background input with a 1px #000000 bottom border, 2px padding-left, using Diagramatika Text 400 at 16px, color #000000.\nCreate a navigation marker: Vertical text 'Architecture' using Diagramatika Text 400 at 16px, color #000000, rotated -90deg."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777517693895-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777517693895-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/40154dc4-e681-4df9-be01-a6681d5887a6",
+  "ranks": {
+    "trending": 1282,
+    "popular": 1261,
+    "newest": 268
+  },
+  "localSlug": "v-a-c-40154dc4"
+}

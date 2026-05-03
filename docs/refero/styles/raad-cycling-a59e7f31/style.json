@@ -1,0 +1,805 @@
+{
+  "id": "a59e7f31-1fca-46c1-a6b0-8d1294b33a7c",
+  "url": "https://www.raad.cc",
+  "siteName": "Raad Cycling",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777518079610-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777518079610-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "dark",
+  "colors": [
+    {
+      "name": "Midnight Ink",
+      "hex": "#000000"
+    },
+    {
+      "name": "Arctic White",
+      "hex": "#ffffff"
+    },
+    {
+      "name": "Ash Gray",
+      "hex": "#333333"
+    },
+    {
+      "name": "Deep Gray",
+      "hex": "#181818"
+    },
+    {
+      "name": "Muted Stone",
+      "hex": "#666666"
+    }
+  ],
+  "fonts": [
+    "Arial",
+    "wfont_8b8bfe_cd7287b5071a4785a78bba57128a74e2"
+  ],
+  "northStar": "Monochromatic Performance Canvas",
+  "createdAt": "2026-04-30T03:01:38.694Z",
+  "previewVideoCapturedAt": null,
+  "industry": "ecommerce",
+  "fullResult": {
+    "meta": {
+      "url": "https://www.raad.cc",
+      "siteName": "Raad Cycling",
+      "extractedAt": "2026-04-30T03:01:38.629Z",
+      "durationMs": 29093,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 295,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "other",
+              "nav",
+              "icon",
+              "hero",
+              "image",
+              "body",
+              "footer"
+            ],
+            "frequency": 800,
+            "confidence": 1,
+            "prominence": 101752446.27547522,
+            "properties": [
+              "color",
+              "borderColor",
+              "backgroundColor",
+              "fill"
+            ],
+            "usageCounts": {
+              "icon/fill": 2,
+              "nav/color": 4,
+              "body/color": 6,
+              "hero/color": 1,
+              "other/fill": 10,
+              "image/color": 12,
+              "other/color": 152,
+              "footer/color": 1,
+              "nav/borderColor": 16,
+              "body/borderColor": 24,
+              "hero/borderColor": 4,
+              "image/borderColor": 48,
+              "other/borderColor": 515,
+              "footer/borderColor": 4,
+              "other/backgroundColor": 1
+            }
+          },
+          {
+            "hex": "#ffffff",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 1.0000000000000002
+            },
+            "contexts": [
+              "nav",
+              "other",
+              "button",
+              "icon",
+              "body",
+              "heading",
+              "link"
+            ],
+            "frequency": 298,
+            "confidence": 1,
+            "prominence": 10608164.431553157,
+            "properties": [
+              "color",
+              "borderColor",
+              "fill",
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "icon/fill": 2,
+              "nav/color": 2,
+              "body/color": 23,
+              "icon/color": 1,
+              "link/color": 4,
+              "other/fill": 18,
+              "other/color": 4,
+              "button/color": 2,
+              "heading/color": 12,
+              "nav/borderColor": 8,
+              "body/borderColor": 92,
+              "icon/borderColor": 4,
+              "link/borderColor": 32,
+              "other/borderColor": 32,
+              "button/borderColor": 8,
+              "heading/borderColor": 48,
+              "link/backgroundColor": 6
+            }
+          },
+          {
+            "hex": "#333333",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.3210925111636326
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 17,
+            "confidence": 1,
+            "prominence": 528913.2871829428,
+            "properties": [
+              "borderColor"
+            ],
+            "usageCounts": {
+              "other/borderColor": 17
+            }
+          },
+          {
+            "hex": "#181818",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.20903608651870992
+            },
+            "contexts": [
+              "link"
+            ],
+            "frequency": 24,
+            "confidence": 1,
+            "prominence": 32506.993328423072,
+            "properties": [
+              "borderColor"
+            ],
+            "usageCounts": {
+              "link/borderColor": 24
+            }
+          },
+          {
+            "hex": "#666666",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.5102783583015936
+            },
+            "contexts": [
+              "other",
+              "body"
+            ],
+            "frequency": 18,
+            "confidence": 1,
+            "prominence": 20390.05206452921,
+            "properties": [
+              "borderColor",
+              "color"
+            ],
+            "usageCounts": {
+              "body/color": 2,
+              "body/borderColor": 8,
+              "other/borderColor": 8
+            }
+          },
+          {
+            "hex": "#5e97ff",
+            "oklch": {
+              "c": 0.16510777687766987,
+              "h": 261.4286842350674,
+              "l": 0.6861403772002236
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 4,
+            "confidence": 1,
+            "prominence": 18724.028157171688,
+            "properties": [
+              "stroke"
+            ],
+            "usageCounts": {
+              "other/stroke": 4
+            }
+          }
+        ],
+        "isDarkMode": false,
+        "colorfulness": 0.0015374237202567206,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 21,
+            "background": "#ffffff",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 17.76,
+            "background": "#ffffff",
+            "foreground": "#181818"
+          },
+          {
+            "level": "AAA",
+            "ratio": 12.63,
+            "background": "#ffffff",
+            "foreground": "#333333"
+          },
+          {
+            "level": "AA",
+            "ratio": 5.74,
+            "background": "#ffffff",
+            "foreground": "#666666"
+          },
+          {
+            "level": "fail",
+            "ratio": 3.66,
+            "background": "#000000",
+            "foreground": "#666666"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [
+          {
+            "value": 100,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1
+          }
+        ],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 2,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 9,
+            "properties": [
+              "paddingBottom",
+              "paddingTop"
+            ],
+            "propertyContextPairs": [
+              "paddingBottom|other",
+              "paddingTop|other"
+            ]
+          },
+          {
+            "value": 5,
+            "contexts": [
+              "nav",
+              "other"
+            ],
+            "frequency": 5,
+            "properties": [
+              "paddingRight",
+              "paddingLeft",
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|nav",
+              "paddingLeft|nav",
+              "marginBottom|other"
+            ]
+          },
+          {
+            "value": 6,
+            "contexts": [
+              "button"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingTop",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|button",
+              "paddingBottom|button"
+            ]
+          },
+          {
+            "value": 7,
+            "contexts": [
+              "button",
+              "other",
+              "body"
+            ],
+            "frequency": 6,
+            "properties": [
+              "paddingRight",
+              "paddingLeft",
+              "marginRight",
+              "marginLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|button",
+              "paddingLeft|button",
+              "marginRight|other",
+              "marginLeft|other",
+              "paddingRight|body",
+              "paddingLeft|body"
+            ]
+          },
+          {
+            "value": 10,
+            "contexts": [
+              "other",
+              "nav"
+            ],
+            "frequency": 5,
+            "properties": [
+              "marginBottom",
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "marginBottom|other",
+              "paddingRight|nav",
+              "paddingLeft|nav"
+            ]
+          },
+          {
+            "value": 20,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 13,
+            "properties": [
+              "marginTop"
+            ],
+            "propertyContextPairs": [
+              "marginTop|other"
+            ]
+          },
+          {
+            "value": 30,
+            "contexts": [
+              "other",
+              "hero"
+            ],
+            "frequency": 7,
+            "properties": [
+              "marginRight",
+              "paddingRight",
+              "paddingLeft",
+              "marginTop"
+            ],
+            "propertyContextPairs": [
+              "marginRight|other",
+              "paddingRight|hero",
+              "paddingLeft|hero",
+              "marginTop|other",
+              "paddingRight|other",
+              "paddingLeft|other"
+            ]
+          },
+          {
+            "value": 60,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingBottom",
+              "marginTop"
+            ],
+            "propertyContextPairs": [
+              "paddingBottom|other",
+              "marginTop|other"
+            ]
+          },
+          {
+            "value": 120,
+            "contexts": [
+              "hero",
+              "other"
+            ],
+            "frequency": 6,
+            "properties": [
+              "paddingTop",
+              "paddingBottom",
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|hero",
+              "paddingBottom|hero",
+              "marginBottom|other"
+            ]
+          }
+        ],
+        "density": "comfortable",
+        "baseUnit": null
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "Arial",
+            "source": "system",
+            "weights": [
+              400
+            ],
+            "frequency": 204,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "wfont_8b8bfe_cd7287b5071a4785a78bba57128a74e2",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 64,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 16,
+          "name": "Major Second",
+          "ratio": 1.125,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 10,
+            "family": "Arial",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "link",
+              "nav",
+              "button",
+              "icon",
+              "hero",
+              "image",
+              "footer"
+            ],
+            "frequency": 204,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 12,
+            "family": "wfont_8b8bfe_cd7287b5071a4785a78bba57128a74e2",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "button",
+              "icon",
+              "body"
+            ],
+            "frequency": 13,
+            "lineHeight": 1.4,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 12,
+            "family": "wfont_8b8bfe_cd7287b5071a4785a78bba57128a74e2",
+            "weight": 400,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.2,
+            "letterSpacing": 0.1,
+            "textTransform": "none"
+          },
+          {
+            "size": 13,
+            "family": "wfont_8b8bfe_cd7287b5071a4785a78bba57128a74e2",
+            "weight": 400,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "wfont_8b8bfe_cd7287b5071a4785a78bba57128a74e2",
+            "weight": 400,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 15,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 18,
+            "family": "wfont_8b8bfe_cd7287b5071a4785a78bba57128a74e2",
+            "weight": 400,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 8,
+            "lineHeight": 1.4,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 18,
+            "family": "wfont_8b8bfe_cd7287b5071a4785a78bba57128a74e2",
+            "weight": 400,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 2,
+            "lineHeight": 2.5,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 18,
+            "family": "wfont_8b8bfe_cd7287b5071a4785a78bba57128a74e2",
+            "weight": 400,
+            "contexts": [
+              "body",
+              "link",
+              "button"
+            ],
+            "frequency": 13,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 50,
+            "family": "wfont_8b8bfe_cd7287b5071a4785a78bba57128a74e2",
+            "weight": 400,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 4,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 50,
+            "family": "wfont_8b8bfe_cd7287b5071a4785a78bba57128a74e2",
+            "weight": 400,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 2,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 54,
+            "family": "wfont_8b8bfe_cd7287b5071a4785a78bba57128a74e2",
+            "weight": 400,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 5,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Prioritize a strict achromatic palette using only Midnight Ink and Arctic White for backgrounds and primary text to maintain visual impact.",
+        "Use wfont_8b8bfe_cd7287b5071a4785a78bba57128a74e2 with its inherent 0.10em letter spacing for all headlines, body text, and navigation to establish a technical, confident tone.",
+        "Ensure all interactive elements and links have a 1px border in either Arctic White or Deep Gray, with no border-radius for a sharp, unadorned aesthetic.",
+        "Structure sections with generous vertical spacing (120px between major blocks) to create breathing room around prominent product imagery.",
+        "For all primary interactive elements, apply padding of 6px vertically and 7px horizontally, keeping text concise and visually balanced within its boundary.",
+        "Reserve Arial at 10px for the smallest functional text such as captions and footer links, ensuring it remains legible for utility information."
+      ],
+      "donts": [
+        "Avoid using any saturated colors unless for specific product photography, as they break the stark brand identity.",
+        "Do not introduce rounded corners on any UI elements; maintain sharp, 0px border-radius across all components.",
+        "Refrain from using drop shadows or complex elevation effects; the design relies on direct contrast and flat surfaces.",
+        "Do not center-align body text or lengthy paragraphs; maintain left-alignment for optimal readability.",
+        "Avoid dense UI elements or excessive information on a single screen; embrace ample white/black space around content.",
+        "Do not deviate from the specified typefaces or letter-spacing values to preserve the distinctive typographic signature of the brand."
+      ],
+      "theme": "dark",
+      "colors": [
+        {
+          "hex": "#000000",
+          "name": "Midnight Ink",
+          "role": "Dark borders and separators for elevated surfaces and inverted UI. Do not promote it to the primary CTA color",
+          "group": "neutral"
+        },
+        {
+          "hex": "#ffffff",
+          "name": "Arctic White",
+          "role": "Surface backgrounds, body text (on dark backgrounds), ghost button text and borders, interactive highlights",
+          "group": "neutral"
+        },
+        {
+          "hex": "#333333",
+          "name": "Ash Gray",
+          "role": "Subtle borders for less prominent elements, disabled states",
+          "group": "neutral"
+        },
+        {
+          "hex": "#181818",
+          "name": "Deep Gray",
+          "role": "Dark borders and separators for elevated surfaces and inverted UI. Do not promote it to the primary CTA color",
+          "group": "neutral"
+        },
+        {
+          "hex": "#666666",
+          "name": "Muted Stone",
+          "role": "Secondary text, less prominent borders",
+          "group": "neutral"
+        }
+      ],
+      "layout": "The page employs a max-width, center-aligned container for most sections, though the hero section and subsequent image grids are full-bleed. The hero features a large, centered headline over a dark background. Sections alternate between full-width product imagery/panels and content blocks, often arranged in simple two-column layouts with text on one side and a supporting visual on the other. A strong grid is evident in product showcase areas, presenting items in responsive 2-column or 3-column structures. The layout is spacious, with distinct vertical section gaps that create a clear visual rhythm. Navigation is a minimalist top bar, sticky on scroll, with clear, high-contrast links.",
+      "imagery": "Photography is paramount, featuring tightly cropped product shots on stark backgrounds (either pure white or close-up textures like corrugated metal). There is a clear focus on the product itself, often worn by models in dynamic, staged poses, rather than lifestyle scenes. Images are full-bleed within their respective spatial divisions, maintaining sharp, unrounded edges. When used decoratively, images can occupy significant screen real estate, acting as visual anchors or section backgrounds. The style is crisp, high-resolution, and devoid of heavy filtering, presenting products transparently.",
+      "similar": [
+        {
+          "why": "High-contrast monochrome aesthetic with a focus on bold typography and structured layouts for technical appeal.",
+          "business": "A-COLD-WALL*"
+        },
+        {
+          "why": "Minimalist dark theme combined with prominent type and strategic use of negative space to highlight product focus.",
+          "business": "Y-3"
+        },
+        {
+          "why": "Black and white dominant palette with strong typography and direct product display, implying performance and focus.",
+          "business": "Peloton"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "pill": "100px",
+          "default": "0px"
+        },
+        "elementGap": "20px",
+        "sectionGap": "120px",
+        "cardPadding": "20px",
+        "pageMaxWidth": null
+      },
+      "industry": "ecommerce",
+      "northStar": "Monochromatic Performance Canvas",
+      "typeScale": [
+        {
+          "role": "caption",
+          "size": 10,
+          "lineHeight": 1.2,
+          "letterSpacing": 0
+        },
+        {
+          "role": "heading",
+          "size": 18,
+          "lineHeight": 1.4,
+          "letterSpacing": 1.8
+        },
+        {
+          "role": "display-sm",
+          "size": 50,
+          "lineHeight": 1,
+          "letterSpacing": 5
+        },
+        {
+          "role": "display",
+          "size": 54,
+          "lineHeight": 1,
+          "letterSpacing": 5.4
+        }
+      ],
+      "components": [
+        {
+          "name": "Ghost Button",
+          "role": "Primary interactive element.",
+          "description": "Transparent background with Arctic White text and 1px borders. No border-radius. Padding of 6px vertical and 7px horizontal, using the brand's primary typeface. Hover state maintains white borders and text."
+        },
+        {
+          "name": "Main Navigation Link",
+          "role": "Top-level navigation items.",
+          "description": "Arctic White text on Midnight Ink background, using the brand's primary typeface at 12px with 0.10em letter-spacing. Minimal padding (5px horizontal) and no distinct background or border."
+        },
+        {
+          "name": "Product Category Link",
+          "role": "Product discovery links.",
+          "description": "Arctic White text on transparent background, bordered by Deep Gray. Uses the brand's primary typeface. No border-radius, with padding of 6px vertical and 7px horizontal."
+        },
+        {
+          "name": "Body Text Block",
+          "role": "Informational paragraphs.",
+          "description": "Arctic White text on Midnight Ink backgrounds. Uses the brand's primary typeface at 13px, with a line height of 1.4 and 0.10em letter-spacing. Content is left-aligned within defined content areas."
+        },
+        {
+          "name": "Footer Link",
+          "role": "Secondary navigation and legal links.",
+          "description": "Muted Stone text on Midnight Ink background. Rendered in Arial at 10px, with normal letter-spacing, providing clear but understated informational cues."
+        }
+      ],
+      "typography": [
+        {
+          "role": "Small functional text like captions, utility links, and system messages — designed for legibility at minimal sizes.",
+          "sizes": "10px",
+          "family": "Arial",
+          "weight": "400",
+          "weights": [
+            400
+          ],
+          "lineHeight": "1.20",
+          "substitute": "Arial",
+          "letterSpacing": "normal"
+        },
+        {
+          "role": "Primary brand typeface for headings, body text, navigation, and buttons. Its wide letter-spacing at all sizes gives it a distinct, technical feel, emphasizing clarity over density. It is the visual voice of the brand.",
+          "sizes": "12px, 13px, 16px, 18px, 50px, 54px",
+          "family": "wfont_8b8bfe_cd7287b5071a4785a78bba57128a74e2",
+          "weight": "400",
+          "weights": [
+            400
+          ],
+          "lineHeight": "1.00, 1.20, 1.40, 2.50",
+          "substitute": "Montserrat",
+          "letterSpacing": "0.10em"
+        }
+      ],
+      "description": "Raad Cycling embodies a stark, high-contrast aesthetic where pure black and crisp white define the visual landscape. Product imagery takes center stage, punctuated by minimal UI elements that recede until interaction. Typography is assertive yet restrained, utilizing a distinct, widened sans-serif for impact and readability. The overall impression is one of confident, unornamented directness, mirroring the functional ambition of performance cycling gear.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "Quick Color Reference:\ntext: #ffffff\nbackground: #000000\nborder: #ffffff\nprimary action: no distinct CTA color\n\nExample Component Prompts:\nCreate a hero section with a Midnight Ink background. Headline uses wfont_8b8bfe_cd7287b5071a4785a78bba57128a74e2 at 54px, Arctic White text, and 0.10em letter-spacing. A subheading below it uses wfont_8b8bfe_cd7287b5071a4785a78bba57128a74e2 at 12px, Arctic White text, and 0.10em letter-spacing, centrally aligned.\n\nDesign a Ghost Button for 'DISCOVER': background transparent, border 1px solid Deep Gray (#181818), text Arctic White (#ffffff). Font is wfont_8b8bfe_cd7287b5071a4785a78bba57128a74e2 at 12px with 0.10em letter-spacing. Padding 6px top/bottom, 7px left/right. No border-radius.\n\nGenerate a navigation link for 'Collection': text Arctic White (#ffffff), font wfont_8b8bfe_cd7287b5071a4785a78bba57128a74e2 at 12px with 0.10em letter-spacing. No background or border. Horizontal padding is 5px.\n\nCreate a descriptive text block for 'Made with care': Midnight Ink background. Headline uses wfont_8b8bfe_cd7287b5071a4785a78bba57128a74e2 at 18px, Arctic White text, and 0.10em letter-spacing. Body paragraphs below it use wfont_8b8bfe_cd7287b5071a4785a78bba57128a74e2 at 13px, Arctic White text, 1.4 line-height, and 0.10em letter-spacing. Ensure ample padding around the text block."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777518079610-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777518079610-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/a59e7f31-1fca-46c1-a6b0-8d1294b33a7c",
+  "ranks": {
+    "trending": 1024,
+    "popular": 1049,
+    "newest": 246
+  },
+  "localSlug": "raad-cycling-a59e7f31"
+}

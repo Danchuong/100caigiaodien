@@ -1,0 +1,910 @@
+{
+  "id": "5596b7f9-09aa-4073-b283-4731425896e1",
+  "url": "https://classpass.com",
+  "siteName": "ClassPass",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775932939184-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775932939184-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "light",
+  "colors": [
+    {
+      "name": "Midnight Ink",
+      "hex": "#000000"
+    },
+    {
+      "name": "Cloud White",
+      "hex": "#ffffff"
+    },
+    {
+      "name": "Steel Gray",
+      "hex": "#676767"
+    },
+    {
+      "name": "Deep Graphite",
+      "hex": "#111111"
+    },
+    {
+      "name": "Sky Blue",
+      "hex": "#0055ff"
+    },
+    {
+      "name": "Sunshine Yellow",
+      "hex": "#fce172"
+    }
+  ],
+  "fonts": [
+    "norms",
+    "circuit"
+  ],
+  "northStar": "sunny fitness studio",
+  "createdAt": "2026-03-27T18:53:38.000Z",
+  "previewVideoCapturedAt": null,
+  "industry": "other",
+  "fullResult": {
+    "meta": {
+      "url": "https://classpass.com",
+      "siteName": "ClassPass",
+      "extractedAt": "2026-04-11T18:42:38.505Z",
+      "durationMs": 23960,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 217,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "complete",
+          "attempts": 2
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "other",
+              "nav",
+              "button",
+              "body",
+              "icon",
+              "heading",
+              "footer"
+            ],
+            "frequency": 362,
+            "confidence": 1,
+            "prominence": 18522293.389663137,
+            "properties": [
+              "color",
+              "borderColor",
+              "backgroundColor",
+              "fill"
+            ]
+          },
+          {
+            "hex": "#ffffff",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 1.0000000000000002
+            },
+            "contexts": [
+              "other",
+              "nav",
+              "body",
+              "footer",
+              "heading",
+              "list",
+              "link",
+              "button",
+              "icon"
+            ],
+            "frequency": 620,
+            "confidence": 1,
+            "prominence": 7973973.6919903485,
+            "properties": [
+              "backgroundColor",
+              "color",
+              "borderColor",
+              "fill",
+              "stroke"
+            ]
+          },
+          {
+            "hex": "#0055ff",
+            "oklch": {
+              "c": 0.2596377799105767,
+              "h": 262.63583491959287,
+              "l": 0.5331761043064883
+            },
+            "contexts": [
+              "nav",
+              "link",
+              "body"
+            ],
+            "frequency": 40,
+            "confidence": 1,
+            "prominence": 366456.55711587693,
+            "properties": [
+              "color",
+              "borderColor",
+              "backgroundColor"
+            ]
+          },
+          {
+            "hex": "#fce172",
+            "oklch": {
+              "c": 0.13405863392509051,
+              "h": 95.89629638257841,
+              "l": 0.9102905148262467
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 68400,
+            "properties": [
+              "backgroundColor"
+            ]
+          },
+          {
+            "hex": "#676767",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.5137937390697233
+            },
+            "contexts": [
+              "body"
+            ],
+            "frequency": 5,
+            "confidence": 1,
+            "prominence": 47976.90401338466,
+            "properties": [
+              "color",
+              "borderColor"
+            ]
+          },
+          {
+            "hex": "#111111",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.17763777307657064
+            },
+            "contexts": [
+              "body"
+            ],
+            "frequency": 5,
+            "confidence": 1,
+            "prominence": 38526.28111074811,
+            "properties": [
+              "color",
+              "borderColor"
+            ]
+          }
+        ],
+        "isDarkMode": false,
+        "colorfulness": 0.02752301046636184,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 21,
+            "background": "#ffffff",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 18.88,
+            "background": "#ffffff",
+            "foreground": "#111111"
+          },
+          {
+            "level": "AAA",
+            "ratio": 16.15,
+            "background": "#fce172",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 14.52,
+            "background": "#fce172",
+            "foreground": "#111111"
+          },
+          {
+            "level": "AA",
+            "ratio": 5.66,
+            "background": "#ffffff",
+            "foreground": "#676767"
+          },
+          {
+            "level": "AA",
+            "ratio": 5.61,
+            "background": "#0055ff",
+            "foreground": "#ffffff"
+          },
+          {
+            "level": "fail",
+            "ratio": 4.35,
+            "background": "#fce172",
+            "foreground": "#676767"
+          },
+          {
+            "level": "fail",
+            "ratio": 4.31,
+            "background": "#fce172",
+            "foreground": "#0055ff"
+          },
+          {
+            "level": "fail",
+            "ratio": 3.74,
+            "background": "#0055ff",
+            "foreground": "#000000"
+          },
+          {
+            "level": "fail",
+            "ratio": 3.71,
+            "background": "#000000",
+            "foreground": "#676767"
+          },
+          {
+            "level": "fail",
+            "ratio": 3.37,
+            "background": "#0055ff",
+            "foreground": "#111111"
+          },
+          {
+            "level": "fail",
+            "ratio": 1.3,
+            "background": "#fce172",
+            "foreground": "#ffffff"
+          },
+          {
+            "level": "fail",
+            "ratio": 1.11,
+            "background": "#000000",
+            "foreground": "#111111"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [
+          {
+            "value": 20,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1
+          },
+          {
+            "value": 9999,
+            "contexts": [
+              "nav",
+              "body"
+            ],
+            "frequency": 4
+          }
+        ],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 4,
+            "frequency": 4,
+            "properties": [
+              "paddingTop",
+              "paddingRight",
+              "paddingBottom",
+              "paddingLeft"
+            ]
+          },
+          {
+            "value": 8,
+            "frequency": 33,
+            "properties": [
+              "paddingTop",
+              "paddingBottom",
+              "marginBottom",
+              "paddingRight",
+              "paddingLeft",
+              "marginLeft"
+            ]
+          },
+          {
+            "value": 10,
+            "frequency": 2,
+            "properties": [
+              "paddingBottom",
+              "rowGap"
+            ]
+          },
+          {
+            "value": 12,
+            "frequency": 4,
+            "properties": [
+              "paddingTop",
+              "marginBottom"
+            ]
+          },
+          {
+            "value": 14,
+            "frequency": 3,
+            "properties": [
+              "paddingBottom"
+            ]
+          },
+          {
+            "value": 16,
+            "frequency": 45,
+            "properties": [
+              "marginLeft",
+              "paddingRight",
+              "paddingLeft",
+              "marginRight",
+              "paddingTop",
+              "marginTop",
+              "marginBottom",
+              "paddingBottom",
+              "columnGap"
+            ]
+          },
+          {
+            "value": 20,
+            "frequency": 3,
+            "properties": [
+              "marginBottom"
+            ]
+          },
+          {
+            "value": 24,
+            "frequency": 9,
+            "properties": [
+              "paddingLeft",
+              "paddingRight"
+            ]
+          },
+          {
+            "value": 40,
+            "frequency": 2,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ]
+          },
+          {
+            "value": 49,
+            "frequency": 2,
+            "properties": [
+              "marginRight",
+              "marginLeft"
+            ]
+          },
+          {
+            "value": 56,
+            "frequency": 4,
+            "properties": [
+              "paddingTop",
+              "paddingRight",
+              "paddingBottom",
+              "paddingLeft"
+            ]
+          },
+          {
+            "value": 64,
+            "frequency": 4,
+            "properties": [
+              "marginTop",
+              "paddingTop",
+              "paddingBottom"
+            ]
+          },
+          {
+            "value": 70,
+            "frequency": 2,
+            "properties": [
+              "marginRight",
+              "marginLeft"
+            ]
+          },
+          {
+            "value": 100,
+            "frequency": 2,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ]
+          },
+          {
+            "value": 199,
+            "frequency": 2,
+            "properties": [
+              "marginRight",
+              "marginLeft"
+            ]
+          }
+        ],
+        "density": "comfortable",
+        "baseUnit": 8
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "norms",
+            "source": "custom",
+            "weights": [
+              400,
+              500
+            ],
+            "frequency": 199,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "circuit",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 3,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 16,
+          "name": "Major Second",
+          "ratio": 1.125,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 12,
+            "family": "norms",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "list"
+            ],
+            "frequency": 6,
+            "lineHeight": 1.33,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 12,
+            "family": "norms",
+            "weight": 400,
+            "contexts": [
+              "list"
+            ],
+            "frequency": 1,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 12,
+            "family": "norms",
+            "weight": 500,
+            "contexts": [
+              "list",
+              "link",
+              "body",
+              "other"
+            ],
+            "frequency": 8,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 12,
+            "family": "norms",
+            "weight": 500,
+            "contexts": [
+              "list",
+              "link",
+              "body",
+              "icon"
+            ],
+            "frequency": 20,
+            "lineHeight": 1.33,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 14,
+            "family": "norms",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "nav",
+              "body",
+              "list"
+            ],
+            "frequency": 27,
+            "lineHeight": 1.43,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 14,
+            "family": "norms",
+            "weight": 500,
+            "contexts": [
+              "nav",
+              "button",
+              "list",
+              "link"
+            ],
+            "frequency": 17,
+            "lineHeight": 1.43,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "norms",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "link",
+              "footer",
+              "list",
+              "button",
+              "body",
+              "icon"
+            ],
+            "frequency": 85,
+            "lineHeight": 1.5,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "norms",
+            "weight": 500,
+            "contexts": [
+              "nav",
+              "body"
+            ],
+            "frequency": 4,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "norms",
+            "weight": 500,
+            "contexts": [
+              "other",
+              "button",
+              "body",
+              "icon"
+            ],
+            "frequency": 7,
+            "lineHeight": 1.5,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "norms",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "link"
+            ],
+            "frequency": 12,
+            "lineHeight": 1.4,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 18,
+            "family": "norms",
+            "weight": 400,
+            "contexts": [
+              "heading",
+              "body"
+            ],
+            "frequency": 3,
+            "lineHeight": 1.4,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 18,
+            "family": "norms",
+            "weight": 500,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 6,
+            "lineHeight": 1.33,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 36,
+            "family": "norms",
+            "weight": 400,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 2,
+            "lineHeight": 1.11,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 36,
+            "family": "norms",
+            "weight": 500,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.11,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 42,
+            "family": "circuit",
+            "weight": 400,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 3,
+            "lineHeight": 1.05,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Prioritize Sky Blue (#0055ff) for all primary interactive elements like buttons and active navigation states.",
+        "Use a 9999px border-radius for all primary and secondary buttons to maintain the 'pill' aesthetic.",
+        "Apply 20px border-radius for larger card-like components to soften their appearance.",
+        "Ensure headings use 'circuit' font at 42px/1.05 for primary messages, with 'norms' font for all other text sizes.",
+        "Maintain high contrast text with Midnight Ink (#000000) or Deep Graphite (#111111) on white backgrounds or Cloud White (#ffffff) on Sky Blue.",
+        "Utilize 8px as the base unit for all minor spacing, building up to 16px, 24px, and 40px for larger internal element separation.",
+        "Use `Sunshine Yellow (#fce172)` exclusively for banner-type announcements to capture immediate attention."
+      ],
+      "tags": [
+        "vibrant",
+        "approachable",
+        "energetic",
+        "clean",
+        "minimalist",
+        "rounded",
+        "photography-rich",
+        "high-contrast",
+        "active"
+      ],
+      "donts": [
+        "Do not introduce new color hues; stick to Sky Blue, Sunshine Yellow, and the established neutrals.",
+        "Avoid using square buttons or applying radii other than 9999px for interactive elements.",
+        "Do not use 'circuit' font for body text or small labels; it is reserved for prominent headings.",
+        "Avoid subtle contrast text on white backgrounds; always use Midnight Ink or Deep Graphite to ensure readability.",
+        "Do not deviate from the established padding values; consistent spacing is key for visual harmony.",
+        "Do not use shadows for elevation except where explicitly defined; depth is primarily created through background surfaces.",
+        "Do not use background images directly on content cards; instead, feature photography as a mosaic behind UI elements."
+      ],
+      "theme": "light",
+      "colors": [
+        {
+          "hex": "#000000",
+          "name": "Midnight Ink",
+          "role": "Primary text, critical UI elements, dark backgrounds for emphasis.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#ffffff",
+          "name": "Cloud White",
+          "role": "Page backgrounds, card surfaces, primary inverse text.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#676767",
+          "name": "Steel Gray",
+          "role": "Secondary text, subtle borders, less emphasized body copy.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#111111",
+          "name": "Deep Graphite",
+          "role": "Body copy on light backgrounds, providing strong contrast.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#0055ff",
+          "name": "Sky Blue",
+          "role": "CTA buttons, interactive components, active states, links — signaling action and primary brand presence.",
+          "group": "brand"
+        },
+        {
+          "hex": "#fce172",
+          "name": "Sunshine Yellow",
+          "role": "Promotional banners, highlight sections — a warm, inviting accent.",
+          "group": "accent"
+        }
+      ],
+      "layout": "The overall page is a max-width contained layout, though the underlying background (a photographic mosaic) often extends full-bleed. The hero section features a prominent white modal overlay centered over the photographic grid, providing a clear call to action. Content sections primarily follow a stacked, centered approach within the modal, or a more dynamic grid of images on the main page. Navigation is a consistent top bar that remains static at 64px height. The density is relatively high due to the constant presence of imagery, but text is kept concise and well-spaced within its containers.",
+      "imagery": "The site uses a dense, mosaic-like grid of high-quality, vibrant photography, exclusively featuring people engaged in fitness, wellness, and beauty activities. The images are full-bleed within their grid cells, uncropped or minimally cropped, and appear to be lifestyle shots rather than overly staged product placements. They are used decoratively to establish an energetic, aspirational atmosphere, occupying significant visual space relative to text. There are no illustrations or abstract graphics; the visual language is purely photographic, showcasing real people in real activities.",
+      "similar": [
+        {
+          "why": "Shares a focus on energetic photography of people engaged in fitness against a clean UI, using strong primary colors as accents.",
+          "business": "Peloton"
+        },
+        {
+          "why": "Similar use of dynamic, aspirational photography as a core visual element, paired with bold typography and a clear, functional interface.",
+          "business": "Nike"
+        },
+        {
+          "why": "Employs a grid of high-quality activity-focused photography with an overlayed, friendly UI and a bright, inviting color palette for engagement.",
+          "business": "Airbnb Experiences"
+        },
+        {
+          "why": "Combines a clean, light interface with vibrant, full-screen imagery of active individuals to create an engaging, aspirational experience.",
+          "business": "Apple Fitness+"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "tags": "9999px",
+          "cards": "20px",
+          "buttons": "9999px"
+        },
+        "elementGap": "8px",
+        "sectionGap": "56-64px",
+        "cardPadding": "16px",
+        "pageMaxWidth": null
+      },
+      "category": "health",
+      "northStar": "sunny fitness studio",
+      "typeScale": [
+        {
+          "role": "caption",
+          "size": 12,
+          "fontFamily": "norms",
+          "fontWeight": 400,
+          "lineHeight": 1.5
+        },
+        {
+          "role": "body-sm",
+          "size": 14,
+          "fontFamily": "norms",
+          "fontWeight": 400,
+          "lineHeight": 1.43
+        },
+        {
+          "role": "body",
+          "size": 16,
+          "fontFamily": "norms",
+          "fontWeight": 400,
+          "lineHeight": 1.5
+        },
+        {
+          "role": "subheading",
+          "size": 18,
+          "fontFamily": "norms",
+          "fontWeight": 500,
+          "lineHeight": 1.33
+        },
+        {
+          "role": "heading",
+          "size": 36,
+          "fontFamily": "norms",
+          "fontWeight": 500,
+          "lineHeight": 1.11
+        },
+        {
+          "role": "display",
+          "size": 42,
+          "fontFamily": "circuit",
+          "fontWeight": 400,
+          "lineHeight": 1.05
+        }
+      ],
+      "components": [
+        {
+          "html": "<style>:root{--color-midnight-ink:#000000;--color-cloud-white:#ffffff;--color-steel-gray:#676767;--color-deep-graphite:#111111;--color-sky-blue:#0055ff;--color-sunshine-yellow:#fce172;--font-norms:Inter,Arial,sans-serif;--font-circuit:Montserrat,Georgia,serif;}*{box-sizing:border-box;margin:0;padding:0;}</style><div style=\"width:600px;min-height:420px;background:var(--color-cloud-white);border-radius:20px;padding:56px 40px;display:flex;flex-direction:column;align-items:center;text-align:center;font-family:var(--font-norms);\"><h1 style=\"font-family:var(--font-circuit);font-size:42px;line-height:1.05;font-weight:400;color:var(--color-midnight-ink);margin-bottom:24px;\">One app for all things fitness, wellness, &amp; beauty</h1><p style=\"font-family:var(--font-norms);font-size:16px;line-height:1.5;color:var(--color-steel-gray);max-width:400px;margin-bottom:40px;\">ClassPass gives you worldwide access to thousands of top-rated gyms, fitness studios, salons, and spas.</p><a href=\"#\" style=\"display:block;width:100%;max-width:380px;background:var(--color-sky-blue);color:var(--color-cloud-white);font-family:var(--font-norms);font-size:16px;font-weight:500;line-height:1.5;text-decoration:none;text-align:center;padding:14px 24px;border-radius:9999px;border:none;margin-bottom:16px;\">Get 14 days free</a><a href=\"#\" style=\"display:block;width:100%;max-width:380px;background:transparent;color:var(--color-sky-blue);font-family:var(--font-norms);font-size:16px;font-weight:500;line-height:1.5;text-decoration:none;text-align:center;padding:14px 24px;border-radius:9999px;border:2px solid var(--color-sky-blue);margin-bottom:24px;\">Learn more about ClassPass</a><a href=\"#\" style=\"font-family:var(--font-norms);font-size:16px;font-weight:400;color:var(--color-midnight-ink);text-decoration:underline;margin-bottom:32px;\">Browse classes &amp; appointments</a><p style=\"font-family:var(--font-norms);font-size:12px;line-height:1.5;color:var(--color-steel-gray);max-width:360px;\">Offer available for new members only. Trial is limited to select gyms &amp; fitness studios.</p></div>",
+          "name": "Hero Modal Card",
+          "role": "",
+          "description": ""
+        },
+        {
+          "html": "<style>:root{--color-midnight-ink:#000000;--color-cloud-white:#ffffff;--color-steel-gray:#676767;--color-deep-graphite:#111111;--color-sky-blue:#0055ff;--color-sunshine-yellow:#fce172;--font-norms:Inter,Arial,sans-serif;--font-circuit:Montserrat,Georgia,serif;}*{box-sizing:border-box;margin:0;padding:0;}</style><div style=\"width:600px;background:var(--color-sunshine-yellow);padding:16px 24px;display:flex;align-items:center;justify-content:center;position:relative;font-family:var(--font-norms);\"><span style=\"font-size:16px;font-weight:500;color:var(--color-midnight-ink);line-height:1.5;\">&#x1F31F; Get 14 days free &#x1F31F;</span><button style=\"position:absolute;right:16px;top:50%;transform:translateY(-50%);background:transparent;border:none;cursor:pointer;padding:4px;display:flex;align-items:center;justify-content:center;\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M15 5L5 15M5 5L15 15\" stroke=\"#000000\" stroke-width=\"2\" stroke-linecap=\"round\"/></svg></button></div>",
+          "name": "Promotional Banner",
+          "role": "",
+          "description": ""
+        },
+        {
+          "html": "<style>:root{--color-midnight-ink:#000000;--color-cloud-white:#ffffff;--color-steel-gray:#676767;--color-deep-graphite:#111111;--color-sky-blue:#0055ff;--color-sunshine-yellow:#fce172;--font-norms:Inter,Arial,sans-serif;--font-circuit:Montserrat,Georgia,serif;}*{box-sizing:border-box;margin:0;padding:0;}</style><div style=\"width:600px;background:var(--color-cloud-white);padding:40px;display:flex;flex-direction:column;align-items:center;gap:16px;font-family:var(--font-norms);\"><p style=\"font-size:12px;font-weight:500;color:var(--color-steel-gray);letter-spacing:0.08em;text-transform:uppercase;margin-bottom:8px;\">Button Styles</p><a href=\"#\" style=\"display:block;width:100%;max-width:380px;background:var(--color-sky-blue);color:var(--color-cloud-white);font-family:var(--font-norms);font-size:16px;font-weight:500;line-height:1.5;text-decoration:none;text-align:center;padding:14px 24px;border-radius:9999px;\">Get 14 days free</a><a href=\"#\" style=\"display:block;width:100%;max-width:380px;background:transparent;color:var(--color-sky-blue);font-family:var(--font-norms);font-size:16px;font-weight:500;line-height:1.5;text-decoration:none;text-align:center;padding:14px 24px;border-radius:9999px;border:2px solid var(--color-sky-blue);\">Learn more about ClassPass</a><a href=\"#\" style=\"display:block;width:100%;max-width:380px;background:var(--color-midnight-ink);color:var(--color-cloud-white);font-family:var(--font-norms);font-size:16px;font-weight:500;line-height:1.5;text-decoration:none;text-align:center;padding:14px 24px;border-radius:9999px;\">Plans &amp; pricing</a><a href=\"#\" style=\"display:inline-block;font-family:var(--font-norms);font-size:16px;font-weight:400;color:var(--color-midnight-ink);text-decoration:underline;padding:8px 0;\">Browse classes &amp; appointments</a></div>",
+          "name": "Button Group",
+          "role": "",
+          "description": ""
+        },
+        {
+          "name": "Secondary Call to Action Button",
+          "role": "CTA button",
+          "description": "Outlined button with Cloud White background (rgba(0,0,0,0)), Sky Blue text (#0055ff), Sky Blue border (#0055ff), and a 'pill' shape (9999px border-radius). Padding is proportional to its primary counterpart."
+        },
+        {
+          "name": "Ghost Header Button",
+          "role": "Header elements",
+          "description": "Transparent background (rgba(0,0,0,0)), Midnight Ink text (#000000), no border, 0px border-radius. Used for header navigation and secondary actions. 16px horizontal padding."
+        },
+        {
+          "name": "Inverse Ghost Header Button",
+          "role": "Header elements",
+          "description": "Transparent background (rgba(0,0,0,0)), Cloud White text (#ffffff), no border, 0px border-radius. Used for header navigation in contexts with dark backgrounds. 16px horizontal padding."
+        },
+        {
+          "name": "Modal Card",
+          "role": "Dialog, overlay",
+          "description": "Cloud White background (#ffffff) with 20px border-radius, creating soft, welcoming pop-ups. Typically centered, with deep graphite body text and primary headlines. Generous internal padding (24-40px horizontal, 56px vertical) creating ample breathing room for content."
+        }
+      ],
+      "typography": [
+        {
+          "role": "Used for nearly all text, including body copy, links, navigation, buttons, and most headings. Its versatility makes it the staple for information delivery.",
+          "sizes": "12px, 14px, 16px, 18px, 36px",
+          "family": "norms",
+          "weight": "400, 500",
+          "lineHeight": "1.00, 1.11, 1.33, 1.40, 1.43, 1.50",
+          "substitute": "Inter, Arial",
+          "letterSpacing": "normal"
+        },
+        {
+          "role": "Reserved for prominent headlines, offering a distinct visual voice for key messaging.",
+          "sizes": "42px",
+          "family": "circuit",
+          "weight": "400",
+          "lineHeight": "1.05",
+          "substitute": "Montserrat, Georgia",
+          "letterSpacing": "normal"
+        }
+      ],
+      "description": "This design system feels energetic and clear, like a fitness studio bathed in natural light with sharp accents. The bright blue calls attention to interactive elements, contrasting with a clean, predominantly achromatic background. Rounded corners and generous spacing soften the overall feeling, making the diverse offerings appear approachable and user-friendly, rather than overwhelming.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "### Quick Color Reference\n- Text: #000000 (Midnight Ink)\n- Background: #ffffff (Cloud White)\n- CTA: #0055ff (Sky Blue)\n- Border: #0055ff (Sky Blue) - for outlined buttons\n- Accent: #fce172 (Sunshine Yellow)\n\n### 3-5 Example Component Prompts\n1. Create a `Primary Call to Action Button` with the text 'Sign Up Now'. It should be filled with Sky Blue, have Cloud White text, and a 9999px border-radius.\n2. Design a `Modal Card` dialog titled 'Welcome to ClassPass'. The background should be Cloud White with a 20px border-radius. Include a `display` headline of 'One app for all things fitness' using `circuit` font, Midnight Ink text, and then a paragraph of `body` text using `norms` font and Deep Graphite color.\n3. Implement a `Promotional Banner` at the top of the page. It should have a Sunshine Yellow background, Midnight Ink `body-sm` text saying '💥 Get 14 days free 💥' and 8px vertical padding.\n4. Generate a `Secondary Call to Action Button` with the label 'Learn more'. It should have a transparent background, Sky Blue text, a Sky Blue border, and a 9999px border-radius.\n5. Build a navigation link using `Ghost Header Button` style with the text 'How it works'. It should have Midnight Ink text, 0px border-radius, and 16px horizontal padding."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775932939184-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775932939184-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/5596b7f9-09aa-4073-b283-4731425896e1",
+  "ranks": {
+    "trending": 526,
+    "popular": 402,
+    "newest": 990
+  },
+  "localSlug": "classpass-5596b7f9"
+}

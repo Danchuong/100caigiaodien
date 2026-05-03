@@ -1,0 +1,550 @@
+{
+  "id": "6778ff21-44eb-40f3-ba85-2ee7de935f8f",
+  "url": "https://arthursimonini.com",
+  "siteName": "Arthursimonini",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777516013575-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777516013575-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "dark",
+  "colors": [
+    {
+      "name": "Midnight Canvas",
+      "hex": "#000000"
+    },
+    {
+      "name": "Ghost White",
+      "hex": "#ffffff"
+    }
+  ],
+  "fonts": [
+    "LifeLTStd-Roman",
+    "RomieLigatures-Regular"
+  ],
+  "northStar": "Dramatic typographic stage",
+  "createdAt": "2026-04-30T02:27:50.539Z",
+  "previewVideoCapturedAt": null,
+  "industry": "media",
+  "fullResult": {
+    "meta": {
+      "url": "https://arthursimonini.com",
+      "siteName": "Arthursimonini",
+      "extractedAt": "2026-04-30T02:27:50.401Z",
+      "durationMs": 77386,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 1084,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#ffffff",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 1.0000000000000002
+            },
+            "contexts": [
+              "other",
+              "link",
+              "heading",
+              "nav",
+              "hero",
+              "card",
+              "body",
+              "image",
+              "icon"
+            ],
+            "frequency": 5093,
+            "confidence": 1,
+            "prominence": 191361394.9556566,
+            "properties": [
+              "color",
+              "borderColor",
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "nav/color": 9,
+              "body/color": 57,
+              "card/color": 8,
+              "hero/color": 1,
+              "icon/color": 15,
+              "link/color": 1,
+              "image/color": 136,
+              "other/color": 821,
+              "heading/color": 36,
+              "nav/borderColor": 36,
+              "body/borderColor": 228,
+              "card/borderColor": 32,
+              "hero/borderColor": 4,
+              "icon/borderColor": 60,
+              "link/borderColor": 4,
+              "image/borderColor": 544,
+              "other/borderColor": 2956,
+              "heading/borderColor": 144,
+              "other/backgroundColor": 1
+            }
+          },
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "other",
+              "nav"
+            ],
+            "frequency": 11,
+            "confidence": 1,
+            "prominence": 55708212.88821884,
+            "properties": [
+              "backgroundColor",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "other/borderColor": 4,
+              "nav/backgroundColor": 1,
+              "other/backgroundColor": 6
+            }
+          }
+        ],
+        "isDarkMode": true,
+        "colorfulness": 0,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 21,
+            "background": "#000000",
+            "foreground": "#ffffff"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 5,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "marginTop",
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "marginTop|other",
+              "marginBottom|other"
+            ]
+          },
+          {
+            "value": 10,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 70,
+            "properties": [
+              "marginRight",
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "marginRight|other",
+              "marginBottom|other"
+            ]
+          },
+          {
+            "value": 15,
+            "contexts": [
+              "other",
+              "link",
+              "nav",
+              "hero",
+              "card",
+              "body"
+            ],
+            "frequency": 373,
+            "properties": [
+              "paddingRight",
+              "paddingLeft",
+              "paddingTop",
+              "paddingBottom",
+              "marginBottom",
+              "marginRight",
+              "rowGap",
+              "columnGap"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|other",
+              "paddingLeft|other",
+              "paddingTop|link",
+              "paddingBottom|link",
+              "paddingRight|nav",
+              "paddingLeft|nav",
+              "paddingTop|nav",
+              "paddingBottom|nav",
+              "paddingRight|hero",
+              "paddingLeft|hero",
+              "marginBottom|card",
+              "paddingTop|other",
+              "paddingBottom|other",
+              "marginRight|body",
+              "paddingTop|card",
+              "paddingBottom|card",
+              "rowGap|card",
+              "columnGap|card",
+              "columnGap|other",
+              "marginRight|other",
+              "rowGap|other",
+              "marginBottom|other"
+            ]
+          },
+          {
+            "value": 20,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 14,
+            "properties": [
+              "marginLeft"
+            ],
+            "propertyContextPairs": [
+              "marginLeft|other"
+            ]
+          },
+          {
+            "value": 40,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 11,
+            "properties": [
+              "marginRight"
+            ],
+            "propertyContextPairs": [
+              "marginRight|other"
+            ]
+          },
+          {
+            "value": 60,
+            "contexts": [
+              "card"
+            ],
+            "frequency": 1,
+            "properties": [
+              "paddingTop"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|card"
+            ]
+          },
+          {
+            "value": 62,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 15,
+            "properties": [
+              "paddingRight"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|other"
+            ]
+          }
+        ],
+        "density": "comfortable",
+        "baseUnit": 8
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "LifeLTStd-Roman",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 911,
+            "fontFeatureSettings": [
+              "\"kern\""
+            ]
+          },
+          {
+            "family": "RomieLigatures-Regular",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 173,
+            "fontFeatureSettings": [
+              "\"kern\"",
+              "\"dlig\", \"kern\""
+            ]
+          }
+        ],
+        "scale": {
+          "base": 18,
+          "name": "Major Third",
+          "ratio": 1.25,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 18,
+            "family": "LifeLTStd-Roman",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "nav",
+              "heading",
+              "hero",
+              "card",
+              "image",
+              "icon",
+              "body"
+            ],
+            "frequency": 874,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 18,
+            "family": "RomieLigatures-Regular",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "card"
+            ],
+            "frequency": 39,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 18,
+            "family": "LifeLTStd-Roman",
+            "weight": 400,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 27,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 18,
+            "family": "LifeLTStd-Roman",
+            "weight": 400,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 10,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 65,
+            "family": "RomieLigatures-Regular",
+            "weight": 400,
+            "contexts": [
+              "nav",
+              "heading",
+              "other"
+            ],
+            "frequency": 130,
+            "lineHeight": 0.9,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 167,
+            "family": "RomieLigatures-Regular",
+            "weight": 400,
+            "contexts": [
+              "link",
+              "heading"
+            ],
+            "frequency": 4,
+            "lineHeight": 0.73,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Prioritize extreme contrast: Ghost White (#ffffff) text and elements must always appear on Midnight Canvas (#000000) backgrounds.",
+        "Use RomieLigatures-Regular (weight 400, 'kern', 'dlig' features enabled) for all dominant headlines and titles to maintain the signature artistic feel.",
+        "Apply LifeLTStd-Roman (weight 400) for body copy, navigation, and secondary text, ensuring consistent classic readability.",
+        "Maintain strict adherence to 0px border-radius across all components, conveying a sharp, uncompromising aesthetic.",
+        "Employ 1px solid Ghost White (#ffffff) borders as subtle dividers for lists and separating textual content.",
+        "Utilize 15px as the primary elementGap and cardPadding, creating a comfortable yet contained density.",
+        "Embrace the absence of drop shadows or elevation; surfaces are flat against the Midnight Canvas (#000000) background."
+      ],
+      "donts": [
+        "Do not introduce any saturated colors; the palette is strictly monochrome Ghost White (#ffffff) and Midnight Canvas (#000000).",
+        "Avoid rounded corners or any soft shapes; all visual components should be sharp and rectilinear.",
+        "Do not use any font weights other than 400 for both primary font families.",
+        "Never introduce drop shadows or other forms of elevation; surfaces must remain flat against the background.",
+        "Avoid excessive padding or large gaps between interactive elements; maintain a comfortable, not expansive, density."
+      ],
+      "theme": "dark",
+      "colors": [
+        {
+          "hex": "#000000",
+          "name": "Midnight Canvas",
+          "role": "Page backgrounds, section separators, modal overlays — creates a deep, infinite backdrop",
+          "group": "neutral"
+        },
+        {
+          "hex": "#ffffff",
+          "name": "Ghost White",
+          "role": "Hairline borders, dividers, input outlines, and card edges on light surfaces. Do not promote it to the primary CTA color",
+          "group": "neutral"
+        }
+      ],
+      "layout": "The page uses a full-bleed layout on Midnight Canvas, with content centered but extending edge-to-edge for media grids. The hero section features a large, centered headline in RomieLigatures-Regular. Sections are distinguished by consistent vertical spacing of 40px and sometimes by a 1px Ghost White divider. Content is arranged either as single-column text blocks or compact, tightly packed media grids. Navigation is a simple top bar with Ghost White links. The overall density is comfortable, with ample breathing room around text but dense information display in image grids.",
+      "imagery": "The visual language is dominated by black-and-white photography and movie/album covers, often presented as tight crops or full-bleed. Imagery is presented with sharp, raw edges, typically contained within grid structures with no explicit spacing, creating a dense, mosaic-like appearance. Color imagery is desaturated to grayscale, maintaining the monochrome aesthetic. The role of imagery is primarily content showcase and decorative atmosphere, reflecting the artist's work.",
+      "similar": [
+        {
+          "why": "Stark, monochrome dark mode with emphasis on unique typography and filmic visuals.",
+          "business": "A24 (Studio)"
+        },
+        {
+          "why": "Heavy reliance on serif typography for classic, editorial feel on a dark background, minimal UI.",
+          "business": "The New York Times (digital archive)"
+        },
+        {
+          "why": "Dark UI with high-contrast text and functional rather than decorative use of white for interactive elements.",
+          "business": "Figma (dark mode)"
+        },
+        {
+          "why": "Sparse, dark UI with a focus on imagery (album covers) and strong typographic voice.",
+          "business": "Pitchfork (Archival content)"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "cards": "0px",
+          "media": "0px",
+          "inputs": "0px",
+          "buttons": "0px"
+        },
+        "elementGap": "15px",
+        "sectionGap": "40px",
+        "cardPadding": "15px",
+        "pageMaxWidth": null
+      },
+      "industry": "media",
+      "northStar": "Dramatic typographic stage",
+      "typeScale": [
+        {
+          "role": "body",
+          "size": 18,
+          "lineHeight": 1.2,
+          "letterSpacing": 0
+        },
+        {
+          "role": "subheading",
+          "size": 65,
+          "lineHeight": 0.9,
+          "letterSpacing": 0
+        },
+        {
+          "role": "display",
+          "size": 167,
+          "lineHeight": 0.73,
+          "letterSpacing": 0
+        }
+      ],
+      "components": [
+        {
+          "name": "Navigation Link",
+          "role": "Primary site navigation",
+          "description": "Ghost White (#ffffff) text using LifeLTStd-Roman, 18px size, normal letter-spacing, on a Midnight Canvas (#000000) background. Underlines appear on hover/active states for subtle interaction feedback."
+        },
+        {
+          "name": "Tracklist Item",
+          "role": "Displays music tracks with duration",
+          "description": "Divided by a 1px solid Ghost White (#ffffff) border. Text in Ghost White (#ffffff) using LifeLTStd-Roman, 18px size, with additional decorative text in RomieLigatures-Regular. Each item has vertical padding of 5px."
+        },
+        {
+          "name": "Media Grid Card",
+          "role": "Displays album or movie covers in a grid layout",
+          "description": "Image-based card with no explicit background, padding, or border-radius (0px). The content is primarily visual, with text overlays in Ghost White (#ffffff) on some images. Cards are tightly packed without visible gaps between them, allowing the images to form a continuous visual block."
+        },
+        {
+          "name": "Hero Headline",
+          "role": "Dominant page title",
+          "description": "Large text in RomieLigatures-Regular, 167px, weight 400, Ghost White (#ffffff) on Midnight Canvas (#000000). Features font ligatures ('kern', 'dlig') for a unique visual signature."
+        }
+      ],
+      "typography": [
+        {
+          "role": "Body text, navigation items, secondary headings — provides a classic, readable foundation. Its single weight keeps the tone consistent and understated.",
+          "sizes": "18px",
+          "family": "LifeLTStd-Roman",
+          "weight": "400",
+          "lineHeight": "1.00, 1.20",
+          "substitute": "serif",
+          "letterSpacing": "normal",
+          "fontFeatureSettings": "\"kern\""
+        },
+        {
+          "role": "Large headings and callouts — its ornate ligatures and dramatic scale imbue sections with a distinct, artistic flair. The 'dlig' feature is crucial for its distinctive character.",
+          "sizes": "18px, 65px, 167px",
+          "family": "RomieLigatures-Regular",
+          "weight": "400",
+          "lineHeight": "0.73, 0.90, 1.20",
+          "substitute": "serif",
+          "letterSpacing": "normal",
+          "fontFeatureSettings": "'kern', 'dlig'"
+        }
+      ],
+      "description": "Arthur Simonini's website embodies a stark, high-contrast dark mode aesthetic, where elegant serif typography takes center stage on a pure black canvas. The design prioritizes visual drama and readability through extreme contrast and minimal UI elements. All interactive elements are presented in white, creating a luminous, ghost-like appearance that ensures focus on content.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "Quick Color Reference:\ntext: #ffffff\nbackground: #000000\nborder: #ffffff\naccent: no distinct accent color\nprimary action: no distinct CTA color\n\nExample Component Prompts:\nCreate a primary navigation link: text 'B.O.' in Ghost White (#ffffff), 18px LifeLTStd-Roman, weight 400. Background Midnight Canvas (#000000).\nCreate a tracklist item: text 'PANDA (HIBOU OST)' in Ghost White (#ffffff), 18px LifeLTStd-Roman, weight 400. Below it, text 'PLAY' in Ghost White (#ffffff), 18px RomieLigatures-Regular, weight 400. Separate with a 1px solid Ghost White (#ffffff) border. No border-radius.\nCreate a large hero headline: text 'ARTHUR SIMONINI' in Ghost White (#ffffff), 167px RomieLigatures-Regular, weight 400, with font-feature-settings 'kern' and 'dlig'. Background Midnight Canvas (#000000).\nCreate a media card for an image: no background, no padding, no border, and 0px border-radius. The image itself should fill the card area entirely, with text overlays in Ghost White (#ffffff)."
+        }
+      ],
+      "elevationPhilosophy": "This design intentionally avoids all shadows and elevation effects. All interface elements exist on a single plane, contrasting directly with the Midnight Canvas background. This flatness reinforces the stark, high-contrast aesthetic and keeps the focus purely on content and typography."
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777516013575-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777516013575-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/6778ff21-44eb-40f3-ba85-2ee7de935f8f",
+  "ranks": {
+    "trending": 957,
+    "popular": 975,
+    "newest": 369
+  },
+  "localSlug": "arthursimonini-6778ff21"
+}

@@ -1,0 +1,1848 @@
+{
+  "id": "efd8dda0-b7dc-4b0b-b65f-348849d2cd65",
+  "url": "https://glossier.com",
+  "siteName": "Glossier",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775924478857-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775924478857-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "light",
+  "colors": [
+    {
+      "name": "Ink",
+      "hex": "#000000"
+    },
+    {
+      "name": "Snow",
+      "hex": "#ffffff"
+    },
+    {
+      "name": "Ash",
+      "hex": "#666666"
+    },
+    {
+      "name": "Fog",
+      "hex": "#e8e8e8"
+    },
+    {
+      "name": "Whisper",
+      "hex": "#f7f7f7"
+    },
+    {
+      "name": "Lemon Zest",
+      "hex": "#fff116"
+    }
+  ],
+  "fonts": [
+    "Apercu",
+    "Apercu Mono",
+    "GTStandard-M"
+  ],
+  "northStar": "Photographic vibrancy on crisp white canvas. Imagine a brightly lit product shot, vibrant and rich, placed on a pristine white gallery wall.",
+  "createdAt": "2026-02-22T14:23:49.000Z",
+  "previewVideoCapturedAt": null,
+  "industry": "ecommerce",
+  "fullResult": {
+    "meta": {
+      "url": "https://glossier.com",
+      "siteName": "Glossier",
+      "extractedAt": "2026-04-11T16:21:36.833Z",
+      "durationMs": 28488,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 846,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "complete",
+          "attempts": 2
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "link",
+              "other",
+              "button",
+              "icon",
+              "body",
+              "heading",
+              "list",
+              "hero",
+              "image",
+              "card",
+              "badge",
+              "input",
+              "footer",
+              "nav"
+            ],
+            "frequency": 3954,
+            "confidence": 1,
+            "prominence": 65465677.12917565,
+            "properties": [
+              "color",
+              "borderColor",
+              "backgroundColor",
+              "fill"
+            ]
+          },
+          {
+            "hex": "#f7f7f7",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.976138790665567
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 10,
+            "confidence": 1,
+            "prominence": 1639881.2890458754,
+            "properties": [
+              "backgroundColor"
+            ]
+          },
+          {
+            "hex": "#faf2f4",
+            "oklch": {
+              "c": 0.008964386456604866,
+              "h": 0.1269370573006039,
+              "l": 0.9679153872430819
+            },
+            "contexts": [
+              "footer"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 1516634,
+            "properties": [
+              "backgroundColor"
+            ]
+          },
+          {
+            "hex": "#ffffff",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 1.0000000000000002
+            },
+            "contexts": [
+              "other",
+              "body",
+              "link",
+              "button",
+              "icon",
+              "input"
+            ],
+            "frequency": 181,
+            "confidence": 1,
+            "prominence": 554983.6875981279,
+            "properties": [
+              "color",
+              "borderColor",
+              "backgroundColor",
+              "fill"
+            ]
+          },
+          {
+            "hex": "#666666",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.5102783583015936
+            },
+            "contexts": [
+              "other",
+              "button",
+              "body",
+              "input",
+              "link"
+            ],
+            "frequency": 70,
+            "confidence": 1,
+            "prominence": 106027.79008738023,
+            "properties": [
+              "color",
+              "backgroundColor",
+              "borderColor"
+            ]
+          },
+          {
+            "hex": "#e8e8e8",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.9309991411193288
+            },
+            "contexts": [
+              "badge",
+              "input"
+            ],
+            "frequency": 7,
+            "confidence": 1,
+            "prominence": 51723,
+            "properties": [
+              "backgroundColor",
+              "borderColor"
+            ]
+          },
+          {
+            "hex": "#333333",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.3210925111636326
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 34334,
+            "properties": [
+              "backgroundColor"
+            ]
+          },
+          {
+            "hex": "#fff116",
+            "oklch": {
+              "c": 0.19687058721841186,
+              "h": 105.25089477364571,
+              "l": 0.9394155932597215
+            },
+            "contexts": [
+              "button"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 3770,
+            "properties": [
+              "backgroundColor"
+            ]
+          },
+          {
+            "hex": "#a06a4f",
+            "oklch": {
+              "c": 0.07996079589286965,
+              "h": 47.23044771443827,
+              "l": 0.5751412481336438
+            },
+            "contexts": [
+              "list"
+            ],
+            "frequency": 3,
+            "confidence": 1,
+            "prominence": 2262,
+            "properties": [
+              "backgroundColor"
+            ]
+          },
+          {
+            "hex": "#9d2235",
+            "oklch": {
+              "c": 0.15776571693745856,
+              "h": 18.013706012377785,
+              "l": 0.46062409921519804
+            },
+            "contexts": [
+              "list"
+            ],
+            "frequency": 3,
+            "confidence": 1,
+            "prominence": 2262,
+            "properties": [
+              "backgroundColor"
+            ]
+          },
+          {
+            "hex": "#0600ff",
+            "oklch": {
+              "c": 0.31256205805945075,
+              "h": 264.4472696807273,
+              "l": 0.45284360921672234
+            },
+            "contexts": [
+              "badge"
+            ],
+            "frequency": 3,
+            "confidence": 1,
+            "prominence": 1840,
+            "properties": [
+              "backgroundColor"
+            ]
+          },
+          {
+            "hex": "#f8dde9",
+            "oklch": {
+              "c": 0.033533878753770716,
+              "h": 349.09134589845365,
+              "l": 0.9230384483961912
+            },
+            "contexts": [
+              "list"
+            ],
+            "frequency": 2,
+            "confidence": 1,
+            "prominence": 1792.5925883156276,
+            "properties": [
+              "backgroundColor"
+            ]
+          },
+          {
+            "hex": "#f0f0f0",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.9551400502551023
+            },
+            "contexts": [
+              "button"
+            ],
+            "frequency": 2,
+            "confidence": 1,
+            "prominence": 1792.5925883156276,
+            "properties": [
+              "backgroundColor"
+            ]
+          },
+          {
+            "hex": "#3e2e20",
+            "oklch": {
+              "c": 0.033181161522374415,
+              "h": 62.36014545666556,
+              "l": 0.31545049204234965
+            },
+            "contexts": [
+              "list"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 1131,
+            "properties": [
+              "backgroundColor"
+            ]
+          },
+          {
+            "hex": "#7b5a49",
+            "oklch": {
+              "c": 0.05098178545413469,
+              "h": 48.378179875075986,
+              "l": 0.49749454755674055
+            },
+            "contexts": [
+              "list"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 1131,
+            "properties": [
+              "backgroundColor"
+            ]
+          },
+          {
+            "hex": "#d8a683",
+            "oklch": {
+              "c": 0.07598484838249943,
+              "h": 56.28540837272757,
+              "l": 0.7629532151198909
+            },
+            "contexts": [
+              "list"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 1131,
+            "properties": [
+              "backgroundColor"
+            ]
+          },
+          {
+            "hex": "#b2a8a2",
+            "oklch": {
+              "c": 0.01442419136589986,
+              "h": 53.27885041429158,
+              "l": 0.7382622264686315
+            },
+            "contexts": [
+              "list"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 1131,
+            "properties": [
+              "backgroundColor"
+            ]
+          },
+          {
+            "hex": "#ebe8e2",
+            "oklch": {
+              "c": 0.008669515104940798,
+              "h": 84.57357534645473,
+              "l": 0.9316601857638003
+            },
+            "contexts": [
+              "list"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 1131,
+            "properties": [
+              "backgroundColor"
+            ]
+          },
+          {
+            "hex": "#2d2b2a",
+            "oklch": {
+              "c": 0.0034335975681528373,
+              "h": 48.60766133150413,
+              "l": 0.29080903344766595
+            },
+            "contexts": [
+              "list"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 1131,
+            "properties": [
+              "backgroundColor"
+            ]
+          },
+          {
+            "hex": "#5c3d31",
+            "oklch": {
+              "c": 0.048263535921733276,
+              "h": 41.98836596579576,
+              "l": 0.3923613805458893
+            },
+            "contexts": [
+              "list"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 1131,
+            "properties": [
+              "backgroundColor"
+            ]
+          },
+          {
+            "hex": "#f1e4c5",
+            "oklch": {
+              "c": 0.043213268617214085,
+              "h": 87.96463025734316,
+              "l": 0.9212518828299755
+            },
+            "contexts": [
+              "list"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 1131,
+            "properties": [
+              "backgroundColor"
+            ]
+          },
+          {
+            "hex": "#c8102e",
+            "oklch": {
+              "c": 0.20739611841961253,
+              "h": 22.317433322553462,
+              "l": 0.5303668548180086
+            },
+            "contexts": [
+              "list"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 1131,
+            "properties": [
+              "backgroundColor"
+            ]
+          },
+          {
+            "hex": "#bbd34a",
+            "oklch": {
+              "c": 0.16176189284620804,
+              "h": 118.61902402689925,
+              "l": 0.823211399761924
+            },
+            "contexts": [
+              "list"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 1131,
+            "properties": [
+              "backgroundColor"
+            ]
+          },
+          {
+            "hex": "#d46e49",
+            "oklch": {
+              "c": 0.13844367487552628,
+              "h": 40.25064356480485,
+              "l": 0.6491749535043491
+            },
+            "contexts": [
+              "list"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 1131,
+            "properties": [
+              "backgroundColor"
+            ]
+          },
+          {
+            "hex": "#bf88b0",
+            "oklch": {
+              "c": 0.08564401297563794,
+              "h": 336.82319272318034,
+              "l": 0.6934227727153478
+            },
+            "contexts": [
+              "list"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 1131,
+            "properties": [
+              "backgroundColor"
+            ]
+          },
+          {
+            "hex": "#bde1d7",
+            "oklch": {
+              "c": 0.04017836307704553,
+              "h": 176.6824200601419,
+              "l": 0.8809942250513615
+            },
+            "contexts": [
+              "list"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 1131,
+            "properties": [
+              "backgroundColor"
+            ]
+          },
+          {
+            "hex": "#dd878d",
+            "oklch": {
+              "c": 0.10569436292220903,
+              "h": 15.564342086699085,
+              "l": 0.7150969593802783
+            },
+            "contexts": [
+              "list"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 1131,
+            "properties": [
+              "backgroundColor"
+            ]
+          },
+          {
+            "hex": "#cf6f77",
+            "oklch": {
+              "c": 0.12094732871799319,
+              "h": 15.719667410198163,
+              "l": 0.6528257361498137
+            },
+            "contexts": [
+              "list"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 1131,
+            "properties": [
+              "backgroundColor"
+            ]
+          },
+          {
+            "hex": "#c26e60",
+            "oklch": {
+              "c": 0.1095108866637611,
+              "h": 30.44304995100972,
+              "l": 0.6288710841354267
+            },
+            "contexts": [
+              "list"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 1131,
+            "properties": [
+              "backgroundColor"
+            ]
+          },
+          {
+            "hex": "#936d73",
+            "oklch": {
+              "c": 0.04904560621580814,
+              "h": 8.20317603867998,
+              "l": 0.5746908376415346
+            },
+            "contexts": [
+              "list"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 1131,
+            "properties": [
+              "backgroundColor"
+            ]
+          },
+          {
+            "hex": "#65443d",
+            "oklch": {
+              "c": 0.04758164185696869,
+              "h": 32.398534134413474,
+              "l": 0.42176270912446606
+            },
+            "contexts": [
+              "list"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 1131,
+            "properties": [
+              "backgroundColor"
+            ]
+          },
+          {
+            "hex": "#512f2e",
+            "oklch": {
+              "c": 0.05019534425191296,
+              "h": 21.782084468340507,
+              "l": 0.3473044044887218
+            },
+            "contexts": [
+              "list"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 1131,
+            "properties": [
+              "backgroundColor"
+            ]
+          },
+          {
+            "hex": "#7c3a2d",
+            "oklch": {
+              "c": 0.09499294786005266,
+              "h": 32.57876852095678,
+              "l": 0.43217279979884554
+            },
+            "contexts": [
+              "list"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 1131,
+            "properties": [
+              "backgroundColor"
+            ]
+          },
+          {
+            "hex": "#ef426f",
+            "oklch": {
+              "c": 0.209190343453274,
+              "h": 10.228439712545445,
+              "l": 0.6430042298517225
+            },
+            "contexts": [
+              "list"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 1131,
+            "properties": [
+              "backgroundColor"
+            ]
+          },
+          {
+            "hex": "#d173a6",
+            "oklch": {
+              "c": 0.13213795493986064,
+              "h": 347.48151936931714,
+              "l": 0.6757936072154914
+            },
+            "contexts": [
+              "list"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 1131,
+            "properties": [
+              "backgroundColor"
+            ]
+          },
+          {
+            "hex": "#e3785e",
+            "oklch": {
+              "c": 0.13878076610808898,
+              "h": 34.73428845072999,
+              "l": 0.6884827953387502
+            },
+            "contexts": [
+              "list"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 1131,
+            "properties": [
+              "backgroundColor"
+            ]
+          },
+          {
+            "hex": "#e04f39",
+            "oklch": {
+              "c": 0.18463749557985204,
+              "h": 31.3099288122505,
+              "l": 0.6223806067617891
+            },
+            "contexts": [
+              "list"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 1131,
+            "properties": [
+              "backgroundColor"
+            ]
+          },
+          {
+            "hex": "#c10016",
+            "oklch": {
+              "c": 0.2076921363353766,
+              "h": 26.57861329437169,
+              "l": 0.5102300926860596
+            },
+            "contexts": [
+              "list"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 1131,
+            "properties": [
+              "backgroundColor"
+            ]
+          },
+          {
+            "hex": "#f09491",
+            "oklch": {
+              "c": 0.11172699450876195,
+              "h": 22.03176683239504,
+              "l": 0.7604916109993933
+            },
+            "contexts": [
+              "list"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 1131,
+            "properties": [
+              "backgroundColor"
+            ]
+          },
+          {
+            "hex": "#c07d59",
+            "oklch": {
+              "c": 0.09757096367000172,
+              "h": 48.68767599767591,
+              "l": 0.6513810326657317
+            },
+            "contexts": [
+              "list"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 1131,
+            "properties": [
+              "backgroundColor"
+            ]
+          },
+          {
+            "hex": "#910048",
+            "oklch": {
+              "c": 0.17157758866335798,
+              "h": 1.3765279294117838,
+              "l": 0.42444365226975217
+            },
+            "contexts": [
+              "list"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 1131,
+            "properties": [
+              "backgroundColor"
+            ]
+          },
+          {
+            "hex": "#6f2c3f",
+            "oklch": {
+              "c": 0.09686388292883608,
+              "h": 4.921962745774491,
+              "l": 0.39368507554728194
+            },
+            "contexts": [
+              "list"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 1131,
+            "properties": [
+              "backgroundColor"
+            ]
+          },
+          {
+            "hex": "#8d3f2b",
+            "oklch": {
+              "c": 0.11126339393699271,
+              "h": 35.487979155015694,
+              "l": 0.46654430082198967
+            },
+            "contexts": [
+              "list"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 1131,
+            "properties": [
+              "backgroundColor"
+            ]
+          },
+          {
+            "hex": "#4f2c1d",
+            "oklch": {
+              "c": 0.057625113327134256,
+              "h": 43.59721225992939,
+              "l": 0.3341502738809139
+            },
+            "contexts": [
+              "list"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 1131,
+            "properties": [
+              "backgroundColor"
+            ]
+          },
+          {
+            "hex": "#7b4931",
+            "oklch": {
+              "c": 0.07752244108935231,
+              "h": 45.90191812478037,
+              "l": 0.4584207320361117
+            },
+            "contexts": [
+              "list"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 1131,
+            "properties": [
+              "backgroundColor"
+            ]
+          },
+          {
+            "hex": "#a47f74",
+            "oklch": {
+              "c": 0.04902252965840764,
+              "h": 37.191249767582526,
+              "l": 0.6290869028422597
+            },
+            "contexts": [
+              "list"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 1131,
+            "properties": [
+              "backgroundColor"
+            ]
+          },
+          {
+            "hex": "#ba9682",
+            "oklch": {
+              "c": 0.05190260740381008,
+              "h": 50.57879734081514,
+              "l": 0.7009879187694089
+            },
+            "contexts": [
+              "list"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 1131,
+            "properties": [
+              "backgroundColor"
+            ]
+          },
+          {
+            "hex": "#464545",
+            "oklch": {
+              "c": 0.0013436578478704044,
+              "h": 17.21473662230986,
+              "l": 0.3913839746304401
+            },
+            "contexts": [
+              "list"
+            ],
+            "frequency": 8,
+            "confidence": 1,
+            "prominence": 551.5669502509623,
+            "properties": [
+              "backgroundColor"
+            ]
+          },
+          {
+            "hex": "#f4c67b",
+            "oklch": {
+              "c": 0.1068656237025572,
+              "h": 78.79524456368512,
+              "l": 0.8510851457932168
+            },
+            "contexts": [
+              "list"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 0,
+            "properties": [
+              "backgroundColor"
+            ]
+          }
+        ],
+        "isDarkMode": false,
+        "colorfulness": 0.0033008463711814025,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 21,
+            "background": "#ffffff",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 19.6,
+            "background": "#f7f7f7",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 19.07,
+            "background": "#faf2f4",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 18.43,
+            "background": "#f0f0f0",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 17.85,
+            "background": "#fff116",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 17.17,
+            "background": "#ebe8e2",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 17.14,
+            "background": "#e8e8e8",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 16.64,
+            "background": "#f1e4c5",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 16.51,
+            "background": "#f8dde9",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 14.92,
+            "background": "#bde1d7",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 14.09,
+            "background": "#2d2b2a",
+            "foreground": "#ffffff"
+          },
+          {
+            "level": "AAA",
+            "ratio": 13.21,
+            "background": "#f4c67b",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 13.15,
+            "background": "#f7f7f7",
+            "foreground": "#2d2b2a"
+          },
+          {
+            "level": "AAA",
+            "ratio": 12.99,
+            "background": "#3e2e20",
+            "foreground": "#ffffff"
+          },
+          {
+            "level": "AAA",
+            "ratio": 12.8,
+            "background": "#faf2f4",
+            "foreground": "#2d2b2a"
+          },
+          {
+            "level": "AAA",
+            "ratio": 12.63,
+            "background": "#333333",
+            "foreground": "#ffffff"
+          },
+          {
+            "level": "AAA",
+            "ratio": 12.53,
+            "background": "#bbd34a",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 12.36,
+            "background": "#f0f0f0",
+            "foreground": "#2d2b2a"
+          },
+          {
+            "level": "AAA",
+            "ratio": 12.28,
+            "background": "#4f2c1d",
+            "foreground": "#ffffff"
+          },
+          {
+            "level": "AAA",
+            "ratio": 12.13,
+            "background": "#f7f7f7",
+            "foreground": "#3e2e20"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 1,
+            "frequency": 14,
+            "properties": [
+              "paddingTop",
+              "paddingBottom"
+            ]
+          },
+          {
+            "value": 3,
+            "frequency": 2,
+            "properties": [
+              "paddingTop",
+              "marginBottom"
+            ]
+          },
+          {
+            "value": 4,
+            "frequency": 47,
+            "properties": [
+              "paddingTop",
+              "paddingRight",
+              "paddingBottom",
+              "paddingLeft",
+              "marginTop",
+              "marginBottom"
+            ]
+          },
+          {
+            "value": 5,
+            "frequency": 17,
+            "properties": [
+              "marginTop",
+              "marginBottom",
+              "paddingRight",
+              "paddingBottom",
+              "paddingLeft"
+            ]
+          },
+          {
+            "value": 6,
+            "frequency": 4,
+            "properties": [
+              "paddingBottom",
+              "paddingTop"
+            ]
+          },
+          {
+            "value": 7,
+            "frequency": 3,
+            "properties": [
+              "marginTop",
+              "paddingBottom"
+            ]
+          },
+          {
+            "value": 8,
+            "frequency": 116,
+            "properties": [
+              "marginRight",
+              "marginLeft",
+              "paddingRight",
+              "paddingLeft",
+              "marginBottom",
+              "paddingTop",
+              "paddingBottom",
+              "rowGap",
+              "columnGap",
+              "marginTop"
+            ]
+          },
+          {
+            "value": 9,
+            "frequency": 2,
+            "properties": [
+              "rowGap",
+              "columnGap"
+            ]
+          },
+          {
+            "value": 10,
+            "frequency": 22,
+            "properties": [
+              "rowGap",
+              "columnGap",
+              "paddingTop",
+              "marginTop",
+              "paddingRight",
+              "paddingLeft",
+              "paddingBottom"
+            ]
+          },
+          {
+            "value": 11,
+            "frequency": 4,
+            "properties": [
+              "paddingTop",
+              "paddingBottom"
+            ]
+          },
+          {
+            "value": 14,
+            "frequency": 102,
+            "properties": [
+              "paddingTop",
+              "paddingBottom",
+              "marginBottom",
+              "marginRight"
+            ]
+          },
+          {
+            "value": 15,
+            "frequency": 8,
+            "properties": [
+              "rowGap",
+              "columnGap",
+              "paddingRight"
+            ]
+          },
+          {
+            "value": 16,
+            "frequency": 104,
+            "properties": [
+              "paddingRight",
+              "paddingLeft",
+              "paddingBottom",
+              "paddingTop",
+              "marginTop",
+              "rowGap",
+              "columnGap",
+              "marginRight",
+              "marginBottom",
+              "marginLeft"
+            ]
+          },
+          {
+            "value": 20,
+            "frequency": 7,
+            "properties": [
+              "marginBottom",
+              "rowGap",
+              "columnGap",
+              "paddingLeft"
+            ]
+          },
+          {
+            "value": 27,
+            "frequency": 2,
+            "properties": [
+              "marginTop"
+            ]
+          },
+          {
+            "value": 32,
+            "frequency": 9,
+            "properties": [
+              "rowGap",
+              "columnGap",
+              "paddingBottom",
+              "marginTop"
+            ]
+          },
+          {
+            "value": 34,
+            "frequency": 36,
+            "properties": [
+              "paddingBottom"
+            ]
+          },
+          {
+            "value": 40,
+            "frequency": 3,
+            "properties": [
+              "paddingTop",
+              "marginTop"
+            ]
+          },
+          {
+            "value": 41,
+            "frequency": 4,
+            "properties": [
+              "rowGap",
+              "columnGap"
+            ]
+          },
+          {
+            "value": 60,
+            "frequency": 2,
+            "properties": [
+              "rowGap",
+              "columnGap"
+            ]
+          }
+        ],
+        "density": "comfortable",
+        "baseUnit": null
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "Apercu",
+            "source": "custom",
+            "weights": [
+              400,
+              500,
+              700
+            ],
+            "frequency": 831,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "Apercu Mono",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 7,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "GTStandard-M",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 1,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 16,
+          "name": "Minor Second",
+          "ratio": 1.067,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 12,
+            "family": "Apercu",
+            "weight": 700,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.17,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 12,
+            "family": "Apercu",
+            "weight": 400,
+            "contexts": [
+              "link"
+            ],
+            "frequency": 10,
+            "lineHeight": 1.63,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 12,
+            "family": "Apercu",
+            "weight": 400,
+            "contexts": [
+              "button",
+              "icon",
+              "body",
+              "nav"
+            ],
+            "frequency": 12,
+            "lineHeight": 1.63,
+            "letterSpacing": 0.003,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 12,
+            "family": "Apercu",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "heading"
+            ],
+            "frequency": 5,
+            "lineHeight": 1.7,
+            "letterSpacing": 0.003,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 12,
+            "family": "Apercu",
+            "weight": 400,
+            "contexts": [
+              "heading",
+              "other"
+            ],
+            "frequency": 6,
+            "lineHeight": 1.7,
+            "letterSpacing": 0.003,
+            "textTransform": "none"
+          },
+          {
+            "size": 12,
+            "family": "Apercu Mono",
+            "weight": 400,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 7,
+            "lineHeight": 1.4,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 12,
+            "family": "Apercu",
+            "weight": 400,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 4,
+            "lineHeight": 1,
+            "letterSpacing": 0.04,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 12,
+            "family": "Apercu",
+            "weight": 400,
+            "contexts": [
+              "body",
+              "link"
+            ],
+            "frequency": 2,
+            "lineHeight": 1.4,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 12,
+            "family": "Apercu",
+            "weight": 400,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 10,
+            "lineHeight": 1.3,
+            "letterSpacing": 0.003,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 12,
+            "family": "Apercu",
+            "weight": 400,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 115,
+            "lineHeight": 1.67,
+            "letterSpacing": 0.003,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 14,
+            "family": "Apercu",
+            "weight": 400,
+            "contexts": [
+              "body",
+              "link",
+              "other",
+              "heading",
+              "list"
+            ],
+            "frequency": 82,
+            "lineHeight": 1.4,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 14,
+            "family": "Apercu",
+            "weight": 400,
+            "contexts": [
+              "button",
+              "icon",
+              "body",
+              "other"
+            ],
+            "frequency": 39,
+            "lineHeight": 1.4,
+            "letterSpacing": 0.002,
+            "textTransform": "none"
+          },
+          {
+            "size": 14,
+            "family": "Apercu",
+            "weight": 400,
+            "contexts": [
+              "button",
+              "other"
+            ],
+            "frequency": 4,
+            "lineHeight": 1.15,
+            "letterSpacing": 0.002,
+            "textTransform": "none"
+          },
+          {
+            "size": 14,
+            "family": "Apercu",
+            "weight": 400,
+            "contexts": [
+              "button"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.46,
+            "letterSpacing": 0.002,
+            "textTransform": "none"
+          },
+          {
+            "size": 14,
+            "family": "Apercu",
+            "weight": 400,
+            "contexts": [
+              "input"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 14,
+            "family": "Apercu",
+            "weight": 400,
+            "contexts": [
+              "button"
+            ],
+            "frequency": 1,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 14,
+            "family": "Apercu",
+            "weight": 400,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 121,
+            "lineHeight": 1.43,
+            "letterSpacing": 0.002,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "Apercu",
+            "weight": 400,
+            "contexts": [
+              "link",
+              "other",
+              "body",
+              "hero",
+              "image",
+              "input",
+              "footer"
+            ],
+            "frequency": 156,
+            "lineHeight": 1.15,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "Apercu",
+            "weight": 400,
+            "contexts": [
+              "list",
+              "other",
+              "card",
+              "link",
+              "badge"
+            ],
+            "frequency": 221,
+            "lineHeight": 1.23,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "Apercu",
+            "weight": 400,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 11,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "GTStandard-M",
+            "weight": 400,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.5,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 20,
+            "family": "Apercu",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "heading",
+              "body"
+            ],
+            "frequency": 3,
+            "lineHeight": 1.4,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 32,
+            "family": "Apercu",
+            "weight": 500,
+            "contexts": [
+              "other",
+              "heading"
+            ],
+            "frequency": 11,
+            "lineHeight": 1.09,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 32,
+            "family": "Apercu",
+            "weight": 500,
+            "contexts": [
+              "list"
+            ],
+            "frequency": 15,
+            "lineHeight": 0.61,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Maintain a primary color palette of Ink (#000000) for text and Snow (#FFFFFF) for backgrounds to ensure high contrast and readability.",
+        "Utilize Apercu for all text elements; vary weights (400, 500, 700) and sizes (12px, 14px, 16px, 20px, 32px) to establish clear hierarchy.",
+        "Apply precise letter-spacing adjustments to Apercu typography: 0.002em at 12px, 0.003em at 14px, and 0.04em at 16px for optimal visual balance.",
+        "Reserve Lemon Zest (#fff116) strictly for primary call-to-action buttons and brand accents to maximize its impact and recognition.",
+        "Implement a consistent 0px border-radius across all buttons, cards, and input fields to uphold the sharp, modern aesthetic.",
+        "Use 8px for element spacing by default, increasing to 14px for more significant separations between related content blocks."
+      ],
+      "tags": [
+        "minimalist",
+        "high-contrast",
+        "geometric",
+        "product-focused",
+        "editorial",
+        "vibrant accent",
+        "clean",
+        "modern"
+      ],
+      "donts": [
+        "Avoid introducing gradients or shadows; the aesthetic relies on flat colors and crisp edges to define elements.",
+        "Do not use highly saturated colors other than Lemon Zest (#fff116) or Twilight Indigo (#0600ff) in prominent UI elements, as this dilutes brand identity.",
+        "Refrain from varying border-radius values; all UI elements should consistently use 0px radius.",
+        "Do not deviate from Apercu as the primary brand font; alternative fonts like Apercu Mono or GTStandard-M have highly specific and limited use cases.",
+        "Avoid organic or highly decorative imagery; favor clean, product-focused photography or abstract visuals.",
+        "Do not dilute the Lemon Zest (#fff116) accent by applying it to secondary actions or informational text."
+      ],
+      "theme": "light",
+      "colors": [
+        {
+          "hex": "#000000",
+          "name": "Ink",
+          "role": "Primary text, iconography, solid button backgrounds, borders. Establishes a bold and clear presence against light backgrounds.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#ffffff",
+          "name": "Snow",
+          "role": "Page backgrounds, card surfaces, button text. Provides a clean, expansive backdrop.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#666666",
+          "name": "Ash",
+          "role": "Secondary text, subtle instructional text, input placeholders. A softer contrast for less prominent information.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#e8e8e8",
+          "name": "Fog",
+          "role": "Badge backgrounds, input borders. Provides a subtle distinction without visual noise.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#f7f7f7",
+          "name": "Whisper",
+          "role": "Subtle background for navigation or section dividers. Used for delicate background differentiation.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#fff116",
+          "name": "Lemon Zest",
+          "role": "Primary call-to-action buttons, accent highlights, brand logotype. Its vivid saturation provides energetic focal points.",
+          "group": "brand"
+        },
+        {
+          "hex": "#0600ff",
+          "name": "Twilight Indigo",
+          "role": "New product badges. Offers a clear, distinct visual indicator for new items.",
+          "group": "accent"
+        }
+      ],
+      "layout": "The page primarily uses a max-width contained model for most content, centered on the page, with some full-bleed hero sections. The hero banner often features a large image with an overlaying text block or brand element, creating visual drama. Section rhythm is fluid, with consistent vertical spacing but alternating content arrangements—sometimes a large hero, then a two-column grid, followed by a multi-column product display. Content is arranged in alternating text-left/image-right or centered stacks. Product grids utilize a 4-column layout. Spacing between sections is comfortable, allowing elements to breathe. Navigation consists of a sticky top bar with clear product categories and utility icons.",
+      "imagery": "The visual language is characterized by high-key, product-focused photography and clean UI. Photography is typically full-bleed or large, emphasizing product details, often with strong directional light and rich but natural color saturation. Images are contained within sharp, rectangular forms, with no visible masking or overlapping. Illustrations, if present (not clearly visible in screenshots), adhere to a flat, clean aesthetic. Icons are simple, outlined, and monochromatic (Ink #000000). The imagery's primary role is to showcase products and evoke an aspirational, lifestyle mood without being overtly staged, balancing product focus with atmospheric context. Imagery dominates hero sections and category blocks, giving the site a visually rich yet uncluttered feel.",
+      "similar": [
+        {
+          "why": "Shares a brand identity built on high-quality product photography and a strong, singular accent color against a clean, minimal backdrop.",
+          "business": "Fenty Beauty"
+        },
+        {
+          "why": "Exhibits a similar commitment to minimalist typography and high-contrast text on clean backgrounds, emphasizing product aesthetics over overly decorative UI.",
+          "business": "Aesop"
+        },
+        {
+          "why": "Utilizes a clean, white-dominant aesthetic with select vibrant color accents to highlight products and maintain a fresh, approachable feel.",
+          "business": "Drunk Elephant"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "all": "0px"
+        },
+        "elementGap": "8px",
+        "sectionGap": "40-80px",
+        "cardPadding": "0px",
+        "pageMaxWidth": null
+      },
+      "category": "e-commerce",
+      "northStar": "Photographic vibrancy on crisp white canvas. Imagine a brightly lit product shot, vibrant and rich, placed on a pristine white gallery wall.",
+      "typeScale": [
+        {
+          "role": "caption",
+          "size": 12,
+          "lineHeight": 1.4,
+          "letterSpacing": 0.24
+        },
+        {
+          "role": "body",
+          "size": 14,
+          "lineHeight": 1.43,
+          "letterSpacing": 0.42
+        },
+        {
+          "role": "heading",
+          "size": 20,
+          "lineHeight": 1.23
+        },
+        {
+          "role": "display",
+          "size": 32,
+          "lineHeight": 1.09
+        }
+      ],
+      "components": [
+        {
+          "html": "<div style=\"--color-ink:#000000;--color-snow:#ffffff;--color-ash:#666666;--color-fog:#e8e8e8;--color-whisper:#f7f7f7;--color-lemon-zest:#fff116;--color-twilight-indigo:#0600ff;--font-apercu:system-ui,sans-serif;background:var(--color-snow);padding:24px;width:600px;box-sizing:border-box;font-family:var(--font-apercu);\"><div style=\"display:grid;grid-template-columns:1fr 1fr 1fr;gap:16px;\"><div style=\"position:relative;\"><div style=\"position:absolute;top:0;left:0;z-index:2;background:var(--color-twilight-indigo);color:var(--color-snow);font-family:var(--font-apercu);font-size:12px;font-weight:400;letter-spacing:0.002em;padding:1px 8px;border-radius:0;\">NEW</div><div style=\"width:100%;height:200px;background:var(--color-whisper);border-radius:0;display:flex;align-items:center;justify-content:center;\"><div style=\"width:60px;height:120px;background:linear-gradient(180deg,#b0c4d8 0%,#e8c5b0 100%);border-radius:2px;\"></div></div><div style=\"padding:8px 0 0 0;\"><div style=\"font-family:var(--font-apercu);font-size:14px;font-weight:700;color:var(--color-ink);line-height:1.43;letter-spacing:0.42px;\">Vacation Essentials</div><div style=\"font-family:var(--font-apercu);font-size:14px;font-weight:400;color:var(--color-ash);line-height:1.43;letter-spacing:0.42px;margin-top:2px;\">Eau de parfum + Skincare-makeup hybrid</div><div style=\"margin-top:6px;font-family:var(--font-apercu);font-size:14px;font-weight:400;color:var(--color-ink);letter-spacing:0.42px;\"><span style=\"font-weight:700;\">€60</span> <span style=\"color:var(--color-ash);text-decoration:line-through;\">€71</span></div><button style=\"display:block;width:100%;margin-top:10px;background:rgb(240,240,240);color:var(--color-ink);font-family:var(--font-apercu);font-size:14px;font-weight:700;border:1px solid var(--color-ink);border-radius:0;padding:6px 5px 5px 5px;cursor:pointer;letter-spacing:normal;\">Choose set</button></div></div><div style=\"position:relative;\"><div style=\"position:absolute;top:0;left:0;z-index:2;background:var(--color-twilight-indigo);color:var(--color-snow);font-family:var(--font-apercu);font-size:12px;font-weight:400;letter-spacing:0.002em;padding:1px 8px;border-radius:0;\">NEW</div><div style=\"width:100%;height:200px;background:var(--color-whisper);border-radius:0;display:flex;align-items:center;justify-content:center;\"><div style=\"width:50px;height:110px;background:linear-gradient(180deg,#c0303c 0%,#1a2a4a 100%);border-radius:40px 40px 6px 6px;\"></div></div><div style=\"padding:8px 0 0 0;\"><div style=\"font-family:var(--font-apercu);font-size:14px;font-weight:700;color:var(--color-ink);line-height:1.43;letter-spacing:0.42px;\">Soie + You Travel Spray</div><div style=\"font-family:var(--font-apercu);font-size:14px;font-weight:400;color:var(--color-ash);line-height:1.43;letter-spacing:0.42px;margin-top:2px;\">Two of You</div><div style=\"margin-top:6px;font-family:var(--font-apercu);font-size:14px;font-weight:400;color:var(--color-ink);letter-spacing:0.42px;\"><span style=\"font-weight:700;\">€115</span> <span style=\"color:var(--color-ash);text-decoration:line-through;\">€135</span></div><button style=\"display:block;width:100%;margin-top:10px;background:rgb(240,240,240);color:var(--color-ink);font-family:var(--font-apercu);font-size:14px;font-weight:700;border:1px solid var(--color-ink);border-radius:0;padding:6px 5px 5px 5px;cursor:pointer;letter-spacing:normal;\">Choose set</button></div></div><div style=\"position:relative;\"><div style=\"width:100%;height:200px;background:var(--color-whisper);border-radius:0;display:flex;align-items:center;justify-content:center;\"><div style=\"width:55px;height:115px;background:linear-gradient(180deg,#f5cfc8 0%,#c8a090 100%);border-radius:2px;\"></div></div><div style=\"padding:8px 0 0 0;\"><div style=\"font-family:var(--font-apercu);font-size:14px;font-weight:700;color:var(--color-ink);line-height:1.43;letter-spacing:0.42px;\">Futuredew</div><div style=\"font-family:var(--font-apercu);font-size:14px;font-weight:400;color:var(--color-ash);line-height:1.43;letter-spacing:0.42px;margin-top:2px;\">Skincare-makeup hybrid</div><div style=\"margin-top:6px;font-family:var(--font-apercu);font-size:14px;font-weight:700;color:var(--color-ink);letter-spacing:0.42px;\">€35</div><button style=\"display:block;width:100%;margin-top:10px;background:var(--color-ink);color:var(--color-snow);font-family:var(--font-apercu);font-size:14px;font-weight:700;border:1px solid var(--color-ink);border-radius:0;padding:6px 5px 5px 5px;cursor:pointer;letter-spacing:normal;\">Add to bag</button></div></div></div></div>",
+          "name": "Product Cards with NEW Badge",
+          "role": "",
+          "description": ""
+        },
+        {
+          "html": "<div style=\"--color-ink:#000000;--color-snow:#ffffff;--color-ash:#666666;--color-fog:#e8e8e8;--color-whisper:#f7f7f7;--color-lemon-zest:#fff116;--color-twilight-indigo:#0600ff;--font-apercu:system-ui,sans-serif;width:600px;box-sizing:border-box;font-family:var(--font-apercu);\"><div style=\"background:var(--color-ink);color:var(--color-snow);display:flex;align-items:center;justify-content:space-between;padding:10px 16px;\"><button style=\"background:none;border:none;color:var(--color-snow);cursor:pointer;font-size:16px;padding:0;line-height:1;\" aria-label=\"Previous\"><svg width=\"8\" height=\"14\" viewBox=\"0 0 8 14\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7 1L1 7L7 13\" stroke=\"white\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></button><div style=\"flex:1;text-align:center;font-family:var(--font-apercu);font-size:12px;font-weight:400;line-height:1.4;letter-spacing:0.24px;color:var(--color-snow);\">Free standard shipping on orders 65€ or more. For more information on shipping rates and timelines, please visit our <a href=\"#\" style=\"color:var(--color-snow);text-decoration:underline;font-family:var(--font-apercu);font-size:12px;\">international page</a></div><div style=\"display:flex;gap:8px;align-items:center;\"><button style=\"background:none;border:none;color:var(--color-snow);cursor:pointer;font-size:16px;padding:0;line-height:1;\" aria-label=\"Next\"><svg width=\"8\" height=\"14\" viewBox=\"0 0 8 14\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M1 1L7 7L1 13\" stroke=\"white\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></button><button style=\"background:none;border:none;color:var(--color-snow);cursor:pointer;padding:0;line-height:1;\" aria-label=\"Pause\"><svg width=\"12\" height=\"12\" viewBox=\"0 0 12 12\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"1\" y=\"1\" width=\"3\" height=\"10\" fill=\"white\"/><rect x=\"8\" y=\"1\" width=\"3\" height=\"10\" fill=\"white\"/></svg></button></div></div><div style=\"background:var(--color-ink);color:var(--color-snow);display:flex;align-items:center;justify-content:space-between;padding:10px 16px;margin-top:1px;\"><button style=\"background:none;border:none;color:var(--color-snow);cursor:pointer;font-size:16px;padding:0;line-height:1;\"><svg width=\"8\" height=\"14\" viewBox=\"0 0 8 14\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7 1L1 7L7 13\" stroke=\"white\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></button><div style=\"flex:1;text-align:center;font-family:var(--font-apercu);font-size:12px;font-weight:400;line-height:1.4;letter-spacing:0.24px;color:var(--color-snow);\">Ride the wave of our new creamy and sensual solar fragrance, <a href=\"#\" style=\"color:var(--color-snow);text-decoration:underline;font-family:var(--font-apercu);font-size:12px;\">Glossier You Soie ☀️</a></div><div style=\"display:flex;gap:8px;align-items:center;\"><button style=\"background:none;border:none;color:var(--color-snow);cursor:pointer;padding:0;line-height:1;\"><svg width=\"8\" height=\"14\" viewBox=\"0 0 8 14\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M1 1L7 7L1 13\" stroke=\"white\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></button><button style=\"background:none;border:none;color:var(--color-snow);cursor:pointer;padding:0;line-height:1;\"><svg width=\"12\" height=\"12\" viewBox=\"0 0 12 12\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"1\" y=\"1\" width=\"3\" height=\"10\" fill=\"white\"/><rect x=\"8\" y=\"1\" width=\"3\" height=\"10\" fill=\"white\"/></svg></button></div></div></div>",
+          "name": "Promo Announcement Banner",
+          "role": "",
+          "description": ""
+        },
+        {
+          "html": "<div style=\"--color-ink:#000000;--color-snow:#ffffff;--color-ash:#666666;--color-fog:#e8e8e8;--color-whisper:#f7f7f7;--color-lemon-zest:#fff116;--color-twilight-indigo:#0600ff;--font-apercu:system-ui,sans-serif;width:600px;box-sizing:border-box;font-family:var(--font-apercu);background:var(--color-snow);\"><div style=\"position:relative;width:100%;\"><div style=\"width:100%;height:340px;background:linear-gradient(135deg,#b8c8d8 0%,#e0c8a8 40%,#c0a888 70%,#3a3020 100%);display:flex;align-items:flex-end;justify-content:center;padding-bottom:24px;box-sizing:border-box;\"><div style=\"width:52px;height:130px;background:linear-gradient(180deg,rgba(20,30,20,0.9) 0%,rgba(60,80,60,0.7) 50%,rgba(200,210,200,0.5) 100%);border-radius:4px 4px 0 0;box-shadow:0 4px 16px rgba(0,0,0,0.3);\"></div></div><div style=\"position:absolute;top:24px;left:24px;background:var(--color-snow);padding:24px 28px 28px 28px;max-width:300px;\"><div style=\"font-family:var(--font-apercu);font-size:12px;font-weight:400;color:var(--color-ink);letter-spacing:0.24px;line-height:1.4;text-transform:uppercase;margin-bottom:10px;\">GLOSSIER YOU SOIE</div><h2 style=\"font-family:var(--font-apercu);font-size:20px;font-weight:700;color:var(--color-ink);line-height:1.23;margin:0 0 12px 0;padding:0;\">You Smell Like Vacation</h2><p style=\"font-family:var(--font-apercu);font-size:14px;font-weight:400;color:var(--color-ink);line-height:1.43;letter-spacing:0.42px;margin:0 0 20px 0;padding:0;\">Our new skin-scent enhancer is inspired by the moment warm, salty skin meets cool evening air on the beach at dusk.</p><a href=\"#\" style=\"display:inline-block;background:var(--color-lemon-zest);color:var(--color-ink);font-family:var(--font-apercu);font-size:16px;font-weight:700;letter-spacing:0.04em;line-height:1.23;padding:10px 20px;border-radius:0;text-decoration:none;\">Shop now</a></div></div></div>",
+          "name": "Hero Promo Card with CTA",
+          "role": "",
+          "description": ""
+        },
+        {
+          "name": "Primary Action Button",
+          "role": "Main call-to-action",
+          "description": "Solid black background (Ink #000000), white text (Snow #FFFFFF), 0px border-radius, 8px vertical padding, 16px horizontal padding. Font: Apercu Bold 16px, normal letter-spacing, line-height 1.23."
+        },
+        {
+          "name": "Secondary Action Button",
+          "role": "Supporting call-to-action",
+          "description": "Transparent background, black text (Ink #000000) and 1px bottom border. 0px padding. Font: Apercu Regular 16px, normal letter-spacing."
+        },
+        {
+          "name": "Outlined Product Card Button",
+          "role": "Product interaction button on cards",
+          "description": "Faint gray background (240,240,240), black text (Ink #000000), 0px border-radius, 6px top padding, 5px right/bottom/left padding, 1px black border. Font: Apercu Bold 14px, normal letter-spacing."
+        },
+        {
+          "name": "Search Input Field",
+          "role": "Collecting user input for search",
+          "description": "White background (Snow #FFFFFF), gray text (Ash #666666), 1px border with Fog (#e8e8e8) color, 0px border-radius, 22px top padding, 8px right/left padding, 6px bottom padding. Font: Apercu Regular 16px."
+        },
+        {
+          "name": "New Badge",
+          "role": "Highlighting new products or features",
+          "description": "Dark blue background (Twilight Indigo #0600ff), black text (Ink #000000), 0px border-radius, 1px vertical padding, 8px horizontal padding. Font: Apercu Regular 12px."
+        },
+        {
+          "name": "Info Message Badge",
+          "role": "General information badge",
+          "description": "Light gray background (Fog #e8e8e8), black text (Ink #000000), 0px border-radius, 1px vertical padding, 8px horizontal padding. Font: Apercu Regular 12px."
+        }
+      ],
+      "typography": [
+        {
+          "role": "Primary typeface for all body text, headings, navigational elements, and buttons. Its clean, geometric sans-serif quality maintains a professional yet approachable tone.",
+          "sizes": "12px, 14px, 16px, 20px, 32px",
+          "family": "Apercu",
+          "weight": "400, 500, 700",
+          "lineHeight": "1.00, 1.09, 1.15, 1.17, 1.20, 1.23, 1.30, 1.40, 1.43, 1.46, 1.63, 1.67, 1.70",
+          "substitute": "system-ui, sans-serif",
+          "letterSpacing": "0.002em at 12px, 0.003em at 14px, 0.04em at 16px"
+        },
+        {
+          "role": "Used sparingly for technical or code-like elements where fixed-width spacing is desired, providing subtle typographic variation.",
+          "sizes": "12px",
+          "family": "Apercu Mono",
+          "weight": "400",
+          "lineHeight": "1.40",
+          "substitute": "monospace",
+          "letterSpacing": "normal"
+        },
+        {
+          "role": "A secondary display font, used for specific highlighted text blocks, contributing to a distinctive brand voice.",
+          "sizes": "16px",
+          "family": "GTStandard-M",
+          "weight": "400",
+          "lineHeight": "1.50",
+          "substitute": "system-ui, sans-serif",
+          "letterSpacing": "normal"
+        }
+      ],
+      "description": "Glossier's visual style is a 'modern classic' — grounded in a stark, high-contrast black and white palette, then infused with bursts of vibrant, youthful color. The interplay of minimalist typography and photography, punctuated by a signature vivid yellow, creates an aspirational yet approachable feel. Sharp rectangular forms dominate the layout, establishing a sense of order, softened slightly by the inviting warmth of the product imagery.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "### Quick Color Reference\n- Text: #000000 (Ink)\n- Background: #FFFFFF (Snow)\n- CTA: #fff116 (Lemon Zest)\n- Border: #E8E8E8 (Fog)\n- Accent: #0600ff (Twilight Indigo)\n\n### 3-5 Example Component Prompts\n1. Create a primary call-to-action button: background #fff116 (Lemon Zest), text #000000 (Ink), radius 0px, padding 8px 16px, font Apercu Bold 16px, line-height 1.23.\n2. Design a new product badge: background #0600ff (Twilight Indigo), text #000000 (Ink), radius 0px, padding 1px 8px, font Apercu Regular 12px.\n3. Implement a standard body text paragraph: color #000000 (Ink), font Apercu Regular 14px, line-height 1.43, letter-spacing 0.42px.\n4. Build a product listing card: transparent background, 0px border-radius, 0px padding. Inside, an image above a product title (Apercu Regular 16px, #000000) and price (Apercu Regular 14px, #666666). Add an 'Add to Bag' button (background rgba(240,240,240,1), text #000000, 0px borderRadius, padding 6px 5px, 1px black border) centered at the bottom."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775924478857-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775924478857-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/efd8dda0-b7dc-4b0b-b65f-348849d2cd65",
+  "ranks": {
+    "trending": 919,
+    "popular": 603,
+    "newest": 1146
+  },
+  "localSlug": "glossier-efd8dda0"
+}

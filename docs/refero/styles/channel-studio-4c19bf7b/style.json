@@ -1,0 +1,611 @@
+{
+  "id": "4c19bf7b-d5e8-4e2a-b3e3-69a9bde19b7a",
+  "url": "https://channel.studio",
+  "siteName": "Channel Studio",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777513268340-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777513268340-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "dark",
+  "colors": [
+    {
+      "name": "Midnight Void",
+      "hex": "#000000"
+    },
+    {
+      "name": "Ghost Gray",
+      "hex": "#cacaca"
+    },
+    {
+      "name": "Faded Stone",
+      "hex": "#727272"
+    },
+    {
+      "name": "Vanguard Red",
+      "hex": "#ff7777"
+    }
+  ],
+  "fonts": [
+    "Lausanne"
+  ],
+  "northStar": "Stark intellectual minimalism.",
+  "createdAt": "2026-04-30T01:41:27.816Z",
+  "previewVideoCapturedAt": null,
+  "industry": "design",
+  "fullResult": {
+    "meta": {
+      "url": "https://channel.studio",
+      "siteName": "Channel Studio",
+      "extractedAt": "2026-04-30T01:41:27.748Z",
+      "durationMs": 29220,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 105,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#cacaca",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.8390137901083995
+            },
+            "contexts": [
+              "other",
+              "link",
+              "nav",
+              "card",
+              "hero",
+              "heading",
+              "image",
+              "list",
+              "footer",
+              "input",
+              "body"
+            ],
+            "frequency": 472,
+            "confidence": 1,
+            "prominence": 96754499.58444701,
+            "properties": [
+              "color",
+              "borderColor",
+              "fill"
+            ],
+            "usageCounts": {
+              "nav/color": 10,
+              "body/color": 2,
+              "card/color": 1,
+              "hero/color": 2,
+              "link/color": 22,
+              "list/color": 7,
+              "other/fill": 3,
+              "image/color": 9,
+              "input/color": 1,
+              "other/color": 35,
+              "footer/color": 1,
+              "heading/color": 4,
+              "nav/borderColor": 40,
+              "body/borderColor": 8,
+              "card/borderColor": 4,
+              "hero/borderColor": 8,
+              "link/borderColor": 88,
+              "list/borderColor": 28,
+              "image/borderColor": 36,
+              "input/borderColor": 4,
+              "other/borderColor": 139,
+              "footer/borderColor": 4,
+              "heading/borderColor": 16
+            }
+          },
+          {
+            "hex": "#ff7777",
+            "oklch": {
+              "c": 0.16642812640363527,
+              "h": 22.05058870934739,
+              "l": 0.729860526477013
+            },
+            "contexts": [
+              "body",
+              "heading"
+            ],
+            "frequency": 35,
+            "confidence": 1,
+            "prominence": 315660.1108130633,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "body/color": 1,
+              "heading/color": 6,
+              "body/borderColor": 4,
+              "heading/borderColor": 24
+            }
+          },
+          {
+            "hex": "#727272",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.5520796201025747
+            },
+            "contexts": [
+              "other",
+              "body"
+            ],
+            "frequency": 6,
+            "confidence": 1,
+            "prominence": 99363.52011130685,
+            "properties": [
+              "borderColor",
+              "color"
+            ],
+            "usageCounts": {
+              "body/color": 1,
+              "body/borderColor": 4,
+              "other/borderColor": 1
+            }
+          }
+        ],
+        "isDarkMode": true,
+        "colorfulness": 0.030688501259824218,
+        "contrastPairs": []
+      },
+      "shapes": {
+        "radii": [],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 9,
+            "contexts": [
+              "nav",
+              "other"
+            ],
+            "frequency": 3,
+            "properties": [
+              "marginRight",
+              "marginLeft",
+              "marginTop"
+            ],
+            "propertyContextPairs": [
+              "marginRight|nav",
+              "marginLeft|nav",
+              "marginTop|other"
+            ]
+          },
+          {
+            "value": 10,
+            "contexts": [
+              "other",
+              "link",
+              "footer"
+            ],
+            "frequency": 13,
+            "properties": [
+              "marginTop",
+              "marginRight",
+              "marginBottom",
+              "marginLeft"
+            ],
+            "propertyContextPairs": [
+              "marginTop|other",
+              "marginRight|other",
+              "marginBottom|other",
+              "marginLeft|other",
+              "marginTop|link",
+              "marginRight|footer",
+              "marginBottom|footer"
+            ]
+          },
+          {
+            "value": 13,
+            "contexts": [
+              "link"
+            ],
+            "frequency": 6,
+            "properties": [
+              "marginTop"
+            ],
+            "propertyContextPairs": [
+              "marginTop|link"
+            ]
+          },
+          {
+            "value": 16,
+            "contexts": [
+              "image",
+              "heading"
+            ],
+            "frequency": 2,
+            "properties": [
+              "marginTop"
+            ],
+            "propertyContextPairs": [
+              "marginTop|image",
+              "marginTop|heading"
+            ]
+          },
+          {
+            "value": 19,
+            "contexts": [
+              "other",
+              "footer"
+            ],
+            "frequency": 11,
+            "properties": [
+              "marginRight",
+              "marginBottom",
+              "marginLeft",
+              "marginTop"
+            ],
+            "propertyContextPairs": [
+              "marginRight|other",
+              "marginBottom|other",
+              "marginLeft|other",
+              "marginTop|other",
+              "marginLeft|footer"
+            ]
+          },
+          {
+            "value": 20,
+            "contexts": [
+              "list",
+              "link"
+            ],
+            "frequency": 2,
+            "properties": [
+              "marginTop"
+            ],
+            "propertyContextPairs": [
+              "marginTop|list",
+              "marginTop|link"
+            ]
+          },
+          {
+            "value": 40,
+            "contexts": [
+              "heading",
+              "list"
+            ],
+            "frequency": 6,
+            "properties": [
+              "marginTop"
+            ],
+            "propertyContextPairs": [
+              "marginTop|heading",
+              "marginTop|list"
+            ]
+          },
+          {
+            "value": 192,
+            "contexts": [
+              "footer"
+            ],
+            "frequency": 1,
+            "properties": [
+              "marginTop"
+            ],
+            "propertyContextPairs": [
+              "marginTop|footer"
+            ]
+          }
+        ],
+        "density": "comfortable",
+        "baseUnit": 4
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "Lausanne",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 102,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 14,
+          "name": "Minor Third",
+          "ratio": 1.2,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 13,
+            "family": "Lausanne",
+            "weight": 400,
+            "contexts": [
+              "footer",
+              "other"
+            ],
+            "frequency": 2,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 13,
+            "family": "Lausanne",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "body",
+              "link"
+            ],
+            "frequency": 5,
+            "lineHeight": 1.19,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 15,
+            "family": "Lausanne",
+            "weight": 400,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "Lausanne",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "link",
+              "body"
+            ],
+            "frequency": 7,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "Lausanne",
+            "weight": 400,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 10,
+            "lineHeight": 0.9,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 18,
+            "family": "Lausanne",
+            "weight": 400,
+            "contexts": [
+              "card",
+              "hero",
+              "other",
+              "image",
+              "heading",
+              "body",
+              "list",
+              "link"
+            ],
+            "frequency": 66,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 45,
+            "family": "Lausanne",
+            "weight": 400,
+            "contexts": [
+              "input"
+            ],
+            "frequency": 1,
+            "lineHeight": 0.95,
+            "letterSpacing": -0.03,
+            "textTransform": "none"
+          },
+          {
+            "size": 75,
+            "family": "Lausanne",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "heading",
+              "link"
+            ],
+            "frequency": 10,
+            "lineHeight": 0.9,
+            "letterSpacing": -0.02,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Prioritize stark visual clarity by using Midnight Void (#000000) for all backgrounds to establish a consistent dark theme.",
+        "Use Ghost Gray (#cacaca) for all primary text and critical interface elements to ensure readability against dark backgrounds.",
+        "Apply Vanguard Red (#ff7777) sparingly and intentionally for headings, active states, and crucial interactive elements to create focal points.",
+        "Maintain a tight, composed typographic aesthetic with Lausanne (or Inter) at weight 400 across all text, varying size for hierarchy.",
+        "Implement negative letter-spacing for large headlines and display text elements (up to -0.0300em) to enhance visual density and impact.",
+        "Emphasize content through spacious vertical separation between sections, using a base section gap of 40px.",
+        "Utilize 0px border-radius for all elements, including cards and inputs, to reinforce the sharp, precise design language."
+      ],
+      "donts": [
+        "Avoid using saturated colors other than Vanguard Red (#ff7777) for UI elements; maintain a near-achromatic palette otherwise.",
+        "Do not introduce decorative borders or shadows on cards or containers; they should blend seamlessly with the background.",
+        "Refrain from using varied font weights; Lausanne (400) is the sole weight to ensure typographic consistency.",
+        "Do not add internal padding to cards; they should act as zero-padding content wrappers.",
+        "Avoid using curved elements or soft shapes; the design language relies on straight lines and sharp angles.",
+        "Do not use generic system fonts or introduce additional font families; Lausanne (or Inter) is the only approved typeface.",
+        "Do not use wide letter-spacing; all text should be either normal or tightly tracked."
+      ],
+      "theme": "dark",
+      "colors": [
+        {
+          "hex": "#000000",
+          "name": "Midnight Void",
+          "role": "Page backgrounds, large dark surfaces",
+          "group": "neutral"
+        },
+        {
+          "hex": "#cacaca",
+          "name": "Ghost Gray",
+          "role": "Neutral form states, badge text, and quiet UI feedback where color should stay understated. Do not promote it to the primary CTA color",
+          "group": "neutral"
+        },
+        {
+          "hex": "#727272",
+          "name": "Faded Stone",
+          "role": "Muted text, subtle borders",
+          "group": "neutral"
+        },
+        {
+          "hex": "#ff7777",
+          "name": "Vanguard Red",
+          "role": "Highlighted headings, selected project titles, active links — signals importance and draws attention against the dark canvas",
+          "group": "brand"
+        }
+      ],
+      "layout": "The page uses a full-bleed layout with content primarily aligned to the left, but effectively contained within a wide, implied max-width. The hero section is full-bleed with a background abstract gradient and centered large text. Subsequent sections alternate between large, impactful typography on a black background and visual showcases with full-width abstract renders or product shots. Content arrangement often features large headlines followed by supporting text or visuals, with a clear vertical rhythm. There's an absence of traditional grids for features, instead relying on prominent, stacked elements and fluid text-image combinations. Navigation is minimal, consisting of a top-left logo and ghost links, which become sticky on scroll. The overall density feels open, allowing key content to breathe.",
+      "imagery": "The site predominantly uses abstract, textural imagery and product-focused 3D renders with a monochromatic or desaturated color palette. Photography of physical artwork/sculptures is presented full-bleed with highly reflective surfaces, creating a dynamic yet contained visual. Icons are minimal, outlined, and monochromatic, primarily serving functional rather than decorative roles. Imagery density varies; the hero section uses a large, full-bleed abstract graphic, while project showcases feature prominent, detailed visuals. The overall role of imagery is to evoke a conceptual, high-tech, and artistic atmosphere, supporting the brand's identity as an innovation company.",
+      "similar": [
+        {
+          "why": "Shares a dark aesthetic, robust typography, and focus on digital experiences with minimalist presentation.",
+          "business": "B-Reel"
+        },
+        {
+          "why": "Similar emphasis on large, impactful typography and a contemporary, concept-driven visual style for a digital agency.",
+          "business": "Huge Inc."
+        },
+        {
+          "why": "Exhibited a clean, dark-mode design with strong typographic hierarchy and subtle interactive elements.",
+          "business": "Ueno (now Mailchimp Presents)"
+        },
+        {
+          "why": "Uses large type, dark backgrounds, and a focus on sleek, unadorned visual presentations for creative work.",
+          "business": "Basic/Dept"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "none": "0px"
+        },
+        "elementGap": "10px",
+        "sectionGap": "40px",
+        "cardPadding": "0px",
+        "pageMaxWidth": null
+      },
+      "industry": "design",
+      "northStar": "Stark intellectual minimalism.",
+      "typeScale": [
+        {
+          "role": "caption",
+          "size": 13,
+          "lineHeight": 1.19
+        },
+        {
+          "role": "body-sm",
+          "size": 15,
+          "lineHeight": 1.2
+        },
+        {
+          "role": "subheading",
+          "size": 18,
+          "lineHeight": 1.2
+        },
+        {
+          "role": "heading",
+          "size": 45,
+          "lineHeight": 0.95,
+          "letterSpacing": -0.03
+        },
+        {
+          "role": "display",
+          "size": 75,
+          "lineHeight": 0.9,
+          "letterSpacing": -0.03
+        }
+      ],
+      "components": [
+        {
+          "name": "Ghost Navigation Link",
+          "role": "Primary navigation links and interactive textual elements.",
+          "description": "Text in Ghost Gray (#cacaca), with tight negative letter spacing on larger link sizes. No background or padding. Interactivity is conveyed by changing to Vanguard Red (#ff7777) on hover/active states. Uses 0px border-radius and 0px padding."
+        },
+        {
+          "name": "Zero-Padding Card",
+          "role": "Content containers that use the background as their surface.",
+          "description": "Transparent background (rgba(0, 0, 0, 0)), 0px border-radius, no box-shadow, and 0px padding. This component is essentially a content wrapper without its own distinct visual surface."
+        },
+        {
+          "name": "Underlined Input Field",
+          "role": "Input fields for data entry.",
+          "description": "Transparent background (rgba(0, 0, 0, 0)), text color in Ghost Gray (#cacaca), and a 1px bottom border in Ghost Gray (#cacaca). No padding or border-radius, maintaining a sharp, minimalistic aesthetic."
+        },
+        {
+          "name": "Highlighted Project Title",
+          "role": "Prominent headings for project names or content sections.",
+          "description": "Lausanne font at a large size (e.g., 75px) with 400 weight, color in Vanguard Red (#ff7777), and significantly tight letter-spacing (-0.0300em). This provides a sharp visual accent and clear content hierarchy."
+        }
+      ],
+      "typography": [
+        {
+          "role": "Primary typeface for all text elements. The singular weight (400) creates a consistent, deliberate tone, relying on size for hierarchy. The tight letter spacing for display text maintains visual density and impact.",
+          "sizes": "13px, 15px, 16px, 18px, 45px, 75px",
+          "family": "Lausanne",
+          "weight": "400",
+          "weights": [
+            400
+          ],
+          "lineHeight": "0.90, 0.95, 1.19, 1.20",
+          "substitute": "Inter",
+          "letterSpacing": "-0.0300em at large sizes (45px, 75px), -0.0200em at smaller text sizes"
+        }
+      ],
+      "description": "Channel Studio embraces a dark, conceptual aesthetic where form follows function with minimalist precision. Visual weight is carried by large, unadorned typography and selective use of subtle gradients and textures on otherwise stark backgrounds. The brand accent is a vivid red, reserved for highlighting interactive elements and key headings. The overall impression is one of stark, intellectual clarity, prioritizing content legibility within a controlled, sophisticated environment.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "Quick Color Reference:\ntext: #cacaca\nbackground: #000000\nborder: #cacaca\naccent: #ff7777\nprimary action: no distinct CTA color\n\nExample Component Prompts:\n1. Create a hero section with 'A New Era of Design' as the headline: background Midnight Void (#000000) with a subtle abstract gradient overlay. Headline text Lausanne 75px weight 400, Ghost Gray (#cacaca), letter-spacing -0.0300em, lineHeight 0.9. Subtext Lausanne 18px weight 400, Faded Stone (#727272), lineHeight 1.2.\n2. Design an interactive project listing entry for 'Quantum Interfaces': Text 'Quantum Interfaces' as a Highlighted Project Title, Lausanne 45px weight 400, Vanguard Red (#ff7777), letter-spacing -0.0300em, lineHeight 0.95. Below it, a 'See Project →' Ghost Navigation Link, Lausanne 15px weight 400, Ghost Gray (#cacaca), lineHeight 1.2. The entire entry uses 0px padding and sits on a Midnight Void (#000000) background.\n3. Implement a newsletter signup input field: Input field with transparent background, text color in Ghost Gray (#cacaca), a 1px bottom border in Ghost Gray (#cacaca), 0px padding and 0px border-radius. Placeholder text, e.g., 'Your Email Address', in Faded Stone (#727272). A 'Sign Up' button as a Ghost Navigation Link, Lausanne 15px weight 400, Ghost Gray (#cacaca), lineHeight 1.2. The input and button should be separated by an element gap of 10px."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777513268340-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777513268340-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/4c19bf7b-d5e8-4e2a-b3e3-69a9bde19b7a",
+  "ranks": {
+    "trending": 582,
+    "popular": 703,
+    "newest": 544
+  },
+  "localSlug": "channel-studio-4c19bf7b"
+}

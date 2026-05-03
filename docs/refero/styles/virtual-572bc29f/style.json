@@ -1,0 +1,635 @@
+{
+  "id": "572bc29f-8827-4f77-b248-08dddf1c2e26",
+  "url": "https://virtual.plus-ex.com/showroom",
+  "siteName": "Virtual",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777515622785-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777515622785-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "dark",
+  "colors": [
+    {
+      "name": "Midnight Void",
+      "hex": "#000000"
+    },
+    {
+      "name": "Ghost White",
+      "hex": "#ffffff"
+    },
+    {
+      "name": "Muted Ash",
+      "hex": "#666666"
+    },
+    {
+      "name": "Accent Orange",
+      "hex": "#ff5c00"
+    }
+  ],
+  "fonts": [
+    "neue-haas-grotesk-display",
+    "IPM",
+    "Arial"
+  ],
+  "northStar": "Minimalist digital console.",
+  "createdAt": "2026-04-30T02:20:39.583Z",
+  "previewVideoCapturedAt": null,
+  "industry": "other",
+  "fullResult": {
+    "meta": {
+      "url": "https://virtual.plus-ex.com/showroom",
+      "siteName": "Virtual",
+      "extractedAt": "2026-04-30T02:20:39.517Z",
+      "durationMs": 32155,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 21,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#ffffff",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 1.0000000000000002
+            },
+            "contexts": [
+              "other",
+              "heading",
+              "button"
+            ],
+            "frequency": 83,
+            "confidence": 1,
+            "prominence": 8284443.379921274,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "other/color": 12,
+              "heading/color": 3,
+              "other/borderColor": 48,
+              "button/borderColor": 8,
+              "heading/borderColor": 12
+            }
+          },
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "other",
+              "button"
+            ],
+            "frequency": 3,
+            "confidence": 1,
+            "prominence": 2592000,
+            "properties": [
+              "backgroundColor",
+              "color"
+            ],
+            "usageCounts": {
+              "button/color": 2,
+              "other/backgroundColor": 1
+            }
+          },
+          {
+            "hex": "#ff5c00",
+            "oklch": {
+              "c": 0.21203484414425622,
+              "h": 40.59224446321439,
+              "l": 0.6837012382475699
+            },
+            "contexts": [
+              "body"
+            ],
+            "frequency": 5,
+            "confidence": 1,
+            "prominence": 25803.09568219858,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "body/color": 1,
+              "body/borderColor": 4
+            }
+          },
+          {
+            "hex": "#666666",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.5102783583015936
+            },
+            "contexts": [
+              "body"
+            ],
+            "frequency": 10,
+            "confidence": 1,
+            "prominence": 6482.9748533262955,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "body/color": 2,
+              "body/borderColor": 8
+            }
+          }
+        ],
+        "isDarkMode": true,
+        "colorfulness": 0.02836966070969444,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 21,
+            "background": "#000000",
+            "foreground": "#ffffff"
+          },
+          {
+            "level": "AA",
+            "ratio": 6.78,
+            "background": "#000000",
+            "foreground": "#ff5c00"
+          },
+          {
+            "level": "fail",
+            "ratio": 3.66,
+            "background": "#000000",
+            "foreground": "#666666"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [
+          {
+            "value": 10,
+            "contexts": [
+              "button"
+            ],
+            "frequency": 2
+          }
+        ],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 10,
+            "contexts": [
+              "heading",
+              "button"
+            ],
+            "frequency": 7,
+            "properties": [
+              "paddingBottom",
+              "marginRight",
+              "marginLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingBottom|heading",
+              "marginRight|button",
+              "marginLeft|button"
+            ]
+          },
+          {
+            "value": 11,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 2,
+            "properties": [
+              "marginRight",
+              "marginLeft"
+            ],
+            "propertyContextPairs": [
+              "marginRight|body",
+              "marginLeft|body"
+            ]
+          },
+          {
+            "value": 17,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 2,
+            "properties": [
+              "marginRight",
+              "marginLeft"
+            ],
+            "propertyContextPairs": [
+              "marginRight|heading",
+              "marginLeft|heading"
+            ]
+          },
+          {
+            "value": 25,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 4,
+            "properties": [
+              "paddingTop",
+              "paddingRight",
+              "paddingBottom",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other",
+              "paddingRight|other",
+              "paddingBottom|other",
+              "paddingLeft|other"
+            ]
+          },
+          {
+            "value": 30,
+            "contexts": [
+              "button"
+            ],
+            "frequency": 8,
+            "properties": [
+              "paddingTop",
+              "paddingRight",
+              "paddingBottom",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|button",
+              "paddingRight|button",
+              "paddingBottom|button",
+              "paddingLeft|button"
+            ]
+          },
+          {
+            "value": 35,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 2,
+            "properties": [
+              "marginRight",
+              "marginLeft"
+            ],
+            "propertyContextPairs": [
+              "marginRight|heading",
+              "marginLeft|heading"
+            ]
+          },
+          {
+            "value": 156,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "marginTop",
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "marginTop|other",
+              "marginBottom|other"
+            ]
+          },
+          {
+            "value": 280,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "marginTop",
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "marginTop|other",
+              "marginBottom|other"
+            ]
+          }
+        ],
+        "density": "spacious",
+        "baseUnit": null
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "neue-haas-grotesk-display",
+            "source": "custom",
+            "weights": [
+              500
+            ],
+            "frequency": 16,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "IPM",
+            "source": "custom",
+            "weights": [
+              500
+            ],
+            "frequency": 3,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "Arial",
+            "source": "system",
+            "weights": [
+              400
+            ],
+            "frequency": 2,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 10,
+          "name": "Major Third",
+          "ratio": 1.25,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 10,
+            "family": "neue-haas-grotesk-display",
+            "weight": 500,
+            "contexts": [
+              "other",
+              "link"
+            ],
+            "frequency": 8,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 10,
+            "family": "neue-haas-grotesk-display",
+            "weight": 500,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 12,
+            "family": "neue-haas-grotesk-display",
+            "weight": 500,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 2,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 13,
+            "family": "Arial",
+            "weight": 400,
+            "contexts": [
+              "button"
+            ],
+            "frequency": 2,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "neue-haas-grotesk-display",
+            "weight": 500,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.4,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 30,
+            "family": "IPM",
+            "weight": 500,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 2,
+            "lineHeight": 1.3,
+            "letterSpacing": -0.02,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 60,
+            "family": "IPM",
+            "weight": 500,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.2,
+            "letterSpacing": -0.02,
+            "textTransform": "uppercase"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Maintain a primary contrast ratio of Ghost White (#ffffff) text on Midnight Void (#000000) backgrounds.",
+        "Use IPM font only for headlines and large display text, applying -0.0200em letter-spacing.",
+        "Apply 10px border-radius to all buttons and similar interactive containers.",
+        "Ensure horizontal and vertical spacing around main content blocks respects the 'spacious' density, with section gaps between 156px and 280px.",
+        "Define interactive elements with a 2px Ghost White border over a Midnight Void background.",
+        "Reserve Accent Orange (#ff5c00) for subtle instructional text or small, non-primary highlights.",
+        "Use Muted Ash (#666666) exclusively for secondary, low-prominence text, like helper or descriptive labels."
+      ],
+      "donts": [
+        "Do not introduce new background colors; maintain the #000000 dominant canvas.",
+        "Avoid using bold or heavy font weights; the system relies on lighter weights for a structured feel.",
+        "Do not deviate from the outlined button style; avoid solid filled buttons.",
+        "Prevent excessive use of Accent Orange; it is a highlight, not a primary color.",
+        "Do not overcrowd sections; the design relies on spacious layouts and generous use of negative space.",
+        "Avoid decorative imagery that breaks from the stark, high-contrast aesthetic; prefer purely functional or technical visuals.",
+        "Do not use letter-spacing on neue-haas-grotesk-display or Arial; only IPM headlines feature tracking."
+      ],
+      "theme": "dark",
+      "colors": [
+        {
+          "hex": "#000000",
+          "name": "Midnight Void",
+          "role": "Page background, button text on outlined buttons",
+          "group": "neutral"
+        },
+        {
+          "hex": "#ffffff",
+          "name": "Ghost White",
+          "role": "Primary text, outlined button borders, decorative framework lines",
+          "group": "neutral"
+        },
+        {
+          "hex": "#666666",
+          "name": "Muted Ash",
+          "role": "Secondary helper text, subtle borders",
+          "group": "neutral"
+        },
+        {
+          "hex": "#ff5c00",
+          "name": "Accent Orange",
+          "role": "Subtle instruction text, highlights, low-prominence accents",
+          "group": "accent"
+        }
+      ],
+      "layout": "The page maintains a centered, contained layout, with content focused in the middle of the screen against a full-bleed Midnight Void background. The hero section features a prominent, centered headline with a secondary instruction line. Interactive elements, such as buttons, are also centrally aligned, arranged horizontally. Vertical rhythm is established through significant top and bottom margins on the main content block, creating ample whitespace and a spacious density. Navigation appears to be minimal, suggested by a small 'W.' icon and 'Site of the Day' label in the top right, hinting at off-canvas or minimal global controls.",
+      "imagery": "The visual language is strictly UI-focused, devoid of photography or complex illustrations. It features simple, geometric outline graphics (like the corner brackets) which serve a decorative and structural purpose, echoing a technical blueprint or digital interface. Icons are implied to be minimalist and outlined, consistent with the overall aesthetic. Imagery plays a purely decorative atmospheric role, enhancing the 'digital console' feel without conveying specific content.",
+      "similar": [
+        {
+          "why": "Stark dark theme with minimal accent color, strong typography, and outlined interactive elements.",
+          "business": "Aerolab"
+        },
+        {
+          "why": "High-contrast dark mode, focus on custom typography, and use of single accent color for emphasis.",
+          "business": "Bruno (personal site)"
+        },
+        {
+          "why": "Black backgrounds with white text, strong grid-like visual structure, and a modern, digital aesthetic.",
+          "business": "Locomotive"
+        },
+        {
+          "why": "Dark UI, distinct display typography, and a deliberate sparse use of color limited to functional highlights.",
+          "business": "Akufen (agency)"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "buttons": "10px"
+        },
+        "elementGap": "10px",
+        "sectionGap": "",
+        "cardPadding": "30px",
+        "pageMaxWidth": null
+      },
+      "industry": "other",
+      "northStar": "Minimalist digital console.",
+      "typeScale": [
+        {
+          "role": "caption",
+          "size": 10,
+          "lineHeight": 1
+        },
+        {
+          "role": "heading",
+          "size": 30,
+          "lineHeight": 1.2,
+          "letterSpacing": -0.6
+        },
+        {
+          "role": "display",
+          "size": 60,
+          "lineHeight": 1.3,
+          "letterSpacing": -1.2
+        }
+      ],
+      "components": [
+        {
+          "name": "Outlined Button",
+          "role": "Primary interaction element for choices.",
+          "description": "Features a 10px borderRadius, 2px Ghost White border, Midnight Void background, and Midnight Void text. Padding is 30px on all sides. Internal text uses Arial 13px weight 400."
+        },
+        {
+          "name": "Hero Headline",
+          "role": "Main page title.",
+          "description": "Uses IPM font at 60px size, weight 500, with -0.0200em letter-spacing and Ghost White color."
+        },
+        {
+          "name": "Instruction Text",
+          "role": "Guidance or secondary hierarchy within sections.",
+          "description": "Styled with Accent Orange, using neue-haas-grotesk-display font at 16px size, weight 500."
+        },
+        {
+          "name": "Button Subtext",
+          "role": "Contextual information for interactive elements.",
+          "description": "Appears below button labels; uses Arial 13px, weight 400, Muted Ash color."
+        }
+      ],
+      "typography": [
+        {
+          "role": "Body text and navigation elements. Its crisp, modern lines provide legibility against dark backgrounds.",
+          "sizes": "10px, 12px, 16px",
+          "family": "neue-haas-grotesk-display",
+          "weight": "500",
+          "weights": [
+            500
+          ],
+          "lineHeight": "1.00, 1.20, 1.40",
+          "substitute": "Helvetica Neue",
+          "letterSpacing": "normal"
+        },
+        {
+          "role": "Strong, attention-grabbing headlines. The tight tracking at larger sizes creates a condensed, impactful presence.",
+          "sizes": "30px, 60px",
+          "family": "IPM",
+          "weight": "500",
+          "weights": [
+            500
+          ],
+          "lineHeight": "1.20, 1.30",
+          "substitute": "Staatliches",
+          "letterSpacing": "-0.0200em"
+        },
+        {
+          "role": "Button subtext and secondary labels, offering clear readability at smaller sizes.",
+          "sizes": "13px",
+          "family": "Arial",
+          "weight": "400",
+          "weights": [
+            400
+          ],
+          "lineHeight": "1.20",
+          "substitute": "Arial",
+          "letterSpacing": "normal"
+        }
+      ],
+      "description": "This design system presents a stark, high-contrast digital interface. Dominated by deep black backgrounds and crisp white text, it leverages an accent orange purely for subtle guidance and status. Interaction elements are clearly defined by white outline borders, maintaining the minimalist aesthetic. Typography combines a structured, technical display font with a more flexible body font to create hierarchy within this constrained palette. The overall impression is one of precise control and focused functionality within a dark, almost console-like environment.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "Quick Color Reference:\ntext: #ffffff\nbackground: #000000\nborder: #ffffff\naccent: #ff5c00\nprimary action: no distinct CTA color\n\nExample Component Prompts:\nCreate a Hero Section: Midnight Void background. Headline \"HELLO\" IPM 60px weight 500, #ffffff, letter-spacing -1.2px. Subtext \"SELECT YOUR CONTROL MODE\" neue-haas-grotesk-display 16px weight 500, #ff5c00. Two outlined buttons below, each 10px radius, 2px #ffffff border, 30px padding. Button label IPM 30px weight 500, #000000. Button subtext Arial 13px weight 400, #666666.\nCreate an Outlined Button: 10px radius, 2px #ffffff border, 30px padding. Label text IPM 30px weight 500, #000000. Helper text Arial 13px weight 400, #666666."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777515622785-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777515622785-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/572bc29f-8827-4f77-b248-08dddf1c2e26",
+  "ranks": {
+    "trending": 33,
+    "popular": 66,
+    "newest": 391
+  },
+  "localSlug": "virtual-572bc29f"
+}

@@ -1,0 +1,2318 @@
+{
+  "id": "56cd3725-3ff0-459e-894d-5da58d1fc549",
+  "url": "https://posthog.com",
+  "siteName": "PostHog",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775923122075-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775923122075-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "light",
+  "colors": [
+    {
+      "name": "Surface White",
+      "hex": "#ffffff"
+    },
+    {
+      "name": "Canvas Sand",
+      "hex": "#eeefe9"
+    },
+    {
+      "name": "Pale Granite",
+      "hex": "#e5e7e0"
+    },
+    {
+      "name": "Ink Black",
+      "hex": "#000000"
+    },
+    {
+      "name": "Charcoal Black",
+      "hex": "#111827"
+    },
+    {
+      "name": "Graphite Grey",
+      "hex": "#374151"
+    }
+  ],
+  "fonts": [
+    "IBM Plex Sans Variable",
+    "ui-monospace",
+    "Source Code Pro"
+  ],
+  "northStar": "Workbench with playful tools. A clean, light canvas anchored by a single vibrant accent color.",
+  "createdAt": "2026-01-18T11:19:19.000Z",
+  "previewVideoCapturedAt": null,
+  "industry": "devtools",
+  "fullResult": {
+    "meta": {
+      "url": "https://posthog.com",
+      "siteName": "PostHog",
+      "extractedAt": "2026-04-11T15:59:05.384Z",
+      "durationMs": 29192,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 1205,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "complete",
+          "attempts": 2
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "other",
+              "body",
+              "image",
+              "nav",
+              "button",
+              "icon",
+              "heading",
+              "list"
+            ],
+            "frequency": 822,
+            "confidence": 1,
+            "prominence": 36861886.819327764,
+            "properties": [
+              "color",
+              "borderColor",
+              "fill"
+            ]
+          },
+          {
+            "hex": "#374151",
+            "oklch": {
+              "c": 0.03062045960968168,
+              "h": 259.7328541134383,
+              "l": 0.37292705693325034
+            },
+            "contexts": [
+              "card",
+              "other",
+              "image",
+              "body",
+              "list",
+              "icon",
+              "heading",
+              "button"
+            ],
+            "frequency": 1207,
+            "confidence": 1,
+            "prominence": 36447185.11128638,
+            "properties": [
+              "color",
+              "borderColor",
+              "fill"
+            ]
+          },
+          {
+            "hex": "#e1d7c2",
+            "oklch": {
+              "c": 0.030256169089535313,
+              "h": 85.56547378758718,
+              "l": 0.8815622722555261
+            },
+            "contexts": [
+              "other",
+              "nav"
+            ],
+            "frequency": 17,
+            "confidence": 1,
+            "prominence": 5404222.801869237,
+            "properties": [
+              "backgroundColor"
+            ]
+          },
+          {
+            "hex": "#9ea096",
+            "oklch": {
+              "c": 0.014455312989459063,
+              "h": 115.95643016477212,
+              "l": 0.7011780215970798
+            },
+            "contexts": [
+              "other",
+              "button",
+              "body",
+              "icon"
+            ],
+            "frequency": 97,
+            "confidence": 1,
+            "prominence": 5143598.374783986,
+            "properties": [
+              "borderColor",
+              "color",
+              "fill"
+            ]
+          },
+          {
+            "hex": "#ffffff",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 1.0000000000000002
+            },
+            "contexts": [
+              "other",
+              "body",
+              "button",
+              "nav"
+            ],
+            "frequency": 68,
+            "confidence": 1,
+            "prominence": 4511866.117216578,
+            "properties": [
+              "backgroundColor",
+              "color",
+              "borderColor",
+              "fill"
+            ]
+          },
+          {
+            "hex": "#b3b3af",
+            "oklch": {
+              "c": 0.006357947123556794,
+              "h": 114.22045162328402,
+              "l": 0.7656251550242853
+            },
+            "contexts": [
+              "other",
+              "button"
+            ],
+            "frequency": 36,
+            "confidence": 1,
+            "prominence": 4050870.937113072,
+            "properties": [
+              "boxShadow",
+              "borderColor",
+              "backgroundColor"
+            ]
+          },
+          {
+            "hex": "#4d4f46",
+            "oklch": {
+              "c": 0.01475213896542313,
+              "h": 117.21244356839905,
+              "l": 0.4228253287314327
+            },
+            "contexts": [
+              "nav",
+              "button",
+              "link",
+              "body",
+              "icon",
+              "other"
+            ],
+            "frequency": 1221,
+            "confidence": 1,
+            "prominence": 3188555.0130994585,
+            "properties": [
+              "color",
+              "borderColor",
+              "fill"
+            ]
+          },
+          {
+            "hex": "#bfc1b7",
+            "oklch": {
+              "c": 0.013969602927408691,
+              "h": 115.89607374215642,
+              "l": 0.8064923120784929
+            },
+            "contexts": [
+              "other",
+              "button"
+            ],
+            "frequency": 117,
+            "confidence": 1,
+            "prominence": 2139992.67276588,
+            "properties": [
+              "borderColor",
+              "boxShadow"
+            ]
+          },
+          {
+            "hex": "#2f80fa",
+            "oklch": {
+              "c": 0.19840444378063277,
+              "h": 258.9563076335803,
+              "l": 0.6182067110031633
+            },
+            "contexts": [
+              "button",
+              "other",
+              "icon"
+            ],
+            "frequency": 36,
+            "confidence": 1,
+            "prominence": 1864583.1769860107,
+            "properties": [
+              "backgroundColor",
+              "color",
+              "fill",
+              "borderColor"
+            ]
+          },
+          {
+            "hex": "#eeefe9",
+            "oklch": {
+              "c": 0.008032448834149707,
+              "h": 114.22330675486769,
+              "l": 0.9496999752898883
+            },
+            "contexts": [
+              "other",
+              "button"
+            ],
+            "frequency": 13,
+            "confidence": 1,
+            "prominence": 1286821.2386217953,
+            "properties": [
+              "backgroundColor"
+            ]
+          },
+          {
+            "hex": "#fdfdf8",
+            "oklch": {
+              "c": 0.006571921960835612,
+              "h": 106.5187170685374,
+              "l": 0.9926724161804632
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 684012,
+            "properties": [
+              "backgroundColor"
+            ]
+          },
+          {
+            "hex": "#111827",
+            "oklch": {
+              "c": 0.03176261291165215,
+              "h": 264.66452749147317,
+              "l": 0.2100844908199934
+            },
+            "contexts": [
+              "heading",
+              "other",
+              "link",
+              "body"
+            ],
+            "frequency": 300,
+            "confidence": 1,
+            "prominence": 328817.83541107544,
+            "properties": [
+              "color",
+              "borderColor"
+            ]
+          },
+          {
+            "hex": "#e5e7e0",
+            "oklch": {
+              "c": 0.009585837496648902,
+              "h": 119.58691555161329,
+              "l": 0.924480806846505
+            },
+            "contexts": [
+              "other",
+              "button",
+              "body"
+            ],
+            "frequency": 6,
+            "confidence": 1,
+            "prominence": 203241.26693728231,
+            "properties": [
+              "backgroundColor"
+            ]
+          },
+          {
+            "hex": "#65675e",
+            "oklch": {
+              "c": 0.01411017325097847,
+              "h": 117.08215127179466,
+              "l": 0.5091895590290143
+            },
+            "contexts": [
+              "button",
+              "body",
+              "link",
+              "icon",
+              "other"
+            ],
+            "frequency": 135,
+            "confidence": 1,
+            "prominence": 167887.81978353803,
+            "properties": [
+              "color",
+              "borderColor",
+              "fill"
+            ]
+          },
+          {
+            "hex": "#f1a82c",
+            "oklch": {
+              "c": 0.15328823311456435,
+              "h": 74.81326891623534,
+              "l": 0.7831846710077518
+            },
+            "contexts": [
+              "body",
+              "icon",
+              "other"
+            ],
+            "frequency": 38,
+            "confidence": 1,
+            "prominence": 141923.6203808891,
+            "properties": [
+              "backgroundColor",
+              "color",
+              "fill",
+              "borderColor"
+            ]
+          },
+          {
+            "hex": "#b17816",
+            "oklch": {
+              "c": 0.12441429604636228,
+              "h": 73.98337972908915,
+              "l": 0.6166518903723536
+            },
+            "contexts": [
+              "link",
+              "body",
+              "button",
+              "heading"
+            ],
+            "frequency": 56,
+            "confidence": 1,
+            "prominence": 85679.32141806588,
+            "properties": [
+              "borderColor"
+            ]
+          },
+          {
+            "hex": "#23251d",
+            "oklch": {
+              "c": 0.014776804000543634,
+              "h": 118.84071473251804,
+              "l": 0.25957096635695276
+            },
+            "contexts": [
+              "button",
+              "other",
+              "icon",
+              "body",
+              "link"
+            ],
+            "frequency": 267,
+            "confidence": 1,
+            "prominence": 84218.0372375696,
+            "properties": [
+              "color",
+              "borderColor",
+              "fill"
+            ]
+          },
+          {
+            "hex": "#eb9d2a",
+            "oklch": {
+              "c": 0.15082074510402807,
+              "h": 70.78456287368624,
+              "l": 0.7560421093303011
+            },
+            "contexts": [
+              "body",
+              "button",
+              "link",
+              "heading"
+            ],
+            "frequency": 7,
+            "confidence": 1,
+            "prominence": 41619,
+            "properties": [
+              "backgroundColor"
+            ]
+          },
+          {
+            "hex": "#cd8407",
+            "oklch": {
+              "c": 0.1439528310653697,
+              "h": 70.4638237292375,
+              "l": 0.6731031996035275
+            },
+            "contexts": [
+              "link"
+            ],
+            "frequency": 4,
+            "confidence": 1,
+            "prominence": 34106.80178580046,
+            "properties": [
+              "backgroundColor"
+            ]
+          },
+          {
+            "hex": "#6aa84f",
+            "oklch": {
+              "c": 0.13800430689424883,
+              "h": 137.06054065466725,
+              "l": 0.6688239435675434
+            },
+            "contexts": [
+              "icon",
+              "body",
+              "other"
+            ],
+            "frequency": 18,
+            "confidence": 1,
+            "prominence": 11949.420095316806,
+            "properties": [
+              "color",
+              "fill",
+              "borderColor",
+              "backgroundColor"
+            ]
+          },
+          {
+            "hex": "#1f1f1f",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.23929237775790413
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 10,
+            "confidence": 1,
+            "prominence": 10291.80906544596,
+            "properties": [
+              "fill"
+            ]
+          },
+          {
+            "hex": "#f54e00",
+            "oklch": {
+              "c": 0.21354234114476434,
+              "h": 37.99033126867223,
+              "l": 0.652187345607034
+            },
+            "contexts": [
+              "body",
+              "button",
+              "other"
+            ],
+            "frequency": 22,
+            "confidence": 1,
+            "prominence": 6265.133309138963,
+            "properties": [
+              "backgroundColor",
+              "color",
+              "borderColor",
+              "fill"
+            ]
+          },
+          {
+            "hex": "#107a4d",
+            "oklch": {
+              "c": 0.11457375043859838,
+              "h": 158.23691616863414,
+              "l": 0.5126320213349623
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 5,
+            "confidence": 1,
+            "prominence": 5451.685914020918,
+            "properties": [
+              "fill"
+            ]
+          },
+          {
+            "hex": "#20c178",
+            "oklch": {
+              "c": 0.16427803800742008,
+              "h": 156.74317225326027,
+              "l": 0.716464097602655
+            },
+            "contexts": [
+              "icon",
+              "other"
+            ],
+            "frequency": 14,
+            "confidence": 1,
+            "prominence": 4887.520135106257,
+            "properties": [
+              "color",
+              "fill",
+              "borderColor"
+            ]
+          },
+          {
+            "hex": "#ff5a00",
+            "oklch": {
+              "c": 0.21359372172672997,
+              "h": 40.061132070587455,
+              "l": 0.6814136942856506
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "confidence": 1,
+            "prominence": 4870.589764716113,
+            "properties": [
+              "fill"
+            ]
+          },
+          {
+            "hex": "#40ba9b",
+            "oklch": {
+              "c": 0.117027613417493,
+              "h": 172.66206788490115,
+              "l": 0.71321088751688
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 4122,
+            "properties": [
+              "fill"
+            ]
+          },
+          {
+            "hex": "#d2d3cc",
+            "oklch": {
+              "c": 0.009567798650095978,
+              "h": 113.18658348758376,
+              "l": 0.8640994951160098
+            },
+            "contexts": [
+              "button"
+            ],
+            "frequency": 4,
+            "confidence": 1,
+            "prominence": 2377.654369164659,
+            "properties": [
+              "borderColor"
+            ]
+          },
+          {
+            "hex": "#141414",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.1912512996316179
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "confidence": 1,
+            "prominence": 2307.7054010500033,
+            "properties": [
+              "fill"
+            ]
+          },
+          {
+            "hex": "#3970fd",
+            "oklch": {
+              "c": 0.21834991866916525,
+              "h": 264.4540969945042,
+              "l": 0.5916230719951212
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 3,
+            "confidence": 1,
+            "prominence": 1946,
+            "properties": [
+              "fill"
+            ]
+          },
+          {
+            "hex": "#020202",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.0846725099673314
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 1884,
+            "properties": [
+              "fill"
+            ]
+          },
+          {
+            "hex": "#73756b",
+            "oklch": {
+              "c": 0.015280337108251926,
+              "h": 116.08082426014313,
+              "l": 0.5575957064221871
+            },
+            "contexts": [
+              "icon",
+              "other"
+            ],
+            "frequency": 8,
+            "confidence": 1,
+            "prominence": 1825.8768008307718,
+            "properties": [
+              "color",
+              "fill",
+              "borderColor"
+            ]
+          },
+          {
+            "hex": "#f9bd2b",
+            "oklch": {
+              "c": 0.1607121109938096,
+              "h": 83.70119987244685,
+              "l": 0.8312473183563562
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "confidence": 1,
+            "prominence": 1345.6331631122614,
+            "properties": [
+              "fill"
+            ]
+          },
+          {
+            "hex": "#ff66f4",
+            "oklch": {
+              "c": 0.24257297582805734,
+              "h": 330.6054677815632,
+              "l": 0.751209413736719
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 1246,
+            "properties": [
+              "fill"
+            ]
+          },
+          {
+            "hex": "#30abc6",
+            "oklch": {
+              "c": 0.11013399683240398,
+              "h": 216.20820197611658,
+              "l": 0.6872259808067115
+            },
+            "contexts": [
+              "icon",
+              "other"
+            ],
+            "frequency": 26,
+            "confidence": 1,
+            "prominence": 1217.2512005538479,
+            "properties": [
+              "color",
+              "fill",
+              "borderColor"
+            ]
+          },
+          {
+            "hex": "#0500ff",
+            "oklch": {
+              "c": 0.31266943043743584,
+              "h": 264.3816717303971,
+              "l": 0.45270562236974293
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 6,
+            "confidence": 1,
+            "prominence": 1173.4743574200786,
+            "properties": [
+              "fill"
+            ]
+          },
+          {
+            "hex": "#ff6363",
+            "oklch": {
+              "c": 0.1907056047286926,
+              "h": 23.398752833253678,
+              "l": 0.7002730353252781
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 1116,
+            "properties": [
+              "fill"
+            ]
+          },
+          {
+            "hex": "#b62ad9",
+            "oklch": {
+              "c": 0.2548388444681987,
+              "h": 318.2519759315325,
+              "l": 0.5835244482733253
+            },
+            "contexts": [
+              "icon",
+              "other"
+            ],
+            "frequency": 16,
+            "confidence": 1,
+            "prominence": 1046.3904873600868,
+            "properties": [
+              "color",
+              "fill",
+              "borderColor"
+            ]
+          },
+          {
+            "hex": "#ff0105",
+            "oklch": {
+              "c": 0.2573329133538916,
+              "h": 28.98812580507054,
+              "l": 0.6282536857812699
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 855,
+            "properties": [
+              "fill"
+            ]
+          },
+          {
+            "hex": "#29dbbb",
+            "oklch": {
+              "c": 0.14221662658615417,
+              "h": 176.44263910124164,
+              "l": 0.8000352113374205
+            },
+            "contexts": [
+              "icon",
+              "other"
+            ],
+            "frequency": 8,
+            "confidence": 1,
+            "prominence": 811.5008003692319,
+            "properties": [
+              "color",
+              "fill",
+              "borderColor"
+            ]
+          },
+          {
+            "hex": "#1d4aff",
+            "oklch": {
+              "c": 0.26783856449634225,
+              "h": 265.3409503967494,
+              "l": 0.51968345642462
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 6,
+            "confidence": 1,
+            "prominence": 746.7564092673227,
+            "properties": [
+              "fill"
+            ]
+          },
+          {
+            "hex": "#1f40ec",
+            "oklch": {
+              "c": 0.2553680067396282,
+              "h": 266.23217893237273,
+              "l": 0.4857776663002311
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 639,
+            "properties": [
+              "fill"
+            ]
+          },
+          {
+            "hex": "#ee342f",
+            "oklch": {
+              "c": 0.2216056490812155,
+              "h": 27.686063565215747,
+              "l": 0.6194121785295693
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "confidence": 1,
+            "prominence": 445.37446270264485,
+            "properties": [
+              "fill"
+            ]
+          },
+          {
+            "hex": "#fe7b02",
+            "oklch": {
+              "c": 0.18792761664867091,
+              "h": 51.04762658299487,
+              "l": 0.723099731310532
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 352,
+            "properties": [
+              "fill"
+            ]
+          },
+          {
+            "hex": "#3ecf8e",
+            "oklch": {
+              "c": 0.15437618453183874,
+              "h": 159.35507835055026,
+              "l": 0.7623945011333757
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 298,
+            "properties": [
+              "fill"
+            ]
+          },
+          {
+            "hex": "#8d2676",
+            "oklch": {
+              "c": 0.1633060074955871,
+              "h": 338.3395568987003,
+              "l": 0.4588004420279734
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 272,
+            "properties": [
+              "fill"
+            ]
+          },
+          {
+            "hex": "#f7d046",
+            "oklch": {
+              "c": 0.1551599482587649,
+              "h": 92.7113078655022,
+              "l": 0.8677546312254601
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 222,
+            "properties": [
+              "fill"
+            ]
+          },
+          {
+            "hex": "#f2a73b",
+            "oklch": {
+              "c": 0.14706694827273661,
+              "h": 71.76030306236758,
+              "l": 0.7834183094127831
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 222,
+            "properties": [
+              "fill"
+            ]
+          },
+          {
+            "hex": "#ee792f",
+            "oklch": {
+              "c": 0.1663400311479539,
+              "h": 48.795940403984666,
+              "l": 0.6995204888260174
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 222,
+            "properties": [
+              "fill"
+            ]
+          },
+          {
+            "hex": "#eb5829",
+            "oklch": {
+              "c": 0.19110717634121793,
+              "h": 37.25113644207565,
+              "l": 0.6490510650642736
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 222,
+            "properties": [
+              "fill"
+            ]
+          },
+          {
+            "hex": "#128414",
+            "oklch": {
+              "c": 0.17205412517693103,
+              "h": 142.82250796608344,
+              "l": 0.5340289068575056
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "confidence": 1,
+            "prominence": 215.5549000980772,
+            "properties": [
+              "fill"
+            ]
+          },
+          {
+            "hex": "#f3b01c",
+            "oklch": {
+              "c": 0.1603421558071066,
+              "h": 79.95101342585242,
+              "l": 0.7996334402485458
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 199,
+            "properties": [
+              "fill"
+            ]
+          },
+          {
+            "hex": "#00e1ff",
+            "oklch": {
+              "c": 0.145258485756568,
+              "h": 211.6770615590114,
+              "l": 0.8347471602510974
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "confidence": 1,
+            "prominence": 160.08121257283676,
+            "properties": [
+              "fill"
+            ]
+          },
+          {
+            "hex": "#ab81e9",
+            "oklch": {
+              "c": 0.15321049432022577,
+              "h": 301.0961170317548,
+              "l": 0.6862661215718555
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 151,
+            "properties": [
+              "fill"
+            ]
+          },
+          {
+            "hex": "#00ba97",
+            "oklch": {
+              "c": 0.1352659094789077,
+              "h": 172.81131304000652,
+              "l": 0.7031820190711967
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 114,
+            "properties": [
+              "fill"
+            ]
+          },
+          {
+            "hex": "#0079ff",
+            "oklch": {
+              "c": 0.21886735180664232,
+              "h": 257.6300765117341,
+              "l": 0.6007222212432174
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 101,
+            "properties": [
+              "fill"
+            ]
+          }
+        ],
+        "isDarkMode": false,
+        "colorfulness": 0.0719197166111845,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 21,
+            "background": "#ffffff",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 20.75,
+            "background": "#ffffff",
+            "foreground": "#020202"
+          },
+          {
+            "level": "AAA",
+            "ratio": 20.58,
+            "background": "#fdfdf8",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 20.34,
+            "background": "#fdfdf8",
+            "foreground": "#020202"
+          },
+          {
+            "level": "AAA",
+            "ratio": 18.42,
+            "background": "#ffffff",
+            "foreground": "#141414"
+          },
+          {
+            "level": "AAA",
+            "ratio": 18.16,
+            "background": "#eeefe9",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 18.06,
+            "background": "#fdfdf8",
+            "foreground": "#141414"
+          },
+          {
+            "level": "AAA",
+            "ratio": 17.94,
+            "background": "#eeefe9",
+            "foreground": "#020202"
+          },
+          {
+            "level": "AAA",
+            "ratio": 17.74,
+            "background": "#ffffff",
+            "foreground": "#111827"
+          },
+          {
+            "level": "AAA",
+            "ratio": 17.39,
+            "background": "#fdfdf8",
+            "foreground": "#111827"
+          },
+          {
+            "level": "AAA",
+            "ratio": 16.84,
+            "background": "#e5e7e0",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 16.64,
+            "background": "#e5e7e0",
+            "foreground": "#020202"
+          },
+          {
+            "level": "AAA",
+            "ratio": 16.48,
+            "background": "#ffffff",
+            "foreground": "#1f1f1f"
+          },
+          {
+            "level": "AAA",
+            "ratio": 16.15,
+            "background": "#fdfdf8",
+            "foreground": "#1f1f1f"
+          },
+          {
+            "level": "AAA",
+            "ratio": 15.93,
+            "background": "#eeefe9",
+            "foreground": "#141414"
+          },
+          {
+            "level": "AAA",
+            "ratio": 15.51,
+            "background": "#ffffff",
+            "foreground": "#23251d"
+          },
+          {
+            "level": "AAA",
+            "ratio": 15.34,
+            "background": "#eeefe9",
+            "foreground": "#111827"
+          },
+          {
+            "level": "AAA",
+            "ratio": 15.2,
+            "background": "#fdfdf8",
+            "foreground": "#23251d"
+          },
+          {
+            "level": "AAA",
+            "ratio": 14.77,
+            "background": "#e5e7e0",
+            "foreground": "#141414"
+          },
+          {
+            "level": "AAA",
+            "ratio": 14.7,
+            "background": "#e1d7c2",
+            "foreground": "#000000"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [
+          {
+            "value": 4,
+            "contexts": [
+              "nav",
+              "button",
+              "other",
+              "link",
+              "body"
+            ],
+            "frequency": 81
+          },
+          {
+            "value": 8,
+            "contexts": [
+              "link",
+              "heading"
+            ],
+            "frequency": 2
+          },
+          {
+            "value": 9999,
+            "contexts": [
+              "other",
+              "body"
+            ],
+            "frequency": 12
+          }
+        ],
+        "shadows": [
+          {
+            "value": "rgba(0, 0, 0, 0.25) 0px 25px 50px -12px",
+            "contexts": [
+              "other"
+            ],
+            "frequency": 3
+          }
+        ]
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 1,
+            "frequency": 10,
+            "properties": [
+              "rowGap",
+              "columnGap"
+            ]
+          },
+          {
+            "value": 2,
+            "frequency": 114,
+            "properties": [
+              "paddingLeft",
+              "paddingTop",
+              "paddingBottom",
+              "rowGap",
+              "columnGap",
+              "marginTop",
+              "paddingRight"
+            ]
+          },
+          {
+            "value": 4,
+            "frequency": 182,
+            "properties": [
+              "paddingTop",
+              "paddingBottom",
+              "marginRight",
+              "rowGap",
+              "columnGap",
+              "paddingRight",
+              "paddingLeft",
+              "marginLeft",
+              "marginTop",
+              "marginBottom"
+            ]
+          },
+          {
+            "value": 5,
+            "frequency": 20,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ]
+          },
+          {
+            "value": 6,
+            "frequency": 99,
+            "properties": [
+              "paddingRight",
+              "paddingLeft",
+              "paddingTop",
+              "paddingBottom",
+              "marginRight",
+              "marginLeft",
+              "rowGap",
+              "columnGap"
+            ]
+          },
+          {
+            "value": 8,
+            "frequency": 192,
+            "properties": [
+              "paddingRight",
+              "paddingLeft",
+              "rowGap",
+              "columnGap",
+              "paddingTop",
+              "paddingBottom",
+              "marginBottom",
+              "marginTop"
+            ]
+          },
+          {
+            "value": 9,
+            "frequency": 3,
+            "properties": [
+              "marginBottom",
+              "marginTop"
+            ]
+          },
+          {
+            "value": 10,
+            "frequency": 24,
+            "properties": [
+              "paddingRight",
+              "paddingLeft",
+              "marginRight",
+              "marginLeft",
+              "paddingTop",
+              "paddingBottom"
+            ]
+          },
+          {
+            "value": 12,
+            "frequency": 15,
+            "properties": [
+              "paddingTop",
+              "paddingRight",
+              "paddingLeft",
+              "rowGap",
+              "columnGap"
+            ]
+          },
+          {
+            "value": 14,
+            "frequency": 2,
+            "properties": [
+              "marginTop",
+              "marginBottom"
+            ]
+          },
+          {
+            "value": 16,
+            "frequency": 47,
+            "properties": [
+              "paddingTop",
+              "paddingBottom",
+              "marginLeft",
+              "paddingRight",
+              "paddingLeft",
+              "marginTop",
+              "marginBottom",
+              "rowGap",
+              "columnGap"
+            ]
+          },
+          {
+            "value": 17,
+            "frequency": 44,
+            "properties": [
+              "marginTop",
+              "marginBottom"
+            ]
+          },
+          {
+            "value": 20,
+            "frequency": 4,
+            "properties": [
+              "paddingLeft",
+              "marginTop",
+              "paddingRight"
+            ]
+          },
+          {
+            "value": 24,
+            "frequency": 7,
+            "properties": [
+              "paddingRight",
+              "marginLeft",
+              "paddingLeft",
+              "paddingTop",
+              "paddingBottom"
+            ]
+          },
+          {
+            "value": 32,
+            "frequency": 12,
+            "properties": [
+              "paddingRight",
+              "paddingLeft",
+              "marginTop",
+              "columnGap"
+            ]
+          },
+          {
+            "value": 34,
+            "frequency": 7,
+            "properties": [
+              "marginTop"
+            ]
+          },
+          {
+            "value": 64,
+            "frequency": 3,
+            "properties": [
+              "paddingTop",
+              "rowGap",
+              "columnGap"
+            ]
+          },
+          {
+            "value": 144,
+            "frequency": 2,
+            "properties": [
+              "marginRight",
+              "marginLeft"
+            ]
+          }
+        ],
+        "density": "compact",
+        "baseUnit": null
+      },
+      "gradients": [
+        {
+          "type": "linear",
+          "value": "linear-gradient(90deg, rgb(1, 67, 203), rgb(43, 111, 244) 24.04%, rgb(210, 52, 1) 46.63%, rgb(255, 101, 31) 65.87%, rgb(251, 160, 0) 83.17%, rgb(1, 67, 203))",
+          "colors": [
+            "rgb(1, 67, 203)",
+            "rgb(43, 111, 244)",
+            "rgb(210, 52, 1)",
+            "rgb(255, 101, 31)",
+            "rgb(251, 160, 0)",
+            "rgb(1, 67, 203)"
+          ],
+          "frequency": 1
+        }
+      ],
+      "typography": {
+        "fonts": [
+          {
+            "family": "IBM Plex Sans Variable",
+            "source": "custom",
+            "weights": [
+              400,
+              500,
+              600,
+              700,
+              800
+            ],
+            "frequency": 846,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "ui-monospace",
+            "source": "system",
+            "weights": [
+              400
+            ],
+            "frequency": 4,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "Source Code Pro",
+            "source": "google",
+            "weights": [
+              500
+            ],
+            "frequency": 1,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 16,
+          "name": "Major Second",
+          "ratio": 1.125,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 12,
+            "family": "IBM Plex Sans Variable",
+            "weight": 400,
+            "contexts": [
+              "button",
+              "icon",
+              "body"
+            ],
+            "frequency": 8,
+            "lineHeight": 1.33,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 12,
+            "family": "IBM Plex Sans Variable",
+            "weight": 700,
+            "contexts": [
+              "body",
+              "icon"
+            ],
+            "frequency": 2,
+            "lineHeight": 1.33,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 12,
+            "family": "IBM Plex Sans Variable",
+            "weight": 700,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.33,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 12,
+            "family": "IBM Plex Sans Variable",
+            "weight": 400,
+            "contexts": [
+              "body",
+              "other"
+            ],
+            "frequency": 2,
+            "lineHeight": 1.5,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 12,
+            "family": "IBM Plex Sans Variable",
+            "weight": 600,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.33,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 13,
+            "family": "IBM Plex Sans Variable",
+            "weight": 500,
+            "contexts": [
+              "button",
+              "other",
+              "icon",
+              "body"
+            ],
+            "frequency": 15,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 13,
+            "family": "IBM Plex Sans Variable",
+            "weight": 700,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 2,
+            "lineHeight": 1.5,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 13,
+            "family": "IBM Plex Sans Variable",
+            "weight": 400,
+            "contexts": [
+              "button",
+              "icon"
+            ],
+            "frequency": 4,
+            "lineHeight": 1.5,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 13,
+            "family": "IBM Plex Sans Variable",
+            "weight": 600,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.5,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 13,
+            "family": "IBM Plex Sans Variable",
+            "weight": 500,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 16,
+            "lineHeight": 1.25,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 13,
+            "family": "IBM Plex Sans Variable",
+            "weight": 500,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 32,
+            "lineHeight": 1.38,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 13,
+            "family": "IBM Plex Sans Variable",
+            "weight": 400,
+            "contexts": [
+              "button",
+              "body",
+              "icon"
+            ],
+            "frequency": 8,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 13,
+            "family": "IBM Plex Sans Variable",
+            "weight": 700,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.71,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 14,
+            "family": "IBM Plex Sans Variable",
+            "weight": 600,
+            "contexts": [
+              "button",
+              "icon",
+              "link",
+              "body",
+              "other"
+            ],
+            "frequency": 21,
+            "lineHeight": 1.43,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 14,
+            "family": "IBM Plex Sans Variable",
+            "weight": 400,
+            "contexts": [
+              "button",
+              "body",
+              "icon",
+              "other",
+              "list",
+              "image"
+            ],
+            "frequency": 52,
+            "lineHeight": 1.43,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 14,
+            "family": "IBM Plex Sans Variable",
+            "weight": 700,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 2,
+            "lineHeight": 1.71,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 14,
+            "family": "ui-monospace",
+            "weight": 400,
+            "contexts": [
+              "button",
+              "icon",
+              "body"
+            ],
+            "frequency": 4,
+            "lineHeight": 1.43,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 14,
+            "family": "Source Code Pro",
+            "weight": 500,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.43,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 14,
+            "family": "IBM Plex Sans Variable",
+            "weight": 400,
+            "contexts": [
+              "body",
+              "icon",
+              "list"
+            ],
+            "frequency": 23,
+            "lineHeight": 1.5,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 14,
+            "family": "IBM Plex Sans Variable",
+            "weight": 600,
+            "contexts": [
+              "link",
+              "other"
+            ],
+            "frequency": 4,
+            "lineHeight": 1.5,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 14,
+            "family": "IBM Plex Sans Variable",
+            "weight": 500,
+            "contexts": [
+              "link",
+              "icon",
+              "body"
+            ],
+            "frequency": 42,
+            "lineHeight": 1.43,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 14,
+            "family": "IBM Plex Sans Variable",
+            "weight": 700,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 6,
+            "lineHeight": 1.43,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 14,
+            "family": "IBM Plex Sans Variable",
+            "weight": 700,
+            "contexts": [
+              "button"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.5,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 15,
+            "family": "IBM Plex Sans Variable",
+            "weight": 400,
+            "contexts": [
+              "card",
+              "other",
+              "image",
+              "body",
+              "button",
+              "icon",
+              "list"
+            ],
+            "frequency": 227,
+            "lineHeight": 1.71,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 15,
+            "family": "IBM Plex Sans Variable",
+            "weight": 400,
+            "contexts": [
+              "body",
+              "other",
+              "list"
+            ],
+            "frequency": 70,
+            "lineHeight": 1.5,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 15,
+            "family": "IBM Plex Sans Variable",
+            "weight": 600,
+            "contexts": [
+              "link",
+              "button",
+              "other",
+              "body",
+              "icon"
+            ],
+            "frequency": 44,
+            "lineHeight": 1.71,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 15,
+            "family": "IBM Plex Sans Variable",
+            "weight": 600,
+            "contexts": [
+              "other",
+              "link",
+              "body"
+            ],
+            "frequency": 24,
+            "lineHeight": 1.5,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 15,
+            "family": "IBM Plex Sans Variable",
+            "weight": 700,
+            "contexts": [
+              "button"
+            ],
+            "frequency": 2,
+            "lineHeight": 1.5,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "IBM Plex Sans Variable",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "body",
+              "link",
+              "button",
+              "image",
+              "nav",
+              "list"
+            ],
+            "frequency": 208,
+            "lineHeight": 1.5,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 18,
+            "family": "IBM Plex Sans Variable",
+            "weight": 700,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.5,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 18,
+            "family": "IBM Plex Sans Variable",
+            "weight": 600,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "lineHeight": 1.56,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 19,
+            "family": "IBM Plex Sans Variable",
+            "weight": 600,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.56,
+            "letterSpacing": -0.025,
+            "textTransform": "none"
+          },
+          {
+            "size": 20,
+            "family": "IBM Plex Sans Variable",
+            "weight": 700,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.4,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 20,
+            "family": "IBM Plex Sans Variable",
+            "weight": 700,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.4,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 21,
+            "family": "IBM Plex Sans Variable",
+            "weight": 700,
+            "contexts": [
+              "heading",
+              "body"
+            ],
+            "frequency": 15,
+            "lineHeight": 1.4,
+            "letterSpacing": -0.025,
+            "textTransform": "none"
+          },
+          {
+            "size": 24,
+            "family": "IBM Plex Sans Variable",
+            "weight": 800,
+            "contexts": [
+              "heading",
+              "other"
+            ],
+            "frequency": 4,
+            "lineHeight": 1.33,
+            "letterSpacing": -0.025,
+            "textTransform": "none"
+          },
+          {
+            "size": 24,
+            "family": "IBM Plex Sans Variable",
+            "weight": 700,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.33,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 36,
+            "family": "IBM Plex Sans Variable",
+            "weight": 700,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.5,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Prioritize IBM Plex Sans Variable for all text using its full range of weights and the defined negative letter-spacing.",
+        "Use Marigold Yellow (#f1a82c) for primary call-to-action buttons to ensure high visibility.",
+        "Maintain a default border-radius of 4px for most interactive elements and general containers.",
+        "Distinguish content sections using neutral background colors: Surface White (#ffffff) and Canvas Sand (#eeefe9).",
+        "Employ Graphite Grey (#374151) for secondary text and borders to provide visual texture and hierarchy without being too heavy.",
+        "Reserve the Dynamic Gradient for brand marks or very specific, high-impact decorative elements."
+      ],
+      "tags": [
+        "minimal",
+        "functional",
+        "engineered",
+        "playful",
+        "technical",
+        "clean",
+        "product-centric",
+        "data-driven",
+        "crisp",
+        "light-mode"
+      ],
+      "donts": [
+        "Avoid using pure black text (#000000) on white backgrounds for large body paragraphs; use Charcoal Black (#111827) for headlines and Graphite Grey (#374151) for body text.",
+        "Do not introduce new typographic families; adhere strictly to IBM Plex Sans Variable, ui-monospace, and Source Code Pro.",
+        "Refrain from adding excessive box shadows; the primary shadow is subtle and used for specific elevation (rgba(0, 0, 0, 0.25) 0px 25px 50px -12px).",
+        "Do not deviate from the established spacing scale; maintain sectionGap at 48px and elementGap at 8px.",
+        "Avoid arbitrary color usage; all accent colors like Vivid Green (#6aa84f) should serve a specific, predefined semantic role (e.g., success, feature highlight).",
+        "Do not use heavily rounded elements except for specific pill-shaped tags or buttons (9999px radius); the default is a modest 4px or sharp 0px."
+      ],
+      "theme": "light",
+      "colors": [
+        {
+          "hex": "#ffffff",
+          "name": "Surface White",
+          "role": "Primary page and card backgrounds.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#eeefe9",
+          "name": "Canvas Sand",
+          "role": "Secondary section backgrounds, soft contrast against white.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#e5e7e0",
+          "name": "Pale Granite",
+          "role": "Subtle background shifts for differentiation.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#000000",
+          "name": "Ink Black",
+          "role": "Primary text, strong outlines, and prominent icons.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#111827",
+          "name": "Charcoal Black",
+          "role": "Heading text, slightly softer than pure black to prevent harshness.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#374151",
+          "name": "Graphite Grey",
+          "role": "Secondary text, borders, and some icons.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#4d4f46",
+          "name": "Faded Grey",
+          "role": "Navigation text, less prominent text elements.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#65675",
+          "name": "Ash Grey",
+          "role": "Tertiary text, subtle button text.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#e1d7c2",
+          "name": "Warm Gray Tint",
+          "role": "Subtle background tint for interactive navigation elements.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#2f80fa",
+          "name": "Sky Blue",
+          "role": "Interactive elements like buttons and active states, adding a vibrant, clear focal point.",
+          "group": "brand"
+        },
+        {
+          "hex": "#f1a82c",
+          "name": "Marigold Yellow",
+          "role": "Call-to-action buttons, accent icons, indicating primary actions.",
+          "group": "brand"
+        },
+        {
+          "hex": "#eb9d2a",
+          "name": "Sunset Orange",
+          "role": "Secondary call-to-action buttons, alternative interactive states.",
+          "group": "brand"
+        },
+        {
+          "hex": "#6aa84f",
+          "name": "Vivid Green",
+          "role": "Product features and success indicators.",
+          "group": "accent"
+        },
+        {
+          "hex": "#2b6ff4",
+          "name": "Dynamic Gradient",
+          "role": "The signature brand visual element, used sparingly as a highlight or background for key components like the PostHog logo, signifying dynamism and comprehensive functionality rather than a specific semantic meaning.",
+          "group": "brand",
+          "gradient": "linear-gradient(90deg, rgb(1, 67, 203), rgb(43, 111, 244) 24.04%, rgb(210, 52, 1) 46.63%, rgb(255, 101, 31) 65.87%, rgb(251, 160, 0) 83.17%, rgb(1, 67, 203))"
+        }
+      ],
+      "layout": "The page primarily uses a max-width 958px centered layout for its main content, framed by a soft, light-toned canvas background. A prominent aspect is the left-hand persistent navigation/file tree sidebar and a right-hand assistive content sidebar, creating a three-column desktop experience. The hero section features a centered headline over a white background, accompanied by a contained illustration. Content sections then alternate between white and canvas-sand backgrounds with consistent vertical spacing (sectionGap 48px). Information is often presented in a two-column text-left/image-right or text-over-text arrangement. The site navigation uses a top bar, separate from the primary content window, hinting at a web-app style interface.",
+      "imagery": "The visual language is characterized by custom, slightly whimsical illustrations, primarily featuring hedgehog-like mascots in various work-related scenarios. These illustrations are flat, outlined, and brightly colored, serving an explanatory and atmospheric role. They are typically contained within the main content area, integrated with text, rather than full-bleed. Icons are functional, mono-color (either black, gray, or the accent Sky Blue), and often have a filled, slightly chunky style. The overall density of imagery is balanced, supporting the textual content without overwhelming it, creating a friendly and approachable feel for a technical product.",
+      "similar": [
+        {
+          "why": "Clean, light-mode design with a structured layout and a single primary accent color for interactive elements.",
+          "business": "Linear"
+        },
+        {
+          "why": "Focused, functional UI with abundant whitespace, constrained color palette, and high information density using system fonts for clarity.",
+          "business": "Figma"
+        },
+        {
+          "why": "Developer-tool aesthetic with strong typography, minimal decor, and precise spacing, using neutrals with strategic bright accents.",
+          "business": "Vercel"
+        },
+        {
+          "why": "A blend of technical precision and approachable branding, leveraging custom illustrations and a functional, light interface.",
+          "business": "Supabase"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "pills": "9999px",
+          "accent": "8px",
+          "buttons": "4px",
+          "default": "4px"
+        },
+        "elementGap": "8px",
+        "sectionGap": "48px",
+        "cardPadding": "",
+        "pageMaxWidth": "958px"
+      },
+      "category": "dev-tools",
+      "elevation": [
+        {
+          "style": "rgba(0, 0, 0, 0.25) 0px 25px 50px -12px",
+          "element": "Dropdown/Modal"
+        }
+      ],
+      "northStar": "Workbench with playful tools. A clean, light canvas anchored by a single vibrant accent color.",
+      "typeScale": [
+        {
+          "role": "caption",
+          "size": 12,
+          "lineHeight": 1.71
+        },
+        {
+          "role": "heading",
+          "size": 18,
+          "lineHeight": 1.33
+        },
+        {
+          "role": "heading-lg",
+          "size": 24,
+          "lineHeight": 1.25,
+          "letterSpacing": -0.6
+        },
+        {
+          "role": "display",
+          "size": 36,
+          "lineHeight": 1,
+          "letterSpacing": -0.9
+        }
+      ],
+      "components": [
+        {
+          "html": "<div style=\"--color-surface-white:#ffffff;--color-canvas-sand:#eeefe9;--color-ink-black:#000000;--color-charcoal-black:#111827;--color-graphite-grey:#374151;--color-faded-grey:#4d4f46;--color-marigold-yellow:#f1a82c;--color-sunset-orange:#eb9d2a;--color-sky-blue:#2f80fa;--color-vivid-green:#6aa84f;--color-warm-gray-tint:#e1d7c2;--font-ibm-plex-sans-variable:'IBM Plex Sans',system-ui,sans-serif;--shadow-xl:rgba(0,0,0,0.25) 0px 25px 50px -12px; background:var(--color-canvas-sand); padding:40px 32px; border-radius:8px; width:100%; box-sizing:border-box; font-family:var(--font-ibm-plex-sans-variable);\"><div style=\"margin-bottom:24px;\"><h2 style=\"font-family:var(--font-ibm-plex-sans-variable);font-size:24px;font-weight:700;color:var(--color-charcoal-black);letter-spacing:-0.6px;line-height:1.25;margin:0 0 8px 0;\">The new way to build products</h2><p style=\"font-family:var(--font-ibm-plex-sans-variable);font-size:15px;color:var(--color-graphite-grey);line-height:1.5;margin:0;\">PostHog is the only platform that acts like a co-pilot for you and your AI agents.</p></div><div style=\"display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:20px;\"><a href=\"#\" style=\"display:inline-flex;align-items:center;gap:6px;background:var(--color-marigold-yellow);color:var(--color-ink-black);font-family:var(--font-ibm-plex-sans-variable);font-size:15px;font-weight:600;padding:10px 16px;border-radius:4px;border:1.5px solid var(--color-sunset-orange);text-decoration:none;cursor:pointer;letter-spacing:-0.025em;\">Get started – free</a><a href=\"#\" style=\"display:inline-flex;align-items:center;gap:6px;background:transparent;color:var(--color-ink-black);font-family:var(--font-ibm-plex-sans-variable);font-size:15px;font-weight:500;padding:10px 16px;border-radius:4px;border:1.5px solid var(--color-graphite-grey);text-decoration:none;cursor:pointer;letter-spacing:-0.025em;\">Install with AI</a></div><div style=\"display:flex;align-items:center;gap:8px;flex-wrap:wrap;\"><a href=\"#\" style=\"display:inline-flex;align-items:center;gap:5px;font-family:var(--font-ibm-plex-sans-variable);font-size:13px;color:var(--color-ink-black);text-decoration:underline;cursor:pointer;\"><svg width=\"13\" height=\"13\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M2 4h12M2 8h8M2 12h5\" stroke=\"#000\" stroke-width=\"1.5\" stroke-linecap=\"round\"/></svg>MCP</a><span style=\"color:var(--color-graphite-grey);font-size:13px;\">•</span><a href=\"#\" style=\"display:inline-flex;align-items:center;gap:5px;font-family:var(--font-ibm-plex-sans-variable);font-size:13px;color:var(--color-ink-black);text-decoration:underline;cursor:pointer;\"><svg width=\"13\" height=\"13\" viewBox=\"0 0 16 16\" fill=\"none\"><polygon points=\"4,2 13,8 4,14\" fill=\"#000\"/></svg>Watch a demo</a><span style=\"color:var(--color-graphite-grey);font-size:13px;\">•</span><a href=\"#\" style=\"display:inline-flex;align-items:center;gap:5px;font-family:var(--font-ibm-plex-sans-variable);font-size:13px;color:var(--color-ink-black);text-decoration:underline;cursor:pointer;\"><svg width=\"13\" height=\"13\" viewBox=\"0 0 16 16\" fill=\"none\"><circle cx=\"8\" cy=\"8\" r=\"7\" stroke=\"#000\" stroke-width=\"1.5\"/><path d=\"M8 5v3l2 2\" stroke=\"#000\" stroke-width=\"1.5\" stroke-linecap=\"round\"/></svg>Talk to a human</a></div></div>",
+          "name": "CTA Button Group",
+          "role": "",
+          "description": ""
+        },
+        {
+          "html": "<div style=\"--color-surface-white:#ffffff;--color-canvas-sand:#eeefe9;--color-ink-black:#000000;--color-charcoal-black:#111827;--color-graphite-grey:#374151;--color-faded-grey:#4d4f46;--color-ash-grey:#65675e;--color-marigold-yellow:#f1a82c;--color-sky-blue:#2f80fa;--color-vivid-green:#6aa84f;--color-warm-gray-tint:#e1d7c2;--font-ibm-plex-sans-variable:'IBM Plex Sans',system-ui,sans-serif; background:var(--color-canvas-sand); padding:32px 0 0 0; border-radius:8px; width:100%; box-sizing:border-box; font-family:var(--font-ibm-plex-sans-variable); overflow:hidden;\"><div style=\"display:flex;align-items:flex-end;gap:0;padding:0 24px;border-bottom:1.5px solid var(--color-ash-grey);overflow-x:auto;\"><button style=\"font-family:var(--font-ibm-plex-sans-variable);font-size:13px;font-weight:600;color:var(--color-ash-grey);background:transparent;border:1.5px solid var(--color-ash-grey);border-bottom:none;border-radius:6px 6px 0 0;padding:10px 14px;cursor:pointer;white-space:nowrap;margin-bottom:-1.5px;position:relative;z-index:2;\">Understand product usage</button><button style=\"font-family:var(--font-ibm-plex-sans-variable);font-size:13px;font-weight:400;color:var(--color-faded-grey);background:transparent;border:none;border-bottom:none;padding:10px 14px;cursor:pointer;white-space:nowrap;\">One place for product data</button><button style=\"font-family:var(--font-ibm-plex-sans-variable);font-size:13px;font-weight:400;color:var(--color-faded-grey);background:transparent;border:none;border-bottom:none;padding:10px 14px;cursor:pointer;white-space:nowrap;\">Debug &amp; fix issues</button><button style=\"font-family:var(--font-ibm-plex-sans-variable);font-size:13px;font-weight:400;color:var(--color-faded-grey);background:transparent;border:none;border-bottom:none;padding:10px 14px;cursor:pointer;white-space:nowrap;\">Test &amp; roll out changes</button></div><div style=\"background:var(--color-surface-white);padding:28px 28px 32px 28px;\"><h3 style=\"font-family:var(--font-ibm-plex-sans-variable);font-size:20px;font-weight:700;color:var(--color-charcoal-black);margin:0 0 12px 0;letter-spacing:-0.025em;\">Understand what users are doing</h3><div style=\"display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:24px;\"><p style=\"font-family:var(--font-ibm-plex-sans-variable);font-size:14px;color:var(--color-graphite-grey);line-height:1.6;margin:0;\">Measure engagement, track conversion, and understand usage patterns — whether it's by person, company, or AI feature.</p><p style=\"font-family:var(--font-ibm-plex-sans-variable);font-size:14px;color:var(--color-graphite-grey);line-height:1.6;margin:0;\">How we analyze data and build products <span style=\"text-decoration:underline;font-weight:500;\">has changed a lot</span>. Work smarter with <span style=\"color:var(--color-sky-blue);font-weight:500;\">PostHog AI</span> to get direct answers.</p></div><div style=\"display:grid;grid-template-columns:1fr 1fr;gap:10px;\"><a href=\"#\" style=\"display:flex;align-items:center;gap:8px;font-family:var(--font-ibm-plex-sans-variable);font-size:13px;color:var(--color-ink-black);text-decoration:none;font-weight:500;\"><span style=\"display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--color-vivid-green);\"></span>Web Analytics</a><a href=\"#\" style=\"display:flex;align-items:center;gap:8px;font-family:var(--font-ibm-plex-sans-variable);font-size:13px;color:var(--color-ink-black);text-decoration:none;font-weight:500;\"><span style=\"display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--color-vivid-green);\"></span>Revenue Analytics</a><a href=\"#\" style=\"display:flex;align-items:center;gap:8px;font-family:var(--font-ibm-plex-sans-variable);font-size:13px;color:var(--color-ink-black);text-decoration:none;font-weight:500;\"><span style=\"display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--color-sky-blue);\"></span>Product Analytics</a><a href=\"#\" style=\"display:flex;align-items:center;gap:8px;font-family:var(--font-ibm-plex-sans-variable);font-size:13px;color:var(--color-ink-black);text-decoration:none;font-weight:500;\"><span style=\"display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--color-marigold-yellow);\"></span>Heatmaps</a><a href=\"#\" style=\"display:flex;align-items:center;gap:8px;font-family:var(--font-ibm-plex-sans-variable);font-size:13px;color:var(--color-ink-black);text-decoration:none;font-weight:500;\"><span style=\"display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--color-marigold-yellow);\"></span>Session Replay</a><a href=\"#\" style=\"display:flex;align-items:center;gap:8px;font-family:var(--font-ibm-plex-sans-variable);font-size:13px;color:var(--color-ink-black);text-decoration:none;font-weight:500;\"><span style=\"display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--color-vivid-green);\"></span>Graphs &amp; trends</a></div></div></div>",
+          "name": "Feature Tab Bar",
+          "role": "",
+          "description": ""
+        },
+        {
+          "html": "<div style=\"--color-surface-white:#ffffff;--color-canvas-sand:#eeefe9;--color-pale-granite:#e5e7e0;--color-ink-black:#000000;--color-charcoal-black:#111827;--color-graphite-grey:#374151;--color-faded-grey:#4d4f46;--color-warm-gray-tint:#e1d7c2;--color-marigold-yellow:#f1a82c;--font-ibm-plex-sans-variable:'IBM Plex Sans',system-ui,sans-serif; background:var(--color-canvas-sand); padding:16px 12px; border-radius:8px; width:120px; box-sizing:border-box; font-family:var(--font-ibm-plex-sans-variable); display:inline-block;\"><div style=\"display:flex;flex-direction:column;gap:2px;\"><a href=\"#\" style=\"display:flex;flex-direction:column;align-items:center;gap:6px;padding:10px 8px;border-radius:4px;background:var(--color-warm-gray-tint);text-decoration:none;cursor:pointer;\"><div style=\"width:32px;height:32px;background:var(--color-pale-granite);border-radius:4px;display:flex;align-items:center;justify-content:center;\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\"><rect x=\"1\" y=\"1\" width=\"14\" height=\"14\" rx=\"1.5\" stroke=\"#000\" stroke-width=\"1.3\"/><path d=\"M4 5h8M4 8h6M4 11h4\" stroke=\"#000\" stroke-width=\"1.1\" stroke-linecap=\"round\"/></svg></div><span style=\"font-family:var(--font-ibm-plex-sans-variable);font-size:11px;font-weight:500;color:var(--color-ink-black);text-align:center;line-height:1.2;\">home.mdx</span></a><a href=\"#\" style=\"display:flex;flex-direction:column;align-items:center;gap:6px;padding:10px 8px;border-radius:4px;background:transparent;text-decoration:none;cursor:pointer;\"><div style=\"width:32px;height:32px;background:var(--color-pale-granite);border-radius:4px;display:flex;align-items:center;justify-content:center;\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\"><rect x=\"1\" y=\"1\" width=\"14\" height=\"14\" rx=\"1.5\" stroke=\"#374151\" stroke-width=\"1.3\"/><path d=\"M5 5h6M5 8h4\" stroke=\"#374151\" stroke-width=\"1.1\" stroke-linecap=\"round\"/></svg></div><span style=\"font-family:var(--font-ibm-plex-sans-variable);font-size:11px;font-weight:400;color:var(--color-faded-grey);text-align:center;line-height:1.2;\">Product OS</span></a><a href=\"#\" style=\"display:flex;flex-direction:column;align-items:center;gap:6px;padding:10px 8px;border-radius:4px;background:transparent;text-decoration:none;cursor:pointer;\"><div style=\"width:32px;height:32px;background:var(--color-pale-granite);border-radius:4px;display:flex;align-items:center;justify-content:center;\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\"><rect x=\"2\" y=\"1\" width=\"12\" height=\"14\" rx=\"1\" stroke=\"#374151\" stroke-width=\"1.3\"/><path d=\"M5 5h6M5 8h6M5 11h3\" stroke=\"#374151\" stroke-width=\"1.1\" stroke-linecap=\"round\"/></svg></div><span style=\"font-family:var(--font-ibm-plex-sans-variable);font-size:11px;font-weight:400;color:var(--color-faded-grey);text-align:center;line-height:1.2;\">Pricing</span></a><a href=\"#\" style=\"display:flex;flex-direction:column;align-items:center;gap:6px;padding:10px 8px;border-radius:4px;background:transparent;text-decoration:none;cursor:pointer;\"><div style=\"width:32px;height:32px;background:var(--color-pale-granite);border-radius:4px;display:flex;align-items:center;justify-content:center;\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\"><circle cx=\"8\" cy=\"6\" r=\"3\" stroke=\"#374151\" stroke-width=\"1.3\"/><path d=\"M2 14c0-3 2.7-5 6-5s6 2 6 5\" stroke=\"#374151\" stroke-width=\"1.3\" stroke-linecap=\"round\"/></svg></div><span style=\"font-family:var(--font-ibm-plex-sans-variable);font-size:11px;font-weight:400;color:var(--color-faded-grey);text-align:center;line-height:1.2;\">customers.mdx</span></a><a href=\"#\" style=\"display:flex;flex-direction:column;align-items:center;gap:6px;padding:10px 8px;border-radius:4px;background:transparent;text-decoration:none;cursor:pointer;\"><div style=\"width:32px;height:32px;background:var(--color-pale-granite);border-radius:4px;display:flex;align-items:center;justify-content:center;\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\"><circle cx=\"8\" cy=\"8\" r=\"6\" stroke=\"#374151\" stroke-width=\"1.3\"/><polygon points=\"6,5 12,8 6,11\" fill=\"#374151\"/></svg></div><span style=\"font-family:var(--font-ibm-plex-sans-variable);font-size:11px;font-weight:400;color:var(--color-faded-grey);text-align:center;line-height:1.2;\">demo.mov</span></a><a href=\"#\" style=\"display:flex;flex-direction:column;align-items:center;gap:6px;padding:10px 8px;border-radius:4px;background:transparent;text-decoration:none;cursor:pointer;\"><div style=\"width:32px;height:32px;background:var(--color-pale-granite);border-radius:4px;display:flex;align-items:center;justify-content:center;\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\"><path d=\"M3 2h10v12H3z\" stroke=\"#374151\" stroke-width=\"1.3\" rx=\"1\"/><path d=\"M5 6h6M5 9h4\" stroke=\"#374151\" stroke-width=\"1\" stroke-linecap=\"round\"/></svg></div><span style=\"font-family:var(--font-ibm-plex-sans-variable);font-size:11px;font-weight:400;color:var(--color-faded-grey);text-align:center;line-height:1.2;\">Docs</span></a><a href=\"#\" style=\"display:flex;flex-direction:column;align-items:center;gap:6px;padding:10px 8px;border-radius:4px;background:transparent;text-decoration:none;cursor:pointer;\"><div style=\"width:32px;height:32px;background:var(--color-marigold-yellow);border-radius:4px;display:flex;align-items:center;justify-content:center;\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\"><path d=\"M8 1v14M1 8h14\" stroke=\"#000\" stroke-width=\"1.5\" stroke-linecap=\"round\"/></svg></div><span style=\"font-family:var(--font-ibm-plex-sans-variable);font-size:11px;font-weight:500;color:var(--color-ink-black);text-align:center;line-height:1.2;\">Sign up ↗</span></a></div></div>",
+          "name": "Sidebar Navigation Links",
+          "role": "",
+          "description": ""
+        },
+        {
+          "name": "Primary CTA Button",
+          "role": "Main call-to-action",
+          "description": "Background: Marigold Yellow (#f1a82c), Text: Ink Black (#000000), Border: 1px solid #f1a82c, Radius: 4px, Padding: 10px 16px."
+        },
+        {
+          "name": "Ghost Button",
+          "role": "Secondary action",
+          "description": "Background: transparent, Text: Ink Black (#000000), Border: 1px solid Graphite Grey (#374151), Radius: 4px, Padding: 2px 8px."
+        },
+        {
+          "name": "Inline Text Button",
+          "role": "Contextual action",
+          "description": "Background: transparent, Text: Ink Black (#000000), no border, Radius: 4px, Padding: 2px 4px."
+        },
+        {
+          "name": "Tab Button - Active",
+          "role": "Active tab navigation",
+          "description": "Background: transparent, Text: Ash Grey (#65675e), Border: 1px solid Ash Grey (#65675e) on top. Radius: 6px 6px 0px 0px, Padding: 10px 12px."
+        },
+        {
+          "name": "Tab Button - Inactive",
+          "role": "Inactive tab navigation",
+          "description": "Background: transparent, Text: Faded Grey (#4d4f46), Border: 1px solid Faded Grey (#4d4f46). Radius: 0px, Padding: 0px (likely implies spacing is handled by parent, and this is a base text style)."
+        },
+        {
+          "name": "Content Card",
+          "role": "Information grouping",
+          "description": "Background: transparent, Radius: 0px (sharp corners), Shadow: none, Padding: 16px 32px. Emphasizes content over decorative containers, using background colors for separation."
+        },
+        {
+          "name": "Navigation Link - Active",
+          "role": "Indicates current page",
+          "description": "Text: Ink Black (#000000), Background: Warm Gray Tint (#e1d7c2), Radius: 4px, Padding: 2px 8px."
+        }
+      ],
+      "typography": [
+        {
+          "role": "The primary typeface for all text. The variable font allows for precise character spacing and weight adjustments, contributing to a modern, engineered feel. The uniform negative letter-spacing for headlines creates a tighter, more deliberate presentation.",
+          "sizes": "12px, 13px, 14px, 15px, 16px, 18px, 19px, 20px, 21px, 24px, 36px",
+          "family": "IBM Plex Sans Variable",
+          "weight": "400, 500, 600, 700, 800",
+          "lineHeight": "1.00, 1.25, 1.33, 1.38, 1.40, 1.43, 1.50, 1.56, 1.71",
+          "substitute": "system-ui, sans-serif",
+          "letterSpacing": "-0.025"
+        },
+        {
+          "role": "Used for code snippets or specific technical labels to maintain legibility in data-heavy contexts.",
+          "sizes": "14px",
+          "family": "ui-monospace",
+          "weight": "400",
+          "lineHeight": "1.43",
+          "substitute": "monospace"
+        },
+        {
+          "role": "A secondary monospace font, likely for short code examples or data display to add distinction without disrupting the primary UI.",
+          "sizes": "14px",
+          "family": "Source Code Pro",
+          "weight": "500",
+          "lineHeight": "1.43",
+          "substitute": "monospace"
+        }
+      ],
+      "description": "PostHog evokes a functional yet playful workshop aesthetic, like a well-organized workbench with tools neatly arranged. The primary UI elements are predominantly neutral, providing a calm backdrop for sharp, vivid accents. The interplay between a constrained color palette for core UI and a vibrant, multi-hued gradient for brand identity creates a sense of focused competence with a hint of accessible creativity. Custom typography, particularly the varied weights of IBM Plex Sans Variable, lends a bespoke engineered feel.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "### Quick Color Reference\n- Text: #111827 (Charcoal Black)\n- Background: #ffffff (Surface White)\n- CTA: #f1a82c (Marigold Yellow)\n- Border: #374151 (Graphite Grey)\n- Accent: #2f80fa (Sky Blue)\n\n### 3-5 Example Component Prompts\n1.  **Create a primary call-to-action button:** Text 'Get Started Now', background Marigold Yellow (#f1a82c), text Ink Black (#000000), border 1px solid #f1a82c, border-radius 4px, padding 10px 16px, IBM Plex Sans Variable weight 500, size 16px, letter-spacing -0.025em.\n2.  **Generate a card section:** Background Canvas Sand (#eeefe9), padding-top 48px, padding-bottom 48px. Inside, place body text in Graphite Grey (#374151) at 14px IBM Plex Sans Variable weight 400, line-height 1.43, with an element gap of 8px between text blocks.\n3.  **Design a hero headline:** 'The New Way to Build Products' in Charcoal Black (#111827), IBM Plex Sans Variable weight 700, size 36px, line-height 1.00, letter-spacing -0.025em. Below it, a ghost button: 'Learn More', text Ink Black (#000000), border 1px solid Graphite Grey (#374151), radius 4px, padding 2px 8px.\n4.  **Implement an active navigation link:** Text 'Product OS' in Ink Black (#000000), background Warm Gray Tint (#e1d7c2), border-radius 4px, padding 2px 8px, IBM Plex Sans Variable weight 500, size 14px, line-height 1.43."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775923122075-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775923122075-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/56cd3725-3ff0-459e-894d-5da58d1fc549",
+  "ranks": {
+    "trending": 463,
+    "popular": 354,
+    "newest": 1302
+  },
+  "localSlug": "posthog-56cd3725"
+}

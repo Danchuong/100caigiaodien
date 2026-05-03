@@ -1,0 +1,949 @@
+{
+  "id": "8fc58a26-47be-406e-8429-37925551c0ec",
+  "url": "https://youtube.com",
+  "siteName": "YouTube",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775933347653-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775933347653-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "light",
+  "colors": [
+    {
+      "name": "Canvas White",
+      "hex": "#ffffff"
+    },
+    {
+      "name": "Ink Black",
+      "hex": "#0f0f0f"
+    },
+    {
+      "name": "Medium Gray",
+      "hex": "#606060"
+    },
+    {
+      "name": "Light Gray",
+      "hex": "#909090"
+    },
+    {
+      "name": "Border Gray",
+      "hex": "#c6c6c6"
+    },
+    {
+      "name": "Accent Blue",
+      "hex": "#065fd4"
+    }
+  ],
+  "fonts": [
+    "Roboto",
+    "Arial",
+    "YouTube Sans"
+  ],
+  "northStar": "Crisp White Canvas; an expansive, information-first interface on a stark white background with minimal ornamentation.",
+  "createdAt": "2026-04-07T19:23:10.000Z",
+  "previewVideoCapturedAt": null,
+  "industry": "media",
+  "fullResult": {
+    "meta": {
+      "url": "https://youtube.com",
+      "siteName": "YouTube",
+      "extractedAt": "2026-04-11T18:49:26.033Z",
+      "durationMs": 30722,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 335,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "complete",
+          "attempts": 2
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "other",
+              "body",
+              "nav",
+              "heading",
+              "button"
+            ],
+            "frequency": 517,
+            "confidence": 1,
+            "prominence": 11564056.628958007,
+            "properties": [
+              "color",
+              "borderColor",
+              "fill"
+            ]
+          },
+          {
+            "hex": "#ffffff",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 1.0000000000000002
+            },
+            "contexts": [
+              "other",
+              "nav"
+            ],
+            "frequency": 15,
+            "confidence": 1,
+            "prominence": 5130000,
+            "properties": [
+              "backgroundColor",
+              "color",
+              "borderColor",
+              "fill"
+            ]
+          },
+          {
+            "hex": "#606060",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.4890564485258221
+            },
+            "contexts": [
+              "body",
+              "nav",
+              "other"
+            ],
+            "frequency": 80,
+            "confidence": 1,
+            "prominence": 312427.8081421543,
+            "properties": [
+              "color",
+              "borderColor"
+            ]
+          },
+          {
+            "hex": "#0f0f0f",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.16841612499987832
+            },
+            "contexts": [
+              "other",
+              "button",
+              "body",
+              "icon",
+              "link",
+              "input",
+              "nav",
+              "heading"
+            ],
+            "frequency": 714,
+            "confidence": 1,
+            "prominence": 262456.208268508,
+            "properties": [
+              "color",
+              "borderColor",
+              "fill",
+              "backgroundColor"
+            ]
+          },
+          {
+            "hex": "#909090",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.653350950340412
+            },
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 15,
+            "confidence": 1,
+            "prominence": 65280,
+            "properties": [
+              "color",
+              "borderColor"
+            ]
+          },
+          {
+            "hex": "#c6c6c6",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.8265622095662102
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 3,
+            "confidence": 1,
+            "prominence": 47040,
+            "properties": [
+              "borderColor"
+            ]
+          },
+          {
+            "hex": "#eeeeee",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.9491192605935381
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 23520,
+            "properties": [
+              "boxShadow"
+            ]
+          },
+          {
+            "hex": "#065fd4",
+            "oklch": {
+              "c": 0.19513896285567156,
+              "h": 259.00312432041335,
+              "l": 0.5139723973073366
+            },
+            "contexts": [
+              "link",
+              "other",
+              "body",
+              "icon",
+              "nav"
+            ],
+            "frequency": 93,
+            "confidence": 1,
+            "prominence": 23268.79042345561,
+            "properties": [
+              "color",
+              "borderColor",
+              "fill"
+            ]
+          },
+          {
+            "hex": "#d3d3d3",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.8668630753134526
+            },
+            "contexts": [
+              "button"
+            ],
+            "frequency": 4,
+            "confidence": 1,
+            "prominence": 5944.135922911647,
+            "properties": [
+              "borderColor"
+            ]
+          },
+          {
+            "hex": "#ff0033",
+            "oklch": {
+              "c": 0.254871716797995,
+              "h": 23.614473779292663,
+              "l": 0.6306694621167912
+            },
+            "contexts": [
+              "other",
+              "nav"
+            ],
+            "frequency": 4,
+            "confidence": 1,
+            "prominence": 1346.71829503467,
+            "properties": [
+              "fill"
+            ]
+          },
+          {
+            "hex": "#212121",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.24775871011467596
+            },
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 2,
+            "confidence": 1,
+            "prominence": 613.3804877790874,
+            "properties": [
+              "fill"
+            ]
+          }
+        ],
+        "isDarkMode": false,
+        "colorfulness": 0.03577611320884246,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 21,
+            "background": "#ffffff",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 19.17,
+            "background": "#0f0f0f",
+            "foreground": "#ffffff"
+          },
+          {
+            "level": "AAA",
+            "ratio": 18.1,
+            "background": "#eeeeee",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 16.52,
+            "background": "#eeeeee",
+            "foreground": "#0f0f0f"
+          },
+          {
+            "level": "AAA",
+            "ratio": 16.1,
+            "background": "#ffffff",
+            "foreground": "#212121"
+          },
+          {
+            "level": "AAA",
+            "ratio": 14.03,
+            "background": "#d3d3d3",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 13.88,
+            "background": "#eeeeee",
+            "foreground": "#212121"
+          },
+          {
+            "level": "AAA",
+            "ratio": 12.8,
+            "background": "#d3d3d3",
+            "foreground": "#0f0f0f"
+          },
+          {
+            "level": "AAA",
+            "ratio": 12.29,
+            "background": "#c6c6c6",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 11.22,
+            "background": "#c6c6c6",
+            "foreground": "#0f0f0f"
+          },
+          {
+            "level": "AAA",
+            "ratio": 10.76,
+            "background": "#d3d3d3",
+            "foreground": "#212121"
+          },
+          {
+            "level": "AAA",
+            "ratio": 9.43,
+            "background": "#c6c6c6",
+            "foreground": "#212121"
+          },
+          {
+            "level": "AA",
+            "ratio": 6.29,
+            "background": "#ffffff",
+            "foreground": "#606060"
+          },
+          {
+            "level": "AA",
+            "ratio": 6,
+            "background": "#0f0f0f",
+            "foreground": "#909090"
+          },
+          {
+            "level": "AA",
+            "ratio": 5.84,
+            "background": "#ffffff",
+            "foreground": "#065fd4"
+          },
+          {
+            "level": "AA",
+            "ratio": 5.42,
+            "background": "#eeeeee",
+            "foreground": "#606060"
+          },
+          {
+            "level": "fail",
+            "ratio": 4.2,
+            "background": "#d3d3d3",
+            "foreground": "#606060"
+          },
+          {
+            "level": "fail",
+            "ratio": 3.68,
+            "background": "#c6c6c6",
+            "foreground": "#606060"
+          },
+          {
+            "level": "fail",
+            "ratio": 3.28,
+            "background": "#0f0f0f",
+            "foreground": "#065fd4"
+          },
+          {
+            "level": "fail",
+            "ratio": 3.19,
+            "background": "#ffffff",
+            "foreground": "#909090"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [
+          {
+            "value": 10,
+            "contexts": [
+              "nav",
+              "button",
+              "other"
+            ],
+            "frequency": 28
+          },
+          {
+            "value": 18,
+            "contexts": [
+              "other",
+              "button",
+              "link",
+              "nav"
+            ],
+            "frequency": 9
+          },
+          {
+            "value": 40,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1
+          }
+        ],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 1,
+            "frequency": 2,
+            "properties": [
+              "paddingTop",
+              "paddingBottom"
+            ]
+          },
+          {
+            "value": 4,
+            "frequency": 7,
+            "properties": [
+              "paddingRight",
+              "paddingLeft",
+              "paddingBottom",
+              "marginTop"
+            ]
+          },
+          {
+            "value": 6,
+            "frequency": 4,
+            "properties": [
+              "marginRight",
+              "paddingTop"
+            ]
+          },
+          {
+            "value": 8,
+            "frequency": 24,
+            "properties": [
+              "paddingTop",
+              "paddingRight",
+              "paddingBottom",
+              "paddingLeft",
+              "marginRight",
+              "marginLeft",
+              "marginTop",
+              "marginBottom"
+            ]
+          },
+          {
+            "value": 12,
+            "frequency": 51,
+            "properties": [
+              "marginTop",
+              "paddingTop",
+              "paddingRight",
+              "paddingBottom",
+              "paddingLeft",
+              "marginBottom"
+            ]
+          },
+          {
+            "value": 15,
+            "frequency": 4,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ]
+          },
+          {
+            "value": 16,
+            "frequency": 17,
+            "properties": [
+              "paddingRight",
+              "paddingLeft",
+              "paddingTop",
+              "paddingBottom",
+              "marginBottom",
+              "marginRight",
+              "marginLeft",
+              "marginTop"
+            ]
+          },
+          {
+            "value": 18,
+            "frequency": 2,
+            "properties": [
+              "paddingTop",
+              "paddingBottom"
+            ]
+          },
+          {
+            "value": 24,
+            "frequency": 20,
+            "properties": [
+              "marginRight",
+              "paddingRight",
+              "paddingLeft",
+              "paddingTop"
+            ]
+          },
+          {
+            "value": 32,
+            "frequency": 4,
+            "properties": [
+              "marginLeft",
+              "paddingRight",
+              "paddingLeft",
+              "marginBottom"
+            ]
+          },
+          {
+            "value": 42,
+            "frequency": 2,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ]
+          },
+          {
+            "value": 240,
+            "frequency": 2,
+            "properties": [
+              "marginLeft"
+            ]
+          }
+        ],
+        "density": "comfortable",
+        "baseUnit": 4
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "Roboto",
+            "source": "system",
+            "weights": [
+              400,
+              500,
+              700,
+              900
+            ],
+            "frequency": 260,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "Arial",
+            "source": "system",
+            "weights": [
+              400
+            ],
+            "frequency": 15,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "YouTube Sans",
+            "source": "custom",
+            "weights": [
+              600
+            ],
+            "frequency": 1,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 10,
+          "name": "Minor Second",
+          "ratio": 1.067,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 10,
+            "family": "Roboto",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "link",
+              "body",
+              "nav",
+              "button"
+            ],
+            "frequency": 123,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 12,
+            "family": "Roboto",
+            "weight": 400,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 3,
+            "lineHeight": 1.5,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 13,
+            "family": "Arial",
+            "weight": 400,
+            "contexts": [
+              "button",
+              "body",
+              "other",
+              "icon"
+            ],
+            "frequency": 5,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 13,
+            "family": "Roboto",
+            "weight": 500,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 12,
+            "lineHeight": 1.38,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 14,
+            "family": "Roboto",
+            "weight": 500,
+            "contexts": [
+              "button",
+              "other",
+              "body",
+              "link",
+              "nav"
+            ],
+            "frequency": 16,
+            "lineHeight": 2.57,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 14,
+            "family": "Roboto",
+            "weight": 400,
+            "contexts": [
+              "nav",
+              "other",
+              "body",
+              "link"
+            ],
+            "frequency": 17,
+            "lineHeight": 1.43,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "Roboto",
+            "weight": 400,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 65,
+            "lineHeight": 1.5,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 20,
+            "family": "YouTube Sans",
+            "weight": 600,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.4,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Use Canvas White (#ffffff) as the default background for all page sections and elevated components.",
+        "Apply Ink Black (#0f0f0f) for all main headings, body text, and primary icons to ensure high contrast.",
+        "Employ Accent Blue (#065fd4) exclusively for active states, clickable links, and primary calls to action.",
+        "Maintain a clear visual hierarchy by utilizing Medium Gray (#606060) for secondary information and Light Gray (#909090) for tertiary details.",
+        "Ensure all interactive buttons use a border-radius of 18px for a consistent soft, approachable shape.",
+        "Adhere to Roboto weight 400 for standard body text and weight 600 for YouTube Sans for section headings.",
+        "Use 16px horizontal padding within interactive buttons or elements like the 'Update setting' button."
+      ],
+      "tags": [
+        "minimalist",
+        "content-focused",
+        "high-contrast",
+        "monochromatic",
+        "functional",
+        "spacious",
+        "system-driven",
+        "clean"
+      ],
+      "donts": [
+        "Avoid using multiple accent colors; confine brand emphasis strictly to Accent Blue (#065fd4) and YouTube Red (#ff0033) for branding only.",
+        "Do not introduce complex shadows or gradients; prioritize a flat, clean aesthetic over dimensional effects.",
+        "Refrain from using heavily saturated images or illustrations that compete with UI elements; opt for functional imagery.",
+        "Do not deviate from the established type scale and font families; maintain consistency in text presentation.",
+        "Avoid tight spacing; maintain `elementGap` of 8px and larger gaps for sections to ensure content breathability.",
+        "Do not use dark backgrounds for main content areas; reserve them for specific, isolated components if necessary.",
+        "Do not apply rounded corners indiscriminately; reserve radii like 18px for buttons and 10px for cards/dialogues."
+      ],
+      "theme": "light",
+      "title": "YouTube - Unadorned Utility",
+      "colors": [
+        {
+          "hex": "#ffffff",
+          "name": "Canvas White",
+          "role": "Primary page and component backgrounds, creating a clean, expansive field for content.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#0f0f0f",
+          "name": "Ink Black",
+          "role": "Default text, primary icons, and border accents, providing high contrast against Canvas White.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#606060",
+          "name": "Medium Gray",
+          "role": "Secondary text and less critical information, providing a subtle visual hierarchy.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#909090",
+          "name": "Light Gray",
+          "role": "Tertiary text and subtle distinctions in navigation, indicating less emphasis.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#c6c6c6",
+          "name": "Border Gray",
+          "role": "Input borders and subtle UI dividers, providing structural definition without visual noise.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#065fd4",
+          "name": "Accent Blue",
+          "role": "Interactive elements like links, primary buttons, and active navigation indicators — this is the sole color accent used to highlight engagement points.",
+          "group": "brand"
+        },
+        {
+          "hex": "#ff0033",
+          "name": "YouTube Red",
+          "role": "YouTube logo and specific brand elements, appearing sparingly.",
+          "group": "brand"
+        }
+      ],
+      "layout": "The page adheres to a max-width 1185px centered content model. The hero section includes a sticky top navigation bar with a search input. A persistent left-hand sidebar acts as the primary navigation, featuring a hierarchical list of links and categories. Content areas are primarily full-width within the max-width container, with information generally stacked vertically or presented in a single, primary content column. There are no alternating background bands; the layout relies on a uniform Canvas White background to create a spacious, unbounded feeling. The design is information-dense in the main content area, with vertical sections separated by generous padding (sectionGap).",
+      "imagery": "The site primarily uses functional icons and the brand's YouTube Red logo. Icons are line-based and filled, typically in black or gray, maintaining a minimalist, system-driven aesthetic. When imagery is present, it's typically video thumbnails – embedded content rather than decorative graphics. The visual language emphasizes direct content presentation over abstract visuals or elaborate photography, with illustrations being absent. Density is low, with imagery serving explanatory or embedded content roles.",
+      "similar": [
+        {
+          "why": "Shares the same emphasis on a stark white background, minimal UI, and a single accent color (blue) for interactive elements, prioritizing content and speed.",
+          "business": "Google Search"
+        },
+        {
+          "why": "Similar content-first approach with a high-contrast black-on-white text layout and blue hyperlinks as the primary visual differentiator, minimal decorative elements.",
+          "business": "Wikipedia"
+        },
+        {
+          "why": "Employs a white background with strong black typography and singular accent colors for interactivity, focusing on a clean conduit for media consumption.",
+          "business": "Spotify Web Player (Light Theme)"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "subtle": "40px",
+          "buttons": "18px",
+          "default": "10px"
+        },
+        "elementGap": "8px",
+        "sectionGap": "48px",
+        "cardPadding": "16px",
+        "pageMaxWidth": "1185px"
+      },
+      "category": "technology",
+      "northStar": "Crisp White Canvas; an expansive, information-first interface on a stark white background with minimal ornamentation.",
+      "typeScale": [
+        {
+          "role": "caption",
+          "size": 10,
+          "lineHeight": 1.5,
+          "letterSpacing": 0
+        },
+        {
+          "role": "body-lg",
+          "size": 14,
+          "lineHeight": 1.2,
+          "letterSpacing": 0
+        },
+        {
+          "role": "heading",
+          "size": 20,
+          "lineHeight": 1.4,
+          "letterSpacing": 0
+        }
+      ],
+      "components": [
+        {
+          "html": "<div style=\"--color-canvas-white:#ffffff;--color-ink-black:#0f0f0f;--color-medium-gray:#606060;--color-accent-blue:#065fd4;--color-border-gray:#c6c6c6;--font-roboto:Roboto,system-ui,sans-serif;--font-youtube-sans:Roboto,system-ui,sans-serif;box-sizing:border-box;background:#f9f9f9;padding:32px;display:flex;justify-content:center;align-items:center;min-height:240px;\"><div style=\"background:var(--color-canvas-white);border:1px solid #eeeeee;border-radius:10px;padding:32px 40px 28px 40px;max-width:540px;width:100%;text-align:center;font-family:var(--font-roboto);\"><h2 style=\"margin:0 0 16px 0;font-family:var(--font-roboto);font-size:18px;font-weight:700;color:var(--color-ink-black);line-height:1.3;\">Your YouTube history is off</h2><p style=\"margin:0 0 12px 0;font-family:var(--font-roboto);font-size:14px;color:var(--color-ink-black);line-height:1.5;\">You can turn on watch and search history at any time to get the latest videos tailored to you.</p><p style=\"margin:0 0 24px 0;font-family:var(--font-roboto);font-size:14px;color:var(--color-ink-black);line-height:1.5;\">To update your selection, turn on YouTube History and confirm your settings to accept the use of cookies and data. <a href=\"#\" style=\"color:var(--color-accent-blue);text-decoration:none;font-family:var(--font-roboto);font-size:14px;\">Learn more</a></p><button style=\"display:block;width:100%;padding:12px 16px;background:rgba(0,0,0,0.05);border:none;border-radius:18px;font-family:var(--font-roboto);font-size:14px;font-weight:700;color:var(--color-ink-black);cursor:pointer;text-align:center;\">Update setting</button></div></div>",
+          "name": "History Off — Dialogue Card",
+          "role": "",
+          "description": ""
+        },
+        {
+          "html": "<div style=\"--color-canvas-white:#ffffff;--color-ink-black:#0f0f0f;--color-medium-gray:#606060;--color-accent-blue:#065fd4;--color-border-gray:#c6c6c6;--color-youtube-red:#ff0033;--font-roboto:Roboto,system-ui,sans-serif;box-sizing:border-box;background:var(--color-canvas-white);padding:16px 0;width:240px;font-family:var(--font-roboto);\"><div style=\"padding:8px 0 4px 16px;font-family:var(--font-roboto);font-size:14px;font-weight:700;color:var(--color-ink-black);\">Explore</div><a href=\"#\" style=\"display:flex;align-items:center;gap:16px;padding:8px 16px;text-decoration:none;color:var(--color-ink-black);font-family:var(--font-roboto);font-size:14px;border-radius:10px;margin:0 8px;\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#0f0f0f\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M9 18V5l12-2v13\"/><circle cx=\"6\" cy=\"18\" r=\"3\"/><circle cx=\"18\" cy=\"16\" r=\"3\"/></svg><span>Music</span></a><a href=\"#\" style=\"display:flex;align-items:center;gap:16px;padding:8px 16px;text-decoration:none;color:var(--color-ink-black);font-family:var(--font-roboto);font-size:14px;border-radius:10px;margin:0 8px;\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#0f0f0f\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"2\" y=\"4\" width=\"20\" height=\"16\" rx=\"2\"/><path d=\"M8 4v4M16 4v4M2 10h20\"/></svg><span>Movies</span></a><a href=\"#\" style=\"display:flex;align-items:center;gap:16px;padding:8px 16px;text-decoration:none;color:var(--color-ink-black);font-family:var(--font-roboto);font-size:14px;border-radius:10px;margin:0 8px;\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#0f0f0f\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"4\"/><path d=\"M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41\"/></svg><span>Live</span></a><a href=\"#\" style=\"display:flex;align-items:center;gap:16px;padding:8px 16px;text-decoration:none;color:var(--color-ink-black);font-family:var(--font-roboto);font-size:14px;border-radius:10px;margin:0 8px;\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#0f0f0f\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polyline points=\"6 9 12 15 18 9\"/></svg><span style=\"color:var(--color-medium-gray);\">Show more</span></a><div style=\"height:1px;background:#eeeeee;margin:8px 16px;\"></div><div style=\"padding:8px 0 4px 16px;font-family:var(--font-roboto);font-size:14px;font-weight:700;color:var(--color-ink-black);\">More from YouTube</div><a href=\"#\" style=\"display:flex;align-items:center;gap:16px;padding:8px 16px;text-decoration:none;font-family:var(--font-roboto);font-size:14px;border-radius:10px;margin:0 8px;\"><div style=\"width:20px;height:20px;background:var(--color-youtube-red);border-radius:4px;display:flex;align-items:center;justify-content:center;flex-shrink:0;\"><svg width=\"12\" height=\"9\" viewBox=\"0 0 12 9\" fill=\"none\"><polygon points=\"4,0 12,4.5 4,9\" fill=\"white\"/></svg></div><span style=\"color:var(--color-youtube-red);font-weight:500;\">YouTube Premium</span></a><a href=\"#\" style=\"display:flex;align-items:center;gap:16px;padding:8px 16px;text-decoration:none;font-family:var(--font-roboto);font-size:14px;border-radius:10px;margin:0 8px;\"><div style=\"width:20px;height:20px;background:var(--color-youtube-red);border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;\"><svg width=\"10\" height=\"10\" viewBox=\"0 0 10 10\" fill=\"none\"><circle cx=\"5\" cy=\"5\" r=\"5\" fill=\"#ff0033\"/><circle cx=\"5\" cy=\"5\" r=\"3\" fill=\"white\"/><circle cx=\"5\" cy=\"5\" r=\"1.5\" fill=\"#ff0033\"/></svg></div><span style=\"color:var(--color-youtube-red);font-weight:500;\">YouTube Music</span></a><a href=\"#\" style=\"display:flex;align-items:center;gap:16px;padding:8px 16px;text-decoration:none;font-family:var(--font-roboto);font-size:14px;border-radius:10px;margin:0 8px;\"><div style=\"width:20px;height:20px;background:var(--color-youtube-red);border-radius:4px;display:flex;align-items:center;justify-content:center;flex-shrink:0;\"><svg width=\"12\" height=\"9\" viewBox=\"0 0 12 9\" fill=\"none\"><polygon points=\"4,0 12,4.5 4,9\" fill=\"white\"/></svg></div><span style=\"color:var(--color-youtube-red);font-weight:500;\">YouTube Kids</span></a></div>",
+          "name": "Sidebar Navigation — Explore Section",
+          "role": "",
+          "description": ""
+        },
+        {
+          "html": "<div style=\"--color-canvas-white:#ffffff;--color-ink-black:#0f0f0f;--color-medium-gray:#606060;--color-accent-blue:#065fd4;--color-border-gray:#c6c6c6;--font-roboto:Roboto,system-ui,sans-serif;box-sizing:border-box;background:#f9f9f9;padding:32px;display:flex;justify-content:center;align-items:center;min-height:200px;\"><div style=\"background:var(--color-canvas-white);width:220px;font-family:var(--font-roboto);padding:0;\"><p style=\"margin:0 0 14px 0;font-family:var(--font-roboto);font-size:14px;color:var(--color-ink-black);line-height:1.5;\">Sign in to like videos, comment, and subscribe.</p><a href=\"#\" style=\"display:inline-flex;align-items:center;gap:8px;padding:8px 14px;background:var(--color-canvas-white);border:1px solid var(--color-border-gray);border-radius:18px;text-decoration:none;font-family:var(--font-roboto);font-size:14px;font-weight:500;color:var(--color-accent-blue);\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#065fd4\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"8\" r=\"4\"/><path d=\"M4 20c0-4 3.6-7 8-7s8 3 8 7\"/></svg>Sign in</a></div></div>",
+          "name": "Sign In Prompt — Sidebar Card",
+          "role": "",
+          "description": ""
+        },
+        {
+          "name": "Navigation Link",
+          "role": "Interactive element",
+          "description": "Text in Ink Black (#0f0f0f) using Roboto font, weight 400, size 14px. On hover, the background changes to a subtle grey. Active states are often marked with a background of rgba(0, 0, 0, 0.05)."
+        },
+        {
+          "name": "Search Input Field",
+          "role": "Data entry",
+          "description": "Background is Canvas White (#ffffff), text in Ink Black (#0f0f0f). Border is thin, using Border Gray (#c6c6c6). Padding is 1px top/bottom, with subtle inner spacing. Border radius: 0px."
+        },
+        {
+          "name": "Standard Button (Text)",
+          "role": "Action trigger",
+          "description": "Background transparent (rgba(0,0,0,0)), text in Ink Black (#0f0f0f), Roboto font. No visible border. Padding: 0px."
+        },
+        {
+          "name": "Rounded Action Button",
+          "role": "Primary action",
+          "description": "Background rgba(0,0,0,0.05). Text Ink Black (#0f0f0f). Radius 18px. Uses 16px horizontal padding. Example: 'Sign in' button in the sidebar."
+        },
+        {
+          "name": "Dialogue Card",
+          "role": "Information display",
+          "description": "Canvas White (#ffffff) background with a light grey border of #eeeeee. Features rounded corners (radius 10px). Inner padding varies, commonly 16px."
+        },
+        {
+          "name": "YouTube Red Indicator Button",
+          "role": "Brand-specific action",
+          "description": "Background is Canvas White (#ffffff). Text color is YouTube Red (#ff0033). Icon is also in YouTube Red. Used for specific YouTube services like 'YouTube Premium'."
+        }
+      ],
+      "typography": [
+        {
+          "role": "Primary text font for body copy, links, general UI elements, and buttons. Its unobtrusive nature supports content focus.",
+          "sizes": "10px, 12px, 13px, 14px, 16px",
+          "family": "Roboto",
+          "weight": "400, 500, 700, 900",
+          "lineHeight": "1.20, 1.38, 1.43, 1.50, 2.57",
+          "substitute": "system-ui",
+          "letterSpacing": "normal"
+        },
+        {
+          "role": "Fallback font for specific UI elements and legacy components, ensuring broad compatibility.",
+          "sizes": "13px",
+          "family": "Arial",
+          "weight": "400",
+          "lineHeight": "1.20",
+          "substitute": "Helvetica, sans-serif",
+          "letterSpacing": "normal"
+        },
+        {
+          "role": "Used for section headings, providing a distinct brand voice through its semi-bold weight at a generous size.",
+          "sizes": "20px",
+          "family": "YouTube Sans",
+          "weight": "600",
+          "lineHeight": "1.40",
+          "substitute": "Roboto, sans-serif",
+          "letterSpacing": "normal"
+        }
+      ],
+      "description": "The design prioritizes content delivery with a near-monochromatic palette and a spacious layout. A pure white background (\n#ffffff) serves as a digital canvas, allowing black text (#0f0f0f) and a singular vivid blue (#065fd4) for interactive elements to carry all visual weight. Rounded corners (10px, 18px) provide subtle softness against an otherwise austere, functional aesthetic. The lack of decorative elements directs full attention to the video and community content.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "**Quick Color Reference:**\n- Text: #0f0f0f\n- Background: #ffffff\n- CTA: #065fd4\n- Border: #c6c6c6\n- Accent: #ff0033\n\n**Example Component Prompts:**\n1. Create a `Dialogue Card` with the heading 'Your YouTube history is off' (YouTube Sans, weight 600, size 20px, #0f0f0f), a body text description (Roboto, weight 400, size 14px, #0f0f0f), and a 'Learn more' link (Roboto, weight 400, size 14px, #065fd4). The card should have a #ffffff background, 10px radius, and a 1px #eeeeee border. Apply 16px padding on all sides.\n2. Generate a `Rounded Action Button` with the text 'Update setting' (Roboto, weight 400, size 14px, #0f0f0f). The button should have a background of rgba(0,0,0,0.05), a border-radius of 18px, and 16px horizontal padding. Vertical padding should be 0px as per component variant.\n3. Design a `Navigation Link` for 'Home' icon and text. Text color #0f0f0f, Roboto, weight 400, size 14px. On hover, background rgba(0,0,0,0.05). Use 12px vertical padding around the icon and text to align with active states."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775933347653-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775933347653-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/8fc58a26-47be-406e-8429-37925551c0ec",
+  "ranks": {
+    "trending": 592,
+    "popular": 214,
+    "newest": 940
+  },
+  "localSlug": "youtube-8fc58a26"
+}

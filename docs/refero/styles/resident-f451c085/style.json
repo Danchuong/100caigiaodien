@@ -1,0 +1,938 @@
+{
+  "id": "f451c085-f048-4c9c-ae3b-03acc88320ab",
+  "url": "https://resident.co.nz",
+  "siteName": "Resident",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777513488410-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777513488410-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "light",
+  "colors": [
+    {
+      "name": "Canvas White",
+      "hex": "#ffffff"
+    },
+    {
+      "name": "Ink Black",
+      "hex": "#000000"
+    },
+    {
+      "name": "Muted Ash",
+      "hex": "#979797"
+    },
+    {
+      "name": "Graphite",
+      "hex": "#333333"
+    }
+  ],
+  "fonts": [
+    "sans-serif",
+    "MessinaSansWeb"
+  ],
+  "northStar": "Gallery Grid Serenity",
+  "createdAt": "2026-04-30T01:45:08.981Z",
+  "previewVideoCapturedAt": null,
+  "industry": "ecommerce",
+  "fullResult": {
+    "meta": {
+      "url": "https://resident.co.nz",
+      "siteName": "Resident",
+      "extractedAt": "2026-04-30T01:45:08.913Z",
+      "durationMs": 32917,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 451,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "other",
+              "nav",
+              "button",
+              "icon",
+              "heading",
+              "body",
+              "input",
+              "link",
+              "card",
+              "image",
+              "footer"
+            ],
+            "frequency": 2210,
+            "confidence": 1,
+            "prominence": 162758703.26914528,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "nav/color": 56,
+              "body/color": 84,
+              "card/color": 1,
+              "icon/color": 5,
+              "link/color": 60,
+              "image/color": 34,
+              "input/color": 3,
+              "other/color": 181,
+              "button/color": 6,
+              "footer/color": 1,
+              "heading/color": 11,
+              "nav/borderColor": 224,
+              "body/borderColor": 336,
+              "card/borderColor": 4,
+              "icon/borderColor": 20,
+              "link/borderColor": 240,
+              "image/borderColor": 136,
+              "input/borderColor": 12,
+              "other/borderColor": 724,
+              "button/borderColor": 24,
+              "footer/borderColor": 4,
+              "heading/borderColor": 44
+            }
+          },
+          {
+            "hex": "#ffffff",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 1.0000000000000002
+            },
+            "contexts": [
+              "nav",
+              "other",
+              "button"
+            ],
+            "frequency": 6,
+            "confidence": 1,
+            "prominence": 1379219.7849478363,
+            "properties": [
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "nav/backgroundColor": 1,
+              "other/backgroundColor": 3,
+              "button/backgroundColor": 2
+            }
+          },
+          {
+            "hex": "#979797",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.6764032429050417
+            },
+            "contexts": [
+              "body"
+            ],
+            "frequency": 10,
+            "confidence": 1,
+            "prominence": 55783.33485052642,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "body/color": 2,
+              "body/borderColor": 8
+            }
+          },
+          {
+            "hex": "#333333",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.3210925111636326
+            },
+            "contexts": [
+              "icon",
+              "button",
+              "other"
+            ],
+            "frequency": 21,
+            "confidence": 1,
+            "prominence": 2568.632612335083,
+            "properties": [
+              "color",
+              "fill",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "icon/fill": 4,
+              "icon/color": 2,
+              "other/fill": 2,
+              "button/color": 1,
+              "icon/borderColor": 8,
+              "button/borderColor": 4
+            }
+          }
+        ],
+        "isDarkMode": false,
+        "colorfulness": 0,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 21,
+            "background": "#ffffff",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 12.63,
+            "background": "#ffffff",
+            "foreground": "#333333"
+          },
+          {
+            "level": "fail",
+            "ratio": 2.92,
+            "background": "#ffffff",
+            "foreground": "#979797"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 1,
+            "contexts": [
+              "button"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingTop",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|button",
+              "paddingBottom|button"
+            ]
+          },
+          {
+            "value": 3,
+            "contexts": [
+              "button"
+            ],
+            "frequency": 4,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|button",
+              "paddingLeft|button"
+            ]
+          },
+          {
+            "value": 5,
+            "contexts": [
+              "nav",
+              "other",
+              "icon"
+            ],
+            "frequency": 19,
+            "properties": [
+              "marginTop",
+              "marginRight",
+              "marginBottom",
+              "marginLeft"
+            ],
+            "propertyContextPairs": [
+              "marginTop|nav",
+              "marginRight|nav",
+              "marginBottom|nav",
+              "marginLeft|nav",
+              "marginBottom|other",
+              "marginTop|icon",
+              "marginRight|icon",
+              "marginBottom|icon",
+              "marginLeft|icon"
+            ]
+          },
+          {
+            "value": 6,
+            "contexts": [
+              "button"
+            ],
+            "frequency": 4,
+            "properties": [
+              "marginLeft",
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "marginLeft|button",
+              "paddingRight|button",
+              "paddingLeft|button"
+            ]
+          },
+          {
+            "value": 10,
+            "contexts": [
+              "nav",
+              "input",
+              "link"
+            ],
+            "frequency": 13,
+            "properties": [
+              "marginRight",
+              "marginLeft",
+              "paddingTop",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "marginRight|nav",
+              "marginLeft|nav",
+              "paddingTop|input",
+              "paddingBottom|input",
+              "marginRight|link",
+              "marginLeft|link"
+            ]
+          },
+          {
+            "value": 12,
+            "contexts": [
+              "nav",
+              "body"
+            ],
+            "frequency": 6,
+            "properties": [
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "marginBottom|nav",
+              "marginBottom|body"
+            ]
+          },
+          {
+            "value": 13,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 1,
+            "properties": [
+              "marginLeft"
+            ],
+            "propertyContextPairs": [
+              "marginLeft|nav"
+            ]
+          },
+          {
+            "value": 14,
+            "contexts": [
+              "button",
+              "body",
+              "other"
+            ],
+            "frequency": 22,
+            "properties": [
+              "marginRight",
+              "paddingTop",
+              "paddingBottom",
+              "marginBottom",
+              "marginTop"
+            ],
+            "propertyContextPairs": [
+              "marginRight|button",
+              "paddingTop|button",
+              "paddingBottom|button",
+              "marginBottom|button",
+              "marginBottom|body",
+              "marginTop|other"
+            ]
+          },
+          {
+            "value": 15,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 6,
+            "properties": [
+              "marginRight",
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "marginRight|other",
+              "marginBottom|other"
+            ]
+          },
+          {
+            "value": 18,
+            "contexts": [
+              "nav",
+              "heading"
+            ],
+            "frequency": 11,
+            "properties": [
+              "marginRight",
+              "marginLeft",
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "marginRight|nav",
+              "marginLeft|nav",
+              "marginBottom|heading"
+            ]
+          },
+          {
+            "value": 19,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 18,
+            "properties": [
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "marginBottom|body"
+            ]
+          },
+          {
+            "value": 21,
+            "contexts": [
+              "nav",
+              "other",
+              "footer"
+            ],
+            "frequency": 69,
+            "properties": [
+              "paddingTop",
+              "paddingRight",
+              "paddingBottom",
+              "paddingLeft",
+              "marginBottom",
+              "marginRight",
+              "marginLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|nav",
+              "paddingRight|nav",
+              "paddingBottom|nav",
+              "paddingLeft|nav",
+              "paddingTop|other",
+              "paddingRight|other",
+              "paddingBottom|other",
+              "paddingLeft|other",
+              "marginBottom|other",
+              "marginRight|other",
+              "marginLeft|other",
+              "paddingRight|footer",
+              "paddingBottom|footer",
+              "paddingLeft|footer"
+            ]
+          },
+          {
+            "value": 27,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 14,
+            "properties": [
+              "paddingTop"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other"
+            ]
+          },
+          {
+            "value": 28,
+            "contexts": [
+              "button",
+              "body",
+              "other"
+            ],
+            "frequency": 5,
+            "properties": [
+              "marginTop",
+              "paddingTop"
+            ],
+            "propertyContextPairs": [
+              "marginTop|button",
+              "marginTop|body",
+              "paddingTop|other"
+            ]
+          },
+          {
+            "value": 35,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 2,
+            "properties": [
+              "marginTop"
+            ],
+            "propertyContextPairs": [
+              "marginTop|heading"
+            ]
+          },
+          {
+            "value": 42,
+            "contexts": [
+              "nav",
+              "other"
+            ],
+            "frequency": 12,
+            "properties": [
+              "marginRight"
+            ],
+            "propertyContextPairs": [
+              "marginRight|nav",
+              "marginRight|other"
+            ]
+          },
+          {
+            "value": 56,
+            "contexts": [
+              "card"
+            ],
+            "frequency": 1,
+            "properties": [
+              "marginTop"
+            ],
+            "propertyContextPairs": [
+              "marginTop|card"
+            ]
+          },
+          {
+            "value": 83,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 3,
+            "properties": [
+              "paddingTop"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other"
+            ]
+          },
+          {
+            "value": 93,
+            "contexts": [
+              "footer"
+            ],
+            "frequency": 1,
+            "properties": [
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "marginBottom|footer"
+            ]
+          },
+          {
+            "value": 280,
+            "contexts": [
+              "footer"
+            ],
+            "frequency": 1,
+            "properties": [
+              "marginTop"
+            ],
+            "propertyContextPairs": [
+              "marginTop|footer"
+            ]
+          }
+        ],
+        "density": "comfortable",
+        "baseUnit": 4
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "sans-serif",
+            "source": "system",
+            "weights": [
+              400
+            ],
+            "frequency": 295,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "MessinaSansWeb",
+            "source": "custom",
+            "weights": [
+              400,
+              500
+            ],
+            "frequency": 152,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 16,
+          "name": "Minor Second",
+          "ratio": 1.067,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 12,
+            "family": "sans-serif",
+            "weight": 400,
+            "contexts": [
+              "nav",
+              "footer",
+              "other",
+              "link",
+              "image"
+            ],
+            "frequency": 8,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 12,
+            "family": "sans-serif",
+            "weight": 400,
+            "contexts": [
+              "nav",
+              "other",
+              "body",
+              "link",
+              "icon"
+            ],
+            "frequency": 59,
+            "lineHeight": 1.3,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 14,
+            "family": "sans-serif",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "nav",
+              "button",
+              "body",
+              "input",
+              "link",
+              "card",
+              "image",
+              "icon"
+            ],
+            "frequency": 228,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 14,
+            "family": "MessinaSansWeb",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "heading",
+              "body"
+            ],
+            "frequency": 50,
+            "lineHeight": 1.4,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 18,
+            "family": "MessinaSansWeb",
+            "weight": 400,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 22,
+            "lineHeight": 1.2,
+            "letterSpacing": -0.03,
+            "textTransform": "none"
+          },
+          {
+            "size": 18,
+            "family": "MessinaSansWeb",
+            "weight": 400,
+            "contexts": [
+              "button"
+            ],
+            "frequency": 2,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 18,
+            "family": "MessinaSansWeb",
+            "weight": 400,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 2,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 19,
+            "family": "MessinaSansWeb",
+            "weight": 500,
+            "contexts": [
+              "other",
+              "body"
+            ],
+            "frequency": 52,
+            "lineHeight": 1.29,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 23,
+            "family": "MessinaSansWeb",
+            "weight": 400,
+            "contexts": [
+              "icon"
+            ],
+            "frequency": 3,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 27,
+            "family": "MessinaSansWeb",
+            "weight": 500,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 18,
+            "lineHeight": 1.29,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 27,
+            "family": "MessinaSansWeb",
+            "weight": 500,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 3,
+            "lineHeight": 1.29,
+            "letterSpacing": -0.037,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Prioritize product photography as the focal point, allowing images to extend full-bleed or occupy significant visual space without heavy UI overlays.",
+        "Use Ink Black (#000000) for all primary text and headings against Canvas White (#ffffff) backgrounds to maintain a high-contrast, editorial feel.",
+        "Maintain a density of comfortable spacing by defaulting to 21px for element gaps and 14px for card padding, creating breathing room around content.",
+        "Apply 0px border-radius to all major interactive elements and cards, preserving the sharp, architectural aesthetic.",
+        "Utilize MessinaSansWeb for headlines and prominent body text with letter-spacing adjusted for precise visual fit, like -0.0370em at 27px.",
+        "Employ `sans-serif` (system font) for secondary and utility text, ensuring high legibility and efficiency for smaller, functional details.",
+        "Use subtle, text-based interactive elements (buttons, links) with minimal styling — often transparent backgrounds and thin borders instead of filled shapes."
+      ],
+      "donts": [
+        "Avoid using saturated or bright colors; restrict the palette almost entirely to achromatic neutrals (Canvas White, Ink Black, Muted Ash, Graphite).",
+        "Do not use box-shadows or elevated elements; maintain a flat, two-dimensional design language for all UI components.",
+        "Refrain from using heavily styled buttons with solid color fills; default to text links, ghost buttons, or subtly outlined elements.",
+        "Do not introduce decorative gradients or complex backgrounds; interfaces should be clean Canvas White to highlight content.",
+        "Avoid generic large-scale letter-spacing; use the precise, negative letter-spacing defined for MessinaSansWeb at larger sizes for consistency.",
+        "Do not break away from the minimal, stark presentation of interactive elements; avoid hover effects that drastically change component appearance."
+      ],
+      "theme": "light",
+      "colors": [
+        {
+          "hex": "#ffffff",
+          "name": "Canvas White",
+          "role": "Page backgrounds, card surfaces, ghost button fills",
+          "group": "neutral"
+        },
+        {
+          "hex": "#000000",
+          "name": "Ink Black",
+          "role": "Primary text, headings, strong link and button borders, active states, most icons — establishes a stark, high-contrast visual identity",
+          "group": "neutral"
+        },
+        {
+          "hex": "#979797",
+          "name": "Muted Ash",
+          "role": "Muted helper text, secondary information, soft border accents for inputs or subtle dividers",
+          "group": "neutral"
+        },
+        {
+          "hex": "#333333",
+          "name": "Graphite",
+          "role": "Muted icon strokes, separators, and secondary graphic details. Do not promote it to the primary CTA color",
+          "group": "neutral"
+        }
+      ],
+      "imagery": "The imagery is dominated by high-quality product photography and architectural interior shots. Treatment is often full-bleed or large-format, allowing the visual to dictate the section. Products are typically shown in sophisticated, minimalist environments, often with stark lighting. Some lifestyle and landscape photography provides contextual atmosphere. Image density is high, with visuals often taking precedence over text. Icons (e.g., search, cart) are minimal, outlined, and in Ink Black, reinforcing the austere aesthetic.",
+      "similar": [
+        {
+          "why": "Shares a high-end furniture and lighting product focus with a clean, gallery-like layout and strong emphasis on product photography.",
+          "business": "Fritz Hansen"
+        },
+        {
+          "why": "Similar minimalist design, extensive use of white space, and a refined typographic approach to showcase premium design products.",
+          "business": "Carl Hansen & Søn"
+        },
+        {
+          "why": "Employs an achromatic color palette and a grid-based system where product images are paramount, with sparse, precise text.",
+          "business": "String Furniture"
+        },
+        {
+          "why": "Known for a stark, modern aesthetic, deep engagement with photography, and a subdued UI that puts product at the forefront.",
+          "business": "Menu (now Audo Copenhagen)"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "none": "0px",
+          "pill": "50%"
+        },
+        "elementGap": "21px",
+        "sectionGap": "35px",
+        "cardPadding": "14px",
+        "pageMaxWidth": null
+      },
+      "industry": "ecommerce",
+      "surfaces": [
+        {
+          "hex": "#ffffff",
+          "name": "Canvas White",
+          "level": 0,
+          "purpose": "Primary page background and default surface for all content areas."
+        }
+      ],
+      "northStar": "Gallery Grid Serenity",
+      "typeScale": [
+        {
+          "role": "caption",
+          "size": 12,
+          "lineHeight": 1.2
+        },
+        {
+          "role": "body-sm",
+          "size": 14,
+          "lineHeight": 1.3
+        },
+        {
+          "role": "subheading",
+          "size": 18,
+          "lineHeight": 1.2,
+          "letterSpacing": -0.03
+        },
+        {
+          "role": "heading",
+          "size": 23,
+          "lineHeight": 1.29,
+          "letterSpacing": -0.03
+        },
+        {
+          "role": "display",
+          "size": 27,
+          "lineHeight": 1,
+          "letterSpacing": -0.037
+        }
+      ],
+      "components": [
+        {
+          "name": "Primary Navigation Link",
+          "role": "Top-level navigation items",
+          "description": "Ink Black text at MessinaSansWeb, weight 400, 14px, lineHeight 1.4. No padding, no border. Interactive via hover for subtle change."
+        },
+        {
+          "name": "Secondary Ghost Button",
+          "role": "Language switcher, login links",
+          "description": "Canvas White background, Ink Black text (sans-serif, weight 400), 0px border-radius, 0px padding. Designed to be unobtrusive and blend with the Canvas White background."
+        },
+        {
+          "name": "Outlined Pill Button",
+          "role": "Small interactive elements like language selection (e.g. 'EN/DE')",
+          "description": "Transparent background, Graphite text (333333), 1px Graphite border, 50% border-radius (pill shape). Minimal 1px vertical, 6px horizontal padding. A subtle, functional touch."
+        },
+        {
+          "name": "Product Grid Card",
+          "role": "Displaying product images and brief descriptions in a gallery format",
+          "description": "Transparent background, 0px border-radius, no shadow. Product image acts as its visual anchor. Content padding is 0px directly surrounding the image, with Ink Black text for titles and pricing."
+        },
+        {
+          "name": "Text Input Field",
+          "role": "Form fields like login, password",
+          "description": "Transparent background, Ink Black text (sans-serif, weight 400) and 1px Ink Black border only on the bottom. No border-radius. Features 9.8px vertical padding. Focus state likely uses a similar subtle border highlight."
+        }
+      ],
+      "typography": [
+        {
+          "role": "Utility text for navigation, small print, image captions, and general body content where unobtrusive clarity is key. Its system-font nature aids quick loading and broad compatibility.",
+          "sizes": "12px, 14px",
+          "family": "sans-serif",
+          "weight": "400",
+          "weights": [
+            400
+          ],
+          "lineHeight": "1.20, 1.30",
+          "substitute": "system-ui",
+          "letterSpacing": "normal"
+        },
+        {
+          "role": "Primary headings, article titles, prominent body text, and some navigation elements. Tightly tracked letter spacing, especially at larger sizes, gives a refined and architectural precision.",
+          "sizes": "14px, 18px, 19px, 23px, 27px",
+          "family": "MessinaSansWeb",
+          "weight": "400, 500",
+          "weights": [
+            400,
+            500
+          ],
+          "lineHeight": "1.00, 1.20, 1.29, 1.40",
+          "substitute": "Helvetica Neue",
+          "letterSpacing": "-0.0370em at 27px, -0.0300em at 23px"
+        }
+      ],
+      "description": "Resident employs a disciplined, gallery-like visual language, emphasizing product photography with stark white space and precise, minimal typography. Achromatic tones of black and white dominate, providing a quiet canvas for product hero shots. The design system leans into content-rich layouts, using tight typographic control for an authoritative, editorial feel, with interactive elements sparingly articulated through subtle borders and text rather than bold fills.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "### Quick Color Reference\ntext: #000000\nbackground: #ffffff\nborder: #000000\naccent: no distinct accent color\nprimary action: no distinct CTA color\n\n### 3-5 Example Component Prompts\n1. Create a navigational menu item: 'Furniture' text in Ink Black (#000000), MessinaSansWeb font, weight 400, 14px, lineHeight 1.4. No background, no border, 0px padding.\n2. Design a product grid item: A large image (placeholder) with a transparent background, Ink Black (#000000) text below it for 'Plane Lounge Chair Jamie McLellan', MessinaSansWeb, 14px, weight 400, 0px border radius, 0px padding.\n3. Implement a form input field: Transparent background, Ink Black (#000000) text (sans-serif, weight 400), with a 1px solid Ink Black (#000000) bottom border, 0px border-radius, 9.8px vertical padding. Placeholder text in Muted Ash (#979797).\n4. Create a small informational link: 'Forgot your password?' text in Muted Ash (#979797), sans-serif font, weight 400, 14px, lineHeight 1.3."
+        }
+      ],
+      "elevationPhilosophy": "The design intentionally eschews all forms of elevation and shadows. Surfaces are designed to appear flat and two-dimensional, creating a clean, almost architectural blueprint feel. Depth is implied through high-contrast typography and precise spacing, rather than layering or light effects. This approach reinforces a gallery-like presentation of content, aligning with the brand's focus on product purity and form."
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777513488410-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777513488410-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/f451c085-f048-4c9c-ae3b-03acc88320ab",
+  "ranks": {
+    "trending": 407,
+    "popular": 676,
+    "newest": 527
+  },
+  "localSlug": "resident-f451c085"
+}

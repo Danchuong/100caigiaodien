@@ -1,0 +1,622 @@
+{
+  "id": "1b4c8933-32b5-427d-9906-28574d1076cc",
+  "url": "https://hourly-app.com",
+  "siteName": "hourly",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777520909072-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777520909072-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "dark",
+  "colors": [
+    {
+      "name": "Absolute Zero",
+      "hex": "#000000"
+    },
+    {
+      "name": "Paper White",
+      "hex": "#eee3c1"
+    },
+    {
+      "name": "Alert Red",
+      "hex": "#d0021b"
+    }
+  ],
+  "fonts": [
+    "Neue Haas Grotesk Text Bd",
+    "Helvetica"
+  ],
+  "northStar": "Type-forward, high-contrast, black-red-cream. A vintage subway poster come to life.",
+  "createdAt": "2026-04-30T03:48:50.190Z",
+  "previewVideoCapturedAt": null,
+  "industry": "productivity",
+  "fullResult": {
+    "meta": {
+      "url": "https://hourly-app.com",
+      "siteName": "hourly",
+      "extractedAt": "2026-04-30T03:48:50.123Z",
+      "durationMs": 28789,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 153,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#eee3c1",
+            "oklch": {
+              "c": 0.04629885921591396,
+              "h": 92.19384536253337,
+              "l": 0.9158790032669157
+            },
+            "contexts": [
+              "other",
+              "image",
+              "heading",
+              "hero",
+              "footer",
+              "link"
+            ],
+            "frequency": 628,
+            "confidence": 1,
+            "prominence": 11893052.16690171,
+            "properties": [
+              "color",
+              "borderColor",
+              "fill"
+            ],
+            "usageCounts": {
+              "hero/color": 1,
+              "link/color": 1,
+              "other/fill": 3,
+              "image/color": 7,
+              "other/color": 101,
+              "footer/color": 1,
+              "heading/color": 14,
+              "hero/borderColor": 4,
+              "link/borderColor": 4,
+              "image/borderColor": 28,
+              "other/borderColor": 404,
+              "footer/borderColor": 4,
+              "heading/borderColor": 56
+            }
+          },
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 31,
+            "confidence": 1,
+            "prominence": 5355290,
+            "properties": [
+              "color",
+              "borderColor",
+              "fill"
+            ],
+            "usageCounts": {
+              "other/fill": 6,
+              "other/color": 5,
+              "other/borderColor": 20
+            }
+          },
+          {
+            "hex": "#d0021b",
+            "oklch": {
+              "c": 0.21901029513648243,
+              "h": 26.27935262297282,
+              "l": 0.540230468267092
+            },
+            "contexts": [
+              "link",
+              "other"
+            ],
+            "frequency": 46,
+            "confidence": 1,
+            "prominence": 2609851.3449049965,
+            "properties": [
+              "backgroundColor",
+              "color",
+              "borderColor",
+              "fill"
+            ],
+            "usageCounts": {
+              "link/color": 8,
+              "other/fill": 5,
+              "link/borderColor": 32,
+              "link/backgroundColor": 1
+            }
+          }
+        ],
+        "isDarkMode": true,
+        "colorfulness": 0.15008685897593316,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 16.39,
+            "background": "#eee3c1",
+            "foreground": "#000000"
+          },
+          {
+            "level": "fail",
+            "ratio": 4.42,
+            "background": "#d0021b",
+            "foreground": "#eee3c1"
+          },
+          {
+            "level": "fail",
+            "ratio": 3.71,
+            "background": "#d0021b",
+            "foreground": "#000000"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 2,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 22,
+            "properties": [
+              "marginTop"
+            ],
+            "propertyContextPairs": [
+              "marginTop|other"
+            ]
+          },
+          {
+            "value": 4,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 22,
+            "properties": [
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "marginBottom|other"
+            ]
+          },
+          {
+            "value": 5,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 4,
+            "properties": [
+              "paddingRight"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|heading"
+            ]
+          },
+          {
+            "value": 8,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 74,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|other",
+              "paddingLeft|other"
+            ]
+          },
+          {
+            "value": 10,
+            "contexts": [
+              "other",
+              "link",
+              "footer"
+            ],
+            "frequency": 4,
+            "properties": [
+              "paddingBottom",
+              "paddingTop"
+            ],
+            "propertyContextPairs": [
+              "paddingBottom|other",
+              "paddingTop|link",
+              "paddingBottom|link",
+              "paddingTop|footer"
+            ]
+          },
+          {
+            "value": 20,
+            "contexts": [
+              "other",
+              "hero",
+              "link",
+              "footer"
+            ],
+            "frequency": 20,
+            "properties": [
+              "paddingTop",
+              "paddingBottom",
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other",
+              "paddingBottom|other",
+              "paddingTop|hero",
+              "paddingBottom|hero",
+              "marginBottom|link",
+              "paddingBottom|footer"
+            ]
+          },
+          {
+            "value": 37,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 2,
+            "properties": [
+              "marginTop",
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "marginTop|heading",
+              "marginBottom|heading"
+            ]
+          },
+          {
+            "value": 40,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingTop",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other",
+              "paddingBottom|other"
+            ]
+          },
+          {
+            "value": 44,
+            "contexts": [
+              "heading",
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "marginBottom",
+              "marginTop"
+            ],
+            "propertyContextPairs": [
+              "marginBottom|heading",
+              "marginTop|other"
+            ]
+          },
+          {
+            "value": 128,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 24,
+            "properties": [
+              "marginRight",
+              "marginLeft"
+            ],
+            "propertyContextPairs": [
+              "marginRight|other",
+              "marginLeft|other"
+            ]
+          }
+        ],
+        "density": "compact",
+        "baseUnit": 4
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "Neue Haas Grotesk Text Bd",
+            "source": "custom",
+            "weights": [
+              700
+            ],
+            "frequency": 138,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "Helvetica",
+            "source": "system",
+            "weights": [
+              400
+            ],
+            "frequency": 5,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 16,
+          "name": "Major Second",
+          "ratio": 1.125,
+          "confidence": 0.75
+        },
+        "steps": [
+          {
+            "size": 16,
+            "family": "Neue Haas Grotesk Text Bd",
+            "weight": 700,
+            "contexts": [
+              "other",
+              "image",
+              "link",
+              "hero",
+              "footer"
+            ],
+            "frequency": 93,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "Helvetica",
+            "weight": 400,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 5,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 22,
+            "family": "Neue Haas Grotesk Text Bd",
+            "weight": 700,
+            "contexts": [
+              "link",
+              "heading",
+              "other"
+            ],
+            "frequency": 28,
+            "lineHeight": 1,
+            "letterSpacing": -0.045,
+            "textTransform": "none"
+          },
+          {
+            "size": 44,
+            "family": "Neue Haas Grotesk Text Bd",
+            "weight": 700,
+            "contexts": [
+              "heading",
+              "link"
+            ],
+            "frequency": 14,
+            "lineHeight": 1,
+            "letterSpacing": -0.045,
+            "textTransform": "none"
+          },
+          {
+            "size": 217,
+            "family": "Neue Haas Grotesk Text Bd",
+            "weight": 700,
+            "contexts": [
+              "link"
+            ],
+            "frequency": 3,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Prioritize text as the primary visual element; use Neue Haas Grotesk Text Bd at weight 700 for almost all content, embracing its inherent impact.",
+        "Utilize the high-contrast pairing of Absolute Zero (#000000) and Paper White (#eee3c1) to establish bold visual rhythm and emphasize content.",
+        "Reserve Alert Red (#d0021b) exclusively for key interactive elements, large expressive text, or critical brand highlights to maximize its impact.",
+        "Apply a global letter-spacing of -0.0450em for all Neue Haas Grotesk Text Bd text to maintain a dense, compact typographic style.",
+        "Use 1px solid borders in Paper White (#eee3c1) for subtle structural delineation, especially in tabular data or content blocks.",
+        "Embrace a dense information layout, minimizing whitespace and relying on typography and strong color contrast for organization rather than ample padding.",
+        "Adhere to the pageMaxWidth of 1184px for all main content, ensuring a consistently contained and structured layout."
+      ],
+      "donts": [
+        "Avoid subtle color variations or gradients; the system relies on stark, flat color blocks.",
+        "Do not introduce shadows or complex elevation; the design operates on a flat, print-like plane.",
+        "Refrain from using lightweight fonts or open letter-spacing; the system demands a bold, condensed typographic presence.",
+        "Do not use varied border radii; maintain sharp, angular forms via a 0px radius.",
+        "Avoid decorative imagery or abstract graphics; content is king, presented directly.",
+        "Do not create tertiary UI elements or secondary action styles; focus on a clear, singular interaction path.",
+        "Refrain from deviating from the Absolute Zero (#000000) background for core content areas; it is foundational to the dark theme."
+      ],
+      "theme": "dark",
+      "colors": [
+        {
+          "hex": "#000000",
+          "name": "Absolute Zero",
+          "role": "Page background, primary text – establishes a deep, absorbing canvas",
+          "group": "neutral"
+        },
+        {
+          "hex": "#eee3c1",
+          "name": "Paper White",
+          "role": "Display text, prominent headings, key information blocks, UI borders – serves as the primary contrasting element against the dark background, evoking printed paper",
+          "group": "neutral"
+        },
+        {
+          "hex": "#d0021b",
+          "name": "Alert Red",
+          "role": "Interactive elements, large emphatic headings, critical highlights – this vivid red introduces urgency and draws immediate attention",
+          "group": "brand"
+        }
+      ],
+      "similar": [
+        {
+          "why": "Bold, graphic, type-forward aesthetic with limited color palette and dramatic scale.",
+          "business": "ESPN 30 for 30 (visual identity)"
+        },
+        {
+          "why": "Emphasis on impactful, tightly tracked sans-serif typography and a stark, high-contrast visual approach.",
+          "business": "Bloomberg Businessweek (magazine design)"
+        },
+        {
+          "why": "Minimalist UI with sharp edges, strong typographic focus, and a direct, functional presentation of content.",
+          "business": "Are.na"
+        },
+        {
+          "why": "High-contrast, limited color palette (red/black/cream), and large, blocky typography to convey an urgent message.",
+          "business": "Some vintage protest posters"
+        },
+        {
+          "why": "Interface relies on deep black backgrounds with stark contrasting text and a single strong accent color for interactive elements.",
+          "business": "Telegram (dark mode)"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "default": "0px"
+        },
+        "elementGap": "4px",
+        "sectionGap": "37px",
+        "cardPadding": "10px",
+        "pageMaxWidth": "1184px"
+      },
+      "industry": "productivity",
+      "surfaces": [
+        {
+          "hex": "#000000",
+          "name": "Absolute Canvas",
+          "level": 0,
+          "purpose": "The foundational dark background for all content, creating depth and contrast."
+        },
+        {
+          "hex": "#eee3c1",
+          "name": "Paper Block",
+          "level": 1,
+          "purpose": "Used for large areas of text, cards, or implied content blocks where a strong visual break from the black background is desired."
+        },
+        {
+          "hex": "#d0021b",
+          "name": "Alert Surface",
+          "level": 2,
+          "purpose": "Emphatic backgrounds for calls to action or dominant visual statements, overriding other surfaces with its urgency."
+        }
+      ],
+      "northStar": "Type-forward, high-contrast, black-red-cream. A vintage subway poster come to life.",
+      "typeScale": [
+        {
+          "role": "body",
+          "size": 16,
+          "lineHeight": 1.2,
+          "letterSpacing": -0.72
+        },
+        {
+          "role": "subheading",
+          "size": 22,
+          "lineHeight": 1,
+          "letterSpacing": -0.99
+        },
+        {
+          "role": "heading",
+          "size": 44,
+          "lineHeight": 1,
+          "letterSpacing": -1.98
+        },
+        {
+          "role": "display",
+          "size": 217,
+          "lineHeight": 1,
+          "letterSpacing": -9.77
+        }
+      ],
+      "components": [
+        {
+          "name": "Display Headline",
+          "role": "Hero headline, section titles",
+          "description": "Large scale text at 217px Neue Haas Grotesk Text Bd weight 700, with aggressive letter-spacing of -0.0450em. Rendered in Paper White (#eee3c1) or Alert Red (#d0021b) on an Absolute Zero (#000000) background."
+        },
+        {
+          "name": "Sub-Headline Box",
+          "role": "Descriptive text blocks under main titles",
+          "description": "Text at 16px Neue Haas Grotesk Text Bd weight 700 in Paper White (#eee3c1) with -0.0450em letter-spacing. Contained within an implied box, often with 10px vertical padding. Creates a dense, informational module."
+        },
+        {
+          "name": "Link Button",
+          "role": "Primary calls to action, navigation elements",
+          "description": "Text in Neue Haas Grotesk Text Bd weight 700. For filled buttons, the background is Alert Red (#d0021b) with Paper White (#eee3c1) text. For outlined links, it's Paper White (#eee3c1) text with a 1px Paper White (#eee3c1) border. Minimal padding, relying on the visual weight of the text and color to define interaction."
+        },
+        {
+          "name": "Horizontal Divider",
+          "role": "Section break for tables or content grouping",
+          "description": "A 1px solid line in Paper White (#eee3c1) used to visually separate content blocks, such as table rows. There are no vertical dividers evident."
+        }
+      ],
+      "typography": [
+        {
+          "role": "All primary textual content: headings, body text, links. Its heavy weight and tight tracking convey authority and impact, especially at large sizes.",
+          "sizes": "16px, 22px, 44px, 217px",
+          "family": "Neue Haas Grotesk Text Bd",
+          "weight": "700",
+          "lineHeight": "1.00",
+          "substitute": "System Helvetica, Arial",
+          "letterSpacing": "-0.0450em"
+        },
+        {
+          "role": "Supporting text for smaller details and descriptive content, primarily to accommodate system defaults or less emphasized content where the bold grotesque might be overbearing.",
+          "sizes": "16px",
+          "family": "Helvetica",
+          "weight": "400",
+          "lineHeight": "1.20",
+          "substitute": "System Helvetica, Arial",
+          "letterSpacing": "normal"
+        }
+      ],
+      "description": "The hourly app design system presents an audacious, high-contrast aesthetic, built on a foundation of deep black, bold cream, and urgent red. Typography, dominated by a heavy grotesque sans-serif, takes center stage with dramatic scale and tight tracking. Information is presented densely, pushing content to the edges of a constrained layout without relying on traditional spacing cues. A distinct lack of visual hierarchy via elevation or subtle neutrals focuses attention through sheer presence and high-impact color pairing.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "Quick Color Reference:\ntext: #eee3c1\nbackground: #000000\nborder: #eee3c1\naccent: #d0021b\nprimary action: #d0021b (outlined action border)\n\nExample Component Prompts:\n1. Create a hero section: Absolute Zero (#000000) background. Headline 'STAY HOME' in Neue Haas Grotesk Text Bd weight 700 at 217px, letter-spacing -0.0450em, using Paper White (#eee3c1) for 'stay' and Alert Red (#d0021b) for the dot in 'home'.\n2. Create a feature description block: Paper White (#eee3c1) background. Headline 'ios app for time tracking' at 44px Neue Haas Grotesk Text Bd weight 700, letter-spacing -0.0450em, in Absolute Zero (#000000). Below, a block of 16px Neue Haas Grotesk Text Bd weight 700 text in Absolute Zero (#000000), letter-spacing -0.0450em, with 10px vertical padding. Below that, a 1px Paper White (#eee3c1) rule.\n3. Create an Outlined Primary Action: Transparent background, #d0021b border and text, 9999px radius, compact pill padding. Use it for the main CTA instead of a filled button."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777520909072-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777520909072-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/1b4c8933-32b5-427d-9906-28574d1076cc",
+  "ranks": {
+    "trending": 681,
+    "popular": 814,
+    "newest": 57
+  },
+  "localSlug": "hourly-1b4c8933"
+}

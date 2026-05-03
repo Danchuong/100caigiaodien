@@ -1,0 +1,168 @@
+# Hey Low — Refero Style
+
+- Refero URL: https://styles.refero.design/style/7829a500-242b-4932-b42d-7ce40c254101
+- Site URL: https://heylow.world
+- ID: 7829a500-242b-4932-b42d-7ce40c254101
+- Theme: light
+- Industry: design
+- Created: 2026-04-30T02:38:10.606Z
+- Ranks: newest: 332, popular: 739, trending: 647
+
+> Eco-minimalist botanical blueprint: Lush green accents on a cream canvas.
+
+## Description
+
+Hey Low utilizes a fresh, eco-conscious aesthetic, blending a serene light theme with a strong emphasis on a single accent green. Typography is understated yet precise, with a custom sans-serif for content and a distinctive display font for headlines. Components are minimal, relying on soft radii and a prominent, specific accent green for interactive elements and highlighted content, rather than heavy borders or deep shadows. The overall feel is one of thoughtful efficiency, with visual weight primarily driven by color rather than complex styling.
+
+## Colors
+
+| Name | Hex | Group | Role |
+| --- | --- | --- | --- |
+| Forest Green | #003329 | brand | Primary text, critical headings, active navigation text, button backgrounds (inverted), icon fills — evokes nature and seriousness |
+| Green Flash | #e6ffa3 | brand | Accent color for call-to-action button backgrounds, highlighted card backgrounds, interactive elements, and decorative fills — a vibrant, natural highlight |
+| Ash Gray | #e5e7eb | neutral | Page background, light surface borders, subtle dividers |
+| Paper White | #ffffff | neutral | Card backgrounds, primary button backgrounds (ghost style), elevated content surfaces |
+| Charcoal Black | #000000 | neutral | High-contrast decorative lines, specific button backgrounds for impactful statements |
+| Moss Gray | #52756e | neutral | Secondary body text, muted helper text, subtle link text |
+| Dark Olive | #33544c | neutral | Subtle text elements, less prominent informational text |
+
+## Typography
+
+| Family | Substitute | Weights | Sizes | Line Height | Role |
+| --- | --- | --- | --- | --- | --- |
+| UntitledSans | system-ui, sans-serif | 400, 600 | 9px, 10px, 11px, 12px, 14px, 16px, 17px, 24px, 30px, 36px, 43px, 52px, 62px | 0.80, 0.90, 1.00, 1.10, 1.13, 1.14, 1.20, 1.40, 1.50, 1.53, 1.60, 1.61 | Primary font for body text, navigation, and most headings. Its clean, slightly condensed form provides a modern, efficient feel with precise tracking for impact. |
+| BoogyBrutPoster | serif | 400 | 52px, 62px, 68px | 0.82, 0.83 | Display font for large, impactful headlines, adding a touch of distinct personality and organic flair. Normal letter-spacing prevents it from becoming too tight. |
+| sans-serif |  | 400 | 20px | 1.5 | sans-serif — detected in extracted data but not described by AI |
+
+## Type Scale
+
+| Role | Size | Line Height | Letter Spacing |
+| --- | --- | --- | --- |
+| body | 17 | 1.53 | -0.34 |
+| subheading | 24 | 1.4 | -0.6 |
+| heading-sm | 30 | 1.2 | -0.93 |
+| heading | 36 | 1.14 | -1.4 |
+| heading-lg | 43 | 1.13 | -2.2 |
+| display | 68 | 0.82 |  |
+
+## Spacing & Shape
+
+```json
+{
+  "radius": {
+    "cards": "8px",
+    "pills": "999999px",
+    "images": "8px",
+    "buttons": "8px",
+    "navigation": "4px"
+  },
+  "elementGap": "7px",
+  "sectionGap": "56px",
+  "cardPadding": "24-28px",
+  "pageMaxWidth": "1200px"
+}
+```
+
+## Components
+
+### Primary Call-to-Action Button
+
+**Role:** Interactive element
+
+Filled button with a Green Flash background (#e6ffa3), Forest Green text (#003329), and 8px border radius. Padding is 8px vertical, 12px horizontal. Used for primary user actions.
+
+### Secondary Ghost Button
+
+**Role:** Interactive element
+
+Ghost button with a Paper White background (#ffffff), Forest Green text (#003329), and 8px border radius. Padding is 8px vertical, 12px horizontal. Used for less prominent actions.
+
+### Dark Call-to-Action Button
+
+**Role:** Interactive element
+
+Filled button with a Forest Green background (#003329), Green Flash text (#e6ffa3), and 8px border radius. Padding is 8px vertical, 12px horizontal. Used for impactful calls to action on light backgrounds.
+
+### Feature Card (Green)
+
+**Role:** Content container
+
+Card with a Green Flash background (#e6ffa3), no box shadow, and 8px border radius. Internal padding is 24px on all sides. Used to highlight features or information blocks.
+
+### Content Card (White)
+
+**Role:** Content container
+
+Card with a Paper White background (#ffffff), no box shadow, and 8px border radius. Used for general content presentation without specific highlighting.
+
+### Hero CTA Button (Dark Background)
+
+**Role:** Interactive Element for hero section
+
+Filled button with Charcoal Black background (#000000), Green Flash text (#e6ffa3), and 8px border radius. Padding is 8px vertical, 12px horizontal. For high-impact, dark hero sections.
+
+### Client Logo Card
+
+**Role:** Brand/Partner display
+
+White card (Paper White: #ffffff) with 8px radius, no shadow, and 27.78px universal padding for displaying external logos with ample breathing room.
+
+## Do's
+
+- Prioritize Forest Green (#003329) for all primary text and critical UI elements to establish brand presence.
+- Use Green Flash (#e6ffa3) exclusively for primary calls-to-action, active indicators, and highlighted content blocks to draw attention.
+- Maintain an 8px border radius for all buttons, cards, and most images to ensure a consistent friendly yet precise feel.
+- Apply 24px vertical and horizontal padding to content cards and sections for a comfortable, uncrowded layout.
+- Employ UntitledSans for all body text and most headings, adjusting letter-spacing according to the scale to maintain legibility and visual rhythm.
+- Use BoogyBrutPoster (weight 400, normal letter-spacing) specifically for large, expressive headlines to add a unique brand signature.
+- Separate sections with a consistent 56px vertical gap for clear content distinction.
+
+## Don'ts
+
+- Avoid using multiple chromatic colors; limit vibrant color usage strictly to Green Flash (#e6ffa3) as the single accent.
+- Do not introduce heavy drop shadows or glows; surfaces should remain flat or use subtle elevation where absolutely necessary.
+- Do not deviate from the established 8px border radius for primary interface elements; avoid sharp corners or overly rounded shapes.
+- Do not use generic sans-serif fonts for headlines when a custom font is available; the BoogyBrutPoster font is critical for brand recognition.
+- Avoid dense, information-packed sections without generous padding and spacing; maintain a comfortable density with ample whitespace.
+- Do not apply excessive letter-spacing to body text; follow the defined negative tracking for UntitledSans at larger sizes and normal for smaller sizes.
+
+## Layout
+
+The page primarily uses a max-width 1200px centered layout for content sections. The hero section is a full-width arrangement with a centered headline and supporting text, flanked by a large, circular graphic element featuring butterfly illustrations. Subsequent sections alternate between full-width neutral backgrounds and max-width contained content blocks. Content is typically arranged in left-aligned or centered stacks, with features presented in a flexible grid (e.g., 3-column card grid). There's a consistent vertical rhythm of 56px section gaps, contributing to a spacious, comfortable feel. Navigation is a minimalist top bar with right-aligned links and a 'Contact' button.
+
+## Imagery
+
+Imagery primarily features product screenshots and abstract graphic elements. Product shots are typically contained with either a subtle background or masked elements. Illustrations are flat, bold, and organic, often using brand colors (Forest Green, Green Flash) with abstract shapes. Iconography is primarily filled, often monochromatic in Forest Green, with a medium stroke weight where outlines exist. Images serve both decorative atmosphere and explanatory content roles, maintaining a relatively balanced density with text, ensuring visual breaks without overwhelming content.
+
+## Similar Brands
+
+| Business | Why |
+| --- | --- |
+| Stripe | Similar preference for monochromatic themes with a single, clear accent color (though Stripe's is often blue) and minimal component styling. |
+| Linear | Shares the clean, modern aesthetic with strong typographic hierarchy, functional use of color for status/interaction, and understated UI components. |
+| Fathom Analytics | Employs a nature-inspired minimalist design, with prominent green accents and an emphasis on clean typography and spacious layouts. |
+| Basecamp | Utilizes a simple color palette, clear typography, and a focus on content over heavy visual decoration, similar to Hey Low's efficient aesthetic. |
+
+## Custom Sections
+
+### Agent Prompt Guide
+
+Quick Color Reference:
+text: #003329
+background: #e5e7eb
+border: #e5e7eb
+accent: #e6ffa3
+primary action: #e6ffa3 (filled action)
+
+Example Component Prompts:
+1. Create a Primary Call-to-Action Button: background #e6ffa3, text #003329, radius 8px, 8px vertical padding, 12px horizontal padding, with text 'Book a Demo'.
+2. Design a Feature Card: background #e6ffa3, radius 8px, 24px universal padding, including a headline in UntitledSans weight 600 at 24px, color #003329, letter-spacing -0.6px, and body text in UntitledSans weight 400 at 17px, color #003329, letter-spacing -0.34px.
+3. Build a Hero Headline with BoogyBrutPoster: Use 'Websites for You & The Planet' at 68px, weight 400, color #003329, normal letter-spacing, and a body text in UntitledSans weight 400 at 17px, color #003329, letter-spacing -0.34px below it.
+4. Create a Secondary Ghost Button: background #ffffff, text #003329, radius 8px, 8px vertical padding, 12px horizontal padding, with text 'Learn More'.
+
+## Assets
+
+| Type | URL |
+| --- | --- |
+| screenshot | https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777516647016-screenshot.jpg |
+| thumbnail | https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777516647016-thumb.jpg |

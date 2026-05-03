@@ -1,0 +1,515 @@
+{
+  "id": "16e75fc0-5939-40e7-a187-b2f3b70fdafe",
+  "url": "https://bunsa.studio",
+  "siteName": "Bunsa Studio",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777517942298-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777517942298-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "light",
+  "colors": [
+    {
+      "name": "Canvas White",
+      "hex": "#fcfaf7"
+    },
+    {
+      "name": "Midnight Black",
+      "hex": "#000000"
+    },
+    {
+      "name": "Electric Blue",
+      "hex": "#0b0bca"
+    }
+  ],
+  "fonts": [
+    "HelveticaNowDisplay"
+  ],
+  "northStar": "Sun-drenched architectural drafting",
+  "createdAt": "2026-04-30T02:59:19.387Z",
+  "previewVideoCapturedAt": null,
+  "industry": "design",
+  "fullResult": {
+    "meta": {
+      "url": "https://bunsa.studio",
+      "siteName": "Bunsa Studio",
+      "extractedAt": "2026-04-30T02:59:19.042Z",
+      "durationMs": 25294,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 151,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "other",
+              "hero",
+              "image",
+              "body",
+              "link"
+            ],
+            "frequency": 631,
+            "confidence": 1,
+            "prominence": 139018068.83624083,
+            "properties": [
+              "color",
+              "borderColor",
+              "fill",
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "body/color": 9,
+              "hero/color": 2,
+              "link/color": 11,
+              "other/fill": 2,
+              "image/color": 28,
+              "other/color": 74,
+              "body/borderColor": 36,
+              "hero/borderColor": 8,
+              "link/borderColor": 44,
+              "image/borderColor": 112,
+              "other/borderColor": 296,
+              "body/backgroundColor": 7,
+              "other/backgroundColor": 2
+            }
+          },
+          {
+            "hex": "#fcfaf7",
+            "oklch": {
+              "c": 0.004512911711031076,
+              "h": 78.29829109990948,
+              "l": 0.985800012126633
+            },
+            "contexts": [
+              "other",
+              "heading"
+            ],
+            "frequency": 65,
+            "confidence": 1,
+            "prominence": 88541639.69909887,
+            "properties": [
+              "backgroundColor",
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "heading/color": 11,
+              "heading/borderColor": 44,
+              "other/backgroundColor": 10
+            }
+          },
+          {
+            "hex": "#0b0bca",
+            "oklch": {
+              "c": 0.257784767836106,
+              "h": 265.31447633655785,
+              "l": 0.38634644593264644
+            },
+            "contexts": [
+              "other",
+              "button",
+              "heading",
+              "link",
+              "body",
+              "footer"
+            ],
+            "frequency": 73,
+            "confidence": 1,
+            "prominence": 937937.930878253,
+            "properties": [
+              "color",
+              "borderColor",
+              "backgroundColor",
+              "fill"
+            ],
+            "usageCounts": {
+              "link/color": 3,
+              "other/fill": 1,
+              "other/color": 8,
+              "button/color": 1,
+              "footer/color": 1,
+              "heading/color": 1,
+              "link/borderColor": 12,
+              "other/borderColor": 32,
+              "button/borderColor": 4,
+              "footer/borderColor": 4,
+              "heading/borderColor": 4,
+              "body/backgroundColor": 1,
+              "other/backgroundColor": 1
+            }
+          }
+        ],
+        "isDarkMode": false,
+        "colorfulness": 0.06716911156381668,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 20.16,
+            "background": "#fcfaf7",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 10.53,
+            "background": "#0b0bca",
+            "foreground": "#fcfaf7"
+          },
+          {
+            "level": "fail",
+            "ratio": 1.91,
+            "background": "#0b0bca",
+            "foreground": "#000000"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 4,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 16,
+            "properties": [
+              "marginRight",
+              "marginLeft"
+            ],
+            "propertyContextPairs": [
+              "marginRight|body",
+              "marginLeft|body"
+            ]
+          },
+          {
+            "value": 5,
+            "contexts": [
+              "button"
+            ],
+            "frequency": 4,
+            "properties": [
+              "paddingTop",
+              "paddingRight",
+              "paddingBottom",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|button",
+              "paddingRight|button",
+              "paddingBottom|button",
+              "paddingLeft|button"
+            ]
+          },
+          {
+            "value": 10,
+            "contexts": [
+              "footer",
+              "other"
+            ],
+            "frequency": 3,
+            "properties": [
+              "paddingTop",
+              "paddingBottom",
+              "columnGap"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|footer",
+              "paddingBottom|footer",
+              "columnGap|other"
+            ]
+          },
+          {
+            "value": 18,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 14,
+            "properties": [
+              "columnGap"
+            ],
+            "propertyContextPairs": [
+              "columnGap|other"
+            ]
+          },
+          {
+            "value": 40,
+            "contexts": [
+              "other",
+              "footer"
+            ],
+            "frequency": 6,
+            "properties": [
+              "paddingTop",
+              "paddingRight",
+              "paddingBottom",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other",
+              "paddingRight|other",
+              "paddingBottom|other",
+              "paddingLeft|other",
+              "paddingRight|footer",
+              "paddingLeft|footer"
+            ]
+          },
+          {
+            "value": 100,
+            "contexts": [
+              "hero"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|hero",
+              "paddingLeft|hero"
+            ]
+          },
+          {
+            "value": 160,
+            "contexts": [
+              "hero",
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "marginBottom",
+              "rowGap"
+            ],
+            "propertyContextPairs": [
+              "marginBottom|hero",
+              "rowGap|other"
+            ]
+          },
+          {
+            "value": 200,
+            "contexts": [
+              "hero"
+            ],
+            "frequency": 2,
+            "properties": [
+              "marginBottom",
+              "paddingTop"
+            ],
+            "propertyContextPairs": [
+              "marginBottom|hero",
+              "paddingTop|hero"
+            ]
+          }
+        ],
+        "density": "comfortable",
+        "baseUnit": null
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "HelveticaNowDisplay",
+            "source": "custom",
+            "weights": [
+              400,
+              700
+            ],
+            "frequency": 149,
+            "fontFeatureSettings": [
+              "\"kern\""
+            ]
+          }
+        ],
+        "scale": null,
+        "steps": [
+          {
+            "size": 20,
+            "family": "HelveticaNowDisplay",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "button",
+              "heading",
+              "link",
+              "hero",
+              "image",
+              "body",
+              "footer"
+            ],
+            "frequency": 138,
+            "lineHeight": 1.3,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 60,
+            "family": "HelveticaNowDisplay",
+            "weight": 700,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 11,
+            "lineHeight": 1.1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Prioritize Canvas White (#fcfaf7) as the dominant background color for all page sections.",
+        "Use Midnight Black (#000000) for all primary text content to ensure maximum contrast.",
+        "Reserve Electric Blue (#0b0bca) exclusively for interactive elements like buttons, links, and subtle icon accents.",
+        "Maintain a sharp, unrounded aesthetic by using a 0px border-radius for all interactive components and containers.",
+        "Employ the Ghost Accent Button style for all primary actions: Electric Blue text, Electric Blue border, and no background fill.",
+        "Utilize HelveticaNowDisplay in varied weights (400, 700) and sizes (20px, 60px) for all text elements to establish hierarchy.",
+        "Implement generous vertical spacing between major sections, with a default section gap of 160px."
+      ],
+      "donts": [
+        "Avoid using any colors other than Canvas White, Midnight Black, and Electric Blue in the interface, except within imagery or content.",
+        "Do not use filled buttons as primary actions; always favor the outlined/ghost style with Electric Blue.",
+        "Resist adding any shadow effects or elevation; the design system relies on flat surfaces and high contrast.",
+        "Never introduce rounded corners on any UI element; all shapes should be angular and sharp.",
+        "Do not vary line-height unless explicitly specified for a text size; usually, 1.1 for large headings and 1.3 for body text.",
+        "Avoid decorative gradients or background images in UI elements; maintain a clean, flat aesthetic.",
+        "Do not introduce extensive padding within UI elements; apply minimal padding to controls like 5px on buttons."
+      ],
+      "theme": "light",
+      "colors": [
+        {
+          "hex": "#fcfaf7",
+          "name": "Canvas White",
+          "role": "Page backgrounds, large content blocks, primary surface",
+          "group": "neutral"
+        },
+        {
+          "hex": "#000000",
+          "name": "Midnight Black",
+          "role": "Primary text, borders, high-contrast UI elements",
+          "group": "neutral"
+        },
+        {
+          "hex": "#0b0bca",
+          "name": "Electric Blue",
+          "role": "Violet accent for outlined action borders, linked labels, and lightweight interactive emphasis. Do not promote it to the primary CTA color",
+          "group": "brand"
+        }
+      ],
+      "layout": "The page structure is dominated by full-bleed imagery that often extends across the viewport. Content appears to be centered within these large visual blocks, with text overlaid directly on images or occupying transparent regions. Navigation is a persistent header, featuring a distinct, small Electric Blue dot on the left and the studio name on the right, both fixed. Sections appear to transition seamlessly with large full-width image blocks introducing new project content, often with a large, centered headline directly on the image. Vertical spacing between content blocks and sections is very generous.",
+      "imagery": "The site primarily uses high-quality, full-bleed photography of interior design projects. Imagery is presented without internal borders or rounded corners, often serving as a background for textual overlays. There are no illustrations or abstract graphics; the focus is entirely on showcasing finished spaces. Images are rich in color and detail, capturing natural light within designed environments, contrasting with the stark UI elements. Icons are minimal, likely monochromatic, and used functionally for navigation points.",
+      "similar": [
+        {
+          "why": "Shares a high-contrast, minimalist aesthetic with a dominant white background and crisp, sans-serif typography.",
+          "business": "A-Frame Studio"
+        },
+        {
+          "why": "Features large, full-bleed photography with overlaid text, a very clean navigation, and limited color palette.",
+          "business": "Works with design"
+        },
+        {
+          "why": "Employs a stark white canvas paired with a single, vibrant accent color for interaction and brand identity, avoiding shadows.",
+          "business": "Figma"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "cards": "0px",
+          "inputs": "0px",
+          "buttons": "0px"
+        },
+        "elementGap": "4px",
+        "sectionGap": "160px",
+        "cardPadding": "40px",
+        "pageMaxWidth": null
+      },
+      "industry": "design",
+      "northStar": "Sun-drenched architectural drafting",
+      "typeScale": [
+        {
+          "role": "body",
+          "size": 20,
+          "lineHeight": 1.3,
+          "letterSpacing": 0
+        },
+        {
+          "role": "display",
+          "size": 60,
+          "lineHeight": 1.1,
+          "letterSpacing": 0
+        }
+      ],
+      "components": [
+        {
+          "name": "Ghost Accent Button",
+          "role": "Primary interactive element for navigation and actions.",
+          "description": "Text in Electric Blue (#0b0bca) with a matching 1px border. No background fill. Zero border radius creates a sharp, angular appearance. Padding is minimal at 5px on all sides."
+        },
+        {
+          "name": "Headline Section",
+          "role": "Project titles and major content headings.",
+          "description": "Leverages HelveticaNowDisplay at 60px size, Midnight Black (#000000) for high contrast against Canvas White (#fcfaf7) backgrounds. Set with a line-height of 1.1 to keep text compact."
+        },
+        {
+          "name": "Text Link",
+          "role": "Navigation items and inline references.",
+          "description": "HelveticaNowDisplay, often 20px, Electric Blue (#0b0bca) text. Features a 1px bottom border in Electric Blue on hover/active states, not on initial display."
+        }
+      ],
+      "typography": [
+        {
+          "role": "All textual content, from headings to body text and interactive elements. Its crisp lines and varying weights establish clear hierarchy on an otherwise spartan canvas.",
+          "sizes": "20px, 60px",
+          "family": "HelveticaNowDisplay",
+          "weight": "400, 700",
+          "lineHeight": "1.10, 1.30",
+          "substitute": "Helvetica Neue",
+          "letterSpacing": "normal",
+          "fontFeatureSettings": "\"kern\""
+        }
+      ],
+      "description": "Bunsa Studio employs a 'sun-drenched architectural drafting' aesthetic, primarily using a stark achromatic palette of crisp white and deep black. A single, vibrant blue serves as the sole accent, appearing as sharp-edged navigation elements and subtle interactive cues. Typography is minimal and bold, favoring strong contrasts. The overall impression is one of confident restraint, with design elements serving a clear functional purpose rather than decorative flourish.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "Quick Color Reference:\ntext: #000000\nbackground: #fcfaf7\nborder: #000000\naccent: #0b0bca\nprimary action: #0b0bca (outlined action border)\n\nExample Component Prompts:\n1. Create a project headline section: Headline 'Grove Townhouse' using HelveticaNowDisplay, weight 700, 60px, Midnight Black text, centered over a full-bleed project photo background. Below the headline, include a ghost button 'View Project' with Electric Blue text, 0px radius, 5px padding, and a 1px Electric Blue border.\n2. Create a navigation link: 'About Us' using HelveticaNowDisplay, weight 400, 20px, Electric Blue text (#0b0bca), no background, no border, 0px radius. This should appear in a top-right header context.\n3. Create a footer copyright text: '© Bunsa Studio 2023' using HelveticaNowDisplay, weight 400, 20px, Midnight Black text, against a Canvas White background, centrally aligned with 10px top and bottom padding."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777517942298-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777517942298-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/16e75fc0-5939-40e7-a187-b2f3b70fdafe",
+  "ranks": {
+    "trending": 772,
+    "popular": 870,
+    "newest": 254
+  },
+  "localSlug": "bunsa-studio-16e75fc0"
+}

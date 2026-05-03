@@ -1,0 +1,960 @@
+{
+  "id": "59d76415-95d0-43fe-a698-79147cef9f66",
+  "url": "https://loveseen.com",
+  "siteName": "Loveseen",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777521385772-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777521385772-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "light",
+  "colors": [
+    {
+      "name": "Midnight Ink",
+      "hex": "#00091b"
+    },
+    {
+      "name": "Alabaster",
+      "hex": "#f2eded"
+    },
+    {
+      "name": "Porcelain",
+      "hex": "#faf6f5"
+    },
+    {
+      "name": "Blush Sand",
+      "hex": "#f2e2e0"
+    }
+  ],
+  "fonts": [
+    "BeausiteWeb",
+    "Arial"
+  ],
+  "northStar": "Minimalist Editorial Canvas",
+  "createdAt": "2026-04-30T03:56:52.959Z",
+  "previewVideoCapturedAt": null,
+  "industry": "ecommerce",
+  "fullResult": {
+    "meta": {
+      "url": "https://loveseen.com",
+      "siteName": "Loveseen",
+      "extractedAt": "2026-04-30T03:56:52.889Z",
+      "durationMs": 39678,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 262,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#00091b",
+            "oklch": {
+              "c": 0.04463266044649714,
+              "h": 253.87900117443763,
+              "l": 0.1407625990660336
+            },
+            "contexts": [
+              "other",
+              "hero",
+              "link",
+              "image",
+              "body",
+              "button",
+              "icon",
+              "footer",
+              "list",
+              "input"
+            ],
+            "frequency": 1067,
+            "confidence": 1,
+            "prominence": 21339943.354621105,
+            "properties": [
+              "color",
+              "borderColor",
+              "fill"
+            ],
+            "usageCounts": {
+              "icon/fill": 8,
+              "body/color": 30,
+              "hero/color": 1,
+              "icon/color": 5,
+              "link/color": 33,
+              "list/color": 12,
+              "other/fill": 10,
+              "image/color": 42,
+              "other/color": 83,
+              "button/color": 2,
+              "footer/color": 1,
+              "body/borderColor": 120,
+              "hero/borderColor": 4,
+              "icon/borderColor": 20,
+              "link/borderColor": 132,
+              "list/borderColor": 48,
+              "image/borderColor": 168,
+              "input/borderColor": 4,
+              "other/borderColor": 332,
+              "button/borderColor": 8,
+              "footer/borderColor": 4
+            }
+          },
+          {
+            "hex": "#faf6f5",
+            "oklch": {
+              "c": 0.004497143121486278,
+              "h": 34.30923622221583,
+              "l": 0.9759392267149921
+            },
+            "contexts": [
+              "other",
+              "image",
+              "link",
+              "body"
+            ],
+            "frequency": 20,
+            "confidence": 1,
+            "prominence": 5692443.379921274,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "body/color": 1,
+              "link/color": 1,
+              "image/color": 1,
+              "other/color": 1,
+              "body/borderColor": 4,
+              "link/borderColor": 4,
+              "image/borderColor": 4,
+              "other/borderColor": 4
+            }
+          },
+          {
+            "hex": "#f2e2e0",
+            "oklch": {
+              "c": 0.017789546651159036,
+              "h": 26.098948652395887,
+              "l": 0.9250164402053619
+            },
+            "contexts": [
+              "other",
+              "link",
+              "body",
+              "icon",
+              "list",
+              "footer"
+            ],
+            "frequency": 97,
+            "confidence": 1,
+            "prominence": 4029152.0602474557,
+            "properties": [
+              "color",
+              "borderColor",
+              "fill",
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "icon/fill": 2,
+              "body/color": 2,
+              "link/color": 6,
+              "list/color": 7,
+              "other/fill": 4,
+              "other/color": 4,
+              "body/borderColor": 8,
+              "link/borderColor": 19,
+              "list/borderColor": 28,
+              "other/borderColor": 16,
+              "footer/backgroundColor": 1
+            }
+          },
+          {
+            "hex": "#f2eded",
+            "oklch": {
+              "c": 0.0053920203459924205,
+              "h": 17.25175768015856,
+              "l": 0.9499792395304942
+            },
+            "contexts": [
+              "hero"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 825120,
+            "properties": [
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "hero/backgroundColor": 1
+            }
+          },
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "button",
+              "icon",
+              "body",
+              "input",
+              "other"
+            ],
+            "frequency": 52,
+            "confidence": 1,
+            "prominence": 72171.7977274963,
+            "properties": [
+              "color",
+              "borderColor",
+              "fill"
+            ],
+            "usageCounts": {
+              "icon/fill": 4,
+              "body/color": 4,
+              "icon/color": 2,
+              "other/fill": 2,
+              "input/color": 1,
+              "button/color": 3,
+              "body/borderColor": 16,
+              "icon/borderColor": 8,
+              "button/borderColor": 12
+            }
+          }
+        ],
+        "isDarkMode": false,
+        "colorfulness": 0.10802938583834167,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 19.57,
+            "background": "#faf6f5",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 18.55,
+            "background": "#faf6f5",
+            "foreground": "#00091b"
+          },
+          {
+            "level": "AAA",
+            "ratio": 18.11,
+            "background": "#f2eded",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 17.17,
+            "background": "#f2eded",
+            "foreground": "#00091b"
+          },
+          {
+            "level": "AAA",
+            "ratio": 16.73,
+            "background": "#f2e2e0",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 15.86,
+            "background": "#f2e2e0",
+            "foreground": "#00091b"
+          },
+          {
+            "level": "fail",
+            "ratio": 1.17,
+            "background": "#f2e2e0",
+            "foreground": "#faf6f5"
+          },
+          {
+            "level": "fail",
+            "ratio": 1.08,
+            "background": "#f2eded",
+            "foreground": "#faf6f5"
+          },
+          {
+            "level": "fail",
+            "ratio": 1.08,
+            "background": "#f2eded",
+            "foreground": "#f2e2e0"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 4,
+            "contexts": [
+              "list"
+            ],
+            "frequency": 18,
+            "properties": [
+              "paddingTop",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|list",
+              "paddingBottom|list"
+            ]
+          },
+          {
+            "value": 10,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 4,
+            "properties": [
+              "paddingBottom",
+              "paddingRight"
+            ],
+            "propertyContextPairs": [
+              "paddingBottom|other",
+              "paddingRight|other"
+            ]
+          },
+          {
+            "value": 12,
+            "contexts": [
+              "button",
+              "other",
+              "icon",
+              "link"
+            ],
+            "frequency": 17,
+            "properties": [
+              "paddingTop",
+              "paddingRight",
+              "paddingBottom",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|button",
+              "paddingRight|button",
+              "paddingBottom|button",
+              "paddingLeft|button",
+              "paddingTop|other",
+              "paddingRight|other",
+              "paddingBottom|other",
+              "paddingLeft|other",
+              "paddingRight|icon",
+              "paddingRight|link"
+            ]
+          },
+          {
+            "value": 14,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 3,
+            "properties": [
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingBottom|other"
+            ]
+          },
+          {
+            "value": 15,
+            "contexts": [
+              "list"
+            ],
+            "frequency": 14,
+            "properties": [
+              "marginRight",
+              "marginLeft",
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "marginRight|list",
+              "marginLeft|list",
+              "paddingRight|list",
+              "paddingLeft|list"
+            ]
+          },
+          {
+            "value": 18,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|other",
+              "paddingLeft|other"
+            ]
+          },
+          {
+            "value": 30,
+            "contexts": [
+              "button",
+              "footer"
+            ],
+            "frequency": 9,
+            "properties": [
+              "paddingTop",
+              "paddingRight",
+              "paddingBottom",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|button",
+              "paddingRight|button",
+              "paddingBottom|button",
+              "paddingLeft|button",
+              "paddingTop|footer"
+            ]
+          },
+          {
+            "value": 35,
+            "contexts": [
+              "other",
+              "body"
+            ],
+            "frequency": 3,
+            "properties": [
+              "paddingTop",
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other",
+              "paddingRight|body",
+              "paddingLeft|body"
+            ]
+          },
+          {
+            "value": 49,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|other",
+              "paddingLeft|other"
+            ]
+          },
+          {
+            "value": 50,
+            "contexts": [
+              "link",
+              "footer",
+              "other"
+            ],
+            "frequency": 5,
+            "properties": [
+              "paddingBottom",
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingBottom|link",
+              "paddingRight|footer",
+              "paddingLeft|footer",
+              "paddingRight|other",
+              "paddingLeft|other"
+            ]
+          },
+          {
+            "value": 65,
+            "contexts": [
+              "link"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|link",
+              "paddingLeft|link"
+            ]
+          },
+          {
+            "value": 70,
+            "contexts": [
+              "hero"
+            ],
+            "frequency": 1,
+            "properties": [
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingBottom|hero"
+            ]
+          },
+          {
+            "value": 72,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 42,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|other",
+              "paddingLeft|other"
+            ]
+          },
+          {
+            "value": 80,
+            "contexts": [
+              "hero",
+              "footer"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingTop",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|hero",
+              "paddingBottom|footer"
+            ]
+          },
+          {
+            "value": 216,
+            "contexts": [
+              "image"
+            ],
+            "frequency": 9,
+            "properties": [
+              "paddingTop"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|image"
+            ]
+          },
+          {
+            "value": 270,
+            "contexts": [
+              "image"
+            ],
+            "frequency": 12,
+            "properties": [
+              "paddingTop"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|image"
+            ]
+          }
+        ],
+        "density": "spacious",
+        "baseUnit": 4
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "BeausiteWeb",
+            "source": "custom",
+            "weights": [
+              400,
+              500
+            ],
+            "frequency": 236,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "Arial",
+            "source": "system",
+            "weights": [
+              400
+            ],
+            "frequency": 6,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 16,
+          "name": "Major Second",
+          "ratio": 1.125,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 10,
+            "family": "BeausiteWeb",
+            "weight": 400,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.2,
+            "letterSpacing": 0.05,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 10,
+            "family": "BeausiteWeb",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "link",
+              "body"
+            ],
+            "frequency": 4,
+            "lineHeight": 2.2,
+            "letterSpacing": 0.049,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 12,
+            "family": "BeausiteWeb",
+            "weight": 400,
+            "contexts": [
+              "body",
+              "list",
+              "link",
+              "icon"
+            ],
+            "frequency": 27,
+            "lineHeight": 1.67,
+            "letterSpacing": 0.058,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 13,
+            "family": "Arial",
+            "weight": 400,
+            "contexts": [
+              "button",
+              "body",
+              "icon"
+            ],
+            "frequency": 5,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 13,
+            "family": "BeausiteWeb",
+            "weight": 400,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 21,
+            "lineHeight": 0.92,
+            "letterSpacing": 0.033,
+            "textTransform": "none"
+          },
+          {
+            "size": 13,
+            "family": "BeausiteWeb",
+            "weight": 400,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 3,
+            "lineHeight": 1.54,
+            "letterSpacing": 0.022,
+            "textTransform": "none"
+          },
+          {
+            "size": 14,
+            "family": "BeausiteWeb",
+            "weight": 500,
+            "contexts": [
+              "button",
+              "icon",
+              "body",
+              "link"
+            ],
+            "frequency": 8,
+            "lineHeight": 1.43,
+            "letterSpacing": 0.071,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 16,
+            "family": "BeausiteWeb",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "link",
+              "body",
+              "list",
+              "image",
+              "hero",
+              "button",
+              "icon",
+              "footer"
+            ],
+            "frequency": 163,
+            "lineHeight": 1,
+            "letterSpacing": 0.025,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "BeausiteWeb",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "body"
+            ],
+            "frequency": 2,
+            "lineHeight": 1.63,
+            "letterSpacing": 0.037,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 16,
+            "family": "BeausiteWeb",
+            "weight": 400,
+            "contexts": [
+              "input"
+            ],
+            "frequency": 1,
+            "lineHeight": 2.31,
+            "letterSpacing": 0.037,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 18,
+            "family": "BeausiteWeb",
+            "weight": 400,
+            "contexts": [
+              "link",
+              "body"
+            ],
+            "frequency": 2,
+            "lineHeight": 2.5,
+            "letterSpacing": 0.028,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 18,
+            "family": "BeausiteWeb",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "body"
+            ],
+            "frequency": 3,
+            "lineHeight": 2.06,
+            "letterSpacing": 0.037,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 18,
+            "family": "BeausiteWeb",
+            "weight": 400,
+            "contexts": [
+              "link"
+            ],
+            "frequency": 1,
+            "lineHeight": 2.5,
+            "letterSpacing": 0.037,
+            "textTransform": "uppercase"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Use Alabaster (#f2eded) as the default background for all primary page content sections.",
+        "Apply Midnight Ink (#00091b) for all primary body text, headlines, and interactive elements to maintain high contrast and sophistication.",
+        "Ensure all buttons and input fields feature sharp, 0px border radii.",
+        "Implement consistent 1px borders in Midnight Ink (#00091b) for ghost buttons and input fields to define interactive areas subtly.",
+        "Utilize the BeausiteWeb font family across all typographic elements, leveraging its varied letter-spacing for an airy, elegant presentation.",
+        "Introduce Blush Sand (#f2e2e0) as a background color to delineate distinct content sections or footers with a soft visual break.",
+        "Maintain a spacious density; prioritize ample whitespace, with element gaps around 15px and vertical section gaps at 70px."
+      ],
+      "donts": [
+        "Avoid applying any border-radius greater than 0px to interactive components like buttons or input fields.",
+        "Do not use strong shadows (elevation) on any UI elements; rely on subtle background color shifts or hairline borders for visual separation.",
+        "Refrain from using highly saturated or bright colors beyond the core brand palette; color should be spare and functional.",
+        "Do not use generic system fonts for prominent display text or navigation; BeausiteWeb is critical to the brand's aesthetic.",
+        "Avoid decorative gradients; stick to solid colors for backgrounds and component fills.",
+        "Do not clutter layouts; maintain a disciplined spaciousness and minimal component density.",
+        "Do not use distinct filled buttons for primary actions; prefer the ghost button style with Midnight Ink borders and text."
+      ],
+      "theme": "light",
+      "colors": [
+        {
+          "hex": "#00091b",
+          "name": "Midnight Ink",
+          "role": "Primary text, interactive elements (links, buttons) text and borders, outline for ghost buttons. Its near-black depth offers strong contrast and a premium feel",
+          "group": "brand"
+        },
+        {
+          "hex": "#f2eded",
+          "name": "Alabaster",
+          "role": "Primary page and hero background",
+          "group": "neutral"
+        },
+        {
+          "hex": "#faf6f5",
+          "name": "Porcelain",
+          "role": "Neutral surface background for cards and image containers",
+          "group": "neutral"
+        },
+        {
+          "hex": "#f2e2e0",
+          "name": "Blush Sand",
+          "role": "Secondary background color for subtle section breaks and footer area",
+          "group": "neutral"
+        }
+      ],
+      "layout": "The page primarily utilizes a full-bleed layout for hero sections, transitioning to a contained, centered model for body content. The hero typically features large, dynamic imagery often split or overlaid with minimal text and ghost buttons. Sections are defined by varying background colors (Alabaster, Blush Sand), creating a subtle visual rhythm without hard dividers. Content is arranged in flexible patterns, including centered stacks for calls to action and multi-column grids for featuring images or testimonials. Navigation is a persistent, minimal top bar with left-aligned brand logo and right-aligned links.",
+      "imagery": "This site features high-key, product-focused photography and lifestyle imagery, often tightly cropped to focus on the face or eyes. Images are full-bleed or presented as isolated, square, unmasked elements on clean backgrounds. The photography is vibrant and high-contrast, showcasing product usage directly rather than conceptual scenes. Icons are minimal, utilizing outlined styles with light stroke weights and predominantly Midnight Ink (#00091b) color. Imagery serves both decorative atmosphere in hero sections and explanatory/social proof roles within content blocks.",
+      "similar": [
+        {
+          "why": "Similar focus on minimalist design, clean typography, and product-forward photography on light backgrounds.",
+          "business": "Glossier"
+        },
+        {
+          "why": "Employs an elegant, spacious layout with a premium feel, using limited color palettes and subtle surface changes.",
+          "business": "Away Travel"
+        },
+        {
+          "why": "Characterized by its stark, editorial aesthetic, strong typography, and emphasis on product visuals over heavy UI decoration.",
+          "business": "Everlane"
+        },
+        {
+          "why": "Uses a restrained color palette, clean typography, and a strong emphasis on content, often with a spacious, almost architectural layout.",
+          "business": "Aesop"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "default": "0px"
+        },
+        "elementGap": "15px",
+        "sectionGap": "70px",
+        "cardPadding": "12px",
+        "pageMaxWidth": null
+      },
+      "industry": "ecommerce",
+      "northStar": "Minimalist Editorial Canvas",
+      "typeScale": [
+        {
+          "role": "caption",
+          "size": 10,
+          "lineHeight": 1.63
+        },
+        {
+          "role": "body-sm",
+          "size": 12,
+          "lineHeight": 1.63
+        },
+        {
+          "role": "body",
+          "size": 13,
+          "lineHeight": 1.63
+        },
+        {
+          "role": "body-lg",
+          "size": 14,
+          "lineHeight": 1.63
+        },
+        {
+          "role": "heading-sm",
+          "size": 16,
+          "lineHeight": 1.63
+        },
+        {
+          "role": "heading",
+          "size": 18,
+          "lineHeight": 1.63
+        }
+      ],
+      "components": [
+        {
+          "name": "Ghost Button",
+          "role": "Primary interactive element for calls to action.",
+          "description": "Transparent background, Midnight Ink (#00091b) text, 1px Midnight Ink (#00091b) border on all sides. No border radius. Padding: 12px vertical, 12px horizontal for smaller instances; 30px vertical, 30px horizontal for larger, more prominent actions."
+        },
+        {
+          "name": "Navigation Link",
+          "role": "Top-level navigation and secondary links.",
+          "description": "Midnight Ink (#00091b) text, BeausiteWeb font at various sizes, usually 12-14px. No explicit background or border. Generous letter-spacing. Inherits page background."
+        },
+        {
+          "name": "Input Field",
+          "role": "Text input areas.",
+          "description": "Transparent background, Midnight Ink (#00091b) text. Features a 1px Midnight Ink (#00091b) border on all sides. No border radius. Left padding: 21px for content. Text color can be #00091b."
+        },
+        {
+          "name": "Follow CTA Block",
+          "role": "Social media call to action.",
+          "description": "Features a light border in Midnight Ink (#00091b) with generous internal padding. Text is Midnight Ink (#00091b), likely with increased letter spacing. Appears on Blush Sand (#f2e2e0) background."
+        },
+        {
+          "name": "Product Image Card",
+          "role": "Displaying product images or user-generated content.",
+          "description": "No explicit border or shadow, relies on surrounding negative space. Background is Porcelain (#faf6f5). Appears as a simple square block containing imagery, tightly cropped without additional padding."
+        }
+      ],
+      "typography": [
+        {
+          "role": "Primary typeface for all text content including headings, body, navigation, and interactive elements. Its wide range of letter-spacing values enables fine typographic control, emphasizing an airy, premium feel.",
+          "sizes": "10px, 12px, 13px, 14px, 16px, 18px",
+          "family": "BeausiteWeb",
+          "weight": "400, 500",
+          "lineHeight": "0.92, 1.00, 1.20, 1.43, 1.54, 1.63, 1.67, 2.06, 2.20, 2.31, 2.50",
+          "substitute": "system-ui",
+          "letterSpacing": "0.0220em, 0.0250em, 0.0280em, 0.0330em, 0.0370em, 0.0490em, 0.0500em, 0.0580em, 0.0710em"
+        },
+        {
+          "role": "Fallback font for small functional text, buttons, and icons where high legibility is paramount.",
+          "sizes": "13px",
+          "family": "Arial",
+          "weight": "400",
+          "lineHeight": "1.20",
+          "substitute": "Arial, sans-serif",
+          "letterSpacing": "normal"
+        }
+      ],
+      "description": "Loveseen's visual style evokes a minimalist fashion-editorial aesthetic. It presents content on a clean, light canvas, leveraging subtle neutral tones for background variation and borders. Typography is sophisticated and generous with letter spacing, creating an airy feel. Components are understated, featuring hairline borders and an absence of strong shadows, emphasizing content over chrome. The overall impression is one of effortless elegance and product-focused presentation.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "Quick Color Reference:\ntext: #00091b\nbackground: #f2eded\nborder: #00091b\naccent: no distinct accent color\nprimary action: #00091b (outlined action border)\n\nExample Component Prompts:\n1. Create a Hero Section with a full-bleed image. Overlay 'LoveSeen' in BeausiteWeb, size 18px, weight 500, letter-spacing 0.37px, color #00091b. Below it, a Ghost Button: 'OH HI' in BeausiteWeb, size 13px, weight 400, letter-spacing 0.5px, color #00091b, with a 1px #00091b border, 30px vertical and 30px horizontal padding, 0px radius.\n2. Design a Testimonial Grid section: Set its background to Porcelain (#faf6f5). Each grid item should be a Product Image Card: a square image contained within. No explicit padding or border on the cards themselves, letting the Porcelain background provide visual separation.\n3. Create an Outlined Primary Action: Transparent background, #00091b border and text, 9999px radius, compact pill padding. Use it for the main CTA instead of a filled button."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777521385772-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777521385772-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/59d76415-95d0-43fe-a698-79147cef9f66",
+  "ranks": {
+    "trending": 405,
+    "popular": 644,
+    "newest": 22
+  },
+  "localSlug": "loveseen-59d76415"
+}

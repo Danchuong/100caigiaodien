@@ -1,0 +1,550 @@
+{
+  "id": "a8dd9e77-f499-4c90-8dc9-38940ad7bf47",
+  "url": "https://wrdlss.club",
+  "siteName": "WRDLSS",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777512360595-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777512360595-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "light",
+  "colors": [
+    {
+      "name": "Canvas White",
+      "hex": "#ffffff"
+    },
+    {
+      "name": "Ink Black",
+      "hex": "#000000"
+    },
+    {
+      "name": "Ghost Border",
+      "hex": "#e5e7eb"
+    }
+  ],
+  "fonts": [
+    "IBM Plex Mono"
+  ],
+  "northStar": "Terminal ASCII Canvas",
+  "createdAt": "2026-04-30T01:26:14.474Z",
+  "previewVideoCapturedAt": null,
+  "industry": "design",
+  "fullResult": {
+    "meta": {
+      "url": "https://wrdlss.club",
+      "siteName": "WRDLSS",
+      "extractedAt": "2026-04-30T01:26:14.408Z",
+      "durationMs": 21560,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 1737,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#e5e7eb",
+            "oklch": {
+              "c": 0.005813542372075684,
+              "h": 264.5313231484507,
+              "l": 0.9275823098127417
+            },
+            "contexts": [
+              "other",
+              "body",
+              "image",
+              "heading",
+              "list",
+              "card",
+              "link"
+            ],
+            "frequency": 6936,
+            "confidence": 1,
+            "prominence": 86819694.3355368,
+            "properties": [
+              "borderColor"
+            ],
+            "usageCounts": {
+              "body/borderColor": 5992,
+              "card/borderColor": 4,
+              "link/borderColor": 20,
+              "list/borderColor": 244,
+              "image/borderColor": 4,
+              "other/borderColor": 212,
+              "heading/borderColor": 460
+            }
+          },
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "card",
+              "other",
+              "body",
+              "list",
+              "heading",
+              "link"
+            ],
+            "frequency": 1698,
+            "confidence": 1,
+            "prominence": 73010118.81340143,
+            "properties": [
+              "borderColor",
+              "color"
+            ],
+            "usageCounts": {
+              "body/color": 1484,
+              "link/color": 5,
+              "list/color": 61,
+              "other/color": 26,
+              "heading/color": 114,
+              "card/borderColor": 8
+            }
+          },
+          {
+            "hex": "#ffffff",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 1.0000000000000002
+            },
+            "contexts": [
+              "other",
+              "body",
+              "card",
+              "image",
+              "heading"
+            ],
+            "frequency": 60,
+            "confidence": 1,
+            "prominence": 40352736.84477788,
+            "properties": [
+              "color",
+              "backgroundColor",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "body/color": 14,
+              "card/color": 4,
+              "image/color": 1,
+              "other/color": 27,
+              "heading/color": 1,
+              "card/borderColor": 4,
+              "body/backgroundColor": 3,
+              "card/backgroundColor": 4,
+              "other/backgroundColor": 2
+            }
+          }
+        ],
+        "isDarkMode": true,
+        "colorfulness": 0.012535122045249269,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 21,
+            "background": "#ffffff",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 16.96,
+            "background": "#e5e7eb",
+            "foreground": "#000000"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [
+          {
+            "value": 16,
+            "contexts": [
+              "card"
+            ],
+            "frequency": 4
+          },
+          {
+            "value": 8,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 1
+          }
+        ],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 1,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 2,
+            "properties": [
+              "marginTop"
+            ],
+            "propertyContextPairs": [
+              "marginTop|body"
+            ]
+          },
+          {
+            "value": 4,
+            "contexts": [
+              "other",
+              "body"
+            ],
+            "frequency": 12,
+            "properties": [
+              "marginTop",
+              "marginBottom",
+              "rowGap",
+              "columnGap",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "marginTop|other",
+              "marginBottom|other",
+              "rowGap|other",
+              "columnGap|other",
+              "paddingLeft|body"
+            ]
+          },
+          {
+            "value": 8,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 27,
+            "properties": [
+              "paddingRight",
+              "paddingLeft",
+              "paddingTop",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|other",
+              "paddingLeft|other",
+              "paddingTop|other",
+              "paddingBottom|other"
+            ]
+          },
+          {
+            "value": 16,
+            "contexts": [
+              "other",
+              "list"
+            ],
+            "frequency": 12,
+            "properties": [
+              "marginTop",
+              "paddingRight",
+              "paddingLeft",
+              "paddingTop",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "marginTop|other",
+              "paddingRight|other",
+              "paddingLeft|other",
+              "paddingTop|other",
+              "paddingBottom|other",
+              "paddingTop|list",
+              "marginTop|list",
+              "paddingBottom|list"
+            ]
+          }
+        ],
+        "density": "compact",
+        "baseUnit": 8
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "IBMPlexMono-Light",
+            "source": "custom",
+            "weights": [
+              100,
+              400,
+              700
+            ],
+            "frequency": 1736,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "PPNeueMachina-PlainMedium",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 1,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 16,
+          "name": "Major Second",
+          "ratio": 1.125,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 12,
+            "family": "IBMPlexMono-Light",
+            "weight": 400,
+            "contexts": [
+              "body",
+              "other"
+            ],
+            "frequency": 12,
+            "lineHeight": 1.15,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 14,
+            "family": "IBMPlexMono-Light",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "body",
+              "list",
+              "link"
+            ],
+            "frequency": 87,
+            "lineHeight": 1.15,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 14,
+            "family": "IBMPlexMono-Light",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "list"
+            ],
+            "frequency": 7,
+            "lineHeight": 1.15,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "IBMPlexMono-Light",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "card",
+              "body",
+              "image"
+            ],
+            "frequency": 498,
+            "lineHeight": 1.15,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "IBMPlexMono-Light",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "body"
+            ],
+            "frequency": 16,
+            "lineHeight": 1.15,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 16,
+            "family": "IBMPlexMono-Light",
+            "weight": 100,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 716,
+            "lineHeight": 1.15,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "IBMPlexMono-Light",
+            "weight": 700,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 285,
+            "lineHeight": 1.15,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 48,
+            "family": "IBMPlexMono-Light",
+            "weight": 100,
+            "contexts": [
+              "other",
+              "heading"
+            ],
+            "frequency": 115,
+            "lineHeight": 1.15,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Prioritize Canvas White (#ffffff) as the dominant background for all major content areas.",
+        "Use Ink Black (#000000) for all primary text and link states to ensure maximum contrast.",
+        "Apply Ghost Border (#e5e7eb) for subtle separation lines around content, lists, and headings.",
+        "Maintain IBM Plex Mono as the sole typeface, utilizing its various weights for hierarchy.",
+        "Use 16px border-radius for cards and 8px for smaller body-level elements.",
+        "Implement 4px spacing between elements for compact, dense information presentation.",
+        "Ensure all textual content is presented with a 1.15 line-height to maintain consistent vertical rhythm."
+      ],
+      "donts": [
+        "Avoid using any saturated colors; limit the palette strictly to the defined neutrals.",
+        "Do not introduce any drop shadows or elevation effects, as the system relies on flat surfaces.",
+        "Do not deviate from IBM Plex Mono; decorative or serif fonts are antithetical to the brand.",
+        "Avoid large empty spaces; maintain a compact information density.",
+        "Do not use gradients; the system is based on flat, solid color fields.",
+        "Do not apply padding to Content Cards, as they are designed for unconstrained content flow."
+      ],
+      "theme": "light",
+      "colors": [
+        {
+          "hex": "#ffffff",
+          "name": "Canvas White",
+          "role": "Page backgrounds, card surfaces, primary content canvas",
+          "group": "neutral"
+        },
+        {
+          "hex": "#000000",
+          "name": "Ink Black",
+          "role": "Primary text, informational text, link text. Creates high contrast against white surfaces",
+          "group": "neutral"
+        },
+        {
+          "hex": "#e5e7eb",
+          "name": "Ghost Border",
+          "role": "Subtle borders for content blocks, lists, and headings, providing soft visual separation",
+          "group": "neutral"
+        }
+      ],
+      "layout": "The page primarily uses a full-bleed layout without a fixed max-width, allowing content, especially the ASCII art, to extend across the entire viewport. The hero section displays centered text and interface metadata over a full-bleed ASCII background. Section rhythm is continuous, with content flowing seamlessly without distinct visual dividers or alternating bands. Content arrangement is typically centered or left-aligned, stacked vertically, giving prominence to the monospaced text blocks. There are no traditional grid layouts for cards or features; content is an uninterrupted stream. Overall density is compact, maximizing information within the screen space, with minimal white space.",
+      "imagery": "The site primarily uses abstract ASCII-art graphics created from hyphens, slashes, and dots. These graphics serve a decorative and atmospheric role, forming patterns that evoke a glitchy, digital landscape. There is no photography, traditional illustration, or product screenshots. Icons are minimal, represented by monochromatic dots like `[•]`. The density of these graphics is very high, often forming large, textured backgrounds and almost all content is represented by typography and these abstract elements.",
+      "similar": [
+        {
+          "why": "Monospace typography and highly functional, text-driven interface without decorative elements.",
+          "business": "Figma's terminal mode"
+        },
+        {
+          "why": "Retro, pixel-art style, and highly functional, information-dense interface that values data over aesthetics.",
+          "business": "Old School RuneScape UI"
+        },
+        {
+          "why": "Monospace fonts, high contrast text on a light background, and minimal graphic ornamentation.",
+          "business": "GitHub's code view"
+        },
+        {
+          "why": "Emphasis on clear, unembellished typography and functional layout, with a high information density.",
+          "business": "Many developer documentation sites"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "body": "8px",
+          "cards": "16px"
+        },
+        "elementGap": "4px",
+        "sectionGap": "",
+        "cardPadding": "0px",
+        "pageMaxWidth": null
+      },
+      "industry": "design",
+      "northStar": "Terminal ASCII Canvas",
+      "typeScale": [
+        {
+          "role": "caption",
+          "size": 12,
+          "lineHeight": 1.15
+        },
+        {
+          "role": "body",
+          "size": 14,
+          "lineHeight": 1.15
+        },
+        {
+          "role": "display",
+          "size": 48,
+          "lineHeight": 1.15
+        }
+      ],
+      "components": [
+        {
+          "name": "Content Card",
+          "role": "Surface for organized content blocks.",
+          "description": "A background of Canvas White (#ffffff) with 16px border-radius, no shadow, and 0px padding. Designed to be a blank canvas within the page structure."
+        }
+      ],
+      "typography": [
+        {
+          "role": "All textual content including body, headings, links, and list items. The monospace choice underpins the terminal-like aesthetic, enforcing a uniform character width crucial for the ASCII art elements.",
+          "sizes": "12px, 14px, 16px, 48px",
+          "family": "IBM Plex Mono",
+          "weight": "100, 400, 700",
+          "weights": [
+            100,
+            400,
+            700
+          ],
+          "lineHeight": "1.15",
+          "substitute": "monospace",
+          "letterSpacing": "normal"
+        }
+      ],
+      "description": "WRDLSS employs a stark, monospaced ASCII-art aesthetic, reminiscent of early terminal interfaces. The design system prioritizes textual information over graphical elements, creating a dense, almost cryptographic visual texture for content. Interaction thrives on pure contrast and minimal UI elements. The overall impression is one of rigorous, almost ascetic functionality.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "Quick Color Reference:\ntext: #000000\nbackground: #ffffff\nborder: #e5e7eb\naccent: no distinct accent color\nprimary action: no distinct CTA color\n\nExample Component Prompts:\n1. Create a page hero: Canvas White (#ffffff) background. Centered IBM Plex Mono light (weight 100) heading at 48px, Ink Black (#000000) color, line-height 1.15. Information text below the heading also in IBM Plex Mono, 14px, Ink Black (#000000), line-height 1.15.\n2. Create a content section with a subtle border: Use Ghost Border (#e5e7eb) as the top border for the section. The section background should be Canvas White (#ffffff). Inside the section, stack multiple IBM Plex Mono body (weight 400) text blocks at 14px, Ink Black (#000000), with 4px vertical element gaps. Use 0px padding within the section.\n3. Create a navigation text link: Use IBM Plex Mono, 16px, Ink Black (#000000), weight 400. Ensure no underline by default. The link should appear in an area with Canvas White (#ffffff) background."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777512360595-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777512360595-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/a8dd9e77-f499-4c90-8dc9-38940ad7bf47",
+  "ranks": {
+    "trending": 209,
+    "popular": 338,
+    "newest": 602
+  },
+  "localSlug": "wrdlss-a8dd9e77"
+}

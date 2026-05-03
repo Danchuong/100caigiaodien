@@ -1,0 +1,662 @@
+{
+  "id": "67d00e1e-8b8e-4fe7-8e3f-2b462125a22a",
+  "url": "https://www.joshuakaplan.com",
+  "siteName": "Joshuakaplan",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777519166854-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777519166854-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "light",
+  "colors": [
+    {
+      "name": "Canvas White",
+      "hex": "#ffffff"
+    },
+    {
+      "name": "Data Ink",
+      "hex": "#000000"
+    },
+    {
+      "name": "Field Border",
+      "hex": "#404040"
+    },
+    {
+      "name": "Row Text",
+      "hex": "#333333"
+    },
+    {
+      "name": "Subtle Line",
+      "hex": "#4d4d4d"
+    },
+    {
+      "name": "Status Acquired",
+      "hex": "#cdff8b"
+    }
+  ],
+  "fonts": [
+    "Arial"
+  ],
+  "northStar": "Rigorous data ledger",
+  "createdAt": "2026-04-30T03:19:41.899Z",
+  "previewVideoCapturedAt": null,
+  "industry": "design",
+  "fullResult": {
+    "meta": {
+      "url": "https://www.joshuakaplan.com",
+      "siteName": "Joshuakaplan",
+      "extractedAt": "2026-04-30T03:19:41.729Z",
+      "durationMs": 26607,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 1527,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 3707,
+            "confidence": 1,
+            "prominence": 38942192.520259984,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "other/color": 783,
+              "other/borderColor": 2924
+            }
+          },
+          {
+            "hex": "#4d4d4d",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.41838944017064794
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 48,
+            "confidence": 1,
+            "prominence": 660020.371595431,
+            "properties": [
+              "borderColor"
+            ],
+            "usageCounts": {
+              "other/borderColor": 48
+            }
+          },
+          {
+            "hex": "#404040",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.37054239459212773
+            },
+            "contexts": [
+              "link",
+              "other"
+            ],
+            "frequency": 1681,
+            "confidence": 1,
+            "prominence": 491862.6553527111,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "link/color": 6,
+              "other/color": 296,
+              "link/borderColor": 35,
+              "other/borderColor": 1344
+            }
+          },
+          {
+            "hex": "#333333",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.3210925111636325
+            },
+            "contexts": [
+              "other",
+              "link",
+              "badge",
+              "icon"
+            ],
+            "frequency": 1880,
+            "confidence": 1,
+            "prominence": 426215.5014879729,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "icon/color": 11,
+              "link/color": 42,
+              "badge/color": 11,
+              "other/color": 312,
+              "icon/borderColor": 44,
+              "link/borderColor": 168,
+              "badge/borderColor": 44,
+              "other/borderColor": 1248
+            }
+          },
+          {
+            "hex": "#ffffff",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 1.0000000000000002
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 70,
+            "confidence": 1,
+            "prominence": 282273.39278526494,
+            "properties": [
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "other/backgroundColor": 70
+            }
+          },
+          {
+            "hex": "#cdff8b",
+            "oklch": {
+              "c": 0.15377554935516063,
+              "h": 128.17921359916895,
+              "l": 0.9403968606750197
+            },
+            "contexts": [
+              "badge",
+              "other"
+            ],
+            "frequency": 20,
+            "confidence": 1,
+            "prominence": 6324.9370888014155,
+            "properties": [
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "badge/backgroundColor": 11,
+              "other/backgroundColor": 9
+            }
+          }
+        ],
+        "isDarkMode": false,
+        "colorfulness": 0.0011223591489381193,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 21,
+            "background": "#ffffff",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 18.27,
+            "background": "#cdff8b",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 12.63,
+            "background": "#ffffff",
+            "foreground": "#333333"
+          },
+          {
+            "level": "AAA",
+            "ratio": 10.99,
+            "background": "#cdff8b",
+            "foreground": "#333333"
+          },
+          {
+            "level": "AAA",
+            "ratio": 10.37,
+            "background": "#ffffff",
+            "foreground": "#404040"
+          },
+          {
+            "level": "AAA",
+            "ratio": 9.02,
+            "background": "#cdff8b",
+            "foreground": "#404040"
+          },
+          {
+            "level": "AAA",
+            "ratio": 8.45,
+            "background": "#ffffff",
+            "foreground": "#4d4d4d"
+          },
+          {
+            "level": "AAA",
+            "ratio": 7.36,
+            "background": "#cdff8b",
+            "foreground": "#4d4d4d"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [
+          {
+            "value": 20,
+            "contexts": [
+              "badge",
+              "other"
+            ],
+            "frequency": 22
+          }
+        ],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 4,
+            "contexts": [
+              "badge",
+              "other"
+            ],
+            "frequency": 66,
+            "properties": [
+              "paddingTop",
+              "paddingBottom",
+              "paddingLeft",
+              "marginRight"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|badge",
+              "paddingBottom|badge",
+              "paddingLeft|badge",
+              "paddingTop|other",
+              "paddingBottom|other",
+              "marginRight|other"
+            ]
+          },
+          {
+            "value": 6,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 42,
+            "properties": [
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingLeft|other"
+            ]
+          },
+          {
+            "value": 8,
+            "contexts": [
+              "other",
+              "link",
+              "badge"
+            ],
+            "frequency": 1544,
+            "properties": [
+              "paddingTop",
+              "paddingRight",
+              "paddingLeft",
+              "paddingBottom",
+              "marginRight"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other",
+              "paddingRight|other",
+              "paddingLeft|other",
+              "paddingTop|link",
+              "paddingRight|link",
+              "paddingBottom|link",
+              "paddingLeft|link",
+              "marginRight|link",
+              "paddingBottom|other",
+              "marginRight|other",
+              "paddingRight|badge"
+            ]
+          },
+          {
+            "value": 10,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 6,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|other",
+              "paddingLeft|other"
+            ]
+          },
+          {
+            "value": 63,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "marginRight",
+              "marginLeft"
+            ],
+            "propertyContextPairs": [
+              "marginRight|other",
+              "marginLeft|other"
+            ]
+          },
+          {
+            "value": 73,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 12,
+            "properties": [
+              "marginRight",
+              "marginLeft"
+            ],
+            "propertyContextPairs": [
+              "marginRight|other",
+              "marginLeft|other"
+            ]
+          }
+        ],
+        "density": "compact",
+        "baseUnit": 8
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "Arial",
+            "source": "system",
+            "weights": [
+              400,
+              500,
+              700
+            ],
+            "frequency": 1527,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 16,
+          "name": "Major Second",
+          "ratio": 1.125,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 10,
+            "family": "Arial",
+            "weight": 400,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 22,
+            "lineHeight": 1.4,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 12,
+            "family": "Arial",
+            "weight": 700,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "lineHeight": 1.25,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 12,
+            "family": "Arial",
+            "weight": 500,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 58,
+            "lineHeight": 1.25,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 12,
+            "family": "Arial",
+            "weight": 400,
+            "contexts": [
+              "link",
+              "other"
+            ],
+            "frequency": 280,
+            "lineHeight": 1.17,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 12,
+            "family": "Arial",
+            "weight": 500,
+            "contexts": [
+              "link",
+              "other"
+            ],
+            "frequency": 386,
+            "lineHeight": 1.17,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "Arial",
+            "weight": 500,
+            "contexts": [
+              "other",
+              "link",
+              "badge",
+              "icon"
+            ],
+            "frequency": 779,
+            "lineHeight": 1.06,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Prioritize information density and readability within a table-like structure.",
+        "Use `Canvas White` (#ffffff) as the default background for all primary content areas.",
+        "Employ `Data Ink` (#000000) for all primary text and critical structural borders.",
+        "Utilize `Status Acquired` (#cdff8b) exclusively for positive status indicators like badges, and never for primary actions or decorative elements.",
+        "Maintain a clear visual hierarchy using `1px` borders, preferring `Data Ink` (#000000) for strong dividers and `Field Border` (#404040) for subtler separations.",
+        "Apply a `20px` radius only to badges; all other elements should maintain sharp, rectilinear corners."
+      ],
+      "donts": [
+        "Avoid decorative images, illustrations, or complex graphical elements; imagery is secondary to data.",
+        "Do not introduce additional color accents; `Status Acquired` (#cdff8b) is the only allowed chromatic color.",
+        "Refrain from using shadows or gradients; rely on borders and background colors for depth and separation.",
+        "Do not deviate from the `Arial` typeface; its consistent use is key to the system's aesthetic.",
+        "Avoid large, editorial typography; text should remain compact and functional.",
+        "Do not use radius values other than `20px` (for badges) or `0px` (for most elements)."
+      ],
+      "theme": "light",
+      "colors": [
+        {
+          "hex": "#ffffff",
+          "name": "Canvas White",
+          "role": "Page backgrounds, default surface color",
+          "group": "neutral"
+        },
+        {
+          "hex": "#000000",
+          "name": "Data Ink",
+          "role": "Primary text, strong borders",
+          "group": "neutral"
+        },
+        {
+          "hex": "#404040",
+          "name": "Field Border",
+          "role": "Subtle borders, secondary text in contexts like navigation and link text",
+          "group": "neutral"
+        },
+        {
+          "hex": "#333333",
+          "name": "Row Text",
+          "role": "Neutral form states, badge text, and quiet UI feedback where color should stay understated.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#4d4d4d",
+          "name": "Subtle Line",
+          "role": "Fine structural borders, dividing lines within complex components",
+          "group": "neutral"
+        },
+        {
+          "hex": "#cdff8b",
+          "name": "Status Acquired",
+          "role": "Background for status badges, indicating affirmative or active states, acts as the singular brand accent",
+          "group": "accent"
+        }
+      ],
+      "layout": "The site uses a full-bleed, max-width layout, centered with no strong page margins. The hero section is simply a continuation of the data table, presenting personal information in a similar grid. Sections are defined by dense data tables, separated by `73px` vertical spacing. Content is arranged in columns, creating a dense, scannable data grid with clear `1px` borders. Global navigation is a minimalist top bar, integrating seamlessly into the grid structure.",
+      "imagery": "This design system uses no imagery beyond functional icons or small status indicators. Product presentation is handled entirely through structured data and text. The aesthetic is purely UI-driven, focusing on a minimalist, spreadsheet-like display of information.",
+      "similar": [
+        {
+          "why": "Grid-based data presentation, strong focus on information density and functional UI rather than decorative branding.",
+          "business": "Airtable"
+        },
+        {
+          "why": "Monochromatic interface with a single, highly functional accent color, emphasizing speed and clarity in data display.",
+          "business": "Linear"
+        },
+        {
+          "why": "Text-heavy interface, prioritizing clean, high-contrast typography and utilitarian design over visual flourishes.",
+          "business": "Superhuman"
+        },
+        {
+          "why": "Minimalist canvas with content structured through blocks and flexible layouts, all within a stark, high-contrast environment.",
+          "business": "Notion"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "badges": "20px"
+        },
+        "elementGap": "8px",
+        "sectionGap": "73px",
+        "cardPadding": "8px",
+        "pageMaxWidth": null
+      },
+      "industry": "design",
+      "surfaces": [
+        {
+          "hex": "#ffffff",
+          "name": "Canvas White",
+          "level": 1,
+          "purpose": "Primary page background and default content surface."
+        },
+        {
+          "hex": "#cdff8b",
+          "name": "Status Acquired Surface",
+          "level": 2,
+          "purpose": "Elevated surface for status badges, indicating active states."
+        }
+      ],
+      "northStar": "Rigorous data ledger",
+      "typeScale": [
+        {
+          "role": "caption",
+          "size": 10,
+          "lineHeight": 1.25
+        },
+        {
+          "role": "body-sm",
+          "size": 12,
+          "lineHeight": 1.25
+        },
+        {
+          "role": "body",
+          "size": 16,
+          "lineHeight": 1.25
+        }
+      ],
+      "components": [
+        {
+          "name": "Status Badge Acquired",
+          "role": "Functional indicator, highlighting active or acquired status",
+          "description": "Rounded pill shape with `Status Acquired` (#cdff8b) background and `Data Ink` (#000000) text (0.8 opacity). Uses a `20px` border-radius and `4px` vertical, `8px` right, `4px` left padding. `Arial` font, 12px."
+        },
+        {
+          "name": "Data Table Row",
+          "role": "Displays structured information in a list or table format",
+          "description": "Each row uses `Canvas White` (#ffffff) background. Text is `Row Text` (#333333) for primary content. Separated by `1px` `Field Border` (#404040)."
+        },
+        {
+          "name": "Header Navigation Link",
+          "role": "Top-level navigation within the page",
+          "description": "Text is `Field Border` (#404040) with `Arial` font. `1px` `Data Ink` (#000000) bottom border for active or hover states."
+        }
+      ],
+      "typography": [
+        {
+          "role": "All textual content, from primary data rows to navigation links and badges. Its pervasive use at various weights and sizes maintains a consistent, no-fuss informational tone.",
+          "sizes": "10px, 12px, 16px",
+          "family": "Arial",
+          "weight": "400, 500, 700",
+          "lineHeight": "1.06, 1.17, 1.25, 1.40",
+          "substitute": "Helvetica Neue, sans-serif",
+          "letterSpacing": "normal"
+        }
+      ],
+      "description": "The Joshuakaplan site presents information with the stark clarity of a spreadsheet, prioritizing scannable data visualization over decorative elements. A monochromatic palette defines the structure, with thin borders carving out fields and text-heavy data dominant. The only chromatic accent, a bright green, acts as a functional marker, drawing immediate attention to 'acquired' or 'active' statuses, injecting a singular note of vibrant confirmation into an otherwise rigorous grid.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "Quick Color Reference: \n- text: #000000 (Data Ink)\n- background: #ffffff (Canvas White)\n- border: #404040 (Field Border)\n- accent: #cdff8b (Status Acquired)\n- primary action: no distinct CTA color\n\nExample Component Prompts:\n- Create a table row with the label '042 Krea 2026 Designer': uses `Row Text` (#333333) at `Arial` 16px, `1px` `Data Ink` (#000000) bottom border, `8px` padding.\n- Create a Status Badge for 'Acquired': `Status Acquired` (#cdff8b) background, `Data Ink` (#000000) text (0.8 opacity), `Arial` 12px, `20px` border-radius, `4px` vertical and `8px` horizontal pseudo-padding.\n- Create a header navigation link titled 'Projects': `Field Border` (#404040) text at `Arial` 16px, center-aligned, with a `1px` `Data Ink` (#000000) bottom border for active state."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777519166854-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777519166854-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/67d00e1e-8b8e-4fe7-8e3f-2b462125a22a",
+  "ranks": {
+    "trending": 253,
+    "popular": 415,
+    "newest": 179
+  },
+  "localSlug": "joshuakaplan-67d00e1e"
+}

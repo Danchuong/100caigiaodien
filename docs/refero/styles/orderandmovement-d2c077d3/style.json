@@ -1,0 +1,631 @@
+{
+  "id": "d2c077d3-d9ce-40c5-9714-e3c5f69f67d6",
+  "url": "https://orderandmovement.com",
+  "siteName": "Orderandmovement",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777516935715-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777516935715-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "light",
+  "colors": [
+    {
+      "name": "Canvas White",
+      "hex": "#ffffff"
+    },
+    {
+      "name": "Gallery Black",
+      "hex": "#000000"
+    }
+  ],
+  "fonts": [
+    "Suisse Intl",
+    "Times New Roman"
+  ],
+  "northStar": "Monochromatic gallery exhibit.",
+  "createdAt": "2026-04-30T02:42:32.605Z",
+  "previewVideoCapturedAt": null,
+  "industry": "design",
+  "fullResult": {
+    "meta": {
+      "url": "https://orderandmovement.com",
+      "siteName": "Orderandmovement",
+      "extractedAt": "2026-04-30T02:42:32.542Z",
+      "durationMs": 43459,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 304,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "hero",
+              "nav",
+              "heading",
+              "image",
+              "body",
+              "other",
+              "list",
+              "link",
+              "input",
+              "button"
+            ],
+            "frequency": 1516,
+            "confidence": 1,
+            "prominence": 13694838.959840154,
+            "properties": [
+              "color",
+              "borderColor",
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "nav/color": 22,
+              "body/color": 49,
+              "hero/color": 1,
+              "link/color": 4,
+              "list/color": 4,
+              "image/color": 69,
+              "input/color": 1,
+              "other/color": 149,
+              "button/color": 1,
+              "heading/color": 3,
+              "nav/borderColor": 88,
+              "body/borderColor": 196,
+              "hero/borderColor": 4,
+              "link/borderColor": 16,
+              "list/borderColor": 16,
+              "image/borderColor": 276,
+              "input/borderColor": 4,
+              "other/borderColor": 596,
+              "button/borderColor": 4,
+              "heading/borderColor": 12,
+              "nav/backgroundColor": 1
+            }
+          },
+          {
+            "hex": "#ffffff",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 1.0000000000000002
+            },
+            "contexts": [
+              "nav",
+              "heading"
+            ],
+            "frequency": 2,
+            "confidence": 1,
+            "prominence": 1027055.7004673091,
+            "properties": [
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "nav/backgroundColor": 1,
+              "heading/backgroundColor": 1
+            }
+          },
+          {
+            "hex": "#ff0000",
+            "oklch": {
+              "c": 0.2576833038053608,
+              "h": 29.233880279627854,
+              "l": 0.6279553639214311
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 5,
+            "confidence": 1,
+            "prominence": 0,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "other/color": 1,
+              "other/borderColor": 4
+            }
+          }
+        ],
+        "isDarkMode": false,
+        "colorfulness": 0.0022864128747081755,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 21,
+            "background": "#ffffff",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AA",
+            "ratio": 5.25,
+            "background": "#000000",
+            "foreground": "#ff0000"
+          },
+          {
+            "level": "fail",
+            "ratio": 4,
+            "background": "#ffffff",
+            "foreground": "#ff0000"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 4,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 2,
+            "properties": [
+              "marginTop"
+            ],
+            "propertyContextPairs": [
+              "marginTop|nav"
+            ]
+          },
+          {
+            "value": 5,
+            "contexts": [
+              "input"
+            ],
+            "frequency": 5,
+            "properties": [
+              "paddingTop",
+              "paddingRight",
+              "paddingBottom",
+              "paddingLeft",
+              "marginTop"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|input",
+              "paddingRight|input",
+              "paddingBottom|input",
+              "paddingLeft|input",
+              "marginTop|input"
+            ]
+          },
+          {
+            "value": 12,
+            "contexts": [
+              "heading",
+              "body"
+            ],
+            "frequency": 3,
+            "properties": [
+              "paddingTop",
+              "marginTop"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|heading",
+              "marginTop|body"
+            ]
+          },
+          {
+            "value": 20,
+            "contexts": [
+              "button",
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "marginTop"
+            ],
+            "propertyContextPairs": [
+              "marginTop|button",
+              "marginTop|other"
+            ]
+          },
+          {
+            "value": 21,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 3,
+            "properties": [
+              "marginTop"
+            ],
+            "propertyContextPairs": [
+              "marginTop|body"
+            ]
+          },
+          {
+            "value": 28,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|heading",
+              "paddingLeft|heading"
+            ]
+          },
+          {
+            "value": 36,
+            "contexts": [
+              "other",
+              "list"
+            ],
+            "frequency": 6,
+            "properties": [
+              "paddingBottom",
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingBottom|other",
+              "paddingRight|list",
+              "paddingLeft|list"
+            ]
+          },
+          {
+            "value": 60,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 8,
+            "properties": [
+              "paddingTop",
+              "paddingRight",
+              "paddingBottom",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|nav",
+              "paddingRight|nav",
+              "paddingBottom|nav",
+              "paddingLeft|nav"
+            ]
+          },
+          {
+            "value": 72,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 7,
+            "properties": [
+              "paddingTop",
+              "paddingBottom",
+              "marginTop"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other",
+              "paddingBottom|other",
+              "marginTop|other"
+            ]
+          },
+          {
+            "value": 144,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 132,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|other",
+              "paddingLeft|other"
+            ]
+          }
+        ],
+        "density": "spacious",
+        "baseUnit": 8
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "Suisse Intl",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 283,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "Times New Roman",
+            "source": "system",
+            "weights": [
+              400
+            ],
+            "frequency": 21,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 16,
+          "name": "Minor Second",
+          "ratio": 1.067,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 12,
+            "family": "Times New Roman",
+            "weight": 400,
+            "contexts": [
+              "body",
+              "other"
+            ],
+            "frequency": 2,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 14,
+            "family": "Times New Roman",
+            "weight": 400,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 3,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 14,
+            "family": "Suisse Intl",
+            "weight": 400,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 2,
+            "lineHeight": 1,
+            "letterSpacing": 0.5,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 14,
+            "family": "Suisse Intl",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "body",
+              "link"
+            ],
+            "frequency": 77,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "Suisse Intl",
+            "weight": 400,
+            "contexts": [
+              "hero",
+              "nav",
+              "heading",
+              "other",
+              "list"
+            ],
+            "frequency": 21,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 24,
+            "family": "Suisse Intl",
+            "weight": 400,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 3,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 24,
+            "family": "Times New Roman",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "body",
+              "link",
+              "input",
+              "button"
+            ],
+            "frequency": 16,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Prioritize Canvas White (#ffffff) as the dominant background color for all main sections and content areas.",
+        "Use Gallery Black (#000000) for all primary text, borders, and interactive element outlines.",
+        "Apply 'Suisse Intl' 400 with a 0.5000em letter-spacing for all navigation items, body text, and links.",
+        "Employ generously wide padding for sections, with 72px for vertical separation and 144px for horizontal content margins in 'other' contexts.",
+        "Maintain a strict 0px border-radius across all components to reinforce the sharp, angular aesthetic.",
+        "Limit interactive feedback animations to color, opacity, or transform, using an 'ease' timing function for a moderate feel."
+      ],
+      "donts": [
+        "Avoid using any colored backgrounds or accent colors; restrict the palette to #000000 and #ffffff.",
+        "Do not introduce shadows or elevation effects; surfaces should remain flat against the canvas.",
+        "Never use rounded corners on any element; all borders and containers must be sharp 0px radius.",
+        "Do not deviate from the specified Suisse Intl letter-spacing of 0.5000em for main UI text; tighter tracking conflicts with brand identity.",
+        "Avoid dense information blocks; use generous spacing (72px section gaps, 144px side padding) to create visual calm.",
+        "Do not use generic system fonts for primary text; 'Suisse Intl' and 'Times New Roman' are integral to the brand's typographic hierarchy and feel."
+      ],
+      "theme": "light",
+      "colors": [
+        {
+          "hex": "#ffffff",
+          "name": "Canvas White",
+          "role": "Page backgrounds, heading backgrounds, primary canvases. Creates a blank, expansive backdrop for content",
+          "group": "neutral"
+        },
+        {
+          "hex": "#000000",
+          "name": "Gallery Black",
+          "role": "Neutral form states, badge text, and quiet UI feedback where color should stay understated. Do not promote it to the primary CTA color",
+          "group": "neutral"
+        }
+      ],
+      "layout": "The page primarily uses a max-width contained layout of 900px, centered on the screen. The hero section is characterized by large, centered headlines using 'Times New Roman' against a white background. Sections are delineated by generous vertical spacing (72px) rather than explicit dividers, creating a seamless flow. Content frequently appears in two-column structures or as centered text blocks. Navigation is typically thin and minimal, appearing at the top or side, often as flat lists of links.",
+      "imagery": "No imagery is used as content; the design system is purely UI-focused. The aesthetic conveys information through stark typography and negative space, similar to a museum label or a minimalist art catalog.",
+      "similar": [
+        {
+          "why": "Both brands utilize a stark, monochromatic palette and minimalist typography, emphasizing content through negative space and a clean, gallery-like presentation.",
+          "business": "A.P.C."
+        },
+        {
+          "why": "Shares a precise, almost austere aesthetic with a focus on high-quality typography and a limited color palette to convey luxury and sophistication without overt decoration.",
+          "business": "The Row"
+        },
+        {
+          "why": "Employs an uncluttered layout, generous white space, and a restrained color scheme, featuring prominent sans-serif typography for a crisp, modern feel.",
+          "business": "COS"
+        },
+        {
+          "why": "Similar reliance on strong black-on-white contrast, dense, functional sans-serif typography, and clear visual hierarchy without heavy graphics or textures.",
+          "business": "Figma (old website, pre-2023 rebrand)"
+        },
+        {
+          "why": "Captures a similar high-fashion, art-direction sensibility with a clean white backdrop, sharp lines, and a focus on statement-making typography.",
+          "business": "Galeries Lafayette (certain campaign imagery)"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "none": "0px"
+        },
+        "elementGap": "5px",
+        "sectionGap": "72px",
+        "cardPadding": "",
+        "pageMaxWidth": "900px"
+      },
+      "industry": "design",
+      "surfaces": [
+        {
+          "hex": "#ffffff",
+          "name": "Canvas White",
+          "level": 0,
+          "purpose": "Dominant page background and general content area. Forms the base layer of the interface."
+        },
+        {
+          "hex": "#000000",
+          "name": "Gallery Black",
+          "level": 1,
+          "purpose": "Used sparingly as background for UI elements, contrasting sharply with the white canvas to draw attention."
+        }
+      ],
+      "northStar": "Monochromatic gallery exhibit.",
+      "typeScale": [
+        {
+          "role": "caption",
+          "size": 14,
+          "lineHeight": 1.2
+        },
+        {
+          "role": "body-sm",
+          "size": 16,
+          "lineHeight": 1.2
+        },
+        {
+          "role": "body",
+          "size": 24,
+          "lineHeight": 1.2
+        }
+      ],
+      "components": [
+        {
+          "name": "Ghost Button",
+          "role": "Interactive elements, often for navigation or secondary actions, maintaining the minimalist aesthetic.",
+          "description": "Transparent background, black text (#000000), 0px border-radius, 0px padding. Uses Suisse Intl 400 for text."
+        },
+        {
+          "name": "Text Input",
+          "role": "Form fields for user input.",
+          "description": "Transparent background, black text (#000000), 0px border-radius, 5px padding on all sides. Uses Times New Roman 400 for text."
+        }
+      ],
+      "typography": [
+        {
+          "role": "Primary UI text for navigation, body content, and descriptive elements. Its subtle character provides a modern, functional voice.",
+          "sizes": "14px, 16px, 24px",
+          "family": "Suisse Intl",
+          "weight": "400",
+          "weights": [
+            400
+          ],
+          "lineHeight": "1.00, 1.20",
+          "substitute": "Arial",
+          "letterSpacing": "0.5000em"
+        },
+        {
+          "role": "Headlines and prominent text, providing a classic counterpoint to the sans-serif for emphasis and a sense of permanence.",
+          "sizes": "12px, 14px, 24px",
+          "family": "Times New Roman",
+          "weight": "400",
+          "weights": [
+            400
+          ],
+          "lineHeight": "1.00, 1.20",
+          "substitute": "serif",
+          "letterSpacing": "normal"
+        }
+      ],
+      "description": "Orderandmovement adopts a stark, high-contrast, minimalist aesthetic, evoking a gallery or exhibition space. The design relies heavily on monochromatic tones, primarily black text and lines on a white canvas, creating a clear and direct presentation. Typography is a focal point, using a unique serif font for subtle sophistication and a custom sans-serif for functional elements. Spacing is generous, creating breathing room around elements, emphasizing content through isolation.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "Quick Color Reference:\ntext: #000000\nbackground: #ffffff\nborder: #000000\naccent: no distinct accent color\nprimary action: no distinct CTA color\n\nExample Component Prompts:\n1. Create a top navigation bar: Canvas White background, Gallery Black text at 16px Suisse Intl 400, letter-spacing 0.5em, with 60px vertical padding. Highlight active links with a 1px solid Gallery Black bottom border.\n2. Design a primary content section: Canvas White background, centered within a 900px max-width container, using 144px horizontal padding. Display a heading 'Paintings' using Times New Roman 400 at 24px, followed by a paragraph of body text 'MEMORIE DI UN FUMATORE' in Suisse Intl 400 at 14px, letter-spacing 0.5em, with 21px `marginTop` between the headline and body.\n3. Implement a Ghost Button: 'Contact' text in Gallery Black (#000000), Suisse Intl 400 at 14px, letter-spacing 0.5em, with a transparent background and 0px padding. Ensure a 1px Gallery Black (#000000) border on hover state."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777516935715-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777516935715-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/d2c077d3-d9ce-40c5-9714-e3c5f69f67d6",
+  "ranks": {
+    "trending": 1165,
+    "popular": 1222,
+    "newest": 312
+  },
+  "localSlug": "orderandmovement-d2c077d3"
+}

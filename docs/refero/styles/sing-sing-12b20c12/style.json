@@ -1,0 +1,818 @@
+{
+  "id": "12b20c12-27f8-4938-89ba-569404d36fe8",
+  "url": "https://sing-sing.co",
+  "siteName": "Sing-sing",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777521062474-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777521062474-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "light",
+  "colors": [
+    {
+      "name": "Amber Canvas",
+      "hex": "#fcd579"
+    },
+    {
+      "name": "Midnight Ink",
+      "hex": "#171717"
+    },
+    {
+      "name": "Jade Accent",
+      "hex": "#81d6b9",
+      "gradient": "linear-gradient(90deg, rgb(129, 214, 185) 39.9999%, rgb(239, 203, 117) 99.9999%)"
+    }
+  ],
+  "fonts": [
+    "untitledsans",
+    "signifier"
+  ],
+  "northStar": "sunny minimal exhibition",
+  "createdAt": "2026-04-30T03:51:20.805Z",
+  "previewVideoCapturedAt": null,
+  "industry": "design",
+  "fullResult": {
+    "meta": {
+      "url": "https://sing-sing.co",
+      "siteName": "Sing-sing",
+      "extractedAt": "2026-04-30T03:51:20.740Z",
+      "durationMs": 38065,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 250,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#171717",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.20462653095774938
+            },
+            "contexts": [
+              "other",
+              "nav",
+              "heading",
+              "link",
+              "image",
+              "body",
+              "footer"
+            ],
+            "frequency": 425,
+            "confidence": 1,
+            "prominence": 30811932.757216007,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "nav/color": 57,
+              "body/color": 4,
+              "link/color": 3,
+              "image/color": 4,
+              "other/color": 15,
+              "footer/color": 1,
+              "heading/color": 1,
+              "nav/borderColor": 228,
+              "body/borderColor": 16,
+              "link/borderColor": 12,
+              "image/borderColor": 16,
+              "other/borderColor": 60,
+              "footer/borderColor": 4,
+              "heading/borderColor": 4
+            }
+          },
+          {
+            "hex": "#81d6b9",
+            "oklch": {
+              "c": 0.09325083806163152,
+              "h": 170.0863868174373,
+              "l": 0.8137926414196196
+            },
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 825,
+            "confidence": 1,
+            "prominence": 12531880.576477341,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "nav/color": 165,
+              "nav/borderColor": 660
+            }
+          },
+          {
+            "hex": "#fcd579",
+            "oklch": {
+              "c": 0.11937023680819159,
+              "h": 86.96323919841139,
+              "l": 0.8875328831716242
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "confidence": 1,
+            "prominence": 2580762.7406742442,
+            "properties": [
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "other/backgroundColor": 2
+            }
+          }
+        ],
+        "isDarkMode": false,
+        "colorfulness": 0.16658898599961658,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 12.75,
+            "background": "#fcd579",
+            "foreground": "#171717"
+          },
+          {
+            "level": "AAA",
+            "ratio": 10.46,
+            "background": "#81d6b9",
+            "foreground": "#171717"
+          },
+          {
+            "level": "fail",
+            "ratio": 1.22,
+            "background": "#fcd579",
+            "foreground": "#81d6b9"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 5,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 132,
+            "properties": [
+              "paddingTop",
+              "marginTop"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|nav",
+              "marginTop|nav"
+            ]
+          },
+          {
+            "value": 7,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 55,
+            "properties": [
+              "marginTop",
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "marginTop|nav",
+              "marginBottom|nav"
+            ]
+          },
+          {
+            "value": 23,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 2,
+            "properties": [
+              "marginBottom",
+              "marginTop"
+            ],
+            "propertyContextPairs": [
+              "marginBottom|body",
+              "marginTop|body"
+            ]
+          },
+          {
+            "value": 35,
+            "contexts": [
+              "nav",
+              "heading",
+              "other"
+            ],
+            "frequency": 11,
+            "properties": [
+              "paddingTop",
+              "paddingBottom",
+              "marginRight",
+              "marginLeft",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|nav",
+              "paddingBottom|nav",
+              "marginRight|nav",
+              "marginLeft|nav",
+              "marginRight|heading",
+              "marginLeft|heading",
+              "marginRight|other",
+              "marginLeft|other",
+              "paddingLeft|other",
+              "paddingTop|other",
+              "paddingBottom|other"
+            ]
+          },
+          {
+            "value": 53,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 4,
+            "properties": [
+              "marginLeft"
+            ],
+            "propertyContextPairs": [
+              "marginLeft|nav"
+            ]
+          }
+        ],
+        "density": "compact",
+        "baseUnit": 6
+      },
+      "gradients": [
+        {
+          "type": "linear",
+          "value": "linear-gradient(90deg, rgb(129, 214, 185) 39.9999%, rgb(239, 203, 117) 99.9999%)",
+          "colors": [
+            "rgb(129, 214, 185)",
+            "rgb(239, 203, 117)"
+          ],
+          "frequency": 31
+        },
+        {
+          "type": "linear",
+          "value": "linear-gradient(90deg, rgb(129, 214, 185) 39.9988%, rgb(239, 203, 117) 99.9988%)",
+          "colors": [
+            "rgb(129, 214, 185)",
+            "rgb(239, 203, 117)"
+          ],
+          "frequency": 1
+        },
+        {
+          "type": "linear",
+          "value": "linear-gradient(90deg, rgb(129, 214, 185) 39.8196%, rgb(239, 203, 117) 99.8196%)",
+          "colors": [
+            "rgb(129, 214, 185)",
+            "rgb(239, 203, 117)"
+          ],
+          "frequency": 1
+        },
+        {
+          "type": "linear",
+          "value": "linear-gradient(90deg, rgb(129, 214, 185) 37.0858%, rgb(239, 203, 117) 97.0858%)",
+          "colors": [
+            "rgb(129, 214, 185)",
+            "rgb(239, 203, 117)"
+          ],
+          "frequency": 1
+        },
+        {
+          "type": "linear",
+          "value": "linear-gradient(90deg, rgb(129, 214, 185) 34.3519%, rgb(239, 203, 117) 94.3519%)",
+          "colors": [
+            "rgb(129, 214, 185)",
+            "rgb(239, 203, 117)"
+          ],
+          "frequency": 1
+        },
+        {
+          "type": "linear",
+          "value": "linear-gradient(90deg, rgb(129, 214, 185) 31.6181%, rgb(239, 203, 117) 91.6181%)",
+          "colors": [
+            "rgb(129, 214, 185)",
+            "rgb(239, 203, 117)"
+          ],
+          "frequency": 1
+        },
+        {
+          "type": "linear",
+          "value": "linear-gradient(90deg, rgb(129, 214, 185) 28.8842%, rgb(239, 203, 117) 88.8842%)",
+          "colors": [
+            "rgb(129, 214, 185)",
+            "rgb(239, 203, 117)"
+          ],
+          "frequency": 1
+        },
+        {
+          "type": "linear",
+          "value": "linear-gradient(90deg, rgb(129, 214, 185) 26.1504%, rgb(239, 203, 117) 86.1504%)",
+          "colors": [
+            "rgb(129, 214, 185)",
+            "rgb(239, 203, 117)"
+          ],
+          "frequency": 1
+        },
+        {
+          "type": "linear",
+          "value": "linear-gradient(90deg, rgb(129, 214, 185) 23.4166%, rgb(239, 203, 117) 83.4166%)",
+          "colors": [
+            "rgb(129, 214, 185)",
+            "rgb(239, 203, 117)"
+          ],
+          "frequency": 1
+        },
+        {
+          "type": "linear",
+          "value": "linear-gradient(90deg, rgb(129, 214, 185) 20.6841%, rgb(239, 203, 117) 80.6841%)",
+          "colors": [
+            "rgb(129, 214, 185)",
+            "rgb(239, 203, 117)"
+          ],
+          "frequency": 1
+        },
+        {
+          "type": "linear",
+          "value": "linear-gradient(90deg, rgb(129, 214, 185) 17.9615%, rgb(239, 203, 117) 77.9615%)",
+          "colors": [
+            "rgb(129, 214, 185)",
+            "rgb(239, 203, 117)"
+          ],
+          "frequency": 1
+        },
+        {
+          "type": "linear",
+          "value": "linear-gradient(90deg, rgb(129, 214, 185) 15.34%, rgb(239, 203, 117) 75.34%)",
+          "colors": [
+            "rgb(129, 214, 185)",
+            "rgb(239, 203, 117)"
+          ],
+          "frequency": 1
+        },
+        {
+          "type": "linear",
+          "value": "linear-gradient(90deg, rgb(129, 214, 185) 13.8495%, rgb(239, 203, 117) 73.8495%)",
+          "colors": [
+            "rgb(129, 214, 185)",
+            "rgb(239, 203, 117)"
+          ],
+          "frequency": 1
+        },
+        {
+          "type": "linear",
+          "value": "linear-gradient(90deg, rgb(129, 214, 185) 16.5834%, rgb(239, 203, 117) 76.5834%)",
+          "colors": [
+            "rgb(129, 214, 185)",
+            "rgb(239, 203, 117)"
+          ],
+          "frequency": 1
+        },
+        {
+          "type": "linear",
+          "value": "linear-gradient(90deg, rgb(129, 214, 185) 19.3172%, rgb(239, 203, 117) 79.3172%)",
+          "colors": [
+            "rgb(129, 214, 185)",
+            "rgb(239, 203, 117)"
+          ],
+          "frequency": 1
+        },
+        {
+          "type": "linear",
+          "value": "linear-gradient(90deg, rgb(129, 214, 185) 22.0511%, rgb(239, 203, 117) 82.0511%)",
+          "colors": [
+            "rgb(129, 214, 185)",
+            "rgb(239, 203, 117)"
+          ],
+          "frequency": 1
+        },
+        {
+          "type": "linear",
+          "value": "linear-gradient(90deg, rgb(129, 214, 185) 24.7847%, rgb(239, 203, 117) 84.7847%)",
+          "colors": [
+            "rgb(129, 214, 185)",
+            "rgb(239, 203, 117)"
+          ],
+          "frequency": 1
+        },
+        {
+          "type": "linear",
+          "value": "linear-gradient(90deg, rgb(129, 214, 185) 27.5179%, rgb(239, 203, 117) 87.5179%)",
+          "colors": [
+            "rgb(129, 214, 185)",
+            "rgb(239, 203, 117)"
+          ],
+          "frequency": 1
+        },
+        {
+          "type": "linear",
+          "value": "linear-gradient(90deg, rgb(129, 214, 185) 30.2467%, rgb(239, 203, 117) 90.2467%)",
+          "colors": [
+            "rgb(129, 214, 185)",
+            "rgb(239, 203, 117)"
+          ],
+          "frequency": 1
+        },
+        {
+          "type": "linear",
+          "value": "linear-gradient(90deg, rgb(129, 214, 185) 32.9566%, rgb(239, 203, 117) 92.9566%)",
+          "colors": [
+            "rgb(129, 214, 185)",
+            "rgb(239, 203, 117)"
+          ],
+          "frequency": 1
+        },
+        {
+          "type": "linear",
+          "value": "linear-gradient(90deg, rgb(129, 214, 185) 35.6342%, rgb(239, 203, 117) 95.6342%)",
+          "colors": [
+            "rgb(129, 214, 185)",
+            "rgb(239, 203, 117)"
+          ],
+          "frequency": 1
+        },
+        {
+          "type": "linear",
+          "value": "linear-gradient(90deg, rgb(129, 214, 185) 37.8878%, rgb(239, 203, 117) 97.8878%)",
+          "colors": [
+            "rgb(129, 214, 185)",
+            "rgb(239, 203, 117)"
+          ],
+          "frequency": 1
+        }
+      ],
+      "typography": {
+        "fonts": [
+          {
+            "family": "untitledsans",
+            "source": "custom",
+            "weights": [
+              400,
+              700
+            ],
+            "frequency": 240,
+            "fontFeatureSettings": [
+              "\"kern\""
+            ]
+          },
+          {
+            "family": "signifier",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 10,
+            "fontFeatureSettings": [
+              "\"kern\""
+            ]
+          }
+        ],
+        "scale": {
+          "base": 16,
+          "name": "Major Third",
+          "ratio": 1.25,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 7,
+            "family": "untitledsans",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "nav"
+            ],
+            "frequency": 6,
+            "lineHeight": 1.15,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 7,
+            "family": "untitledsans",
+            "weight": 400,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 106,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "untitledsans",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "footer"
+            ],
+            "frequency": 8,
+            "lineHeight": 1.15,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 20,
+            "family": "signifier",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "image"
+            ],
+            "frequency": 5,
+            "lineHeight": 1.15,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 20,
+            "family": "signifier",
+            "weight": 400,
+            "contexts": [
+              "body",
+              "other"
+            ],
+            "frequency": 2,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 21,
+            "family": "signifier",
+            "weight": 400,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.15,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 21,
+            "family": "signifier",
+            "weight": 400,
+            "contexts": [
+              "body",
+              "link"
+            ],
+            "frequency": 2,
+            "lineHeight": 1.3,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 23,
+            "family": "untitledsans",
+            "weight": 400,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.15,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 23,
+            "family": "untitledsans",
+            "weight": 400,
+            "contexts": [
+              "body",
+              "link"
+            ],
+            "frequency": 3,
+            "lineHeight": 1.22,
+            "letterSpacing": -0.02,
+            "textTransform": "none"
+          },
+          {
+            "size": 24,
+            "family": "untitledsans",
+            "weight": 400,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.15,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 24,
+            "family": "untitledsans",
+            "weight": 400,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 111,
+            "lineHeight": 1,
+            "letterSpacing": -0.025,
+            "textTransform": "none"
+          },
+          {
+            "size": 147,
+            "family": "untitledsans",
+            "weight": 700,
+            "contexts": [
+              "heading",
+              "link",
+              "image"
+            ],
+            "frequency": 4,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Always use Amber Canvas (#fcd579) as the dominant background color for pages and sections.",
+        "Apply Midnight Ink (#171717) for all primary text, headings, and strong UI boundaries.",
+        "Reserve Jade Accent (#81d6b9) exclusively for active navigation states, borders that indicate interaction, or limited decorative stripes.",
+        "Utilize Untitled Sans for all primary textual content, varying weights (400, 700) and sizes (16px-147px) to establish hierarchy.",
+        "Implement tight letter-spacing for large headlines (-0.025em at 147px) to maintain visual density.",
+        "Maintain a compact element spacing of 5px between closely related items, and generous section spacing of 35px for visual breathing room."
+      ],
+      "donts": [
+        "Do not introduce new chromatic colors; stick to Amber Canvas, Midnight Ink, and Jade Accent.",
+        "Avoid using drop shadows or complex elevation; the design relies on stark contrast and flat surfaces.",
+        "Do not use letter spacing on Signifier font; it should always be 'normal'.",
+        "Avoid excessive imagery; when images are used, treat them as carefully composed elements within the layout.",
+        "Do not use rounded corners; all UI elements should maintain sharp, 0px radii.",
+        "Do not deviate from the specified font families; avoid system defaults or alternative sans-serif/serif fonts."
+      ],
+      "theme": "light",
+      "colors": [
+        {
+          "hex": "#fcd579",
+          "name": "Amber Canvas",
+          "role": "Dominant page background and primary surface color, providing a warm, inviting foundation for all content",
+          "group": "brand"
+        },
+        {
+          "hex": "#171717",
+          "name": "Midnight Ink",
+          "role": "Primary text, headings, and significant borders, establishing strong contrast against the warm canvas",
+          "group": "neutral"
+        },
+        {
+          "hex": "#81d6b9",
+          "name": "Jade Accent",
+          "role": "Navigation borders, active text states, and decorative elements; acts as the sole chromatic accent on the amber background; Background for full-width decorative elements and banners, blending the Jade Accent with the warmer tones of the canvas",
+          "group": "accent",
+          "gradient": "linear-gradient(90deg, rgb(129, 214, 185) 39.9999%, rgb(239, 203, 117) 99.9999%)"
+        }
+      ],
+      "layout": "The page uses a full-bleed layout, where the Amber Canvas background extends edge-to-edge. Content appears to be centered within this expansive space, often in simple, large blocks. The hero section features a very large, centered headline directly on the colored background. Section rhythm is minimal, relying on clear visual breaks rather than explicit dividers, allowing the large headlines and images to dictate the flow. The main body content tends to be single-column or two-column sections, with text and imagery given ample individual space, creating an airy, uncrowded feel. Navigation is a minimalist top-right 'Index' link, opening into an overlay or expanded menu.",
+      "imagery": "Imagery primarily consists of curated, somewhat abstracted artistic photographs or product shots, often showcasing interesting textures or compositions rather than explicit narratives. They are treated as embedded content blocks, flush with the Amber Canvas background and containing their own visual interest. There is a strong sense of a contained, editorial aesthetic. Icons are not a prominent feature, suggesting pure UI over symbolic graphics.",
+      "similar": [
+        {
+          "why": "Uses large, impactful typography on colored backgrounds with a curated, editorial layout.",
+          "business": "AIGA"
+        },
+        {
+          "why": "Employs a minimal, almost academic layout with a distinct color palette and careful typographic hierarchy.",
+          "business": "Frank, Chimero"
+        },
+        {
+          "why": "Features bold, often large-scale typography paired with a restricted color palette and sparse, artistic visuals.",
+          "business": "Studio Airport"
+        },
+        {
+          "why": "Minimalistic design with a strong, single accent color and clear, contrasting typography on a light background.",
+          "business": "Build in Public (Li Jin)"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "none": "0px"
+        },
+        "elementGap": "5px",
+        "sectionGap": "35px",
+        "cardPadding": "23px",
+        "pageMaxWidth": null
+      },
+      "industry": "design",
+      "northStar": "sunny minimal exhibition",
+      "typeScale": [
+        {
+          "role": "body",
+          "size": 16,
+          "lineHeight": 1.15
+        },
+        {
+          "role": "subheading",
+          "size": 24,
+          "lineHeight": 1.15,
+          "letterSpacing": -0.48
+        },
+        {
+          "role": "display",
+          "size": 147,
+          "lineHeight": 1,
+          "letterSpacing": -3.675
+        }
+      ],
+      "components": [
+        {
+          "name": "Primary Navigation Link (Default)",
+          "role": "Interactive text link within the main navigation.",
+          "description": "Text uses Untitled Sans, weight 400, color Midnight Ink (#171717). No explicit padding listed, but context around 'Index' implies compact spacing, possibly a small margin-top of 5px and margin-bottom of 7px. No border or background."
+        },
+        {
+          "name": "Navigation Divider (Active State)",
+          "role": "Subtle visual indicator for active or highlighted navigation items.",
+          "description": "A thin, prominent border. Color is Jade Accent (#81d6b9). Used below navigation text, often filling the width of the navigation area, with a substantial top padding of 35px."
+        },
+        {
+          "name": "Decorative Headline",
+          "role": "Large, attention-grabbing text for main titles or section headers.",
+          "description": "Untitled Sans, weight 700, size 147px, line height 1.0, color Midnight Ink (#171717), letter-spacing -0.025em. Typically centered or left-aligned, occupying significant visual space."
+        },
+        {
+          "name": "Body Text Block (Untitled Sans)",
+          "role": "Standard body copy for general information.",
+          "description": "Untitled Sans, weight 400, size 23px, line height 1.22, color Midnight Ink (#171717). Paragraphs have a 23px margin-bottom."
+        },
+        {
+          "name": "Body Text Block (Signifier)",
+          "role": "Secondary body copy or descriptive text, often with a more traditional feel.",
+          "description": "Signifier, weight 400, size 20px, line height 1.3, color Midnight Ink (#171717)."
+        }
+      ],
+      "typography": [
+        {
+          "role": "Used for all primary headings, body text, navigation elements, and links. Its semi-bold weights create a sense of directness in an otherwise sparse layout.",
+          "sizes": "16px, 23px, 24px, 147px",
+          "family": "untitledsans",
+          "weight": "400, 700",
+          "weights": [
+            400,
+            700
+          ],
+          "lineHeight": "1.00, 1.15, 1.22",
+          "substitute": "Arial",
+          "letterSpacing": "-0.0250em at 147px, -0.0200em at 24px",
+          "fontFeatureSettings": "\"kern\""
+        },
+        {
+          "role": "Used sparingly for italicized or more traditional text elements, providing a subtle counterpoint to the dominant sans-serif.",
+          "sizes": "20px, 21px",
+          "family": "signifier",
+          "weight": "400",
+          "weights": [
+            400
+          ],
+          "lineHeight": "1.15, 1.20, 1.30",
+          "substitute": "Georgia",
+          "letterSpacing": "normal",
+          "fontFeatureSettings": "\"kern\""
+        }
+      ],
+      "description": "Sing-Sing's visual system evokes a playful yet sophisticated modernity, built on a sparse layout and bold, contrasting color. A vibrant, sun-drenched yellow serves as the expansive canvas, punctuated by sharp black typography and a singular teal accent. The design feels like a curated exhibition space, where content is deliberately placed and given ample room to breathe, suggesting value through restraint and striking color choices.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "Quick Color Reference: \n- text: #171717\n- background: #fcd579\n- border: #171717\n- accent: #81d6b9\n- primary action: no distinct CTA color\n\nExample Component Prompts:\n\n1. Create a hero banner: background Amber Canvas (#fcd579). Headline 'Sing Sing' in Midnight Ink (#171717), using untitledsans weight 700, size 147px, line height 1.0, letter-spacing -0.025em. Place a 'Index' navigation link at top right in Midnight Ink (#171717) using untitledsans weight 400, size 16px.\n2. Design a multi-line paragraph of informative text: uses Signifier font weight 400, size 20px, line height 1.3, color Midnight Ink (#171717). Ensure a 23px margin-bottom for the paragraph.\n3. Implement a navigation item: text 'Studio' in untitledsans weight 400, size 16px, color Midnight Ink (#171717). Below it, optionally add a 1px border spanning the width of the navigation container, color Jade Accent (#81d6b9).\n4. Create a full-width header for a section: background Amber Canvas (#fcd579). Place 'Collaborative studio based in Los Angeles, CA' in Midnight Ink (#171717), using untitledsans weight 400, size 23px, line height 1.22, with 23px margin-bottom."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777521062474-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777521062474-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/12b20c12-27f8-4938-89ba-569404d36fe8",
+  "ranks": {
+    "trending": 1135,
+    "popular": 1143,
+    "newest": 45
+  },
+  "localSlug": "sing-sing-12b20c12"
+}

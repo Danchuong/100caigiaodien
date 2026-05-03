@@ -1,0 +1,660 @@
+{
+  "id": "9949add1-e0f0-4093-8002-db1f3a7390b7",
+  "url": "https://manifesto.endel.io",
+  "siteName": "Endel Manifesto",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777513471008-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777513471008-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "dark",
+  "colors": [
+    {
+      "name": "Midnight Void",
+      "hex": "#000000"
+    },
+    {
+      "name": "Ghost White",
+      "hex": "#ffffff"
+    },
+    {
+      "name": "Steel Gray",
+      "hex": "#636363"
+    },
+    {
+      "name": "Muted Ash",
+      "hex": "#4d4d4d"
+    },
+    {
+      "name": "Soft Fog",
+      "hex": "#6f6f6f"
+    }
+  ],
+  "fonts": [
+    "Roboto"
+  ],
+  "northStar": "Minimalist Dark Canvas",
+  "createdAt": "2026-04-30T01:44:46.861Z",
+  "previewVideoCapturedAt": null,
+  "industry": "other",
+  "fullResult": {
+    "meta": {
+      "url": "https://manifesto.endel.io",
+      "siteName": "Endel Manifesto",
+      "extractedAt": "2026-04-30T01:44:46.790Z",
+      "durationMs": 22213,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 606,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#ffffff",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 1.0000000000000002
+            },
+            "contexts": [
+              "other",
+              "link",
+              "image",
+              "button",
+              "body"
+            ],
+            "frequency": 435,
+            "confidence": 1,
+            "prominence": 128720610.98877305,
+            "properties": [
+              "color",
+              "borderColor",
+              "stroke"
+            ],
+            "usageCounts": {
+              "body/color": 1,
+              "link/color": 10,
+              "image/color": 1,
+              "other/color": 55,
+              "button/color": 9,
+              "other/stroke": 55,
+              "body/borderColor": 4,
+              "link/borderColor": 40,
+              "image/borderColor": 4,
+              "other/borderColor": 220,
+              "button/borderColor": 36
+            }
+          },
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 535,
+            "confidence": 1,
+            "prominence": 18569109.483360466,
+            "properties": [
+              "backgroundColor",
+              "fill"
+            ],
+            "usageCounts": {
+              "other/fill": 534,
+              "other/backgroundColor": 1
+            }
+          },
+          {
+            "hex": "#636363",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.49969557143204607
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 105,
+            "confidence": 1,
+            "prominence": 647380.6898994347,
+            "properties": [
+              "stroke"
+            ],
+            "usageCounts": {
+              "other/stroke": 105
+            }
+          },
+          {
+            "hex": "#4d4d4d",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.42023714570450815
+            },
+            "contexts": [
+              "button"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 12566,
+            "properties": [
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "button/backgroundColor": 1
+            }
+          },
+          {
+            "hex": "#6f6f6f",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.5417056664787456
+            },
+            "contexts": [
+              "link"
+            ],
+            "frequency": 20,
+            "confidence": 1,
+            "prominence": 5837.389854872973,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "link/color": 4,
+              "link/borderColor": 16
+            }
+          }
+        ],
+        "isDarkMode": true,
+        "colorfulness": 0,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 21,
+            "background": "#000000",
+            "foreground": "#ffffff"
+          },
+          {
+            "level": "AAA",
+            "ratio": 8.45,
+            "background": "#4d4d4d",
+            "foreground": "#ffffff"
+          },
+          {
+            "level": "AA",
+            "ratio": 6.01,
+            "background": "#ffffff",
+            "foreground": "#636363"
+          },
+          {
+            "level": "fail",
+            "ratio": 4.18,
+            "background": "#000000",
+            "foreground": "#6f6f6f"
+          },
+          {
+            "level": "fail",
+            "ratio": 1.68,
+            "background": "#4d4d4d",
+            "foreground": "#6f6f6f"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [
+          {
+            "value": 10,
+            "contexts": [
+              "button"
+            ],
+            "frequency": 1
+          },
+          {
+            "value": 16,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1
+          }
+        ],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 7,
+            "contexts": [
+              "link"
+            ],
+            "frequency": 8,
+            "properties": [
+              "marginRight",
+              "marginLeft"
+            ],
+            "propertyContextPairs": [
+              "marginRight|link",
+              "marginLeft|link"
+            ]
+          },
+          {
+            "value": 8,
+            "contexts": [
+              "link"
+            ],
+            "frequency": 10,
+            "properties": [
+              "marginRight",
+              "marginLeft"
+            ],
+            "propertyContextPairs": [
+              "marginRight|link",
+              "marginLeft|link"
+            ]
+          },
+          {
+            "value": 20,
+            "contexts": [
+              "link",
+              "other"
+            ],
+            "frequency": 7,
+            "properties": [
+              "marginBottom",
+              "paddingRight",
+              "paddingLeft",
+              "marginTop"
+            ],
+            "propertyContextPairs": [
+              "marginBottom|link",
+              "paddingRight|other",
+              "paddingLeft|other",
+              "marginTop|other"
+            ]
+          },
+          {
+            "value": 30,
+            "contexts": [
+              "other",
+              "button"
+            ],
+            "frequency": 2,
+            "properties": [
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "marginBottom|other",
+              "marginBottom|button"
+            ]
+          },
+          {
+            "value": 34,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 5,
+            "properties": [
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "marginBottom|other"
+            ]
+          },
+          {
+            "value": 40,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 8,
+            "properties": [
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "marginBottom|other"
+            ]
+          },
+          {
+            "value": 50,
+            "contexts": [
+              "link",
+              "other"
+            ],
+            "frequency": 4,
+            "properties": [
+              "marginTop",
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "marginTop|link",
+              "marginBottom|link",
+              "marginTop|other"
+            ]
+          },
+          {
+            "value": 60,
+            "contexts": [
+              "button"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|button",
+              "paddingLeft|button"
+            ]
+          },
+          {
+            "value": 70,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|other",
+              "paddingLeft|other"
+            ]
+          }
+        ],
+        "density": "comfortable",
+        "baseUnit": 4
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "Roboto",
+            "source": "system",
+            "weights": [
+              400
+            ],
+            "frequency": 80,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 16,
+          "name": "Major Second",
+          "ratio": 1.125,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 16,
+            "family": "Roboto",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "link",
+              "image",
+              "button",
+              "body"
+            ],
+            "frequency": 56,
+            "lineHeight": 1.15,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 20,
+            "family": "Roboto",
+            "weight": 400,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 3,
+            "lineHeight": 1.3,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 24,
+            "family": "Roboto",
+            "weight": 400,
+            "contexts": [
+              "button"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.15,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 24,
+            "family": "Roboto",
+            "weight": 400,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 5,
+            "lineHeight": 1.33,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 24,
+            "family": "Roboto",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "link"
+            ],
+            "frequency": 2,
+            "lineHeight": 1.25,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 40,
+            "family": "Roboto",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "link"
+            ],
+            "frequency": 13,
+            "lineHeight": 1.13,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Always use 'Midnight Void' (#000000) for primary page and section backgrounds.",
+        "Utilize 'Ghost White' (#ffffff) for all primary text content and logo elements.",
+        "Apply 'Muted Ash' (#4d4d4d) as the background color for all primary action buttons, combined with 'Ghost White' (#ffffff) text.",
+        "Ensure all primary button elements incorporate a 10px border-radius.",
+        "Maintain a default letter-spacing for all typography, regardless of size or role, to preserve textual clarity.",
+        "Employ 40px vertical spacing for significant content breaks between sections to ensure comfortable density.",
+        "Use 8px as the base unit for inter-element spacing and small horizontal gaps."
+      ],
+      "donts": [
+        "Avoid introducing additional font families or weights beyond Roboto weight 400.",
+        "Do not use saturated or vivid colors; adhere strictly to the achromatic palette with 'Midnight Void' and shades of gray and white.",
+        "Refrain from using complex shadow effects or strong elevations; rely on subtle background color shifts for surface distinction.",
+        "Do not deviate from the default 10px border-radius for buttons or the 16px radius for other prominent elements.",
+        "Avoid left-aligning headings; all key textual content should be centered.",
+        "Do not use gradients; the design relies on solid colors and minimalist flat surfaces.",
+        "Do not use images as prominent page backgrounds; stick to solid 'Midnight Void'."
+      ],
+      "theme": "dark",
+      "colors": [
+        {
+          "hex": "#000000",
+          "name": "Midnight Void",
+          "role": "Page backgrounds, large decorative fills",
+          "group": "neutral"
+        },
+        {
+          "hex": "#ffffff",
+          "name": "Ghost White",
+          "role": "Hairline borders, dividers, input outlines, and card edges on light surfaces. Do not promote it to the primary CTA color",
+          "group": "neutral"
+        },
+        {
+          "hex": "#636363",
+          "name": "Steel Gray",
+          "role": "Decorative strokes, secondary graphic elements",
+          "group": "neutral"
+        },
+        {
+          "hex": "#4d4d4d",
+          "name": "Muted Ash",
+          "role": "Button background for primary actions, subtle elevation surface",
+          "group": "neutral"
+        },
+        {
+          "hex": "#6f6f6f",
+          "name": "Soft Fog",
+          "role": "Muted link text color, secondary borders",
+          "group": "neutral"
+        }
+      ],
+      "layout": "The page uses a full-bleed layout, dominated by a 'Midnight Void' background. All content is centrally aligned horizontally. The hero section features the logo, brand name, and primary headline centered on a black canvas, followed by a centered 'Manifesto Button'. Sections are visually delineated by consistent vertical spacing of 40px, but no hard dividers or alternating background colors. Information is presented in single-column text blocks, creating a focused, linear reading experience. Navigation links are minimal, presented as 'Ghost Link' text elements.",
+      "imagery": "This design largely eschews traditional imagery in favor of a pure UI aesthetic. The primary visual elements are the Endel logo, which is a minimalist white outline on a black background. When present, graphics are abstract, using simple lines and shapes in white or steel gray to provide subtle visual interest without distracting from text. The density is extremely low, with imagery serving purely decorative or iconic roles, never as content or product showcases. There is no photography or complex illustration present.",
+      "similar": [
+        {
+          "why": "Dark UI with focus on minimal, centered content and calming aesthetic.",
+          "business": "Calm (website)"
+        },
+        {
+          "why": "Uses dark themes and a strong focus on audio/mindfulness with simple UI elements.",
+          "business": "Brain.fm"
+        },
+        {
+          "why": "Productivity and wellness app with a similar restrained, dark-mode approach to its web presence.",
+          "business": "Breethe"
+        },
+        {
+          "why": "Clean, dark backgrounds with prominent white typography and minimalist imagery to highlight product or message.",
+          "business": "Apple (specific marketing pages)"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "other": "16px",
+          "buttons": "10px"
+        },
+        "elementGap": "8px",
+        "sectionGap": "40px",
+        "cardPadding": "20px",
+        "pageMaxWidth": null
+      },
+      "industry": "other",
+      "surfaces": [
+        {
+          "hex": "#000000",
+          "name": "Midnight Void Canvas",
+          "level": 1,
+          "purpose": "Primary background for the entire page, providing a deep, expansive foundation."
+        },
+        {
+          "hex": "#4d4d4d",
+          "name": "Muted Ash Surface",
+          "level": 2,
+          "purpose": "Used as the background for interactive button elements, providing a subtle lift and distinction from the 'Midnight Void' canvas."
+        }
+      ],
+      "northStar": "Minimalist Dark Canvas",
+      "typeScale": [
+        {
+          "role": "body",
+          "size": 16,
+          "lineHeight": 1.25
+        },
+        {
+          "role": "subheading",
+          "size": 20,
+          "lineHeight": 1.15
+        },
+        {
+          "role": "heading",
+          "size": 24,
+          "lineHeight": 1.33
+        },
+        {
+          "role": "display",
+          "size": 40,
+          "lineHeight": 1.13
+        }
+      ],
+      "components": [
+        {
+          "name": "Manifesto Button",
+          "role": "Primary Call to Action",
+          "description": "A filled button with 'Muted Ash' background and 'Ghost White' text. Features a 10px border-radius, giving it a soft, approachable feel against the dark canvas. Padding is generous at 0px vertical and 60px horizontal, creating an emphasized yet understated clickable area."
+        },
+        {
+          "name": "Ghost Link",
+          "role": "Navigation and Ancillary Links",
+          "description": "Text-only 'Ghost White' links for navigation and secondary information. Used for social media links and external resources. No distinctive background or border, relying on color and context for interaction cues."
+        },
+        {
+          "name": "Primary Headline",
+          "role": "Main page titles and key statements",
+          "description": "Uses Roboto at 40px with a lineHeight of 1.13, in 'Ghost White' color. Set centered on the dark background, it establishes a commanding but not overwhelming presence due to its default weight and tight leading."
+        },
+        {
+          "name": "Secondary Headline",
+          "role": "Sub-headings or descriptive text related to main titles",
+          "description": "Uses Roboto at 24px with a lineHeight of 1.33, in 'Ghost White' color. Slightly smaller than the primary, it provides hierarchical distinction while maintaining prominence."
+        }
+      ],
+      "typography": [
+        {
+          "role": "All textual content, from body text to prominent headlines, using varying sizes to establish hierarchy without additional typefaces or weights. All letterspacing is normal, supporting legibility in a content-focused display.",
+          "sizes": "16px, 20px, 24px, 40px",
+          "family": "Roboto",
+          "weight": "400",
+          "lineHeight": "1.13, 1.15, 1.25, 1.30, 1.33",
+          "substitute": "system-ui, sans-serif"
+        }
+      ],
+      "description": "Endel Manifesto presents a stark, almost monastic dark mode experience, prioritizing content over visual flourish. The design employs a monochrome palette with abundant black space, utilizing white text and subtle gray accents to guide focus. Typography is minimal and direct, ensuring clarity against the deep background, while interactive elements are sparingly introduced with soft, rounded edges to avoid disruption.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "Quick Color Reference:\ntext: #ffffff\nbackground: #000000\nborder: #ffffff\naccent: no distinct accent color\nprimary action: no distinct CTA color\n\nExample Component Prompts:\n1. Create a primary headline: Text 'Manifesto' in Roboto weight 400, size 40px, lineHeight 1.13, color 'Ghost White' (#ffffff), centered.\n2. Create a 'Find Out' button: Background 'Muted Ash' (#4d4d4d), text 'Find Out' in Roboto weight 400, size 16px, color 'Ghost White' (#ffffff). Border-radius 10px. Horizontal padding 60px.\n3. Create a secondary headline: Text 'How Endel will reshape our collective future' in Roboto weight 400, size 24px, lineHeight 1.33, color 'Ghost White' (#ffffff), centered."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777513471008-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777513471008-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/9949add1-e0f0-4093-8002-db1f3a7390b7",
+  "ranks": {
+    "trending": 969,
+    "popular": 1064,
+    "newest": 528
+  },
+  "localSlug": "endel-manifesto-9949add1"
+}

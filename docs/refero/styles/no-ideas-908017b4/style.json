@@ -1,0 +1,494 @@
+{
+  "id": "908017b4-311c-4b89-afa5-c29c8cb08e8b",
+  "url": "https://noideas.website",
+  "siteName": "No Ideas",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777520218536-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777520218536-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "dark",
+  "colors": [
+    {
+      "name": "Canvas White",
+      "hex": "#ffffff"
+    },
+    {
+      "name": "Ink Black",
+      "hex": "#000000"
+    },
+    {
+      "name": "Text Gray",
+      "hex": "#212529"
+    }
+  ],
+  "fonts": [
+    "ABC Diatype",
+    "system-ui"
+  ],
+  "northStar": "High-contrast editorial publication",
+  "createdAt": "2026-04-30T03:37:14.026Z",
+  "previewVideoCapturedAt": null,
+  "industry": "design",
+  "fullResult": {
+    "meta": {
+      "url": "https://noideas.website",
+      "siteName": "No Ideas",
+      "extractedAt": "2026-04-30T03:37:13.960Z",
+      "durationMs": 22571,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 36,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#ffffff",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 1.0000000000000002
+            },
+            "contexts": [
+              "other",
+              "link",
+              "heading",
+              "body",
+              "footer"
+            ],
+            "frequency": 116,
+            "confidence": 1,
+            "prominence": 8903992.676580092,
+            "properties": [
+              "color",
+              "borderColor",
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "body/color": 2,
+              "link/color": 4,
+              "other/color": 14,
+              "heading/color": 3,
+              "body/borderColor": 8,
+              "link/borderColor": 16,
+              "other/borderColor": 56,
+              "heading/borderColor": 12,
+              "footer/backgroundColor": 1
+            }
+          },
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "other",
+              "footer",
+              "link",
+              "heading",
+              "image"
+            ],
+            "frequency": 57,
+            "confidence": 1,
+            "prominence": 7591943.369685333,
+            "properties": [
+              "backgroundColor",
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "link/color": 4,
+              "image/color": 1,
+              "other/color": 4,
+              "footer/color": 1,
+              "heading/color": 1,
+              "link/borderColor": 16,
+              "image/borderColor": 4,
+              "other/borderColor": 16,
+              "footer/borderColor": 4,
+              "heading/borderColor": 4,
+              "other/backgroundColor": 2
+            }
+          },
+          {
+            "hex": "#212529",
+            "oklch": {
+              "c": 0.009493466733044721,
+              "h": 248.18975403208174,
+              "l": 0.2620927620695693
+            },
+            "contexts": [
+              "other",
+              "body"
+            ],
+            "frequency": 10,
+            "confidence": 1,
+            "prominence": 4483423.377753938,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "body/color": 1,
+              "other/color": 1,
+              "body/borderColor": 4,
+              "other/borderColor": 4
+            }
+          }
+        ],
+        "isDarkMode": false,
+        "colorfulness": 0.0014020774971266758,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 21,
+            "background": "#000000",
+            "foreground": "#ffffff"
+          },
+          {
+            "level": "AAA",
+            "ratio": 15.43,
+            "background": "#ffffff",
+            "foreground": "#212529"
+          },
+          {
+            "level": "fail",
+            "ratio": 1.36,
+            "background": "#000000",
+            "foreground": "#212529"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [
+          {
+            "value": 15,
+            "contexts": [
+              "image"
+            ],
+            "frequency": 1
+          }
+        ],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 19,
+            "contexts": [
+              "other",
+              "footer"
+            ],
+            "frequency": 6,
+            "properties": [
+              "paddingTop",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other",
+              "paddingBottom|other",
+              "paddingTop|footer",
+              "paddingBottom|footer"
+            ]
+          },
+          {
+            "value": 29,
+            "contexts": [
+              "other",
+              "footer"
+            ],
+            "frequency": 6,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|other",
+              "paddingLeft|other",
+              "paddingRight|footer",
+              "paddingLeft|footer"
+            ]
+          },
+          {
+            "value": 202,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "marginBottom|other"
+            ]
+          }
+        ],
+        "density": "spacious",
+        "baseUnit": 6
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "ABC Diatype",
+            "source": "custom",
+            "weights": [
+              400,
+              500
+            ],
+            "frequency": 21,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "system-ui",
+            "source": "system",
+            "weights": [
+              400
+            ],
+            "frequency": 15,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 20,
+          "name": "Perfect Fourth",
+          "ratio": 1.333,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 16,
+            "family": "system-ui",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "body"
+            ],
+            "frequency": 15,
+            "lineHeight": 1.5,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 36,
+            "family": "ABC Diatype",
+            "weight": 400,
+            "contexts": [
+              "footer",
+              "other",
+              "link",
+              "heading",
+              "image"
+            ],
+            "frequency": 11,
+            "lineHeight": 1.1,
+            "letterSpacing": -0.01,
+            "textTransform": "none"
+          },
+          {
+            "size": 48,
+            "family": "ABC Diatype",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "link",
+              "heading"
+            ],
+            "frequency": 9,
+            "lineHeight": 1.05,
+            "letterSpacing": -0.01,
+            "textTransform": "none"
+          },
+          {
+            "size": 331,
+            "family": "ABC Diatype",
+            "weight": 500,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.52,
+            "letterSpacing": -0.052,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Prioritize Canvas White (#ffffff) and Ink Black (#000000) for all primary backgrounds and text, maintaining high contrast.",
+        "Use ABC Diatype for all headings and prominent textual elements, applying the specified letter-spacing for each size.",
+        "Maintain generous spacing around sections, specifically a 202px bottom margin after primary content blocks.",
+        "Apply a 15px border-radius consistently to all images for a subtle softening effect.",
+        "Ensure UI elements for navigation and information are simple text links, without pronounced button styling, using either Canvas White (#ffffff) or Ink Black (#000000).",
+        "Employ `system-ui` for all body text and secondary informational content at 16px weight 400 with normal letter-spacing and 1.5 line height."
+      ],
+      "donts": [
+        "Avoid introducing additional chromatic colors; the system relies on a strictly monochromatic palette.",
+        "Do not use box-shadows or complex gradients; the design aesthetic is intentionally flat.",
+        "Do not vary from the specified line heights and letter spacing for ABC Diatype; these are critical to the typographic identity.",
+        "Do not add heavy borders or background fills to interactive elements; they should remain text-based or 'ghost' styled.",
+        "Avoid dense informational blocks; embrace spacious layouts to create visual breathing room.",
+        "Do not use decorative imagery that detracts from the stark, editorial focus; images should be integral to the content."
+      ],
+      "theme": "dark",
+      "colors": [
+        {
+          "hex": "#ffffff",
+          "name": "Canvas White",
+          "role": "Page backgrounds, prominent text (on dark), borders, ghost button outlines",
+          "group": "neutral"
+        },
+        {
+          "hex": "#000000",
+          "name": "Ink Black",
+          "role": "Primary surface background, main body text, navigation elements, footer text",
+          "group": "neutral"
+        },
+        {
+          "hex": "#212529",
+          "name": "Text Gray",
+          "role": "General body text for readability, subtle borders",
+          "group": "neutral"
+        }
+      ],
+      "layout": "The page embraces a full-bleed content model where sections can stretch across the viewport width. The hero section, as seen with the 'WINGS' title, features a full-bleed Ink Black background with large, centered Canvas White text. The section rhythm is defined by large vertical gaps (202px) between content blocks and a clear contrast shift between dark and light backgrounds. Content is often presented in a simple, stacked or implied two-column arrangement, focusing on strong typographic statements. Navigation is minimal, consisting of a top bar for core links and a detailed footer. The overall density is spacious, allowing elements significant room to breathe.",
+      "imagery": "The site uses photography as its primary imagery. These are integrated as large, full-bleed backgrounds or large, contained elements, often in black and white or highly desaturated states. The treatment is direct, with images sometimes having a 15px border-radius for a refined edge. There are no illustrations or abstract graphics. The imagery serves to set a mood or showcase work within an overarching editorial publication style, rather than providing explicit product functionality or step-by-step guides. The density is image-heavy in sections, defining visual chapters.",
+      "similar": [
+        {
+          "why": "Strong editorial design, heavy reliance on typography as primary visual, monochromatic palette, and spacious layouts.",
+          "business": "AIGA Journal"
+        },
+        {
+          "why": "Focus on high-contrast black and white, robust typographic hierarchy, and clean content presentation.",
+          "business": "The New York Times (digital)"
+        },
+        {
+          "why": "Contemporary graphic design studio with a strong print-inspired, grid-based aesthetic, and a minimal color palette.",
+          "business": "Actual Source"
+        },
+        {
+          "why": "Design portfolio site structure with a focus on large images and clear, impactful typography over decorative UI elements.",
+          "business": "Pentagram"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "image": "15px"
+        },
+        "elementGap": "29px",
+        "sectionGap": "",
+        "cardPadding": "",
+        "pageMaxWidth": null
+      },
+      "industry": "design",
+      "northStar": "High-contrast editorial publication",
+      "typeScale": [
+        {
+          "role": "body",
+          "size": 16,
+          "lineHeight": 1.5,
+          "letterSpacing": 0
+        },
+        {
+          "role": "heading",
+          "size": 36,
+          "lineHeight": 1.05,
+          "letterSpacing": -0.74
+        },
+        {
+          "role": "heading-lg",
+          "size": 48,
+          "lineHeight": 1.1,
+          "letterSpacing": -0.96
+        },
+        {
+          "role": "display",
+          "size": 331,
+          "lineHeight": 1.52,
+          "letterSpacing": -3.31
+        }
+      ],
+      "components": [
+        {
+          "name": "Ghost Navigation Link",
+          "role": "Interactive text link within headers and footers.",
+          "description": "Text in Ink Black (#000000) or Canvas White (#ffffff) using ABC Diatype 400 at appropriate sizes for navigation, with no background or specific padding, relying on surrounding whitespace for interaction cues."
+        },
+        {
+          "name": "Editorial Header",
+          "role": "Primary heading for sections or pages.",
+          "description": "Utilizes ABC Diatype at large sizes (48px or 331px), typically in Canvas White (#ffffff) against Ink Black (#000000) or vice-versa, with tight letter spacing for visual impact. Has a distinct vertical rhythm of 202px below it."
+        },
+        {
+          "name": "Image Card",
+          "role": "Container for visual content.",
+          "description": "Images are presented with a 15px border-radius, giving a subtle softness to photographic elements within the otherwise sharp design. Text associated with images (e.g., captions) would typically use Canvas White #ffffff or Text Gray #212529."
+        },
+        {
+          "name": "Editorial Footer Section",
+          "role": "Bottom navigation and additional information block.",
+          "description": "Ink Black (#000000) background with Canvas White (#ffffff) text, structured with internal padding of 19px top/bottom and 29px left/right. Contains multiple interactive text links."
+        }
+      ],
+      "typography": [
+        {
+          "role": "Primary display font for headings and prominent editorial text. Its distinct letterforms and tight tracking at larger sizes create a bold, modern, almost logotype-like feel.",
+          "sizes": "36px, 48px, 331px",
+          "family": "ABC Diatype",
+          "weight": "400, 500",
+          "lineHeight": "1.05, 1.10, 1.52",
+          "substitute": "Inter",
+          "letterSpacing": "-0.052em at 36px/48px, -0.010em at 331px",
+          "fontFeatureSettings": "(none observed)"
+        },
+        {
+          "role": "Body text and functional UI elements where high readability and system-level consistency are preferred.",
+          "sizes": "16px",
+          "family": "system-ui",
+          "weight": "400",
+          "lineHeight": "1.50",
+          "substitute": "Segoe UI, Apple System",
+          "letterSpacing": "normal",
+          "fontFeatureSettings": "(none observed)"
+        }
+      ],
+      "description": "No Ideas employs a stark, editorial aesthetic, reminiscent of a printed publication. The design is monochromatic, relying almost entirely on black and white to establish a clear hierarchy and dramatic contrast, with emphasis on robust typography. Layouts are clean and spacious, emphasizing content over decorative elements, creating a focused and impactful visual experience. The system avoids shadows and complex gradients, prioritizing a flat, graphic quality.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "Quick Color Reference:\ntext: #212529\nbackground: #000000\nborder: #ffffff\naccent: no distinct accent color\nprimary action: no distinct CTA color\n\nExample Component Prompts:\n1. Create a page hero section: background Ink Black (#000000). Headline 'WINGS' using ABC Diatype at 331px, weight 400, color Canvas White (#ffffff), letter-spacing -0.010em. Subtitle 'PART V 1978–81' using ABC Diatype at 36px, weight 500, color Canvas White (#ffffff), letter-spacing -0.052em.\n2. Design a minimalist footer: background Ink Black (#000000), internal padding 19px vertical, 29px horizontal. Include navigation links like 'Info' and 'Shop' with text color Canvas White (#ffffff), using ABC Diatype 36px, weight 400, letter-spacing -0.052em.\n3. Implement a text block for 'Creative Direction Steve Attardo': text color Canvas White (#ffffff), using ABC Diatype 36px, weight 400, letter-spacing -0.052em, positioned over a Ink Black (#000000) background."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777520218536-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777520218536-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/908017b4-311c-4b89-afa5-c29c8cb08e8b",
+  "ranks": {
+    "trending": 473,
+    "popular": 645,
+    "newest": 110
+  },
+  "localSlug": "no-ideas-908017b4"
+}

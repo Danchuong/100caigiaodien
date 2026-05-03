@@ -1,0 +1,610 @@
+{
+  "id": "36cba9c4-9852-4f59-a52d-17be741f6ed8",
+  "url": "https://atmos.leeroy.ca",
+  "siteName": "ATMOS",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777513065114-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777513065114-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "light",
+  "colors": [
+    {
+      "name": "Sky Gradient",
+      "hex": "#0825c6",
+      "gradient": "linear-gradient(180deg, #0825c6 0%, #FFFFFF 100%)"
+    },
+    {
+      "name": "Canvas White",
+      "hex": "#ffffff"
+    },
+    {
+      "name": "Ink Black",
+      "hex": "#000000"
+    }
+  ],
+  "fonts": [
+    "NewYork",
+    "DM Sans",
+    "Times"
+  ],
+  "northStar": "Ethereal Sky Gradient",
+  "createdAt": "2026-04-30T01:38:04.086Z",
+  "previewVideoCapturedAt": null,
+  "industry": "other",
+  "fullResult": {
+    "meta": {
+      "url": "https://atmos.leeroy.ca",
+      "siteName": "ATMOS",
+      "extractedAt": "2026-04-30T01:38:04.018Z",
+      "durationMs": 38877,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 144,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#ffffff",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 1.0000000000000002
+            },
+            "contexts": [
+              "other",
+              "heading",
+              "body",
+              "link"
+            ],
+            "frequency": 361,
+            "confidence": 1,
+            "prominence": 17245847.311056342,
+            "properties": [
+              "color",
+              "borderColor",
+              "backgroundColor",
+              "fill"
+            ],
+            "usageCounts": {
+              "body/color": 4,
+              "link/color": 3,
+              "other/fill": 2,
+              "other/color": 54,
+              "heading/color": 8,
+              "body/borderColor": 16,
+              "link/borderColor": 12,
+              "other/borderColor": 216,
+              "heading/borderColor": 32,
+              "body/backgroundColor": 10,
+              "other/backgroundColor": 4
+            }
+          },
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "other",
+              "body"
+            ],
+            "frequency": 130,
+            "confidence": 1,
+            "prominence": 9115316.209992535,
+            "properties": [
+              "color",
+              "borderColor",
+              "fill"
+            ],
+            "usageCounts": {
+              "body/color": 10,
+              "other/fill": 35,
+              "other/color": 9,
+              "body/borderColor": 40,
+              "other/borderColor": 36
+            }
+          },
+          {
+            "hex": "#0825c6",
+            "oklch": {
+              "c": 0.2397192038074945,
+              "h": 264.9114217709534,
+              "l": 0.4018803783793125
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 21,
+            "confidence": 1,
+            "prominence": 426428.6891005729,
+            "properties": [
+              "fill"
+            ],
+            "usageCounts": {
+              "other/fill": 21
+            }
+          }
+        ],
+        "isDarkMode": false,
+        "colorfulness": 0.026573602618018288,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 21,
+            "background": "#ffffff",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 10.05,
+            "background": "#ffffff",
+            "foreground": "#0825c6"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 10,
+            "contexts": [
+              "link"
+            ],
+            "frequency": 3,
+            "properties": [
+              "marginTop"
+            ],
+            "propertyContextPairs": [
+              "marginTop|link"
+            ]
+          },
+          {
+            "value": 20,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 5,
+            "properties": [
+              "marginTop",
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "marginTop|body",
+              "marginBottom|body"
+            ]
+          },
+          {
+            "value": 30,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 30,
+            "properties": [
+              "paddingTop",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other",
+              "paddingBottom|other"
+            ]
+          },
+          {
+            "value": 42,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 2,
+            "properties": [
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "marginBottom|heading"
+            ]
+          },
+          {
+            "value": 50,
+            "contexts": [
+              "body",
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "marginTop"
+            ],
+            "propertyContextPairs": [
+              "marginTop|body",
+              "marginTop|other"
+            ]
+          },
+          {
+            "value": 100,
+            "contexts": [
+              "heading",
+              "body"
+            ],
+            "frequency": 3,
+            "properties": [
+              "marginTop"
+            ],
+            "propertyContextPairs": [
+              "marginTop|heading",
+              "marginTop|body"
+            ]
+          },
+          {
+            "value": 134,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 2,
+            "properties": [
+              "marginTop",
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "marginTop|heading",
+              "marginBottom|heading"
+            ]
+          },
+          {
+            "value": 250,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingTop",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other",
+              "paddingBottom|other"
+            ]
+          }
+        ],
+        "density": "spacious",
+        "baseUnit": null
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "Times",
+            "source": "system",
+            "weights": [
+              400
+            ],
+            "frequency": 53,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "DM Sans",
+            "source": "google",
+            "weights": [
+              400,
+              700
+            ],
+            "frequency": 27,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "_NewYork",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 8,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 20,
+          "name": "Major Third",
+          "ratio": 1.25,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 10,
+            "family": "Times",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "body"
+            ],
+            "frequency": 53,
+            "lineHeight": 1.15,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 20,
+            "family": "DM Sans",
+            "weight": 400,
+            "contexts": [
+              "body",
+              "link"
+            ],
+            "frequency": 6,
+            "lineHeight": 1.5,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 20,
+            "family": "DM Sans",
+            "weight": 400,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 3,
+            "lineHeight": 1.15,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 25,
+            "family": "DM Sans",
+            "weight": 400,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.5,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 25,
+            "family": "DM Sans",
+            "weight": 400,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "lineHeight": 1.15,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 30,
+            "family": "DM Sans",
+            "weight": 700,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 15,
+            "lineHeight": 1.15,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 50,
+            "family": "_NewYork",
+            "weight": 400,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 2,
+            "lineHeight": 1.15,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 200,
+            "family": "_NewYork",
+            "weight": 400,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 6,
+            "lineHeight": 1.15,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Prioritize generous vertical spacing, using 100px for section gaps and 20px for element gaps to maintain a spacious feel.",
+        "Use 'NewYork' font exclusively for large, declarative headlines and branding elements, leveraging its unique serif character.",
+        "Apply 'DM Sans' for all functional text, including body copy, links, and smaller headings, ensuring high readability.",
+        "Employ the Sky Gradient as a full-bleed background for immersive sections, letting it define the visual tone.",
+        "Utilize Canvas White as the dominant background color for textual content areas and Ink Black for primary text to ensure contrast.",
+        "Ensure interactive elements like buttons use Canvas White for their borders and text when on gradient or dark backgrounds.",
+        "Maintain a minimal approach to UI elements; focus on typography and spaciousness over complex component structures."
+      ],
+      "donts": [
+        "Do not introduce heavy shadows or complex elevation; the design emphasizes a flat aesthetic.",
+        "Avoid using saturated colors other than the brand's blues for any UI elements; restrict color to backgrounds and branding.",
+        "Do not use system default link colors; all links should be styled with Ink Black and 'DM Sans'.",
+        "Do not clutter layouts with too many distinct elements or varying component styles; simplicity is key.",
+        "Avoid tight spacing; maintain the spacious and airy feel across all content arrangements.",
+        "Do not use 'Times' for anything other than very small, auxiliary text; 'DM Sans' and 'NewYork' cover primary typography needs.",
+        "Do not apply excessive borders or backgrounds to interactive elements; maintain a ghost or outlined style where possible."
+      ],
+      "theme": "light",
+      "colors": [
+        {
+          "hex": "#0825c6",
+          "name": "Sky Gradient",
+          "role": "Background gradient for hero sections and immersive experiences, transitioning from deep indigo to bright sky blue",
+          "group": "brand",
+          "gradient": "linear-gradient(180deg, #0825c6 0%, #FFFFFF 100%)"
+        },
+        {
+          "hex": "#ffffff",
+          "name": "Canvas White",
+          "role": "Primary background for all content sections, cards, and most text. Also used for outlined button borders",
+          "group": "neutral"
+        },
+        {
+          "hex": "#000000",
+          "name": "Ink Black",
+          "role": "Primary text color for headlines and body copy, providing high contrast against white backgrounds. Used for some decorative fills",
+          "group": "neutral"
+        }
+      ],
+      "similar": [
+        {
+          "why": "Focus on large, artistic typography, immersive full-screen visuals, and sparse UI elements.",
+          "business": "Awwwards-winning portfolio sites"
+        },
+        {
+          "why": "Emphasis on high-quality visuals, minimal text, and a sophisticated, almost solemn, typographic presence.",
+          "business": "Luxury brand landing pages"
+        },
+        {
+          "why": "Uses color gradients for atmosphere rather than functional UI, combined with animation for a dreamlike feel.",
+          "business": "Experiential microsites"
+        },
+        {
+          "why": "The aesthetic prioritizes visual impact and mood over detailed information density, using large type as a design element.",
+          "business": "Abstract art showcases"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "buttons": "9999px"
+        },
+        "elementGap": "20px",
+        "sectionGap": "100px",
+        "cardPadding": "30px",
+        "pageMaxWidth": null
+      },
+      "industry": "other",
+      "northStar": "Ethereal Sky Gradient",
+      "typeScale": [
+        {
+          "role": "caption",
+          "size": 10,
+          "lineHeight": 1.15
+        },
+        {
+          "role": "body",
+          "size": 20,
+          "lineHeight": 1.15
+        },
+        {
+          "role": "subheading",
+          "size": 25,
+          "lineHeight": 1.15
+        },
+        {
+          "role": "heading",
+          "size": 30,
+          "lineHeight": 1.15
+        },
+        {
+          "role": "display",
+          "size": 50,
+          "lineHeight": 1.15
+        },
+        {
+          "role": "display-lg",
+          "size": 200,
+          "lineHeight": 1.15
+        }
+      ],
+      "components": [
+        {
+          "name": "Hero Title",
+          "role": "Dominant text element on the landing page.",
+          "description": "Uses 'NewYork' font at 200px (weight 400) in Ink Black, centered on the Sky Gradient background."
+        },
+        {
+          "name": "Circular Subtitle",
+          "role": "Accompanying descriptive text in the hero section.",
+          "description": "Curved text, DM Sans, 10px, Ink Black, describing the experience, often appearing within a boundary element."
+        },
+        {
+          "name": "Outlined Explore Button",
+          "role": "Primary call to action with a ghost-like appearance.",
+          "description": "DM Sans, 20px, Canvas White text on a transparent background, with a 1px Canvas White border and 9999px border-radius. Padding around 30px vertical and horizontal."
+        },
+        {
+          "name": "Introductory Heading",
+          "role": "Section titles after the hero.",
+          "description": "DM Sans, 30px (weight 700), Ink Black, typically followed by a 42px margin-bottom."
+        },
+        {
+          "name": "Body Text",
+          "role": "Standard paragraph text.",
+          "description": "DM Sans, 20px (weight 400), Ink Black, typically followed by a 20px margin-bottom for paragraph spacing."
+        },
+        {
+          "name": "Resource Link",
+          "role": "Hyperlinks to external content.",
+          "description": "DM Sans, 25px (weight 400), Ink Black, with a 10px top margin when appearing in lists."
+        }
+      ],
+      "typography": [
+        {
+          "role": "Decorative display font for branding and large section headlines. Its elegant serif forms create a strong, artistic statement.",
+          "sizes": "50px, 200px",
+          "family": "NewYork",
+          "weight": "400",
+          "lineHeight": "1.15",
+          "substitute": "Playfair Display"
+        },
+        {
+          "role": "Primary sans-serif for body text, links, and complementary information. Its clean geometry ensures readability in various contexts.",
+          "sizes": "20px, 25px, 30px",
+          "family": "DM Sans",
+          "weight": "400, 700",
+          "lineHeight": "1.15, 1.50",
+          "substitute": "Inter"
+        },
+        {
+          "role": "Small, functional text for auxiliary elements and fine print. Used at a very small size for subtle details.",
+          "sizes": "10px",
+          "family": "Times",
+          "weight": "400",
+          "lineHeight": "1.15",
+          "substitute": "Times New Roman"
+        }
+      ],
+      "description": "Atmos presents a serene, immersive experience with a light theme dominated by a vibrant blue sky gradient. Typography leans into a classic, elegant serif for branding contrasted with a clean sans-serif for content, creating a subtle tension between whimsy and readability. Large, expressive headlines set against spacious layouts evoke an ethereal, dreamlike atmosphere. The visual system minimizes UI elements, focusing instead on broad washes of color and text-centric communication.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "Quick Color Reference:\ntext: #000000\nbackground: #ffffff\nborder: #ffffff\naccent: no distinct accent color\nprimary action: no distinct CTA color\n\nExample Component Prompts:\n1. Create a Hero Section: Full-viewport background with Sky Gradient. Centered 'NewYork' headline (200px, #000000). Below it, a circular subtitle using 'DM Sans' (10px, #000000). Add an 'Explore' button ('DM Sans', 20px, #ffffff text, #ffffff 1px border, 9999px radius, 30px padding).\n2. Create a Content Section: Canvas White background. An Introductory Heading ('DM Sans', 30px, weight 700, #000000) with 42px margin-bottom. Follow with two paragraphs of Body Text ('DM Sans', 20px, weight 400, #000000), each with 20px margin-bottom.\n3. Create a Resource List: Canvas White background. A paragraph of Body Text ('DM Sans', 20px, weight 400, #000000). Below that, a list of Resource Links ('DM Sans', 25px, weight 400, #000000), each with 10px margin-top."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777513065114-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777513065114-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/36cba9c4-9852-4f59-a52d-17be741f6ed8",
+  "ranks": {
+    "trending": 302,
+    "popular": 533,
+    "newest": 557
+  },
+  "localSlug": "atmos-36cba9c4"
+}

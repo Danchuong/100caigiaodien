@@ -1,0 +1,585 @@
+{
+  "id": "30ebf167-9ad1-4b20-853c-2726f473f4c4",
+  "url": "https://www.ada.cx",
+  "siteName": "Ada",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777509256656-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777509256656-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "light",
+  "colors": [
+    {
+      "name": "Ghost Ink",
+      "hex": "#000000"
+    },
+    {
+      "name": "Canvas White",
+      "hex": "#FFFFFF"
+    },
+    {
+      "name": "Fog Button",
+      "hex": "#efefef"
+    },
+    {
+      "name": "Subtle Link Blue",
+      "hex": "#0000ee"
+    }
+  ],
+  "fonts": [
+    "Times",
+    "Arial"
+  ],
+  "northStar": "Contrast-driven document",
+  "createdAt": "2026-04-30T00:34:39.430Z",
+  "previewVideoCapturedAt": null,
+  "industry": "ai",
+  "fullResult": {
+    "meta": {
+      "url": "https://www.ada.cx",
+      "siteName": "Ada",
+      "extractedAt": "2026-04-30T00:34:39.320Z",
+      "durationMs": 37598,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 730,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "skipped",
+          "attempts": 1
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "other",
+              "nav",
+              "button",
+              "heading",
+              "body",
+              "icon",
+              "image",
+              "card",
+              "hero",
+              "list",
+              "footer"
+            ],
+            "frequency": 2401,
+            "confidence": 1,
+            "prominence": 626805477.2623432,
+            "properties": [
+              "color",
+              "borderColor",
+              "fill"
+            ],
+            "usageCounts": {
+              "nav/fill": 3,
+              "icon/fill": 34,
+              "nav/color": 88,
+              "body/color": 35,
+              "card/color": 16,
+              "hero/color": 1,
+              "icon/color": 1,
+              "list/color": 15,
+              "other/fill": 44,
+              "image/color": 58,
+              "other/color": 211,
+              "button/color": 10,
+              "footer/color": 1,
+              "heading/color": 28,
+              "nav/borderColor": 352,
+              "body/borderColor": 140,
+              "card/borderColor": 64,
+              "hero/borderColor": 4,
+              "icon/borderColor": 4,
+              "list/borderColor": 60,
+              "image/borderColor": 232,
+              "other/borderColor": 844,
+              "button/borderColor": 40,
+              "footer/borderColor": 4,
+              "heading/borderColor": 112
+            }
+          },
+          {
+            "hex": "#0a0b0c",
+            "oklch": {
+              "c": 0.00273356266580094,
+              "h": 248.07926261260448,
+              "l": 0.14885135745757147
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 548909,
+            "properties": [
+              "fill"
+            ],
+            "usageCounts": {
+              "other/fill": 1
+            }
+          },
+          {
+            "hex": "#efefef",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.9521308451894797
+            },
+            "contexts": [
+              "button"
+            ],
+            "frequency": 10,
+            "confidence": 1,
+            "prominence": 21939.71532539774,
+            "properties": [
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "button/backgroundColor": 10
+            }
+          }
+        ],
+        "isDarkMode": false,
+        "colorfulness": 0.0000030630212292153424,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 18.26,
+            "background": "#efefef",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 17.13,
+            "background": "#efefef",
+            "foreground": "#0a0b0c"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 1,
+            "contexts": [
+              "button"
+            ],
+            "frequency": 20,
+            "properties": [
+              "paddingTop",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|button",
+              "paddingBottom|button"
+            ]
+          },
+          {
+            "value": 6,
+            "contexts": [
+              "button"
+            ],
+            "frequency": 20,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|button",
+              "paddingLeft|button"
+            ]
+          },
+          {
+            "value": 16,
+            "contexts": [
+              "nav",
+              "body",
+              "list",
+              "other"
+            ],
+            "frequency": 70,
+            "properties": [
+              "marginTop",
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "marginTop|nav",
+              "marginBottom|nav",
+              "marginTop|body",
+              "marginBottom|body",
+              "marginTop|list",
+              "marginBottom|list",
+              "marginTop|other",
+              "marginBottom|other"
+            ]
+          },
+          {
+            "value": 19,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 6,
+            "properties": [
+              "marginTop",
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "marginTop|heading",
+              "marginBottom|heading"
+            ]
+          },
+          {
+            "value": 20,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 22,
+            "properties": [
+              "marginTop",
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "marginTop|heading",
+              "marginBottom|heading"
+            ]
+          },
+          {
+            "value": 21,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 34,
+            "properties": [
+              "marginTop",
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "marginTop|heading",
+              "marginBottom|heading"
+            ]
+          },
+          {
+            "value": 40,
+            "contexts": [
+              "nav",
+              "list",
+              "other",
+              "body"
+            ],
+            "frequency": 31,
+            "properties": [
+              "paddingLeft",
+              "marginRight",
+              "marginLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingLeft|nav",
+              "paddingLeft|list",
+              "marginRight|other",
+              "marginLeft|other",
+              "marginRight|body",
+              "marginLeft|body"
+            ]
+          }
+        ],
+        "density": "comfortable",
+        "baseUnit": 4
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "Times",
+            "source": "system",
+            "weights": [
+              400,
+              700
+            ],
+            "frequency": 638,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "Arial",
+            "source": "system",
+            "weights": [
+              400
+            ],
+            "frequency": 29,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 16,
+          "name": "Minor Second",
+          "ratio": 1.067,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 13,
+            "family": "Arial",
+            "weight": 400,
+            "contexts": [
+              "button",
+              "nav",
+              "body",
+              "icon"
+            ],
+            "frequency": 29,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "Times",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "link",
+              "nav",
+              "body",
+              "image",
+              "card",
+              "icon",
+              "hero",
+              "list",
+              "footer"
+            ],
+            "frequency": 600,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 19,
+            "family": "Times",
+            "weight": 700,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 3,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 24,
+            "family": "Times",
+            "weight": 700,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 11,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 32,
+            "family": "Times",
+            "weight": 700,
+            "contexts": [
+              "heading",
+              "other",
+              "link"
+            ],
+            "frequency": 24,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Prioritize Times (serif) for all headings and primary body text to establish an authoritative tone.",
+        "Use Arial (sans-serif) only for functional elements like buttons or small navigational text, ensuring clear distinction from content.",
+        "Maintain high contrast throughout the interface, primarily using Ghost Ink (#000000) on Canvas White (#FFFFFF) backgrounds.",
+        "Apply Fog Button (#efefef) as the background for any button intended to be visually subtle but interactive.",
+        "Ensure all interactive elements, where visible borders are present, such as ghost buttons, use a 1px Ghost Ink (#000000) border.",
+        "Adhere to 0px border-radius for all component corners, reinforcing a sharp, precise aesthetic.",
+        "Utilize 16px as the standard vertical element separation, with larger 40px gaps for section breaks."
+      ],
+      "donts": [
+        "Avoid using any colors other than Ghost Ink (#000000), Canvas White (#FFFFFF), Fog Button (#efefef), and the browser default blue link color in the UI.",
+        "Do not introduce rounded corners or box shadows, as the system relies on flat surfaces and sharp edges.",
+        "Do not deviate from the specified font families or their assigned roles; Times is for content, Arial for controls.",
+        "Avoid decorative gradients or background images that detract from the content-first focus.",
+        "Do not use padding on cards; they should act as invisible containers using the default 0px padding.",
+        "Do not apply custom styling to links; allow the browser default underlined blue to indicate interactivity.",
+        "Never use less than 16px vertical element spacing, except for specific button padding."
+      ],
+      "theme": "light",
+      "colors": [
+        {
+          "hex": "#000000",
+          "name": "Ghost Ink",
+          "role": "Dark borders and separators for elevated surfaces and inverted UI. Do not promote it to the primary CTA color",
+          "group": "neutral"
+        },
+        {
+          "hex": "#FFFFFF",
+          "name": "Canvas White",
+          "role": "Page background, surface background for all content blocks. The primary color base for the entire system providing a clean, bright foundation",
+          "group": "neutral"
+        },
+        {
+          "hex": "#efefef",
+          "name": "Fog Button",
+          "role": "Background for secondary or ghost buttons, indicating an interactive but low-emphasis element",
+          "group": "neutral"
+        },
+        {
+          "hex": "#0000ee",
+          "name": "Subtle Link Blue",
+          "role": "Default browser link color, appears as informative text links",
+          "group": "neutral"
+        }
+      ],
+      "layout": "The page exhibits a full-bleed layout, maximizing screen width for content delivery. The hero section features a prominent, centered headline over a dark background. Content sections follow in a vertical stack, utilizing consistent vertical spacing. While the layout often features a single column for primary content, some areas suggest implicit two-column arrangements for text and visual pairings. Navigation primarily appears as a static top bar with interactive dropdowns, and occasional nested lists for sub-navigation. The overall density is comfortable, with ample breathing room between content blocks, but the information itself is presented concisely.",
+      "imagery": "The site predominantly uses abstract, textural imagery with a muted, often blurred aesthetic, serving as atmospheric backdrops rather than explicit content. Product screenshots are minimal. Icons are monochrome, often using Ghost Ink outlines, maintaining the stark, high-contrast feel. Imagery density is low, with visuals primarily serving as decorative accents or visual breaks rather than key information carriers.",
+      "similar": [
+        {
+          "why": "Shares a high-contrast, text-dominant interface with minimal graphic elements and a focus on serious, functional typography.",
+          "business": "OpenAI"
+        },
+        {
+          "why": "Emphasizes a crisp, utility-first UI with extensive use of black text on white backgrounds and a clear hierarchy through font sizes and weights.",
+          "business": "Notion"
+        },
+        {
+          "why": "Features a strong emphasis on readability with classic serif typography for content, paired with minimalist UI elements.",
+          "business": "Substack"
+        },
+        {
+          "why": "Utilizes stark UI with high contrast, precise typography, and a lack of decorative flourish to convey efficiency and focus.",
+          "business": "Linear"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "none": "0px"
+        },
+        "elementGap": "16px",
+        "sectionGap": "40px",
+        "cardPadding": "0px",
+        "pageMaxWidth": null
+      },
+      "industry": "ai",
+      "northStar": "Contrast-driven document",
+      "typeScale": [
+        {
+          "role": "body",
+          "size": 16,
+          "lineHeight": 1.2,
+          "letterSpacing": 0
+        },
+        {
+          "role": "subheading",
+          "size": 19,
+          "lineHeight": 1.2,
+          "letterSpacing": 0
+        },
+        {
+          "role": "heading",
+          "size": 24,
+          "lineHeight": 1.2,
+          "letterSpacing": 0
+        },
+        {
+          "role": "display",
+          "size": 32,
+          "lineHeight": 1.2,
+          "letterSpacing": 0
+        }
+      ],
+      "components": [
+        {
+          "name": "Ghost Button",
+          "role": "Interactive element for secondary actions.",
+          "description": "Background: Fog Button (#efefef), Text: Ghost Ink (#000000), Border: 1px Ghost Ink (#000000) on all sides, Padding: 1px top/bottom, 6px left/right. Radius: 0px."
+        },
+        {
+          "name": "Navigation Link",
+          "role": "Primary navigation items.",
+          "description": "Text: Ghost Ink (#000000), Font: Times 16px, Line Height: 1.20. No padding or background by default, relies on text contrast. Links are underlined by default (browser behavior), this is not a custom style."
+        },
+        {
+          "name": "Information Card (Unstyled)",
+          "role": "General content container for text and images.",
+          "description": "Background: Transparent (rgba(0, 0, 0, 0)), Border: None, Box Shadow: None, Padding: 0px, Radius: 0px. Acts as a simple wrapper for content without imposing visual style."
+        }
+      ],
+      "typography": [
+        {
+          "role": "Core content font for headings, body text, links, and navigation. Its serifs lend a classic, authoritative feel, reinforcing the informative and research-heavy nature of the content. Headlines often use bolder weights to establish hierarchy, while body text maintains readability with the 400 weight. Used for most of the prominent text, including the brand name.",
+          "sizes": "16px, 19px, 24px, 32px",
+          "family": "Times",
+          "weight": "400, 700",
+          "weights": [
+            "400",
+            "700"
+          ],
+          "lineHeight": "1.20",
+          "substitute": "serif",
+          "letterSpacing": "normal"
+        },
+        {
+          "role": "Supportive text for buttons, navigation sub-items, and small informational text. Its sans-serif nature provides a utilitarian contrast to the Times serif font, used for functional elements where clarity and conciseness are prioritized.",
+          "sizes": "13px",
+          "family": "Arial",
+          "weight": "400",
+          "weights": [
+            "400"
+          ],
+          "lineHeight": "1.20",
+          "substitute": "sans-serif",
+          "letterSpacing": "normal"
+        }
+      ],
+      "description": "The Ada design system establishes a stark, information-first aesthetic built on high contrast and minimal ornamentation. Typography anchors the visual hierarchy, with a clear distinction between prominent headings and concise body text. Surfaces are flat and monochromatic, emphasizing content over decorative elements. Interaction is signaled through bold black borders and subtle background shifts, ensuring focus remains on actionable items.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "Quick Color Reference:\ntext: #000000\nbackground: #FFFFFF\nborder: #000000\naccent: no distinct accent color\nprimary action: no distinct CTA color\n\nExample Component Prompts:\n1. Create a ghost button: background #efefef, text Ghost Ink (#000000), 1px Ghost Ink (#000000) border, 0px radius, 1px vertical padding, 6px horizontal padding, using Arial 13px.\n2. Design a primary content section: Canvas White (#FFFFFF) background, with a main heading using Times 32px Ghost Ink (#000000) and body text using Times 16px Ghost Ink (#000000), with 40px vertical spacing between sections.\n3. Create a navigation link: Text Ghost Ink (#000000), Font Times 16px, Line Height 1.20, no background or border, using 16px element gaps for spacing."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777509256656-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777509256656-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/30ebf167-9ad1-4b20-853c-2726f473f4c4",
+  "ranks": {
+    "trending": 1141,
+    "popular": 1175,
+    "newest": 759
+  },
+  "localSlug": "ada-30ebf167"
+}

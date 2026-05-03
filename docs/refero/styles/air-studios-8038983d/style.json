@@ -1,0 +1,435 @@
+{
+  "id": "8038983d-8aa9-485f-88fe-2ff696b9ff27",
+  "url": "https://airstudios.com",
+  "siteName": "AIR Studios",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777521038854-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777521038854-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "dark",
+  "colors": [
+    {
+      "name": "Deep Raspberry",
+      "hex": "#b42c4b"
+    },
+    {
+      "name": "Charcoal Slate",
+      "hex": "#1a1b1b"
+    },
+    {
+      "name": "Midnight Void",
+      "hex": "#000000"
+    }
+  ],
+  "fonts": [
+    "akzidenz-grotesk"
+  ],
+  "northStar": "Crimson Canvas, Dark Ink",
+  "createdAt": "2026-04-30T03:51:13.723Z",
+  "previewVideoCapturedAt": null,
+  "industry": "media",
+  "fullResult": {
+    "meta": {
+      "url": "https://airstudios.com",
+      "siteName": "AIR Studios",
+      "extractedAt": "2026-04-30T03:51:13.656Z",
+      "durationMs": 46069,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 93,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#1a1b1b",
+            "oklch": {
+              "c": 0.0015365920935104555,
+              "h": 197.0454854355382,
+              "l": 0.22103894649711928
+            },
+            "contexts": [
+              "other",
+              "nav",
+              "link",
+              "icon",
+              "footer",
+              "body",
+              "list"
+            ],
+            "frequency": 330,
+            "confidence": 1,
+            "prominence": 10848410.879222155,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "nav/color": 6,
+              "body/color": 6,
+              "icon/color": 3,
+              "link/color": 19,
+              "list/color": 14,
+              "other/color": 17,
+              "footer/color": 1,
+              "nav/borderColor": 24,
+              "body/borderColor": 24,
+              "icon/borderColor": 12,
+              "link/borderColor": 76,
+              "list/borderColor": 56,
+              "other/borderColor": 68,
+              "footer/borderColor": 4
+            }
+          },
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "icon",
+              "other"
+            ],
+            "frequency": 24,
+            "confidence": 1,
+            "prominence": 4179.470570797252,
+            "properties": [
+              "fill"
+            ],
+            "usageCounts": {
+              "icon/fill": 6,
+              "other/fill": 18
+            }
+          }
+        ],
+        "isDarkMode": true,
+        "colorfulness": 0.0038713955631275794,
+        "contrastPairs": []
+      },
+      "shapes": {
+        "radii": [],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 10,
+            "contexts": [
+              "nav",
+              "other"
+            ],
+            "frequency": 20,
+            "properties": [
+              "paddingRight",
+              "paddingLeft",
+              "paddingTop",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|nav",
+              "paddingLeft|nav",
+              "paddingRight|other",
+              "paddingLeft|other",
+              "paddingTop|other",
+              "paddingBottom|other"
+            ]
+          },
+          {
+            "value": 16,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 1,
+            "properties": [
+              "marginRight"
+            ],
+            "propertyContextPairs": [
+              "marginRight|nav"
+            ]
+          },
+          {
+            "value": 20,
+            "contexts": [
+              "nav",
+              "list"
+            ],
+            "frequency": 9,
+            "properties": [
+              "paddingTop",
+              "paddingRight",
+              "paddingBottom",
+              "paddingLeft",
+              "marginRight"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|nav",
+              "paddingRight|nav",
+              "paddingBottom|nav",
+              "paddingLeft|nav",
+              "marginRight|list"
+            ]
+          },
+          {
+            "value": 30,
+            "contexts": [
+              "footer"
+            ],
+            "frequency": 1,
+            "properties": [
+              "paddingTop"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|footer"
+            ]
+          }
+        ],
+        "density": "compact",
+        "baseUnit": null
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "akzidenz-grotesk",
+            "source": "custom",
+            "weights": [
+              300,
+              400
+            ],
+            "frequency": 72,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 16,
+          "name": "Minor Second",
+          "ratio": 1.067,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 14,
+            "family": "akzidenz-grotesk",
+            "weight": 300,
+            "contexts": [
+              "footer",
+              "other",
+              "body",
+              "link",
+              "list"
+            ],
+            "frequency": 22,
+            "lineHeight": 1.14,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 14,
+            "family": "akzidenz-grotesk",
+            "weight": 300,
+            "contexts": [
+              "list"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.14,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 16,
+            "family": "akzidenz-grotesk",
+            "weight": 300,
+            "contexts": [
+              "other",
+              "nav"
+            ],
+            "frequency": 12,
+            "lineHeight": 1.5,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 18,
+            "family": "akzidenz-grotesk",
+            "weight": 300,
+            "contexts": [
+              "list",
+              "link",
+              "icon"
+            ],
+            "frequency": 17,
+            "lineHeight": 1.33,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 18,
+            "family": "akzidenz-grotesk",
+            "weight": 300,
+            "contexts": [
+              "list",
+              "link"
+            ],
+            "frequency": 16,
+            "lineHeight": 1.33,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 20,
+            "family": "akzidenz-grotesk",
+            "weight": 300,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.5,
+            "letterSpacing": 0,
+            "textTransform": "capitalize"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Prioritize Deep Raspberry (#b42c4b) for large background areas to set the primary mood.",
+        "Use akzidenz-grotesk at weight 400 for all primary text content and headings.",
+        "Employ Charcoal Slate (#1a1b1b) as the default text color, ensuring high contrast against Deep Raspberry or similar backgrounds.",
+        "Render interactive elements like links and navigation items using Charcoal Slate (#1a1b1b) text and a subtle 1px border in the same color for interaction.",
+        "Maintain minimal padding (10px or 20px) around elements only where essential for legibility, avoiding excessive whitespace.",
+        "Utilize 0px border-radius across all components to reinforce the sharp, conceptual aesthetic."
+      ],
+      "donts": [
+        "Do not introduce strong accent colors or gradients; color should be used sparingly and functionally.",
+        "Avoid decorative shadows or complex elevation schemes; interfaces should remain flat and direct.",
+        "Do not use type sizes smaller than 14px or larger than 20px for primary content or navigation.",
+        "Refrain from large, illustrative imagery that might detract from the focus on core content.",
+        "Do not apply rounded corners to any UI elements; maintain sharp, angular forms.",
+        "Avoid prominent call-to-action buttons with solid backgrounds; interactive elements should be understated."
+      ],
+      "theme": "dark",
+      "colors": [
+        {
+          "hex": "#b42c4b",
+          "name": "Deep Raspberry",
+          "role": "Primary background color, dominant page canvas",
+          "group": "brand"
+        },
+        {
+          "hex": "#1a1b1b",
+          "name": "Charcoal Slate",
+          "role": "Dark borders and separators for elevated surfaces and inverted UI. Do not promote it to the primary CTA color",
+          "group": "neutral"
+        },
+        {
+          "hex": "#000000",
+          "name": "Midnight Void",
+          "role": "Decorative icon fills, subtle background elements",
+          "group": "neutral"
+        }
+      ],
+      "layout": "The page operates on a full-bleed layout, where the dominant background color (Deep Raspberry) extends to the edges of the viewport. Content is subtly constrained by implied margins, giving the impression of a single, expansive canvas. The hero section is characterized by a full-viewport, centered abstract graphic. Navigation is sparse, positioned at the top-left and top-right, while social links are tucked into the bottom-right. The overall density is low, emphasizing breathing room and the visual impact of the central graphic.",
+      "imagery": "The site uses minimal imagery, primarily relying on fine, geometric line art as a central visual motif. This abstract graphic is integrated directly into the background, providing texture and movement without depicting specific objects or people. Icons are monochrome, simple, and functional, maintaining the stark visual vocabulary. The approach is graphics-dominant rather than image-dominant, using abstract forms to convey mood.",
+      "similar": [
+        {
+          "why": "Similar focus on bold, singular background colors, minimal typography, and understated navigation.",
+          "business": "A24"
+        },
+        {
+          "why": "Uses strong typographic statements and a conceptual color palette over heavy imagery.",
+          "business": "Pentagram (select projects)"
+        },
+        {
+          "why": "Emphasizes a clean, black-and-white aesthetic with minimal, high-contrast UI elements.",
+          "business": "The Designer's Studio"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "none": "0px"
+        },
+        "elementGap": "16px",
+        "sectionGap": "",
+        "cardPadding": "20px",
+        "pageMaxWidth": null
+      },
+      "industry": "media",
+      "northStar": "Crimson Canvas, Dark Ink",
+      "typeScale": [
+        {
+          "role": "body-sm",
+          "size": 14,
+          "lineHeight": 1.5
+        },
+        {
+          "role": "body",
+          "size": 16,
+          "lineHeight": 1.5
+        },
+        {
+          "role": "subheading",
+          "size": 18,
+          "lineHeight": 1.33
+        },
+        {
+          "role": "heading",
+          "size": 20,
+          "lineHeight": 1.14
+        }
+      ],
+      "components": [
+        {
+          "name": "Ghost Border Link",
+          "role": "Navigation and footer links",
+          "description": "Text in Charcoal Slate (#1a1b1b) with a 1px border on interaction. No background, no padding."
+        }
+      ],
+      "typography": [
+        {
+          "role": "Primary typeface for all UI elements, headings, body text, and links. Its utilitarian feel contributes to the system's directness.",
+          "sizes": "14px, 16px, 18px, 20px",
+          "family": "akzidenz-grotesk",
+          "weight": "300, 400",
+          "lineHeight": "1.14, 1.33, 1.50",
+          "substitute": "Inter"
+        }
+      ],
+      "description": "AIR Studios employs a spare, conceptual UI, prioritizing content over ornamental elements. Bold background colors serve as the primary visual anchor, punctuated by fine line art and stark monochrome typography. Interaction is subtle, using ghost borders and minimal hover effects. The system feels direct and unencumbered, focusing attention on the brand's creative output rather than the interface itself.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "Quick Color Reference:\ntext: #1a1b1b\nbackground: #b42c4b\nborder: no distinct border color\naccent: no distinct accent color\nprimary action: no distinct CTA color\n\nExample Component Prompts:\n1. Create a page header with 'AIR' as the logo text: text color #1a1b1b, font akzidenz-grotesk weight 400, size 20px, line height 1.14, on Deep Raspberry background #b42c4b. Position top-left.\n2. Create a footer social link: text color #1a1b1b, font akzidenz-grotesk weight 400, size 14px, line height 1.5. On hover, apply a 1px border in #1a1b1b."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777521038854-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777521038854-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/8038983d-8aa9-485f-88fe-2ff696b9ff27",
+  "ranks": {
+    "trending": 415,
+    "popular": 605,
+    "newest": 46
+  },
+  "localSlug": "air-studios-8038983d"
+}

@@ -1,0 +1,729 @@
+{
+  "id": "32036fa8-39f0-4ebb-b05e-f5b11038d87a",
+  "url": "https://offten.xyz",
+  "siteName": "Offten",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777520720452-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777520720452-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "light",
+  "colors": [
+    {
+      "name": "Midnight Ink",
+      "hex": "#000000",
+      "gradient": "rgba(0, 0, 0, 0.1)"
+    },
+    {
+      "name": "Canvas White",
+      "hex": "#ffffff"
+    },
+    {
+      "name": "Signal Green",
+      "hex": "#00db00"
+    },
+    {
+      "name": "Sunset Orange",
+      "hex": "#d53f09"
+    },
+    {
+      "name": "Mango Pop",
+      "hex": "#f77647"
+    }
+  ],
+  "fonts": [
+    "nh"
+  ],
+  "northStar": "Pixelated monochrome glitch",
+  "createdAt": "2026-04-30T03:45:40.797Z",
+  "previewVideoCapturedAt": null,
+  "industry": "design",
+  "fullResult": {
+    "meta": {
+      "url": "https://offten.xyz",
+      "siteName": "Offten",
+      "extractedAt": "2026-04-30T03:45:40.724Z",
+      "durationMs": 30117,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 314,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "other",
+              "card",
+              "heading",
+              "body",
+              "badge",
+              "link",
+              "button",
+              "nav"
+            ],
+            "frequency": 1426,
+            "confidence": 1,
+            "prominence": 13580485.426840588,
+            "properties": [
+              "color",
+              "borderColor",
+              "fill",
+              "stroke"
+            ],
+            "usageCounts": {
+              "nav/color": 10,
+              "body/color": 2,
+              "card/color": 1,
+              "link/color": 2,
+              "other/fill": 4,
+              "badge/color": 1,
+              "other/color": 246,
+              "button/color": 2,
+              "other/stroke": 7,
+              "heading/color": 19,
+              "nav/borderColor": 40,
+              "body/borderColor": 8,
+              "card/borderColor": 4,
+              "link/borderColor": 8,
+              "badge/borderColor": 4,
+              "other/borderColor": 984,
+              "button/borderColor": 8,
+              "heading/borderColor": 76
+            }
+          },
+          {
+            "hex": "#ffffff",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 1.0000000000000002
+            },
+            "contexts": [
+              "other",
+              "body"
+            ],
+            "frequency": 23,
+            "confidence": 1,
+            "prominence": 5942111.400934618,
+            "properties": [
+              "color",
+              "borderColor",
+              "backgroundColor",
+              "stroke"
+            ],
+            "usageCounts": {
+              "body/color": 1,
+              "other/color": 3,
+              "other/stroke": 1,
+              "body/borderColor": 4,
+              "other/borderColor": 12,
+              "other/backgroundColor": 2
+            }
+          },
+          {
+            "hex": "#f77647",
+            "oklch": {
+              "c": 0.17007732503838635,
+              "h": 39.96262880878969,
+              "l": 0.7098038494948923
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 9,
+            "confidence": 1,
+            "prominence": 149486.7642699313,
+            "properties": [
+              "fill",
+              "stroke"
+            ],
+            "usageCounts": {
+              "other/fill": 5,
+              "other/stroke": 4
+            }
+          },
+          {
+            "hex": "#d53f09",
+            "oklch": {
+              "c": 0.19430404618481323,
+              "h": 36.312730646138235,
+              "l": 0.5833543237546907
+            },
+            "contexts": [
+              "heading",
+              "other"
+            ],
+            "frequency": 50,
+            "confidence": 1,
+            "prominence": 52112.57161669213,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "other/color": 9,
+              "heading/color": 1,
+              "other/borderColor": 36,
+              "heading/borderColor": 4
+            }
+          },
+          {
+            "hex": "#00db00",
+            "oklch": {
+              "c": 0.2628182295241345,
+              "h": 142.49534504144387,
+              "l": 0.7723714342197769
+            },
+            "contexts": [
+              "button",
+              "icon",
+              "other"
+            ],
+            "frequency": 13,
+            "confidence": 1,
+            "prominence": 8772.14574042072,
+            "properties": [
+              "color",
+              "borderColor",
+              "fill"
+            ],
+            "usageCounts": {
+              "icon/fill": 2,
+              "icon/color": 1,
+              "other/fill": 1,
+              "button/color": 1,
+              "icon/borderColor": 4,
+              "button/borderColor": 4
+            }
+          }
+        ],
+        "isDarkMode": false,
+        "colorfulness": 0.026054223249995363,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 21,
+            "background": "#ffffff",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 11.13,
+            "background": "#00db00",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 7.64,
+            "background": "#f77647",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AA",
+            "ratio": 4.62,
+            "background": "#ffffff",
+            "foreground": "#d53f09"
+          },
+          {
+            "level": "fail",
+            "ratio": 1.89,
+            "background": "#ffffff",
+            "foreground": "#00db00"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [
+          {
+            "value": 22.5,
+            "contexts": [
+              "card"
+            ],
+            "frequency": 1
+          }
+        ],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 1,
+            "contexts": [
+              "button"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingTop",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|button",
+              "paddingBottom|button"
+            ]
+          },
+          {
+            "value": 3,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 8,
+            "properties": [
+              "paddingRight"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|heading"
+            ]
+          },
+          {
+            "value": 6,
+            "contexts": [
+              "button"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|button",
+              "paddingLeft|button"
+            ]
+          },
+          {
+            "value": 12,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 4,
+            "properties": [
+              "paddingTop",
+              "paddingRight",
+              "paddingBottom",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other",
+              "paddingRight|other",
+              "paddingBottom|other",
+              "paddingLeft|other"
+            ]
+          },
+          {
+            "value": 17,
+            "contexts": [
+              "button",
+              "link"
+            ],
+            "frequency": 4,
+            "properties": [
+              "paddingTop",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|button",
+              "paddingBottom|button",
+              "paddingTop|link",
+              "paddingBottom|link"
+            ]
+          },
+          {
+            "value": 24,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 16,
+            "properties": [
+              "paddingTop",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|nav",
+              "paddingBottom|nav"
+            ]
+          },
+          {
+            "value": 30,
+            "contexts": [
+              "button",
+              "link"
+            ],
+            "frequency": 4,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|button",
+              "paddingLeft|button",
+              "paddingRight|link",
+              "paddingLeft|link"
+            ]
+          },
+          {
+            "value": 38,
+            "contexts": [
+              "card"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|card",
+              "paddingLeft|card"
+            ]
+          }
+        ],
+        "density": "comfortable",
+        "baseUnit": 6
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "nh",
+            "source": "custom",
+            "weights": [
+              400,
+              700
+            ],
+            "frequency": 299,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 26,
+          "name": "Major Second",
+          "ratio": 1.125,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 14,
+            "family": "nh",
+            "weight": 400,
+            "contexts": [
+              "button"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.15,
+            "letterSpacing": 0.025,
+            "textTransform": "none"
+          },
+          {
+            "size": 14,
+            "family": "nh",
+            "weight": 400,
+            "contexts": [
+              "link"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.15,
+            "letterSpacing": 0.026,
+            "textTransform": "none"
+          },
+          {
+            "size": 15,
+            "family": "nh",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "card",
+              "button",
+              "icon",
+              "badge",
+              "link",
+              "nav"
+            ],
+            "frequency": 29,
+            "lineHeight": 1.15,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 15,
+            "family": "nh",
+            "weight": 700,
+            "contexts": [
+              "heading",
+              "body"
+            ],
+            "frequency": 2,
+            "lineHeight": 1.15,
+            "letterSpacing": 0.055,
+            "textTransform": "none"
+          },
+          {
+            "size": 15,
+            "family": "nh",
+            "weight": 700,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.15,
+            "letterSpacing": 0.055,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 16,
+            "family": "nh",
+            "weight": 400,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.15,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "nh",
+            "weight": 400,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 29,
+            "lineHeight": 1.15,
+            "letterSpacing": 0.023,
+            "textTransform": "none"
+          },
+          {
+            "size": 19,
+            "family": "nh",
+            "weight": 400,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.15,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 26,
+            "family": "nh",
+            "weight": 700,
+            "contexts": [
+              "heading",
+              "other"
+            ],
+            "frequency": 230,
+            "lineHeight": 2.5,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 39,
+            "family": "nh",
+            "weight": 400,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 4,
+            "lineHeight": 1.15,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Prioritize Midnight Ink for all primary text and UI outlines to maintain a stark monochromatic core.",
+        "Use Signal Green exclusively for outlined interactive elements and critical icons to ensure visual emphasis.",
+        "Apply nh font with its distinct letter-spacing for all text elements; ensure tracking is consistent across sizes.",
+        "Implement the 22.5px border-radius consistently for card-like surfaces to create a uniform soft edge.",
+        "Employ a base unit of 6px for all spacing decisions, especially for micro-padding and element gaps.",
+        "Utilize Translucent Smoke (rgba(0,0,0,0.1)) subtly for card backgrounds, avoiding strong, opaque surface differences.",
+        "Ensure headings use increased letter-spacing to enhance the signature 'fragmented' typographic style."
+      ],
+      "donts": [
+        "Avoid using drop shadows or heavy elevation; surfaces should remain flat or rely on subtle background tints.",
+        "Do not introduce additional background or accent colors beyond Canvas White, Midnight Ink, Signal Green, and the orange tones.",
+        "Do not use standard sans-serif fonts; the unique nh typeface is fundamental to the brand's identity.",
+        "Do not deviate from the specified letter-spacing values, as they are integral to the typographic impression.",
+        "Avoid using large, filled buttons; all primary actions should be represented by the outlined Signal Green variant.",
+        "Do not round corners excessively on elements other than cards; buttons and badges should mostly be sharp or pill-shaped.",
+        "Avoid generic imagery or illustrations; instead, favor abstract, glitch-like, or heavily processed visuals."
+      ],
+      "theme": "light",
+      "colors": [
+        {
+          "hex": "#000000",
+          "name": "Midnight Ink",
+          "role": "Primary text, card borders, navigation outlines, general UI borders — establishes high contrast against white backgrounds; Subtle card backgrounds, providing a light frosted effect without full opacity",
+          "group": "neutral",
+          "gradient": "rgba(0, 0, 0, 0.1)"
+        },
+        {
+          "hex": "#ffffff",
+          "name": "Canvas White",
+          "role": "Hairline borders, dividers, input outlines, and card edges on light surfaces. Do not promote it to the primary CTA color",
+          "group": "neutral"
+        },
+        {
+          "hex": "#00db00",
+          "name": "Signal Green",
+          "role": "Interactive elements, outlined button borders, icon accents — provides a stark, vivid contrast for actions",
+          "group": "accent"
+        },
+        {
+          "hex": "#d53f09",
+          "name": "Sunset Orange",
+          "role": "Decorative text highlights, border accents, occasional heading color",
+          "group": "accent"
+        },
+        {
+          "hex": "#f77647",
+          "name": "Mango Pop",
+          "role": "Illustrative fills and strokes, decorative graphic elements",
+          "group": "accent"
+        }
+      ],
+      "layout": "The page structure often uses a full-bleed model, especially for hero sections, which can feature centered headlines over abstract backgrounds. Content sections tend to display a comfortable density with strong vertical rhythm, but specific section gaps can vary. There isn't a rigid grid system for content, rather a flowing arrangement of text and card-like elements. Navigation is minimal, often appearing as highly stylized text links or outlined buttons in the header/footer. Elements exhibit a sense of being intentionally 'broken' or out of place, such as widely spaced text within a minimal layout, contributing to the glitch aesthetic.",
+      "imagery": "The visual language of imagery is abstract and graphic, leaning heavily into stylized, almost glitch-art effects. There are no traditional photographs or realistic illustrations. Instead, visuals feature abstract shapes and patterns, often with a raw, distressed, or pixelated aesthetic. The prominent use of orange and its variations (#f77647, #d53f09) suggests these are decorative, brand-specific elements, possibly serving as background textures or visual noise rather than conveying literal meaning. Icons, when present, are simple outlines or solid fills, often in Signal Green or Midnight Ink, contributing to the stark, functional yet experimental UI.",
+      "similar": [
+        {
+          "why": "Stark, monochrome palette with strong architectural lines and a single contrasting accent color, often green or red.",
+          "business": "A-COLD-WALL*"
+        },
+        {
+          "why": "Minimalist, fashion-forward aesthetic with heavy use of black, white, and subtle, often abstract, typographic treatments.",
+          "business": "Y-3 (Adidas x Yohji Yamamoto)"
+        },
+        {
+          "why": "Raw, almost 'ugly' aesthetic deliberately eschewing traditional elegance, paired with blocky, heavily-tracked typography and minimal color.",
+          "business": "Balenciaga (early Demna Gvasalia era)"
+        },
+        {
+          "why": "Experimental graphic design with bold, custom typography, often using exaggerated letter-spacing, and a limited, high-contrast color palette.",
+          "business": "Studio Fnt (design agency)"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "cards": "22.5px"
+        },
+        "elementGap": "6px",
+        "sectionGap": "48-64px",
+        "cardPadding": "",
+        "pageMaxWidth": null
+      },
+      "industry": "design",
+      "northStar": "Pixelated monochrome glitch",
+      "typeScale": [
+        {
+          "role": "caption",
+          "size": 14,
+          "lineHeight": 1.15,
+          "letterSpacing": 0.36
+        },
+        {
+          "role": "body",
+          "size": 16,
+          "lineHeight": 1.15,
+          "letterSpacing": 0.4
+        },
+        {
+          "role": "subheading",
+          "size": 19,
+          "lineHeight": 1.15,
+          "letterSpacing": 0.49
+        },
+        {
+          "role": "heading",
+          "size": 26,
+          "lineHeight": 1.15,
+          "letterSpacing": 0.67
+        },
+        {
+          "role": "display",
+          "size": 39,
+          "lineHeight": 2.5,
+          "letterSpacing": 1.07
+        }
+      ],
+      "components": [
+        {
+          "name": "Ghost Button",
+          "role": "Interactive element, navigation links",
+          "description": "Transparent background, Midnight Ink text and border, 0px border-radius. Padding is minimal (0px)."
+        },
+        {
+          "name": "Outline Accent Button",
+          "role": "Primary interactive element, call to action",
+          "description": "Transparent background, Signal Green text, 50% border-radius (pill-shaped), Signal Green 1px border. Padding is 1px 6px. Features a distinctive small size and vivid color for focus."
+        },
+        {
+          "name": "Subtle Frosted Card",
+          "role": "Content container, information grouping",
+          "description": "Background is Translucent Smoke (rgba(0,0,0,0.1)), with a 22.5px border-radius. Generous horizontal padding of 37.5px, but no vertical padding specified to create dense information blocks."
+        },
+        {
+          "name": "Monochromatic Badge",
+          "role": "Descriptive tag, category label",
+          "description": "Transparent background, Midnight Ink text, 0px border-radius. No specified padding, indicating a tight fit around text content."
+        }
+      ],
+      "typography": [
+        {
+          "role": "Primary typeface for all text. Its unique square-like glyphs and heavy letter spacing, especially at larger sizes, create a distinctive, fragmented, almost pixelated appearance, reinforcing the digital art aesthetic. Weights 400 and 700 are used interchangeably for emphasis.",
+          "sizes": "14px, 15px, 16px, 19px, 26px, 39px",
+          "family": "nh",
+          "weight": "400, 700",
+          "lineHeight": "1.15, 2.50",
+          "substitute": "monospace",
+          "letterSpacing": "0.36, 0.38, 0.4, 0.49, 0.67, 1.07",
+          "fontFeatureSettings": ""
+        }
+      ],
+      "description": "Offten's design system evokes a glitch-art, digital-native aesthetic, intentionally breaking common UI conventions. It features a stark monochromatic palette of black and white, punctuated by vivid green for interactive elements and deep orange for decorative accents. Typography is heavily tracked and often letter-spaced, creating a distinct, fragmented visual rhythm. Surfaces are minimal, relying on subtle backgrounds and borders rather than strong elevation to define elements. The overall feel is raw and experimental, prioritizing visual impact over traditional interface smoothness.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "Quick Color Reference:\ntext: #000000\nbackground: #ffffff\nborder: #000000\naccent: #00db00\nprimary action: #00db00 (outlined action border)\n\nExample Component Prompts:\nCreate a primary action button: Transparent background, Signal Green text (#00db00), 50% border-radius, Signal Green 1px border (#00db00), padding 1px 6px, using 'nh' font at 15px weight 400.\nCreate a card: Background rgba(0,0,0,0.1), 22.5px border-radius, horizontal padding 37.5px, no vertical padding. Content text using 'nh' font at 16px weight 400, Midnight Ink (#000000).\nCreate a heading: Use 'nh' font at 39px weight 700 with 1.07px letter-spacing, Midnight Ink text (#000000). Apply Sunset Orange (#d53f09) as a border accent if outlining is used.\nCreate a navigation link: Transparent background, Midnight Ink text (#000000), 0px border-radius, padding 0px, using 'nh' font at 16px weight 400 with 0.40px letter-spacing."
+        },
+        {
+          "title": "Motion Philosophy",
+          "content": "Motion interactions are moderate, with a strong preference for 'ease' timing functions over a duration of 0.35s. Key properties commonly transitioned include box-shadow (despite minimal static elevation), transform, opacity, and border-radius. This suggests subtle, smooth feedback. One intentional deviation is a cubic-bezier(0.1, 0, 0.25, 2.5) function, indicating a springy, overshoot effect likely used for key interactive elements to inject a sense of kinetic energy and distinctiveness."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777520720452-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777520720452-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/32036fa8-39f0-4ebb-b05e-f5b11038d87a",
+  "ranks": {
+    "trending": 1111,
+    "popular": 1082,
+    "newest": 75
+  },
+  "localSlug": "offten-32036fa8"
+}

@@ -1,0 +1,988 @@
+{
+  "id": "efdd6d8f-4488-4312-86a7-4ee8e016c83a",
+  "url": "https://strava.com",
+  "siteName": "Strava",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775924563923-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775924563923-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "light",
+  "colors": [
+    {
+      "name": "Midnight Ink",
+      "hex": "#000000"
+    },
+    {
+      "name": "Cloudburst Gray",
+      "hex": "#43423f"
+    },
+    {
+      "name": "Ash Charcoal",
+      "hex": "#21211f"
+    },
+    {
+      "name": "Whisper White",
+      "hex": "#ffffff"
+    },
+    {
+      "name": "Summit Cream",
+      "hex": "#f9f8f5"
+    },
+    {
+      "name": "Pebble Gray",
+      "hex": "#e0e0de"
+    }
+  ],
+  "fonts": [
+    "Boathouse",
+    "Boathouse"
+  ],
+  "northStar": "Athletic Orange Highlight",
+  "createdAt": "2026-01-17T12:25:05.000Z",
+  "previewVideoCapturedAt": null,
+  "industry": "other",
+  "fullResult": {
+    "meta": {
+      "url": "https://strava.com",
+      "siteName": "Strava",
+      "extractedAt": "2026-04-11T16:23:02.739Z",
+      "durationMs": 24420,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 146,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "complete",
+          "attempts": 2
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "other",
+              "nav",
+              "button",
+              "image",
+              "heading",
+              "body",
+              "footer",
+              "badge",
+              "list"
+            ],
+            "frequency": 411,
+            "confidence": 1,
+            "prominence": 11979648.428544175,
+            "properties": [
+              "color",
+              "borderColor",
+              "fill"
+            ]
+          },
+          {
+            "hex": "#ffffff",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 1.0000000000000002
+            },
+            "contexts": [
+              "other",
+              "button"
+            ],
+            "frequency": 5,
+            "confidence": 1,
+            "prominence": 1893355.7836532108,
+            "properties": [
+              "backgroundColor",
+              "color"
+            ]
+          },
+          {
+            "hex": "#f9f8f5",
+            "oklch": {
+              "c": 0.0041126820248931495,
+              "h": 91.44595448880399,
+              "l": 0.9790605294760115
+            },
+            "contexts": [
+              "footer"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 541500,
+            "properties": [
+              "backgroundColor"
+            ]
+          },
+          {
+            "hex": "#43423f",
+            "oklch": {
+              "c": 0.005195497667039854,
+              "h": 91.5252549770822,
+              "l": 0.3790311981003696
+            },
+            "contexts": [
+              "body",
+              "link",
+              "image",
+              "other",
+              "nav",
+              "button"
+            ],
+            "frequency": 205,
+            "confidence": 1,
+            "prominence": 86949.69396349657,
+            "properties": [
+              "color",
+              "borderColor"
+            ]
+          },
+          {
+            "hex": "#21211f",
+            "oklch": {
+              "c": 0.003712181695387067,
+              "h": 106.66831244291245,
+              "l": 0.24699171488969401
+            },
+            "contexts": [
+              "button",
+              "icon",
+              "other"
+            ],
+            "frequency": 18,
+            "confidence": 1,
+            "prominence": 74653.07812125757,
+            "properties": [
+              "color",
+              "fill",
+              "borderColor"
+            ]
+          },
+          {
+            "hex": "#fc5200",
+            "oklch": {
+              "c": 0.21698813582325158,
+              "h": 38.34513822834208,
+              "l": 0.6678334710560258
+            },
+            "contexts": [
+              "link",
+              "button",
+              "nav",
+              "other"
+            ],
+            "frequency": 17,
+            "confidence": 1,
+            "prominence": 73282.2619753472,
+            "properties": [
+              "color",
+              "borderColor",
+              "backgroundColor",
+              "fill"
+            ]
+          },
+          {
+            "hex": "#64635e",
+            "oklch": {
+              "c": 0.007891794661434403,
+              "h": 97.46652598705121,
+              "l": 0.4989979324942862
+            },
+            "contexts": [
+              "body",
+              "button"
+            ],
+            "frequency": 13,
+            "confidence": 1,
+            "prominence": 66910.45540024033,
+            "properties": [
+              "color",
+              "borderColor"
+            ]
+          },
+          {
+            "hex": "#e0e0de",
+            "oklch": {
+              "c": 0.002692281218089629,
+              "h": 106.45320970595745,
+              "l": 0.9061338828482483
+            },
+            "contexts": [
+              "button"
+            ],
+            "frequency": 4,
+            "confidence": 1,
+            "prominence": 8170.864965908628,
+            "properties": [
+              "borderColor"
+            ]
+          },
+          {
+            "hex": "#0060d0",
+            "oklch": {
+              "c": 0.18939710615935065,
+              "h": 257.9730862493486,
+              "l": 0.5122032970004213
+            },
+            "contexts": [
+              "link"
+            ],
+            "frequency": 10,
+            "confidence": 1,
+            "prominence": 4863.96085580404,
+            "properties": [
+              "color",
+              "borderColor"
+            ]
+          },
+          {
+            "hex": "#ea4335",
+            "oklch": {
+              "c": 0.205841062123344,
+              "h": 29.077253722430367,
+              "l": 0.625730845256174
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 107,
+            "properties": [
+              "fill"
+            ]
+          },
+          {
+            "hex": "#34a853",
+            "oklch": {
+              "c": 0.16027720143019927,
+              "h": 148.49546939929175,
+              "l": 0.6475493045428872
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 106,
+            "properties": [
+              "fill"
+            ]
+          },
+          {
+            "hex": "#4285f4",
+            "oklch": {
+              "c": 0.18002738094419357,
+              "h": 259.95600432861727,
+              "l": 0.63038615374003
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 75,
+            "properties": [
+              "fill"
+            ]
+          },
+          {
+            "hex": "#fbbc05",
+            "oklch": {
+              "c": 0.16981012207062468,
+              "h": 83.99272171392238,
+              "l": 0.8304375423751036
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 33,
+            "properties": [
+              "fill"
+            ]
+          }
+        ],
+        "isDarkMode": false,
+        "colorfulness": 0.029651542139036695,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 21,
+            "background": "#ffffff",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 19.77,
+            "background": "#f9f8f5",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 16.13,
+            "background": "#ffffff",
+            "foreground": "#21211f"
+          },
+          {
+            "level": "AAA",
+            "ratio": 15.89,
+            "background": "#e0e0de",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 15.19,
+            "background": "#f9f8f5",
+            "foreground": "#21211f"
+          },
+          {
+            "level": "AAA",
+            "ratio": 12.3,
+            "background": "#fbbc05",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 12.2,
+            "background": "#e0e0de",
+            "foreground": "#21211f"
+          },
+          {
+            "level": "AAA",
+            "ratio": 10.05,
+            "background": "#ffffff",
+            "foreground": "#43423f"
+          },
+          {
+            "level": "AAA",
+            "ratio": 9.46,
+            "background": "#f9f8f5",
+            "foreground": "#43423f"
+          },
+          {
+            "level": "AAA",
+            "ratio": 9.44,
+            "background": "#fbbc05",
+            "foreground": "#21211f"
+          },
+          {
+            "level": "AAA",
+            "ratio": 7.6,
+            "background": "#e0e0de",
+            "foreground": "#43423f"
+          },
+          {
+            "level": "AA",
+            "ratio": 6.35,
+            "background": "#fc5200",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AA",
+            "ratio": 6.02,
+            "background": "#ffffff",
+            "foreground": "#64635e"
+          },
+          {
+            "level": "AA",
+            "ratio": 5.88,
+            "background": "#fbbc05",
+            "foreground": "#43423f"
+          },
+          {
+            "level": "AA",
+            "ratio": 5.86,
+            "background": "#ffffff",
+            "foreground": "#0060d0"
+          },
+          {
+            "level": "AA",
+            "ratio": 5.67,
+            "background": "#f9f8f5",
+            "foreground": "#64635e"
+          },
+          {
+            "level": "AA",
+            "ratio": 5.52,
+            "background": "#f9f8f5",
+            "foreground": "#0060d0"
+          },
+          {
+            "level": "AA",
+            "ratio": 4.87,
+            "background": "#fc5200",
+            "foreground": "#21211f"
+          },
+          {
+            "level": "AA",
+            "ratio": 4.55,
+            "background": "#e0e0de",
+            "foreground": "#64635e"
+          },
+          {
+            "level": "fail",
+            "ratio": 3.53,
+            "background": "#fbbc05",
+            "foreground": "#64635e"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [
+          {
+            "value": 4,
+            "contexts": [
+              "button"
+            ],
+            "frequency": 7
+          }
+        ],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 4,
+            "frequency": 2,
+            "properties": [
+              "rowGap",
+              "columnGap"
+            ]
+          },
+          {
+            "value": 6,
+            "frequency": 2,
+            "properties": [
+              "paddingTop",
+              "paddingBottom"
+            ]
+          },
+          {
+            "value": 8,
+            "frequency": 14,
+            "properties": [
+              "rowGap",
+              "columnGap",
+              "marginBottom",
+              "marginTop"
+            ]
+          },
+          {
+            "value": 10,
+            "frequency": 6,
+            "properties": [
+              "paddingTop",
+              "paddingBottom"
+            ]
+          },
+          {
+            "value": 12,
+            "frequency": 24,
+            "properties": [
+              "marginTop",
+              "marginBottom",
+              "paddingBottom"
+            ]
+          },
+          {
+            "value": 20,
+            "frequency": 11,
+            "properties": [
+              "paddingLeft",
+              "paddingRight"
+            ]
+          },
+          {
+            "value": 24,
+            "frequency": 4,
+            "properties": [
+              "paddingRight",
+              "paddingLeft",
+              "rowGap",
+              "columnGap"
+            ]
+          },
+          {
+            "value": 26,
+            "frequency": 10,
+            "properties": [
+              "paddingTop",
+              "paddingBottom"
+            ]
+          },
+          {
+            "value": 32,
+            "frequency": 7,
+            "properties": [
+              "paddingRight",
+              "paddingLeft",
+              "marginBottom",
+              "rowGap",
+              "columnGap"
+            ]
+          },
+          {
+            "value": 40,
+            "frequency": 2,
+            "properties": [
+              "columnGap"
+            ]
+          },
+          {
+            "value": 48,
+            "frequency": 2,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ]
+          },
+          {
+            "value": 50,
+            "frequency": 6,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ]
+          },
+          {
+            "value": 64,
+            "frequency": 5,
+            "properties": [
+              "paddingTop",
+              "paddingRight",
+              "paddingBottom",
+              "paddingLeft",
+              "rowGap"
+            ]
+          }
+        ],
+        "density": "comfortable",
+        "baseUnit": 4
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "Boathouse",
+            "source": "custom",
+            "weights": [
+              400,
+              600
+            ],
+            "frequency": 133,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 16,
+          "name": "Minor Second",
+          "ratio": 1.067,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 12,
+            "family": "Boathouse",
+            "weight": 400,
+            "contexts": [
+              "body",
+              "link"
+            ],
+            "frequency": 3,
+            "lineHeight": 1.5,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 14,
+            "family": "Boathouse",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "nav",
+              "image",
+              "footer",
+              "badge",
+              "list",
+              "link",
+              "body"
+            ],
+            "frequency": 86,
+            "lineHeight": 1.29,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 14,
+            "family": "Boathouse",
+            "weight": 400,
+            "contexts": [
+              "button",
+              "nav"
+            ],
+            "frequency": 2,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 14,
+            "family": "Boathouse",
+            "weight": 600,
+            "contexts": [
+              "button"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 14,
+            "family": "Boathouse",
+            "weight": 400,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 1,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 15,
+            "family": "Boathouse",
+            "weight": 400,
+            "contexts": [
+              "nav",
+              "button"
+            ],
+            "frequency": 21,
+            "lineHeight": 1.33,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "Boathouse",
+            "weight": 400,
+            "contexts": [
+              "nav",
+              "button"
+            ],
+            "frequency": 11,
+            "lineHeight": 1.3,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "Boathouse",
+            "weight": 400,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 1,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "Boathouse",
+            "weight": 600,
+            "contexts": [
+              "link"
+            ],
+            "frequency": 1,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "Boathouse",
+            "weight": 600,
+            "contexts": [
+              "button",
+              "icon"
+            ],
+            "frequency": 5,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 32,
+            "family": "Boathouse",
+            "weight": 600,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 1,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Prioritize Strava Orange (#fc5200) for all primary calls to action and active states.",
+        "Maintain high contrast by using Midnight Ink (#000000) or Ash Charcoal (#21211f) text on Whisper White (#ffffff) or Summit Cream (#f9f8f5) backgrounds.",
+        "Apply a consistent 4px border-radius to all interactive elements like buttons and input fields.",
+        "Use Boathouse (or Inter) weight 600 for all main headings (32px), ensuring clear hierarchy.",
+        "Separate content sections with distinct background colors, such as Whisper White (#ffffff) for main content and Summit Cream (#f9f8f5) for footers."
+      ],
+      "tags": [
+        "sport",
+        "activity tracking",
+        "high-contrast",
+        "minimalist",
+        "athletic",
+        "functional",
+        "vibrant orange",
+        "community focused",
+        "modern"
+      ],
+      "donts": [
+        "Do not introduce new primary accent colors other than Strava Orange (#fc5200) or Link Blue (#0060d0).",
+        "Avoid using soft, low-contrast text-on-background combinations; maintain AAA or AA contrast ratios.",
+        "Do not deviate from the 4px border-radius on buttons and input fields to maintain visual consistency.",
+        "Do not use generic system fonts; leverage Boathouse (or Inter) for all text elements.",
+        "Do not use box-shadow for elevation; rely on background color changes and borders to define hierarchy and separation."
+      ],
+      "theme": "light",
+      "colors": [
+        {
+          "hex": "#000000",
+          "name": "Midnight Ink",
+          "role": "Primary text, critical body copy, dark icons, default button borders. Creates strong contrast on light backgrounds.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#43423f",
+          "name": "Cloudburst Gray",
+          "role": "Secondary text, link hover states, subheadings. Provides readability while subtly softening the intensity of Midnight Ink.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#21211f",
+          "name": "Ash Charcoal",
+          "role": "Darker secondary text, button text on light interaction, subtle borders. A deep nearly-black that offers slight variation from Midnight Ink.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#ffffff",
+          "name": "Whisper White",
+          "role": "Page backgrounds, card surfaces, button backgrounds. The primary backdrop for content.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#f9f8f5",
+          "name": "Summit Cream",
+          "role": "Subtle background sections, footer background. Offers a warm, off-white alternative to Whisper White to delineate structural areas.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#e0e0de",
+          "name": "Pebble Gray",
+          "role": "Light button borders, dividers. A very light gray for subtle structural definitions.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#fc5200",
+          "name": "Strava Orange",
+          "role": "CTA buttons, primary links, active navigation items, brand accents. This vivid orange is the sole chromatic brand identifier, drawing immediate attention to key interactions.",
+          "group": "brand"
+        },
+        {
+          "hex": "#0060d0",
+          "name": "Link Blue",
+          "role": "Informational links (e.g., legal text). Differentiated from Strava Orange for non-primary actions.",
+          "group": "semantic"
+        },
+        {
+          "hex": "#ea4335",
+          "name": "Google Red",
+          "role": "Google icon brand color, not a general semantic red.",
+          "group": "accent"
+        },
+        {
+          "hex": "#34a853",
+          "name": "Google Green",
+          "role": "Google icon brand color, not a general semantic green.",
+          "group": "accent"
+        },
+        {
+          "hex": "#4285f4",
+          "name": "Google Blue",
+          "role": "Google icon brand color, not a general semantic blue.",
+          "group": "accent"
+        },
+        {
+          "hex": "#fbbc05",
+          "name": "Google Yellow",
+          "role": "Google icon brand color, not a general semantic yellow.",
+          "group": "accent"
+        }
+      ],
+      "layout": "The page uses a centered, quasi-full-bleed model, with a wide central content area that appears contained on larger screens but feels expansive. The hero section is a prominent three-column split: large, emotive photography on the left, a central, white form card for sign-up, and a product-in-context shot on the right, creating an immediate narrative. Sections are distinct blocks, with no alternating background bands visible. Content is generally stacked vertically within these blocks, or aligned within columns (e.g., footer grid). The navigation is a classic horizontal top bar, sticky (inferred), with a simple `Log In` button. The overall density is comfortable, with ample padding around elements and sections, suggesting a focus on clarity rather than information density.",
+      "imagery": "The visual language combines aspirational, real-world photography of athletes in action with clean, functional UI elements. Photography features vibrant outdoor scenes (cyclists, runners) with a natural, un-staged feel, emphasizing movement and community. Imagery is primarily full-bleed or large background elements, without masks or heavy treatments, allowing the scenes to speak for themselves. Product screenshots are integrated to explain functionality, often with overlaid path graphics or app UI. Icons are simple, filled, and monochrome, with an apparent medium stroke weight when outlined (logo). The overall density is balanced, allowing imagery to dominate sections while text remains concise.",
+      "similar": [
+        {
+          "why": "Athletic brand with functional, high-contrast UI and a strong accent color against a clean white background.",
+          "business": "Garmin Connect"
+        },
+        {
+          "why": "Focus on activity and performance, utilitarian layout, and strong emphasis on clear call-to-actions with a single brand color.",
+          "business": "Nike Training Club"
+        },
+        {
+          "why": "Outdoor activity focus, clean light theme, and use of a prominent accent color (green) for interactive elements.",
+          "business": "AllTrails"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "cards": "4px",
+          "buttons": "4px",
+          "input_fields": "4px"
+        },
+        "elementGap": "",
+        "sectionGap": "",
+        "cardPadding": "",
+        "pageMaxWidth": null
+      },
+      "category": "health",
+      "northStar": "Athletic Orange Highlight",
+      "typeScale": [
+        {
+          "role": "caption",
+          "size": 12,
+          "lineHeight": 1.5
+        },
+        {
+          "role": "body-sm",
+          "size": 14,
+          "lineHeight": 1.33
+        },
+        {
+          "role": "display",
+          "size": 32,
+          "lineHeight": 1.2
+        }
+      ],
+      "components": [
+        {
+          "html": "<style>\n  :root {\n    --color-midnight-ink: #000000;\n    --color-cloudburst-gray: #43423f;\n    --color-ash-charcoal: #21211f;\n    --color-whisper-white: #ffffff;\n    --color-summit-cream: #f9f8f5;\n    --color-pebble-gray: #e0e0de;\n    --color-strava-orange: #fc5200;\n    --color-link-blue: #0060d0;\n    --font-boathouse: 'Inter', sans-serif;\n  }\n  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');\n</style>\n<div style=\"width:600px;background:var(--color-whisper-white);font-family:var(--font-boathouse);padding:48px 40px;box-sizing:border-box;\">\n  <h1 style=\"font-family:var(--font-boathouse);font-size:32px;font-weight:600;line-height:1.2;color:var(--color-midnight-ink);text-align:center;margin:0 0 16px 0;\">Community-Powered<br>Motivation</h1>\n  <p style=\"font-family:var(--font-boathouse);font-size:15px;font-weight:400;line-height:1.5;color:var(--color-cloudburst-gray);text-align:center;margin:0 0 24px 0;\">Track your progress and cheer each other on. Join over 100 million active people on Strava for free.</p>\n  <p style=\"font-family:var(--font-boathouse);font-size:15px;font-weight:400;line-height:1.5;color:var(--color-cloudburst-gray);text-align:center;margin:0 0 20px 0;\">Already a Member? <a href=\"#\" style=\"color:var(--color-strava-orange);font-weight:600;text-decoration:none;\">Log In</a></p>\n\n  <!-- Sign Up With Google -->\n  <button style=\"display:flex;align-items:center;justify-content:center;gap:12px;width:100%;padding:12px 50px;background:var(--color-whisper-white);border:1.5px solid var(--color-pebble-gray);border-radius:4px;font-family:var(--font-boathouse);font-size:15px;font-weight:600;color:var(--color-ash-charcoal);cursor:pointer;margin-bottom:12px;box-sizing:border-box;\">\n    <svg width=\"18\" height=\"18\" viewBox=\"0 0 18 18\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n      <path d=\"M17.64 9.2c0-.637-.057-1.251-.164-1.84H9v3.481h4.844c-.209 1.125-.843 2.078-1.796 2.717v2.258h2.908c1.702-1.567 2.684-3.875 2.684-6.615z\" fill=\"#4285F4\"/>\n      <path d=\"M9 18c2.43 0 4.467-.806 5.956-2.184l-2.908-2.258c-.806.54-1.837.86-3.048.86-2.344 0-4.328-1.584-5.036-3.711H.957v2.332A8.997 8.997 0 0 0 9 18z\" fill=\"#34A853\"/>\n      <path d=\"M3.964 10.707A5.41 5.41 0 0 1 3.682 9c0-.593.102-1.17.282-1.707V4.961H.957A8.996 8.996 0 0 0 0 9c0 1.452.348 2.827.957 4.039l3.007-2.332z\" fill=\"#FBBC05\"/>\n      <path d=\"M9 3.58c1.321 0 2.508.454 3.44 1.345l2.582-2.58C13.463.891 11.426 0 9 0A8.997 8.997 0 0 0 .957 4.961L3.964 7.293C4.672 5.163 6.656 3.58 9 3.58z\" fill=\"#EA4335\"/>\n    </svg>\n    Sign Up With Google\n  </button>\n\n  <!-- Sign Up With Apple -->\n  <button style=\"display:flex;align-items:center;justify-content:center;gap:12px;width:100%;padding:12px 50px;background:var(--color-whisper-white);border:1.5px solid var(--color-pebble-gray);border-radius:4px;font-family:var(--font-boathouse);font-size:15px;font-weight:600;color:var(--color-ash-charcoal);cursor:pointer;margin-bottom:16px;box-sizing:border-box;\">\n    <svg width=\"16\" height=\"20\" viewBox=\"0 0 16 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n      <path d=\"M13.173 10.625c-.022-2.56 2.09-3.796 2.187-3.858-1.19-1.743-3.045-1.981-3.704-2.006-1.572-.16-3.073.928-3.872.928-.798 0-2.025-.907-3.33-.882-1.712.025-3.294 1.001-4.174 2.535C.428 10.22 1.683 15.28 3.408 18.032c.857 1.353 1.877 2.87 3.216 2.818 1.295-.052 1.782-.833 3.345-.833 1.563 0 2.006.833 3.373.807 1.394-.025 2.271-1.376 3.117-2.734.985-1.565 1.39-3.082 1.41-3.16-.03-.013-2.72-1.044-2.696-4.305zM10.693 3.053C11.39 2.197 11.866.994 11.73 0c-.986.041-2.18.657-2.89 1.496-.635.736-1.19 1.912-1.04 3.04 1.1.085 2.225-.558 2.893-1.483z\" fill=\"#000000\"/>\n    </svg>\n    Sign Up With Apple\n  </button>\n\n  <!-- Sign Up With Email -->\n  <button style=\"display:flex;align-items:center;justify-content:center;width:100%;padding:14px 50px;background:var(--color-strava-orange);border:none;border-radius:4px;font-family:var(--font-boathouse);font-size:15px;font-weight:600;color:var(--color-whisper-white);cursor:pointer;margin-bottom:20px;box-sizing:border-box;\">Sign Up With Email</button>\n\n  <p style=\"font-family:var(--font-boathouse);font-size:12px;font-weight:400;line-height:1.5;color:var(--color-cloudburst-gray);text-align:center;margin:0;\">By continuing, you are agreeing to our <a href=\"#\" style=\"color:var(--color-link-blue);text-decoration:none;\">Terms of Service</a> and <a href=\"#\" style=\"color:var(--color-link-blue);text-decoration:none;\">Privacy Policy</a>.</p>\n</div>",
+          "name": "Sign Up Form Card",
+          "role": "",
+          "description": ""
+        },
+        {
+          "html": "<style>\n  :root {\n    --color-midnight-ink: #000000;\n    --color-cloudburst-gray: #43423f;\n    --color-ash-charcoal: #21211f;\n    --color-whisper-white: #ffffff;\n    --color-summit-cream: #f9f8f5;\n    --color-pebble-gray: #e0e0de;\n    --color-strava-orange: #fc5200;\n    --color-link-blue: #0060d0;\n    --font-boathouse: 'Inter', sans-serif;\n  }\n  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');\n</style>\n<div style=\"width:600px;background:var(--color-summit-cream);font-family:var(--font-boathouse);padding:40px;box-sizing:border-box;\">\n  <p style=\"font-family:var(--font-boathouse);font-size:12px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:var(--color-cloudburst-gray);margin:0 0 24px 0;\">Button Styles</p>\n\n  <!-- Primary CTA -->\n  <div style=\"margin-bottom:20px;\">\n    <p style=\"font-family:var(--font-boathouse);font-size:12px;color:var(--color-cloudburst-gray);margin:0 0 8px 0;\">Primary CTA</p>\n    <button style=\"display:inline-flex;align-items:center;justify-content:center;padding:12px 40px;background:var(--color-strava-orange);border:none;border-radius:4px;font-family:var(--font-boathouse);font-size:15px;font-weight:600;color:var(--color-whisper-white);cursor:pointer;\">Get Started for Free</button>\n  </div>\n\n  <!-- Social Outline Button -->\n  <div style=\"margin-bottom:20px;\">\n    <p style=\"font-family:var(--font-boathouse);font-size:12px;color:var(--color-cloudburst-gray);margin:0 0 8px 0;\">Social / Outline</p>\n    <button style=\"display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:12px 32px;background:var(--color-whisper-white);border:1.5px solid var(--color-pebble-gray);border-radius:4px;font-family:var(--font-boathouse);font-size:15px;font-weight:600;color:var(--color-ash-charcoal);cursor:pointer;\">\n      <svg width=\"18\" height=\"18\" viewBox=\"0 0 18 18\" fill=\"none\">\n        <path d=\"M17.64 9.2c0-.637-.057-1.251-.164-1.84H9v3.481h4.844c-.209 1.125-.843 2.078-1.796 2.717v2.258h2.908C16.618 14.075 17.64 11.775 17.64 9.2z\" fill=\"#4285F4\"/>\n        <path d=\"M9 18c2.43 0 4.467-.806 5.956-2.184l-2.908-2.258c-.806.54-1.837.86-3.048.86-2.344 0-4.328-1.584-5.036-3.711H.957v2.332A8.997 8.997 0 0 0 9 18z\" fill=\"#34A853\"/>\n        <path d=\"M3.964 10.707A5.41 5.41 0 0 1 3.682 9c0-.593.102-1.17.282-1.707V4.961H.957A8.996 8.996 0 0 0 0 9c0 1.452.348 2.827.957 4.039l3.007-2.332z\" fill=\"#FBBC05\"/>\n        <path d=\"M9 3.58c1.321 0 2.508.454 3.44 1.345l2.582-2.58C13.463.891 11.426 0 9 0A8.997 8.997 0 0 0 .957 4.961L3.964 7.293C4.672 5.163 6.656 3.58 9 3.58z\" fill=\"#EA4335\"/>\n      </svg>\n      Sign Up With Google\n    </button>\n  </div>\n\n  <!-- Ghost / Nav Button -->\n  <div style=\"margin-bottom:20px;\">\n    <p style=\"font-family:var(--font-boathouse);font-size:12px;color:var(--color-cloudburst-gray);margin:0 0 8px 0;\">Ghost / Navigation</p>\n    <button style=\"display:inline-flex;align-items:center;gap:6px;padding:10px 16px;background:transparent;border:1.5px solid var(--color-midnight-ink);border-radius:4px;font-family:var(--font-boathouse);font-size:15px;font-weight:600;color:var(--color-midnight-ink);cursor:pointer;\">Log In</button>\n  </div>\n\n  <!-- Orange Text Link -->\n  <div>\n    <p style=\"font-family:var(--font-boathouse);font-size:12px;color:var(--color-cloudburst-gray);margin:0 0 8px 0;\">Link / Inline</p>\n    <a href=\"#\" style=\"font-family:var(--font-boathouse);font-size:15px;font-weight:600;color:var(--color-strava-orange);text-decoration:none;\">Log In →</a>\n  </div>\n</div>",
+          "name": "Button Group Showcase",
+          "role": "",
+          "description": ""
+        },
+        {
+          "html": "<style>\n  :root {\n    --color-midnight-ink: #000000;\n    --color-cloudburst-gray: #43423f;\n    --color-ash-charcoal: #21211f;\n    --color-whisper-white: #ffffff;\n    --color-summit-cream: #f9f8f5;\n    --color-pebble-gray: #e0e0de;\n    --color-strava-orange: #fc5200;\n    --color-link-blue: #0060d0;\n    --font-boathouse: 'Inter', sans-serif;\n  }\n  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');\n</style>\n<div style=\"width:600px;background:var(--color-whisper-white);font-family:var(--font-boathouse);padding:40px;box-sizing:border-box;\">\n  <p style=\"font-family:var(--font-boathouse);font-size:12px;font-weight:600;letter-spacing:0.1em;text-transform:uppercase;color:var(--color-strava-orange);margin:0 0 8px 0;\">Why Strava</p>\n  <h2 style=\"font-family:var(--font-boathouse);font-size:32px;font-weight:600;line-height:1.2;color:var(--color-midnight-ink);margin:0 0 32px 0;\">Track every move.<br>Celebrate every win.</h2>\n\n  <div style=\"display:flex;gap:0;border-top:1.5px solid var(--color-pebble-gray);\">\n    <!-- Stat 1 -->\n    <div style=\"flex:1;padding:24px 24px 24px 0;border-right:1.5px solid var(--color-pebble-gray);\">\n      <div style=\"font-family:var(--font-boathouse);font-size:32px;font-weight:600;color:var(--color-strava-orange);line-height:1.2;margin-bottom:6px;\">100M+</div>\n      <div style=\"font-family:var(--font-boathouse);font-size:14px;font-weight:400;line-height:1.33;color:var(--color-cloudburst-gray);\">Active athletes worldwide</div>\n    </div>\n    <!-- Stat 2 -->\n    <div style=\"flex:1;padding:24px 24px 24px 24px;border-right:1.5px solid var(--color-pebble-gray);\">\n      <div style=\"font-family:var(--font-boathouse);font-size:32px;font-weight:600;color:var(--color-strava-orange);line-height:1.2;margin-bottom:6px;\">2B+</div>\n      <div style=\"font-family:var(--font-boathouse);font-size:14px;font-weight:400;line-height:1.33;color:var(--color-cloudburst-gray);\">Activities uploaded per year</div>\n    </div>\n    <!-- Stat 3 -->\n    <div style=\"flex:1;padding:24px 0 24px 24px;\">\n      <div style=\"font-family:var(--font-boathouse);font-size:32px;font-weight:600;color:var(--color-strava-orange);line-height:1.2;margin-bottom:6px;\">195+</div>\n      <div style=\"font-family:var(--font-boathouse);font-size:14px;font-weight:400;line-height:1.33;color:var(--color-cloudburst-gray);\">Countries represented</div>\n    </div>\n  </div>\n\n  <div style=\"margin-top:32px;padding:24px;background:var(--color-summit-cream);border-radius:4px;\">\n    <div style=\"display:flex;align-items:flex-start;gap:16px;\">\n      <div style=\"width:40px;height:40px;border-radius:4px;background:var(--color-strava-orange);flex-shrink:0;display:flex;align-items:center;justify-content:center;\">\n        <svg width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\">\n          <path d=\"M10 2L12.5 7.5L18 8.3L14 12.2L15 17.7L10 15L5 17.7L6 12.2L2 8.3L7.5 7.5L10 2Z\" fill=\"white\"/>\n        </svg>\n      </div>\n      <div>\n        <div style=\"font-family:var(--font-boathouse);font-size:15px;font-weight:600;color:var(--color-midnight-ink);margin-bottom:4px;\">Segments & Leaderboards</div>\n        <div style=\"font-family:var(--font-boathouse);font-size:14px;font-weight:400;line-height:1.5;color:var(--color-cloudburst-gray);\">Compete on iconic routes and see how you stack up against athletes around the world. Push your limits every ride, run, or hike.</div>\n      </div>\n    </div>\n  </div>\n\n  <div style=\"margin-top:24px;display:flex;align-items:center;gap:16px;\">\n    <button style=\"padding:12px 32px;background:var(--color-strava-orange);border:none;border-radius:4px;font-family:var(--font-boathouse);font-size:15px;font-weight:600;color:var(--color-whisper-white);cursor:pointer;\">Join for Free</button>\n    <a href=\"#\" style=\"font-family:var(--font-boathouse);font-size:15px;font-weight:600;color:var(--color-midnight-ink);text-decoration:none;display:flex;align-items:center;gap:4px;\">Learn More <svg width=\"14\" height=\"14\" viewBox=\"0 0 14 14\" fill=\"none\"><path d=\"M1 7h12M8 3l5 4-5 4\" stroke=\"#000\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></a>\n  </div>\n</div>",
+          "name": "Stat / Feature Banner",
+          "role": "",
+          "description": ""
+        },
+        {
+          "name": "Primary CTA Button",
+          "role": "Main call to action",
+          "description": "Solid Strava Orange background (#fc5200) with Whisper White text (#ffffff), 4px border-radius. Padding: 10px top/bottom, 50px left/right. Uses Boathouse Bold for text."
+        },
+        {
+          "name": "Secondary Outline Button (Social)",
+          "role": "Alternative login/signup",
+          "description": "Summit Cream background (#f9f8f5 - inferred from screenshot), Ash Charcoal text (#21211f), and Pebble Gray border (#e0e0de) at 4px border-radius. Padding: 10px top/bottom, 50px left/right. Accommodates social icons."
+        },
+        {
+          "name": "Ghost Button (Header)",
+          "role": "Navigation, secondary actions",
+          "description": "Transparent background, Midnight Ink text (#000000) or Cloudburst Gray (#43423f), no explicit border, 4px border-radius. Minimal padding, emphasis on text."
+        },
+        {
+          "name": "Footer Link",
+          "role": "Navigational links in footer",
+          "description": "Uses Cloudburst Gray text (#43423f) for default, with an inferred Strava Orange (#fc5200) hover/active state. No background or border."
+        },
+        {
+          "name": "Navigation Link",
+          "role": "Primary site navigation",
+          "description": "Uses Midnight Ink text (#000000) for default, with an inferred Strava Orange (#fc5200) for active/hover. No background or border."
+        },
+        {
+          "name": "Form Card",
+          "role": "Content container for forms",
+          "description": "Whisper White background (#ffffff), 4px border-radius. Contains heading, body text, and multiple button components. Inferred padding around internal elements."
+        }
+      ],
+      "typography": [
+        {
+          "role": "Body text, links, navigation items, footer text, button text. This primary typeface handles all non-heading content, providing a clear and functional voice.",
+          "sizes": "12px, 14px, 15px, 16px, 32px",
+          "family": "Boathouse",
+          "weight": "400",
+          "lineHeight": "1.00, 1.20, 1.29, 1.30, 1.33, 1.50",
+          "substitute": "Inter",
+          "letterSpacing": "normal"
+        },
+        {
+          "role": "Headlines and prominent calls to action. The heavier weight at larger sizes creates a strong focal point without overpowering.",
+          "sizes": "12px, 14px, 15px, 16px, 32px",
+          "family": "Boathouse",
+          "weight": "600",
+          "lineHeight": "1.00, 1.20, 1.29, 1.30, 1.33, 1.50",
+          "substitute": "Inter",
+          "letterSpacing": "normal"
+        }
+      ],
+      "description": "This design system projects an active, performance-oriented energy with its high-contrast typography and prominent use of a single, vibrant orange. The stark black text against white or near-white backgrounds, combined with structured, rectangular forms defines its modern utility. The orange acts as a constant visual cue, highlighting interactive elements and brand presence without relying on subtle gradations or complex color palettes, focusing instead on direct and clear communication.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "**Quick Color Reference:**\n- Text (Primary): #000000\n- Background (Page): #ffffff\n- CTA (Orange): #fc5200\n- Border (Light): #e0e0de\n- Accent (Brand): #fc5200\n\n**Example Component Prompts:**\n1. Create a primary CTA button: background #fc5200, text #ffffff, border-radius 4px, padding 10px 50px. Text 'Sign Up With Email' using Boathouse weight 600, 16px.\n2. Develop a social login button: background Whisper White #ffffff, text Ash Charcoal #21211f, border #e0e0de, border-radius 4px, padding 10px 50px. Add a Google logo to the left. Text 'Sign Up With Google' using Boathouse weight 400, 16px.\n3. Design a main header navigation link: text Midnight Ink #000000, Boathouse weight 400, 16px. Name it 'Features'.\n4. Generate a section headline: text Midnight Ink #000000, Boathouse weight 600, 32px, line-height 1.2. Content: 'Community-Powered Motivation'.\n5. Create body text with an embedded link: text Cloudburst Gray #43423f, Boathouse weight 400, 15px. Link text 'Terms of Service' in Link Blue #0060d0."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775924563923-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775924563923-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/efdd6d8f-4488-4312-86a7-4ee8e016c83a",
+  "ranks": {
+    "trending": 364,
+    "popular": 297,
+    "newest": 1307
+  },
+  "localSlug": "strava-efdd6d8f"
+}

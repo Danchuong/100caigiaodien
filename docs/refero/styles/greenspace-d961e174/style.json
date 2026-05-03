@@ -1,0 +1,431 @@
+{
+  "id": "d961e174-875b-46ef-ad27-fe7f8e3bcd8c",
+  "url": "https://thegreenspace.com",
+  "siteName": "Greenspace",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777516319650-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777516319650-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "dark",
+  "colors": [
+    {
+      "name": "Greenspace Carbon",
+      "hex": "#000000"
+    },
+    {
+      "name": "Subtle Ash",
+      "hex": "#bebebe"
+    },
+    {
+      "name": "Canvas White",
+      "hex": "#ffffff"
+    }
+  ],
+  "fonts": [
+    "haas_grotesk"
+  ],
+  "northStar": "Monumental monochrome canvas",
+  "createdAt": "2026-04-30T02:32:18.622Z",
+  "previewVideoCapturedAt": null,
+  "industry": "design",
+  "fullResult": {
+    "meta": {
+      "url": "https://thegreenspace.com",
+      "siteName": "Greenspace",
+      "extractedAt": "2026-04-30T02:32:18.457Z",
+      "durationMs": 30632,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 59,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "other",
+              "image",
+              "footer",
+              "link"
+            ],
+            "frequency": 215,
+            "confidence": 1,
+            "prominence": 17833759.690975286,
+            "properties": [
+              "color",
+              "borderColor",
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "link/color": 8,
+              "image/color": 6,
+              "other/color": 26,
+              "footer/color": 1,
+              "link/borderColor": 32,
+              "image/borderColor": 24,
+              "other/borderColor": 104,
+              "footer/borderColor": 4,
+              "other/backgroundColor": 10
+            }
+          },
+          {
+            "hex": "#bebebe",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.8015167399412204
+            },
+            "contexts": [
+              "link"
+            ],
+            "frequency": 30,
+            "confidence": 1,
+            "prominence": 500789.97983914684,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "link/color": 6,
+              "link/borderColor": 24
+            }
+          },
+          {
+            "hex": "#ffffff",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 1.0000000000000002
+            },
+            "contexts": [
+              "link",
+              "heading"
+            ],
+            "frequency": 30,
+            "confidence": 1,
+            "prominence": 92380.89859978405,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "link/color": 3,
+              "heading/color": 3,
+              "link/borderColor": 12,
+              "heading/borderColor": 12
+            }
+          },
+          {
+            "hex": "#404040",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.37054239459212773
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 0,
+            "properties": [
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "other/backgroundColor": 1
+            }
+          }
+        ],
+        "isDarkMode": false,
+        "colorfulness": 0,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 21,
+            "background": "#000000",
+            "foreground": "#ffffff"
+          },
+          {
+            "level": "AAA",
+            "ratio": 11.3,
+            "background": "#000000",
+            "foreground": "#bebebe"
+          },
+          {
+            "level": "AAA",
+            "ratio": 10.37,
+            "background": "#404040",
+            "foreground": "#ffffff"
+          },
+          {
+            "level": "AA",
+            "ratio": 5.58,
+            "background": "#404040",
+            "foreground": "#bebebe"
+          },
+          {
+            "level": "fail",
+            "ratio": 2.03,
+            "background": "#404040",
+            "foreground": "#000000"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 37,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 6,
+            "properties": [
+              "marginRight",
+              "marginLeft"
+            ],
+            "propertyContextPairs": [
+              "marginRight|other",
+              "marginLeft|other"
+            ]
+          },
+          {
+            "value": 50,
+            "contexts": [
+              "footer"
+            ],
+            "frequency": 1,
+            "properties": [
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingBottom|footer"
+            ]
+          },
+          {
+            "value": 200,
+            "contexts": [
+              "other",
+              "footer"
+            ],
+            "frequency": 2,
+            "properties": [
+              "marginTop"
+            ],
+            "propertyContextPairs": [
+              "marginTop|other",
+              "marginTop|footer"
+            ]
+          }
+        ],
+        "density": "spacious",
+        "baseUnit": 4
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "haas_grotesk",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 59,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": null,
+        "steps": [
+          {
+            "size": 24,
+            "family": "haas_grotesk",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "footer",
+              "link"
+            ],
+            "frequency": 32,
+            "lineHeight": 1.17,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 72,
+            "family": "haas_grotesk",
+            "weight": 400,
+            "contexts": [
+              "link",
+              "heading"
+            ],
+            "frequency": 6,
+            "lineHeight": 1.15,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 72,
+            "family": "haas_grotesk",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "link",
+              "image"
+            ],
+            "frequency": 21,
+            "lineHeight": 1.03,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Prioritize Greenspace Carbon (#000000) as the dominant background color for most page areas and major content blocks.",
+        "Use Canvas White (#ffffff) sparingly for text on dark backgrounds and for high-contrast link states.",
+        "Employ Subtle Ash (#bebebe) for all secondary and tertiary text, including inactive navigation and project listings, to create a sense of understated authority.",
+        "Maintain a generous 200px vertical section gap to enforce strict separation and emphasize content monumentality.",
+        "Use haas_grotesk (or substitute Inter) at 72px with a line height of 1.03 for all primary calls to action and prominent headings.",
+        "Leverage haas_grotesk (or substitute Inter) at 24px with a line height of 1.15 for all body text, project lists, and secondary content blocks.",
+        "Adhere to a strict 0px border-radius system across all components and elements for a brutalist, architectural feel."
+      ],
+      "donts": [
+        "Avoid introducing any additional chromatic colors; maintain a strictly achromatic palette.",
+        "Do not use subtle gradients or soft shadows; elevation is achieved through color contrast and spatial separation.",
+        "Do not create explicit card borders or outlines; content boundaries are defined by background changes and spacing.",
+        "Do not use smaller font sizes for captions or body text; the minimal display emphasizes impact over detail density.",
+        "Avoid complex or decorative imagery; visuals should be integrated as impactful, high-contrast product shots or abstract elements.",
+        "Do not layer elements or use overlays unless functionally critical; prioritize flat, distinct content blocks.",
+        "Do not vary line heights or letter spacing from the tokenized values; consistency is key to the system's precision."
+      ],
+      "theme": "dark",
+      "colors": [
+        {
+          "hex": "#000000",
+          "name": "Greenspace Carbon",
+          "role": "Page backgrounds, significant surface areas, default text",
+          "group": "neutral"
+        },
+        {
+          "hex": "#bebebe",
+          "name": "Subtle Ash",
+          "role": "Muted text, inactive links, secondary navigation elements – creates a whispered presence against primary backgrounds",
+          "group": "neutral"
+        },
+        {
+          "hex": "#ffffff",
+          "name": "Canvas White",
+          "role": "Hairline borders, dividers, input outlines, and card edges on light surfaces. Do not promote it to the primary CTA color",
+          "group": "neutral"
+        }
+      ],
+      "layout": "The page primarily utilizes a full-bleed layout, where content sections often extend across the entire viewport width. The hero section features a prominent visual with large, centered navigation elements. Content is typically arranged in distinct, vertically stacked blocks that leverage large section gaps (200px) to create a spacious rhythm. There's a strong emphasis on full-width content blocks and large-scale typography, suggesting a contained but expansive page model. Navigation is likely a sticky top bar or off-canvas element from the 'GS' emblem, given the minimal on-page navigation elements.",
+      "imagery": "This system primarily uses stark, high-contrast product photography with deep blacks and bright highlights. Imagery is usually full-bleed or cropped tightly, creating immersive backgrounds or focused product showcases. There are no illustrations or complex graphical elements; the focus is on the object or scene itself, often with a moody, almost cinematic treatment. Icons are minimal, likely monochromatic, and serve purely functional roles. The density is image-heavy in hero sections, with images serving as dominant visual anchors rather than decorative accents.",
+      "similar": [
+        {
+          "why": "Similar use of high-contrast black/white, minimal UI, and large, impactful typography for brand presence.",
+          "business": "A24"
+        },
+        {
+          "why": "Embraces strict monochromatic palettes, generous spacing, and unadorned typography as primary design elements.",
+          "business": "Brutalism.com"
+        },
+        {
+          "why": "Clean, highly structured layouts with a focus on typography and strong color contrast to create a memorable brand identity.",
+          "business": "Studio Dumbar"
+        },
+        {
+          "why": "Often uses strong black and white photography with minimal text overlay, conveying sophistication through severity.",
+          "business": "B&W Tek"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "none": "0px"
+        },
+        "elementGap": "37px",
+        "sectionGap": "200px",
+        "cardPadding": "37px",
+        "pageMaxWidth": null
+      },
+      "industry": "design",
+      "northStar": "Monumental monochrome canvas",
+      "components": [
+        {
+          "name": "Navigation Link (Active)",
+          "role": "Main navigation and hero links when active or hovered.",
+          "description": "Text in Canvas White (#ffffff) on Greenspace Carbon (#000000) background. Font is haas_grotesk, 72px, weight 400, line height 1.03."
+        },
+        {
+          "name": "Navigation Link (Inactive)",
+          "role": "Main navigation and hero links when inactive.",
+          "description": "Text in Subtle Ash (#bebebe) on Greenspace Carbon (#000000) background. Font is haas_grotesk, 72px, weight 400, line height 1.03."
+        },
+        {
+          "name": "Project List Item",
+          "role": "Listings for selected projects.",
+          "description": "Text in Subtle Ash (#bebebe) on a white background. Font is haas_grotesk, 24px, weight 400, line height 1.15. No explicit padding or border."
+        },
+        {
+          "name": "Section Separator",
+          "role": "Visual divider for content sections.",
+          "description": "Implied by 200px vertical spacing, with a strict binary shift between carbon and white background compositions. No explicit line or element."
+        }
+      ],
+      "typography": [
+        {
+          "role": "Primary display and content typography. Its direct and unadorned presence underpins the brand's architectural aesthetic.",
+          "sizes": "24px, 72px",
+          "family": "haas_grotesk",
+          "weight": "400",
+          "lineHeight": "1.03, 1.15, 1.17",
+          "substitute": "Inter"
+        }
+      ],
+      "description": "Greenspace embodies a brutalist-inspired minimalism, featuring stark monochrome surfaces and expansive negative space. The visual system operates on a high-contrast binary of black and white, punctuated by muted gray typography that hints at legacy and heritage. Typography is bold and architectural, often serving as a primary visual element, while a generous use of spacing emphasizes clarity and the monumental scale of projects.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "Quick Color Reference:\ntext: #ffffff\nbackground: #000000\nborder: no distinct border color\naccent: no distinct accent color\nprimary action: no distinct CTA color\n\nExample Component Prompts:\n1. Create a full-width header: Greenspace Carbon (#000000) background. Left-aligned 'GS' text in Canvas White (#ffffff), haas_grotesk (or Inter) at 72px, weight 400, line height 1.03. Right-aligned navigation links 'Create' and 'Legacy' in Subtle Ash (#bebebe), haas_grotesk (or Inter) at 72px, weight 400, line height 1.03.\n2. Create a 'Selected Projects' section: Canvas White (#ffffff) background. Heading 'Selected Projects' in Greenspace Carbon (#000000), haas_grotesk (or Inter) at 24px, weight 400, line height 1.15. Project list items 'Battersea Power Station', 'Bicycle Therapeutics' in Subtle Ash (#bebebe), haas_grotesk (or Inter) at 24px, weight 400, line height 1.15. Maintain 200px vertical spacing above this section.\n3. Create a hero background: Greenspace Carbon (#000000) full-bleed. Centered text 'Create Legacy' with 'Create' in Subtle Ash (#bebebe) and 'Legacy' in Canvas White (#ffffff), both haas_grotesk (or Inter) at 72px, weight 400, line height 1.03. Text is stacked vertically, with 37px vertical spacing between words."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777516319650-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777516319650-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/d961e174-875b-46ef-ad27-fe7f8e3bcd8c",
+  "ranks": {
+    "trending": 632,
+    "popular": 727,
+    "newest": 353
+  },
+  "localSlug": "greenspace-d961e174"
+}

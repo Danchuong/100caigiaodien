@@ -1,0 +1,724 @@
+{
+  "id": "9d1234b7-1e6c-4eb3-9ebb-2cc40c688090",
+  "url": "https://socialclubparis.com",
+  "siteName": "Socialclub",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777513735813-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777513735813-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "light",
+  "colors": [
+    {
+      "name": "Canvas White",
+      "hex": "#faf9f6"
+    },
+    {
+      "name": "Ink Black",
+      "hex": "#000000"
+    },
+    {
+      "name": "Muted Gold",
+      "hex": "#ffdaa7"
+    }
+  ],
+  "fonts": [
+    "Monumentgrotesk",
+    "Monumentgrotesk Semimono",
+    "Arial"
+  ],
+  "northStar": "Bare canvas, whispered giants.",
+  "createdAt": "2026-04-30T01:49:12.237Z",
+  "previewVideoCapturedAt": null,
+  "industry": "agency",
+  "fullResult": {
+    "meta": {
+      "url": "https://socialclubparis.com",
+      "siteName": "Socialclub",
+      "extractedAt": "2026-04-30T01:49:12.167Z",
+      "durationMs": 29406,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 206,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#ffdaa7",
+            "oklch": {
+              "c": 0.0775186887219338,
+              "h": 75.4213730527076,
+              "l": 0.9075265191088038
+            },
+            "contexts": [
+              "other",
+              "image",
+              "hero",
+              "footer"
+            ],
+            "frequency": 465,
+            "confidence": 1,
+            "prominence": 73074905.71418831,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "hero/color": 1,
+              "image/color": 2,
+              "other/color": 89,
+              "footer/color": 1,
+              "hero/borderColor": 4,
+              "image/borderColor": 8,
+              "other/borderColor": 356,
+              "footer/borderColor": 4
+            }
+          },
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "link",
+              "image",
+              "heading",
+              "other",
+              "icon"
+            ],
+            "frequency": 572,
+            "confidence": 1,
+            "prominence": 9563300.923737993,
+            "properties": [
+              "color",
+              "borderColor",
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "icon/color": 1,
+              "link/color": 17,
+              "image/color": 3,
+              "other/color": 58,
+              "heading/color": 34,
+              "icon/borderColor": 4,
+              "link/borderColor": 68,
+              "image/borderColor": 12,
+              "other/borderColor": 232,
+              "heading/borderColor": 128,
+              "other/backgroundColor": 15
+            }
+          }
+        ],
+        "isDarkMode": false,
+        "colorfulness": 0.09394612905131544,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 15.84,
+            "background": "#000000",
+            "foreground": "#ffdaa7"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [
+          {
+            "value": 4,
+            "contexts": [
+              "image",
+              "icon",
+              "other"
+            ],
+            "frequency": 12
+          }
+        ],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 3,
+            "contexts": [
+              "other",
+              "heading"
+            ],
+            "frequency": 18,
+            "properties": [
+              "marginRight",
+              "marginLeft"
+            ],
+            "propertyContextPairs": [
+              "marginRight|other",
+              "marginLeft|other",
+              "marginRight|heading"
+            ]
+          },
+          {
+            "value": 6,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 6,
+            "properties": [
+              "marginRight"
+            ],
+            "propertyContextPairs": [
+              "marginRight|other"
+            ]
+          },
+          {
+            "value": 7,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 40,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|other",
+              "paddingLeft|other"
+            ]
+          },
+          {
+            "value": 10,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 4,
+            "properties": [
+              "paddingTop",
+              "paddingRight",
+              "paddingBottom",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other",
+              "paddingRight|other",
+              "paddingBottom|other",
+              "paddingLeft|other"
+            ]
+          },
+          {
+            "value": 13,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "marginTop"
+            ],
+            "propertyContextPairs": [
+              "marginTop|other"
+            ]
+          },
+          {
+            "value": 26,
+            "contexts": [
+              "footer",
+              "link"
+            ],
+            "frequency": 4,
+            "properties": [
+              "paddingBottom",
+              "marginRight"
+            ],
+            "propertyContextPairs": [
+              "paddingBottom|footer",
+              "marginRight|link"
+            ]
+          },
+          {
+            "value": 29,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 8,
+            "properties": [
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingLeft|other"
+            ]
+          },
+          {
+            "value": 30,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 8,
+            "properties": [
+              "paddingRight"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|other"
+            ]
+          },
+          {
+            "value": 34,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 5,
+            "properties": [
+              "marginTop"
+            ],
+            "propertyContextPairs": [
+              "marginTop|other"
+            ]
+          },
+          {
+            "value": 39,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 3,
+            "properties": [
+              "paddingTop",
+              "paddingBottom",
+              "marginTop"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other",
+              "paddingBottom|other",
+              "marginTop|other"
+            ]
+          },
+          {
+            "value": 57,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 6,
+            "properties": [
+              "paddingTop"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other"
+            ]
+          },
+          {
+            "value": 66,
+            "contexts": [
+              "footer"
+            ],
+            "frequency": 1,
+            "properties": [
+              "paddingTop"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|footer"
+            ]
+          },
+          {
+            "value": 81,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "marginBottom",
+              "marginTop"
+            ],
+            "propertyContextPairs": [
+              "marginBottom|other",
+              "marginTop|other"
+            ]
+          },
+          {
+            "value": 106,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingTop"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other"
+            ]
+          },
+          {
+            "value": 151,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingTop"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other"
+            ]
+          }
+        ],
+        "density": "compact",
+        "baseUnit": 4
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "Arial",
+            "source": "system",
+            "weights": [
+              400
+            ],
+            "frequency": 172,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "Monumentgrotesk Semimono",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 24,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "Monumentgrotesk",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 10,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 16,
+          "name": "Major Third",
+          "ratio": 1.25,
+          "confidence": 0.83
+        },
+        "steps": [
+          {
+            "size": 10,
+            "family": "Monumentgrotesk Semimono",
+            "weight": 400,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 12,
+            "lineHeight": 1.67,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 10,
+            "family": "Monumentgrotesk",
+            "weight": 400,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.67,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 11,
+            "family": "Arial",
+            "weight": 400,
+            "contexts": [
+              "link",
+              "image",
+              "other",
+              "icon"
+            ],
+            "frequency": 79,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 11,
+            "family": "Monumentgrotesk Semimono",
+            "weight": 400,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 12,
+            "lineHeight": 1.5,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 14,
+            "family": "Arial",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "hero",
+              "footer"
+            ],
+            "frequency": 11,
+            "lineHeight": 1.39,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 14,
+            "family": "Arial",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "image"
+            ],
+            "frequency": 82,
+            "lineHeight": 1.39,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 46,
+            "family": "Monumentgrotesk",
+            "weight": 400,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 5,
+            "lineHeight": 1,
+            "letterSpacing": -0.02,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 62,
+            "family": "Monumentgrotesk",
+            "weight": 400,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 1,
+            "lineHeight": 1,
+            "letterSpacing": -0.015,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 158,
+            "family": "Monumentgrotesk",
+            "weight": 400,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 3,
+            "lineHeight": 0.8,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Prioritize Canvas White (#faf9f6) as the dominant background color for all main content areas.",
+        "Use Ink Black (#000000) for all primary text, ensuring a high-contrast reading experience against light backgrounds.",
+        "Apply Monumentgrotesk with negative letter-spacing for all major headlines to maintain the expansive, bold aesthetic.",
+        "Employ the 4px border-radius for all image containers and small interactive elements.",
+        "Maintain generous section gaps (around 81px) to create ample negative space and visual breathing room between content blocks.",
+        "Reserve Muted Gold (#ffdaa7) for subtle decorative accents or borders, not as a primary action color.",
+        "Use Arial, 14px, weight 400, for all navigation and functional UI text."
+      ],
+      "donts": [
+        "Avoid using saturated or vibrant colors for backgrounds or large content blocks.",
+        "Do not use generic system fonts for headlines; Monumentgrotesk is essential for brand identity.",
+        "Do not combine multiple border-radius values on the same element or within close proximity, maintain the unified 4px radius.",
+        "Do not introduce heavy shadows or gradients; the design relies on flat surfaces and clean lines.",
+        "Avoid tight spacing between elements; ensure an element gap of at least 6px and ample padding.",
+        "Do not use Muted Gold as an active text color; its role is primarily decorative or as a soft background accent."
+      ],
+      "theme": "light",
+      "colors": [
+        {
+          "hex": "#faf9f6",
+          "name": "Canvas White",
+          "role": "Primary page background, neutral surface",
+          "group": "neutral"
+        },
+        {
+          "hex": "#000000",
+          "name": "Ink Black",
+          "role": "Primary text, borders, decorative UI elements — establishes strong visual contrast",
+          "group": "neutral"
+        },
+        {
+          "hex": "#ffdaa7",
+          "name": "Muted Gold",
+          "role": "Subtle background accents, decorative borders, minor highlights for UI elements",
+          "group": "accent"
+        }
+      ],
+      "imagery": "The visual language focuses on a mix of curated photography and evocative abstract imagery. Photography is often rich and moody, frequently with muted tones or dramatic lighting, presented within contained frames with a 4px border radius. Imagery serves an atmospheric and sometimes abstract purpose rather than direct product showcase or literal explanation. There are no prominent illustrations, filled icons, or graphic elements; the focus is on photographic or video content.",
+      "similar": [
+        {
+          "why": "Shares a heavy reliance on strong typography, ample negative space, and a curated, minimalist color palette.",
+          "business": "AIGA Eye on Design"
+        },
+        {
+          "why": "Similar use of large, impactful headline typography and a clean, spacious layout against a light background.",
+          "business": "Kerning Cultures"
+        },
+        {
+          "why": "Adheres to a strong preference for achromatic palettes (black, white, gray) with sparse, measured use of accent colors.",
+          "business": "Minimalissimo"
+        },
+        {
+          "why": "Employs an editorial-like layout with large text, high contrast, and a raw, almost deconstructed feel.",
+          "business": "Off-White"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "default": "4px"
+        },
+        "elementGap": "6px",
+        "sectionGap": "81px",
+        "cardPadding": "10px",
+        "pageMaxWidth": "1419px"
+      },
+      "industry": "agency",
+      "surfaces": [
+        {
+          "hex": "#faf9f6",
+          "name": "Canvas Background",
+          "level": 0,
+          "purpose": "Predominant global background for the entire page, providing a clean, bright foundation."
+        }
+      ],
+      "northStar": "Bare canvas, whispered giants.",
+      "typeScale": [
+        {
+          "role": "caption",
+          "size": 10,
+          "lineHeight": 16.7,
+          "letterSpacing": -0.15
+        },
+        {
+          "role": "body",
+          "size": 14,
+          "lineHeight": 19.46,
+          "letterSpacing": 0
+        },
+        {
+          "role": "heading",
+          "size": 46,
+          "lineHeight": 36.8,
+          "letterSpacing": -0.92
+        },
+        {
+          "role": "heading-lg",
+          "size": 62,
+          "lineHeight": 49.6,
+          "letterSpacing": -1.24
+        },
+        {
+          "role": "display",
+          "size": 158,
+          "lineHeight": 126.4,
+          "letterSpacing": -3.16
+        }
+      ],
+      "components": [
+        {
+          "name": "Navigation Link",
+          "role": "Global navigation item",
+          "description": "Arial, 14px, weight 400, Ink Black text on Canvas White background. Hover state shows an Ink Black bottom border of 1px."
+        },
+        {
+          "name": "Hero Display Text",
+          "role": "Primary headline text on hero section",
+          "description": "Monumentgrotesk, 158px, weight 400, Canvas White text on a background of varied image content. Letter spacing -0.0200em."
+        },
+        {
+          "name": "Muted Gold Accent Box",
+          "role": "Decorative border around content, or subtle background",
+          "description": "Features a 1px border of Muted Gold (#ffdaa7) around content. Can also be used as a background fill."
+        },
+        {
+          "name": "Section Subtitle",
+          "role": "Secondary heading for content sections",
+          "description": "Monumentgrotesk Semimono, 10px, weight 400, Ink Black text. Line height 1.50 for improved legibility."
+        },
+        {
+          "name": "Image Card",
+          "role": "Container for visual content",
+          "description": "Images contained within a 4px border-radius, often with a subtle Muted Gold (#ffdaa7) border and a bottom margin of 26px."
+        }
+      ],
+      "typography": [
+        {
+          "role": "Dominant headlines and large display text, characterized by its wide, sans-serif structure and significant negative letter-spacing for an expansive feel. The extreme sizing variance creates dramatic visual hierarchy.",
+          "sizes": "10px, 46px, 62px, 158px",
+          "family": "Monumentgrotesk",
+          "weight": "400",
+          "weights": [
+            400
+          ],
+          "lineHeight": "0.80, 1.00, 1.67",
+          "substitute": "Helvetica Neue",
+          "letterSpacing": "-0.0200em at 158px/62px/46px, -0.0150em at 10px"
+        },
+        {
+          "role": "Monospaced headings and sub-headings, used sparingly to provide a technical, structured contrast to the main Monumentgrotesk. Its slightly larger line height offers better readability for short blocks of text.",
+          "sizes": "10px, 11px",
+          "family": "Monumentgrotesk Semimono",
+          "weight": "400",
+          "weights": [
+            400
+          ],
+          "lineHeight": "1.50, 1.67",
+          "substitute": "Space Mono"
+        },
+        {
+          "role": "Functional text such as navigation links, labels, and small informational text. The system font choice ensures legibility and a neutral voice for secondary content.",
+          "sizes": "11px, 14px",
+          "family": "Arial",
+          "weight": "400",
+          "weights": [
+            400
+          ],
+          "lineHeight": "1.00, 1.39",
+          "substitute": "Inter"
+        }
+      ],
+      "description": "Socialclub presents a sparse, high-contrast aesthetic where large, neutral typography dominates the visual field. The design emphasizes content through intentional negative space and a clean, almost monochrome palette. A single muted yellow hue provides a subtle warmth, occasionally appearing as a border or background accent to differentiate sections without overwhelming the stark presentation. The overall impression is one of confident restraint, letting the content speak for itself against minimal interface elements.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "Quick Color Reference: \ntext: #000000\nbackground: #faf9f6\nborder: #000000\naccent: #ffdaa7\nprimary action: no distinct CTA color\n\nExample Component Prompts:\nCreate a primary navigation link: Arial, 14px, weight 400, #000000 text. Hover state adds a 1px solid #000000 bottom border.\nGenerate a main content section title: Monumentgrotesk, 62px, weight 400, #000000 text, line height 49.6px, letter-spacing -1.24px.\nDesign an image card container: a simple box with a 4px border-radius, background #ffdaa7, with 10px padding on all sides.\nCreate a small informational label: Monumentgrotesk Semimono, 10px, weight 400, #000000 text, line height 1.50."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777513735813-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777513735813-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/9d1234b7-1e6c-4eb3-9ebb-2cc40c688090",
+  "ranks": {
+    "trending": 960,
+    "popular": 1007,
+    "newest": 513
+  },
+  "localSlug": "socialclub-9d1234b7"
+}

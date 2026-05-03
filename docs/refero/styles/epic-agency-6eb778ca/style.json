@@ -1,0 +1,886 @@
+{
+  "id": "6eb778ca-6808-4cc6-ac8a-7beea5a25c36",
+  "url": "https://epic.net",
+  "siteName": "EPIC agency",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775925163303-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775925163303-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "dark",
+  "colors": [
+    {
+      "name": "Nebula Violet",
+      "hex": "#271a47"
+    },
+    {
+      "name": "Stardust Shimmer",
+      "hex": "#dbc9ff"
+    },
+    {
+      "name": "Cosmos Black",
+      "hex": "#000000"
+    },
+    {
+      "name": "Galactic Gold",
+      "hex": "#bc994"
+    }
+  ],
+  "fonts": [
+    "Inter",
+    "Sang Bleu"
+  ],
+  "northStar": "Deep-space command center. A shimmering violet expanse punctuated by crisp text and glowing 3D objects.",
+  "createdAt": "2026-02-09T11:36:00.000Z",
+  "previewVideoCapturedAt": null,
+  "industry": "agency",
+  "fullResult": {
+    "meta": {
+      "url": "https://epic.net",
+      "siteName": "EPIC agency",
+      "extractedAt": "2026-04-11T16:33:01.388Z",
+      "durationMs": 29793,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 288,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "complete",
+          "attempts": 2
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#dbc9ff",
+            "oklch": {
+              "c": 0.07603822611179673,
+              "h": 300.069208228079,
+              "l": 0.8683124587943208
+            },
+            "contexts": [
+              "other",
+              "icon",
+              "body",
+              "button",
+              "heading",
+              "link",
+              "nav"
+            ],
+            "frequency": 1170,
+            "confidence": 1,
+            "prominence": 90693915.3856543,
+            "properties": [
+              "color",
+              "borderColor",
+              "fill",
+              "backgroundColor",
+              "stroke"
+            ]
+          },
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "button",
+              "body",
+              "other"
+            ],
+            "frequency": 36,
+            "confidence": 1,
+            "prominence": 4219657.22615945,
+            "properties": [
+              "color",
+              "borderColor",
+              "backgroundColor"
+            ]
+          },
+          {
+            "hex": "#271a47",
+            "oklch": {
+              "c": 0.08075073111183213,
+              "h": 293.32506320767544,
+              "l": 0.2611882128220487
+            },
+            "contexts": [
+              "button",
+              "other"
+            ],
+            "frequency": 12,
+            "confidence": 1,
+            "prominence": 1005642.5991211777,
+            "properties": [
+              "backgroundColor",
+              "fill",
+              "stroke"
+            ]
+          },
+          {
+            "hex": "#bc994e",
+            "oklch": {
+              "c": 0.10265364684506817,
+              "h": 84.53638496010332,
+              "l": 0.6997003734937854
+            },
+            "contexts": [
+              "link",
+              "icon",
+              "other"
+            ],
+            "frequency": 49,
+            "confidence": 1,
+            "prominence": 954940.4673098833,
+            "properties": [
+              "color",
+              "borderColor"
+            ]
+          }
+        ],
+        "isDarkMode": true,
+        "colorfulness": 0.20257207282483092,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 13.81,
+            "background": "#000000",
+            "foreground": "#dbc9ff"
+          },
+          {
+            "level": "AAA",
+            "ratio": 10.42,
+            "background": "#271a47",
+            "foreground": "#dbc9ff"
+          },
+          {
+            "level": "AAA",
+            "ratio": 7.8,
+            "background": "#000000",
+            "foreground": "#bc994e"
+          },
+          {
+            "level": "AA",
+            "ratio": 5.89,
+            "background": "#271a47",
+            "foreground": "#bc994e"
+          },
+          {
+            "level": "fail",
+            "ratio": 1.77,
+            "background": "#dbc9ff",
+            "foreground": "#bc994e"
+          },
+          {
+            "level": "fail",
+            "ratio": 1.33,
+            "background": "#271a47",
+            "foreground": "#000000"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [
+          {
+            "value": 10,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1
+          },
+          {
+            "value": 20,
+            "contexts": [
+              "button"
+            ],
+            "frequency": 1
+          },
+          {
+            "value": 30,
+            "contexts": [
+              "link",
+              "button"
+            ],
+            "frequency": 4
+          }
+        ],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 2,
+            "frequency": 6,
+            "properties": [
+              "marginTop",
+              "marginBottom"
+            ]
+          },
+          {
+            "value": 4,
+            "frequency": 4,
+            "properties": [
+              "paddingTop",
+              "paddingBottom"
+            ]
+          },
+          {
+            "value": 5,
+            "frequency": 25,
+            "properties": [
+              "paddingTop",
+              "paddingBottom",
+              "rowGap",
+              "columnGap",
+              "marginBottom"
+            ]
+          },
+          {
+            "value": 6,
+            "frequency": 3,
+            "properties": [
+              "rowGap",
+              "columnGap",
+              "marginLeft"
+            ]
+          },
+          {
+            "value": 7,
+            "frequency": 2,
+            "properties": [
+              "marginLeft"
+            ]
+          },
+          {
+            "value": 10,
+            "frequency": 41,
+            "properties": [
+              "marginTop",
+              "marginRight",
+              "marginBottom",
+              "paddingTop",
+              "paddingRight",
+              "paddingBottom",
+              "paddingLeft",
+              "rowGap",
+              "columnGap"
+            ]
+          },
+          {
+            "value": 12,
+            "frequency": 2,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ]
+          },
+          {
+            "value": 14,
+            "frequency": 2,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ]
+          },
+          {
+            "value": 15,
+            "frequency": 6,
+            "properties": [
+              "marginBottom",
+              "marginTop",
+              "rowGap",
+              "columnGap"
+            ]
+          },
+          {
+            "value": 18,
+            "frequency": 4,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ]
+          },
+          {
+            "value": 20,
+            "frequency": 5,
+            "properties": [
+              "rowGap",
+              "columnGap",
+              "marginBottom"
+            ]
+          },
+          {
+            "value": 32,
+            "frequency": 2,
+            "properties": [
+              "paddingTop",
+              "paddingBottom"
+            ]
+          },
+          {
+            "value": 50,
+            "frequency": 2,
+            "properties": [
+              "rowGap",
+              "columnGap"
+            ]
+          },
+          {
+            "value": 80,
+            "frequency": 9,
+            "properties": [
+              "marginTop",
+              "marginBottom",
+              "paddingTop",
+              "marginRight"
+            ]
+          },
+          {
+            "value": 117,
+            "frequency": 6,
+            "properties": [
+              "marginRight",
+              "marginLeft"
+            ]
+          },
+          {
+            "value": 120,
+            "frequency": 2,
+            "properties": [
+              "marginRight",
+              "marginLeft"
+            ]
+          }
+        ],
+        "density": "compact",
+        "baseUnit": null
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "inter",
+            "source": "google",
+            "weights": [
+              400,
+              600,
+              700
+            ],
+            "frequency": 134,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "sang-bleu",
+            "source": "custom",
+            "weights": [
+              400,
+              700,
+              900
+            ],
+            "frequency": 103,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "object-fit: cover",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 1,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 18,
+          "name": "Minor Third",
+          "ratio": 1.2,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 9,
+            "family": "inter",
+            "weight": 700,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.4,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 9,
+            "family": "inter",
+            "weight": 600,
+            "contexts": [
+              "other",
+              "icon",
+              "body"
+            ],
+            "frequency": 12,
+            "lineHeight": 1.33,
+            "letterSpacing": 0.111,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 10,
+            "family": "inter",
+            "weight": 400,
+            "contexts": [
+              "body",
+              "heading",
+              "other"
+            ],
+            "frequency": 10,
+            "lineHeight": 3,
+            "letterSpacing": 0.5,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 11,
+            "family": "inter",
+            "weight": 400,
+            "contexts": [
+              "button",
+              "icon"
+            ],
+            "frequency": 2,
+            "lineHeight": 1.65,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 11,
+            "family": "inter",
+            "weight": 700,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.4,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 13,
+            "family": "inter",
+            "weight": 400,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "lineHeight": 1.65,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 13,
+            "family": "inter",
+            "weight": 600,
+            "contexts": [
+              "button",
+              "body",
+              "icon"
+            ],
+            "frequency": 3,
+            "lineHeight": 1.65,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 14,
+            "family": "inter",
+            "weight": 400,
+            "contexts": [
+              "link",
+              "icon",
+              "other",
+              "nav",
+              "button"
+            ],
+            "frequency": 22,
+            "lineHeight": 1.65,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 14,
+            "family": "inter",
+            "weight": 700,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "lineHeight": 1.4,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 14,
+            "family": "inter",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "link"
+            ],
+            "frequency": 6,
+            "lineHeight": 1.65,
+            "letterSpacing": 0.036,
+            "textTransform": "none"
+          },
+          {
+            "size": 14,
+            "family": "inter",
+            "weight": 700,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.65,
+            "letterSpacing": 0.036,
+            "textTransform": "none"
+          },
+          {
+            "size": 14,
+            "family": "inter",
+            "weight": 400,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 6,
+            "lineHeight": 1.65,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 14,
+            "family": "inter",
+            "weight": 400,
+            "contexts": [
+              "link",
+              "icon"
+            ],
+            "frequency": 8,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "inter",
+            "weight": 400,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 4,
+            "lineHeight": 1.56,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 18,
+            "family": "inter",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "button",
+              "body",
+              "link",
+              "icon"
+            ],
+            "frequency": 50,
+            "lineHeight": 1.65,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 18,
+            "family": "inter",
+            "weight": 400,
+            "contexts": [
+              "link",
+              "icon"
+            ],
+            "frequency": 2,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 18,
+            "family": "inter",
+            "weight": 400,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "lineHeight": 1.7,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 18,
+            "family": "object-fit: cover",
+            "weight": 400,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.7,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 42,
+            "family": "sang-bleu",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "heading"
+            ],
+            "frequency": 38,
+            "lineHeight": 1.65,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 42,
+            "family": "sang-bleu",
+            "weight": 700,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 6,
+            "lineHeight": 1.65,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 80,
+            "family": "sang-bleu",
+            "weight": 900,
+            "contexts": [
+              "heading",
+              "other"
+            ],
+            "frequency": 57,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 80,
+            "family": "sang-bleu",
+            "weight": 900,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 120,
+            "family": "sang-bleu",
+            "weight": 900,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Prioritize Nebula Violet (#271a47) for backgrounds to maintain the deep and immersive atmosphere.",
+        "Use Stardust Shimmer (#dbc9ff) as the primary text and interactive element color for high contrast against dark elements.",
+        "Employ Sang Bleu (substitute Playfair Display) for all display-size headlines (42px, 80px, 120px) to establish brand identity.",
+        "Ensure all interactive components like buttons and links use either 20px or 30px border-radius, maintaining a soft, approachable feel.",
+        "Utilize Galactic Gold (#bc994e) sparingly for secondary links or subtle accent details, preventing visual noise.",
+        "Maintain a compact density with element gaps typically at 4px, 10px, or 15px to keep content focused."
+      ],
+      "tags": [
+        "dark-mode",
+        "luxury",
+        "minimal-decoration",
+        "3d-illustration",
+        "elegant-serif-headlines",
+        "subtle-violet",
+        "futuristic",
+        "compact-density",
+        "ghost-buttons",
+        "high-contrast-text"
+      ],
+      "donts": [
+        "Avoid using bright or overly saturated colors that would disrupt the muted, celestial palette.",
+        "Do not introduce sharp, angular radii on interactive elements; favor the established 20px or 30px curves.",
+        "Refrain from heavy drop shadows or glows; depth is primarily achieved through color layering and 3D illustration rather than strong elevation.",
+        "Do not use generic system fonts for headlines; the distinctiveness of Sang Bleu is paramount for brand recognition.",
+        "Avoid large, open areas of white or light backgrounds; the dark theme is central to the visual identity.",
+        "Do not mix 'Inter' with 'Sang Bleu' in body text or for secondary labels; their roles are strictly separated."
+      ],
+      "theme": "dark",
+      "colors": [
+        {
+          "hex": "#271a47",
+          "name": "Nebula Violet",
+          "role": "Page backgrounds, section surfaces, primary interactive button fills.",
+          "group": "brand"
+        },
+        {
+          "hex": "#dbc9ff",
+          "name": "Stardust Shimmer",
+          "role": "Primary text color for headlines and body, interactive button text, icon outlines — providing high contrast against the dark background.",
+          "group": "brand"
+        },
+        {
+          "hex": "#000000",
+          "name": "Cosmos Black",
+          "role": "Used for specific interactive elements such as `Play Video` button background and text, creating isolated points of absolute darkness.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#bc994",
+          "name": "Galactic Gold",
+          "role": "Used for secondary links and iconic accents, signaling complementary information or actions without competing with primary CTAs.",
+          "group": "accent"
+        }
+      ],
+      "layout": "The page primarily follows a max-width contained model (around 1200px) with content centered. The hero section is full-bleed with a dark Nebula Violet background, featuring a large, centered headline and a complex 3D illustration that grounds the design. Subsequent sections maintain consistent vertical spacing, often presenting content in stacked blocks or simple two-column arrangements (e.g., journal list alongside a headline). There's no evident alternating light/dark banding; the dark theme is consistent. Navigation is a minimalist top bar with a logo and simple text links, becoming a dropdown menu on smaller breakpoints. The overall density is relatively compact.",
+      "imagery": "The visual language is dominated by 3D rendered illustrations. These are geometric, abstract yet representational (rocket ships, trophies, drones, satellites), and feature soft, diffused light against the dark background. Their role is primarily decorative and atmospheric, creating a sense of wonder and advanced technology without being photorealistic. Icons, where present, are typically outlined or filled in Stardust Shimmer (#dbc9ff), maintaining the UI's color palette. There is a high density of imagery in the hero section, framing the text, but later sections become more text-dominant while retaining illustrative flourishes. Imagery is contained, not full-bleed, and often integrates with the layout rather than overlapping elements.",
+      "similar": [
+        {
+          "why": "Shares a dark, elegant UI with deliberate use of accent colors and sharp, purposeful typography.",
+          "business": "Linear"
+        },
+        {
+          "why": "Uses abstract 3D illustrations and a sophisticated dark theme to convey a sense of modern, creative technology.",
+          "business": "Framer"
+        },
+        {
+          "why": "Draws parallels with high-end digital agency sites prioritizing unique display typography and atmospheric dark themes with minimalist interactions.",
+          "business": "Awwwards Nominees (many)"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "buttons": "20px, 30px",
+          "general": "10px",
+          "menu-items": "0px"
+        },
+        "elementGap": "",
+        "sectionGap": "32px",
+        "cardPadding": "12-18px",
+        "pageMaxWidth": "1200px"
+      },
+      "category": "agency",
+      "northStar": "Deep-space command center. A shimmering violet expanse punctuated by crisp text and glowing 3D objects.",
+      "components": [
+        {
+          "html": "<div style=\"--color-nebula-violet:#271a47;--color-stardust-shimmer:#dbc9ff;--color-cosmos-black:#000000;--color-galactic-gold:#bc994e;--font-inter:'Inter',sans-serif;--font-sang-bleu:'Playfair Display',serif;background:var(--color-nebula-violet);padding:32px;width:100%;box-sizing:border-box;font-family:var(--font-inter);\"><div style=\"display:flex;justify-content:space-between;align-items:center;margin-bottom:16px;\"><span style=\"color:var(--color-stardust-shimmer);font-family:var(--font-inter);font-size:11px;font-weight:600;letter-spacing:0.5em;opacity:0.7;\">JOURNAL</span><a href=\"#\" style=\"display:flex;align-items:center;gap:8px;color:var(--color-stardust-shimmer);font-family:var(--font-inter);font-size:11px;font-weight:600;letter-spacing:0.3em;text-decoration:none;opacity:0.85;\">SEE ALL <svg width='14' height='10' viewBox='0 0 14 10' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M1 5H13M9 1L13 5L9 9' stroke='#dbc9ff' stroke-width='1.2' stroke-linecap='round' stroke-linejoin='round'/></svg></a></div><div style=\"border-top:1px solid rgba(219,201,255,0.15);\"></div><div style=\"padding:20px 0;border-bottom:1px solid rgba(219,201,255,0.15);display:flex;justify-content:space-between;align-items:center;\"><div><p style=\"color:var(--color-stardust-shimmer);font-family:var(--font-inter);font-size:10px;letter-spacing:0.36em;opacity:0.55;margin:0 0 8px 0;font-weight:400;\">13 OCTOBER 2025</p><p style=\"color:var(--color-stardust-shimmer);font-family:var(--font-inter);font-size:16px;font-weight:400;margin:0;line-height:1.4;\">Captain Goosebumps</p></div><div style=\"display:flex;flex-direction:column;align-items:center;gap:4px;\"><svg width='18' height='18' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'><ellipse cx='12' cy='12' rx='10' ry='6.5' stroke='#dbc9ff' stroke-width='1.3' opacity='0.6'/><circle cx='12' cy='12' r='3' stroke='#dbc9ff' stroke-width='1.3' opacity='0.6'/></svg><span style=\"color:var(--color-galactic-gold);font-family:var(--font-inter);font-size:10px;letter-spacing:0.3em;font-weight:600;\">READ</span></div></div><div style=\"padding:20px 0;border-bottom:1px solid rgba(219,201,255,0.15);display:flex;justify-content:space-between;align-items:center;\"><div><p style=\"color:var(--color-stardust-shimmer);font-family:var(--font-inter);font-size:10px;letter-spacing:0.36em;opacity:0.55;margin:0 0 8px 0;font-weight:400;\">25 NOVEMBER 2024</p><p style=\"color:var(--color-stardust-shimmer);font-family:var(--font-inter);font-size:16px;font-weight:400;margin:0;line-height:1.4;\">Teambuilding Amsterdam</p></div><div style=\"display:flex;flex-direction:column;align-items:center;gap:4px;\"><svg width='18' height='18' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'><ellipse cx='12' cy='12' rx='10' ry='6.5' stroke='#dbc9ff' stroke-width='1.3' opacity='0.6'/><circle cx='12' cy='12' r='3' stroke='#dbc9ff' stroke-width='1.3' opacity='0.6'/></svg><span style=\"color:var(--color-galactic-gold);font-family:var(--font-inter);font-size:10px;letter-spacing:0.3em;font-weight:600;\">READ</span></div></div><div style=\"padding:20px 0;border-bottom:1px solid rgba(219,201,255,0.15);display:flex;justify-content:space-between;align-items:center;\"><div><p style=\"color:var(--color-stardust-shimmer);font-family:var(--font-inter);font-size:10px;letter-spacing:0.36em;opacity:0.55;margin:0 0 8px 0;font-weight:400;\">28 OCTOBER 2024</p><p style=\"color:var(--color-stardust-shimmer);font-family:var(--font-inter);font-size:16px;font-weight:400;margin:0;line-height:1.4;\">Branding & Photography</p></div><div style=\"display:flex;flex-direction:column;align-items:center;gap:4px;\"><svg width='18' height='18' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'><ellipse cx='12' cy='12' rx='10' ry='6.5' stroke='#dbc9ff' stroke-width='1.3' opacity='0.6'/><circle cx='12' cy='12' r='3' stroke='#dbc9ff' stroke-width='1.3' opacity='0.6'/></svg><span style=\"color:var(--color-galactic-gold);font-family:var(--font-inter);font-size:10px;letter-spacing:0.3em;font-weight:600;\">READ</span></div></div><div style=\"padding:20px 0;display:flex;justify-content:space-between;align-items:center;\"><div><p style=\"color:var(--color-stardust-shimmer);font-family:var(--font-inter);font-size:10px;letter-spacing:0.36em;opacity:0.55;margin:0 0 8px 0;font-weight:400;\">02 SEPTEMBER 2024</p><p style=\"color:var(--color-stardust-shimmer);font-family:var(--font-inter);font-size:16px;font-weight:400;margin:0;line-height:1.4;\">Showreel 2024</p></div><div style=\"display:flex;flex-direction:column;align-items:center;gap:4px;\"><svg width='18' height='18' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'><ellipse cx='12' cy='12' rx='10' ry='6.5' stroke='#dbc9ff' stroke-width='1.3' opacity='0.6'/><circle cx='12' cy='12' r='3' stroke='#dbc9ff' stroke-width='1.3' opacity='0.6'/></svg><span style=\"color:var(--color-galactic-gold);font-family:var(--font-inter);font-size:10px;letter-spacing:0.3em;font-weight:600;\">READ</span></div></div></div>",
+          "name": "Journal Entry List",
+          "role": "",
+          "description": ""
+        },
+        {
+          "html": "<div style=\"--color-nebula-violet:#271a47;--color-stardust-shimmer:#dbc9ff;--color-cosmos-black:#000000;--color-galactic-gold:#bc994e;--font-inter:'Inter',sans-serif;--font-sang-bleu:'Playfair Display',serif;background:var(--color-nebula-violet);padding:48px 32px;width:100%;box-sizing:border-box;display:flex;flex-direction:column;gap:40px;\"><div style=\"display:flex;align-items:center;gap:20px;flex-wrap:wrap;\"><a href=\"#\" style=\"display:inline-flex;align-items:center;gap:10px;padding:10px 22px;border:1.5px solid var(--color-stardust-shimmer);border-radius:30px;background:transparent;color:var(--color-stardust-shimmer);font-family:var(--font-inter);font-size:11px;font-weight:600;letter-spacing:0.3em;text-decoration:none;cursor:pointer;\">VISIT PROJECT <svg width='13' height='10' viewBox='0 0 14 10' fill='none'><path d='M1 5H13M9 1L13 5L9 9' stroke='#dbc9ff' stroke-width='1.2' stroke-linecap='round' stroke-linejoin='round'/></svg></a><a href=\"#\" style=\"display:inline-flex;align-items:center;gap:10px;padding:10px 4px;background:transparent;border:none;color:var(--color-stardust-shimmer);font-family:var(--font-inter);font-size:11px;font-weight:600;letter-spacing:0.3em;text-decoration:none;cursor:pointer;\">SEE ALL PROJECTS <svg width='13' height='10' viewBox='0 0 14 10' fill='none'><path d='M1 5H13M9 1L13 5L9 9' stroke='#dbc9ff' stroke-width='1.2' stroke-linecap='round' stroke-linejoin='round'/></svg></a></div><div style=\"border-top:1px solid rgba(219,201,255,0.15);padding-top:32px;\"><p style=\"color:var(--color-stardust-shimmer);font-family:var(--font-inter);font-size:10px;letter-spacing:0.4em;opacity:0.5;margin:0 0 20px 0;\">LANGUAGE SELECTOR</p><div style=\"display:inline-flex;align-items:center;gap:2px;border:1.5px solid rgba(219,201,255,0.3);border-radius:30px;padding:8px 16px;\"><span style=\"color:var(--color-stardust-shimmer);font-family:var(--font-inter);font-size:12px;font-weight:400;letter-spacing:0.15em;\">EN</span><svg width='12' height='12' viewBox='0 0 12 12' fill='none' style='margin-left:4px;'><path d='M3 4.5L6 7.5L9 4.5' stroke='#dbc9ff' stroke-width='1.2' stroke-linecap='round' stroke-linejoin='round'/></svg></div></div><div style=\"border-top:1px solid rgba(219,201,255,0.15);padding-top:32px;\"><p style=\"color:var(--color-stardust-shimmer);font-family:var(--font-inter);font-size:10px;letter-spacing:0.4em;opacity:0.5;margin:0 0 20px 0;\">PLAY BUTTON</p><button style=\"display:inline-flex;align-items:center;justify-content:center;width:80px;height:80px;border-radius:50%;background:rgba(39,26,71,0.85);border:1.5px solid rgba(219,201,255,0.25);cursor:pointer;\"><svg width='22' height='22' viewBox='0 0 22 22' fill='none'><path d='M8 6L17 11L8 16V6Z' fill='#dbc9ff' stroke='#dbc9ff' stroke-width='1' stroke-linejoin='round'/></svg></button></div></div>",
+          "name": "Button Group",
+          "role": "",
+          "description": ""
+        },
+        {
+          "html": "<div style=\"--color-nebula-violet:#271a47;--color-stardust-shimmer:#dbc9ff;--color-cosmos-black:#000000;--color-galactic-gold:#bc994e;--font-inter:'Inter',sans-serif;--font-sang-bleu:'Playfair Display',serif;background:var(--color-nebula-violet);padding:40px 32px;width:100%;box-sizing:border-box;font-family:var(--font-inter);\"><p style=\"text-align:center;color:var(--color-stardust-shimmer);font-family:var(--font-inter);font-size:11px;letter-spacing:0.5em;opacity:0.55;font-weight:400;margin:0 0 24px 0;\">SHOWREEL</p><div style=\"width:100%;border-radius:10px;background:var(--color-cosmos-black);position:relative;overflow:hidden;aspect-ratio:16/9;display:flex;align-items:center;justify-content:center;\"><div style=\"position:relative;display:flex;align-items:center;justify-content:center;\"><div style=\"position:relative;width:100px;height:100px;\"><svg viewBox='0 0 100 100' width='100' height='100' style='position:absolute;top:0;left:0;'><defs><path id='circlePath' d='M 50,50 m -32,0 a 32,32 0 1,1 64,0 a 32,32 0 1,1 -64,0'/></defs><text font-family=\"Inter, sans-serif\" font-size='8.5' fill='rgba(219,201,255,0.7)' letter-spacing='5'><textPath href='#circlePath'>PLAY VIDEO · PLAY VIDEO · </textPath></text></svg><div style=\"position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:52px;height:52px;border-radius:50%;background:rgba(39,26,71,0.95);border:1.5px solid rgba(219,201,255,0.3);display:flex;align-items:center;justify-content:center;\"><svg width='18' height='18' viewBox='0 0 18 18' fill='none'><path d='M6 4.5L14 9L6 13.5V4.5Z' fill='#dbc9ff' stroke='#dbc9ff' stroke-width='0.8' stroke-linejoin='round'/></svg></div></div></div></div></div>",
+          "name": "Showreel Section",
+          "role": "",
+          "description": ""
+        },
+        {
+          "name": "Primary Ghost Button",
+          "role": "Interactive element",
+          "description": "Outline-style button for 'Visit project' and similar calls to action. Text color: Stardust Shimmer (#dbc9ff). Border color: Stardust Shimmer (#dbc9ff). Background: transparent. Border radius: 30px. Padding around text: approximately 3.85px vertical, 13.75px horizontal. Font: Inter, semibold."
+        },
+        {
+          "name": "Secondary Ghost Button",
+          "role": "Interactive element",
+          "description": "Used for 'See all projects' and similar secondary actions. Text color: Stardust Shimmer (#dbc9ff). Background: transparent. Border is absent, implicit interactiveness. Font: Inter, semibold."
+        },
+        {
+          "name": "Nav Dropdown Button",
+          "role": "Interactive element",
+          "description": "Dropdown trigger, e.g., language selector. Text color: Nebula Violet (#271a47). Background: transparent. Padding: 10px on all sides. Border is absent. Font: Inter, normal."
+        },
+        {
+          "name": "Filled Play Button",
+          "role": "Interactive element",
+          "description": "Circular button for 'Play Video'. Background color: Nebula Violet (#271a47). Text color: Stardust Shimmer (#dbc9ff). Border radius: 20px. Padding around text: 4px vertical, 12px horizontal. Font: Inter, normal."
+        },
+        {
+          "name": "Journal Entry Link",
+          "role": "Navigation/information",
+          "description": "Lists individual journal entries. Text color: Stardust Shimmer (#dbc9ff) for title, Galactic Gold (#bc994e) for 'Read' link. Font: Inter at various weights."
+        },
+        {
+          "name": "Header Navigation Item",
+          "role": "Global navigation",
+          "description": "Top-level menu items. Text color: Stardust Shimmer (#dbc9ff). Font: Inter, normal. Underline is absent on hover. Each item appears as simple text."
+        }
+      ],
+      "typography": [
+        {
+          "role": "Primary body text, navigation elements, button labels, and secondary interactive components. Its precise metrics ensure readability even at smaller sizes, contrasting with the more decorative display font.",
+          "sizes": "10px, 11px, 13px, 14px, 16px, 18px",
+          "family": "Inter",
+          "weight": "400, 600, 700",
+          "lineHeight": "1.00, 1.33, 1.40, 1.56, 1.65, 1.70, 3.00",
+          "substitute": "Inter",
+          "letterSpacing": "0.0360em (10px), 0.1110em (13px), 0.5000em (smaller, all caps)"
+        },
+        {
+          "role": "Display headlines and hero text. This custom, highly stylized serif font provides the primary visual identity, signaling sophistication and unique brand voice through its generous sizing and elegant forms.",
+          "sizes": "42px, 80px, 120px",
+          "family": "Sang Bleu",
+          "weight": "400, 700, 900",
+          "lineHeight": "1.00, 1.20, 1.65",
+          "substitute": "Playfair Display"
+        }
+      ],
+      "description": "This design system is a deep-space exploration vehicle, navigating the cosmos with subtle ambient light. The rich, desaturated violet background creates an immediate sense of depth and luxury, providing a canvas for crisp typography and controlled luminance. Geometric 3D illustrations serve as glowing constellations, guiding the user through an experience that feels both futuristic and intimately crafted. Typography plays a central role; the elegant `Sang Bleu` display font is an immediate visual signature.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "### Quick Color Reference\n- Text (Primary): #dbc9ff\n- Background (Primary): #271a47\n- CTA Button (Outline/Text): #dbc9ff\n- Accent (Links): #bc994e\n- Interactive Fill (Secondary): #000000\n\n### Example Component Prompts\n1. Create a hero section with a Nebula Violet (#271a47) background. Place a hero headline 'Digital Wallonia Landing Pages' using Sang Bleu (Playfair Display) at 120px weight 900, color Stardust Shimmer (#dbc9ff). Below this, add a ghost button 'Visit project' with text color #dbc9ff, 30px border-radius, transparent background, and a #dbc9ff border around the text, using Inter font at 16px. Ensure compact padding.\n2. Design a journal entry block: Background Nebula Violet (#271a47). Title 'Captain Goosebumps' using Inter 16px weight 700, color #dbc9ff. Date '13 October 2025' using Inter 13px weight 400, color #dbc9ff. Add a right-aligned 'Read' link in Galactic Gold (#bc994e) using Inter 13px weight 400.\n3. Implement a primary CTA button component: Text 'Learn More' using Inter 14px weight 600, color #dbc9ff. Background Nebula Violet (#271a47). Border radius: 20px. Padding: 4px vertical, 12px horizontal.\n4. Create a top navigation bar. Background Nebula Violet (#271a47). Left-aligned logo placeholder. Right-aligned text link 'Imagine, Build, Tell.' using Inter 14px weight 400, color #dbc9ff. Next to it, an 'EN' language dropdown button, with text 'EN' using Inter 14px, #dbc9ff, transparent background, and 10px padding all around. No borders."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775925163303-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775925163303-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/6eb778ca-6808-4cc6-ac8a-7beea5a25c36",
+  "ranks": {
+    "trending": 654,
+    "popular": 499,
+    "newest": 1214
+  },
+  "localSlug": "epic-agency-6eb778ca"
+}

@@ -1,0 +1,538 @@
+{
+  "id": "ccb67114-6da3-476a-8ca4-b348ab3d0a03",
+  "url": "https://fantasy.co",
+  "siteName": "Fantasy",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775925535201-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775925535201-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "dark",
+  "colors": [
+    {
+      "name": "Absolute Black",
+      "hex": "#000000"
+    },
+    {
+      "name": "Polar White",
+      "hex": "#ffffff"
+    }
+  ],
+  "fonts": [
+    "sans"
+  ],
+  "northStar": "Black Box Theater — a minimal stage where ideas are spotlighted.",
+  "createdAt": "2026-02-11T14:23:00.000Z",
+  "previewVideoCapturedAt": null,
+  "industry": "agency",
+  "fullResult": {
+    "meta": {
+      "url": "https://fantasy.co",
+      "siteName": "Fantasy",
+      "extractedAt": "2026-04-11T16:39:21.735Z",
+      "durationMs": 35055,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 256,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "complete",
+          "attempts": 2
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#ffffff",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 1.0000000000000002
+            },
+            "contexts": [
+              "other",
+              "button",
+              "icon",
+              "card",
+              "hero",
+              "heading",
+              "body",
+              "link",
+              "footer"
+            ],
+            "frequency": 1159,
+            "confidence": 1,
+            "prominence": 199585108.93837845,
+            "properties": [
+              "color",
+              "borderColor",
+              "backgroundColor",
+              "fill"
+            ]
+          },
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "other",
+              "heading",
+              "button",
+              "list",
+              "link"
+            ],
+            "frequency": 74,
+            "confidence": 1,
+            "prominence": 12396675.932467878,
+            "properties": [
+              "backgroundColor",
+              "color",
+              "borderColor"
+            ]
+          }
+        ],
+        "isDarkMode": false,
+        "colorfulness": 0,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 21,
+            "background": "#000000",
+            "foreground": "#ffffff"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [
+          {
+            "value": 8.33333,
+            "contexts": [
+              "other",
+              "button"
+            ],
+            "frequency": 17
+          }
+        ],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 5,
+            "frequency": 2,
+            "properties": [
+              "columnGap"
+            ]
+          },
+          {
+            "value": 10,
+            "frequency": 6,
+            "properties": [
+              "columnGap",
+              "rowGap"
+            ]
+          },
+          {
+            "value": 17,
+            "frequency": 10,
+            "properties": [
+              "columnGap",
+              "rowGap"
+            ]
+          },
+          {
+            "value": 20,
+            "frequency": 2,
+            "properties": [
+              "paddingTop",
+              "paddingBottom"
+            ]
+          },
+          {
+            "value": 27,
+            "frequency": 6,
+            "properties": [
+              "rowGap",
+              "paddingRight",
+              "paddingLeft"
+            ]
+          },
+          {
+            "value": 33,
+            "frequency": 4,
+            "properties": [
+              "paddingBottom",
+              "rowGap"
+            ]
+          },
+          {
+            "value": 40,
+            "frequency": 5,
+            "properties": [
+              "paddingTop",
+              "paddingBottom"
+            ]
+          },
+          {
+            "value": 50,
+            "frequency": 30,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ]
+          },
+          {
+            "value": 75,
+            "frequency": 2,
+            "properties": [
+              "paddingBottom",
+              "rowGap"
+            ]
+          },
+          {
+            "value": 80,
+            "frequency": 3,
+            "properties": [
+              "paddingTop",
+              "rowGap"
+            ]
+          },
+          {
+            "value": 138,
+            "frequency": 2,
+            "properties": [
+              "paddingTop"
+            ]
+          }
+        ],
+        "density": "spacious",
+        "baseUnit": null
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "sans",
+            "source": "custom",
+            "weights": [
+              400,
+              500
+            ],
+            "frequency": 243,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 18,
+          "name": "Minor Third",
+          "ratio": 1.2,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 13,
+            "family": "sans",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "list",
+              "link"
+            ],
+            "frequency": 6,
+            "lineHeight": 1.4,
+            "letterSpacing": -0.013,
+            "textTransform": "none"
+          },
+          {
+            "size": 15,
+            "family": "sans",
+            "weight": 400,
+            "contexts": [
+              "button",
+              "other"
+            ],
+            "frequency": 3,
+            "lineHeight": 1.4,
+            "letterSpacing": -0.011,
+            "textTransform": "none"
+          },
+          {
+            "size": 15,
+            "family": "sans",
+            "weight": 500,
+            "contexts": [
+              "button",
+              "other",
+              "icon"
+            ],
+            "frequency": 5,
+            "lineHeight": 1,
+            "letterSpacing": -0.011,
+            "textTransform": "none"
+          },
+          {
+            "size": 17,
+            "family": "sans",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "button",
+              "icon",
+              "card",
+              "hero",
+              "body",
+              "link",
+              "footer"
+            ],
+            "frequency": 178,
+            "lineHeight": 1.4,
+            "letterSpacing": -0.01,
+            "textTransform": "none"
+          },
+          {
+            "size": 42,
+            "family": "sans",
+            "weight": 400,
+            "contexts": [
+              "heading",
+              "other"
+            ],
+            "frequency": 32,
+            "lineHeight": 1.1,
+            "letterSpacing": -0.02,
+            "textTransform": "none"
+          },
+          {
+            "size": 67,
+            "family": "sans",
+            "weight": 400,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 1,
+            "lineHeight": 1,
+            "letterSpacing": -0.03,
+            "textTransform": "none"
+          },
+          {
+            "size": 117,
+            "family": "sans",
+            "weight": 400,
+            "contexts": [
+              "heading",
+              "other"
+            ],
+            "frequency": 18,
+            "lineHeight": 1,
+            "letterSpacing": -0.03,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Prioritize Polar White (#ffffff) text on Absolute Black (#000000) backgrounds for all content sections.",
+        "Use sans-serif font for all typography, strictly adhering to weights 400 and 500.",
+        "Apply specific letter-spacing: -0.0300em for 117px text, -0.0200em for 67px, -0.0130em for 42px, -0.0110em for 17px, and -0.0100em for 15px and 13px.",
+        "Maintain generous vertical spacing between sections, using values within the 80px-138px range.",
+        "Apply a consistent border-radius of 8.33333px to all interactive elements like buttons."
+      ],
+      "tags": [
+        "monochromatic",
+        "minimalist",
+        "high-contrast",
+        "typography-focused",
+        "editorial",
+        "stark",
+        "luxury",
+        "spacious",
+        "black-and-white"
+      ],
+      "donts": [
+        "Avoid introducing any colors other than Polar White (#ffffff) or Absolute Black (#000000) for UI elements.",
+        "Do not use font weights outside of 400 and 500.",
+        "Never add box shadows or strong elevation effects; the design relies on flat contrast.",
+        "Do not vary border-radius from 8.33333px for buttons; consistency is key.",
+        "Avoid using highly saturated images or illustrations; opt for high-contrast, often monochrome, photographic or typographic content."
+      ],
+      "theme": "dark",
+      "colors": [
+        {
+          "hex": "#000000",
+          "name": "Absolute Black",
+          "role": "Page backgrounds, section dividers, general UI containers — grounds the entire experience in a deep, void-like aesthetic.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#ffffff",
+          "name": "Polar White",
+          "role": "Primary text, interactive elements, menu items, borders — contrasts sharply with the black, ensuring maximum readability and a premium feel.",
+          "group": "neutral"
+        }
+      ],
+      "layout": "The page adheres to a full-bleed layout with no explicit `pageMaxWidth`, allowing the Absolute Black background to fill the entire viewport. The hero section is full-screen, featuring centered text over the black background, creating an immersive, dramatic introduction. Sections are characterized by consistent, generous vertical spacing (80px-138px `sectionGap`), fostering a spacious, unhurried reading experience. Content arrangement is primarily centered text blocks or simple two-column layouts where text and implicit content elements are balanced. The overall density is low, prioritizing impactful statements and clear typography over information packing. Navigation consists of a minimal top-right 'Menu' button and a logo on the left, maintaining a clean, uncluttered header.",
+      "imagery": "The site's visual language is characterized by an absence of traditional imagery in the main content areas, creating an impactful, text-dominant experience. When visuals appear, as hinted by the brand's logo and what might be product screenshots or abstract graphics in other sections not shown, they exist as stark, high-contrast elements. There's an implied focus on sharp, precise digital artifacts or symbolic representations that integrate seamlessly with the monochrome UI, emphasizing clean lines and sophisticated simplicity, rather than decorative or distracting visual noise. Icons are simple, outlined forms, such as the X and menu icon, reinforcing the minimal aesthetic.",
+      "similar": [
+        {
+          "why": "High-contrast black and white aesthetic for product reveal pages, with a focus on large, impactful typography and ample negative space.",
+          "business": "Apple"
+        },
+        {
+          "why": "Luxury brand presentation with minimal color, emphasizing material texture (implied through stark contrast) and geometric precision.",
+          "business": "B&O (Bang & Olufsen)"
+        },
+        {
+          "why": "Portfolio or gallery websites with a dark, minimalist theme, allowing work to stand out against a void-like background.",
+          "business": "Acme Co (fictional – typical gallery site)"
+        },
+        {
+          "why": "A dark, content-focused UI that uses high-contrast text and minimal ornamentation to highlight creative work.",
+          "business": "Dribbble (dark mode)"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "buttons": "8.33333px"
+        },
+        "elementGap": "",
+        "sectionGap": "",
+        "cardPadding": "0px",
+        "pageMaxWidth": null
+      },
+      "category": "agency",
+      "northStar": "Black Box Theater — a minimal stage where ideas are spotlighted.",
+      "typeScale": [
+        {
+          "role": "caption",
+          "size": 13,
+          "lineHeight": 1.4,
+          "letterSpacing": -0.13
+        },
+        {
+          "role": "body-sm",
+          "size": 15,
+          "lineHeight": 1.4,
+          "letterSpacing": -0.15
+        },
+        {
+          "role": "body",
+          "size": 17,
+          "lineHeight": 1.4,
+          "letterSpacing": -0.187
+        },
+        {
+          "role": "heading",
+          "size": 42,
+          "lineHeight": 1.1,
+          "letterSpacing": -0.546
+        },
+        {
+          "role": "heading-lg",
+          "size": 67,
+          "lineHeight": 1.1,
+          "letterSpacing": -1.34
+        },
+        {
+          "role": "display",
+          "size": 117,
+          "lineHeight": 1,
+          "letterSpacing": -3.51
+        }
+      ],
+      "components": [
+        {
+          "html": "<div style=\"--color-absolute-black: #000000; --color-polar-white: #ffffff; --font-sans: 'Inter', sans-serif; --text-heading: 42px; --text-body: 17px; --text-body-sm: 15px; --spacing-80: 80px; --spacing-50: 50px; --spacing-27: 27px;\">\n  \n  <div style=\"background: var(--color-absolute-black); padding: var(--spacing-80) var(--spacing-50); min-height: 320px; display: flex; flex-direction: column; justify-content: center; font-family: var(--font-sans);\">\n    <h1 style=\"color: var(--color-polar-white); font-family: var(--font-sans); font-size: var(--text-heading); font-weight: 500; line-height: 1.10; letter-spacing: -0.0130em; margin: 0 0 12px 0; padding: 0;\">We are Fantasy.</h1>\n    <p style=\"color: rgba(255,255,255,0.55); font-family: var(--font-sans); font-size: var(--text-heading); font-weight: 500; line-height: 1.10; letter-spacing: -0.0130em; margin: 0; padding: 0;\">The creative partner behind the world's biggest digital products.</p>\n  </div>\n</div>",
+          "name": "Hero Text Block",
+          "role": "",
+          "description": ""
+        },
+        {
+          "html": "<div style=\"--color-absolute-black: #000000; --color-polar-white: #ffffff; --font-sans: 'Inter', sans-serif; --text-body: 17px; --text-body-sm: 15px; --spacing-17: 17px; --spacing-20: 20px; --spacing-27: 27px; --spacing-40: 40px;\">\n  \n  <div style=\"background: var(--color-absolute-black); padding: var(--spacing-40); display: flex; flex-direction: column; gap: 48px; font-family: var(--font-sans);\">\n    <div style=\"display: flex; align-items: center; justify-content: space-between;\">\n      <div style=\"width: 36px; height: 36px; background: var(--color-polar-white); border-radius: 6px; display: flex; align-items: center; justify-content: center;\">\n        <svg width=\"18\" height=\"18\" viewBox=\"0 0 18 18\" fill=\"none\"><path d=\"M3 5.5C4.5 3.5 7 2 9 2C12.5 2 15.5 4.5 16 8C16.5 11.5 14 15 9.5 16C6.5 16.8 3.5 15.5 2 13\" stroke=\"#000\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><path d=\"M9 6C10.5 6 12 7.5 12 9C12 10.5 10.5 12 9 12C7.5 12 6 10.5 6 9C6 7.5 7.5 6 9 6Z\" fill=\"#000\"/></svg>\n      </div>\n      <button style=\"background: #2a2a2a; color: var(--color-polar-white); font-family: var(--font-sans); font-size: var(--text-body); font-weight: 400; letter-spacing: -0.0110em; border: none; border-radius: 8.33333px; padding: 10px 20px; cursor: pointer; line-height: 1.4;\">Menu</button>\n    </div>\n    <div style=\"display: flex; flex-direction: column; gap: 32px;\">\n      <div style=\"display: flex; align-items: center; justify-content: space-between;\">\n        <span style=\"color: var(--color-polar-white); font-family: var(--font-sans); font-size: 15px; font-weight: 400; letter-spacing: -0.0100em; line-height: 1.4;\">Lead by Design</span>\n        <div style=\"display: flex; align-items: center; justify-content: center; width: 36px; height: 36px;\">\n          <svg width=\"18\" height=\"18\" viewBox=\"0 0 18 18\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M9 3V15M9 15L4 10M9 15L14 10\" stroke=\"#ffffff\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>\n        </div>\n      </div>\n      <div style=\"display: flex; gap: 12px; flex-wrap: wrap;\">\n        <a href=\"#\" style=\"display: inline-block; color: var(--color-polar-white); font-family: var(--font-sans); font-size: 17px; font-weight: 400; letter-spacing: -0.0110em; line-height: 1.4; text-decoration: none; border: 1px solid rgba(255,255,255,0.2); border-radius: 8.33333px; padding: 8px 20px;\">Work</a>\n        <a href=\"#\" style=\"display: inline-block; color: var(--color-polar-white); font-family: var(--font-sans); font-size: 17px; font-weight: 400; letter-spacing: -0.0110em; line-height: 1.4; text-decoration: none; border: 1px solid rgba(255,255,255,0.2); border-radius: 8.33333px; padding: 8px 20px;\">About</a>\n        <a href=\"#\" style=\"display: inline-block; color: var(--color-polar-white); font-family: var(--font-sans); font-size: 17px; font-weight: 400; letter-spacing: -0.0110em; line-height: 1.4; text-decoration: none; border: 1px solid rgba(255,255,255,0.2); border-radius: 8.33333px; padding: 8px 20px;\">Contact</a>\n      </div>\n    </div>\n  </div>\n</div>",
+          "name": "Menu Button + Scroll Indicator",
+          "role": "",
+          "description": ""
+        },
+        {
+          "html": "<div style=\"--color-absolute-black: #000000; --color-polar-white: #ffffff; --font-sans: 'Inter', sans-serif;\">\n  \n  <div style=\"background: var(--color-absolute-black); padding: 60px 40px; font-family: var(--font-sans);\">\n    <div style=\"display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 2px; border: 1px solid rgba(255,255,255,0.12); border-radius: 8.33333px; overflow: hidden;\">\n      <div style=\"background: #0a0a0a; padding: 36px 28px; display: flex; flex-direction: column; gap: 10px; border-right: 1px solid rgba(255,255,255,0.12);\">\n        <span style=\"color: var(--color-polar-white); font-family: var(--font-sans); font-size: 42px; font-weight: 500; line-height: 1.10; letter-spacing: -0.0130em;\">20+</span>\n        <span style=\"color: rgba(255,255,255,0.45); font-family: var(--font-sans); font-size: 13px; font-weight: 400; line-height: 1.4; letter-spacing: -0.013px;\">Years shaping digital experiences</span>\n      </div>\n      <div style=\"background: #0a0a0a; padding: 36px 28px; display: flex; flex-direction: column; gap: 10px; border-right: 1px solid rgba(255,255,255,0.12);\">\n        <span style=\"color: var(--color-polar-white); font-family: var(--font-sans); font-size: 42px; font-weight: 500; line-height: 1.10; letter-spacing: -0.0130em;\">300+</span>\n        <span style=\"color: rgba(255,255,255,0.45); font-family: var(--font-sans); font-size: 13px; font-weight: 400; line-height: 1.4; letter-spacing: -0.013px;\">Products launched globally</span>\n      </div>\n      <div style=\"background: #0a0a0a; padding: 36px 28px; display: flex; flex-direction: column; gap: 10px;\">\n        <span style=\"color: var(--color-polar-white); font-family: var(--font-sans); font-size: 42px; font-weight: 500; line-height: 1.10; letter-spacing: -0.0130em;\">1B+</span>\n        <span style=\"color: rgba(255,255,255,0.45); font-family: var(--font-sans); font-size: 13px; font-weight: 400; line-height: 1.4; letter-spacing: -0.013px;\">Users reached through our work</span>\n      </div>\n    </div>\n    <div style=\"margin-top: 40px; padding-top: 32px; border-top: 1px solid rgba(255,255,255,0.10); display: flex; align-items: center; justify-content: space-between;\">\n      <p style=\"color: rgba(255,255,255,0.45); font-family: var(--font-sans); font-size: 15px; font-weight: 400; line-height: 1.4; letter-spacing: -0.0100em; margin: 0;\">A studio built on trust, craft, and ambition.</p>\n      <a href=\"#\" style=\"color: var(--color-polar-white); font-family: var(--font-sans); font-size: 15px; font-weight: 400; letter-spacing: -0.0100em; line-height: 1.4; text-decoration: none; border: 1px solid rgba(255,255,255,0.25); border-radius: 8.33333px; padding: 8px 20px; white-space: nowrap;\">Our Work</a>\n    </div>\n  </div>\n</div>",
+          "name": "Stat / Info Cards Row",
+          "role": "",
+          "description": ""
+        },
+        {
+          "name": "Navigation Button - Menu",
+          "role": "Primary navigation trigger",
+          "description": "A ghost button with Polar White text on Absolute Black background. Features a 8.33333px border-radius, no padding, and a white border. Text set in sans-serif, size 17px, weight 400, letter spacing -0.0110em."
+        },
+        {
+          "name": "Navigation Link - Implicit",
+          "role": "Top-level navigation",
+          "description": "Ghost button style with no background, Polar White text and border. Text is sans-serif, size 17px, weight 400, letter spacing -0.0110em. Has no explicit padding, indicating it relies on content for sizing."
+        },
+        {
+          "name": "Action Button - Explore",
+          "role": "Feature call to action with minimal styling",
+          "description": "Ghost button with no background and Polar White text. Text is sans-serif, size 17px, weight 400, letter spacing -0.0110em. Padding of 0px top/bottom and 26.6667px left/right with 8.33333px border-radius provides a subtle interactive area."
+        },
+        {
+          "name": "Action Button - Contact (Black Text)",
+          "role": "Alternative action button for light backgrounds if theme were to shift",
+          "description": "Ghost button with no background and Absolute Black text. Text is sans-serif, size 17px, weight 400, letter spacing -0.0110em. Padding of 0px top/bottom and 26.6667px left/right with 8.33333px border-radius. Currently not visible in provided context, but indicates a potential for inversion."
+        },
+        {
+          "name": "Hero Text Block - Dark",
+          "role": "Primary headline presentation",
+          "description": "Text is Polar White, sans-serif, weight 500, size 42px. Line height 1.10. Letter spacing -0.0130em. Displayed on an Absolute Black background with no explicit padding, leveraging implied structural padding."
+        },
+        {
+          "name": "Footer Copyright Text",
+          "role": "Legal and informational text",
+          "description": "Text is Polar White, sans-serif, weight 400, size 15px. Line height 1.40. Letter spacing -0.0100em. Uses a more relaxed line height than headlines for readability in blocks of text."
+        }
+      ],
+      "typography": [
+        {
+          "role": "The sole typeface, maintaining a cohesive, sophisticated voice. Weights 400 and 500 are primarily used, creating a subtle hierarchy through size rather than heavy weight. Distinctly tight letter-spacing on larger sizes sharpens headlines and gives them an architectural precision.",
+          "sizes": "13px, 15px, 17px, 42px, 67px, 117px",
+          "family": "sans",
+          "weight": "400, 500",
+          "lineHeight": "1.00, 1.10, 1.40",
+          "substitute": "Inter",
+          "letterSpacing": "-0.0300em at 117px, -0.0200em at 67px, -0.0130em at 42px, -0.0110em at 17px, -0.0100em at 15px"
+        }
+      ],
+      "description": "This design system evokes a sense of stark luxury, like a gallery space for digital art. The absolute black background intensifies the impact of the crisp white typography, creating a high-contrast, text-dominant presentation. Information is delivered with quiet confidence, relying on precise typographic control and generous negative space to command attention, rather than flashy visuals or complex layouts. The singular focus on black and white, paired with meticulous letter-spacing, projects an image of refined authority and intellectual rigor.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "### Quick Color Reference\n- Text: #ffffff (Polar White)\n- Background: #000000 (Absolute Black)\n- CTA Background: #000000 (Absolute Black)\n- CTA Text: #ffffff (Polar White)\n- Border: #ffffff (Polar White)\n\n### 3-5 Example Component Prompts\n1. Create a Hero Section: Absolute Black background. Headline 'We are Fantasy.' in Polar White, sans-serif, size 42px, weight 500, line-height 1.10, letter-spacing -0.0130em. Sub-headline 'The creative partner behind the world's biggest digital products.' in Polar White, sans-serif, size 42px, weight 500, line-height 1.10, letter-spacing -0.0130em. Both headlines centered vertically and horizontally within the viewport.\n2. Generate a Navigation Button: Label 'Menu' in Polar White, sans-serif, size 17px, weight 400, letter-spacing -0.0110em. Background transparent, border 1px Polar White, border-radius 8.33333px. Padding 0px top/bottom, 26.6667px left/right. Position this to the top right of a header.\n3. Create a Footer Link: Text 'Privacy & Terms' in Polar White, sans-serif, size 15px, weight 400, line-height 1.40, letter-spacing -0.0100em. Display on an Absolute Black background. Underline on hover only.\n4. Design a Section Headline: 'Launching the next generation of Intelligent Experiences.' in Polar White, sans-serif, size 67px, weight 500, line-height 1.10, letter-spacing -0.0200em. Position with 80px top padding from the previous section."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775925535201-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775925535201-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/ccb67114-6da3-476a-8ca4-b348ab3d0a03",
+  "ranks": {
+    "trending": 1006,
+    "popular": 620,
+    "newest": 1200
+  },
+  "localSlug": "fantasy-ccb67114"
+}

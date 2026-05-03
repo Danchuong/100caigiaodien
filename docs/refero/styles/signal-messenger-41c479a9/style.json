@@ -1,0 +1,910 @@
+{
+  "id": "41c479a9-7b41-445b-9ea7-c7a6331828f0",
+  "url": "https://signal.org",
+  "siteName": "Signal Messenger",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775926035480-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775926035480-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "light",
+  "colors": [
+    {
+      "name": "Cloud Cover",
+      "hex": "#ffffff"
+    },
+    {
+      "name": "Sky Dust",
+      "hex": "#f6f6f6"
+    },
+    {
+      "name": "Stone Whisper",
+      "hex": "#e9e9e9"
+    },
+    {
+      "name": "Signal Blue",
+      "hex": "#9dbbf8"
+    },
+    {
+      "name": "Ocean Deep",
+      "hex": "#2c6bed"
+    },
+    {
+      "name": "Night Sky",
+      "hex": "#1b1b1b"
+    }
+  ],
+  "fonts": [
+    "Inter"
+  ],
+  "northStar": "open sky, clear communication",
+  "createdAt": "2026-02-27T11:31:08.000Z",
+  "previewVideoCapturedAt": null,
+  "industry": "other",
+  "fullResult": {
+    "meta": {
+      "url": "https://signal.org",
+      "siteName": "Signal Messenger",
+      "extractedAt": "2026-04-11T16:47:35.368Z",
+      "durationMs": 26112,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 137,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "complete",
+          "attempts": 2
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#1b1b1b",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.2221287433751307
+            },
+            "contexts": [
+              "nav",
+              "button",
+              "hero",
+              "other",
+              "heading",
+              "body",
+              "image"
+            ],
+            "frequency": 339,
+            "confidence": 1,
+            "prominence": 14272208.062039506,
+            "properties": [
+              "color",
+              "borderColor"
+            ]
+          },
+          {
+            "hex": "#e9e9e9",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.9340252444454716
+            },
+            "contexts": [
+              "nav",
+              "footer",
+              "other",
+              "body",
+              "link",
+              "list"
+            ],
+            "frequency": 266,
+            "confidence": 1,
+            "prominence": 3308109.6103645726,
+            "properties": [
+              "borderColor",
+              "color"
+            ]
+          },
+          {
+            "hex": "#404654",
+            "oklch": {
+              "c": 0.025014933401827564,
+              "h": 266.9350025234095,
+              "l": 0.39421391941287565
+            },
+            "contexts": [
+              "other",
+              "image",
+              "body"
+            ],
+            "frequency": 60,
+            "confidence": 1,
+            "prominence": 2076149.4968112896,
+            "properties": [
+              "color",
+              "borderColor"
+            ]
+          },
+          {
+            "hex": "#f6f6f6",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.9731459330353415
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 1697175,
+            "properties": [
+              "backgroundColor"
+            ]
+          },
+          {
+            "hex": "#ffffff",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 1.0000000000000002
+            },
+            "contexts": [
+              "nav",
+              "button",
+              "other"
+            ],
+            "frequency": 7,
+            "confidence": 1,
+            "prominence": 1050198,
+            "properties": [
+              "backgroundColor"
+            ]
+          },
+          {
+            "hex": "#9dbbf8",
+            "oklch": {
+              "c": 0.09331764954258731,
+              "h": 264.1058863869113,
+              "l": 0.7922897332004973
+            },
+            "contexts": [
+              "hero"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 969000,
+            "properties": [
+              "backgroundColor"
+            ]
+          },
+          {
+            "hex": "#a5cad5",
+            "oklch": {
+              "c": 0.042255929099881885,
+              "h": 217.75952458479418,
+              "l": 0.8157412107497196
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 454320,
+            "properties": [
+              "backgroundColor"
+            ]
+          },
+          {
+            "hex": "#3c3744",
+            "oklch": {
+              "c": 0.023262484020276683,
+              "h": 302.7024943388355,
+              "l": 0.3470961889640083
+            },
+            "contexts": [
+              "footer"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 410400,
+            "properties": [
+              "backgroundColor"
+            ]
+          },
+          {
+            "hex": "#2c6bed",
+            "oklch": {
+              "c": 0.20690301696367125,
+              "h": 262.4257250367718,
+              "l": 0.5652688094592656
+            },
+            "contexts": [
+              "button"
+            ],
+            "frequency": 10,
+            "confidence": 1,
+            "prominence": 33328.16421395172,
+            "properties": [
+              "color",
+              "borderColor"
+            ]
+          },
+          {
+            "hex": "#2942ff",
+            "oklch": {
+              "c": 0.2730635856809614,
+              "h": 267.3834394044081,
+              "l": 0.5116257818026182
+            },
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 10,
+            "confidence": 1,
+            "prominence": 23441.108647886325,
+            "properties": [
+              "color",
+              "borderColor"
+            ]
+          }
+        ],
+        "isDarkMode": false,
+        "colorfulness": 0.025083092937320306,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 17.22,
+            "background": "#ffffff",
+            "foreground": "#1b1b1b"
+          },
+          {
+            "level": "AAA",
+            "ratio": 15.94,
+            "background": "#f6f6f6",
+            "foreground": "#1b1b1b"
+          },
+          {
+            "level": "AAA",
+            "ratio": 14.19,
+            "background": "#e9e9e9",
+            "foreground": "#1b1b1b"
+          },
+          {
+            "level": "AAA",
+            "ratio": 11.53,
+            "background": "#ffffff",
+            "foreground": "#3c3744"
+          },
+          {
+            "level": "AAA",
+            "ratio": 10.66,
+            "background": "#f6f6f6",
+            "foreground": "#3c3744"
+          },
+          {
+            "level": "AAA",
+            "ratio": 9.85,
+            "background": "#a5cad5",
+            "foreground": "#1b1b1b"
+          },
+          {
+            "level": "AAA",
+            "ratio": 9.49,
+            "background": "#3c3744",
+            "foreground": "#e9e9e9"
+          },
+          {
+            "level": "AAA",
+            "ratio": 9.45,
+            "background": "#ffffff",
+            "foreground": "#404654"
+          },
+          {
+            "level": "AAA",
+            "ratio": 8.94,
+            "background": "#9dbbf8",
+            "foreground": "#1b1b1b"
+          },
+          {
+            "level": "AAA",
+            "ratio": 8.74,
+            "background": "#f6f6f6",
+            "foreground": "#404654"
+          },
+          {
+            "level": "AAA",
+            "ratio": 7.78,
+            "background": "#e9e9e9",
+            "foreground": "#404654"
+          },
+          {
+            "level": "AA",
+            "ratio": 6.59,
+            "background": "#a5cad5",
+            "foreground": "#3c3744"
+          },
+          {
+            "level": "AA",
+            "ratio": 6.33,
+            "background": "#ffffff",
+            "foreground": "#2942ff"
+          },
+          {
+            "level": "AA",
+            "ratio": 5.98,
+            "background": "#9dbbf8",
+            "foreground": "#3c3744"
+          },
+          {
+            "level": "AA",
+            "ratio": 5.86,
+            "background": "#f6f6f6",
+            "foreground": "#2942ff"
+          },
+          {
+            "level": "AA",
+            "ratio": 5.4,
+            "background": "#a5cad5",
+            "foreground": "#404654"
+          },
+          {
+            "level": "AA",
+            "ratio": 4.9,
+            "background": "#9dbbf8",
+            "foreground": "#404654"
+          },
+          {
+            "level": "AA",
+            "ratio": 4.74,
+            "background": "#ffffff",
+            "foreground": "#2c6bed"
+          },
+          {
+            "level": "fail",
+            "ratio": 4.38,
+            "background": "#f6f6f6",
+            "foreground": "#2c6bed"
+          },
+          {
+            "level": "fail",
+            "ratio": 3.62,
+            "background": "#a5cad5",
+            "foreground": "#2942ff"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [
+          {
+            "value": 8,
+            "contexts": [
+              "button"
+            ],
+            "frequency": 2
+          },
+          {
+            "value": 16,
+            "contexts": [
+              "other",
+              "image"
+            ],
+            "frequency": 7
+          }
+        ],
+        "shadows": [
+          {
+            "value": "rgba(0, 0, 0, 0.12) 0px 4px 12px 0px, rgba(0, 0, 0, 0.08) 0px 0px 2px 0px",
+            "contexts": [
+              "other"
+            ],
+            "frequency": 4
+          }
+        ]
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 4,
+            "frequency": 5,
+            "properties": [
+              "marginRight",
+              "marginBottom"
+            ]
+          },
+          {
+            "value": 8,
+            "frequency": 14,
+            "properties": [
+              "paddingTop",
+              "paddingBottom"
+            ]
+          },
+          {
+            "value": 9,
+            "frequency": 2,
+            "properties": [
+              "paddingTop",
+              "paddingBottom"
+            ]
+          },
+          {
+            "value": 12,
+            "frequency": 105,
+            "properties": [
+              "paddingRight",
+              "paddingLeft",
+              "rowGap",
+              "columnGap",
+              "paddingTop",
+              "paddingBottom",
+              "marginBottom"
+            ]
+          },
+          {
+            "value": 16,
+            "frequency": 7,
+            "properties": [
+              "paddingTop",
+              "paddingBottom",
+              "marginBottom",
+              "paddingRight",
+              "paddingLeft"
+            ]
+          },
+          {
+            "value": 17,
+            "frequency": 2,
+            "properties": [
+              "marginRight",
+              "marginLeft"
+            ]
+          },
+          {
+            "value": 18,
+            "frequency": 4,
+            "properties": [
+              "marginTop"
+            ]
+          },
+          {
+            "value": 19,
+            "frequency": 2,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ]
+          },
+          {
+            "value": 20,
+            "frequency": 2,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ]
+          },
+          {
+            "value": 24,
+            "frequency": 3,
+            "properties": [
+              "marginBottom",
+              "paddingRight",
+              "paddingLeft"
+            ]
+          },
+          {
+            "value": 30,
+            "frequency": 16,
+            "properties": [
+              "paddingTop",
+              "paddingRight",
+              "paddingBottom",
+              "paddingLeft"
+            ]
+          },
+          {
+            "value": 32,
+            "frequency": 3,
+            "properties": [
+              "marginBottom"
+            ]
+          },
+          {
+            "value": 41,
+            "frequency": 2,
+            "properties": [
+              "marginRight",
+              "marginLeft"
+            ]
+          },
+          {
+            "value": 48,
+            "frequency": 24,
+            "properties": [
+              "paddingTop",
+              "paddingRight",
+              "paddingLeft",
+              "paddingBottom"
+            ]
+          }
+        ],
+        "density": "comfortable",
+        "baseUnit": 6
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "Inter",
+            "source": "google",
+            "weights": [
+              400,
+              600,
+              800
+            ],
+            "frequency": 135,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "system-ui",
+            "source": "system",
+            "weights": [
+              600
+            ],
+            "frequency": 2,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 16,
+          "name": "Minor Third",
+          "ratio": 1.2,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 16,
+            "family": "Inter",
+            "weight": 400,
+            "contexts": [
+              "nav",
+              "button",
+              "hero",
+              "other",
+              "body",
+              "image"
+            ],
+            "frequency": 64,
+            "lineHeight": 1.5,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "Inter",
+            "weight": 400,
+            "contexts": [
+              "body",
+              "footer",
+              "other",
+              "link",
+              "list"
+            ],
+            "frequency": 53,
+            "lineHeight": 1.38,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "Inter",
+            "weight": 600,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 4,
+            "lineHeight": 1.38,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 20,
+            "family": "Inter",
+            "weight": 400,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 5,
+            "lineHeight": 1.4,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 20,
+            "family": "system-ui",
+            "weight": 600,
+            "contexts": [
+              "button"
+            ],
+            "frequency": 2,
+            "lineHeight": 1.4,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 28,
+            "family": "Inter",
+            "weight": 800,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 4,
+            "lineHeight": 1.14,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 40,
+            "family": "Inter",
+            "weight": 800,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 4,
+            "lineHeight": 1.1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 60,
+            "family": "Inter",
+            "weight": 800,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.07,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Use Night Sky (#1b1b1b) for all primary headings and body text to ensure maximum readability against light backgrounds.",
+        "Apply Signal Blue (#9dbbf8) as a primary background accent for hero sections to immediately establish brand identity.",
+        "Utilize 8px border-radius for all primary buttons to maintain a soft, approachable aesthetic.",
+        "Maintain a clear page structure with sections separated by at least 64px, alternating backgrounds where appropriate (Cloud Cover #ffffff, Sky Dust #f6f6f6, or Signal Blue #9dbbf8).",
+        "Ensure all interactive elements, such as buttons and links, use Ocean Deep (#2c6bed) or Link Blue (#2942ff) to signify action and interaction clearly.",
+        "Use Inter font family exclusively for all text elements, leveraging weights 400 for body, 600 for subheadings, and 800 for major headings and display titles."
+      ],
+      "tags": [
+        "privacy-focused",
+        "calm",
+        "clean",
+        "trustworthy",
+        "minimalist",
+        "spacious",
+        "approachable",
+        "blue-accented"
+      ],
+      "donts": [
+        "Avoid using highly saturated, non-brand colors; stick to the established palette of blues, grays, and whites.",
+        "Do not deviate from the 8px and 16px border radii; squared or overly complex rounded shapes are not part of this system.",
+        "Never use dark backgrounds for large text blocks except in the footer where Slate Shadow (#3c3744) is established, always prioritize high contrast with light backgrounds.",
+        "Do not introduce complex gradients or texture overlays on backgrounds; maintain a flat, clean aesthetic.",
+        "Avoid excessive use of shadows; reserve the specific shadow token rgba(0, 0, 0, 0.12) 0px 4px 12px 0px, rgba(0, 0, 0, 0.08) 0px 0px 2px 0px only for elevated elements like product mocks."
+      ],
+      "theme": "light",
+      "colors": [
+        {
+          "hex": "#ffffff",
+          "name": "Cloud Cover",
+          "role": "Page backgrounds, card surfaces, primary button backgrounds — provides a crisp, bright canvas.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#f6f6f6",
+          "name": "Sky Dust",
+          "role": "Subtle section dividers, slight background variation to break visual monotony.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#e9e9e9",
+          "name": "Stone Whisper",
+          "role": "Subtle borders and dividers, providing separation without harsh lines.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#9dbbf8",
+          "name": "Signal Blue",
+          "role": "Hero section background, conveying a sense of calm and clarity.",
+          "group": "brand"
+        },
+        {
+          "hex": "#2c6bed",
+          "name": "Ocean Deep",
+          "role": "Primary Call-to-Action button text and borders, links — a vibrant, trustworthy blue indicating action.",
+          "group": "accent"
+        },
+        {
+          "hex": "#1b1b1b",
+          "name": "Night Sky",
+          "role": "Primary text, headings, and key UI elements ensuring high contrast and legibility.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#404654",
+          "name": "Deep Space",
+          "role": "Secondary text, subtle accents, creating depth in informational sections.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#3c3744",
+          "name": "Slate Shadow",
+          "role": "Footer background, providing a grounding anchor to the page.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#2942ff",
+          "name": "Link Blue",
+          "role": "Navigation links and secondary interactive elements, differentiating them from primary CTAs.",
+          "group": "accent"
+        },
+        {
+          "hex": "#a5cad5",
+          "name": "Subtle Mist",
+          "role": "Decorative background fills on feature blocks, maintaining a light, airy feel.",
+          "group": "neutral"
+        }
+      ],
+      "layout": "The site uses a max-width 1344px centered container for most content, with a full-bleed hero section employing Signal Blue (#9dbbf8) background. Sections generally alternate between clean white backgrounds (Cloud Cover #ffffff) and very subtle gray backgrounds (Sky Dust #f6f6f6) or brand-colored fills (Signal Blue #9dbbf8, Subtle Mist #a5cad5), creating a gentle visual rhythm. Content is often arranged in a split layout, with text on one side and a visual (product screenshot or illustration) on the other. Navigation is a sticky top bar with clearly delineated links and buttons. Vertical spacing between main sections is generous, around 64px, contributing to a spacious feel.",
+      "imagery": "Imagery primarily consists of product screenshots of the Signal app on mobile devices, treated with subtle shadows indicating elevation. These are typically contained within the main layout. Illustrations are abstract and geometric, using brand colors and outlines to convey concepts like global communication and security without being overly literal. Icons are outlined, simple, and monochrome, complementing the clean UI. The visual emphasis is on functionality and clarity, using images to explain product features rather than for decorative atmosphere.",
+      "similar": [
+        {
+          "why": "Both prioritize privacy and convey trust through clean, clear light-themed interfaces with blue accents and direct typography.",
+          "business": "ProtonMail"
+        },
+        {
+          "why": "Similar focus on user privacy and a commitment to a light, uncluttered UI with a distinct blue brand color for interaction.",
+          "business": "DuckDuckGo"
+        },
+        {
+          "why": "Messaging app promoting security, using a light theme with prominent blue interactions and clean, legible typography.",
+          "business": "Telegram"
+        },
+        {
+          "why": "Another secure messaging platform, employs a crisp, functional design with emphasis on interaction clarity and a subdued color palette.",
+          "business": "Wire"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "cards": "16px",
+          "images": "16px",
+          "buttons": "8px"
+        },
+        "elementGap": "12px",
+        "sectionGap": "64px",
+        "cardPadding": "30px",
+        "pageMaxWidth": "1344px"
+      },
+      "category": "technology",
+      "elevation": [
+        {
+          "style": "rgba(0, 0, 0, 0.12) 0px 4px 12px 0px, rgba(0, 0, 0, 0.08) 0px 0px 2px 0px",
+          "element": "Product Screenshot Wrapper"
+        }
+      ],
+      "northStar": "open sky, clear communication",
+      "typeScale": [
+        {
+          "role": "body",
+          "size": 16,
+          "lineHeight": 1.5
+        },
+        {
+          "role": "subheading",
+          "size": 20,
+          "lineHeight": 1.4
+        },
+        {
+          "role": "heading",
+          "size": 28,
+          "lineHeight": 1.14
+        },
+        {
+          "role": "heading-lg",
+          "size": 40,
+          "lineHeight": 1.1
+        },
+        {
+          "role": "display",
+          "size": 60,
+          "lineHeight": 1.07
+        }
+      ],
+      "components": [
+        {
+          "html": "<div style=\"--color-cloud-cover:#ffffff;--color-sky-dust:#f6f6f6;--color-stone-whisper:#e9e9e9;--color-signal-blue:#9dbbf8;--color-ocean-deep:#2c6bed;--color-night-sky:#1b1b1b;--color-deep-space:#404654;--color-slate-shadow:#3c3744;--color-link-blue:#2942ff;--color-subtle-mist:#a5cad5;--font-inter:'Inter',system-ui,sans-serif;background:var(--color-signal-blue);padding:48px 40px;width:600px;box-sizing:border-box;font-family:var(--font-inter);\"><h1 style=\"font-family:var(--font-inter);font-size:60px;font-weight:800;line-height:1.07;color:var(--color-night-sky);margin:0 0 20px 0;letter-spacing:normal;\">Speak Freely</h1><p style=\"font-family:var(--font-inter);font-size:16px;font-weight:400;line-height:1.5;color:var(--color-night-sky);margin:0 0 32px 0;max-width:380px;\">Say \"hello\" to a different messaging experience. An unexpected focus on privacy, combined with all of the features you expect.</p><div style=\"display:flex;gap:12px;align-items:center;flex-wrap:wrap;\"><a href=\"#\" style=\"display:inline-block;font-family:var(--font-inter);font-size:16px;font-weight:400;line-height:1.5;color:var(--color-ocean-deep);background:var(--color-cloud-cover);border:1px solid var(--color-ocean-deep);border-radius:8px;padding:8px 20px;text-decoration:none;cursor:pointer;\">Get Signal</a><a href=\"#\" style=\"display:inline-block;font-family:var(--font-inter);font-size:16px;font-weight:400;line-height:1.5;color:var(--color-night-sky);background:transparent;border:1px solid var(--color-night-sky);border-radius:0px;padding:8px 12px;text-decoration:none;cursor:pointer;\">Learn More</a></div></div>",
+          "name": "Get Signal CTA Button Group",
+          "role": "",
+          "description": ""
+        },
+        {
+          "html": "<div style=\"--color-cloud-cover:#ffffff;--color-sky-dust:#f6f6f6;--color-ocean-deep:#2c6bed;--color-night-sky:#1b1b1b;--color-deep-space:#404654;--color-subtle-mist:#a5cad5;--font-inter:'Inter',system-ui,sans-serif;background:var(--color-cloud-cover);padding:48px 40px;width:600px;box-sizing:border-box;font-family:var(--font-inter);display:flex;flex-direction:column;gap:32px;\"><div style=\"display:flex;flex-direction:row;gap:32px;align-items:flex-start;\"><div style=\"flex:1 1 0;min-width:0;\"><h2 style=\"font-family:var(--font-inter);font-size:40px;font-weight:800;line-height:1.1;color:var(--color-night-sky);margin:0 0 24px 0;\">Share Without Insecurity</h2><p style=\"font-family:var(--font-inter);font-size:16px;font-weight:400;line-height:1.5;color:var(--color-night-sky);margin:0;\">State-of-the-art end-to-end encryption (powered by the open source Signal Protocol) keeps your conversations secure. We can't read your messages or listen to your calls, and no one else can either. Privacy isn't an optional mode — it's just the way that Signal works. Every message, every call, every time.</p></div></div><div style=\"position:relative;width:100%;border-radius:16px;background:var(--color-subtle-mist);min-height:200px;display:flex;align-items:flex-end;padding:24px;box-sizing:border-box;\"><div style=\"position:absolute;top:0;left:0;right:0;bottom:0;border-radius:16px;background:var(--color-subtle-mist);\"></div><div style=\"position:relative;z-index:1;display:inline-flex;align-items:center;gap:10px;background:#2a7a80;border-radius:50px;padding:12px 22px;\"><span style=\"font-family:var(--font-inter);font-size:16px;font-weight:400;line-height:1.5;color:#ffffff;letter-spacing:0.5px;\">7a#v9^ht035v:q*</span><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"3\" y=\"11\" width=\"18\" height=\"11\" rx=\"2\" ry=\"2\"></rect><path d=\"M7 11V7a5 5 0 0 1 10 0v4\"></path></svg></div></div></div>",
+          "name": "Share Without Insecurity Feature Block",
+          "role": "",
+          "description": ""
+        },
+        {
+          "html": "<div style=\"--color-cloud-cover:#ffffff;--color-sky-dust:#f6f6f6;--color-stone-whisper:#e9e9e9;--color-ocean-deep:#2c6bed;--color-night-sky:#1b1b1b;--color-deep-space:#404654;--color-subtle-mist:#a5cad5;--font-inter:'Inter',system-ui,sans-serif;background:var(--color-sky-dust);padding:48px 40px;width:600px;box-sizing:border-box;font-family:var(--font-inter);\"><div style=\"background:var(--color-cloud-cover);border-radius:16px;padding:40px;box-shadow:rgba(0,0,0,0.12) 0px 4px 12px 0px,rgba(0,0,0,0.08) 0px 0px 2px 0px;display:flex;flex-direction:column;gap:20px;\"><div style=\"display:flex;align-items:center;gap:12px;margin-bottom:4px;\"><div style=\"width:36px;height:36px;border-radius:50%;background:var(--color-ocean-deep);display:flex;align-items:center;justify-content:center;flex-shrink:0;\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z\"></path></svg></div><h2 style=\"font-family:var(--font-inter);font-size:28px;font-weight:800;line-height:1.14;color:var(--color-night-sky);margin:0;\">Made for You, Not Profit</h2></div><p style=\"font-family:var(--font-inter);font-size:16px;font-weight:400;line-height:1.5;color:var(--color-night-sky);margin:0;\">Signal is an independent nonprofit. We're not tied to any major tech companies, and we can never be acquired by one either. Development is supported by grants and donations from people like you.</p><div style=\"display:flex;gap:12px;align-items:center;padding-top:8px;\"><a href=\"#\" style=\"display:inline-block;font-family:var(--font-inter);font-size:16px;font-weight:400;line-height:1.5;color:var(--color-ocean-deep);background:var(--color-cloud-cover);border:1.5px solid var(--color-ocean-deep);border-radius:8px;padding:10px 22px;text-decoration:none;cursor:pointer;\">Donate to Signal</a></div><div style=\"border-top:1px solid var(--color-stone-whisper);padding-top:20px;display:flex;gap:24px;flex-wrap:wrap;\"><div style=\"display:flex;flex-direction:column;gap:4px;\"><span style=\"font-family:var(--font-inter);font-size:20px;font-weight:800;line-height:1.4;color:var(--color-night-sky);\">501(c)3</span><span style=\"font-family:var(--font-inter);font-size:14px;font-weight:400;line-height:1.5;color:var(--color-deep-space);\">Nonprofit Status</span></div><div style=\"width:1px;background:var(--color-stone-whisper);align-self:stretch;\"></div><div style=\"display:flex;flex-direction:column;gap:4px;\"><span style=\"font-family:var(--font-inter);font-size:20px;font-weight:800;line-height:1.4;color:var(--color-night-sky);\">No Ads</span><span style=\"font-family:var(--font-inter);font-size:14px;font-weight:400;line-height:1.5;color:var(--color-deep-space);\">Ever, Period</span></div><div style=\"width:1px;background:var(--color-stone-whisper);align-self:stretch;\"></div><div style=\"display:flex;flex-direction:column;gap:4px;\"><span style=\"font-family:var(--font-inter);font-size:20px;font-weight:800;line-height:1.4;color:var(--color-night-sky);\">Open Source</span><span style=\"font-family:var(--font-inter);font-size:14px;font-weight:400;line-height:1.5;color:var(--color-deep-space);\">Fully Transparent</span></div></div></div></div>",
+          "name": "Donate to Signal Card",
+          "role": "",
+          "description": ""
+        },
+        {
+          "name": "Primary Call-to-Action Button",
+          "role": "Primary interactive element for key actions",
+          "description": "White background, Ocean Deep (#2c6bed) text and 1px border. Height is text-based with 0px vertical padding, 20px horizontal padding. Border radius 8px. Text is Inter 400 at 16px, line-height 1.50."
+        },
+        {
+          "name": "Navigation Link Button",
+          "role": "Secondary action in header navigation",
+          "description": "Transparent background, Night Sky (#1b1b1b) text. 1px Night Sky (#1b1b1b) border. Height is text-based with 8px vertical padding, 12px horizontal padding. No border radius. Text is Inter 400 at 16px, line-height 1.50."
+        },
+        {
+          "name": "Navigation Item Link",
+          "role": "Standard navigation link",
+          "description": "Night Sky (#1b1b1b) text (Inter 400, 16px). Uses a secondary accent color, Link Blue (#2942ff), on hover and active states."
+        },
+        {
+          "name": "Product Screenshot Wrapper",
+          "role": "Encapsulates product visuals",
+          "description": "Wraps product screenshots with a 16px border radius. Shadows applied: rgba(0, 0, 0, 0.12) 0px 4px 12px 0px, rgba(0, 0, 0, 0.08) 0px 0px 2px 0px to provide subtle elevation."
+        }
+      ],
+      "typography": [
+        {
+          "role": "Primary typeface for all textual content, from navigation to display headings. Inter's clean, humanist grotesque design supports clarity and readability across various sizes, reinforcing the message of clear communication.",
+          "sizes": "16px, 20px, 28px, 40px, 60px",
+          "family": "Inter",
+          "weight": "400, 600, 800",
+          "lineHeight": "1.07, 1.10, 1.14, 1.38, 1.40, 1.50",
+          "substitute": "system-ui, sans-serif",
+          "letterSpacing": "normal"
+        }
+      ],
+      "description": "This design system projects an image of digital security and approachability, achieved through a bright, spacious layout with rounded elements. The intentional use of soft blue and white as primary background colors creates an open, trustworthy atmosphere, while dark typography ensures readability. The system strikes a balance between solid, clear interactive elements and subtle background variation, making complex privacy concepts feel accessible.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "### Quick Color Reference\n- Text: #1b1b1b (Night Sky)\n- Background: #ffffff (Cloud Cover)\n- CTA Button: #2c6bed (Ocean Deep)\n- Border: #e9e9e9 (Stone Whisper)\n- Accent Background: #9dbbf8 (Signal Blue)\n- Footer Background: #3c3744 (Slate Shadow)\n\n### 3-5 Example Component Prompts\n1.  **Create a Hero Section:** Background Signal Blue (#9dbbf8). Centered headline 'Speak Freely' using Inter 800 at 60px, line-height 1.07, color #1b1b1b. Subtext 'Say hello...' using Inter 400 at 20px, line-height 1.40, color #1b1b1b. Include a primary CTA button: background white, text Ocean Deep (#2c6bed), 1px Ocean Deep (#2c6bed) border, 8px radius, 0px vertical padding, 20px horizontal padding, Inter 400 at 16px.\n2.  **Generate a Feature Block:** Background Cloud Cover (#ffffff). Heading `Share Without Insecurity` using Inter 800 at 40px, line-height 1.10, color #1b1b1b. Body text `State-of-the-art...` using Inter 400 at 16px, line-height 1.50, color #1b1b1b. A decorative block with Subtle Mist (#a5cad5) background and 16px border-radius, right-aligned.\n3.  **Design a Footer:** Background Slate Shadow (#3c3744). Text (links and copyright) primarily using Inter 400 at 16px, line-height 1.50, color #e9e9e9. Columns should have an element gap of 12px."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775926035480-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775926035480-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/41c479a9-7b41-445b-9ea7-c7a6331828f0",
+  "ranks": {
+    "trending": 976,
+    "popular": 486,
+    "newest": 1118
+  },
+  "localSlug": "signal-messenger-41c479a9"
+}

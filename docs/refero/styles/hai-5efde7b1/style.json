@@ -1,0 +1,805 @@
+{
+  "id": "5efde7b1-008b-484c-82b1-d2628dccf855",
+  "url": "https://www.homeofhai.com",
+  "siteName": "Hai",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777519912976-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777519912976-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "light",
+  "colors": [
+    {
+      "name": "Midnight Ink",
+      "hex": "#000000"
+    },
+    {
+      "name": "Canvas White",
+      "hex": "#FFFFFF"
+    },
+    {
+      "name": "Ferry Red",
+      "hex": "#CF2442"
+    }
+  ],
+  "fonts": [
+    "Forma Nuovo",
+    "Times Now"
+  ],
+  "northStar": "white gallery, black ink",
+  "createdAt": "2026-04-30T03:32:09.906Z",
+  "previewVideoCapturedAt": null,
+  "industry": "ecommerce",
+  "fullResult": {
+    "meta": {
+      "url": "https://www.homeofhai.com",
+      "siteName": "Hai",
+      "extractedAt": "2026-04-30T03:32:09.836Z",
+      "durationMs": 24871,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 136,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "other",
+              "nav",
+              "link",
+              "image",
+              "heading",
+              "body",
+              "button",
+              "card",
+              "footer"
+            ],
+            "frequency": 673,
+            "confidence": 1,
+            "prominence": 69471363.72902974,
+            "properties": [
+              "color",
+              "borderColor",
+              "fill"
+            ],
+            "usageCounts": {
+              "nav/color": 28,
+              "body/color": 18,
+              "card/color": 1,
+              "link/color": 28,
+              "other/fill": 3,
+              "image/color": 12,
+              "other/color": 37,
+              "button/color": 2,
+              "footer/color": 1,
+              "heading/color": 7,
+              "nav/borderColor": 112,
+              "body/borderColor": 72,
+              "card/borderColor": 4,
+              "link/borderColor": 112,
+              "image/borderColor": 48,
+              "other/borderColor": 148,
+              "button/borderColor": 8,
+              "footer/borderColor": 4,
+              "heading/borderColor": 28
+            }
+          }
+        ],
+        "isDarkMode": false,
+        "colorfulness": 0,
+        "contrastPairs": []
+      },
+      "shapes": {
+        "radii": [
+          {
+            "value": 10,
+            "contexts": [
+              "link",
+              "button"
+            ],
+            "frequency": 6
+          }
+        ],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 1,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingTop",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|nav",
+              "paddingBottom|nav"
+            ]
+          },
+          {
+            "value": 2,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|nav",
+              "paddingLeft|nav"
+            ]
+          },
+          {
+            "value": 4,
+            "contexts": [
+              "nav",
+              "body",
+              "link"
+            ],
+            "frequency": 18,
+            "properties": [
+              "paddingTop",
+              "paddingBottom",
+              "marginTop",
+              "marginRight"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|nav",
+              "paddingBottom|nav",
+              "marginTop|nav",
+              "marginRight|body",
+              "marginRight|link"
+            ]
+          },
+          {
+            "value": 5,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 10,
+            "properties": [
+              "marginRight",
+              "marginLeft"
+            ],
+            "propertyContextPairs": [
+              "marginRight|nav",
+              "marginLeft|nav"
+            ]
+          },
+          {
+            "value": 8,
+            "contexts": [
+              "nav",
+              "other",
+              "link"
+            ],
+            "frequency": 15,
+            "properties": [
+              "paddingRight",
+              "paddingLeft",
+              "marginRight",
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|nav",
+              "paddingLeft|nav",
+              "marginRight|nav",
+              "marginBottom|other",
+              "marginBottom|link"
+            ]
+          },
+          {
+            "value": 12,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingTop"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other"
+            ]
+          },
+          {
+            "value": 16,
+            "contexts": [
+              "other",
+              "heading",
+              "link",
+              "button"
+            ],
+            "frequency": 26,
+            "properties": [
+              "paddingTop",
+              "paddingRight",
+              "paddingBottom",
+              "paddingLeft",
+              "marginBottom",
+              "rowGap",
+              "columnGap"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other",
+              "paddingRight|other",
+              "paddingBottom|other",
+              "paddingLeft|other",
+              "marginBottom|heading",
+              "paddingTop|link",
+              "paddingBottom|link",
+              "marginBottom|other",
+              "rowGap|other",
+              "columnGap|other",
+              "paddingTop|button",
+              "paddingBottom|button"
+            ]
+          },
+          {
+            "value": 32,
+            "contexts": [
+              "other",
+              "link",
+              "button",
+              "card",
+              "heading"
+            ],
+            "frequency": 31,
+            "properties": [
+              "paddingTop",
+              "paddingRight",
+              "paddingBottom",
+              "paddingLeft",
+              "rowGap",
+              "columnGap",
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other",
+              "paddingRight|other",
+              "paddingBottom|other",
+              "paddingLeft|other",
+              "rowGap|other",
+              "columnGap|other",
+              "marginBottom|link",
+              "paddingRight|link",
+              "paddingLeft|link",
+              "paddingRight|button",
+              "paddingLeft|button",
+              "paddingTop|card",
+              "paddingRight|card",
+              "paddingBottom|card",
+              "paddingLeft|card",
+              "paddingBottom|heading",
+              "marginBottom|heading"
+            ]
+          },
+          {
+            "value": 64,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 3,
+            "properties": [
+              "paddingRight",
+              "paddingLeft",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|other",
+              "paddingLeft|other",
+              "paddingBottom|other"
+            ]
+          }
+        ],
+        "density": "comfortable",
+        "baseUnit": 8
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "Forma Nuovo",
+            "source": "custom",
+            "weights": [
+              400,
+              600
+            ],
+            "frequency": 102,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "Times Now",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 32,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 16,
+          "name": "Minor Second",
+          "ratio": 1.067,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 16,
+            "family": "Forma Nuovo",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "nav",
+              "link",
+              "image"
+            ],
+            "frequency": 67,
+            "lineHeight": 0.98,
+            "letterSpacing": -0.15,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "Forma Nuovo",
+            "weight": 600,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 3,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "Forma Nuovo",
+            "weight": 400,
+            "contexts": [
+              "footer"
+            ],
+            "frequency": 1,
+            "lineHeight": 1,
+            "letterSpacing": -0.15,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "Times Now",
+            "weight": 400,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.25,
+            "letterSpacing": -0.05,
+            "textTransform": "none"
+          },
+          {
+            "size": 18,
+            "family": "Times Now",
+            "weight": 400,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 6,
+            "lineHeight": 1,
+            "letterSpacing": -0.05,
+            "textTransform": "none"
+          },
+          {
+            "size": 22,
+            "family": "Forma Nuovo",
+            "weight": 400,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.15,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 24,
+            "family": "Forma Nuovo",
+            "weight": 400,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 2,
+            "lineHeight": 0.65,
+            "letterSpacing": -0.1,
+            "textTransform": "none"
+          },
+          {
+            "size": 24,
+            "family": "Forma Nuovo",
+            "weight": 400,
+            "contexts": [
+              "link",
+              "body"
+            ],
+            "frequency": 10,
+            "lineHeight": 0.65,
+            "letterSpacing": -0.062,
+            "textTransform": "none"
+          },
+          {
+            "size": 24,
+            "family": "Forma Nuovo",
+            "weight": 400,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 4,
+            "lineHeight": 1.25,
+            "letterSpacing": -0.1,
+            "textTransform": "none"
+          },
+          {
+            "size": 24,
+            "family": "Forma Nuovo",
+            "weight": 400,
+            "contexts": [
+              "button"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.15,
+            "letterSpacing": -0.062,
+            "textTransform": "none"
+          },
+          {
+            "size": 24,
+            "family": "Times Now",
+            "weight": 400,
+            "contexts": [
+              "card",
+              "link"
+            ],
+            "frequency": 2,
+            "lineHeight": 1,
+            "letterSpacing": 0.05,
+            "textTransform": "none"
+          },
+          {
+            "size": 24,
+            "family": "Times Now",
+            "weight": 400,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.25,
+            "letterSpacing": 0.05,
+            "textTransform": "none"
+          },
+          {
+            "size": 24,
+            "family": "Times Now",
+            "weight": 400,
+            "contexts": [
+              "link"
+            ],
+            "frequency": 7,
+            "lineHeight": 1,
+            "letterSpacing": -0.037,
+            "textTransform": "none"
+          },
+          {
+            "size": 24,
+            "family": "Times Now",
+            "weight": 400,
+            "contexts": [
+              "link"
+            ],
+            "frequency": 3,
+            "lineHeight": 1,
+            "letterSpacing": -0.05,
+            "textTransform": "none"
+          },
+          {
+            "size": 24,
+            "family": "Times Now",
+            "weight": 400,
+            "contexts": [
+              "button"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.15,
+            "letterSpacing": -0.062,
+            "textTransform": "none"
+          },
+          {
+            "size": 26,
+            "family": "Times Now",
+            "weight": 400,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 2,
+            "lineHeight": 0.59,
+            "letterSpacing": -0.05,
+            "textTransform": "none"
+          },
+          {
+            "size": 26,
+            "family": "Times Now",
+            "weight": 400,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 2,
+            "lineHeight": 1.25,
+            "letterSpacing": -0.05,
+            "textTransform": "none"
+          },
+          {
+            "size": 26,
+            "family": "Times Now",
+            "weight": 400,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 2,
+            "lineHeight": 1.15,
+            "letterSpacing": -0.05,
+            "textTransform": "none"
+          },
+          {
+            "size": 28,
+            "family": "Forma Nuovo",
+            "weight": 400,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 2,
+            "lineHeight": 0.8,
+            "letterSpacing": -0.086,
+            "textTransform": "none"
+          },
+          {
+            "size": 31,
+            "family": "Times Now",
+            "weight": 400,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 4,
+            "lineHeight": 0.8,
+            "letterSpacing": -0.05,
+            "textTransform": "none"
+          },
+          {
+            "size": 32,
+            "family": "Forma Nuovo",
+            "weight": 400,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 11,
+            "lineHeight": 0.49,
+            "letterSpacing": -0.075,
+            "textTransform": "none"
+          },
+          {
+            "size": 32,
+            "family": "Times Now",
+            "weight": 400,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.25,
+            "letterSpacing": -0.027,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Prioritize ample negative space around all elements to maintain a clean, high-end feel.",
+        "Use Midnight Ink (#000000) for all text and UI outlines to ensure stark contrast and definition.",
+        "Apply Forma Nuovo for all headings and key UI labels, utilizing its specified letter-spacing for each size.",
+        "Use Times Now for body text and descriptive elements, adhering to its specific letter-spacing for a refined look.",
+        "Implement the Ghost Outline Button for all interactive elements, featuring the 1px Midnight Ink border and 10px radius.",
+        "Maintain a clear visual hierarchy by limiting saturated colors; reserve Ferry Red (#CF2442) for highly specific and subtle accents if needed.",
+        "Ensure all buttons and links utilize a 10px border-radius, while specialized circular cards use a 50% radius for distinctiveness."
+      ],
+      "donts": [
+        "Avoid using harsh drop shadows or heavy backgrounds; maintain the light and airy feel.",
+        "Do not introduce new typefaces, as the chosen custom fonts are core to the brand's identity.",
+        "Do not deviate from the specified letter-spacing values as they are a signature characteristic of the typography.",
+        "Avoid filling buttons with solid background colors; stick to the ghost outline style for primary interactions.",
+        "Do not clutter layouts with excessive elements; embrace spaciousness and minimalism.",
+        "Do not use gradients unless explicitly part of the design system beyond the current data.",
+        "Avoid using any color other than Midnight Ink for borders on interactive elements, or for primary text."
+      ],
+      "theme": "light",
+      "colors": [
+        {
+          "hex": "#000000",
+          "name": "Midnight Ink",
+          "role": "Dark borders and separators for elevated surfaces and inverted UI. Do not promote it to the primary CTA color",
+          "group": "neutral"
+        },
+        {
+          "hex": "#FFFFFF",
+          "name": "Canvas White",
+          "role": "Page backgrounds, card surfaces, default UI elements. Establishes a bright, expansive visual field",
+          "group": "neutral"
+        },
+        {
+          "hex": "#CF2442",
+          "name": "Ferry Red",
+          "role": "Alerts, notifications, and potentially subtle brand accents. A secondary, reserved accent color",
+          "group": "accent"
+        }
+      ],
+      "layout": "The page primarily employs a full-bleed layout for hero sections featuring large imagery, while internal content often adheres to a max-width contained model. The hero section frequently presents a large visual on one side (e.g., a model) and a distinct brand element or text on the other. Vertical rhythm is characterized by comfortable, consistent section gaps, creating a spacious feel. Content arrangement often alternates between imagery and text, with text labels positioned deliberately adjacent to products. Navigation is a minimal top bar, displaying key links without overwhelming the header space. The overall density is light, with significant breathing room.",
+      "imagery": "The site predominantly uses high-key product photography, often featuring candid-style models in lifestyle shots or tightly cropped product details (e.g., shoes). Imagery is integrated seamlessly into the white canvas, frequently appearing as full-bleed sections or subtly framed without strong borders. The visual focus is on the product and its texture, often with a raw, authentic feel. Icons, if present, are likely minimal, outlined, and monochromatic, matching the overall stark aesthetic. Imagery plays an atmospheric and showcase role, with a strong emphasis on texture and natural light.",
+      "similar": [
+        {
+          "why": "Minimalist aesthetic with a strong emphasis on photography and muted color palettes, featuring custom typography.",
+          "business": "Acne Studios"
+        },
+        {
+          "why": "Clean, almost sparse layouts, strong focus on product presentation, and a limited, high-contrast color scheme.",
+          "business": "Arket"
+        },
+        {
+          "why": "High-end fashion ecommerce with a white background, black text, and subtle interactive elements, relying on fine typography.",
+          "business": "CDLP"
+        },
+        {
+          "why": "Understated luxury, heavy use of negative space, large product imagery, and a monochrome palette with precise typographic details.",
+          "business": "Totême"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "cards": "50%",
+          "links": "10px",
+          "buttons": "10px"
+        },
+        "elementGap": "16px",
+        "sectionGap": "32px",
+        "cardPadding": "32px",
+        "pageMaxWidth": null
+      },
+      "industry": "ecommerce",
+      "northStar": "white gallery, black ink",
+      "typeScale": [
+        {
+          "role": "caption",
+          "size": 16,
+          "lineHeight": 1,
+          "letterSpacing": 0.8
+        },
+        {
+          "role": "body",
+          "size": 18,
+          "lineHeight": 1.25,
+          "letterSpacing": -0.8
+        },
+        {
+          "role": "subheading",
+          "size": 22,
+          "lineHeight": 1,
+          "letterSpacing": -1.65
+        },
+        {
+          "role": "heading",
+          "size": 24,
+          "lineHeight": 1,
+          "letterSpacing": -2.06
+        },
+        {
+          "role": "heading-lg",
+          "size": 31,
+          "lineHeight": 0.8,
+          "letterSpacing": -1.92
+        }
+      ],
+      "components": [
+        {
+          "name": "Ghost Outline Button",
+          "role": "Primary action button",
+          "description": "Transparent background, a 1px solid Midnight Ink border, 10px border radius, and Midnight Ink text. Padding is generous at 16px vertical and 32px horizontal. This button style reinforces the elegant, understated aesthetic."
+        },
+        {
+          "name": "Product Title (Forma Nuovo)",
+          "role": "Product listing headline",
+          "description": "Forma Nuovo typeface at 32px, weight 400, with a tight letter-spacing of -0.15em, rendered in Midnight Ink. Provides a bold but not shouting presence for product names."
+        },
+        {
+          "name": "Product Link (Times Now)",
+          "role": "Product detail link",
+          "description": "Times Now typeface at 18px, weight 400, with letter-spacing -0.027em, rendered in Midnight Ink. Used for descriptive links, maintaining a classic, legible feel."
+        },
+        {
+          "name": "Circular Card",
+          "role": "Decorative or featured product card",
+          "description": "A unique card style with a 50% border-radius, effectively making it circular or an oval depending on content. Background is Canvas White with no box shadow, padding of 32px on all sides. Used for visual distinction."
+        },
+        {
+          "name": "Navigation Link",
+          "role": "Top-level navigation item",
+          "description": "Forma Nuovo typeface at 16px, weight 400, with a letter-spacing of -0.062em, in Midnight Ink. These links are minimal, direct, and rely on spacing for separation."
+        }
+      ],
+      "typography": [
+        {
+          "role": "Headlines and prominent UI elements. Its confident but finely-tracked presence creates a modern, architectural feel.",
+          "sizes": "16px, 22px, 24px, 28px, 32px",
+          "family": "Forma Nuovo",
+          "weight": "400, 600",
+          "weights": [
+            400,
+            600
+          ],
+          "lineHeight": "0.80, 0.98, 1.00, 1.15, 1.25",
+          "substitute": "Montserrat",
+          "letterSpacing": "-0.15em at 32px, -0.10em at 28px, -0.086em at 24px, -0.075em at 22px, -0.062em at 16px"
+        },
+        {
+          "role": "Body copy, product descriptions, and subheadings. The serif provides a classic, luxurious counterpoint to the sans-serif headlines, with tight tracking adding to its refined character.",
+          "sizes": "16px, 18px, 24px, 26px, 31px, 32px",
+          "family": "Times Now",
+          "weight": "400",
+          "weights": [
+            400
+          ],
+          "lineHeight": "0.80, 1.00, 1.15, 1.25",
+          "substitute": "Lora",
+          "letterSpacing": "0.05em at 16px, -0.027em at 18px, -0.037em at 24px, -0.05em at 26px, -0.062em at 31px"
+        }
+      ],
+      "description": "Hai employs a minimalist aesthetic that centers on a clean, almost stark white canvas providing ample negative space for product photography and subtle typography. Contrasting with the light backdrop, all text and interactive elements are rendered in a deep, absolute black, creating sophisticated definition. The brand's distinctive visual identity is further characterized by the use of custom serif and sans-serif fonts with unique letter-spacing, giving a sense of exclusivity and handcrafted precision. Buttons feature a refined, subtle outline rather than bold fills, maintaining the quiet luxury feel.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "Quick Color Reference: text: #000000, background: #FFFFFF, border: #000000, accent: #CF2442, primary action: no distinct CTA color\n\nExample Component Prompts:\n1. Create a navigation link: 'Shop' in Forma Nuovo, weight 400, size 16px, letter-spacing -0.062em, color #000000.\n2. Create a ghost button: Text 'Shop Now' in Forma Nuovo, weight 400, size 16px, letter-spacing -0.062em, color #000000. Background transparent. Border 1px solid #000000. Border-radius 10px. Padding 16px vertical, 32px horizontal.\n3. Create a product title: 'Lia Dress in Pink' in Forma Nuovo, weight 400, size 32px, letter-spacing -0.15em, color #000000.\n4. Create a product description link: 'Harmony Ballerinas in Black and White Polka Dot' in Times Now, weight 400, size 18px, letter-spacing -0.027em, color #000000.\n5. Create a circular card: Background #FFFFFF, border-radius 50%, no shadow. Padding 32px on all sides."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777519912976-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777519912976-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/5efde7b1-008b-484c-82b1-d2628dccf855",
+  "ranks": {
+    "trending": 682,
+    "popular": 853,
+    "newest": 129
+  },
+  "localSlug": "hai-5efde7b1"
+}

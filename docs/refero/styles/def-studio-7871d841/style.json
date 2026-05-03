@@ -1,0 +1,478 @@
+{
+  "id": "7871d841-6703-4193-8119-36bb12c73983",
+  "url": "https://def.studio",
+  "siteName": "def.studio",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777519419301-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777519419301-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "dark",
+  "colors": [
+    {
+      "name": "Deep Midnight",
+      "hex": "#000000"
+    },
+    {
+      "name": "Charcoal Canvas",
+      "hex": "#1c1c1d"
+    },
+    {
+      "name": "Frost White",
+      "hex": "#ffffff"
+    },
+    {
+      "name": "Smoked Glass",
+      "hex": "#efefef"
+    },
+    {
+      "name": "Steel Gray",
+      "hex": "#747474"
+    }
+  ],
+  "fonts": [
+    "Synthese"
+  ],
+  "northStar": "Midnight Command Center",
+  "createdAt": "2026-04-30T03:23:55.274Z",
+  "previewVideoCapturedAt": null,
+  "industry": "design",
+  "fullResult": {
+    "meta": {
+      "url": "https://def.studio",
+      "siteName": "def.studio",
+      "extractedAt": "2026-04-30T03:23:55.203Z",
+      "durationMs": 20955,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 53,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#efefef",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.9521308451894797
+            },
+            "contexts": [
+              "other",
+              "link",
+              "list",
+              "image",
+              "body"
+            ],
+            "frequency": 195,
+            "confidence": 1,
+            "prominence": 17415793.252221994,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "body/color": 5,
+              "link/color": 8,
+              "list/color": 6,
+              "image/color": 2,
+              "other/color": 18,
+              "body/borderColor": 20,
+              "link/borderColor": 32,
+              "list/borderColor": 24,
+              "image/borderColor": 8,
+              "other/borderColor": 72
+            }
+          },
+          {
+            "hex": "#ffffff",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 1.0000000000000002
+            },
+            "contexts": [
+              "other",
+              "body",
+              "link"
+            ],
+            "frequency": 45,
+            "confidence": 1,
+            "prominence": 826462.9576750306,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "body/color": 1,
+              "link/color": 5,
+              "other/color": 3,
+              "body/borderColor": 4,
+              "link/borderColor": 20,
+              "other/borderColor": 12
+            }
+          },
+          {
+            "hex": "#747474",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.5589685559522224
+            },
+            "contexts": [
+              "body"
+            ],
+            "frequency": 25,
+            "confidence": 1,
+            "prominence": 70595.90412676106,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "body/color": 5,
+              "body/borderColor": 20
+            }
+          }
+        ],
+        "isDarkMode": true,
+        "colorfulness": 0,
+        "contrastPairs": []
+      },
+      "shapes": {
+        "radii": [],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 8,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 7,
+            "properties": [
+              "rowGap",
+              "columnGap",
+              "marginTop"
+            ],
+            "propertyContextPairs": [
+              "rowGap|other",
+              "columnGap|other",
+              "marginTop|other"
+            ]
+          },
+          {
+            "value": 10,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "rowGap",
+              "columnGap"
+            ],
+            "propertyContextPairs": [
+              "rowGap|other",
+              "columnGap|other"
+            ]
+          },
+          {
+            "value": 16,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "rowGap",
+              "columnGap"
+            ],
+            "propertyContextPairs": [
+              "rowGap|other",
+              "columnGap|other"
+            ]
+          },
+          {
+            "value": 20,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingTop",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other",
+              "paddingBottom|other"
+            ]
+          },
+          {
+            "value": 30,
+            "contexts": [
+              "other",
+              "list"
+            ],
+            "frequency": 10,
+            "properties": [
+              "paddingRight",
+              "paddingLeft",
+              "rowGap",
+              "columnGap",
+              "paddingTop",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|other",
+              "paddingLeft|other",
+              "paddingRight|list",
+              "paddingLeft|list",
+              "rowGap|list",
+              "columnGap|list",
+              "paddingTop|other",
+              "paddingBottom|other"
+            ]
+          }
+        ],
+        "density": "comfortable",
+        "baseUnit": null
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "synthese",
+            "source": "custom",
+            "weights": [
+              300,
+              400
+            ],
+            "frequency": 53,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 16,
+          "name": "Minor Third",
+          "ratio": 1.2,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 16,
+            "family": "synthese",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "list",
+              "link",
+              "image"
+            ],
+            "frequency": 25,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 19,
+            "family": "synthese",
+            "weight": 300,
+            "contexts": [
+              "other",
+              "body",
+              "link"
+            ],
+            "frequency": 24,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 96,
+            "family": "synthese",
+            "weight": 300,
+            "contexts": [
+              "other",
+              "link"
+            ],
+            "frequency": 4,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Prioritize Deep Midnight (#000000) for primary canvas backgrounds, allowing content to emerge from a dark void.",
+        "Use Charcoal Canvas (#1c1c1d) for content blocks or secondary sections to provide subtle visual relief within the dark theme.",
+        "Employ Frost White (#ffffff) exclusively for primary text, headlines, and active links to ensure maximum contrast and readability.",
+        "Leverage Smoked Glass (#efefef) for hairline borders, dividers, and inactive or supporting interactive elements.",
+        "Maintain a clear typographic hierarchy using Synthese: 96px for main headlines (weight 300), 19px for subheadings, and 16px for body text (weight 400).",
+        "Apply 8px as the default element gap for inline spacing, and 20px padding for content sections.",
+        "Utilize 30px for horizontal and vertical spacing for major content sections, creating generous breathing room."
+      ],
+      "donts": [
+        "Avoid using saturated or vibrant colors unless specifically for illustrative or product-focused content outside of the UI.",
+        "Do not introduce overt shadows or heavy elevation; surfaces should appear flat or subtly layered within the dark environment.",
+        "Refrain from using strong visual borders or heavy background fills for interactive elements; prefer text color shifts or subtle outlines.",
+        "Do not deviate from the Synthese font family; consistency in typeface is crucial for the brand's quiet authority.",
+        "Avoid arbitrary changes in text color or weight for emphasis; rely on the established hierarchy and the three neutral text colors.",
+        "Do not introduce rounded corners; maintain sharp, crisp edges for all UI elements to align with the precise aesthetic.",
+        "Do not use generic system fonts; the custom 'Synthese' typeface is critical to the brand's identity."
+      ],
+      "theme": "dark",
+      "colors": [
+        {
+          "hex": "#000000",
+          "name": "Deep Midnight",
+          "role": "Primary page background, unifies the visual field",
+          "group": "neutral"
+        },
+        {
+          "hex": "#1c1c1d",
+          "name": "Charcoal Canvas",
+          "role": "Secondary background, subtly distinguishes content sections or cards from the main canvas",
+          "group": "neutral"
+        },
+        {
+          "hex": "#ffffff",
+          "name": "Frost White",
+          "role": "Hairline borders, dividers, input outlines, and card edges on light surfaces. Do not promote it to the primary CTA color",
+          "group": "neutral"
+        },
+        {
+          "hex": "#efefef",
+          "name": "Smoked Glass",
+          "role": "Subtle borders, ghost button outlines, and supporting text that needs to recede slightly from primary text",
+          "group": "neutral"
+        },
+        {
+          "hex": "#747474",
+          "name": "Steel Gray",
+          "role": "Secondary text, metadata, and less prominent descriptive elements",
+          "group": "neutral"
+        }
+      ],
+      "layout": "The page operates on a full-bleed dark background, with main content centered but allowing for dynamic, overlapping visual arrangement in the hero section. The hero prominently features large, high-contrast typography 'def.studio' etc., stacked vertically and aligned left. Below this, smaller body text defines the brand's services. The central area of the page displays an array of product screenshots, likely app interfaces, arranged in an overlapping, dynamic grid or cascade, suggesting movement and depth. The footer is minimal, horizontally aligned links on a single line. The overall rhythm suggests a spacious, yet content-rich layout without a rigid grid for the main visual display.",
+      "imagery": "The visual language predominantly features product screenshots and interface mockups, presented as embedded elements on the dark canvas. These are not full-bleed but contained, often shown as mobile screens arranged dynamically. There is no visible photography or abstract graphics in the UI shown. Icons appear to be filled or solid and monochromatic, blending into the dark interface. Imagery primarily serves to showcase product work rather than decorative atmosphere, emphasizing a content-heavy, portfolio-driven display.",
+      "similar": [
+        {
+          "why": "Monochromatic interface with high contrast text and restrained use of color, conveying professionalism and focus.",
+          "business": "Stripe"
+        },
+        {
+          "why": "Dark mode interface with tight typography and emphasis on content over decorative UI elements.",
+          "business": "Linear"
+        },
+        {
+          "why": "Deep dark canvas with bright white text and subdued gray accents for UI elements, creating a focused work environment.",
+          "business": "Figma (dark mode)"
+        },
+        {
+          "why": "Minimalist dark theme with strong typographic hierarchy and subtle background variations to define content blocks.",
+          "business": "Notion (dark mode)"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "default": "0px"
+        },
+        "elementGap": "8px",
+        "sectionGap": "30px",
+        "cardPadding": "20px",
+        "pageMaxWidth": null
+      },
+      "industry": "design",
+      "northStar": "Midnight Command Center",
+      "typeScale": [
+        {
+          "role": "caption",
+          "size": 16,
+          "lineHeight": 1.2
+        },
+        {
+          "role": "body-sm",
+          "size": 19,
+          "lineHeight": 1.2
+        },
+        {
+          "role": "body",
+          "size": 96,
+          "lineHeight": 1.2
+        }
+      ],
+      "components": [
+        {
+          "name": "Navigation Link",
+          "role": "Primary navigation item",
+          "description": "Text link using Frost White (#ffffff) for clarity against the dark background. No explicit background or border, relying on color for interaction indication."
+        },
+        {
+          "name": "Body Text Block",
+          "role": "Standard paragraph text",
+          "description": "Text rendered in Steel Gray (#7477474) at 16px, weight 400. Used for descriptive content, subheadings, and general information."
+        },
+        {
+          "name": "Hero Headline",
+          "role": "Main page title",
+          "description": "Large text at 96px, weight 300, in Frost White (#ffffff). The exceptionally light weight for a headline creates a sense of gravitas and restraint."
+        },
+        {
+          "name": "Ghost Border Link",
+          "role": "Subtle interactive border",
+          "description": "A ghost link or element with a border in Smoked Glass (#efefef) and text in Frost White (#ffffff). Used when a subtle visual separation or interactive hint is needed without a fill."
+        }
+      ],
+      "typography": [
+        {
+          "role": "Custom font used for all text; its clean, modern lines and light weights contribute to the system's understated yet authoritative feel.",
+          "sizes": "16px, 19px, 96px",
+          "family": "Synthese",
+          "weight": "300, 400",
+          "weights": [
+            "300",
+            "400"
+          ],
+          "lineHeight": "1.20",
+          "substitute": "Inter",
+          "letterSpacing": "normal"
+        }
+      ],
+      "description": "def.studio employs a midnight canvas aesthetic, using deep, dark backgrounds with subtle shifts in luminosity to define planes. Typography is stark and prominent, relying on high contrast white for headings and links, with muted gray for supporting text. The absence of vibrant colors and reliance on crisp typography creates an atmosphere of focused, understated authority. Components blend seamlessly into the dark background, prioritizing content display over overt UI elements.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "### Quick Color Reference\ntext: #ffffff\nbackground: #000000\nborder: #efefef\naccent: none observed\nprimary action: no distinct CTA color\n\n### 3-5 Example Component Prompts\n1. Create a Hero section: background Deep Midnight (#000000). Main headline 'def.studio' in Frost White (#ffffff), Synthese font, 96px, weight 300, line-height 1.20. Subtitle in Steel Gray (#747477), Synthese font, 16px, weight 400.\n2. Design a Footer: background Deep Midnight (#000000). Links 'About', 'Contact', 'hi@def.studio', 'Instagram', 'Dribble' in Frost White (#ffffff), Synthese font, 16px, weight 400, separated by 30px horizontal spacing.\n3. Implement a Project Listing Item: A text block 'Logofolio Brand identity' using Frost White (#ffffff), Synthese font, 19px, weight 400. Below it, a descriptive text 'We specialise in UI UX design' in Steel Gray (#747474), Synthese font, 16px, weight 400. Use Charcoal Canvas (#1c1c1d) as a subtle background for the item, with 20px padding."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777519419301-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777519419301-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/7871d841-6703-4193-8119-36bb12c73983",
+  "ranks": {
+    "trending": 874,
+    "popular": 921,
+    "newest": 165
+  },
+  "localSlug": "def-studio-7871d841"
+}

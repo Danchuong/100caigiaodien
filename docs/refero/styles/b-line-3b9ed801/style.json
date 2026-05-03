@@ -1,0 +1,612 @@
+{
+  "id": "3b9ed801-511c-48b6-b516-68b1aa8a36ea",
+  "url": "https://www.b-line.it",
+  "siteName": "B—Line",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777514017215-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777514017215-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "light",
+  "colors": [
+    {
+      "name": "Canvas White",
+      "hex": "#ffffff"
+    },
+    {
+      "name": "Ink Black",
+      "hex": "#000000"
+    },
+    {
+      "name": "Muted Stone",
+      "hex": "#595959"
+    }
+  ],
+  "fonts": [
+    "HELVMONO",
+    "helvetica-bold",
+    "-apple-system"
+  ],
+  "northStar": "Gallery Grid Aesthetics",
+  "createdAt": "2026-04-30T01:54:02.632Z",
+  "previewVideoCapturedAt": null,
+  "industry": "design",
+  "fullResult": {
+    "meta": {
+      "url": "https://www.b-line.it",
+      "siteName": "B—Line",
+      "extractedAt": "2026-04-30T01:54:02.565Z",
+      "durationMs": 33582,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 137,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "other",
+              "image",
+              "link",
+              "input",
+              "nav",
+              "card",
+              "heading",
+              "footer",
+              "body"
+            ],
+            "frequency": 540,
+            "confidence": 1,
+            "prominence": 30253206.479102302,
+            "properties": [
+              "color",
+              "borderColor",
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "nav/color": 8,
+              "body/color": 2,
+              "card/color": 20,
+              "link/color": 18,
+              "image/color": 3,
+              "input/color": 1,
+              "other/color": 62,
+              "footer/color": 1,
+              "heading/color": 20,
+              "nav/borderColor": 28,
+              "body/borderColor": 8,
+              "card/borderColor": 80,
+              "link/borderColor": 24,
+              "image/borderColor": 12,
+              "other/borderColor": 168,
+              "footer/borderColor": 4,
+              "heading/borderColor": 80,
+              "other/backgroundColor": 1
+            }
+          },
+          {
+            "hex": "#ffffff",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 1.0000000000000002
+            },
+            "contexts": [
+              "other",
+              "button"
+            ],
+            "frequency": 82,
+            "confidence": 1,
+            "prominence": 797912.6853062437,
+            "properties": [
+              "backgroundColor",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "other/borderColor": 80,
+              "other/backgroundColor": 1,
+              "button/backgroundColor": 1
+            }
+          },
+          {
+            "hex": "#595959",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.464902681198861
+            },
+            "contexts": [
+              "button",
+              "other"
+            ],
+            "frequency": 10,
+            "confidence": 1,
+            "prominence": 4995.419257312257,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "other/color": 1,
+              "button/color": 1,
+              "other/borderColor": 4,
+              "button/borderColor": 4
+            }
+          }
+        ],
+        "isDarkMode": false,
+        "colorfulness": 0,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 21,
+            "background": "#ffffff",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 7,
+            "background": "#ffffff",
+            "foreground": "#595959"
+          },
+          {
+            "level": "fail",
+            "ratio": 3,
+            "background": "#000000",
+            "foreground": "#595959"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [
+          {
+            "value": 14.4,
+            "contexts": [
+              "link"
+            ],
+            "frequency": 2
+          },
+          {
+            "value": 4,
+            "contexts": [
+              "button"
+            ],
+            "frequency": 1
+          }
+        ],
+        "shadows": [
+          {
+            "value": "rgba(0, 0, 0, 0.15) 0px 0px 0px 1px",
+            "contexts": [
+              "button"
+            ],
+            "frequency": 1
+          }
+        ]
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 4,
+            "contexts": [
+              "card"
+            ],
+            "frequency": 40,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|card",
+              "paddingLeft|card"
+            ]
+          },
+          {
+            "value": 5,
+            "contexts": [
+              "other",
+              "link"
+            ],
+            "frequency": 23,
+            "properties": [
+              "paddingBottom",
+              "paddingTop",
+              "paddingRight",
+              "paddingLeft",
+              "marginLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingBottom|other",
+              "paddingTop|other",
+              "paddingRight|other",
+              "paddingLeft|other",
+              "marginLeft|link"
+            ]
+          },
+          {
+            "value": 6,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 6,
+            "properties": [
+              "paddingTop"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other"
+            ]
+          },
+          {
+            "value": 7,
+            "contexts": [
+              "link",
+              "nav"
+            ],
+            "frequency": 15,
+            "properties": [
+              "marginRight"
+            ],
+            "propertyContextPairs": [
+              "marginRight|link",
+              "marginRight|nav"
+            ]
+          },
+          {
+            "value": 8,
+            "contexts": [
+              "card"
+            ],
+            "frequency": 20,
+            "properties": [
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "marginBottom|card"
+            ]
+          },
+          {
+            "value": 10,
+            "contexts": [
+              "other",
+              "footer"
+            ],
+            "frequency": 12,
+            "properties": [
+              "paddingTop",
+              "paddingRight",
+              "paddingLeft",
+              "marginBottom",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other",
+              "paddingRight|other",
+              "paddingLeft|other",
+              "marginBottom|other",
+              "paddingTop|footer",
+              "paddingBottom|footer"
+            ]
+          },
+          {
+            "value": 16,
+            "contexts": [
+              "button"
+            ],
+            "frequency": 4,
+            "properties": [
+              "marginTop",
+              "marginRight",
+              "marginBottom",
+              "marginLeft"
+            ],
+            "propertyContextPairs": [
+              "marginTop|button",
+              "marginRight|button",
+              "marginBottom|button",
+              "marginLeft|button"
+            ]
+          },
+          {
+            "value": 22,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|other",
+              "paddingLeft|other"
+            ]
+          }
+        ],
+        "density": "compact",
+        "baseUnit": 4
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "HELVMONO",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 124,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "helvetica-bold",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 11,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "-apple-system",
+            "source": "system",
+            "weights": [
+              700
+            ],
+            "frequency": 2,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": null,
+        "steps": [
+          {
+            "size": 12,
+            "family": "helvetica-bold",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "footer",
+              "body",
+              "link"
+            ],
+            "frequency": 9,
+            "lineHeight": 1.13,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 12,
+            "family": "helvetica-bold",
+            "weight": 400,
+            "contexts": [
+              "link"
+            ],
+            "frequency": 2,
+            "lineHeight": 2.5,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 14,
+            "family": "HELVMONO",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "image",
+              "link",
+              "nav",
+              "card",
+              "heading"
+            ],
+            "frequency": 119,
+            "lineHeight": 1.3,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 14,
+            "family": "HELVMONO",
+            "weight": 400,
+            "contexts": [
+              "input",
+              "nav"
+            ],
+            "frequency": 5,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 14,
+            "family": "-apple-system",
+            "weight": 700,
+            "contexts": [
+              "button",
+              "other"
+            ],
+            "frequency": 2,
+            "lineHeight": 2.71,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Prioritize Canvas White (#ffffff) for all large background and surface areas, creating a clean, almost exhibition-like feel.",
+        "Use Ink Black (#000000) for all primary text, headings, and crucial interactive elements to ensure maximum contrast and legibility.",
+        "Employ HELVMONO font at weight 400 for all UI text, reinforcing the precise, industrial aesthetic of the brand.",
+        "Maintain a compact density, using 5px as the default elementGap and 4px for cardPadding to maximize product visibility.",
+        "Utilize a 0px border-radius for all cards and product containers to maintain a sharp, photographic presentation.",
+        "When borders are present, use 1px solid Ink Black (#000000) for a crisp, defined line.",
+        "Apply Vivid Orange (#e73b1d) sparingly for decorative accents or secondary highlights, never for primary interactive elements."
+      ],
+      "donts": [
+        "Avoid using multiple font families or excessive font weights; stick to HELVMONO 400 and helvetica-bold 400 for consistency.",
+        "Do not introduce complex shadows or gradients; rely on flat surfaces, high contrast, and photographic content for visual interest.",
+        "Refrain from using heavily saturated colors for backgrounds or large UI areas; the canvas should remain neutral.",
+        "Do not deviate from the compact spacing values; avoid expansive padding or large element gaps that would reduce content density.",
+        "Avoid decorative iconography; the visual system is focused on product display and simple typographic elements.",
+        "Do not use heavily rounded corners on cards or major content blocks; maintain a sharp, almost technical edge (0px radius).",
+        "Avoid custom button styles beyond ghost or outlined; do not introduce filled buttons with accent colors as primary actions."
+      ],
+      "theme": "light",
+      "colors": [
+        {
+          "hex": "#ffffff",
+          "name": "Canvas White",
+          "role": "Page backgrounds, button backgrounds, primary surface for product display cards",
+          "group": "neutral"
+        },
+        {
+          "hex": "#000000",
+          "name": "Ink Black",
+          "role": "Primary text, navigation links, borders, and input text – providing stark contrast on white surfaces",
+          "group": "neutral"
+        },
+        {
+          "hex": "#595959",
+          "name": "Muted Stone",
+          "role": "Dark borders and separators for elevated surfaces and inverted UI. Do not promote it to the primary CTA color",
+          "group": "neutral"
+        }
+      ],
+      "layout": "The page primarily uses a max-width contained layout section, though the header elements touch the viewport edges. The hero section is minimal, with a large brand mark and a compact horizontal navigation. The main content area features a distinct grid pattern for product display, with 4 columns of cards repeated vertically. Each product card is a visual square with the product name below it. Sections flow seamlessly without distinct visual dividers, maintaining consistent vertical spacing. The overall impression is a dense, responsive grid layout that prioritizes product visibility.",
+      "imagery": "The visual language is dominated by high-quality product photography. Products are presented as isolated objects against a neutral gray background, often with subtle lighting that highlights their form and texture. There are no lifestyle shots or human elements, focusing entirely on the design of the objects themselves. Imagery is the primary content, with UI elements acting as a frame around these product showcased items. Icons are minimal, likely single-color outlines or filled monochromes for navigation.",
+      "similar": [
+        {
+          "why": "Similar emphasis on clean product photography on neutral backgrounds, minimal UI, and a focus on industrial design.",
+          "business": "Fritz Hansen"
+        },
+        {
+          "why": "Showcases furniture with high-contrast typography, ample white space, and a gallery-like presentation.",
+          "business": "Herman Miller"
+        },
+        {
+          "why": "Exclusive product-focused presentation with large imagery, minimal text, and a sophisticated, almost stark UI.",
+          "business": "Objets Nomades (Louis Vuitton)"
+        },
+        {
+          "why": "Finnish design brand with a clean, functional aesthetic, strong typography, and primary focus on showcasing products.",
+          "business": "Artek"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "cards": "0px",
+          "links": "14.4px",
+          "inputs": "0px",
+          "buttons": "4px"
+        },
+        "elementGap": "5px",
+        "sectionGap": "40px",
+        "cardPadding": "4px",
+        "pageMaxWidth": null
+      },
+      "industry": "design",
+      "northStar": "Gallery Grid Aesthetics",
+      "typeScale": [
+        {
+          "role": "body-lg",
+          "size": 14,
+          "lineHeight": 1
+        }
+      ],
+      "components": [
+        {
+          "name": "Primary Ghost Button",
+          "role": "Action button with minimal styling.",
+          "description": "backgroundColor: Canvas White (#ffffff), color: Muted Stone (#595959), border: 1px solid Muted Stone (#595959), borderRadius: 4px, padding: 0px."
+        },
+        {
+          "name": "Product Display Card",
+          "role": "Container for product imagery and titles in a grid layout.",
+          "description": "backgroundColor: transparent (rgba(0, 0, 0, 0)), borderRadius: 0px, boxShadow: none, paddingRight: 4px, paddingLeft: 4px. Product titles use Ink Black text (HELVMONO, 400)."
+        },
+        {
+          "name": "Navigation Link",
+          "role": "Interactive text links in header and footer.",
+          "description": "color: Ink Black (#000000), font: HELVMONO 400. Hover/active states are implied by a rounded highlight with 14.4px border-radius, though no distinct visual change is specified beyond this."
+        },
+        {
+          "name": "Text Input (minimal)",
+          "role": "Basic text input field.",
+          "description": "backgroundColor: transparent (rgba(0, 0, 0, 0)), color: Ink Black (#000000), border: none, borderRadius: 0px, padding: 0px."
+        }
+      ],
+      "typography": [
+        {
+          "role": "Primary UI text, navigation, product titles, input fields, and all body text. Its monospaced nature lends an industrial, precise feel that complements the product design focus.",
+          "sizes": "14px",
+          "family": "HELVMONO",
+          "weight": "400",
+          "weights": [
+            400
+          ],
+          "lineHeight": "1.00, 1.30",
+          "substitute": "Space Mono",
+          "letterSpacing": "normal"
+        },
+        {
+          "role": "Fine print, footer text, and specific link states, providing a slightly smaller and subtly bolder option for secondary information.",
+          "sizes": "12px",
+          "family": "helvetica-bold",
+          "weight": "400",
+          "weights": [
+            400
+          ],
+          "lineHeight": "1.13, 2.50",
+          "substitute": "Helvetica Neue",
+          "letterSpacing": "normal"
+        },
+        {
+          "role": "-apple-system — detected in extracted data but not described by AI",
+          "sizes": "14px",
+          "family": "-apple-system",
+          "weight": "700",
+          "lineHeight": "2.71"
+        }
+      ],
+      "description": "B—Line's visual system evokes a gallery of industrial design: a pristine white canvas showcases product photography and minimal UI elements. Black typography provides high contrast and a grounding presence. The density is compact, making efficient use of space to present a catalog of items with subtle interactive cues and minimal ornamentation. The entire aesthetic is about the product being the star, supported by an understated display system.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "Quick Color Reference:\ntext: #000000\nbackground: #ffffff\nborder: #000000\naccent: #e73b1d\nprimary action: no distinct CTA color\n\nExample Component Prompts:\n1. Create a header with navigation: Background Canvas White (#ffffff). Top-left logo text 'B—Line' Ink Black (#000000), HELVMONO 400. Navigation links 'Tutti', 'Tavoli', 'Sedute' in Ink Black (#000000), HELVMONO 400, with 7px marginRight between them. Right-aligned 'IT / EN' links, also Ink Black HELVMONO 400.\n2. Design a product grid section: Main background Canvas White (#ffffff). Display products in a 4-column grid, each product card using 0px border-radius, transparent background. Below each product image, display the product name in Ink Black (#000000), HELVMONO 400, with 8px marginBottom. Cards have 4px padding on left/right.\n3. Create a minimal ghost button: Background Canvas White (#ffffff), text Muted Stone (#595959), border 1px solid Muted Stone (#595959), 4px border-radius, 0px padding. This functions as a secondary action."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777514017215-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777514017215-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/3b9ed801-511c-48b6-b516-68b1aa8a36ea",
+  "ranks": {
+    "trending": 794,
+    "popular": 893,
+    "newest": 494
+  },
+  "localSlug": "b-line-3b9ed801"
+}

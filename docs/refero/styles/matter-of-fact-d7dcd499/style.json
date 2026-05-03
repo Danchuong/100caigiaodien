@@ -1,0 +1,360 @@
+{
+  "id": "d7dcd499-8eeb-4dbb-8c52-9d688e637783",
+  "url": "https://matteroffact.fr",
+  "siteName": "Matter of Fact",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777516711673-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777516711673-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "light",
+  "colors": [
+    {
+      "name": "Canvas White",
+      "hex": "#ffffff"
+    },
+    {
+      "name": "Midnight Ink",
+      "hex": "#000000"
+    }
+  ],
+  "fonts": [
+    "FreeSans"
+  ],
+  "northStar": "Monochrome typographic canvas",
+  "createdAt": "2026-04-30T02:38:45.736Z",
+  "previewVideoCapturedAt": null,
+  "industry": "design",
+  "fullResult": {
+    "meta": {
+      "url": "https://matteroffact.fr",
+      "siteName": "Matter of Fact",
+      "extractedAt": "2026-04-30T02:38:45.674Z",
+      "durationMs": 18658,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 40,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "other",
+              "nav",
+              "heading"
+            ],
+            "frequency": 200,
+            "confidence": 1,
+            "prominence": 120352787.54203014,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "nav/color": 6,
+              "other/color": 33,
+              "heading/color": 1,
+              "nav/borderColor": 24,
+              "other/borderColor": 132,
+              "heading/borderColor": 4
+            }
+          },
+          {
+            "hex": "#ffffff",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 1.0000000000000002
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 1296000,
+            "properties": [
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "other/backgroundColor": 1
+            }
+          }
+        ],
+        "isDarkMode": false,
+        "colorfulness": 0,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 21,
+            "background": "#ffffff",
+            "foreground": "#000000"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 6,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 16,
+            "properties": [
+              "paddingTop",
+              "paddingRight",
+              "paddingBottom",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|nav",
+              "paddingRight|nav",
+              "paddingBottom|nav",
+              "paddingLeft|nav"
+            ]
+          },
+          {
+            "value": 18,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 8,
+            "properties": [
+              "paddingTop",
+              "paddingRight",
+              "paddingBottom",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|nav",
+              "paddingRight|nav",
+              "paddingBottom|nav",
+              "paddingLeft|nav"
+            ]
+          },
+          {
+            "value": 84,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingTop",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other",
+              "paddingBottom|other"
+            ]
+          }
+        ],
+        "density": "compact",
+        "baseUnit": 6
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "FreeSans",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 40,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 16,
+          "name": "Perfect Fourth",
+          "ratio": 1.333,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 23,
+            "family": "FreeSans",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "nav",
+              "heading"
+            ],
+            "frequency": 9,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 36,
+            "family": "FreeSans",
+            "weight": 400,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 4,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 202,
+            "family": "FreeSans",
+            "weight": 400,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 27,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Prioritize text as the primary visual element; minimize other decorative components.",
+        "Maintain a strict achromatic color palette using only Canvas White (#ffffff) for backgrounds and Midnight Ink (#000000) for foreground elements.",
+        "Use FreeSans weight 400 for all typography, ensuring a consistent and direct tone.",
+        "Apply 84px vertical spacing between major page sections to create clear visual breaks.",
+        "Ensure all interactive elements are defined by Midnight Ink (#000000) borders or text, with no background fills."
+      ],
+      "donts": [
+        "Do not introduce any chromatic colors; the palette is strictly monochrome.",
+        "Avoid decorative images or illustrations that would distract from the typography.",
+        "Do not use multiple font weights or families; FreeSans 400 is the only typeface.",
+        "Refrain from using shadows or gradients; rely on contrast and typography for visual hierarchy.",
+        "Do not break the 900px max-width constraint for main content areas."
+      ],
+      "theme": "light",
+      "colors": [
+        {
+          "hex": "#ffffff",
+          "name": "Canvas White",
+          "role": "Page backgrounds, primary surface for all content",
+          "group": "neutral"
+        },
+        {
+          "hex": "#000000",
+          "name": "Midnight Ink",
+          "role": "Dark borders and separators for elevated surfaces and inverted UI. Do not promote it to the primary CTA color",
+          "group": "neutral"
+        }
+      ],
+      "layout": "The page model is contained, with a max-width of 900px and content generally centered. The hero pattern is a massive, attention-grabbing centered headline over a pure white background. Sections maintain a consistent vertical rhythm with 84px spacing. Content is arranged in simple, centered stacks, with no apparent grid usage for features or cards. The navigation is a top bar, minimal and text-based, likely sticky given the interactive elements.",
+      "imagery": "The site uses no imagery or embedded graphics, focusing entirely on a pure typographic and monochrome UI. The visual language is defined by the stark absence of visuals, making text itself the primary graphic element.",
+      "similar": [
+        {
+          "why": "Emphasizes large, stark typography on a monochromatic background with minimal UI elements.",
+          "business": "Savvy Studio"
+        },
+        {
+          "why": "Uses a clean white canvas, high-contrast black text, and a strong typographic voice as its core aesthetic.",
+          "business": "Anagram Paris"
+        },
+        {
+          "why": "Relies on a monochrome palette and large, well-structured typography to convey information rather than decorative imagery.",
+          "business": "Bureau for Visual Affairs"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "none": "0px"
+        },
+        "elementGap": "6px",
+        "sectionGap": "84px",
+        "cardPadding": "18px",
+        "pageMaxWidth": "900px"
+      },
+      "industry": "design",
+      "northStar": "Monochrome typographic canvas",
+      "typeScale": [
+        {
+          "role": "caption",
+          "size": 23,
+          "lineHeight": 1.2,
+          "letterSpacing": 0
+        },
+        {
+          "role": "subheading",
+          "size": 36,
+          "lineHeight": 1.2,
+          "letterSpacing": 0
+        },
+        {
+          "role": "display",
+          "size": 202,
+          "lineHeight": 1,
+          "letterSpacing": 0
+        }
+      ],
+      "components": [
+        {
+          "name": "Minimal Navigation Link",
+          "role": "Interactive text link within navigation",
+          "description": "Text link using FreeSans, weight 400, color Midnight Ink (#000000). Padding of 6px applied to individual items and 18px on the right and bottom for broader clickable areas."
+        },
+        {
+          "name": "Headline Display Text",
+          "role": "Dominant page headlines",
+          "description": "Large text using FreeSans, weight 400, color Midnight Ink (#000000), at 202px size with 1.0 line height for impactful, dense typography."
+        }
+      ],
+      "typography": [
+        {
+          "role": "All textual content, from primary navigation to very large display headlines. Its mono-weight adherence to 400 emphasizes consistency and directness.",
+          "sizes": "23px, 36px, 202px",
+          "family": "FreeSans",
+          "weight": "400",
+          "lineHeight": "1.00, 1.20",
+          "substitute": "Arial",
+          "letterSpacing": "normal"
+        }
+      ],
+      "description": "Matter of Fact operates on a stark, high-contrast visual system: pure black text on a clean white canvas. Typography, primarily large and commanding, is the dominant visual element, with minimal use of color or complex components. The design maintains an austere, type-driven aesthetic, emphasizing direct communication and clarity through its monochrome palette.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "Quick Color Reference:\ntext: #000000\nbackground: #ffffff\nborder: #000000\naccent: no distinct accent color\nprimary action: no distinct CTA color\n\nExample Component Prompts:\n1. Create a page with a main headline: white background. Headline 'Matter of Fact' in FreeSans weight 400, 202px, line height 1.0, color #000000, centered on the page.\n2. Create a navigation bar: white background, max-width 900px, centered. Include a text link 'Fact' in FreeSans weight 400, 23px, color #000000, with 6px padding.\n3. Create a secondary content section: white background, separated from the previous section by 84px of vertical space. Include a subheading 'Matter of Tab' in FreeSans weight 400, 36px, line height 1.2, color #000000, left-aligned."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777516711673-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777516711673-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/d7dcd499-8eeb-4dbb-8c52-9d688e637783",
+  "ranks": {
+    "trending": 1115,
+    "popular": 1119,
+    "newest": 329
+  },
+  "localSlug": "matter-of-fact-d7dcd499"
+}

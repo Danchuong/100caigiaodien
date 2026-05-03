@@ -1,0 +1,410 @@
+{
+  "id": "738b48c3-fecd-4af8-b3f8-4ef9c07b5d3f",
+  "url": "https://www.urbanwoodsystems.com",
+  "siteName": "Home",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777517202402-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777517202402-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "light",
+  "colors": [
+    {
+      "name": "Canvas Oyster",
+      "hex": "#e6e6dd"
+    },
+    {
+      "name": "Midnight Ink",
+      "hex": "#000000"
+    },
+    {
+      "name": "Ghost White",
+      "hex": "#ffffff"
+    },
+    {
+      "name": "Signal Red",
+      "hex": "#ff0000"
+    }
+  ],
+  "fonts": [
+    "Unica77"
+  ],
+  "northStar": "Brutalist industrial canvas",
+  "createdAt": "2026-04-30T02:47:03.409Z",
+  "previewVideoCapturedAt": null,
+  "industry": "other",
+  "fullResult": {
+    "meta": {
+      "url": "https://www.urbanwoodsystems.com",
+      "siteName": "Home",
+      "extractedAt": "2026-04-30T02:47:03.344Z",
+      "durationMs": 32061,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 63,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "other",
+              "link",
+              "image"
+            ],
+            "frequency": 201,
+            "confidence": 1,
+            "prominence": 9925042.081646325,
+            "properties": [
+              "color",
+              "borderColor",
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "link/color": 11,
+              "image/color": 3,
+              "other/color": 26,
+              "link/borderColor": 44,
+              "image/borderColor": 12,
+              "other/borderColor": 104,
+              "other/backgroundColor": 1
+            }
+          },
+          {
+            "hex": "#ffffff",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 1.0000000000000002
+            },
+            "contexts": [
+              "other",
+              "link"
+            ],
+            "frequency": 118,
+            "confidence": 1,
+            "prominence": 640452.7272159116,
+            "properties": [
+              "color",
+              "borderColor",
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "other/color": 23,
+              "other/borderColor": 92,
+              "link/backgroundColor": 3
+            }
+          },
+          {
+            "hex": "#e6e6dd",
+            "oklch": {
+              "c": 0.012024345225175247,
+              "h": 106.63300443203626,
+              "l": 0.9224474054468615
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "confidence": 1,
+            "prominence": 246529.82224967077,
+            "properties": [
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "other/backgroundColor": 2
+            }
+          }
+        ],
+        "isDarkMode": false,
+        "colorfulness": 0.00020248118590848274,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 21,
+            "background": "#ffffff",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 16.73,
+            "background": "#e6e6dd",
+            "foreground": "#000000"
+          },
+          {
+            "level": "fail",
+            "ratio": 1.26,
+            "background": "#e6e6dd",
+            "foreground": "#ffffff"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [
+          {
+            "value": 300,
+            "contexts": [
+              "link"
+            ],
+            "frequency": 3
+          }
+        ],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 3,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 3,
+            "properties": [
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingLeft|other"
+            ]
+          },
+          {
+            "value": 5,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 15,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|other",
+              "paddingLeft|other"
+            ]
+          },
+          {
+            "value": 10,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 7,
+            "properties": [
+              "paddingTop",
+              "paddingRight",
+              "paddingLeft",
+              "marginRight"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other",
+              "paddingRight|other",
+              "paddingLeft|other",
+              "marginRight|other"
+            ]
+          }
+        ],
+        "density": "compact",
+        "baseUnit": 4
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "Unica77",
+            "source": "custom",
+            "weights": [
+              500
+            ],
+            "frequency": 63,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": null,
+        "steps": [
+          {
+            "size": 11,
+            "family": "Unica77",
+            "weight": 500,
+            "contexts": [
+              "other",
+              "link",
+              "image"
+            ],
+            "frequency": 57,
+            "lineHeight": 1,
+            "letterSpacing": -0.009,
+            "textTransform": "none"
+          },
+          {
+            "size": 20,
+            "family": "Unica77",
+            "weight": 500,
+            "contexts": [
+              "link",
+              "other"
+            ],
+            "frequency": 6,
+            "lineHeight": 1,
+            "letterSpacing": -0.005,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Use Canvas Oyster (#e6e6dd) as the default background for all primary content surfaces.",
+        "Apply Midnight Ink (#000000) for all body text, headings, and strong borders to maintain high contrast.",
+        "Utilize Unica77 weight 500 for all typography, adjusting size and letter-spacing according to the type scale.",
+        "Form interactive elements with a 300px border-radius to create distinct circular shapes against the angular layout.",
+        "Maintain generous spacing, with a base element gap of 10px, to ensure content breathability.",
+        "Employ Ghost White (#ffffff) for backgrounds of interactive circular elements to differentiate them clearly."
+      ],
+      "donts": [
+        "Avoid subtle gradients or soft drop shadows; the system favors stark, flat surfaces and strong contrasts.",
+        "Do not use multiple font families; stick strictly to Unica77 for all text.",
+        "Do not introduce mid-tone grays for text or backgrounds; use only Midnight Ink (#000000), Canvas Oyster (#e6e6dd), and Ghost White (#ffffff) for neutrals.",
+        "Do not vary border-radius sizes for interactive elements; consistently use 300px for circular forms.",
+        "Avoid decorative imagery or complex illustrations; imagery should be photographic and functional.",
+        "Do not create complex layouts; favor clear, block-based arrangements with ample negative space."
+      ],
+      "theme": "light",
+      "colors": [
+        {
+          "hex": "#e6e6dd",
+          "name": "Canvas Oyster",
+          "role": "Primary page background, main content area",
+          "group": "neutral"
+        },
+        {
+          "hex": "#000000",
+          "name": "Midnight Ink",
+          "role": "Primary text, strong borders, prominent headings, footer background. Creates high contrast and a grounded feel",
+          "group": "neutral"
+        },
+        {
+          "hex": "#ffffff",
+          "name": "Ghost White",
+          "role": "Circular component backgrounds, button fills, subtle borders against dark elements",
+          "group": "neutral"
+        },
+        {
+          "hex": "#ff0000",
+          "name": "Signal Red",
+          "role": "Supporting palette color for small decorative accents when the core palette needs contrast. Do not promote it to the primary CTA color",
+          "group": "accent"
+        }
+      ],
+      "layout": "The page operates on a full-bleed grid, with primary content areas stretching to the edges. The hero section is dominated by an large image on the left and bold typography on the right. Content sections generally use a two-column division, with a strong visual element on one side and text/secondary content on the other. A notable pattern is the use of circular UI elements (like 'About', 'Base', 'Shop') that break from the linear grid, acting as visual anchors. The footer is a compact, dark band contrasting with the light main canvas, containing minimal text links. The overall rhythm is open and spacious, allowing elements to breathe without dense information blocks.",
+      "imagery": "The imagery features high-contrast, product-focused photography and functional objects. A prominent photograph of a person with a bicycle against a simple background highlights the product's use case directly. The visual style is stark and realistic, without filters or stylized treatments. There is a singular, vivid red structural element (implied from the image but not in color data) that serves as a functional art piece. Overall, imagery is either purely functional (like the red support pole) or product-showcasing, occupying significant visual space to ground the design.",
+      "similar": [
+        {
+          "why": "Stark monochrome palette with heavy typography and generous whitespace.",
+          "business": "Acme Co."
+        },
+        {
+          "why": "Large, bold sans-serif type, high contrast, and minimal ornamentation, reminiscent of brutalist web design.",
+          "business": "Brutalism.com"
+        },
+        {
+          "why": "Focus on high-quality product photography and a clean, spacious layout with distinct, large navigation elements.",
+          "business": "Fashion brand with minimalist website"
+        },
+        {
+          "why": "Emphasis on functionality, architectural influences, and a subdued color palette with a single accent color.",
+          "business": "Industrial design agency"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "circularElements": "300px"
+        },
+        "elementGap": "10px",
+        "sectionGap": "",
+        "cardPadding": "",
+        "pageMaxWidth": null
+      },
+      "industry": "other",
+      "northStar": "Brutalist industrial canvas",
+      "typeScale": [
+        {
+          "role": "caption",
+          "size": 11,
+          "lineHeight": 1,
+          "letterSpacing": -0.005
+        },
+        {
+          "role": "body",
+          "size": 20,
+          "lineHeight": 1,
+          "letterSpacing": -0.009
+        }
+      ],
+      "components": [
+        {
+          "name": "Primary Header",
+          "role": "Display Branding",
+          "description": "Large-scale 'U.W.S.' and 'Urban Wood Systems' in Midnight Ink (#000000) on Canvas Oyster (#e6e6dd), reflecting a bold, almost architectural presence. Typographically impactful."
+        },
+        {
+          "name": "Circular Link",
+          "role": "Navigation/Call-to-action",
+          "description": "Ghost White (#ffffff) circular background with a 300px border-radius, featuring Midnight Ink (#000000) text (Unica77, 500 weight). The large radius makes these elements distinct, soft-edged interaction points despite the overall stark aesthetic."
+        },
+        {
+          "name": "Minimal Link",
+          "role": "Utility Navigation/Sub-navigation",
+          "description": "Midnight Ink (#000000) text (Unica77) on various backgrounds. Used for subtle navigation like language selectors, social media links, and legal information. Minimal in visual weight to defer to the page's prominent elements."
+        }
+      ],
+      "typography": [
+        {
+          "role": "Primary font for all textual content, including headings and body text. Its compact, slightly extended form underpins the system's direct and robust character.",
+          "sizes": "11px, 20px",
+          "family": "Unica77",
+          "weight": "500",
+          "lineHeight": "1.00",
+          "substitute": "Helvetica Neue",
+          "letterSpacing": "-0.0090em at 20px, -0.0050em at 11px"
+        }
+      ],
+      "description": "Urban Wood Systems presents a raw, industrial aesthetic with stark contrasts and minimal embellishments. Its visual identity prioritizes functionality and directness through a largely monochrome palette, punctuated by a single vibrant accent color not present in this data crop but visible in the screenshot (red element). Large-scale, high-impact typography dominates the header, creating a bold, almost brutalist statement. Components are defined by strong outlines and generous circular forms, maintaining visual weight against a subdued background.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "Quick Color Reference:\ntext: #000000\nbackground: #e6e6dd\nborder: #000000\naccent: #ff0000 (functional accent, implied)\nprimary action: no distinct CTA color\n\nExample Component Prompts:\n1. Create a primary navigation link: \"About\" with a Ghost White (#ffffff) circular background with a 300px border-radius, Midnight Ink (#000000) text using Unica77 weight 500, size 20px, letter-spacing -0.009em.\n2. Create a header block: 'U.W.S.' text in Midnight Ink (#000000), Unica77 weight 500, approx 80px size, letter-spacing tuned for visual balance, on a Canvas Oyster (#e6e6dd) background.\n3. Create a utility footer link: 'Instagram' text in Midnight Ink (#000000), Unica77 weight 500, size 11px, letter-spacing -0.005em. This link should appear on a Midnight Ink (#000000) background."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777517202402-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777517202402-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/738b48c3-fecd-4af8-b3f8-4ef9c07b5d3f",
+  "ranks": {
+    "trending": 765,
+    "popular": 830,
+    "newest": 294
+  },
+  "localSlug": "home-738b48c3"
+}

@@ -1,0 +1,502 @@
+{
+  "id": "e9f1b24a-26c1-49e0-9b5f-74f492185664",
+  "url": "https://savoirfaire.nyc",
+  "siteName": "Savoirfaire",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775926141432-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775926141432-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "dark",
+  "colors": [
+    {
+      "name": "Void Black",
+      "hex": "#000000"
+    },
+    {
+      "name": "Glow Green",
+      "hex": "#cdfd50"
+    },
+    {
+      "name": "Cloud White",
+      "hex": "#ffffff"
+    },
+    {
+      "name": "Ghost Gray",
+      "hex": "#899090"
+    },
+    {
+      "name": "Mist Gray",
+      "hex": "#808080"
+    }
+  ],
+  "fonts": [
+    "editorial-thin",
+    "haas-regular"
+  ],
+  "northStar": "Black canvas, neon spark. A singular, vivid green element electrifies an otherwise monochrome dark mode interface.",
+  "createdAt": "2026-03-17T10:08:29.000Z",
+  "previewVideoCapturedAt": null,
+  "industry": "agency",
+  "fullResult": {
+    "meta": {
+      "url": "https://savoirfaire.nyc",
+      "siteName": "Savoirfaire",
+      "extractedAt": "2026-04-11T16:49:17.198Z",
+      "durationMs": 27794,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 67,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "complete",
+          "attempts": 2
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "other",
+              "heading",
+              "image"
+            ],
+            "frequency": 82,
+            "confidence": 1,
+            "prominence": 8262051.103025614,
+            "properties": [
+              "color",
+              "borderColor",
+              "backgroundColor"
+            ]
+          },
+          {
+            "hex": "#cdfd50",
+            "oklch": {
+              "c": 0.19995248527983298,
+              "h": 123.78254988716702,
+              "l": 0.9297387511168652
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 1296000,
+            "properties": [
+              "backgroundColor"
+            ]
+          },
+          {
+            "hex": "#ffffff",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 1.0000000000000002
+            },
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 50,
+            "confidence": 1,
+            "prominence": 358605.05769409594,
+            "properties": [
+              "color",
+              "borderColor"
+            ]
+          },
+          {
+            "hex": "#899090",
+            "oklch": {
+              "c": 0.008179898105541875,
+              "h": 196.95439104313817,
+              "l": 0.6475826602132854
+            },
+            "contexts": [
+              "body",
+              "other",
+              "icon"
+            ],
+            "frequency": 25,
+            "confidence": 1,
+            "prominence": 47610.75390505112,
+            "properties": [
+              "color",
+              "borderColor"
+            ]
+          },
+          {
+            "hex": "#808080",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.5998708056221468
+            },
+            "contexts": [
+              "body",
+              "icon"
+            ],
+            "frequency": 180,
+            "confidence": 1,
+            "prominence": 22477.03812358837,
+            "properties": [
+              "color",
+              "borderColor"
+            ]
+          }
+        ],
+        "isDarkMode": true,
+        "colorfulness": 0.0032340471607098984,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 21,
+            "background": "#000000",
+            "foreground": "#ffffff"
+          },
+          {
+            "level": "AAA",
+            "ratio": 17.76,
+            "background": "#cdfd50",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AA",
+            "ratio": 6.46,
+            "background": "#000000",
+            "foreground": "#899090"
+          },
+          {
+            "level": "AA",
+            "ratio": 5.32,
+            "background": "#000000",
+            "foreground": "#808080"
+          },
+          {
+            "level": "fail",
+            "ratio": 3.34,
+            "background": "#cdfd50",
+            "foreground": "#808080"
+          },
+          {
+            "level": "fail",
+            "ratio": 2.75,
+            "background": "#cdfd50",
+            "foreground": "#899090"
+          },
+          {
+            "level": "fail",
+            "ratio": 1.18,
+            "background": "#cdfd50",
+            "foreground": "#ffffff"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 50,
+            "frequency": 12,
+            "properties": [
+              "marginLeft"
+            ]
+          }
+        ],
+        "density": "spacious",
+        "baseUnit": null
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "haas-regular",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 41,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "Times",
+            "source": "system",
+            "weights": [
+              400
+            ],
+            "frequency": 16,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "editorial-thin",
+            "source": "custom",
+            "weights": [
+              100
+            ],
+            "frequency": 10,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 14,
+          "name": "Perfect Fifth",
+          "ratio": 1.5,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 9,
+            "family": "Times",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "heading",
+              "image"
+            ],
+            "frequency": 16,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 13,
+            "family": "haas-regular",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "icon"
+            ],
+            "frequency": 2,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 20,
+            "family": "haas-regular",
+            "weight": 400,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 3,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 20,
+            "family": "haas-regular",
+            "weight": 400,
+            "contexts": [
+              "body",
+              "icon"
+            ],
+            "frequency": 36,
+            "lineHeight": 1.11,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 360,
+            "family": "editorial-thin",
+            "weight": 100,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 10,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Do use Void Black (#000000) as the universal background color for all sections and surfaces.",
+        "Do apply Glow Green (#cdfd50) strictly for interactive elements and brand highlights to maintain its prominent effect.",
+        "Do use editorial-thin, weight 100, at sizes of 360px for all display-level headings and numerical elements to create drama.",
+        "Do maintain a stark, borderless, and shadow-free aesthetic for all containers and elements.",
+        "Do use Ghost Gray (#899090) or Mist Gray (#808080) for body text and secondary information, choosing based on desired contrast level.",
+        "Do align primary content to the left margin, maintaining a minimalist information hierarchy.",
+        "Do maintain 0px radius for all elements, ensuring sharp, unyielding edges."
+      ],
+      "tags": [
+        "minimalist",
+        "dark-mode",
+        "high-contrast",
+        "typographic",
+        "stark",
+        "gallery-like",
+        "monochromatic",
+        "sharp-edges",
+        "neo-brutalist"
+      ],
+      "donts": [
+        "Don't introduce any colors other than the defined brand palette.",
+        "Don't add any form of shadows or gradients; rely on color contrast and typographic scale for depth.",
+        "Don't use bold weights for headlines; the 100-weight of 'editorial-thin' is crucial to the brand's quiet authority.",
+        "Don't apply rounded corners to any component; maintain the sharp, angular aesthetic.",
+        "Don't use underlines for links; color change to Glow Green (#cdfd50) is the sole indicator of interactivity.",
+        "Don't use photography or illustrations that clash with the stark, flat, and minimalist aesthetic."
+      ],
+      "theme": "dark",
+      "colors": [
+        {
+          "hex": "#000000",
+          "name": "Void Black",
+          "role": "Page backgrounds, container backgrounds, primary text for inverted elements.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#cdfd50",
+          "name": "Glow Green",
+          "role": "Primary accent color for interactive elements, highlights, and calls to action. Its vividness creates immediate visual interest against the dark background.",
+          "group": "accent"
+        },
+        {
+          "hex": "#ffffff",
+          "name": "Cloud White",
+          "role": "Secondary text color for primary headings on dark backgrounds, offering maximum contrast and visual weight.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#899090",
+          "name": "Ghost Gray",
+          "role": "Subtle secondary text, icons, and non-critical information on dark backgrounds. Provides readability without overwhelming the primary white text.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#808080",
+          "name": "Mist Gray",
+          "role": "Tertiary text and subtle distinctions on dark backgrounds for a softer, understated appearance.",
+          "group": "neutral"
+        }
+      ],
+      "layout": "The page maintains an essentially full-bleed, max-width layout pattern where content is centered horizontally but often left-aligned within its content block. The hero section is a full-viewport dark background with centered, extremely large typography. Sections proceed with a consistent vertical spacing of 50px, providing ample breathing room. Content arrangement is primarily a single column for text blocks, frequently punctuated by large numerical displays. There are no apparent grid structures for cards or feature sections; the layout is linear and vertical, emphasizing sequential viewing. Navigation is implicit within the content flow rather than a fixed header or sidebar.",
+      "imagery": "The site's visual language is characterized by an almost complete absence of traditional rich imagery like photography or complex illustrations. Instead, it relies on stark, elemental graphics, most notably the 'Glow Green' starburst motif acting as a singular, abstract brand marker. The focus is purely on typography and color contrast, with any visual elements serving as decorative accents or abstract markers rather than conveying narrative or product information. The general density is text-dominant, with graphic elements providing visual breaks rather than competing for attention.",
+      "similar": [
+        {
+          "why": "Monochromatic approach with minimalist typography and stark product presentation.",
+          "business": "A.P.C."
+        },
+        {
+          "why": "Emphasis on large, simple typography and a clean, almost sterile visual environment.",
+          "business": "Acne Studios"
+        },
+        {
+          "why": "Understated luxury through extreme minimalism, reliance on texture (implied by darkness) and precise typography.",
+          "business": "The Row"
+        },
+        {
+          "why": "Dark, severe aesthetic with sharp contrasts and a focus on essential, bold statements.",
+          "business": "Balenciaga (some campaigns)"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "all": "0px"
+        },
+        "elementGap": "50px",
+        "sectionGap": "50px",
+        "cardPadding": "0px",
+        "pageMaxWidth": null
+      },
+      "category": "agency",
+      "northStar": "Black canvas, neon spark. A singular, vivid green element electrifies an otherwise monochrome dark mode interface.",
+      "components": [
+        {
+          "html": "<div style=\"box-sizing:border-box;width:600px;background:var(--color-void-black,#000000);padding:40px 40px 40px 40px;font-family:'IBM Plex Sans',sans-serif;overflow:hidden;--color-void-black:#000000;--color-glow-green:#cdfd50;--color-cloud-white:#ffffff;--color-ghost-gray:#899090;--color-mist-gray:#808080;--font-editorial-thin:'IBM Plex Sans',sans-serif;--font-haas-regular:'Inter',sans-serif;\"><style scoped>@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;400&family=Inter:wght@400&display=swap');</style><p style=\"font-family:var(--font-haas-regular,'Inter',sans-serif);font-size:13px;font-weight:400;color:var(--color-ghost-gray,#899090);letter-spacing:0.08em;text-transform:uppercase;margin:0 0 24px 0;line-height:1;\">Selected Works — 2024</p><div style=\"overflow:hidden;line-height:1;\"><span style=\"font-family:var(--font-editorial-thin,'IBM Plex Sans',sans-serif);font-size:180px;font-weight:100;color:var(--color-cloud-white,#ffffff);line-height:1;letter-spacing:normal;display:block;margin:0;padding:0;\">01</span></div><div style=\"width:100%;height:1px;background:var(--color-ghost-gray,#899090);opacity:0.2;margin:24px 0;\"></div><div style=\"display:flex;justify-content:space-between;align-items:flex-end;\"><p style=\"font-family:var(--font-haas-regular,'Inter',sans-serif);font-size:20px;font-weight:400;color:var(--color-cloud-white,#ffffff);margin:0;line-height:1.11;max-width:320px;\">Brand identity & digital strategy for emerging luxury markets.</p><span style=\"font-family:var(--font-haas-regular,'Inter',sans-serif);font-size:13px;font-weight:400;color:var(--color-glow-green,#cdfd50);letter-spacing:0.04em;cursor:pointer;\">View →</span></div></div>",
+          "name": "Hero Display Numerals",
+          "role": "",
+          "description": ""
+        },
+        {
+          "html": "<div style=\"box-sizing:border-box;width:600px;background:var(--color-void-black,#000000);padding:50px 40px;font-family:'Inter',sans-serif;--color-void-black:#000000;--color-glow-green:#cdfd50;--color-cloud-white:#ffffff;--color-ghost-gray:#899090;--color-mist-gray:#808080;--font-haas-regular:'Inter',sans-serif;\"><p style=\"font-family:var(--font-haas-regular,'Inter',sans-serif);font-size:13px;font-weight:400;color:var(--color-ghost-gray,#899090);letter-spacing:0.1em;text-transform:uppercase;margin:0 0 50px 0;line-height:1;\">Services</p><div style=\"display:flex;flex-direction:column;gap:0;\"><div style=\"display:flex;align-items:center;justify-content:space-between;padding:20px 0;border-top:1px solid rgba(137,144,144,0.15);\"><span style=\"font-family:var(--font-haas-regular,'Inter',sans-serif);font-size:20px;font-weight:400;color:var(--color-cloud-white,#ffffff);line-height:1;\">Brand Strategy</span><a href=\"#\" style=\"font-family:var(--font-haas-regular,'Inter',sans-serif);font-size:13px;font-weight:400;color:var(--color-glow-green,#cdfd50);text-decoration:none;letter-spacing:0.04em;\">Explore →</a></div><div style=\"display:flex;align-items:center;justify-content:space-between;padding:20px 0;border-top:1px solid rgba(137,144,144,0.15);\"><span style=\"font-family:var(--font-haas-regular,'Inter',sans-serif);font-size:20px;font-weight:400;color:var(--color-cloud-white,#ffffff);line-height:1;\">Digital Experience</span><a href=\"#\" style=\"font-family:var(--font-haas-regular,'Inter',sans-serif);font-size:13px;font-weight:400;color:var(--color-glow-green,#cdfd50);text-decoration:none;letter-spacing:0.04em;\">Explore →</a></div><div style=\"display:flex;align-items:center;justify-content:space-between;padding:20px 0;border-top:1px solid rgba(137,144,144,0.15);\"><span style=\"font-family:var(--font-haas-regular,'Inter',sans-serif);font-size:20px;font-weight:400;color:var(--color-cloud-white,#ffffff);line-height:1;\">Creative Direction</span><a href=\"#\" style=\"font-family:var(--font-haas-regular,'Inter',sans-serif);font-size:13px;font-weight:400;color:var(--color-glow-green,#cdfd50);text-decoration:none;letter-spacing:0.04em;\">Explore →</a></div><div style=\"display:flex;align-items:center;justify-content:space-between;padding:20px 0;border-top:1px solid rgba(137,144,144,0.15);border-bottom:1px solid rgba(137,144,144,0.15);\"><span style=\"font-family:var(--font-haas-regular,'Inter',sans-serif);font-size:20px;font-weight:400;color:var(--color-cloud-white,#ffffff);line-height:1;\">Motion & Production</span><a href=\"#\" style=\"font-family:var(--font-haas-regular,'Inter',sans-serif);font-size:13px;font-weight:400;color:var(--color-glow-green,#cdfd50);text-decoration:none;letter-spacing:0.04em;\">Explore →</a></div></div></div>",
+          "name": "Accent Link Button Group",
+          "role": "",
+          "description": ""
+        },
+        {
+          "html": "<div style=\"box-sizing:border-box;width:600px;background:var(--color-void-black,#000000);padding:50px 40px;font-family:'Inter',sans-serif;--color-void-black:#000000;--color-glow-green:#cdfd50;--color-cloud-white:#ffffff;--color-ghost-gray:#899090;--color-mist-gray:#808080;--font-editorial-thin:'IBM Plex Sans',sans-serif;--font-haas-regular:'Inter',sans-serif;\"><div style=\"display:flex;gap:0;align-items:stretch;\"><div style=\"flex:1;padding-right:40px;border-right:1px solid rgba(137,144,144,0.15);\"><span style=\"font-family:var(--font-editorial-thin,'IBM Plex Sans',sans-serif);font-size:100px;font-weight:100;color:var(--color-cloud-white,#ffffff);line-height:1;display:block;margin-bottom:12px;\">12+</span><p style=\"font-family:var(--font-haas-regular,'Inter',sans-serif);font-size:13px;font-weight:400;color:var(--color-ghost-gray,#899090);margin:0;line-height:1.5;letter-spacing:0.02em;\">Years of craft<br>& strategy</p></div><div style=\"flex:1;padding-left:40px;padding-right:40px;border-right:1px solid rgba(137,144,144,0.15);\"><span style=\"font-family:var(--font-editorial-thin,'IBM Plex Sans',sans-serif);font-size:100px;font-weight:100;color:var(--color-cloud-white,#ffffff);line-height:1;display:block;margin-bottom:12px;\">80<span style=\"font-family:var(--font-editorial-thin,'IBM Plex Sans',sans-serif);font-size:60px;font-weight:100;color:var(--color-glow-green,#cdfd50);\">+</span></span><p style=\"font-family:var(--font-haas-regular,'Inter',sans-serif);font-size:13px;font-weight:400;color:var(--color-ghost-gray,#899090);margin:0;line-height:1.5;letter-spacing:0.02em;\">Global brand<br>projects delivered</p></div><div style=\"flex:1;padding-left:40px;\"><span style=\"font-family:var(--font-editorial-thin,'IBM Plex Sans',sans-serif);font-size:100px;font-weight:100;color:var(--color-cloud-white,#ffffff);line-height:1;display:block;margin-bottom:12px;\">04</span><p style=\"font-family:var(--font-haas-regular,'Inter',sans-serif);font-size:13px;font-weight:400;color:var(--color-ghost-gray,#899090);margin:0;line-height:1.5;letter-spacing:0.02em;\">Award-winning<br>studio locations</p></div></div><div style=\"margin-top:50px;\"><p style=\"font-family:var(--font-haas-regular,'Inter',sans-serif);font-size:20px;font-weight:400;color:var(--color-mist-gray,#808080);line-height:1.11;margin:0 0 16px 0;max-width:480px;\">We are a studio that believes in the quiet power of restraint — where every mark made is intentional, every silence deliberate.</p><a href=\"#\" style=\"font-family:var(--font-haas-regular,'Inter',sans-serif);font-size:13px;font-weight:400;color:var(--color-glow-green,#cdfd50);text-decoration:none;letter-spacing:0.04em;\">About the studio →</a></div></div>",
+          "name": "Stat Block with Body Copy",
+          "role": "",
+          "description": ""
+        },
+        {
+          "name": "Hero Display Numerals",
+          "role": "Headline component",
+          "description": "Large, ultra-thin numerals set against the Void Black background. Uses 'editorial-thin' font at 360px, weight 100, color Cloud White (#ffffff). No padding or borders, as it's a pure overlay element."
+        },
+        {
+          "name": "Paragraph Text",
+          "role": "Body text component",
+          "description": "Standard body text using 'haas-regular' font at 20px for primary paragraphs, 13px for smaller annotations, weight 400. Color is Ghost Gray (#899090) or Mist Gray (#808080) for softer emphasis."
+        },
+        {
+          "name": "Accent Link",
+          "role": "Interactive element",
+          "description": "Inline text link with 'haas-regular', weight 400. Color is Glow Green (#cdfd50). No underline or other decorative elements, focus is purely on color change."
+        }
+      ],
+      "typography": [
+        {
+          "role": "Display headlines and large numerical indicators. The ultra-thin weight at extreme sizes creates a sense of fragility and high fashion, distinguishing it from conventional bold headings.",
+          "sizes": "360px",
+          "family": "editorial-thin",
+          "weight": "100",
+          "lineHeight": "1.00",
+          "substitute": "IBM Plex Sans Thin",
+          "letterSpacing": "normal"
+        },
+        {
+          "role": "Body copy, primary navigation, and detailed information. Its regular weight ensures readability against the dark background while complementing the extreme headline style.",
+          "sizes": "13px, 20px",
+          "family": "haas-regular",
+          "weight": "400",
+          "lineHeight": "1.00, 1.11",
+          "substitute": "Inter",
+          "letterSpacing": "normal"
+        }
+      ],
+      "description": "Savoirfaire's design evokes a gallery-like atmosphere, stark and minimal, where a single vibrant accent commands attention. The all-black background with subtle gray text offers a high-contrast canvas, allowing the searing neon green to act as a singular, sharp focal point. Typography features extreme weight variations; ultra-thin headlines dominate at immense sizes, lending an almost whispered authority, while body text remains crisp and functional against the dark. The absence of gradients, shadows, or rounded elements emphasizes the flat, almost two-dimensional nature of the display.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "### Quick Color Reference\n- Text (Heading): #ffffff\n- Text (Body): #899090\n- Background: #000000\n- Accent: #cdfd50\n- Primary Interactive: #cdfd50\n\n### 3-5 Example Component Prompts\n1. Create a display headline section: background #000000. Headline '100' in editorial-thin, weight 100, 360px, line-height 1.00, color #ffffff. Align text center. Section padding of 50px top and bottom.\n2. Create a body text block: background #000000. Text 'Knowing by doing' in haas-regular, weight 400, 20px, line-height 1.11, color #899090. Max width 600px, centered horizontally. Element gap of 50px around.\n3. Create an accent link: text 'Digital & Branding Design' in haas-regular, weight 400, 20px, line-height 1.11. Color #cdfd50. No underline. Position inline with other text."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775926141432-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775926141432-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/e9f1b24a-26c1-49e0-9b5f-74f492185664",
+  "ranks": {
+    "trending": 1058,
+    "popular": 653,
+    "newest": 1032
+  },
+  "localSlug": "savoirfaire-e9f1b24a"
+}

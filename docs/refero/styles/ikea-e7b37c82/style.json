@@ -1,0 +1,1209 @@
+{
+  "id": "e7b37c82-239c-48d5-b293-79a2bfa235cc",
+  "url": "https://www.ikea.com",
+  "siteName": "IKEA",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777511000454-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777511000454-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "light",
+  "colors": [
+    {
+      "name": "Ikea Yellow",
+      "hex": "#ffdb00"
+    },
+    {
+      "name": "Core Black",
+      "hex": "#111111"
+    },
+    {
+      "name": "Canvas White",
+      "hex": "#ffffff"
+    },
+    {
+      "name": "Deep Sea Blue",
+      "hex": "#0159a3"
+    },
+    {
+      "name": "Off-White",
+      "hex": "#fffefb"
+    },
+    {
+      "name": "Text Black",
+      "hex": "#000000"
+    }
+  ],
+  "fonts": [
+    "Noto IKEA"
+  ],
+  "northStar": "Scandinavian sunshine on white birch",
+  "createdAt": "2026-04-30T01:03:49.756Z",
+  "previewVideoCapturedAt": null,
+  "industry": "ecommerce",
+  "fullResult": {
+    "meta": {
+      "url": "https://www.ikea.com",
+      "siteName": "IKEA",
+      "extractedAt": "2026-04-30T01:03:45.571Z",
+      "durationMs": 51044,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 667,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#111111",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.17763777307657064
+            },
+            "contexts": [
+              "other",
+              "nav",
+              "heading",
+              "hero",
+              "button",
+              "icon",
+              "body",
+              "card",
+              "link",
+              "image",
+              "list",
+              "footer"
+            ],
+            "frequency": 1610,
+            "confidence": 1,
+            "prominence": 161829012.018437,
+            "properties": [
+              "color",
+              "borderColor",
+              "backgroundColor",
+              "fill"
+            ],
+            "usageCounts": {
+              "nav/color": 14,
+              "body/color": 30,
+              "card/color": 1,
+              "hero/color": 2,
+              "icon/color": 8,
+              "link/color": 6,
+              "list/color": 3,
+              "other/fill": 9,
+              "image/color": 30,
+              "other/color": 213,
+              "button/color": 2,
+              "footer/color": 1,
+              "heading/color": 10,
+              "nav/borderColor": 56,
+              "body/borderColor": 120,
+              "card/borderColor": 4,
+              "hero/borderColor": 8,
+              "icon/borderColor": 32,
+              "link/borderColor": 24,
+              "list/borderColor": 12,
+              "image/borderColor": 120,
+              "other/borderColor": 851,
+              "button/borderColor": 7,
+              "footer/borderColor": 4,
+              "heading/borderColor": 40,
+              "button/backgroundColor": 2,
+              "heading/backgroundColor": 1
+            }
+          },
+          {
+            "hex": "#ffffff",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 1.0000000000000002
+            },
+            "contexts": [
+              "button",
+              "link",
+              "other",
+              "icon",
+              "body",
+              "heading",
+              "input",
+              "nav"
+            ],
+            "frequency": 1383,
+            "confidence": 1,
+            "prominence": 9828042.419507748,
+            "properties": [
+              "backgroundColor",
+              "color",
+              "borderColor",
+              "fill"
+            ],
+            "usageCounts": {
+              "nav/color": 34,
+              "body/color": 21,
+              "icon/color": 21,
+              "link/color": 130,
+              "other/fill": 27,
+              "other/color": 41,
+              "button/color": 3,
+              "heading/color": 19,
+              "nav/borderColor": 136,
+              "body/borderColor": 84,
+              "icon/borderColor": 84,
+              "link/borderColor": 520,
+              "other/borderColor": 164,
+              "button/borderColor": 12,
+              "heading/borderColor": 76,
+              "input/backgroundColor": 1,
+              "other/backgroundColor": 9,
+              "button/backgroundColor": 1
+            }
+          },
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "button",
+              "icon",
+              "input",
+              "footer",
+              "other"
+            ],
+            "frequency": 61,
+            "confidence": 1,
+            "prominence": 7401333.952644853,
+            "properties": [
+              "color",
+              "borderColor",
+              "fill",
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "icon/fill": 48,
+              "other/fill": 2,
+              "input/color": 1,
+              "button/color": 1,
+              "input/borderColor": 4,
+              "button/borderColor": 4,
+              "footer/backgroundColor": 1
+            }
+          },
+          {
+            "hex": "#ffdb00",
+            "oklch": {
+              "c": 0.18446638581669625,
+              "h": 97.0291225336,
+              "l": 0.8947075563381688
+            },
+            "contexts": [
+              "card",
+              "button",
+              "other",
+              "hero"
+            ],
+            "frequency": 4,
+            "confidence": 1,
+            "prominence": 1786563.455977278,
+            "properties": [
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "card/backgroundColor": 1,
+              "hero/backgroundColor": 1,
+              "other/backgroundColor": 1,
+              "button/backgroundColor": 1
+            }
+          },
+          {
+            "hex": "#ffa6da",
+            "oklch": {
+              "c": 0.12242043486237436,
+              "h": 344.16748561157596,
+              "l": 0.8280132311257952
+            },
+            "contexts": [
+              "link"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 1031083,
+            "properties": [
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "link/backgroundColor": 1
+            }
+          },
+          {
+            "hex": "#fffefb",
+            "oklch": {
+              "c": 0.004094235220906241,
+              "h": 91.4451354769503,
+              "l": 0.9969564834674116
+            },
+            "contexts": [
+              "other",
+              "button"
+            ],
+            "frequency": 4,
+            "confidence": 1,
+            "prominence": 317639.7633805912,
+            "properties": [
+              "backgroundColor",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "other/borderColor": 1,
+              "button/borderColor": 1,
+              "other/backgroundColor": 1,
+              "button/backgroundColor": 1
+            }
+          },
+          {
+            "hex": "#fff094",
+            "oklch": {
+              "c": 0.11396739150851988,
+              "h": 100.17193809451567,
+              "l": 0.9473950710051349
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 30404,
+            "properties": [
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "other/backgroundColor": 1
+            }
+          },
+          {
+            "hex": "#818181",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.6032473921145677
+            },
+            "contexts": [
+              "button",
+              "body",
+              "icon",
+              "other"
+            ],
+            "frequency": 16,
+            "confidence": 1,
+            "prominence": 12818.283470161063,
+            "properties": [
+              "color",
+              "borderColor",
+              "fill"
+            ],
+            "usageCounts": {
+              "body/color": 1,
+              "icon/color": 1,
+              "other/fill": 1,
+              "button/color": 1,
+              "body/borderColor": 4,
+              "icon/borderColor": 4,
+              "button/borderColor": 4
+            }
+          },
+          {
+            "hex": "#dadada",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.8883696500007239
+            },
+            "contexts": [
+              "button"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 3136,
+            "properties": [
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "button/backgroundColor": 1
+            }
+          },
+          {
+            "hex": "#0159a3",
+            "oklch": {
+              "c": 0.13909970682926537,
+              "h": 252.31515733278042,
+              "l": 0.46241349024627454
+            },
+            "contexts": [
+              "link"
+            ],
+            "frequency": 112,
+            "confidence": 1,
+            "prominence": 293.2676953838531,
+            "properties": [
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "link/backgroundColor": 112
+            }
+          }
+        ],
+        "isDarkMode": false,
+        "colorfulness": 0.014025442035702275,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 21,
+            "background": "#000000",
+            "foreground": "#ffffff"
+          },
+          {
+            "level": "AAA",
+            "ratio": 20.82,
+            "background": "#fffefb",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 18.88,
+            "background": "#ffffff",
+            "foreground": "#111111"
+          },
+          {
+            "level": "AAA",
+            "ratio": 18.72,
+            "background": "#fffefb",
+            "foreground": "#111111"
+          },
+          {
+            "level": "AAA",
+            "ratio": 18.14,
+            "background": "#fff094",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 16.31,
+            "background": "#fff094",
+            "foreground": "#111111"
+          },
+          {
+            "level": "AAA",
+            "ratio": 15.38,
+            "background": "#ffdb00",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 15.02,
+            "background": "#dadada",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 13.83,
+            "background": "#ffdb00",
+            "foreground": "#111111"
+          },
+          {
+            "level": "AAA",
+            "ratio": 13.51,
+            "background": "#dadada",
+            "foreground": "#111111"
+          },
+          {
+            "level": "AAA",
+            "ratio": 11.72,
+            "background": "#ffa6da",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 10.54,
+            "background": "#ffa6da",
+            "foreground": "#111111"
+          },
+          {
+            "level": "AAA",
+            "ratio": 7.1,
+            "background": "#0159a3",
+            "foreground": "#ffffff"
+          },
+          {
+            "level": "AAA",
+            "ratio": 7.04,
+            "background": "#fffefb",
+            "foreground": "#0159a3"
+          },
+          {
+            "level": "AA",
+            "ratio": 6.13,
+            "background": "#fff094",
+            "foreground": "#0159a3"
+          },
+          {
+            "level": "AA",
+            "ratio": 5.39,
+            "background": "#000000",
+            "foreground": "#818181"
+          },
+          {
+            "level": "AA",
+            "ratio": 5.2,
+            "background": "#ffdb00",
+            "foreground": "#0159a3"
+          },
+          {
+            "level": "AA",
+            "ratio": 5.08,
+            "background": "#dadada",
+            "foreground": "#0159a3"
+          },
+          {
+            "level": "AA",
+            "ratio": 4.85,
+            "background": "#111111",
+            "foreground": "#818181"
+          },
+          {
+            "level": "fail",
+            "ratio": 3.96,
+            "background": "#ffa6da",
+            "foreground": "#0159a3"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [
+          {
+            "value": 8,
+            "contexts": [
+              "hero",
+              "other",
+              "card",
+              "button",
+              "input",
+              "link"
+            ],
+            "frequency": 59
+          }
+        ],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 1,
+            "contexts": [
+              "button"
+            ],
+            "frequency": 6,
+            "properties": [
+              "paddingTop",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|button",
+              "paddingBottom|button"
+            ]
+          },
+          {
+            "value": 6,
+            "contexts": [
+              "button"
+            ],
+            "frequency": 6,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|button",
+              "paddingLeft|button"
+            ]
+          },
+          {
+            "value": 8,
+            "contexts": [
+              "body",
+              "input",
+              "list"
+            ],
+            "frequency": 4,
+            "properties": [
+              "marginRight",
+              "marginBottom",
+              "rowGap",
+              "columnGap"
+            ],
+            "propertyContextPairs": [
+              "marginRight|body",
+              "marginBottom|input",
+              "rowGap|list",
+              "columnGap|list"
+            ]
+          },
+          {
+            "value": 10,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 6,
+            "properties": [
+              "paddingTop",
+              "paddingRight",
+              "paddingBottom",
+              "paddingLeft",
+              "rowGap",
+              "columnGap"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other",
+              "paddingRight|other",
+              "paddingBottom|other",
+              "paddingLeft|other",
+              "rowGap|other",
+              "columnGap|other"
+            ]
+          },
+          {
+            "value": 12,
+            "contexts": [
+              "input"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingTop",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|input",
+              "paddingBottom|input"
+            ]
+          },
+          {
+            "value": 16,
+            "contexts": [
+              "other",
+              "nav",
+              "link",
+              "button",
+              "heading",
+              "body",
+              "list"
+            ],
+            "frequency": 73,
+            "properties": [
+              "marginLeft",
+              "paddingTop",
+              "paddingRight",
+              "paddingBottom",
+              "paddingLeft",
+              "marginTop",
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "marginLeft|other",
+              "paddingTop|nav",
+              "paddingRight|nav",
+              "paddingBottom|nav",
+              "paddingLeft|nav",
+              "paddingTop|link",
+              "paddingBottom|link",
+              "marginTop|link",
+              "marginBottom|link",
+              "paddingTop|button",
+              "paddingBottom|button",
+              "paddingRight|other",
+              "paddingLeft|other",
+              "marginTop|other",
+              "marginBottom|other",
+              "marginTop|heading",
+              "marginBottom|heading",
+              "marginBottom|body",
+              "paddingTop|other",
+              "paddingBottom|other",
+              "marginTop|list",
+              "marginTop|nav"
+            ]
+          },
+          {
+            "value": 20,
+            "contexts": [
+              "button",
+              "other",
+              "hero",
+              "nav"
+            ],
+            "frequency": 36,
+            "properties": [
+              "paddingTop",
+              "paddingRight",
+              "paddingBottom",
+              "paddingLeft",
+              "rowGap",
+              "columnGap",
+              "marginRight",
+              "marginLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|button",
+              "paddingRight|button",
+              "paddingBottom|button",
+              "paddingLeft|button",
+              "rowGap|other",
+              "columnGap|other",
+              "rowGap|hero",
+              "columnGap|hero",
+              "marginRight|nav",
+              "marginLeft|nav"
+            ]
+          },
+          {
+            "value": 24,
+            "contexts": [
+              "other",
+              "link",
+              "footer",
+              "nav"
+            ],
+            "frequency": 104,
+            "properties": [
+              "paddingRight",
+              "paddingLeft",
+              "paddingTop",
+              "paddingBottom",
+              "marginRight",
+              "marginLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|other",
+              "paddingLeft|other",
+              "paddingTop|link",
+              "paddingRight|link",
+              "paddingBottom|link",
+              "paddingLeft|link",
+              "paddingRight|footer",
+              "paddingLeft|footer",
+              "marginRight|nav",
+              "marginLeft|nav"
+            ]
+          },
+          {
+            "value": 36,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 1,
+            "properties": [
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "marginBottom|nav"
+            ]
+          },
+          {
+            "value": 50,
+            "contexts": [
+              "link",
+              "button"
+            ],
+            "frequency": 4,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|link",
+              "paddingLeft|link",
+              "paddingRight|button",
+              "paddingLeft|button"
+            ]
+          },
+          {
+            "value": 60,
+            "contexts": [
+              "hero"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingTop",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|hero",
+              "paddingLeft|hero"
+            ]
+          },
+          {
+            "value": 80,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingBottom",
+              "paddingTop"
+            ],
+            "propertyContextPairs": [
+              "paddingBottom|other",
+              "paddingTop|other"
+            ]
+          },
+          {
+            "value": 83,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "marginRight",
+              "marginLeft"
+            ],
+            "propertyContextPairs": [
+              "marginRight|other",
+              "marginLeft|other"
+            ]
+          },
+          {
+            "value": 92,
+            "contexts": [
+              "hero"
+            ],
+            "frequency": 1,
+            "properties": [
+              "paddingRight"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|hero"
+            ]
+          },
+          {
+            "value": 108,
+            "contexts": [
+              "hero"
+            ],
+            "frequency": 1,
+            "properties": [
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingBottom|hero"
+            ]
+          },
+          {
+            "value": 120,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 22,
+            "properties": [
+              "paddingRight"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|other"
+            ]
+          },
+          {
+            "value": 140,
+            "contexts": [
+              "footer"
+            ],
+            "frequency": 1,
+            "properties": [
+              "paddingTop"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|footer"
+            ]
+          }
+        ],
+        "density": "comfortable",
+        "baseUnit": 8
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "Noto IKEA",
+            "source": "custom",
+            "weights": [
+              400,
+              700
+            ],
+            "frequency": 605,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 16,
+          "name": "Major Second",
+          "ratio": 1.125,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 13,
+            "family": "Noto IKEA",
+            "weight": 400,
+            "contexts": [
+              "button",
+              "other",
+              "icon",
+              "body"
+            ],
+            "frequency": 14,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 14,
+            "family": "Noto IKEA",
+            "weight": 400,
+            "contexts": [
+              "body",
+              "other",
+              "nav"
+            ],
+            "frequency": 27,
+            "lineHeight": 1.57,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 14,
+            "family": "Noto IKEA",
+            "weight": 400,
+            "contexts": [
+              "list",
+              "button"
+            ],
+            "frequency": 3,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "Noto IKEA",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "button",
+              "link",
+              "image",
+              "nav",
+              "heading",
+              "hero",
+              "body",
+              "card",
+              "input",
+              "icon",
+              "list",
+              "footer"
+            ],
+            "frequency": 472,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "Noto IKEA",
+            "weight": 400,
+            "contexts": [
+              "button",
+              "body",
+              "icon"
+            ],
+            "frequency": 5,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "Noto IKEA",
+            "weight": 700,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 1,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "Noto IKEA",
+            "weight": 400,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.62,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "Noto IKEA",
+            "weight": 700,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 9,
+            "lineHeight": 1.4,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 20,
+            "family": "Noto IKEA",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "nav"
+            ],
+            "frequency": 20,
+            "lineHeight": 1.62,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 36,
+            "family": "Noto IKEA",
+            "weight": 700,
+            "contexts": [
+              "link",
+              "heading",
+              "icon"
+            ],
+            "frequency": 50,
+            "lineHeight": 1.2,
+            "letterSpacing": -0.027,
+            "textTransform": "none"
+          },
+          {
+            "size": 51,
+            "family": "Noto IKEA",
+            "weight": 700,
+            "contexts": [
+              "icon",
+              "heading"
+            ],
+            "frequency": 3,
+            "lineHeight": 1.08,
+            "letterSpacing": -0.029,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Prioritize Ikea Yellow (#ffdb00) for all primary call-to-actions, ensuring it's the most prominent interactive element.",
+        "Maintain a clear visual hierarchy using Core Black (#111111) for main headlines and Canvas White (#ffffff) for backgrounds.",
+        "Apply an 8px border radius consistently to all cards, buttons, and interactive elements for a cohesive, friendly aesthetic.",
+        "Use letter-spacing of -0.0290em for 'display' type (51px) and -0.0270em for 'heading' type (36px) to give titles a distinct composed feel.",
+        "Ensure generous vertical spacing between sections, defaulting to 80px, to promote a comfortable, scannable layout.",
+        "Reserve Deep Sea Blue (#0159a3) for decorative link backgrounds or highly specific interactive accents, not for primary actions.",
+        "Use Off-White (#fffefb) for subtle background variations, providing visual depth without harsh color changes."
+      ],
+      "donts": [
+        "Do not use Core Black (#111111) for general body text; reserve it for high-contrast headlines or specific dark UI elements.",
+        "Avoid arbitrary color choices outside of the defined palette; color should always serve a specific functional or brand-aligned purpose.",
+        "Do not vary border radius values across components; all interactive elements and contained content should use a consistent 8px radius.",
+        "Do not crowd content; maintain an 'elementGap' of 24px for horizontal and vertical spacing between internal elements.",
+        "Avoid using multiple accent colors in close proximity that compete with Ikea Yellow (#ffdb00) or Deep Sea Blue (#0159a3).",
+        "Do not use generic system fonts; only use Noto IKEA (or Inter as a substitute) to maintain typographic brand identity.",
+        "Do not create an overly dense layout; ensure a maximum page width of 1440px with content centered, leaving ample breathing room."
+      ],
+      "theme": "light",
+      "colors": [
+        {
+          "hex": "#ffdb00",
+          "name": "Ikea Yellow",
+          "role": "Primary brand accent, interactive elements like CTA buttons, hero backgrounds, and prominent informational cards — its vibrancy instantly draws the eye and signifies action or importance",
+          "group": "brand"
+        },
+        {
+          "hex": "#111111",
+          "name": "Core Black",
+          "role": "Primary text, headline text, dark button backgrounds, and strong borders. Provides high contrast against light backgrounds",
+          "group": "neutral"
+        },
+        {
+          "hex": "#ffffff",
+          "name": "Canvas White",
+          "role": "Page backgrounds, card surfaces, ghost button backgrounds, and text on dark button backgrounds",
+          "group": "neutral"
+        },
+        {
+          "hex": "#0159a3",
+          "name": "Deep Sea Blue",
+          "role": "Decorative link backgrounds, indicating followable content or external navigation. This blue offers a slight variation from the yellow without competing",
+          "group": "accent"
+        },
+        {
+          "hex": "#fffefb",
+          "name": "Off-White",
+          "role": "Subtle background for UI elements, offering a soft alternative to pure white for visual layering or highlighting. Also used for some button backgrounds and borders",
+          "group": "neutral"
+        },
+        {
+          "hex": "#000000",
+          "name": "Text Black",
+          "role": "Secondary text, input text, and default icon fills. Used for general text where Core Black might be too intense",
+          "group": "neutral"
+        },
+        {
+          "hex": "#818181",
+          "name": "Mid Grey",
+          "role": "Muted text, less prominent icons, and secondary button borders. Provides secondary text hierarchy",
+          "group": "neutral"
+        },
+        {
+          "hex": "#dadada",
+          "name": "Light Grey",
+          "role": "Subtle button backgrounds, offering a very soft interaction state or a less emphasized button style",
+          "group": "neutral"
+        },
+        {
+          "hex": "#ffa6da",
+          "name": "Soft Peach",
+          "role": "Highlight elements or decorative backgrounds for specific content blocks, providing a warm, playful accent",
+          "group": "accent"
+        }
+      ],
+      "layout": "The page adheres to a max-width 1440px centered container for most content. The hero section is often full-bleed with either a product video or a large visual split between content and a prominent Ikea Yellow CTA. Sections maintain a consistent vertical rhythm with 80px gaps. Content is arranged in flexible layouts, often with product cards or content blocks organized into grids. Visuals frequently feature text overlays at the bottom left. The navigation is a persistent top bar, minimalist and functional, with logo and primary links.",
+      "imagery": "Imagery primarily features product shots and lifestyle photography, often with a white or light-colored background that blends seamlessly with the UI. Product shots are typically centered and well-lit, functioning as content showcases. Illustrations, when present, are flat, organic, and often use brand colors or soft pastels for decorative or conceptual purposes. Icons are predominantly outline-style with a medium stroke weight, in monochrome (black) or occasionally brand colors, used functionally for navigation and interaction. Imagery plays a significant role in conveying product context and aspirational living, balancing text-dominant informational blocks with engaging visual content.",
+      "spacing": {
+        "radius": {
+          "all": "8px"
+        },
+        "elementGap": "24px",
+        "sectionGap": "80px",
+        "cardPadding": "16px",
+        "pageMaxWidth": "1440px"
+      },
+      "industry": "ecommerce",
+      "northStar": "Scandinavian sunshine on white birch",
+      "typeScale": [
+        {
+          "role": "caption",
+          "size": 13,
+          "lineHeight": 1.57
+        },
+        {
+          "role": "body",
+          "size": 16,
+          "lineHeight": 1.57
+        },
+        {
+          "role": "subheading",
+          "size": 20,
+          "lineHeight": 1.4
+        },
+        {
+          "role": "heading",
+          "size": 36,
+          "lineHeight": 1.2,
+          "letterSpacing": -0.97
+        },
+        {
+          "role": "display",
+          "size": 51,
+          "lineHeight": 1.08,
+          "letterSpacing": -1.48
+        }
+      ],
+      "components": [
+        {
+          "name": "Primary Action Button",
+          "role": "Main call-to-action button, drawing immediate attention.",
+          "description": "Background: Ikea Yellow (#ffdb00). Text: Core Black (#111111). Border radius: 8px. Padding: 16px vertical, 50px horizontal. Typically found at the bottom of hero sections or prominent content blocks."
+        },
+        {
+          "name": "Dark Icon Button",
+          "role": "Small, functional buttons for video controls or navigation, offering a clear visual cue.",
+          "description": "Background: Core Black (#111111). Text/Icon: Canvas White (#ffffff). Border radius: 50% (circular). No padding, designed for icon-only content."
+        },
+        {
+          "name": "Light Icon Button",
+          "role": "Small, functional buttons for controls like video pause, against lighter backgrounds.",
+          "description": "Background: Canvas White (#ffffff). Text/Icon: Core Black (#111111). Border radius: 50% (circular). No padding, designed for icon-only content."
+        },
+        {
+          "name": "Ghost Header Button",
+          "role": "Secondary call-to-action or functional button within headers, unobtrusive.",
+          "description": "Background: Off-White (#fffefb). Text: Text Black (#000000). Border: 1px solid Text Black (#000000). Padding: 20px vertical, 20px horizontal. No border radius (sharp rectangular form)."
+        },
+        {
+          "name": "Content Card - Yellow",
+          "role": "Highlighting key information or promotional content.",
+          "description": "Background: Ikea Yellow (#ffdb00). Border radius: 8px. No padding on the card itself, content handles its own spacing."
+        },
+        {
+          "name": "Text Input Field",
+          "role": "User input fields.",
+          "description": "Background: Canvas White (#ffffff). Text: Text Black (#000000). Border: 1px solid Text Black (#000000). Border radius: 8px. Padding: 12px vertical, 42px left (for potential icon placement)."
+        }
+      ],
+      "typography": [
+        {
+          "role": "The primary typeface for all content, from navigation to body text and headlines. Its robust yet friendly character supports the brand's accessible image. The varied weights and sizes are used to establish clear hierarchy, particularly the subtle negative letter-spacing on larger sizes which gives titles a composed feel.",
+          "sizes": "13px, 14px, 16px, 20px, 36px, 51px",
+          "family": "Noto IKEA",
+          "weight": "400, 700",
+          "lineHeight": "1.00, 1.08, 1.20, 1.40, 1.57, 1.62",
+          "substitute": "Inter",
+          "letterSpacing": "-0.0290em at 51px, -0.0270em at 36px, normal for smaller sizes"
+        }
+      ],
+      "description": "IKEA's global digital presence is built on a foundation of optimistic simplicity. The interface features a clean, bright canvas, primarily using high-contrast typography and a distinct, energetic yellow as the primary brand accent. Component surfaces are generally flat and rounded, creating a friendly and approachable feel. This system prioritizes clear communication and intuitive interaction, using color sparingly for functional highlights, while maintaining a spacious, user-friendly layout.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "primary action: #ffdb00 (filled action)\nCreate a Primary Action Button: #ffdb00 background, #000000 text, 9999px radius, compact pill padding. Use this filled treatment for the main CTA."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777511000454-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777511000454-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/e7b37c82-239c-48d5-b293-79a2bfa235cc",
+  "ranks": {
+    "trending": 1206,
+    "popular": 1243,
+    "newest": 636
+  },
+  "localSlug": "ikea-e7b37c82"
+}

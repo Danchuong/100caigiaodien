@@ -1,0 +1,709 @@
+{
+  "id": "bbb993bc-1452-4a22-8cc9-a44b91d79723",
+  "url": "https://grok.com",
+  "siteName": "Grok",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777509931711-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777509931711-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "light",
+  "colors": [
+    {
+      "name": "Absolute Zero",
+      "hex": "#ffffff"
+    },
+    {
+      "name": "Deep Space",
+      "hex": "#050505"
+    },
+    {
+      "name": "Shadowstone",
+      "hex": "#636363"
+    },
+    {
+      "name": "Outline Gray",
+      "hex": "#1d1d1d"
+    }
+  ],
+  "fonts": [
+    "Universal Sans"
+  ],
+  "northStar": "Monochrome AI canvas",
+  "createdAt": "2026-04-30T00:45:49.675Z",
+  "previewVideoCapturedAt": null,
+  "industry": "ai",
+  "fullResult": {
+    "meta": {
+      "url": "https://grok.com",
+      "siteName": "Grok",
+      "extractedAt": "2026-04-30T00:45:49.604Z",
+      "durationMs": 29940,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 104,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#050505",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.1149182763483161
+            },
+            "contexts": [
+              "other",
+              "link",
+              "body",
+              "button",
+              "icon",
+              "input"
+            ],
+            "frequency": 108,
+            "confidence": 1,
+            "prominence": 8771566.884910896,
+            "properties": [
+              "color",
+              "fill",
+              "backgroundColor",
+              "stroke"
+            ],
+            "usageCounts": {
+              "body/color": 6,
+              "icon/color": 4,
+              "link/color": 3,
+              "other/fill": 24,
+              "icon/stroke": 2,
+              "input/color": 1,
+              "other/color": 42,
+              "button/color": 6,
+              "other/stroke": 18,
+              "other/backgroundColor": 1,
+              "button/backgroundColor": 1
+            }
+          },
+          {
+            "hex": "#ffffff",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 1.0000000000000002
+            },
+            "contexts": [
+              "button",
+              "other"
+            ],
+            "frequency": 17,
+            "confidence": 1,
+            "prominence": 200156.400069231,
+            "properties": [
+              "color",
+              "backgroundColor",
+              "boxShadow"
+            ],
+            "usageCounts": {
+              "other/color": 7,
+              "button/color": 1,
+              "other/boxShadow": 3,
+              "other/backgroundColor": 6
+            }
+          },
+          {
+            "hex": "#636363",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.49969557143204607
+            },
+            "contexts": [
+              "button",
+              "icon",
+              "other"
+            ],
+            "frequency": 4,
+            "confidence": 1,
+            "prominence": 16915.246171254432,
+            "properties": [
+              "color",
+              "stroke"
+            ],
+            "usageCounts": {
+              "icon/color": 1,
+              "other/color": 1,
+              "button/color": 1,
+              "other/stroke": 1
+            }
+          },
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "icon"
+            ],
+            "frequency": 2,
+            "confidence": 1,
+            "prominence": 633.9850002884624,
+            "properties": [
+              "fill"
+            ],
+            "usageCounts": {
+              "icon/fill": 2
+            }
+          }
+        ],
+        "isDarkMode": false,
+        "colorfulness": 0,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 21,
+            "background": "#ffffff",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 20.38,
+            "background": "#ffffff",
+            "foreground": "#050505"
+          },
+          {
+            "level": "AA",
+            "ratio": 6.01,
+            "background": "#ffffff",
+            "foreground": "#636363"
+          },
+          {
+            "level": "fail",
+            "ratio": 3.39,
+            "background": "#050505",
+            "foreground": "#636363"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [
+          {
+            "value": 9999,
+            "contexts": [
+              "button",
+              "other"
+            ],
+            "frequency": 16
+          },
+          {
+            "value": 8,
+            "contexts": [
+              "link"
+            ],
+            "frequency": 1
+          },
+          {
+            "value": 160,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1
+          }
+        ],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 2,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 4,
+            "properties": [
+              "rowGap",
+              "columnGap"
+            ],
+            "propertyContextPairs": [
+              "rowGap|other",
+              "columnGap|other"
+            ]
+          },
+          {
+            "value": 4,
+            "contexts": [
+              "other",
+              "body"
+            ],
+            "frequency": 7,
+            "properties": [
+              "rowGap",
+              "columnGap",
+              "marginRight"
+            ],
+            "propertyContextPairs": [
+              "rowGap|other",
+              "columnGap|other",
+              "rowGap|body",
+              "columnGap|body",
+              "marginRight|other"
+            ]
+          },
+          {
+            "value": 6,
+            "contexts": [
+              "other",
+              "button",
+              "body"
+            ],
+            "frequency": 8,
+            "properties": [
+              "rowGap",
+              "columnGap",
+              "paddingTop",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "rowGap|other",
+              "columnGap|other",
+              "paddingTop|button",
+              "paddingBottom|button",
+              "rowGap|body",
+              "columnGap|body"
+            ]
+          },
+          {
+            "value": 8,
+            "contexts": [
+              "link",
+              "button",
+              "other",
+              "input"
+            ],
+            "frequency": 38,
+            "properties": [
+              "marginLeft",
+              "paddingTop",
+              "paddingBottom",
+              "rowGap",
+              "columnGap",
+              "paddingRight",
+              "paddingLeft",
+              "marginTop"
+            ],
+            "propertyContextPairs": [
+              "marginLeft|link",
+              "paddingTop|button",
+              "paddingBottom|button",
+              "rowGap|button",
+              "columnGap|button",
+              "rowGap|other",
+              "columnGap|other",
+              "paddingRight|button",
+              "paddingLeft|button",
+              "marginTop|other",
+              "paddingRight|other",
+              "paddingRight|input",
+              "paddingLeft|input",
+              "paddingTop|other",
+              "paddingBottom|other",
+              "paddingLeft|other"
+            ]
+          },
+          {
+            "value": 12,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 3,
+            "properties": [
+              "rowGap",
+              "columnGap",
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "rowGap|other",
+              "columnGap|other",
+              "marginBottom|other"
+            ]
+          },
+          {
+            "value": 16,
+            "contexts": [
+              "button",
+              "other",
+              "input"
+            ],
+            "frequency": 17,
+            "properties": [
+              "paddingRight",
+              "paddingLeft",
+              "paddingTop",
+              "paddingBottom",
+              "rowGap",
+              "columnGap"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|button",
+              "paddingLeft|button",
+              "paddingTop|other",
+              "paddingRight|other",
+              "paddingBottom|other",
+              "paddingLeft|other",
+              "rowGap|other",
+              "columnGap|other",
+              "paddingTop|input",
+              "paddingBottom|input"
+            ]
+          },
+          {
+            "value": 20,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "rowGap",
+              "columnGap"
+            ],
+            "propertyContextPairs": [
+              "rowGap|other",
+              "columnGap|other"
+            ]
+          },
+          {
+            "value": 24,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "rowGap",
+              "columnGap"
+            ],
+            "propertyContextPairs": [
+              "rowGap|other",
+              "columnGap|other"
+            ]
+          },
+          {
+            "value": 36,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "rowGap",
+              "columnGap"
+            ],
+            "propertyContextPairs": [
+              "rowGap|other",
+              "columnGap|other"
+            ]
+          }
+        ],
+        "density": "compact",
+        "baseUnit": 4
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "universalSans",
+            "source": "custom",
+            "weights": [
+              400,
+              500,
+              550
+            ],
+            "frequency": 73,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 16,
+          "name": "Minor Second",
+          "ratio": 1.067,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 13,
+            "family": "universalSans",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "link"
+            ],
+            "frequency": 3,
+            "lineHeight": 1.5,
+            "letterSpacing": -0.008,
+            "textTransform": "none"
+          },
+          {
+            "size": 14,
+            "family": "universalSans",
+            "weight": 500,
+            "contexts": [
+              "button",
+              "other",
+              "icon"
+            ],
+            "frequency": 12,
+            "lineHeight": 1.2,
+            "letterSpacing": -0.007,
+            "textTransform": "none"
+          },
+          {
+            "size": 14,
+            "family": "universalSans",
+            "weight": 550,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.2,
+            "letterSpacing": -0.007,
+            "textTransform": "none"
+          },
+          {
+            "size": 14,
+            "family": "universalSans",
+            "weight": 500,
+            "contexts": [
+              "button",
+              "body",
+              "icon"
+            ],
+            "frequency": 5,
+            "lineHeight": 1.5,
+            "letterSpacing": -0.007,
+            "textTransform": "none"
+          },
+          {
+            "size": 14,
+            "family": "universalSans",
+            "weight": 550,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.5,
+            "letterSpacing": -0.007,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "universalSans",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "link",
+              "body",
+              "button"
+            ],
+            "frequency": 50,
+            "lineHeight": 1.5,
+            "letterSpacing": -0.006,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "universalSans",
+            "weight": 400,
+            "contexts": [
+              "input"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.75,
+            "letterSpacing": -0.006,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Prioritize Deep Space (#050505) for all primary text and interactive elements to maintain high contrast against Absolute Zero (#ffffff) backgrounds.",
+        "Utilize 9999px border-radius for all buttons and interactive input fields to support the soft, accessible aesthetic.",
+        "Implement the Universal Sans font family with precise letter-spacing adjustments: -0.0080em for larger text (16px), -0.0070em for medium (14px), and -0.0060em for smaller text (13px).",
+        "Maintain a clear functional hierarchy for buttons: transparent for ghost, subtle border for outlined secondary, and Deep Space (#050505) background for primary actions.",
+        "Apply 8px as the default `elementGap` between internal components within an input or button group to ensure clear separation without excessive whitespace.",
+        "Use Shadowstone (#636363) only for muted, secondary, or placeholder text, never for primary content or calls to action.",
+        "Ensure all interactive elements have 8px vertical and 16px horizontal padding, adapting to the full-round radius."
+      ],
+      "donts": [
+        "Do not introduce vibrant or highly saturated colors; the system is strictly achromatic.",
+        "Avoid sharp corners; all interactive elements and contained components should use the specified large border radii.",
+        "Do not use heavy shadows or gradients; elevation is subtly conveyed through borders or background tints, not complex visual effects.",
+        "Refrain from using varied font families; Universal Sans is the sole typeface for all content.",
+        "Do not apply excessive line height or loose letter spacing; the typography is compact and designed for efficiency.",
+        "Avoid varying input field border styles; all should consistently use the 1px Outline Gray (#1d1d1d) border.",
+        "Do not use `pageMaxWidth` as the layout is full-bleed, centering content without explicit max-width containment."
+      ],
+      "theme": "light",
+      "colors": [
+        {
+          "hex": "#ffffff",
+          "name": "Absolute Zero",
+          "role": "Page backgrounds, elevated card surfaces, text on dark buttons",
+          "group": "neutral"
+        },
+        {
+          "hex": "#050505",
+          "name": "Deep Space",
+          "role": "Primary text, headings, icons, backgrounds for filled buttons",
+          "group": "neutral"
+        },
+        {
+          "hex": "#636363",
+          "name": "Shadowstone",
+          "role": "Muted text, secondary icons, placeholder text, descriptive captions",
+          "group": "neutral"
+        },
+        {
+          "hex": "#1d1d1d",
+          "name": "Outline Gray",
+          "role": "Borders for inactive fields, button outlines, subtle dividers",
+          "group": "neutral"
+        }
+      ],
+      "layout": "The page exhibits a full-bleed layout, with content centered horizontally without a fixed maximum width. The hero section features the brand logo and primary input field centrally stacked on a clean white background. Navigation is handled by a minimal top bar with ghost and filled buttons. Section rhythm is sparse, emphasizing a clear, uncluttered 'canvas' for interaction, marked by generous vertical spacing between the main query input and footer. The overall density is low, prioritizing breathing room around key interactive elements.",
+      "imagery": "This design system primarily relies on simple, monochromatic icons with a clean, outlined style. No photography, complex illustrations, or significant graphical elements are present. Imagery serves a purely functional role, such as the Grok logo and UI icons, maintaining a low visual density and supporting the text-dominant interface.",
+      "similar": [
+        {
+          "why": "Monochromatic, conversational AI UI with prominent central input field and minimal surrounding elements.",
+          "business": "ChatGPT"
+        },
+        {
+          "why": "Dominantly white background, central search bar, and clean, high-contrast typography focused on utility.",
+          "business": "Google Search"
+        },
+        {
+          "why": "Minimalist UI, strong emphasis on functional typography, and subtle border treatments for interactive elements rather than strong color.",
+          "business": "Linear"
+        },
+        {
+          "why": "Clean, understated UI with a focus on core functionality, often using subtle monochrome variations for interactive states and surfaces.",
+          "business": "Arc Browser"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "links": "8px",
+          "inputs": "9999px",
+          "buttons": "9999px"
+        },
+        "elementGap": "8px",
+        "sectionGap": "36px",
+        "cardPadding": "16px",
+        "pageMaxWidth": null
+      },
+      "industry": "ai",
+      "surfaces": [
+        {
+          "hex": "#ffffff",
+          "name": "Canvas White",
+          "level": 0,
+          "purpose": "Dominant background for the entire application, creating a stark, expansive canvas."
+        },
+        {
+          "hex": "#f5f5f5",
+          "name": "Subtle Gray",
+          "level": 1,
+          "purpose": "Very subtle background tint for card-like elements or subtly differentiated surface regions (inferred from input field background, not explicitly in Color Usage Evidence but common pattern)."
+        }
+      ],
+      "northStar": "Monochrome AI canvas",
+      "typeScale": [
+        {
+          "role": "caption",
+          "size": 13,
+          "lineHeight": 1.5
+        },
+        {
+          "role": "body-sm",
+          "size": 14,
+          "lineHeight": 1.5
+        },
+        {
+          "role": "body",
+          "size": 16,
+          "lineHeight": 1.5
+        }
+      ],
+      "components": [
+        {
+          "name": "Ghost Button",
+          "role": "Secondary actions and navigation items",
+          "description": "Text in Deep Space (#050505) on a transparent background, with a full-round radius (9999px). Padding is 8px vertical and 16px horizontal. Used for actions like 'Imagine' or 'Sign in'."
+        },
+        {
+          "name": "Outlined Button",
+          "role": "Tertiary actions or subtle interactive elements",
+          "description": "Text in Deep Space (#050505) on a transparent background, with a full-round radius (9999px) and a subtle 1px border in Outline Gray (#1d1d1d, which uses oklch(0.1157 0 none / 0.1) as borderTopColor). Padding is 8px vertical and 16px horizontal."
+        },
+        {
+          "name": "Filled Primary Button",
+          "role": "Primary calls to action",
+          "description": "Text in Absolute Zero (#ffffff) on a Deep Space (#050505) background, with a full-round radius (9999px). Padding is 8px vertical and 16px horizontal. Used for 'Sign up'."
+        },
+        {
+          "name": "Minimal Input Field",
+          "role": "User input for search or queries",
+          "description": "Text in Deep Space (#050505) on a transparent background, placeholder text in Shadowstone (#636363), with a full-round radius (9999px, likely an override from the 0px input variant). Features a subtle 1px border in Outline Gray (#1d1d1d, via oklch(0.1157 0 none / 0.06)). Padding is 16px vertical and 8px horizontal. Has internal element gaps of 8px for icons."
+        }
+      ],
+      "typography": [
+        {
+          "role": "The primary typeface for all text content, from body text to interactive elements. The variety of subtle weight and letter-spacing adjustments allows for precise control of visual density and hierarchy within the predominantly monochrome interface.",
+          "sizes": "13px, 14px, 16px",
+          "family": "Universal Sans",
+          "weight": "400, 500, 550",
+          "weights": [
+            400,
+            500,
+            550
+          ],
+          "lineHeight": "1.20, 1.50, 1.75",
+          "substitute": "Inter",
+          "letterSpacing": "-0.0080em at 16px, -0.0070em at 14px, -0.0060em at 13px"
+        }
+      ],
+      "description": "Grok employs a stark, minimalist aesthetic with a dominant achromatic palette, creating a quiet backdrop for AI interaction. The design emphasizes speed and clarity through compact typography and high-contrast elements. Surfaces are primarily clean white with subtle gray accents, while interactive elements are defined by their form and subtle border treatments rather than bold colors. The overall impression is one of crisp efficiency and focused utility.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "Quick Color Reference:\ntext: #050505\nbackground: #ffffff\nborder: #1d1d1d\naccent: no distinct accent color\nprimary action: no distinct CTA color\n\nExample Component Prompts:\nCreate a primary 'Sign up' button: Fill with Deep Space (#050505), text in Absolute Zero (#ffffff), 9999px radius, 8px vertical padding, 16px horizontal padding. Font Universal Sans, weight 400, size 16px, letter-spacing -0.0080em.\nCreate a ghost 'Sign in' button: Transparent background, text in Deep Space (#050505), 9999px radius, 8px vertical padding, 16px horizontal padding. Font Universal Sans, weight 400, size 16px, letter-spacing -0.0080em.\nCreate an interactive minimal input field: Transparent background, 1px Outline Gray (#1d1d1d) border, 9999px radius. Placeholder text in Shadowstone (#636363). Internal element gap 8px. Padding 16px vertical, 8px horizontal. Font Universal Sans, weight 400, size 16px, letter-spacing -0.0080em.\nCreate a footer link for 'Terms': Text in Shadowstone (#636363), font Universal Sans, weight 400, size 13px, letter-spacing -0.0060em."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777509931711-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777509931711-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/bbb993bc-1452-4a22-8cc9-a44b91d79723",
+  "ranks": {
+    "trending": 275,
+    "popular": 439,
+    "newest": 706
+  },
+  "localSlug": "grok-bbb993bc"
+}

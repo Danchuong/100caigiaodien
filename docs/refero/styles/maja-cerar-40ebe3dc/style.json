@@ -1,0 +1,501 @@
+{
+  "id": "40ebe3dc-c1dc-4fc1-aa85-552f0bcf7edb",
+  "url": "https://www.majacerar.design",
+  "siteName": "Maja Cerar",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777514774395-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777514774395-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "light",
+  "colors": [
+    {
+      "name": "Canvas White",
+      "hex": "#ffffff"
+    },
+    {
+      "name": "Project Card",
+      "hex": "#ebeeff"
+    },
+    {
+      "name": "Ink Black",
+      "hex": "#111111"
+    },
+    {
+      "name": "Subtle Gray Border",
+      "hex": "#bbbbbb"
+    }
+  ],
+  "fonts": [
+    "GTF",
+    "GT America Extended"
+  ],
+  "northStar": "Typographic Precision on an Open Canvas",
+  "createdAt": "2026-04-30T02:06:26.507Z",
+  "previewVideoCapturedAt": null,
+  "industry": "design",
+  "fullResult": {
+    "meta": {
+      "url": "https://www.majacerar.design",
+      "siteName": "Maja Cerar",
+      "extractedAt": "2026-04-30T02:06:26.442Z",
+      "durationMs": 17842,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 64,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#111111",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.17763777307657064
+            },
+            "contexts": [
+              "other",
+              "body",
+              "link",
+              "heading",
+              "image"
+            ],
+            "frequency": 315,
+            "confidence": 1,
+            "prominence": 56121907.653287515,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "body/color": 19,
+              "link/color": 8,
+              "image/color": 4,
+              "other/color": 28,
+              "heading/color": 5,
+              "body/borderColor": 76,
+              "link/borderColor": 32,
+              "image/borderColor": 16,
+              "other/borderColor": 107,
+              "heading/borderColor": 20
+            }
+          },
+          {
+            "hex": "#ebeeff",
+            "oklch": {
+              "c": 0.023051655088327322,
+              "h": 277.95693230540525,
+              "l": 0.9518460050758244
+            },
+            "contexts": [
+              "image"
+            ],
+            "frequency": 4,
+            "confidence": 1,
+            "prominence": 1868618.0729225024,
+            "properties": [
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "image/backgroundColor": 4
+            }
+          },
+          {
+            "hex": "#bbbbbb",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.7920743408035346
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 5,
+            "confidence": 1,
+            "prominence": 504724.2681158086,
+            "properties": [
+              "borderColor"
+            ],
+            "usageCounts": {
+              "other/borderColor": 5
+            }
+          }
+        ],
+        "isDarkMode": false,
+        "colorfulness": 0.000769157660604849,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 16.37,
+            "background": "#ebeeff",
+            "foreground": "#111111"
+          },
+          {
+            "level": "AAA",
+            "ratio": 9.84,
+            "background": "#bbbbbb",
+            "foreground": "#111111"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [
+          {
+            "value": 64,
+            "contexts": [
+              "image",
+              "other"
+            ],
+            "frequency": 5
+          }
+        ],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 12,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 10,
+            "properties": [
+              "rowGap",
+              "columnGap"
+            ],
+            "propertyContextPairs": [
+              "rowGap|other",
+              "columnGap|other"
+            ]
+          },
+          {
+            "value": 16,
+            "contexts": [
+              "link"
+            ],
+            "frequency": 3,
+            "properties": [
+              "marginRight"
+            ],
+            "propertyContextPairs": [
+              "marginRight|link"
+            ]
+          },
+          {
+            "value": 24,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 9,
+            "properties": [
+              "marginTop",
+              "marginRight",
+              "marginBottom",
+              "marginLeft",
+              "paddingTop"
+            ],
+            "propertyContextPairs": [
+              "marginTop|other",
+              "marginRight|other",
+              "marginBottom|other",
+              "marginLeft|other",
+              "paddingTop|other"
+            ]
+          },
+          {
+            "value": 32,
+            "contexts": [
+              "link"
+            ],
+            "frequency": 3,
+            "properties": [
+              "marginLeft"
+            ],
+            "propertyContextPairs": [
+              "marginLeft|link"
+            ]
+          },
+          {
+            "value": 40,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 5,
+            "properties": [
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingBottom|other"
+            ]
+          },
+          {
+            "value": 48,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 12,
+            "properties": [
+              "rowGap",
+              "columnGap"
+            ],
+            "propertyContextPairs": [
+              "rowGap|other",
+              "columnGap|other"
+            ]
+          },
+          {
+            "value": 128,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 5,
+            "properties": [
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "marginBottom|other"
+            ]
+          }
+        ],
+        "density": "spacious",
+        "baseUnit": 8
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "GTF",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 64,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 19,
+          "name": "Minor Second",
+          "ratio": 1.067,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 16,
+            "family": "GTF",
+            "weight": 400,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 12,
+            "lineHeight": 1.3,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 19,
+            "family": "GTF",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "body",
+              "link",
+              "image"
+            ],
+            "frequency": 47,
+            "lineHeight": 1.3,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 32,
+            "family": "GTF",
+            "weight": 400,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 5,
+            "lineHeight": 1.2,
+            "letterSpacing": -0.031,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Prioritize GT America Extended (or Inter) at weight 400 for all textual content.",
+        "Apply -0.031em letter-spacing to all text to maintain the clean, precise feel.",
+        "Use Canvas White (#ffffff) as the default page background for an open, airy canvas.",
+        "Employ consistent 64px border-radius for all image and card containers.",
+        "Use Ink Black (#111111) for all main text and subtle border outlines.",
+        "Maintain generous section gaps of 128px between major content blocks.",
+        "Use Project Card (#ebeeff) as a subtle background for content areas within the main canvas."
+      ],
+      "donts": [
+        "Avoid using bold or heavy weights; the entire system relies on weight 400 for its understated character.",
+        "Do not introduce new typefaces; the single typeface defines the brand's typographic identity.",
+        "Do not use highly saturated or vivid accent colors; the palette is deliberately achromatic with subtle tints.",
+        "Avoid heavy shadows or gradient backgrounds; the system favors flat surfaces and clear typographic hierarchy.",
+        "Do not use small, tight spacing. Embrace spacious layouts and generous whitespace.",
+        "Refrain from complex component styling; components should be lightweight, with minimal borders and no superfluous decoration."
+      ],
+      "theme": "light",
+      "colors": [
+        {
+          "hex": "#ffffff",
+          "name": "Canvas White",
+          "role": "Primary background for the entire site, providing an expansive, airy feel",
+          "group": "neutral"
+        },
+        {
+          "hex": "#ebeeff",
+          "name": "Project Card",
+          "role": "Background for project preview cards, lending a subtle, muted backdrop that hints at content within without distraction",
+          "group": "neutral"
+        },
+        {
+          "hex": "#111111",
+          "name": "Ink Black",
+          "role": "Dark borders and separators for elevated surfaces and inverted UI. Do not promote it to the primary CTA color",
+          "group": "neutral"
+        },
+        {
+          "hex": "#bbbbbb",
+          "name": "Subtle Gray Border",
+          "role": "Delicate borders or dividers, used sparsely to delineate sections or elements without imposing heavy visual weight",
+          "group": "neutral"
+        }
+      ],
+      "layout": "The page employs a full-bleed layout for its overall structure, but content within project sections is often visually contained. The hero section features the designer's name and bio, framed by generous whitespace. Project sections follow a consistent vertical rhythm, with each project presented as a large block comprising a year, project title, descriptive text, and a large visual preview. These sections are separated by very large vertical gaps (128px), creating distinct visual pauses. Content within sections tends to align left, with ample horizontal spacing. The navigation is a minimalist top bar with text links, maintaining a light footprint. There's no complex grid system, but rather a sequential stacking of distinct content blocks.",
+      "imagery": "This design system primarily uses actual product screenshots and UI renders to showcase work. Imagery is consistently presented within large, softly rounded (64px radius) containers, often acting as the main visual element of a project card. There's an absence of lifestyle photography or complex illustrations; instead, the focus is on direct, unadorned visual evidence of product design. Icons, when present, are minimal and likely outlined, aligning with the overall lightweight aesthetic. Imagery serves to explain and demonstrate, taking a significant visual space relative to text.",
+      "similar": [
+        {
+          "why": "Monochromatic palette with a single sans-serif typeface, focusing on spacious layouts and large project previews.",
+          "business": "Simon V. Design"
+        },
+        {
+          "why": "Minimalist, text-heavy design with a focus on generous whitespace and a clean typographic hierarchy for a portfolio site.",
+          "business": "Piotr Chudzinski Portfolio"
+        },
+        {
+          "why": "Subtle background color variations, large image areas for project showcases, and minimal use of bold colors; very clean and text-focused.",
+          "business": "Kacper Chyliński Portfolio"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "cards": "64px",
+          "images": "64px"
+        },
+        "elementGap": "24px",
+        "sectionGap": "128px",
+        "cardPadding": "40px",
+        "pageMaxWidth": null
+      },
+      "industry": "design",
+      "surfaces": [
+        {
+          "hex": "#ffffff",
+          "name": "Canvas White",
+          "level": 0,
+          "purpose": "Base page background"
+        },
+        {
+          "hex": "#ebeeff",
+          "name": "Project Card",
+          "level": 1,
+          "purpose": "Background for self-contained content blocks and project previews"
+        }
+      ],
+      "northStar": "Typographic Precision on an Open Canvas",
+      "typeScale": [
+        {
+          "role": "body",
+          "size": 16,
+          "lineHeight": 1.3
+        },
+        {
+          "role": "subheading",
+          "size": 19,
+          "lineHeight": 1.25
+        },
+        {
+          "role": "heading",
+          "size": 32,
+          "lineHeight": 1.2
+        }
+      ],
+      "components": [
+        {
+          "name": "Project Card",
+          "role": "Container for individual project previews.",
+          "description": "Large project card with a background of Project Card (#ebeeff) and a very large border-radius of 64px. The project title uses Ink Black (#111111) at 32px, GTF weight 400 with -0.031em letter spacing. Padding around content is implied by 'cardPadding' (40px)."
+        },
+        {
+          "name": "Navigation Link",
+          "role": "Top-level navigation items and contact links.",
+          "description": "Text link using Ink Black (#111111), GTF weight 400, 16px size, with -0.031em letter spacing. Features a hairline border in Ink Black (#111111) on hover/active states, and a left margin of 32px (except the first)."
+        },
+        {
+          "name": "Descriptive Text Block",
+          "role": "Text blocks accompanying project entries.",
+          "description": "Long-form or secondary text using Ink Black (#111111), GTF weight 400, 16px size, -0.031em letter spacing, often paired with project title via a 24px element gap."
+        }
+      ],
+      "typography": [
+        {
+          "role": "GTF — detected in extracted data but not described by AI",
+          "sizes": "16px, 19px, 32px",
+          "family": "GTF",
+          "weight": "400",
+          "lineHeight": "1.2, 1.3",
+          "letterSpacing": "-0.031"
+        },
+        {
+          "role": "The singular typeface for all textual content, from headings to body text and links. Its slightly condensed and precisely tracked appearance defines the site's restrained and sophisticated voice. The consistent use of a single weight across sizes emphasizes content over typographic theatrics.",
+          "sizes": "",
+          "family": "GT America Extended",
+          "weight": "400",
+          "lineHeight": "",
+          "substitute": "Inter",
+          "letterSpacing": "-0.031em"
+        }
+      ],
+      "description": "Maja Cerar's online portfolio conveys a meticulous, understated elegance through a spacious achromatic canvas, where project visuals are presented as large, clean blocks. Typography is the primary conveyor of information and hierarchy, using a single signature typeface with subtle negative letter-spacing for a refined, almost whispered presence. The design is highly content-centric, relying on generous whitespace and a minimalist approach to define structure and visual flow without relying on heavy borders, shadows, or vivid accent colors.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "Quick Color Reference: \ntext: #111111\nbackground: #ffffff\nborder: #111111\naccent: no distinct accent color\nprimary action: no distinct CTA color\n\nExample Component Prompts:\n1. Create a top navigation bar: Canvas White (#ffffff) background, containing three Navigation Links. Each link uses Ink Black (#111111), GTF weight 400, 16px size. The first link is 'Email', the second 'Twitter', the third 'Résumé'. Each link has a 32px left margin, except the first.\n2. Design a project header for 'Alan app redesign': Ink Black (#111111) text, GTF weight 400, 32px size, -0.031em letter spacing. Position it after a 128px section gap. Below it, add a descriptive text block: 'Leading redesign of Alan product for a new generation of healthcare service' in Ink Black (#111111), GTF weight 400, 16px size, -0.031em letter spacing, with a 24px gap.\n3. Create a project image card: Project Card (#ebeeff) background, 64px border-radius, width approximately 80% of page content, centered. Inside, place a product screenshot that also follows the 64px border-radius. Ensure it has a subtle bottom padding of 40px."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777514774395-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777514774395-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/40ebe3dc-c1dc-4fc1-aa85-552f0bcf7edb",
+  "ranks": {
+    "trending": 1185,
+    "popular": 1197,
+    "newest": 443
+  },
+  "localSlug": "maja-cerar-40ebe3dc"
+}

@@ -1,0 +1,750 @@
+{
+  "id": "903284f3-e121-4e20-bd0c-261ae7c26c3d",
+  "url": "https://rubenmeines.com",
+  "siteName": "Ruben Meines",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777518398433-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777518398433-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "light",
+  "colors": [
+    {
+      "name": "Canvas White",
+      "hex": "#ffffff"
+    },
+    {
+      "name": "Code Violet",
+      "hex": "#0002ff"
+    },
+    {
+      "name": "Accent Scarlet",
+      "hex": "#ff1f00"
+    }
+  ],
+  "fonts": [
+    "DM Mono",
+    "alverata"
+  ],
+  "northStar": "Electric Blueprint",
+  "createdAt": "2026-04-30T03:06:58.785Z",
+  "previewVideoCapturedAt": null,
+  "industry": "agency",
+  "fullResult": {
+    "meta": {
+      "url": "https://rubenmeines.com",
+      "siteName": "Ruben Meines",
+      "extractedAt": "2026-04-30T03:06:58.719Z",
+      "durationMs": 30863,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 85,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#0002ff",
+            "oklch": {
+              "c": 0.3127717095023629,
+              "h": 264.062902009995,
+              "l": 0.4526613687791669
+            },
+            "contexts": [
+              "other",
+              "link",
+              "nav",
+              "body",
+              "image",
+              "heading",
+              "list",
+              "button",
+              "footer"
+            ],
+            "frequency": 342,
+            "confidence": 1,
+            "prominence": 27789899.69396119,
+            "properties": [
+              "color",
+              "borderColor",
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "nav/color": 16,
+              "body/color": 11,
+              "link/color": 2,
+              "list/color": 5,
+              "image/color": 6,
+              "other/color": 21,
+              "button/color": 1,
+              "footer/color": 1,
+              "heading/color": 6,
+              "nav/borderColor": 64,
+              "body/borderColor": 44,
+              "link/borderColor": 8,
+              "list/borderColor": 20,
+              "image/borderColor": 24,
+              "other/borderColor": 84,
+              "footer/borderColor": 4,
+              "heading/borderColor": 24,
+              "other/backgroundColor": 1
+            }
+          },
+          {
+            "hex": "#ffffff",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 1.0000000000000002
+            },
+            "contexts": [
+              "link",
+              "body",
+              "nav",
+              "other",
+              "heading",
+              "button"
+            ],
+            "frequency": 67,
+            "confidence": 1,
+            "prominence": 3533845.2288999166,
+            "properties": [
+              "color",
+              "borderColor",
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "nav/color": 2,
+              "body/color": 3,
+              "link/color": 2,
+              "other/color": 3,
+              "heading/color": 2,
+              "nav/borderColor": 8,
+              "body/borderColor": 12,
+              "link/borderColor": 8,
+              "other/borderColor": 12,
+              "button/borderColor": 4,
+              "heading/borderColor": 8,
+              "body/backgroundColor": 2,
+              "button/backgroundColor": 1
+            }
+          },
+          {
+            "hex": "#ff1f00",
+            "oklch": {
+              "c": 0.25041375925229087,
+              "h": 30.617379769084692,
+              "l": 0.6356969906585952
+            },
+            "contexts": [
+              "body",
+              "other"
+            ],
+            "frequency": 20,
+            "confidence": 1,
+            "prominence": 111389.16984166937,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "body/color": 3,
+              "other/color": 1,
+              "body/borderColor": 12,
+              "other/borderColor": 4
+            }
+          }
+        ],
+        "isDarkMode": false,
+        "colorfulness": 0.7054507644103442,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 8.56,
+            "background": "#ffffff",
+            "foreground": "#0002ff"
+          },
+          {
+            "level": "fail",
+            "ratio": 3.85,
+            "background": "#ffffff",
+            "foreground": "#ff1f00"
+          },
+          {
+            "level": "fail",
+            "ratio": 2.22,
+            "background": "#0002ff",
+            "foreground": "#ff1f00"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [
+          {
+            "value": 2,
+            "contexts": [
+              "button"
+            ],
+            "frequency": 1
+          }
+        ],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 4,
+            "contexts": [
+              "body",
+              "heading"
+            ],
+            "frequency": 4,
+            "properties": [
+              "marginBottom",
+              "paddingTop",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "marginBottom|body",
+              "paddingTop|heading",
+              "paddingBottom|heading",
+              "marginBottom|heading"
+            ]
+          },
+          {
+            "value": 8,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 4,
+            "properties": [
+              "marginTop",
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "marginTop|nav",
+              "marginBottom|nav"
+            ]
+          },
+          {
+            "value": 12,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 3,
+            "properties": [
+              "marginRight"
+            ],
+            "propertyContextPairs": [
+              "marginRight|nav"
+            ]
+          },
+          {
+            "value": 15,
+            "contexts": [
+              "other",
+              "heading"
+            ],
+            "frequency": 8,
+            "properties": [
+              "marginTop",
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "marginTop|other",
+              "marginBottom|heading"
+            ]
+          },
+          {
+            "value": 19,
+            "contexts": [
+              "other",
+              "footer"
+            ],
+            "frequency": 2,
+            "properties": [
+              "marginBottom",
+              "marginTop"
+            ],
+            "propertyContextPairs": [
+              "marginBottom|other",
+              "marginTop|footer"
+            ]
+          },
+          {
+            "value": 22,
+            "contexts": [
+              "button"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingTop",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|button",
+              "paddingBottom|button"
+            ]
+          },
+          {
+            "value": 23,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 4,
+            "properties": [
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "marginBottom|other"
+            ]
+          },
+          {
+            "value": 30,
+            "contexts": [
+              "other",
+              "nav",
+              "body",
+              "list",
+              "footer"
+            ],
+            "frequency": 25,
+            "properties": [
+              "marginTop",
+              "paddingRight",
+              "paddingLeft",
+              "columnGap",
+              "paddingTop",
+              "paddingBottom",
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "marginTop|other",
+              "paddingRight|nav",
+              "paddingLeft|nav",
+              "columnGap|nav",
+              "paddingTop|body",
+              "paddingBottom|body",
+              "paddingRight|other",
+              "paddingLeft|other",
+              "columnGap|other",
+              "paddingRight|list",
+              "paddingLeft|list",
+              "marginBottom|footer"
+            ]
+          },
+          {
+            "value": 32,
+            "contexts": [
+              "nav",
+              "button"
+            ],
+            "frequency": 6,
+            "properties": [
+              "marginRight",
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "marginRight|nav",
+              "paddingRight|button",
+              "paddingLeft|button"
+            ]
+          },
+          {
+            "value": 34,
+            "contexts": [
+              "other",
+              "list"
+            ],
+            "frequency": 6,
+            "properties": [
+              "paddingTop"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other",
+              "paddingTop|list"
+            ]
+          },
+          {
+            "value": 38,
+            "contexts": [
+              "other",
+              "list",
+              "heading"
+            ],
+            "frequency": 7,
+            "properties": [
+              "paddingBottom",
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingBottom|other",
+              "paddingBottom|list",
+              "marginBottom|heading"
+            ]
+          },
+          {
+            "value": 40,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|other",
+              "paddingLeft|other"
+            ]
+          }
+        ],
+        "density": "spacious",
+        "baseUnit": null
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "DM Mono",
+            "source": "custom",
+            "weights": [
+              300,
+              500
+            ],
+            "frequency": 79,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "alverata",
+            "source": "custom",
+            "weights": [
+              600
+            ],
+            "frequency": 6,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 16,
+          "name": "Major Third",
+          "ratio": 1.25,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 20,
+            "family": "DM Mono",
+            "weight": 300,
+            "contexts": [
+              "other",
+              "link",
+              "nav",
+              "body",
+              "image",
+              "list",
+              "button",
+              "footer"
+            ],
+            "frequency": 74,
+            "lineHeight": 1.5,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 23,
+            "family": "DM Mono",
+            "weight": 300,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.33,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 25,
+            "family": "DM Mono",
+            "weight": 300,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.19,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 32,
+            "family": "alverata",
+            "weight": 600,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 4,
+            "lineHeight": 1.17,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 41,
+            "family": "alverata",
+            "weight": 600,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.29,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 46,
+            "family": "alverata",
+            "weight": 600,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.23,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 65,
+            "family": "DM Mono",
+            "weight": 300,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 2,
+            "lineHeight": 1.27,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 82,
+            "family": "DM Mono",
+            "weight": 500,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 1,
+            "lineHeight": 0.78,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Use 'Canvas White' as the default background for all primary content surfaces.",
+        "Apply 'Code Violet' for all active states, primary text links, and interactive borders to maintain brand consistency.",
+        "Employ 'DM Mono' for all body text, UI elements, and navigation to preserve the system's technical precision.",
+        "Use 2px border-radius consistently for all buttons and interactive elements for a subtle, crisp edge.",
+        "Delineate major content sections using dashed lines in 'Code Violet', mimicking a design grid.",
+        "Maintain a spacious rhythm by applying a 'sectionGap' of 30px between major content blocks.",
+        "Utilize 'Accent Scarlet' sparingly as a highlight color for small, important textual elements or decorative touches, not for primary text or backgrounds."
+      ],
+      "donts": [
+        "Avoid gradients or complex shadows; the system relies on flat, high-contrast visuals.",
+        "Do not introduce a third primary color; the system is defined by its strict 'Canvas White', 'Code Violet', and 'Accent Scarlet' palette.",
+        "Refrain from using excessively rounded corners; stick to the precise 2px radius for interactive elements.",
+        "Do not use generic system fonts; 'DM Mono' and 'alverata' are integral to the brand's unique typographic voice.",
+        "Avoid dense, information-packed layouts; maintain generous 'elementGap' of 15px and 'cardPadding' of 32px for clarity and breathability.",
+        "Do not use subtle, low-contrast text; ensure text is always in 'Code Violet' against 'Canvas White' for high readability."
+      ],
+      "theme": "light",
+      "colors": [
+        {
+          "hex": "#ffffff",
+          "name": "Canvas White",
+          "role": "Page backgrounds, card surfaces, button backgrounds — a stark, pure white for a clean, unbounded canvas",
+          "group": "neutral"
+        },
+        {
+          "hex": "#0002ff",
+          "name": "Code Violet",
+          "role": "Primary interactive elements, text links, navigation outlines, decorative borders, and strong textual emphasis – defines the core brand identity with an electric, high-energy hue",
+          "group": "brand"
+        },
+        {
+          "hex": "#ff1f00",
+          "name": "Accent Scarlet",
+          "role": "Decorative text accents, small callouts, border details – its vivid punch provides visual punctuation against the violet and white, drawing immediate attention",
+          "group": "accent"
+        }
+      ],
+      "similar": [
+        {
+          "why": "High-contrast UI with primary blue accent on white, minimalist grid-based layouts, and functional typography.",
+          "business": "Figma"
+        },
+        {
+          "why": "Clean, spacious white interface with a single vibrant accent color and precise monospaced font usage.",
+          "business": "Linear"
+        },
+        {
+          "why": "Emphasizes clear functional design, structured layouts, and distinct use of monochromatic imagery or illustrations for brand identity.",
+          "business": "Superlist"
+        },
+        {
+          "why": "Strong typographic hierarchy, spacious layouts, and a limited color palette that relies on a single dominant accent for interaction.",
+          "business": "Read.cv"
+        },
+        {
+          "why": "Pure white backgrounds, high-contrast blue for interactive elements, and a focus on clean, legible typography for a technical user base.",
+          "business": "Stripe (earlier versions)"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "buttons": "2px"
+        },
+        "elementGap": "15px",
+        "sectionGap": "30px",
+        "cardPadding": "32px",
+        "pageMaxWidth": null
+      },
+      "industry": "agency",
+      "surfaces": [
+        {
+          "hex": "#ffffff",
+          "name": "Canvas Background",
+          "level": 0,
+          "purpose": "Dominant background for the entire page, providing a crisp, pure white base."
+        }
+      ],
+      "northStar": "Electric Blueprint",
+      "typeScale": [
+        {
+          "role": "body-sm",
+          "size": 20,
+          "lineHeight": 1.5,
+          "letterSpacing": 0
+        },
+        {
+          "role": "body",
+          "size": 23,
+          "lineHeight": 1.33,
+          "letterSpacing": 0
+        },
+        {
+          "role": "subheading",
+          "size": 25,
+          "lineHeight": 1.27,
+          "letterSpacing": 0
+        },
+        {
+          "role": "heading-sm",
+          "size": 32,
+          "lineHeight": 1.29,
+          "letterSpacing": 0
+        },
+        {
+          "role": "heading",
+          "size": 41,
+          "lineHeight": 1.23,
+          "letterSpacing": 0
+        },
+        {
+          "role": "heading-lg",
+          "size": 46,
+          "lineHeight": 1.17,
+          "letterSpacing": 0
+        },
+        {
+          "role": "display",
+          "size": 82,
+          "lineHeight": 0.78,
+          "letterSpacing": 0
+        }
+      ],
+      "components": [
+        {
+          "name": "Primary Action Button",
+          "role": "Interactive call to action",
+          "description": "A filled button with 'Canvas White' background and 'Code Violet' text, featuring 2px border-radius and generous padding of 22px vertical, 32px horizontal. This button style combines a clean surface with a distinct brand color for text."
+        },
+        {
+          "name": "Navigation Link",
+          "role": "Primary navigation item",
+          "description": "Uses 'DM Mono' text in 'Code Violet'. Underlines are implied by an active border, reinforcing the structured, block-like design. Spacing: 8px vertical margin, 12px right margin, 32px horizontal padding."
+        },
+        {
+          "name": "Section Divider",
+          "role": "Visual separation for content sections",
+          "description": "Thin, dashed lines predominantly in 'Code Violet', used to strongly delineate content blocks with a technical blueprint aesthetic."
+        },
+        {
+          "name": "Feature Card",
+          "role": "Information display card",
+          "description": "A white background with a subtle border of 'Code Violet'. Padding internal to the card is 32px (cardPadding), with element gaps of 15px for internal components. Text is primarily 'DM Mono' in 'Code Violet', with 'Accent Scarlet' used for small decorative elements or special text highlights. Icons often appear as outlines."
+        }
+      ],
+      "typography": [
+        {
+          "role": "Primary body text, navigation, links, and all UI elements. Its monospaced nature delivers a precise, code-like, and structured feel that is central to the brand's technical identity.",
+          "sizes": "20px, 23px, 25px, 65px, 82px",
+          "family": "DM Mono",
+          "weight": "300, 500",
+          "weights": [
+            300,
+            500
+          ],
+          "lineHeight": "0.78, 1.19, 1.27, 1.33, 1.50",
+          "substitute": "Space Mono",
+          "letterSpacing": "normal"
+        },
+        {
+          "role": "Headlines and prominent textual callouts. Its structured serif form contrasts with the monospaced text, adding a subtle touch of traditional authority without losing the system's clean edge.",
+          "sizes": "32px, 41px, 46px",
+          "family": "alverata",
+          "weight": "600",
+          "weights": [
+            600
+          ],
+          "lineHeight": "1.17, 1.23, 1.29",
+          "substitute": "Source Serif Pro",
+          "letterSpacing": "normal"
+        }
+      ],
+      "description": "Ruben Meines uses a digital blueprint aesthetic: stark white planes, grid-aligned elements, and a high-contrast palette of electric violet and vibrant scarlet. Visuals are intentionally flat, with outlines and solid blocks of color. Typography is predominantly monospaced, giving the system a technical, code-like precision, and reinforced by subtle red accents that punctuate key information. Layouts feel spacious and structured, emphasizing clarity and directness.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "Quick Color Reference:\ntext: #0002ff\nbackground: #ffffff\nborder: #0002ff\naccent: #ff1f00\nprimary action: #0002ff (outlined action border)\n\nExample Component Prompts:\n1. Create a header: 'Canvas White' background, 'DM Mono' text (#0002ff) at 20px, 'Work' and 'linkedIn' navigation items. Include a 'Code Violet' email button as an outlined action (border: 1px solid #0002ff, background: #ffffff, text: #0002ff, padding: 22px 32px, radius: 2px).\n2. Design a hero section: 'Canvas White' background. Main headline: 'I help design agencies & studios save more time for creative tasks...' using 'alverata' weight 600, size 82px, #0002ff. A smaller 'Hi,' intro text in 'Accent Scarlet' using 'DM Mono', 25px. Image next to text with violet overlay.\n3. Build a feature card: 'Canvas White' background, internal padding of 32px, bordered by 1px 'Code Violet' lines. Headline 'Your whitespace is safe with me' at 'alverata' weight 600, size 32px, #0002ff. Body text in 'DM Mono' weight 300, size 20px, #0002ff. Include a small outlined icon in 'Accent Scarlet' at the top."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777518398433-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777518398433-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/903284f3-e121-4e20-bd0c-261ae7c26c3d",
+  "ranks": {
+    "trending": 1280,
+    "popular": 1258,
+    "newest": 227
+  },
+  "localSlug": "ruben-meines-903284f3"
+}

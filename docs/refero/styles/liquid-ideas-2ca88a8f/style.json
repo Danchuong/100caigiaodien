@@ -1,0 +1,458 @@
+{
+  "id": "2ca88a8f-fd06-4e2c-8ff5-7e1bd37e37eb",
+  "url": "https://studiolathe.com",
+  "siteName": "Liquid Ideas",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777521687870-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777521687870-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "light",
+  "colors": [
+    {
+      "name": "Canvas Parchment",
+      "hex": "#FFFF00"
+    },
+    {
+      "name": "Ink Jot",
+      "hex": "#000000"
+    },
+    {
+      "name": "Badge Fog",
+      "hex": "#DADADA"
+    }
+  ],
+  "fonts": [
+    "-apple-system",
+    "system-ui"
+  ],
+  "northStar": "Digital Blueprint on Vellum",
+  "createdAt": "2026-04-30T04:01:49.166Z",
+  "previewVideoCapturedAt": null,
+  "industry": "design",
+  "fullResult": {
+    "meta": {
+      "url": "https://studiolathe.com",
+      "siteName": "Liquid Ideas",
+      "extractedAt": "2026-04-30T04:01:49.099Z",
+      "durationMs": 28662,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 235,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "skipped",
+          "attempts": 1
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "other",
+              "nav",
+              "list",
+              "link",
+              "body",
+              "badge",
+              "footer"
+            ],
+            "frequency": 959,
+            "confidence": 1,
+            "prominence": 12839330.211908638,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "nav/color": 10,
+              "body/color": 50,
+              "link/color": 30,
+              "list/color": 53,
+              "badge/color": 54,
+              "other/color": 37,
+              "footer/color": 1,
+              "nav/borderColor": 40,
+              "body/borderColor": 200,
+              "link/borderColor": 120,
+              "list/borderColor": 212,
+              "other/borderColor": 148,
+              "footer/borderColor": 4
+            }
+          },
+          {
+            "hex": "#ffff00",
+            "oklch": {
+              "c": 0.2110058737497979,
+              "h": 109.76923612816614,
+              "l": 0.9679827267927991
+            },
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 1,
+            "confidence": 1,
+            "prominence": 1296000,
+            "properties": [
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "nav/backgroundColor": 1
+            }
+          },
+          {
+            "hex": "#dadada",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.8883696500007239
+            },
+            "contexts": [
+              "badge"
+            ],
+            "frequency": 216,
+            "confidence": 1,
+            "prominence": 14281.254267697843,
+            "properties": [
+              "borderColor"
+            ],
+            "usageCounts": {
+              "badge/borderColor": 216
+            }
+          }
+        ],
+        "isDarkMode": false,
+        "colorfulness": 0.00048493719835860895,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 19.56,
+            "background": "#ffff00",
+            "foreground": "#000000"
+          },
+          {
+            "level": "AAA",
+            "ratio": 15.02,
+            "background": "#dadada",
+            "foreground": "#000000"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [
+          {
+            "value": 5,
+            "contexts": [
+              "badge"
+            ],
+            "frequency": 54
+          }
+        ],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 3,
+            "contexts": [
+              "badge"
+            ],
+            "frequency": 108,
+            "properties": [
+              "paddingTop",
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|badge",
+              "paddingBottom|badge"
+            ]
+          },
+          {
+            "value": 6,
+            "contexts": [
+              "badge"
+            ],
+            "frequency": 108,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|badge",
+              "paddingLeft|badge"
+            ]
+          },
+          {
+            "value": 8,
+            "contexts": [
+              "badge"
+            ],
+            "frequency": 108,
+            "properties": [
+              "marginRight",
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "marginRight|badge",
+              "marginBottom|badge"
+            ]
+          },
+          {
+            "value": 15,
+            "contexts": [
+              "nav",
+              "list",
+              "other"
+            ],
+            "frequency": 11,
+            "properties": [
+              "paddingTop",
+              "paddingRight",
+              "paddingBottom",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|nav",
+              "paddingRight|nav",
+              "paddingBottom|nav",
+              "paddingLeft|nav",
+              "paddingTop|list",
+              "paddingRight|list",
+              "paddingLeft|list",
+              "paddingTop|other",
+              "paddingRight|other",
+              "paddingBottom|other",
+              "paddingLeft|other"
+            ]
+          },
+          {
+            "value": 180,
+            "contexts": [
+              "list"
+            ],
+            "frequency": 2,
+            "properties": [
+              "marginTop",
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "marginTop|list",
+              "marginBottom|list"
+            ]
+          }
+        ],
+        "density": "compact",
+        "baseUnit": null
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "-apple-system",
+            "source": "system",
+            "weights": [
+              300
+            ],
+            "frequency": 235,
+            "fontFeatureSettings": [
+              "\"kern\", \"ss05\""
+            ]
+          }
+        ],
+        "scale": null,
+        "steps": [
+          {
+            "size": 10,
+            "family": "-apple-system",
+            "weight": 300,
+            "contexts": [
+              "badge"
+            ],
+            "frequency": 54,
+            "lineHeight": 1.3,
+            "letterSpacing": -0.004,
+            "textTransform": "uppercase"
+          },
+          {
+            "size": 17,
+            "family": "-apple-system",
+            "weight": 300,
+            "contexts": [
+              "other",
+              "nav",
+              "list",
+              "link",
+              "body",
+              "footer"
+            ],
+            "frequency": 181,
+            "lineHeight": 1.3,
+            "letterSpacing": -0.002,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Use Canvas Parchment (#FFFF00) as the primary background for sections that act as a visual content canvas or are currently interactive.",
+        "Apply Ink Jot (#000000) for all text elements to maintain high contrast and a stark aesthetic.",
+        "Utilize the system-ui font at weight 300 for all typography, adjusting letter-spacing as per the type scale for 10px and 17px sizes.",
+        "Employ Badge Fog (#DADADA) for subtle 1px borders on ghost-style badge components.",
+        "Adhere to an 8px element gap for horizontal spacing between elements like tags and 180px for section separators.",
+        "Ensure all interactive badge elements use a 5px border-radius with 3px vertical and 6px horizontal padding."
+      ],
+      "donts": [
+        "Do not introduce additional saturated colors; the palette is strictly monochrome with a single vivid yellow for interaction.",
+        "Avoid heavy shadows or gradients; the design relies on flat surfaces and high contrast for definition.",
+        "Do not vary font families or weights beyond the single defined system-ui 300; consistency is paramount for this typographic identity.",
+        "Do not use generic button styles; prefer ghost buttons or text links with distinct background changes for interactive states.",
+        "Do not create complex layouts that deviate from the compact, maximum-width constrained structure; simplicity and directness are key."
+      ],
+      "theme": "light",
+      "colors": [
+        {
+          "hex": "#FFFF00",
+          "name": "Canvas Parchment",
+          "role": "Main background for content areas and primary navigation surfaces, suggesting a digital canvas for content overlays",
+          "group": "accent"
+        },
+        {
+          "hex": "#000000",
+          "name": "Ink Jot",
+          "role": "Neutral form states, badge text, and quiet UI feedback where color should stay understated. Do not promote it to the primary CTA color",
+          "group": "neutral"
+        },
+        {
+          "hex": "#DADADA",
+          "name": "Badge Fog",
+          "role": "Hairline borders, dividers, input outlines, and card edges on light surfaces. Do not promote it to the primary CTA color",
+          "group": "neutral"
+        }
+      ],
+      "layout": "The page adheres to a centered maximum width of 353px, creating a compact, focused viewing experience reminiscent of a detailed document or a console interface. The hero section, if implicitly defined, presents critical navigation in a high-contrast format. Sections are clearly demarcated by substantial vertical spacing (specifically 180px `sectionGap`), fostering a minimalist rhythm. Content is primarily arranged in single-column stacks for lists and multi-column grids for badges, with an implicit left-alignment for main content. Navigation is a simple top-bar and footer links, designed for quick access rather than exploration.",
+      "imagery": "This site uses no imagery, illustrations, or graphics. The visual language is entirely expressed through typography, spacing, and stark color contrasts, creating an object-oriented, content-first experience. Icons, if present, are purely functional and monochromatic, likely a simple outlined style matching the text weight.",
+      "similar": [
+        {
+          "why": "Shares a raw, unstyled aesthetic with strong typographic focus and minimal use of color for interaction.",
+          "business": "Are.na"
+        },
+        {
+          "why": "Exhibits a similar clarity in content presentation, utilizing a clean, simple layout and direct typography.",
+          "business": "Working Not Working"
+        },
+        {
+          "why": "Employs an understated UI with a precise approach to typography and subtle interactive states, prioritizing function over flash.",
+          "business": "Linear (early versions)"
+        },
+        {
+          "why": "Features a direct, no-frills interface, relying on functional typography and a restrained color palette to convey information.",
+          "business": "Superlist"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "badges": "5px"
+        },
+        "elementGap": "8px",
+        "sectionGap": "180px",
+        "cardPadding": "15px",
+        "pageMaxWidth": "353px"
+      },
+      "industry": "design",
+      "northStar": "Digital Blueprint on Vellum",
+      "typeScale": [
+        {
+          "role": "caption",
+          "size": 10,
+          "lineHeight": 1.3,
+          "letterSpacing": -0.04
+        },
+        {
+          "role": "body",
+          "size": 17,
+          "lineHeight": 1.3,
+          "letterSpacing": -0.034
+        }
+      ],
+      "components": [
+        {
+          "name": "Standard List Item",
+          "role": "Navigational link or content entry in vertical lists",
+          "description": "Text in Ink Jot (#000000) at 17px system-ui weight 300, line-height 1.3. Each item has a 15px padding on all sides before an interactive state changes its background."
+        },
+        {
+          "name": "Footer Contact Link",
+          "role": "Minimal contact information links",
+          "description": "Text in Ink Jot (#000000) at 17px system-ui weight 300, line-height 1.3. Often grouped with social links."
+        },
+        {
+          "name": "Tag Badge",
+          "role": "Categorization tag for project types",
+          "description": "Ghost-style badge with text in Ink Jot (#000000), using 10px system-ui weight 300, line-height 1.3. Background is transparent with a subtle Badge Fog (#DADADA) 1px border. Features 3px vertical padding and 6px horizontal padding, with a 5px border-radius, and 8px right margin for horizontal stacking."
+        },
+        {
+          "name": "Top Navigation Link",
+          "role": "Primary site navigation links.",
+          "description": "Text in Ink Jot (#000000) at 17px system-ui weight 300. When active, the background fills with Canvas Parchment (#FFFF00), indicating the current section without using color on the text itself."
+        }
+      ],
+      "typography": [
+        {
+          "role": "-apple-system — detected in extracted data but not described by AI",
+          "sizes": "10px, 17px",
+          "family": "-apple-system",
+          "weight": "300",
+          "lineHeight": "1.3",
+          "letterSpacing": "-0.004, -0.002",
+          "fontFeatureSettings": "\"kern\", \"ss05\""
+        },
+        {
+          "role": "Single typographical style used across the entire site for all text, conveying a consistent, pragmatic tone. The lighter weight at smaller sizes paired with specific letter-spacing creates a deliberate 'anti-design' feel, prioritizing clarity and directness.",
+          "sizes": "",
+          "family": "system-ui",
+          "weight": "",
+          "lineHeight": "",
+          "substitute": "-apple-system",
+          "letterSpacing": "-0.0040em at 10px, -0.0020em at 17px",
+          "fontFeatureSettings": "\"kern\" on, \"ss05\" on"
+        }
+      ],
+      "description": "The Studio Lathe design system evokes a raw, digital blueprint aesthetic. It features stark contrasts and a minimal color palette predominantly using black text on a pale, almost invisible background. Interactive elements are subtly highlighted with a vivid yellow that appears to switch content sections or navigational context rather than acting as a traditional brand accent. Typography is a key identifier, utilizing system fonts with precise letter-spacing to achieve a crisp, understated texture against the dominant white space. Visual density is low, emphasizing content rather than decorative flourishes.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "Quick Color Reference: text: #000000, background: #FFFF00, border: #DADADA, accent: #FFFF00, primary action: no distinct CTA color\n\nExample Component Prompts:\nCreate a list item for 'Archer Office': text color Ink Jot (#000000), font system-ui weight 300 size 17px, line height 1.3. It should have 15px padding on all sides.\nCreate a Tag Badge: text Ink Jot (#000000), font system-ui weight 300 size 10px, line height 1.3. Background transparent, 1px border in Badge Fog (#DADADA), 5px border-radius, 3px vertical padding, 6px horizontal padding, and 8px right margin.\nCreate a footer contact link for '+61.(2)432.338.417': text color Ink Jot (#000000), font system-ui weight 300 size 17px, line height 1.3.\nCreate a top navigation item for 'Design & Development': text color Ink Jot (#000000), font system-ui weight 300 size 17px, line height 1.3. If active, its background should be Canvas Parchment (#FFFF00)."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777521687870-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777521687870-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/2ca88a8f-fd06-4e2c-8ff5-7e1bd37e37eb",
+  "ranks": {
+    "trending": 177,
+    "popular": 289,
+    "newest": 2
+  },
+  "localSlug": "liquid-ideas-2ca88a8f"
+}

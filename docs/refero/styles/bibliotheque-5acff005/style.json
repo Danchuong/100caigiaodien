@@ -1,0 +1,715 @@
+{
+  "id": "5acff005-1871-4237-bc25-cdddf50edc70",
+  "url": "https://bibliothequedesign.com",
+  "siteName": "Bibliothèque",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777515356101-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777515356101-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "dark",
+  "colors": [
+    {
+      "name": "Midnight Noir",
+      "hex": "#000000"
+    },
+    {
+      "name": "Canvas White",
+      "hex": "#ffffff"
+    }
+  ],
+  "fonts": [
+    "Unica77 LL"
+  ],
+  "northStar": "Monochrome Editorial Command: Pure black and white, sharp text, and border-defined interactions create an atmosphere of focused, high-contrast authority.",
+  "createdAt": "2026-04-30T02:16:10.336Z",
+  "previewVideoCapturedAt": null,
+  "industry": "design",
+  "fullResult": {
+    "meta": {
+      "url": "https://bibliothequedesign.com",
+      "siteName": "Bibliothèque",
+      "extractedAt": "2026-04-30T02:16:09.723Z",
+      "durationMs": 24916,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 742,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#ffffff",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 1.0000000000000002
+            },
+            "contexts": [
+              "other",
+              "heading",
+              "link",
+              "body",
+              "nav",
+              "list",
+              "footer"
+            ],
+            "frequency": 2966,
+            "confidence": 1,
+            "prominence": 15687774.719181621,
+            "properties": [
+              "color",
+              "borderColor",
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "nav/color": 9,
+              "body/color": 53,
+              "link/color": 53,
+              "list/color": 147,
+              "other/color": 268,
+              "footer/color": 1,
+              "heading/color": 62,
+              "nav/borderColor": 36,
+              "body/borderColor": 212,
+              "link/borderColor": 212,
+              "list/borderColor": 588,
+              "other/borderColor": 1072,
+              "footer/borderColor": 4,
+              "heading/borderColor": 248,
+              "other/backgroundColor": 1
+            }
+          },
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "other",
+              "link",
+              "heading",
+              "nav",
+              "input",
+              "list",
+              "card",
+              "body"
+            ],
+            "frequency": 749,
+            "confidence": 1,
+            "prominence": 12989397.657992626,
+            "properties": [
+              "color",
+              "borderColor",
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "nav/color": 17,
+              "body/color": 2,
+              "card/color": 54,
+              "link/color": 56,
+              "list/color": 1,
+              "input/color": 1,
+              "other/color": 17,
+              "heading/color": 1,
+              "nav/borderColor": 68,
+              "body/borderColor": 8,
+              "card/borderColor": 216,
+              "link/borderColor": 224,
+              "list/borderColor": 4,
+              "input/borderColor": 4,
+              "other/borderColor": 68,
+              "heading/borderColor": 4,
+              "list/backgroundColor": 1,
+              "other/backgroundColor": 3
+            }
+          }
+        ],
+        "isDarkMode": true,
+        "colorfulness": 0,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 21,
+            "background": "#000000",
+            "foreground": "#ffffff"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 4,
+            "contexts": [
+              "list"
+            ],
+            "frequency": 44,
+            "properties": [
+              "paddingBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingBottom|list"
+            ]
+          },
+          {
+            "value": 5,
+            "contexts": [
+              "other",
+              "list",
+              "heading"
+            ],
+            "frequency": 220,
+            "properties": [
+              "marginBottom",
+              "marginRight",
+              "paddingTop",
+              "paddingRight",
+              "paddingBottom",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "marginBottom|other",
+              "marginRight|list",
+              "paddingTop|heading",
+              "paddingRight|heading",
+              "paddingBottom|heading",
+              "paddingLeft|list"
+            ]
+          },
+          {
+            "value": 7,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingLeft|heading"
+            ]
+          },
+          {
+            "value": 10,
+            "contexts": [
+              "heading",
+              "other"
+            ],
+            "frequency": 7,
+            "properties": [
+              "marginTop",
+              "paddingTop",
+              "paddingBottom",
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "marginTop|heading",
+              "paddingTop|other",
+              "paddingBottom|other",
+              "paddingRight|other",
+              "paddingLeft|other"
+            ]
+          },
+          {
+            "value": 15,
+            "contexts": [
+              "nav",
+              "other",
+              "body"
+            ],
+            "frequency": 7,
+            "properties": [
+              "paddingLeft",
+              "paddingRight",
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "paddingLeft|nav",
+              "paddingRight|other",
+              "paddingLeft|other",
+              "marginBottom|body"
+            ]
+          },
+          {
+            "value": 17,
+            "contexts": [
+              "nav",
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingLeft|nav",
+              "paddingLeft|other"
+            ]
+          },
+          {
+            "value": 18,
+            "contexts": [
+              "heading",
+              "other"
+            ],
+            "frequency": 56,
+            "properties": [
+              "marginBottom",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "marginBottom|heading",
+              "paddingLeft|other"
+            ]
+          },
+          {
+            "value": 20,
+            "contexts": [
+              "heading",
+              "nav",
+              "other"
+            ],
+            "frequency": 24,
+            "properties": [
+              "paddingRight",
+              "paddingLeft",
+              "paddingBottom",
+              "marginTop"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|heading",
+              "paddingRight|nav",
+              "paddingLeft|nav",
+              "paddingLeft|other",
+              "paddingBottom|other",
+              "marginTop|heading",
+              "marginTop|other"
+            ]
+          },
+          {
+            "value": 25,
+            "contexts": [
+              "nav",
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingRight|nav",
+              "paddingLeft|other"
+            ]
+          },
+          {
+            "value": 26,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingLeft|other"
+            ]
+          },
+          {
+            "value": 30,
+            "contexts": [
+              "other",
+              "list"
+            ],
+            "frequency": 47,
+            "properties": [
+              "paddingTop",
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other",
+              "paddingRight|other",
+              "paddingLeft|other",
+              "paddingLeft|list"
+            ]
+          },
+          {
+            "value": 34,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 3,
+            "properties": [
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingLeft|other"
+            ]
+          },
+          {
+            "value": 38,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingLeft|other"
+            ]
+          },
+          {
+            "value": 53,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingLeft|other"
+            ]
+          },
+          {
+            "value": 58,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingLeft|other"
+            ]
+          },
+          {
+            "value": 59,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 4,
+            "properties": [
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingLeft|other"
+            ]
+          },
+          {
+            "value": 70,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingLeft|other"
+            ]
+          },
+          {
+            "value": 80,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 6,
+            "properties": [
+              "paddingLeft",
+              "paddingRight"
+            ],
+            "propertyContextPairs": [
+              "paddingLeft|other",
+              "paddingRight|other"
+            ]
+          },
+          {
+            "value": 105,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingTop"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other"
+            ]
+          },
+          {
+            "value": 162,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 54,
+            "properties": [
+              "paddingTop"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|other"
+            ]
+          }
+        ],
+        "density": "compact",
+        "baseUnit": 6
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "Unica77 LL",
+            "source": "custom",
+            "weights": [
+              400
+            ],
+            "frequency": 739,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 16,
+          "name": "Minor Third",
+          "ratio": 1.2,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 12,
+            "family": "Unica77 LL",
+            "weight": 400,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.22,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 12,
+            "family": "Unica77 LL",
+            "weight": 400,
+            "contexts": [
+              "nav"
+            ],
+            "frequency": 2,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 14,
+            "family": "Unica77 LL",
+            "weight": 400,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 44,
+            "lineHeight": 1.33,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 18,
+            "family": "Unica77 LL",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "heading",
+              "link",
+              "body",
+              "nav",
+              "list",
+              "card",
+              "footer"
+            ],
+            "frequency": 647,
+            "lineHeight": 1.22,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 18,
+            "family": "Unica77 LL",
+            "weight": 400,
+            "contexts": [
+              "link"
+            ],
+            "frequency": 44,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 80,
+            "family": "Unica77 LL",
+            "weight": 400,
+            "contexts": [
+              "input"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "lowercase"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Maintain a strict monochrome palette using only `Midnight Noir` (#000000) and `Canvas White` (#ffffff).",
+        "Utilize `Unica77 LL` weight 400 for all typography, varying only size and line-height for hierarchy.",
+        "Implement `0px` border-radius for all elements, maintaining a sharp, angular aesthetic.",
+        "Prioritize generous negative space; the canvas is a prominent design element.",
+        "Use subtle border changes or text color shifts for interactive states, avoiding fills or robust shadows and leveraging `ACTION_BORDER` colors where appropriate.",
+        "Structure content with clear, compact sections and consistent `5px` element gaps."
+      ],
+      "donts": [
+        "Introduce any saturated or chromatic colors; the system is strictly achromatic.",
+        "Use any custom border-radius values other than `0px`.",
+        "Apply elevation via box-shadows; the design favors a flat aesthetic.",
+        "Employ multiple font families or weights beyond `Unica77 LL` 400.",
+        "Break the consistent vertical rhythm provided by the `5px` element gap and other specified spacing tokens.",
+        "Use large, decorative imagery that distracts from the core content and typographic focus."
+      ],
+      "theme": "dark",
+      "colors": [
+        {
+          "hex": "#000000",
+          "name": "Midnight Noir",
+          "role": "Neutral form states, badge text, and quiet UI feedback where color should stay understated. Do not promote it to the primary CTA color",
+          "group": "neutral"
+        },
+        {
+          "hex": "#ffffff",
+          "name": "Canvas White",
+          "role": "Hairline borders, dividers, input outlines, and card edges on light surfaces. Do not promote it to the primary CTA color",
+          "group": "neutral"
+        }
+      ],
+      "layout": "The page adheres to a full-bleed layout, where content spans the entire viewport width, creating an immersive experience. The hero section, if present, is likely a full-width block with centered typographically-driven content. Section rhythm is driven by consistent vertical spacing, creating distinct yet seamlessly flowing content blocks without overt dividers. Content arrangement primarily appears to be vertical stacks of text, with projects perhaps arranged in a grid that respects the `0px` card padding. Navigation is a minimal top bar, suggesting a subtle, always-present control without being intrusive.",
+      "imagery": "The site's visual language is characterized by an almost complete absence of decorative imagery; instead, it uses the UI itself as the primary visual element. When present, images are content-driven project showcases, likely presented without additional borders or visual treatments, blending seamlessly into the dark canvas. Icons are minimal, likely monochromatic line icons if any, maintaining the stark aesthetic. The density is extremely text-dominant, allowing information and typography to command attention.",
+      "similar": [
+        {
+          "why": "Shares a strong dark-mode aesthetic with minimal UI and focus on sharp typography against deeply contrasted backgrounds.",
+          "business": "Avenir"
+        },
+        {
+          "why": "Similar emphasis on a structured, editorial layout, high-contrast monochrome design, and a singular, elegant typeface.",
+          "business": "Büro Uebele"
+        },
+        {
+          "why": "Adopts a content-first, minimal UI approach with a strong typographic foundation and limited color palette to convey authority.",
+          "business": "Pentagram"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "none": "0px"
+        },
+        "elementGap": "5px",
+        "sectionGap": "47px",
+        "cardPadding": "0px",
+        "pageMaxWidth": null
+      },
+      "industry": "design",
+      "surfaces": [
+        {
+          "hex": "#000000",
+          "name": "Midnight Noir Canvas",
+          "level": 0,
+          "purpose": "The primary background for all page content and base for components."
+        }
+      ],
+      "northStar": "Monochrome Editorial Command: Pure black and white, sharp text, and border-defined interactions create an atmosphere of focused, high-contrast authority.",
+      "typeScale": [
+        {
+          "role": "caption",
+          "size": 12,
+          "lineHeight": 1.22
+        },
+        {
+          "role": "body-sm",
+          "size": 14,
+          "lineHeight": 1.22
+        },
+        {
+          "role": "body",
+          "size": 18,
+          "lineHeight": 1.22
+        },
+        {
+          "role": "body-lg",
+          "size": 80,
+          "lineHeight": 1.22
+        }
+      ],
+      "components": [
+        {
+          "name": "Project Card",
+          "role": "Displaying project thumbnails and titles.",
+          "description": "A frameless, borderless container with `0px` border-radius and `0px` padding, designed for full-bleed content presentation. Background is transparent, letting the `Midnight Noir` canvas show through. Text is `Canvas White` using `Unica77 LL`."
+        },
+        {
+          "name": "Navigation Link",
+          "role": "Interactive menu items in the main navigation.",
+          "description": "Text rendered in `Canvas White` using `Unica77 LL` at `18px`, with `15px` horizontal padding. No background or explicit border, relying on hover states (not extracted) for interaction feedback."
+        }
+      ],
+      "typography": [
+        {
+          "role": "The singular typeface used across all textual elements, from small body text to large headings and navigation, contributing to a unified, disciplined aesthetic. Its consistent weight maintains a calm, authoritative voice.",
+          "sizes": "12px, 14px, 18px, 80px",
+          "family": "Unica77 LL",
+          "weight": "400",
+          "lineHeight": "1.00, 1.20, 1.22, 1.33",
+          "substitute": "Helvetica Neue",
+          "letterSpacing": "normal"
+        }
+      ],
+      "description": "Bibliothèque embraces a stark, high-contrast dark mode aesthetic where pure black canvas meets crisp white typography. The design emphasizes content-forward presentation with minimal UI distraction, relying on a restrained typographic hierarchy and ample negative space to define structure. Interactions are subtle, often border-based, maintaining the monochrome integrity, with a focus on presenting strong editorial content without overt visual flair.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "Quick Color Reference: text: #ffffff, background: #000000, border: #ffffff, accent: no distinct accent color, primary action: no distinct CTA color\n\nExample Component Prompts:\nCreate a header navigation link: text `Canvas White`, `Unica77 LL` 18px weight 400, `15px` horizontal padding.\nCreate a project title heading: text `Canvas White`, `Unica77 LL` 80px weight 400, line-height 1.0.\nCreate body text: text `Canvas White`, `Unica77 LL` 14px weight 400, line-height 1.22.\nCreate a list item: text `Canvas White`, `Unica77 LL` 12px weight 400, `5px` bottom margin, bordered with a `1px` `Canvas White` line at the bottom.\nCreate an input field: transparent background, `Midnight Noir` text, `0px` border-radius, `0px` padding, with a `1px` `Midnight Noir` bottom border."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777515356101-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777515356101-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/5acff005-1871-4237-bc25-cdddf50edc70",
+  "ranks": {
+    "trending": 624,
+    "popular": 753,
+    "newest": 404
+  },
+  "localSlug": "bibliotheque-5acff005"
+}

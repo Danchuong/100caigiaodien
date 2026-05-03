@@ -1,0 +1,270 @@
+{
+  "id": "0f51bb51-f4fa-479d-a748-9f996fb11a40",
+  "url": "https://phlntn.com",
+  "siteName": "Philipp Antoni",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775925705368-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775925705368-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "dark",
+  "colors": [
+    {
+      "name": "Void Black",
+      "hex": "#000000"
+    },
+    {
+      "name": "Terminal White",
+      "hex": "#ffffff"
+    },
+    {
+      "name": "Electric Blue",
+      "hex": "#0000FF"
+    }
+  ],
+  "fonts": [
+    "Siro"
+  ],
+  "northStar": "Glitchy digital void. A deep black canvas punctuated by stark white text and electric blue data anomalies creates a raw, technical feel.",
+  "createdAt": "2026-02-02T13:48:34.000Z",
+  "previewVideoCapturedAt": null,
+  "industry": "agency",
+  "fullResult": {
+    "meta": {
+      "url": "https://phlntn.com",
+      "siteName": "Philipp Antoni",
+      "extractedAt": "2026-04-11T16:42:02.344Z",
+      "durationMs": 28836,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 1,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "complete",
+          "attempts": 2
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#ffffff",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 1.0000000000000002
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 5,
+            "confidence": 1,
+            "prominence": 3350111.4009346184,
+            "properties": [
+              "color",
+              "borderColor"
+            ]
+          }
+        ],
+        "isDarkMode": true,
+        "colorfulness": 0,
+        "contrastPairs": []
+      },
+      "shapes": {
+        "radii": [],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [],
+        "density": "comfortable",
+        "baseUnit": null
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "siro",
+            "source": "custom",
+            "weights": [
+              600
+            ],
+            "frequency": 1,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": null,
+        "steps": [
+          {
+            "size": 16,
+            "family": "siro",
+            "weight": 600,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 1,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Prioritize Void Black (#000000) for all backgrounds to maintain the deep, immersive dark theme.",
+        "Use Terminal White (#ffffff) exclusively for text and essential UI elements to ensure stark contrast and readability.",
+        "Incorporate Electric Blue (#0000FF) sparingly for interactive states, key highlights, or abstract graphic elements, contrasting sharply with the dominant black and white.",
+        "Maintain a rigid 0px border-radius across all elements to preserve the sharp, angular aesthetic.",
+        "Employ the Siro (Space Mono) font at weight 600 for all textual content, ensuring a consistent monospace, technical feel.",
+        "Leverage vertical and horizontal lines of Terminal White (#ffffff) to define spatial relationships and boundaries, rather than relying on padding or margin alone."
+      ],
+      "tags": [
+        "dark mode",
+        "monospace",
+        "glitch art",
+        "minimalist",
+        "cyberpunk",
+        "stark",
+        "technical",
+        "abstract",
+        "digital"
+      ],
+      "donts": [
+        "Avoid any soft shadows or subtle elevation effects; the design relies on flat, stark contrasts.",
+        "Do not introduce gradients or chromatic colors beyond Electric Blue (#0000FF); the palette is intentionally limited.",
+        "Refrain from using rounded corners on any UI elements; all shapes must be rectilinear.",
+        "Do not use multiple font families or weights outside of Siro 600; consistency in typography is key.",
+        "Avoid decorative imagery that introduces organic forms or complex color palettes; visual elements should be abstract, geometric, or heavily processed.",
+        "Do not attempt to soften edges or blend elements; the aesthetic values abrupt transitions and hard lines."
+      ],
+      "theme": "dark",
+      "colors": [
+        {
+          "hex": "#000000",
+          "name": "Void Black",
+          "role": "Primary background for pages and sections, creating an immersive, infinite dark canvas.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#ffffff",
+          "name": "Terminal White",
+          "role": "Primary text, borders, and interactive elements – stands in sharp contrast against the Void Black for maximum legibility and impact.",
+          "group": "neutral"
+        },
+        {
+          "hex": "#0000FF",
+          "name": "Electric Blue",
+          "role": "Accent color for interactive elements, data visualizations, and graphic overlays, suggesting digital activity and highlighting key information.",
+          "group": "accent"
+        }
+      ],
+      "layout": "The layout is full-bleed black, with content segments often presented in a deconstructed, almost abstract manner. There's an asymmetric, grid-like division for the main content, featuring a prominent, frameless image container on the left, which itself has a 1px white border. Text elements for navigation/contact are vertically stacked and left-aligned. A distinctive angular text overlay breaks the strict horizontal/vertical lines, providing visual dynamism and a 'glitch' effect. Overall, the layout is sparse and centers information and unique visual elements without adhering to a strict max-width container, allowing the profound blackness to dominate.",
+      "imagery": "The visual language is characterized by highly processed photography, specifically a monochrome portrait with aggressive, fragmented Electric Blue (#0000FF) overlays that simulate digital glitches or data corruption. Graphics include abstract vertical strips of content, suggesting data streams or code, further reinforcing the technical, deconstructed aesthetic. Imagery serves a decorative, mood-setting role, enhancing the 'digital void' metaphor rather than providing literal information.",
+      "similar": [
+        {
+          "why": "Stark, utilitarian layout with heavy reliance on black, white, and a single accent color for a minimalist, almost brutalist digital aesthetic.",
+          "business": "Are.na"
+        },
+        {
+          "why": "Experimental layouts, heavy use of monospace typography, and a 'glitch' aesthetic in imagery and typography reminiscent of digital art.",
+          "business": "Certain artist portfolios"
+        },
+        {
+          "why": "Dominant black background, monospace fonts, and high-contrast text evoke command line tools and emphasize content as raw data.",
+          "business": "Terminal interfaces"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "all": "0px"
+        },
+        "elementGap": "16px",
+        "sectionGap": "64px",
+        "cardPadding": "24px",
+        "pageMaxWidth": null
+      },
+      "category": "dev-tools",
+      "northStar": "Glitchy digital void. A deep black canvas punctuated by stark white text and electric blue data anomalies creates a raw, technical feel.",
+      "components": [
+        {
+          "html": "<style>\n  @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');\n  :root {\n    --color-void-black: #000000;\n    --color-terminal-white: #ffffff;\n    --color-electric-blue: #0000FF;\n    --font-siro: 'Space Mono', monospace;\n  }\n  .social-panel {\n    background: var(--color-void-black);\n    width: 600px;\n    padding: 48px 40px;\n    box-sizing: border-box;\n    display: flex;\n    align-items: flex-start;\n    gap: 32px;\n    font-family: var(--font-siro);\n  }\n  .social-icon-col {\n    display: flex;\n    align-items: flex-start;\n    padding-top: 2px;\n  }\n  .social-icon {\n    width: 18px;\n    height: 18px;\n    opacity: 0.9;\n  }\n  .divider-col {\n    width: 1px;\n    background: var(--color-terminal-white);\n    align-self: stretch;\n    min-height: 100px;\n    flex-shrink: 0;\n  }\n  .social-links-col {\n    display: flex;\n    flex-direction: column;\n    gap: 4px;\n  }\n  .social-link {\n    font-family: var(--font-siro);\n    font-size: 16px;\n    font-weight: 600;\n    color: var(--color-terminal-white);\n    text-decoration: none;\n    line-height: 1.0;\n    padding: 6px 0;\n    letter-spacing: normal;\n    display: block;\n    transition: color 0.1s;\n    border-radius: 0;\n  }\n  .social-link:hover {\n    color: var(--color-electric-blue);\n  }\n  .vertical-line-full {\n    width: 1px;\n    background: var(--color-terminal-white);\n    position: relative;\n  }\n</style>\n<div class=\"social-panel\">\n  <div class=\"social-icon-col\">\n    <svg class=\"social-icon\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n      <path d=\"M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-1-13h2v6h-2zm0 8h2v2h-2z\" fill=\"#ffffff\"/>\n    </svg>\n  </div>\n  <div class=\"divider-col\"></div>\n  <div class=\"social-links-col\">\n    <a href=\"#\" class=\"social-link\">EMAIL</a>\n    <a href=\"#\" class=\"social-link\">INSTAGRAM</a>\n    <a href=\"#\" class=\"social-link\">BLUESKY</a>\n    <a href=\"#\" class=\"social-link\">MASTODON</a>\n  </div>\n</div>",
+          "name": "Social Links Panel",
+          "role": "",
+          "description": ""
+        },
+        {
+          "html": "<style>\n  @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');\n  :root {\n    --color-void-black: #000000;\n    --color-terminal-white: #ffffff;\n    --color-electric-blue: #0000FF;\n    --font-siro: 'Space Mono', monospace;\n  }\n  .profile-wrapper {\n    background: var(--color-void-black);\n    width: 600px;\n    padding: 48px;\n    box-sizing: border-box;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    font-family: var(--font-siro);\n  }\n  .profile-frame {\n    position: relative;\n    width: 280px;\n    height: 320px;\n    border: 1px solid var(--color-terminal-white);\n    flex-shrink: 0;\n    overflow: visible;\n    border-radius: 0;\n  }\n  .profile-image-bg {\n    width: 100%;\n    height: 100%;\n    background: #1a1a1a;\n    position: relative;\n    overflow: hidden;\n    border-radius: 0;\n  }\n  .portrait-silhouette {\n    position: absolute;\n    bottom: 0;\n    left: 50%;\n    transform: translateX(-50%);\n    width: 180px;\n    height: 280px;\n    background: #2a2a2a;\n    border-radius: 0;\n    clip-path: polygon(30% 0%, 70% 0%, 85% 20%, 90% 50%, 80% 70%, 70% 80%, 60% 100%, 40% 100%, 30% 80%, 20% 70%, 10% 50%, 15% 20%);\n  }\n  .glitch-block-1 {\n    position: absolute;\n    top: 60px;\n    left: -24px;\n    width: 48px;\n    height: 32px;\n    background: var(--color-electric-blue);\n    border-radius: 0;\n    opacity: 0.9;\n  }\n  .glitch-block-2 {\n    position: absolute;\n    top: 120px;\n    right: -16px;\n    width: 60px;\n    height: 20px;\n    background: var(--color-electric-blue);\n    border-radius: 0;\n    opacity: 0.85;\n  }\n  .glitch-block-3 {\n    position: absolute;\n    bottom: 80px;\n    left: -12px;\n    width: 20px;\n    height: 50px;\n    background: var(--color-electric-blue);\n    border-radius: 0;\n    opacity: 0.9;\n  }\n  .glitch-block-4 {\n    position: absolute;\n    bottom: 40px;\n    right: -8px;\n    width: 40px;\n    height: 16px;\n    background: var(--color-electric-blue);\n    border-radius: 0;\n    opacity: 0.8;\n  }\n  .glitch-block-5 {\n    position: absolute;\n    top: 180px;\n    left: 10px;\n    width: 80px;\n    height: 14px;\n    background: var(--color-electric-blue);\n    border-radius: 0;\n    opacity: 0.6;\n    mix-blend-mode: screen;\n  }\n  .glitch-inner-1 {\n    position: absolute;\n    top: 30px;\n    right: 20px;\n    width: 30px;\n    height: 30px;\n    background: var(--color-electric-blue);\n    border-radius: 0;\n    opacity: 0.4;\n  }\n  .frame-label {\n    position: absolute;\n    bottom: -28px;\n    left: 0;\n    font-family: var(--font-siro);\n    font-size: 16px;\n    font-weight: 600;\n    color: var(--color-terminal-white);\n    letter-spacing: normal;\n    line-height: 1.0;\n  }\n</style>\n<div class=\"profile-wrapper\">\n  <div class=\"profile-frame\">\n    <div class=\"profile-image-bg\">\n      <div class=\"portrait-silhouette\"></div>\n      <div class=\"glitch-inner-1\"></div>\n      <div class=\"glitch-block-5\"></div>\n    </div>\n    <div class=\"glitch-block-1\"></div>\n    <div class=\"glitch-block-2\"></div>\n    <div class=\"glitch-block-3\"></div>\n    <div class=\"glitch-block-4\"></div>\n    <div class=\"frame-label\">PHILIPP ANTONI</div>\n  </div>\n</div>",
+          "name": "Profile Frame with Glitch",
+          "role": "",
+          "description": ""
+        },
+        {
+          "html": "<style>\n  @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');\n  :root {\n    --color-void-black: #000000;\n    --color-terminal-white: #ffffff;\n    --color-electric-blue: #0000FF;\n    --font-siro: 'Space Mono', monospace;\n  }\n  .identity-wrapper {\n    background: var(--color-void-black);\n    width: 600px;\n    padding: 48px 40px;\n    box-sizing: border-box;\n    font-family: var(--font-siro);\n    display: flex;\n    flex-direction: column;\n    gap: 0;\n  }\n  .identity-row {\n    display: flex;\n    align-items: stretch;\n    border-top: 1px solid var(--color-terminal-white);\n  }\n  .identity-row:last-child {\n    border-bottom: 1px solid var(--color-terminal-white);\n  }\n  .identity-index {\n    font-family: var(--font-siro);\n    font-size: 16px;\n    font-weight: 600;\n    color: var(--color-electric-blue);\n    line-height: 1.0;\n    padding: 14px 16px 14px 0;\n    min-width: 32px;\n    flex-shrink: 0;\n    border-right: 1px solid var(--color-terminal-white);\n    display: flex;\n    align-items: center;\n    border-radius: 0;\n  }\n  .identity-label {\n    font-family: var(--font-siro);\n    font-size: 16px;\n    font-weight: 600;\n    color: var(--color-terminal-white);\n    line-height: 1.0;\n    padding: 14px 24px;\n    flex: 1;\n    display: flex;\n    align-items: center;\n    letter-spacing: normal;\n    border-radius: 0;\n  }\n  .identity-label.accent {\n    color: var(--color-electric-blue);\n  }\n  .identity-value {\n    font-family: var(--font-siro);\n    font-size: 16px;\n    font-weight: 600;\n    color: var(--color-terminal-white);\n    line-height: 1.0;\n    padding: 14px 0 14px 24px;\n    display: flex;\n    align-items: center;\n    border-left: 1px solid var(--color-terminal-white);\n    flex-shrink: 0;\n    border-radius: 0;\n    opacity: 0.5;\n  }\n  .identity-arrow {\n    display: flex;\n    align-items: center;\n    padding: 14px 16px;\n    border-left: 1px solid var(--color-terminal-white);\n  }\n</style>\n<div class=\"identity-wrapper\">\n  <div class=\"identity-row\">\n    <div class=\"identity-index\">01</div>\n    <div class=\"identity-label\">PHILIPP ANTONI</div>\n    <div class=\"identity-value\">NAME</div>\n    <div class=\"identity-arrow\">\n      <svg width=\"12\" height=\"12\" viewBox=\"0 0 12 12\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n        <line x1=\"0\" y1=\"6\" x2=\"10\" y2=\"6\" stroke=\"#ffffff\" stroke-width=\"1\"/>\n        <polyline points=\"6,2 10,6 6,10\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"1\"/>\n      </svg>\n    </div>\n  </div>\n  <div class=\"identity-row\">\n    <div class=\"identity-index\">02</div>\n    <div class=\"identity-label accent\">CREATIVE CODER</div>\n    <div class=\"identity-value\">ROLE</div>\n    <div class=\"identity-arrow\">\n      <svg width=\"12\" height=\"12\" viewBox=\"0 0 12 12\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n        <line x1=\"0\" y1=\"6\" x2=\"10\" y2=\"6\" stroke=\"#ffffff\" stroke-width=\"1\"/>\n        <polyline points=\"6,2 10,6 6,10\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"1\"/>\n      </svg>\n    </div>\n  </div>\n  <div class=\"identity-row\">\n    <div class=\"identity-index\">03</div>\n    <div class=\"identity-label\">BRAND DESIGN</div>\n    <div class=\"identity-value\">DISCIPLINE</div>\n    <div class=\"identity-arrow\">\n      <svg width=\"12\" height=\"12\" viewBox=\"0 0 12 12\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n        <line x1=\"0\" y1=\"6\" x2=\"10\" y2=\"6\" stroke=\"#ffffff\" stroke-width=\"1\"/>\n        <polyline points=\"6,2 10,6 6,10\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"1\"/>\n      </svg>\n    </div>\n  </div>\n  <div class=\"identity-row\">\n    <div class=\"identity-index\">04</div>\n    <div class=\"identity-label\">BUILDER</div>\n    <div class=\"identity-value\">FUNCTION</div>\n    <div class=\"identity-arrow\">\n      <svg width=\"12\" height=\"12\" viewBox=\"0 0 12 12\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n        <line x1=\"0\" y1=\"6\" x2=\"10\" y2=\"6\" stroke=\"#ffffff\" stroke-width=\"1\"/>\n        <polyline points=\"6,2 10,6 6,10\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"1\"/>\n      </svg>\n    </div>\n  </div>\n</div>",
+          "name": "Identity Tag Strip",
+          "role": "",
+          "description": ""
+        },
+        {
+          "name": "Navigation Link",
+          "role": "Interactive text link",
+          "description": "Text link using Siro font at 16px, weight 600, color Terminal White (#ffffff). No hover state visible but implied interaction with Electric Blue (#0000FF) on active/hover."
+        },
+        {
+          "name": "Profile Frame",
+          "role": "Image container",
+          "description": "A square frame with a 1px border of Terminal White (#ffffff) around a greyscale image. Electric Blue (#0000FF) blocks appear as a digital overlay or glitch effect on the image."
+        },
+        {
+          "name": "Rotated Headline",
+          "role": "Branding/decorative text",
+          "description": "Text in Siro font (implied 16px, weight 600) in Terminal White (#ffffff), rotated to a sharp diagonal angle, layered over background elements."
+        },
+        {
+          "name": "Vertical Divider Line",
+          "role": "Structural separator",
+          "description": "A thin 1px vertical line in Terminal White (#ffffff) used to visually segment content or indicate structural divisions. Extends full height or a significant portion of the viewport."
+        }
+      ],
+      "typography": [
+        {
+          "role": "Used for all text content, including navigation, body text, and headings. Its monospace nature reinforces the technical, code-like aesthetic, creating a consistent, no-nonsense tone across the experience.",
+          "sizes": "16px",
+          "family": "Siro",
+          "weight": "600",
+          "lineHeight": "1.00",
+          "substitute": "Space Mono",
+          "letterSpacing": "normal"
+        }
+      ],
+      "description": "This design system conjures a digital void, where stark black dominates and content appears through a subtle play of white and electric blue. The aesthetic feels like a glitch art exhibit or a command line interface, prioritizing raw data and fragmented visuals over traditional polish. Monospaced typography and an absence of soft edges or shadows create an atmosphere of technical precision and almost raw, unfiltered expression.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "### Quick Color Reference\n- Text: #ffffff (Terminal White)\n- Background: #000000 (Void Black)\n- Accent: #0000FF (Electric Blue)\n- Borders: #ffffff (Terminal White)\n\n### Example Component Prompts\n1. Create a navigation link: `Text 'EMAIL', font 'Siro' (substitute 'Space Mono'), weight 600, size 16px, color #ffffff. Align left.`\n2. Create a profile image section: `An image frame, 300px by 300px, 1px solid border #ffffff. Inside, a greyscale portrait image. Overlay this image with scattered 20px by 20px blocks of #0000FF.`\n3. Create a rotated branding text: `Text 'CREATIVE CODER PHILIPP ANTONI', font 'Siro' (substitute 'Space Mono'), weight 600, size 16px, color #ffffff. Rotate this text -25 degrees.`\n4. Create a vertical divider line: `A vertical line, 1px wide, color #ffffff, extending 500px in height.`"
+        }
+      ],
+      "elevationPhilosophy": "This design intentionally avoids shadows and traditional elevation. Depth is created through stark color contrast (black vs. white/blue) and layered, fragmented graphic elements, rather than softened lighting or raised surfaces. Elements sit flush, creating a flat, digital canvas."
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775925705368-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1775925705368-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/0f51bb51-f4fa-479d-a748-9f996fb11a40",
+  "ranks": {
+    "trending": 1171,
+    "popular": 735,
+    "newest": 1240
+  },
+  "localSlug": "philipp-antoni-0f51bb51"
+}

@@ -1,0 +1,551 @@
+{
+  "id": "21dc0b3a-3b67-449e-b1a9-e71598c882d6",
+  "url": "https://www.dialitdown.co.nz",
+  "siteName": "Dialitdown",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777512816332-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777512816332-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "light",
+  "colors": [
+    {
+      "name": "Sky Canvas",
+      "hex": "#a3f7f7"
+    },
+    {
+      "name": "Ink Text",
+      "hex": "#222222"
+    }
+  ],
+  "fonts": [
+    "Feijoa display",
+    "system-ui"
+  ],
+  "northStar": "Whimsical Storybook Canvas",
+  "createdAt": "2026-04-30T01:34:06.529Z",
+  "previewVideoCapturedAt": null,
+  "industry": "other",
+  "fullResult": {
+    "meta": {
+      "url": "https://www.dialitdown.co.nz",
+      "siteName": "Dialitdown",
+      "extractedAt": "2026-04-30T01:34:06.458Z",
+      "durationMs": 38110,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 83,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#222222",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0.2519647498644126
+            },
+            "contexts": [
+              "other",
+              "heading",
+              "image",
+              "body",
+              "footer"
+            ],
+            "frequency": 410,
+            "confidence": 1,
+            "prominence": 65038338.52608591,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "body/color": 22,
+              "image/color": 16,
+              "other/color": 26,
+              "footer/color": 1,
+              "heading/color": 17,
+              "body/borderColor": 88,
+              "image/borderColor": 64,
+              "other/borderColor": 104,
+              "footer/borderColor": 4,
+              "heading/borderColor": 68
+            }
+          },
+          {
+            "hex": "#a3f7f7",
+            "oklch": {
+              "c": 0.08135435189617722,
+              "h": 195.83273621241855,
+              "l": 0.9227309642145579
+            },
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "confidence": 1,
+            "prominence": 2625395.284694552,
+            "properties": [
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "other/backgroundColor": 2
+            }
+          }
+        ],
+        "isDarkMode": false,
+        "colorfulness": 0.0010673622657593443,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 13.03,
+            "background": "#a3f7f7",
+            "foreground": "#222222"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 20,
+            "contexts": [
+              "heading",
+              "image",
+              "body",
+              "other"
+            ],
+            "frequency": 59,
+            "properties": [
+              "paddingTop",
+              "paddingBottom",
+              "marginLeft"
+            ],
+            "propertyContextPairs": [
+              "paddingTop|heading",
+              "paddingBottom|heading",
+              "paddingTop|image",
+              "paddingBottom|image",
+              "paddingTop|body",
+              "marginLeft|other"
+            ]
+          },
+          {
+            "value": 25,
+            "contexts": [
+              "image"
+            ],
+            "frequency": 10,
+            "properties": [
+              "marginTop"
+            ],
+            "propertyContextPairs": [
+              "marginTop|image"
+            ]
+          },
+          {
+            "value": 50,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 5,
+            "properties": [
+              "marginTop"
+            ],
+            "propertyContextPairs": [
+              "marginTop|other"
+            ]
+          },
+          {
+            "value": 100,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "paddingBottom",
+              "marginTop"
+            ],
+            "propertyContextPairs": [
+              "paddingBottom|other",
+              "marginTop|other"
+            ]
+          },
+          {
+            "value": 113,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "marginRight",
+              "marginLeft"
+            ],
+            "propertyContextPairs": [
+              "marginRight|other",
+              "marginLeft|other"
+            ]
+          },
+          {
+            "value": 143,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "marginRight",
+              "marginLeft"
+            ],
+            "propertyContextPairs": [
+              "marginRight|other",
+              "marginLeft|other"
+            ]
+          },
+          {
+            "value": 200,
+            "contexts": [
+              "other",
+              "heading"
+            ],
+            "frequency": 5,
+            "properties": [
+              "marginTop",
+              "paddingBottom",
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "marginTop|other",
+              "paddingBottom|heading",
+              "marginBottom|other"
+            ]
+          },
+          {
+            "value": 214,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 2,
+            "properties": [
+              "marginRight",
+              "marginLeft"
+            ],
+            "propertyContextPairs": [
+              "marginRight|other",
+              "marginLeft|other"
+            ]
+          }
+        ],
+        "density": "comfortable",
+        "baseUnit": 4
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "Feijoa display",
+            "source": "custom",
+            "weights": [
+              400,
+              700
+            ],
+            "frequency": 66,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "system-ui",
+            "source": "system",
+            "weights": [
+              400,
+              500
+            ],
+            "frequency": 17,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 16,
+          "name": "Minor Third",
+          "ratio": 1.2,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 12,
+            "family": "system-ui",
+            "weight": 500,
+            "contexts": [
+              "body"
+            ],
+            "frequency": 11,
+            "lineHeight": 1.2,
+            "letterSpacing": 0.167,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "Feijoa display",
+            "weight": 400,
+            "contexts": [
+              "other",
+              "image",
+              "body",
+              "link",
+              "footer"
+            ],
+            "frequency": 49,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 16,
+            "family": "system-ui",
+            "weight": 400,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 6,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 24,
+            "family": "Feijoa display",
+            "weight": 700,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 4,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 32,
+            "family": "Feijoa display",
+            "weight": 700,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 60,
+            "family": "Feijoa display",
+            "weight": 400,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 66,
+            "family": "Feijoa display",
+            "weight": 400,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 10,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 68,
+            "family": "Feijoa display",
+            "weight": 400,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.2,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Always use Sky Canvas (#a3f7f7) as the background for all main content areas.",
+        "Employ Feijoa display for all headings and prominent text to establish brand personality, varying weight between 400 and 700.",
+        "Utilize system-ui for all body text and smaller informational elements, ensuring a letter-spacing of 0.1670em for enhanced readability at smaller sizes.",
+        "Maintain generous vertical spacing with elementGap at 20px, cardPadding at 20px, and sectionGap at 50px for all content blocks.",
+        "Ensure all textual content, including links, is rendered in Ink Text (#222222) for maximum contrast and brand consistency.",
+        "Frame significant visual content, such as illustrations, with a 1px solid Ink Text (#222222) border."
+      ],
+      "donts": [
+        "Avoid introducing additional background colors; maintain the primary Sky Canvas (#a3f7f7) backdrop throughout the design.",
+        "Do not use highly saturated chromatic colors for text or primary UI elements; stick to the Ink Text (#222222) for all text.",
+        "Refrain from complex shadow effects or gradients; the design thrives on flat surfaces and clear visual separation.",
+        "Do not break the established typographic scale; use the defined Feijoa display and system-ui sizes and weights strictly.",
+        "Avoid tight content packing; always provide ample padding and margin, using 20px as a minimum element separation."
+      ],
+      "theme": "light",
+      "colors": [
+        {
+          "hex": "#a3f7f7",
+          "name": "Sky Canvas",
+          "role": "Page background, primary surface for all content blocks and illustrations — creates an airy, friendly atmosphere",
+          "group": "brand"
+        },
+        {
+          "hex": "#222222",
+          "name": "Ink Text",
+          "role": "Primary text color for headings, body text, and links. Also used for decorative border strokes on illustrations and in footers, providing strong contrast against the Sky Canvas",
+          "group": "neutral"
+        }
+      ],
+      "similar": [
+        {
+          "why": "Uses custom, playful illustrations and a bright, distinct background color to create a friendly, approachable brand identity.",
+          "business": "Mailchimp"
+        },
+        {
+          "why": "Combines a custom serif typeface for headings with a clean sans-serif for body text, creating a unique yet readable system.",
+          "business": "Intercom"
+        },
+        {
+          "why": "Features a strong brand color as the dominant background and emphasizes spacious layout with minimal UI chrome.",
+          "business": "Basecamp"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "default": "0px"
+        },
+        "elementGap": "20px",
+        "sectionGap": "50px",
+        "cardPadding": "20px",
+        "pageMaxWidth": null
+      },
+      "industry": "other",
+      "northStar": "Whimsical Storybook Canvas",
+      "typeScale": [
+        {
+          "role": "caption",
+          "size": 12,
+          "lineHeight": 1.2,
+          "letterSpacing": 0.167
+        },
+        {
+          "role": "body",
+          "size": 16,
+          "lineHeight": 1.2,
+          "letterSpacing": 0.167
+        },
+        {
+          "role": "subheading",
+          "size": 24,
+          "lineHeight": 1.2
+        },
+        {
+          "role": "heading",
+          "size": 32,
+          "lineHeight": 1.2
+        },
+        {
+          "role": "display-sm",
+          "size": 60,
+          "lineHeight": 1.2
+        },
+        {
+          "role": "display",
+          "size": 66,
+          "lineHeight": 1.2
+        },
+        {
+          "role": "display-lg",
+          "size": 68,
+          "lineHeight": 1.2
+        }
+      ],
+      "components": [
+        {
+          "name": "Primary Heading",
+          "role": "Page titles and large section headers",
+          "description": "Uses Feijoa display, weight 400 or 700, at sizes from 32px to 68px. Text color is Ink Text (#222222). Margin-top of 200px and padding-bottom of 100px for generous vertical spacing."
+        },
+        {
+          "name": "Body Text Block",
+          "role": "Main informational content",
+          "description": "Uses system-ui, weight 400, at 16px. Line height 1.20, letter spacing 0.1670em. Text color is Ink Text (#222222). Content is often contained within generous horizontal margins (113px or 143px)."
+        },
+        {
+          "name": "Illustration Container",
+          "role": "Houses custom cartoon illustrations",
+          "description": "Illustrations are typically contained within a div with a 1px solid Ink Text (#222222) border. Generous margin-top of 25px or 50px separates them from surrounding content."
+        },
+        {
+          "name": "Link Text",
+          "role": "Interactive text elements",
+          "description": "Uses Feijoa display or system-ui, depending on context (Feijoa for prominent links, system-ui for inline). Text color is Ink Text (#222222). No distinct hover or underline styling is apparent from the data, maintaining the monochromatic palette."
+        }
+      ],
+      "typography": [
+        {
+          "role": "Headlines and emphasis text — its custom, decorative serif character defines the brand's unique voice. The varying weights and generous sizes establish a clear hierarchy and visual playfulness.",
+          "sizes": "16px, 24px, 32px, 60px, 66px, 68px",
+          "family": "Feijoa display",
+          "weight": "400, 700",
+          "lineHeight": "1.20",
+          "substitute": "Playfair Display",
+          "letterSpacing": "normal"
+        },
+        {
+          "role": "Body text and functional UI elements — a clean, readable sans-serif that balances the distinct Feijoa display. The slight letter-spacing aids legibility for smaller text blocks.",
+          "sizes": "12px, 16px",
+          "family": "system-ui",
+          "weight": "400, 500",
+          "lineHeight": "1.20",
+          "substitute": "Inter",
+          "letterSpacing": "0.1670em"
+        }
+      ],
+      "description": "Dialitdown embraces a playful, illustrative aesthetic with a vibrant main canvas and classic serif typography. The design feels like an interactive storybook, using ample white space (as light blue) around content blocks to emphasize readability. Illustrations provide a friendly and approachable tone, with text rendered cleanly atop a single, bright background color. The visual identity prioritizes clarity and a distinctive, whimsical character over complex UI elements.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "Quick Color Reference:\ntext: #222222\nbackground: #a3f7f7\nborder: #222222\naccent: no distinct accent color\nprimary action: no distinct CTA color\n\nExample Component Prompts:\n1. Create a page hero section: background Sky Canvas (#a3f7f7). Centered headline 'Net + etiquette = netiquette' using Feijoa display weight 600, 68px, Ink Text (#222222). Immediately below, a centered illustration with a 1px solid Ink Text (#222222) border, separated by 50px margin-top.\n2. Create a body content block: background Sky Canvas (#a3f7f7). Left-aligned text 'Australia's coastline stretches over 50,000 kilometers...' using system-ui weight 400, 16px, Ink Text (#222222), line height 1.20, letter spacing 0.1670em. Ensure 20px padding-bottom for the text block.\n3. Create a section divider: A simple 1px solid Ink Text (#222222) stroke, followed by a heading 'The Call of the Wild: National Parks and the Outback' in Feijoa display weight 700, 32px, Ink Text (#222222), with 200px margin-top."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777512816332-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777512816332-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/21dc0b3a-3b67-449e-b1a9-e71598c882d6",
+  "ranks": {
+    "trending": 1064,
+    "popular": 1068,
+    "newest": 573
+  },
+  "localSlug": "dialitdown-21dc0b3a"
+}

@@ -1,0 +1,1331 @@
+# Refero local catalog
+
+- Source: https://styles.refero.design
+- Crawled at: 2026-05-03T13:44:34.875Z
+- Styles: 1322
+- Note: image/video binaries are not downloaded; URLs are preserved.
+
+| Site | Theme | Industry | Color Scheme | Local Design | Refero URL |
+| --- | --- | --- | --- | --- | --- |
+| ElevenLabs | light | ai | light | docs/refero/styles/elevenlabs-031056ff/DESIGN.md | https://styles.refero.design/style/031056ff-7af1-46db-8daa-115f731c5d26 |
+| Cursor | light | devtools | light | docs/refero/styles/cursor-4e3b4717/DESIGN.md | https://styles.refero.design/style/4e3b4717-84c8-4599-baaf-a343c3d619b6 |
+| Linear | dark | ai | dark | docs/refero/styles/linear-90ce5883/DESIGN.md | https://styles.refero.design/style/90ce5883-bb24-4466-93f7-801cd617b0d1 |
+| Mercury | dark | fintech | dark | docs/refero/styles/mercury-3172cd4d/DESIGN.md | https://styles.refero.design/style/3172cd4d-118a-4a16-a259-6b634d32322e |
+| Apple | light | ecommerce | light | docs/refero/styles/apple-c9cabb96/DESIGN.md | https://styles.refero.design/style/c9cabb96-32fa-4896-837a-f2497ce1c856 |
+| Stripe | light | fintech | light | docs/refero/styles/stripe-48e5de76/DESIGN.md | https://styles.refero.design/style/48e5de76-05d5-4c4e-a269-c7c245b291ec |
+| monopo saigon | dark | agency | dark | docs/refero/styles/monopo-saigon-3e52dd36/DESIGN.md | https://styles.refero.design/style/3e52dd36-6ab1-48c6-bc40-47ef6d33abc2 |
+| Superhuman | mixed | saas | both | docs/refero/styles/superhuman-418b374a/DESIGN.md | https://styles.refero.design/style/418b374a-be64-44f0-b17e-1d45308c7e62 |
+| Hyperstudio | dark | agency | dark | docs/refero/styles/hyperstudio-8eb9c53e/DESIGN.md | https://styles.refero.design/style/8eb9c53e-d69c-497a-b640-610856cf3a60 |
+| Family | light | crypto | light | docs/refero/styles/family-1bcae895/DESIGN.md | https://styles.refero.design/style/1bcae895-2245-4d33-aa43-1c1e80719554 |
+| Antimetal | mixed | devtools | both | docs/refero/styles/antimetal-9f9a4a4f/DESIGN.md | https://styles.refero.design/style/9f9a4a4f-1a27-47ca-a65b-68b9850a84e4 |
+| General Intelligence Company | light | ai | light | docs/refero/styles/general-intelligence-company-34baa524/DESIGN.md | https://styles.refero.design/style/34baa524-5d5b-4165-bbab-d01f05e6d6b9 |
+| Raycast | dark | productivity | dark | docs/refero/styles/raycast-3b6a17f0/DESIGN.md | https://styles.refero.design/style/3b6a17f0-3bdf-418c-a95e-0b89e5a8b2f8 |
+| Titan | light | fintech | light | docs/refero/styles/titan-964b9215/DESIGN.md | https://styles.refero.design/style/964b9215-396b-492c-abec-7bd778d7b1c9 |
+| Dia Browser | light | ai | light | docs/refero/styles/dia-browser-b458ca1a/DESIGN.md | https://styles.refero.design/style/b458ca1a-70f0-4f85-b745-f879a4d08457 |
+| Anthropic | light | ai | light | docs/refero/styles/anthropic-d469cba4/DESIGN.md | https://styles.refero.design/style/d469cba4-c448-4a43-a033-883f8bfcdc42 |
+| Minimalissimo | light | design | light | docs/refero/styles/minimalissimo-35ff063b/DESIGN.md | https://styles.refero.design/style/35ff063b-1fcc-48a2-83b3-56da01e23880 |
+| Column | light | fintech | light | docs/refero/styles/column-a76ec6ba/DESIGN.md | https://styles.refero.design/style/a76ec6ba-20b3-495c-9d89-1e58281e79e7 |
+| Base44 | light | ai | light | docs/refero/styles/base44-e869e214/DESIGN.md | https://styles.refero.design/style/e869e214-f672-4ac3-bfc2-bd25de7b003b |
+| Acctual | light | fintech | light | docs/refero/styles/acctual-aeefc294/DESIGN.md | https://styles.refero.design/style/aeefc294-a8f7-443d-b76a-538dddc29afe |
+| Hyer Aviation | light | other | light | docs/refero/styles/hyer-aviation-f61cf515/DESIGN.md | https://styles.refero.design/style/f61cf515-ccd5-4494-bdd1-be9fe4d7258c |
+| Authkit | dark | devtools | dark | docs/refero/styles/authkit-e80231a2/DESIGN.md | https://styles.refero.design/style/e80231a2-e4d6-406a-a2c9-2e6109679690 |
+| Gleap | light | saas | light | docs/refero/styles/gleap-2eab438d/DESIGN.md | https://styles.refero.design/style/2eab438d-32cd-40c2-b160-1e4127dac569 |
+| OpenAI | light | ai | light | docs/refero/styles/openai-dc541737/DESIGN.md | https://styles.refero.design/style/dc541737-8bf2-4b31-b729-0352f696e82f |
+| Contractbook | light | saas | light | docs/refero/styles/contractbook-fbc60c55/DESIGN.md | https://styles.refero.design/style/fbc60c55-da20-4684-a279-0ed86590272e |
+| Augen Pro | light | saas | light | docs/refero/styles/augen-pro-0f7da1b2/DESIGN.md | https://styles.refero.design/style/0f7da1b2-9d06-4ef5-b5a8-ef7f92e57ab2 |
+| Apple | light | ecommerce | light | docs/refero/styles/apple-a48ef430/DESIGN.md | https://styles.refero.design/style/a48ef430-8c6a-42d8-8c53-ab7bb43cf33b |
+| All-In-One Salon | light | saas | light | docs/refero/styles/all-in-one-salon-7ad5549e/DESIGN.md | https://styles.refero.design/style/7ad5549e-9baa-4fda-ac43-79d568a86b98 |
+| Duolingo | light | other | light | docs/refero/styles/duolingo-7088d695/DESIGN.md | https://styles.refero.design/style/7088d695-362b-4e09-b325-fa8136d4f350 |
+| customer.io | light | saas | light | docs/refero/styles/customer-io-abbaa70a/DESIGN.md | https://styles.refero.design/style/abbaa70a-5fe2-44a9-9c5f-272e68c450c3 |
+| Perplexity AI | light | ai | light | docs/refero/styles/perplexity-ai-81afaa5c/DESIGN.md | https://styles.refero.design/style/81afaa5c-73ac-4ef4-9a99-296da325ea6c |
+| Airbnb | light | ecommerce | light | docs/refero/styles/airbnb-c2325884/DESIGN.md | https://styles.refero.design/style/c2325884-4391-4688-85cd-e143f5107517 |
+| Virtual | dark | other | dark | docs/refero/styles/virtual-572bc29f/DESIGN.md | https://styles.refero.design/style/572bc29f-8827-4f77-b248-08dddf1c2e26 |
+| Workable | light | saas | light | docs/refero/styles/workable-0ab4c544/DESIGN.md | https://styles.refero.design/style/0ab4c544-6147-4998-8365-3a0f6191e54f |
+| Ui | light | ai | light | docs/refero/styles/ui-0fd67ec5/DESIGN.md | https://styles.refero.design/style/0fd67ec5-7e9c-4ca9-b368-5d9c7388477a |
+| Fey | dark | devtools | dark | docs/refero/styles/fey-733e6475/DESIGN.md | https://styles.refero.design/style/733e6475-892a-4138-8835-bf40344df317 |
+| Zed | light | devtools | light | docs/refero/styles/zed-a541789c/DESIGN.md | https://styles.refero.design/style/a541789c-36e7-45a4-9d1d-143921a82a8b |
+| AutoSend | light | saas | light | docs/refero/styles/autosend-3d6eda0c/DESIGN.md | https://styles.refero.design/style/3d6eda0c-16ab-4e7e-aca6-5f9a5432bfd1 |
+| Resend | dark | devtools | dark | docs/refero/styles/resend-0d914ef0/DESIGN.md | https://styles.refero.design/style/0d914ef0-fa84-4c60-a9aa-cef0b5eb6e5d |
+| Sociotype | light | design | light | docs/refero/styles/sociotype-973332dc/DESIGN.md | https://styles.refero.design/style/973332dc-4e10-4e90-85d8-3bce9c3cd3ed |
+| Apple | light | ecommerce | light | docs/refero/styles/apple-a4f123f2/DESIGN.md | https://styles.refero.design/style/a4f123f2-cd4b-4d26-998f-a3d3ee158024 |
+| Mike Matas | light | agency | light | docs/refero/styles/mike-matas-04f6cb02/DESIGN.md | https://styles.refero.design/style/04f6cb02-de90-4d78-9c5f-0eb52f826484 |
+| Slack | light | productivity | light | docs/refero/styles/slack-e26cb9b0/DESIGN.md | https://styles.refero.design/style/e26cb9b0-f876-41ff-9f24-fd67a6b9776c |
+| Superintelligence for work | light | ai | light | docs/refero/styles/superintelligence-for-work-1db2adc9/DESIGN.md | https://styles.refero.design/style/1db2adc9-2f10-4f20-af1b-27fa4b25f729 |
+| monopo london | dark | design | dark | docs/refero/styles/monopo-london-56025d9b/DESIGN.md | https://styles.refero.design/style/56025d9b-3793-4303-b437-440440045d4c |
+| Steep | light | ai | light | docs/refero/styles/steep-75fdb89f/DESIGN.md | https://styles.refero.design/style/75fdb89f-ca64-41b3-af36-7a78bd09448e |
+| Slite | light | productivity | light | docs/refero/styles/slite-607c2098/DESIGN.md | https://styles.refero.design/style/607c2098-bbbb-40bb-b23e-adf2b72c63dd |
+| Vercel | light | devtools | light | docs/refero/styles/vercel-f24daf3a/DESIGN.md | https://styles.refero.design/style/f24daf3a-d43f-4dec-85a9-8ac1d5148a03 |
+| Ferrari | mixed | other | both | docs/refero/styles/ferrari-80164adf/DESIGN.md | https://styles.refero.design/style/80164adf-a898-4f7c-bce7-12f3f62e1649 |
+| Claude | light | ai | light | docs/refero/styles/claude-47cb86b6/DESIGN.md | https://styles.refero.design/style/47cb86b6-cb2d-41c8-94ba-8607cd7c41cd |
+| Amplemarket | light | ai | light | docs/refero/styles/amplemarket-db451eca/DESIGN.md | https://styles.refero.design/style/db451eca-8de6-43a9-a5d5-35271befdffd |
+| Leonardo.ai | dark | ai | dark | docs/refero/styles/leonardo-ai-8c3f2805/DESIGN.md | https://styles.refero.design/style/8c3f2805-dfce-4edd-8a9c-946bee4f1cff |
+| Lift-off challenge | light | other | light | docs/refero/styles/lift-off-challenge-cf1f4666/DESIGN.md | https://styles.refero.design/style/cf1f4666-bb5b-4fc4-a3e6-660218996cbb |
+| teenage engineering | light | other | light | docs/refero/styles/teenage-engineering-aecf9dda/DESIGN.md | https://styles.refero.design/style/aecf9dda-5cba-4dc7-9e73-59b65d895cdf |
+| Bang & Olufsen | mixed | ecommerce | both | docs/refero/styles/bang-and-olufsen-27a4a4fa/DESIGN.md | https://styles.refero.design/style/27a4a4fa-4b1a-4e7e-b2c3-3e5bf57f00e5 |
+| Sequel | dark | fintech | dark | docs/refero/styles/sequel-1bd3b2ba/DESIGN.md | https://styles.refero.design/style/1bd3b2ba-9ad9-44ed-9130-03f9d94de821 |
+| Interaction | light | design | light | docs/refero/styles/interaction-5fae307a/DESIGN.md | https://styles.refero.design/style/5fae307a-90ef-4181-9525-3ac308896ffc |
+| Fictional | light | design | light | docs/refero/styles/fictional-af2e0bc4/DESIGN.md | https://styles.refero.design/style/af2e0bc4-ef1c-4365-a25d-00b691218431 |
+| Ramp | dark | fintech | dark | docs/refero/styles/ramp-b38702a0/DESIGN.md | https://styles.refero.design/style/b38702a0-75ab-474c-9106-00b624535825 |
+| Framer | dark | design | dark | docs/refero/styles/framer-d417b42f/DESIGN.md | https://styles.refero.design/style/d417b42f-824d-45ba-a02e-cbef3b8ea0d8 |
+| Notion | dark | saas | dark | docs/refero/styles/notion-2bf4c61f/DESIGN.md | https://styles.refero.design/style/2bf4c61f-de10-4614-ba1b-20c0453bd2a9 |
+| mono | light | design | light | docs/refero/styles/mono-859f6be7/DESIGN.md | https://styles.refero.design/style/859f6be7-9d2d-4da6-a9b7-baa658172696 |
+| Rox | light | fintech | light | docs/refero/styles/rox-66eb1c37/DESIGN.md | https://styles.refero.design/style/66eb1c37-a8e5-4e6c-b17f-a75385b462e7 |
+| Revolut | light | fintech | light | docs/refero/styles/revolut-a3161c3c/DESIGN.md | https://styles.refero.design/style/a3161c3c-26d4-425b-aaa3-4fc3f06b77ee |
+| Ciridae | dark | ai | dark | docs/refero/styles/ciridae-a1b78a21/DESIGN.md | https://styles.refero.design/style/a1b78a21-a304-482b-8ce5-f612d95d44fe |
+| Dialog | light | ecommerce | light | docs/refero/styles/dialog-c8c22958/DESIGN.md | https://styles.refero.design/style/c8c22958-ec50-47f1-aedc-a131d7aeb442 |
+| xAI | dark | ai | dark | docs/refero/styles/xai-3b83dfe4/DESIGN.md | https://styles.refero.design/style/3b83dfe4-2f53-4a4d-819d-e6045ca5f7dc |
+| GitHub | dark | devtools | dark | docs/refero/styles/github-c3ceca5c/DESIGN.md | https://styles.refero.design/style/c3ceca5c-d329-4559-b947-016172941ba2 |
+| Intercom | light | ai | light | docs/refero/styles/intercom-12255b63/DESIGN.md | https://styles.refero.design/style/12255b63-e506-4bc1-a4cd-d05487de32f3 |
+| New Genre | light | design | light | docs/refero/styles/new-genre-2318d650/DESIGN.md | https://styles.refero.design/style/2318d650-b229-4be0-9adc-9f17cecfd253 |
+| Airtable | light | productivity | light | docs/refero/styles/airtable-f4ef80f4/DESIGN.md | https://styles.refero.design/style/f4ef80f4-f6e5-4aea-8045-f99efaf208b8 |
+| Clay | light | saas | light | docs/refero/styles/clay-b5ca4e9a/DESIGN.md | https://styles.refero.design/style/b5ca4e9a-2322-4796-b4c5-3b3bf194821f |
+| LottieFiles | light | design | light | docs/refero/styles/lottiefiles-a80507cb/DESIGN.md | https://styles.refero.design/style/a80507cb-afda-46dd-a2b9-ba91f3a78e78 |
+| Visitors | light | saas | light | docs/refero/styles/visitors-e7876363/DESIGN.md | https://styles.refero.design/style/e7876363-181a-44a9-9e5c-2255cf98aea5 |
+| Eco | mixed | fintech | both | docs/refero/styles/eco-9cc537fc/DESIGN.md | https://styles.refero.design/style/9cc537fc-97d8-4632-8703-f9aa296c2206 |
+| Playful | light | productivity | light | docs/refero/styles/playful-f93ac72e/DESIGN.md | https://styles.refero.design/style/f93ac72e-73b2-4b2c-80eb-351ddfa56f4d |
+| Grand Matter | light | agency | light | docs/refero/styles/grand-matter-703d69b7/DESIGN.md | https://styles.refero.design/style/703d69b7-2863-44fa-a443-2ac090db3873 |
+| BMW.com | light | other | light | docs/refero/styles/bmw-com-b8899cbd/DESIGN.md | https://styles.refero.design/style/b8899cbd-e2ca-4069-83cf-d8f8b0d71100 |
+| Sana Agents | light | ai | light | docs/refero/styles/sana-agents-5bfbe8b0/DESIGN.md | https://styles.refero.design/style/5bfbe8b0-de0e-470f-b130-929f50437160 |
+| Officevibe | light | saas | light | docs/refero/styles/officevibe-ced1c98f/DESIGN.md | https://styles.refero.design/style/ced1c98f-d489-48f7-a01f-1fa59a07b706 |
+| ChatGPT | light | ai | light | docs/refero/styles/chatgpt-52a007ed/DESIGN.md | https://styles.refero.design/style/52a007ed-ad1b-46a6-bd44-b76f91df6d0c |
+| Humble | light | ai | light | docs/refero/styles/humble-a6950b49/DESIGN.md | https://styles.refero.design/style/a6950b49-8ce4-4330-9499-26ca08061599 |
+| Legend | light | crypto | light | docs/refero/styles/legend-63bd1ed9/DESIGN.md | https://styles.refero.design/style/63bd1ed9-b161-45fd-8734-85282bd945ec |
+| Legora | light | ai | light | docs/refero/styles/legora-f89bad29/DESIGN.md | https://styles.refero.design/style/f89bad29-019a-48d7-9724-c40a0d7d8171 |
+| Ed Hinrichsen | light | other | light | docs/refero/styles/ed-hinrichsen-d266fee3/DESIGN.md | https://styles.refero.design/style/d266fee3-7479-4725-b727-e343ccefb576 |
+| mymind | light | productivity | light | docs/refero/styles/mymind-5bfe6c1d/DESIGN.md | https://styles.refero.design/style/5bfe6c1d-1b15-4f8d-b0c9-677a33291c5d |
+| Krea | dark | ai | dark | docs/refero/styles/krea-50833119/DESIGN.md | https://styles.refero.design/style/50833119-cb36-4b75-b0cc-be48afea050a |
+| Things | light | productivity | light | docs/refero/styles/things-ec0f5bca/DESIGN.md | https://styles.refero.design/style/ec0f5bca-8367-49e7-b8aa-73b3fa09a4a0 |
+| Moving Parts | light | devtools | light | docs/refero/styles/moving-parts-fb459c9d/DESIGN.md | https://styles.refero.design/style/fb459c9d-c089-4d0b-b5b0-d147b1c4ebd7 |
+| Delphi | light | ai | light | docs/refero/styles/delphi-43c1b150/DESIGN.md | https://styles.refero.design/style/43c1b150-0dab-42f9-9bce-fe0be3dde26c |
+| Adaline | light | ai | light | docs/refero/styles/adaline-312423bf/DESIGN.md | https://styles.refero.design/style/312423bf-72ea-42fb-b8f5-ab0104e778f3 |
+| Headspace | light | other | light | docs/refero/styles/headspace-035a098b/DESIGN.md | https://styles.refero.design/style/035a098b-5a27-48a3-8a3a-c68a698e3eab |
+| Retool | dark | devtools | dark | docs/refero/styles/retool-c45b115b/DESIGN.md | https://styles.refero.design/style/c45b115b-dcb5-446d-8952-85aef740f8e4 |
+| True Staging | dark | other | dark | docs/refero/styles/true-staging-c26c462d/DESIGN.md | https://styles.refero.design/style/c26c462d-f219-4814-96da-c05e86f759b7 |
+| Monologue | dark | productivity | dark | docs/refero/styles/monologue-8401cb26/DESIGN.md | https://styles.refero.design/style/8401cb26-91a3-4b46-941e-1c75790821eb |
+| Paste | light | productivity | light | docs/refero/styles/paste-742b500d/DESIGN.md | https://styles.refero.design/style/742b500d-3e10-4daa-bb89-d0d26272e5f6 |
+| Glideapps | light | saas | light | docs/refero/styles/glideapps-a80cb179/DESIGN.md | https://styles.refero.design/style/a80cb179-2d90-4896-b52d-4e674b421498 |
+| Koichi Takada Architects | light | design | light | docs/refero/styles/koichi-takada-architects-9e6d5a24/DESIGN.md | https://styles.refero.design/style/9e6d5a24-a9e6-4026-a037-5ec87afe4147 |
+| David Heckhoff | light | design | light | docs/refero/styles/david-heckhoff-15f0809b/DESIGN.md | https://styles.refero.design/style/15f0809b-b7e0-4824-844f-286c39f4accf |
+| Fresha | light | productivity | light | docs/refero/styles/fresha-066625ba/DESIGN.md | https://styles.refero.design/style/066625ba-0d8d-472e-8240-4026ed7bb94e |
+| Bun | dark | devtools | dark | docs/refero/styles/bun-408a149c/DESIGN.md | https://styles.refero.design/style/408a149c-702f-4442-99df-bea49d9c0d9b |
+| Attio | light | saas | light | docs/refero/styles/attio-08c8700c/DESIGN.md | https://styles.refero.design/style/08c8700c-f278-42bc-812e-f60dc6ce996e |
+| Playdate | mixed | other | both | docs/refero/styles/playdate-2175034b/DESIGN.md | https://styles.refero.design/style/2175034b-96d7-417e-886f-ff5a4d8551ae |
+| Travelperk | light | saas | light | docs/refero/styles/travelperk-75c06591/DESIGN.md | https://styles.refero.design/style/75c06591-34d2-493a-bd49-70551b5e4a53 |
+| HLE | dark | media | dark | docs/refero/styles/hle-5abe1239/DESIGN.md | https://styles.refero.design/style/5abe1239-79b9-4ebc-b4d1-9b2a85dc29a4 |
+| Jonas Mosesson | light | design | light | docs/refero/styles/jonas-mosesson-f70e6b90/DESIGN.md | https://styles.refero.design/style/f70e6b90-323d-4aa7-9c04-b333140960d7 |
+| Slash | dark | fintech | dark | docs/refero/styles/slash-7c38e84b/DESIGN.md | https://styles.refero.design/style/7c38e84b-aea0-4c8f-b3e9-60b994ee6c6b |
+| 099 | dark | agency | dark | docs/refero/styles/099-e4a7b5f3/DESIGN.md | https://styles.refero.design/style/e4a7b5f3-f393-4f6d-b4a5-ecf874024bed |
+| Scale | dark | ai | dark | docs/refero/styles/scale-e81d4724/DESIGN.md | https://styles.refero.design/style/e81d4724-9615-4159-8678-cef35f986cab |
+| Render | light | devtools | light | docs/refero/styles/render-c14bfde7/DESIGN.md | https://styles.refero.design/style/c14bfde7-6f08-4b54-bd9b-39989d10cfef |
+| Porsche | mixed | other | both | docs/refero/styles/porsche-98676f9d/DESIGN.md | https://styles.refero.design/style/98676f9d-5c41-413b-afdc-4a87deb154d6 |
+| Midday | light | fintech | light | docs/refero/styles/midday-3f2b79c1/DESIGN.md | https://styles.refero.design/style/3f2b79c1-d980-4380-a903-29856975fc37 |
+| Chronicle | light | saas | light | docs/refero/styles/chronicle-1c60b014/DESIGN.md | https://styles.refero.design/style/1c60b014-473b-443b-b0f5-220612feebb7 |
+| Apple | dark | ecommerce | dark | docs/refero/styles/apple-764b6a64/DESIGN.md | https://styles.refero.design/style/764b6a64-c233-4e0f-b8e1-bc01e2f8aa16 |
+| Startupblowup | light | other | light | docs/refero/styles/startupblowup-80ad4cc4/DESIGN.md | https://styles.refero.design/style/80ad4cc4-de09-49b7-b831-0f098ece6b16 |
+| Superlative | dark | design | dark | docs/refero/styles/superlative-10ab6120/DESIGN.md | https://styles.refero.design/style/10ab6120-3d03-48ff-aebe-0b4910edc046 |
+| Palette Supply | light | design | light | docs/refero/styles/palette-supply-542453bb/DESIGN.md | https://styles.refero.design/style/542453bb-1895-45fe-95c9-66dbacbf1b08 |
+| Leonid Kostetskyi | light | design | light | docs/refero/styles/leonid-kostetskyi-5a7ba5ff/DESIGN.md | https://styles.refero.design/style/5a7ba5ff-0476-4f3f-99f9-0b920534dde5 |
+| Together AI | mixed | ai | both | docs/refero/styles/together-ai-461da0f0/DESIGN.md | https://styles.refero.design/style/461da0f0-fde6-46bc-8137-7eca006260a8 |
+| Neon | dark | devtools | dark | docs/refero/styles/neon-cc38369a/DESIGN.md | https://styles.refero.design/style/cc38369a-41e3-4bcd-b619-230ccffe7e8e |
+| Hims App | light | other | light | docs/refero/styles/hims-app-0a489bce/DESIGN.md | https://styles.refero.design/style/0a489bce-4f93-4b38-b612-d87b1d00999e |
+| José Meza | dark | design | dark | docs/refero/styles/jose-meza-8321c2d1/DESIGN.md | https://styles.refero.design/style/8321c2d1-686f-4752-9156-ea613a879b9e |
+| Panxo | light | other | light | docs/refero/styles/panxo-8b5cfe6d/DESIGN.md | https://styles.refero.design/style/8b5cfe6d-a2bd-4edb-854e-9185cec46c09 |
+| Agence Foudre | light | agency | light | docs/refero/styles/agence-foudre-c1534c74/DESIGN.md | https://styles.refero.design/style/c1534c74-f7b8-44de-a913-586d0f78fb08 |
+| Wise | light | fintech | light | docs/refero/styles/wise-367c0c6e/DESIGN.md | https://styles.refero.design/style/367c0c6e-73a7-441c-a8ff-91d139ac60dc |
+| kaisermann | dark | other | dark | docs/refero/styles/kaisermann-872ce8b7/DESIGN.md | https://styles.refero.design/style/872ce8b7-993d-4dea-a361-9ccb59d136c0 |
+| Aboard | dark | ai | dark | docs/refero/styles/aboard-7b083729/DESIGN.md | https://styles.refero.design/style/7b083729-e694-4b66-82a3-befb08451722 |
+| Svelte | light | devtools | light | docs/refero/styles/svelte-303ca7ea/DESIGN.md | https://styles.refero.design/style/303ca7ea-e6fa-4e95-8acb-8008c4d3c068 |
+| Superwhisper | dark | ai | dark | docs/refero/styles/superwhisper-b8a8976c/DESIGN.md | https://styles.refero.design/style/b8a8976c-52d9-4ebb-95ea-4c40f4a9acab |
+| Cycle | light | other | light | docs/refero/styles/cycle-3677bc04/DESIGN.md | https://styles.refero.design/style/3677bc04-7461-4aa4-aec7-5291bac41b0b |
+| 14islands | light | agency | light | docs/refero/styles/14islands-139c4bee/DESIGN.md | https://styles.refero.design/style/139c4bee-396d-494c-baf0-fe211bf4928d |
+| Public | light | fintech | light | docs/refero/styles/public-9d16aa65/DESIGN.md | https://styles.refero.design/style/9d16aa65-cef7-4bf7-83c8-91837a248cd9 |
+| Peak Design | light | ecommerce | light | docs/refero/styles/peak-design-6f3fb64d/DESIGN.md | https://styles.refero.design/style/6f3fb64d-d4c9-4ec1-86a1-7983e5180985 |
+| Prose | light | ecommerce | light | docs/refero/styles/prose-39f06f54/DESIGN.md | https://styles.refero.design/style/39f06f54-eb62-4cd5-bbf6-0f1927016ca4 |
+| GEMINI | dark | design | dark | docs/refero/styles/gemini-a316193c/DESIGN.md | https://styles.refero.design/style/a316193c-6a5f-4a43-96ee-003afdf862ad |
+| Inngest | dark | devtools | dark | docs/refero/styles/inngest-62e8e59e/DESIGN.md | https://styles.refero.design/style/62e8e59e-17a5-4eba-a6c6-1c7f67ded518 |
+| Shop | light | ecommerce | light | docs/refero/styles/shop-4fa67bd1/DESIGN.md | https://styles.refero.design/style/4fa67bd1-f01d-454a-b522-4a0359ff9815 |
+| Dovetail | dark | ai | dark | docs/refero/styles/dovetail-108e2695/DESIGN.md | https://styles.refero.design/style/108e2695-6970-47d5-b5b0-eea8fc34e048 |
+| Christopherdoyle | light | design | light | docs/refero/styles/christopherdoyle-e1223d32/DESIGN.md | https://styles.refero.design/style/e1223d32-c423-4c95-ae0a-8a6f8585e6a2 |
+| Mario Carrillo | light | design | light | docs/refero/styles/mario-carrillo-c181d124/DESIGN.md | https://styles.refero.design/style/c181d124-242e-469b-a91a-4e44aad49a86 |
+| Supabase | dark | devtools | dark | docs/refero/styles/supabase-632249f1/DESIGN.md | https://styles.refero.design/style/632249f1-fd78-4c77-9b34-7bae37ff3e9b |
+| Zendesk | light | saas | light | docs/refero/styles/zendesk-b859ee70/DESIGN.md | https://styles.refero.design/style/b859ee70-863e-44c6-ab5c-f8cdb404c570 |
+| Cal.com | light | productivity | light | docs/refero/styles/cal-com-5d7aa503/DESIGN.md | https://styles.refero.design/style/5d7aa503-8cfa-49a4-bd3b-0c2f0f075c70 |
+| T1 Energy | light | other | light | docs/refero/styles/t1-energy-e79b761d/DESIGN.md | https://styles.refero.design/style/e79b761d-f476-4c5d-8943-e31a58664e4d |
+| Dub | light | saas | light | docs/refero/styles/dub-b0d80806/DESIGN.md | https://styles.refero.design/style/b0d80806-b724-4ed1-a1d1-074edd3c9bc9 |
+| Visual | light | ai | light | docs/refero/styles/visual-d2c0ed7b/DESIGN.md | https://styles.refero.design/style/d2c0ed7b-c649-4d77-91de-1bd69dd10a9e |
+| Quizlet | light | other | light | docs/refero/styles/quizlet-528eb1d4/DESIGN.md | https://styles.refero.design/style/528eb1d4-8508-4dc6-87b4-c7b92d648dac |
+| Lamborghini.com | mixed | other | both | docs/refero/styles/lamborghini-com-c9c5be5a/DESIGN.md | https://styles.refero.design/style/c9c5be5a-aaa1-4338-9681-8378d2e24fbd |
+| Coda | light | fintech | light | docs/refero/styles/coda-e0ad1a25/DESIGN.md | https://styles.refero.design/style/e0ad1a25-5609-45e6-a355-9bdeec86c5ae |
+| Maxima Therapy | light | other | light | docs/refero/styles/maxima-therapy-a122b132/DESIGN.md | https://styles.refero.design/style/a122b132-2259-41ca-a301-4468dd17a386 |
+| Unseen Studio® | light | agency | light | docs/refero/styles/unseen-studio-25009c35/DESIGN.md | https://styles.refero.design/style/25009c35-8b3b-4898-9295-3e0e0aa07207 |
+| Aino | light | agency | light | docs/refero/styles/aino-2ef27b47/DESIGN.md | https://styles.refero.design/style/2ef27b47-36b6-46a3-b325-512bccc76abc |
+| MasterClass | dark | media | dark | docs/refero/styles/masterclass-4367b4cd/DESIGN.md | https://styles.refero.design/style/4367b4cd-b002-4719-a418-cbce020f0d33 |
+| Gumroad | light | ecommerce | light | docs/refero/styles/gumroad-d67e1407/DESIGN.md | https://styles.refero.design/style/d67e1407-6d16-47e8-89cf-22f5c5f2dd88 |
+| Away | light | ecommerce | light | docs/refero/styles/away-3ddaa1f6/DESIGN.md | https://styles.refero.design/style/3ddaa1f6-bebc-44e3-a6df-b653179f3fd9 |
+| Structured | light | fintech | light | docs/refero/styles/structured-6c0b77d3/DESIGN.md | https://styles.refero.design/style/6c0b77d3-71f9-469d-98aa-4ce1d6d76ac8 |
+| Vanta | light | saas | light | docs/refero/styles/vanta-6b4c8ca5/DESIGN.md | https://styles.refero.design/style/6b4c8ca5-476e-442b-b713-d5fc58cf04ac |
+| Cori Corinne | light | design | light | docs/refero/styles/cori-corinne-2c18e573/DESIGN.md | https://styles.refero.design/style/2c18e573-0ffb-4f0d-848c-ff72a5839fd3 |
+| boords.com | light | saas | light | docs/refero/styles/boords-com-c955d25a/DESIGN.md | https://styles.refero.design/style/c955d25a-b32a-441d-9f07-a260d1df897b |
+| Pally | dark | productivity | dark | docs/refero/styles/pally-029d3ce0/DESIGN.md | https://styles.refero.design/style/029d3ce0-0fe5-4a8c-99c4-4f9d704f1c60 |
+| Raus | light | other | light | docs/refero/styles/raus-d28732de/DESIGN.md | https://styles.refero.design/style/d28732de-1b7a-4d37-b7aa-edfa7caf428b |
+| ID—C | light | design | light | docs/refero/styles/id-c-03a78f26/DESIGN.md | https://styles.refero.design/style/03a78f26-ebd4-4d09-9012-7c69d327df9a |
+| Sketch | light | design | light | docs/refero/styles/sketch-4caadb3c/DESIGN.md | https://styles.refero.design/style/4caadb3c-3865-4a4d-9e1a-46478ac71078 |
+| Gamma | light | ai | light | docs/refero/styles/gamma-a386d0d4/DESIGN.md | https://styles.refero.design/style/a386d0d4-01f1-4ec3-80ae-d505075d83ca |
+| Gsap | dark | devtools | dark | docs/refero/styles/gsap-00537a20/DESIGN.md | https://styles.refero.design/style/00537a20-e99e-4ef2-b119-c6f532c44cc9 |
+| AATHER | light | ecommerce | light | docs/refero/styles/aather-3b080dc3/DESIGN.md | https://styles.refero.design/style/3b080dc3-1992-43fe-91d6-2a721f934435 |
+| Luma | light | ai | light | docs/refero/styles/luma-680b0fff/DESIGN.md | https://styles.refero.design/style/680b0fff-26d0-45c3-808b-d571ff45eb99 |
+| User Interviews | light | saas | light | docs/refero/styles/user-interviews-376baf20/DESIGN.md | https://styles.refero.design/style/376baf20-9ace-405d-bf4a-086016f2b1e3 |
+| Branding | dark | agency | dark | docs/refero/styles/branding-4d4772a3/DESIGN.md | https://styles.refero.design/style/4d4772a3-e1da-415f-a6d7-658dcefdcecd |
+| Origin Financial | dark | fintech | dark | docs/refero/styles/origin-financial-c60f05ff/DESIGN.md | https://styles.refero.design/style/c60f05ff-2420-4a24-92db-80c4b6a74683 |
+| REGI Laboratories | light | other | light | docs/refero/styles/regi-laboratories-4cb66ac5/DESIGN.md | https://styles.refero.design/style/4cb66ac5-df12-46fc-beb2-d72a2a12a85d |
+| Telepathic Instruments | light | other | light | docs/refero/styles/telepathic-instruments-5183054c/DESIGN.md | https://styles.refero.design/style/5183054c-4c6e-4ecf-bd90-f7d794d5eb17 |
+| Frontify | light | design | light | docs/refero/styles/frontify-8f42603d/DESIGN.md | https://styles.refero.design/style/8f42603d-7ff9-446e-99a3-6bdd1f388ae5 |
+| Fuser | light | ai | light | docs/refero/styles/fuser-bf5616e4/DESIGN.md | https://styles.refero.design/style/bf5616e4-7bd1-40ce-8b2d-aae84c2e4ebd |
+| Changelog | dark | devtools | dark | docs/refero/styles/changelog-a5cc9b0f/DESIGN.md | https://styles.refero.design/style/a5cc9b0f-d274-458a-b990-d18482b70838 |
+| HoneyBook | light | saas | light | docs/refero/styles/honeybook-26dac924/DESIGN.md | https://styles.refero.design/style/26dac924-d1c8-4097-af0f-0417ccb12128 |
+| Liquid Ideas | light | design | light | docs/refero/styles/liquid-ideas-2ca88a8f/DESIGN.md | https://styles.refero.design/style/2ca88a8f-fd06-4e2c-8ff5-7e1bd37e37eb |
+| Midjourney | dark | ai | dark | docs/refero/styles/midjourney-225059ac/DESIGN.md | https://styles.refero.design/style/225059ac-0450-49d3-b2b7-d0e98b7ae938 |
+| Lovi | light | other | light | docs/refero/styles/lovi-51a9246f/DESIGN.md | https://styles.refero.design/style/51a9246f-9238-47dd-b254-48983b8713a2 |
+| Grafbase | light | devtools | light | docs/refero/styles/grafbase-1c1d3939/DESIGN.md | https://styles.refero.design/style/1c1d3939-8d82-4907-aa3c-c9b2fcfbab4f |
+| Wispr Flow | light | productivity | light | docs/refero/styles/wispr-flow-ac53825c/DESIGN.md | https://styles.refero.design/style/ac53825c-1e06-4ae0-8489-cace5c5e0339 |
+| Flowmapp | light | design | light | docs/refero/styles/flowmapp-caca412f/DESIGN.md | https://styles.refero.design/style/caca412f-7fc7-4510-aacc-5664d4f8ce9f |
+| Lpalo | light | media | light | docs/refero/styles/lpalo-79b4ebc4/DESIGN.md | https://styles.refero.design/style/79b4ebc4-30f6-45b6-b2d2-922e28e05ca9 |
+| Simon Foster | light | design | light | docs/refero/styles/simon-foster-79d341db/DESIGN.md | https://styles.refero.design/style/79d341db-8d54-46cd-9d22-2cc576548cfc |
+| Speakeasy | light | ai | light | docs/refero/styles/speakeasy-a0244aab/DESIGN.md | https://styles.refero.design/style/a0244aab-0dba-45fe-a595-416c1f0715be |
+| Tatem | dark | productivity | dark | docs/refero/styles/tatem-cb6e4ab0/DESIGN.md | https://styles.refero.design/style/cb6e4ab0-b8fe-45b0-bd22-6339b073e26d |
+| Dries Bos | light | other | light | docs/refero/styles/dries-bos-6d0db1c7/DESIGN.md | https://styles.refero.design/style/6d0db1c7-5500-40cd-b2f3-d3d9abbd3a2f |
+| basement.studio | dark | agency | dark | docs/refero/styles/basement-studio-e06224b2/DESIGN.md | https://styles.refero.design/style/e06224b2-6d52-4d06-bbde-115cec719b47 |
+| Huy Phan | light | agency | light | docs/refero/styles/huy-phan-6bc0dff4/DESIGN.md | https://styles.refero.design/style/6bc0dff4-b803-4e0c-a8f5-bef016843ae8 |
+| mostlikely | light | design | light | docs/refero/styles/mostlikely-4040f97b/DESIGN.md | https://styles.refero.design/style/4040f97b-42cf-49ef-ab2d-a77c00fe8285 |
+| Navigate | dark | crypto | dark | docs/refero/styles/navigate-045e9f2b/DESIGN.md | https://styles.refero.design/style/045e9f2b-91d3-44cc-bc99-1ce5f3fd4ed6 |
+| Marcos Rodrigues | dark | design | dark | docs/refero/styles/marcos-rodrigues-b76c7503/DESIGN.md | https://styles.refero.design/style/b76c7503-0217-4822-80b2-18fa19af46ee |
+| Linktr | light | productivity | light | docs/refero/styles/linktr-b04c379c/DESIGN.md | https://styles.refero.design/style/b04c379c-7c33-4d69-8882-8d85d7768654 |
+| Calendly.com | light | productivity | light | docs/refero/styles/calendly-com-9946887b/DESIGN.md | https://styles.refero.design/style/9946887b-ffa9-4276-af81-ae6352795afb |
+| EVOKE | light | design | light | docs/refero/styles/evoke-a69de146/DESIGN.md | https://styles.refero.design/style/a69de146-6ff1-4ea8-b4a4-9d182ca2de31 |
+| Arcade | light | design | light | docs/refero/styles/arcade-f65b0b91/DESIGN.md | https://styles.refero.design/style/f65b0b91-bdd1-458d-8775-2f6fa8a9d4b1 |
+| Wonder | dark | devtools | dark | docs/refero/styles/wonder-c81d2be0/DESIGN.md | https://styles.refero.design/style/c81d2be0-05b7-4755-8046-f2d19fbc448c |
+| N8n | dark | devtools | dark | docs/refero/styles/n8n-8601c8ef/DESIGN.md | https://styles.refero.design/style/8601c8ef-e1ea-4186-adb2-6f9a74caf436 |
+| BASIC/DEPT® | light | agency | light | docs/refero/styles/basic-dept-7bd31579/DESIGN.md | https://styles.refero.design/style/7bd31579-aec1-485c-91cf-72bbdfac40cd |
+| Conway | dark | saas | dark | docs/refero/styles/conway-b8ba443e/DESIGN.md | https://styles.refero.design/style/b8ba443e-5d83-4f37-b8c6-a1acd7623d0c |
+| OFF+BRAND. | light | agency | light | docs/refero/styles/off-brand-6b667ffc/DESIGN.md | https://styles.refero.design/style/6b667ffc-5158-4000-9252-3a107d5161ee |
+| Employment Hero | light | saas | light | docs/refero/styles/employment-hero-f4ebfdf4/DESIGN.md | https://styles.refero.design/style/f4ebfdf4-c79c-4d95-8221-9330254fb1f9 |
+| Ease Health | light | other | light | docs/refero/styles/ease-health-e9f5e976/DESIGN.md | https://styles.refero.design/style/e9f5e976-53f7-42f5-a882-4e63b3c2f734 |
+| Someone & Others | light | agency | light | docs/refero/styles/someone-and-others-9fecf7d6/DESIGN.md | https://styles.refero.design/style/9fecf7d6-b717-49ca-8edc-b10d6110b21c |
+| Egstad | light | design | light | docs/refero/styles/egstad-ec17bdec/DESIGN.md | https://styles.refero.design/style/ec17bdec-c8fa-4221-abd6-da717bf38d96 |
+| Function | light | other | light | docs/refero/styles/function-21b71be3/DESIGN.md | https://styles.refero.design/style/21b71be3-78a0-4681-a5b9-64cc4b40eb67 |
+| Clerk | mixed | devtools | both | docs/refero/styles/clerk-ed10ae04/DESIGN.md | https://styles.refero.design/style/ed10ae04-24ec-4e42-9bf2-ea12a4b58d67 |
+| Monocle | light | media | light | docs/refero/styles/monocle-9165ecb1/DESIGN.md | https://styles.refero.design/style/9165ecb1-f068-4093-8783-1f3c98898b8a |
+| WRDLSS | light | design | light | docs/refero/styles/wrdlss-a8dd9e77/DESIGN.md | https://styles.refero.design/style/a8dd9e77-f499-4c90-8dc9-38940ad7bf47 |
+| Copy | light | saas | light | docs/refero/styles/copy-1ae4bcfe/DESIGN.md | https://styles.refero.design/style/1ae4bcfe-c613-42fc-aab7-f9583381e7cc |
+| Parallel Web Systems | light | devtools | light | docs/refero/styles/parallel-web-systems-32845f27/DESIGN.md | https://styles.refero.design/style/32845f27-6b24-48be-af25-8e664f826b30 |
+| Palantir IR | dark | other | dark | docs/refero/styles/palantir-ir-6bc3526f/DESIGN.md | https://styles.refero.design/style/6bc3526f-0a25-4198-8a57-07872946988e |
+| Ballpark | light | other | light | docs/refero/styles/ballpark-9342e89b/DESIGN.md | https://styles.refero.design/style/9342e89b-c2fe-4acf-9993-53b44e0c13b5 |
+| FLORA | dark | ai | dark | docs/refero/styles/flora-cf8cd07d/DESIGN.md | https://styles.refero.design/style/cf8cd07d-bff0-41dc-ab70-fa85750f6168 |
+| Nathan Smith | dark | agency | dark | docs/refero/styles/nathan-smith-969b879e/DESIGN.md | https://styles.refero.design/style/969b879e-166b-4c1f-9c33-e44fa643188c |
+| ClickUp™ | light | productivity | light | docs/refero/styles/clickuptm-efcb73cb/DESIGN.md | https://styles.refero.design/style/efcb73cb-b84a-4ae7-9a2b-e1116f79f130 |
+| Neuralink | dark | ai | dark | docs/refero/styles/neuralink-7510b18e/DESIGN.md | https://styles.refero.design/style/7510b18e-63c3-4c2a-97c3-39fa7dfa6ae3 |
+| Typeform | mixed | saas | both | docs/refero/styles/typeform-a0d54731/DESIGN.md | https://styles.refero.design/style/a0d54731-58dc-448b-a6b0-ed543f397ab1 |
+| ToDesktop | mixed | devtools | both | docs/refero/styles/todesktop-dd89ce6c/DESIGN.md | https://styles.refero.design/style/dd89ce6c-f0aa-4ca8-bd63-19dcd81920a7 |
+| Volume | light | media | light | docs/refero/styles/volume-edc0c03e/DESIGN.md | https://styles.refero.design/style/edc0c03e-8c20-4e22-badd-2735fcb9f4a8 |
+| Sprout Social | dark | saas | dark | docs/refero/styles/sprout-social-da7c4464/DESIGN.md | https://styles.refero.design/style/da7c4464-f135-41fc-b635-99c6f4dc58e6 |
+| Warp | dark | devtools | dark | docs/refero/styles/warp-720c9806/DESIGN.md | https://styles.refero.design/style/720c9806-2d70-4dd1-9a19-12efd71fc742 |
+| The Leap | light | other | light | docs/refero/styles/the-leap-6b201ccd/DESIGN.md | https://styles.refero.design/style/6b201ccd-16ae-4c2d-84bb-498f7cb568dd |
+| Refero | light | design | light | docs/refero/styles/refero-3f296d6e/DESIGN.md | https://styles.refero.design/style/3f296d6e-6a1c-45db-829b-afb078d49ab4 |
+| Mintlify | light | devtools | light | docs/refero/styles/mintlify-80d7ef36/DESIGN.md | https://styles.refero.design/style/80d7ef36-ed7e-48bb-b558-f772eb40106f |
+| Clyde | dark | saas | dark | docs/refero/styles/clyde-39098e34/DESIGN.md | https://styles.refero.design/style/39098e34-b911-4ad3-bcb5-ee80a392cd95 |
+| Gt-maru | light | design | light | docs/refero/styles/gt-maru-d0771b1e/DESIGN.md | https://styles.refero.design/style/d0771b1e-15de-4bdb-868a-557cf83cf2a8 |
+| Seed | light | other | light | docs/refero/styles/seed-cd723d5a/DESIGN.md | https://styles.refero.design/style/cd723d5a-e7ea-4e4c-a3bb-6cf56e05057a |
+| Fingerprint | light | devtools | light | docs/refero/styles/fingerprint-da6ad92d/DESIGN.md | https://styles.refero.design/style/da6ad92d-4f29-4f92-a59a-3a46295d0d1c |
+| Frontier AI LLMs | light | ai | light | docs/refero/styles/frontier-ai-llms-d3caa7bf/DESIGN.md | https://styles.refero.design/style/d3caa7bf-2e2e-489a-845d-5cab274e7a92 |
+| Figma | light | design | light | docs/refero/styles/figma-60793669/DESIGN.md | https://styles.refero.design/style/60793669-28e2-41bd-bf9d-972151630f7c |
+| Superpower | light | other | light | docs/refero/styles/superpower-5d34568d/DESIGN.md | https://styles.refero.design/style/5d34568d-4bdc-445d-a527-c6f5249fa8fb |
+| Atlas Card | dark | fintech | dark | docs/refero/styles/atlas-card-3f6ef3c1/DESIGN.md | https://styles.refero.design/style/3f6ef3c1-f98f-4cd9-bdf0-545059758705 |
+| Handshake | light | ai | light | docs/refero/styles/handshake-dba3eb4f/DESIGN.md | https://styles.refero.design/style/dba3eb4f-c1c2-437f-beb2-708e9d074729 |
+| Uber | light | other | light | docs/refero/styles/uber-caf8d2ef/DESIGN.md | https://styles.refero.design/style/caf8d2ef-4173-4431-9d26-05be0272e9f8 |
+| makkaihang design | dark | design | dark | docs/refero/styles/makkaihang-design-adbdc8b1/DESIGN.md | https://styles.refero.design/style/adbdc8b1-be46-4d4c-a973-5022f6fd381e |
+| Lightdash | light | ai | light | docs/refero/styles/lightdash-d0f65d12/DESIGN.md | https://styles.refero.design/style/d0f65d12-a8e6-4631-99f7-bb7cdcd5b6c5 |
+| Factory.ai | light | ai | light | docs/refero/styles/factory-ai-13d6fc89/DESIGN.md | https://styles.refero.design/style/13d6fc89-eba2-4724-ac37-20f4f2e5efec |
+| Vibrants | light | ecommerce | light | docs/refero/styles/vibrants-f73ce3e0/DESIGN.md | https://styles.refero.design/style/f73ce3e0-4452-4b21-b36f-6fde27de2cd6 |
+| SEEN | light | media | light | docs/refero/styles/seen-a6d5cb26/DESIGN.md | https://styles.refero.design/style/a6d5cb26-75f6-4be5-95a4-67567a1e429d |
+| Designer Fashion | light | ecommerce | light | docs/refero/styles/designer-fashion-e9791a47/DESIGN.md | https://styles.refero.design/style/e9791a47-474b-4bd6-8957-b16fb4728d4a |
+| Stripe Press | dark | media | dark | docs/refero/styles/stripe-press-54f257e9/DESIGN.md | https://styles.refero.design/style/54f257e9-1d6b-4410-b94a-1dfe648ecc87 |
+| Wise Design | mixed | design | both | docs/refero/styles/wise-design-c5326639/DESIGN.md | https://styles.refero.design/style/c5326639-873a-4257-ad1a-7da9111e9286 |
+| Discord | dark | productivity | dark | docs/refero/styles/discord-faec4b0c/DESIGN.md | https://styles.refero.design/style/faec4b0c-cf93-4150-97de-0a8e7eed1840 |
+| ldd | light | agency | light | docs/refero/styles/ldd-e186e08f/DESIGN.md | https://styles.refero.design/style/e186e08f-e7ce-4b48-bd65-68bc300d2193 |
+| sunday | light | fintech | light | docs/refero/styles/sunday-d703d9f7/DESIGN.md | https://styles.refero.design/style/d703d9f7-4821-468e-8fe4-c8b5790b00ed |
+| monday.com | light | saas | light | docs/refero/styles/monday-com-77ee57e9/DESIGN.md | https://styles.refero.design/style/77ee57e9-9f8e-4ec1-93f7-cc1c4b84307a |
+| HubSpot | light | saas | light | docs/refero/styles/hubspot-3e100552/DESIGN.md | https://styles.refero.design/style/3e100552-a8ad-4179-b89a-6aa5113b92e1 |
+| UNVEIL® | light | agency | light | docs/refero/styles/unveil-48f3fc9d/DESIGN.md | https://styles.refero.design/style/48f3fc9d-f423-4774-aea5-9a3d68e39b54 |
+| Mesh | dark | productivity | dark | docs/refero/styles/mesh-1a03b8d7/DESIGN.md | https://styles.refero.design/style/1a03b8d7-9204-4c16-ad3c-16306f99fba9 |
+| DNA | dark | fintech | dark | docs/refero/styles/dna-bd9fdad0/DESIGN.md | https://styles.refero.design/style/bd9fdad0-ebe6-4546-a5c0-ed132ed0a471 |
+| Flighty | light | productivity | light | docs/refero/styles/flighty-0d0de64c/DESIGN.md | https://styles.refero.design/style/0d0de64c-1891-4984-9e12-8976e042ce11 |
+| Joshuakaplan | light | design | light | docs/refero/styles/joshuakaplan-67d00e1e/DESIGN.md | https://styles.refero.design/style/67d00e1e-8b8e-4fe7-8e3f-2b462125a22a |
+| Equals | light | saas | light | docs/refero/styles/equals-dae7cbf2/DESIGN.md | https://styles.refero.design/style/dae7cbf2-0485-433b-8f63-eea8716ad14d |
+| Aaply | light | productivity | light | docs/refero/styles/aaply-357e6fee/DESIGN.md | https://styles.refero.design/style/357e6fee-72db-40cf-b858-254b802018bd |
+| Yung Studio | dark | agency | dark | docs/refero/styles/yung-studio-2d43b251/DESIGN.md | https://styles.refero.design/style/2d43b251-ad01-4e59-9068-502457aa0592 |
+| Good Glyphs | light | design | light | docs/refero/styles/good-glyphs-41220ec0/DESIGN.md | https://styles.refero.design/style/41220ec0-ca0d-4697-a2fc-7a9a50d52e7c |
+| 21n | light | other | light | docs/refero/styles/21n-68d18deb/DESIGN.md | https://styles.refero.design/style/68d18deb-bb09-4258-8024-001af9c844c0 |
+| AndAgain | dark | agency | dark | docs/refero/styles/andagain-ab2a0b58/DESIGN.md | https://styles.refero.design/style/ab2a0b58-377d-4674-986e-4abbdf6c49ed |
+| Spotify | dark | media | dark | docs/refero/styles/spotify-1514a95f/DESIGN.md | https://styles.refero.design/style/1514a95f-878c-4d4d-bb14-99d1b83f6227 |
+| FRANKY'S | dark | ecommerce | dark | docs/refero/styles/franky-s-7c84da5d/DESIGN.md | https://styles.refero.design/style/7c84da5d-b7a0-436f-bfaa-68d0a14f8e86 |
+| Portfolio Cyd Stumpel | light | design | light | docs/refero/styles/portfolio-cyd-stumpel-016caeb7/DESIGN.md | https://styles.refero.design/style/016caeb7-7150-47a8-b6b2-c6a3192c616a |
+| Kobu | light | other | light | docs/refero/styles/kobu-355d4b38/DESIGN.md | https://styles.refero.design/style/355d4b38-1a53-4544-911e-0f5073ab836b |
+| Creative Giants | light | agency | light | docs/refero/styles/creative-giants-ff8f39ee/DESIGN.md | https://styles.refero.design/style/ff8f39ee-a10e-4a9d-a94d-6993c6084060 |
+| Orson | light | agency | light | docs/refero/styles/orson-37215d07/DESIGN.md | https://styles.refero.design/style/37215d07-9e4e-4cef-ad58-65d111caba19 |
+| Dylanbrouwer | light | design | light | docs/refero/styles/dylanbrouwer-b1e82907/DESIGN.md | https://styles.refero.design/style/b1e82907-d1cf-46cd-8ae7-3561c5b15fd0 |
+| Upstash | light | devtools | light | docs/refero/styles/upstash-e050061c/DESIGN.md | https://styles.refero.design/style/e050061c-346d-44cc-92ba-6b22beb4a91f |
+| Craftwork | light | agency | light | docs/refero/styles/craftwork-47c9e353/DESIGN.md | https://styles.refero.design/style/47c9e353-bed3-4d6c-8316-63a2db5cc377 |
+| Desktop.fm | light | media | light | docs/refero/styles/desktop-fm-cb266ff9/DESIGN.md | https://styles.refero.design/style/cb266ff9-f168-4a42-a522-f0e84508f90f |
+| Until App | light | productivity | light | docs/refero/styles/until-app-9a453290/DESIGN.md | https://styles.refero.design/style/9a453290-9b32-46f3-b9c2-768c85da3aef |
+| WHOOP | mixed | other | both | docs/refero/styles/whoop-05053a60/DESIGN.md | https://styles.refero.design/style/05053a60-1964-4154-9d58-ebdf6352ed3a |
+| Warp | dark | devtools | dark | docs/refero/styles/warp-79714b4e/DESIGN.md | https://styles.refero.design/style/79714b4e-c89a-44b3-8da4-931daa9a466f |
+| Hume AI | light | ai | light | docs/refero/styles/hume-ai-2e67105f/DESIGN.md | https://styles.refero.design/style/2e67105f-9f9a-45b5-9281-29734e753bd6 |
+| Healthy Together | mixed | fintech | both | docs/refero/styles/healthy-together-d577e44e/DESIGN.md | https://styles.refero.design/style/d577e44e-bc63-4cbe-b759-25262d089b95 |
+| Grok | light | ai | light | docs/refero/styles/grok-bbb993bc/DESIGN.md | https://styles.refero.design/style/bbb993bc-1452-4a22-8cc9-a44b91d79723 |
+| Revenuecat | light | devtools | light | docs/refero/styles/revenuecat-b5fdba21/DESIGN.md | https://styles.refero.design/style/b5fdba21-fd4d-427e-b551-1e22c51e42db |
+| entire studios | light | ecommerce | light | docs/refero/styles/entire-studios-cef25151/DESIGN.md | https://styles.refero.design/style/cef25151-078c-4631-8f02-4f204f071b8b |
+| Worth Agency | light | agency | light | docs/refero/styles/worth-agency-906ef782/DESIGN.md | https://styles.refero.design/style/906ef782-4be7-45ee-9800-0514d46e7518 |
+| Podia | light | saas | light | docs/refero/styles/podia-342f1c3b/DESIGN.md | https://styles.refero.design/style/342f1c3b-a123-49b6-a980-3491bc7793db |
+| OpenAI Developers | light | ai | light | docs/refero/styles/openai-developers-5c94c49f/DESIGN.md | https://styles.refero.design/style/5c94c49f-0612-4261-842c-e1d501f3e13d |
+| 247Studio | light | agency | light | docs/refero/styles/247studio-c43237e3/DESIGN.md | https://styles.refero.design/style/c43237e3-dae2-4fc6-a917-519b25c870e5 |
+| Standards | light | design | light | docs/refero/styles/standards-62b22816/DESIGN.md | https://styles.refero.design/style/62b22816-2d98-4e98-9c17-bf600ddb2fc8 |
+| Haley Park | dark | design | dark | docs/refero/styles/haley-park-c47654a9/DESIGN.md | https://styles.refero.design/style/c47654a9-7d7a-4b2c-8e0a-cd9296719c69 |
+| Figma Config | dark | design | dark | docs/refero/styles/figma-config-8caa5004/DESIGN.md | https://styles.refero.design/style/8caa5004-a8cc-4c7e-a2bb-00ff60618729 |
+| Webflow | light | devtools | light | docs/refero/styles/webflow-31471407/DESIGN.md | https://styles.refero.design/style/31471407-598a-45fd-a505-d921980d8855 |
+| Dropbox.com | light | saas | light | docs/refero/styles/dropbox-com-2b41e7c4/DESIGN.md | https://styles.refero.design/style/2b41e7c4-1e8c-4ea2-a87f-51e24c57886e |
+| Coinbase | light | crypto | light | docs/refero/styles/coinbase-df5e2be4/DESIGN.md | https://styles.refero.design/style/df5e2be4-c2bd-42bb-bbc7-409bae6355c3 |
+| Base Design | light | agency | light | docs/refero/styles/base-design-6be758be/DESIGN.md | https://styles.refero.design/style/6be758be-344f-4301-8ff9-60706356ea00 |
+| Patrick Miller | mixed | design | both | docs/refero/styles/patrick-miller-bb63a015/DESIGN.md | https://styles.refero.design/style/bb63a015-b018-4bd9-be66-0973ac6be753 |
+| mmm.page | light | design | light | docs/refero/styles/mmm-page-e6a3facd/DESIGN.md | https://styles.refero.design/style/e6a3facd-791c-4cc6-868d-2c6382d3cb0a |
+| Plain | light | saas | light | docs/refero/styles/plain-9501cfdc/DESIGN.md | https://styles.refero.design/style/9501cfdc-3eb3-4b64-90f6-9afdded48945 |
+| Danny Garcia | dark | other | dark | docs/refero/styles/danny-garcia-08b780cc/DESIGN.md | https://styles.refero.design/style/08b780cc-0fe3-4c53-8e93-27369bd7b032 |
+| ClickHouse | dark | devtools | dark | docs/refero/styles/clickhouse-bd96c1a6/DESIGN.md | https://styles.refero.design/style/bd96c1a6-32ba-42e0-bd5c-23c70a23142c |
+| Chester's Garden | light | agency | light | docs/refero/styles/chester-s-garden-a639fa6c/DESIGN.md | https://styles.refero.design/style/a639fa6c-1705-47c2-b452-d4479469a734 |
+| Foodnoms | light | other | light | docs/refero/styles/foodnoms-1e7dae3b/DESIGN.md | https://styles.refero.design/style/1e7dae3b-cb34-4fcf-8c32-051152aebbab |
+| Tomorrow Happens | light | design | light | docs/refero/styles/tomorrow-happens-cc91392f/DESIGN.md | https://styles.refero.design/style/cc91392f-c6df-4023-b7d5-607d9e5c3e77 |
+| JetBrains | dark | devtools | dark | docs/refero/styles/jetbrains-bc4fb98b/DESIGN.md | https://styles.refero.design/style/bc4fb98b-37ec-480a-b7a9-acd197cbebb9 |
+| Antonio Uve | light | design | light | docs/refero/styles/antonio-uve-532e9418/DESIGN.md | https://styles.refero.design/style/532e9418-5b63-4465-9d7e-b1e2490023c5 |
+| Tesla | light | other | light | docs/refero/styles/tesla-7266b546/DESIGN.md | https://styles.refero.design/style/7266b546-2fb0-465c-acd6-79001c39829a |
+| Integrated Biosciences | mixed | ai | both | docs/refero/styles/integrated-biosciences-80099f79/DESIGN.md | https://styles.refero.design/style/80099f79-72b7-4367-b2e9-6a3d4a3e9e6a |
+| Sougen | light | other | light | docs/refero/styles/sougen-20c01a33/DESIGN.md | https://styles.refero.design/style/20c01a33-fded-4094-8450-6114b1508a30 |
+| ATMOS | light | other | light | docs/refero/styles/atmos-36cba9c4/DESIGN.md | https://styles.refero.design/style/36cba9c4-9852-4f59-a52d-17be741f6ed8 |
+| Artem Militonian | light | design | light | docs/refero/styles/artem-militonian-c1749391/DESIGN.md | https://styles.refero.design/style/c1749391-de9f-4500-a838-01d08a72fc00 |
+| Glow | light | fintech | light | docs/refero/styles/glow-6d9b6fe6/DESIGN.md | https://styles.refero.design/style/6d9b6fe6-51f4-4978-82dd-a791c28db5cf |
+| Hex | light | ai | light | docs/refero/styles/hex-3e32db74/DESIGN.md | https://styles.refero.design/style/3e32db74-a61d-4e72-93b8-1fb949af2c00 |
+| Luffu | light | ai | light | docs/refero/styles/luffu-3da7b444/DESIGN.md | https://styles.refero.design/style/3da7b444-ded8-406b-90b7-96851604b92b |
+| Netflix | dark | media | dark | docs/refero/styles/netflix-32959012/DESIGN.md | https://styles.refero.design/style/32959012-f50d-4465-bb01-2aa4d506e0a8 |
+| Axiom | dark | devtools | dark | docs/refero/styles/axiom-c809190a/DESIGN.md | https://styles.refero.design/style/c809190a-035c-458d-87ed-4758807dd84e |
+| SpaceX | dark | other | dark | docs/refero/styles/spacex-13b74e34/DESIGN.md | https://styles.refero.design/style/13b74e34-b824-4d1d-bd2c-bb9bfbc2d6e1 |
+| Colab | dark | design | dark | docs/refero/styles/colab-b040360c/DESIGN.md | https://styles.refero.design/style/b040360c-38de-4c5f-aada-bd3a67cbedc2 |
+| Fly.io | light | devtools | light | docs/refero/styles/fly-io-0c77bb2a/DESIGN.md | https://styles.refero.design/style/0c77bb2a-c7cd-499b-b5cd-90268eefe906 |
+| Dopper | light | ecommerce | light | docs/refero/styles/dopper-734ab03c/DESIGN.md | https://styles.refero.design/style/734ab03c-a326-43e3-a463-c5f90247404f |
+| Traffic Productions | light | agency | light | docs/refero/styles/traffic-productions-657e55de/DESIGN.md | https://styles.refero.design/style/657e55de-8cff-4d24-9a4e-17d3b7593a55 |
+| Studio Few | light | design | light | docs/refero/styles/studio-few-d5931dff/DESIGN.md | https://styles.refero.design/style/d5931dff-2ae3-44c7-b76f-9e5936f90611 |
+| cthdrl | dark | design | dark | docs/refero/styles/cthdrl-565bfc50/DESIGN.md | https://styles.refero.design/style/565bfc50-3a19-4224-9a4c-125edaeb7bef |
+| SquadEasy | light | saas | light | docs/refero/styles/squadeasy-3e5c272b/DESIGN.md | https://styles.refero.design/style/3e5c272b-8d68-40d8-9726-b4d6914b4b16 |
+| Stocketa | light | fintech | light | docs/refero/styles/stocketa-c1f7749f/DESIGN.md | https://styles.refero.design/style/c1f7749f-319b-491b-8243-22050e85994f |
+| Foundry | dark | design | dark | docs/refero/styles/foundry-896f0ea9/DESIGN.md | https://styles.refero.design/style/896f0ea9-6f1a-40a6-aba7-fdaa579c7352 |
+| 7shifts | light | saas | light | docs/refero/styles/7shifts-736830b5/DESIGN.md | https://styles.refero.design/style/736830b5-90b1-47b0-99dd-d79454a0d22a |
+| Shopify | dark | ecommerce | dark | docs/refero/styles/shopify-1a8ba699/DESIGN.md | https://styles.refero.design/style/1a8ba699-24cb-4b35-8db1-c595c578199c |
+| Look inc | light | agency | light | docs/refero/styles/look-inc-ab1b113a/DESIGN.md | https://styles.refero.design/style/ab1b113a-ed21-4512-acc2-d10c8927c410 |
+| My Site 3 | light | media | light | docs/refero/styles/my-site-3-0ae2e849/DESIGN.md | https://styles.refero.design/style/0ae2e849-7a1f-432a-89c6-b49d4a988300 |
+| Brex | light | fintech | light | docs/refero/styles/brex-b58d92f6/DESIGN.md | https://styles.refero.design/style/b58d92f6-68a8-4358-8fc9-6ea58e6d483b |
+| Linus Rogge | mixed | agency | both | docs/refero/styles/linus-rogge-81a66e75/DESIGN.md | https://styles.refero.design/style/81a66e75-23af-4525-8a4e-f4a54c2700e7 |
+| Motto® | light | agency | light | docs/refero/styles/motto-6eb5fc89/DESIGN.md | https://styles.refero.design/style/6eb5fc89-d0db-4293-8bff-13c5aa530a28 |
+| Sequence | light | fintech | light | docs/refero/styles/sequence-707a9081/DESIGN.md | https://styles.refero.design/style/707a9081-3d1d-4a0b-b1aa-b58b3fab09af |
+| LaunchDarkly | dark | saas | dark | docs/refero/styles/launchdarkly-18a75348/DESIGN.md | https://styles.refero.design/style/18a75348-513a-49d8-94f5-e2df8c118b6b |
+| Dul Zorigoo | light | design | light | docs/refero/styles/dul-zorigoo-c8ca6c83/DESIGN.md | https://styles.refero.design/style/c8ca6c83-3197-4b19-af1c-b29d6f829c5f |
+| Giulia Saporito | light | design | light | docs/refero/styles/giulia-saporito-bc057246/DESIGN.md | https://styles.refero.design/style/bc057246-6ea4-4503-810f-98381e6be28d |
+| sweetgreen | light | ecommerce | light | docs/refero/styles/sweetgreen-d91841cf/DESIGN.md | https://styles.refero.design/style/d91841cf-c717-43ef-97a2-400778fa6e1a |
+| Dovetail | dark | ai | dark | docs/refero/styles/dovetail-6f9452a4/DESIGN.md | https://styles.refero.design/style/6f9452a4-3b64-4c6f-a05e-528d7a586f24 |
+| Giga | dark | ai | dark | docs/refero/styles/giga-607e0dbf/DESIGN.md | https://styles.refero.design/style/607e0dbf-e2fc-45c9-b939-946b8981c156 |
+| Air | dark | productivity | dark | docs/refero/styles/air-d3289fe7/DESIGN.md | https://styles.refero.design/style/d3289fe7-a85e-42d8-96b7-eb7faa62a104 |
+| Replicate | light | ai | light | docs/refero/styles/replicate-71c21f97/DESIGN.md | https://styles.refero.design/style/71c21f97-ba85-4439-b259-198a66f4b3d2 |
+| Glassnode | mixed | crypto | both | docs/refero/styles/glassnode-a79b6a74/DESIGN.md | https://styles.refero.design/style/a79b6a74-6b67-4c9f-9d69-bff80869b943 |
+| Fruitful | light | fintech | light | docs/refero/styles/fruitful-3634d5eb/DESIGN.md | https://styles.refero.design/style/3634d5eb-ccfa-4881-b234-3dd735fb7ae4 |
+| Airbnb | light | other | light | docs/refero/styles/airbnb-194faa2f/DESIGN.md | https://styles.refero.design/style/194faa2f-2f69-4bbf-9e29-290f28fa8ca2 |
+| Fey | dark | fintech | dark | docs/refero/styles/fey-a0630421/DESIGN.md | https://styles.refero.design/style/a0630421-7b66-48b4-aa14-6194a3b2c2b9 |
+| Google | light | ai | light | docs/refero/styles/google-a03a60a7/DESIGN.md | https://styles.refero.design/style/a03a60a7-0e40-4744-be13-475506cfbcb6 |
+| BRAVÒ STUDIO | dark | media | dark | docs/refero/styles/bravo-studio-32fee900/DESIGN.md | https://styles.refero.design/style/32fee900-17a5-4753-b08d-3c73f2d2f71f |
+| Gt-planar | dark | design | dark | docs/refero/styles/gt-planar-3f22028a/DESIGN.md | https://styles.refero.design/style/3f22028a-05d4-4648-a6d1-591134af06a4 |
+| Nike.com | light | ecommerce | light | docs/refero/styles/nike-com-d7ace114/DESIGN.md | https://styles.refero.design/style/d7ace114-0548-41f5-a2ff-2afbf32be94d |
+| OpenSea | dark | crypto | dark | docs/refero/styles/opensea-61f1902f/DESIGN.md | https://styles.refero.design/style/61f1902f-6da3-4af7-b046-3b08bc1377f6 |
+| Substack | light | media | light | docs/refero/styles/substack-14e563d8/DESIGN.md | https://styles.refero.design/style/14e563d8-a35a-4867-b4bf-15d1620ddae7 |
+| Navan | light | saas | light | docs/refero/styles/navan-a5089389/DESIGN.md | https://styles.refero.design/style/a5089389-4220-4fc2-82d9-973203d2e2f5 |
+| ORYZO AI | dark | other | dark | docs/refero/styles/oryzo-ai-1f204e95/DESIGN.md | https://styles.refero.design/style/1f204e95-454a-437e-845b-c1b169d35607 |
+| Art Direction/Design | light | design | light | docs/refero/styles/art-direction-design-733f32ca/DESIGN.md | https://styles.refero.design/style/733f32ca-efc3-40fb-bc58-327bd2b45828 |
+| Suno | dark | ai | dark | docs/refero/styles/suno-3b5ff57f/DESIGN.md | https://styles.refero.design/style/3b5ff57f-a371-4c7f-82ae-5fc5485da073 |
+| re_ grocery | light | ecommerce | light | docs/refero/styles/re-grocery-2ef7c644/DESIGN.md | https://styles.refero.design/style/2ef7c644-3454-45d1-bd2f-f8290119821d |
+| beehiiv | dark | saas | dark | docs/refero/styles/beehiiv-350b1557/DESIGN.md | https://styles.refero.design/style/350b1557-56f0-4361-8c8b-b7a88081982b |
+| Wealthsimple | light | fintech | light | docs/refero/styles/wealthsimple-043341c3/DESIGN.md | https://styles.refero.design/style/043341c3-cf82-4be1-9142-fa5e6a370ca9 |
+| Duna | light | fintech | light | docs/refero/styles/duna-8cf4a580/DESIGN.md | https://styles.refero.design/style/8cf4a580-bfb6-4090-a899-f734ffe62370 |
+| Manus | light | ai | light | docs/refero/styles/manus-63cd6fbc/DESIGN.md | https://styles.refero.design/style/63cd6fbc-c3f1-4fd4-9115-70300bc07adc |
+| Skillshare | mixed | media | both | docs/refero/styles/skillshare-162e9ba9/DESIGN.md | https://styles.refero.design/style/162e9ba9-7487-4b57-aee8-0bbeadcc586d |
+| Campsite | light | productivity | light | docs/refero/styles/campsite-e8589e7c/DESIGN.md | https://styles.refero.design/style/e8589e7c-5ba9-4923-aa7f-0f1bf0d679be |
+| Maisonmargiela | light | ecommerce | light | docs/refero/styles/maisonmargiela-44a6d2a5/DESIGN.md | https://styles.refero.design/style/44a6d2a5-16ef-42cd-a69c-33a7af16638d |
+| aave.com | mixed | fintech | both | docs/refero/styles/aave-com-e352ec32/DESIGN.md | https://styles.refero.design/style/e352ec32-830a-4650-b7c2-d32a5f559f7e |
+| Charlie | dark | design | dark | docs/refero/styles/charlie-34aa811f/DESIGN.md | https://styles.refero.design/style/34aa811f-6084-484c-b4c0-f587b514e970 |
+| LUNCH | light | ecommerce | light | docs/refero/styles/lunch-cd3fbf9d/DESIGN.md | https://styles.refero.design/style/cd3fbf9d-8d35-411b-9e69-89a03018b677 |
+| Cron Calendar | dark | productivity | dark | docs/refero/styles/cron-calendar-476184db/DESIGN.md | https://styles.refero.design/style/476184db-a4e6-440b-aa53-27294668361c |
+| Dropmark | light | productivity | light | docs/refero/styles/dropmark-5618f26a/DESIGN.md | https://styles.refero.design/style/5618f26a-4df6-42cb-8081-15e4318b54ff |
+| Opennote | light | productivity | light | docs/refero/styles/opennote-24d3b281/DESIGN.md | https://styles.refero.design/style/24d3b281-04a6-4cc7-8a74-634b08472291 |
+| Designmodo | mixed | design | both | docs/refero/styles/designmodo-c60a19c1/DESIGN.md | https://styles.refero.design/style/c60a19c1-259a-4001-95d9-6a3826f5c06e |
+| Strava | light | other | light | docs/refero/styles/strava-efdd6d8f/DESIGN.md | https://styles.refero.design/style/efdd6d8f-4488-4312-86a7-4ee8e016c83a |
+| DJI | light | ecommerce | light | docs/refero/styles/dji-f11750fc/DESIGN.md | https://styles.refero.design/style/f11750fc-d7c0-4d26-b32a-3b1d2098ae34 |
+| Shuttle | light | productivity | light | docs/refero/styles/shuttle-7b0f403f/DESIGN.md | https://styles.refero.design/style/7b0f403f-5428-49dc-9ae3-addbe64261ae |
+| Microsoft | light | other | light | docs/refero/styles/microsoft-5f39e778/DESIGN.md | https://styles.refero.design/style/5f39e778-d204-42a9-8b8b-a1519dbd3971 |
+| Minimal Collective | dark | media | dark | docs/refero/styles/minimal-collective-94c15607/DESIGN.md | https://styles.refero.design/style/94c15607-2f19-4dc4-9aec-2b40f28b754f |
+| Circle | light | saas | light | docs/refero/styles/circle-ab8450d9/DESIGN.md | https://styles.refero.design/style/ab8450d9-1b42-4395-aa24-9e277f021aa1 |
+| Home | light | design | light | docs/refero/styles/home-7337d65c/DESIGN.md | https://styles.refero.design/style/7337d65c-9a98-4b0f-b8bb-6f470742af98 |
+| Lamanna | light | other | light | docs/refero/styles/lamanna-057d7c66/DESIGN.md | https://styles.refero.design/style/057d7c66-76b7-4272-849c-4058543e6799 |
+| Lyssna | light | saas | light | docs/refero/styles/lyssna-65f775f1/DESIGN.md | https://styles.refero.design/style/65f775f1-6dcc-4c49-80d2-b5a017b76f59 |
+| VEED | light | ai | light | docs/refero/styles/veed-fff821ec/DESIGN.md | https://styles.refero.design/style/fff821ec-a3bf-41a5-aea2-626185bcd227 |
+| Fluz | light | fintech | light | docs/refero/styles/fluz-7ce6bd42/DESIGN.md | https://styles.refero.design/style/7ce6bd42-e498-47c0-ad02-7b3a0f5d94e0 |
+| Liveblocks | dark | devtools | dark | docs/refero/styles/liveblocks-9b9b0ca1/DESIGN.md | https://styles.refero.design/style/9b9b0ca1-5067-4115-b62f-ee0e43d1f37f |
+| Going™ | light | other | light | docs/refero/styles/goingtm-3461e90e/DESIGN.md | https://styles.refero.design/style/3461e90e-35d2-4269-9f11-cbe935f0a3a2 |
+| Films 53/12 | dark | media | dark | docs/refero/styles/films-53-12-9796b04a/DESIGN.md | https://styles.refero.design/style/9796b04a-2bb6-4571-9f68-f3360e5746c2 |
+| HARDCLO | dark | ecommerce | dark | docs/refero/styles/hardclo-c3cf4acc/DESIGN.md | https://styles.refero.design/style/c3cf4acc-da7a-4496-8c4b-aa89a7c9e36c |
+| WRITER | light | ai | light | docs/refero/styles/writer-ddd9ffaa/DESIGN.md | https://styles.refero.design/style/ddd9ffaa-d831-4cb4-a5bf-a1efce421dca |
+| pampam.city | light | design | light | docs/refero/styles/pampam-city-001480cb/DESIGN.md | https://styles.refero.design/style/001480cb-05f4-4802-be39-84b942169481 |
+| Trigger.dev | dark | devtools | dark | docs/refero/styles/trigger-dev-86541d12/DESIGN.md | https://styles.refero.design/style/86541d12-7870-4d51-8c47-0880fdb1ea01 |
+| Perplexity AI | light | ai | light | docs/refero/styles/perplexity-ai-7c4e9339/DESIGN.md | https://styles.refero.design/style/7c4e9339-591c-46c3-ac3d-20c1b5b5a568 |
+| Railway | dark | devtools | dark | docs/refero/styles/railway-5c32375f/DESIGN.md | https://styles.refero.design/style/5c32375f-6ef1-4345-9418-ebbb7e887343 |
+| OLIPOP | light | ecommerce | light | docs/refero/styles/olipop-c6ec55c7/DESIGN.md | https://styles.refero.design/style/c6ec55c7-0bd9-47c5-a4d2-669b7790c9cc |
+| Opalcamera | light | other | light | docs/refero/styles/opalcamera-46f01790/DESIGN.md | https://styles.refero.design/style/46f01790-e488-4aba-9236-02466b0fb3cd |
+| Lightship | light | other | light | docs/refero/styles/lightship-fdcd4cbb/DESIGN.md | https://styles.refero.design/style/fdcd4cbb-4db6-4138-9cfd-964795f1e1d6 |
+| Chainzoku | light | crypto | light | docs/refero/styles/chainzoku-44287b0a/DESIGN.md | https://styles.refero.design/style/44287b0a-8709-406d-8ba3-8765ecb19a1f |
+| Thomas Vimare | dark | design | dark | docs/refero/styles/thomas-vimare-1b293bed/DESIGN.md | https://styles.refero.design/style/1b293bed-e6fc-4880-9691-2dbf04339bd5 |
+| Fiverr.com | light | other | light | docs/refero/styles/fiverr-com-c3b34927/DESIGN.md | https://styles.refero.design/style/c3b34927-0638-463e-bf85-180d73bfc367 |
+| Bareis + Nicolaus | dark | agency | dark | docs/refero/styles/bareis-nicolaus-e80c5b4a/DESIGN.md | https://styles.refero.design/style/e80c5b4a-fd03-460e-a577-49928a4ab5db |
+| Canva | mixed | design | both | docs/refero/styles/canva-62f89392/DESIGN.md | https://styles.refero.design/style/62f89392-609d-45b7-b9df-7a5acd529864 |
+| OpenWeb | light | media | light | docs/refero/styles/openweb-c38d077b/DESIGN.md | https://styles.refero.design/style/c38d077b-3cdb-48c6-899c-e8a543508c31 |
+| Tella | mixed | saas | both | docs/refero/styles/tella-41547c7a/DESIGN.md | https://styles.refero.design/style/41547c7a-3bbe-49f0-95d6-9701c9df9a5e |
+| Mural | mixed | productivity | both | docs/refero/styles/mural-2b6642d9/DESIGN.md | https://styles.refero.design/style/2b6642d9-fa66-4c06-9804-30f56e544a6d |
+| Pika | mixed | ai | both | docs/refero/styles/pika-9fe9f106/DESIGN.md | https://styles.refero.design/style/9fe9f106-44d2-45fc-9873-10c6ddcfa59b |
+| Rivian | light | other | light | docs/refero/styles/rivian-a5dc5626/DESIGN.md | https://styles.refero.design/style/a5dc5626-1103-42e3-9edb-a6d52fb9a210 |
+| Ysl | dark | ecommerce | dark | docs/refero/styles/ysl-bb2a2b0b/DESIGN.md | https://styles.refero.design/style/bb2a2b0b-c84e-48ee-9dd9-7b623f81a422 |
+| Mr. Marcel School | dark | design | dark | docs/refero/styles/mr-marcel-school-d91ae311/DESIGN.md | https://styles.refero.design/style/d91ae311-ba5c-461a-8895-eb0aed6585b4 |
+| AI Product Generation | light | ai | light | docs/refero/styles/ai-product-generation-186775da/DESIGN.md | https://styles.refero.design/style/186775da-7568-49e5-8110-4fd0bbc7bbe3 |
+| Portrait | light | productivity | light | docs/refero/styles/portrait-6b51388b/DESIGN.md | https://styles.refero.design/style/6b51388b-d00f-4b22-8297-68fb9fc00bc7 |
+| Acne Studios | light | ecommerce | light | docs/refero/styles/acne-studios-234e9a17/DESIGN.md | https://styles.refero.design/style/234e9a17-236d-4446-9d58-f83f6806d012 |
+| Oura Ring | light | other | light | docs/refero/styles/oura-ring-9decde51/DESIGN.md | https://styles.refero.design/style/9decde51-2a8b-4212-bba5-be9457efc62e |
+| Arc | light | productivity | light | docs/refero/styles/arc-ca93daf1/DESIGN.md | https://styles.refero.design/style/ca93daf1-daf3-41b7-8248-8f63082761e8 |
+| Udemy | light | other | light | docs/refero/styles/udemy-c03afcbd/DESIGN.md | https://styles.refero.design/style/c03afcbd-96ed-4b7f-8d0a-277fc0042ba7 |
+| Loveseen | light | ecommerce | light | docs/refero/styles/loveseen-59d76415/DESIGN.md | https://styles.refero.design/style/59d76415-95d0-43fe-a698-79147cef9f66 |
+| Hugging Face | light | ai | light | docs/refero/styles/hugging-face-4363070d/DESIGN.md | https://styles.refero.design/style/4363070d-02da-4954-88e4-d4a2101c5204 |
+| Resident | light | ecommerce | light | docs/refero/styles/resident-f451c085/DESIGN.md | https://styles.refero.design/style/f451c085-f048-4c9c-ae3b-03acc88320ab |
+| Amie | light | productivity | light | docs/refero/styles/amie-29567671/DESIGN.md | https://styles.refero.design/style/29567671-da1e-4f85-ae52-8b611fecc384 |
+| Outsource Consultants | light | other | light | docs/refero/styles/outsource-consultants-16be276a/DESIGN.md | https://styles.refero.design/style/16be276a-d8ce-484e-8f7a-cbbb09f717f7 |
+| Microsoft AI | mixed | ai | both | docs/refero/styles/microsoft-ai-46781641/DESIGN.md | https://styles.refero.design/style/46781641-8afd-4b01-9f67-06046b6eda71 |
+| Faire ES | light | ecommerce | light | docs/refero/styles/faire-es-6fb648be/DESIGN.md | https://styles.refero.design/style/6fb648be-cc69-4a84-a798-9f0f006922a0 |
+| Miti Navi | light | other | light | docs/refero/styles/miti-navi-887f0c74/DESIGN.md | https://styles.refero.design/style/887f0c74-c696-4589-82ae-85705ecda919 |
+| Pa'lais | light | ecommerce | light | docs/refero/styles/pa-lais-5ef5e1ff/DESIGN.md | https://styles.refero.design/style/5ef5e1ff-3cb3-4383-9f66-26474409d9ae |
+| Firecrawl | light | ai | light | docs/refero/styles/firecrawl-78fec83e/DESIGN.md | https://styles.refero.design/style/78fec83e-4b27-44ab-9f64-31e9dee53e46 |
+| AIR Studios | dark | media | dark | docs/refero/styles/air-studios-8038983d/DESIGN.md | https://styles.refero.design/style/8038983d-8aa9-485f-88fe-2ff696b9ff27 |
+| Henry | light | design | light | docs/refero/styles/henry-ff4b9eff/DESIGN.md | https://styles.refero.design/style/ff4b9eff-dc0b-4886-bd65-c2f5e9069318 |
+| Deta Surf | light | productivity | light | docs/refero/styles/deta-surf-51752cfb/DESIGN.md | https://styles.refero.design/style/51752cfb-4fd4-464f-8b78-ecbc813830e1 |
+| Umbrel | dark | crypto | dark | docs/refero/styles/umbrel-9e5bd4b1/DESIGN.md | https://styles.refero.design/style/9e5bd4b1-0ba8-4592-a5ec-a935bd4ea9c6 |
+| Fonts In Use | light | design | light | docs/refero/styles/fonts-in-use-348c83bc/DESIGN.md | https://styles.refero.design/style/348c83bc-bed3-4562-841a-26a30ee19a9b |
+| Kraken | light | crypto | light | docs/refero/styles/kraken-14389660/DESIGN.md | https://styles.refero.design/style/14389660-81ff-4ca0-957f-b0dcc8fbe120 |
+| Sometimes Always | light | ecommerce | light | docs/refero/styles/sometimes-always-e30d2fb6/DESIGN.md | https://styles.refero.design/style/e30d2fb6-e3d6-4e0a-9395-6d196d5e7c7d |
+| Cassette | dark | media | dark | docs/refero/styles/cassette-fb4cfe58/DESIGN.md | https://styles.refero.design/style/fb4cfe58-00b5-4e6a-b251-0c65e60b6649 |
+| Val Town | light | devtools | light | docs/refero/styles/val-town-4d0a5051/DESIGN.md | https://styles.refero.design/style/4d0a5051-1c4c-4338-8406-2babdc97915c |
+| Frame.io | dark | saas | dark | docs/refero/styles/frame-io-30c3aa18/DESIGN.md | https://styles.refero.design/style/30c3aa18-4323-4448-8ddd-3ca933fe5780 |
+| Warp | dark | devtools | dark | docs/refero/styles/warp-d4c51049/DESIGN.md | https://styles.refero.design/style/d4c51049-58eb-404a-9fcb-f195928b1c99 |
+| Trade Crypto | light | fintech | light | docs/refero/styles/trade-crypto-76b0c23b/DESIGN.md | https://styles.refero.design/style/76b0c23b-7a09-49f6-a53c-cc6fc6258d5f |
+| Flying Papers | light | other | light | docs/refero/styles/flying-papers-7d254296/DESIGN.md | https://styles.refero.design/style/7d254296-6817-487a-a58c-4d5eca89cbf3 |
+| Twingate | dark | saas | dark | docs/refero/styles/twingate-0acef011/DESIGN.md | https://styles.refero.design/style/0acef011-07da-4416-b874-ccdd675140f6 |
+| Base | light | crypto | light | docs/refero/styles/base-530eb4cf/DESIGN.md | https://styles.refero.design/style/530eb4cf-7e75-4833-95c9-746818050db7 |
+| Cohere | light | ai | light | docs/refero/styles/cohere-f1bff240/DESIGN.md | https://styles.refero.design/style/f1bff240-fa05-41db-9ae1-b165ea6ea2cb |
+| FlutterFlow | dark | devtools | dark | docs/refero/styles/flutterflow-4e1ac04c/DESIGN.md | https://styles.refero.design/style/4e1ac04c-02ae-41cf-b588-3f6226a882f8 |
+| Yellowbird® | light | ecommerce | light | docs/refero/styles/yellowbird-22cc86bc/DESIGN.md | https://styles.refero.design/style/22cc86bc-6c5f-4413-a4a2-66b8ddc82ad0 |
+| Dash Digital Studio | light | agency | light | docs/refero/styles/dash-digital-studio-6036b661/DESIGN.md | https://styles.refero.design/style/6036b661-3886-4f76-a5e6-bb8960eb7db5 |
+| Home page \| Impossible Foods | dark | other | dark | docs/refero/styles/home-page-impossible-foods-04961c7d/DESIGN.md | https://styles.refero.design/style/04961c7d-8ca6-4e87-ba88-6ad7ffa3b245 |
+| Joby Aviation | light | other | light | docs/refero/styles/joby-aviation-c1052d8d/DESIGN.md | https://styles.refero.design/style/c1052d8d-3663-46a4-a882-e50d9b8a1166 |
+| Mapbox | dark | devtools | dark | docs/refero/styles/mapbox-be34bbe8/DESIGN.md | https://styles.refero.design/style/be34bbe8-9a50-4f36-b379-840328f6350c |
+| Groq | light | ai | light | docs/refero/styles/groq-8efa9029/DESIGN.md | https://styles.refero.design/style/8efa9029-b39c-48db-a8ec-c97c645a7a58 |
+| Analogue | dark | other | dark | docs/refero/styles/analogue-98ab0172/DESIGN.md | https://styles.refero.design/style/98ab0172-9474-43b5-9055-98cf1a6a2401 |
+| Empower | mixed | fintech | both | docs/refero/styles/empower-8d3dc65e/DESIGN.md | https://styles.refero.design/style/8d3dc65e-4443-4bb3-b1a9-b0fc98381db9 |
+| Gus | dark | agency | dark | docs/refero/styles/gus-3ec00801/DESIGN.md | https://styles.refero.design/style/3ec00801-59b9-4c1f-af33-429642c186d4 |
+| Convex | mixed | devtools | both | docs/refero/styles/convex-f71e92b0/DESIGN.md | https://styles.refero.design/style/f71e92b0-d7a5-4203-b975-394f185218c2 |
+| Rive | dark | design | dark | docs/refero/styles/rive-6323a42b/DESIGN.md | https://styles.refero.design/style/6323a42b-3b47-4774-92e4-15651a9ba2ac |
+| Todoist | light | productivity | light | docs/refero/styles/todoist-729ba7a8/DESIGN.md | https://styles.refero.design/style/729ba7a8-35d5-44f3-abc0-1078ff6a3467 |
+| ON.energy | dark | ai | dark | docs/refero/styles/on-energy-31e00a99/DESIGN.md | https://styles.refero.design/style/31e00a99-6946-4f07-829a-b0904a39a20d |
+| Doppler | dark | devtools | dark | docs/refero/styles/doppler-10654184/DESIGN.md | https://styles.refero.design/style/10654184-eb92-4b75-a7af-bd92bc6cdc5c |
+| DICE | light | media | light | docs/refero/styles/dice-f4af4c42/DESIGN.md | https://styles.refero.design/style/f4af4c42-2cba-4aa6-8d06-2f728bce702d |
+| Studio Tumulte | light | design | light | docs/refero/styles/studio-tumulte-5f72a3c2/DESIGN.md | https://styles.refero.design/style/5f72a3c2-7040-4d8c-9882-4d9384822469 |
+| Eindhoven Design District | light | design | light | docs/refero/styles/eindhoven-design-district-c90b584e/DESIGN.md | https://styles.refero.design/style/c90b584e-de5b-4971-9e13-8ab991bd96c0 |
+| SBS Town | dark | other | dark | docs/refero/styles/sbs-town-d670d78f/DESIGN.md | https://styles.refero.design/style/d670d78f-4542-4a66-b886-fc32361b8562 |
+| GTE | mixed | fintech | both | docs/refero/styles/gte-5d273906/DESIGN.md | https://styles.refero.design/style/5d273906-0110-48cf-99cd-63a72eb9c586 |
+| Contract | light | design | light | docs/refero/styles/contract-76faeb42/DESIGN.md | https://styles.refero.design/style/76faeb42-b43d-4cc7-ac03-1e4bd74f04b7 |
+| Bento | light | productivity | light | docs/refero/styles/bento-59ac8248/DESIGN.md | https://styles.refero.design/style/59ac8248-1d64-4df3-92f1-919b50e05602 |
+| Faculty Department | light | media | light | docs/refero/styles/faculty-department-11764fe0/DESIGN.md | https://styles.refero.design/style/11764fe0-e246-4b17-b3fb-a5d567466355 |
+| July Fund | dark | fintech | dark | docs/refero/styles/july-fund-adc127f5/DESIGN.md | https://styles.refero.design/style/adc127f5-c6ec-4892-984d-5445c2b6104e |
+| HyperAktiv | light | other | light | docs/refero/styles/hyperaktiv-d19c6fc3/DESIGN.md | https://styles.refero.design/style/d19c6fc3-1fc6-44a0-9c22-a0a82f7f79b4 |
+| Compound | light | fintech | light | docs/refero/styles/compound-cd31ecdb/DESIGN.md | https://styles.refero.design/style/cd31ecdb-297a-4fc5-a727-05f835ff917f |
+| BelArosa Chalet | light | agency | light | docs/refero/styles/belarosa-chalet-46c8dbc5/DESIGN.md | https://styles.refero.design/style/46c8dbc5-47c8-4796-b94c-5e46dcda3532 |
+| Websmith Studio | light | agency | light | docs/refero/styles/websmith-studio-11cfc460/DESIGN.md | https://styles.refero.design/style/11cfc460-807b-42c5-b10a-7b042c60f3e8 |
+| CHRISTOPHER IRELAND CREATIVE | light | agency | light | docs/refero/styles/christopher-ireland-creative-295beab5/DESIGN.md | https://styles.refero.design/style/295beab5-cd8a-473b-ab7d-3df6cda30231 |
+| MindMarket | light | agency | light | docs/refero/styles/mindmarket-9130ad37/DESIGN.md | https://styles.refero.design/style/9130ad37-bf80-458f-b808-ac0ef6a8d1e9 |
+| Lovable | light | ai | light | docs/refero/styles/lovable-9ff62d34/DESIGN.md | https://styles.refero.design/style/9ff62d34-e48d-4fcb-9fd9-c018e2747542 |
+| UGLYCASH | light | fintech | light | docs/refero/styles/uglycash-680cf16b/DESIGN.md | https://styles.refero.design/style/680cf16b-0093-473b-854f-f1de9af5e698 |
+| PostHog | light | devtools | light | docs/refero/styles/posthog-56cd3725/DESIGN.md | https://styles.refero.design/style/56cd3725-3ff0-459e-894d-5da58d1fc549 |
+| GRU Space | dark | other | dark | docs/refero/styles/gru-space-d58d888e/DESIGN.md | https://styles.refero.design/style/d58d888e-85ed-4273-9816-2c83f65f6f1d |
+| Medium | light | media | light | docs/refero/styles/medium-9c92c3d1/DESIGN.md | https://styles.refero.design/style/9c92c3d1-a2fe-4a27-a324-826b19501774 |
+| adidas | light | ecommerce | light | docs/refero/styles/adidas-72340f0a/DESIGN.md | https://styles.refero.design/style/72340f0a-e7ea-4f9b-b683-19a1c3dcdc32 |
+| Your workplace has the answer. Just ask Dala for it. | dark | ai | dark | docs/refero/styles/your-workplace-has-the-answer-just-ask-dala-for-it-e5f5f8cf/DESIGN.md | https://styles.refero.design/style/e5f5f8cf-e68d-4ed1-bbf5-6b67569af648 |
+| Copilot Money | dark | fintech | dark | docs/refero/styles/copilot-money-91b110da/DESIGN.md | https://styles.refero.design/style/91b110da-902b-4d09-8bf0-26bd1f25f8b2 |
+| Drive Capital | light | other | light | docs/refero/styles/drive-capital-241ebab6/DESIGN.md | https://styles.refero.design/style/241ebab6-1f3a-4637-8754-4f6b164ea090 |
+| Ayo | dark | media | dark | docs/refero/styles/ayo-e13dcc7e/DESIGN.md | https://styles.refero.design/style/e13dcc7e-27fa-46dd-a9a2-cee09c822793 |
+| Custo | light | other | light | docs/refero/styles/custo-3ad131ed/DESIGN.md | https://styles.refero.design/style/3ad131ed-b603-49a3-9491-7407db6cb423 |
+| HAPE PRIME | dark | crypto | dark | docs/refero/styles/hape-prime-fc739087/DESIGN.md | https://styles.refero.design/style/fc739087-2f0a-4deb-b105-2af10205f185 |
+| No Ideas | dark | design | dark | docs/refero/styles/no-ideas-908017b4/DESIGN.md | https://styles.refero.design/style/908017b4-311c-4b89-afa5-c29c8cb08e8b |
+| Tally Forms | light | productivity | light | docs/refero/styles/tally-forms-4e3aa524/DESIGN.md | https://styles.refero.design/style/4e3aa524-b146-416c-907f-382c079ea80c |
+| natureofthings | light | ecommerce | light | docs/refero/styles/natureofthings-55c6d667/DESIGN.md | https://styles.refero.design/style/55c6d667-40f5-45c6-9ffe-3e9543334186 |
+| Asana | light | productivity | light | docs/refero/styles/asana-6b2a0513/DESIGN.md | https://styles.refero.design/style/6b2a0513-df80-4140-87a8-38b1fef34313 |
+| Elektron | dark | other | dark | docs/refero/styles/elektron-6b5a0bf4/DESIGN.md | https://styles.refero.design/style/6b5a0bf4-3d2a-4c3b-aa2e-652f1acb82c0 |
+| Rows | light | ai | light | docs/refero/styles/rows-8d4a4e15/DESIGN.md | https://styles.refero.design/style/8d4a4e15-31f1-4509-8d13-7746f85c20d7 |
+| homunculus Inc. | dark | agency | dark | docs/refero/styles/homunculus-inc-68076c4e/DESIGN.md | https://styles.refero.design/style/68076c4e-f1a6-4d31-9629-cc1af14d9dc5 |
+| BEHAVE Candy | light | ecommerce | light | docs/refero/styles/behave-candy-5cc6e3be/DESIGN.md | https://styles.refero.design/style/5cc6e3be-1cbd-4d09-9958-9cb82b2487db |
+| Munro Partners | light | fintech | light | docs/refero/styles/munro-partners-d2e327b2/DESIGN.md | https://styles.refero.design/style/d2e327b2-1181-4203-82a6-2dc15a72078a |
+| Dyotanya | light | design | light | docs/refero/styles/dyotanya-1b13360a/DESIGN.md | https://styles.refero.design/style/1b13360a-cdca-4798-969d-57ebb20a3b30 |
+| NEON Rated | dark | media | dark | docs/refero/styles/neon-rated-d7d9c36d/DESIGN.md | https://styles.refero.design/style/d7d9c36d-fec9-4218-9e17-3d129dfb2dee |
+| Firstandforemost | light | agency | light | docs/refero/styles/firstandforemost-ac86af87/DESIGN.md | https://styles.refero.design/style/ac86af87-6f60-42a2-b805-87a168792e55 |
+| Voiceflow | light | ai | light | docs/refero/styles/voiceflow-03b3d707/DESIGN.md | https://styles.refero.design/style/03b3d707-2a30-4f53-a524-347d1b70eb2c |
+| Drizzle ORM | light | devtools | light | docs/refero/styles/drizzle-orm-972925c4/DESIGN.md | https://styles.refero.design/style/972925c4-0caa-4dc2-9c00-798b5be0ad70 |
+| Cosmos | light | design | light | docs/refero/styles/cosmos-eb804e3a/DESIGN.md | https://styles.refero.design/style/eb804e3a-1b75-446c-8374-114bbabaf0cd |
+| Dyson | light | other | light | docs/refero/styles/dyson-96845df2/DESIGN.md | https://styles.refero.design/style/96845df2-7ddb-420a-814e-c339f95a6554 |
+| Stykka | light | design | light | docs/refero/styles/stykka-b43fdb3c/DESIGN.md | https://styles.refero.design/style/b43fdb3c-85e9-4282-9262-1d3deb4b679d |
+| Gamma | dark | crypto | dark | docs/refero/styles/gamma-4782832c/DESIGN.md | https://styles.refero.design/style/4782832c-1c23-4fe3-997c-2a08d7b6c5d1 |
+| Apollo | light | saas | light | docs/refero/styles/apollo-3963a727/DESIGN.md | https://styles.refero.design/style/3963a727-8dec-4308-80c0-3ae198d15b87 |
+| Lattice | light | saas | light | docs/refero/styles/lattice-cbb335e5/DESIGN.md | https://styles.refero.design/style/cbb335e5-c8df-49be-a0fc-0ec5dfa0d61f |
+| replit | light | ai | light | docs/refero/styles/replit-c556ab50/DESIGN.md | https://styles.refero.design/style/c556ab50-a242-4854-9395-450c0004bac5 |
+| nabr | light | other | light | docs/refero/styles/nabr-4719adfd/DESIGN.md | https://styles.refero.design/style/4719adfd-b9a9-4c25-9be2-8a7fb88a2621 |
+| 15five | light | saas | light | docs/refero/styles/15five-88a00b3e/DESIGN.md | https://styles.refero.design/style/88a00b3e-1c1e-49d3-ae0f-9fbc1f35ad99 |
+| Jakub Reis | light | design | light | docs/refero/styles/jakub-reis-3af36935/DESIGN.md | https://styles.refero.design/style/3af36935-8383-49e7-857e-9fb5caa06966 |
+| Evernote | light | productivity | light | docs/refero/styles/evernote-0c0b6140/DESIGN.md | https://styles.refero.design/style/0c0b6140-2b6c-44f8-8bba-4ecfcadba420 |
+| 10X HUB | mixed | agency | both | docs/refero/styles/10x-hub-4acc13a0/DESIGN.md | https://styles.refero.design/style/4acc13a0-c553-40d7-b78d-a9b6a4e94486 |
+| Runway | light | fintech | light | docs/refero/styles/runway-874aaea0/DESIGN.md | https://styles.refero.design/style/874aaea0-c718-454e-8a58-f3beed1284ec |
+| Jeton | light | fintech | light | docs/refero/styles/jeton-1f32d914/DESIGN.md | https://styles.refero.design/style/1f32d914-6fdd-4692-b4fc-fcee2c414766 |
+| Leo Natsume | light | design | light | docs/refero/styles/leo-natsume-80085ab0/DESIGN.md | https://styles.refero.design/style/80085ab0-3123-4bf3-85e0-ea9a1438c2ab |
+| Auros | dark | fintech | dark | docs/refero/styles/auros-21cfe0c1/DESIGN.md | https://styles.refero.design/style/21cfe0c1-778d-4613-9f47-a5718eb929b3 |
+| Glein | light | ecommerce | light | docs/refero/styles/glein-2e4ce685/DESIGN.md | https://styles.refero.design/style/2e4ce685-9f49-47a3-9577-bc4f196bd8f7 |
+| Megan Perkins | dark | design | dark | docs/refero/styles/megan-perkins-aa3fecc4/DESIGN.md | https://styles.refero.design/style/aa3fecc4-3017-4b7a-8969-c36ba4dcd91d |
+| Samara | light | agency | light | docs/refero/styles/samara-934a61aa/DESIGN.md | https://styles.refero.design/style/934a61aa-50ff-4e90-852b-4ad0b8262d54 |
+| SoundCloud | dark | media | dark | docs/refero/styles/soundcloud-35f89ccd/DESIGN.md | https://styles.refero.design/style/35f89ccd-614d-4f8f-9cce-bb94309df237 |
+| Rainbow | light | crypto | light | docs/refero/styles/rainbow-1680693c/DESIGN.md | https://styles.refero.design/style/1680693c-aed8-47e8-917a-04eb89497b09 |
+| X (formerly Twitter) | light | media | light | docs/refero/styles/x-formerly-twitter-655340ae/DESIGN.md | https://styles.refero.design/style/655340ae-abff-4a90-8545-8feb62411f68 |
+| Taiki Murayama | light | design | light | docs/refero/styles/taiki-murayama-6b3d1095/DESIGN.md | https://styles.refero.design/style/6b3d1095-2e60-4e7a-a4e2-eb4bf67e5d1f |
+| Tailscale | light | devtools | light | docs/refero/styles/tailscale-5b679fb6/DESIGN.md | https://styles.refero.design/style/5b679fb6-8d53-402d-a77b-c88bfb397623 |
+| Handsome Frank | light | design | light | docs/refero/styles/handsome-frank-19d4103a/DESIGN.md | https://styles.refero.design/style/19d4103a-9f4a-49f0-ad7d-af6588bab904 |
+| Daniel Triendl | light | design | light | docs/refero/styles/daniel-triendl-14f10100/DESIGN.md | https://styles.refero.design/style/14f10100-a102-427a-88d1-7cc80cbb332d |
+| Teachable | light | other | light | docs/refero/styles/teachable-491fbae1/DESIGN.md | https://styles.refero.design/style/491fbae1-feb2-4784-b1e1-24c53a2bf179 |
+| Descript | mixed | media | both | docs/refero/styles/descript-fe955d4a/DESIGN.md | https://styles.refero.design/style/fe955d4a-c56d-4ab0-a6b3-8d985ab9570c |
+| Deel | mixed | saas | both | docs/refero/styles/deel-5ec4eb4f/DESIGN.md | https://styles.refero.design/style/5ec4eb4f-a37c-4787-b4c1-de49e01770e7 |
+| Pinterest | light | media | light | docs/refero/styles/pinterest-8ff3bfb4/DESIGN.md | https://styles.refero.design/style/8ff3bfb4-6f5e-4e07-83be-56e62ce80d2f |
+| Busuu | light | other | light | docs/refero/styles/busuu-72b85d0a/DESIGN.md | https://styles.refero.design/style/72b85d0a-1ff8-4dd3-b33a-f55aad6df5c9 |
+| Holographik | dark | design | dark | docs/refero/styles/holographik-f46616d6/DESIGN.md | https://styles.refero.design/style/f46616d6-5138-408b-a29d-b6749a6f3b04 |
+| Bumble | light | other | light | docs/refero/styles/bumble-f32595cf/DESIGN.md | https://styles.refero.design/style/f32595cf-478e-4ccd-8722-0daffa693d76 |
+| Enter GmbH | light | other | light | docs/refero/styles/enter-gmbh-87da9872/DESIGN.md | https://styles.refero.design/style/87da9872-f6cc-4354-bf6a-1c02f0394d45 |
+| Finn | light | ecommerce | light | docs/refero/styles/finn-07546cf0/DESIGN.md | https://styles.refero.design/style/07546cf0-b9df-49dd-9da9-319d7a654703 |
+| v0 by Vercel | light | ai | light | docs/refero/styles/v0-by-vercel-50aa2b8e/DESIGN.md | https://styles.refero.design/style/50aa2b8e-4760-4379-a3c1-59b65d8576a7 |
+| Obsidian | dark | productivity | dark | docs/refero/styles/obsidian-e793a53c/DESIGN.md | https://styles.refero.design/style/e793a53c-537e-46b0-881d-b15b63b9ff26 |
+| Itsnicethat | light | media | light | docs/refero/styles/itsnicethat-3e70af05/DESIGN.md | https://styles.refero.design/style/3e70af05-a07f-4c11-98ca-6ecb4765e967 |
+| School | light | other | light | docs/refero/styles/school-a521abb9/DESIGN.md | https://styles.refero.design/style/a521abb9-d84b-4870-b5a8-363be7c3f94a |
+| ClassPass | light | other | light | docs/refero/styles/classpass-5596b7f9/DESIGN.md | https://styles.refero.design/style/5596b7f9-09aa-4073-b283-4731425896e1 |
+| Dock | light | saas | light | docs/refero/styles/dock-d7fb1721/DESIGN.md | https://styles.refero.design/style/d7fb1721-1878-4cbb-a24b-051800557c75 |
+| Wayfinder | dark | media | dark | docs/refero/styles/wayfinder-d9fbc68b/DESIGN.md | https://styles.refero.design/style/d9fbc68b-0d42-4c09-829d-1207b781f46a |
+| Home | light | design | light | docs/refero/styles/home-ad529e8a/DESIGN.md | https://styles.refero.design/style/ad529e8a-3427-4152-bed9-6ec5097f25b6 |
+| COLLINS | light | agency | light | docs/refero/styles/collins-cf733c2a/DESIGN.md | https://styles.refero.design/style/cf733c2a-dca1-46af-b41d-5e1d354e4297 |
+| Diabla | light | ecommerce | light | docs/refero/styles/diabla-5528d10f/DESIGN.md | https://styles.refero.design/style/5528d10f-2e7d-4502-aa49-7bde290e8fe2 |
+| Monarch | light | fintech | light | docs/refero/styles/monarch-a9dd8050/DESIGN.md | https://styles.refero.design/style/a9dd8050-c03a-4901-b7fa-a9cc0ca54812 |
+| Fable | light | media | light | docs/refero/styles/fable-ab650279/DESIGN.md | https://styles.refero.design/style/ab650279-aa18-43e5-a998-34190d7bedc7 |
+| Ezekiel Aquino | light | design | light | docs/refero/styles/ezekiel-aquino-d6be921b/DESIGN.md | https://styles.refero.design/style/d6be921b-d52d-4cc0-b527-431685a0bf50 |
+| Vacation® | light | ecommerce | light | docs/refero/styles/vacation-a0392801/DESIGN.md | https://styles.refero.design/style/a0392801-aa0f-4c0c-81e1-4e1684eb832a |
+| HBO Max | dark | media | dark | docs/refero/styles/hbo-max-898f0127/DESIGN.md | https://styles.refero.design/style/898f0127-d235-4832-bf33-ab21104f0529 |
+| Assembly Coffee London | dark | ecommerce | dark | docs/refero/styles/assembly-coffee-london-8288950a/DESIGN.md | https://styles.refero.design/style/8288950a-2731-44fd-85ef-211aecd8091d |
+| Wrike | light | productivity | light | docs/refero/styles/wrike-e1c7cab3/DESIGN.md | https://styles.refero.design/style/e1c7cab3-dae7-47c3-bb2c-c8f616a8124f |
+| Play | light | design | light | docs/refero/styles/play-6f8a45e4/DESIGN.md | https://styles.refero.design/style/6f8a45e4-d1a4-4b6d-b857-a4dc70dd1b52 |
+| Status | dark | crypto | dark | docs/refero/styles/status-4ce66adb/DESIGN.md | https://styles.refero.design/style/4ce66adb-ed8b-4e71-8066-15d92c4d2be0 |
+| Rarible | dark | crypto | dark | docs/refero/styles/rarible-44c69f5d/DESIGN.md | https://styles.refero.design/style/44c69f5d-68bf-4507-8f00-e6aa1c96246b |
+| MekaVerse | dark | crypto | dark | docs/refero/styles/mekaverse-09e43758/DESIGN.md | https://styles.refero.design/style/09e43758-12c5-4a2b-8ae8-ded156ef66bf |
+| Datalands | dark | design | dark | docs/refero/styles/datalands-a7530405/DESIGN.md | https://styles.refero.design/style/a7530405-e523-4268-bba5-ef13549fd61c |
+| Zapier | light | saas | light | docs/refero/styles/zapier-63295283/DESIGN.md | https://styles.refero.design/style/63295283-c1a3-4adb-891a-d1365a47a50b |
+| Limón | dark | ecommerce | dark | docs/refero/styles/limon-f1b6a7d6/DESIGN.md | https://styles.refero.design/style/f1b6a7d6-1ecb-4f1c-95b0-e03323363999 |
+| Basedash | dark | ai | dark | docs/refero/styles/basedash-77b723ca/DESIGN.md | https://styles.refero.design/style/77b723ca-9583-4349-9b5e-2ef8b4fde002 |
+| Freytag Anderson | dark | design | dark | docs/refero/styles/freytag-anderson-2d4fc4ba/DESIGN.md | https://styles.refero.design/style/2d4fc4ba-2ea4-465f-8644-f3ff5c6713a2 |
+| Souss Furniture | light | ecommerce | light | docs/refero/styles/souss-furniture-ab21710e/DESIGN.md | https://styles.refero.design/style/ab21710e-a1bd-49ef-8645-29ffd3f6154c |
+| Break Maiden | dark | agency | dark | docs/refero/styles/break-maiden-02610b06/DESIGN.md | https://styles.refero.design/style/02610b06-d16e-47bd-a1ea-18979a9ed4f5 |
+| Fable & Mane | light | ecommerce | light | docs/refero/styles/fable-and-mane-7ad912fd/DESIGN.md | https://styles.refero.design/style/7ad912fd-e690-46e4-a5e5-e5b60be2dd70 |
+| Heart Aerospace | light | other | light | docs/refero/styles/heart-aerospace-bf523387/DESIGN.md | https://styles.refero.design/style/bf523387-03fc-4243-86ca-25af34daa0ce |
+| ivee | light | other | light | docs/refero/styles/ivee-b9bc05e4/DESIGN.md | https://styles.refero.design/style/b9bc05e4-7778-4f3b-9aa5-55a671d389e3 |
+| Klarna | light | fintech | light | docs/refero/styles/klarna-49dba9e1/DESIGN.md | https://styles.refero.design/style/49dba9e1-0d9d-4997-805a-bfea7525252d |
+| Nubank | light | fintech | light | docs/refero/styles/nubank-f1a2100a/DESIGN.md | https://styles.refero.design/style/f1a2100a-7cda-4787-b8af-5c5edcfcdff0 |
+| Max Yinger | dark | agency | dark | docs/refero/styles/max-yinger-a7891223/DESIGN.md | https://styles.refero.design/style/a7891223-a93e-4731-a1aa-4079f1ee928b |
+| Zipline | light | other | light | docs/refero/styles/zipline-4a248569/DESIGN.md | https://styles.refero.design/style/4a248569-2b5a-4416-bb2a-c78890218b9f |
+| Depanneur | light | other | light | docs/refero/styles/depanneur-e31a4832/DESIGN.md | https://styles.refero.design/style/e31a4832-5039-48d5-9f7b-66645409e42f |
+| Fornasetti Profumi ASMR Rooms | dark | other | dark | docs/refero/styles/fornasetti-profumi-asmr-rooms-d9fca67f/DESIGN.md | https://styles.refero.design/style/d9fca67f-0b4c-4ba5-ab95-2b3b1018d5a3 |
+| Monotype. | light | design | light | docs/refero/styles/monotype-be5cf0d7/DESIGN.md | https://styles.refero.design/style/be5cf0d7-fc29-4b7f-bf86-f87185b122fc |
+| Partiful | light | saas | light | docs/refero/styles/partiful-6db1057d/DESIGN.md | https://styles.refero.design/style/6db1057d-3457-4173-9184-df160415f060 |
+| Craft Docs | light | productivity | light | docs/refero/styles/craft-docs-9f228e72/DESIGN.md | https://styles.refero.design/style/9f228e72-997a-4410-9190-68359028e3d0 |
+| Free Resume Builder | light | productivity | light | docs/refero/styles/free-resume-builder-41e65213/DESIGN.md | https://styles.refero.design/style/41e65213-1c4a-41c4-b715-50427fa8926e |
+| Eventbrite | light | media | light | docs/refero/styles/eventbrite-1fa0d9da/DESIGN.md | https://styles.refero.design/style/1fa0d9da-966f-4d43-9775-e156bec3a3b3 |
+| Aurora | light | ai | light | docs/refero/styles/aurora-fe7b8533/DESIGN.md | https://styles.refero.design/style/fe7b8533-f56b-46bd-8713-f18886a1e986 |
+| Seksy Planety | dark | media | dark | docs/refero/styles/seksy-planety-e6021cb7/DESIGN.md | https://styles.refero.design/style/e6021cb7-8b25-4f0b-9854-5839ec040fa2 |
+| bella Kitchen Appliances | light | ecommerce | light | docs/refero/styles/bella-kitchen-appliances-e327d332/DESIGN.md | https://styles.refero.design/style/e327d332-270d-4779-a55c-cd82b8624d2a |
+| Dennis Snellenberg | dark | design | dark | docs/refero/styles/dennis-snellenberg-28e8e762/DESIGN.md | https://styles.refero.design/style/28e8e762-8d8c-4e88-84ed-858f9917cb58 |
+| HOC Radio | dark | media | dark | docs/refero/styles/hoc-radio-e03e957e/DESIGN.md | https://styles.refero.design/style/e03e957e-eb5b-45d5-8944-2650dafab3c9 |
+| Reducto | light | ai | light | docs/refero/styles/reducto-af55f85e/DESIGN.md | https://styles.refero.design/style/af55f85e-1c82-44c1-a8d0-32634bfa6296 |
+| WePresent | dark | media | dark | docs/refero/styles/wepresent-1203f8b5/DESIGN.md | https://styles.refero.design/style/1203f8b5-f7ef-4960-96c1-145143909910 |
+| Winamp | light | media | light | docs/refero/styles/winamp-bc4b4dee/DESIGN.md | https://styles.refero.design/style/bc4b4dee-8b32-494c-9a2d-d56fcd450b79 |
+| Drop | light | saas | light | docs/refero/styles/drop-36d939b8/DESIGN.md | https://styles.refero.design/style/36d939b8-e3b5-45c7-8d81-f7c4d7c8fdaa |
+| Hudson Gavin Martin | light | agency | light | docs/refero/styles/hudson-gavin-martin-fece962d/DESIGN.md | https://styles.refero.design/style/fece962d-a580-4365-8afd-c9905a2502b1 |
+| Minymon | light | other | light | docs/refero/styles/minymon-c8c8e820/DESIGN.md | https://styles.refero.design/style/c8c8e820-a40e-416f-a4b9-f608bf17507c |
+| Mews | light | other | light | docs/refero/styles/mews-6b2777fd/DESIGN.md | https://styles.refero.design/style/6b2777fd-7021-4a96-add3-ec4a32374214 |
+| Canva | light | design | light | docs/refero/styles/canva-17d0a00e/DESIGN.md | https://styles.refero.design/style/17d0a00e-5de6-48c7-9f3b-25b04f7dab4c |
+| San Rita | dark | agency | dark | docs/refero/styles/san-rita-f6b396e6/DESIGN.md | https://styles.refero.design/style/f6b396e6-0ad6-402e-9ab9-0034df0d204d |
+| Deno | light | devtools | light | docs/refero/styles/deno-973dcf14/DESIGN.md | https://styles.refero.design/style/973dcf14-2237-4346-81af-3d8c811666c2 |
+| Turso | dark | devtools | dark | docs/refero/styles/turso-5a7ec81f/DESIGN.md | https://styles.refero.design/style/5a7ec81f-03b6-4d21-a706-0d1d323d8899 |
+| Spring/Summer | light | agency | light | docs/refero/styles/spring-summer-d56508d7/DESIGN.md | https://styles.refero.design/style/d56508d7-c307-47f7-ad30-052e5a69f01f |
+| Silencio | light | agency | light | docs/refero/styles/silencio-e67ac20e/DESIGN.md | https://styles.refero.design/style/e67ac20e-6497-4756-b7e2-17859a794fb6 |
+| Channel Studio | dark | design | dark | docs/refero/styles/channel-studio-4c19bf7b/DESIGN.md | https://styles.refero.design/style/4c19bf7b-d5e8-4e2a-b3e3-69a9bde19b7a |
+| Photographer | light | design | light | docs/refero/styles/photographer-837ba115/DESIGN.md | https://styles.refero.design/style/837ba115-568f-4ada-8182-3dc100c8b3e4 |
+| The Game Awards Microverse | dark | media | dark | docs/refero/styles/the-game-awards-microverse-63e985f6/DESIGN.md | https://styles.refero.design/style/63e985f6-1f1a-4c6e-a5ec-497ced38a7a7 |
+| Yinka Ilori Studio | light | design | light | docs/refero/styles/yinka-ilori-studio-deccaba1/DESIGN.md | https://styles.refero.design/style/deccaba1-8d53-4a82-b4c7-e2b99a3dc326 |
+| Vizcom | dark | ai | dark | docs/refero/styles/vizcom-d16b85ee/DESIGN.md | https://styles.refero.design/style/d16b85ee-0bbc-4030-9190-71e1408ff119 |
+| Qatalog | light | ai | light | docs/refero/styles/qatalog-7eed2626/DESIGN.md | https://styles.refero.design/style/7eed2626-ab11-472c-b04a-603476ff8957 |
+| Lens | light | crypto | light | docs/refero/styles/lens-63c0e759/DESIGN.md | https://styles.refero.design/style/63c0e759-3175-4f62-a8e3-b9e285f9e998 |
+| Michael Wandelmaier | dark | design | dark | docs/refero/styles/michael-wandelmaier-5b405eec/DESIGN.md | https://styles.refero.design/style/5b405eec-67ba-4dd0-8dab-ace000151a78 |
+| Shade | light | media | light | docs/refero/styles/shade-e549766e/DESIGN.md | https://styles.refero.design/style/e549766e-b8b1-48a2-bd72-8cc04e9e4e9d |
+| Apple | light | ecommerce | light | docs/refero/styles/apple-aecac5da/DESIGN.md | https://styles.refero.design/style/aecac5da-f397-4ddf-b71f-de1efc434cb8 |
+| YouTube | light | media | light | docs/refero/styles/youtube-8fc58a26/DESIGN.md | https://styles.refero.design/style/8fc58a26-47be-406e-8429-37925551c0ec |
+| Immersive Garden | light | agency | light | docs/refero/styles/immersive-garden-0b285f89/DESIGN.md | https://styles.refero.design/style/0b285f89-599f-4d6e-b7cd-3f39abac80c6 |
+| Ditto | light | productivity | light | docs/refero/styles/ditto-2db41cd9/DESIGN.md | https://styles.refero.design/style/2db41cd9-c898-4f59-b704-3042c0d87f45 |
+| Little Amps | light | ecommerce | light | docs/refero/styles/little-amps-ca522706/DESIGN.md | https://styles.refero.design/style/ca522706-03ed-48cb-acb3-1bb2a22f2eda |
+| Subset | light | ecommerce | light | docs/refero/styles/subset-a4dcee26/DESIGN.md | https://styles.refero.design/style/a4dcee26-dd31-415a-ac99-64299959e7f1 |
+| Braintrust AIR | light | ai | light | docs/refero/styles/braintrust-air-64aadcc7/DESIGN.md | https://styles.refero.design/style/64aadcc7-f884-41ea-9b0b-a90dfc10c9ec |
+| Afterglo | light | ecommerce | light | docs/refero/styles/afterglo-b13069df/DESIGN.md | https://styles.refero.design/style/b13069df-7475-4b51-a734-621e3da75f8b |
+| ARTWORLD | dark | design | dark | docs/refero/styles/artworld-bab94db1/DESIGN.md | https://styles.refero.design/style/bab94db1-25ec-459d-8c81-5905a0324b65 |
+| Drepute | dark | other | dark | docs/refero/styles/drepute-523d3e7b/DESIGN.md | https://styles.refero.design/style/523d3e7b-b0a2-4979-a626-00f1487b6e4d |
+| Front | dark | saas | dark | docs/refero/styles/front-3281b445/DESIGN.md | https://styles.refero.design/style/3281b445-805b-4dc7-933f-42b544a6d798 |
+| Endless | light | design | light | docs/refero/styles/endless-da316896/DESIGN.md | https://styles.refero.design/style/da316896-0121-433a-8188-e785ce7eac68 |
+| KidSuper World | light | agency | light | docs/refero/styles/kidsuper-world-5f953a7e/DESIGN.md | https://styles.refero.design/style/5f953a7e-c8e9-4e71-872f-4e7ffb7e7264 |
+| Victor Cango | light | design | light | docs/refero/styles/victor-cango-66fdf7a4/DESIGN.md | https://styles.refero.design/style/66fdf7a4-7d28-452e-88ec-c84e49b3ae6f |
+| Varo Bank | light | fintech | light | docs/refero/styles/varo-bank-2c05cf8d/DESIGN.md | https://styles.refero.design/style/2c05cf8d-97c5-4f35-96ef-eb53fc03ea81 |
+| WhatsApp.com | light | media | light | docs/refero/styles/whatsapp-com-a643f3a0/DESIGN.md | https://styles.refero.design/style/a643f3a0-6c99-4076-b03f-6f0691c21bd0 |
+| mire·studio | dark | design | dark | docs/refero/styles/mire-studio-e450c31c/DESIGN.md | https://styles.refero.design/style/e450c31c-ccda-490e-a749-13f6eacd3527 |
+| parker-studio | light | design | light | docs/refero/styles/parker-studio-75270aed/DESIGN.md | https://styles.refero.design/style/75270aed-5ae1-4f41-80df-1b137dc0916a |
+| Tokyo Digital | dark | agency | dark | docs/refero/styles/tokyo-digital-9c918457/DESIGN.md | https://styles.refero.design/style/9c918457-272b-4ab7-a5f1-f7446400cec3 |
+| Beautiful™ | light | ecommerce | light | docs/refero/styles/beautifultm-8e1c35bf/DESIGN.md | https://styles.refero.design/style/8e1c35bf-f0e8-4889-b869-d9883bb76767 |
+| Fidèle Editions | light | ecommerce | light | docs/refero/styles/fidele-editions-957da5c3/DESIGN.md | https://styles.refero.design/style/957da5c3-7063-4992-9d25-e255752dc9b3 |
+| Palmer | light | ecommerce | light | docs/refero/styles/palmer-7cae43cd/DESIGN.md | https://styles.refero.design/style/7cae43cd-dd0e-4658-86e6-d66935cfb213 |
+| Join Parker | light | fintech | light | docs/refero/styles/join-parker-f08f9870/DESIGN.md | https://styles.refero.design/style/f08f9870-2018-4c0b-80d4-0b2e525ff49c |
+| ISO Meet | light | design | light | docs/refero/styles/iso-meet-c11797c6/DESIGN.md | https://styles.refero.design/style/c11797c6-ceb2-4b57-a0ea-0c349d13b38c |
+| Mobbin | light | design | light | docs/refero/styles/mobbin-ef44a995/DESIGN.md | https://styles.refero.design/style/ef44a995-6745-4dc7-86ab-f7227f108f81 |
+| VALIENTE BRANDS | light | agency | light | docs/refero/styles/valiente-brands-f63bf016/DESIGN.md | https://styles.refero.design/style/f63bf016-5b53-4ddf-9f8c-da43f75a9e2b |
+| Active Theory | dark | agency | dark | docs/refero/styles/active-theory-3416bd14/DESIGN.md | https://styles.refero.design/style/3416bd14-96bb-4c23-bd01-b2ea178ba5ce |
+| Buildinamsterdam | mixed | agency | both | docs/refero/styles/buildinamsterdam-df452116/DESIGN.md | https://styles.refero.design/style/df452116-6b43-4963-991b-ebae892c8dc1 |
+| Lusion | light | agency | light | docs/refero/styles/lusion-1b44386e/DESIGN.md | https://styles.refero.design/style/1b44386e-31a8-40b0-a577-27c088b51264 |
+| Robinhood | dark | fintech | dark | docs/refero/styles/robinhood-48ba2283/DESIGN.md | https://styles.refero.design/style/48ba2283-13b5-423a-8742-390ea4e53c36 |
+| Zara | light | ecommerce | light | docs/refero/styles/zara-97823ba1/DESIGN.md | https://styles.refero.design/style/97823ba1-ee1e-489d-aefd-8d72a578669a |
+| destroytoday.com | light | design | light | docs/refero/styles/destroytoday-com-b8fd5772/DESIGN.md | https://styles.refero.design/style/b8fd5772-ac2b-4bfd-b5e5-d182261b09c5 |
+| Bōjka Studio | light | agency | light | docs/refero/styles/bojka-studio-286b6ba8/DESIGN.md | https://styles.refero.design/style/286b6ba8-a45d-48e0-b556-ff6aeac68058 |
+| Bibliothèque | dark | design | dark | docs/refero/styles/bibliotheque-5acff005/DESIGN.md | https://styles.refero.design/style/5acff005-1871-4237-bc25-cdddf50edc70 |
+| Laura Monin | light | design | light | docs/refero/styles/laura-monin-2b9e90ad/DESIGN.md | https://styles.refero.design/style/2b9e90ad-51d9-4f29-8f7e-a343dc741eab |
+| O0 | light | design | light | docs/refero/styles/o0-36752f78/DESIGN.md | https://styles.refero.design/style/36752f78-1c43-471b-b125-e82152ad23dd |
+| Threads | light | media | light | docs/refero/styles/threads-182f8743/DESIGN.md | https://styles.refero.design/style/182f8743-fe22-45d3-98bc-9fd29d058602 |
+| Ragged Edge | light | agency | light | docs/refero/styles/ragged-edge-fdc0f631/DESIGN.md | https://styles.refero.design/style/fdc0f631-442c-466d-ab79-e1fff2bfdb7d |
+| SAPGOODENERGY | light | ecommerce | light | docs/refero/styles/sapgoodenergy-0cead5f0/DESIGN.md | https://styles.refero.design/style/0cead5f0-0a56-401f-b637-81d1fe457259 |
+| Dovetail | light | fintech | light | docs/refero/styles/dovetail-1d51a2db/DESIGN.md | https://styles.refero.design/style/1d51a2db-18fc-4de3-bff7-d1e73ace8b6e |
+| 19–86 | light | agency | light | docs/refero/styles/19-86-6f428c12/DESIGN.md | https://styles.refero.design/style/6f428c12-ba43-48e3-9a52-299ec1ce509b |
+| Greenspace | dark | design | dark | docs/refero/styles/greenspace-d961e174/DESIGN.md | https://styles.refero.design/style/d961e174-875b-46ef-ad27-fe7f8e3bcd8c |
+| Spécialiste Belge | light | other | light | docs/refero/styles/specialiste-belge-a6729614/DESIGN.md | https://styles.refero.design/style/a6729614-4079-4275-ad22-cee04d90ba0c |
+| Threads | light | media | light | docs/refero/styles/threads-3b46c64e/DESIGN.md | https://styles.refero.design/style/3b46c64e-b733-4d70-8cd0-531ca1f92937 |
+| Monte | light | other | light | docs/refero/styles/monte-fb6ac216/DESIGN.md | https://styles.refero.design/style/fb6ac216-c11a-47c3-88e8-0423541da69c |
+| ThoughtLab | dark | design | dark | docs/refero/styles/thoughtlab-82d52a5f/DESIGN.md | https://styles.refero.design/style/82d52a5f-b1bb-4a69-91a3-15a7eb8bbe99 |
+| 601 Inc. | dark | media | dark | docs/refero/styles/601-inc-1cb31aee/DESIGN.md | https://styles.refero.design/style/1cb31aee-608e-4dec-a44d-5745e4fd6bab |
+| SuperMush | light | ecommerce | light | docs/refero/styles/supermush-71a9583d/DESIGN.md | https://styles.refero.design/style/71a9583d-1710-4696-9269-50ca8c9a2cfa |
+| Learn UX Design | light | productivity | light | docs/refero/styles/learn-ux-design-fae6a5ec/DESIGN.md | https://styles.refero.design/style/fae6a5ec-f32e-4151-bc22-350055d673f7 |
+| robot.com | light | ai | light | docs/refero/styles/robot-com-30dfffb4/DESIGN.md | https://styles.refero.design/style/30dfffb4-ff6d-4128-b3e5-39046ba258f0 |
+| Cowboy | light | ecommerce | light | docs/refero/styles/cowboy-00ce9181/DESIGN.md | https://styles.refero.design/style/00ce9181-45be-4340-b6a6-75a4d5d60cef |
+| Nofilter.space | light | media | light | docs/refero/styles/nofilter-space-4235ebdc/DESIGN.md | https://styles.refero.design/style/4235ebdc-a070-46ef-abbf-692151449bea |
+| Wope | dark | saas | dark | docs/refero/styles/wope-3882ed21/DESIGN.md | https://styles.refero.design/style/3882ed21-8ef8-4bc9-b125-7791c0f136bb |
+| Deezer | dark | media | dark | docs/refero/styles/deezer-502af24a/DESIGN.md | https://styles.refero.design/style/502af24a-b765-44b2-828f-dd610f27a125 |
+| Phantom | light | crypto | light | docs/refero/styles/phantom-80028bf5/DESIGN.md | https://styles.refero.design/style/80028bf5-0c05-43a4-8c9e-b98750d610bd |
+| Runway | light | ai | light | docs/refero/styles/runway-8f623d19/DESIGN.md | https://styles.refero.design/style/8f623d19-51f6-4da2-bc45-05573cc98283 |
+| Hey Low | light | design | light | docs/refero/styles/hey-low-7829a500/DESIGN.md | https://styles.refero.design/style/7829a500-242b-4932-b42d-7ce40c254101 |
+| Simon Liesinger | light | design | light | docs/refero/styles/simon-liesinger-a90dbcb6/DESIGN.md | https://styles.refero.design/style/a90dbcb6-e42c-4992-a83b-94879699dd4f |
+| Land of Ride | dark | other | dark | docs/refero/styles/land-of-ride-6d3c5056/DESIGN.md | https://styles.refero.design/style/6d3c5056-dbb9-413b-9e9d-37183cfb97f8 |
+| Phantom Studios | dark | agency | dark | docs/refero/styles/phantom-studios-1f0cc2ef/DESIGN.md | https://styles.refero.design/style/1f0cc2ef-9de0-4cbb-909f-ca120ef6d0ae |
+| Jasper | light | ai | light | docs/refero/styles/jasper-02a9c799/DESIGN.md | https://styles.refero.design/style/02a9c799-eb91-425b-8d68-3776b5e84229 |
+| Uniswap | light | crypto | light | docs/refero/styles/uniswap-e5b95270/DESIGN.md | https://styles.refero.design/style/e5b95270-9148-417a-89c6-32138d83a251 |
+| Ssense | light | ecommerce | light | docs/refero/styles/ssense-fa157687/DESIGN.md | https://styles.refero.design/style/fa157687-ee42-443e-a992-5f8a3fcdd48f |
+| EPIC agency | dark | agency | dark | docs/refero/styles/epic-agency-6eb778ca/DESIGN.md | https://styles.refero.design/style/6eb778ca-6808-4cc6-ac8a-7beea5a25c36 |
+| Elva | light | agency | light | docs/refero/styles/elva-9568198a/DESIGN.md | https://styles.refero.design/style/9568198a-5a51-4cbb-9dc3-b7610757cdd6 |
+| Zoox | light | ai | light | docs/refero/styles/zoox-e85a82b1/DESIGN.md | https://styles.refero.design/style/e85a82b1-c70e-42de-8c42-4bd95dd5e047 |
+| Tines | light | saas | light | docs/refero/styles/tines-18e2c0b4/DESIGN.md | https://styles.refero.design/style/18e2c0b4-f29c-4e84-90b0-1d8066b59409 |
+| Miranda | dark | design | dark | docs/refero/styles/miranda-3f6e3076/DESIGN.md | https://styles.refero.design/style/3f6e3076-e77f-487e-b212-3b5946a34e87 |
+| Rogie King | light | design | light | docs/refero/styles/rogie-king-2b67c471/DESIGN.md | https://styles.refero.design/style/2b67c471-ff5c-4443-9f8d-e704b6bb5236 |
+| Niklas Rosén | light | design | light | docs/refero/styles/niklas-rosen-b5bc8362/DESIGN.md | https://styles.refero.design/style/b5bc8362-467b-455b-b31c-08a16f224649 |
+| Emmalewisham | light | ecommerce | light | docs/refero/styles/emmalewisham-1e93f444/DESIGN.md | https://styles.refero.design/style/1e93f444-0b01-4412-aa2b-877be5ef08d7 |
+| Aisle | light | ecommerce | light | docs/refero/styles/aisle-398e73b4/DESIGN.md | https://styles.refero.design/style/398e73b4-c1ea-4283-a1f7-f4d47a548b4b |
+| ARKET | light | ecommerce | light | docs/refero/styles/arket-3c605c8e/DESIGN.md | https://styles.refero.design/style/3c605c8e-daf2-4d46-94d7-2cb705a93b7b |
+| Google for Education | light | other | light | docs/refero/styles/google-for-education-c57ba3f8/DESIGN.md | https://styles.refero.design/style/c57ba3f8-1d76-4660-8ba4-48ddce26e759 |
+| Bluesky Social | light | media | light | docs/refero/styles/bluesky-social-aa9234ca/DESIGN.md | https://styles.refero.design/style/aa9234ca-0cc8-470b-bd38-398712de3e95 |
+| SICK AGENCY | dark | agency | dark | docs/refero/styles/sick-agency-9ff03bd9/DESIGN.md | https://styles.refero.design/style/9ff03bd9-2ce0-474c-8c73-1905dbacc23b |
+| Grafik | light | agency | light | docs/refero/styles/grafik-0226e028/DESIGN.md | https://styles.refero.design/style/0226e028-3cd3-440d-b469-ca459267161d |
+| Grain | light | ai | light | docs/refero/styles/grain-04793c2a/DESIGN.md | https://styles.refero.design/style/04793c2a-ca1a-4edd-a661-56c965e42aec |
+| The Browser Company | light | ai | light | docs/refero/styles/the-browser-company-0e705758/DESIGN.md | https://styles.refero.design/style/0e705758-1beb-49ba-a545-d675275027ec |
+| Poly | light | ai | light | docs/refero/styles/poly-d8e01e43/DESIGN.md | https://styles.refero.design/style/d8e01e43-d260-4fa3-8f42-ae39e5c6ac84 |
+| Recess | light | ecommerce | light | docs/refero/styles/recess-2c7a280c/DESIGN.md | https://styles.refero.design/style/2c7a280c-7cc1-4766-b043-bc8bdd9b868c |
+| Preply | light | other | light | docs/refero/styles/preply-476fea7c/DESIGN.md | https://styles.refero.design/style/476fea7c-d578-4625-b9e6-36e95faa6ca4 |
+| Duties.xyz | light | other | light | docs/refero/styles/duties-xyz-e75b3106/DESIGN.md | https://styles.refero.design/style/e75b3106-fc5b-4bb8-8d7d-a7ab224fd27d |
+| Twitch | light | media | light | docs/refero/styles/twitch-40030487/DESIGN.md | https://styles.refero.design/style/40030487-56e3-447d-904f-b955ebadd0b5 |
+| Charlie Phipps | dark | design | dark | docs/refero/styles/charlie-phipps-7f6799d9/DESIGN.md | https://styles.refero.design/style/7f6799d9-0733-4523-9a94-036b9ad3bf28 |
+| Bruno Arizio | dark | design | dark | docs/refero/styles/bruno-arizio-1f2cc429/DESIGN.md | https://styles.refero.design/style/1f2cc429-a7e5-4248-b41d-cf372fd9ec95 |
+| Yllw | light | agency | light | docs/refero/styles/yllw-9483a10e/DESIGN.md | https://styles.refero.design/style/9483a10e-e098-4f94-ae22-ab5a63702243 |
+| Relief | light | fintech | light | docs/refero/styles/relief-e6b53c1e/DESIGN.md | https://styles.refero.design/style/e6b53c1e-644b-4300-b42f-0e64905d1443 |
+| Lazy | dark | productivity | dark | docs/refero/styles/lazy-2b939c70/DESIGN.md | https://styles.refero.design/style/2b939c70-c08e-4bb6-8fac-ade99b0d1cf0 |
+| Yannick Gregoire | light | design | light | docs/refero/styles/yannick-gregoire-875c43f3/DESIGN.md | https://styles.refero.design/style/875c43f3-04c7-4e9a-a994-dc0696b43374 |
+| hourly | dark | productivity | dark | docs/refero/styles/hourly-1b4c8933/DESIGN.md | https://styles.refero.design/style/1b4c8933-32b5-427d-9906-28574d1076cc |
+| Hai | light | ecommerce | light | docs/refero/styles/hai-5efde7b1/DESIGN.md | https://styles.refero.design/style/5efde7b1-008b-484c-82b1-d2628dccf855 |
+| Garden Eight | dark | design | dark | docs/refero/styles/garden-eight-e4593570/DESIGN.md | https://styles.refero.design/style/e4593570-e43f-4eda-8618-0bb704d5ebb7 |
+| Sunday | light | ai | light | docs/refero/styles/sunday-c521be99/DESIGN.md | https://styles.refero.design/style/c521be99-14af-4d57-8f8f-34c76c9ade61 |
+| FARFETCH España | light | ecommerce | light | docs/refero/styles/farfetch-espana-600002c5/DESIGN.md | https://styles.refero.design/style/600002c5-c5f5-4df0-adf6-6324ee6255c0 |
+| Dogstudio | dark | agency | dark | docs/refero/styles/dogstudio-0078edb1/DESIGN.md | https://styles.refero.design/style/0078edb1-1966-4473-94d6-b0f7dd62c6a2 |
+| Dribbble | light | design | light | docs/refero/styles/dribbble-b8ce0a90/DESIGN.md | https://styles.refero.design/style/b8ce0a90-40c6-4518-940c-8c97ccf9c1a0 |
+| Metalab | light | agency | light | docs/refero/styles/metalab-da087e69/DESIGN.md | https://styles.refero.design/style/da087e69-8832-418a-aa1b-42e1acabb39e |
+| Google | dark | other | dark | docs/refero/styles/google-ec103780/DESIGN.md | https://styles.refero.design/style/ec103780-ac86-4bb0-8c21-f887d732e8b4 |
+| CLOU architects | light | design | light | docs/refero/styles/clou-architects-febf1c02/DESIGN.md | https://styles.refero.design/style/febf1c02-2c4d-46e6-ad16-8ee2a99ae0d5 |
+| Basic.Space | light | ecommerce | light | docs/refero/styles/basic-space-d7096101/DESIGN.md | https://styles.refero.design/style/d7096101-d33c-43b8-8b0b-d9dfff802db2 |
+| Folkert Gorter | light | other | light | docs/refero/styles/folkert-gorter-30b7dcc4/DESIGN.md | https://styles.refero.design/style/30b7dcc4-7f6e-413a-b6b5-dce60fed0acd |
+| Watch new Originals | dark | media | dark | docs/refero/styles/watch-new-originals-e586b296/DESIGN.md | https://styles.refero.design/style/e586b296-bfac-4e93-add2-daa384712b39 |
+| Agence K72 | dark | agency | dark | docs/refero/styles/agence-k72-1ff3bd9c/DESIGN.md | https://styles.refero.design/style/1ff3bd9c-827d-450a-a382-300839768d66 |
+| REKKI | dark | ai | dark | docs/refero/styles/rekki-65b8df27/DESIGN.md | https://styles.refero.design/style/65b8df27-36a3-47a6-be53-735d1f6a485d |
+| Payments | light | fintech | light | docs/refero/styles/payments-123a15b8/DESIGN.md | https://styles.refero.design/style/123a15b8-4e17-4812-83ec-899cce45db5b |
+| GRAZA | light | ecommerce | light | docs/refero/styles/graza-f2a84e0f/DESIGN.md | https://styles.refero.design/style/f2a84e0f-cf77-41fa-ade0-b062a3a42495 |
+| Analogue | dark | design | dark | docs/refero/styles/analogue-f68dd3d8/DESIGN.md | https://styles.refero.design/style/f68dd3d8-e8fa-4d2c-8c59-28aba06c9d8a |
+| A24 | light | media | light | docs/refero/styles/a24-6afa22a6/DESIGN.md | https://styles.refero.design/style/6afa22a6-bec8-47c3-b5ee-5d11d64902cb |
+| Honk | light | media | light | docs/refero/styles/honk-ca4708f7/DESIGN.md | https://styles.refero.design/style/ca4708f7-7175-4da2-a47f-ce8f5e601f99 |
+| Philosophical Foxes | light | crypto | light | docs/refero/styles/philosophical-foxes-b89cbf8d/DESIGN.md | https://styles.refero.design/style/b89cbf8d-1198-4b0b-b8bc-8ee8025d8a6d |
+| Roberta's Pizza | light | other | light | docs/refero/styles/roberta-s-pizza-3e497155/DESIGN.md | https://styles.refero.design/style/3e497155-bd96-4134-a4a5-855bd885a25c |
+| Patreon | light | saas | light | docs/refero/styles/patreon-bb94375b/DESIGN.md | https://styles.refero.design/style/bb94375b-cf09-47d4-a2e3-7b332b2c9216 |
+| Isla Beauty | light | ecommerce | light | docs/refero/styles/isla-beauty-0b9da6ef/DESIGN.md | https://styles.refero.design/style/0b9da6ef-bec5-4073-90af-66c67e72f2a4 |
+| MAKR | light | ecommerce | light | docs/refero/styles/makr-f2bf6db7/DESIGN.md | https://styles.refero.design/style/f2bf6db7-37b6-4394-be97-6bbb2c45c268 |
+| Spacelab | light | design | light | docs/refero/styles/spacelab-7fdcf5eb/DESIGN.md | https://styles.refero.design/style/7fdcf5eb-4d65-49a2-b887-60119bca4edc |
+| Gitbook | light | productivity | light | docs/refero/styles/gitbook-ea8a4150/DESIGN.md | https://styles.refero.design/style/ea8a4150-e062-4c0e-94ca-668a3033eb63 |
+| SST | light | devtools | light | docs/refero/styles/sst-19f92be1/DESIGN.md | https://styles.refero.design/style/19f92be1-65ac-4432-a82b-0aa1e685d97d |
+| Tapbots | dark | other | dark | docs/refero/styles/tapbots-8ce08850/DESIGN.md | https://styles.refero.design/style/8ce08850-085e-4954-a2f0-16acfb8dce23 |
+| Pixso | light | design | light | docs/refero/styles/pixso-155dbf6e/DESIGN.md | https://styles.refero.design/style/155dbf6e-1187-424e-9ce8-59ffecff7e6b |
+| Jacquemus | light | ecommerce | light | docs/refero/styles/jacquemus-0d03310d/DESIGN.md | https://styles.refero.design/style/0d03310d-bff2-45af-b599-cffd5c41f884 |
+| ThatWineIsMine | light | ecommerce | light | docs/refero/styles/thatwineismine-b9e7cf83/DESIGN.md | https://styles.refero.design/style/b9e7cf83-264c-4d52-bffb-0a1385657cc2 |
+| Chris Biron | dark | design | dark | docs/refero/styles/chris-biron-68eeb68f/DESIGN.md | https://styles.refero.design/style/68eeb68f-935b-4c14-9369-f3a5c23efedc |
+| Redis Agency | dark | agency | dark | docs/refero/styles/redis-agency-4406799b/DESIGN.md | https://styles.refero.design/style/4406799b-1586-4d84-aac9-e6acdee0f679 |
+| A-WARE | light | ecommerce | light | docs/refero/styles/a-ware-5681f7b6/DESIGN.md | https://styles.refero.design/style/5681f7b6-c665-44b8-a065-da7180133149 |
+| Swap | light | saas | light | docs/refero/styles/swap-15d10d6c/DESIGN.md | https://styles.refero.design/style/15d10d6c-1844-46c6-ae69-c99a56e6ad41 |
+| Heavyweight | light | design | light | docs/refero/styles/heavyweight-d991c31d/DESIGN.md | https://styles.refero.design/style/d991c31d-2ffa-4a94-ab37-7f7d8f7d6a0c |
+| Holiday 100 | dark | ecommerce | dark | docs/refero/styles/holiday-100-48fa5bef/DESIGN.md | https://styles.refero.design/style/48fa5bef-d910-40e1-b9b0-c0fcad055c6f |
+| Cosmos Network | dark | fintech | dark | docs/refero/styles/cosmos-network-60ee0386/DESIGN.md | https://styles.refero.design/style/60ee0386-cfad-409a-8310-762bfc2e4816 |
+| Windsurf | dark | devtools | dark | docs/refero/styles/windsurf-cfab7b43/DESIGN.md | https://styles.refero.design/style/cfab7b43-ed24-41e9-9272-c858700b865b |
+| Pitch | light | productivity | light | docs/refero/styles/pitch-da332394/DESIGN.md | https://styles.refero.design/style/da332394-784c-4df2-9e66-c3f7b1d28f28 |
+| Superlocal | light | design | light | docs/refero/styles/superlocal-a865ac1d/DESIGN.md | https://styles.refero.design/style/a865ac1d-a4c2-425b-90db-2a7ec6d461a3 |
+| SuperHi | light | other | light | docs/refero/styles/superhi-90b8631c/DESIGN.md | https://styles.refero.design/style/90b8631c-4e2c-407e-86a3-d2bff456dc93 |
+| FeedHive | light | ai | light | docs/refero/styles/feedhive-45080e55/DESIGN.md | https://styles.refero.design/style/45080e55-1fbe-4726-be23-4c9f54e442aa |
+| Pastel | light | design | light | docs/refero/styles/pastel-409d92b9/DESIGN.md | https://styles.refero.design/style/409d92b9-00a8-4e21-a430-ab95ea48204f |
+| The Verge | dark | media | dark | docs/refero/styles/the-verge-e8c4206d/DESIGN.md | https://styles.refero.design/style/e8c4206d-9a2a-4c08-9524-6f14a25e792f |
+| Promova | dark | other | dark | docs/refero/styles/promova-dae5e893/DESIGN.md | https://styles.refero.design/style/dae5e893-ca18-44c3-8f83-358cb52af237 |
+| INK | light | agency | light | docs/refero/styles/ink-6262b0bb/DESIGN.md | https://styles.refero.design/style/6262b0bb-ea6f-481b-b706-65df29507b6c |
+| Brisbane Web Developer | light | agency | light | docs/refero/styles/brisbane-web-developer-23d83a89/DESIGN.md | https://styles.refero.design/style/23d83a89-8f22-405a-aa33-74fd0ebde9d8 |
+| Limitless | light | devtools | light | docs/refero/styles/limitless-626ae2de/DESIGN.md | https://styles.refero.design/style/626ae2de-c402-4805-b859-2c6adca41022 |
+| Locomotive | light | agency | light | docs/refero/styles/locomotive-131d07b0/DESIGN.md | https://styles.refero.design/style/131d07b0-f71b-4bd2-8046-f61485ed545c |
+| Loops | light | saas | light | docs/refero/styles/loops-4d832c12/DESIGN.md | https://styles.refero.design/style/4d832c12-dd14-45b0-bba7-2d3bc25d8264 |
+| Better Stack | dark | devtools | dark | docs/refero/styles/better-stack-1de273f2/DESIGN.md | https://styles.refero.design/style/1de273f2-166f-4526-8442-16cc39fc7fd5 |
+| ADBC | light | other | light | docs/refero/styles/adbc-fe602c0f/DESIGN.md | https://styles.refero.design/style/fe602c0f-2862-432b-88fc-fa5f9fbc3c78 |
+| MORE Studio | light | design | light | docs/refero/styles/more-studio-f8872933/DESIGN.md | https://styles.refero.design/style/f8872933-87af-4b9b-8a20-20694f0c45a3 |
+| Artisans d'idées | dark | agency | dark | docs/refero/styles/artisans-d-idees-4067a82e/DESIGN.md | https://styles.refero.design/style/4067a82e-c6fe-4236-9487-805f25c11864 |
+| Usesammy | light | other | light | docs/refero/styles/usesammy-12ef36a6/DESIGN.md | https://styles.refero.design/style/12ef36a6-d7bb-4900-beba-73453cd7b110 |
+| Valo | dark | ai | dark | docs/refero/styles/valo-f65c3888/DESIGN.md | https://styles.refero.design/style/f65c3888-2eb3-41a1-87b3-f410b667097e |
+| Gigantic | light | ecommerce | light | docs/refero/styles/gigantic-22e11001/DESIGN.md | https://styles.refero.design/style/22e11001-8786-4af7-bdb9-f9419ce8ad1a |
+| Dollar Shave Club | dark | ecommerce | dark | docs/refero/styles/dollar-shave-club-6d72f05e/DESIGN.md | https://styles.refero.design/style/6d72f05e-dce6-43ad-9532-f61bf211ed46 |
+| Contra | light | design | light | docs/refero/styles/contra-1608cf19/DESIGN.md | https://styles.refero.design/style/1608cf19-b249-46d4-bd37-b4c6a7fc4b56 |
+| Soulwire | dark | design | dark | docs/refero/styles/soulwire-d4bb0eb1/DESIGN.md | https://styles.refero.design/style/d4bb0eb1-c35f-4c5d-8dec-250324ea5990 |
+| wix.com | light | saas | light | docs/refero/styles/wix-com-a31f5b99/DESIGN.md | https://styles.refero.design/style/a31f5b99-6e7d-4e13-9b80-cd60e455bd76 |
+| Daniela and Moe Wedding 2019 | light | other | light | docs/refero/styles/daniela-and-moe-wedding-2019-0f1b3cd0/DESIGN.md | https://styles.refero.design/style/0f1b3cd0-de5a-4418-8711-0e1afe04707c |
+| Oevra | light | productivity | light | docs/refero/styles/oevra-01d6013d/DESIGN.md | https://styles.refero.design/style/01d6013d-a176-4a22-b7dd-fbd113592956 |
+| Aesop | light | ecommerce | light | docs/refero/styles/aesop-24c0de95/DESIGN.md | https://styles.refero.design/style/24c0de95-295d-42aa-8240-4e36683cf35b |
+| Relume | light | ai | light | docs/refero/styles/relume-b2dab9ac/DESIGN.md | https://styles.refero.design/style/b2dab9ac-9e35-43f5-a8bb-dd9d6702acf0 |
+| Splice | dark | media | dark | docs/refero/styles/splice-1f69df96/DESIGN.md | https://styles.refero.design/style/1f69df96-675d-4ee0-aa85-e085d9d39981 |
+| Sonos | light | ecommerce | light | docs/refero/styles/sonos-8d315332/DESIGN.md | https://styles.refero.design/style/8d315332-6267-4dc0-a14c-e8b49c26b0e1 |
+| Atoms | light | other | light | docs/refero/styles/atoms-537641a0/DESIGN.md | https://styles.refero.design/style/537641a0-5a24-4203-ae9b-cd29516aa3f8 |
+| AngelList | dark | fintech | dark | docs/refero/styles/angellist-c75603c7/DESIGN.md | https://styles.refero.design/style/c75603c7-492d-4c26-9744-9acc22fe6225 |
+| drink818 | light | other | light | docs/refero/styles/drink818-5fc45cd6/DESIGN.md | https://styles.refero.design/style/5fc45cd6-924a-4d52-81d5-3ec5b5f43b91 |
+| Nuri | light | fintech | light | docs/refero/styles/nuri-a0cb71ee/DESIGN.md | https://styles.refero.design/style/a0cb71ee-c2f2-4c37-a527-9e8ff0a0b312 |
+| HNST Studio | light | ecommerce | light | docs/refero/styles/hnst-studio-7de578bc/DESIGN.md | https://styles.refero.design/style/7de578bc-9fbd-4664-a731-6223515bb601 |
+| Campsite | light | productivity | light | docs/refero/styles/campsite-5d8ad116/DESIGN.md | https://styles.refero.design/style/5d8ad116-b3d8-4890-a969-5b856b35c678 |
+| The Communication Studio | light | agency | light | docs/refero/styles/the-communication-studio-400e2eab/DESIGN.md | https://styles.refero.design/style/400e2eab-ff52-45ab-8ec2-79d7ab7b816e |
+| Marco | light | design | light | docs/refero/styles/marco-88e9d606/DESIGN.md | https://styles.refero.design/style/88e9d606-7e8f-479c-9508-1b081e254ed9 |
+| Quicken | light | fintech | light | docs/refero/styles/quicken-75eb47d6/DESIGN.md | https://styles.refero.design/style/75eb47d6-2526-4936-b15a-7474cf4cdc69 |
+| INO | light | ecommerce | light | docs/refero/styles/ino-57388b47/DESIGN.md | https://styles.refero.design/style/57388b47-f789-441f-8b8d-13f1838a9ac6 |
+| On Shop | light | ecommerce | light | docs/refero/styles/on-shop-3a4ac160/DESIGN.md | https://styles.refero.design/style/3a4ac160-5e13-4e3f-b2c9-245da422e108 |
+| Coda | light | productivity | light | docs/refero/styles/coda-0f0d4cb7/DESIGN.md | https://styles.refero.design/style/0f0d4cb7-5109-4e81-8c8d-f6bd0441b27c |
+| Notion | dark | saas | dark | docs/refero/styles/notion-f58e99d1/DESIGN.md | https://styles.refero.design/style/f58e99d1-940d-4254-8822-5d856bba6505 |
+| Loom | light | saas | light | docs/refero/styles/loom-bc2c6ecc/DESIGN.md | https://styles.refero.design/style/bc2c6ecc-7a0d-4693-86e5-9fa93b165601 |
+| Liquid Death | mixed | ecommerce | both | docs/refero/styles/liquid-death-b6f2b036/DESIGN.md | https://styles.refero.design/style/b6f2b036-e48e-452f-b003-941c491015c0 |
+| Home | light | other | light | docs/refero/styles/home-738b48c3/DESIGN.md | https://styles.refero.design/style/738b48c3-fecd-4af8-b3f8-4ef9c07b5d3f |
+| Fallen Grape | light | ecommerce | light | docs/refero/styles/fallen-grape-17ce9ad2/DESIGN.md | https://styles.refero.design/style/17ce9ad2-f22d-4e48-92de-e28fb8551cc5 |
+| ilovecreatives | light | design | light | docs/refero/styles/ilovecreatives-9afa0254/DESIGN.md | https://styles.refero.design/style/9afa0254-423b-4354-a852-8894c33d2e6b |
+| Maze | light | fintech | light | docs/refero/styles/maze-966a03d5/DESIGN.md | https://styles.refero.design/style/966a03d5-13e9-48d8-9b01-28e6ae3f3967 |
+| Surfshark | mixed | other | both | docs/refero/styles/surfshark-4fc7a535/DESIGN.md | https://styles.refero.design/style/4fc7a535-3c99-4ffe-8365-7d025d33274e |
+| D.S. & DURGA | light | ecommerce | light | docs/refero/styles/d-s-and-durga-391bd401/DESIGN.md | https://styles.refero.design/style/391bd401-06d7-4444-8243-8573e96eab24 |
+| VITURE | light | ecommerce | light | docs/refero/styles/viture-390cfba6/DESIGN.md | https://styles.refero.design/style/390cfba6-8c2f-4273-8c9e-750d470b6e2e |
+| Bunsa Studio | light | design | light | docs/refero/styles/bunsa-studio-16e75fc0/DESIGN.md | https://styles.refero.design/style/16e75fc0-5939-40e7-a187-b2f3b70fdafe |
+| Cards Against Humanity | dark | other | dark | docs/refero/styles/cards-against-humanity-cef9a300/DESIGN.md | https://styles.refero.design/style/cef9a300-8513-46c2-9c2c-c0016e5a5d30 |
+| Relieve Furniture | light | other | light | docs/refero/styles/relieve-furniture-4e7daadc/DESIGN.md | https://styles.refero.design/style/4e7daadc-3dc4-4211-bf25-626ea7b216e6 |
+| BlueYard Capital | light | fintech | light | docs/refero/styles/blueyard-capital-ea11696a/DESIGN.md | https://styles.refero.design/style/ea11696a-17c0-41f8-9b08-c820851e0ea9 |
+| MEDIOCRE | light | design | light | docs/refero/styles/mediocre-74db0cb1/DESIGN.md | https://styles.refero.design/style/74db0cb1-87b9-4118-ac4e-dee1910f4cae |
+| Zeus Jones | light | agency | light | docs/refero/styles/zeus-jones-b619e1b9/DESIGN.md | https://styles.refero.design/style/b619e1b9-86ee-4a10-b6e6-47b10927c3a2 |
+| Pedro Duarte | dark | agency | dark | docs/refero/styles/pedro-duarte-bee5e949/DESIGN.md | https://styles.refero.design/style/bee5e949-b8ba-43cb-aaeb-d8c3b5efb3fd |
+| Champions4good | dark | other | dark | docs/refero/styles/champions4good-e02671e1/DESIGN.md | https://styles.refero.design/style/e02671e1-ba31-465f-bb7f-b124bf91ab5e |
+| Getharvest | light | productivity | light | docs/refero/styles/getharvest-1eee9aa2/DESIGN.md | https://styles.refero.design/style/1eee9aa2-1e23-4675-9f6e-fb98c93969bd |
+| 1Password | mixed | saas | both | docs/refero/styles/1password-da0bfca3/DESIGN.md | https://styles.refero.design/style/da0bfca3-df1d-49d9-ae25-61d8f348426f |
+| Dub Links | light | devtools | light | docs/refero/styles/dub-links-7bbbf1bc/DESIGN.md | https://styles.refero.design/style/7bbbf1bc-e375-4200-8d71-e373a3c78654 |
+| Everlane | light | ecommerce | light | docs/refero/styles/everlane-34b4856c/DESIGN.md | https://styles.refero.design/style/34b4856c-cc2b-4164-ab90-1b87cf8e0213 |
+| Kinfolk | light | media | light | docs/refero/styles/kinfolk-ac9b040e/DESIGN.md | https://styles.refero.design/style/ac9b040e-36aa-4881-ada5-72d4744947a4 |
+| Podcorn | light | media | light | docs/refero/styles/podcorn-8d4b0738/DESIGN.md | https://styles.refero.design/style/8d4b0738-c302-45c6-98c9-b3cd36e04613 |
+| Earlydog | light | saas | light | docs/refero/styles/earlydog-707a1648/DESIGN.md | https://styles.refero.design/style/707a1648-eaef-4629-9c5a-b835cedde250 |
+| Letter | light | fintech | light | docs/refero/styles/letter-bcfc6cb0/DESIGN.md | https://styles.refero.design/style/bcfc6cb0-1b39-4f3f-a95e-bd7b563b0efc |
+| Moffitt.Moffitt. - | light | design | light | docs/refero/styles/moffitt-moffitt-4244637b/DESIGN.md | https://styles.refero.design/style/4244637b-e27b-4962-b586-cb3ac605e5aa |
+| Exo Ape | light | agency | light | docs/refero/styles/exo-ape-18e84ffd/DESIGN.md | https://styles.refero.design/style/18e84ffd-4a5d-453d-aeff-dae2847aa3c9 |
+| UY Studio | light | ecommerce | light | docs/refero/styles/uy-studio-b376d42c/DESIGN.md | https://styles.refero.design/style/b376d42c-b2cb-4a52-8cec-ebf19cf1883f |
+| Koa Health | light | other | light | docs/refero/styles/koa-health-a90e846a/DESIGN.md | https://styles.refero.design/style/a90e846a-d278-47c2-b7fc-9497b5e024da |
+| Sneak in Peace | light | ecommerce | light | docs/refero/styles/sneak-in-peace-643f90ba/DESIGN.md | https://styles.refero.design/style/643f90ba-dc30-428b-a145-26f02fe70551 |
+| Sequence | light | crypto | light | docs/refero/styles/sequence-5b188bcc/DESIGN.md | https://styles.refero.design/style/5b188bcc-95f6-45b4-b0af-1c78e2ef05f2 |
+| B—Line | light | design | light | docs/refero/styles/b-line-3b9ed801/DESIGN.md | https://styles.refero.design/style/3b9ed801-511c-48b6-b516-68b1aa8a36ea |
+| Jean Paul Gaultier | light | ecommerce | light | docs/refero/styles/jean-paul-gaultier-0c35beb7/DESIGN.md | https://styles.refero.design/style/0c35beb7-96fe-4394-b3ae-877629412f34 |
+| Bpowell | mixed | design | both | docs/refero/styles/bpowell-7afd842e/DESIGN.md | https://styles.refero.design/style/7afd842e-44d4-4f01-9ef5-683c31d820c9 |
+| Tailwind CSS | light | devtools | light | docs/refero/styles/tailwind-css-8f79ab5b/DESIGN.md | https://styles.refero.design/style/8f79ab5b-a91a-4bf4-a64f-4a5ba3ada7d5 |
+| Letterboxd | dark | media | dark | docs/refero/styles/letterboxd-d98dea0b/DESIGN.md | https://styles.refero.design/style/d98dea0b-00a4-4c15-b4a9-d196e2c3e4b4 |
+| Bear Markdown Notes | light | productivity | light | docs/refero/styles/bear-markdown-notes-4afe77ff/DESIGN.md | https://styles.refero.design/style/4afe77ff-e7fa-41d8-96d6-ce8cdc159f97 |
+| Overflow | light | design | light | docs/refero/styles/overflow-6845a075/DESIGN.md | https://styles.refero.design/style/6845a075-8573-4bdc-9346-58cb09b83547 |
+| ethereum.org | light | crypto | light | docs/refero/styles/ethereum-org-f53b2759/DESIGN.md | https://styles.refero.design/style/f53b2759-5b4a-4509-9311-51ab74238326 |
+| Pietrastudio | light | saas | light | docs/refero/styles/pietrastudio-577eb7d8/DESIGN.md | https://styles.refero.design/style/577eb7d8-3555-4378-83df-0cebebc4782f |
+| Wellfound | light | productivity | light | docs/refero/styles/wellfound-f8286b32/DESIGN.md | https://styles.refero.design/style/f8286b32-cc41-43e3-8b43-067333bb2e32 |
+| Koox | light | ecommerce | light | docs/refero/styles/koox-d1ca41ff/DESIGN.md | https://styles.refero.design/style/d1ca41ff-1bcc-4081-b1fd-bdcf380ba749 |
+| OFF WHITE | dark | design | dark | docs/refero/styles/off-white-cf49b88a/DESIGN.md | https://styles.refero.design/style/cf49b88a-fb38-4520-8fbb-ab3efa983517 |
+| Aboard | light | productivity | light | docs/refero/styles/aboard-fabacd2a/DESIGN.md | https://styles.refero.design/style/fabacd2a-acb6-46c4-939c-4a464df15440 |
+| Hyper Tria | light | agency | light | docs/refero/styles/hyper-tria-6665a3dd/DESIGN.md | https://styles.refero.design/style/6665a3dd-606f-4fd1-80dd-a84e3b3a6226 |
+| Cards Against Humanity | dark | other | dark | docs/refero/styles/cards-against-humanity-51b5d80e/DESIGN.md | https://styles.refero.design/style/51b5d80e-d898-4d70-bd16-9e50406e014c |
+| Freshman | dark | media | dark | docs/refero/styles/freshman-a6284fcd/DESIGN.md | https://styles.refero.design/style/a6284fcd-fa69-4469-ac40-4239e5b84a39 |
+| HOUSEPLANT | light | ecommerce | light | docs/refero/styles/houseplant-7fdd9506/DESIGN.md | https://styles.refero.design/style/7fdd9506-0a85-41a5-b2a7-c5ce1f31d863 |
+| DNCO | light | agency | light | docs/refero/styles/dnco-c072c00a/DESIGN.md | https://styles.refero.design/style/c072c00a-ee7f-4160-bd06-645cca12f7a8 |
+| Doo | light | productivity | light | docs/refero/styles/doo-d486c348/DESIGN.md | https://styles.refero.design/style/d486c348-fc1b-4b01-9064-1213e4dbcb1b |
+| The online bank | light | fintech | light | docs/refero/styles/the-online-bank-e9f07a27/DESIGN.md | https://styles.refero.design/style/e9f07a27-bdd4-4f6a-8132-329d014aa5f4 |
+| Super | mixed | saas | both | docs/refero/styles/super-25863c92/DESIGN.md | https://styles.refero.design/style/25863c92-a287-491e-bae7-4da37a1f9a98 |
+| reboot | light | agency | light | docs/refero/styles/reboot-ac14ea36/DESIGN.md | https://styles.refero.design/style/ac14ea36-ea3e-4a25-bd16-11fb50d806fb |
+| Phantom | light | crypto | light | docs/refero/styles/phantom-6144c3ae/DESIGN.md | https://styles.refero.design/style/6144c3ae-fc57-4efe-b6ed-2b5eab2dc108 |
+| Woset | light | ecommerce | light | docs/refero/styles/woset-430813c0/DESIGN.md | https://styles.refero.design/style/430813c0-f0c7-434f-92ef-d3a0780ba734 |
+| Treecard | light | other | light | docs/refero/styles/treecard-c4404785/DESIGN.md | https://styles.refero.design/style/c4404785-1b20-4a5d-b907-96769937e03f |
+| Studio Gruhl | dark | design | dark | docs/refero/styles/studio-gruhl-9e3fde24/DESIGN.md | https://styles.refero.design/style/9e3fde24-cc7d-4b96-a70a-7c172882aa8f |
+| MetaMusic | light | media | light | docs/refero/styles/metamusic-6ffe7b61/DESIGN.md | https://styles.refero.design/style/6ffe7b61-a418-4cbd-9e7a-a5129db6c589 |
+| Proton | light | saas | light | docs/refero/styles/proton-7fa8f4c3/DESIGN.md | https://styles.refero.design/style/7fa8f4c3-4114-4c46-b1fb-b6cdcaaa2169 |
+| #standwithukraine | dark | other | dark | docs/refero/styles/standwithukraine-6e91afd2/DESIGN.md | https://styles.refero.design/style/6e91afd2-a3ce-4bd7-88ab-eea9e38f6af4 |
+| Baggu | light | ecommerce | light | docs/refero/styles/baggu-39105d96/DESIGN.md | https://styles.refero.design/style/39105d96-3cb1-497a-8f9f-507a1bed4d30 |
+| Fable | light | ecommerce | light | docs/refero/styles/fable-6db97165/DESIGN.md | https://styles.refero.design/style/6db97165-78a2-4953-9d93-281f6a8f58aa |
+| Tech Barcelona | light | other | light | docs/refero/styles/tech-barcelona-271172f7/DESIGN.md | https://styles.refero.design/style/271172f7-9f6d-4d6f-9baa-91a41648d8be |
+| Wiza | light | ai | light | docs/refero/styles/wiza-3720657f/DESIGN.md | https://styles.refero.design/style/3720657f-2b59-475e-a43d-b18cac718325 |
+| Superlist | dark | productivity | dark | docs/refero/styles/superlist-13f27e7a/DESIGN.md | https://styles.refero.design/style/13f27e7a-d84f-4ff9-a030-ae4e2c930757 |
+| Savvycal | light | productivity | light | docs/refero/styles/savvycal-83b71dd8/DESIGN.md | https://styles.refero.design/style/83b71dd8-de08-4c57-80b2-9fced17a0ca5 |
+| Grammarly | light | productivity | light | docs/refero/styles/grammarly-be2af3f3/DESIGN.md | https://styles.refero.design/style/be2af3f3-3886-4d70-973f-f7b5ab8d1a99 |
+| Next.js Conf 2025 | light | devtools | light | docs/refero/styles/next-js-conf-2025-99e6eff7/DESIGN.md | https://styles.refero.design/style/99e6eff7-871d-4018-bb81-d2ea235f4f91 |
+| Green Angel Syndicate | light | fintech | light | docs/refero/styles/green-angel-syndicate-72f16808/DESIGN.md | https://styles.refero.design/style/72f16808-d783-45e9-8166-2399c73473fc |
+| B/D® JAMS | light | media | light | docs/refero/styles/b-d-jams-f53d4664/DESIGN.md | https://styles.refero.design/style/f53d4664-017b-46d1-9336-ec555dc9022e |
+| Telescope | light | other | light | docs/refero/styles/telescope-e6fb72b4/DESIGN.md | https://styles.refero.design/style/e6fb72b4-877d-46ab-8f94-590b971d4dc1 |
+| AllCaps | light | design | light | docs/refero/styles/allcaps-b024c7cb/DESIGN.md | https://styles.refero.design/style/b024c7cb-c0b6-413d-9caf-5fec7ed5071e |
+| Petertarka | light | design | light | docs/refero/styles/petertarka-40a590a3/DESIGN.md | https://styles.refero.design/style/40a590a3-1f0d-41ab-9c39-30adf86dd400 |
+| Ordinal | dark | saas | dark | docs/refero/styles/ordinal-4657db98/DESIGN.md | https://styles.refero.design/style/4657db98-0c6c-4848-91e9-c339f3bb7815 |
+| bokoko33.me | light | design | light | docs/refero/styles/bokoko33-me-075fda17/DESIGN.md | https://styles.refero.design/style/075fda17-544b-4a02-86ff-5e3ea59f96d6 |
+| Freitag | light | ecommerce | light | docs/refero/styles/freitag-d75a643b/DESIGN.md | https://styles.refero.design/style/d75a643b-a518-4550-b430-679cd989a447 |
+| Kikk Festival | light | other | light | docs/refero/styles/kikk-festival-94ea1ae0/DESIGN.md | https://styles.refero.design/style/94ea1ae0-1b51-4c77-9662-b40fcaf82ecd |
+| Promly | dark | other | dark | docs/refero/styles/promly-9117a4f5/DESIGN.md | https://styles.refero.design/style/9117a4f5-6171-44ad-aa85-a387a5d80620 |
+| ddna | light | ecommerce | light | docs/refero/styles/ddna-0e8e546b/DESIGN.md | https://styles.refero.design/style/0e8e546b-004c-46b6-a960-5dd88968ae07 |
+| jun.works | light | design | light | docs/refero/styles/jun-works-02ba867b/DESIGN.md | https://styles.refero.design/style/02ba867b-49e3-4ab4-ad23-c30baf345078 |
+| Catherine Peacock | light | design | light | docs/refero/styles/catherine-peacock-a9fd26a1/DESIGN.md | https://styles.refero.design/style/a9fd26a1-7741-49fd-aceb-ca734153b927 |
+| Luis Bizarro | dark | design | dark | docs/refero/styles/luis-bizarro-c23be526/DESIGN.md | https://styles.refero.design/style/c23be526-89e8-468f-ba35-9ab647908325 |
+| Bongusta | light | ecommerce | light | docs/refero/styles/bongusta-588b79ff/DESIGN.md | https://styles.refero.design/style/588b79ff-97ee-4e90-951e-401ece6c5fe1 |
+| Martin Laxenaire | light | design | light | docs/refero/styles/martin-laxenaire-0e8db8d0/DESIGN.md | https://styles.refero.design/style/0e8db8d0-4d8f-48ac-a8e7-aaea9601e3ce |
+| Readymag | light | design | light | docs/refero/styles/readymag-1287abc9/DESIGN.md | https://styles.refero.design/style/1287abc9-da90-410d-a997-96b8b11ad646 |
+| Secure and powerful crypto wallet \| Ctrl Wallet | light | crypto | light | docs/refero/styles/secure-and-powerful-crypto-wallet-ctrl-wallet-88b02f2c/DESIGN.md | https://styles.refero.design/style/88b02f2c-d82e-495a-8fb6-e750a0fb1211 |
+| Vivid Spain | light | fintech | light | docs/refero/styles/vivid-spain-c25e8eb5/DESIGN.md | https://styles.refero.design/style/c25e8eb5-634d-4aca-b30b-d8ba5a50dc5a |
+| Depot | dark | devtools | dark | docs/refero/styles/depot-f4636c5b/DESIGN.md | https://styles.refero.design/style/f4636c5b-1342-48b2-b9b1-a82e2182440e |
+| ElevenReader | light | productivity | light | docs/refero/styles/elevenreader-c51c8371/DESIGN.md | https://styles.refero.design/style/c51c8371-0e42-4bdf-9766-c9eac5eee9a5 |
+| Jitter | light | design | light | docs/refero/styles/jitter-ab1e41e9/DESIGN.md | https://styles.refero.design/style/ab1e41e9-7d21-4762-b498-51b8c63ae7ce |
+| Resn | dark | agency | dark | docs/refero/styles/resn-9c1ec0f7/DESIGN.md | https://styles.refero.design/style/9c1ec0f7-f6fb-4388-9fde-760942dedbda |
+| Touchy Coffee | light | ecommerce | light | docs/refero/styles/touchy-coffee-6da76890/DESIGN.md | https://styles.refero.design/style/6da76890-6e04-452a-834d-ff019e232c2b |
+| Beth-Emily | light | design | light | docs/refero/styles/beth-emily-e777bc8c/DESIGN.md | https://styles.refero.design/style/e777bc8c-91c8-4f4d-bd4d-1894abeba25d |
+| Anacuna | light | design | light | docs/refero/styles/anacuna-bb961b10/DESIGN.md | https://styles.refero.design/style/bb961b10-d437-4023-9201-a44349fe591f |
+| Superr | light | productivity | light | docs/refero/styles/superr-cfd0fec1/DESIGN.md | https://styles.refero.design/style/cfd0fec1-f25a-4b9b-9bd0-d5b66960f2f2 |
+| Partners for | light | fintech | light | docs/refero/styles/partners-for-ac2e7d86/DESIGN.md | https://styles.refero.design/style/ac2e7d86-580e-48b9-bb68-d76297fb5957 |
+| pluto.app | light | other | light | docs/refero/styles/pluto-app-a805bf0a/DESIGN.md | https://styles.refero.design/style/a805bf0a-7a2f-4ba2-a4a2-73440e1291c7 |
+| Flayks | dark | design | dark | docs/refero/styles/flayks-77a193de/DESIGN.md | https://styles.refero.design/style/77a193de-2472-4637-802f-d930ec61c180 |
+| Cake Equity | light | fintech | light | docs/refero/styles/cake-equity-4c33d8fe/DESIGN.md | https://styles.refero.design/style/4c33d8fe-81d5-46cb-9dc1-dd231be1c9ec |
+| Metamask | light | crypto | light | docs/refero/styles/metamask-6248749d/DESIGN.md | https://styles.refero.design/style/6248749d-b440-4561-b4d7-2d39c0fd4fd3 |
+| Boutique8888 | light | ecommerce | light | docs/refero/styles/boutique8888-56e48057/DESIGN.md | https://styles.refero.design/style/56e48057-de3e-47b6-8e59-772440703f0a |
+| Sprout | mixed | other | both | docs/refero/styles/sprout-09b7f406/DESIGN.md | https://styles.refero.design/style/09b7f406-c7e3-4e36-b443-bf24fcfe630f |
+| mishmash® | light | ecommerce | light | docs/refero/styles/mishmash-ebac84e6/DESIGN.md | https://styles.refero.design/style/ebac84e6-b22c-4d21-845f-9165158af844 |
+| CINDERBLOC | light | design | light | docs/refero/styles/cinderbloc-f3dd77f7/DESIGN.md | https://styles.refero.design/style/f3dd77f7-c672-4af2-a7b4-7e30d8e7f6e4 |
+| A-dam | light | ecommerce | light | docs/refero/styles/a-dam-0fc184f7/DESIGN.md | https://styles.refero.design/style/0fc184f7-6143-4303-8e3d-0e2f075f76b2 |
+| Jp | light | agency | light | docs/refero/styles/jp-60b529c2/DESIGN.md | https://styles.refero.design/style/60b529c2-c0f7-49be-9a77-8d3762838f05 |
+| Kit | light | ecommerce | light | docs/refero/styles/kit-7f7d24b9/DESIGN.md | https://styles.refero.design/style/7f7d24b9-6878-4548-82ca-a26bbf7a6f2c |
+| genius.design | mixed | agency | both | docs/refero/styles/genius-design-027b70dd/DESIGN.md | https://styles.refero.design/style/027b70dd-90db-4910-ad71-2975bdd140e5 |
+| Peloton | dark | ecommerce | dark | docs/refero/styles/peloton-355e8465/DESIGN.md | https://styles.refero.design/style/355e8465-df7d-486a-9d76-2ace37d076a2 |
+| Typewolf | light | design | light | docs/refero/styles/typewolf-c46ecd77/DESIGN.md | https://styles.refero.design/style/c46ecd77-9c92-4a85-9162-c6d4afd99d95 |
+| ExpressVPN | light | other | light | docs/refero/styles/expressvpn-eddfa579/DESIGN.md | https://styles.refero.design/style/eddfa579-89f1-467d-a486-99a56be36c30 |
+| def.studio | dark | design | dark | docs/refero/styles/def-studio-7871d841/DESIGN.md | https://styles.refero.design/style/7871d841-6703-4193-8119-36bb12c73983 |
+| Walden | light | ecommerce | light | docs/refero/styles/walden-31903c2b/DESIGN.md | https://styles.refero.design/style/31903c2b-99bf-4fa8-8c92-238858f3563c |
+| Incommonwith | light | design | light | docs/refero/styles/incommonwith-1f9089e1/DESIGN.md | https://styles.refero.design/style/1f9089e1-4170-482f-b988-afe1124a70a9 |
+| TWOMUCH.STUDIO | light | design | light | docs/refero/styles/twomuch-studio-12b3e1b6/DESIGN.md | https://styles.refero.design/style/12b3e1b6-31b9-4843-9b3b-8f39c9dd1474 |
+| VDL | light | design | light | docs/refero/styles/vdl-111711b0/DESIGN.md | https://styles.refero.design/style/111711b0-6feb-4ec0-a8da-532889808d0e |
+| PLATFORM | light | design | light | docs/refero/styles/platform-81507860/DESIGN.md | https://styles.refero.design/style/81507860-e43d-4c50-b371-7267af9a914b |
+| fromscout.com | light | other | light | docs/refero/styles/fromscout-com-dac5e693/DESIGN.md | https://styles.refero.design/style/dac5e693-743b-43bb-af35-b31fd2567884 |
+| Vivid+Co | dark | agency | dark | docs/refero/styles/vivid-co-8875b14e/DESIGN.md | https://styles.refero.design/style/8875b14e-c59a-492f-8780-8027a480f21c |
+| Evermade | light | agency | light | docs/refero/styles/evermade-b22f68eb/DESIGN.md | https://styles.refero.design/style/b22f68eb-7ed1-47b6-995e-2c0afc79ac7e |
+| Stable Audio | light | ai | light | docs/refero/styles/stable-audio-c363a216/DESIGN.md | https://styles.refero.design/style/c363a216-873c-4112-b960-8e823db76f74 |
+| Lego | light | ecommerce | light | docs/refero/styles/lego-7e21f6e1/DESIGN.md | https://styles.refero.design/style/7e21f6e1-deec-4bc4-a30e-f2c9d3320314 |
+| Enviar Dinero | mixed | fintech | both | docs/refero/styles/enviar-dinero-46c16139/DESIGN.md | https://styles.refero.design/style/46c16139-b0bb-49e6-95dc-74bef576e5ce |
+| Spline | dark | design | dark | docs/refero/styles/spline-b36d5c7c/DESIGN.md | https://styles.refero.design/style/b36d5c7c-9b28-4c99-b5a8-69ce03621410 |
+| Slab | mixed | productivity | both | docs/refero/styles/slab-f240ed7d/DESIGN.md | https://styles.refero.design/style/f240ed7d-d466-478e-bbce-6c93420dfd1c |
+| Stability AI | dark | ai | dark | docs/refero/styles/stability-ai-f532c703/DESIGN.md | https://styles.refero.design/style/f532c703-1179-465d-9933-7736df44d0ae |
+| Logan Liffick | light | agency | light | docs/refero/styles/logan-liffick-2b014368/DESIGN.md | https://styles.refero.design/style/2b014368-6db1-417b-b84a-8af9c6450b53 |
+| Astro | dark | devtools | dark | docs/refero/styles/astro-e8c604cc/DESIGN.md | https://styles.refero.design/style/e8c604cc-1c8d-42a3-aeca-fcfc25e70344 |
+| COS | light | ecommerce | light | docs/refero/styles/cos-7922b756/DESIGN.md | https://styles.refero.design/style/7922b756-2d0f-4a58-8fa6-39d40264fe66 |
+| Evervault | dark | devtools | dark | docs/refero/styles/evervault-03dcd158/DESIGN.md | https://styles.refero.design/style/03dcd158-bc4d-447b-aaf2-8e522671a109 |
+| SpatialChat | light | productivity | light | docs/refero/styles/spatialchat-5b90e218/DESIGN.md | https://styles.refero.design/style/5b90e218-b325-4901-a1c5-ea1134339826 |
+| Gt-america | light | design | light | docs/refero/styles/gt-america-abdac0a6/DESIGN.md | https://styles.refero.design/style/abdac0a6-64f7-46f7-98af-82ce921fe78c |
+| Sackville & Co. | light | ecommerce | light | docs/refero/styles/sackville-and-co-8a3d3f72/DESIGN.md | https://styles.refero.design/style/8a3d3f72-9ef0-466d-adde-77189ddff797 |
+| Sigmaphoto | light | ecommerce | light | docs/refero/styles/sigmaphoto-67c60ee4/DESIGN.md | https://styles.refero.design/style/67c60ee4-ac38-41ee-834e-ed2a92146417 |
+| Flecto | light | saas | light | docs/refero/styles/flecto-fdc72952/DESIGN.md | https://styles.refero.design/style/fdc72952-9b36-443a-9e0c-20b366aee29f |
+| Incident | light | saas | light | docs/refero/styles/incident-d9a60077/DESIGN.md | https://styles.refero.design/style/d9a60077-619a-4cb7-95ed-0c428c2b51ed |
+| Somethingspecialstudios | light | agency | light | docs/refero/styles/somethingspecialstudios-f329f8b4/DESIGN.md | https://styles.refero.design/style/f329f8b4-16d4-430d-9687-7cdf750f29ac |
+| Gustav Nordebrink | dark | design | dark | docs/refero/styles/gustav-nordebrink-05a7d5bf/DESIGN.md | https://styles.refero.design/style/05a7d5bf-1696-49e6-b52c-b7012aa81ae8 |
+| Cup of Couple | light | media | light | docs/refero/styles/cup-of-couple-f4e1b510/DESIGN.md | https://styles.refero.design/style/f4e1b510-6085-4fb8-8597-05d479d3c00c |
+| F. MILLER | light | ecommerce | light | docs/refero/styles/f-miller-c96d2252/DESIGN.md | https://styles.refero.design/style/c96d2252-84d9-4770-8afe-8de570102124 |
+| International Magic | dark | other | dark | docs/refero/styles/international-magic-c406697b/DESIGN.md | https://styles.refero.design/style/c406697b-677f-40c7-a3a2-10ea545278f1 |
+| Rauno Freiberg | light | design | light | docs/refero/styles/rauno-freiberg-2b46dc00/DESIGN.md | https://styles.refero.design/style/2b46dc00-9517-4ad0-9bf3-a07d3c0bf385 |
+| Vimeo | light | media | light | docs/refero/styles/vimeo-be6c7488/DESIGN.md | https://styles.refero.design/style/be6c7488-9cea-43db-bb28-2606f53ade14 |
+| Symbolic.ai | light | ai | light | docs/refero/styles/symbolic-ai-694723e9/DESIGN.md | https://styles.refero.design/style/694723e9-0df7-4b9f-ba07-83fc598532d6 |
+| KeepGrading | dark | media | dark | docs/refero/styles/keepgrading-2f0a053b/DESIGN.md | https://styles.refero.design/style/2f0a053b-0596-4212-a4f4-8a7b580acb90 |
+| Freelance frontend UI developer and designer, Rou Hun Fan | dark | design | dark | docs/refero/styles/freelance-frontend-ui-developer-and-designer-rou-hun-fan-ffb945f9/DESIGN.md | https://styles.refero.design/style/ffb945f9-2d70-45e8-9024-492900318fa8 |
+| OHZI Interactive Studio / Dive into digital magic. | dark | design | dark | docs/refero/styles/ohzi-interactive-studio-dive-into-digital-magic-03e03554/DESIGN.md | https://styles.refero.design/style/03e03554-d7aa-40da-9764-79320ecfa1d0 |
+| Maciej Zadykowicz | dark | agency | dark | docs/refero/styles/maciej-zadykowicz-f1b76a42/DESIGN.md | https://styles.refero.design/style/f1b76a42-050e-4c9e-96e3-a77fbd718c68 |
+| Face Formula | light | ecommerce | light | docs/refero/styles/face-formula-78ac71e1/DESIGN.md | https://styles.refero.design/style/78ac71e1-cd4c-4b4d-bac5-e7e6c65cd3fa |
+| Solana | dark | crypto | dark | docs/refero/styles/solana-f493133e/DESIGN.md | https://styles.refero.design/style/f493133e-e289-4fb1-9729-f611d9816aae |
+| Raw Materials | light | agency | light | docs/refero/styles/raw-materials-274e85fb/DESIGN.md | https://styles.refero.design/style/274e85fb-a34d-4e41-9369-be03065b971b |
+| HashiCorp | dark | devtools | dark | docs/refero/styles/hashicorp-834ce97f/DESIGN.md | https://styles.refero.design/style/834ce97f-61f2-4b12-bf5c-e9fad2544456 |
+| Nakedcityfilms | mixed | media | both | docs/refero/styles/nakedcityfilms-b7fc2173/DESIGN.md | https://styles.refero.design/style/b7fc2173-c9b1-45ed-bd3a-9999320b3248 |
+| Concrete Club Studio | mixed | agency | both | docs/refero/styles/concrete-club-studio-f8ab25e8/DESIGN.md | https://styles.refero.design/style/f8ab25e8-87c1-4d7b-a633-daf3ea39b916 |
+| Twocreate | light | agency | light | docs/refero/styles/twocreate-8b6970fa/DESIGN.md | https://styles.refero.design/style/8b6970fa-3478-4c1b-aadf-41ffe1ef68e6 |
+| Sleeve | light | other | light | docs/refero/styles/sleeve-2b49d4b2/DESIGN.md | https://styles.refero.design/style/2b49d4b2-8461-4985-b7ee-cf9517e19803 |
+| Glossier | light | ecommerce | light | docs/refero/styles/glossier-efd8dda0/DESIGN.md | https://styles.refero.design/style/efd8dda0-b7dc-4b0b-b65f-348849d2cd65 |
+| Simone Sniekers | mixed | design | both | docs/refero/styles/simone-sniekers-017ce823/DESIGN.md | https://styles.refero.design/style/017ce823-c338-417d-849d-497c97701c4c |
+| Karl | light | design | light | docs/refero/styles/karl-dd8b7191/DESIGN.md | https://styles.refero.design/style/dd8b7191-a992-4dab-88f8-f67e8819b461 |
+| MANNA | light | design | light | docs/refero/styles/manna-d83fd0b1/DESIGN.md | https://styles.refero.design/style/d83fd0b1-afde-41ff-b970-c622bfed9f59 |
+| Whop | light | productivity | light | docs/refero/styles/whop-9eeab5f0/DESIGN.md | https://styles.refero.design/style/9eeab5f0-eece-4898-a1d2-2db48ac2bc7d |
+| How Many Plants | light | design | light | docs/refero/styles/how-many-plants-4e616d96/DESIGN.md | https://styles.refero.design/style/4e616d96-14ea-43d6-9662-0ad3fa19ef7c |
+| Piet Oudolf | light | design | light | docs/refero/styles/piet-oudolf-3cc1d30c/DESIGN.md | https://styles.refero.design/style/3cc1d30c-3b08-48af-bbf0-df195d77835f |
+| Daniël van der Winden | light | design | light | docs/refero/styles/daniel-van-der-winden-e8eda526/DESIGN.md | https://styles.refero.design/style/e8eda526-d686-4e45-a60d-61b6503a8eda |
+| Chantlings | dark | other | dark | docs/refero/styles/chantlings-5090ce54/DESIGN.md | https://styles.refero.design/style/5090ce54-9097-4d29-a741-2847dbacc419 |
+| Dot Inc. | light | other | light | docs/refero/styles/dot-inc-4bcd0728/DESIGN.md | https://styles.refero.design/style/4bcd0728-0d28-4835-ba9f-d61554f797b1 |
+| INFRINGE | light | media | light | docs/refero/styles/infringe-36e7c3f9/DESIGN.md | https://styles.refero.design/style/36e7c3f9-b7cb-48a2-9695-db726e3dccdb |
+| Siena | dark | media | dark | docs/refero/styles/siena-1bee2c77/DESIGN.md | https://styles.refero.design/style/1bee2c77-8c47-44f6-b784-ef7aa45d4f93 |
+| Peggy | light | design | light | docs/refero/styles/peggy-0ed4e85f/DESIGN.md | https://styles.refero.design/style/0ed4e85f-f3e9-438c-bc34-2a726863c602 |
+| Shopify Supply | dark | ecommerce | dark | docs/refero/styles/shopify-supply-05023ef1/DESIGN.md | https://styles.refero.design/style/05023ef1-b0e6-4e84-8987-edd5dc11a848 |
+| Quo (formerly OpenPhone) | light | saas | light | docs/refero/styles/quo-formerly-openphone-792089e6/DESIGN.md | https://styles.refero.design/style/792089e6-c045-498c-8ba1-48d72c206c66 |
+| NaN | dark | design | dark | docs/refero/styles/nan-71db2a51/DESIGN.md | https://styles.refero.design/style/71db2a51-118e-42b1-879d-29872d52142f |
+| Leif Products | light | ecommerce | light | docs/refero/styles/leif-products-3f56ea4d/DESIGN.md | https://styles.refero.design/style/3f56ea4d-ed9d-4a36-8fb5-a801519ef80b |
+| Nomen Nescio | light | ecommerce | light | docs/refero/styles/nomen-nescio-2fd71e12/DESIGN.md | https://styles.refero.design/style/2fd71e12-12fc-4346-8281-52afe12bb951 |
+| Art In DUMBO | light | media | light | docs/refero/styles/art-in-dumbo-5d79f0c2/DESIGN.md | https://styles.refero.design/style/5d79f0c2-526e-4c37-b780-08404f60839b |
+| BBA Studio | light | other | light | docs/refero/styles/bba-studio-59998921/DESIGN.md | https://styles.refero.design/style/59998921-8f1e-4f47-849d-e2eea939b0ed |
+| Vanmoof | light | ecommerce | light | docs/refero/styles/vanmoof-4887c681/DESIGN.md | https://styles.refero.design/style/4887c681-d4e6-41d3-b83c-5650cf925ee9 |
+| Doug–Alves | light | design | light | docs/refero/styles/doug-alves-24c54bfb/DESIGN.md | https://styles.refero.design/style/24c54bfb-959d-4ca3-b274-e76ba823f3c0 |
+| Atlantis Technology | dark | saas | dark | docs/refero/styles/atlantis-technology-8df07af7/DESIGN.md | https://styles.refero.design/style/8df07af7-5935-405f-a2df-65fbf9ca3db9 |
+| Studio Otto | light | design | light | docs/refero/styles/studio-otto-729bd2ff/DESIGN.md | https://styles.refero.design/style/729bd2ff-fb28-47e4-863e-3b292f5bec2d |
+| Halfhelix | light | agency | light | docs/refero/styles/halfhelix-36fb90f7/DESIGN.md | https://styles.refero.design/style/36fb90f7-3547-4dfd-a34e-592aa140078a |
+| Studio HEED | dark | design | dark | docs/refero/styles/studio-heed-10b9e7bb/DESIGN.md | https://styles.refero.design/style/10b9e7bb-9ffb-43eb-9360-5628d8390107 |
+| Fiasco | light | agency | light | docs/refero/styles/fiasco-ef73c742/DESIGN.md | https://styles.refero.design/style/ef73c742-1c3b-48b9-a174-de365ecc4691 |
+| Ghost | light | saas | light | docs/refero/styles/ghost-532b3211/DESIGN.md | https://styles.refero.design/style/532b3211-cca9-4207-a11c-812cfabc1a73 |
+| Sanity.io | light | devtools | light | docs/refero/styles/sanity-io-a3af7369/DESIGN.md | https://styles.refero.design/style/a3af7369-b61c-4923-a628-931861c8097f |
+| Epidemicsound | light | media | light | docs/refero/styles/epidemicsound-d1f5ece3/DESIGN.md | https://styles.refero.design/style/d1f5ece3-ec6c-467d-8a59-51ee259cc023 |
+| Monzo | light | fintech | light | docs/refero/styles/monzo-e8a1d114/DESIGN.md | https://styles.refero.design/style/e8a1d114-6924-4f03-acd2-996dd30f15a6 |
+| Norm | light | other | light | docs/refero/styles/norm-8d66df35/DESIGN.md | https://styles.refero.design/style/8d66df35-a06c-4ea9-ae8b-ab3e1c01f797 |
+| Instagram Sans Typeface | light | design | light | docs/refero/styles/instagram-sans-typeface-7d6a8722/DESIGN.md | https://styles.refero.design/style/7d6a8722-a6f4-40de-a761-16ea479630a9 |
+| Bird | dark | ai | dark | docs/refero/styles/bird-2ab1abbc/DESIGN.md | https://styles.refero.design/style/2ab1abbc-b9f5-418f-a36a-94a4eca74ba9 |
+| Sandland Sleep | light | ecommerce | light | docs/refero/styles/sandland-sleep-be17feca/DESIGN.md | https://styles.refero.design/style/be17feca-c2bd-4e17-b4d2-ed3ae019a84c |
+| Alt Studios | light | agency | light | docs/refero/styles/alt-studios-b95143f4/DESIGN.md | https://styles.refero.design/style/b95143f4-f881-4118-acc4-aa97fbce463d |
+| MOUTHWASH Studio | light | design | light | docs/refero/styles/mouthwash-studio-a5d7bd36/DESIGN.md | https://styles.refero.design/style/a5d7bd36-6136-4029-8825-3b21ed69df4e |
+| Postevand | light | other | light | docs/refero/styles/postevand-76bfda6b/DESIGN.md | https://styles.refero.design/style/76bfda6b-125f-4d9b-96c0-356de1e9fc10 |
+| Arthursimonini | dark | media | dark | docs/refero/styles/arthursimonini-6778ff21/DESIGN.md | https://styles.refero.design/style/6778ff21-44eb-40f3-ba85-2ee7de935f8f |
+| Alt–Border | light | design | light | docs/refero/styles/alt-border-5fd2cdc0/DESIGN.md | https://styles.refero.design/style/5fd2cdc0-05ac-4290-b67c-72e7525a532c |
+| Consumedinkey | light | media | light | docs/refero/styles/consumedinkey-9d29d491/DESIGN.md | https://styles.refero.design/style/9d29d491-b705-46e1-9598-a4a70468e7e0 |
+| Socialclub | light | agency | light | docs/refero/styles/socialclub-9d1234b7/DESIGN.md | https://styles.refero.design/style/9d1234b7-1e6c-4eb3-9ebb-2cc40c688090 |
+| Studio Emmerer | dark | design | dark | docs/refero/styles/studio-emmerer-670869ea/DESIGN.md | https://styles.refero.design/style/670869ea-9576-4f9d-af3a-038910f8b9b8 |
+| Ekipa Agency | light | media | light | docs/refero/styles/ekipa-agency-00878d73/DESIGN.md | https://styles.refero.design/style/00878d73-0783-4d4a-a1ce-d3f9c0f877a0 |
+| Theodore Ellison Designs | light | design | light | docs/refero/styles/theodore-ellison-designs-f6bcbb63/DESIGN.md | https://styles.refero.design/style/f6bcbb63-2925-4bee-a330-e5e770b94750 |
+| Surface | light | media | light | docs/refero/styles/surface-e6c20874/DESIGN.md | https://styles.refero.design/style/e6c20874-c6f9-4c31-b6b2-2cb27cbf15f2 |
+| Kevin Basset | light | other | light | docs/refero/styles/kevin-basset-e3f59efd/DESIGN.md | https://styles.refero.design/style/e3f59efd-a254-43f1-9dac-36a35a4b290c |
+| TeePublic | light | ecommerce | light | docs/refero/styles/teepublic-0231caf5/DESIGN.md | https://styles.refero.design/style/0231caf5-0347-4f2d-ba20-5bab8fcaf2ce |
+| Marx Design | dark | design | dark | docs/refero/styles/marx-design-00a2d2d6/DESIGN.md | https://styles.refero.design/style/00a2d2d6-3a91-48e5-9941-ece03ebe2b87 |
+| Slingshot | light | saas | light | docs/refero/styles/slingshot-e683efcd/DESIGN.md | https://styles.refero.design/style/e683efcd-b005-4a35-a5ea-d25bcf3de5c0 |
+| Endel Manifesto | dark | other | dark | docs/refero/styles/endel-manifesto-9949add1/DESIGN.md | https://styles.refero.design/style/9949add1-e0f0-4093-8002-db1f3a7390b7 |
+| map project office | light | design | light | docs/refero/styles/map-project-office-77c32a1f/DESIGN.md | https://styles.refero.design/style/77c32a1f-99fd-44d0-a7d2-002f005a245d |
+| Stryds | dark | other | dark | docs/refero/styles/stryds-6b4e6620/DESIGN.md | https://styles.refero.design/style/6b4e6620-5c06-4dc1-931b-82265116f6f2 |
+| Elementor | light | devtools | light | docs/refero/styles/elementor-4bbc63cf/DESIGN.md | https://styles.refero.design/style/4bbc63cf-c995-4c56-9873-e7f300f1c9e7 |
+| Mailchimp | light | saas | light | docs/refero/styles/mailchimp-24929007/DESIGN.md | https://styles.refero.design/style/24929007-7e62-4c96-a940-7de65438a578 |
+| Allbirds | light | ecommerce | light | docs/refero/styles/allbirds-79d83fce/DESIGN.md | https://styles.refero.design/style/79d83fce-84bf-4e12-8039-5d283c98917c |
+| Reflect Notes | dark | productivity | dark | docs/refero/styles/reflect-notes-e7f92774/DESIGN.md | https://styles.refero.design/style/e7f92774-3c08-402b-917d-020ba1f3d489 |
+| Signal Messenger | light | other | light | docs/refero/styles/signal-messenger-41c479a9/DESIGN.md | https://styles.refero.design/style/41c479a9-7b41-445b-9ea7-c7a6331828f0 |
+| Daniel Sun | light | agency | light | docs/refero/styles/daniel-sun-8d1b6c70/DESIGN.md | https://styles.refero.design/style/8d1b6c70-e045-4ce6-891d-aba5d5c00e0d |
+| Helloivy | light | productivity | light | docs/refero/styles/helloivy-5af6b791/DESIGN.md | https://styles.refero.design/style/5af6b791-6cad-4497-9e94-ace28e4fbd51 |
+| Flowers For Society | light | ecommerce | light | docs/refero/styles/flowers-for-society-e00519a1/DESIGN.md | https://styles.refero.design/style/e00519a1-7b8a-4171-b49b-550c64a57d3c |
+| Strut | light | productivity | light | docs/refero/styles/strut-deb6c017/DESIGN.md | https://styles.refero.design/style/deb6c017-d2d3-4945-aaee-fa3d9ea6de70 |
+| Acolorbright | light | design | light | docs/refero/styles/acolorbright-6738c8ec/DESIGN.md | https://styles.refero.design/style/6738c8ec-0e5b-4533-8901-1297aebd32e1 |
+| Filling Pieces | light | ecommerce | light | docs/refero/styles/filling-pieces-f401f04f/DESIGN.md | https://styles.refero.design/style/f401f04f-c45b-4261-9441-f502c6569a29 |
+| Dokument | light | design | light | docs/refero/styles/dokument-c5e7dacd/DESIGN.md | https://styles.refero.design/style/c5e7dacd-ae69-4cd8-8ff4-384951a0cde5 |
+| alet | light | agency | light | docs/refero/styles/alet-9b5203a8/DESIGN.md | https://styles.refero.design/style/9b5203a8-07c8-4987-94c5-6411970896d2 |
+| Slush | light | crypto | light | docs/refero/styles/slush-8b6b547f/DESIGN.md | https://styles.refero.design/style/8b6b547f-a357-4f1b-9842-4579c62dd42b |
+| DADA PROJECTS | light | design | light | docs/refero/styles/dada-projects-615d85c7/DESIGN.md | https://styles.refero.design/style/615d85c7-ee6a-4b6f-8e93-c3c3f3bb515e |
+| HTWKR | dark | other | dark | docs/refero/styles/htwkr-219890bb/DESIGN.md | https://styles.refero.design/style/219890bb-aa52-46cb-89a0-459d0519ad04 |
+| TWOTWO | light | ecommerce | light | docs/refero/styles/twotwo-170a690b/DESIGN.md | https://styles.refero.design/style/170a690b-7424-4c2e-9d08-975725cf9261 |
+| Sprig | light | ai | light | docs/refero/styles/sprig-cbd8a058/DESIGN.md | https://styles.refero.design/style/cbd8a058-6ecb-4f1b-9b5a-2bf2597826ee |
+| Mage | light | ai | light | docs/refero/styles/mage-ba07accb/DESIGN.md | https://styles.refero.design/style/ba07accb-b2cc-4ad9-a25f-c50b0f90f34e |
+| Pentagram | light | design | light | docs/refero/styles/pentagram-86b56f02/DESIGN.md | https://styles.refero.design/style/86b56f02-57da-48a1-a647-fda9bbdf2c97 |
+| Berner Kühl | light | ecommerce | light | docs/refero/styles/berner-kuhl-51c1a411/DESIGN.md | https://styles.refero.design/style/51c1a411-cb0f-4b93-b03d-a3c31eeba93e |
+| The Sea We Breathe | light | other | light | docs/refero/styles/the-sea-we-breathe-f4cb3281/DESIGN.md | https://styles.refero.design/style/f4cb3281-af85-4e7a-96df-404c8a4ebb4d |
+| CHELSEA | dark | media | dark | docs/refero/styles/chelsea-905beb8c/DESIGN.md | https://styles.refero.design/style/905beb8c-9788-4ff4-888b-13370cacd4b0 |
+| Squarespace | light | design | light | docs/refero/styles/squarespace-8618f649/DESIGN.md | https://styles.refero.design/style/8618f649-6d1c-45ca-aff8-e7f04928d8dd |
+| Simon Riisnæs Emmen | light | design | light | docs/refero/styles/simon-riisn-s-emmen-7568f102/DESIGN.md | https://styles.refero.design/style/7568f102-d6e4-4113-92a1-4fd53fe5ea47 |
+| ONE | dark | media | dark | docs/refero/styles/one-71745af1/DESIGN.md | https://styles.refero.design/style/71745af1-2e53-4925-992e-82773e55ccd6 |
+| Pauliandsisters | light | ecommerce | light | docs/refero/styles/pauliandsisters-0a5bd460/DESIGN.md | https://styles.refero.design/style/0a5bd460-07fd-487f-8bde-de20f80ce20f |
+| Emma Backman | dark | media | dark | docs/refero/styles/emma-backman-4b5db85a/DESIGN.md | https://styles.refero.design/style/4b5db85a-5b11-431a-a45e-2a6282f291f3 |
+| Zendesk | light | saas | light | docs/refero/styles/zendesk-240234ba/DESIGN.md | https://styles.refero.design/style/240234ba-9cf5-4a91-b618-76963551d425 |
+| Eight Sleep | dark | other | dark | docs/refero/styles/eight-sleep-e4e8fe86/DESIGN.md | https://styles.refero.design/style/e4e8fe86-47ed-4ddd-a6c6-2c28eae9aabe |
+| Square | light | fintech | light | docs/refero/styles/square-86a6814d/DESIGN.md | https://styles.refero.design/style/86a6814d-2485-4fad-b6fd-56c2d0a23620 |
+| Ableton | light | media | light | docs/refero/styles/ableton-e5081033/DESIGN.md | https://styles.refero.design/style/e5081033-bd79-479a-aef6-8b002df6086a |
+| Zora | light | crypto | light | docs/refero/styles/zora-5c4eb249/DESIGN.md | https://styles.refero.design/style/5c4eb249-fa38-4254-81e0-a32ee22766e2 |
+| Co Projects | light | agency | light | docs/refero/styles/co-projects-5c9743ad/DESIGN.md | https://styles.refero.design/style/5c9743ad-fe33-4d21-9185-db012f6f96c7 |
+| Fantasy | dark | agency | dark | docs/refero/styles/fantasy-ccb67114/DESIGN.md | https://styles.refero.design/style/ccb67114-6da3-476a-8ca4-b348ab3d0a03 |
+| Ghia | light | ecommerce | light | docs/refero/styles/ghia-156462ab/DESIGN.md | https://styles.refero.design/style/156462ab-7b11-4029-be45-c2dba853e894 |
+| PALAZZO MONTI | light | design | light | docs/refero/styles/palazzo-monti-e926c3a3/DESIGN.md | https://styles.refero.design/style/e926c3a3-c479-428d-8582-dcbbf1dbdafc |
+| clau.as.kee | light | design | light | docs/refero/styles/clau-as-kee-9aad4722/DESIGN.md | https://styles.refero.design/style/9aad4722-413d-4b32-bda7-6f94bbd9938c |
+| Toggl Track | light | productivity | light | docs/refero/styles/toggl-track-813be405/DESIGN.md | https://styles.refero.design/style/813be405-c2b9-41be-9864-7b53d66483dc |
+| Hardworkclub | dark | agency | dark | docs/refero/styles/hardworkclub-1775bf6a/DESIGN.md | https://styles.refero.design/style/1775bf6a-afdd-48b1-8435-b92ec585c674 |
+| Swwim | light | agency | light | docs/refero/styles/swwim-5cb1fbe8/DESIGN.md | https://styles.refero.design/style/5cb1fbe8-b539-4482-b645-74a745332965 |
+| Shelby Kay | light | design | light | docs/refero/styles/shelby-kay-2ab2f666/DESIGN.md | https://styles.refero.design/style/2ab2f666-6da7-4cd8-bc91-52a28bd560ad |
+| TinyFaces NFT | light | crypto | light | docs/refero/styles/tinyfaces-nft-2112d018/DESIGN.md | https://styles.refero.design/style/2112d018-bf95-4a87-a1f3-6e948330b207 |
+| Mickael Larcheveque | light | design | light | docs/refero/styles/mickael-larcheveque-edea6c5b/DESIGN.md | https://styles.refero.design/style/edea6c5b-000a-441e-bc26-e0076c335177 |
+| Iad-lab | dark | agency | dark | docs/refero/styles/iad-lab-7d66c966/DESIGN.md | https://styles.refero.design/style/7d66c966-6cee-4c82-b2e4-2bf1ca7b2ccd |
+| Elvina Prasad | light | design | light | docs/refero/styles/elvina-prasad-717a2f6f/DESIGN.md | https://styles.refero.design/style/717a2f6f-bc7d-4f9a-adcb-1465fdf77c9a |
+| Bou | light | agency | light | docs/refero/styles/bou-62911254/DESIGN.md | https://styles.refero.design/style/62911254-e6a9-4de8-bba1-accfc1a18da5 |
+| Yuga | dark | crypto | dark | docs/refero/styles/yuga-5f2dd17d/DESIGN.md | https://styles.refero.design/style/5f2dd17d-72e6-4aa4-88e6-6be9e41299ab |
+| Rocc Naturals | light | other | light | docs/refero/styles/rocc-naturals-254b584a/DESIGN.md | https://styles.refero.design/style/254b584a-6fb0-4ebb-8893-fc86ccee5ca3 |
+| Uniswap Cup | light | crypto | light | docs/refero/styles/uniswap-cup-fabb51a0/DESIGN.md | https://styles.refero.design/style/fabb51a0-0f83-4177-b83e-4969705a389c |
+| Thomas Monavon | light | design | light | docs/refero/styles/thomas-monavon-b7b9583b/DESIGN.md | https://styles.refero.design/style/b7b9583b-8494-42b6-a517-1a6f727d8589 |
+| TheyDo | light | saas | light | docs/refero/styles/theydo-b490cff8/DESIGN.md | https://styles.refero.design/style/b490cff8-9d2c-4225-9118-6468e4f3213d |
+| Raad Cycling | dark | ecommerce | dark | docs/refero/styles/raad-cycling-a59e7f31/DESIGN.md | https://styles.refero.design/style/a59e7f31-1fca-46c1-a6b0-8d1294b33a7c |
+| Mihan Aromatics ™ | light | ecommerce | light | docs/refero/styles/mihan-aromatics-tm-95140276/DESIGN.md | https://styles.refero.design/style/95140276-f52b-4655-8fa2-e765126c949d |
+| Redbrick Coffee | light | ecommerce | light | docs/refero/styles/redbrick-coffee-9307193e/DESIGN.md | https://styles.refero.design/style/9307193e-7ce3-48c1-b650-8ab77aa83c3f |
+| Exhibition Magazine | light | media | light | docs/refero/styles/exhibition-magazine-597355de/DESIGN.md | https://styles.refero.design/style/597355de-6167-4f37-8f14-b3897919a94c |
+| Becklyn | dark | agency | dark | docs/refero/styles/becklyn-3389358b/DESIGN.md | https://styles.refero.design/style/3389358b-68b2-4fca-82a8-52c07b3a3475 |
+| Schema | light | design | light | docs/refero/styles/schema-2b07d62c/DESIGN.md | https://styles.refero.design/style/2b07d62c-d706-4c9d-a3fb-9c163da09f03 |
+| Design | dark | fintech | dark | docs/refero/styles/design-bbfbe753/DESIGN.md | https://styles.refero.design/style/bbfbe753-a417-43ec-9af7-ef6c08a5140d |
+| Tparkes | light | design | light | docs/refero/styles/tparkes-a21cf7a4/DESIGN.md | https://styles.refero.design/style/a21cf7a4-80e0-4f4a-9297-823a5180c2d3 |
+| Leandro Farina | dark | design | dark | docs/refero/styles/leandro-farina-ff6d9b91/DESIGN.md | https://styles.refero.design/style/ff6d9b91-7abc-4ec8-8b7f-8d1d10bce5dd |
+| SPECIAL OFFER | dark | design | dark | docs/refero/styles/special-offer-ff9dd2fc/DESIGN.md | https://styles.refero.design/style/ff9dd2fc-85da-4ca2-9a10-775bfbdc91bc |
+| herding.app | dark | saas | dark | docs/refero/styles/herding-app-6d1d19a3/DESIGN.md | https://styles.refero.design/style/6d1d19a3-294d-4bad-9f8b-f775cb24b47a |
+| Readwise | light | productivity | light | docs/refero/styles/readwise-34c8dbee/DESIGN.md | https://styles.refero.design/style/34c8dbee-f5d9-4495-a0e0-a25c6ca4b95b |
+| Haus Otto | light | agency | light | docs/refero/styles/haus-otto-0057e55a/DESIGN.md | https://styles.refero.design/style/0057e55a-8a66-4ffc-9c21-f0b757e580b3 |
+| 2020 | light | media | light | docs/refero/styles/2020-ac660bff/DESIGN.md | https://styles.refero.design/style/ac660bff-3b21-4753-a80f-3692da6e735e |
+| Google | dark | other | dark | docs/refero/styles/google-a601d953/DESIGN.md | https://styles.refero.design/style/a601d953-3b34-4bf3-8615-7550813b9b65 |
+| SuperHi Plus | dark | other | dark | docs/refero/styles/superhi-plus-a1f9e844/DESIGN.md | https://styles.refero.design/style/a1f9e844-c4b6-4526-9cfc-81208c50aee1 |
+| Moxie | dark | agency | dark | docs/refero/styles/moxie-7f70ee10/DESIGN.md | https://styles.refero.design/style/7f70ee10-123b-43cc-bd04-498cfc5b5ac0 |
+| NCDA | light | design | light | docs/refero/styles/ncda-f654d52c/DESIGN.md | https://styles.refero.design/style/f654d52c-42de-4f3b-a377-9287b1536ad0 |
+| BUTT STUDIO | light | design | light | docs/refero/styles/butt-studio-c6e55968/DESIGN.md | https://styles.refero.design/style/c6e55968-fa2d-47c9-b833-2c4ad1e74906 |
+| WalletConnect | light | fintech | light | docs/refero/styles/walletconnect-29392960/DESIGN.md | https://styles.refero.design/style/29392960-0acf-4891-ad33-28a72f6a9b75 |
+| Caserne | dark | design | dark | docs/refero/styles/caserne-c2702938/DESIGN.md | https://styles.refero.design/style/c2702938-b670-414c-ba47-94618212085e |
+| Tripolis-Park™ | light | other | light | docs/refero/styles/tripolis-parktm-bce52fd3/DESIGN.md | https://styles.refero.design/style/bce52fd3-ac16-4e67-a45f-78bfc2350aad |
+| plasticbionic | light | design | light | docs/refero/styles/plasticbionic-8904c855/DESIGN.md | https://styles.refero.design/style/8904c855-fae9-489c-8aed-e2f7846fb27f |
+| Counterprint | light | ecommerce | light | docs/refero/styles/counterprint-36ab47c3/DESIGN.md | https://styles.refero.design/style/36ab47c3-3d47-42a5-af2e-1760bc348bcd |
+| Stink Studios | dark | media | dark | docs/refero/styles/stink-studios-e287e026/DESIGN.md | https://styles.refero.design/style/e287e026-3433-4a1d-9b23-9a65f8b9c138 |
+| SOMETHI𝔑G ELSE | light | agency | light | docs/refero/styles/something-else-8b2dba44/DESIGN.md | https://styles.refero.design/style/8b2dba44-2c68-4cfc-96b7-b422f4032e09 |
+| Kenichi Aikawa | light | design | light | docs/refero/styles/kenichi-aikawa-721794e8/DESIGN.md | https://styles.refero.design/style/721794e8-16f6-4044-9fb8-548f5279819d |
+| North Kingdom | dark | design | dark | docs/refero/styles/north-kingdom-145e70b3/DESIGN.md | https://styles.refero.design/style/145e70b3-e0a4-4fbd-8d9e-23bd93dd0021 |
+| Post Familiar | dark | ecommerce | dark | docs/refero/styles/post-familiar-3c7a070a/DESIGN.md | https://styles.refero.design/style/3c7a070a-d0f6-4f78-9fdc-58db0b4cbfe1 |
+| Grids | light | design | light | docs/refero/styles/grids-386ffc4a/DESIGN.md | https://styles.refero.design/style/386ffc4a-f4a7-48c8-985b-df86b8612080 |
+| Videoconferencia | light | productivity | light | docs/refero/styles/videoconferencia-206c6c51/DESIGN.md | https://styles.refero.design/style/206c6c51-df38-425f-8d07-b0cc9dd065cf |
+| Tinybird | dark | devtools | dark | docs/refero/styles/tinybird-e5d7b80d/DESIGN.md | https://styles.refero.design/style/e5d7b80d-f473-439f-87a5-84716c448a05 |
+| Tailark Pro | light | design | light | docs/refero/styles/tailark-pro-ee8698fd/DESIGN.md | https://styles.refero.design/style/ee8698fd-bb1e-4813-9571-5db39e508542 |
+| Reclaim | light | ai | light | docs/refero/styles/reclaim-71c7b9ad/DESIGN.md | https://styles.refero.design/style/71c7b9ad-44cc-483f-9c53-3cf73e0522a4 |
+| Savoirfaire | dark | agency | dark | docs/refero/styles/savoirfaire-e9f1b24a/DESIGN.md | https://styles.refero.design/style/e9f1b24a-26c1-49e0-9b5f-74f492185664 |
+| Shelby | dark | ai | dark | docs/refero/styles/shelby-c01ccb7b/DESIGN.md | https://styles.refero.design/style/c01ccb7b-46c9-487c-8a4e-0e9d6627f0d6 |
+| Ingmar Coenen | light | design | light | docs/refero/styles/ingmar-coenen-f8c92b6b/DESIGN.md | https://styles.refero.design/style/f8c92b6b-a3a7-4141-ae61-3d865a106761 |
+| Vucko | light | design | light | docs/refero/styles/vucko-cc5b19fd/DESIGN.md | https://styles.refero.design/style/cc5b19fd-12cf-4b30-801c-8a0363646e48 |
+| BitcoinOS | dark | crypto | dark | docs/refero/styles/bitcoinos-bfd97dc2/DESIGN.md | https://styles.refero.design/style/bfd97dc2-5c12-483b-9101-ebfaf82ba83e |
+| Symbol Audio | dark | ecommerce | dark | docs/refero/styles/symbol-audio-3b742f76/DESIGN.md | https://styles.refero.design/style/3b742f76-25ad-446c-a942-09b09b93f6a3 |
+| Dialitdown | light | other | light | docs/refero/styles/dialitdown-21dc0b3a/DESIGN.md | https://styles.refero.design/style/21dc0b3a-3b67-449e-b1a9-e71598c882d6 |
+| Perky Bros | light | design | light | docs/refero/styles/perky-bros-058c96d8/DESIGN.md | https://styles.refero.design/style/058c96d8-c787-4203-a3c2-fe328d941941 |
+| Gawker | light | media | light | docs/refero/styles/gawker-c5df49ca/DESIGN.md | https://styles.refero.design/style/c5df49ca-18b5-467d-ada5-613723a1ade6 |
+| Xandraalvarezallende | light | design | light | docs/refero/styles/xandraalvarezallende-ba71395f/DESIGN.md | https://styles.refero.design/style/ba71395f-502b-40b3-8c7b-d97a2f20b1ba |
+| IDHEAL | light | other | light | docs/refero/styles/idheal-8d8d5861/DESIGN.md | https://styles.refero.design/style/8d8d5861-dee0-431b-826d-56f3fa4e1f84 |
+| TypeList | light | design | light | docs/refero/styles/typelist-76ace78c/DESIGN.md | https://styles.refero.design/style/76ace78c-94b7-421d-a8fd-47289328458f |
+| Anna Jóna | light | other | light | docs/refero/styles/anna-jona-71717c5a/DESIGN.md | https://styles.refero.design/style/71717c5a-324a-40ed-8a09-9a35df74f1d3 |
+| PORTO ROCHA | light | agency | light | docs/refero/styles/porto-rocha-701c8312/DESIGN.md | https://styles.refero.design/style/701c8312-5e98-49a8-b2c4-25f1cb66de15 |
+| Marylou Faure | light | design | light | docs/refero/styles/marylou-faure-6b2e2cb8/DESIGN.md | https://styles.refero.design/style/6b2e2cb8-b217-4395-a664-8795b6002315 |
+| David Reid | light | design | light | docs/refero/styles/david-reid-267405a2/DESIGN.md | https://styles.refero.design/style/267405a2-54c9-4f64-b350-9a2d469d1a71 |
+| Josh Warner | dark | design | dark | docs/refero/styles/josh-warner-e2e9b80c/DESIGN.md | https://styles.refero.design/style/e2e9b80c-b548-4f86-a4d7-7a6b07d1c2e1 |
+| Sébastien El Idrissi | dark | design | dark | docs/refero/styles/sebastien-el-idrissi-e249ea21/DESIGN.md | https://styles.refero.design/style/e249ea21-fafd-481f-a5b5-33932b6d8f71 |
+| Maximilian Berndt | light | design | light | docs/refero/styles/maximilian-berndt-b7f8fc9d/DESIGN.md | https://styles.refero.design/style/b7f8fc9d-ce0c-45ce-aad7-f56380bb2d28 |
+| Blok | light | ecommerce | light | docs/refero/styles/blok-7d10f1d6/DESIGN.md | https://styles.refero.design/style/7d10f1d6-f2a8-43ce-b055-6ddd74e3c7e1 |
+| Unknown | light | design | light | docs/refero/styles/unknown-6b6a0ec8/DESIGN.md | https://styles.refero.design/style/6b6a0ec8-0ea7-4324-9016-bfae46fbad62 |
+| Everafter | mixed | saas | both | docs/refero/styles/everafter-3b3aa977/DESIGN.md | https://styles.refero.design/style/3b3aa977-c2d3-45a4-b440-0068f53237c6 |
+| Cargo | light | other | light | docs/refero/styles/cargo-27f128c6/DESIGN.md | https://styles.refero.design/style/27f128c6-d381-4915-a6c7-078a54bc6fab |
+| Woven | light | ecommerce | light | docs/refero/styles/woven-76483bd1/DESIGN.md | https://styles.refero.design/style/76483bd1-37d3-4fb9-889b-aecf27b08b83 |
+| Transmissions | light | design | light | docs/refero/styles/transmissions-63c1c0d1/DESIGN.md | https://styles.refero.design/style/63c1c0d1-d3b7-40f1-9b9d-8e3b5bd73f17 |
+| Shupatto | light | ecommerce | light | docs/refero/styles/shupatto-17824ea8/DESIGN.md | https://styles.refero.design/style/17824ea8-ac7d-42ca-97e2-9bf92ebea7e1 |
+| PlanetScale | light | devtools | light | docs/refero/styles/planetscale-a6771960/DESIGN.md | https://styles.refero.design/style/a6771960-b826-49bc-9ee7-7f7a5e29642b |
+| Fielddaysound | dark | agency | dark | docs/refero/styles/fielddaysound-3f4ef2db/DESIGN.md | https://styles.refero.design/style/3f4ef2db-bc7b-44c4-a7aa-8816680bea07 |
+| Xbox.com | light | media | light | docs/refero/styles/xbox-com-3792d0ca/DESIGN.md | https://styles.refero.design/style/3792d0ca-6c74-4667-a64d-76efe9f87076 |
+| Odin's Crow | light | fintech | light | docs/refero/styles/odin-s-crow-65c01b0f/DESIGN.md | https://styles.refero.design/style/65c01b0f-7ae5-42ff-ad5b-162bbdce8e01 |
+| Play | light | other | light | docs/refero/styles/play-bf7b33f2/DESIGN.md | https://styles.refero.design/style/bf7b33f2-5fbd-49e8-aee7-ec67b6cb5ef4 |
+| Home | dark | productivity | dark | docs/refero/styles/home-606d4af9/DESIGN.md | https://styles.refero.design/style/606d4af9-9d8c-41ea-a122-f515f38f20e5 |
+| Joséphine Löchen | light | agency | light | docs/refero/styles/josephine-lochen-3d8be336/DESIGN.md | https://styles.refero.design/style/3d8be336-7e0e-45f7-baf3-0fb64750decd |
+| Adam Vella | light | design | light | docs/refero/styles/adam-vella-155eaac8/DESIGN.md | https://styles.refero.design/style/155eaac8-8497-4937-bf07-1d0dc82b7aeb |
+| Bloomers | light | ecommerce | light | docs/refero/styles/bloomers-043f4cfb/DESIGN.md | https://styles.refero.design/style/043f4cfb-9fe1-45bc-b4cb-8108fdb475fe |
+| Balsa | light | productivity | light | docs/refero/styles/balsa-ebbfbc6a/DESIGN.md | https://styles.refero.design/style/ebbfbc6a-988b-4f33-b261-d431b2327545 |
+| Transform | light | media | light | docs/refero/styles/transform-91939ad3/DESIGN.md | https://styles.refero.design/style/91939ad3-9e22-4256-a396-a1716a064ac4 |
+| Crown + Conquer | light | other | light | docs/refero/styles/crown-conquer-7e487226/DESIGN.md | https://styles.refero.design/style/7e487226-14fc-4068-813d-569f663fa399 |
+| Office Chair Finder | light | other | light | docs/refero/styles/office-chair-finder-756dd3c1/DESIGN.md | https://styles.refero.design/style/756dd3c1-6ccf-4824-bad3-96027cd0faf0 |
+| Clase bcn | light | agency | light | docs/refero/styles/clase-bcn-73359194/DESIGN.md | https://styles.refero.design/style/73359194-de93-436e-af53-81d4029f5e7a |
+| iconwerk | light | design | light | docs/refero/styles/iconwerk-6e22b676/DESIGN.md | https://styles.refero.design/style/6e22b676-90e0-4e1a-a230-2b52f331d0e4 |
+| Ka-ra | light | design | light | docs/refero/styles/ka-ra-315660d3/DESIGN.md | https://styles.refero.design/style/315660d3-36f4-4458-8148-1317fc909e8b |
+| LACEY.STUDIO | dark | design | dark | docs/refero/styles/lacey-studio-f11de55d/DESIGN.md | https://styles.refero.design/style/f11de55d-6bfa-4403-8333-c2ce58b53249 |
+| Nathan Riley | light | design | light | docs/refero/styles/nathan-riley-1c516bc6/DESIGN.md | https://styles.refero.design/style/1c516bc6-278b-4cf6-bfe8-c5a39118e730 |
+| VISIONNAIRE | light | ecommerce | light | docs/refero/styles/visionnaire-0ecfea58/DESIGN.md | https://styles.refero.design/style/0ecfea58-c1f3-4671-806d-5ae0eb779f38 |
+| Klim | dark | design | dark | docs/refero/styles/klim-0dad8530/DESIGN.md | https://styles.refero.design/style/0dad8530-9422-4d9e-8622-1f50ee4bc702 |
+| Pipe | dark | fintech | dark | docs/refero/styles/pipe-ab201ed7/DESIGN.md | https://styles.refero.design/style/ab201ed7-928f-4080-ba95-c3992311e39d |
+| Tilda | light | saas | light | docs/refero/styles/tilda-6d8dc9bb/DESIGN.md | https://styles.refero.design/style/6d8dc9bb-78b7-4eaa-9b08-66b431760e9f |
+| ProtoPie | light | design | light | docs/refero/styles/protopie-031302e5/DESIGN.md | https://styles.refero.design/style/031302e5-3269-4735-ab56-d4c7d02edc01 |
+| Maëlan Le Meur | dark | agency | dark | docs/refero/styles/maelan-le-meur-ea0d7b5a/DESIGN.md | https://styles.refero.design/style/ea0d7b5a-c887-4b6b-9260-6ca4d1fd7caa |
+| Altason | light | design | light | docs/refero/styles/altason-e99ae628/DESIGN.md | https://styles.refero.design/style/e99ae628-89df-4de9-ab80-9885b1be4dc0 |
+| Mr. Pops | light | ecommerce | light | docs/refero/styles/mr-pops-ab7996ed/DESIGN.md | https://styles.refero.design/style/ab7996ed-e0ed-40a0-81a5-d37f19ef35b0 |
+| Kajabi | light | productivity | light | docs/refero/styles/kajabi-a6bf8730/DESIGN.md | https://styles.refero.design/style/a6bf8730-6515-4a47-9d5f-927e1e0c67d5 |
+| Offten | light | design | light | docs/refero/styles/offten-32036fa8/DESIGN.md | https://styles.refero.design/style/32036fa8-39f0-4ebb-b05e-f5b11038d87a |
+| Jsnrynlds | dark | design | dark | docs/refero/styles/jsnrynlds-ef7c4bc2/DESIGN.md | https://styles.refero.design/style/ef7c4bc2-f75d-4198-8be3-52af5be494ac |
+| Waka Waka | light | design | light | docs/refero/styles/waka-waka-ea55601d/DESIGN.md | https://styles.refero.design/style/ea55601d-e953-48b3-99db-374b39bf2f56 |
+| Specht Studio | light | design | light | docs/refero/styles/specht-studio-dd646da4/DESIGN.md | https://styles.refero.design/style/dd646da4-36f5-42b1-83dd-6a1c90cf8983 |
+| Matter of Fact | light | design | light | docs/refero/styles/matter-of-fact-d7dcd499/DESIGN.md | https://styles.refero.design/style/d7dcd499-8eeb-4dbb-8c52-9d688e637783 |
+| Little Troop | light | design | light | docs/refero/styles/little-troop-bd62b51f/DESIGN.md | https://styles.refero.design/style/bd62b51f-e1be-4e4f-b3d9-e9b91f817625 |
+| Zellerfeld | light | ecommerce | light | docs/refero/styles/zellerfeld-a6efcd16/DESIGN.md | https://styles.refero.design/style/a6efcd16-dcd8-435b-9bd6-8c590589b424 |
+| Home | light | other | light | docs/refero/styles/home-84c9c7ab/DESIGN.md | https://styles.refero.design/style/84c9c7ab-c0b5-437f-b2bf-dc2fd8a61681 |
+| Pangram Pangram Foundry | light | design | light | docs/refero/styles/pangram-pangram-foundry-6d64a4da/DESIGN.md | https://styles.refero.design/style/6d64a4da-ef40-453e-86f7-4bfabc0c9051 |
+| Luma | light | ai | light | docs/refero/styles/luma-325ab18a/DESIGN.md | https://styles.refero.design/style/325ab18a-72a5-4ff3-8823-eed4d8bceef0 |
+| Electronic Materials Office® | dark | other | dark | docs/refero/styles/electronic-materials-office-297f65f7/DESIGN.md | https://styles.refero.design/style/297f65f7-0fbd-4521-ab91-a5f6e17175d9 |
+| Hartzler Family Dairy | light | other | light | docs/refero/styles/hartzler-family-dairy-14efe0a8/DESIGN.md | https://styles.refero.design/style/14efe0a8-5abf-441c-919d-add271317bf9 |
+| Baubauwerk | light | design | light | docs/refero/styles/baubauwerk-dbfeb56b/DESIGN.md | https://styles.refero.design/style/dbfeb56b-8802-4166-b51f-714b3cfddb40 |
+| Vita Architecture | light | agency | light | docs/refero/styles/vita-architecture-b406cea1/DESIGN.md | https://styles.refero.design/style/b406cea1-2f4f-4495-95f1-29868522e648 |
+| Index | light | agency | light | docs/refero/styles/index-b1ec2120/DESIGN.md | https://styles.refero.design/style/b1ec2120-ceb0-42d1-9f96-2c9db2bf009b |
+| Bee Home | light | design | light | docs/refero/styles/bee-home-a2788be7/DESIGN.md | https://styles.refero.design/style/a2788be7-a5dc-4828-86b8-3c1345a25049 |
+| Thomas Hedger | light | design | light | docs/refero/styles/thomas-hedger-9fe18d8b/DESIGN.md | https://styles.refero.design/style/9fe18d8b-58b7-404d-bcc6-9e8a73b8862c |
+| The Fascination The Fascination | light | media | light | docs/refero/styles/the-fascination-the-fascination-9c60e0a4/DESIGN.md | https://styles.refero.design/style/9c60e0a4-a702-49af-9fc1-52edbc9dd902 |
+| Benlongdendesign | light | design | light | docs/refero/styles/benlongdendesign-753079bd/DESIGN.md | https://styles.refero.design/style/753079bd-d32e-47c0-aa7d-75a36c44e324 |
+| Getclockwise | light | productivity | light | docs/refero/styles/getclockwise-6024d069/DESIGN.md | https://styles.refero.design/style/6024d069-8a74-4534-917f-5f5b11224cc5 |
+| Morgan Light | light | design | light | docs/refero/styles/morgan-light-4b5bfae9/DESIGN.md | https://styles.refero.design/style/4b5bfae9-69ef-46ec-ad6d-ff9a8bfe3525 |
+| V7labs | mixed | fintech | both | docs/refero/styles/v7labs-1ab79e76/DESIGN.md | https://styles.refero.design/style/1ab79e76-a07f-48fd-8e93-0a0fee12abd7 |
+| Norgram | mixed | design | both | docs/refero/styles/norgram-17e5ff99/DESIGN.md | https://styles.refero.design/style/17e5ff99-38c1-4ad6-8910-648f5798b3a5 |
+| Intra | light | other | light | docs/refero/styles/intra-16a8de02/DESIGN.md | https://styles.refero.design/style/16a8de02-a4c6-4077-9d3a-ef6b5c10db12 |
+| Sing-sing | light | design | light | docs/refero/styles/sing-sing-12b20c12/DESIGN.md | https://styles.refero.design/style/12b20c12-27f8-4938-89ba-569404d36fe8 |
+| Pierre Rousseau | light | design | light | docs/refero/styles/pierre-rousseau-0a0d96dd/DESIGN.md | https://styles.refero.design/style/0a0d96dd-25bf-4747-836c-33663360da54 |
+| Acceptandproceed | light | agency | light | docs/refero/styles/acceptandproceed-f63b4703/DESIGN.md | https://styles.refero.design/style/f63b4703-db8b-4bc9-8d8f-17262b12d4b3 |
+| Eat Real Food | light | other | light | docs/refero/styles/eat-real-food-3d32f841/DESIGN.md | https://styles.refero.design/style/3d32f841-490d-4e5f-aba0-43c9d0c13130 |
+| Escape Coffee Company | light | ecommerce | light | docs/refero/styles/escape-coffee-company-b5532c58/DESIGN.md | https://styles.refero.design/style/b5532c58-620a-4d69-8861-35b2b6443956 |
+| Wizz | dark | productivity | dark | docs/refero/styles/wizz-408d0b89/DESIGN.md | https://styles.refero.design/style/408d0b89-be7d-4a09-bc29-8a8ce13d0a7b |
+| Ada | light | ai | light | docs/refero/styles/ada-30ebf167/DESIGN.md | https://styles.refero.design/style/30ebf167-9ad1-4b20-853c-2726f473f4c4 |
+| Savee | dark | design | dark | docs/refero/styles/savee-c6d8490d/DESIGN.md | https://styles.refero.design/style/c6d8490d-e3f2-45c8-aebf-fe5f11daf116 |
+| Brand | light | design | light | docs/refero/styles/brand-f6fbc2fb/DESIGN.md | https://styles.refero.design/style/f6fbc2fb-ea5d-44cc-a37d-d7896005acbd |
+| Instrument | light | agency | light | docs/refero/styles/instrument-dcd215e5/DESIGN.md | https://styles.refero.design/style/dcd215e5-3511-4e40-87ff-95c095f44ad6 |
+| Stellar | dark | design | dark | docs/refero/styles/stellar-98a1ad40/DESIGN.md | https://styles.refero.design/style/98a1ad40-90e2-4665-b49f-e5ffd4d4b90b |
+| Tobias Ahlin | light | design | light | docs/refero/styles/tobias-ahlin-7a79144f/DESIGN.md | https://styles.refero.design/style/7a79144f-e9a2-4e60-8b90-a9409273da45 |
+| SIRUP 5th Anniversary Special Site | dark | media | dark | docs/refero/styles/sirup-5th-anniversary-special-site-31e063bd/DESIGN.md | https://styles.refero.design/style/31e063bd-7a86-4554-8a79-3635a6bb6d36 |
+| Wallpaper Projects | light | design | light | docs/refero/styles/wallpaper-projects-0a2bcda6/DESIGN.md | https://styles.refero.design/style/0a2bcda6-b5b9-463d-bc8d-2c7ccaa2b776 |
+| Graf Lantz | light | ecommerce | light | docs/refero/styles/graf-lantz-f1a690c7/DESIGN.md | https://styles.refero.design/style/f1a690c7-234d-4ee9-9806-5790934e7043 |
+| Block | light | fintech | light | docs/refero/styles/block-c9ec904b/DESIGN.md | https://styles.refero.design/style/c9ec904b-49c9-49f5-96e6-49bd818cd952 |
+| Quentin Hocdé | dark | design | dark | docs/refero/styles/quentin-hocde-7a21ba68/DESIGN.md | https://styles.refero.design/style/7a21ba68-2d01-44a6-8b20-149ddef84fef |
+| Le Puzz | light | ecommerce | light | docs/refero/styles/le-puzz-66e7b131/DESIGN.md | https://styles.refero.design/style/66e7b131-d68c-4751-954c-f5d0d8869647 |
+| PostNew | dark | design | dark | docs/refero/styles/postnew-4f76756b/DESIGN.md | https://styles.refero.design/style/4f76756b-0f06-47a3-baad-d3846b23e132 |
+| Paragraph | light | media | light | docs/refero/styles/paragraph-37dd9612/DESIGN.md | https://styles.refero.design/style/37dd9612-4df0-4cdd-b942-bd97dd0efbd2 |
+| Schulhaus Tirol | light | other | light | docs/refero/styles/schulhaus-tirol-dbddcf46/DESIGN.md | https://styles.refero.design/style/dbddcf46-f564-4b8b-8f3a-9b32e04b1639 |
+| SwimClub | light | other | light | docs/refero/styles/swimclub-d7a73e16/DESIGN.md | https://styles.refero.design/style/d7a73e16-4b3e-4b9d-aef2-2c31a9db7457 |
+| Koto | dark | agency | dark | docs/refero/styles/koto-a88fa835/DESIGN.md | https://styles.refero.design/style/a88fa835-1d5e-4b8e-b3d5-602597870563 |
+| Verse | dark | design | dark | docs/refero/styles/verse-486c3132/DESIGN.md | https://styles.refero.design/style/486c3132-9ff7-4e27-9eef-ca2e130bd827 |
+| Schemasofuncertainty | light | media | light | docs/refero/styles/schemasofuncertainty-471709dd/DESIGN.md | https://styles.refero.design/style/471709dd-81f0-4ac2-916e-ba874fa67273 |
+| Julien Renau | light | design | light | docs/refero/styles/julien-renau-38f3a11c/DESIGN.md | https://styles.refero.design/style/38f3a11c-ac61-40f3-934e-088d8dbb9467 |
+| Claude Type | light | design | light | docs/refero/styles/claude-type-134cfb76/DESIGN.md | https://styles.refero.design/style/134cfb76-12e0-4e2e-9995-5a1617190c56 |
+| Danilo Rodrigues | dark | design | dark | docs/refero/styles/danilo-rodrigues-0d68dc70/DESIGN.md | https://styles.refero.design/style/0d68dc70-15ec-494a-855d-fdb6a4e7c982 |
+| David Kirschberg | dark | design | dark | docs/refero/styles/david-kirschberg-004f4856/DESIGN.md | https://styles.refero.design/style/004f4856-4b01-4c23-a9fb-866303d5013b |
+| Eduardo del Fraile | dark | design | dark | docs/refero/styles/eduardo-del-fraile-e11be5e4/DESIGN.md | https://styles.refero.design/style/e11be5e4-cd8f-410e-bfe1-8763ed62fac3 |
+| Orderandmovement | light | design | light | docs/refero/styles/orderandmovement-d2c077d3/DESIGN.md | https://styles.refero.design/style/d2c077d3-d9ce-40c5-9714-e3c5f69f67d6 |
+| Julia Krantz | dark | agency | dark | docs/refero/styles/julia-krantz-92857b05/DESIGN.md | https://styles.refero.design/style/92857b05-1c01-4c7a-b196-beb4e4871998 |
+| Bastien Allard | light | design | light | docs/refero/styles/bastien-allard-3d126fb1/DESIGN.md | https://styles.refero.design/style/3d126fb1-a7f2-439d-be96-04e4bacee8b1 |
+| VSCO® | light | media | light | docs/refero/styles/vsco-759c0588/DESIGN.md | https://styles.refero.design/style/759c0588-ea22-44c1-a1cf-42cb81eb6cb0 |
+| Expo | light | devtools | light | docs/refero/styles/expo-b054773d/DESIGN.md | https://styles.refero.design/style/b054773d-2d14-4a35-b366-81b4ac00f171 |
+| Apollographql | mixed | devtools | both | docs/refero/styles/apollographql-65b30976/DESIGN.md | https://styles.refero.design/style/65b30976-3663-40b2-8751-7a360ba74539 |
+| Philipp Antoni | dark | agency | dark | docs/refero/styles/philipp-antoni-0f51bb51/DESIGN.md | https://styles.refero.design/style/0f51bb51-f4fa-479d-a748-9f996fb11a40 |
+| OPX Studio | dark | agency | dark | docs/refero/styles/opx-studio-bd395e2e/DESIGN.md | https://styles.refero.design/style/bd395e2e-58a8-4626-acfa-9be8d6cdf604 |
+| Busy Bee Honey | light | ecommerce | light | docs/refero/styles/busy-bee-honey-9836e7c2/DESIGN.md | https://styles.refero.design/style/9836e7c2-ac8e-453d-bdef-2677eb078d59 |
+| Home | dark | other | dark | docs/refero/styles/home-604af0f7/DESIGN.md | https://styles.refero.design/style/604af0f7-b4c3-4921-93af-9da03df81493 |
+| Josephmark | light | design | light | docs/refero/styles/josephmark-58c0af12/DESIGN.md | https://styles.refero.design/style/58c0af12-8706-428f-8282-482d57d7b90e |
+| Bryn Taylor | light | design | light | docs/refero/styles/bryn-taylor-5297b1bf/DESIGN.md | https://styles.refero.design/style/5297b1bf-5001-4421-83ca-cc327877c858 |
+| Liron Moran Interiors | dark | design | dark | docs/refero/styles/liron-moran-interiors-43400d73/DESIGN.md | https://styles.refero.design/style/43400d73-ca89-4750-8fa6-78cd2c661943 |
+| Programa | light | design | light | docs/refero/styles/programa-41af8353/DESIGN.md | https://styles.refero.design/style/41af8353-6a8f-416d-947b-57932f591497 |
+| Craft | light | agency | light | docs/refero/styles/craft-329075e8/DESIGN.md | https://styles.refero.design/style/329075e8-97ed-4722-8952-d9bf001de233 |
+| Posthuman | dark | design | dark | docs/refero/styles/posthuman-99820c01/DESIGN.md | https://styles.refero.design/style/99820c01-a9a7-40a4-9d73-8c75b19e7e91 |
+| Aplós | mixed | ecommerce | both | docs/refero/styles/aplos-765e6ba8/DESIGN.md | https://styles.refero.design/style/765e6ba8-af87-4519-afb7-774ceedc463d |
+| Homerun | light | saas | light | docs/refero/styles/homerun-721d4954/DESIGN.md | https://styles.refero.design/style/721d4954-389e-4003-91e3-efff373f0f0f |
+| MA Quilts | light | design | light | docs/refero/styles/ma-quilts-6d4ef8f4/DESIGN.md | https://styles.refero.design/style/6d4ef8f4-badd-4e3c-a168-0cc89c833b26 |
+| Google | dark | ai | dark | docs/refero/styles/google-472efe17/DESIGN.md | https://styles.refero.design/style/472efe17-8f2b-4e54-81c9-ccd956d0a519 |
+| Maja Cerar | light | design | light | docs/refero/styles/maja-cerar-40ebe3dc/DESIGN.md | https://styles.refero.design/style/40ebe3dc-c1dc-4fc1-aa85-552f0bcf7edb |
+| Spazio Maiocchi | dark | media | dark | docs/refero/styles/spazio-maiocchi-fc0a9d9e/DESIGN.md | https://styles.refero.design/style/fc0a9d9e-558b-452a-970c-a9f4080211b4 |
+| The Pop Manifesto | dark | media | dark | docs/refero/styles/the-pop-manifesto-80913fb2/DESIGN.md | https://styles.refero.design/style/80913fb2-60ee-4d6c-b2c8-17600351096a |
+| WOUQ | light | agency | light | docs/refero/styles/wouq-4fc87190/DESIGN.md | https://styles.refero.design/style/4fc87190-9783-4a85-bdc1-35800a2ec690 |
+| Standard Projects | light | other | light | docs/refero/styles/standard-projects-3eae6f8d/DESIGN.md | https://styles.refero.design/style/3eae6f8d-fa39-433f-b872-745c6dd0cb79 |
+| MZA | light | media | light | docs/refero/styles/mza-12685872/DESIGN.md | https://styles.refero.design/style/12685872-a92e-49db-960c-4d3d03b1353b |
+| George Hatton | light | design | light | docs/refero/styles/george-hatton-09d867ed/DESIGN.md | https://styles.refero.design/style/09d867ed-35b5-4758-a00b-d6e4a8235c06 |
+| Perplexity AI | light | ai | light | docs/refero/styles/perplexity-ai-e9fff87a/DESIGN.md | https://styles.refero.design/style/e9fff87a-63ce-4c19-840f-98233db62f58 |
+| Michael Speichert | dark | design | dark | docs/refero/styles/michael-speichert-4ba6652c/DESIGN.md | https://styles.refero.design/style/4ba6652c-56f1-4bd5-9e2f-9b64a30d66a8 |
+| Prisma | light | devtools | light | docs/refero/styles/prisma-8e9e585f/DESIGN.md | https://styles.refero.design/style/8e9e585f-5ad4-4273-8418-e1f82cdb51cf |
+| Oatly | light | other | light | docs/refero/styles/oatly-bb09f629/DESIGN.md | https://styles.refero.design/style/bb09f629-517a-4f74-93f2-26a55ffa9e13 |
+| Dezeen | light | media | light | docs/refero/styles/dezeen-9e2dceb8/DESIGN.md | https://styles.refero.design/style/9e2dceb8-0c87-45db-8830-9df961b02b32 |
+| OFFFICE : | dark | agency | dark | docs/refero/styles/offfice-190d4a0b/DESIGN.md | https://styles.refero.design/style/190d4a0b-0353-4fc8-be09-affa6e977146 |
+| FORA | light | agency | light | docs/refero/styles/fora-9929101b/DESIGN.md | https://styles.refero.design/style/9929101b-90d4-4306-bc4a-4d8f65b527f5 |
+| until | light | other | light | docs/refero/styles/until-ded6d7c4/DESIGN.md | https://styles.refero.design/style/ded6d7c4-2801-45f4-8b8a-089f1b37842d |
+| My Brentano | light | ecommerce | light | docs/refero/styles/my-brentano-d211aaa4/DESIGN.md | https://styles.refero.design/style/d211aaa4-e09b-4ef9-a9bf-f6fa8495de73 |
+| Ayaka B. Ito | light | design | light | docs/refero/styles/ayaka-b-ito-8ac43b3b/DESIGN.md | https://styles.refero.design/style/8ac43b3b-7139-4777-bc77-217614e01e89 |
+| Smiling Wolf | light | agency | light | docs/refero/styles/smiling-wolf-75be52f8/DESIGN.md | https://styles.refero.design/style/75be52f8-4dbe-45da-9a0e-a11bc92f6927 |
+| Guglieri | dark | design | dark | docs/refero/styles/guglieri-5b7ecaf1/DESIGN.md | https://styles.refero.design/style/5b7ecaf1-de2d-4fb9-9995-9f0665e77862 |
+| 12th Berlin Biennale for Contemporary Art | light | design | light | docs/refero/styles/12th-berlin-biennale-for-contemporary-art-1c2d4a33/DESIGN.md | https://styles.refero.design/style/1c2d4a33-7ee4-4b61-a77e-dab91631d19b |
+| Kalstore® | light | ecommerce | light | docs/refero/styles/kalstore-e854a4f7/DESIGN.md | https://styles.refero.design/style/e854a4f7-4243-44a7-92e2-e22db22bef1b |
+| IKEA | light | ecommerce | light | docs/refero/styles/ikea-e7b37c82/DESIGN.md | https://styles.refero.design/style/e7b37c82-239c-48d5-b293-79a2bfa235cc |
+| SuperHi Basic Income | light | other | light | docs/refero/styles/superhi-basic-income-e57d9536/DESIGN.md | https://styles.refero.design/style/e57d9536-22a7-49db-8bd4-4306d8927ec3 |
+| Erno Forsström | light | design | light | docs/refero/styles/erno-forsstrom-cffa5959/DESIGN.md | https://styles.refero.design/style/cffa5959-4283-41d2-ad11-bada2d731419 |
+| GUSTAVO Faria © | light | design | light | docs/refero/styles/gustavo-faria-cd3546fc/DESIGN.md | https://styles.refero.design/style/cd3546fc-b6d0-4ec9-8624-580549af347d |
+| Beau | light | saas | light | docs/refero/styles/beau-c73ba3d8/DESIGN.md | https://styles.refero.design/style/c73ba3d8-42fe-4d53-bec1-b6643949c582 |
+| V–A–C Sreda | light | media | light | docs/refero/styles/v-a-c-sreda-b634cbce/DESIGN.md | https://styles.refero.design/style/b634cbce-b4db-44a6-b2a4-b58d9d2fe93d |
+| Buzz Usborne | light | design | light | docs/refero/styles/buzz-usborne-b4f05d63/DESIGN.md | https://styles.refero.design/style/b4f05d63-a3b3-416e-b1ab-8152f1ee7632 |
+| Simon Rogers | light | design | light | docs/refero/styles/simon-rogers-8f2285eb/DESIGN.md | https://styles.refero.design/style/8f2285eb-d6b3-4221-8b46-ef9727c49431 |
+| Lama Lama | dark | agency | dark | docs/refero/styles/lama-lama-8e26bf8a/DESIGN.md | https://styles.refero.design/style/8e26bf8a-44b8-4fe1-9b4b-188dd5827c0f |
+| RainbowKit | dark | devtools | dark | docs/refero/styles/rainbowkit-7421c174/DESIGN.md | https://styles.refero.design/style/7421c174-a1b1-4695-a9e7-a82dc6f5ea3b |
+| Zikd | dark | other | dark | docs/refero/styles/zikd-5e047af6/DESIGN.md | https://styles.refero.design/style/5e047af6-228d-4de1-b008-6fe88c547a47 |
+| Myrch Club | light | other | light | docs/refero/styles/myrch-club-528683fb/DESIGN.md | https://styles.refero.design/style/528683fb-6b17-4fc6-b37e-d831ee1b20e2 |
+| Rubenwyttenbach | dark | design | dark | docs/refero/styles/rubenwyttenbach-4d00d5f8/DESIGN.md | https://styles.refero.design/style/4d00d5f8-a156-41d0-80aa-558bd461235e |
+| Ryan Stephen | light | design | light | docs/refero/styles/ryan-stephen-4080f6e4/DESIGN.md | https://styles.refero.design/style/4080f6e4-e61c-4d3c-ab93-de74a1b5dfc2 |
+| Thehiddenjoboffer | dark | other | dark | docs/refero/styles/thehiddenjoboffer-35f96e5f/DESIGN.md | https://styles.refero.design/style/35f96e5f-f48a-4158-be2f-293a45c81fa3 |
+| informed Copilot | light | ai | light | docs/refero/styles/informed-copilot-1ee070cd/DESIGN.md | https://styles.refero.design/style/1ee070cd-3be5-4efb-aa4f-06bce9eb5fe4 |
+| Regisgrumberg | dark | design | dark | docs/refero/styles/regisgrumberg-1a2ca4fb/DESIGN.md | https://styles.refero.design/style/1a2ca4fb-1087-4fd0-83ba-590bc63f54ee |
+| Felt | dark | saas | dark | docs/refero/styles/felt-127a4efb/DESIGN.md | https://styles.refero.design/style/127a4efb-685c-42c3-83eb-72bb410a8429 |
+| ©Public Image | light | design | light | docs/refero/styles/public-image-0884c01f/DESIGN.md | https://styles.refero.design/style/0884c01f-9239-4c3f-83ef-b2a2cf8fe061 |
+| skiff.com | light | productivity | light | docs/refero/styles/skiff-com-eb68b482/DESIGN.md | https://styles.refero.design/style/eb68b482-e9c5-4e82-90df-a1f37f28ac2f |
+| Awwwards | light | design | light | docs/refero/styles/awwwards-a77a7289/DESIGN.md | https://styles.refero.design/style/a77a7289-3438-46ba-8194-214739e47514 |
+| Hashnode | light | media | light | docs/refero/styles/hashnode-6a8bf4c2/DESIGN.md | https://styles.refero.design/style/6a8bf4c2-8cf2-463a-bcb9-36c15ea177c2 |
+| Krisp | light | productivity | light | docs/refero/styles/krisp-3b3fa99e/DESIGN.md | https://styles.refero.design/style/3b3fa99e-cee4-41f3-ac26-777b4b6a8b12 |
+| Vectary | light | design | light | docs/refero/styles/vectary-dfe5faa4/DESIGN.md | https://styles.refero.design/style/dfe5faa4-a108-45a8-a68c-ed19be2db766 |
+| Secure | light | productivity | light | docs/refero/styles/secure-7942590d/DESIGN.md | https://styles.refero.design/style/7942590d-b11b-4cfb-8fe8-945b3867d865 |
+| Kons | light | saas | light | docs/refero/styles/kons-0f5316b8/DESIGN.md | https://styles.refero.design/style/0f5316b8-7e37-4e11-aae9-5fb6391739ed |
+| Figma | light | design | light | docs/refero/styles/figma-5fd3b3b4/DESIGN.md | https://styles.refero.design/style/5fd3b3b4-02ab-456a-87aa-e4395636b671 |
+| Octaevo | light | ecommerce | light | docs/refero/styles/octaevo-c773d644/DESIGN.md | https://styles.refero.design/style/c773d644-4d72-4532-a6cd-50d80f595a61 |
+| Kippo | dark | other | dark | docs/refero/styles/kippo-917048a3/DESIGN.md | https://styles.refero.design/style/917048a3-53b3-44e6-ab33-faefc4dcc9df |
+| Design Full-Time | dark | design | dark | docs/refero/styles/design-full-time-80b2cc74/DESIGN.md | https://styles.refero.design/style/80b2cc74-62c5-4898-bc2b-12aa94ed2943 |
+| WGSN | light | other | light | docs/refero/styles/wgsn-6cf3aec4/DESIGN.md | https://styles.refero.design/style/6cf3aec4-d028-44b0-b634-cc93e6c08e3c |
+| IFTTT | dark | productivity | dark | docs/refero/styles/ifttt-635b7769/DESIGN.md | https://styles.refero.design/style/635b7769-7517-48ac-bb95-2ad7fa337e54 |
+| Franco Maria Ricci Editore | light | media | light | docs/refero/styles/franco-maria-ricci-editore-6120469b/DESIGN.md | https://styles.refero.design/style/6120469b-a1c8-46d3-b7fd-8aa6dc22c0d9 |
+| Hugo & Marie | light | agency | light | docs/refero/styles/hugo-and-marie-58a36cba/DESIGN.md | https://styles.refero.design/style/58a36cba-3fc4-48fa-a7d9-7f14592b7857 |
+| Gocardless | light | fintech | light | docs/refero/styles/gocardless-48ae4f04/DESIGN.md | https://styles.refero.design/style/48ae4f04-21cb-4ab3-8752-33b626a48c95 |
+| Circa | dark | agency | dark | docs/refero/styles/circa-3baaccae/DESIGN.md | https://styles.refero.design/style/3baaccae-2415-46c8-b71f-a45a002944aa |
+| Daniellelevitt | mixed | design | both | docs/refero/styles/daniellelevitt-1a8d2d66/DESIGN.md | https://styles.refero.design/style/1a8d2d66-bb84-4929-acbe-2685fc9ab6e7 |
+| Gio Pandone | light | design | light | docs/refero/styles/gio-pandone-eba58fb4/DESIGN.md | https://styles.refero.design/style/eba58fb4-955d-40b7-ac11-76c74caf2a53 |
+| 큰그림컴퍼니 | light | agency | light | docs/refero/styles/style-eafe33bf/DESIGN.md | https://styles.refero.design/style/eafe33bf-6f53-4619-b279-686ad5869799 |
+| Icam inox s.r.l. | light | other | light | docs/refero/styles/icam-inox-s-r-l-e51d5c11/DESIGN.md | https://styles.refero.design/style/e51d5c11-0190-40c8-9f73-92ba82488692 |
+| Studio Oker | dark | design | dark | docs/refero/styles/studio-oker-e045b276/DESIGN.md | https://styles.refero.design/style/e045b276-ae8d-442e-98de-fa8650e284de |
+| XXXI.studio | light | design | light | docs/refero/styles/xxxi-studio-c9a6ceb4/DESIGN.md | https://styles.refero.design/style/c9a6ceb4-c17c-4db5-9561-2f1af6b141a2 |
+| Extract | light | design | light | docs/refero/styles/extract-c4e125b6/DESIGN.md | https://styles.refero.design/style/c4e125b6-e3a3-4509-b06f-f0169216a394 |
+| Fiz | light | design | light | docs/refero/styles/fiz-ab0a904b/DESIGN.md | https://styles.refero.design/style/ab0a904b-3a49-4114-9efc-965022a6340e |
+| Tofu Collective | light | other | light | docs/refero/styles/tofu-collective-aafac8e5/DESIGN.md | https://styles.refero.design/style/aafac8e5-a274-4273-8b5f-60414992a5d0 |
+| Magnetism | dark | agency | dark | docs/refero/styles/magnetism-a8a1e9e6/DESIGN.md | https://styles.refero.design/style/a8a1e9e6-d252-49c7-b201-91b3055487df |
+| Flutterwave Design | light | design | light | docs/refero/styles/flutterwave-design-97bbc1bd/DESIGN.md | https://styles.refero.design/style/97bbc1bd-873f-4048-b4cc-b20ea2e70097 |
+| Prisma Labs | light | design | light | docs/refero/styles/prisma-labs-8d37e9dd/DESIGN.md | https://styles.refero.design/style/8d37e9dd-1d6b-4b60-a636-55aa3e0fc238 |
+| Bitofdenim | light | ecommerce | light | docs/refero/styles/bitofdenim-823eb3b6/DESIGN.md | https://styles.refero.design/style/823eb3b6-af04-4f13-875e-d83870cd48e1 |
+| Peppasauce | dark | ecommerce | dark | docs/refero/styles/peppasauce-7dd00c2f/DESIGN.md | https://styles.refero.design/style/7dd00c2f-85bf-40ce-8166-b0d09d4e329d |
+| Nev Flynn | light | design | light | docs/refero/styles/nev-flynn-712d5132/DESIGN.md | https://styles.refero.design/style/712d5132-5784-4e43-bb8c-941daa362641 |
+| Relate dot App | light | other | light | docs/refero/styles/relate-dot-app-6bc9448b/DESIGN.md | https://styles.refero.design/style/6bc9448b-5d39-4aba-9007-25c7a2aedbad |
+| Madebyon | dark | agency | dark | docs/refero/styles/madebyon-64ba8e77/DESIGN.md | https://styles.refero.design/style/64ba8e77-d1be-48a2-a47d-bdd46e139b8f |
+| Ashleyandco | light | ecommerce | light | docs/refero/styles/ashleyandco-645d7583/DESIGN.md | https://styles.refero.design/style/645d7583-8391-455b-83d2-c95fb7fe91dc |
+| Diogo Akio | dark | design | dark | docs/refero/styles/diogo-akio-55509c15/DESIGN.md | https://styles.refero.design/style/55509c15-4b34-489e-9a81-bfa5468ffd37 |
+| Numbered | dark | agency | dark | docs/refero/styles/numbered-50f0b6d5/DESIGN.md | https://styles.refero.design/style/50f0b6d5-9e96-42a1-9564-a6e99c289f98 |
+| Philip Hugle | light | design | light | docs/refero/styles/philip-hugle-48d0714a/DESIGN.md | https://styles.refero.design/style/48d0714a-7f0e-4b62-b297-1220a825454b |
+| CHAIBOY | dark | ecommerce | dark | docs/refero/styles/chaiboy-442dfaf8/DESIGN.md | https://styles.refero.design/style/442dfaf8-c0c6-467b-a8d4-54e953c049f3 |
+| Guillaume Tomasi | light | design | light | docs/refero/styles/guillaume-tomasi-430253c2/DESIGN.md | https://styles.refero.design/style/430253c2-013d-4a47-a234-d1fa62dbc4bd |
+| Jant | dark | other | dark | docs/refero/styles/jant-4182357d/DESIGN.md | https://styles.refero.design/style/4182357d-b0e6-46b2-a462-3e630e831085 |
+| Rains INT | light | ecommerce | light | docs/refero/styles/rains-int-38c8a8c9/DESIGN.md | https://styles.refero.design/style/38c8a8c9-4d2e-462a-bff0-80c9d9619ef2 |
+| Riverside | dark | media | dark | docs/refero/styles/riverside-09b5a06b/DESIGN.md | https://styles.refero.design/style/09b5a06b-29dc-4d17-8722-d29bd93010c8 |
+| Essie Wine | light | other | light | docs/refero/styles/essie-wine-07f5281d/DESIGN.md | https://styles.refero.design/style/07f5281d-2a18-4e12-a8ff-d54d3e03d198 |
+| Alec Babala | dark | design | dark | docs/refero/styles/alec-babala-067b502e/DESIGN.md | https://styles.refero.design/style/067b502e-e428-4b7c-a367-fd10b4b58395 |
+| Framer | dark | design | dark | docs/refero/styles/framer-242db326/DESIGN.md | https://styles.refero.design/style/242db326-a6f3-482a-b12e-5e7f8af94981 |
+| Passionfroot | light | ai | light | docs/refero/styles/passionfroot-aaaa705d/DESIGN.md | https://styles.refero.design/style/aaaa705d-3042-4355-ad30-13360f04e403 |
+| Hungry Tiger | dark | ecommerce | dark | docs/refero/styles/hungry-tiger-47f15da7/DESIGN.md | https://styles.refero.design/style/47f15da7-8905-45b3-bcab-06a4277c6168 |
+| INVERSA | dark | other | dark | docs/refero/styles/inversa-8a6dc9c8/DESIGN.md | https://styles.refero.design/style/8a6dc9c8-7892-4eab-baaa-3c342d5671f2 |
+| Studio Thomas | light | design | light | docs/refero/styles/studio-thomas-f2b24dce/DESIGN.md | https://styles.refero.design/style/f2b24dce-5b1f-47c2-8ef6-bbbd08b68826 |
+| Alba Condos | light | other | light | docs/refero/styles/alba-condos-cca15550/DESIGN.md | https://styles.refero.design/style/cca15550-7845-46c6-8b12-b69c46e1a2b4 |
+| Atlassian | light | saas | light | docs/refero/styles/atlassian-c08ebca5/DESIGN.md | https://styles.refero.design/style/c08ebca5-87d4-4c19-a5d7-ae5e670dae11 |
+| LogoArchive | dark | design | dark | docs/refero/styles/logoarchive-b63cc4ca/DESIGN.md | https://styles.refero.design/style/b63cc4ca-52c6-4b70-9a5a-cb04bae15edb |
+| Uniswap | light | crypto | light | docs/refero/styles/uniswap-b0cb2465/DESIGN.md | https://styles.refero.design/style/b0cb2465-ad7b-4657-a2e4-b8c793355cd3 |
+| Popcorn | light | other | light | docs/refero/styles/popcorn-93fe74fd/DESIGN.md | https://styles.refero.design/style/93fe74fd-bac8-4d13-9d5b-3b5e242f74e6 |
+| Ruben Meines | light | agency | light | docs/refero/styles/ruben-meines-903284f3/DESIGN.md | https://styles.refero.design/style/903284f3-e121-4e20-bd0c-261ae7c26c3d |
+| MAD | light | design | light | docs/refero/styles/mad-4ab90069/DESIGN.md | https://styles.refero.design/style/4ab90069-caed-4431-ade3-fcc44ef5e568 |
+| V–A–C | light | media | light | docs/refero/styles/v-a-c-40154dc4/DESIGN.md | https://styles.refero.design/style/40154dc4-e681-4df9-be01-a6681d5887a6 |
+| DrawHistory | light | agency | light | docs/refero/styles/drawhistory-25246b10/DESIGN.md | https://styles.refero.design/style/25246b10-83a4-4f51-a411-cf85503b94a8 |
+| Nornorm | light | saas | light | docs/refero/styles/nornorm-0769ff4c/DESIGN.md | https://styles.refero.design/style/0769ff4c-f719-4865-98df-de2f44c694a6 |
+| Hugo Ferradas | dark | design | dark | docs/refero/styles/hugo-ferradas-e766eef9/DESIGN.md | https://styles.refero.design/style/e766eef9-80e6-4912-bf0f-446b0904b6ea |
+| OhDada | light | design | light | docs/refero/styles/ohdada-d69af89b/DESIGN.md | https://styles.refero.design/style/d69af89b-cb31-426d-b9aa-c21d127b8947 |
+| PropellerAi | light | ai | light | docs/refero/styles/propellerai-a2e08637/DESIGN.md | https://styles.refero.design/style/a2e08637-bd7e-4302-ab44-52a5eaa37917 |
+| MediaOptions | light | other | light | docs/refero/styles/mediaoptions-95cccc8d/DESIGN.md | https://styles.refero.design/style/95cccc8d-c35a-4da0-8563-5fd5f2c7d6eb |
+| Andreas Antonsson | dark | agency | dark | docs/refero/styles/andreas-antonsson-d14acfe3/DESIGN.md | https://styles.refero.design/style/d14acfe3-20ea-4c18-be22-aba396b4fa80 |
+| Trawelt | dark | agency | dark | docs/refero/styles/trawelt-fade1fe1/DESIGN.md | https://styles.refero.design/style/fade1fe1-bbd3-4b1a-ae19-fe88f6744fe0 |
+| Mother Design | light | design | light | docs/refero/styles/mother-design-f40e6a6c/DESIGN.md | https://styles.refero.design/style/f40e6a6c-1704-407a-b21b-6141fb90adfe |
+| Thisispam | light | design | light | docs/refero/styles/thisispam-f352b093/DESIGN.md | https://styles.refero.design/style/f352b093-1ba7-49c7-9ce3-ad73cf9a1aee |
+| Stark | light | saas | light | docs/refero/styles/stark-ea9c37e8/DESIGN.md | https://styles.refero.design/style/ea9c37e8-c56c-42aa-8e81-9b55222a5cd3 |
+| Интранетус | light | productivity | light | docs/refero/styles/style-e4d08b91/DESIGN.md | https://styles.refero.design/style/e4d08b91-f251-4dc8-b30f-147e4a762ed3 |
+| Magda Reyman | light | design | light | docs/refero/styles/magda-reyman-d60499c7/DESIGN.md | https://styles.refero.design/style/d60499c7-9e48-4bdf-8194-c168bb274c9e |
+| Not Real | light | design | light | docs/refero/styles/not-real-c0a3f588/DESIGN.md | https://styles.refero.design/style/c0a3f588-74b7-4fad-b557-1fc7cd7bd777 |
+| Carrot | light | other | light | docs/refero/styles/carrot-a7a69d27/DESIGN.md | https://styles.refero.design/style/a7a69d27-e1a9-4322-b58f-3c7633fdc60d |
+| Coco | light | productivity | light | docs/refero/styles/coco-a6fa9927/DESIGN.md | https://styles.refero.design/style/a6fa9927-43a8-49fc-87ea-a41407766af3 |
+| Katherine Pihl | dark | design | dark | docs/refero/styles/katherine-pihl-a6b2d6dc/DESIGN.md | https://styles.refero.design/style/a6b2d6dc-7d71-4d2d-af3e-b34a8b665744 |
+| Waabi | light | ai | light | docs/refero/styles/waabi-91174f53/DESIGN.md | https://styles.refero.design/style/91174f53-6770-4398-b3e7-ad14b1c39b6d |
+| Current | light | fintech | light | docs/refero/styles/current-84b951e2/DESIGN.md | https://styles.refero.design/style/84b951e2-eaae-4f56-8f3f-d90407517a56 |
+| Favorit Studio | light | design | light | docs/refero/styles/favorit-studio-7e03ab3b/DESIGN.md | https://styles.refero.design/style/7e03ab3b-1344-43d7-a7c4-2f31395758ae |
+| Panic | mixed | media | both | docs/refero/styles/panic-7dfbb863/DESIGN.md | https://styles.refero.design/style/7dfbb863-e3bb-4894-9ea9-c782efa85a2d |
+| Affinity | dark | design | dark | docs/refero/styles/affinity-6fd5c4e6/DESIGN.md | https://styles.refero.design/style/6fd5c4e6-7003-4768-bc62-1b9c0c774054 |
+| TOMO | light | media | light | docs/refero/styles/tomo-6f148ff6/DESIGN.md | https://styles.refero.design/style/6f148ff6-ae72-496a-a21d-84d7779825ff |
+| Riptype Foundry | dark | design | dark | docs/refero/styles/riptype-foundry-3e397dc6/DESIGN.md | https://styles.refero.design/style/3e397dc6-0e68-435f-9dee-1966a9d245d3 |
+| Google | dark | ai | dark | docs/refero/styles/google-35c13e9f/DESIGN.md | https://styles.refero.design/style/35c13e9f-02fc-44d4-995f-c2e26998d49f |
+| Forner | light | agency | light | docs/refero/styles/forner-2a830d03/DESIGN.md | https://styles.refero.design/style/2a830d03-cebc-48f0-a50f-ad78168c5026 |
+| Increase | light | fintech | light | docs/refero/styles/increase-1ad4f49f/DESIGN.md | https://styles.refero.design/style/1ad4f49f-275a-4268-8ed1-677dc3c6e475 |
+| Faccia Brutto Spirits | light | ecommerce | light | docs/refero/styles/faccia-brutto-spirits-181a3e89/DESIGN.md | https://styles.refero.design/style/181a3e89-20cb-400a-8fa4-529acce7ca7d |
+| Wemakethings | light | agency | light | docs/refero/styles/wemakethings-15d57573/DESIGN.md | https://styles.refero.design/style/15d57573-513b-49aa-91c7-1b7f87bb1a55 |
+| Aristide Benoist | dark | other | dark | docs/refero/styles/aristide-benoist-0803e911/DESIGN.md | https://styles.refero.design/style/0803e911-23ac-46aa-a770-007674906e73 |
+| Shopify | dark | ecommerce | dark | docs/refero/styles/shopify-f212ff99/DESIGN.md | https://styles.refero.design/style/f212ff99-24fa-4646-a0f2-46a815736ecd |
+| Spotify | dark | media | dark | docs/refero/styles/spotify-cc59e195/DESIGN.md | https://styles.refero.design/style/cc59e195-fed0-4928-96d1-303752786073 |
+| Duolingo | light | other | light | docs/refero/styles/duolingo-95b472c5/DESIGN.md | https://styles.refero.design/style/95b472c5-fc07-46a8-a11f-c5432e290fcd |
+| Netflix Spain | dark | media | dark | docs/refero/styles/netflix-spain-0e4d933c/DESIGN.md | https://styles.refero.design/style/0e4d933c-aa07-4787-9884-40a0e6c338e4 |
+| Panic | dark | devtools | dark | docs/refero/styles/panic-14db6c48/DESIGN.md | https://styles.refero.design/style/14db6c48-712a-4f2b-91ab-efe57d638db3 |
+| K-Way France | light | ecommerce | light | docs/refero/styles/k-way-france-f5c50b55/DESIGN.md | https://styles.refero.design/style/f5c50b55-f32a-4fbc-b613-25335d1acc2f |
+| Dima Kutsenko | dark | design | dark | docs/refero/styles/dima-kutsenko-e7231719/DESIGN.md | https://styles.refero.design/style/e7231719-564c-42b7-998f-2e97986fb26c |
+| Jonas Pelzer | light | design | light | docs/refero/styles/jonas-pelzer-dd96b76a/DESIGN.md | https://styles.refero.design/style/dd96b76a-b691-49e7-ba8f-1cdc8f7172e6 |
+| Microsoft | light | other | light | docs/refero/styles/microsoft-c70a9990/DESIGN.md | https://styles.refero.design/style/c70a9990-bc4b-4a64-a69b-aeb7b344fb74 |
+| The Beams | light | other | light | docs/refero/styles/the-beams-b321ca45/DESIGN.md | https://styles.refero.design/style/b321ca45-2971-4828-9165-82b77f676bfd |

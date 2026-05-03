@@ -1,0 +1,501 @@
+{
+  "id": "1a8d2d66-bb84-4929-acbe-2685fc9ab6e7",
+  "url": "https://www.daniellelevitt.com",
+  "siteName": "Daniellelevitt",
+  "screenshotUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777512632563-screenshot.jpg",
+  "thumbnailUrl": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777512632563-thumb.jpg",
+  "iconUrl": null,
+  "previewVideoUrl": null,
+  "previewVideoPosterUrl": null,
+  "previewVideoWidth": null,
+  "previewVideoHeight": null,
+  "previewVideoDetailUrl": null,
+  "previewVideoDetailPosterUrl": null,
+  "previewVideoDetailWidth": null,
+  "previewVideoDetailHeight": null,
+  "previewVideoDurationMs": null,
+  "colorScheme": "both",
+  "colors": [
+    {
+      "name": "Orange Peel",
+      "hex": "#d15022"
+    },
+    {
+      "name": "Mint Canvas",
+      "hex": "#75dfb5"
+    },
+    {
+      "name": "Midnight Ink",
+      "hex": "#000000"
+    },
+    {
+      "name": "Purple Haze",
+      "hex": "#E676B6"
+    }
+  ],
+  "fonts": [
+    "Helvetica Now Display",
+    "Helvetica Now Display Condensed"
+  ],
+  "northStar": "Vivid editorial canvas",
+  "createdAt": "2026-04-30T01:30:53.290Z",
+  "previewVideoCapturedAt": null,
+  "industry": "design",
+  "fullResult": {
+    "meta": {
+      "url": "https://www.daniellelevitt.com",
+      "siteName": "Daniellelevitt",
+      "extractedAt": "2026-04-30T01:30:53.224Z",
+      "durationMs": 29128,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "elementCount": 112,
+      "telemetry": {
+        "enrichment": {
+          "componentHtmlStatus": "pending",
+          "attempts": 0
+        }
+      }
+    },
+    "raw": {
+      "colors": {
+        "tokens": [
+          {
+            "hex": "#000000",
+            "oklch": {
+              "c": 0,
+              "h": 0,
+              "l": 0
+            },
+            "contexts": [
+              "link",
+              "nav",
+              "other",
+              "image",
+              "body"
+            ],
+            "frequency": 390,
+            "confidence": 1,
+            "prominence": 39047303.326150805,
+            "properties": [
+              "color",
+              "borderColor"
+            ],
+            "usageCounts": {
+              "nav/color": 5,
+              "body/color": 10,
+              "link/color": 9,
+              "image/color": 24,
+              "other/color": 30,
+              "nav/borderColor": 20,
+              "body/borderColor": 40,
+              "link/borderColor": 36,
+              "image/borderColor": 96,
+              "other/borderColor": 120
+            }
+          },
+          {
+            "hex": "#d15022",
+            "oklch": {
+              "c": 0.17292057638873506,
+              "h": 38.472564159729444,
+              "l": 0.597491374242537
+            },
+            "contexts": [
+              "nav",
+              "button",
+              "other",
+              "heading",
+              "link"
+            ],
+            "frequency": 166,
+            "confidence": 1,
+            "prominence": 6233330.547410887,
+            "properties": [
+              "color",
+              "borderColor",
+              "fill"
+            ],
+            "usageCounts": {
+              "nav/color": 3,
+              "link/color": 9,
+              "other/fill": 1,
+              "other/color": 7,
+              "button/color": 2,
+              "heading/color": 12,
+              "nav/borderColor": 12,
+              "link/borderColor": 36,
+              "other/borderColor": 28,
+              "button/borderColor": 8,
+              "heading/borderColor": 48
+            }
+          },
+          {
+            "hex": "#75dfb5",
+            "oklch": {
+              "c": 0.11653492417604655,
+              "h": 165.7047673596367,
+              "l": 0.8284554103135326
+            },
+            "contexts": [
+              "link"
+            ],
+            "frequency": 8,
+            "confidence": 1,
+            "prominence": 392782.2370037155,
+            "properties": [
+              "backgroundColor"
+            ],
+            "usageCounts": {
+              "link/backgroundColor": 8
+            }
+          }
+        ],
+        "isDarkMode": false,
+        "colorfulness": 0.14202173219253592,
+        "contrastPairs": [
+          {
+            "level": "AAA",
+            "ratio": 12.98,
+            "background": "#75dfb5",
+            "foreground": "#000000"
+          },
+          {
+            "level": "fail",
+            "ratio": 2.66,
+            "background": "#75dfb5",
+            "foreground": "#d15022"
+          }
+        ]
+      },
+      "shapes": {
+        "radii": [],
+        "shadows": []
+      },
+      "spacing": {
+        "tokens": [
+          {
+            "value": 5,
+            "contexts": [
+              "heading"
+            ],
+            "frequency": 4,
+            "properties": [
+              "marginBottom"
+            ],
+            "propertyContextPairs": [
+              "marginBottom|heading"
+            ]
+          },
+          {
+            "value": 20,
+            "contexts": [
+              "nav",
+              "other"
+            ],
+            "frequency": 23,
+            "properties": [
+              "marginTop",
+              "paddingRight",
+              "paddingLeft"
+            ],
+            "propertyContextPairs": [
+              "marginTop|nav",
+              "paddingRight|nav",
+              "paddingLeft|nav",
+              "paddingRight|other",
+              "paddingLeft|other"
+            ]
+          },
+          {
+            "value": 50,
+            "contexts": [
+              "other"
+            ],
+            "frequency": 3,
+            "properties": [
+              "marginTop"
+            ],
+            "propertyContextPairs": [
+              "marginTop|other"
+            ]
+          }
+        ],
+        "density": "comfortable",
+        "baseUnit": 4
+      },
+      "gradients": [],
+      "typography": {
+        "fonts": [
+          {
+            "family": "Helvetica Now Display",
+            "source": "custom",
+            "weights": [
+              800
+            ],
+            "frequency": 96,
+            "fontFeatureSettings": []
+          },
+          {
+            "family": "Helvetica Now Display Condensed",
+            "source": "custom",
+            "weights": [
+              800
+            ],
+            "frequency": 15,
+            "fontFeatureSettings": []
+          }
+        ],
+        "scale": {
+          "base": 10,
+          "name": "Major Third",
+          "ratio": 1.25,
+          "confidence": 1
+        },
+        "steps": [
+          {
+            "size": 10,
+            "family": "Helvetica Now Display",
+            "weight": 800,
+            "contexts": [
+              "nav",
+              "other",
+              "image",
+              "body",
+              "link"
+            ],
+            "frequency": 82,
+            "lineHeight": 1,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 18,
+            "family": "Helvetica Now Display",
+            "weight": 800,
+            "contexts": [
+              "link"
+            ],
+            "frequency": 1,
+            "lineHeight": 1.6,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 29,
+            "family": "Helvetica Now Display",
+            "weight": 800,
+            "contexts": [
+              "nav",
+              "button",
+              "heading",
+              "other",
+              "link"
+            ],
+            "frequency": 11,
+            "lineHeight": 0.95,
+            "letterSpacing": -0.01,
+            "textTransform": "none"
+          },
+          {
+            "size": 29,
+            "family": "Helvetica Now Display",
+            "weight": 800,
+            "contexts": [
+              "button",
+              "heading"
+            ],
+            "frequency": 2,
+            "lineHeight": 0.95,
+            "letterSpacing": 0,
+            "textTransform": "none"
+          },
+          {
+            "size": 72,
+            "family": "Helvetica Now Display Condensed",
+            "weight": 800,
+            "contexts": [
+              "heading",
+              "link"
+            ],
+            "frequency": 15,
+            "lineHeight": 0.95,
+            "letterSpacing": -0.01,
+            "textTransform": "none"
+          }
+        ]
+      }
+    },
+    "designSystem": {
+      "dos": [
+        "Use 'Orange Peel' (`#d15022`) for all interactive text elements and primary calls to action, maintaining its vividness.",
+        "Set the main canvas background either to pure white or 'Mint Canvas' (`#75dfb5`), alternating between sections to create visual rhythm.",
+        "Apply 'Helvetica Now Display' (weight 800) for all body copy and standard navigation at `10px` and `18px`, ensuring a consistent energetic textual presence.",
+        "Employ oversized 'Helvetica Now Display Condensed' (weight 800, `72px`) for headlines, allowing it to stretch and often break out of standard text flow.",
+        "Frame images and content blocks with a `0px` radius and a 'Midnight Ink' (`#000000`) border to give structure without softening the visual edge.",
+        "Use `20px` as the standard `elementGap` between diverse content elements and `50px` for `sectionGap` to manage vertical rhythm.",
+        "Maintain a `0px` border-radius for all components and elements, aligning with the sharp, unyielding aesthetic."
+      ],
+      "donts": [
+        "Avoid soft shadows or subtle elevation; the design system relies on flat planes and strong color contrast for depth.",
+        "Do not use generic system fonts; always prioritize 'Helvetica Now Display' and 'Helvetica Now Display Condensed' to maintain brand identity.",
+        "Refrain from using subdued or desaturated colors for primary elements; the system thrives on bold, high-chroma statements.",
+        "Do not introduce padding or rounded corners on buttons or cards; maintain a crisp, minimalist interaction style.",
+        "Avoid complex layouts that obscure the photography or dominant typography; prioritize clear, often dramatic, presentation of visual assets."
+      ],
+      "theme": "mixed",
+      "colors": [
+        {
+          "hex": "#d15022",
+          "name": "Orange Peel",
+          "role": "Brand accent for interactive elements, headlines, and key text highlighting. Its vividness provides a striking contrast against both the White Canvas and Mint Canvas",
+          "group": "brand"
+        },
+        {
+          "hex": "#75dfb5",
+          "name": "Mint Canvas",
+          "role": "Dominant background color for sections, creating a distinctive and energetic brand presence. Also used for text backgrounds to visually separate content",
+          "group": "brand"
+        },
+        {
+          "hex": "#000000",
+          "name": "Midnight Ink",
+          "role": "Dark borders and separators for elevated surfaces and inverted UI. Do not promote it to the primary CTA color",
+          "group": "neutral"
+        },
+        {
+          "hex": "#E676B6",
+          "name": "Purple Haze",
+          "role": "Decorative color, likely for specific branding elements or accents, derived from `--logo-color`",
+          "group": "accent"
+        }
+      ],
+      "layout": "The layout is flexible and dynamic, with sections that often shift between a full-bleed white canvas and an equally full-bleed 'Mint Canvas' background. The hero section displays a collage of irregularly placed, framed images over a white background, with oversized, dynamically rendered brand typography ('Danielle Levitt') serving as a central graphic element. Subsequent sections can feature a full-bleed 'Mint Canvas' background with centered headlines and descriptive text and then return to an image-focused or text-over-image layout. There's no fixed max-width, allowing content to stretch across the viewport. Navigation is minimal, consisting of 'D-L' (logo) and 'Menu' aligned to the top corners.",
+      "imagery": "The visual language is dominated by high-impact photography, primarily portraits and fashion/editorial shots, used in a full-bleed or contained, square/rectangular, unmasked format. Graphics are minimal, often manifested as oversized, cropped typography that functions as a graphic element itself. Images are treated realistically, with natural color palettes and varied lighting, from studio shots to outdoor scenes, emphasizing the subject. Iconography is text-based ('D-L', 'Menu') or omitted. Images are the primary content, with text playing a supporting or complementary graphic role, resulting in an image-heavy, visually dense experience.",
+      "similar": [
+        {
+          "why": "Shares a sensibility for oversized, graphically rich typography and a bold, almost brutalist approach to visual layout, often letting imagery and text dominate the canvas.",
+          "business": "A24 (website)"
+        },
+        {
+          "why": "Similar experimental layouts with emphasis on full-bleed imagery and dynamic text placement, often challenging conventional grid systems.",
+          "business": "Other photography/portfolio sites using Readymag"
+        },
+        {
+          "why": "They often use stark contrasts, minimal chrome, and allow artwork or striking photography to be the primary interface element, similar to Daniellelevitt's image-first approach.",
+          "business": "Independent art gallery websites"
+        }
+      ],
+      "spacing": {
+        "radius": {
+          "none": "0px"
+        },
+        "elementGap": "20px",
+        "sectionGap": "50px",
+        "cardPadding": "0px",
+        "pageMaxWidth": null
+      },
+      "industry": "design",
+      "northStar": "Vivid editorial canvas",
+      "typeScale": [
+        {
+          "role": "caption",
+          "size": 10,
+          "lineHeight": 0.95,
+          "letterSpacing": -0.1
+        },
+        {
+          "role": "body",
+          "size": 18,
+          "lineHeight": 1,
+          "letterSpacing": -0.18
+        },
+        {
+          "role": "subheading",
+          "size": 29,
+          "lineHeight": 1.6,
+          "letterSpacing": -0.29
+        },
+        {
+          "role": "display",
+          "size": 72,
+          "lineHeight": 0.95,
+          "letterSpacing": -0.72
+        }
+      ],
+      "components": [
+        {
+          "name": "Text Link",
+          "role": "Standard interactive link for navigation and inline references.",
+          "description": "Text uses 'Orange Peel' (`#d15022`) with no underline by default. On hover, it maintains the color, often appearing within contexts like the main navigation or content references. Some links also use 'Midnight Ink' (`#000000`) for text."
+        },
+        {
+          "name": "Ghost Button",
+          "role": "Minimalist button with text acting as the primary visual. Used for navigation and calls to action.",
+          "description": "Text is 'Orange Peel' (`#d15022`), size `10px`, weight `800`, letter-spacing `-0.01em` from 'Helvetica Now Display'. It has `0px` radius, `0px` padding, and a transparent background. A thin 'Orange Peel' border appears on interaction or for emphasis, providing definition without heavy styling."
+        },
+        {
+          "name": "Minimal Navigation Link",
+          "role": "Top-level navigation items.",
+          "description": "Text is 'Orange Peel' (`#d15022`) for active items or 'Midnight Ink' (`#000000`) for other menu items, using 'Helvetica Now Display' at `10px` and `800` weight, with `20px` right and left padding. These links often function graphically as part of the overall page layout."
+        },
+        {
+          "name": "Content Card (Image)",
+          "role": "Displays visual content within dynamic layouts.",
+          "description": "Images are often framed with a 'Midnight Ink' (`#000000`) border and `0px` radius, creating clear visual separation from the background. No explicit padding is applied to the image itself, allowing it to sit flush with its container."
+        },
+        {
+          "name": "Background Block (Mint)",
+          "role": "Large, distinct sections of content.",
+          "description": "A full-width block with a 'Mint Canvas' (`#75dfb5`) background. Text within these blocks typically uses 'Orange Peel' (`#d15022`) for contrast, often with large 'Helvetica Now Display Condensed' headlines."
+        }
+      ],
+      "typography": [
+        {
+          "role": "Used for all primary text elements, including body text, navigation, and smaller headings. The consistent extra-bold weight (800) and tight letter-spacing create a compact, impactful, and modern tone, even at smaller sizes.",
+          "sizes": "10px, 18px, 29px",
+          "family": "Helvetica Now Display",
+          "weight": "800",
+          "weights": [
+            800
+          ],
+          "lineHeight": "0.95, 1.00, 1.60",
+          "substitute": "system-ui",
+          "letterSpacing": "-0.01"
+        },
+        {
+          "role": "The signature display font for large headlines. Its condensed nature and heavy weight, combined with exceptionally tight line-height and letter-spacing, create a bold, art-driven statement. It's often used at an oversized scale, allowing it to interact graphically with the canvas.",
+          "sizes": "72px",
+          "family": "Helvetica Now Display Condensed",
+          "weight": "800",
+          "weights": [
+            800
+          ],
+          "lineHeight": "0.95",
+          "substitute": "system-ui",
+          "letterSpacing": "-0.01"
+        }
+      ],
+      "description": "Daniellelevitt embraces an expressive, art-forward visual system pairing bold, high-contrast typography with a vibrant, playful color palette. The primary canvas shifts dramatically between an intense, almost acidic green and stark white, serving as a dynamic backdrop for overlaid photography and minimalist text. Typography is a dominant visual element, oversized and often cropped, creating a sense of dramatic scale and artistic edge. Components are lightweight and almost invisible, letting the visual content and distinctive typography define the aesthetic.",
+      "customSections": [
+        {
+          "title": "Agent Prompt Guide",
+          "content": "Quick Color Reference:\ntext: #000000\nbackground: #75dfb5\nborder: #000000\naccent: #d15022\nprimary action: #d15022 (outlined action border)\n\nExample Component Prompts:\nCreate a hero section with 'Danielle Levitt' as the main graphic headline: Use Helvetica Now Display Condensed at 72px, weight 800, letter-spacing -0.01em, Orange Peel #d15022. Position it centrally as an oversized graphic. Place a 'Midnight Ink' #000000 text link 'Menu' in the top right. Overlay various images with 'Midnight Ink' colored borders.\n\nCreate a descriptive text block on a 'Mint Canvas' background: Set background to #75dfb5. The main descriptive text should be 'Orange Peel' #d15022, Helvetica Now Display, 18px, weight 800, line-height 1.0, letter-spacing -0.01em. Provide `50px` of vertical `sectionGap` before and after.\n\nGenerate an interactive navigation element: Use 'Midnight Ink' #000000 text, Helvetica Now Display, 10px, weight 800, letter-spacing -0.01em. Add `20px` of padding on the right and left, and no border-radius. For active state, use 'Orange Peel' #d15022 as text color."
+        }
+      ]
+    },
+    "screenshot": {
+      "url": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777512632563-screenshot.jpg",
+      "thumbnail": "https://ysxnuuuj3kqhdyj2.public.blob.vercel-storage.com/1777512632563-thumb.jpg"
+    }
+  },
+  "referoUrl": "https://styles.refero.design/style/1a8d2d66-bb84-4929-acbe-2685fc9ab6e7",
+  "ranks": {
+    "trending": 1242,
+    "popular": 1242,
+    "newest": 585
+  },
+  "localSlug": "daniellelevitt-1a8d2d66"
+}
