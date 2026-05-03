@@ -190,16 +190,14 @@ $game_query = new WP_Query(
 
 				<div class="des6-review-grid">
 					<?php
-					$review_index = 0;
 					while ( $review_query->have_posts() ) :
 						$review_query->the_post();
-						$review_index++;
 						$post_id      = get_the_ID();
 						$review_label = $des6_post_label( $post_id, 'Review' );
 						$thumbnail    = get_the_post_thumbnail_url( $post_id, 'large' );
 						$image_class  = $thumbnail ? ' has-image' : ' no-image';
 						?>
-						<a class="des6-review-card<?php echo 1 === $review_index ? ' is-featured' : ''; ?>" href="<?php echo esc_url( get_permalink() ); ?>">
+						<a class="des6-review-card" href="<?php echo esc_url( get_permalink() ); ?>">
 							<span class="des6-review-media<?php echo esc_attr( $image_class ); ?>"<?php echo $thumbnail ? ' style="background-image: url(' . esc_url( $thumbnail ) . ')"' : ''; ?>></span>
 							<span class="des6-review-body">
 								<span><?php echo esc_html( $review_label ); ?></span>

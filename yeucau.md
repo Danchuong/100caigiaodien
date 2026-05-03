@@ -67,6 +67,14 @@ Không thay đổi nếu không có yêu cầu rõ:
 
 Không tạo dữ liệu giả chỉ để giao diện trông đầy đủ hơn.
 
+Rule cứng về file ngoài scope:
+
+- Khi khách chỉ yêu cầu thiết kế home/header/footer, tuyệt đối không tạo diff ở `reviews.php`, `search.php` hoặc template archive/detail ngoài scope.
+- Không sửa, copy đè, format lại, hoặc đưa `reviews.php` / `search.php` vào delivery nếu khách không yêu cầu đích danh hai file đó.
+- Trong source theme, `reviews.php`, `search.php` và CSS liên quan của review/search như `css/_reviews.scss` phải giữ nguyên bản khách (`h5game`) nếu không có yêu cầu riêng. Nếu phải restore, restore y chang bản khách, không tự sửa text, placeholder, spacing, escaping, format hoặc trailing whitespace.
+- Nếu `/reviews/`, search hoặc pagination bị ảnh hưởng sau khi sửa home/header/footer, ưu tiên sửa bằng cách scope CSS đúng hơn hoặc kiểm tra file style build/import; không tự ý chỉnh template ngoài scope.
+- Trước khi commit hoặc ship phải kiểm tra `git diff --name-only`; nếu thấy `reviews.php` hoặc `search.php` xuất hiện ngoài yêu cầu riêng thì phải dừng và loại bỏ thay đổi đó.
+
 ## 3. Rule bắt buộc
 
 Áp dụng cho mọi `des-N`:

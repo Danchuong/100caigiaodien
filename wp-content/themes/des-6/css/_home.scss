@@ -250,11 +250,14 @@
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 1rem;
+    align-items: stretch;
 }
 
 .des6-blog-card,
 .des6-review-card,
 .des6-game-card {
+    display: grid;
+    height: 100%;
     min-width: 0;
     border: 1px solid rgba(#211922, 0.08);
     border-radius: 1.45rem;
@@ -271,24 +274,17 @@
 }
 
 .des6-blog-card:first-child {
-    grid-column: span 2;
-    display: grid;
-    grid-template-columns: minmax(14rem, 0.85fr) minmax(0, 1fr);
-}
-
-.des6-blog-card:not(:first-child),
-.des6-review-card,
-.des6-game-card {
-    display: grid;
+    grid-row: auto;
+    grid-template-rows: auto 1fr;
 }
 
 .des6-blog-media {
-    aspect-ratio: 16/11;
+    aspect-ratio: 4/3;
 }
 
 .des6-blog-card:first-child .des6-blog-media {
-    min-height: 18rem;
-    aspect-ratio: auto;
+    min-height: 0;
+    aspect-ratio: 4/3;
 }
 
 .des6-blog-body,
@@ -308,9 +304,9 @@
 }
 
 .des6-blog-card:first-child .des6-blog-body strong {
-    font-size: 1.6rem;
-    line-height: 1.08;
-    @include line-truncate(4, 1.73rem);
+    font-size: 1.15rem;
+    line-height: 1.18;
+    @include line-truncate(3, 1.36rem);
 }
 
 .des6-blog-body em {
@@ -321,35 +317,43 @@
     @include line-truncate(3, 1.36rem);
 }
 
-.des6-review-grid {
-    display: grid;
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-    gap: 1rem;
+.des6-blog-card:not(:first-child) {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+    align-items: stretch;
 }
 
-.des6-review-card.is-featured {
-    grid-column: span 2;
-    grid-row: auto;
+.des6-blog-card:not(:first-child) .des6-blog-media {
+    width: auto;
+    min-height: 0;
+    aspect-ratio: 4/3;
+    align-self: stretch;
+}
+
+.des6-blog-card:not(:first-child) .des6-blog-body strong {
+    font-size: 1.02rem;
+    line-height: 1.18;
+    @include line-truncate(3, 1.22rem);
+}
+
+.des6-blog-card:not(:first-child) .des6-blog-body em {
+    @include line-truncate(2, 1.34rem);
+}
+
+.des6-review-grid {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 0.85rem;
 }
 
 .des6-review-media {
-    aspect-ratio: 4/3;
-}
-
-.des6-review-card.is-featured .des6-review-media {
-    aspect-ratio: 16/10;
+    aspect-ratio: 1/1;
 }
 
 .des6-review-body strong {
-    font-size: 1.05rem;
-    line-height: 1.18;
-    @include line-truncate(3, 1.24rem);
-}
-
-.des6-review-card.is-featured .des6-review-body strong {
-    font-size: 1.45rem;
-    line-height: 1.12;
-    @include line-truncate(4, 1.62rem);
+    font-size: 0.96rem;
+    line-height: 1.16;
+    @include line-truncate(3, 1.12rem);
 }
 
 .des6-game-section {
@@ -358,8 +362,8 @@
 
 .des6-game-grid {
     display: grid;
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-    gap: 1rem;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 0.85rem;
 }
 
 .des6-game-media {
@@ -371,9 +375,9 @@
 }
 
 .des6-game-body strong {
-    font-size: 1rem;
+    font-size: 0.96rem;
     line-height: 1.14;
-    @include line-truncate(3, 1.16rem);
+    @include line-truncate(3, 1.1rem);
 }
 
 .des6-game-body em {
@@ -399,6 +403,7 @@
         grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 
+    .des6-review-grid,
     .des6-game-grid {
         grid-template-columns: repeat(3, minmax(0, 1fr));
     }
@@ -426,12 +431,9 @@
         grid-template-columns: repeat(3, minmax(0, 1fr));
     }
 
-    .des6-review-grid {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
-
+    .des6-review-grid,
     .des6-game-grid {
-        grid-template-columns: repeat(3, minmax(0, 1fr));
+        grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 }
 
@@ -468,28 +470,30 @@
         font-size: 1.6rem;
     }
 
-    .des6-blog-grid,
-    .des6-review-grid {
+    .des6-blog-grid {
         grid-template-columns: 1fr;
     }
 
-    .des6-blog-card:first-child,
-    .des6-review-card.is-featured {
-        grid-column: auto;
+    .des6-blog-card:first-child {
         grid-row: auto;
+        grid-template-columns: 1fr;
     }
 
-    .des6-blog-card:first-child {
+    .des6-blog-card:not(:first-child) {
         grid-template-columns: 1fr;
     }
 
     .des6-blog-card:first-child .des6-blog-media {
         min-height: 0;
-        aspect-ratio: 16/11;
+        aspect-ratio: 4/3;
     }
 
-    .des6-blog-card:first-child .des6-blog-body strong,
-    .des6-review-card.is-featured .des6-review-body strong {
+    .des6-blog-card:not(:first-child) .des6-blog-media {
+        min-height: 0;
+        aspect-ratio: 4/3;
+    }
+
+    .des6-blog-card:first-child .des6-blog-body strong {
         font-size: 1.2rem;
         line-height: 1.16;
         @include line-truncate(3, 1.4rem);
@@ -524,6 +528,7 @@
         grid-template-columns: 1fr;
     }
 
+    .des6-review-grid,
     .des6-game-grid {
         grid-template-columns: 1fr;
     }
@@ -531,6 +536,7 @@
 
 @media (max-width: 520px) {
     .des6-pin-board,
+    .des6-review-grid,
     .des6-game-grid {
         grid-template-columns: 1fr;
     }
