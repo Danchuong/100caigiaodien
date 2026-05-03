@@ -19,6 +19,10 @@ Mỗi giao diện phải đạt:
 - Header/footer ổn ở home, blog detail, review detail, game detail, archive và search.
 - Không lỗi layout trên desktop, tablet, mobile.
 - Responsive tốt từ `320px` trở lên.
+- Dày thông tin nhưng vẫn gọn gàng: nhiều nội dung thật, nhiều entry/link hữu ích, không để spacing quá rộng làm loãng.
+- Luôn có ít nhất một banner/featured block dùng hình ảnh, title và một đoạn description ngắn.
+- Dùng font sans-serif, không dùng font có chân/serif cho layout chính.
+- Theme phải hợp với website game/game news/review; nếu tham khảo báo/tạp chí thì phải chuyển hóa thành gaming portal hiện đại, không để cảm giác cổ, già hoặc lạc chủ đề game.
 - Không tạo cảm giác chỉ là skin bọc quanh source cũ.
 
 Demo trang chủ tham khảo: https://gamenewfiz.info/
@@ -84,7 +88,8 @@ Rule cứng về file ngoài scope:
 - Chỉ dùng `body.home ...` cho spacing nhỏ của nội dung home nếu thật sự cần.
 - Home phải có đủ 3 nhóm nội dung: blog, review, game/post.
 - Không dùng `href="#"`, `javascript:void(0)`, Lorem, TODO/FIXME hoặc text placeholder trong bản giao khách.
-- Không hardcode dữ liệu giả như score, poll, deal, price, esports table nếu không có dữ liệu thật.
+- Không hardcode dữ liệu giả như poll, deal, price, esports table nếu không có dữ liệu thật.
+- Không hardcode cùng một số score giả cho mọi item. Riêng game card/game page phải có star review; nếu chưa có field thật thì được dùng hàm random ổn định theo post ID để tạo sao review, không đổi lung tung mỗi lần reload.
 - Nếu block nhìn như click được, nó phải có link/hành động thật.
 - Chỉnh cô lập đúng phạm vi. Nếu sửa header/footer thì kiểm tra nhiều trang; nếu sửa home thì không làm ảnh hưởng archive/detail page.
 - Không dùng Playwright trong project này. Kiểm tra bằng terminal, WordPress local, `curl`, WP-CLI và browser thật.
@@ -157,6 +162,12 @@ Archetype header nên xoay vòng:
 - Search-first header: logo trái, search lớn giữa, menu/action phải.
 - Magazine header: logo lớn, category rail, sticky compact nếu cần.
 - Minimal header: logo/menu/search gọn, nhiều khoảng thở.
+
+Font chữ header/body/footer:
+
+- Không dùng serif/font có chân làm font chính cho theme.
+- Ưu tiên sans-serif hiện đại, rõ chữ, hợp game/media/directory.
+- Nếu concept lấy cảm hứng newspaper/editorial, vẫn phải game hóa bằng sans-serif, spacing gọn, card/game tiles rõ; không tạo cảm giác báo cổ.
 
 Search phải là chức năng thật:
 
@@ -241,6 +252,14 @@ Spacing trước footer nên thuộc section cuối hoặc page wrapper, để k
 
 Home phải trình bày đủ 3 nhóm nội dung sau. Thứ tự và bố cục có thể thay đổi theo concept.
 
+Khách muốn home dày thông tin:
+
+- First viewport và các section chính phải có nhiều nội dung thật để scan, không chỉ một hero lớn rồi vài card rời.
+- Gọn gàng không có nghĩa là làm mọi thứ nhỏ/chật; gọn là spacing có nhịp, section gần nhau vừa đủ, card/list đều hàng, title không bung vỡ.
+- Hạn chế khoảng trắng quá nhiều giữa section/card/footer vì sẽ tạo cảm giác loãng.
+- Ưu tiên list/card compact, rail, ticker, directory row, grid đều hoặc content block có hierarchy rõ.
+- Không nhồi nhiều cột hẹp nếu title dài; dày thông tin phải đi kèm layout đọc được.
+
 Blog:
 
 ```php
@@ -278,7 +297,15 @@ $wp_query = new WP_Query(array(
 
 Luôn cho các nhóm nội dung hiển thị random như source gốc, nhưng layout phải ổn khi nội dung thay đổi sau mỗi lần load.
 
-Khu vực đầu trang không bắt buộc giữ giống source cũ. Có thể thay hình, text, cấu trúc hoặc bỏ hero lớn nếu concept cần. First viewport phải có vai trò rõ, ví dụ:
+Mỗi home luôn cần một banner/featured block có hình ảnh:
+
+- Banner phải có ảnh thật/fallback hợp concept, title và một đoạn description ngắn.
+- Banner không bắt buộc phải là hero cực lớn; có thể là compact banner, featured strip, cover card, lead story, carousel/ticker có ảnh hoặc game highlight.
+- Text trên banner phải đọc được. Nếu đặt text overlay lên ảnh, dùng overlay/gradient có kiểm soát và không để description dài đè lên ảnh.
+- Nếu title rất dài, title có thể clamp hợp lý và description chỉ 1-2 dòng.
+- Banner phải có link/hành động thật nếu nhìn như click được.
+
+Khu vực đầu trang không bắt buộc giữ giống source cũ. Có thể thay hình, text, cấu trúc hoặc bỏ hero lớn nếu concept cần, nhưng vẫn phải có một banner/featured block có hình ảnh ở first viewport hoặc ngay sau header. First viewport phải có vai trò rõ, ví dụ:
 
 - Bài viết nổi bật.
 - Review nổi bật.
@@ -307,13 +334,15 @@ Mọi text/link phải có ý nghĩa:
 - Label phải đúng dữ liệu phía sau.
 - Nếu block gọi là `Review`, dữ liệu bên dưới phải là review.
 - Nếu block gọi là `Games`, dữ liệu bên dưới phải là game/post.
-- Nếu có điểm review, điểm phải lấy từ field thật.
-- Nếu không có data thật cho score, dùng label/verdict an toàn thay vì dựng số giả.
+- Nếu có điểm review dạng số/critic score, điểm phải lấy từ field thật.
+- Game card/game page phải có star review. Nếu chưa có field thật, dùng hàm random ổn định theo post ID, ví dụ 3.5-5 sao, để cùng một game không đổi sao sau mỗi lần reload.
+- Nếu không có data thật cho score số, dùng label/verdict an toàn thay vì dựng số giả.
 
 Tránh:
 
 - Label chung chung như `Game Newsroom` nếu không có ý nghĩa cụ thể.
 - Section `Review Scores` nếu không có điểm review thật.
+- Cùng một badge `4.5` hoặc score cứng lặp lại cho mọi game/review.
 - Card lặp label kiểu `Review / Review / Title`.
 - Button/link rỗng.
 - Nội dung giả.
@@ -378,6 +407,8 @@ Không hiểu feedback "dư space" thành ép mọi thứ nhỏ/chật. Phải p
 
 Trước khi code mỗi style phải chọn rõ hướng background/above-fold.
 
+Từ yêu cầu mới của khách, mọi hướng above-fold vẫn phải có một banner/featured block có ảnh, title và description ngắn. Khác biệt giữa các style nằm ở kích thước, vị trí và vai trò của banner, không phải có/không có banner.
+
 Nếu header đã có top strip, masthead, border hoặc rule line rõ, above-fold không được thêm một utility rule phụ ngay sát dưới header nếu không có vai trò thật sự rõ. Tránh nhiều line ngang liên tiếp ở first viewport vì sẽ tạo cảm giác header bị lặp hoặc bố cục bị vụn. Các label/CTA kiểu `Front Page / Review Archive` chỉ dùng khi giúp hierarchy; nếu không thì bỏ, hoặc đưa CTA vào section liên quan như Reviews. Above-fold nên bắt đầu bằng nội dung chính, không mở đầu bằng một mini-header trùng vai trò với header.
 
 ### Hướng content-photo giống source gốc `h5game`
@@ -404,7 +435,7 @@ Lưu ý:
 `des-1` dùng nền theo hệ thống giao diện hơn là ảnh lớn:
 
 - Nền chính là gradient/light surface, không phải poster hero lớn.
-- Above-fold tập trung vào search, directory, game rows, review picks và cấu trúc thông tin.
+- Above-fold tập trung vào search, directory, game rows, review picks và cấu trúc thông tin, nhưng vẫn cần có banner/featured block có ảnh theo rule mới.
 - Ảnh chỉ là thumbnail trong card/list.
 - Header/footer đồng bộ theo màu và nhịp spacing của layout.
 
@@ -421,10 +452,10 @@ Không ép mọi layout thành hero ảnh lớn như source gốc. Cũng không 
 Vai trò above-fold hợp lệ:
 
 1. **Image-led hero**: ảnh lớn làm trọng tâm, overlay title/CTA.
-2. **Utility/directory-led hero**: search, filter, top list, game/review directory làm trọng tâm.
+2. **Utility/directory-led hero**: search, filter, top list, game/review directory làm trọng tâm, kèm banner/featured image compact.
 3. **Editorial/news-led hero**: headline chính, lead story, rail tin phụ.
 4. **Review-led hero**: review nổi bật, verdict/score thật nếu có, critic picks.
-5. **Catalog/grid-led hero**: không có hero lớn; vào thẳng grid/list có tổ chức.
+5. **Catalog/grid-led hero**: không có hero lớn; vào thẳng grid/list có tổ chức nhưng vẫn có featured tile/banner ảnh.
 6. **Ticker/live-desk hero**: latest updates, ticker, carousel hoặc live desk gọn.
 7. **Issue/cover-led hero**: cover story, issue index, editor picks.
 
