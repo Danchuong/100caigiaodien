@@ -83,6 +83,16 @@ Nếu style giả lập chức năng như score, standings, poll, deal, price, n
 - Chỉ dùng nếu có field/action/link thật.
 - Nếu không có, đổi thành label an toàn: `Review Picks`, `Latest Reviews`, `Browse Games`, `Popular Reads`, `Editor's Queue`, `Archive`.
 
+## Getdesign Source Standard
+
+Mỗi `des-N` phải có một dòng `Getdesign source` trỏ tới `docs/getdesign/*/DESIGN.md`.
+
+- `Getdesign source` là nguồn visual direction bắt buộc: dùng để lấy tinh thần layout, type, spacing, surface, header/footer anatomy và interaction pattern.
+- Không copy y nguyên brand/source site. Luôn chuyển hóa cho nội dung game/blog/review thật của h5game.
+- Vì hiện có ít nguồn hơn 100 design, một source có thể reuse, nhưng không được reuse cùng một `Header Archetype + Footer Archetype + Above-fold role` trong các design gần nhau.
+- Nếu `Getdesign source` mâu thuẫn với `yeucau.md`, ưu tiên `yeucau.md`.
+- Với `des-1`, `des-2`, `des-3` đã `Accepted`, source chỉ là mốc chuẩn hóa/đối chiếu khi audit về sau, không tự ý redesign lại.
+
 ## Header Archetypes
 
 Base màu ưu tiên: `white`, `black`, `navy`. Accent chỉ dùng ít.
@@ -237,6 +247,7 @@ Family: Game database portal
 Compare against: h5game original, des-2
 Similarity risk: Low
 Data risk: None
+Getdesign source: `docs/getdesign/airtable/DESIGN.md`
 
 - Header: H04 Search First Bar; white/light base; logo left, search prominent, menu/action compact.
 - Above-fold: utility/directory-led; search and browse flow are first signal, no poster hero.
@@ -253,6 +264,7 @@ Family: Magazine front page
 Compare against: des-1, h5game original
 Similarity risk: Low
 Data risk: No fake scores
+Getdesign source: `docs/getdesign/webflow/DESIGN.md`
 
 - Header: H01/H02 hybrid; light masthead, compact primary nav, floating mobile stack.
 - Above-fold: editorial/news-led; lead story left, trending rail right.
@@ -269,6 +281,7 @@ Family: Magazine front page
 Compare against: des-1, des-2
 Similarity risk: Medium
 Data risk: Avoid fake newsletter/social
+Getdesign source: `docs/getdesign/ibm/DESIGN.md`
 Progress note: Khách đã chốt. Bản gửi cuối đã đổi Review Picks thành dạng icon vuông, không còn list chữ lặp `Review`.
 
 - Header: H14 Magazine Logo Wall; white base, centered large logo, menu line below, search icon right.
@@ -358,6 +371,7 @@ Family: Minimal editorial
 Compare against: des-3, des-7
 Similarity risk: Medium
 Data risk: Text density risk
+Getdesign source: `docs/getdesign/apple/DESIGN.md`
 
 - Header: H01 White Editorial Masthead; logo centered, menu below.
 - Above-fold: text-first; no image-heavy hero.
@@ -374,6 +388,7 @@ Family: Magazine front page
 Compare against: des-4, des-8
 Similarity risk: Medium
 Data risk: Partner/footer links must be real
+Getdesign source: `docs/getdesign/stripe/DESIGN.md`
 
 - Header: H18 Two Rail Header; white base, primary nav + topic rail with real links.
 - Above-fold: section band; full-width editorial band with clear category.
@@ -390,6 +405,7 @@ Family: Review hub
 Compare against: des-2, des-11
 Similarity risk: Medium
 Data risk: No fake scores unless real field exists
+Getdesign source: `docs/getdesign/linear.app/DESIGN.md`
 
 - Header: H13 Scoreboard Header; black/navy base, review/category strip without fake score.
 - Above-fold: review-led hero; featured review/pick, title and verdict label only.
@@ -406,6 +422,7 @@ Family: Review hub
 Compare against: des-10, des-2
 Similarity risk: Medium
 Data risk: Needs real score field or use ranking labels only
+Getdesign source: `docs/getdesign/clickhouse/DESIGN.md`
 
 - Header: H04 Search First Bar; review search scope, menu compact.
 - Above-fold: review/ranking-led table if real score exists; otherwise “Review Picks Table”.
@@ -422,6 +439,7 @@ Family: Review hub
 Compare against: des-10, des-11
 Similarity risk: Medium
 Data risk: Platform labels must be real tags/categories or generic safe labels
+Getdesign source: `docs/getdesign/vercel/DESIGN.md`
 
 - Header: H05 Category Rail Header; platform/category rail with real links if available.
 - Above-fold: platform selector/lane intro.
@@ -438,6 +456,7 @@ Family: Review hub
 Compare against: des-10, des-12
 Similarity risk: Medium
 Data risk: Do not fake user scores
+Getdesign source: `docs/getdesign/figma/DESIGN.md`
 
 - Header: H06 Split Masthead; white base, balanced nav/search.
 - Above-fold: critic/user comparison concept using labels, not fake scores.
@@ -454,6 +473,7 @@ Family: Review hub
 Compare against: des-10, des-13
 Similarity risk: Low
 Data risk: None
+Getdesign source: `docs/getdesign/cal/DESIGN.md`
 
 - Header: H15 Minimal Text Header; calm white base.
 - Above-fold: timeline intro, not large image hero.
@@ -470,6 +490,7 @@ Family: Review hub
 Compare against: des-11, des-13
 Similarity risk: Medium
 Data risk: No fake comparison fields
+Getdesign source: `docs/getdesign/miro/DESIGN.md`
 
 - Header: H16 Command Header; search/action heavy.
 - Above-fold: comparison block using real review/game titles.
@@ -486,6 +507,7 @@ Family: Review hub
 Compare against: des-10, des-15
 Similarity risk: Medium
 Data risk: No fake pros/cons unless derived from real excerpt
+Getdesign source: `docs/getdesign/sentry/DESIGN.md`
 
 - Header: H02 Black Compact Nav.
 - Above-fold: verdict board with review picks.
@@ -502,6 +524,7 @@ Family: Review hub
 Compare against: des-11, des-16
 Similarity risk: High
 Data risk: Avoid fake chart/score
+Getdesign source: `docs/getdesign/supabase/DESIGN.md`
 
 - Header: H03 Navy Utility Stack.
 - Above-fold: lead review plus sticky sidebar summary; no fake chart if no data.
@@ -518,6 +541,7 @@ Family: Game database portal
 Compare against: des-1, des-11
 Similarity risk: High
 Data risk: None
+Getdesign source: `docs/getdesign/raycast/DESIGN.md`
 
 - Header: H16 Command Header; game browse/search focus, not same as des-1.
 - Above-fold: large game search/filter surface.
@@ -534,6 +558,7 @@ Family: Game database portal
 Compare against: des-18, des-1
 Similarity risk: Medium
 Data risk: Genre labels must be real or generic category labels
+Getdesign source: `docs/getdesign/mongodb/DESIGN.md`
 
 - Header: H05 Category Rail Header.
 - Above-fold: genre/category wall.
@@ -550,6 +575,7 @@ Family: Game database portal
 Compare against: des-12, des-18
 Similarity risk: Medium
 Data risk: Platform tabs must be safe if taxonomy absent
+Getdesign source: `docs/getdesign/shopify/DESIGN.md`
 
 - Header: H04 Search First Bar.
 - Above-fold: tabbed catalog intro.
@@ -566,6 +592,7 @@ Family: Game database portal
 Compare against: des-14, des-20
 Similarity risk: Low
 Data risk: Use publish dates, not fake release dates
+Getdesign source: `docs/getdesign/cal/DESIGN.md`
 
 - Header: H12 Breadcrumb Header.
 - Above-fold: date/release board based on post dates.
@@ -582,6 +609,7 @@ Family: Game database portal
 Compare against: des-18, des-20
 Similarity risk: Low
 Data risk: None
+Getdesign source: `docs/getdesign/notion/DESIGN.md`
 
 - Header: H04 Search First Bar.
 - Above-fold: A-Z/index-first, no classic hero.
@@ -598,6 +626,7 @@ Family: Game database portal
 Compare against: des-21, des-20
 Similarity risk: Medium
 Data risk: Use safe labels, not fake release state
+Getdesign source: `docs/getdesign/airbnb/DESIGN.md`
 
 - Header: H06 Split Masthead.
 - Above-fold: two-lane “new / recommended” split using real posts.
@@ -614,6 +643,7 @@ Family: Game database portal
 Compare against: des-18, des-23
 Similarity risk: Medium
 Data risk: No fake stats
+Getdesign source: `docs/getdesign/tesla/DESIGN.md`
 
 - Header: H18 Two Rail Header.
 - Above-fold: featured game teaser.
@@ -630,6 +660,7 @@ Family: Game database portal
 Compare against: des-19, des-24
 Similarity risk: Low
 Data risk: None
+Getdesign source: `docs/getdesign/spotify/DESIGN.md`
 
 - Header: H09 App Dock Header.
 - Above-fold: horizontal shelf row.
@@ -646,6 +677,7 @@ Family: Esports and live desk
 Compare against: des-6, des-8
 Similarity risk: Medium
 Data risk: Ticker uses latest posts only
+Getdesign source: `docs/getdesign/slack/DESIGN.md`
 
 - Header: H08 Topline News Header.
 - Above-fold: live/latest ticker strip plus small story grid.
@@ -662,6 +694,7 @@ Family: Esports and live desk
 Compare against: des-21, des-26
 Similarity risk: Medium
 Data risk: No fake match data
+Getdesign source: `docs/getdesign/nike/DESIGN.md`
 
 - Header: H13 Scoreboard Header.
 - Above-fold: schedule-style board mapped to latest content.
@@ -678,6 +711,7 @@ Family: Esports and live desk
 Compare against: des-11, des-27
 Similarity risk: Medium
 Data risk: No fake standings
+Getdesign source: `docs/getdesign/binance/DESIGN.md`
 
 - Header: H03 Navy Utility Stack.
 - Above-fold: standings-inspired content board without fake ranks.
@@ -694,6 +728,7 @@ Family: Esports and live desk
 Compare against: des-28, des-23
 Similarity risk: Low
 Data risk: No fake bracket
+Getdesign source: `docs/getdesign/mastercard/DESIGN.md`
 
 - Header: H13 Scoreboard Header.
 - Above-fold: bracket-inspired lanes using categories/content groups.
@@ -710,6 +745,7 @@ Family: Esports and live desk
 Compare against: des-29, des-19
 Similarity risk: Low
 Data risk: No fake roster
+Getdesign source: `docs/getdesign/meta/DESIGN.md`
 
 - Header: H10 Sidebar Trigger Header.
 - Above-fold: team/spotlight-inspired feature using real post.
@@ -726,6 +762,7 @@ Family: Dense desk
 Compare against: des-17, des-28
 Similarity risk: Medium
 Data risk: No fake odds/stat
+Getdesign source: `docs/getdesign/posthog/DESIGN.md`
 
 - Header: H16 Command Header.
 - Above-fold: news lead + stat-inspired sidebar using real metadata.
@@ -742,6 +779,7 @@ Family: Video and trailer first
 Compare against: des-34, des-6
 Similarity risk: Medium
 Data risk: No fake playable video
+Getdesign source: `docs/getdesign/runwayml/DESIGN.md`
 
 - Header: H02 Black Compact Nav.
 - Above-fold: media card with thumbnail and title, not embedded fake video.
@@ -758,6 +796,7 @@ Family: Dense newswire
 Compare against: des-26, des-14
 Similarity risk: Low
 Data risk: Use post dates only
+Getdesign source: `docs/getdesign/wise/DESIGN.md`
 
 - Header: H02 Black Compact Nav.
 - Above-fold: no classic hero; latest feed first.
@@ -774,6 +813,7 @@ Family: Video and trailer first
 Compare against: des-32, des-37
 Similarity risk: Medium
 Data risk: No fake video
+Getdesign source: `docs/getdesign/elevenlabs/DESIGN.md`
 
 - Header: H17 Floating Overlay Header.
 - Above-fold: full media-feature hero using real thumbnail.
@@ -790,6 +830,7 @@ Family: Video and trailer first
 Compare against: des-34, des-4
 Similarity risk: Medium
 Data risk: No fake trailers
+Getdesign source: `docs/getdesign/framer/DESIGN.md`
 
 - Header: H09 App Dock Header.
 - Above-fold: 2x2 media grid from real posts.
@@ -806,6 +847,7 @@ Family: Video and trailer first
 Compare against: des-32, des-35
 Similarity risk: Medium
 Data risk: No fake playlist state
+Getdesign source: `docs/getdesign/spotify/DESIGN.md`
 
 - Header: H10 Sidebar Trigger Header.
 - Above-fold: feature left + playlist/sidebar right.
@@ -822,6 +864,7 @@ Family: Dark cinematic gaming
 Compare against: des-34, des-83
 Similarity risk: Medium
 Data risk: None
+Getdesign source: `docs/getdesign/spacex/DESIGN.md`
 
 - Header: H02 Black Compact Nav.
 - Above-fold: widescreen cinematic poster using real thumbnail/background.
@@ -838,6 +881,7 @@ Family: Video and trailer first
 Compare against: des-35, des-39
 Similarity risk: Low
 Data risk: No fake shorts
+Getdesign source: `docs/getdesign/meta/DESIGN.md`
 
 - Header: H09 App Dock Header.
 - Above-fold: portrait/vertical column + news list.
@@ -854,6 +898,7 @@ Family: Video and trailer first
 Compare against: des-4, des-35
 Similarity risk: Medium
 Data risk: None
+Getdesign source: `docs/getdesign/figma/DESIGN.md`
 
 - Header: H15 Minimal Text Header.
 - Above-fold: media wall/masonry first, no text-heavy hero.
@@ -870,6 +915,7 @@ Family: Video and trailer first
 Compare against: des-32, des-35
 Similarity risk: Medium
 Data risk: No fake streams/live
+Getdesign source: `docs/getdesign/spotify/DESIGN.md`
 
 - Header: H03 Navy Utility Stack.
 - Above-fold: channel spotlight using real post.
@@ -886,6 +932,7 @@ Family: Video and trailer first
 Compare against: des-32, des-36
 Similarity risk: Medium
 Data risk: No fake video controls
+Getdesign source: `docs/getdesign/replicate/DESIGN.md`
 
 - Header: H04 Search First Bar.
 - Above-fold: media feature left, article list right.
@@ -902,6 +949,7 @@ Family: Community style
 Compare against: des-26, des-33
 Similarity risk: Medium
 Data risk: No fake forum threads
+Getdesign source: `docs/getdesign/slack/DESIGN.md`
 
 - Header: H07 Center Logo Drawer.
 - Above-fold: trending-thread-inspired list using real posts.
@@ -918,6 +966,7 @@ Family: Community style
 Compare against: des-42, des-18
 Similarity risk: Low
 Data risk: No fake boards
+Getdesign source: `docs/getdesign/notion/DESIGN.md`
 
 - Header: H10 Sidebar Trigger Header.
 - Above-fold: board/category blocks using real archives/categories.
@@ -934,6 +983,7 @@ Family: Community style
 Compare against: des-43, des-15
 Similarity risk: Medium
 Data risk: No fake poll
+Getdesign source: `docs/getdesign/airtable/DESIGN.md`
 
 - Header: H16 Command Header.
 - Above-fold: question/choice-style block as “What to read next” using real links.
@@ -950,6 +1000,7 @@ Family: Community style
 Compare against: des-42, des-19
 Similarity risk: Medium
 Data risk: No fake users
+Getdesign source: `docs/getdesign/pinterest/DESIGN.md`
 
 - Header: H07 Center Logo Drawer.
 - Above-fold: picks grid using real editor/content picks.
@@ -966,6 +1017,7 @@ Family: Community style
 Compare against: des-33, des-42
 Similarity risk: Low
 Data risk: No fake comments
+Getdesign source: `docs/getdesign/intercom/DESIGN.md`
 
 - Header: H15 Minimal Text Header.
 - Above-fold: no hero; discussion-style feed.
@@ -982,6 +1034,7 @@ Family: Community style
 Compare against: des-30, des-45
 Similarity risk: Medium
 Data risk: No fake profiles
+Getdesign source: `docs/getdesign/clay/DESIGN.md`
 
 - Header: H01 White Editorial Masthead.
 - Above-fold: spotlight feature using real post.
@@ -998,6 +1051,7 @@ Family: Guide hybrid
 Compare against: des-18, des-44
 Similarity risk: Medium
 Data risk: No fake Q&A backend
+Getdesign source: `docs/getdesign/mintlify/DESIGN.md`
 
 - Header: H04 Search First Bar.
 - Above-fold: question/search surface for reviews/guides.
@@ -1014,6 +1068,7 @@ Family: Community style
 Compare against: des-21, des-43
 Similarity risk: Low
 Data risk: No fake event dates
+Getdesign source: `docs/getdesign/cal/DESIGN.md`
 
 - Header: H12 Breadcrumb Header.
 - Above-fold: event-board-inspired date/content board using post dates.
@@ -1030,6 +1085,7 @@ Family: Minimal editorial
 Compare against: des-5, des-8
 Similarity risk: Medium
 Data risk: None
+Getdesign source: `docs/getdesign/apple/DESIGN.md`
 
 - Header: H15 Minimal Text Header.
 - Above-fold: one story cover.
@@ -1046,6 +1102,7 @@ Family: Minimal editorial
 Compare against: des-8, des-50
 Similarity risk: Low
 Data risk: None
+Getdesign source: `docs/getdesign/claude/DESIGN.md`
 
 - Header: H12 Breadcrumb Header or H15 Minimal Text Header.
 - Above-fold: pure text headline, no image hero.
@@ -1062,6 +1119,7 @@ Family: Minimal editorial
 Compare against: des-51, des-14
 Similarity risk: Low
 Data risk: None
+Getdesign source: `docs/getdesign/sanity/DESIGN.md`
 
 - Header: H01 White Editorial Masthead.
 - Above-fold: vertical issue index, no hero image.
@@ -1078,6 +1136,7 @@ Family: Minimal editorial
 Compare against: des-50, des-37
 Similarity risk: Medium
 Data risk: None
+Getdesign source: `docs/getdesign/bmw/DESIGN.md`
 
 - Header: H02 Black Compact Nav.
 - Above-fold: black/white lead.
@@ -1094,6 +1153,7 @@ Family: Minimal editorial
 Compare against: des-21, des-52
 Similarity risk: Low
 Data risk: Use publish date only
+Getdesign source: `docs/getdesign/ibm/DESIGN.md`
 
 - Header: H15 Minimal Text Header.
 - Above-fold: latest date marker and article stack.
@@ -1110,6 +1170,7 @@ Family: Minimal editorial
 Compare against: des-2, des-51
 Similarity risk: Medium
 Data risk: No fake newsletter footer
+Getdesign source: `docs/getdesign/notion/DESIGN.md`
 
 - Header: H06 Split Masthead.
 - Above-fold: featured column + plain list.
@@ -1126,6 +1187,7 @@ Family: Minimal editorial
 Compare against: des-51, des-58
 Similarity risk: Low
 Data risk: None
+Getdesign source: `docs/getdesign/bugatti/DESIGN.md`
 
 - Header: H01 White Editorial Masthead.
 - Above-fold: typography grid, no image hero.
@@ -1142,6 +1204,7 @@ Family: Minimal editorial
 Compare against: des-14, des-10
 Similarity risk: Low
 Data risk: No fake score
+Getdesign source: `docs/getdesign/superhuman/DESIGN.md`
 
 - Header: H15 Minimal Text Header.
 - Above-fold: review note/journal intro.
@@ -1158,6 +1221,7 @@ Family: Dense newswire
 Compare against: des-8, des-62
 Similarity risk: Medium
 Data risk: None
+Getdesign source: `docs/getdesign/cohere/DESIGN.md`
 
 - Header: H03 Navy Utility Stack.
 - Above-fold: no large hero; dense desk starts immediately.
@@ -1174,6 +1238,7 @@ Family: Dense newswire
 Compare against: des-33, des-58
 Similarity risk: Medium
 Data risk: Use latest/publish dates only
+Getdesign source: `docs/getdesign/resend/DESIGN.md`
 
 - Header: H08 Topline News Header.
 - Above-fold: latest headline strip.
@@ -1190,6 +1255,7 @@ Family: Dense newswire
 Compare against: des-12, des-58
 Similarity risk: Medium
 Data risk: Category links must be real if clickable
+Getdesign source: `docs/getdesign/hashicorp/DESIGN.md`
 
 - Header: H18 Two Rail Header.
 - Above-fold: category summary lanes.
@@ -1206,6 +1272,7 @@ Family: Dense newswire
 Compare against: des-26, des-58
 Similarity risk: Medium
 Data risk: Ticker uses real latest posts
+Getdesign source: `docs/getdesign/coinbase/DESIGN.md`
 
 - Header: H08 Topline News Header.
 - Above-fold: ticker + small card grid.
@@ -1222,6 +1289,7 @@ Family: Dense newswire
 Compare against: des-58, des-4
 Similarity risk: Low
 Data risk: None
+Getdesign source: `docs/getdesign/opencode.ai/DESIGN.md`
 
 - Header: H02 Black Compact Nav.
 - Above-fold: direct grid, no hero.
@@ -1238,6 +1306,7 @@ Family: Dense newswire
 Compare against: des-14, des-33
 Similarity risk: Low
 Data risk: Use post dates only
+Getdesign source: `docs/getdesign/ollama/DESIGN.md`
 
 - Header: H12 Breadcrumb Header.
 - Above-fold: date marker and feed.
@@ -1254,6 +1323,7 @@ Family: Dense newswire
 Compare against: des-51, des-58
 Similarity risk: Low
 Data risk: None
+Getdesign source: `docs/getdesign/mistral.ai/DESIGN.md`
 
 - Header: H15 Minimal Text Header.
 - Above-fold: headline rows only.
@@ -1270,6 +1340,7 @@ Family: Dense newswire
 Compare against: des-2, des-59
 Similarity risk: Medium
 Data risk: No fake breaking
+Getdesign source: `docs/getdesign/x.ai/DESIGN.md`
 
 - Header: H03 Navy Utility Stack.
 - Above-fold: “latest split” not fake breaking; lead left/latest right.
@@ -1286,6 +1357,7 @@ Family: Dense newswire
 Compare against: des-31, des-58
 Similarity risk: Medium
 Data risk: None
+Getdesign source: `docs/getdesign/mongodb/DESIGN.md`
 
 - Header: H16 Command Header.
 - Above-fold: main column + two rails.
@@ -1302,6 +1374,7 @@ Family: Ranking and top list
 Compare against: des-11, des-28
 Similarity risk: Medium
 Data risk: Ranking numbers are display order only
+Getdesign source: `docs/getdesign/nike/DESIGN.md`
 
 - Header: H13 Scoreboard Header.
 - Above-fold: top-list board from real posts.
@@ -1318,6 +1391,7 @@ Family: Ranking and top list
 Compare against: des-67, des-15
 Similarity risk: Low
 Data risk: Tier labels are editorial sections only
+Getdesign source: `docs/getdesign/mastercard/DESIGN.md`
 
 - Header: H02 Black Compact Nav.
 - Above-fold: tier rows using content groups.
@@ -1334,6 +1408,7 @@ Family: Ranking and top list
 Compare against: des-19, des-67
 Similarity risk: Medium
 Data risk: Genre links must be real if clickable
+Getdesign source: `docs/getdesign/shopify/DESIGN.md`
 
 - Header: H05 Category Rail Header.
 - Above-fold: genre ranking surface.
@@ -1350,6 +1425,7 @@ Family: Ranking and top list
 Compare against: des-21, des-67
 Similarity risk: Medium
 Data risk: Chart uses post order/date only
+Getdesign source: `docs/getdesign/kraken/DESIGN.md`
 
 - Header: H13 Scoreboard Header.
 - Above-fold: monthly chart-like list using real posts.
@@ -1366,6 +1442,7 @@ Family: Ranking and top list
 Compare against: des-12, des-69
 Similarity risk: Medium
 Data risk: Platform data must be safe
+Getdesign source: `docs/getdesign/nvidia/DESIGN.md`
 
 - Header: H04 Search First Bar.
 - Above-fold: platform leaderboard without fake score.
@@ -1382,6 +1459,7 @@ Family: Ranking and top list
 Compare against: des-15, des-11
 Similarity risk: Medium
 Data risk: No fake comparison specs
+Getdesign source: `docs/getdesign/composio/DESIGN.md`
 
 - Header: H16 Command Header.
 - Above-fold: comparison table using content fields available.
@@ -1398,6 +1476,7 @@ Family: Ranking and top list
 Compare against: des-26, des-67
 Similarity risk: Medium
 Data risk: Trending is display order only
+Getdesign source: `docs/getdesign/binance/DESIGN.md`
 
 - Header: H08 Topline News Header.
 - Above-fold: trending leaderboard from latest/random posts.
@@ -1414,6 +1493,7 @@ Family: Ranking and top list
 Compare against: des-25, des-67
 Similarity risk: Low
 Data risk: Badges are visual labels only
+Getdesign source: `docs/getdesign/playstation/DESIGN.md`
 
 - Header: H09 App Dock Header.
 - Above-fold: achievement/badge wall using real content.
@@ -1430,6 +1510,7 @@ Family: Store, deal and guide hybrid
 Compare against: des-77, des-81
 Similarity risk: Medium
 Data risk: No fake deals/prices
+Getdesign source: `docs/getdesign/starbucks/DESIGN.md`
 
 - Header: H04 Search First Bar.
 - Above-fold: recommendation cards, not price/deal claims unless real.
@@ -1446,6 +1527,7 @@ Family: Guide hybrid
 Compare against: des-48, des-60
 Similarity risk: Medium
 Data risk: Category links must be real
+Getdesign source: `docs/getdesign/mintlify/DESIGN.md`
 
 - Header: H18 Two Rail Header.
 - Above-fold: guide/category blocks.
@@ -1462,6 +1544,7 @@ Family: Store, deal and guide hybrid
 Compare against: des-15, des-75
 Similarity risk: Medium
 Data risk: No fake buyer specs/prices
+Getdesign source: `docs/getdesign/revolut/DESIGN.md`
 
 - Header: H16 Command Header.
 - Above-fold: buyer-guide/recommendation surface using real posts.
@@ -1478,6 +1561,7 @@ Family: Store, deal and guide hybrid
 Compare against: des-21, des-75
 Similarity risk: Low
 Data risk: No fake price tracker
+Getdesign source: `docs/getdesign/posthog/DESIGN.md`
 
 - Header: H03 Navy Utility Stack.
 - Above-fold: tracker-style board using latest content.
@@ -1494,6 +1578,7 @@ Family: Store, deal and guide hybrid
 Compare against: des-44, des-77
 Similarity risk: Medium
 Data risk: No fake quiz backend
+Getdesign source: `docs/getdesign/lovable/DESIGN.md`
 
 - Header: H09 App Dock Header.
 - Above-fold: question/choice navigation to real content.
@@ -1510,6 +1595,7 @@ Family: Store, deal and guide hybrid
 Compare against: des-25, des-75
 Similarity risk: Medium
 Data risk: No fake hardware/deal data
+Getdesign source: `docs/getdesign/nvidia/DESIGN.md`
 
 - Header: H09 App Dock Header.
 - Above-fold: shelf row using games/posts.
@@ -1526,6 +1612,7 @@ Family: Store, deal and guide hybrid
 Compare against: des-31, des-75
 Similarity risk: Medium
 Data risk: No fake coupons
+Getdesign source: `docs/getdesign/vodafone/DESIGN.md`
 
 - Header: H10 Sidebar Trigger Header.
 - Above-fold: coupon/sidebar-inspired content rail.
@@ -1542,6 +1629,7 @@ Family: Guide hybrid
 Compare against: des-76, des-48
 Similarity risk: Low
 Data risk: None
+Getdesign source: `docs/getdesign/expo/DESIGN.md`
 
 - Header: H04 Search First Bar.
 - Above-fold: no big hero; how-to grid first.
@@ -1558,6 +1646,7 @@ Family: Dark cinematic gaming
 Compare against: des-37, des-86
 Similarity risk: Medium
 Data risk: None
+Getdesign source: `docs/getdesign/ferrari/DESIGN.md`
 
 - Header: H17 Floating Overlay Header.
 - Above-fold: poster hero + rail.
@@ -1574,6 +1663,7 @@ Family: Dark cinematic gaming
 Compare against: des-23, des-83
 Similarity risk: Low
 Data risk: None
+Getdesign source: `docs/getdesign/tesla/DESIGN.md`
 
 - Header: H16 Command Header.
 - Above-fold: split-screen console panels.
@@ -1590,6 +1680,7 @@ Family: Dark cinematic gaming
 Compare against: des-84, des-99
 Similarity risk: Low
 Data risk: None
+Getdesign source: `docs/getdesign/lamborghini/DESIGN.md`
 
 - Header: H02 Black Compact Nav.
 - Above-fold: diagonal feature blocks.
@@ -1606,6 +1697,7 @@ Family: Dark cinematic gaming
 Compare against: h5game, des-83
 Similarity risk: Medium
 Data risk: None
+Getdesign source: `docs/getdesign/bmw-m/DESIGN.md`
 
 - Header: H17 Floating Overlay Header.
 - Above-fold: full bleed image/background with stacked real stories.
@@ -1622,6 +1714,7 @@ Family: Dark cinematic gaming
 Compare against: des-35, des-83
 Similarity risk: Low
 Data risk: None
+Getdesign source: `docs/getdesign/renault/DESIGN.md`
 
 - Header: H02 Black Compact Nav.
 - Above-fold: horizontal image strip.
@@ -1638,6 +1731,7 @@ Family: Experimental
 Compare against: des-93, des-97
 Similarity risk: Low
 Data risk: No fake map/game data
+Getdesign source: `docs/getdesign/spacex/DESIGN.md`
 
 - Header: H10 Sidebar Trigger Header.
 - Above-fold: map/node-inspired navigation using real links.
@@ -1654,6 +1748,7 @@ Family: Experimental
 Compare against: des-94, des-25
 Similarity risk: Low
 Data risk: No copyrighted/fake characters
+Getdesign source: `docs/getdesign/minimax/DESIGN.md`
 
 - Header: H09 App Dock Header.
 - Above-fold: card deck using real post thumbnails.
@@ -1670,6 +1765,7 @@ Family: Dark cinematic gaming
 Compare against: des-10, des-37
 Similarity risk: Medium
 Data risk: No fake score
+Getdesign source: `docs/getdesign/playstation/DESIGN.md`
 
 - Header: H13 Scoreboard Header.
 - Above-fold: theater-like featured review.
@@ -1686,6 +1782,7 @@ Family: Experimental
 Compare against: des-52, des-87
 Similarity risk: Low
 Data risk: None
+Getdesign source: `docs/getdesign/webflow/DESIGN.md`
 
 - Header: H15 Minimal Text Header.
 - Above-fold: horizontal issue rail.
@@ -1702,6 +1799,7 @@ Family: Experimental
 Compare against: des-84, des-66
 Similarity risk: Medium
 Data risk: No fake metrics
+Getdesign source: `docs/getdesign/cursor/DESIGN.md`
 
 - Header: H16 Command Header.
 - Above-fold: command center modules.
@@ -1718,6 +1816,7 @@ Family: Experimental
 Compare against: des-88, des-98
 Similarity risk: Low
 Data risk: No fake map regions
+Getdesign source: `docs/getdesign/uber/DESIGN.md`
 
 - Header: H18 Two Rail Header.
 - Above-fold: map/navigation hub using categories/content groups.
@@ -1734,6 +1833,7 @@ Family: Experimental
 Compare against: des-89, des-91
 Similarity risk: Low
 Data risk: None
+Getdesign source: `docs/getdesign/airbnb/DESIGN.md`
 
 - Header: H09 App Dock Header.
 - Above-fold: swipe/stacked card deck.
@@ -1750,6 +1850,7 @@ Family: Experimental
 Compare against: des-92, des-84
 Similarity risk: Low
 Data risk: No fake app/system actions
+Getdesign source: `docs/getdesign/warp/DESIGN.md`
 
 - Header: H10 Sidebar Trigger Header.
 - Above-fold: desktop window-style panels.
@@ -1766,6 +1867,7 @@ Family: Experimental
 Compare against: des-5, des-52
 Similarity risk: Medium
 Data risk: None
+Getdesign source: `docs/getdesign/wired/DESIGN.md`
 
 - Header: H01 White Editorial Masthead.
 - Above-fold: archive covers/grid.
@@ -1782,6 +1884,7 @@ Family: Experimental
 Compare against: des-14, des-63
 Similarity risk: Medium
 Data risk: Use real dates only
+Getdesign source: `docs/getdesign/voltagent/DESIGN.md`
 
 - Header: H12 Breadcrumb Header.
 - Above-fold: timeline start marker.
@@ -1798,6 +1901,7 @@ Family: Experimental
 Compare against: des-93, des-60
 Similarity risk: Low
 Data risk: Category links must be real if clickable
+Getdesign source: `docs/getdesign/together.ai/DESIGN.md`
 
 - Header: H18 Two Rail Header.
 - Above-fold: radial/category hub.
@@ -1814,6 +1918,7 @@ Family: Experimental
 Compare against: des-4, des-85
 Similarity risk: Medium
 Data risk: None
+Getdesign source: `docs/getdesign/figma/DESIGN.md`
 
 - Header: H17 Floating Overlay Header.
 - Above-fold: asymmetric collage.
@@ -1830,6 +1935,7 @@ Family: Experimental
 Compare against: des-5, des-55
 Similarity risk: Medium
 Data risk: No fake newsletter signup
+Getdesign source: `docs/getdesign/zapier/DESIGN.md`
 
 - Header: H01 White Editorial Masthead.
 - Above-fold: digest/edition intro with featured links; no fake signup.
