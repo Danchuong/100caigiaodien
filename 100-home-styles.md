@@ -93,6 +93,18 @@ Mỗi `des-N` phải có một dòng `Getdesign source` trỏ tới `docs/getdes
 - Nếu `Getdesign source` mâu thuẫn với `yeucau.md`, ưu tiên `yeucau.md`.
 - Với `des-1`, `des-2`, `des-3` đã `Accepted`, source chỉ là mốc chuẩn hóa/đối chiếu khi audit về sau, không tự ý redesign lại.
 
+## Design Research Standard
+
+Trước khi build hoặc redesign một `des-N`, phải có brief ngắn trong `docs/design-research/des-briefs/des-N.md`.
+
+Brief tối thiểu phải chọn:
+
+- Một `Getdesign source` local.
+- Một `Refero source` từ `https://styles.refero.design/` hoặc `docs/design-research/refero-source-pool.md`.
+- Một hướng game/news/directory để đảm bảo style không lạc chủ đề game.
+
+Không code từ cảm tính. Brief phải chốt trước: header anatomy, footer anatomy, above-fold role, banner image contract, density contract, mobile search/menu behavior và các file ngoài scope không được chạm.
+
 ## Header Archetypes
 
 Base màu ưu tiên: `white`, `black`, `navy`. Accent chỉ dùng ít.
