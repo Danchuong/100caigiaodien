@@ -5,7 +5,7 @@ Folder này chỉ chứa tài liệu nghiên cứu phụ.
 File chính để đánh dấu style đã làm là:
 
 ```text
-100-home-styles.md
+docs/design-research/100-design-board.md
 ```
 
 ## Các file nghiên cứu

@@ -4,11 +4,11 @@ This folder is a local cache of public style data from https://styles.refero.des
 
 ## Purpose In This Project
 
-- Keep Refero as a secondary design-quality source after `yeucau.md`, `100-home-styles.md`, and `docs/getdesign/*/DESIGN.md`.
+- Keep Refero as a secondary design-quality source after `yeucau.md`, `100-home-styles.md`, `docs/design-research/100-design-board.md`, and `docs/getdesign/*/DESIGN.md`.
 - Search locally with `rg` before preparing a `des-N` brief.
 - Use Refero for taste, tokens, component anatomy, spacing, and visual polish. Do not copy a brand or override the project's client requirements.
 
-Refero is not the 100-design plan. The 100-design plan remains `100-home-styles.md`.
+Refero is not the 100-design tracker. The tracker and per-design specs live in `docs/design-research/100-design-board.md`.
 
 ## Files
 
@@ -24,7 +24,7 @@ Binary images/videos are not downloaded to avoid a heavy repo. Their public URLs
 
 Use Refero only during the brief step:
 
-1. Pick the target style in `100-home-styles.md`.
+1. Pick the target style in `docs/design-research/100-design-board.md`.
 2. Pick the primary `docs/getdesign/*/DESIGN.md` source from that style block.
 3. Search this Refero cache for a supporting source.
 4. Write the selected local path into `docs/design-research/des-briefs/des-N.md`.

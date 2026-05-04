@@ -7,7 +7,8 @@ Thư mục này là lớp chuẩn bị trước khi code 100 theme `des-N`. Mụ
 | File/thư mục | Vai trò |
 | --- | --- |
 | `yeucau.md` | Luật khách hàng, guardrail cứng, ưu tiên cao nhất. |
-| `100-home-styles.md` | Master list 100 style, status, archetype, fingerprint. |
+| `100-home-styles.md` | Rulebook chung: scope, archetype, rubric, QA, delivery. |
+| `docs/design-research/100-design-board.md` | Nơi tracking status và spec/fingerprint của từng `des-N`. |
 | `docs/design-research/brief-template.md` | Template bắt buộc để tạo brief cho từng `des-N`. |
 | `docs/design-research/des-briefs/des-N.md` | Gói context chính khi implement một theme cụ thể. |
 | `docs/design-research/refero-source-pool.md` | Pool Refero đã lọc để chọn nhanh nguồn phụ. |
@@ -21,6 +22,7 @@ Nếu có mâu thuẫn, ưu tiên theo thứ tự:
 ```text
 yeucau.md
 100-home-styles.md
+docs/design-research/100-design-board.md
 docs/design-research/des-briefs/des-N.md
 docs/getdesign/*/DESIGN.md
 docs/refero/styles/*/DESIGN.md
@@ -35,7 +37,8 @@ Khi làm một `des-N`, agent chỉ nên đọc gói nhỏ này:
 
 ```text
 yeucau.md
-100-home-styles.md: phần rule chung + block đúng des-N
+100-home-styles.md: rule chung + rubric + QA
+docs/design-research/100-design-board.md: block đúng des-N
 docs/design-research/des-briefs/des-N.md
 Getdesign source ghi trong brief
 Refero source ghi trong brief
@@ -51,15 +54,16 @@ Không đọc toàn bộ `docs/refero` hoặc toàn bộ `docs/getdesign` trong 
 
 ## Quy trình một theme
 
-1. Chọn `des-N` trong `100-home-styles.md`.
-2. Tạo brief nếu chưa có: `docs/design-research/des-briefs/des-N.md`.
-3. Chốt source stack: một getdesign local, một Refero local, một hướng game/news/directory.
-4. Chốt fingerprint khác biệt: header, above-fold, section order, card/media, footer, mobile.
-5. Chỉ sửa file trong scope của `des-N`.
-6. Build `style.css`.
-7. QA desktop/tablet/mobile, đặc biệt search/menu mở ở `320px`.
-8. Forbidden scan: không có placeholder, fake links, duplicate nav, file ngoài scope.
-9. Copy delivery khi pass.
+1. Chọn `des-N` trong `docs/design-research/100-design-board.md`.
+2. Đọc rule chung trong `100-home-styles.md`.
+3. Tạo brief nếu chưa có: `docs/design-research/des-briefs/des-N.md`.
+4. Chốt source stack: một getdesign local, một Refero local, một hướng game/news/directory.
+5. Chốt fingerprint khác biệt: header, above-fold, section order, card/media, footer, mobile.
+6. Chỉ sửa file trong scope của `des-N`.
+7. Build `style.css`.
+8. QA desktop/tablet/mobile, đặc biệt search/menu mở ở `320px`.
+9. Forbidden scan: không có placeholder, fake links, duplicate nav, file ngoài scope.
+10. Copy delivery khi pass.
 
 Không code nếu brief chưa trả lời được: "nhìn phát biết khác bản trước ở đâu".
 
