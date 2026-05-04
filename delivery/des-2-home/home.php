@@ -55,6 +55,22 @@ if ( ! function_exists( 'des2_post_excerpt' ) ) {
 	}
 }
 
+if ( ! function_exists( 'des2_post_description' ) ) {
+	function des2_post_description( $post_id, $class_name, $word_count = 14 ) {
+		$description = des2_post_excerpt( $post_id, $word_count );
+
+		if ( ! $description ) {
+			return '';
+		}
+
+		return sprintf(
+			'<p class="%1$s">%2$s</p>',
+			esc_attr( $class_name ),
+			esc_html( $description )
+		);
+	}
+}
+
 if ( ! function_exists( 'des2_post_label' ) ) {
 	function des2_post_label( $post_id, $fallback ) {
 		$tags = get_the_terms( $post_id, 'post_tag' );
@@ -155,7 +171,10 @@ if ( empty( $pulse_game_posts ) ) {
 							<a class="rail-item" href="<?php echo esc_url( get_permalink( $rail_post ) ); ?>">
 								<span class="rail-number"><?php echo esc_html( str_pad( (string) ( $index + 1 ), 2, '0', STR_PAD_LEFT ) ); ?></span>
 								<div class="rail-media"><?php echo des2_post_image( $rail_post->ID, 'rail-media' ); ?></div>
-								<span class="rail-title"><?php echo esc_html( get_the_title( $rail_post ) ); ?></span>
+								<div class="rail-copy">
+									<span class="rail-title"><?php echo esc_html( get_the_title( $rail_post ) ); ?></span>
+									<?php echo des2_post_description( $rail_post->ID, 'rail-description', 10 ); ?>
+								</div>
 							</a>
 						<?php endforeach; ?>
 					</div>
@@ -182,6 +201,7 @@ if ( empty( $pulse_game_posts ) ) {
 						<div class="news-card-content">
 							<span><?php echo esc_html( des2_post_label( $news_post->ID, 'Blog' ) ); ?></span>
 							<h3><?php echo esc_html( get_the_title( $news_post ) ); ?></h3>
+							<?php echo des2_post_description( $news_post->ID, 'news-card-description', 16 ); ?>
 						</div>
 					</a>
 				<?php endforeach; ?>
@@ -208,6 +228,7 @@ if ( empty( $pulse_game_posts ) ) {
 						<div class="review-pick-content">
 							<span><?php echo esc_html( des2_post_label( $review_post->ID, 'Review' ) ); ?></span>
 							<h3><?php echo esc_html( get_the_title( $review_post ) ); ?></h3>
+							<?php echo des2_post_description( $review_post->ID, 'review-pick-description', 12 ); ?>
 						</div>
 					</a>
 				<?php endforeach; ?>
@@ -233,6 +254,7 @@ if ( empty( $pulse_game_posts ) ) {
 						<div class="game-strip-content">
 							<span><?php echo esc_html( des2_post_label( $game_post->ID, 'Game' ) ); ?></span>
 							<h3><?php echo esc_html( get_the_title( $game_post ) ); ?></h3>
+							<?php echo des2_post_description( $game_post->ID, 'game-strip-description', 12 ); ?>
 							<?php echo des2_render_game_stars( $game_post->ID ); ?>
 						</div>
 					</a>
@@ -264,6 +286,7 @@ if ( empty( $pulse_game_posts ) ) {
 								<div class="pulse-content">
 									<span><?php echo esc_html( get_the_date( 'M j', $pulse_post ) ); ?></span>
 									<h3><?php echo esc_html( get_the_title( $pulse_post ) ); ?></h3>
+									<?php echo des2_post_description( $pulse_post->ID, 'pulse-description', 13 ); ?>
 								</div>
 							</a>
 						<?php endforeach; ?>
@@ -284,6 +307,7 @@ if ( empty( $pulse_game_posts ) ) {
 								<div class="pulse-content">
 									<span><?php echo esc_html( des2_post_label( $pulse_post->ID, 'Review' ) ); ?></span>
 									<h3><?php echo esc_html( get_the_title( $pulse_post ) ); ?></h3>
+									<?php echo des2_post_description( $pulse_post->ID, 'pulse-description', 10 ); ?>
 								</div>
 							</a>
 						<?php endforeach; ?>
@@ -304,6 +328,7 @@ if ( empty( $pulse_game_posts ) ) {
 								<div class="pulse-content">
 									<span><?php echo esc_html( des2_post_label( $pulse_post->ID, 'Game' ) ); ?></span>
 									<h3><?php echo esc_html( get_the_title( $pulse_post ) ); ?></h3>
+									<?php echo des2_post_description( $pulse_post->ID, 'pulse-description', 10 ); ?>
 									<?php echo des2_render_game_stars( $pulse_post->ID ); ?>
 								</div>
 							</a>
