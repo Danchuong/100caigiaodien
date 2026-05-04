@@ -41,6 +41,20 @@ Rework          = khách yêu cầu sửa.
 Rejected        = bỏ style này.
 ```
 
+## Active Batch Prep
+
+Batch kế tiếp đang chuẩn bị là `des-8` tới `des-12`. Nhận diện phải tách bằng silhouette trước, không chỉ bằng màu:
+
+| Design | Batch role | Must read as | Primary Refero |
+| --- | --- | --- | --- |
+| `des-8` | Digest | quiet 3-column editorial desk | `docs/refero/styles/standards-62b22816/DESIGN.md` |
+| `des-9` | Bands | full-width section band magazine | `docs/refero/styles/volume-edc0c03e/DESIGN.md` |
+| `des-10` | Spotlight | dark critic pick stage | `docs/refero/styles/letterboxd-d98dea0b/DESIGN.md` |
+| `des-11` | Table | hard-edge ranking/review desk | `docs/refero/styles/xbox-com-3792d0ca/DESIGN.md` |
+| `des-12` | Lanes | platform switchboard | `docs/refero/styles/twitch-40030487/DESIGN.md` |
+
+Không để batch này trượt thành 5 biến thể review hub giống nhau. Chốt nhanh bằng câu: `des-8 = digest`, `des-9 = bands`, `des-10 = spotlight`, `des-11 = table`, `des-12 = lanes`.
+
 
 ## Design Specs
 
@@ -183,10 +197,13 @@ Compare against: des-3, des-7
 Similarity risk: Medium
 Data risk: Text density risk
 Getdesign source: `docs/getdesign/apple/DESIGN.md`
-Refero source: `TBD`
+Refero source: `docs/refero/styles/standards-62b22816/DESIGN.md` (secondary: `docs/refero/styles/xbox-com-3792d0ca/DESIGN.md`)
+Batch role: Digest
+Banner slot: compact image strip in first viewport, not a poster hero.
+Footer uniqueness note: navy editorial index with real latest links, not a generic sitemap.
 
 - Header: H01 White Editorial Masthead; logo centered, menu below.
-- Above-fold: text-first; no image-heavy hero.
+- Above-fold: text-first digest with compact image banner/title/short description; no image-heavy poster hero.
 - Flow/order: three editorial columns mixing blog/review/game.
 - Card/grid: headline-first cards with small labels, newspaper rhythm.
 - Footer: F03 Navy Editorial Footer; section index and latest links.
@@ -201,7 +218,10 @@ Compare against: des-4, des-8
 Similarity risk: Medium
 Data risk: Partner/footer links must be real
 Getdesign source: `docs/getdesign/stripe/DESIGN.md`
-Refero source: `TBD`
+Refero source: `docs/refero/styles/volume-edc0c03e/DESIGN.md`
+Batch role: Bands
+Banner slot: first section band contains image, title, and short description.
+Footer uniqueness note: archive-band footer with real section links; no fake partner/social.
 
 - Header: H18 Two Rail Header; white base, primary nav + topic rail with real links.
 - Above-fold: section band; full-width editorial band with clear category.
@@ -219,7 +239,10 @@ Compare against: des-2, des-11
 Similarity risk: Medium
 Data risk: No fake scores unless real field exists
 Getdesign source: `docs/getdesign/linear.app/DESIGN.md`
-Refero source: `TBD`
+Refero source: `docs/refero/styles/letterboxd-d98dea0b/DESIGN.md`
+Batch role: Spotlight
+Banner slot: featured review card with image, title, and short verdict/description.
+Footer uniqueness note: dark review archive footer with latest reviews and game/media continuation.
 
 - Header: H13 Scoreboard Header; black/navy base, review/category strip without fake score.
 - Above-fold: review-led hero; featured review/pick, title and verdict label only.
@@ -237,7 +260,10 @@ Compare against: des-10, des-2
 Similarity risk: Medium
 Data risk: Needs real score field or use ranking labels only
 Getdesign source: `docs/getdesign/clickhouse/DESIGN.md`
-Refero source: `TBD`
+Refero source: `docs/refero/styles/xbox-com-3792d0ca/DESIGN.md` (secondary: `docs/refero/styles/parallel-web-systems-32845f27/DESIGN.md`)
+Batch role: Table
+Banner slot: compact top ranking slab with one image/title/short description before table rows.
+Footer uniqueness note: hard-edge ranking footer with review archive and browse paths, visually distinct from des-10.
 
 - Header: H04 Search First Bar; review search scope, menu compact.
 - Above-fold: review/ranking-led table if real score exists; otherwise “Review Picks Table”.
@@ -255,7 +281,10 @@ Compare against: des-10, des-11
 Similarity risk: Medium
 Data risk: Platform labels must be real tags/categories or generic safe labels
 Getdesign source: `docs/getdesign/vercel/DESIGN.md`
-Refero source: `TBD`
+Refero source: `docs/refero/styles/twitch-40030487/DESIGN.md`
+Batch role: Lanes
+Banner slot: platform/lane intro with image, title, and short description.
+Footer uniqueness note: platform switchboard footer with lane links and real latest content; not another F08 clone.
 
 - Header: H05 Category Rail Header; platform/category rail with real links if available.
 - Above-fold: platform selector/lane intro.
