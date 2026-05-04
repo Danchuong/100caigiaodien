@@ -25,7 +25,7 @@ Khi implement, agent chỉ đọc:
 ```text
 yeucau.md
 100-home-styles.md global rules
-docs/design-research/100-design-board.md relevant des-N block
+100-design-board.md relevant des-N block
 docs/design-research/des-briefs/des-N.md
 Getdesign source
 Refero source

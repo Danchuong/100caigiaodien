@@ -4,25 +4,23 @@ File này là nơi tracking duy nhất cho 100 theme `des-1` tới `des-100`. Kh
 
 Luật chung vẫn nằm ở `100-home-styles.md`; yêu cầu khách hàng vẫn nằm ở `yeucau.md`. Nếu có mâu thuẫn, ưu tiên `yeucau.md`, rồi `100-home-styles.md`, rồi file board này.
 
+## Status Dashboard
+
+| Designs | Status | Count | Meaning | Next action |
+| --- | --- | ---: | --- | --- |
+| `des-1` tới `des-3` | `Accepted` | 3 | Khách đã duyệt. | Không sửa nếu khách không yêu cầu. |
+| `des-4` tới `des-7` | `Delivery Ready` | 4 | Đã có bản giao và zip/delivery. | Chờ khách duyệt hoặc ship lại khi cần. |
+| `des-8` tới `des-10` | `Needs Audit` | 3 | Có source/folder từ batch cũ, chưa kiểm theo rule mới. | Audit, tạo brief, QA lại trước khi ship. |
+| `des-11` tới `des-100` | `Spec Ready` | 90 | Có spec/fingerprint, chưa build. | Điền Refero source, tạo brief, rồi mới code. |
+
 ## Cách tracking
 
 - Đổi `Status:` ngay trong block `des-N`.
-- Cập nhật `## Current Truth` nếu status theo nhóm thay đổi.
+- Điền `Refero source:` ngay trong block `des-N` trước khi tạo/rework theme.
+- Cập nhật `## Status Dashboard` nếu status theo nhóm thay đổi.
 - Không đánh `Delivery Ready` nếu chưa có zip delivery đã test.
 - Không đánh `Accepted` nếu khách chưa duyệt.
 - Khi mở lại bản cũ để sửa/audit/rework, tạo hoặc cập nhật brief ở `docs/design-research/des-briefs/des-N.md` trước.
-
-## Current Truth
-
-- `des-1`: `Accepted`.
-- `des-2`: `Accepted`.
-- `des-3`: `Accepted`. Khách đã chốt sau chỉnh Review Picks thành icon vuông.
-- `des-4`: `Delivery Ready`. Đã làm theo `docs/getdesign/playstation/DESIGN.md`, đã fix lỗi `/reviews/`; đang chờ review thủ công của user trước khi gửi tiếp.
-- `des-5`: `Delivery Ready`. Đã làm theo `docs/getdesign/wired/DESIGN.md`; cần review thủ công trước khi gửi khách.
-- `des-6`: `Delivery Ready`. Đã làm theo `docs/getdesign/pinterest/DESIGN.md`; cần review thủ công trước khi gửi khách.
-- `des-7`: `Delivery Ready`. Đã làm theo `docs/getdesign/theverge/DESIGN.md`; cần review thủ công trước khi gửi khách.
-- `des-8` tới `des-10`: `Needs Audit`. Source/folder có tồn tại từ batch cũ nhưng chưa được kiểm lại theo rule mới; không xem là ship-ready nếu chưa QA và chưa có zip mới.
-- `des-11` tới `des-100`: `Spec Ready`. Chưa build.
 
 Không đánh `Shipped` nếu chưa có `delivery/des-N-home.zip` đã test OK. Không đánh `Accepted` nếu khách chưa duyệt.
 
@@ -54,6 +52,7 @@ Compare against: h5game original, des-2
 Similarity risk: Low
 Data risk: None
 Getdesign source: `docs/getdesign/airtable/DESIGN.md`
+Refero source: `TBD`
 
 - Header: H04 Search First Bar; white/light base; logo left, search prominent, menu/action compact.
 - Above-fold: utility/directory-led; search and browse flow are first signal, no poster hero.
@@ -71,6 +70,7 @@ Compare against: des-1, h5game original
 Similarity risk: Low
 Data risk: No fake scores
 Getdesign source: `docs/getdesign/webflow/DESIGN.md`
+Refero source: `TBD`
 
 - Header: H01/H02 hybrid; light masthead, compact primary nav, floating mobile stack.
 - Above-fold: editorial/news-led; lead story left, trending rail right.
@@ -88,6 +88,7 @@ Compare against: des-1, des-2
 Similarity risk: Medium
 Data risk: Avoid fake newsletter/social
 Getdesign source: `docs/getdesign/ibm/DESIGN.md`
+Refero source: `TBD`
 Progress note: Khách đã chốt. Bản gửi cuối đã đổi Review Picks thành dạng icon vuông, không còn list chữ lặp `Review`.
 
 - Header: H14 Magazine Logo Wall; white base, centered large logo, menu line below, search icon right.
@@ -106,6 +107,7 @@ Compare against: des-2, des-3
 Similarity risk: Low
 Data risk: Overlay text must stay short
 Getdesign source: `docs/getdesign/playstation/DESIGN.md`
+Refero source: `TBD`
 Progress note: Đã build, render local, tạo `delivery/des-4-home.zip`, và đã fix lỗi `/reviews/` do `_reviews.scss` cũ có margin âm. Đang chờ user review thủ công.
 
 - Header: H03/H08 hybrid; dark premium channel, live/latest strip, search riêng, `main-menu` duy nhất.
@@ -124,6 +126,7 @@ Compare against: des-3, des-4
 Similarity risk: Low
 Data risk: No fake issue metadata beyond simple labels
 Getdesign source: `docs/getdesign/wired/DESIGN.md`
+Refero source: `TBD`
 Progress note: Đã build, render local, tạo `delivery/des-5-home.zip`; cần user review thủ công trước khi gửi khách.
 
 - Header: H15/H01 hybrid; black desk strip + white editorial masthead, `main-menu` duy nhất.
@@ -142,6 +145,7 @@ Compare against: des-2, des-4
 Similarity risk: Low
 Data risk: Image discovery must use real thumbnails where available
 Getdesign source: `docs/getdesign/pinterest/DESIGN.md`
+Refero source: `TBD`
 Progress note: Đã build, render local, tạo `delivery/des-6-home.zip`; cần user review thủ công trước khi gửi khách.
 
 - Header: H04 Search First Bar; warm white, search-first, `main-menu` duy nhất.
@@ -160,6 +164,7 @@ Compare against: des-2, des-5
 Similarity risk: Low
 Data risk: Avoid fake newsletter footer
 Getdesign source: `docs/getdesign/theverge/DESIGN.md`
+Refero source: `TBD`
 Progress note: Đã build, render local, tạo `delivery/des-7-home.zip`; cần user review thủ công trước khi gửi khách.
 
 - Header: H06/H14 hybrid; near-black editorial masthead, one `wp_nav_menu()` source, search reviews only.
@@ -178,6 +183,7 @@ Compare against: des-3, des-7
 Similarity risk: Medium
 Data risk: Text density risk
 Getdesign source: `docs/getdesign/apple/DESIGN.md`
+Refero source: `TBD`
 
 - Header: H01 White Editorial Masthead; logo centered, menu below.
 - Above-fold: text-first; no image-heavy hero.
@@ -195,6 +201,7 @@ Compare against: des-4, des-8
 Similarity risk: Medium
 Data risk: Partner/footer links must be real
 Getdesign source: `docs/getdesign/stripe/DESIGN.md`
+Refero source: `TBD`
 
 - Header: H18 Two Rail Header; white base, primary nav + topic rail with real links.
 - Above-fold: section band; full-width editorial band with clear category.
@@ -212,6 +219,7 @@ Compare against: des-2, des-11
 Similarity risk: Medium
 Data risk: No fake scores unless real field exists
 Getdesign source: `docs/getdesign/linear.app/DESIGN.md`
+Refero source: `TBD`
 
 - Header: H13 Scoreboard Header; black/navy base, review/category strip without fake score.
 - Above-fold: review-led hero; featured review/pick, title and verdict label only.
@@ -229,6 +237,7 @@ Compare against: des-10, des-2
 Similarity risk: Medium
 Data risk: Needs real score field or use ranking labels only
 Getdesign source: `docs/getdesign/clickhouse/DESIGN.md`
+Refero source: `TBD`
 
 - Header: H04 Search First Bar; review search scope, menu compact.
 - Above-fold: review/ranking-led table if real score exists; otherwise “Review Picks Table”.
@@ -246,6 +255,7 @@ Compare against: des-10, des-11
 Similarity risk: Medium
 Data risk: Platform labels must be real tags/categories or generic safe labels
 Getdesign source: `docs/getdesign/vercel/DESIGN.md`
+Refero source: `TBD`
 
 - Header: H05 Category Rail Header; platform/category rail with real links if available.
 - Above-fold: platform selector/lane intro.
@@ -263,6 +273,7 @@ Compare against: des-10, des-12
 Similarity risk: Medium
 Data risk: Do not fake user scores
 Getdesign source: `docs/getdesign/figma/DESIGN.md`
+Refero source: `TBD`
 
 - Header: H06 Split Masthead; white base, balanced nav/search.
 - Above-fold: critic/user comparison concept using labels, not fake scores.
@@ -280,6 +291,7 @@ Compare against: des-10, des-13
 Similarity risk: Low
 Data risk: None
 Getdesign source: `docs/getdesign/cal/DESIGN.md`
+Refero source: `TBD`
 
 - Header: H15 Minimal Text Header; calm white base.
 - Above-fold: timeline intro, not large image hero.
@@ -297,6 +309,7 @@ Compare against: des-11, des-13
 Similarity risk: Medium
 Data risk: No fake comparison fields
 Getdesign source: `docs/getdesign/miro/DESIGN.md`
+Refero source: `TBD`
 
 - Header: H16 Command Header; search/action heavy.
 - Above-fold: comparison block using real review/game titles.
@@ -314,6 +327,7 @@ Compare against: des-10, des-15
 Similarity risk: Medium
 Data risk: No fake pros/cons unless derived from real excerpt
 Getdesign source: `docs/getdesign/sentry/DESIGN.md`
+Refero source: `TBD`
 
 - Header: H02 Black Compact Nav.
 - Above-fold: verdict board with review picks.
@@ -331,6 +345,7 @@ Compare against: des-11, des-16
 Similarity risk: High
 Data risk: Avoid fake chart/score
 Getdesign source: `docs/getdesign/supabase/DESIGN.md`
+Refero source: `TBD`
 
 - Header: H03 Navy Utility Stack.
 - Above-fold: lead review plus sticky sidebar summary; no fake chart if no data.
@@ -348,6 +363,7 @@ Compare against: des-1, des-11
 Similarity risk: High
 Data risk: None
 Getdesign source: `docs/getdesign/raycast/DESIGN.md`
+Refero source: `TBD`
 
 - Header: H16 Command Header; game browse/search focus, not same as des-1.
 - Above-fold: large game search/filter surface.
@@ -365,6 +381,7 @@ Compare against: des-18, des-1
 Similarity risk: Medium
 Data risk: Genre labels must be real or generic category labels
 Getdesign source: `docs/getdesign/mongodb/DESIGN.md`
+Refero source: `TBD`
 
 - Header: H05 Category Rail Header.
 - Above-fold: genre/category wall.
@@ -382,6 +399,7 @@ Compare against: des-12, des-18
 Similarity risk: Medium
 Data risk: Platform tabs must be safe if taxonomy absent
 Getdesign source: `docs/getdesign/shopify/DESIGN.md`
+Refero source: `TBD`
 
 - Header: H04 Search First Bar.
 - Above-fold: tabbed catalog intro.
@@ -399,6 +417,7 @@ Compare against: des-14, des-20
 Similarity risk: Low
 Data risk: Use publish dates, not fake release dates
 Getdesign source: `docs/getdesign/cal/DESIGN.md`
+Refero source: `TBD`
 
 - Header: H12 Breadcrumb Header.
 - Above-fold: date/release board based on post dates.
@@ -416,6 +435,7 @@ Compare against: des-18, des-20
 Similarity risk: Low
 Data risk: None
 Getdesign source: `docs/getdesign/notion/DESIGN.md`
+Refero source: `TBD`
 
 - Header: H04 Search First Bar.
 - Above-fold: A-Z/index-first, no classic hero.
@@ -433,6 +453,7 @@ Compare against: des-21, des-20
 Similarity risk: Medium
 Data risk: Use safe labels, not fake release state
 Getdesign source: `docs/getdesign/airbnb/DESIGN.md`
+Refero source: `TBD`
 
 - Header: H06 Split Masthead.
 - Above-fold: two-lane “new / recommended” split using real posts.
@@ -450,6 +471,7 @@ Compare against: des-18, des-23
 Similarity risk: Medium
 Data risk: No fake stats
 Getdesign source: `docs/getdesign/tesla/DESIGN.md`
+Refero source: `TBD`
 
 - Header: H18 Two Rail Header.
 - Above-fold: featured game teaser.
@@ -467,6 +489,7 @@ Compare against: des-19, des-24
 Similarity risk: Low
 Data risk: None
 Getdesign source: `docs/getdesign/spotify/DESIGN.md`
+Refero source: `TBD`
 
 - Header: H09 App Dock Header.
 - Above-fold: horizontal shelf row.
@@ -484,6 +507,7 @@ Compare against: des-6, des-8
 Similarity risk: Medium
 Data risk: Ticker uses latest posts only
 Getdesign source: `docs/getdesign/slack/DESIGN.md`
+Refero source: `TBD`
 
 - Header: H08 Topline News Header.
 - Above-fold: live/latest ticker strip plus small story grid.
@@ -501,6 +525,7 @@ Compare against: des-21, des-26
 Similarity risk: Medium
 Data risk: No fake match data
 Getdesign source: `docs/getdesign/nike/DESIGN.md`
+Refero source: `TBD`
 
 - Header: H13 Scoreboard Header.
 - Above-fold: schedule-style board mapped to latest content.
@@ -518,6 +543,7 @@ Compare against: des-11, des-27
 Similarity risk: Medium
 Data risk: No fake standings
 Getdesign source: `docs/getdesign/binance/DESIGN.md`
+Refero source: `TBD`
 
 - Header: H03 Navy Utility Stack.
 - Above-fold: standings-inspired content board without fake ranks.
@@ -535,6 +561,7 @@ Compare against: des-28, des-23
 Similarity risk: Low
 Data risk: No fake bracket
 Getdesign source: `docs/getdesign/mastercard/DESIGN.md`
+Refero source: `TBD`
 
 - Header: H13 Scoreboard Header.
 - Above-fold: bracket-inspired lanes using categories/content groups.
@@ -552,6 +579,7 @@ Compare against: des-29, des-19
 Similarity risk: Low
 Data risk: No fake roster
 Getdesign source: `docs/getdesign/meta/DESIGN.md`
+Refero source: `TBD`
 
 - Header: H10 Sidebar Trigger Header.
 - Above-fold: team/spotlight-inspired feature using real post.
@@ -569,6 +597,7 @@ Compare against: des-17, des-28
 Similarity risk: Medium
 Data risk: No fake odds/stat
 Getdesign source: `docs/getdesign/posthog/DESIGN.md`
+Refero source: `TBD`
 
 - Header: H16 Command Header.
 - Above-fold: news lead + stat-inspired sidebar using real metadata.
@@ -586,6 +615,7 @@ Compare against: des-34, des-6
 Similarity risk: Medium
 Data risk: No fake playable video
 Getdesign source: `docs/getdesign/runwayml/DESIGN.md`
+Refero source: `TBD`
 
 - Header: H02 Black Compact Nav.
 - Above-fold: media card with thumbnail and title, not embedded fake video.
@@ -603,6 +633,7 @@ Compare against: des-26, des-14
 Similarity risk: Low
 Data risk: Use post dates only
 Getdesign source: `docs/getdesign/wise/DESIGN.md`
+Refero source: `TBD`
 
 - Header: H02 Black Compact Nav.
 - Above-fold: no classic hero; latest feed first.
@@ -620,6 +651,7 @@ Compare against: des-32, des-37
 Similarity risk: Medium
 Data risk: No fake video
 Getdesign source: `docs/getdesign/elevenlabs/DESIGN.md`
+Refero source: `TBD`
 
 - Header: H17 Floating Overlay Header.
 - Above-fold: full media-feature hero using real thumbnail.
@@ -637,6 +669,7 @@ Compare against: des-34, des-4
 Similarity risk: Medium
 Data risk: No fake trailers
 Getdesign source: `docs/getdesign/framer/DESIGN.md`
+Refero source: `TBD`
 
 - Header: H09 App Dock Header.
 - Above-fold: 2x2 media grid from real posts.
@@ -654,6 +687,7 @@ Compare against: des-32, des-35
 Similarity risk: Medium
 Data risk: No fake playlist state
 Getdesign source: `docs/getdesign/spotify/DESIGN.md`
+Refero source: `TBD`
 
 - Header: H10 Sidebar Trigger Header.
 - Above-fold: feature left + playlist/sidebar right.
@@ -671,6 +705,7 @@ Compare against: des-34, des-83
 Similarity risk: Medium
 Data risk: None
 Getdesign source: `docs/getdesign/spacex/DESIGN.md`
+Refero source: `TBD`
 
 - Header: H02 Black Compact Nav.
 - Above-fold: widescreen cinematic poster using real thumbnail/background.
@@ -688,6 +723,7 @@ Compare against: des-35, des-39
 Similarity risk: Low
 Data risk: No fake shorts
 Getdesign source: `docs/getdesign/meta/DESIGN.md`
+Refero source: `TBD`
 
 - Header: H09 App Dock Header.
 - Above-fold: portrait/vertical column + news list.
@@ -705,6 +741,7 @@ Compare against: des-4, des-35
 Similarity risk: Medium
 Data risk: None
 Getdesign source: `docs/getdesign/figma/DESIGN.md`
+Refero source: `TBD`
 
 - Header: H15 Minimal Text Header.
 - Above-fold: media wall/masonry first, no text-heavy hero.
@@ -722,6 +759,7 @@ Compare against: des-32, des-35
 Similarity risk: Medium
 Data risk: No fake streams/live
 Getdesign source: `docs/getdesign/spotify/DESIGN.md`
+Refero source: `TBD`
 
 - Header: H03 Navy Utility Stack.
 - Above-fold: channel spotlight using real post.
@@ -739,6 +777,7 @@ Compare against: des-32, des-36
 Similarity risk: Medium
 Data risk: No fake video controls
 Getdesign source: `docs/getdesign/replicate/DESIGN.md`
+Refero source: `TBD`
 
 - Header: H04 Search First Bar.
 - Above-fold: media feature left, article list right.
@@ -756,6 +795,7 @@ Compare against: des-26, des-33
 Similarity risk: Medium
 Data risk: No fake forum threads
 Getdesign source: `docs/getdesign/slack/DESIGN.md`
+Refero source: `TBD`
 
 - Header: H07 Center Logo Drawer.
 - Above-fold: trending-thread-inspired list using real posts.
@@ -773,6 +813,7 @@ Compare against: des-42, des-18
 Similarity risk: Low
 Data risk: No fake boards
 Getdesign source: `docs/getdesign/notion/DESIGN.md`
+Refero source: `TBD`
 
 - Header: H10 Sidebar Trigger Header.
 - Above-fold: board/category blocks using real archives/categories.
@@ -790,6 +831,7 @@ Compare against: des-43, des-15
 Similarity risk: Medium
 Data risk: No fake poll
 Getdesign source: `docs/getdesign/airtable/DESIGN.md`
+Refero source: `TBD`
 
 - Header: H16 Command Header.
 - Above-fold: question/choice-style block as “What to read next” using real links.
@@ -807,6 +849,7 @@ Compare against: des-42, des-19
 Similarity risk: Medium
 Data risk: No fake users
 Getdesign source: `docs/getdesign/pinterest/DESIGN.md`
+Refero source: `TBD`
 
 - Header: H07 Center Logo Drawer.
 - Above-fold: picks grid using real editor/content picks.
@@ -824,6 +867,7 @@ Compare against: des-33, des-42
 Similarity risk: Low
 Data risk: No fake comments
 Getdesign source: `docs/getdesign/intercom/DESIGN.md`
+Refero source: `TBD`
 
 - Header: H15 Minimal Text Header.
 - Above-fold: no hero; discussion-style feed.
@@ -841,6 +885,7 @@ Compare against: des-30, des-45
 Similarity risk: Medium
 Data risk: No fake profiles
 Getdesign source: `docs/getdesign/clay/DESIGN.md`
+Refero source: `TBD`
 
 - Header: H01 White Editorial Masthead.
 - Above-fold: spotlight feature using real post.
@@ -858,6 +903,7 @@ Compare against: des-18, des-44
 Similarity risk: Medium
 Data risk: No fake Q&A backend
 Getdesign source: `docs/getdesign/mintlify/DESIGN.md`
+Refero source: `TBD`
 
 - Header: H04 Search First Bar.
 - Above-fold: question/search surface for reviews/guides.
@@ -875,6 +921,7 @@ Compare against: des-21, des-43
 Similarity risk: Low
 Data risk: No fake event dates
 Getdesign source: `docs/getdesign/cal/DESIGN.md`
+Refero source: `TBD`
 
 - Header: H12 Breadcrumb Header.
 - Above-fold: event-board-inspired date/content board using post dates.
@@ -892,6 +939,7 @@ Compare against: des-5, des-8
 Similarity risk: Medium
 Data risk: None
 Getdesign source: `docs/getdesign/apple/DESIGN.md`
+Refero source: `TBD`
 
 - Header: H15 Minimal Text Header.
 - Above-fold: one story cover.
@@ -909,6 +957,7 @@ Compare against: des-8, des-50
 Similarity risk: Low
 Data risk: None
 Getdesign source: `docs/getdesign/claude/DESIGN.md`
+Refero source: `TBD`
 
 - Header: H12 Breadcrumb Header or H15 Minimal Text Header.
 - Above-fold: pure text headline, no image hero.
@@ -926,6 +975,7 @@ Compare against: des-51, des-14
 Similarity risk: Low
 Data risk: None
 Getdesign source: `docs/getdesign/sanity/DESIGN.md`
+Refero source: `TBD`
 
 - Header: H01 White Editorial Masthead.
 - Above-fold: vertical issue index, no hero image.
@@ -943,6 +993,7 @@ Compare against: des-50, des-37
 Similarity risk: Medium
 Data risk: None
 Getdesign source: `docs/getdesign/bmw/DESIGN.md`
+Refero source: `TBD`
 
 - Header: H02 Black Compact Nav.
 - Above-fold: black/white lead.
@@ -960,6 +1011,7 @@ Compare against: des-21, des-52
 Similarity risk: Low
 Data risk: Use publish date only
 Getdesign source: `docs/getdesign/ibm/DESIGN.md`
+Refero source: `TBD`
 
 - Header: H15 Minimal Text Header.
 - Above-fold: latest date marker and article stack.
@@ -977,6 +1029,7 @@ Compare against: des-2, des-51
 Similarity risk: Medium
 Data risk: No fake newsletter footer
 Getdesign source: `docs/getdesign/notion/DESIGN.md`
+Refero source: `TBD`
 
 - Header: H06 Split Masthead.
 - Above-fold: featured column + plain list.
@@ -994,6 +1047,7 @@ Compare against: des-51, des-58
 Similarity risk: Low
 Data risk: None
 Getdesign source: `docs/getdesign/bugatti/DESIGN.md`
+Refero source: `TBD`
 
 - Header: H01 White Editorial Masthead.
 - Above-fold: typography grid, no image hero.
@@ -1011,6 +1065,7 @@ Compare against: des-14, des-10
 Similarity risk: Low
 Data risk: No fake score
 Getdesign source: `docs/getdesign/superhuman/DESIGN.md`
+Refero source: `TBD`
 
 - Header: H15 Minimal Text Header.
 - Above-fold: review note/journal intro.
@@ -1028,6 +1083,7 @@ Compare against: des-8, des-62
 Similarity risk: Medium
 Data risk: None
 Getdesign source: `docs/getdesign/cohere/DESIGN.md`
+Refero source: `TBD`
 
 - Header: H03 Navy Utility Stack.
 - Above-fold: no large hero; dense desk starts immediately.
@@ -1045,6 +1101,7 @@ Compare against: des-33, des-58
 Similarity risk: Medium
 Data risk: Use latest/publish dates only
 Getdesign source: `docs/getdesign/resend/DESIGN.md`
+Refero source: `TBD`
 
 - Header: H08 Topline News Header.
 - Above-fold: latest headline strip.
@@ -1062,6 +1119,7 @@ Compare against: des-12, des-58
 Similarity risk: Medium
 Data risk: Category links must be real if clickable
 Getdesign source: `docs/getdesign/hashicorp/DESIGN.md`
+Refero source: `TBD`
 
 - Header: H18 Two Rail Header.
 - Above-fold: category summary lanes.
@@ -1079,6 +1137,7 @@ Compare against: des-26, des-58
 Similarity risk: Medium
 Data risk: Ticker uses real latest posts
 Getdesign source: `docs/getdesign/coinbase/DESIGN.md`
+Refero source: `TBD`
 
 - Header: H08 Topline News Header.
 - Above-fold: ticker + small card grid.
@@ -1096,6 +1155,7 @@ Compare against: des-58, des-4
 Similarity risk: Low
 Data risk: None
 Getdesign source: `docs/getdesign/opencode.ai/DESIGN.md`
+Refero source: `TBD`
 
 - Header: H02 Black Compact Nav.
 - Above-fold: direct grid, no hero.
@@ -1113,6 +1173,7 @@ Compare against: des-14, des-33
 Similarity risk: Low
 Data risk: Use post dates only
 Getdesign source: `docs/getdesign/ollama/DESIGN.md`
+Refero source: `TBD`
 
 - Header: H12 Breadcrumb Header.
 - Above-fold: date marker and feed.
@@ -1130,6 +1191,7 @@ Compare against: des-51, des-58
 Similarity risk: Low
 Data risk: None
 Getdesign source: `docs/getdesign/mistral.ai/DESIGN.md`
+Refero source: `TBD`
 
 - Header: H15 Minimal Text Header.
 - Above-fold: headline rows only.
@@ -1147,6 +1209,7 @@ Compare against: des-2, des-59
 Similarity risk: Medium
 Data risk: No fake breaking
 Getdesign source: `docs/getdesign/x.ai/DESIGN.md`
+Refero source: `TBD`
 
 - Header: H03 Navy Utility Stack.
 - Above-fold: “latest split” not fake breaking; lead left/latest right.
@@ -1164,6 +1227,7 @@ Compare against: des-31, des-58
 Similarity risk: Medium
 Data risk: None
 Getdesign source: `docs/getdesign/mongodb/DESIGN.md`
+Refero source: `TBD`
 
 - Header: H16 Command Header.
 - Above-fold: main column + two rails.
@@ -1181,6 +1245,7 @@ Compare against: des-11, des-28
 Similarity risk: Medium
 Data risk: Ranking numbers are display order only
 Getdesign source: `docs/getdesign/nike/DESIGN.md`
+Refero source: `TBD`
 
 - Header: H13 Scoreboard Header.
 - Above-fold: top-list board from real posts.
@@ -1198,6 +1263,7 @@ Compare against: des-67, des-15
 Similarity risk: Low
 Data risk: Tier labels are editorial sections only
 Getdesign source: `docs/getdesign/mastercard/DESIGN.md`
+Refero source: `TBD`
 
 - Header: H02 Black Compact Nav.
 - Above-fold: tier rows using content groups.
@@ -1215,6 +1281,7 @@ Compare against: des-19, des-67
 Similarity risk: Medium
 Data risk: Genre links must be real if clickable
 Getdesign source: `docs/getdesign/shopify/DESIGN.md`
+Refero source: `TBD`
 
 - Header: H05 Category Rail Header.
 - Above-fold: genre ranking surface.
@@ -1232,6 +1299,7 @@ Compare against: des-21, des-67
 Similarity risk: Medium
 Data risk: Chart uses post order/date only
 Getdesign source: `docs/getdesign/kraken/DESIGN.md`
+Refero source: `TBD`
 
 - Header: H13 Scoreboard Header.
 - Above-fold: monthly chart-like list using real posts.
@@ -1249,6 +1317,7 @@ Compare against: des-12, des-69
 Similarity risk: Medium
 Data risk: Platform data must be safe
 Getdesign source: `docs/getdesign/nvidia/DESIGN.md`
+Refero source: `TBD`
 
 - Header: H04 Search First Bar.
 - Above-fold: platform leaderboard without fake score.
@@ -1266,6 +1335,7 @@ Compare against: des-15, des-11
 Similarity risk: Medium
 Data risk: No fake comparison specs
 Getdesign source: `docs/getdesign/composio/DESIGN.md`
+Refero source: `TBD`
 
 - Header: H16 Command Header.
 - Above-fold: comparison table using content fields available.
@@ -1283,6 +1353,7 @@ Compare against: des-26, des-67
 Similarity risk: Medium
 Data risk: Trending is display order only
 Getdesign source: `docs/getdesign/binance/DESIGN.md`
+Refero source: `TBD`
 
 - Header: H08 Topline News Header.
 - Above-fold: trending leaderboard from latest/random posts.
@@ -1300,6 +1371,7 @@ Compare against: des-25, des-67
 Similarity risk: Low
 Data risk: Badges are visual labels only
 Getdesign source: `docs/getdesign/playstation/DESIGN.md`
+Refero source: `TBD`
 
 - Header: H09 App Dock Header.
 - Above-fold: achievement/badge wall using real content.
@@ -1317,6 +1389,7 @@ Compare against: des-77, des-81
 Similarity risk: Medium
 Data risk: No fake deals/prices
 Getdesign source: `docs/getdesign/starbucks/DESIGN.md`
+Refero source: `TBD`
 
 - Header: H04 Search First Bar.
 - Above-fold: recommendation cards, not price/deal claims unless real.
@@ -1334,6 +1407,7 @@ Compare against: des-48, des-60
 Similarity risk: Medium
 Data risk: Category links must be real
 Getdesign source: `docs/getdesign/mintlify/DESIGN.md`
+Refero source: `TBD`
 
 - Header: H18 Two Rail Header.
 - Above-fold: guide/category blocks.
@@ -1351,6 +1425,7 @@ Compare against: des-15, des-75
 Similarity risk: Medium
 Data risk: No fake buyer specs/prices
 Getdesign source: `docs/getdesign/revolut/DESIGN.md`
+Refero source: `TBD`
 
 - Header: H16 Command Header.
 - Above-fold: buyer-guide/recommendation surface using real posts.
@@ -1368,6 +1443,7 @@ Compare against: des-21, des-75
 Similarity risk: Low
 Data risk: No fake price tracker
 Getdesign source: `docs/getdesign/posthog/DESIGN.md`
+Refero source: `TBD`
 
 - Header: H03 Navy Utility Stack.
 - Above-fold: tracker-style board using latest content.
@@ -1385,6 +1461,7 @@ Compare against: des-44, des-77
 Similarity risk: Medium
 Data risk: No fake quiz backend
 Getdesign source: `docs/getdesign/lovable/DESIGN.md`
+Refero source: `TBD`
 
 - Header: H09 App Dock Header.
 - Above-fold: question/choice navigation to real content.
@@ -1402,6 +1479,7 @@ Compare against: des-25, des-75
 Similarity risk: Medium
 Data risk: No fake hardware/deal data
 Getdesign source: `docs/getdesign/nvidia/DESIGN.md`
+Refero source: `TBD`
 
 - Header: H09 App Dock Header.
 - Above-fold: shelf row using games/posts.
@@ -1419,6 +1497,7 @@ Compare against: des-31, des-75
 Similarity risk: Medium
 Data risk: No fake coupons
 Getdesign source: `docs/getdesign/vodafone/DESIGN.md`
+Refero source: `TBD`
 
 - Header: H10 Sidebar Trigger Header.
 - Above-fold: coupon/sidebar-inspired content rail.
@@ -1436,6 +1515,7 @@ Compare against: des-76, des-48
 Similarity risk: Low
 Data risk: None
 Getdesign source: `docs/getdesign/expo/DESIGN.md`
+Refero source: `TBD`
 
 - Header: H04 Search First Bar.
 - Above-fold: no big hero; how-to grid first.
@@ -1453,6 +1533,7 @@ Compare against: des-37, des-86
 Similarity risk: Medium
 Data risk: None
 Getdesign source: `docs/getdesign/ferrari/DESIGN.md`
+Refero source: `TBD`
 
 - Header: H17 Floating Overlay Header.
 - Above-fold: poster hero + rail.
@@ -1470,6 +1551,7 @@ Compare against: des-23, des-83
 Similarity risk: Low
 Data risk: None
 Getdesign source: `docs/getdesign/tesla/DESIGN.md`
+Refero source: `TBD`
 
 - Header: H16 Command Header.
 - Above-fold: split-screen console panels.
@@ -1487,6 +1569,7 @@ Compare against: des-84, des-99
 Similarity risk: Low
 Data risk: None
 Getdesign source: `docs/getdesign/lamborghini/DESIGN.md`
+Refero source: `TBD`
 
 - Header: H02 Black Compact Nav.
 - Above-fold: diagonal feature blocks.
@@ -1504,6 +1587,7 @@ Compare against: h5game, des-83
 Similarity risk: Medium
 Data risk: None
 Getdesign source: `docs/getdesign/bmw-m/DESIGN.md`
+Refero source: `TBD`
 
 - Header: H17 Floating Overlay Header.
 - Above-fold: full bleed image/background with stacked real stories.
@@ -1521,6 +1605,7 @@ Compare against: des-35, des-83
 Similarity risk: Low
 Data risk: None
 Getdesign source: `docs/getdesign/renault/DESIGN.md`
+Refero source: `TBD`
 
 - Header: H02 Black Compact Nav.
 - Above-fold: horizontal image strip.
@@ -1538,6 +1623,7 @@ Compare against: des-93, des-97
 Similarity risk: Low
 Data risk: No fake map/game data
 Getdesign source: `docs/getdesign/spacex/DESIGN.md`
+Refero source: `TBD`
 
 - Header: H10 Sidebar Trigger Header.
 - Above-fold: map/node-inspired navigation using real links.
@@ -1555,6 +1641,7 @@ Compare against: des-94, des-25
 Similarity risk: Low
 Data risk: No copyrighted/fake characters
 Getdesign source: `docs/getdesign/minimax/DESIGN.md`
+Refero source: `TBD`
 
 - Header: H09 App Dock Header.
 - Above-fold: card deck using real post thumbnails.
@@ -1572,6 +1659,7 @@ Compare against: des-10, des-37
 Similarity risk: Medium
 Data risk: No fake score
 Getdesign source: `docs/getdesign/playstation/DESIGN.md`
+Refero source: `TBD`
 
 - Header: H13 Scoreboard Header.
 - Above-fold: theater-like featured review.
@@ -1589,6 +1677,7 @@ Compare against: des-52, des-87
 Similarity risk: Low
 Data risk: None
 Getdesign source: `docs/getdesign/webflow/DESIGN.md`
+Refero source: `TBD`
 
 - Header: H15 Minimal Text Header.
 - Above-fold: horizontal issue rail.
@@ -1606,6 +1695,7 @@ Compare against: des-84, des-66
 Similarity risk: Medium
 Data risk: No fake metrics
 Getdesign source: `docs/getdesign/cursor/DESIGN.md`
+Refero source: `TBD`
 
 - Header: H16 Command Header.
 - Above-fold: command center modules.
@@ -1623,6 +1713,7 @@ Compare against: des-88, des-98
 Similarity risk: Low
 Data risk: No fake map regions
 Getdesign source: `docs/getdesign/uber/DESIGN.md`
+Refero source: `TBD`
 
 - Header: H18 Two Rail Header.
 - Above-fold: map/navigation hub using categories/content groups.
@@ -1640,6 +1731,7 @@ Compare against: des-89, des-91
 Similarity risk: Low
 Data risk: None
 Getdesign source: `docs/getdesign/airbnb/DESIGN.md`
+Refero source: `TBD`
 
 - Header: H09 App Dock Header.
 - Above-fold: swipe/stacked card deck.
@@ -1657,6 +1749,7 @@ Compare against: des-92, des-84
 Similarity risk: Low
 Data risk: No fake app/system actions
 Getdesign source: `docs/getdesign/warp/DESIGN.md`
+Refero source: `TBD`
 
 - Header: H10 Sidebar Trigger Header.
 - Above-fold: desktop window-style panels.
@@ -1674,6 +1767,7 @@ Compare against: des-5, des-52
 Similarity risk: Medium
 Data risk: None
 Getdesign source: `docs/getdesign/wired/DESIGN.md`
+Refero source: `TBD`
 
 - Header: H01 White Editorial Masthead.
 - Above-fold: archive covers/grid.
@@ -1691,6 +1785,7 @@ Compare against: des-14, des-63
 Similarity risk: Medium
 Data risk: Use real dates only
 Getdesign source: `docs/getdesign/voltagent/DESIGN.md`
+Refero source: `TBD`
 
 - Header: H12 Breadcrumb Header.
 - Above-fold: timeline start marker.
@@ -1708,6 +1803,7 @@ Compare against: des-93, des-60
 Similarity risk: Low
 Data risk: Category links must be real if clickable
 Getdesign source: `docs/getdesign/together.ai/DESIGN.md`
+Refero source: `TBD`
 
 - Header: H18 Two Rail Header.
 - Above-fold: radial/category hub.
@@ -1725,6 +1821,7 @@ Compare against: des-4, des-85
 Similarity risk: Medium
 Data risk: None
 Getdesign source: `docs/getdesign/figma/DESIGN.md`
+Refero source: `TBD`
 
 - Header: H17 Floating Overlay Header.
 - Above-fold: asymmetric collage.
@@ -1742,6 +1839,7 @@ Compare against: des-5, des-55
 Similarity risk: Medium
 Data risk: No fake newsletter signup
 Getdesign source: `docs/getdesign/zapier/DESIGN.md`
+Refero source: `TBD`
 
 - Header: H01 White Editorial Masthead.
 - Above-fold: digest/edition intro with featured links; no fake signup.

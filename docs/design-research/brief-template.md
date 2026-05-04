@@ -19,7 +19,7 @@ Brief là hợp đồng trước khi code. Nếu brief còn mơ hồ, chưa sử
 
 ## 2. Source Stack
 
-- `docs/design-research/100-design-board.md` block:
+- `100-design-board.md` block:
 - `100-home-styles.md` rules touched:
 - Getdesign source: `docs/getdesign/.../DESIGN.md`
 - Getdesign extraction:
@@ -163,7 +163,7 @@ Before coding, read only:
 ```text
 yeucau.md
 100-home-styles.md global rules
-docs/design-research/100-design-board.md relevant des-N block
+100-design-board.md relevant des-N block
 this brief
 Getdesign source
 Refero source

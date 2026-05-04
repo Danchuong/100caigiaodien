@@ -7,7 +7,7 @@ Mục tiêu không phải tạo 100 bản đổi màu. Mỗi theme phải có **
 Tracking status và spec/fingerprint của từng design nằm ở:
 
 ```text
-docs/design-research/100-design-board.md
+100-design-board.md
 ```
 
 ## AI Operating Model
@@ -16,7 +16,7 @@ docs/design-research/100-design-board.md
 
 1. `yeucau.md`: luật khách hàng và guardrail cứng. Không bỏ qua.
 2. `100-home-styles.md`: rulebook chung, QA, archetype, rubric.
-3. `docs/design-research/100-design-board.md`: nơi tracking status và per-design spec/fingerprint.
+3. `100-design-board.md`: nơi tracking status và per-design spec/fingerprint.
 4. `docs/design-research/des-briefs/des-N.md`: brief thực thi cho đúng `des-N`.
 5. `docs/getdesign/*/DESIGN.md`: nguồn form/layout chính.
 6. `docs/refero/styles/*/DESIGN.md`: nguồn token/polish/component phụ.
@@ -27,7 +27,7 @@ Không để agent tự đọc toàn bộ `docs/refero` hoặc toàn bộ `docs/
 ```text
 yeucau.md
 100-home-styles.md: rule chung + rubric + QA
-docs/design-research/100-design-board.md: Current Truth + block đúng des-N
+100-design-board.md: Status Dashboard + block đúng des-N
 docs/design-research/des-briefs/des-N.md
 Getdesign source trong brief
 Refero source trong brief
@@ -36,15 +36,15 @@ Source theme des-N cần sửa
 
 Nếu chưa có brief cho `des-N`, dừng ở bước tạo brief. Không code từ cảm tính.
 
-## Tracking And Design Board
+## Tracking Và Design Board
 
-Tracking status, current truth, and per-design specs now live in:
+Tracking status và per-design specs nằm ở:
 
 ```text
-docs/design-research/100-design-board.md
+100-design-board.md
 ```
 
-Use `100-home-styles.md` as the global rulebook. Use the board file to update `Status:` for each `des-N` and to read the specific design fingerprint before creating a brief.
+Dùng `100-home-styles.md` làm rulebook chung. Dùng board để cập nhật `Status:`, điền `Refero source:` và đọc fingerprint của từng `des-N` trước khi tạo brief.
 
 ## Definition Of Done
 
@@ -138,7 +138,7 @@ Khi bắt đầu một `des-N`, làm theo thứ tự:
 
 1. Đọc `yeucau.md`.
 2. Đọc rule chung trong file này.
-3. Đọc block `des-N` trong `docs/design-research/100-design-board.md`.
+3. Đọc block `des-N` trong `100-design-board.md`.
 4. Nếu chưa có brief, tạo `docs/design-research/des-briefs/des-N.md` từ `docs/design-research/brief-template.md`.
 5. Chọn `Getdesign source` theo block `des-N` trong board; chỉ đổi nếu có lý do rõ và update lại board.
 6. Chọn `Refero source` từ `docs/design-research/refero-source-pool.md` hoặc tìm bằng `docs/refero/catalog.csv`.
@@ -352,5 +352,5 @@ delivery/des-N-home.zip
 Per-design specs and tracking live in:
 
 ```text
-docs/design-research/100-design-board.md
+100-design-board.md
 ```
