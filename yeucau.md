@@ -387,6 +387,8 @@ Card mobile ảnh + text:
 
 - Có contract riêng, không dùng lại nguyên grid/height desktop.
 - Thumbnail có kích thước ổn định, ví dụ `flex-basis`/width cố định hoặc aspect-ratio rõ.
+- Mọi image/media frame phải là square hoặc landscape. Tuyệt đối không để `height > width`, kể cả banner, thumbnail, review card, game card, rail item và mobile list.
+- Nếu ảnh nằm trong grid/list có text dài, set `aspect-ratio` trực tiếp cho frame ảnh và dùng `align-items: center`; không để grid/flex stretch kéo ảnh thành portrait.
 - Tránh `height: 100%` vì title dài sẽ kéo ảnh lệch.
 - Nếu desktop dùng `grid-auto-rows` để tạo mosaic, mobile phải reset về `grid-auto-rows: auto` hoặc đổi layout.
 - Content text phải có `min-width: 0` và width/max-width rõ theo phần còn lại sau thumbnail.

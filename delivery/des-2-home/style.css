@@ -7026,7 +7026,7 @@ progress {
   display: grid;
   grid-template-columns: minmax(0, 1.38fr) minmax(18rem, 0.62fr);
   gap: 0.95rem;
-  align-items: stretch;
+  align-items: start;
 }
 
 .lead-left-home .lead-left,
@@ -7062,8 +7062,8 @@ progress {
 
 .lead-left-home .lead-story-card {
   display: grid;
-  grid-template-columns: minmax(15rem, 0.58fr) minmax(0, 1fr);
-  min-height: 20rem;
+  grid-template-columns: minmax(0, 1fr);
+  min-height: 0;
   overflow: hidden;
   border: 1px solid rgba(21, 26, 37, 0.14);
   border-radius: 0.45rem;
@@ -7084,6 +7084,16 @@ progress {
 .lead-left-home .game-strip-media,
 .lead-left-home .pulse-media {
   background: #111827;
+  overflow: hidden;
+}
+
+.lead-left-home .rail-media,
+.lead-left-home .review-pick-media,
+.lead-left-home .news-card-media,
+.lead-left-home .game-strip-media,
+.lead-left-home .pulse-media {
+  align-self: center;
+  width: 100%;
 }
 
 .lead-left-home .lead-story-media img,
@@ -7107,7 +7117,7 @@ progress {
   display: flex;
   width: 100%;
   height: 100%;
-  min-height: 7rem;
+  min-height: 100%;
   align-items: center;
   justify-content: center;
   background: linear-gradient(135deg, #111827, #b42318);
@@ -7118,8 +7128,9 @@ progress {
 
 .lead-left-home .rail-media-placeholder,
 .lead-left-home .review-pick-media-placeholder,
+.lead-left-home .news-card-media-placeholder,
+.lead-left-home .game-strip-media-placeholder,
 .lead-left-home .pulse-media-placeholder {
-  min-height: 100%;
   font-size: 1.15rem;
 }
 
@@ -7127,8 +7138,12 @@ progress {
   display: flex;
   min-width: 0;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   padding: 1.55rem;
+}
+
+.lead-left-home .lead-story-media {
+  aspect-ratio: 16/9;
 }
 
 .lead-left-home .story-label,
@@ -7334,7 +7349,7 @@ progress {
 
 .lead-left-home .news-small-card,
 .lead-left-home .game-strip-card {
-  display: flex;
+  display: grid;
   overflow: hidden;
   border: 1px solid rgba(21, 26, 37, 0.12);
   border-radius: 0.45rem;
@@ -7350,12 +7365,14 @@ progress {
 }
 
 .lead-left-home .news-small-card {
+  grid-template-columns: 7.4rem minmax(0, 1fr);
   min-height: 8.7rem;
+  align-items: center;
 }
 
 .lead-left-home .news-small-card .news-card-media {
-  width: 40%;
-  flex: 0 0 auto;
+  width: 100%;
+  aspect-ratio: 1/1;
 }
 
 .lead-left-home .news-card-content,
@@ -7583,7 +7600,7 @@ progress {
   display: grid;
   grid-template-columns: 5.6rem minmax(0, 1fr);
   gap: 0.78rem;
-  align-items: stretch;
+  align-items: center;
   border-bottom: 1px solid rgba(21, 26, 37, 0.09);
   color: #151a25;
   padding: 0.78rem;
@@ -7603,8 +7620,7 @@ progress {
 }
 
 .lead-left-home .pulse-media {
-  overflow: hidden;
-  min-height: 4.8rem;
+  aspect-ratio: 1/1;
   border-radius: 0.35rem;
 }
 
@@ -7655,8 +7671,7 @@ progress {
 }
 @media (max-width: 991.98px) {
   .lead-left-home .lead-story-card {
-    grid-template-columns: minmax(13rem, 0.52fr) minmax(0, 1fr);
-    min-height: 18rem;
+    min-height: 0;
   }
   .lead-left-home .lead-story-content h1, .lead-left-home .lead-story-content .h1 {
     display: -webkit-box;
@@ -7724,6 +7739,7 @@ progress {
   .lead-left-home .pulse-row-card {
     display: grid;
     grid-template-columns: 5.4rem minmax(0, 1fr);
+    align-items: center;
     min-height: 5.8rem;
   }
   .lead-left-home .rail-item {
@@ -7732,9 +7748,6 @@ progress {
   }
   .lead-left-home .news-small-card .news-card-media {
     width: auto;
-  }
-  .lead-left-home .game-strip-media {
-    aspect-ratio: auto;
   }
   .lead-left-home .game-strip-content {
     min-height: 0;
@@ -7757,17 +7770,14 @@ progress {
   .lead-left-home .pulse-column-large .pulse-story-card {
     grid-template-columns: 5.4rem minmax(0, 1fr);
   }
-  .lead-left-home .pulse-media {
-    min-height: 5rem;
-  }
   .lead-left-home .review-pick-card {
     min-height: 0;
     grid-template-columns: 5.4rem minmax(0, 1fr);
     grid-template-rows: auto;
-    align-items: stretch;
+    align-items: center;
   }
   .lead-left-home .review-pick-media {
-    aspect-ratio: auto;
+    aspect-ratio: 1/1;
   }
   .lead-left-home .review-pick-content {
     min-width: 0;
