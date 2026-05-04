@@ -1,15 +1,17 @@
 .latest-footer {
     margin-top: 0;
-    border-top: 1px solid rgba(23, 27, 36, 0.12);
-    background: #fbf7ed;
-    color: rgba(23, 27, 36, 0.72);
-    padding: 2.8rem 0 1.8rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    background:
+        linear-gradient(135deg, rgba(180, 35, 24, 0.18), transparent 28rem),
+        #101827;
+    color: rgba(255, 255, 255, 0.72);
+    padding: 2.6rem 0 1.65rem;
 }
 
 .foot-wrapper {
     display: grid;
-    grid-template-columns: minmax(15rem, 0.85fr) minmax(0, 1.55fr);
-    gap: 2rem;
+    grid-template-columns: minmax(14rem, 0.8fr) minmax(0, 1.6fr);
+    gap: 1.8rem;
     align-items: start;
 }
 
@@ -19,46 +21,48 @@
 
 .foot-logo {
     display: inline-flex;
-    color: #171b24;
-    font-size: 1.45rem;
+    max-width: 100%;
+    overflow: hidden;
+    color: #fff;
+    font-size: 1.42rem;
     font-weight: 900;
     letter-spacing: 0;
+    line-height: 1;
+    text-overflow: ellipsis;
     text-transform: uppercase;
+    white-space: nowrap;
 
     &:hover {
-        color: #b42318;
+        color: #f2b84b;
     }
 }
 
 .foot-description {
     max-width: 22rem;
     margin: 0.85rem 0 0;
-    color: rgba(23, 27, 36, 0.64);
-    line-height: 1.6;
+    color: rgba(255, 255, 255, 0.62);
+    line-height: 1.58;
 }
 
 .foot-actions {
     display: flex;
     flex-wrap: wrap;
-    gap: 0.45rem;
-    margin-top: 1.15rem;
+    gap: 0.35rem 0.8rem;
+    margin-top: 1.05rem;
 
     a {
         display: inline-flex;
-        min-height: 2.35rem;
+        min-height: 2rem;
         align-items: center;
-        border: 1px solid rgba(23, 27, 36, 0.14);
-        border-radius: 999px;
-        background: #fff;
-        color: #171b24;
+        border-bottom: 1px solid rgba(242, 184, 75, 0.5);
+        color: #fff;
         font-size: 0.84rem;
-        font-weight: 800;
-        padding: 0 0.8rem;
+        font-weight: 850;
+        padding: 0;
 
         &:hover {
-            border-color: #b42318;
-            background: #b42318;
-            color: #fff;
+            border-color: #f2b84b;
+            color: #f2b84b;
         }
     }
 }
@@ -66,51 +70,52 @@
 .foot-latest-grid {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 1rem;
+    gap: 0.85rem;
 }
 
 .foot-column {
     min-width: 0;
-    border: 1px solid rgba(23, 27, 36, 0.1);
-    border-radius: 0.5rem;
-    background: #fff;
-    padding: 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.11);
+    border-radius: 0.45rem;
+    background: rgba(255, 255, 255, 0.045);
+    padding: 0.95rem;
 }
 
 .foot-title {
-    margin-bottom: 0.75rem;
-    color: #b42318;
-    font-size: 0.76rem;
+    margin-bottom: 0.72rem;
+    color: #f2b84b;
+    font-size: 0.74rem;
     font-weight: 900;
     letter-spacing: 0;
+    line-height: 1;
     text-transform: uppercase;
 }
 
 .foot-link-list {
     display: grid;
-    gap: 0.58rem;
+    gap: 0.56rem;
     list-style: none;
     margin: 0;
     padding: 0;
 
     a {
-        @include line-truncate(2, 1.28rem);
-        color: rgba(23, 27, 36, 0.74);
-        font-size: 0.9rem;
-        font-weight: 700;
+        @include line-truncate(2, 1.25rem);
+        color: rgba(255, 255, 255, 0.74);
+        font-size: 0.88rem;
+        font-weight: 750;
 
         &:hover {
-            color: #b42318;
+            color: #fff;
         }
     }
 }
 
 .foot-bottom {
-    margin-top: 1.7rem;
-    border-top: 1px solid rgba(23, 27, 36, 0.12);
-    color: rgba(23, 27, 36, 0.54);
-    font-size: 0.84rem;
-    padding-top: 1rem;
+    margin-top: 1.55rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.82rem;
+    padding-top: 0.95rem;
 }
 
 @media (max-width: 991.98px) {
@@ -122,16 +127,19 @@
 
 @media (max-width: 767.98px) {
     .latest-footer {
-        margin-top: 0;
-        padding: 2rem 0 1.4rem;
+        padding: 2rem 0 1.35rem;
     }
 
     .foot-wrapper {
-        gap: 1.35rem;
+        gap: 1.3rem;
     }
 
     .foot-description {
         max-width: none;
+    }
+
+    .foot-latest-grid {
+        gap: 0.75rem;
     }
 
     .foot-link-list {

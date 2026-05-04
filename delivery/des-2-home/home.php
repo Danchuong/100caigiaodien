@@ -43,6 +43,18 @@ if ( ! function_exists( 'des2_post_image' ) ) {
 	}
 }
 
+if ( ! function_exists( 'des2_post_excerpt' ) ) {
+	function des2_post_excerpt( $post_id, $word_count = 24 ) {
+		$excerpt = get_the_excerpt( $post_id );
+
+		if ( ! $excerpt ) {
+			$excerpt = get_post_field( 'post_content', $post_id );
+		}
+
+		return wp_trim_words( wp_strip_all_tags( strip_shortcodes( $excerpt ) ), $word_count );
+	}
+}
+
 if ( ! function_exists( 'des2_post_label' ) ) {
 	function des2_post_label( $post_id, $fallback ) {
 		$tags = get_the_terms( $post_id, 'post_tag' );
@@ -52,6 +64,35 @@ if ( ! function_exists( 'des2_post_label' ) ) {
 		}
 
 		return $fallback;
+	}
+}
+
+if ( ! function_exists( 'des2_game_rating' ) ) {
+	function des2_game_rating( $post_id ) {
+		$ratings = array( 35, 40, 45, 50 );
+
+		return $ratings[ absint( $post_id ) % count( $ratings ) ];
+	}
+}
+
+if ( ! function_exists( 'des2_render_game_stars' ) ) {
+	function des2_render_game_stars( $post_id ) {
+		$rating       = des2_game_rating( $post_id );
+		$rating_label = number_format_i18n( $rating / 10, 1 );
+		$full_stars   = (int) floor( $rating / 10 );
+		$has_half     = 5 === $rating % 10;
+		ob_start();
+		?>
+		<div class="game-rating" aria-label="<?php echo esc_attr( sprintf( __( '%s out of 5 stars', 'h5game' ), $rating_label ) ); ?>">
+			<span class="game-stars" aria-hidden="true">
+				<?php for ( $star = 1; $star <= 5; $star++ ) : ?>
+					<span class="game-star <?php echo esc_attr( $star <= $full_stars ? 'is-filled' : ( $has_half && $star === $full_stars + 1 ? 'is-half' : '' ) ); ?>">&#9733;</span>
+				<?php endfor; ?>
+			</span>
+			<span class="game-rating-value"><?php echo esc_html( $rating_label ); ?></span>
+		</div>
+		<?php
+		return ob_get_clean();
 	}
 }
 
@@ -81,6 +122,8 @@ if ( empty( $desk_news ) ) {
 							<div class="lead-story-content">
 								<span class="story-label"><?php echo esc_html( des2_post_label( $lead_post->ID, 'Blog' ) ); ?></span>
 								<h1><?php echo esc_html( get_the_title( $lead_post ) ); ?></h1>
+								<p><?php echo esc_html( des2_post_excerpt( $lead_post->ID, 24 ) ); ?></p>
+								<span class="lead-story-date"><?php echo esc_html( get_the_date( 'M j', $lead_post ) ); ?></span>
 							</div>
 						</a>
 					<?php endif; ?>
@@ -163,15 +206,16 @@ if ( empty( $desk_news ) ) {
 			<div class="game-strip-list">
 				<?php foreach ( $game_posts as $index => $game_post ) : ?>
 					<a class="game-strip-card" href="<?php echo esc_url( get_permalink( $game_post ) ); ?>">
-						<div class="game-strip-media">
-							<?php echo des2_post_image( $game_post->ID, 'game-strip-media' ); ?>
-						</div>
-						<div class="game-strip-content">
-							<span><?php echo esc_html( des2_post_label( $game_post->ID, 'Game' ) ); ?></span>
-							<h3><?php echo esc_html( get_the_title( $game_post ) ); ?></h3>
-						</div>
-					</a>
-				<?php endforeach; ?>
+							<div class="game-strip-media">
+								<?php echo des2_post_image( $game_post->ID, 'game-strip-media' ); ?>
+							</div>
+							<div class="game-strip-content">
+								<span><?php echo esc_html( des2_post_label( $game_post->ID, 'Game' ) ); ?></span>
+								<h3><?php echo esc_html( get_the_title( $game_post ) ); ?></h3>
+								<?php echo des2_render_game_stars( $game_post->ID ); ?>
+							</div>
+						</a>
+					<?php endforeach; ?>
 			</div>
 		</div>
 	</section>

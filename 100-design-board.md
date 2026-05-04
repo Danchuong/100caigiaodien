@@ -9,7 +9,8 @@ Luật chung vẫn nằm ở `100-home-styles.md`; yêu cầu khách hàng vẫn
 | Designs | Status | Count | Meaning | Next action |
 | --- | --- | ---: | --- | --- |
 | `des-1` | `Rework` | 1 | Khách feedback banner yếu và tablet/iPad chưa mượt. | Rework theo `yeucau.md`, brief và QA lại. |
-| `des-2` tới `des-3` | `Accepted` | 2 | Khách đã duyệt. | Không sửa nếu khách không yêu cầu. |
+| `des-2` | `Delivery Ready` | 1 | Đã audit lại theo chuẩn mới và có zip/delivery. | Chờ khách duyệt lại bản uplift. |
+| `des-3` | `Accepted` | 1 | Khách đã duyệt. | Không sửa nếu khách không yêu cầu. |
 | `des-4` tới `des-7` | `Delivery Ready` | 4 | Đã có bản giao và zip/delivery. | Chờ khách duyệt hoặc ship lại khi cần. |
 | `des-8` tới `des-10` | `Needs Audit` | 3 | Có source/folder từ batch cũ, chưa kiểm theo rule mới. | Audit, tạo brief, QA lại trước khi ship. |
 | `des-11` tới `des-100` | `Spec Ready` | 90 | Có spec/fingerprint, chưa build. | Điền Refero source, tạo brief, rồi mới code. |
@@ -86,7 +87,7 @@ Progress note: Đã mở retro brief tại `docs/design-research/des-briefs/des-
 
 ### des-2 - Lead Left With Trending Rail
 
-Status: Accepted
+Status: Delivery Ready
 Family: Magazine front page
 Compare against: des-1, h5game original
 Similarity risk: Low
@@ -96,7 +97,8 @@ Refero source: `docs/refero/styles/openweb-c38d077b/DESIGN.md`
 Refero role: Primary - modern news/media lead with discussion/news platform structure.
 Use for: lead-left/trending-rail anatomy, calm section rhythm, linked story modules, global header/footer restraint.
 Avoid: parchment/old-news feeling, serif typography, fake community/comment modules, or sparse SaaS spacing.
-New-standard audit: Pending - recheck banner image/title/short description, denser useful links, mobile stack, and game-specific tone before any future rework.
+New-standard audit: Passed - banner có image/title/short description, game cards có sao ổn định theo post ID, mobile search/menu là floating panel, logo không wrap.
+Progress note: Đã tạo `docs/design-research/des-briefs/des-2.md`, uplift visual theo gaming magazine desk, build `style.css`, refresh `delivery/des-2-home.zip`.
 
 - Header: H01/H02 hybrid; light masthead, compact primary nav, floating mobile stack.
 - Above-fold: editorial/news-led; lead story left, trending rail right.
