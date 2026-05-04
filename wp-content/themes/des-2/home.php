@@ -96,15 +96,32 @@ if ( ! function_exists( 'des2_render_game_stars' ) ) {
 	}
 }
 
-$blog_posts    = des2_get_posts( 'blog', 12 );
-$review_posts  = des2_get_posts( 'review', 5 );
-$game_posts    = des2_get_posts( 'post', 5 );
-$lead_post     = ! empty( $blog_posts ) ? $blog_posts[0] : null;
-$trending_news = array_slice( $blog_posts, 1, 4 );
-$desk_news     = array_slice( $blog_posts, 5, 4 );
+$blog_posts         = des2_get_posts( 'blog', 20 );
+$all_review_posts   = des2_get_posts( 'review', 12 );
+$all_game_posts     = des2_get_posts( 'post', 12 );
+$review_posts       = array_slice( $all_review_posts, 0, 8 );
+$game_posts         = array_slice( $all_game_posts, 0, 8 );
+$lead_post          = ! empty( $blog_posts ) ? $blog_posts[0] : null;
+$trending_news      = array_slice( $blog_posts, 1, 5 );
+$desk_news          = array_slice( $blog_posts, 6, 6 );
+$pulse_news         = array_slice( $blog_posts, 12, 4 );
+$pulse_review_posts = array_slice( $all_review_posts, 8, 4 );
+$pulse_game_posts   = array_slice( $all_game_posts, 8, 4 );
 
 if ( empty( $desk_news ) ) {
-	$desk_news = array_slice( $blog_posts, 1, 4 );
+	$desk_news = array_slice( $blog_posts, 1, 6 );
+}
+
+if ( empty( $pulse_news ) ) {
+	$pulse_news = array_slice( $blog_posts, 1, 4 );
+}
+
+if ( empty( $pulse_review_posts ) ) {
+	$pulse_review_posts = array_slice( $all_review_posts, 0, 4 );
+}
+
+if ( empty( $pulse_game_posts ) ) {
+	$pulse_game_posts = array_slice( $all_game_posts, 0, 4 );
 }
 ?>
 
@@ -137,6 +154,7 @@ if ( empty( $desk_news ) ) {
 						<?php foreach ( $trending_news as $index => $rail_post ) : ?>
 							<a class="rail-item" href="<?php echo esc_url( get_permalink( $rail_post ) ); ?>">
 								<span class="rail-number"><?php echo esc_html( str_pad( (string) ( $index + 1 ), 2, '0', STR_PAD_LEFT ) ); ?></span>
+								<div class="rail-media"><?php echo des2_post_image( $rail_post->ID, 'rail-media' ); ?></div>
 								<span class="rail-title"><?php echo esc_html( get_the_title( $rail_post ) ); ?></span>
 							</a>
 						<?php endforeach; ?>
@@ -183,9 +201,12 @@ if ( empty( $desk_news ) ) {
 			<div class="review-pick-grid">
 				<?php foreach ( $review_posts as $index => $review_post ) : ?>
 					<a class="review-pick-card" href="<?php echo esc_url( get_permalink( $review_post ) ); ?>">
-						<span><?php echo esc_html( des2_post_label( $review_post->ID, 'Review' ) ); ?></span>
-						<div class="review-pick-number"><?php echo esc_html( str_pad( (string) ( $index + 1 ), 2, '0', STR_PAD_LEFT ) ); ?></div>
+						<div class="review-pick-media">
+							<?php echo des2_post_image( $review_post->ID, 'review-pick-media' ); ?>
+							<span class="review-pick-number"><?php echo esc_html( str_pad( (string) ( $index + 1 ), 2, '0', STR_PAD_LEFT ) ); ?></span>
+						</div>
 						<div class="review-pick-content">
+							<span><?php echo esc_html( des2_post_label( $review_post->ID, 'Review' ) ); ?></span>
 							<h3><?php echo esc_html( get_the_title( $review_post ) ); ?></h3>
 						</div>
 					</a>
@@ -206,16 +227,89 @@ if ( empty( $desk_news ) ) {
 			<div class="game-strip-list">
 				<?php foreach ( $game_posts as $index => $game_post ) : ?>
 					<a class="game-strip-card" href="<?php echo esc_url( get_permalink( $game_post ) ); ?>">
-							<div class="game-strip-media">
-								<?php echo des2_post_image( $game_post->ID, 'game-strip-media' ); ?>
-							</div>
-							<div class="game-strip-content">
-								<span><?php echo esc_html( des2_post_label( $game_post->ID, 'Game' ) ); ?></span>
-								<h3><?php echo esc_html( get_the_title( $game_post ) ); ?></h3>
-								<?php echo des2_render_game_stars( $game_post->ID ); ?>
-							</div>
-						</a>
-					<?php endforeach; ?>
+						<div class="game-strip-media">
+							<?php echo des2_post_image( $game_post->ID, 'game-strip-media' ); ?>
+						</div>
+						<div class="game-strip-content">
+							<span><?php echo esc_html( des2_post_label( $game_post->ID, 'Game' ) ); ?></span>
+							<h3><?php echo esc_html( get_the_title( $game_post ) ); ?></h3>
+							<?php echo des2_render_game_stars( $game_post->ID ); ?>
+						</div>
+					</a>
+				<?php endforeach; ?>
+			</div>
+		</div>
+	</section>
+
+	<section class="media-pulse-section">
+		<div class="container">
+			<div class="section-head">
+				<div>
+					<span class="section-eyebrow">Latest updates</span>
+					<h2 class="section-title">More Game Coverage</h2>
+				</div>
+			</div>
+			<div class="media-pulse-grid">
+				<div class="pulse-column pulse-column-large">
+					<div class="pulse-column-head">
+						<span>Latest Blogs</span>
+						<a href="<?php echo esc_url( home_url( '/blogs/' ) ); ?>">View all</a>
+					</div>
+					<div class="pulse-list">
+						<?php foreach ( $pulse_news as $pulse_post ) : ?>
+							<a class="pulse-story-card" href="<?php echo esc_url( get_permalink( $pulse_post ) ); ?>">
+								<div class="pulse-media">
+									<?php echo des2_post_image( $pulse_post->ID, 'pulse-media' ); ?>
+								</div>
+								<div class="pulse-content">
+									<span><?php echo esc_html( get_the_date( 'M j', $pulse_post ) ); ?></span>
+									<h3><?php echo esc_html( get_the_title( $pulse_post ) ); ?></h3>
+								</div>
+							</a>
+						<?php endforeach; ?>
+					</div>
+				</div>
+
+				<div class="pulse-column">
+					<div class="pulse-column-head">
+						<span>Review Watch</span>
+						<a href="<?php echo esc_url( home_url( '/reviews/' ) ); ?>">View all</a>
+					</div>
+					<div class="pulse-list">
+						<?php foreach ( $pulse_review_posts as $pulse_post ) : ?>
+							<a class="pulse-row-card" href="<?php echo esc_url( get_permalink( $pulse_post ) ); ?>">
+								<div class="pulse-media">
+									<?php echo des2_post_image( $pulse_post->ID, 'pulse-media' ); ?>
+								</div>
+								<div class="pulse-content">
+									<span><?php echo esc_html( des2_post_label( $pulse_post->ID, 'Review' ) ); ?></span>
+									<h3><?php echo esc_html( get_the_title( $pulse_post ) ); ?></h3>
+								</div>
+							</a>
+						<?php endforeach; ?>
+					</div>
+				</div>
+
+				<div class="pulse-column">
+					<div class="pulse-column-head">
+						<span>Game Queue</span>
+						<a href="<?php echo esc_url( home_url( '/html5-games/' ) ); ?>">View all</a>
+					</div>
+					<div class="pulse-list">
+						<?php foreach ( $pulse_game_posts as $pulse_post ) : ?>
+							<a class="pulse-row-card" href="<?php echo esc_url( get_permalink( $pulse_post ) ); ?>">
+								<div class="pulse-media">
+									<?php echo des2_post_image( $pulse_post->ID, 'pulse-media' ); ?>
+								</div>
+								<div class="pulse-content">
+									<span><?php echo esc_html( des2_post_label( $pulse_post->ID, 'Game' ) ); ?></span>
+									<h3><?php echo esc_html( get_the_title( $pulse_post ) ); ?></h3>
+									<?php echo des2_render_game_stars( $pulse_post->ID ); ?>
+								</div>
+							</a>
+						<?php endforeach; ?>
+					</div>
+				</div>
 			</div>
 		</div>
 	</section>

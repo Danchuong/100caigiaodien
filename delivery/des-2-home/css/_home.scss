@@ -76,14 +76,20 @@
 }
 
 .lead-left-home .lead-story-media,
+.lead-left-home .rail-media,
+.lead-left-home .review-pick-media,
 .lead-left-home .news-card-media,
-.lead-left-home .game-strip-media {
+.lead-left-home .game-strip-media,
+.lead-left-home .pulse-media {
     background: #111827;
 }
 
 .lead-left-home .lead-story-media img,
+.lead-left-home .rail-media img,
+.lead-left-home .review-pick-media img,
 .lead-left-home .news-card-media img,
-.lead-left-home .game-strip-media img {
+.lead-left-home .game-strip-media img,
+.lead-left-home .pulse-media img {
     display: block;
     width: 100%;
     height: 100%;
@@ -91,8 +97,11 @@
 }
 
 .lead-left-home .lead-story-media-placeholder,
+.lead-left-home .rail-media-placeholder,
+.lead-left-home .review-pick-media-placeholder,
 .lead-left-home .news-card-media-placeholder,
-.lead-left-home .game-strip-media-placeholder {
+.lead-left-home .game-strip-media-placeholder,
+.lead-left-home .pulse-media-placeholder {
     display: flex;
     width: 100%;
     height: 100%;
@@ -105,6 +114,13 @@
     font-weight: 900;
 }
 
+.lead-left-home .rail-media-placeholder,
+.lead-left-home .review-pick-media-placeholder,
+.lead-left-home .pulse-media-placeholder {
+    min-height: 100%;
+    font-size: 1.15rem;
+}
+
 .lead-left-home .lead-story-content {
     display: flex;
     min-width: 0;
@@ -115,8 +131,9 @@
 
 .lead-left-home .story-label,
 .lead-left-home .news-card-content span,
-.lead-left-home .review-pick-card span,
-.lead-left-home .game-strip-content span {
+.lead-left-home .review-pick-content span,
+.lead-left-home .game-strip-content span,
+.lead-left-home .pulse-content span {
     color: #b42318;
     font-size: 0.72rem;
     font-weight: 900;
@@ -200,12 +217,12 @@
 
 .lead-left-home .rail-item {
     display: grid;
-    grid-template-columns: 2.35rem minmax(0, 1fr);
-    gap: 0.65rem;
+    grid-template-columns: 2.25rem 4.35rem minmax(0, 1fr);
+    gap: 0.62rem;
     align-items: center;
     border-bottom: 1px solid rgba(255, 255, 255, 0.11);
     color: #fff;
-    padding: 0.78rem 0.9rem;
+    padding: 0.64rem 0.82rem;
 
     &:hover {
         background: rgba(255, 255, 255, 0.07);
@@ -219,9 +236,16 @@
 
 .lead-left-home .rail-number {
     color: #f2b84b;
-    font-size: 1.16rem;
+    font-size: 1.08rem;
     font-weight: 900;
     line-height: 1;
+}
+
+.lead-left-home .rail-media {
+    display: block;
+    overflow: hidden;
+    aspect-ratio: 4 / 3;
+    border-radius: 0.32rem;
 }
 
 .lead-left-home .rail-title {
@@ -233,7 +257,8 @@
 
 .lead-left-home .news-desk-section,
 .lead-left-home .review-pick-section,
-.lead-left-home .game-strip-section {
+.lead-left-home .game-strip-section,
+.lead-left-home .media-pulse-section {
     margin-bottom: 2.45rem;
 }
 
@@ -274,7 +299,7 @@
 
 .lead-left-home .news-mixed-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
     gap: 0.85rem;
 }
 
@@ -328,19 +353,18 @@
 }
 
 .lead-left-home .review-pick-grid {
-    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(10.8rem, 1fr));
 }
 
 .lead-left-home .review-pick-card {
     display: grid;
-    min-height: 8.8rem;
-    grid-template-rows: auto auto 1fr;
-    gap: 0.45rem;
+    grid-template-rows: auto minmax(0, 1fr);
+    gap: 0.68rem;
     border: 1px solid rgba(21, 26, 37, 0.12);
     border-radius: 0.45rem;
     background: #fff;
     color: #151a25;
-    padding: 0.9rem;
+    padding: 0.72rem;
 
     &:hover {
         border-color: rgba(180, 35, 24, 0.34);
@@ -350,23 +374,40 @@
     }
 }
 
+.lead-left-home .review-pick-media {
+    position: relative;
+    overflow: hidden;
+    aspect-ratio: 16 / 10;
+    border-radius: 0.35rem;
+}
+
 .lead-left-home .review-pick-number {
-    color: rgba(21, 26, 37, 0.24);
-    font-size: 2rem;
+    position: absolute;
+    right: 0.45rem;
+    bottom: 0.45rem;
+    display: inline-flex;
+    min-width: 2.1rem;
+    min-height: 1.75rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.28rem;
+    background: rgba(17, 24, 39, 0.88);
+    color: #f2b84b;
+    font-size: 0.86rem;
     font-weight: 900;
     line-height: 1;
 }
 
 .lead-left-home .review-pick-content h3 {
-    @include line-truncate(3, 1.28rem);
-    margin: 0;
+    @include line-truncate(3, 1.22rem);
+    margin: 0.34rem 0 0;
     color: #151a25;
     font-size: 0.95rem;
     font-weight: 900;
 }
 
 .lead-left-home .game-strip-list {
-    grid-template-columns: repeat(auto-fit, minmax(9.8rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(9.3rem, 1fr));
 }
 
 .lead-left-home .game-strip-card {
@@ -418,6 +459,108 @@
     color: rgba(21, 26, 37, 0.64);
 }
 
+.lead-left-home .media-pulse-section {
+    margin-bottom: 2.2rem;
+}
+
+.lead-left-home .media-pulse-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1.16fr) minmax(14rem, 0.92fr) minmax(14rem, 0.92fr);
+    gap: 0.9rem;
+}
+
+.lead-left-home .pulse-column {
+    display: flex;
+    min-width: 0;
+    flex-direction: column;
+    overflow: hidden;
+    border: 1px solid rgba(21, 26, 37, 0.12);
+    border-radius: 0.45rem;
+    background: #fff;
+}
+
+.lead-left-home .pulse-column-head {
+    display: flex;
+    min-height: 3rem;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.75rem;
+    border-bottom: 1px solid rgba(21, 26, 37, 0.1);
+    background: #f8f3ed;
+    padding: 0 0.86rem;
+
+    span,
+    a {
+        font-size: 0.76rem;
+        font-weight: 900;
+        letter-spacing: 0;
+        line-height: 1;
+        text-transform: uppercase;
+    }
+
+    span {
+        color: #151a25;
+    }
+
+    a {
+        color: #b42318;
+    }
+}
+
+.lead-left-home .pulse-list {
+    display: grid;
+}
+
+.lead-left-home .pulse-story-card,
+.lead-left-home .pulse-row-card {
+    display: grid;
+    grid-template-columns: 5.6rem minmax(0, 1fr);
+    gap: 0.78rem;
+    align-items: stretch;
+    border-bottom: 1px solid rgba(21, 26, 37, 0.09);
+    color: #151a25;
+    padding: 0.78rem;
+
+    &:hover {
+        background: rgba(216, 154, 29, 0.08);
+        color: #151a25;
+    }
+
+    &:last-child {
+        border-bottom: 0;
+    }
+}
+
+.lead-left-home .pulse-column-large .pulse-story-card {
+    grid-template-columns: 7rem minmax(0, 1fr);
+}
+
+.lead-left-home .pulse-media {
+    overflow: hidden;
+    min-height: 4.8rem;
+    border-radius: 0.35rem;
+}
+
+.lead-left-home .pulse-content {
+    display: flex;
+    min-width: 0;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.lead-left-home .pulse-content h3 {
+    @include line-truncate(2, 1.22rem);
+    margin: 0.34rem 0 0;
+    color: #151a25;
+    font-size: 0.94rem;
+    font-weight: 900;
+}
+
+.lead-left-home .pulse-content .game-rating {
+    margin-top: 0.48rem;
+    padding-top: 0;
+}
+
 @media (max-width: 1199.98px) {
     .lead-left-home .lead-news-wrapper {
         grid-template-columns: minmax(0, 1fr);
@@ -428,12 +571,19 @@
     }
 
     .lead-left-home .rail-list {
-        grid-template-columns: repeat(4, minmax(0, 1fr));
+        grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 
     .lead-left-home .rail-item {
-        grid-template-columns: 1fr;
-        gap: 0.26rem;
+        grid-template-columns: 2.15rem 4rem minmax(0, 1fr);
+    }
+
+    .lead-left-home .media-pulse-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .lead-left-home .pulse-column-large {
+        grid-column: 1 / -1;
     }
 }
 
@@ -449,9 +599,6 @@
         line-height: 1.13;
     }
 
-    .lead-left-home .rail-list {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
 }
 
 @media (max-width: 767.98px) {
@@ -496,20 +643,23 @@
     .lead-left-home .rail-list,
     .lead-left-home .news-mixed-grid,
     .lead-left-home .review-pick-grid,
-    .lead-left-home .game-strip-list {
+    .lead-left-home .game-strip-list,
+    .lead-left-home .media-pulse-grid {
         grid-template-columns: 1fr;
     }
 
     .lead-left-home .rail-item,
     .lead-left-home .news-small-card,
-    .lead-left-home .game-strip-card {
+    .lead-left-home .game-strip-card,
+    .lead-left-home .pulse-story-card,
+    .lead-left-home .pulse-row-card {
         display: grid;
         grid-template-columns: 5.4rem minmax(0, 1fr);
         min-height: 5.8rem;
     }
 
     .lead-left-home .rail-item {
-        grid-template-columns: 2.35rem minmax(0, 1fr);
+        grid-template-columns: 2.15rem 4.4rem minmax(0, 1fr);
         padding: 0.72rem 0.85rem;
     }
 
@@ -525,24 +675,32 @@
         min-height: 0;
     }
 
+    .lead-left-home .pulse-column-large {
+        grid-column: auto;
+    }
+
+    .lead-left-home .pulse-column-large .pulse-story-card {
+        grid-template-columns: 5.4rem minmax(0, 1fr);
+    }
+
+    .lead-left-home .pulse-media {
+        min-height: 5rem;
+    }
+
     .lead-left-home .review-pick-card {
         min-height: 0;
-        grid-template-columns: auto minmax(0, 1fr);
-        grid-template-rows: auto auto;
-        align-items: center;
+        grid-template-columns: 5.4rem minmax(0, 1fr);
+        grid-template-rows: auto;
+        align-items: stretch;
     }
 
-    .lead-left-home .review-pick-card span {
-        grid-column: 2;
-    }
-
-    .lead-left-home .review-pick-number {
-        grid-row: 1 / span 2;
-        font-size: 1.55rem;
+    .lead-left-home .review-pick-media {
+        aspect-ratio: auto;
     }
 
     .lead-left-home .review-pick-content {
-        grid-column: 2;
+        min-width: 0;
+        align-self: center;
     }
 
     .lead-left-home .section-head {
@@ -566,9 +724,20 @@
         gap: 0.55rem;
     }
 
-    .lead-left-home .rail-item,
     .lead-left-home .news-small-card,
-    .lead-left-home .game-strip-card {
+    .lead-left-home .game-strip-card,
+    .lead-left-home .pulse-story-card,
+    .lead-left-home .pulse-row-card {
+        grid-template-columns: 4.85rem minmax(0, 1fr);
+    }
+
+    .lead-left-home .rail-item {
+        grid-template-columns: 1.75rem 3.8rem minmax(0, 1fr);
+        gap: 0.5rem;
+        padding: 0.64rem;
+    }
+
+    .lead-left-home .pulse-column-large .pulse-story-card {
         grid-template-columns: 4.85rem minmax(0, 1fr);
     }
 
