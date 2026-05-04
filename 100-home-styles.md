@@ -4,6 +4,30 @@ File này là nguồn chính để giao việc và nghiệm thu 100 theme `des-1
 
 Mục tiêu không phải tạo 100 bản đổi màu. Mỗi theme phải có **home + header global + footer global** khác rõ về cấu trúc, nhưng vẫn an toàn cho các trang ngoài home. Nếu mâu thuẫn với ghi chú cũ, ưu tiên `yeucau.md`, sau đó tới file này.
 
+## AI Operating Model
+
+Để AI làm 100 design ổn định, chỉ dùng một luồng nguồn như sau:
+
+1. `yeucau.md`: luật khách hàng và guardrail cứng. Không bỏ qua.
+2. `100-home-styles.md`: bảng điều phối 100 style, status, fingerprint, archetype.
+3. `docs/design-research/des-briefs/des-N.md`: brief thực thi cho đúng `des-N`.
+4. `docs/getdesign/*/DESIGN.md`: nguồn form/layout chính.
+5. `docs/refero/styles/*/DESIGN.md`: nguồn token/polish/component phụ.
+6. Source theme `wp-content/themes/des-N`: chỉ sửa sau khi brief đã chốt.
+
+Không để agent tự đọc toàn bộ `docs/refero` hoặc toàn bộ `docs/getdesign`. Mỗi lần làm `des-N`, context tối thiểu chỉ gồm:
+
+```text
+yeucau.md
+100-home-styles.md: phần Current Truth + rule chung + block đúng des-N
+docs/design-research/des-briefs/des-N.md
+Getdesign source trong brief
+Refero source trong brief
+Source theme des-N cần sửa
+```
+
+Nếu chưa có brief cho `des-N`, dừng ở bước tạo brief. Không code từ cảm tính.
+
 ## Current Truth
 
 - `des-1`: `Accepted`.
@@ -39,6 +63,8 @@ Rejected        = bỏ style này.
 
 Một `des-N` chỉ được xem là xong khi:
 
+- Có brief đúng tên trong `docs/design-research/des-briefs/des-N.md` nếu là build/rework từ thời điểm áp dụng workflow này trở đi.
+- Brief có đủ `Getdesign source`, `Refero source`, direction, fingerprint và out-of-scope guard.
 - Header, home, footer khác rõ ít nhất 8/12 fingerprint dimensions so với style đã ship gần nhất.
 - Header/footer là global, dùng được ở home, blog detail, review detail, game detail, archive và search.
 - Header/footer ưu tiên base trắng, đen hoặc navy; khác biệt đến từ anatomy/content/behavior, không phải màu lạ.
@@ -93,17 +119,100 @@ Mỗi `des-N` phải có một dòng `Getdesign source` trỏ tới `docs/getdes
 - Nếu `Getdesign source` mâu thuẫn với `yeucau.md`, ưu tiên `yeucau.md`.
 - Với `des-1`, `des-2`, `des-3` đã `Accepted`, source chỉ là mốc chuẩn hóa/đối chiếu khi audit về sau, không tự ý redesign lại.
 
-## Design Research Standard
+## Source Stack Standard
 
 Trước khi build hoặc redesign một `des-N`, phải có brief ngắn trong `docs/design-research/des-briefs/des-N.md`.
 
-Brief tối thiểu phải chọn:
+Các bản `Accepted` hoặc `Delivery Ready` trước workflow này vẫn giữ status hiện tại. Nếu mở lại để sửa, audit hoặc rework, tạo retro-brief trước khi đụng source.
+
+Brief tối thiểu phải chọn và khóa:
 
 - Một `Getdesign source` local.
-- Một `Refero source` từ `https://styles.refero.design/` hoặc `docs/design-research/refero-source-pool.md`.
+- Một `Refero source` local từ `docs/refero/styles/*/DESIGN.md` kèm URL gốc nếu có.
 - Một hướng game/news/directory để đảm bảo style không lạc chủ đề game.
+- Một cặp header/footer archetype không trùng quá gần.
+- Một above-fold role có banner hình, title và description ngắn.
+- Một mobile behavior cho search/menu.
+- Một danh sách file không được chạm.
 
-Không code từ cảm tính. Brief phải chốt trước: header anatomy, footer anatomy, above-fold role, banner image contract, density contract, mobile search/menu behavior và các file ngoài scope không được chạm.
+Refero không thay thế getdesign. Getdesign quyết định form lớn; Refero chỉ bổ sung:
+
+- token màu/type/spacing/radius;
+- anatomy component;
+- cách xử lý density;
+- polish cho header/footer/mobile;
+- mood vừa đủ để tránh generic AI UI.
+
+Không copy nguyên brand/source site. Không dùng cùng `Getdesign source + Refero source + Header Archetype + Footer Archetype + Above-fold role` cho hai style gần nhau.
+
+## AI Build Protocol
+
+Khi bắt đầu một `des-N`, làm theo thứ tự:
+
+1. Đọc `yeucau.md`.
+2. Đọc block `des-N` trong file này.
+3. Nếu chưa có brief, tạo `docs/design-research/des-briefs/des-N.md` từ `docs/design-research/brief-template.md`.
+4. Chọn `Getdesign source` theo block `des-N`; chỉ đổi nếu có lý do rõ và update lại block này.
+5. Chọn `Refero source` từ `docs/design-research/refero-source-pool.md` hoặc tìm bằng `docs/refero/catalog.csv`.
+6. Viết fingerprint khác biệt trước khi sửa code.
+7. Sửa đúng file trong scope.
+8. Build `style.css`.
+9. Chạy QA checklist và forbidden scan.
+10. Copy delivery nếu đã pass.
+
+Nếu trong lúc code phát hiện brief sai, sửa brief trước rồi mới code tiếp. Không để source và brief lệch nhau.
+
+## Batch Planning Rule
+
+Mỗi batch 4 design nên chia vai trò khác nhau để tránh giống nhau:
+
+```text
+1 media-heavy gaming portal
+1 white compact directory/search-first
+1 dark command/review hub
+1 editorial/newswire hoặc blueprint/archive
+```
+
+Trong cùng batch không reuse:
+
+- cùng `Getdesign source`;
+- cùng `Refero source`;
+- cùng cặp header/footer archetype;
+- cùng first-viewport composition;
+- cùng card/media primitive.
+
+## Refero Rotation Rule
+
+Không gán cứng Refero source cho toàn bộ 100 style trong file này, vì source phụ có thể cần đổi theo feedback khách. Tuy nhiên mỗi brief phải chọn Refero theo vòng xoay sau để agent không lặp mood:
+
+| Batch slot | Refero group | Dùng cho |
+| --- | --- | --- |
+| A | Direct gaming/media | Banner hình, game portal, media-heavy homepage. |
+| B | Command and review desk | Review hub, dark dashboard, dense queue. |
+| C | Directory and compact utility | Search-first, archive, game catalog, table/list. |
+| D | Editorial/media typography hoặc visual discovery | Blog/newswire, magazine, visual board, product grid. |
+
+Ví dụ:
+
+```text
+des-8  -> slot A hoặc nhóm khác nếu block des-8 yêu cầu editorial rõ hơn
+des-9  -> slot B/C tùy source getdesign
+des-10 -> slot C/B nếu review hub
+des-11 -> slot D/A nếu cần đổi silhouette
+```
+
+Quy tắc chọn cuối cùng:
+
+- Nếu `Getdesign source` đã media/game-heavy, Refero nên bổ sung token/component chứ không chọn thêm source quá giống.
+- Nếu `Getdesign source` là SaaS/dev/product, Refero nên kéo concept về game/media.
+- Nếu layout có nguy cơ cổ/báo giấy, Refero phải là source sans-serif hiện đại hoặc gaming/media.
+- Nếu 2 design gần nhau dùng cùng source family, đổi Refero group trước khi code.
+
+Pool đã lọc nằm ở:
+
+```text
+docs/design-research/refero-source-pool.md
+```
 
 ## Header Archetypes
 

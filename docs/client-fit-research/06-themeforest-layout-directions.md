@@ -7,7 +7,7 @@ Tài liệu này tổng hợp các hướng bố cục thường thấy ở nhó
 Nguồn nội bộ đã đọc:
 
 - `yeucau.md`
-- `docs/100-home-styles.md`
+- `100-home-styles.md`
 
 Nguồn tham khảo công khai đã rà soát ở mức định hướng:
 

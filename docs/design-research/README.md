@@ -1,53 +1,127 @@
-# Design research workflow
+# Design Research Workflow
 
-Mục tiêu của thư mục này là nâng chất lượng thiết kế trước khi code, đặc biệt cho các `des-N` còn lại. Không bắt đầu sửa giao diện mới nếu chưa có brief ngắn theo template trong thư mục này.
+Thư mục này là lớp chuẩn bị trước khi code 100 theme `des-N`. Mục tiêu là giúp AI làm nhanh nhưng không bị loạn nguồn, không tạo các bản chỉ khác màu, và không phá route ngoài home.
 
-## Vì sao cần bước này
+## Vai trò từng file
 
-Khách không muốn 100 giao diện chỉ khác màu hoặc đổi section nhẹ. Mỗi bản phải có form khác rõ, nhưng vẫn đúng luật WordPress/theme hiện tại:
+| File/thư mục | Vai trò |
+| --- | --- |
+| `yeucau.md` | Luật khách hàng, guardrail cứng, ưu tiên cao nhất. |
+| `100-home-styles.md` | Master list 100 style, status, archetype, fingerprint. |
+| `docs/design-research/brief-template.md` | Template bắt buộc để tạo brief cho từng `des-N`. |
+| `docs/design-research/des-briefs/des-N.md` | Gói context chính khi implement một theme cụ thể. |
+| `docs/design-research/refero-source-pool.md` | Pool Refero đã lọc để chọn nhanh nguồn phụ. |
+| `docs/getdesign/*/DESIGN.md` | Nguồn form/layout chính cho từng style. |
+| `docs/refero/styles/*/DESIGN.md` | Nguồn token/polish/component phụ, tra cứu cục bộ. |
 
-- Header và footer là global, không chỉ đẹp ở homepage.
-- Home dày thông tin, có ít nhất một banner/featured block có hình, title và mô tả ngắn.
-- Không dùng serif/font có chân.
-- Theme phải hợp game/news/review, không tạo cảm giác báo cổ.
-- Không sửa `reviews.php`, `search.php`, `css/_reviews.scss` nếu khách không yêu cầu đích danh.
+## Nguồn ưu tiên
 
-## Nguồn nghiên cứu bắt buộc
+Nếu có mâu thuẫn, ưu tiên theo thứ tự:
 
-Mỗi `des-N` mới nên dùng 3 nguồn:
+```text
+yeucau.md
+100-home-styles.md
+docs/design-research/des-briefs/des-N.md
+docs/getdesign/*/DESIGN.md
+docs/refero/styles/*/DESIGN.md
+ghi chú nghiên cứu cũ
+```
 
-1. `docs/getdesign/*/DESIGN.md`: nguồn visual system local đã tải về.
-2. `https://styles.refero.design/`: nguồn tham khảo style/token/component từ Refero.
-3. Một reference game/news/directory phù hợp: dùng để kiểm tra concept có hợp game portal không.
+`Getdesign` quyết định form lớn: layout, rhythm, anatomy, cách chia section. `Refero` chỉ bổ sung vị giác thiết kế: màu, type scale, density, component treatment, cách header/footer/mobile nhìn có chủ đích hơn.
 
-Refero hữu ích vì có thể tìm style theo brand, mood, color, typography hoặc URL, rồi mở từng style để lấy colors, type, spacing, components và `DESIGN.md` cho agent dùng.
+## Context Packet Cho AI
 
-## Cách dùng skills/MCP
+Khi làm một `des-N`, agent chỉ nên đọc gói nhỏ này:
 
-- Dùng `frontend-design` trước khi code để chốt direction, hierarchy, spacing, header/footer anatomy và anti-generic gate.
-- Dùng Exa hoặc browser/search để đọc Refero/getdesign/reference mới khi cần dữ liệu ngoài local.
-- Dùng `imagegen` chỉ khi layout cần ảnh/banner/background mới. Không bắt buộc mọi layout đều gen ảnh.
-- Không dùng Playwright trong project này. Kiểm tra bằng local WordPress, terminal, `curl`, WP-CLI và browser thật.
+```text
+yeucau.md
+100-home-styles.md: phần rule chung + block đúng des-N
+docs/design-research/des-briefs/des-N.md
+Getdesign source ghi trong brief
+Refero source ghi trong brief
+wp-content/themes/des-N/header.php
+wp-content/themes/des-N/home.php
+wp-content/themes/des-N/footer.php
+wp-content/themes/des-N/css/_header.scss
+wp-content/themes/des-N/css/_home.scss
+wp-content/themes/des-N/css/_footer.scss
+```
 
-## Quy trình trước khi code một `des-N`
+Không đọc toàn bộ `docs/refero` hoặc toàn bộ `docs/getdesign` trong lúc implement. Nếu cần tìm nguồn mới thì tìm trước, ghi brief, rồi mới code.
 
-1. Chọn style chưa dùng gần đây trong `100-home-styles.md`.
-2. Chọn một `Getdesign source`.
-3. Chọn một `Refero source` từ pool hoặc tìm mới trên Refero.
-4. Viết brief vào `docs/design-research/des-briefs/des-N.md`.
-5. Đối chiếu brief với `yeucau.md`; nếu mâu thuẫn, sửa brief theo `yeucau.md`.
-6. Chỉ sau đó mới sửa theme.
+## Quy trình một theme
 
-## Quality gate trước khi implement
+1. Chọn `des-N` trong `100-home-styles.md`.
+2. Tạo brief nếu chưa có: `docs/design-research/des-briefs/des-N.md`.
+3. Chốt source stack: một getdesign local, một Refero local, một hướng game/news/directory.
+4. Chốt fingerprint khác biệt: header, above-fold, section order, card/media, footer, mobile.
+5. Chỉ sửa file trong scope của `des-N`.
+6. Build `style.css`.
+7. QA desktop/tablet/mobile, đặc biệt search/menu mở ở `320px`.
+8. Forbidden scan: không có placeholder, fake links, duplicate nav, file ngoài scope.
+9. Copy delivery khi pass.
 
-Brief phải trả lời được:
+Không code nếu brief chưa trả lời được: "nhìn phát biết khác bản trước ở đâu".
 
-- Nhìn first viewport biết đây là style khác hẳn bản đã ship gần nhất ở điểm nào?
-- Header khác ở anatomy/behavior, không chỉ đổi màu?
-- Footer khác ở anatomy/content model, không chỉ đổi màu?
-- Banner/featured block có hình, title, mô tả ngắn và link thật?
-- Home đủ blog/review/game, dày thông tin nhưng không chật hoặc loãng?
-- Mobile từ `320px` xử lý search/menu thế nào?
-- Có nguy cơ ảnh hưởng route ngoài home không?
+## Quy trình một batch
 
-Nếu chưa trả lời được các câu trên, chưa code.
+Mỗi batch 4 design nên có 4 vai trò khác nhau:
+
+```text
+1 media-heavy gaming portal
+1 white compact directory/search-first
+1 dark command/review hub
+1 editorial/newswire hoặc blueprint/archive
+```
+
+Trong cùng batch không reuse cùng:
+
+- `Getdesign source`;
+- `Refero source`;
+- header/footer archetype;
+- above-fold role;
+- card/media primitive;
+- mobile menu/search behavior.
+
+Refero chọn theo rotation trong `100-home-styles.md`: direct gaming/media, command/review desk, directory/utility, editorial/visual discovery. Brief có thể đổi nhóm, nhưng phải ghi lý do.
+
+## Cách dùng Refero local
+
+Tìm nhanh bằng catalog:
+
+```bash
+rg -i "xbox|media|dark|command|directory|editorial|grid|gaming" docs/refero/catalog.csv
+```
+
+Tìm trong nội dung style:
+
+```bash
+rg -i "game|media|dense|grid|command|masonry|portal|magazine|navigation|footer" docs/refero/styles -g "DESIGN.md"
+```
+
+Lọc bằng JSON:
+
+```bash
+jq -r '.catalog[] | select(.industry|test("media|devtools|productivity|design"; "i")) | [.siteName,.theme,.industry,.localDesign] | @tsv' docs/refero/manifest.json
+```
+
+Sau khi chọn, đưa cả local path và URL gốc vào brief. Ví dụ:
+
+```text
+Refero source: docs/refero/styles/xbox-com-3792d0ca/DESIGN.md
+Refero URL: https://styles.refero.design/style/3792d0ca-6c74-4667-a64d-76efe9f87076
+```
+
+## Quality Gate
+
+Một brief đủ tốt phải khóa được:
+
+- Header global anatomy, không duplicate nav.
+- Footer global anatomy, không generic hoặc chỉ đổi màu.
+- First viewport có banner hình, title, description ngắn và link thật.
+- Home đủ blog/review/game, dày thông tin nhưng không loãng hoặc chật.
+- Search thật, menu thật, mobile popup/dropdown không dư hoặc đẩy nội dung sai.
+- CSS home có namespace riêng, không đè `.pagination`, `.review-card`, `.container`, `.form-control`.
+- Không sửa `reviews.php`, `search.php`, `css/_reviews.scss` nếu khách không yêu cầu.
+
+Nếu chưa đạt các điểm này, brief là `Rework`, chưa code.

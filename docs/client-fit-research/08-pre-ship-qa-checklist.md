@@ -2,13 +2,13 @@
 
 Tài liệu này dùng để chặn các lỗi đã bị khách phản hồi: layout chỉ đổi màu nhưng không đổi form, label trang trí không click được, hero không dùng nội dung thật, search/menu mobile lỗi, text đè ảnh, header/footer phá trang khác, delivery thiếu file hoặc zip sai.
 
-Áp dụng cho mỗi style `des-N` trước khi đổi trạng thái trong `docs/100-home-styles.md` sang `Done`, copy vào `delivery/des-N-home`, hoặc commit.
+Áp dụng cho mỗi style `des-N` trước khi đổi trạng thái trong `100-home-styles.md` sang `QA Passed`, `Delivery Ready`, `Shipped` hoặc `Accepted`, copy vào `delivery/des-N-home`, hoặc commit.
 
 ## Nguyên tắc pass/fail
 
 Một style bị giữ lại nếu có một trong các lỗi sau:
 
-- Không khác rõ fingerprint trong `docs/100-home-styles.md`; nếu bỏ màu/ảnh/font ra mà wireframe vẫn giống style gần nhất thì chưa đạt.
+- Không khác rõ fingerprint trong `100-home-styles.md`; nếu bỏ màu/ảnh/font ra mà wireframe vẫn giống style gần nhất thì chưa đạt.
 - Thiếu home, header hoặc footer trong scope bàn giao.
 - Header, menu hoặc search mobile lỗi ở `320px`.
 - Có text trang trí kiểu category/shortcut/tab nhưng không có link hoặc hành động thật.
@@ -20,9 +20,9 @@ Một style bị giữ lại nếu có một trong các lỗi sau:
 ## Quy trình QA bắt buộc
 
 1. **Xác nhận brief của style**
-   - Mở dòng `des-N` trong `docs/100-home-styles.md`.
+   - Mở dòng `des-N` trong `100-home-styles.md`.
    - Ghi lại 6 phần: `Header + Hero + Flow/Grid + Card Pattern + Footer + Mobile Signature`.
-   - So với ít nhất 2 style đã `Done` gần nhất. Style mới phải khác tối thiểu 4/6 phần.
+   - So với ít nhất 2 style đã `Delivery Ready`, `Shipped` hoặc `Accepted` gần nhất. Style mới phải khác tối thiểu 4/6 phần.
 
 2. **Chạy kiểm tra terminal**
    - Kiểm tra chỉ đụng đúng theme và delivery của style đang làm:
@@ -33,7 +33,7 @@ git diff --stat
 git diff --name-only
 ```
 
-   - Không được có sửa ngoài `wp-content/themes/des-N/`, `delivery/des-N-home/`, `delivery/des-N-home.zip`, và dòng trạng thái trong `docs/100-home-styles.md` nếu người phụ trách style được phép cập nhật.
+   - Không được có sửa ngoài `wp-content/themes/des-N/`, `delivery/des-N-home/`, `delivery/des-N-home.zip`, và dòng trạng thái trong `100-home-styles.md` nếu người phụ trách style được phép cập nhật.
    - Với QA research hoặc reviewer, không sửa `yeucau.md`.
 
 3. **Kiểm tra PHP/CSS cơ bản**
@@ -261,7 +261,7 @@ Rules:
 - Không commit file local WordPress/Docker, database, uploads, `.DS_Store`, backup ngoài scope.
 - Không commit nếu `git diff --check` còn whitespace error.
 - Không đổi `yeucau.md`.
-- Chỉ đổi `docs/100-home-styles.md` khi style đã pass toàn bộ QA và người phụ trách được phép chuyển trạng thái.
+- Chỉ đổi `100-home-styles.md` khi style đã pass toàn bộ QA và người phụ trách được phép chuyển trạng thái.
 - Commit message dùng conventional commit, ví dụ `feat: add des-11 home layout` hoặc `fix: refine des-1 mobile header`.
 
 ## Mẫu biên bản QA ngắn

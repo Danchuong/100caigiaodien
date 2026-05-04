@@ -5,7 +5,7 @@ Folder này chỉ chứa tài liệu nghiên cứu phụ.
 File chính để đánh dấu style đã làm là:
 
 ```text
-docs/100-home-styles.md
+100-home-styles.md
 ```
 
 ## Các file nghiên cứu
