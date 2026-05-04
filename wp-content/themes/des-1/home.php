@@ -4,7 +4,7 @@
  */
 get_header();
 
-$fallback_img = get_stylesheet_directory_uri() . '/images/no_img.jpg';
+$fallback_img = get_stylesheet_directory_uri() . '/images/des-1-featured-background.png';
 
 $blog_archive_url   = home_url( '/blogs/' );
 $review_archive_url = home_url( '/reviews/' );
@@ -17,6 +17,24 @@ $popular_games_url = function_exists( 'get_field' ) ? get_field( 'popular_games'
 $latest_blog_url   = $latest_blog_url ? $latest_blog_url : $blog_archive_url;
 $latest_review_url = $latest_review_url ? $latest_review_url : $review_archive_url;
 $popular_games_url = $popular_games_url ? $popular_games_url : $games_archive_url;
+$current_search_key = isset( $_GET['key'] ) ? sanitize_text_field( wp_unslash( $_GET['key'] ) ) : '';
+
+if ( ! function_exists( 'des1_print_game_stars' ) ) {
+    function des1_print_game_stars( $post_id ) {
+        $post_id      = absint( $post_id );
+        $filled_stars = 3 + ( ( $post_id * 7 ) % 3 );
+        $rating_label = sprintf( 'Game review stars %d out of 5', $filled_stars );
+        ?>
+        <span class="game-star-badge" aria-label="<?php echo esc_attr( $rating_label ); ?>">
+            <span class="game-stars" aria-hidden="true">
+                <?php for ( $star_index = 1; $star_index <= 5; $star_index++ ) : ?>
+                    <?php echo $star_index <= $filled_stars ? '&#9733;' : '&#9734;'; ?>
+                <?php endfor; ?>
+            </span>
+        </span>
+        <?php
+    }
+}
 
 $quick_links = array(
     array(
@@ -45,6 +63,21 @@ $featured_query = new WP_Query(
 $featured_post    = ! empty( $featured_query->posts ) ? $featured_query->posts[0] : null;
 $featured_post_id = $featured_post ? $featured_post->ID : 0;
 $featured_img     = $featured_post && has_post_thumbnail( $featured_post_id ) ? wp_get_attachment_url( get_post_thumbnail_id( $featured_post_id ) ) : $fallback_img;
+$featured_url     = $featured_post ? get_permalink( $featured_post_id ) : $popular_games_url;
+$featured_title   = $featured_post ? get_the_title( $featured_post_id ) : 'Browse the game directory';
+$featured_excerpt = $featured_post ? get_the_excerpt( $featured_post_id ) : '';
+$featured_text    = $featured_excerpt ? $featured_excerpt : ( $featured_post ? wp_strip_all_tags( $featured_post->post_content ) : '' );
+$featured_text    = html_entity_decode( wp_strip_all_tags( strip_shortcodes( $featured_text ) ), ENT_QUOTES, get_bloginfo( 'charset' ) );
+$featured_text    = trim( preg_replace( '/[*_`#>]+/', '', $featured_text ) );
+$featured_summary = wp_trim_words( $featured_text, 18, '...' );
+if ( ! $featured_summary && $featured_post ) {
+    $featured_type_object = get_post_type_object( get_post_type( $featured_post_id ) );
+    $featured_type_label  = $featured_type_object && ! empty( $featured_type_object->labels->singular_name ) ? strtolower( $featured_type_object->labels->singular_name ) : 'pick';
+    $featured_summary     = sprintf( 'Open this %s alongside the latest games, reviews, and blog updates.', $featured_type_label );
+}
+if ( ! $featured_summary ) {
+    $featured_summary = 'Open the games archive to jump into playable games, reviews, and blog updates.';
+}
 
 $review_query = new WP_Query(
     array(
@@ -86,9 +119,8 @@ $blog_query = new WP_Query(
                 <div class="directory-left">
                     <span class="directory-kicker">Game directory</span>
                     <h1 class="directory-title">Find games, reviews and guides faster.</h1>
-                    <form class="directory-search" action="<?php echo esc_url( $review_archive_url ); ?>">
-                        <?php $key = isset( $_GET['key'] ) ? sanitize_text_field( $_GET['key'] ) : ''; ?>
-                        <input type="text" name="key" value="<?php echo esc_attr( $key ); ?>" placeholder="Search games or reviews" aria-label="Search games or reviews" />
+                    <form class="directory-search" action="<?php echo esc_url( $review_archive_url ); ?>" method="get" role="search">
+                        <input type="text" name="key" value="<?php echo esc_attr( $current_search_key ); ?>" placeholder="Search reviews" aria-label="Search reviews" />
                         <button type="submit">Search</button>
                     </form>
                     <div class="directory-quick-links" aria-label="Quick links">
@@ -98,9 +130,18 @@ $blog_query = new WP_Query(
                     </div>
                 </div>
 
+                <a class="featured-compact-card directory-featured-card" href="<?php echo esc_url( $featured_url ); ?>">
+                    <span class="featured-compact-image" style="background-image: url(<?php echo esc_url( $featured_img ); ?>)"></span>
+                    <span class="featured-compact-content">
+                        <span class="home-section-label">Featured pick</span>
+                        <strong><?php echo esc_html( $featured_title ); ?></strong>
+                        <span class="featured-compact-description"><?php echo esc_html( $featured_summary ); ?></span>
+                    </span>
+                </a>
+
                 <aside class="directory-right top-rated-panel">
                     <div class="top-rated-head">
-                        <span>Top rated</span>
+                        <span>Review picks</span>
                         <a href="<?php echo esc_url( $latest_review_url ); ?>">All reviews</a>
                     </div>
                     <?php if ( $review_query->have_posts() ) : ?>
@@ -115,7 +156,7 @@ $blog_query = new WP_Query(
                                 <a class="top-rated-item" href="<?php echo esc_url( get_permalink() ); ?>">
                                     <span class="top-rated-rank"><?php echo esc_html( str_pad( (string) $top_index, 2, '0', STR_PAD_LEFT ) ); ?></span>
                                     <span class="top-rated-title"><?php echo esc_html( get_the_title() ); ?></span>
-                                    <span class="score-badge">4.5</span>
+                                    <span class="top-rated-label">Review</span>
                                 </a>
                             <?php endwhile; ?>
                         </div>
@@ -127,18 +168,6 @@ $blog_query = new WP_Query(
     </section>
 
     <div class="container">
-        <?php if ( $featured_post ) : ?>
-            <section class="home-section featured-compact-section">
-                <a class="featured-compact-card" href="<?php echo esc_url( get_permalink( $featured_post_id ) ); ?>">
-                    <span class="featured-compact-image" style="background-image: url(<?php echo esc_url( $featured_img ); ?>)"></span>
-                    <span class="featured-compact-content">
-                        <span class="home-section-label">Featured pick</span>
-                        <strong><?php echo esc_html( get_the_title( $featured_post_id ) ); ?></strong>
-                    </span>
-                </a>
-            </section>
-        <?php endif; ?>
-
         <section class="home-section platform-section">
             <div class="home-section-head">
                 <div>
@@ -187,6 +216,7 @@ $blog_query = new WP_Query(
                             <span class="game-row-content">
                                 <strong><?php echo esc_html( get_the_title() ); ?></strong>
                                 <span>Game profile</span>
+                                <?php des1_print_game_stars( get_the_ID() ); ?>
                             </span>
                             <span class="game-row-action">Open</span>
                         </a>
@@ -204,7 +234,7 @@ $blog_query = new WP_Query(
                 <div class="home-section-head">
                     <div>
                         <span class="home-section-label">Reviews</span>
-                        <h2 class="home-section-title">Score cards</h2>
+                        <h2 class="home-section-title">Review picks</h2>
                     </div>
                     <a class="home-view-more" href="<?php echo esc_url( $latest_review_url ); ?>">View all</a>
                 </div>
@@ -217,7 +247,7 @@ $blog_query = new WP_Query(
                         <a class="review-score-card" href="<?php echo esc_url( get_permalink() ); ?>">
                             <span class="review-score-image" style="background-image: url(<?php echo esc_url( $item_img ); ?>)"></span>
                             <span class="review-score-content">
-                                <span class="score-badge">4.5</span>
+                                <span class="review-score-label">Review</span>
                                 <strong><?php echo esc_html( get_the_title() ); ?></strong>
                             </span>
                         </a>

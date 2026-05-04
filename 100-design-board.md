@@ -8,7 +8,8 @@ Luật chung vẫn nằm ở `100-home-styles.md`; yêu cầu khách hàng vẫn
 
 | Designs | Status | Count | Meaning | Next action |
 | --- | --- | ---: | --- | --- |
-| `des-1` tới `des-3` | `Accepted` | 3 | Khách đã duyệt. | Không sửa nếu khách không yêu cầu. |
+| `des-1` | `Rework` | 1 | Khách feedback banner yếu và tablet/iPad chưa mượt. | Rework theo `yeucau.md`, brief và QA lại. |
+| `des-2` tới `des-3` | `Accepted` | 2 | Khách đã duyệt. | Không sửa nếu khách không yêu cầu. |
 | `des-4` tới `des-7` | `Delivery Ready` | 4 | Đã có bản giao và zip/delivery. | Chờ khách duyệt hoặc ship lại khi cần. |
 | `des-8` tới `des-10` | `Needs Audit` | 3 | Có source/folder từ batch cũ, chưa kiểm theo rule mới. | Audit, tạo brief, QA lại trước khi ship. |
 | `des-11` tới `des-100` | `Spec Ready` | 90 | Có spec/fingerprint, chưa build. | Điền Refero source, tạo brief, rồi mới code. |
@@ -62,7 +63,7 @@ Không để batch này trượt thành 5 biến thể review hub giống nhau. 
 
 ### des-1 - Search First Directory
 
-Status: Accepted
+Status: Rework
 Family: Game database portal
 Compare against: h5game original, des-2
 Similarity risk: Low
@@ -72,7 +73,8 @@ Refero source: `docs/refero/styles/parallel-web-systems-32845f27/DESIGN.md`
 Refero role: Primary - white blueprint/directory rhythm; optional secondary cue from `docs/refero/styles/raycast-3b6a17f0/DESIGN.md` for command-search behavior.
 Use for: compact search-first information architecture, controlled rows, precise spacing, utility footer.
 Avoid: turning the page into a dev/SaaS docs surface or removing the required image banner.
-New-standard audit: Pending - recheck banner image/title/short description, star review treatment, density, and game vibe before any future rework.
+New-standard audit: Rework active - banner phải image-led rõ hơn và tablet/iPad grid phải chuyển mượt theo feedback mới.
+Progress note: Đã mở retro brief tại `docs/design-research/des-briefs/des-1.md`; đang uplift banner và breakpoint nhưng vẫn giữ fingerprint Search First Directory.
 
 - Header: H04 Search First Bar; white/light base; logo left, search prominent, menu/action compact.
 - Above-fold: utility/directory-led; search and browse flow are first signal, no poster hero.

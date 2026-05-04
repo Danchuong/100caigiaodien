@@ -301,6 +301,9 @@ Mỗi home luôn cần một banner/featured block có hình ảnh:
 
 - Banner phải có ảnh thật/fallback hợp concept, title và một đoạn description ngắn.
 - Banner không bắt buộc phải là hero cực lớn; có thể là compact banner, featured strip, cover card, lead story, carousel/ticker có ảnh hoặc game highlight.
+- Banner không được chỉ là một card ảnh nhỏ cho có. Khách phải nhìn thấy rõ đây là vùng nhấn bằng hình ảnh, tạo cảm giác sống động/game/media ngay ở đầu trang.
+- Nếu concept là directory/search-first, banner vẫn có thể compact nhưng phải đủ hiện diện: ảnh đủ lớn, crop đẹp, title nổi bật, description 1-2 dòng và nằm trong first viewport hoặc ngay sau header.
+- Không để banner bị chìm như một item phụ trong grid/list; nếu khách nói "không có banner", nghĩa là kích thước, vị trí hoặc độ nhấn hình ảnh chưa đạt.
 - Text trên banner phải đọc được. Nếu đặt text overlay lên ảnh, dùng overlay/gradient có kiểm soát và không để description dài đè lên ảnh.
 - Nếu title rất dài, title có thể clamp hợp lý và description chỉ 1-2 dòng.
 - Banner phải có link/hành động thật nếu nhìn như click được.
@@ -373,6 +376,10 @@ Yêu cầu responsive:
 - Footer xuống một cột hoặc nhóm full-width, link không làm rộng viewport.
 - Header/footer vẫn ổn ở blog detail, review detail, game detail, archive và search.
 - Kiểm tra thêm width trung gian như `390px`, `520px` và `768px`, không chỉ kiểm tra desktop và `320px`.
+- Tablet/iPad là breakpoint nghiệm thu riêng, không được xem như desktop thu nhỏ hoặc mobile phóng to.
+- Grid nhiều item phải chuyển cột có nhịp trung gian hợp lý. Tránh nhảy gãy kiểu desktop `5` cột xuống tablet `2` cột nếu làm bố cục nhìn hụt, phô hoặc mất cân bằng.
+- Với review/game/blog cards, ưu tiên nhịp responsive mượt như `5 -> 4 -> 3 -> 2 -> 1` hoặc dùng `auto-fit/minmax()` có min-width được tính kỹ. Không để iPad tự rơi vào layout quá ít cột trong khi desktop vẫn rất dày.
+- Khi đổi breakpoint, kiểm tra cả tablet dọc và ngang: khoảng `768px`, `820px`, `834px`, `1024px`. Bố cục phải cân đối, không có section tự nhiên thành cột trống, card quá rộng, hoặc hàng cuối bị lạc.
 
 Nếu phải chọn giữa giữ signature desktop và tránh lỗi 320px, ưu tiên tránh lỗi 320px.
 

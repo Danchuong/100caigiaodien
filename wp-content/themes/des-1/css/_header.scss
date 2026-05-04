@@ -86,8 +86,8 @@ ul.menu li.menu-item.current-menu-item > a {
 
 .head-btn,
 .head-search-btn {
-    width: 2.65rem;
-    height: 2.65rem;
+    width: 3rem;
+    height: 3rem;
     align-items: center;
     justify-content: center;
     padding: 0;
@@ -135,12 +135,13 @@ ul.menu li.menu-item.current-menu-item > a {
     opacity: 1;
 
     form {
-        display: grid;
-        grid-template-columns: minmax(0, 1fr) auto;
+        display: flex;
         align-items: center;
     }
 
     input {
+        flex: 1 1 auto;
+        min-width: 0;
         min-height: 2.75rem;
         padding: 0 0.9rem;
         color: $body-color !important;
@@ -164,6 +165,8 @@ ul.menu li.menu-item.current-menu-item > a {
     background: transparent;
     color: $primary;
     font-weight: 900;
+    flex: 0 0 auto;
+    white-space: nowrap;
 }
 
 @media (max-width: 991.9px) {
@@ -271,8 +274,8 @@ ul.menu li.menu-item.current-menu-item > a {
 
     .head-btn,
     .head-search-btn {
-        width: 2.45rem;
-        height: 2.45rem;
+        width: 3rem;
+        height: 3rem;
     }
 
     .head-wrapper {
@@ -300,12 +303,13 @@ ul.menu li.menu-item.current-menu-item > a {
 
     .head-btn,
     .head-search-btn {
-        width: 2.2rem;
-        height: 2.2rem;
+        width: 3rem;
+        height: 3rem;
     }
 
     .head-search-wrapper form {
-        grid-template-columns: 1fr;
+        align-items: stretch;
+        flex-direction: column;
     }
 
     .head-search-submit {

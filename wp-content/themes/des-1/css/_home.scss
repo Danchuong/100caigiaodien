@@ -10,7 +10,10 @@
 
 .directory-wrapper {
     display: grid;
-    grid-template-columns: minmax(0, 1.5fr) minmax(20rem, 0.85fr);
+    grid-template-columns: minmax(0, 0.95fr) minmax(23rem, 1.05fr);
+    grid-template-areas:
+        "intro feature"
+        "panel feature";
     gap: 1.25rem;
     align-items: stretch;
 }
@@ -29,7 +32,22 @@
 }
 
 .directory-left {
+    grid-area: intro;
     padding: 2rem;
+}
+
+.directory-featured-card {
+    grid-area: feature;
+    position: relative;
+    min-height: 24rem;
+    overflow: hidden;
+    isolation: isolate;
+    align-items: end;
+    padding: 1rem;
+    border-color: rgba(#111827, 0.16);
+    background-color: #111827;
+    color: $white;
+    box-shadow: 0 1.2rem 3rem rgba(#111827, 0.18);
 }
 
 .directory-kicker,
@@ -54,8 +72,7 @@
 }
 
 .directory-search {
-    display: grid;
-    grid-template-columns: minmax(0, 1fr) auto;
+    display: flex;
     gap: 0.75rem;
     max-width: 44rem;
     margin-bottom: 1rem;
@@ -67,23 +84,26 @@
     }
 
     input {
+        flex: 1 1 auto;
         width: 100%;
+        min-width: 0;
         border: 1px solid rgba($body-color, 0.16);
         padding: 0 1rem;
         color: $body-color;
     }
 
     button {
+        flex: 0 0 auto;
         border: 0;
         padding: 0 1.35rem;
         background-color: $primary;
         color: $white;
         font-weight: 800;
+        white-space: nowrap;
     }
 }
 
-.directory-quick-links,
-.head-filter-list {
+.directory-quick-links {
     display: flex;
     flex-wrap: wrap;
     gap: 0.55rem;
@@ -102,6 +122,7 @@
 }
 
 .top-rated-panel {
+    grid-area: panel;
     padding: 1rem;
 }
 
@@ -157,16 +178,36 @@
     @include line-truncate(2, 1.25rem);
 }
 
-.score-badge {
+.home-directory .top-rated-label,
+.home-directory .review-score-label {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    min-width: 2.6rem;
+    min-width: 4.35rem;
     min-height: 2.25rem;
+    padding: 0 0.65rem;
     border-radius: 0.5rem;
-    background-color: #111827;
-    color: $white;
+    background-color: rgba($primary, 0.1);
+    color: $primary;
+    font-size: 0.82rem;
     font-weight: 900;
+    white-space: nowrap;
+}
+
+.home-directory .game-star-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.35rem;
+    color: #f59e0b;
+    font-weight: 900;
+    white-space: nowrap;
+}
+
+.home-directory .game-stars {
+    font-size: 0.72rem;
+    letter-spacing: 0;
+    line-height: 1;
 }
 
 .home-section {
@@ -234,6 +275,68 @@
         line-height: 1.2;
         font-weight: 900;
         @include line-truncate(2, 1.65rem);
+    }
+}
+
+.featured-compact-description {
+    display: block;
+    margin-top: 0.35rem;
+    color: $text-muted;
+    font-size: 0.92rem;
+    line-height: 1.35;
+    @include line-truncate(2, 1.35rem);
+}
+
+.directory-featured-card {
+    grid-template-columns: 1fr;
+    gap: 0;
+
+    &::after {
+        position: absolute;
+        inset: 0;
+        z-index: -1;
+        background:
+            linear-gradient(180deg, rgba(#111827, 0.08) 0%, rgba(#111827, 0.76) 100%),
+            linear-gradient(90deg, rgba(#111827, 0.72) 0%, rgba(#111827, 0.08) 58%);
+        content: "";
+    }
+
+    .featured-compact-image {
+        position: absolute;
+        inset: 0;
+        z-index: -2;
+        aspect-ratio: auto;
+        border-radius: 0;
+        transform: scale(1.01);
+    }
+
+    .featured-compact-content {
+        position: relative;
+        z-index: 1;
+        max-width: 34rem;
+        padding: 1rem;
+        border: 1px solid rgba($white, 0.72);
+        border-radius: 0.65rem;
+        background-color: rgba($white, 0.9);
+        box-shadow: 0 1rem 2.5rem rgba(#111827, 0.18);
+    }
+
+    .home-section-label {
+        margin-bottom: 0.45rem;
+    }
+
+    .featured-compact-content strong {
+        color: $body-color;
+        font-size: 1.55rem;
+        line-height: 1.12;
+        @include line-truncate(2, 1.75rem);
+    }
+
+    .featured-compact-description {
+        color: rgba($body-color, 0.76);
+        font-size: 0.95rem;
+        line-height: 1.4;
+        @include line-truncate(2, 1.4rem);
     }
 }
 
@@ -398,22 +501,53 @@
     }
 }
 
+@media (max-width: 1199.9px) {
+    .review-score-list {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+}
+
 @media (max-width: 991.9px) {
     .directory-wrapper {
-        grid-template-columns: 1fr;
+        grid-template-columns: minmax(0, 0.9fr) minmax(20rem, 1.1fr);
+        grid-template-areas:
+            "intro feature"
+            "panel feature";
     }
 
     .directory-title {
-        font-size: 2.35rem;
+        font-size: 2.15rem;
+    }
+
+    .review-score-list {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    .news-guide-list {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .directory-featured-card {
+        min-height: 22rem;
+    }
+}
+
+@media (max-width: 767.9px) {
+    .directory-wrapper {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "intro"
+            "feature"
+            "panel";
+    }
+
+    .directory-featured-card {
+        min-height: 18rem;
     }
 
     .platform-grid,
     .review-score-list {
         grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
-
-    .news-guide-list {
-        grid-template-columns: 1fr;
     }
 }
 
@@ -432,7 +566,7 @@
     }
 
     .directory-search {
-        grid-template-columns: 1fr;
+        flex-direction: column;
 
         input,
         button {
@@ -463,9 +597,18 @@
         font-size: 1.45rem;
     }
 
-    .featured-compact-card,
     .news-guide-item {
         grid-template-columns: 5.75rem minmax(0, 1fr);
+    }
+
+    .directory-featured-card {
+        grid-template-columns: 1fr;
+        min-height: 16rem;
+        padding: 0.75rem;
+    }
+
+    .directory-featured-card .featured-compact-content {
+        padding: 0.85rem;
     }
 
     .featured-compact-content strong {
@@ -473,9 +616,9 @@
         @include line-truncate(3, 1.3rem);
     }
 
-    .platform-grid,
-    .review-score-list {
-        grid-template-columns: 1fr;
+    .directory-featured-card .featured-compact-content strong {
+        font-size: 1.15rem;
+        @include line-truncate(2, 1.35rem);
     }
 
     .platform-card {
@@ -488,6 +631,14 @@
 
     .game-row-action {
         display: none;
+    }
+}
+
+@media (max-width: 420px) {
+    .platform-grid,
+    .review-score-list,
+    .news-guide-list {
+        grid-template-columns: 1fr;
     }
 }
 
@@ -510,7 +661,7 @@
         grid-template-columns: auto minmax(0, 1fr);
     }
 
-    .top-rated-item .score-badge {
+    .home-directory .top-rated-item .top-rated-label {
         grid-column: 2;
         justify-self: flex-start;
     }
