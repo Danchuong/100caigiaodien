@@ -17,6 +17,8 @@ Luật chung vẫn nằm ở `100-home-styles.md`; yêu cầu khách hàng vẫn
 
 - Đổi `Status:` ngay trong block `des-N`.
 - Điền `Refero source:` ngay trong block `des-N` trước khi tạo/rework theme.
+- Nếu dùng Refero, điền thêm `Refero role`, `Use for`, `Avoid` để agent biết lấy gì và không copy/mượn sai gì từ nguồn đó.
+- Dùng `New-standard audit` để đánh dấu các bản cũ cần kiểm lại theo yêu cầu mới mà không làm mất lịch sử `Accepted` hoặc `Delivery Ready`.
 - Cập nhật `## Status Dashboard` nếu status theo nhóm thay đổi.
 - Không đánh `Delivery Ready` nếu chưa có zip delivery đã test.
 - Không đánh `Accepted` nếu khách chưa duyệt.
@@ -66,7 +68,11 @@ Compare against: h5game original, des-2
 Similarity risk: Low
 Data risk: None
 Getdesign source: `docs/getdesign/airtable/DESIGN.md`
-Refero source: `TBD`
+Refero source: `docs/refero/styles/parallel-web-systems-32845f27/DESIGN.md`
+Refero role: Primary - white blueprint/directory rhythm; optional secondary cue from `docs/refero/styles/raycast-3b6a17f0/DESIGN.md` for command-search behavior.
+Use for: compact search-first information architecture, controlled rows, precise spacing, utility footer.
+Avoid: turning the page into a dev/SaaS docs surface or removing the required image banner.
+New-standard audit: Pending - recheck banner image/title/short description, star review treatment, density, and game vibe before any future rework.
 
 - Header: H04 Search First Bar; white/light base; logo left, search prominent, menu/action compact.
 - Above-fold: utility/directory-led; search and browse flow are first signal, no poster hero.
@@ -84,7 +90,11 @@ Compare against: des-1, h5game original
 Similarity risk: Low
 Data risk: No fake scores
 Getdesign source: `docs/getdesign/webflow/DESIGN.md`
-Refero source: `TBD`
+Refero source: `docs/refero/styles/openweb-c38d077b/DESIGN.md`
+Refero role: Primary - modern news/media lead with discussion/news platform structure.
+Use for: lead-left/trending-rail anatomy, calm section rhythm, linked story modules, global header/footer restraint.
+Avoid: parchment/old-news feeling, serif typography, fake community/comment modules, or sparse SaaS spacing.
+New-standard audit: Pending - recheck banner image/title/short description, denser useful links, mobile stack, and game-specific tone before any future rework.
 
 - Header: H01/H02 hybrid; light masthead, compact primary nav, floating mobile stack.
 - Above-fold: editorial/news-led; lead story left, trending rail right.
@@ -102,7 +112,11 @@ Compare against: des-1, des-2
 Similarity risk: Medium
 Data risk: Avoid fake newsletter/social
 Getdesign source: `docs/getdesign/ibm/DESIGN.md`
-Refero source: `TBD`
+Refero source: `docs/refero/styles/seen-a6d5cb26/DESIGN.md`
+Refero role: Primary - culture/media energy used to modernize the center-lead editorial shape.
+Use for: game-ified editorial hierarchy, stronger visual signal, compact story/category bands, non-generic footer identity.
+Avoid: old newspaper mood, serif masthead/body, oversized blank masthead space, repeated text-only headline blocks.
+New-standard audit: Pending - high risk because the original fingerprint is newspaper-like; recheck sans-serif/game theme/density before any future rework.
 Progress note: Khách đã chốt. Bản gửi cuối đã đổi Review Picks thành dạng icon vuông, không còn list chữ lặp `Review`.
 
 - Header: H14 Magazine Logo Wall; white base, centered large logo, menu line below, search icon right.
@@ -121,7 +135,11 @@ Compare against: des-2, des-3
 Similarity risk: Low
 Data risk: Overlay text must stay short
 Getdesign source: `docs/getdesign/playstation/DESIGN.md`
-Refero source: `TBD`
+Refero source: `docs/refero/styles/xbox-com-3792d0ca/DESIGN.md`
+Refero role: Primary - direct gaming/media portal; optional secondary cue from `docs/refero/styles/the-game-awards-microverse-63e985f6/DESIGN.md` for dark event/banner drama.
+Use for: game channel cards, image-led banner, square/rounded game tiles, clear platform/media energy.
+Avoid: copying console brand language, fake live/event data, unreadable overlay text, or duplicate nav strips.
+New-standard audit: Pending - recheck global header/footer, mobile stack popup, banner copy length, star review treatment, and no scope leak into review/search templates.
 Progress note: Đã build, render local, tạo `delivery/des-4-home.zip`, và đã fix lỗi `/reviews/` do `_reviews.scss` cũ có margin âm. Đang chờ user review thủ công.
 
 - Header: H03/H08 hybrid; dark premium channel, live/latest strip, search riêng, `main-menu` duy nhất.
@@ -140,7 +158,11 @@ Compare against: des-3, des-4
 Similarity risk: Low
 Data risk: No fake issue metadata beyond simple labels
 Getdesign source: `docs/getdesign/wired/DESIGN.md`
-Refero source: `TBD`
+Refero source: `docs/refero/styles/hle-5abe1239/DESIGN.md`
+Refero role: Primary - grayscale digital media desk to keep broadsheet structure but make it feel technical/game-facing.
+Use for: hard-edge sans editorial grid, compact newswire rows, dark/light desk contrast, dense footer index.
+Avoid: classic newspaper styling, serif typography, fake issue/newsletter metadata, too much empty space, or text-only modules without game signal.
+New-standard audit: Pending - high risk because broadsheet can feel old; recheck game vibe, banner with image/title/description, and compact spacing before any future rework.
 Progress note: Đã build, render local, tạo `delivery/des-5-home.zip`; cần user review thủ công trước khi gửi khách.
 
 - Header: H15/H01 hybrid; black desk strip + white editorial masthead, `main-menu` duy nhất.
@@ -159,7 +181,11 @@ Compare against: des-2, des-4
 Similarity risk: Low
 Data risk: Image discovery must use real thumbnails where available
 Getdesign source: `docs/getdesign/pinterest/DESIGN.md`
-Refero source: `TBD`
+Refero source: `docs/refero/styles/vimeo-be6c7488/DESIGN.md`
+Refero role: Primary - visual media/gallery system for image-first discovery without copying Pinterest too literally.
+Use for: thumbnail-led discovery cards, clean gallery spacing, browse/search flow, image banner with dense supporting links.
+Avoid: sparse portfolio/gallery feel, decorative-only cards, over-rounded soft lifestyle mood, or inconsistent icon/card ratios.
+New-standard audit: Pending - recheck card balance, non-cramped density, mobile search/menu, square icon treatment, and game/review stars before any future rework.
 Progress note: Đã build, render local, tạo `delivery/des-6-home.zip`; cần user review thủ công trước khi gửi khách.
 
 - Header: H04 Search First Bar; warm white, search-first, `main-menu` duy nhất.
@@ -178,7 +204,11 @@ Compare against: des-2, des-5
 Similarity risk: Low
 Data risk: Avoid fake newsletter footer
 Getdesign source: `docs/getdesign/theverge/DESIGN.md`
-Refero source: `TBD`
+Refero source: `docs/refero/styles/twitch-40030487/DESIGN.md`
+Refero role: Primary - live/community gaming media energy used only for layout attitude and interactive rails.
+Use for: loud story stream, gaming-native accents, compact media rails, global dark/navy header-footer variation.
+Avoid: fake live status, streamer-specific copy, duplicate menu links, or chaotic mixed-radius/misaligned modules.
+New-standard audit: Pending - recheck visual consistency, search popup, mobile menu popup, image banner, density, and global header/footer fit before any future rework.
 Progress note: Đã build, render local, tạo `delivery/des-7-home.zip`; cần user review thủ công trước khi gửi khách.
 
 - Header: H06/H14 hybrid; near-black editorial masthead, one `wp_nav_menu()` source, search reviews only.
