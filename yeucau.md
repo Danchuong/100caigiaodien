@@ -412,6 +412,16 @@ Khi feedback chỉ yêu cầu gọn/cân lại layout, không tự thêm cụm n
 
 Không hiểu feedback "dư space" thành ép mọi thứ nhỏ/chật. Phải phân biệt khoảng trắng lỗi như global margin, `min-width` cố định, padding popup quá lớn với khoảng thở cần thiết cho đọc. Nếu layout bị chật, nới lại theo cụm bằng `gap`, `line-height`, section padding và card padding có kiểm soát; nếu popup/drawer bị dư, sửa width/padding của chính panel, không giảm toàn bộ homepage.
 
+Khi khách báo card/ảnh bị dư space:
+
+- Không vá bằng cách tăng/giảm ảnh, padding hoặc font rời rạc. Phải tính lại contract tổng của component: số cột, width thật của card, aspect-ratio ảnh, chiều cao title/description, padding, line-clamp và `align-items`.
+- Nếu text quyết định chiều cao card nhưng ảnh bị khóa nhỏ hơn, sẽ luôn có khoảng trắng thừa. Chọn một trong hai hướng rõ: ảnh full-width phía trên với text dưới, hoặc layout ngang có thumbnail đủ cao và content được clamp để không vượt thumbnail.
+- Không để `min-height` cứng của card lớn hơn media frame nếu media không có lý do stretch tương ứng.
+- Với grid có số item cố định, không dùng `auto-fit/auto-fill` bừa nếu có nguy cơ sinh hàng cuối lẻ 1 item. Chọn cột chắc theo item count, ví dụ 6 item nên là `3x2`, 8 item nên là `4x2` hoặc `2x4`.
+- Nếu một section có nhiều cột cùng hàng, các cột phải có cùng grid fraction khi khách muốn bằng nhau; từng cột phải `stretch`, list bên trong nên `flex: 1` hoặc chia row hợp lý để cover hết chiều cao.
+- Khi đổi layout desktop, phải kiểm tra và viết lại contract mobile tương ứng. Không để mobile ăn lại rule cũ như thumbnail ngang khi desktop đã đổi thành card dọc.
+- Trước khi sửa lỗi visual, xác định rõ lỗi đến từ ảnh, text, grid, `min-height`, padding hay stretch. Vá sai nguyên nhân sẽ tạo vòng sửa nhiều lần.
+
 ## 8. Background và above-fold
 
 Trước khi code mỗi style phải chọn rõ hướng background/above-fold.

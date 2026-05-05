@@ -368,14 +368,15 @@
 }
 
 .lead-left-home .news-small-card {
-    grid-template-columns: 7.4rem minmax(0, 1fr);
-    min-height: 8.7rem;
-    align-items: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto minmax(0, 1fr);
+    min-height: 0;
+    align-items: start;
 }
 
 .lead-left-home .news-small-card .news-card-media {
     width: 100%;
-    aspect-ratio: 1 / 1;
+    aspect-ratio: 16 / 9;
 }
 
 .lead-left-home .news-card-content,
@@ -383,14 +384,14 @@
     display: flex;
     min-width: 0;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     padding: 0.86rem;
 
     h3 {
-        @include line-truncate(3, 1.28rem);
+        @include line-truncate(2, 1.22rem);
         margin: 0.34rem 0 0;
         color: #151a25;
-        font-size: 0.96rem;
+        font-size: 0.94rem;
         font-weight: 900;
     }
 }
@@ -407,7 +408,7 @@
 }
 
 .lead-left-home .news-card-description {
-    @include line-truncate(2, 1.1rem);
+    @include line-truncate(2, 1.08rem);
 }
 
 .lead-left-home .review-pick-description,
@@ -535,13 +536,15 @@
 
 .lead-left-home .media-pulse-grid {
     display: grid;
-    grid-template-columns: minmax(0, 1.16fr) minmax(14rem, 0.92fr) minmax(14rem, 0.92fr);
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 0.9rem;
+    align-items: stretch;
 }
 
 .lead-left-home .pulse-column {
     display: flex;
     min-width: 0;
+    height: 100%;
     flex-direction: column;
     overflow: hidden;
     border: 1px solid rgba(21, 26, 37, 0.12);
@@ -579,6 +582,8 @@
 
 .lead-left-home .pulse-list {
     display: grid;
+    flex: 1 1 auto;
+    grid-auto-rows: minmax(0, 1fr);
 }
 
 .lead-left-home .pulse-story-card,
@@ -587,6 +592,7 @@
     grid-template-columns: 5.6rem minmax(0, 1fr);
     gap: 0.78rem;
     align-items: center;
+    min-height: 0;
     border-bottom: 1px solid rgba(21, 26, 37, 0.09);
     color: #151a25;
     padding: 0.78rem;
@@ -746,13 +752,30 @@
         min-height: 5.8rem;
     }
 
+    .lead-left-home .news-small-card {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto minmax(0, 1fr);
+        align-items: start;
+        min-height: 0;
+    }
+
     .lead-left-home .rail-item {
         grid-template-columns: 2.15rem 4.4rem minmax(0, 1fr);
         padding: 0.72rem 0.85rem;
     }
 
     .lead-left-home .news-small-card .news-card-media {
-        width: auto;
+        width: 100%;
+        aspect-ratio: 16 / 9;
+    }
+
+    .lead-left-home .news-card-content {
+        padding: 0.82rem;
+
+        h3 {
+            @include line-truncate(2, 1.2rem);
+            font-size: 0.94rem;
+        }
     }
 
     .lead-left-home .game-strip-content {

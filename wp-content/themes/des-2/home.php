@@ -235,33 +235,6 @@ if ( empty( $pulse_game_posts ) ) {
 		</div>
 	</section>
 
-	<section class="game-strip-section">
-		<div class="container">
-			<div class="section-head">
-				<div>
-					<span class="section-eyebrow">Play queue</span>
-					<h2 class="section-title">Games To Watch</h2>
-				</div>
-				<a class="btn-viewmore" href="<?php echo esc_url( home_url( '/html5-games/' ) ); ?>">View all</a>
-			</div>
-			<div class="game-strip-list">
-				<?php foreach ( $game_posts as $index => $game_post ) : ?>
-					<a class="game-strip-card" href="<?php echo esc_url( get_permalink( $game_post ) ); ?>">
-						<div class="game-strip-media">
-							<?php echo des2_post_image( $game_post->ID, 'game-strip-media' ); ?>
-						</div>
-						<div class="game-strip-content">
-							<span><?php echo esc_html( des2_post_label( $game_post->ID, 'Game' ) ); ?></span>
-							<h3><?php echo esc_html( get_the_title( $game_post ) ); ?></h3>
-							<?php echo des2_post_description( $game_post->ID, 'game-strip-description', 12 ); ?>
-							<?php echo des2_render_game_stars( $game_post->ID ); ?>
-						</div>
-					</a>
-				<?php endforeach; ?>
-			</div>
-		</div>
-	</section>
-
 	<section class="media-pulse-section">
 		<div class="container">
 			<div class="section-head">
