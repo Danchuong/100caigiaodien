@@ -147,9 +147,9 @@
     justify-content: flex-end;
     position: absolute;
     inset: auto 0 0;
-    min-height: 44%;
-    padding: 1.35rem;
-    background: linear-gradient(180deg, rgba(15, 23, 42, 0), rgba(15, 23, 42, 0.9) 36%, rgba(15, 23, 42, 0.98));
+    min-height: 0;
+    padding: 3.3rem 1.2rem 1.15rem;
+    background: linear-gradient(180deg, rgba(15, 23, 42, 0), rgba(15, 23, 42, 0.82) 38%, rgba(15, 23, 42, 0.98));
 }
 
 .lead-left-home .lead-story-media {
@@ -346,7 +346,7 @@
 
 .lead-left-home .news-mixed-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 0.85rem;
 }
 
@@ -423,7 +423,7 @@
 }
 
 .lead-left-home .review-pick-grid {
-    grid-template-columns: repeat(auto-fit, minmax(10.8rem, 1fr));
+    grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
 .lead-left-home .review-pick-card {
@@ -477,7 +477,7 @@
 }
 
 .lead-left-home .game-strip-list {
-    grid-template-columns: repeat(auto-fit, minmax(9.3rem, 1fr));
+    grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
 .lead-left-home .game-strip-card {
@@ -489,7 +489,7 @@
 }
 
 .lead-left-home .game-strip-content {
-    min-height: 9.15rem;
+    min-height: 0;
     justify-content: flex-start;
 }
 
@@ -498,8 +498,8 @@
     min-width: 0;
     align-items: center;
     gap: 0.42rem;
-    margin-top: auto;
-    padding-top: 0.68rem;
+    margin-top: 0.58rem;
+    padding-top: 0;
     color: rgba(21, 26, 37, 0.62);
     font-size: 0.8rem;
     font-weight: 800;
@@ -640,8 +640,12 @@
     }
 
     .lead-left-home .rail-list {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
+        grid-template-columns: 1fr;
         grid-template-rows: auto;
+    }
+
+    .lead-left-home .news-mixed-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 
     .lead-left-home .rail-item {
