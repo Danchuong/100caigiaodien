@@ -36,6 +36,21 @@ if ( ! function_exists( 'des1_print_game_stars' ) ) {
     }
 }
 
+if ( ! function_exists( 'des1_post_excerpt' ) ) {
+    function des1_post_excerpt( $post_id, $word_count = 16 ) {
+        $excerpt = get_the_excerpt( $post_id );
+
+        if ( ! $excerpt ) {
+            $excerpt = get_post_field( 'post_content', $post_id );
+        }
+
+        $excerpt = html_entity_decode( wp_strip_all_tags( strip_shortcodes( $excerpt ) ), ENT_QUOTES, get_bloginfo( 'charset' ) );
+        $excerpt = trim( preg_replace( '/[*_`#>]+/', '', $excerpt ) );
+
+        return wp_trim_words( $excerpt, $word_count, '...' );
+    }
+}
+
 $quick_links = array(
     array(
         'label' => 'Blogs',
@@ -82,7 +97,7 @@ if ( ! $featured_summary ) {
 $review_query = new WP_Query(
     array(
         'post_type'      => 'review',
-        'posts_per_page' => 5,
+        'posts_per_page' => 8,
         'orderby'        => 'rand',
         'order'          => 'DESC',
         'post_status'    => 'publish',
@@ -94,7 +109,7 @@ $game_ids = array();
 $game_query = new WP_Query(
     array(
         'post_type'      => 'post',
-        'posts_per_page' => 5,
+        'posts_per_page' => 8,
         'orderby'        => 'rand',
         'order'          => 'DESC',
         'post_status'    => 'publish',
@@ -104,7 +119,7 @@ $game_query = new WP_Query(
 $blog_query = new WP_Query(
     array(
         'post_type'      => 'blog',
-        'posts_per_page' => 3,
+        'posts_per_page' => 6,
         'post__not_in'   => $featured_post ? array( $featured_post_id ) : array(),
         'orderby'        => 'rand',
         'order'          => 'DESC',
@@ -148,7 +163,7 @@ $blog_query = new WP_Query(
                         <div class="top-rated-list">
                             <?php
                             $top_index = 0;
-                            while ( $review_query->have_posts() && $top_index < 3 ) :
+                            while ( $review_query->have_posts() && $top_index < 4 ) :
                                 $review_query->the_post();
                                 $top_index++;
                                 $game_ids[] = get_the_ID();
@@ -180,18 +195,22 @@ $blog_query = new WP_Query(
                 <a class="platform-card" href="<?php echo esc_url( add_query_arg( 'key', 'pc', $review_archive_url ) ); ?>">
                     <span>PC</span>
                     <strong>Desktop picks</strong>
+                    <small>Browse reviews and guides for keyboard-first play.</small>
                 </a>
                 <a class="platform-card" href="<?php echo esc_url( add_query_arg( 'key', 'console', $review_archive_url ) ); ?>">
                     <span>Console</span>
                     <strong>Big screen games</strong>
+                    <small>Jump to living-room releases, remasters, and ports.</small>
                 </a>
                 <a class="platform-card" href="<?php echo esc_url( add_query_arg( 'key', 'mobile', $review_archive_url ) ); ?>">
                     <span>Mobile</span>
                     <strong>Play anywhere</strong>
+                    <small>Scan quick sessions, updates, and handheld picks.</small>
                 </a>
                 <a class="platform-card" href="<?php echo esc_url( $latest_review_url ); ?>">
                     <span>Reviews</span>
                     <strong>Rated by editors</strong>
+                    <small>Compare verdicts before opening the full archive.</small>
                 </a>
             </div>
         </section>
@@ -215,7 +234,8 @@ $blog_query = new WP_Query(
                             <span class="game-row-image" style="background-image: url(<?php echo esc_url( $item_img ); ?>)"></span>
                             <span class="game-row-content">
                                 <strong><?php echo esc_html( get_the_title() ); ?></strong>
-                                <span>Game profile</span>
+                                <span class="game-row-meta">Game profile</span>
+                                <span class="game-row-description"><?php echo esc_html( des1_post_excerpt( get_the_ID(), 13 ) ); ?></span>
                                 <?php des1_print_game_stars( get_the_ID() ); ?>
                             </span>
                             <span class="game-row-action">Open</span>
@@ -249,6 +269,7 @@ $blog_query = new WP_Query(
                             <span class="review-score-content">
                                 <span class="review-score-label">Review</span>
                                 <strong><?php echo esc_html( get_the_title() ); ?></strong>
+                                <span class="review-score-description"><?php echo esc_html( des1_post_excerpt( get_the_ID(), 14 ) ); ?></span>
                             </span>
                         </a>
                     <?php endwhile; ?>
@@ -279,6 +300,7 @@ $blog_query = new WP_Query(
                             <span class="news-guide-content">
                                 <span><?php echo esc_html( $tag_name ); ?></span>
                                 <strong><?php echo esc_html( get_the_title() ); ?></strong>
+                                <span class="news-guide-description"><?php echo esc_html( des1_post_excerpt( get_the_ID(), 16 ) ); ?></span>
                             </span>
                         </a>
                     <?php endwhile; ?>
