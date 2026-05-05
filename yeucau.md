@@ -605,6 +605,21 @@ file gaming-background.webp
 
 ## 11. QA trước khi ship
 
+Trong vòng lặp thiết kế/preview, ưu tiên tốc độ để khách hoặc người kiểm tra xem trực tiếp:
+
+- Agent không cần tự kiểm tra visual quá lâu bằng screenshot/headless/browser automation nếu user không yêu cầu.
+- Sau khi chỉnh giao diện, làm nhanh theo flow: build CSS nếu có SCSS -> sync vào local WordPress -> mở đúng URL để user tự check bằng mắt.
+- Nếu user đang ngồi check, không kéo dài bằng việc tự so sánh nhiều viewport; user sẽ báo lỗi cụ thể để sửa tiếp.
+- Chỉ giữ check kỹ thuật tối thiểu trước commit/ship: file scope, build CSS, PHP syntax nếu có sửa PHP, route không fatal nếu cần.
+- Khi cần kiểm tra responsive, ưu tiên mở nhanh browser thật theo width user muốn thay vì tạo thêm file HTML hoặc chạy quy trình QA dài.
+- Khi đang chỉnh một style cụ thể, có thể bật watcher để tự build SCSS và sync theme vào local WordPress:
+
+```bash
+scripts/watch-theme.sh des-N
+```
+
+Sau đó chỉ cần refresh browser ở `http://localhost:8088/` để user check nhanh.
+
 Trước khi giao mỗi style:
 
 ```bash
