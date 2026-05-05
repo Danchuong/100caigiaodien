@@ -146,7 +146,6 @@ if ( empty( $pulse_game_posts ) ) {
 		<div class="container">
 			<div class="lead-news-wrapper">
 				<div class="lead-left">
-					<div class="lead-section-kicker">Featured Brief</div>
 					<?php if ( $lead_post ) : ?>
 						<a class="lead-story-card" href="<?php echo esc_url( get_permalink( $lead_post ) ); ?>">
 							<div class="lead-story-media">
