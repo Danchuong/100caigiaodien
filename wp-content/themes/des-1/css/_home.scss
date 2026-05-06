@@ -1,19 +1,105 @@
 .home-directory {
     background:
-        linear-gradient(180deg, #eef4f8 0%, #ffffff 28rem),
+        linear-gradient(180deg, #e7f0f7 0%, #ffffff 34rem),
         $white;
 }
 
+.home-feature-banner {
+    padding: 1.45rem 0 0.75rem;
+}
+
+.home-feature-banner-card {
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    min-height: 24rem;
+    overflow: hidden;
+    isolation: isolate;
+    border: 1px solid rgba(#111827, 0.16);
+    border-radius: 0.85rem;
+    background-color: #111827;
+    color: $white;
+    box-shadow: 0 1.25rem 3rem rgba(#111827, 0.16);
+
+    &:hover {
+        color: $white;
+        transform: translateY(-2px);
+    }
+
+    &::after {
+        position: absolute;
+        inset: 0;
+        z-index: 1;
+        background:
+            linear-gradient(90deg, rgba(#07111f, 0.9) 0%, rgba(#07111f, 0.62) 48%, rgba(#07111f, 0.16) 100%),
+            linear-gradient(180deg, rgba(#07111f, 0.08) 0%, rgba(#07111f, 0.82) 100%);
+        content: "";
+        pointer-events: none;
+    }
+}
+
+.home-feature-banner-image {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    display: block;
+    min-height: 100%;
+    transform: scale(1.01);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home-feature-banner-content {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    min-width: 0;
+    max-width: 44rem;
+    padding: 2rem;
+    background: transparent;
+
+    .home-section-label {
+        width: fit-content;
+        margin-bottom: 0.75rem;
+        padding: 0.35rem 0.6rem;
+        border-radius: 999px;
+        background-color: rgba(#07111f, 0.72);
+        color: #9bdcff;
+        box-shadow: inset 0 0 0 1px rgba($white, 0.18);
+    }
+
+    strong {
+        display: block;
+        color: $white;
+        font-size: 2.35rem;
+        font-weight: 900;
+        line-height: 1;
+        @include line-truncate(3, 2.35rem);
+    }
+
+    > span:last-child {
+        display: block;
+        max-width: 36rem;
+        margin-top: 0.85rem;
+        color: rgba($white, 0.86);
+        font-size: 1rem;
+        font-weight: 600;
+        line-height: 1.45;
+        @include line-truncate(2, 1.45rem);
+    }
+}
+
 .directory-hero {
-    padding: 2.5rem 0 2rem;
+    padding: 1rem 0 2rem;
 }
 
 .directory-wrapper {
     display: grid;
-    grid-template-columns: minmax(0, 0.95fr) minmax(23rem, 1.05fr);
-    grid-template-areas:
-        "intro feature"
-        "panel feature";
+    grid-template-columns: minmax(0, 1fr) minmax(18rem, 0.46fr);
+    grid-template-areas: "intro panel";
     gap: 1.25rem;
     align-items: stretch;
 }
@@ -547,10 +633,10 @@
 
 @media (max-width: 991.9px) {
     .directory-wrapper {
-        grid-template-columns: minmax(0, 0.9fr) minmax(20rem, 1.1fr);
+        grid-template-columns: 1fr;
         grid-template-areas:
-            "intro feature"
-            "panel feature";
+            "intro"
+            "panel";
     }
 
     .directory-title {
@@ -568,6 +654,23 @@
     .directory-featured-card {
         min-height: 22rem;
     }
+
+    .home-feature-banner-card {
+        min-height: 19rem;
+    }
+
+    .home-feature-banner-image {
+        min-height: 100%;
+    }
+
+    .home-feature-banner-content {
+        padding: 1.5rem;
+
+        strong {
+            font-size: 1.85rem;
+            @include line-truncate(3, 1.9rem);
+        }
+    }
 }
 
 @media (max-width: 767.9px) {
@@ -575,7 +678,6 @@
         grid-template-columns: 1fr;
         grid-template-areas:
             "intro"
-            "feature"
             "panel";
     }
 
@@ -588,11 +690,37 @@
     .game-row-list {
         grid-template-columns: repeat(2, minmax(0, 1fr));
     }
+
+    .home-feature-banner-card {
+        min-height: 18rem;
+    }
+
+    .home-feature-banner-image {
+        min-height: 100%;
+    }
 }
 
 @media (max-width: 639.9px) {
     .directory-hero {
         padding: 1.25rem 0 1.5rem;
+    }
+
+    .home-feature-banner {
+        padding-top: 1rem;
+    }
+
+    .home-feature-banner-content {
+        padding: 1rem;
+
+        strong {
+            font-size: 1.35rem;
+            @include line-truncate(3, 1.45rem);
+        }
+
+        > span:last-child {
+            font-size: 0.92rem;
+            @include line-truncate(2, 1.3rem);
+        }
     }
 
     .directory-left,
