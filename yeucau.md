@@ -20,7 +20,7 @@ Mỗi giao diện phải đạt:
 - Không lỗi layout trên desktop, tablet, mobile.
 - Responsive tốt từ `320px` trở lên.
 - Dày thông tin nhưng vẫn gọn gàng: nhiều nội dung thật, nhiều entry/link hữu ích, không để spacing quá rộng làm loãng.
-- Luôn có ít nhất một banner/featured block dùng hình ảnh, title và một đoạn description ngắn.
+- Luôn có một banner chính lớn dùng hình ảnh, title và một đoạn description ngắn; banner phải là điểm nhấn thị giác đầu trang, có cảm giác game rõ.
 - Dùng font sans-serif, không dùng font có chân/serif cho layout chính.
 - Theme phải hợp với website game/game news/review; nếu tham khảo báo/tạp chí thì phải chuyển hóa thành gaming portal hiện đại, không để cảm giác cổ, già hoặc lạc chủ đề game.
 - Không tạo cảm giác chỉ là skin bọc quanh source cũ.
@@ -297,18 +297,19 @@ $wp_query = new WP_Query(array(
 
 Luôn cho các nhóm nội dung hiển thị random như source gốc, nhưng layout phải ổn khi nội dung thay đổi sau mỗi lần load.
 
-Mỗi home luôn cần một banner/featured block có hình ảnh:
+Mỗi home luôn cần một banner chính lớn có hình ảnh:
 
 - Banner phải có ảnh thật/fallback hợp concept, title và một đoạn description ngắn.
-- Banner không bắt buộc phải là hero cực lớn; có thể là compact banner, featured strip, cover card, lead story, carousel/ticker có ảnh hoặc game highlight.
-- Banner không được chỉ là một card ảnh nhỏ cho có. Khách phải nhìn thấy rõ đây là vùng nhấn bằng hình ảnh, tạo cảm giác sống động/game/media ngay ở đầu trang.
-- Nếu concept là directory/search-first, banner vẫn có thể compact nhưng phải đủ hiện diện: ảnh đủ lớn, crop đẹp, title nổi bật, description 1-2 dòng và nằm trong first viewport hoặc ngay sau header.
+- Banner chính phải to, rõ, nằm ở first viewport hoặc ngay sau header; không dùng featured strip/card nhỏ thay cho banner chính.
+- Banner không được chỉ là một card ảnh nhỏ cho có. Khách phải nhìn thấy ngay đây là vùng nhấn bằng hình ảnh, tạo cảm giác sống động/game/media ở đầu trang.
+- Nếu concept là directory/search-first, search/directory có thể là phần phụ hoặc đặt dưới banner, nhưng vẫn phải có banner chính lớn trước hoặc rất gần đầu trang.
+- Banner phải gợi cảm giác game: ảnh/crop/action/background phải có năng lượng gaming, không giống card báo cũ, không nhạt như UI admin.
 - Không để banner bị chìm như một item phụ trong grid/list; nếu khách nói "không có banner", nghĩa là kích thước, vị trí hoặc độ nhấn hình ảnh chưa đạt.
 - Text trên banner phải đọc được. Nếu đặt text overlay lên ảnh, dùng overlay/gradient có kiểm soát và không để description dài đè lên ảnh.
 - Nếu title rất dài, title có thể clamp hợp lý và description chỉ 1-2 dòng.
 - Banner phải có link/hành động thật nếu nhìn như click được.
 
-Khu vực đầu trang không bắt buộc giữ giống source cũ. Có thể thay hình, text, cấu trúc hoặc bỏ hero lớn nếu concept cần, nhưng vẫn phải có một banner/featured block có hình ảnh ở first viewport hoặc ngay sau header. First viewport phải có vai trò rõ, ví dụ:
+Khu vực đầu trang không bắt buộc giữ giống source cũ. Có thể thay hình, text và cấu trúc, nhưng không được bỏ banner chính lớn. First viewport phải có vai trò rõ, ví dụ:
 
 - Bài viết nổi bật.
 - Review nổi bật.
@@ -426,7 +427,7 @@ Khi khách báo card/ảnh bị dư space:
 
 Trước khi code mỗi style phải chọn rõ hướng background/above-fold.
 
-Từ yêu cầu mới của khách, mọi hướng above-fold vẫn phải có một banner/featured block có ảnh, title và description ngắn. Khác biệt giữa các style nằm ở kích thước, vị trí và vai trò của banner, không phải có/không có banner.
+Từ yêu cầu mới của khách, mọi hướng above-fold đều phải có một banner chính lớn có ảnh, title và description ngắn. Khác biệt giữa các style nằm ở form, bố cục, crop ảnh, overlay, vị trí content, rail phụ và vai trò nội dung xung quanh banner; không được biến banner thành card nhỏ hoặc bỏ banner.
 
 Nếu header đã có top strip, masthead, border hoặc rule line rõ, above-fold không được thêm một utility rule phụ ngay sát dưới header nếu không có vai trò thật sự rõ. Tránh nhiều line ngang liên tiếp ở first viewport vì sẽ tạo cảm giác header bị lặp hoặc bố cục bị vụn. Các label/CTA kiểu `Front Page / Review Archive` chỉ dùng khi giúp hierarchy; nếu không thì bỏ, hoặc đưa CTA vào section liên quan như Reviews. Above-fold nên bắt đầu bằng nội dung chính, không mở đầu bằng một mini-header trùng vai trò với header.
 
@@ -451,10 +452,11 @@ Lưu ý:
 
 ### Hướng system-background giống `des-1`
 
-`des-1` dùng nền theo hệ thống giao diện hơn là ảnh lớn:
+`des-1` từng dùng nền theo hệ thống giao diện hơn là ảnh lớn, nhưng rule mới yêu cầu vẫn phải có banner chính lớn:
 
 - Nền chính là gradient/light surface, không phải poster hero lớn.
-- Above-fold tập trung vào search, directory, game rows, review picks và cấu trúc thông tin, nhưng vẫn cần có banner/featured block có ảnh theo rule mới.
+- Above-fold vẫn có thể giữ search, directory, game rows, review picks và cấu trúc thông tin, nhưng các phần này không được thay thế banner chính lớn.
+- Nếu là utility/directory-led, banner chính lớn nên đứng trước, cạnh hoặc ngay trên cụm utility; utility block có thể kéo xuống dưới để banner đủ nổi.
 - Ảnh chỉ là thumbnail trong card/list.
 - Header/footer đồng bộ theo màu và nhịp spacing của layout.
 
@@ -466,15 +468,15 @@ Lưu ý:
 - Có thể dùng CSS gradient/pattern nhẹ để tạo signature.
 - Chỉ dùng GPT image nếu background làm rõ concept như scoreboard texture, arcade wall, newsroom board.
 
-Không ép mọi layout thành hero ảnh lớn như source gốc. Cũng không ép mọi layout thành search directory như `des-1`.
+Không ép mọi layout thành cùng một hero như source gốc, nhưng mọi layout đều phải có banner chính lớn. Cũng không ép mọi layout thành search directory như `des-1`.
 
 Vai trò above-fold hợp lệ:
 
 1. **Image-led hero**: ảnh lớn làm trọng tâm, overlay title/CTA.
-2. **Utility/directory-led hero**: search, filter, top list, game/review directory làm trọng tâm, kèm banner/featured image compact.
+2. **Utility/directory-led hero**: banner chính lớn vẫn là điểm nhấn đầu trang; search, filter, top list, game/review directory hỗ trợ hoặc nằm ngay dưới/cạnh banner.
 3. **Editorial/news-led hero**: headline chính, lead story, rail tin phụ.
 4. **Review-led hero**: review nổi bật, verdict/score thật nếu có, critic picks.
-5. **Catalog/grid-led hero**: không có hero lớn; vào thẳng grid/list có tổ chức nhưng vẫn có featured tile/banner ảnh.
+5. **Catalog/grid-led hero**: banner chính lớn mở đầu, sau đó vào grid/list có tổ chức.
 6. **Ticker/live-desk hero**: latest updates, ticker, carousel hoặc live desk gọn.
 7. **Issue/cover-led hero**: cover story, issue index, editor picks.
 

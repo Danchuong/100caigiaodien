@@ -15,7 +15,7 @@ if ( ! $des5_footer_description ) {
 }
 
 if ( ! $des5_footer_description ) {
-    $des5_footer_description = 'Games, reviews, and blog dispatches filed from the editorial desk.';
+    $des5_footer_description = 'Playable games, review picks, and gaming stories filed for the next session.';
 }
 
 $des5_footer_reviews = new WP_Query(
@@ -67,14 +67,14 @@ $des5_footer_games = new WP_Query(
                         <?php endif; ?>
                     </div>
                     <div class="des5-foot-stamp">
-                        <span>Issue Desk</span>
+                        <span>Play Desk</span>
                         <time datetime="<?php echo esc_attr( date_i18n( 'Y-m-d' ) ); ?>"><?php echo esc_html( date_i18n( 'M j, Y' ) ); ?></time>
                     </div>
                 </div>
 
                 <div class="des5-foot-grid">
                     <nav class="des5-foot-section des5-foot-primary" aria-label="Footer primary navigation">
-                        <h2>Section Index</h2>
+                        <h2>Browse Hub</h2>
                         <a href="<?php echo esc_url( home_url( '/blogs/' ) ); ?>">Blogs</a>
                         <a href="<?php echo esc_url( home_url( '/reviews/' ) ); ?>">Reviews</a>
                         <a href="<?php echo esc_url( home_url( '/html5-games/' ) ); ?>">Games</a>
@@ -83,7 +83,7 @@ $des5_footer_games = new WP_Query(
 
                     <?php if ( $des5_footer_reviews->have_posts() ) : ?>
                         <section class="des5-foot-section" aria-label="Latest reviews">
-                            <h2>Review File</h2>
+                            <h2>Review Radar</h2>
                             <?php while ( $des5_footer_reviews->have_posts() ) : ?>
                                 <?php $des5_footer_reviews->the_post(); ?>
                                 <a href="<?php echo esc_url( get_permalink() ); ?>"><?php echo esc_html( get_the_title() ); ?></a>
@@ -94,7 +94,7 @@ $des5_footer_games = new WP_Query(
 
                     <?php if ( $des5_footer_blogs->have_posts() ) : ?>
                         <section class="des5-foot-section" aria-label="Latest blogs">
-                            <h2>Blog Ledger</h2>
+                            <h2>Game Briefing</h2>
                             <?php while ( $des5_footer_blogs->have_posts() ) : ?>
                                 <?php $des5_footer_blogs->the_post(); ?>
                                 <a href="<?php echo esc_url( get_permalink() ); ?>"><?php echo esc_html( get_the_title() ); ?></a>
@@ -105,7 +105,7 @@ $des5_footer_games = new WP_Query(
 
                     <?php if ( $des5_footer_games->have_posts() ) : ?>
                         <section class="des5-foot-section" aria-label="Latest games">
-                            <h2>Game Queue</h2>
+                            <h2>Play Queue</h2>
                             <?php while ( $des5_footer_games->have_posts() ) : ?>
                                 <?php $des5_footer_games->the_post(); ?>
                                 <a href="<?php echo esc_url( get_permalink() ); ?>"><?php echo esc_html( get_the_title() ); ?></a>

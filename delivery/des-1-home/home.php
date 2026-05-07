@@ -166,16 +166,40 @@ $blog_query = new WP_Query(
 );
 ?>
 <div class="home-directory">
-    <section class="home-feature-banner" aria-label="Featured article banner">
+    <section class="home-feature-banner" aria-label="Main featured game banner">
         <div class="container">
-            <a class="home-feature-banner-card" href="<?php echo esc_url( $featured_url ); ?>">
+            <div class="home-feature-banner-card">
                 <span class="home-feature-banner-image"<?php echo des1_background_style_attr( $featured_img ); ?>></span>
-                <span class="home-feature-banner-content">
-                    <span class="home-section-label"><?php echo esc_html( $featured_type_label ); ?></span>
-                    <strong><?php echo esc_html( $featured_title ); ?></strong>
-                    <span><?php echo esc_html( $featured_summary ); ?></span>
-                </span>
-            </a>
+                <span class="home-feature-banner-grid" aria-hidden="true"></span>
+                <div class="home-feature-banner-content">
+                    <span class="home-feature-kicker">
+                        <span>Featured Play</span>
+                        <span><?php echo esc_html( $featured_type_label ); ?></span>
+                    </span>
+                    <a class="home-feature-title-link" href="<?php echo esc_url( $featured_url ); ?>">
+                        <strong><?php echo esc_html( $featured_title ); ?></strong>
+                    </a>
+                    <span class="home-feature-banner-summary"><?php echo esc_html( $featured_summary ); ?></span>
+                    <div class="home-feature-actions">
+                        <a class="home-feature-primary" href="<?php echo esc_url( $featured_url ); ?>">Open feature</a>
+                        <a class="home-feature-secondary" href="<?php echo esc_url( $popular_games_url ); ?>">Games, reviews and guides</a>
+                    </div>
+                </div>
+                <div class="home-feature-banner-side" aria-label="Featured banner quick links">
+                    <a href="<?php echo esc_url( $popular_games_url ); ?>">
+                        <small>01</small>
+                        <strong>Game watch</strong>
+                    </a>
+                    <a href="<?php echo esc_url( $latest_review_url ); ?>">
+                        <small>02</small>
+                        <strong>Review picks</strong>
+                    </a>
+                    <a href="<?php echo esc_url( $latest_blog_url ); ?>">
+                        <small>03</small>
+                        <strong>Latest blogs</strong>
+                    </a>
+                </div>
+            </div>
         </div>
     </section>
 

@@ -20,7 +20,7 @@ $des5_search_key = isset( $_GET['key'] ) ? sanitize_text_field( wp_unslash( $_GE
         <header class="site-head des5-editorial-head">
             <div class="des5-head-strip" aria-label="Site desk note">
                 <div class="container">
-                    <span>Game / Review / Blog Desk</span>
+                    <span>Game Reviews / Playable Picks / Blog Briefing</span>
                     <span><?php echo esc_html( date_i18n( 'M j, Y' ) ); ?></span>
                 </div>
             </div>

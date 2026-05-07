@@ -75,10 +75,10 @@ Refero role: Primary - white blueprint/directory rhythm; optional secondary cue 
 Use for: compact search-first information architecture, controlled rows, precise spacing, utility footer.
 Avoid: turning the page into a dev/SaaS docs surface or removing the required image banner.
 New-standard audit: Rework active - banner phải image-led rõ hơn và tablet/iPad grid phải chuyển mượt theo feedback mới.
-Progress note: Đã mở retro brief tại `docs/design-research/des-briefs/des-1.md`; đang uplift banner và breakpoint nhưng vẫn giữ fingerprint Search First Directory.
+Progress note: Đã thêm banner bài viết lớn ở đầu trang theo feedback mới, chữ overlay trực tiếp lên ảnh với gradient đọc chữ; block `Game directory / Search / Review picks` đã chuyển xuống gần footer theo feedback mới; build local, homepage 200, delivery zip đã sync. Cần user review thủ công.
 
 - Header: H04 Search First Bar; white/light base; logo left, search prominent, menu/action compact.
-- Above-fold: utility/directory-led; search and browse flow are first signal, no poster hero.
+- Above-fold: large article/banner first; utility/search directory and review picks move near footer.
 - Flow/order: search/platform rows, game rows, review picks, blog notes.
 - Card/grid: compact directory rows, thumbnail/list mix, no large overlay text.
 - Footer: F05 Directory Footer; browse/archive continuation with real links.
@@ -166,12 +166,12 @@ Refero source: `docs/refero/styles/hle-5abe1239/DESIGN.md`
 Refero role: Primary - grayscale digital media desk to keep broadsheet structure but make it feel technical/game-facing.
 Use for: hard-edge sans editorial grid, compact newswire rows, dark/light desk contrast, dense footer index.
 Avoid: classic newspaper styling, serif typography, fake issue/newsletter metadata, too much empty space, or text-only modules without game signal.
-New-standard audit: Pending - high risk because broadsheet can feel old; recheck game vibe, banner with image/title/description, and compact spacing before any future rework.
-Progress note: Đã build, render local, tạo `delivery/des-5-home.zip`; cần user review thủ công trước khi gửi khách.
+New-standard audit: Passed - đã bỏ serif khỏi custom home/header/footer, tăng density, đổi first viewport thành game spotlight có ảnh lớn/title/description/star, thêm cảm giác gaming bằng navy cover, `Review Radar`, `Play Queue`, và sync lại delivery zip.
+Progress note: Đã tạo/cập nhật brief tại `docs/design-research/des-briefs/des-5.md`, build local, lint PHP OK, homepage 200, `/reviews/` 200, tạo lại `delivery/des-5-home.zip`; cần user review thủ công.
 
 - Header: H15/H01 hybrid; black desk strip + white editorial masthead, `main-menu` duy nhất.
-- Above-fold: broadsheet front page; lead blog, review wire, game rail.
-- Flow/order: cover/front grid, blog ledger, critic picks, game shelf.
+- Above-fold: visual game spotlight; review radar and play queue sit beside the cover.
+- Flow/order: game spotlight/front grid, game briefing ledger, review radar, playable grid.
 - Card/grid: hard-rule square media, newspaper rows, no shadows.
 - Footer: F10/F02 hybrid; dark magazine footer with real latest links.
 - Mobile signature: cover first, issue index below, cards become plain reading list.

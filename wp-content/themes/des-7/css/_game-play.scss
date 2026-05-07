@@ -10,7 +10,7 @@
 .game-main-content {
     width: 100%;
     flex-grow: 1;
-    min-width: 0;
+    min-width: 800px;
 
     iframe {
         aspect-ratio: 16/9;
@@ -43,7 +43,7 @@
 
 @media (max-width: 1120.9px) {
     .game-main-content {
-        min-width: 0;
+        min-width: unset;
     }
 }
 

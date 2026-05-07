@@ -1,505 +1,375 @@
-.des3-home-page {
-    background: #f5f7fb;
-    color: #07111f;
-    padding-bottom: 3rem;
-}
-
-.des3-home-page a {
-    color: inherit;
-    text-decoration: none;
-}
-
-.des3-home-page h1,
-.des3-home-page h2,
-.des3-home-page h3,
-.des3-home-page strong {
-    min-width: 0;
-    overflow-wrap: anywhere;
-}
-
-.des3-home-page .newspaper-lead {
-    background: #ffffff;
-    margin-bottom: 0;
-    padding: 3rem 0 2.35rem;
-}
-
-.des3-home-page .newspaper-lead-inner {
-    display: grid;
-    gap: 1.45rem;
-    position: relative;
-}
-
-.des3-home-page .newspaper-lead-copy {
-    margin: 0 auto;
-    max-width: 980px;
-    text-align: center;
-}
-
-.des3-home-page .newspaper-lead-meta {
-    align-items: center;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.65rem 0.9rem;
-    justify-content: center;
-}
-
-.des3-home-page .newspaper-lead-meta a,
-.des3-home-page .newspaper-lead-meta span {
-    align-items: center;
-    border-radius: 999px;
-    display: inline-flex;
-    font-size: 0.76rem;
-    font-weight: 800;
-    letter-spacing: 0.06em;
-    line-height: 1.2;
-    min-height: 2rem;
-    padding: 0.38rem 0.75rem;
-    text-transform: uppercase;
-}
-
-.des3-home-page .newspaper-lead-meta a {
-    background: #d43c2f;
-    color: #ffffff;
-}
-
-.des3-home-page .newspaper-lead-meta span {
-    background: #eef2f7;
-    color: #4f5b6b;
-}
-
-.des3-home-page .newspaper-lead h1 {
-    color: #07111f;
-    font-family: "Poppins", Arial, sans-serif;
-    font-size: clamp(1.85rem, 4vw, 3.45rem);
-    font-weight: 900;
-    letter-spacing: 0;
-    line-height: 1.06;
-    margin: 1rem auto 0;
-    max-width: 820px;
-}
-
-.des3-home-page .newspaper-lead h1 a:hover {
-    color: #d43c2f;
-}
-
-.des3-home-page .newspaper-lead p {
-    color: #4f5b6b;
-    font-size: 0.98rem;
-    line-height: 1.58;
-    margin: 0.85rem auto 0;
-    max-width: 620px;
-}
-
-.des3-home-page .newspaper-lead-image {
-    border-radius: 0.5rem;
-    display: block;
-    isolation: isolate;
-    margin: 0 auto;
-    max-width: 980px;
-    overflow: hidden;
-    position: relative;
-    width: 100%;
-}
-
-.des3-home-page .newspaper-lead-image::after {
-    background: linear-gradient(90deg, #d43c2f, rgba(212, 60, 47, 0));
-    bottom: 0;
-    content: "";
-    height: 0.32rem;
-    left: 0;
+.home header {
     position: absolute;
-    right: 0;
-    z-index: 2;
-}
-
-.des3-home-page .newspaper-lead-image img {
-    aspect-ratio: 16 / 7;
-    display: block;
-    object-fit: cover;
+    top: 0;
+    left: 0;
     width: 100%;
-}
-
-.des3-home-page .des3-latest-blogs,
-.des3-home-page .des3-review-picks,
-.des3-home-page .des3-game-queue {
+    z-index: 1;
+    border-bottom: 1px solid rgba($white, 0.2);
+    background-color: transparent;
     margin-bottom: 0;
-    padding: 2.55rem 0 0;
+
+    &:after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba($black, 0.05);
+        backdrop-filter: blur(10px);
+        z-index: -1;
+    }
+
+    #primary-menu {
+        a {
+            color: $body-emphasis-color;
+
+            &:hover {
+                color: $body-emphasis-color;
+                opacity: 0.6;
+            }
+        }
+    }
+
+    .head-logo a {
+        color: $body-emphasis-color;
+    }
+
+    .icon-search > div {
+        color: $white;
+    }
+
+    .icon-menu {
+        border-color: $white;
+
+        div {
+            background-color: $white;
+        }
+    }
+
+    .head-search-wrapper {
+        background-color: rgba($white, 0.1);
+        border: 1px solid rgba($white, 0.2);
+
+        input {
+            color: $white !important;
+            &::placeholder {
+                color: $white;
+                opacity: 0.5;
+            }
+        }
+    }
 }
 
-.des3-home-page .des3-section-head {
-    align-items: flex-end;
-    border-bottom: 1px solid rgba(7, 17, 31, 0.12);
+.featured {
+    background-size: cover;
+    background-position: center;
+    padding-top: 5rem;
+    margin-bottom: 2rem;
+}
+
+.featured-wrapper {
+    height: 24rem;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    > * {
+        max-width: 550px;
+    }
+
+    h1 {
+        text-transform: uppercase;
+        font-weight: 500;
+        font-size: 1.8rem;
+    }
+}
+
+.item-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
     gap: 1rem;
-    justify-content: space-between;
-    margin-bottom: 1rem;
-    padding-bottom: 0.9rem;
 }
 
-.des3-home-page .des3-section-head h2 {
-    color: #07111f;
-    font-family: "Poppins", Arial, sans-serif;
-    font-size: clamp(1.28rem, 2.2vw, 1.86rem);
-    font-weight: 800;
-    letter-spacing: 0;
-    line-height: 1.16;
-    margin: 0;
-    max-width: 720px;
+.post-item.lg {
+    grid-row: span 2;
 }
 
-.des3-home-page .des3-section-head > a {
-    align-items: center;
-    border: 1px solid rgba(7, 17, 31, 0.16);
-    border-radius: 999px;
-    color: #07111f;
-    display: inline-flex;
-    flex-shrink: 0;
-    font-size: 0.72rem;
-    font-weight: 800;
-    letter-spacing: 0.06em;
-    min-height: 2rem;
-    padding: 0.35rem 0.78rem;
-    text-transform: uppercase;
+.post-item.md {
+    aspect-ratio: 1/1;
 }
 
-.des3-home-page .des3-section-head > a:hover {
-    background: #07111f;
-    border-color: #07111f;
-    color: #ffffff;
+.post-item.xl {
+    aspect-ratio: 2/1;
 }
 
-.des3-home-page .des3-section-kicker {
-    color: #d43c2f;
-    display: block;
-    font-size: 0.76rem;
-    font-weight: 800;
-    letter-spacing: 0.08em;
-    margin-bottom: 0.42rem;
-    text-transform: uppercase;
-}
-
-.des3-home-page .des3-blog-layout {
-    align-items: stretch;
+.item-grid-xl {
     display: grid;
+    grid-template-columns: 1fr 1fr;
     gap: 1rem;
-    grid-template-columns: minmax(0, 1.08fr) minmax(19rem, 0.92fr);
+    margin-top: 1rem;
 }
 
-.des3-home-page .des3-blog-feature,
-.des3-home-page .des3-blog-row,
-.des3-home-page .des3-review-card,
-.des3-home-page .des3-game-card {
-    min-width: 0;
-}
-
-.des3-home-page .des3-blog-feature > a,
-.des3-home-page .des3-blog-row > a,
-.des3-home-page .des3-review-card > a,
-.des3-home-page .des3-game-card > a {
-    background: #ffffff;
-    border: 1px solid rgba(7, 17, 31, 0.1);
-    border-radius: 0.5rem;
-    box-shadow: 0 16px 40px rgba(7, 17, 31, 0.05);
-    min-height: 100%;
-    overflow: hidden;
-}
-
-.des3-home-page .des3-blog-feature > a {
+.item-grid-sm {
     display: grid;
-    grid-template-rows: auto 1fr;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    margin-top: 1rem;
 }
 
-.des3-home-page .des3-blog-feature-media,
-.des3-home-page .des3-blog-row-media,
-.des3-home-page .des3-review-media,
-.des3-home-page .des3-game-media {
-    background: #e8edf5;
-    overflow: hidden;
+.post-item.sm {
+    aspect-ratio: 1/1;
 }
 
-.des3-home-page .des3-blog-feature-media img {
-    aspect-ratio: 16 / 9;
-    display: block;
-    object-fit: cover;
-    width: 100%;
-}
-
-.des3-home-page .des3-blog-feature-copy {
-    padding: 1rem 1.05rem 1.1rem;
-}
-
-.des3-home-page .des3-blog-feature-copy span,
-.des3-home-page .des3-blog-row-copy span,
-.des3-home-page .des3-review-copy span {
-    color: #d43c2f;
-    display: block;
-    font-size: 0.7rem;
-    font-weight: 800;
-    letter-spacing: 0.07em;
-    margin-bottom: 0.35rem;
-    text-transform: uppercase;
-}
-
-.des3-home-page .des3-blog-feature-copy h3 {
-    color: #07111f;
-    display: -webkit-box;
-    font-family: "Poppins", Arial, sans-serif;
-    font-size: clamp(1.35rem, 2.35vw, 2.15rem);
-    font-weight: 800;
-    line-height: 1.12;
-    margin: 0;
-    overflow: hidden;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 3;
-}
-
-.des3-home-page .des3-blog-feature-copy p {
-    color: #586475;
-    font-size: 0.96rem;
-    line-height: 1.55;
-    margin: 0.75rem 0 0;
-}
-
-.des3-home-page .des3-blog-list {
-    display: grid;
-    gap: 0.72rem;
-    min-width: 0;
-}
-
-.des3-home-page .des3-blog-row > a {
-    align-items: center;
-    display: grid;
-    gap: 0.78rem;
-    grid-template-columns: minmax(6.2rem, 0.32fr) minmax(0, 1fr);
-    padding: 0.72rem;
-}
-
-.des3-home-page .des3-blog-row:not(.has-thumb) > a {
-    grid-template-columns: minmax(0, 1fr);
-}
-
-.des3-home-page .des3-blog-row-media {
-    border-radius: 0.4rem;
-}
-
-.des3-home-page .des3-blog-row-media img,
-.des3-home-page .des3-review-media img,
-.des3-home-page .des3-game-media img {
-    aspect-ratio: 1 / 1;
-    display: block;
-    object-fit: cover;
-    width: 100%;
-}
-
-.des3-home-page .des3-blog-row-copy,
-.des3-home-page .des3-review-copy {
-    min-width: 0;
-}
-
-.des3-home-page .des3-blog-row-copy strong,
-.des3-home-page .des3-review-copy strong,
-.des3-home-page .des3-game-card strong {
-    color: #07111f;
-    display: -webkit-box;
-    font-weight: 800;
-    line-height: 1.24;
-    overflow: hidden;
-    -webkit-box-orient: vertical;
-}
-
-.des3-home-page .des3-blog-row-copy strong {
-    font-size: 1rem;
-    -webkit-line-clamp: 3;
-}
-
-.des3-home-page .des3-blog-feature > a:hover h3,
-.des3-home-page .des3-blog-row > a:hover strong,
-.des3-home-page .des3-review-card > a:hover strong,
-.des3-home-page .des3-game-card > a:hover strong {
-    color: #d43c2f;
-}
-
-.des3-home-page .des3-review-list {
-    display: grid;
-    gap: 0.95rem;
-    grid-template-columns: repeat(6, minmax(0, 1fr));
-}
-
-.des3-home-page .des3-review-card > a {
-    align-content: start;
-    background: transparent;
-    border: 0;
-    box-shadow: none;
-    display: grid;
-    gap: 0.58rem;
-    grid-template-columns: minmax(0, 1fr);
-    min-height: auto;
-    overflow: visible;
-    padding: 0;
-    text-align: center;
-}
-
-.des3-home-page .des3-review-card.has-thumb > a {
-    grid-template-columns: minmax(0, 1fr);
-}
-
-.des3-home-page .des3-review-media {
-    aspect-ratio: 1 / 1;
-    background: #ffffff;
-    border: 1px solid rgba(7, 17, 31, 0.1);
-    border-radius: 0.65rem;
-    box-shadow: 0 14px 34px rgba(7, 17, 31, 0.08);
-    isolation: isolate;
+.post-item {
     position: relative;
+    background-size: cover;
+    background-position: center;
+    border-radius: $border-radius;
+    overflow: hidden;
+
+    &::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        // border: 1px solid rgba($body-bg, 0.5);
+        z-index: 2;
+        border-radius: $border-radius;
+    }
+
+    &:hover {
+        .item-content {
+            background-color: rgba($black, 0.7);
+        }
+    }
 }
 
-.des3-home-page .des3-review-media img {
-    height: 100%;
-    transition: transform 180ms ease;
+.item-cate,
+.item-content {
+    position: absolute;
+    z-index: 1;
 }
 
-.des3-home-page .des3-review-card > a:hover .des3-review-media img {
-    transform: scale(1.04);
+.item-cate {
+    top: 1rem;
+    left: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: $primary;
+    color: $white;
+    font-weight: $font-weight-medium;
+    border-radius: 2rem;
 }
 
-.des3-home-page .des3-review-media-fallback {
-    align-items: center;
-    display: flex;
-    justify-content: center;
+.item-content {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 1.5rem;
+    background-color: rgba($black, 0.6);
+    color: $white;
+    backdrop-filter: blur(15px);
+    transition: all 0.1s ease-in-out;
+
+    h3 {
+        font-size: 1.3rem;
+        font-weight: $font-weight-semibold;
+    }
+
+    .desc {
+        @include line-truncate(2, 1.4rem);
+    }
 }
 
-.des3-home-page .des3-review-media-fallback span {
-    align-items: center;
-    background: #d43c2f;
-    border-radius: 50%;
-    color: #ffffff;
+.rating-stars {
+    background-image: url(/images/all_stars.svg);
+    background-repeat: no-repeat;
+    width: 92px;
+    height: 15px;
     display: inline-flex;
-    font-family: "Poppins", Arial, sans-serif;
-    font-size: 1.15rem;
-    font-weight: 900;
-    height: 2.8rem;
-    justify-content: center;
-    width: 2.8rem;
 }
 
-.des3-home-page .des3-review-copy strong {
-    font-size: 0.88rem;
-    line-height: 1.2;
-    -webkit-line-clamp: 2;
+@for $i from 0 through 10 {
+    .rating-stars.r#{$i*5} {
+        background-position: 0 #{-$i * 21.5}px;
+    }
 }
 
-.des3-home-page .des3-game-grid {
+.review-grid {
     display: grid;
-    gap: 0.85rem;
-    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 1rem;
 }
 
-.des3-home-page .des3-game-card > a {
-    display: grid;
-    gap: 0.7rem;
-    padding: 0.7rem;
+.review-item {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border-radius: $border-radius-lg;
+    background-color: $white;
+    width: 100%;
 }
 
-.des3-home-page .des3-game-media {
-    border-radius: 0.45rem;
+.review-content {
+    margin-top: 1rem;
+
+    h3 {
+        font-size: 1.3rem;
+        font-weight: $font-weight-semibold;
+    }
+
+    .desc {
+        margin-top: 0.5rem;
+        @include line-truncate(2, 1.4rem);
+        color: $text-muted;
+    }
+}
+.review-item.lg {
+    grid-row: span 2;
+
+    .review-bg {
+        height: 100%;
+    }
 }
 
-.des3-home-page .des3-game-card strong {
-    font-size: 0.96rem;
-    -webkit-line-clamp: 2;
+.review-item.md {
+    .review-bg {
+        aspect-ratio: 4/3;
+    }
 }
 
-@media (max-width: 991.98px) {
-    .des3-home-page .des3-blog-layout {
+.review-bg {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: $border-radius;
+}
+
+.game-grid {
+    margin-top: -0.6rem;
+    margin-left: -0.6rem;
+    margin-right: -0.6rem;
+}
+
+.game-item {
+    padding: 0.6rem;
+    width: calc(100% / 5);
+    float: left;
+}
+
+.game-inner {
+}
+
+.game-bg {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: $border-radius;
+    aspect-ratio: 4/3;
+}
+
+.game-content {
+    margin-top: 0.5rem;
+
+    h3 {
+        font-size: 1.2rem;
+        @include text-truncate();
+    }
+}
+
+//1200px
+@include media-breakpoint-down(xl) {
+    .review-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .review-item {
+    }
+
+    .review-item.lg {
+        grid-column: span 2;
+
+        .review-bg {
+            aspect-ratio: 4/3;
+        }
+    }
+
+    .review-item.md {
+        grid-column: span 1;
+    }
+}
+
+@media (max-width: 959.9px) {
+    .item-grid-xl {
         grid-template-columns: 1fr;
     }
 
-    .des3-home-page .des3-review-list {
-        grid-template-columns: repeat(3, minmax(0, 1fr));
-    }
-
-    .des3-home-page .des3-game-grid {
-        grid-template-columns: repeat(3, minmax(0, 1fr));
+    .game-item {
+        width: calc(100% / 4);
     }
 }
 
-@media (max-width: 640px) {
-    .des3-home-page {
-        padding-bottom: 2.1rem;
+@media (max-width: 842px) {
+    .item-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 16px;
     }
 
-    .des3-home-page .newspaper-lead {
-        padding: 1.65rem 0 1.6rem;
+    .post-item.lg,
+    .post-item.xl {
+        grid-column: span 2;
+        aspect-ratio: 1/1;
     }
 
-    .des3-home-page .newspaper-lead-copy {
-        text-align: left;
+    .post-item.md {
     }
 
-    .des3-home-page .newspaper-lead-meta {
-        justify-content: flex-start;
+    .item-grid-sm {
+        grid-template-columns: repeat(2, 1fr);
     }
 
-    .des3-home-page .newspaper-lead h1 {
-        font-size: clamp(1.65rem, 9vw, 2.55rem);
-        max-width: 100%;
+    .game-item {
+        width: calc(100% / 3);
     }
 
-    .des3-home-page .newspaper-lead p {
-        font-size: 0.98rem;
-        max-width: 100%;
+    .home header #primary-menu ul {
+        background-color: rgba($black, 0.4);
+
+        a {
+            // color: $body-color;
+        }
+    }
+}
+// đây là màn hình đt khi quay ngang
+// nếu chia item ở dưới XS mà thấy to thì chia thêm ở đây.
+@media (max-width: 639.9px) {
+    .item-grid,
+    .item-grid-sm {
+        grid-template-columns: 1fr;
     }
 
-    .des3-home-page .newspaper-lead-image img {
-        aspect-ratio: 4 / 3;
+    .post-item.lg {
+        grid-column: auto;
     }
 
-    .des3-home-page .des3-latest-blogs,
-    .des3-home-page .des3-review-picks,
-    .des3-home-page .des3-game-queue {
-        padding-top: 1.55rem;
-    }
-
-    .des3-home-page .des3-section-head {
-        align-items: flex-start;
-        flex-direction: column;
-    }
-
-    .des3-home-page .des3-blog-row > a {
-        grid-template-columns: 5.2rem minmax(0, 1fr);
-    }
-
-    .des3-home-page .des3-review-list {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
-
-    .des3-home-page .des3-game-grid {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
+    .post-item.md {
+        aspect-ratio: 1/1;
     }
 }
 
-@media (max-width: 360px) {
-    .des3-home-page .newspaper-lead-meta a,
-    .des3-home-page .newspaper-lead-meta span,
-    .des3-home-page .des3-section-head > a {
-        font-size: 0.68rem;
+@media (max-width: 600.9px) {
+    .featured {
+        text-align: center;
     }
-
-    .des3-home-page .des3-blog-row > a {
-        gap: 0.62rem;
-        grid-template-columns: 4.65rem minmax(0, 1fr);
-        padding: 0.62rem;
-    }
-
-    .des3-home-page .des3-review-list {
-        gap: 0.7rem;
-    }
-
-    .des3-home-page .des3-game-grid {
-        gap: 0.62rem;
-    }
-
-    .des3-home-page .des3-game-card > a {
-        padding: 0.62rem;
+}
+// 539.9px ->
+@include media-breakpoint-down(sm) {
+    .game-item {
+        width: calc(100% / 2);
     }
 }

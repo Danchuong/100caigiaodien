@@ -409,19 +409,19 @@ footer {
     flex-direction: column;
     justify-content: center;
     width: 100%;
-    // align-items: center;
+    min-width: 1px;
 }
 
 .sidebar-item-title {
     font-weight: 500;
     @include text-truncate();
-    // width: calc(100% - 5.5rem);
+    width: 100%;
 }
 
 .sidebar-item-desc {
     font-size: 0.9rem;
     @include text-truncate();
-    width: calc(100% - 5.5rem);
+    width: 100%;
     color: $text-muted;
     margin: 0.3rem 0;
 }
@@ -588,11 +588,11 @@ footer {
     }
 
     .head-search {
-        position: absolute;
-        top: calc(100% + 0.65rem);
+        position: fixed;
+        top: 6rem;
+        left: 0;
         right: 0;
-        width: min(22rem, calc(100vw - 2rem));
-        padding: 0;
+        padding: 1rem;
 
         &.active .head-search-wrapper {
             pointer-events: auto;
@@ -602,9 +602,8 @@ footer {
 
     .head-search-wrapper {
         width: 100%;
-        min-width: 0;
         max-width: 18rem;
-        margin: 0;
+        margin: 0 auto;
         transition: all 0.1s ease-in-out;
         backdrop-filter: blur(10px);
         pointer-events: none;
@@ -627,6 +626,3 @@ footer {
 
 @media (max-width: 340px) {
 }
-
-@import "header";
-@import "footer";

@@ -10,6 +10,48 @@ $popular_games_link = function_exists( 'get_field' ) && get_field( 'popular_game
 $fallback_image     = get_stylesheet_directory_uri() . '/images/android.png';
 $mosaic_ids         = array();
 $game_ids           = array();
+
+if ( ! function_exists( 'des4_post_excerpt' ) ) {
+    function des4_post_excerpt( $post_id, $word_count = 16 ) {
+        $excerpt = get_the_excerpt( $post_id );
+
+        if ( ! $excerpt ) {
+            $excerpt = get_post_field( 'post_content', $post_id );
+        }
+
+        $excerpt = html_entity_decode( wp_strip_all_tags( strip_shortcodes( $excerpt ) ), ENT_QUOTES, get_bloginfo( 'charset' ) );
+        $excerpt = trim( preg_replace( '/[*_`#>]+/', '', $excerpt ) );
+
+        return wp_trim_words( $excerpt, $word_count, '...' );
+    }
+}
+
+if ( ! function_exists( 'des4_game_rating' ) ) {
+    function des4_game_rating( $post_id ) {
+        $ratings = array( 35, 40, 45, 50 );
+
+        return $ratings[ absint( $post_id ) % count( $ratings ) ];
+    }
+}
+
+if ( ! function_exists( 'des4_render_game_stars' ) ) {
+    function des4_render_game_stars( $post_id ) {
+        $rating       = des4_game_rating( $post_id );
+        $rating_label = number_format_i18n( $rating / 10, 1 );
+        $full_stars   = (int) floor( $rating / 10 );
+        $has_half     = 5 === $rating % 10;
+        ?>
+        <span class="game-tile-rating" aria-label="<?php echo esc_attr( sprintf( __( '%s out of 5 stars', 'h5game' ), $rating_label ) ); ?>">
+            <span class="game-tile-stars" aria-hidden="true">
+                <?php for ( $star = 1; $star <= 5; $star++ ) : ?>
+                    <span class="<?php echo esc_attr( $star <= $full_stars || ( $has_half && $star === $full_stars + 1 ) ? 'is-filled' : '' ); ?>">&#9733;</span>
+                <?php endfor; ?>
+            </span>
+            <span><?php echo esc_html( $rating_label ); ?></span>
+        </span>
+        <?php
+    }
+}
 ?>
 
 <div class="des4-home-page">
@@ -52,6 +94,9 @@ $game_ids           = array();
                         <span class="mosaic-content">
                             <span class="mosaic-meta"><?php echo esc_html( $tag_name ); ?></span>
                             <span class="mosaic-heading"><?php echo esc_html( get_the_title() ); ?></span>
+                            <?php if ( 1 === $mosaic_count ) : ?>
+                                <span class="mosaic-description"><?php echo esc_html( des4_post_excerpt( get_the_ID(), 20 ) ); ?></span>
+                            <?php endif; ?>
                         </span>
                     </a>
                 <?php endwhile; ?>
@@ -77,7 +122,7 @@ $game_ids           = array();
         $blog_query = new WP_Query(
             array(
                 'post_type'           => 'blog',
-                'posts_per_page'      => 3,
+                'posts_per_page'      => 6,
                 'post__not_in'        => $mosaic_ids,
                 'orderby'             => 'rand',
                 'order'               => 'DESC',
@@ -98,6 +143,7 @@ $game_ids           = array();
                         <span class="blog-wall-content">
                             <span class="blog-wall-date"><?php echo esc_html( get_the_date( 'M j' ) ); ?></span>
                             <span class="blog-wall-title"><?php echo esc_html( get_the_title() ); ?></span>
+                            <span class="blog-wall-description"><?php echo esc_html( des4_post_excerpt( get_the_ID(), 15 ) ); ?></span>
                         </span>
                     </a>
                 <?php endwhile; ?>
@@ -123,7 +169,7 @@ $game_ids           = array();
         $review_query = new WP_Query(
             array(
                 'post_type'           => 'review',
-                'posts_per_page'      => 5,
+                'posts_per_page'      => 8,
                 'orderby'             => 'rand',
                 'order'               => 'DESC',
                 'post_status'         => 'publish',
@@ -143,6 +189,7 @@ $game_ids           = array();
                         <span class="review-lane-content">
                             <span class="review-label">Review</span>
                             <span class="review-title"><?php echo esc_html( get_the_title() ); ?></span>
+                            <span class="review-description"><?php echo esc_html( des4_post_excerpt( get_the_ID(), 13 ) ); ?></span>
                         </span>
                     </a>
                 <?php endwhile; ?>
@@ -168,7 +215,7 @@ $game_ids           = array();
         $game_query = new WP_Query(
             array(
                 'post_type'           => 'post',
-                'posts_per_page'      => 5,
+                'posts_per_page'      => 8,
                 'post__not_in'        => $game_ids,
                 'orderby'             => 'rand',
                 'order'               => 'DESC',
@@ -186,7 +233,11 @@ $game_ids           = array();
                     ?>
                     <a class="game-tile" href="<?php echo esc_url( get_permalink() ); ?>">
                         <span class="game-tile-image" style="background-image: url(<?php echo esc_url( $image_url ); ?>)"></span>
-                        <span class="game-tile-title"><?php echo esc_html( get_the_title() ); ?></span>
+                        <span class="game-tile-body">
+                            <span class="game-tile-title"><?php echo esc_html( get_the_title() ); ?></span>
+                            <span class="game-tile-description"><?php echo esc_html( des4_post_excerpt( get_the_ID(), 11 ) ); ?></span>
+                            <?php des4_render_game_stars( get_the_ID() ); ?>
+                        </span>
                     </a>
                 <?php endwhile; ?>
             </div>

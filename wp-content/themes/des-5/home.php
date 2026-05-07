@@ -52,6 +52,41 @@ $des5_excerpt = function( $post_id, $words = 24 ) {
     return esc_html( wp_trim_words( $clean_text, $words ) );
 };
 
+$des5_game_rating = function( $post_id ) {
+    $rating = ( 38 + ( absint( $post_id ) % 13 ) ) / 10;
+
+    return min( 5, $rating );
+};
+
+$des5_render_game_stars = function( $post_id ) use ( $des5_game_rating ) {
+    $rating   = $des5_game_rating( $post_id );
+    $rounded  = round( $rating * 2 ) / 2;
+    $full     = (int) floor( $rounded );
+    $has_half = $rounded > $full;
+
+    ob_start();
+    ?>
+    <div class="des5-game-rating" aria-label="<?php echo esc_attr( sprintf( 'Rated %.1f out of 5', $rating ) ); ?>">
+        <span class="des5-star-list" aria-hidden="true">
+            <?php for ( $star = 1; $star <= 5; $star++ ) : ?>
+                <?php
+                $star_class = 'des5-star';
+
+                if ( $star <= $full ) {
+                    $star_class .= ' is-filled';
+                } elseif ( $has_half && $star === $full + 1 ) {
+                    $star_class .= ' is-half';
+                }
+                ?>
+                <span class="<?php echo esc_attr( $star_class ); ?>"></span>
+            <?php endfor; ?>
+        </span>
+        <span class="des5-rating-value"><?php echo esc_html( number_format_i18n( $rating, 1 ) ); ?></span>
+    </div>
+    <?php
+    return ob_get_clean();
+};
+
 $blog_link   = $des5_link( 'latest_blog', '/blogs/' );
 $review_link = $des5_link( 'latest_review', '/reviews/' );
 $game_link   = $des5_link( 'popular_games', '/html5-games/' );
@@ -60,7 +95,7 @@ $game_ids    = array();
 $blog_query = new WP_Query(
     array(
         'post_type'      => 'blog',
-        'posts_per_page' => 3,
+        'posts_per_page' => 5,
         'orderby'        => 'rand',
         'order'          => 'DESC',
         'post_status'    => 'publish',
@@ -70,7 +105,7 @@ $blog_query = new WP_Query(
 $review_query = new WP_Query(
     array(
         'post_type'      => 'review',
-        'posts_per_page' => 5,
+        'posts_per_page' => 8,
         'orderby'        => 'rand',
         'order'          => 'DESC',
         'post_status'    => 'publish',
@@ -80,7 +115,7 @@ $review_query = new WP_Query(
 $game_query = new WP_Query(
     array(
         'post_type'      => 'post',
-        'posts_per_page' => 5,
+        'posts_per_page' => 8,
         'post__not_in'   => $game_ids,
         'orderby'        => 'rand',
         'order'          => 'DESC',
@@ -92,23 +127,30 @@ $blog_posts   = $blog_query->posts;
 $review_posts = $review_query->posts;
 $game_posts   = $game_query->posts;
 $lead_blog    = ! empty( $blog_posts ) ? $blog_posts[0] : null;
+$lead_game    = ! empty( $game_posts ) ? $game_posts[0] : null;
+$lead_feature = $lead_game ? $lead_game : $lead_blog;
 ?>
 
 <div class="des5-home-page">
     <section class="des5-front-page" aria-label="Front page">
         <div class="container">
             <div class="des5-front-grid">
-                <?php if ( $lead_blog ) : ?>
-                    <article class="des5-lead-story">
-                        <a class="des5-lead-media" href="<?php echo esc_url( get_permalink( $lead_blog ) ); ?>">
-                            <img src="<?php echo $des5_image( $lead_blog->ID, 'large' ); ?>" alt="<?php echo esc_attr( get_the_title( $lead_blog ) ); ?>" loading="eager">
+                <?php if ( $lead_feature ) : ?>
+                    <article class="des5-lead-story<?php echo $lead_game ? ' is-game-cover' : ''; ?>">
+                        <a class="des5-lead-media" href="<?php echo esc_url( get_permalink( $lead_feature ) ); ?>">
+                            <img src="<?php echo $des5_image( $lead_feature->ID, 'large' ); ?>" alt="<?php echo esc_attr( get_the_title( $lead_feature ) ); ?>" loading="eager">
                         </a>
-                        <div class="des5-kicker"><?php echo $des5_label( $lead_blog->ID, 'Blog' ); ?></div>
+                        <div class="des5-kicker"><?php echo $lead_game ? 'Game Spotlight' : $des5_label( $lead_feature->ID, 'Blog' ); ?></div>
                         <h1>
-                            <a href="<?php echo esc_url( get_permalink( $lead_blog ) ); ?>"><?php echo esc_html( get_the_title( $lead_blog ) ); ?></a>
+                            <a href="<?php echo esc_url( get_permalink( $lead_feature ) ); ?>"><?php echo esc_html( get_the_title( $lead_feature ) ); ?></a>
                         </h1>
-                        <p><?php echo $des5_excerpt( $lead_blog->ID, 16 ); ?></p>
-                        <div class="des5-meta"><?php echo esc_html( get_the_date( 'M j, Y', $lead_blog ) ); ?></div>
+                        <p><?php echo $des5_excerpt( $lead_feature->ID, 20 ); ?></p>
+                        <div class="des5-lead-meta-row">
+                            <?php if ( $lead_game ) : ?>
+                                <?php echo $des5_render_game_stars( $lead_feature->ID ); ?>
+                            <?php endif; ?>
+                            <div class="des5-meta"><?php echo esc_html( get_the_date( 'M j, Y', $lead_feature ) ); ?></div>
+                        </div>
                     </article>
                 <?php endif; ?>
 
@@ -116,7 +158,7 @@ $lead_blog    = ! empty( $blog_posts ) ? $blog_posts[0] : null;
                     <aside class="des5-front-stack" aria-label="Front page queue">
                         <?php if ( ! empty( $review_posts ) ) : ?>
                             <section class="des5-front-stack-block des5-wire-list" aria-label="Review wire">
-                                <div class="des5-ribbon">Review Wire</div>
+                                <div class="des5-ribbon">Review Radar</div>
                                 <?php foreach ( array_slice( $review_posts, 0, 3 ) as $index => $review_post ) : ?>
                                     <a class="des5-wire-item" href="<?php echo esc_url( get_permalink( $review_post ) ); ?>">
                                         <span><?php echo esc_html( str_pad( (string) ( $index + 1 ), 2, '0', STR_PAD_LEFT ) ); ?></span>
@@ -128,11 +170,14 @@ $lead_blog    = ! empty( $blog_posts ) ? $blog_posts[0] : null;
 
                         <?php if ( ! empty( $game_posts ) ) : ?>
                             <section class="des5-front-stack-block des5-game-rail" aria-label="Game rail">
-                                <div class="des5-ribbon">Game Queue</div>
-                                <?php foreach ( array_slice( $game_posts, 0, 2 ) as $game_post ) : ?>
+                                <div class="des5-ribbon">Play Queue</div>
+                                <?php foreach ( array_slice( $lead_game ? array_slice( $game_posts, 1 ) : $game_posts, 0, 3 ) as $game_post ) : ?>
                                     <a class="des5-game-rail-item" href="<?php echo esc_url( get_permalink( $game_post ) ); ?>">
                                         <img src="<?php echo $des5_image( $game_post->ID, 'medium' ); ?>" alt="<?php echo esc_attr( get_the_title( $game_post ) ); ?>" loading="lazy">
-                                        <h2><?php echo esc_html( get_the_title( $game_post ) ); ?></h2>
+                                        <div class="des5-game-rail-copy">
+                                            <h2><?php echo esc_html( get_the_title( $game_post ) ); ?></h2>
+                                            <?php echo $des5_render_game_stars( $game_post->ID ); ?>
+                                        </div>
                                     </a>
                                 <?php endforeach; ?>
                             </section>
@@ -148,12 +193,12 @@ $lead_blog    = ! empty( $blog_posts ) ? $blog_posts[0] : null;
             <div class="container">
                 <div class="des5-section-head">
                     <p>Blogs</p>
-                    <h2 id="des5-blogs-title">Notebook</h2>
+                    <h2 id="des5-blogs-title">Game Briefing</h2>
                     <a href="<?php echo $blog_link; ?>">All blogs</a>
                 </div>
 
                 <div class="des5-ledger-list">
-                    <?php foreach ( $blog_posts as $index => $blog_post ) : ?>
+                    <?php foreach ( array_slice( $blog_posts, 1 ) as $index => $blog_post ) : ?>
                         <article class="des5-ledger-item">
                             <span><?php echo esc_html( str_pad( (string) ( $index + 1 ), 2, '0', STR_PAD_LEFT ) ); ?></span>
                             <div class="des5-ledger-copy">
@@ -176,23 +221,21 @@ $lead_blog    = ! empty( $blog_posts ) ? $blog_posts[0] : null;
             <div class="container">
                 <div class="des5-section-head">
                     <p>Reviews</p>
-                    <h2 id="des5-reviews-title">Critic Picks</h2>
+                    <h2 id="des5-reviews-title">Review Radar</h2>
                     <a href="<?php echo $review_link; ?>">All reviews</a>
                 </div>
 
                 <div class="des5-review-grid">
-                    <?php foreach ( $review_posts as $index => $review_post ) : ?>
-                        <article class="des5-review-tile<?php echo 0 === $index ? ' is-featured' : ''; ?>">
+                    <?php foreach ( $review_posts as $review_post ) : ?>
+                        <article class="des5-review-tile">
                             <a class="des5-review-media" href="<?php echo esc_url( get_permalink( $review_post ) ); ?>">
-                                <img src="<?php echo $des5_image( $review_post->ID, 0 === $index ? 'large' : 'medium' ); ?>" alt="<?php echo esc_attr( get_the_title( $review_post ) ); ?>" loading="lazy">
+                                <img src="<?php echo $des5_image( $review_post->ID, 'medium' ); ?>" alt="<?php echo esc_attr( get_the_title( $review_post ) ); ?>" loading="lazy">
                             </a>
                             <div class="des5-kicker">Review</div>
                             <h3>
                                 <a href="<?php echo esc_url( get_permalink( $review_post ) ); ?>"><?php echo esc_html( get_the_title( $review_post ) ); ?></a>
                             </h3>
-                            <?php if ( 0 === $index ) : ?>
-                                <p><?php echo $des5_excerpt( $review_post->ID, 18 ); ?></p>
-                            <?php endif; ?>
+                            <p><?php echo $des5_excerpt( $review_post->ID, 12 ); ?></p>
                         </article>
                     <?php endforeach; ?>
                 </div>
@@ -205,7 +248,7 @@ $lead_blog    = ! empty( $blog_posts ) ? $blog_posts[0] : null;
             <div class="container">
                 <div class="des5-section-head">
                     <p>Games</p>
-                    <h2 id="des5-games-title">Game Shelf</h2>
+                    <h2 id="des5-games-title">Playable Grid</h2>
                     <a href="<?php echo $game_link; ?>">All games</a>
                 </div>
 
@@ -220,6 +263,7 @@ $lead_blog    = ! empty( $blog_posts ) ? $blog_posts[0] : null;
                                 <h3>
                                     <a href="<?php echo esc_url( get_permalink( $game_post ) ); ?>"><?php echo esc_html( get_the_title( $game_post ) ); ?></a>
                                 </h3>
+                                <?php echo $des5_render_game_stars( $game_post->ID ); ?>
                             </div>
                         </article>
                     <?php endforeach; ?>
