@@ -113,16 +113,16 @@ if ( ! function_exists( 'des2_render_game_stars' ) ) {
 }
 
 $blog_posts         = des2_get_posts( 'blog', 20 );
-$all_review_posts   = des2_get_posts( 'review', 12 );
-$all_game_posts     = des2_get_posts( 'post', 12 );
+$all_review_posts   = des2_get_posts( 'review', 16 );
+$all_game_posts     = des2_get_posts( 'post', 16 );
 $review_posts       = array_slice( $all_review_posts, 0, 8 );
 $game_posts         = array_slice( $all_game_posts, 0, 8 );
 $lead_post          = ! empty( $blog_posts ) ? $blog_posts[0] : null;
 $trending_news      = array_slice( $blog_posts, 1, 5 );
 $desk_news          = array_slice( $blog_posts, 6, 6 );
 $pulse_news         = array_slice( $blog_posts, 12, 4 );
-$pulse_review_posts = array_slice( $all_review_posts, 8, 4 );
-$pulse_game_posts   = array_slice( $all_game_posts, 8, 4 );
+$pulse_review_posts = array_slice( $all_review_posts, 8, 5 );
+$pulse_game_posts   = array_slice( $all_game_posts, 8, 5 );
 
 if ( empty( $desk_news ) ) {
 	$desk_news = array_slice( $blog_posts, 1, 6 );
@@ -277,7 +277,6 @@ if ( empty( $pulse_game_posts ) ) {
 									<?php echo des2_post_image( $pulse_post->ID, 'pulse-media' ); ?>
 								</div>
 								<div class="pulse-content">
-									<span><?php echo esc_html( des2_post_label( $pulse_post->ID, 'Review' ) ); ?></span>
 									<h3><?php echo esc_html( get_the_title( $pulse_post ) ); ?></h3>
 									<?php echo des2_post_description( $pulse_post->ID, 'pulse-description', 10 ); ?>
 								</div>
@@ -298,7 +297,6 @@ if ( empty( $pulse_game_posts ) ) {
 									<?php echo des2_post_image( $pulse_post->ID, 'pulse-media' ); ?>
 								</div>
 								<div class="pulse-content">
-									<span><?php echo esc_html( des2_post_label( $pulse_post->ID, 'Game' ) ); ?></span>
 									<h3><?php echo esc_html( get_the_title( $pulse_post ) ); ?></h3>
 									<?php echo des2_post_description( $pulse_post->ID, 'pulse-description', 10 ); ?>
 									<?php echo des2_render_game_stars( $pulse_post->ID ); ?>

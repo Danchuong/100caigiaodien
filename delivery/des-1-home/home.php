@@ -169,7 +169,7 @@ $blog_query = new WP_Query(
     <section class="home-feature-banner" aria-label="Main featured game banner">
         <div class="container">
             <div class="home-feature-banner-card">
-                <span class="home-feature-banner-image"<?php echo des1_background_style_attr( $featured_img ); ?>></span>
+                <a class="home-feature-banner-image" href="<?php echo esc_url( $featured_url ); ?>" aria-label="<?php echo esc_attr( $featured_title ); ?>"<?php echo des1_background_style_attr( $featured_img ); ?>></a>
                 <span class="home-feature-banner-grid" aria-hidden="true"></span>
                 <div class="home-feature-banner-content">
                     <span class="home-feature-kicker">
@@ -204,6 +204,38 @@ $blog_query = new WP_Query(
     </section>
 
     <div class="container">
+        <?php if ( $blog_query->have_posts() ) : ?>
+            <section class="home-section news-guide-section">
+                <div class="home-section-head">
+                    <div>
+                        <span class="home-section-label">Blogs</span>
+                        <h2 class="home-section-title">Latest notes</h2>
+                    </div>
+                    <a class="home-view-more" href="<?php echo esc_url( $latest_blog_url ); ?>">View all</a>
+                </div>
+                <div class="news-guide-list">
+                    <?php
+                    while ( $blog_query->have_posts() ) :
+                        $blog_query->the_post();
+                        $item_img  = des1_get_post_image_url( get_the_ID() );
+                        $item_img  = $item_img ? $item_img : $fallback_img;
+                        $tags_post = get_the_tags( get_the_ID() );
+                        $tag_name  = ! empty( $tags_post ) ? $tags_post[0]->name : 'Blog';
+                        ?>
+                        <a class="news-guide-item" href="<?php echo esc_url( get_permalink() ); ?>">
+                            <span class="news-guide-image"<?php echo des1_background_style_attr( $item_img ); ?>></span>
+                            <span class="news-guide-content">
+                                <span><?php echo esc_html( $tag_name ); ?></span>
+                                <strong><?php echo esc_html( get_the_title() ); ?></strong>
+                                <span class="news-guide-description"><?php echo esc_html( des1_post_excerpt( get_the_ID(), 16 ) ); ?></span>
+                            </span>
+                        </a>
+                    <?php endwhile; ?>
+                </div>
+                <?php wp_reset_postdata(); ?>
+            </section>
+        <?php endif; ?>
+
         <section class="home-section platform-section">
             <div class="home-section-head">
                 <div>
@@ -301,37 +333,6 @@ $blog_query = new WP_Query(
             </section>
         <?php endif; ?>
 
-        <?php if ( $blog_query->have_posts() ) : ?>
-            <section class="home-section news-guide-section">
-                <div class="home-section-head">
-                    <div>
-                        <span class="home-section-label">Blogs</span>
-                        <h2 class="home-section-title">Latest notes</h2>
-                    </div>
-                    <a class="home-view-more" href="<?php echo esc_url( $latest_blog_url ); ?>">View all</a>
-                </div>
-                <div class="news-guide-list">
-                    <?php
-                    while ( $blog_query->have_posts() ) :
-                        $blog_query->the_post();
-                        $item_img  = des1_get_post_image_url( get_the_ID() );
-                        $item_img  = $item_img ? $item_img : $fallback_img;
-                        $tags_post = get_the_tags( get_the_ID() );
-                        $tag_name  = ! empty( $tags_post ) ? $tags_post[0]->name : 'Blog';
-                        ?>
-                        <a class="news-guide-item" href="<?php echo esc_url( get_permalink() ); ?>">
-                            <span class="news-guide-image"<?php echo des1_background_style_attr( $item_img ); ?>></span>
-                            <span class="news-guide-content">
-                                <span><?php echo esc_html( $tag_name ); ?></span>
-                                <strong><?php echo esc_html( get_the_title() ); ?></strong>
-                                <span class="news-guide-description"><?php echo esc_html( des1_post_excerpt( get_the_ID(), 16 ) ); ?></span>
-                            </span>
-                        </a>
-                    <?php endwhile; ?>
-                </div>
-                <?php wp_reset_postdata(); ?>
-            </section>
-        <?php endif; ?>
     </div>
 
     <section class="directory-hero">

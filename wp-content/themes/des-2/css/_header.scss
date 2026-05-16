@@ -1,36 +1,300 @@
-$color_1: #635bff;
-$color_2: #FFF;
-
 ul.menu {
-	li.menu-item.current-menu-item {
-		>a {
-			color: $color_1 !important;
-		}
-	}
+    li.menu-item.current-menu-item {
+        > a {
+            color: #ef4444 !important;
+        }
+    }
 }
-@media (max-width: 842px) {
-	#primary-menu {
-		.head-menu {
-			#main-menu {
-				transition: all 0.3s ease;
-				li {
-					a {
-						font-size: 16px;
-						color: $color_2;
-					}
-				}
-			}
-		}
-		.head-menu.active {
-			#main-menu {
-				opacity: 1;
-				z-index: 1001;
-				pointer-events: inherit;
-			}
-		}
-	}
-	body {
-		opacity: 1;
-		z-index: 99;
-	}
+
+.site-masthead {
+    position: relative;
+    z-index: 50;
+    margin-bottom: 18px;
+    border-bottom: 1px solid #dbe4ef;
+    background: rgba(255, 255, 255, 0.98);
+    box-shadow: 0 10px 26px rgba(15, 23, 42, 0.06);
+}
+
+.site-masthead .head-wrapper {
+    position: relative;
+    height: 72px;
+    gap: 20px;
+}
+
+.site-masthead .head-left,
+.site-masthead .head-center,
+.site-masthead .head-right {
+    min-width: 0;
+}
+
+.site-masthead .head-logo a {
+    display: block;
+    max-width: 230px;
+    overflow: hidden;
+    color: #09111f;
+    font-size: 1.52rem;
+    font-weight: 900;
+    line-height: 1;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.site-masthead #primary-menu ul {
+    align-items: center;
+    gap: 1.28rem;
+}
+
+.site-masthead #primary-menu a {
+    color: #334155;
+    font-size: 0.92rem;
+    font-weight: 850;
+    white-space: nowrap;
+}
+
+.site-masthead #primary-menu a:hover {
+    color: #ef4444;
+}
+
+.site-masthead .head-search-wrapper {
+    min-width: 250px;
+    border-color: #d8e1ec;
+    background: #f7fafc;
+}
+
+.site-masthead .head-search-wrapper form {
+    display: flex;
+    min-width: 0;
+    align-items: center;
+}
+
+.site-masthead .head-search-input {
+    min-width: 0;
+    flex: 1 1 auto;
+    height: 42px;
+    padding: 0 12px 0 16px;
+    border: 0;
+    background: transparent;
+    box-shadow: none;
+}
+
+.site-masthead .head-search-submit {
+    flex: 0 0 auto;
+    display: inline-flex;
+    width: 36px;
+    height: 36px;
+    align-items: center;
+    justify-content: center;
+    margin-right: 3px;
+    border: 0;
+    border-radius: 999px;
+    background: #09111f;
+    color: #fff;
+}
+
+.site-masthead .head-search-submit:hover {
+    background: #ef4444;
+}
+
+.site-masthead .head-actions {
+    display: none;
+    align-items: center;
+    gap: 6px;
+}
+
+.site-masthead .head-search-btn,
+.site-masthead .head-btn {
+    min-width: 44px;
+    min-height: 44px;
+    align-items: center;
+    justify-content: center;
+}
+
+.site-masthead .icon-search {
+    position: relative;
+    top: auto;
+    right: auto;
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    transform: none;
+}
+
+.site-masthead .icon-search > span {
+    position: absolute;
+    inset: 1px 3px 5px 1px;
+    border: 2px solid currentColor;
+    border-radius: 999px;
+}
+
+.site-masthead .icon-search > span::after {
+    content: "";
+    position: absolute;
+    right: -5px;
+    bottom: -5px;
+    width: 8px;
+    height: 2px;
+    border-radius: 999px;
+    background: currentColor;
+    transform: rotate(45deg);
+    transform-origin: center;
+}
+
+.site-masthead .icon-menu {
+    position: relative;
+    display: inline-block;
+    width: 22px;
+    height: 16px;
+    border: 0;
+}
+
+.site-masthead .icon-menu::before,
+.site-masthead .icon-menu::after,
+.site-masthead .icon-menu > span {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    border-radius: 999px;
+    background: currentColor;
+}
+
+.site-masthead .icon-menu::before {
+    top: 0;
+}
+
+.site-masthead .icon-menu > span {
+    top: 7px;
+}
+
+.site-masthead .icon-menu::after {
+    bottom: 0;
+}
+
+@media (max-width: 1050px) {
+    .site-masthead .head-wrapper {
+        gap: 14px;
+    }
+
+    .site-masthead #primary-menu ul {
+        gap: 0.85rem;
+    }
+
+    .site-masthead .head-search-wrapper {
+        min-width: 210px;
+    }
+}
+
+@media (max-width: 860px) {
+    .site-masthead .head-wrapper {
+        height: 66px;
+    }
+
+    .site-masthead .head-logo a {
+        max-width: 190px;
+        font-size: 1.28rem;
+    }
+
+    .site-masthead .head-actions {
+        display: flex;
+    }
+
+    .site-masthead .head-btn {
+        display: inline-flex;
+    }
+
+    .site-masthead #primary-menu .head-menu #main-menu {
+        position: absolute;
+        top: calc(100% + 10px);
+        right: 0;
+        left: auto;
+        z-index: 1001;
+        display: grid;
+        width: min(260px, calc(100vw - 32px));
+        min-width: 0;
+        gap: 4px;
+        margin: 0;
+        padding: 10px;
+        border: 1px solid rgba(15, 23, 42, 0.12);
+        border-radius: 14px;
+        background: #09111f;
+        box-shadow: 0 18px 45px rgba(15, 23, 42, 0.24);
+        opacity: 0;
+        pointer-events: none;
+    }
+
+    .site-masthead #primary-menu .head-menu.active #main-menu {
+        opacity: 1;
+        pointer-events: auto;
+    }
+
+    .site-masthead #primary-menu .head-menu #main-menu a {
+        display: block;
+        border-radius: 10px;
+        padding: 10px 12px;
+        color: #fff;
+        font-size: 0.95rem;
+    }
+
+    .site-masthead #primary-menu .head-menu #main-menu a:hover {
+        background: rgba(255, 255, 255, 0.1);
+        color: #fecaca;
+    }
+}
+
+@media (max-width: 720px) {
+    .site-masthead .head-search {
+        position: absolute;
+        top: calc(100% + 10px);
+        right: 0;
+        left: auto;
+        z-index: 1002;
+        width: min(330px, calc(100vw - 32px));
+        padding: 0;
+    }
+
+    .site-masthead .head-search-wrapper {
+        width: 100%;
+        min-width: 0;
+        max-width: none;
+        margin: 0;
+        border: 1px solid rgba(15, 23, 42, 0.12);
+        border-radius: 16px;
+        background: #fff;
+        box-shadow: 0 18px 45px rgba(15, 23, 42, 0.2);
+        opacity: 0;
+        pointer-events: none;
+    }
+
+    .site-masthead .head-search.active .head-search-wrapper {
+        opacity: 1;
+        pointer-events: auto;
+    }
+
+    .site-masthead .head-search-wrapper form {
+        padding: 8px;
+    }
+}
+
+@media (max-width: 420px) {
+    .site-masthead .head-wrapper {
+        gap: 8px;
+    }
+
+    .site-masthead .head-left,
+    .site-masthead .head-right {
+        gap: 6px;
+    }
+
+    .site-masthead .head-logo a {
+        max-width: 150px;
+        font-size: 1.1rem;
+    }
+
+    .site-masthead .head-search-btn,
+    .site-masthead .head-btn {
+        min-width: 40px;
+        min-height: 40px;
+        padding: 6px;
+    }
 }
